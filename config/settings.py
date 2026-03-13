@@ -45,7 +45,11 @@ logger.add(
 )
 
 # ── Phase-1 scope (used by scrapers to filter) ─────────────────────────────────
-ACTIVE_BRAND_SLUGS    = ["samsung"]
+ACTIVE_BRAND_SLUGS    = [
+    "samsung", "lg", "bosch", "whirlpool", "aeg",
+    "electrolux", "siemens", "miele", "ge", "beko",
+    "kitchenaid", "hotpoint",
+]
 ACTIVE_CATEGORY_SLUGS = [
     "washing-machines",
     "dryers",

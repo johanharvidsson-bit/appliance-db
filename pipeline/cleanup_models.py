@@ -265,13 +265,24 @@ def execute(result: dict, brand_id: int, category_id: int) -> None:
         for pc in result["product_codes_to_add"]
     ]
     if pc_rows:
-        # Batch upsert product_codes
-        batch = 200
-        for i in range(0, len(pc_rows), batch):
-            supabase.table("product_codes").upsert(
-                pc_rows[i:i+batch], on_conflict="model_id,code"
-            ).execute()
-        console.print(f"  [cyan]Inserted {len(pc_rows)} product_codes[/cyan]")
+        # Check which canonical model IDs already have product_codes (re-run guard)
+        canonical_ids = list({r["model_id"] for r in pc_rows})
+        existing = (
+            supabase.table("product_codes")
+            .select("model_id,code")
+            .in_("model_id", canonical_ids[:500])
+            .execute()
+        ).data or []
+        existing_keys = {(r["model_id"], r["code"]) for r in existing}
+        new_rows = [r for r in pc_rows if (r["model_id"], r["code"]) not in existing_keys]
+
+        if new_rows:
+            batch = 200
+            for i in range(0, len(new_rows), batch):
+                supabase.table("product_codes").insert(new_rows[i:i+batch]).execute()
+            console.print(f"  [cyan]Inserted {len(new_rows)} product_codes[/cyan]")
+        else:
+            console.print(f"  [dim]product_codes already exist, skipping[/dim]")
 
     dup_ids = [r["id"] for r in result["to_delete"]]
     if dup_ids:

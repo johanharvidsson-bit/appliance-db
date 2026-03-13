@@ -21,7 +21,7 @@ from rich import box
 
 from config.settings import supabase, ACTIVE_BRAND_SLUGS, ACTIVE_CATEGORY_SLUGS
 from scrapers.manualslib import scrape_brand_category
-from scrapers.pdf_extractor import process_all_pending_models
+from scrapers.image_extractor import process_all_pending_models
 from pipeline.article_generator import process_all as generate_articles
 
 console = Console()

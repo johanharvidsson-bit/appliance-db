@@ -22,6 +22,7 @@ from rich import box
 from config.settings import supabase, ACTIVE_BRAND_SLUGS, ACTIVE_CATEGORY_SLUGS
 from scrapers.manualslib import scrape_brand_category
 from scrapers.pdf_extractor import process_all_pending_models
+from pipeline.article_generator import process_all as generate_articles
 
 console = Console()
 
@@ -73,13 +74,19 @@ def print_status(brand_slug: str, category_slug: str) -> None:
 def step_models(brand_slug: str, category_slug: str) -> None:
     console.rule(f"[bold blue]Step 1: Scrape models from ManualsLib")
     count = scrape_brand_category(brand_slug, category_slug)
-    console.print(f"[green]✓ {count} models upserted[/green]\n")
+    console.print(f"[green]OK {count} models upserted[/green]\n")
 
 
 def step_error_codes(brand_slug: str, category_slug: str) -> None:
     console.rule(f"[bold blue]Step 2: Extract error codes from PDFs")
     process_all_pending_models(brand_slug, category_slug)
-    console.print(f"[green]✓ Error code extraction complete[/green]\n")
+    console.print(f"[green]OK Error code extraction complete[/green]\n")
+
+
+def step_articles(brand_slug: str, category_slug: str) -> None:
+    console.rule("[bold blue]Step 3: Generate articles via Claude API")
+    generate_articles(brand_slug, category_slug)
+    console.print("[green]OK Article generation complete[/green]\n")
 
 
 def step_status(brand_slug: str, category_slug: str) -> None:
@@ -92,6 +99,7 @@ def step_status(brand_slug: str, category_slug: str) -> None:
 STEPS = {
     "models":       step_models,
     "error_codes":  step_error_codes,
+    "articles":     step_articles,
     "status":       step_status,
 }
 

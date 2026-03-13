@@ -40,7 +40,6 @@ from scrapers.base_scraper import (
 
 MANUALSLIB_BASE = "https://www.manualslib.com"
 
-
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
 def _get_brand_id(brand_slug: str) -> Optional[int]:
@@ -87,35 +86,47 @@ def _upsert_model(
 
 # ── Page scrapers ──────────────────────────────────────────────────────────────
 
-def _scrape_listing_page(url: str) -> tuple[list[dict], Optional[str]]:
+def _scrape_listing_page(url: str) -> list[dict]:
     """
-    Scrape one listing page.
-    Returns:
-        models   – list of { name, manual_page_url }
-        next_url – URL of next page, or None
+    Scrape the brand/category listing page.
+    ManualsLib loads all results on a single page (no server-side pagination).
+
+    DOM structure:
+      div.row.tabled
+        div.col-sm-2.mname > a  ← model name
+        div.col-sm-10.mlinks
+          div.fdiv > div.mdiv > a[href*="/manual/"]  ← one link per manual type
+
+    Returns list of { name, manual_page_url }.
     """
     soup = fetch_soup(url)
     models = []
 
-    # ManualsLib listing: each manual is in a <div class="result"> or similar
-    # Selector verified against live site structure (may need adjustment)
-    for item in soup.select("div.result-row, li.result-manual, div.manualRow"):
-        link = item.select_one("a.manualTitle, a[href*='/manual/']")
-        if not link:
+    for row in soup.select("div.row.tabled"):
+        name_el = row.select_one("div.mname a")
+        if not name_el:
             continue
-        name = link.get_text(strip=True)
-        href = link.get("href", "")
-        if not href or not name:
+        name = name_el.get_text(strip=True)
+        if not name:
             continue
-        manual_page_url = urljoin(MANUALSLIB_BASE, href)
+
+        # Collect all manual links; prefer Service Manual (more likely to contain
+        # error code tables), fall back to any manual link.
+        manual_links = row.select("div.mdiv a[href*='/manual/']")
+        if not manual_links:
+            continue
+
+        service_link = next(
+            (a for a in manual_links if "service" in a.get_text(strip=True).lower()),
+            None,
+        )
+        chosen_link = service_link or manual_links[0]
+        manual_page_url = urljoin(MANUALSLIB_BASE, chosen_link["href"])
+
         models.append({"name": name, "manual_page_url": manual_page_url})
 
-    # Pagination: find "Next" link
-    next_link = soup.select_one("a.next, a[rel='next'], li.next a")
-    next_url = urljoin(MANUALSLIB_BASE, next_link["href"]) if next_link and next_link.get("href") else None
-
-    logger.debug(f"Listing page {url}: found {len(models)} models, next={next_url}")
-    return models, next_url
+    logger.debug(f"Listing page {url}: found {len(models)} models")
+    return models
 
 
 def _scrape_manual_page(manual_page_url: str) -> dict:
@@ -128,9 +139,9 @@ def _scrape_manual_page(manual_page_url: str) -> dict:
     try:
         soup = fetch_soup(manual_page_url)
 
-        # PDF link – ManualsLib has a "Download" button
+        # PDF link – ManualsLib uses /download/{id}/{name}.html which redirects to PDF
         pdf_link = soup.select_one(
-            "a.download-button, a[href*='.pdf'], a#downloadLink"
+            "a[href*='/download/'], a.download-button, a[href*='.pdf'], a#downloadLink"
         )
         if pdf_link and pdf_link.get("href"):
             href = pdf_link["href"]
@@ -166,62 +177,57 @@ def scrape_brand_category(brand_slug: str, category_slug: str) -> int:
 
     ml_brand    = MANUALSLIB_BRAND_SLUGS.get(brand_slug, brand_slug)
     ml_category = MANUALSLIB_CATEGORY_PATHS.get(category_slug, category_slug)
-    start_url   = f"{MANUALSLIB_BASE}/brand/{ml_brand}/{ml_category}/?p=1"
+    # ManualsLib loads all results on a single .html page (no pagination)
+    listing_url = f"{MANUALSLIB_BASE}/brand/{ml_brand}/{ml_category}.html"
 
     logger.info(f"Starting ManualsLib scrape: {brand_slug} / {category_slug}")
-    logger.info(f"URL: {start_url}")
+    logger.info(f"URL: {listing_url}")
 
     total_upserted = 0
-    page_url: Optional[str] = start_url
-    page_num = 1
 
+    job_id = create_scrape_job("model", listing_url)
+    start_scrape_job(job_id)
+
+    try:
+        all_models = _scrape_listing_page(listing_url)
+    except Exception as e:
+        fail_scrape_job(job_id, str(e))
+        logger.error(f"Failed listing page {listing_url}: {e}")
+        return 0
+
+    if not all_models:
+        logger.warning(f"No models found at {listing_url} – check the category URL slug")
+        complete_scrape_job(job_id)
+        return 0
+
+    complete_scrape_job(job_id, parsed_json={"count": len(all_models)})
+    logger.info(f"Found {len(all_models)} models on listing page")
+
+    # Progress bar – avoid SpinnerColumn (Unicode encoding issues on Windows)
     with Progress(
-        SpinnerColumn(),
         TextColumn("[bold blue]{task.description}"),
         BarColumn(),
         MofNCompleteColumn(),
     ) as progress:
-        task = progress.add_task(f"{brand_slug}/{category_slug}", total=None)
+        task = progress.add_task(f"{brand_slug}/{category_slug}", total=len(all_models))
 
-        while page_url:
-            job_id = create_scrape_job("model", page_url)
-            start_scrape_job(job_id)
+        for m in all_models:
+            model_id = _upsert_model(
+                brand_id, category_id, m["name"], m["manual_page_url"]
+            )
 
-            try:
-                models_on_page, next_url = _scrape_listing_page(page_url)
-            except Exception as e:
-                fail_scrape_job(job_id, str(e))
-                logger.error(f"Failed listing page {page_url}: {e}")
-                break
+            # Scrape the individual manual page for PDF URL
+            manual_info = _scrape_manual_page(m["manual_page_url"])
+            update_fields: dict = {}
+            if manual_info["pdf_url"]:
+                update_fields["manual_pdf_url"] = manual_info["pdf_url"]
+            if manual_info["release_year"]:
+                update_fields["release_year"] = manual_info["release_year"]
+            if update_fields:
+                supabase.table("models").update(update_fields).eq("id", model_id).execute()
 
-            if not models_on_page:
-                logger.warning(f"No models found on page {page_num} – stopping pagination")
-                complete_scrape_job(job_id)
-                break
-
-            for m in models_on_page:
-                model_id = _upsert_model(
-                    brand_id, category_id, m["name"], m["manual_page_url"]
-                )
-
-                # Scrape the individual manual page for PDF URL
-                manual_info = _scrape_manual_page(m["manual_page_url"])
-                update_fields: dict = {}
-                if manual_info["pdf_url"]:
-                    update_fields["manual_pdf_url"] = manual_info["pdf_url"]
-                if manual_info["release_year"]:
-                    update_fields["release_year"] = manual_info["release_year"]
-                if update_fields:
-                    supabase.table("models").update(update_fields).eq("id", model_id).execute()
-
-                total_upserted += 1
-                progress.advance(task)
-
-            complete_scrape_job(job_id, parsed_json={"count": len(models_on_page), "page": page_num})
-            logger.info(f"Page {page_num}: {len(models_on_page)} models (total so far: {total_upserted})")
-
-            page_url = next_url
-            page_num += 1
+            total_upserted += 1
+            progress.advance(task)
 
     # Mark brand scrape_status as done for this run
     supabase.table("brands").update({

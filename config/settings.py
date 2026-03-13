@@ -72,13 +72,14 @@ MANUALSLIB_BRAND_SLUGS = {
     "hotpoint":   "hotpoint",
 }
 
-# ManualsLib category paths (keyed by our category slug)
+# ManualsLib category slugs – used as /brand/{brand}/{slug}.html
+# Verified against live site; update if a category returns 0 results
 MANUALSLIB_CATEGORY_PATHS = {
-    "washing-machines": "washing-machines",
-    "dryers":           "dryers",
-    "dishwashers":      "dishwashers",
-    "refrigerators":    "refrigerators",
-    "freezers":         "freezers",
-    "ovens":            "ranges",
-    "microwaves":       "microwave-ovens",
+    "washing-machines": "washer",
+    "dryers":           "dryer",
+    "dishwashers":      "dishwasher",
+    "refrigerators":    "refrigerator",
+    "freezers":         "freezer",
+    "ovens":            "range",
+    "microwaves":       "microwave-oven",
 }

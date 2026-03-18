@@ -1,0 +1,276 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro'
+import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
+import QuickFixBox from '~/components/QuickFixBox.astro'
+import StepsSection from '~/components/StepsSection.astro'
+import FaqSection from '~/components/FaqSection.astro'
+import SparePartsSection from '~/components/SparePartsSection.astro'
+import { getArticle, getAllArticleSlugs, getModelsByBrandCategoryLocale, getArticleAlternates, getCategoryByLocaleSlug, getBrandBySlug } from '~/lib/queries'
+import { parseJson } from '~/lib/utils'
+import { buildAlternateUrl } from '~/lib/locales'
+import { siteConfig } from 'site-config'
+
+const locale = 'sv'
+
+export async function getStaticPaths() {
+  const { data: articles } = await getAllArticleSlugs('sv')
+  if (!articles) return []
+  return articles.map((a: any) => ({
+    params: { category: a.category_slug, brand: a.brand_slug, slug: a.slug },
+    props: { type: 'article' as const },
+  }))
+}
+
+const { category, brand, slug } = Astro.params as { category: string; brand: string; slug: string }
+const siteUrl = `https://${siteConfig.domain}`
+const pageUrl = `${siteUrl}/${locale}/${category}/${brand}/${slug}/`
+
+const [{ data: article }, { data: articleModels }, { data: categoryTrans }, { data: brandData }] = await Promise.all([
+  getArticle(locale, slug),
+  getModelsByBrandCategoryLocale(locale, brand, category),
+  getCategoryByLocaleSlug(locale, category),
+  getBrandBySlug(brand),
+])
+
+const categoryLabel = categoryTrans?.name ?? category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const brandLabel = brandData?.name ?? brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+
+const ec = (article?.articles as any)?.error_codes
+const quickFix: string = article?.quick_fix ?? ''
+const causesRaw = parseJson(article?.causes_json)
+const steps = parseJson(article?.steps_json).map((s: any) => ({
+  title: s.action ?? s.title ?? '',
+  instruction: s.detail ?? s.instruction ?? '',
+  warning: s.warning,
+  tip: s.tip,
+}))
+const faqs = parseJson(article?.faq_json).map((f: any) => ({
+  q: f.question ?? f.q ?? '',
+  a: f.answer ?? f.a ?? '',
+}))
+const updatedAt = article?.last_updated
+  ? new Date(article.last_updated).toLocaleDateString('sv-SE', { year: 'numeric', month: 'long', day: 'numeric' })
+  : null
+
+const stepsRaw = parseJson(article?.steps_json)
+const howToSchema = article && stepsRaw.length > 0 ? {
+  '@context': 'https://schema.org', '@type': 'HowTo',
+  name: article.h1, description: article.meta_description,
+  step: stepsRaw.map((s: any) => ({ '@type': 'HowToStep', name: s.action ?? s.title ?? '', text: s.detail ?? s.instruction ?? '' })),
+} : null
+
+const faqsRaw = parseJson(article?.faq_json)
+const faqSchema = faqsRaw.length > 0 ? {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faqsRaw.map((f: any) => ({
+    '@type': 'Question', name: f.question ?? f.q ?? '',
+    acceptedAnswer: { '@type': 'Answer', text: f.answer ?? f.a ?? '' },
+  })),
+} : null
+
+const articleId = (article?.articles as any)?.id as number | undefined
+const rawAlternates = articleId ? await getArticleAlternates(articleId) : []
+const alternateUrls = rawAlternates.map((alt: any) => ({
+  locale: alt.locale,
+  url: buildAlternateUrl(siteUrl, alt),
+}))
+
+const articleModelGroups: [string, any[]][] = (() => {
+  const models = articleModels ?? []
+  if (models.length === 0) return []
+  const seriesMap = new Map<string, any[]>()
+  for (const m of models) {
+    const key: string = m.series ?? 'Other'
+    if (!seriesMap.has(key)) seriesMap.set(key, [])
+    seriesMap.get(key)!.push(m)
+  }
+  return [...seriesMap.entries()].sort((a, b) => b[1].length - a[1].length)
+})()
+
+const errorCodeLabel = ec?.code ? `Error Code ${ec.code}` : (article?.h1 ?? slug)
+const breadcrumbs = [
+  { name: 'Home', url: `${siteUrl}/${locale}/` },
+  { name: categoryLabel, url: `${siteUrl}/${locale}/${category}/` },
+  { name: brandLabel, url: `${siteUrl}/${locale}/${category}/${brand}/` },
+  { name: errorCodeLabel, url: pageUrl },
+]
+
+const currentYear = new Date().getFullYear()
+---
+
+<PageLayout
+  currentLocale={locale}
+  alternateUrls={alternateUrls}
+  metadata={{
+    title: article?.title_tag ? `${article.title_tag} (${currentYear})` : (article?.h1 ?? slug),
+    description: article?.meta_description ?? siteConfig.meta.description,
+    canonical: pageUrl,
+    ignoreTitleTemplate: true,
+    lang: locale,
+    alternateUrls,
+  }}
+>
+  <div class="page-container">
+    {howToSchema && <script type="application/ld+json" is:inline set:html={JSON.stringify(howToSchema)} />}
+    {faqSchema && <script type="application/ld+json" is:inline set:html={JSON.stringify(faqSchema)} />}
+
+    <BreadcrumbNav items={breadcrumbs} />
+
+    {article ? (
+      <>
+        <h1 class="page-h1">{article.h1}</h1>
+
+        <div class="meta-bar">
+          {ec?.brands?.name && <span class="meta-chip">{ec.brands.name}</span>}
+          {updatedAt && <span class="meta-chip">Updated {updatedAt}</span>}
+          {ec?.diy_possible === false && <span class="meta-chip danger">Professional repair recommended</span>}
+        </div>
+
+        {quickFix && <QuickFixBox text={quickFix} />}
+
+        {article.intro_html && (
+          <section class="prose-section">
+            <h2>Fault description</h2>
+            <div class="prose" set:html={article.intro_html} />
+          </section>
+        )}
+
+        {causesRaw.length > 0 && (
+          <section class="causes-section">
+            <h2>Causes</h2>
+            <ul class="causes-list">
+              {causesRaw.map((c: any) => (
+                <li>
+                  <strong>{c.cause}</strong>
+                  {c.frequency && (
+                    <span class={`freq-badge freq-${c.frequency}`}>
+                      {c.frequency === 'common' ? 'Most common' : c.frequency === 'occasional' ? 'Occasional' : 'Rare'}
+                    </span>
+                  )}
+                  {c.detail && <span class="cause-detail"> — {c.detail}</span>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {steps.length > 0 && <StepsSection steps={steps} />}
+
+        {articleModelGroups.length > 0 && (
+            <section class="affected-models-section">
+              <h2>Affected models</h2>
+              <button class="models-toggle" id="article-models-toggle" aria-expanded="false">
+                Expand to see affected models
+                <svg class="toggle-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                </svg>
+              </button>
+              <div id="article-models-panel" hidden>
+                <div class="models-panel-header">
+                  <p class="models-panel-sub">Select your model to see its full troubleshooting page.</p>
+                  <input id="article-model-search" type="search" placeholder="Search models…" class="model-search-input" autocomplete="off" />
+                </div>
+                <div id="article-model-grid">
+                  {articleModelGroups.map(([seriesName, models]) =>
+                    models.length === 1 ? (
+                      <div class="series-solo" data-series={seriesName.toLowerCase()}>
+                        <a href={`/${locale}/${category}/${brand}/${models[0].slug}/`} class="model-chip" data-name={models[0].name.toLowerCase()}>{models[0].name}</a>
+                      </div>
+                    ) : (
+                      <div class="series-group" data-series={seriesName.toLowerCase()}>
+                        <button class="series-toggle" aria-expanded="false">
+                          <span class="series-name">{seriesName} series</span>
+                          <span class="series-count">{models.length} models</span>
+                          <svg class="series-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" width="14" height="14">
+                            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                          </svg>
+                        </button>
+                        <div class="series-chips" hidden>
+                          {models.map((m: any) => (
+                            <a href={`/${locale}/${category}/${brand}/${m.slug}/`} class="model-chip" data-name={m.name.toLowerCase()}>{m.name}</a>
+                          ))}
+                        </div>
+                      </div>
+                    )
+                  )}
+                </div>
+              </div>
+            </section>
+        )}
+
+        {article.when_to_call_technician_html && (
+          <section class="prose-section technician-box">
+            <h2>When to call a service technician</h2>
+            <div class="prose" set:html={article.when_to_call_technician_html} />
+          </section>
+        )}
+
+        <SparePartsSection />
+        {faqs.length > 0 && <FaqSection faqs={faqs} />}
+      </>
+    ) : (
+      <p class="no-data">Content not available yet. Please check back soon.</p>
+    )}
+  </div>
+</PageLayout>
+
+<script>
+  const toggle = document.getElementById('article-models-toggle')
+  const panel  = document.getElementById('article-models-panel')
+  toggle?.addEventListener('click', () => {
+    const opening = panel?.hasAttribute('hidden')
+    if (opening) { panel?.removeAttribute('hidden'); toggle.setAttribute('aria-expanded', 'true'); toggle.classList.add('open') }
+    else { panel?.setAttribute('hidden', ''); toggle.setAttribute('aria-expanded', 'false'); toggle.classList.remove('open') }
+  })
+  const modelSearch = document.getElementById('article-model-search') as HTMLInputElement | null
+  modelSearch?.addEventListener('input', () => {
+    const q = modelSearch.value.toLowerCase().trim()
+    document.querySelectorAll<HTMLElement>('#article-model-grid .model-chip').forEach((chip) => {
+      chip.style.display = !q || chip.dataset.name?.includes(q) ? '' : 'none'
+    })
+  })
+</script>
+
+<style>
+  .page-container { max-width: 800px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  .page-h1 { font-size: clamp(1.5rem, 3vw, 2.25rem); font-weight: 800; line-height: 1.25; color: #111827; margin: 0 0 1rem; }
+  .meta-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem; }
+  .meta-chip { display: inline-block; font-size: 0.8rem; font-weight: 500; padding: 0.2rem 0.6rem; border-radius: 999px; background: #f3f4f6; color: #374151; }
+  .meta-chip.danger { background: #fef2f2; color: #dc2626; }
+  .causes-section { margin: 1.5rem 0; }
+  .causes-section h2, .prose-section h2, .affected-models-section h2 { font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem; color: #111827; }
+  .causes-list { padding-left: 1.25rem; color: #374151; line-height: 1.7; }
+  .causes-list li { margin-bottom: 0.6rem; }
+  .cause-detail { color: #6b7280; }
+  .freq-badge { display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 0.1rem 0.45rem; border-radius: 999px; margin-left: 0.4rem; vertical-align: middle; }
+  .freq-common { background: #dcfce7; color: #15803d; }
+  .freq-occasional { background: #fef3c7; color: #b45309; }
+  .freq-rare { background: #f3f4f6; color: #6b7280; }
+  .affected-models-section { margin: 2rem 0; }
+  .models-toggle { display: flex; align-items: center; gap: 0.5rem; width: 100%; padding: 0.875rem 1.25rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 10px; font-size: 1rem; font-weight: 600; color: #111827; cursor: pointer; text-align: left; transition: background 0.15s, border-color 0.15s; }
+  .models-toggle:hover { background: #eff6ff; border-color: #2563eb; color: #1d4ed8; }
+  .toggle-icon { width: 1.25rem; height: 1.25rem; margin-left: auto; flex-shrink: 0; transition: transform 0.2s; }
+  .models-toggle.open .toggle-icon { transform: rotate(180deg); }
+  .models-panel-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; margin: 1rem 0 0.75rem; }
+  .models-panel-sub { font-size: 0.875rem; color: #6b7280; margin: 0; }
+  .model-search-input { padding: 0.5rem 0.875rem; border: 1px solid #d1d5db; border-radius: 8px; font-size: 0.9rem; color: #111827; outline: none; width: 200px; }
+  .model-search-input:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.12); }
+  .model-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .model-chip { display: inline-block; padding: 0.3rem 0.75rem; border: 1px solid #e5e7eb; border-radius: 6px; font-size: 0.8rem; font-family: monospace; color: #374151; text-decoration: none; background: #f9fafb; transition: border-color 0.1s, background 0.1s, color 0.1s; }
+  .model-chip:hover { border-color: #2563eb; background: #eff6ff; color: #1d4ed8; }
+  .series-group { margin-bottom: 0.5rem; }
+  .series-toggle { display: flex; align-items: center; gap: 0.5rem; width: 100%; padding: 0.5rem 0.75rem; background: #f3f4f6; border: 1px solid #e5e7eb; border-radius: 6px; font-size: 0.875rem; font-weight: 600; color: #374151; cursor: pointer; text-align: left; transition: background 0.1s; }
+  .series-toggle:hover { background: #e5e7eb; }
+  .series-name { flex: 1; }
+  .series-count { font-size: 0.75rem; font-weight: 400; color: #6b7280; }
+  .series-chevron { flex-shrink: 0; transition: transform 0.2s; }
+  .series-toggle[aria-expanded="true"] .series-chevron { transform: rotate(180deg); }
+  .series-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0.5rem 0 0.25rem 0.5rem; }
+  .series-solo { margin-bottom: 0.25rem; }
+  #article-model-grid { display: flex; flex-direction: column; gap: 0.25rem; }
+  .prose-section { margin: 2rem 0; }
+  .technician-box { background: #fef2f2; border: 1px solid #fca5a5; border-radius: 8px; padding: 1.25rem 1.5rem; }
+  .technician-box h2 { color: #dc2626; }
+  .prose :global(p) { margin: 0 0 0.75rem; color: #374151; line-height: 1.7; }
+  .no-data { color: #6b7280; font-style: italic; margin-top: 2rem; }
+</style>

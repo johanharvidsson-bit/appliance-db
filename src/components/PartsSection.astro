@@ -1,0 +1,120 @@
+---
+interface Part {
+  name: string
+  description?: string
+  affiliate_url?: string
+  price_hint?: string
+  image_url?: string
+}
+
+interface Props {
+  parts: Part[]
+}
+
+const { parts } = Astro.props
+---
+
+{
+  parts && parts.length > 0 && (
+    <section class="parts-section">
+      <h2>Spare Parts You May Need</h2>
+      <p class="parts-note">
+        Ordering the right part upfront saves a second repair call. Affiliate links below help support
+        this site at no extra cost to you.
+      </p>
+      <ul class="parts-list">
+        {parts.map((part) => (
+          <li class="part-card">
+            {part.image_url && (
+              <img src={part.image_url} alt={part.name} class="part-image" loading="lazy" />
+            )}
+            <div class="part-info">
+              <h3 class="part-name">{part.name}</h3>
+              {part.description && <p class="part-desc">{part.description}</p>}
+              {part.price_hint && <span class="part-price">{part.price_hint}</span>}
+              {part.affiliate_url && (
+                <a href={part.affiliate_url} target="_blank" rel="nofollow noopener" class="part-link">
+                  View Part →
+                </a>
+              )}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<style>
+  .parts-section {
+    margin: 2rem 0;
+  }
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #111827;
+  }
+  .parts-note {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-bottom: 1rem;
+  }
+  .parts-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .part-card {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  .part-image {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  .part-info {
+    flex: 1;
+  }
+  .part-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem;
+    color: #111827;
+  }
+  .part-desc {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin: 0 0 0.5rem;
+  }
+  .part-price {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #374151;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .part-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+    border: 1px solid #2563eb;
+    border-radius: 6px;
+    padding: 0.25rem 0.75rem;
+  }
+  .part-link:hover {
+    background: #2563eb;
+    color: #fff;
+  }
+</style>

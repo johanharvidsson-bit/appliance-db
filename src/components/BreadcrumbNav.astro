@@ -1,0 +1,82 @@
+---
+interface BreadcrumbItem {
+  name: string
+  url: string
+}
+
+interface Props {
+  items: BreadcrumbItem[]
+}
+
+const { items } = Astro.props
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: item.name,
+    item: item.url,
+  })),
+}
+---
+
+<Fragment>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+</Fragment>
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol>
+    {
+      items.map((item, i) => (
+        <li>
+          {i < items.length - 1 ? (
+            <>
+              <a href={item.url}>{item.name}</a>
+              <span class="sep" aria-hidden="true">›</span>
+            </>
+          ) : (
+            <span aria-current="page">{item.name}</span>
+          )}
+        </li>
+      ))
+    }
+  </ol>
+</nav>
+
+<style>
+  .breadcrumb {
+    margin-bottom: 1.25rem;
+  }
+  ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .sep {
+    color: #9ca3af;
+  }
+  span[aria-current='page'] {
+    color: #374151;
+    font-weight: 500;
+  }
+</style>

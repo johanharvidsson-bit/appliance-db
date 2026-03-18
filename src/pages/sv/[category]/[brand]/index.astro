@@ -1,0 +1,191 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro'
+import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
+import { getCategoriesByLocale, getBrandsByCategoryLocale, getErrorCodesByBrandCategoryLocale, getModelsByBrandCategoryLocale, getCategoryAlternates } from '~/lib/queries'
+import { buildBrandUrl } from '~/lib/locales'
+import { siteConfig } from 'site-config'
+
+const locale = 'sv'
+
+export async function getStaticPaths() {
+  const { data: categories } = await getCategoriesByLocale('sv')
+  if (!categories) return []
+
+  const paths: any[] = []
+  for (const cat of categories) {
+    const [{ data: brands }, alternates] = await Promise.all([
+      getBrandsByCategoryLocale('sv', cat.slug),
+      getCategoryAlternates(cat.category_id),
+    ])
+    if (!brands) continue
+    for (const brand of brands) {
+      paths.push({
+        params: { category: cat.slug, brand: brand.slug },
+        props: { categoryName: cat.name, brandName: brand.name, categoryAlternates: alternates },
+      })
+    }
+  }
+  return paths
+}
+
+const { category, brand } = Astro.params as { category: string; brand: string }
+const { categoryName, brandName, categoryAlternates } = Astro.props as { categoryName: string; brandName: string; categoryAlternates: any[] }
+const siteUrl = `https://${siteConfig.domain}`
+const alternateUrls = (categoryAlternates ?? []).map((alt: any) => ({
+  locale: alt.locale,
+  url: buildBrandUrl(siteUrl, alt.locale, alt.slug, brand),
+}))
+
+const [{ data: errorCodes }, { data: models }] = await Promise.all([
+  getErrorCodesByBrandCategoryLocale(locale, brand, category),
+  getModelsByBrandCategoryLocale(locale, brand, category),
+])
+
+const categoryLabel = categoryName || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const brandLabel = brandName || brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+
+const breadcrumbs = [
+  { name: 'Home', url: `${siteUrl}/${locale}/` },
+  { name: categoryLabel, url: `${siteUrl}/${locale}/${category}/` },
+  { name: brandLabel, url: `${siteUrl}/${locale}/${category}/${brand}/` },
+]
+
+const severityColor: Record<string, string> = {
+  critical: 'badge-red', high: 'badge-orange', medium: 'badge-yellow', low: 'badge-green',
+}
+---
+
+<PageLayout
+  currentLocale={locale}
+  alternateUrls={alternateUrls}
+  metadata={{
+    title: `${brandLabel} ${categoryLabel} Error Codes & Models | ${siteConfig.name}`,
+    description: `All ${brandLabel} ${categoryLabel} error codes with step-by-step fixes, plus a full model list.`,
+    canonical: `${siteUrl}/${locale}/${category}/${brand}/`,
+    lang: locale,
+    alternateUrls,
+  }}
+>
+  <div class="page-container">
+    <BreadcrumbNav items={breadcrumbs} />
+    <h1 class="page-h1">{brandLabel} {categoryLabel} Error Codes</h1>
+    <p class="intro">Browse all known error codes for {brandLabel} {categoryLabel.toLowerCase()}s.</p>
+
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-h2">Error Codes <span class="count">({errorCodes?.length ?? 0})</span></h2>
+        <input id="ec-search" type="search" placeholder="Search codes…" class="search-input" autocomplete="off" />
+      </div>
+      {errorCodes && errorCodes.length > 0 ? (
+        <div class="ec-list" id="ec-grid">
+          {errorCodes.map((row: any) => {
+            const ats = row.articles?.article_translations ?? []
+            const at = ats.find((t: any) => t.locale === locale) ?? ats[0]
+            return (
+              <div class="ec-card" data-code={row.code?.toLowerCase()} data-text={row.display_text?.toLowerCase()}>
+                <div class="ec-card-left">
+                  <span class="ec-code">{row.code}</span>
+                  {row.severity && <span class={`ec-badge ${severityColor[row.severity] ?? 'badge-gray'}`}>{row.severity}</span>}
+                </div>
+                <p class="ec-desc">{row.display_text}</p>
+                <div class="ec-card-right">
+                  {at?.slug ? (
+                    <a href={`/${locale}/${category}/${brand}/${at.slug}/`} class="ec-link">View fix →</a>
+                  ) : (
+                    <span class="ec-pending">Coming soon</span>
+                  )}
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      ) : (
+        <p class="no-data">No error codes found yet.</p>
+      )}
+    </section>
+
+    {models && models.length > 0 && (
+      <section class="section">
+        <button class="models-toggle" id="models-toggle" aria-expanded="false">
+          Browse {brandLabel} {categoryLabel} models
+          <svg class="toggle-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>
+        </button>
+        <div class="models-panel" id="models-panel" hidden>
+          <div class="models-panel-header">
+            <p class="section-sub">Select your model to see error codes and troubleshooting guides.</p>
+            <input id="model-search" type="search" placeholder="Search models…" class="search-input" autocomplete="off" />
+          </div>
+          <div class="model-chips" id="model-grid">
+            {models.map((m: any) => (
+              <a href={`/${locale}/${category}/${brand}/${m.slug}/`} class="model-chip" data-name={m.name.toLowerCase()}>{m.name}</a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+  </div>
+</PageLayout>
+
+<script>
+  const ecSearch = document.getElementById('ec-search') as HTMLInputElement | null
+  ecSearch?.addEventListener('input', () => {
+    const q = ecSearch.value.toLowerCase().trim()
+    document.querySelectorAll<HTMLElement>('#ec-grid .ec-card').forEach((card) => {
+      card.style.display = (!q || card.dataset.code?.includes(q) || card.dataset.text?.includes(q)) ? '' : 'none'
+    })
+  })
+  const toggle = document.getElementById('models-toggle')
+  const panel  = document.getElementById('models-panel')
+  toggle?.addEventListener('click', () => {
+    const open = panel?.hasAttribute('hidden')
+    if (open) { panel?.removeAttribute('hidden'); toggle.setAttribute('aria-expanded', 'true'); toggle.classList.add('open') }
+    else { panel?.setAttribute('hidden', ''); toggle.setAttribute('aria-expanded', 'false'); toggle.classList.remove('open') }
+  })
+  const modelSearch = document.getElementById('model-search') as HTMLInputElement | null
+  modelSearch?.addEventListener('input', () => {
+    const q = modelSearch.value.toLowerCase().trim()
+    document.querySelectorAll<HTMLElement>('#model-grid .model-chip').forEach((chip) => {
+      chip.style.display = !q || chip.dataset.name?.includes(q) ? '' : 'none'
+    })
+  })
+</script>
+
+<style>
+  .page-container { max-width: 1000px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  .page-h1 { font-size: clamp(1.5rem, 3vw, 2.25rem); font-weight: 800; color: #111827; margin: 0 0 0.75rem; }
+  .intro { color: #6b7280; margin-bottom: 2rem; line-height: 1.6; }
+  .section { margin-bottom: 3rem; }
+  .section-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem; }
+  .section-h2 { font-size: 1.25rem; font-weight: 700; color: #111827; margin: 0; }
+  .count { font-weight: 400; color: #9ca3af; font-size: 1rem; }
+  .section-sub { font-size: 0.875rem; color: #6b7280; margin: -0.5rem 0 1rem; }
+  .search-input { padding: 0.5rem 0.875rem; border: 1px solid #d1d5db; border-radius: 8px; font-size: 0.9rem; color: #111827; outline: none; width: 200px; }
+  .search-input:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.12); }
+  .ec-list { display: flex; flex-direction: column; border: 1px solid #e5e7eb; border-radius: 10px; overflow: hidden; }
+  .ec-card { display: flex; align-items: center; gap: 1rem; padding: 0.75rem 1rem; border-bottom: 1px solid #f3f4f6; transition: background 0.1s; }
+  .ec-card:last-child { border-bottom: none; }
+  .ec-card:hover { background: #f9fafb; }
+  .ec-card-left { display: flex; align-items: center; gap: 0.5rem; min-width: 130px; flex-shrink: 0; }
+  .ec-code { font-family: monospace; font-size: 1rem; font-weight: 700; color: #111827; }
+  .ec-badge { font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.1rem 0.4rem; border-radius: 999px; white-space: nowrap; }
+  .badge-red { background: #fef2f2; color: #dc2626; } .badge-orange { background: #fff7ed; color: #ea580c; }
+  .badge-yellow { background: #fefce8; color: #ca8a04; } .badge-green { background: #f0fdf4; color: #16a34a; }
+  .badge-gray { background: #f3f4f6; color: #6b7280; }
+  .ec-desc { font-size: 0.875rem; color: #374151; margin: 0; flex: 1; line-height: 1.5; }
+  .ec-card-right { flex-shrink: 0; min-width: 90px; text-align: right; }
+  .ec-link { font-size: 0.875rem; font-weight: 600; color: #2563eb; text-decoration: none; white-space: nowrap; }
+  .ec-link:hover { text-decoration: underline; }
+  .ec-pending { font-size: 0.8rem; color: #d1d5db; font-style: italic; white-space: nowrap; }
+  .models-toggle { display: flex; align-items: center; gap: 0.5rem; width: 100%; padding: 0.875rem 1.25rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 10px; font-size: 1rem; font-weight: 600; color: #111827; cursor: pointer; text-align: left; transition: background 0.15s, border-color 0.15s; }
+  .models-toggle:hover { background: #eff6ff; border-color: #2563eb; color: #1d4ed8; }
+  .toggle-icon { width: 1.25rem; height: 1.25rem; margin-left: auto; flex-shrink: 0; transition: transform 0.2s; }
+  .models-toggle.open .toggle-icon { transform: rotate(180deg); }
+  .models-panel { margin-top: 1rem; }
+  .models-panel-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem; }
+  .model-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .model-chip { display: inline-block; padding: 0.3rem 0.75rem; border: 1px solid #e5e7eb; border-radius: 6px; font-size: 0.8rem; font-family: monospace; color: #374151; text-decoration: none; background: #f9fafb; transition: border-color 0.1s, background 0.1s, color 0.1s; }
+  .model-chip:hover { border-color: #2563eb; background: #eff6ff; color: #1d4ed8; }
+  .no-data { color: #6b7280; font-style: italic; }
+</style>

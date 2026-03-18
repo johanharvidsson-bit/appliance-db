@@ -1,0 +1,88 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro'
+import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
+import { getCategoriesByLocale, getBrandsByCategoryLocale, getCategoryAlternates } from '~/lib/queries'
+import { buildCategoryUrl } from '~/lib/locales'
+import { siteConfig } from 'site-config'
+
+const locale = 'sv'
+
+export async function getStaticPaths() {
+  const { data: categories } = await getCategoriesByLocale('sv')
+  if (!categories) return []
+  const paths: any[] = []
+  for (const cat of categories) {
+    const alternates = await getCategoryAlternates(cat.category_id)
+    paths.push({
+      params: { category: cat.slug },
+      props: { categoryName: cat.name, categoryAlternates: alternates },
+    })
+  }
+  return paths
+}
+
+const { category } = Astro.params as { category: string }
+const { categoryName, categoryAlternates } = Astro.props as { categoryName: string; categoryAlternates: any[] }
+const siteUrl = `https://${siteConfig.domain}`
+const alternateUrls = (categoryAlternates ?? []).map((alt: any) => ({
+  locale: alt.locale,
+  url: buildCategoryUrl(siteUrl, alt.locale, alt.slug),
+}))
+
+const { data: brands } = await getBrandsByCategoryLocale(locale, category)
+
+const categoryLabel = categoryName || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+
+const breadcrumbs = [
+  { name: 'Home', url: `${siteUrl}/${locale}/` },
+  { name: categoryLabel, url: `${siteUrl}/${locale}/${category}/` },
+]
+---
+
+<PageLayout
+  currentLocale={locale}
+  alternateUrls={alternateUrls}
+  metadata={{
+    title: `${categoryLabel} Error Codes – All Brands | ${siteConfig.name}`,
+    description: `Find error code fixes for all ${categoryLabel.toLowerCase()} brands. Step-by-step DIY guides.`,
+    canonical: `${siteUrl}/${locale}/${category}/`,
+    lang: locale,
+    alternateUrls,
+  }}
+>
+  <div class="page-container">
+    <BreadcrumbNav items={breadcrumbs} />
+    <h1 class="page-h1">{categoryLabel} Error Codes</h1>
+    <p class="intro">Select your brand to find error code guides for your {categoryLabel.toLowerCase()}.</p>
+
+    {brands && brands.length > 0 ? (
+      <div class="brand-grid">
+        {brands.map((b: any) => (
+          <a href={`/${locale}/${category}/${b.slug}/`} class="brand-card">
+            {b.logo_url ? (
+              <img src={b.logo_url} alt={`${b.name} logo`} class="brand-logo" loading="lazy" />
+            ) : (
+              <span class="brand-initial">{b.name.charAt(0)}</span>
+            )}
+            <span class="brand-name">{b.name}</span>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="no-data">No brands available yet. Please check back soon.</p>
+    )}
+  </div>
+</PageLayout>
+
+<style>
+  .page-container { max-width: 1000px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  .page-h1 { font-size: clamp(1.5rem, 3vw, 2.25rem); font-weight: 800; color: #111827; margin: 0 0 0.75rem; }
+  .intro { color: #6b7280; margin-bottom: 2rem; line-height: 1.6; }
+  .brand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 1rem; }
+  .brand-card { display: flex; flex-direction: column; align-items: center; gap: 0.75rem; padding: 1.5rem 1rem; border: 1px solid #e5e7eb; border-radius: 12px; text-decoration: none; color: #111827; transition: border-color 0.15s, box-shadow 0.15s; }
+  .brand-card:hover { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+  .brand-logo { height: 3rem; max-width: 120px; object-fit: contain; }
+  .brand-initial { width: 3rem; height: 3rem; border-radius: 50%; background: #eff6ff; color: #2563eb; font-size: 1.5rem; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .brand-name { font-weight: 600; font-size: 0.95rem; text-align: center; }
+  .no-data { color: #6b7280; font-style: italic; }
+</style>

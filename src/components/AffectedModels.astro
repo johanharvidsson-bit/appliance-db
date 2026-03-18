@@ -1,0 +1,97 @@
+---
+interface ModelEntry {
+  name: string
+  product_codes?: string[]
+  slug?: string
+}
+
+interface Props {
+  models: ModelEntry[]
+  brandSlug: string
+  categorySlug: string
+}
+
+const { models, brandSlug, categorySlug } = Astro.props
+---
+
+{
+  models && models.length > 0 && (
+    <section class="affected-models">
+      <h2>Affected Models</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Model</th>
+              <th>Product Codes</th>
+            </tr>
+          </thead>
+          <tbody>
+            {models.map((m) => (
+              <tr>
+                <td>
+                  {m.slug ? (
+                    <a href={`/${categorySlug}/${brandSlug}/${m.slug}/`}>{m.name}</a>
+                  ) : (
+                    m.name
+                  )}
+                </td>
+                <td class="codes">
+                  {m.product_codes?.join(', ') ?? '—'}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .affected-models {
+    margin: 2rem 0;
+  }
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: #111827;
+  }
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  th {
+    text-align: left;
+    background: #f3f4f6;
+    padding: 0.625rem 0.875rem;
+    font-weight: 600;
+    color: #374151;
+    border-bottom: 2px solid #e5e7eb;
+  }
+  td {
+    padding: 0.625rem 0.875rem;
+    border-bottom: 1px solid #e5e7eb;
+    color: #374151;
+  }
+  td a {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+  td a:hover {
+    color: #1d4ed8;
+  }
+  .codes {
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: #6b7280;
+  }
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+</style>

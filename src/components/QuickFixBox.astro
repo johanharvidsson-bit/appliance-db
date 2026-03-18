@@ -1,0 +1,36 @@
+---
+interface Props {
+  text: string
+}
+const { text } = Astro.props
+---
+
+<div class="quick-fix-box">
+  <span class="label">Quick Fix</span>
+  <p>{text}</p>
+</div>
+
+<style>
+  .quick-fix-box {
+    background: #f0fdf4;
+    border-left: 4px solid #16a34a;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #16a34a;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .quick-fix-box p {
+    margin: 0;
+    color: #166534;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+</style>

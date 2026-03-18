@@ -1,0 +1,754 @@
+---
+/**
+ * Handles two URL patterns:
+ *   Article:  /[category]/[brand]/error-code-[code]/
+ *   Model:    /[category]/[brand]/[model-slug]/
+ *
+ * getStaticPaths returns both. The component decides which view to render
+ * based on whether the slug starts with "error-code-".
+ */
+import PageLayout from '~/layouts/PageLayout.astro'
+import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
+import QuickFixBox from '~/components/QuickFixBox.astro'
+import StepsSection from '~/components/StepsSection.astro'
+import FaqSection from '~/components/FaqSection.astro'
+import SparePartsSection from '~/components/SparePartsSection.astro'
+import { getArticle, getAllArticleSlugs, getAllModelSlugs, getModelBySlug, getErrorCodesByModel, getModelsByBrandCategory, getArticleAlternates } from '~/lib/queries'
+import { parseJson } from '~/lib/utils'
+import { buildAlternateUrl } from '~/lib/locales'
+import { siteConfig } from 'site-config'
+
+export async function getStaticPaths() {
+  const locale = siteConfig.defaultLocale
+  const paths: {
+    params: { category: string; brand: string; slug: string }
+    props: { type: 'article' | 'model' }
+  }[] = []
+
+  // ── Article paths ────────────────────────────────────────────────────────
+  const { data: articles } = await getAllArticleSlugs(locale)
+  if (articles) {
+    for (const article of articles) {
+      paths.push({
+        params: { category: article.category_slug, brand: article.brand_slug, slug: article.slug },
+        props: { type: 'article' },
+      })
+    }
+  }
+
+  // ── Model paths ──────────────────────────────────────────────────────────
+  const { data: models } = await getAllModelSlugs()
+  if (models) {
+    for (const model of models) {
+      if (model.brand_slug && model.category_slug && model.slug) {
+        paths.push({
+          params: {
+            category: model.category_slug,
+            brand: model.brand_slug,
+            slug: model.slug,
+          },
+          props: { type: 'model' },
+        })
+      }
+    }
+  }
+
+  return paths
+}
+
+const { category, brand, slug } = Astro.params
+const { type } = Astro.props
+const locale = siteConfig.defaultLocale
+const siteUrl = `https://${siteConfig.domain}`
+
+// ── Article ──────────────────────────────────────────────────────────────────
+let article: any = null
+let articleModels: any[] = []
+let alternateUrls: { locale: string; url: string }[] = []
+if (type === 'article') {
+  const [{ data: articleData }, { data: modelsData }] = await Promise.all([
+    getArticle(locale, slug),
+    getModelsByBrandCategory(brand, category),
+  ])
+  article = articleData
+  articleModels = modelsData ?? []
+}
+
+// ── Series grouping for article "Affected models" section ────────────────────
+const articleModelGroups: [string, any[]][] = (() => {
+  if (articleModels.length === 0) return []
+  const seriesMap = new Map<string, any[]>()
+  for (const m of articleModels) {
+    const key: string = m.series ?? 'Other'
+    if (!seriesMap.has(key)) seriesMap.set(key, [])
+    seriesMap.get(key)!.push(m)
+  }
+  return [...seriesMap.entries()].sort((a, b) => b[1].length - a[1].length)
+})()
+
+if (type === 'article') {
+  // Fetch hreflang alternates for this article
+  const articleId = (article?.articles as any)?.id as number | undefined
+  if (articleId) {
+    const rawAlternates = await getArticleAlternates(articleId)
+    alternateUrls = rawAlternates.map((alt: any) => ({
+      locale: alt.locale,
+      url: buildAlternateUrl(siteUrl, alt),
+    }))
+  }
+}
+
+// ── Model ────────────────────────────────────────────────────────────────────
+let model: any = null
+let modelErrorCodes: any[] = []
+if (type === 'model') {
+  const { data } = await getModelBySlug(brand, category, slug)
+  model = data
+  if (model) {
+    const { data: ecData } = await getErrorCodesByModel(model.brand_id, model.category_id)
+    modelErrorCodes = ecData ?? []
+  }
+}
+
+// ── Shared helpers ───────────────────────────────────────────────────────────
+const severityBadge: Record<string, { cls: string; label: string }> = {
+  easy:     { cls: 'severity-easy',     label: 'Easy' },
+  medium:   { cls: 'severity-medium',   label: 'Medium' },
+  advanced: { cls: 'severity-advanced', label: 'Advanced' },
+}
+
+const categoryLabel = category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const brandLabel = brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const pageUrl = `${siteUrl}/${category}/${brand}/${slug}/`
+
+// ── Article derived values ────────────────────────────────────────────────────
+const ec = article?.articles?.error_codes as any
+const quickFix: string = article?.quick_fix ?? ''
+
+const causesRaw = parseJson(article?.causes_json)
+
+const steps = parseJson(article?.steps_json).map((s: any) => ({
+  title: s.action ?? s.title ?? '',
+  instruction: s.detail ?? s.instruction ?? '',
+  warning: s.warning,
+  tip: s.tip,
+}))
+
+const faqs = parseJson(article?.faq_json).map((f: any) => ({
+  q: f.question ?? f.q ?? '',
+  a: f.answer ?? f.a ?? '',
+}))
+
+const updatedAt = article?.last_updated
+  ? new Date(article.last_updated).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })
+  : null
+
+// ── JSON-LD: HowTo (uses raw DB fields, not remapped StepsSection shape) ──────
+const stepsRaw = parseJson(article?.steps_json)
+const howToSchema = article && stepsRaw.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: article.h1,
+  description: article.meta_description,
+  step: stepsRaw.map((s: any) => ({
+    '@type': 'HowToStep',
+    name: s.action ?? s.title ?? '',
+    text: s.detail ?? s.instruction ?? '',
+  })),
+} : null
+
+// ── JSON-LD: FAQPage ──────────────────────────────────────────────────────────
+const faqsRaw = parseJson(article?.faq_json)
+const faqSchema = faqsRaw.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqsRaw.map((f: any) => ({
+    '@type': 'Question',
+    name: f.question ?? f.q ?? '',
+    acceptedAnswer: { '@type': 'Answer', text: f.answer ?? f.a ?? '' },
+  })),
+} : null
+
+// ── Breadcrumb last segment: "Error Code {code}" not full H1 ─────────────────
+const errorCodeLabel = ec?.code ? `Error Code ${ec.code}` : (article?.h1 ?? slug)
+
+// ── Breadcrumbs ───────────────────────────────────────────────────────────────
+const breadcrumbs = type === 'article'
+  ? [
+      { name: 'Home', url: siteUrl + '/' },
+      { name: categoryLabel, url: `${siteUrl}/${category}/` },
+      { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
+      { name: errorCodeLabel, url: pageUrl },
+    ]
+  : [
+      { name: 'Home', url: siteUrl + '/' },
+      { name: categoryLabel, url: `${siteUrl}/${category}/` },
+      { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
+      { name: model?.name ?? slug, url: pageUrl },
+    ]
+
+const currentYear = new Date().getFullYear()
+const metadata = type === 'article'
+  ? {
+      title: article?.title_tag ? `${article.title_tag} (${currentYear})` : (article?.h1 ?? slug),
+      description: article?.meta_description ?? siteConfig.meta.description,
+      canonical: pageUrl,
+      ignoreTitleTemplate: true,
+      alternateUrls,
+    }
+  : {
+      title: `${model?.name ?? slug} – Error Codes & Troubleshooting | ${siteConfig.name}`,
+      description: `Complete list of error codes and fixes for the ${brandLabel} ${model?.name ?? slug}.`,
+      canonical: pageUrl,
+    }
+---
+
+<PageLayout metadata={metadata} currentLocale="en" alternateUrls={type === 'article' ? alternateUrls : []}>
+  <div class="page-container">
+    {howToSchema && (
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(howToSchema)} />
+    )}
+    {faqSchema && (
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(faqSchema)} />
+    )}
+    <BreadcrumbNav items={breadcrumbs} />
+
+    {type === 'article' && article && (
+      <>
+        <!-- ── Article view ─────────────────────────────────── -->
+        <h1 class="page-h1">{article.h1}</h1>
+
+        <div class="meta-bar">
+          {ec?.brands?.name && <span class="meta-chip">{ec.brands.name}</span>}
+          {updatedAt && <span class="meta-chip">Updated {updatedAt}</span>}
+          {ec?.diy_possible === false && (
+            <span class="meta-chip danger">Professional repair recommended</span>
+          )}
+        </div>
+
+        {quickFix && <QuickFixBox text={quickFix} />}
+
+        {article.intro_html && (
+          <section class="prose-section">
+            <h2>Fault description</h2>
+            <div class="prose" set:html={article.intro_html} />
+          </section>
+        )}
+
+        {causesRaw.length > 0 && (
+          <section class="causes-section">
+            <h2>Causes</h2>
+            <ul class="causes-list">
+              {causesRaw.map((c: any) => (
+                <li>
+                  <strong>{c.cause}</strong>
+                  {c.frequency && (
+                    <span class={`freq-badge freq-${c.frequency}`}>
+                      {c.frequency === 'common' ? 'Most common' : c.frequency === 'occasional' ? 'Occasional' : 'Rare'}
+                    </span>
+                  )}
+                  {c.detail && <span class="cause-detail"> — {c.detail}</span>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {steps.length > 0 && <StepsSection steps={steps} />}
+
+        {articleModelGroups.length > 0 && (
+            <section class="affected-models-section">
+              <h2>Affected models</h2>
+              <button class="models-toggle" id="article-models-toggle" aria-expanded="false">
+                Expand to see affected models
+                <svg class="toggle-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                </svg>
+              </button>
+              <div id="article-models-panel" hidden>
+                <div class="models-panel-header">
+                  <p class="models-panel-sub">Select your model to see its full troubleshooting page.</p>
+                  <input id="article-model-search" type="search" placeholder="Search models…" class="model-search-input" autocomplete="off" />
+                </div>
+                <div id="article-model-grid">
+                  {articleModelGroups.map(([seriesName, models]) =>
+                    models.length === 1 ? (
+                      <div class="series-solo" data-series={seriesName.toLowerCase()}>
+                        <a href={`/${category}/${brand}/${models[0].slug}/`} class="model-chip" data-name={models[0].name.toLowerCase()}>{models[0].name}</a>
+                      </div>
+                    ) : (
+                      <div class="series-group" data-series={seriesName.toLowerCase()}>
+                        <button class="series-toggle" aria-expanded="false">
+                          <span class="series-name">{seriesName} series</span>
+                          <span class="series-count">{models.length} models</span>
+                          <svg class="series-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" width="14" height="14">
+                            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                          </svg>
+                        </button>
+                        <div class="series-chips" hidden>
+                          {models.map((m: any) => (
+                            <a href={`/${category}/${brand}/${m.slug}/`} class="model-chip" data-name={m.name.toLowerCase()}>{m.name}</a>
+                          ))}
+                        </div>
+                      </div>
+                    )
+                  )}
+                </div>
+              </div>
+            </section>
+        )}
+
+        {article.when_to_call_technician_html && (
+          <section class="prose-section technician-box">
+            <h2>When to call a service technician</h2>
+            <div class="prose" set:html={article.when_to_call_technician_html} />
+          </section>
+        )}
+
+        <SparePartsSection />
+
+        {faqs.length > 0 && <FaqSection faqs={faqs} />}
+      </>
+    )}
+
+    {type === 'model' && model && (
+      <>
+        <!-- ── Model view ──────────────────────────────────── -->
+        <h1 class="page-h1">{brandLabel} {model.name} – Error Codes &amp; Troubleshooting</h1>
+
+        <div class="meta-bar">
+          {model.release_year && <span class="meta-chip">Released {model.release_year}</span>}
+          <span class="meta-chip">{categoryLabel}</span>
+        </div>
+
+        <p class="model-intro">
+          The table below lists all known error codes for the {brandLabel} {model.name}.
+          Click an error code to open the full step-by-step repair guide.
+        </p>
+
+        {modelErrorCodes.length > 0 ? (
+          <div class="ec-list">
+            {modelErrorCodes.map((row: any) => {
+              const ats: any[] = row.articles?.article_translations ?? []
+              const at = ats.find((t: any) => t.locale === locale && t.translation_status === 'published') ?? ats[0]
+              const badge = row.severity ? (severityBadge[row.severity] ?? null) : null
+              return (
+                <article class="error-code">
+                  <header class="error-header">
+                    <span class="error-id">{row.code}</span>
+                    {row.short_description
+                      ? <h2 class="error-title">{row.short_description}</h2>
+                      : <h2 class="error-title error-title--placeholder">Diagnostic title coming soon</h2>
+                    }
+                    {badge
+                      ? <span class={`severity ${badge.cls}`}>{badge.label}</span>
+                      : <span class="severity severity--placeholder">—</span>
+                    }
+                    {at?.slug
+                      ? <a class="error-link" href={`/${category}/${brand}/${at.slug}/`}>Full troubleshooting guide →</a>
+                      : <span class="error-link error-link--pending">Guide coming soon</span>
+                    }
+                  </header>
+                  <p class="error-description">{row.description}</p>
+                </article>
+              )
+            })}
+          </div>
+        ) : (
+          <p class="no-data">No error codes found yet for this model. Check back soon.</p>
+        )}
+
+        <SparePartsSection />
+      </>
+    )}
+
+    {!article && !model && (
+      <p class="no-data">Content not available yet. Please check back soon.</p>
+    )}
+  </div>
+</PageLayout>
+
+<script>
+  const toggle = document.getElementById('article-models-toggle')
+  const panel  = document.getElementById('article-models-panel')
+  toggle?.addEventListener('click', () => {
+    const opening = panel?.hasAttribute('hidden')
+    if (opening) {
+      panel?.removeAttribute('hidden')
+      toggle.setAttribute('aria-expanded', 'true')
+      toggle.classList.add('open')
+    } else {
+      panel?.setAttribute('hidden', '')
+      toggle.setAttribute('aria-expanded', 'false')
+      toggle.classList.remove('open')
+    }
+  })
+
+  // Series accordion toggle
+  document.querySelectorAll<HTMLButtonElement>('#article-model-grid .series-toggle').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const chips = btn.nextElementSibling as HTMLElement
+      const open = chips.hasAttribute('hidden')
+      chips.hidden = !open
+      btn.setAttribute('aria-expanded', String(open))
+      btn.classList.toggle('open', open)
+    })
+  })
+
+  // Search: filter chips, auto-expand matching groups, hide empty groups
+  const modelSearch = document.getElementById('article-model-search') as HTMLInputElement | null
+  modelSearch?.addEventListener('input', () => {
+    const q = modelSearch.value.toLowerCase().trim()
+
+    document.querySelectorAll<HTMLElement>('#article-model-grid .series-group').forEach((group) => {
+      const chips = group.querySelectorAll<HTMLElement>('.model-chip')
+      let anyMatch = false
+      chips.forEach((chip) => {
+        const match = !q || chip.dataset.name?.includes(q)
+        chip.style.display = match ? '' : 'none'
+        if (match) anyMatch = true
+      })
+      // Show/hide the whole group; auto-expand on match
+      group.style.display = anyMatch ? '' : 'none'
+      if (q && anyMatch) {
+        const panel = group.querySelector<HTMLElement>('.series-chips')!
+        const toggle = group.querySelector<HTMLButtonElement>('.series-toggle')!
+        panel.hidden = false
+        toggle.setAttribute('aria-expanded', 'true')
+        toggle.classList.add('open')
+      }
+    })
+
+    // Solo chips (series with 1 model)
+    document.querySelectorAll<HTMLElement>('#article-model-grid .series-solo').forEach((solo) => {
+      const chip = solo.querySelector<HTMLElement>('.model-chip')!
+      const match = !q || chip.dataset.name?.includes(q)
+      solo.style.display = match ? '' : 'none'
+    })
+  })
+</script>
+
+<style>
+  .page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 3rem;
+  }
+  .page-h1 {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 800;
+    line-height: 1.25;
+    color: #111827;
+    margin: 0 0 1rem;
+  }
+  .meta-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .meta-chip {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #374151;
+  }
+  .meta-chip.danger {
+    background: #fef2f2;
+    color: #dc2626;
+  }
+  .meta-chip.link {
+    text-decoration: none;
+    color: #2563eb;
+    background: #eff6ff;
+  }
+  .causes-section {
+    margin: 1.5rem 0;
+  }
+  .causes-section h2,
+  .prose-section h2,
+  .affected-models-section h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: #111827;
+  }
+  .causes-list {
+    padding-left: 1.25rem;
+    color: #374151;
+    line-height: 1.7;
+  }
+  .causes-list li {
+    margin-bottom: 0.6rem;
+  }
+  .cause-detail {
+    color: #6b7280;
+  }
+  .freq-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.1rem 0.45rem;
+    border-radius: 999px;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+  }
+  .freq-common {
+    background: #dcfce7;
+    color: #15803d;
+  }
+  .freq-occasional {
+    background: #fef3c7;
+    color: #b45309;
+  }
+  .freq-rare {
+    background: #f3f4f6;
+    color: #6b7280;
+  }
+  .affected-models-section {
+    margin: 2rem 0;
+  }
+  .models-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.875rem 1.25rem;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111827;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .models-toggle:hover {
+    background: #eff6ff;
+    border-color: #2563eb;
+    color: #1d4ed8;
+  }
+  .toggle-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    flex-shrink: 0;
+    transition: transform 0.2s;
+  }
+  .models-toggle.open .toggle-icon {
+    transform: rotate(180deg);
+  }
+  .models-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1rem 0 0.75rem;
+  }
+  .models-panel-sub {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: 0;
+  }
+  .model-search-input {
+    padding: 0.5rem 0.875rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #111827;
+    outline: none;
+    width: 200px;
+  }
+  .model-search-input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  }
+  /* Series accordion */
+  .series-group {
+    margin-bottom: 0.5rem;
+  }
+  .series-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    color: #374151;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.1s, border-color 0.1s;
+  }
+  .series-toggle:hover,
+  .series-toggle.open {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+    color: #1d4ed8;
+  }
+  .series-name {
+    font-weight: 600;
+  }
+  .series-count {
+    font-size: 0.8rem;
+    color: #9ca3af;
+    font-weight: 400;
+  }
+  .series-toggle.open .series-count { color: #93c5fd; }
+  .series-chevron {
+    margin-left: auto;
+    flex-shrink: 0;
+    transition: transform 0.2s;
+    opacity: 0.5;
+  }
+  .series-toggle.open .series-chevron {
+    transform: rotate(180deg);
+  }
+  .series-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.625rem 0.25rem 0.25rem;
+  }
+  .series-solo {
+    display: inline-block;
+    margin: 0 0.5rem 0.5rem 0;
+  }
+
+  .model-chip {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-family: monospace;
+    color: #374151;
+    text-decoration: none;
+    background: #f9fafb;
+    transition: border-color 0.1s, background 0.1s, color 0.1s;
+  }
+  .model-chip:hover {
+    border-color: #2563eb;
+    background: #eff6ff;
+    color: #1d4ed8;
+  }
+  .prose-section {
+    margin: 2rem 0;
+  }
+  .technician-box {
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+  }
+  .technician-box h2 {
+    color: #dc2626;
+  }
+  .prose :global(p) {
+    margin: 0 0 0.75rem;
+    color: #374151;
+    line-height: 1.7;
+  }
+  .model-intro {
+    color: #6b7280;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0 0 1.5rem;
+  }
+  /* ── Error code cards (same as brand page) ───────────────────────── */
+  .ec-list { display: flex; flex-direction: column; }
+
+  .error-code {
+    border: 1.5px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 1.125rem 1.375rem;
+    margin-bottom: 1.375rem;
+    background: #f8fafc;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .error-code:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  }
+
+  .error-header {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .error-id {
+    font-family: monospace;
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: #111827;
+    letter-spacing: 0.04em;
+  }
+
+  .error-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #374151;
+    margin: 0;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .error-title--placeholder { color: #d1d5db; font-weight: 400; font-style: italic; }
+
+  .severity {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .severity-easy     { background: #dcfce7; color: #15803d; }
+  .severity-medium   { background: #fef9c3; color: #a16207; }
+  .severity-advanced { background: #fee2e2; color: #b91c1c; }
+  .severity--placeholder { background: none; color: #d1d5db; }
+
+  .error-link {
+    margin-left: auto;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .error-link:hover { text-decoration: underline; }
+  .error-link--pending { color: #d1d5db; font-weight: 400; font-style: italic; cursor: default; }
+
+  .error-description {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 600px) {
+    .error-header { grid-template-columns: auto 1fr; grid-template-rows: auto auto; }
+    .error-title { white-space: normal; text-overflow: unset; overflow: visible; }
+    .severity { grid-row: 2; grid-column: 1; }
+    .error-link { grid-row: 2; grid-column: 2; justify-self: start; }
+  }
+  .no-data {
+    color: #6b7280;
+    font-style: italic;
+    margin-top: 2rem;
+  }
+</style>

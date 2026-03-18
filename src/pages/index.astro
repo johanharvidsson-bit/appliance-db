@@ -1,0 +1,187 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro'
+import { getCategories } from '~/lib/queries'
+import { siteConfig } from 'site-config'
+
+const { data: categories } = await getCategories()
+---
+
+<PageLayout
+  metadata={{
+    title: `${siteConfig.name} – Fix Appliance Error Codes Fast`,
+    description: siteConfig.meta.description,
+    ignoreTitleTemplate: true,
+  }}
+>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1 class="hero-h1">Fix Your Appliance Error Code – Fast</h1>
+      <p class="hero-sub">
+        Step-by-step troubleshooting guides for Samsung, Bosch, LG, Siemens and more.
+        Free DIY fixes written by appliance repair experts.
+      </p>
+    </div>
+  </section>
+
+  <!-- Category grid -->
+  <section class="categories-section">
+    <div class="section-inner">
+      <h2 class="section-h2">Browse by Appliance Type</h2>
+      {categories && categories.length > 0 ? (
+        <div class="cat-grid">
+          {categories.map((cat: any) => (
+            <a href={`/${cat.slug}/`} class="cat-card">
+              <span class="cat-name">{cat.name}</span>
+              <span class="cat-arrow">→</span>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <p class="no-data">Loading categories…</p>
+      )}
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="how-section">
+    <div class="section-inner">
+      <h2 class="section-h2">How It Works</h2>
+      <ol class="how-steps">
+        <li>
+          <span class="how-num">1</span>
+          <div>
+            <strong>Find your error code</strong>
+            <p>Select your appliance type and brand, then pick the error code showing on your display.</p>
+          </div>
+        </li>
+        <li>
+          <span class="how-num">2</span>
+          <div>
+            <strong>Read the quick fix</strong>
+            <p>Every guide starts with the fastest fix – usually takes under 5 minutes.</p>
+          </div>
+        </li>
+        <li>
+          <span class="how-num">3</span>
+          <div>
+            <strong>Follow the steps</strong>
+            <p>Detailed numbered steps walk you through diagnosing and fixing the problem yourself.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+</PageLayout>
+
+<style>
+  .hero {
+    background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%);
+    padding: 4rem 1rem 3rem;
+    text-align: center;
+  }
+  .hero-inner {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  .hero-h1 {
+    font-size: clamp(1.75rem, 4vw, 3rem);
+    font-weight: 900;
+    color: #111827;
+    margin: 0 0 1rem;
+    line-height: 1.2;
+  }
+  .hero-sub {
+    font-size: 1.1rem;
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0;
+  }
+  .categories-section,
+  .how-section {
+    padding: 3rem 1rem;
+  }
+  .how-section {
+    background: #f9fafb;
+  }
+  .section-inner {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .section-h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #111827;
+    margin: 0 0 1.5rem;
+  }
+  .cat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  .cat-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.25rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    text-decoration: none;
+    background: #fff;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .cat-card:hover {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  }
+  .cat-name {
+    font-weight: 600;
+    color: #111827;
+    font-size: 0.95rem;
+  }
+  .cat-arrow {
+    color: #2563eb;
+    font-size: 1.1rem;
+  }
+  .how-steps {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .how-steps li {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  .how-num {
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #2563eb;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+  }
+  .how-steps strong {
+    display: block;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 0.25rem;
+  }
+  .how-steps p {
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+  .no-data {
+    color: #6b7280;
+    font-style: italic;
+  }
+</style>

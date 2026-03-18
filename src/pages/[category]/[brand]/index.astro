@@ -1,0 +1,440 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro'
+import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
+import { getCategories, getBrandsByCategory, getErrorCodesByBrandCategory, getModelsByBrandCategory, getCategoryAlternates } from '~/lib/queries'
+import { buildBrandUrl } from '~/lib/locales'
+import { siteConfig } from 'site-config'
+
+export async function getStaticPaths() {
+  const { data: categories } = await getCategories()
+  if (!categories) return []
+
+  const paths: any[] = []
+  for (const cat of categories) {
+    const [{ data: brands }, alternates] = await Promise.all([
+      getBrandsByCategory(cat.slug),
+      getCategoryAlternates(cat.category_id),
+    ])
+    if (!brands) continue
+    for (const brand of brands) {
+      paths.push({
+        params: { category: cat.slug, brand: brand.slug },
+        props: { categoryName: cat.name, brandName: brand.name, categoryAlternates: alternates },
+      })
+    }
+  }
+  return paths
+}
+
+const { category, brand } = Astro.params as { category: string; brand: string }
+const { categoryName, brandName, categoryAlternates } = Astro.props as { categoryName: string; brandName: string; categoryAlternates: any[] }
+const siteUrl = `https://${siteConfig.domain}`
+const alternateUrls = (categoryAlternates ?? []).map((alt: any) => ({
+  locale: alt.locale,
+  url: buildBrandUrl(siteUrl, alt.locale, alt.slug, brand),
+}))
+
+const [{ data: errorCodes }, { data: models }] = await Promise.all([
+  getErrorCodesByBrandCategory(brand, category),
+  getModelsByBrandCategory(brand, category),
+])
+
+const categoryLabel = categoryName || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const brandLabel = brandName || brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+
+const breadcrumbs = [
+  { name: 'Home', url: siteUrl + '/' },
+  { name: categoryLabel, url: `${siteUrl}/${category}/` },
+  { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
+]
+
+const severityBadge: Record<string, { cls: string; label: string }> = {
+  easy:     { cls: 'severity-easy',     label: 'Easy' },
+  medium:   { cls: 'severity-medium',   label: 'Medium' },
+  advanced: { cls: 'severity-advanced', label: 'Advanced' },
+}
+---
+
+<PageLayout
+  currentLocale="en"
+  alternateUrls={alternateUrls}
+  metadata={{
+    title: `${brandLabel} ${categoryLabel} Error Codes & Models | ${siteConfig.name}`,
+    description: `All ${brandLabel} ${categoryLabel} error codes with step-by-step fixes, plus a full model list with troubleshooting guides.`,
+    canonical: `${siteUrl}/${category}/${brand}/`,
+    alternateUrls,
+  }}
+>
+  <div class="page-container">
+    <BreadcrumbNav items={breadcrumbs} />
+
+    <h1 class="page-h1">{brandLabel} {categoryLabel} Error Codes</h1>
+    <p class="intro">
+      Browse all known error codes for {brandLabel} {categoryLabel.toLowerCase()}s, then jump to your specific model below.
+    </p>
+
+    <!-- ── Section 1: Error codes ──────────────────────────────── -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-h2">Error Codes <span class="count">({errorCodes?.length ?? 0})</span></h2>
+        <input
+          id="ec-search"
+          type="search"
+          placeholder="Search codes…"
+          class="search-input"
+          autocomplete="off"
+        />
+      </div>
+
+      {errorCodes && errorCodes.length > 0 ? (
+        <div class="ec-list" id="ec-grid">
+          {errorCodes.map((row: any) => {
+            const ats: any[] = row.articles?.article_translations ?? []
+            const at = ats.find((t: any) => t.locale === 'en') ?? ats[0]
+            const badge = row.severity ? (severityBadge[row.severity] ?? null) : null
+            return (
+              <article
+                class="error-code"
+                data-code={row.code?.toLowerCase()}
+                data-text={row.short_description?.toLowerCase()}
+              >
+                <header class="error-header">
+                  <span class="error-id">{row.code}</span>
+                  {row.short_description
+                    ? <h2 class="error-title">{row.short_description}</h2>
+                    : <h2 class="error-title error-title--placeholder">Diagnostic title coming soon</h2>
+                  }
+                  {badge
+                    ? <span class={`severity ${badge.cls}`}>{badge.label}</span>
+                    : <span class="severity severity--placeholder">—</span>
+                  }
+                  {at?.slug
+                    ? <a class="error-link" href={`/${category}/${brand}/${at.slug}/`}>Full troubleshooting guide →</a>
+                    : <span class="error-link error-link--pending">Guide coming soon</span>
+                  }
+                </header>
+                <p class="error-description">{row.description}</p>
+              </article>
+            )
+          })}
+        </div>
+      ) : (
+        <p class="no-data">No error codes found yet. Check back soon.</p>
+      )}
+    </section>
+
+    <!-- ── Section 2: Models (collapsed by default) ─────────────── -->
+    {models && models.length > 0 && (
+      <section class="section">
+        <button class="models-toggle" id="models-toggle" aria-expanded="false">
+          Browse {brandLabel} {categoryLabel} models
+          <svg class="toggle-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>
+        </button>
+
+        <div class="models-panel" id="models-panel" hidden>
+          <div class="models-panel-header">
+            <p class="section-sub">Select your model to see error codes and troubleshooting guides.</p>
+            <input
+              id="model-search"
+              type="search"
+              placeholder="Search models…"
+              class="search-input"
+              autocomplete="off"
+            />
+          </div>
+          <div class="model-chips" id="model-grid">
+            {models.map((m: any) => (
+              <a
+                href={`/${category}/${brand}/${m.slug}/`}
+                class="model-chip"
+                data-name={m.name.toLowerCase()}
+              >
+                {m.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+  </div>
+</PageLayout>
+
+<script>
+  // Error code search
+  const ecSearch = document.getElementById('ec-search') as HTMLInputElement | null
+  ecSearch?.addEventListener('input', () => {
+    const q = ecSearch.value.toLowerCase().trim()
+    document.querySelectorAll<HTMLElement>('#ec-grid .error-code').forEach((card) => {
+      const match = !q || card.dataset.code?.includes(q) || card.dataset.text?.includes(q)
+      card.style.display = match ? '' : 'none'
+    })
+  })
+
+  // Models toggle
+  const toggle = document.getElementById('models-toggle')
+  const panel  = document.getElementById('models-panel')
+  toggle?.addEventListener('click', () => {
+    const open = panel?.hasAttribute('hidden')
+    if (open) {
+      panel?.removeAttribute('hidden')
+      toggle.setAttribute('aria-expanded', 'true')
+      toggle.classList.add('open')
+    } else {
+      panel?.setAttribute('hidden', '')
+      toggle.setAttribute('aria-expanded', 'false')
+      toggle.classList.remove('open')
+    }
+  })
+
+  // Model search (only wired up once panel exists in DOM)
+  const modelSearch = document.getElementById('model-search') as HTMLInputElement | null
+  modelSearch?.addEventListener('input', () => {
+    const q = modelSearch.value.toLowerCase().trim()
+    document.querySelectorAll<HTMLElement>('#model-grid .model-chip').forEach((chip) => {
+      chip.style.display = !q || chip.dataset.name?.includes(q) ? '' : 'none'
+    })
+  })
+</script>
+
+<style>
+  .page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 3rem;
+  }
+  .page-h1 {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 800;
+    color: #111827;
+    margin: 0 0 0.75rem;
+  }
+  .intro {
+    color: #6b7280;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  /* Sections */
+  .section {
+    margin-bottom: 3rem;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .section-h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+  }
+  .count {
+    font-weight: 400;
+    color: #9ca3af;
+    font-size: 1rem;
+  }
+  .section-sub {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: -0.5rem 0 1rem;
+  }
+  .search-input {
+    padding: 0.5rem 0.875rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #111827;
+    outline: none;
+    width: 200px;
+  }
+  .search-input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  }
+
+  /* ── Error code two-row entries ─────────────────────────────────── */
+  .ec-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .error-code {
+    border: 1.5px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 1.125rem 1.375rem;
+    margin-bottom: 1.375rem;
+    background: #f8fafc;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .error-code:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  }
+
+  /* Row 1 — four-column grid: code | title | badge | link */
+  .error-header {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .error-id {
+    font-family: monospace;
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: #111827;
+    letter-spacing: 0.04em;
+  }
+
+  .error-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #374151;
+    margin: 0;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .error-title--placeholder {
+    color: #d1d5db;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  @media (max-width: 600px) {
+    .error-header {
+      grid-template-columns: auto 1fr;
+      grid-template-rows: auto auto;
+    }
+    .error-title {
+      white-space: normal;
+      text-overflow: unset;
+      overflow: visible;
+    }
+    .severity { grid-row: 2; grid-column: 1; }
+    .error-link { grid-row: 2; grid-column: 2; justify-self: start; }
+  }
+
+  /* Severity badges */
+  .severity {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .severity-easy     { background: #dcfce7; color: #15803d; }
+  .severity-medium   { background: #fef9c3; color: #a16207; }
+  .severity-advanced { background: #fee2e2; color: #b91c1c; }
+  .severity--placeholder { background: none; color: #d1d5db; }
+
+  .error-link {
+    margin-left: auto;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .error-link:hover { text-decoration: underline; }
+  .error-link--pending {
+    color: #d1d5db;
+    font-weight: 400;
+    font-style: italic;
+    cursor: default;
+  }
+
+  /* Row 2 */
+  .error-description {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  /* Models toggle button */
+  .models-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.875rem 1.25rem;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111827;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .models-toggle:hover {
+    background: #eff6ff;
+    border-color: #2563eb;
+    color: #1d4ed8;
+  }
+  .toggle-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    flex-shrink: 0;
+    transition: transform 0.2s;
+  }
+  .models-toggle.open .toggle-icon {
+    transform: rotate(180deg);
+  }
+  .models-panel {
+    margin-top: 1rem;
+  }
+  .models-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Model chips */
+  .model-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .model-chip {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-family: monospace;
+    color: #374151;
+    text-decoration: none;
+    background: #f9fafb;
+    transition: border-color 0.1s, background 0.1s, color 0.1s;
+  }
+  .model-chip:hover {
+    border-color: #2563eb;
+    background: #eff6ff;
+    color: #1d4ed8;
+  }
+
+  .no-data {
+    color: #6b7280;
+    font-style: italic;
+  }
+</style>

@@ -108,12 +108,12 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
                     ? <span class={`severity ${badge.cls}`}>{badge.label}</span>
                     : <span class="severity severity--placeholder">—</span>
                   }
-                  {at?.slug
-                    ? <a class="error-link" href={`/${category}/${brand}/${at.slug}/`}>Full troubleshooting guide →</a>
-                    : <span class="error-link error-link--pending">Guide coming soon</span>
-                  }
                 </header>
                 <p class="error-description">{row.description}</p>
+                {at?.slug
+                  ? <a class="error-link" href={`/${category}/${brand}/${at.slug}/`}>Full troubleshooting guide →</a>
+                  : <span class="error-link error-link--pending">Guide coming soon</span>
+                }
               </article>
             )
           })}
@@ -277,10 +277,10 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
   }
 
-  /* Row 1 — four-column grid: code | title | badge | link */
+  /* Row 1 — three-column grid: code | title | badge */
   .error-header {
     display: grid;
-    grid-template-columns: auto 1fr auto auto;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
     gap: 0.75rem;
     margin-bottom: 0.625rem;
@@ -321,7 +321,6 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
       overflow: visible;
     }
     .severity { grid-row: 2; grid-column: 1; }
-    .error-link { grid-row: 2; grid-column: 2; justify-self: start; }
   }
 
   /* Severity badges */
@@ -341,13 +340,12 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
   .severity--placeholder { background: none; color: #d1d5db; }
 
   .error-link {
-    margin-left: auto;
+    display: inline-block;
+    margin-top: 0.625rem;
     font-size: 0.875rem;
     font-weight: 600;
     color: #2563eb;
     text-decoration: none;
-    white-space: nowrap;
-    flex-shrink: 0;
   }
   .error-link:hover { text-decoration: underline; }
   .error-link--pending {

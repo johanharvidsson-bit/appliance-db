@@ -2,6 +2,7 @@
 import PageLayout from '~/layouts/PageLayout.astro'
 import { getCategories } from '~/lib/queries'
 import { siteConfig } from 'site-config'
+import HomepageConfigurator from '~/components/HomepageConfigurator.astro'
 
 const { data: categories } = await getCategories()
 ---
@@ -16,11 +17,11 @@ const { data: categories } = await getCategories()
   <!-- Hero -->
   <section class="hero">
     <div class="hero-inner">
-      <h1 class="hero-h1">Fix Your Appliance Error Code – Fast</h1>
+      <h1 class="hero-h1">{siteConfig.name} – Fix Appliance Error Codes Fast</h1>
       <p class="hero-sub">
-        Step-by-step troubleshooting guides for Samsung, Bosch, LG, Siemens and more.
-        Free DIY fixes written by appliance repair experts.
+        Select your appliance and brand to find step-by-step repair guides.
       </p>
+      <HomepageConfigurator />
     </div>
   </section>
 
@@ -81,7 +82,7 @@ const { data: categories } = await getCategories()
     text-align: center;
   }
   .hero-inner {
-    max-width: 680px;
+    max-width: 860px;
     margin: 0 auto;
   }
   .hero-h1 {

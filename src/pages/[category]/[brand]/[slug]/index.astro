@@ -321,44 +321,79 @@ const metadata = type === 'article'
           <span class="meta-chip">{categoryLabel}</span>
         </div>
 
-        <p class="model-intro">
-          The table below lists all known error codes for the {brandLabel} {model.name}.
-          Click an error code to open the full step-by-step repair guide.
-        </p>
+        <!-- Contents -->
+        <nav class="contents-nav" aria-label="Page contents">
+          <p class="contents-label">Contents</p>
+          <ol class="contents-list">
+            <li><a href="#model-overview">Model overview</a></li>
+            <li><a href="#common-faults">Common faults</a></li>
+            <li><a href="#error-codes">Error codes</a></li>
+            <li><a href="#related-models">Related models</a></li>
+            <li><a href="#specification">Specification</a></li>
+            <li><a href="#spare-parts">Spare parts and service</a></li>
+          </ol>
+        </nav>
 
-        {modelErrorCodes.length > 0 ? (
-          <div class="ec-list">
-            {modelErrorCodes.map((row: any) => {
-              const ats: any[] = row.articles?.article_translations ?? []
-              const at = ats.find((t: any) => t.locale === locale && t.translation_status === 'published') ?? ats[0]
-              const badge = row.severity ? (severityBadge[row.severity] ?? null) : null
-              return (
-                <article class="error-code">
-                  <header class="error-header">
-                    <span class="error-id">{row.code}</span>
-                    {row.short_description
-                      ? <h2 class="error-title">{row.short_description}</h2>
-                      : <h2 class="error-title error-title--placeholder">Diagnostic title coming soon</h2>
-                    }
-                    {badge
-                      ? <span class={`severity ${badge.cls}`}>{badge.label}</span>
-                      : <span class="severity severity--placeholder">—</span>
-                    }
-                    {at?.slug
-                      ? <a class="error-link" href={`/${category}/${brand}/${at.slug}/`}>Full troubleshooting guide →</a>
-                      : <span class="error-link error-link--pending">Guide coming soon</span>
-                    }
-                  </header>
-                  <p class="error-description">{row.description}</p>
-                </article>
-              )
-            })}
-          </div>
-        ) : (
-          <p class="no-data">No error codes found yet for this model. Check back soon.</p>
-        )}
+        <!-- Model overview -->
+        <section class="model-section" id="model-overview">
+          <h2 class="model-h2">Model overview</h2>
+        </section>
 
-        <SparePartsSection />
+        <!-- Common faults -->
+        <section class="model-section" id="common-faults">
+          <h2 class="model-h2">Common faults</h2>
+        </section>
+
+        <!-- Error codes -->
+        <section class="model-section" id="error-codes">
+          <h2 class="model-h2">Error codes</h2>
+          {modelErrorCodes.length > 0 ? (
+            <div class="ec-list">
+              {modelErrorCodes.map((row: any) => {
+                const ats: any[] = row.articles?.article_translations ?? []
+                const at = ats.find((t: any) => t.locale === locale && t.translation_status === 'published') ?? ats[0]
+                const badge = row.severity ? (severityBadge[row.severity] ?? null) : null
+                return (
+                  <article class="error-code">
+                    <header class="error-header">
+                      <span class="error-id">{row.code}</span>
+                      {row.short_description
+                        ? <h3 class="error-title">{row.short_description}</h3>
+                        : <h3 class="error-title error-title--placeholder">Diagnostic title coming soon</h3>
+                      }
+                      {badge
+                        ? <span class={`severity ${badge.cls}`}>{badge.label}</span>
+                        : <span class="severity severity--placeholder">—</span>
+                      }
+                      {at?.slug
+                        ? <a class="error-link" href={`/${category}/${brand}/${at.slug}/`}>Full guide →</a>
+                        : <span class="error-link error-link--pending">Coming soon</span>
+                      }
+                    </header>
+                  </article>
+                )
+              })}
+            </div>
+          ) : (
+            <p class="no-data">No error codes found yet for this model. Check back soon.</p>
+          )}
+        </section>
+
+        <!-- Related models -->
+        <section class="model-section" id="related-models">
+          <h2 class="model-h2">Related models</h2>
+        </section>
+
+        <!-- Specification -->
+        <section class="model-section" id="specification">
+          <h2 class="model-h2">Specification</h2>
+        </section>
+
+        <!-- Spare parts and service -->
+        <section class="model-section" id="spare-parts">
+          <h2 class="model-h2">Spare parts and service</h2>
+          <SparePartsSection />
+        </section>
       </>
     )}
 
@@ -656,26 +691,62 @@ const metadata = type === 'article'
     color: #374151;
     line-height: 1.7;
   }
-  .model-intro {
-    color: #6b7280;
-    font-size: 0.95rem;
-    line-height: 1.6;
-    margin: 0 0 1.5rem;
+  /* ── Contents nav ─────────────────────────────────────────────────── */
+  .contents-nav {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0 2rem;
+    background: #f9fafb;
   }
-  /* ── Error code cards (same as brand page) ───────────────────────── */
-  .ec-list { display: flex; flex-direction: column; }
+  .contents-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #9ca3af;
+    margin: 0 0 0.5rem;
+  }
+  .contents-list {
+    margin: 0;
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .contents-list a {
+    font-size: 0.9rem;
+    color: #2563eb;
+    text-decoration: none;
+  }
+  .contents-list a:hover { text-decoration: underline; }
+
+  /* ── Model sections ────────────────────────────────────────────────── */
+  .model-section {
+    margin-bottom: 3rem;
+  }
+  .model-h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0 0 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e5e7eb;
+  }
+
+  /* ── Error code cards ─────────────────────────────────────────────── */
+  .ec-list { display: flex; flex-direction: column; gap: 0.625rem; }
 
   .error-code {
     border: 1.5px solid #e5e7eb;
     border-radius: 10px;
-    padding: 1.125rem 1.375rem;
-    margin-bottom: 1.375rem;
+    padding: 0.875rem 1.25rem;
     background: #f8fafc;
     transition: border-color 0.15s, box-shadow 0.15s;
   }
   .error-code:hover {
     border-color: #cbd5e1;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   }
 
   .error-header {
@@ -683,19 +754,18 @@ const metadata = type === 'article'
     grid-template-columns: auto 1fr auto auto;
     align-items: center;
     gap: 0.75rem;
-    margin-bottom: 0.625rem;
   }
 
   .error-id {
     font-family: monospace;
-    font-size: 1.375rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: #111827;
     letter-spacing: 0.04em;
   }
 
   .error-title {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 600;
     color: #374151;
     margin: 0;
@@ -722,8 +792,7 @@ const metadata = type === 'article'
   .severity--placeholder { background: none; color: #d1d5db; }
 
   .error-link {
-    margin-left: auto;
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     font-weight: 600;
     color: #2563eb;
     text-decoration: none;
@@ -732,13 +801,6 @@ const metadata = type === 'article'
   }
   .error-link:hover { text-decoration: underline; }
   .error-link--pending { color: #d1d5db; font-weight: 400; font-style: italic; cursor: default; }
-
-  .error-description {
-    font-size: 0.875rem;
-    color: #6b7280;
-    margin: 0;
-    line-height: 1.6;
-  }
 
   @media (max-width: 600px) {
     .error-header { grid-template-columns: auto 1fr; grid-template-rows: auto auto; }

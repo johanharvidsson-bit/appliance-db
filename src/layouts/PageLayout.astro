@@ -27,7 +27,7 @@ const mergedMetadata = alternateUrls.length > 0
     <Announcement />
   </slot>
   <slot name="header">
-    <Header {...headerData} isSticky showRssFeed showToggleTheme currentLocale={currentLocale} alternateUrls={alternateUrls} />
+    <Header {...headerData} isSticky currentLocale={currentLocale} alternateUrls={alternateUrls} />
   </slot>
   <main>
     <slot />

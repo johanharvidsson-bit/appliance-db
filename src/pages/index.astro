@@ -17,9 +17,12 @@ const { data: categories } = await getCategories()
   <!-- Hero -->
   <section class="hero">
     <div class="hero-inner">
-      <h1 class="hero-h1">{siteConfig.name} – Fix Appliance Error Codes Fast</h1>
+      <h1 class="hero-h1">{siteConfig.name}</h1>
+      <p class="hero-tagline">Fix Appliance Error Codes Fast</p>
       <p class="hero-sub">
-        Select your appliance and brand to find step-by-step repair guides.
+        Got an error code flashing on your appliance? Find your brand and model,
+        and get a clear step-by-step repair guide — written by appliance technicians,
+        free to use, no sign-up needed.
       </p>
       <HomepageConfigurator />
     </div>
@@ -92,11 +95,19 @@ const { data: categories } = await getCategories()
     margin: 0 0 1rem;
     line-height: 1.2;
   }
+  .hero-tagline {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #16a34a;
+    margin: 0 0 0.75rem;
+  }
   .hero-sub {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #4b5563;
     line-height: 1.7;
     margin: 0;
+    max-width: 560px;
+    margin-inline: auto;
   }
   .categories-section,
   .how-section {

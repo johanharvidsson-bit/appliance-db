@@ -1,5 +1,5 @@
 export const appliancefixConfig = {
-  name: 'ApplianceRepairBase',
+  name: 'Appliance Repair Base',
   domain: 'appliancerepairbase.com',
   site_id: 1,
   defaultLocale: 'en',

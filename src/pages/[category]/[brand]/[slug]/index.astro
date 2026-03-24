@@ -328,7 +328,7 @@ const metadata = type === 'article'
             <li><a href="#model-overview">Model overview</a></li>
             <li><a href="#common-faults">Common faults</a></li>
             <li><a href="#error-codes">Error codes</a></li>
-            <li><a href="#related-models">Related models</a></li>
+            <li><a href="#related-models">Model variants</a></li>
             <li><a href="#specification">Specification</a></li>
             <li><a href="#spare-parts">Spare parts and service</a></li>
           </ol>
@@ -354,8 +354,8 @@ const metadata = type === 'article'
                 const at = ats.find((t: any) => t.locale === locale && t.translation_status === 'published') ?? ats[0]
                 const badge = row.severity ? (severityBadge[row.severity] ?? null) : null
                 return (
-                  <article class="error-code">
-                    <header class="error-header">
+                  <details class="error-code">
+                    <summary class="error-header">
                       <span class="error-id">{row.code}</span>
                       {row.short_description
                         ? <h3 class="error-title">{row.short_description}</h3>
@@ -365,12 +365,18 @@ const metadata = type === 'article'
                         ? <span class={`severity ${badge.cls}`}>{badge.label}</span>
                         : <span class="severity severity--placeholder">—</span>
                       }
+                      <svg class="expand-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                      </svg>
+                    </summary>
+                    <div class="error-body">
+                      {row.description && <p class="error-description">{row.description}</p>}
                       {at?.slug
-                        ? <a class="error-link" href={`/${category}/${brand}/${at.slug}/`}>Full guide →</a>
-                        : <span class="error-link error-link--pending">Coming soon</span>
+                        ? <a class="error-link" href={`/${category}/${brand}/${at.slug}/`}>Full troubleshooting guide →</a>
+                        : <span class="error-link error-link--pending">Guide coming soon</span>
                       }
-                    </header>
-                  </article>
+                    </div>
+                  </details>
                 )
               })}
             </div>
@@ -379,9 +385,9 @@ const metadata = type === 'article'
           )}
         </section>
 
-        <!-- Related models -->
+        <!-- Model variants -->
         <section class="model-section" id="related-models">
-          <h2 class="model-h2">Related models</h2>
+          <h2 class="model-h2">Model variants</h2>
         </section>
 
         <!-- Specification -->
@@ -734,27 +740,34 @@ const metadata = type === 'article'
     border-bottom: 2px solid #e5e7eb;
   }
 
-  /* ── Error code cards ─────────────────────────────────────────────── */
-  .ec-list { display: flex; flex-direction: column; gap: 0.625rem; }
+  /* ── Error code cards (expandable) ───────────────────────────────── */
+  .ec-list { display: flex; flex-direction: column; gap: 0.5rem; }
 
   .error-code {
     border: 1.5px solid #e5e7eb;
     border-radius: 10px;
-    padding: 0.875rem 1.25rem;
     background: #f8fafc;
     transition: border-color 0.15s, box-shadow 0.15s;
+    overflow: hidden;
   }
-  .error-code:hover {
-    border-color: #cbd5e1;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  .error-code[open] {
+    border-color: #2563eb;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
   }
+  .error-code:hover { border-color: #cbd5e1; }
+  .error-code[open]:hover { border-color: #2563eb; }
 
   .error-header {
     display: grid;
     grid-template-columns: auto 1fr auto auto;
     align-items: center;
     gap: 0.75rem;
+    padding: 0.875rem 1.25rem;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
   }
+  .error-header::-webkit-details-marker { display: none; }
 
   .error-id {
     font-family: monospace;
@@ -791,22 +804,40 @@ const metadata = type === 'article'
   .severity-advanced { background: #fee2e2; color: #b91c1c; }
   .severity--placeholder { background: none; color: #d1d5db; }
 
+  .expand-icon {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+    color: #9ca3af;
+    transition: transform 0.2s;
+  }
+  .error-code[open] .expand-icon { transform: rotate(180deg); }
+
+  .error-body {
+    padding: 0 1.25rem 1rem;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .error-description {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: 0.75rem 0 0.75rem;
+    line-height: 1.6;
+  }
+
   .error-link {
-    font-size: 0.8rem;
+    display: inline-block;
+    font-size: 0.875rem;
     font-weight: 600;
     color: #2563eb;
     text-decoration: none;
-    white-space: nowrap;
-    flex-shrink: 0;
   }
   .error-link:hover { text-decoration: underline; }
   .error-link--pending { color: #d1d5db; font-weight: 400; font-style: italic; cursor: default; }
 
   @media (max-width: 600px) {
-    .error-header { grid-template-columns: auto 1fr; grid-template-rows: auto auto; }
+    .error-header { grid-template-columns: auto 1fr auto; }
     .error-title { white-space: normal; text-overflow: unset; overflow: visible; }
-    .severity { grid-row: 2; grid-column: 1; }
-    .error-link { grid-row: 2; grid-column: 2; justify-self: start; }
   }
   .no-data {
     color: #6b7280;

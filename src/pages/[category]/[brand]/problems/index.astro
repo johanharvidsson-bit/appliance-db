@@ -1,0 +1,201 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro'
+import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
+import { getBrandCategoryPairsWithFaults, getFaultsByBrandCategoryLocale, getCategoryAlternates, getBrandBySlug, getCategoryBySlug } from '~/lib/queries'
+import { buildFaultListingUrl } from '~/lib/locales'
+import { siteConfig } from 'site-config'
+
+export async function getStaticPaths() {
+  const pairs = await getBrandCategoryPairsWithFaults('en')
+  return pairs.map((p) => ({
+    params: { category: p.category_slug, brand: p.brand_slug },
+    props: {},
+  }))
+}
+
+const { category, brand } = Astro.params as { category: string; brand: string }
+const siteUrl = `https://${siteConfig.domain}`
+
+const [{ data: faults }, { data: categoryData }, { data: brandData }] = await Promise.all([
+  getFaultsByBrandCategoryLocale('en', brand, category),
+  getCategoryBySlug(category),
+  getBrandBySlug(brand),
+])
+
+const categoryLabel = categoryData?.name ?? category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const brandLabel = brandData?.name ?? brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+
+// Hreflang alternates
+const categoryAlternates = categoryData?.category_id
+  ? await getCategoryAlternates(categoryData.category_id)
+  : []
+const alternateUrls = (categoryAlternates as any[]).map((alt: any) => ({
+  locale: alt.locale,
+  url: buildFaultListingUrl(siteUrl, alt.locale, alt.slug, brand),
+}))
+
+const pageUrl = `${siteUrl}/${category}/${brand}/problems/`
+
+const breadcrumbs = [
+  { name: 'Home', url: siteUrl + '/' },
+  { name: categoryLabel, url: `${siteUrl}/${category}/` },
+  { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
+  { name: 'Common Problems', url: pageUrl },
+]
+
+const severityBadge: Record<string, { cls: string; label: string }> = {
+  easy:     { cls: 'severity-easy',     label: 'Easy' },
+  medium:   { cls: 'severity-medium',   label: 'Medium' },
+  advanced: { cls: 'severity-advanced', label: 'Advanced' },
+}
+---
+
+<PageLayout
+  currentLocale="en"
+  alternateUrls={alternateUrls}
+  metadata={{
+    title: `${brandLabel} ${categoryLabel} Common Problems & Fixes | ${siteConfig.name}`,
+    description: `The most common ${brandLabel} ${categoryLabel.toLowerCase()} problems explained — symptoms, causes, and step-by-step fixes.`,
+    canonical: pageUrl,
+    alternateUrls,
+  }}
+>
+  <div class="page-container">
+    <BreadcrumbNav items={breadcrumbs} />
+
+    <h1 class="page-h1">Common {brandLabel} {categoryLabel} Problems</h1>
+    <p class="intro">
+      Find your symptom below for a step-by-step diagnosis and repair guide.
+    </p>
+
+    {faults && faults.length > 0 ? (
+      <div class="fault-list">
+        {faults.map((row: any) => {
+          const ft = row.fault_translations?.[0]
+          const ats: any[] = row.articles?.article_translations ?? []
+          const at = ats.find((t: any) => t.locale === 'en' && t.translation_status === 'published') ?? ats[0]
+          const badge = row.severity ? (severityBadge[row.severity] ?? null) : null
+          return (
+            <article class="fault-card">
+              <div class="fault-header">
+                <h2 class="fault-name">{ft?.symptom_name ?? row.slug}</h2>
+                {badge && <span class={`severity ${badge.cls}`}>{badge.label}</span>}
+              </div>
+              {ft?.meta_description && (
+                <p class="fault-desc">{ft.meta_description}</p>
+              )}
+              {at?.slug
+                ? <a class="fault-link" href={`/${category}/${brand}/problems/${at.slug}/`}>Full troubleshooting guide →</a>
+                : <span class="fault-link fault-link--pending">Guide coming soon</span>
+              }
+            </article>
+          )
+        })}
+      </div>
+    ) : (
+      <p class="no-data">No common problems listed yet. Check back soon.</p>
+    )}
+
+    <div class="back-link-wrap">
+      <a href={`/${category}/${brand}/`} class="back-link">← Back to {brandLabel} {categoryLabel} error codes</a>
+    </div>
+  </div>
+</PageLayout>
+
+<style>
+  .page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 3rem;
+  }
+  .page-h1 {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 800;
+    color: #111827;
+    margin: 0 0 0.75rem;
+  }
+  .intro {
+    color: #6b7280;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  .fault-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .fault-card {
+    border: 1.5px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 1.125rem 1.375rem;
+    background: #f8fafc;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .fault-card:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  }
+  .fault-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .fault-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+    flex: 1;
+  }
+  .severity {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .severity-easy     { background: #dcfce7; color: #15803d; }
+  .severity-medium   { background: #fef9c3; color: #a16207; }
+  .severity-advanced { background: #fee2e2; color: #b91c1c; }
+  .fault-desc {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: 0 0 0.625rem;
+    line-height: 1.6;
+  }
+  .fault-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+  }
+  .fault-link:hover { text-decoration: underline; }
+  .fault-link--pending {
+    color: #d1d5db;
+    font-weight: 400;
+    font-style: italic;
+    cursor: default;
+  }
+  .no-data {
+    color: #6b7280;
+    font-style: italic;
+  }
+  .back-link-wrap {
+    margin-top: 3rem;
+  }
+  .back-link {
+    font-size: 0.875rem;
+    color: #6b7280;
+    text-decoration: none;
+  }
+  .back-link:hover {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+</style>

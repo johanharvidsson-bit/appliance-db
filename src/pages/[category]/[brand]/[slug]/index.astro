@@ -13,7 +13,7 @@ import QuickFixBox from '~/components/QuickFixBox.astro'
 import StepsSection from '~/components/StepsSection.astro'
 import FaqSection from '~/components/FaqSection.astro'
 import SparePartsSection from '~/components/SparePartsSection.astro'
-import { getArticle, getAllArticleSlugs, getAllModelSlugs, getModelBySlug, getErrorCodesByModel, getModelsByBrandCategory, getArticleAlternates } from '~/lib/queries'
+import { getArticle, getAllArticleSlugs, getAllModelSlugs, getModelBySlug, getErrorCodesByModel, getModelsByBrandCategory, getArticleAlternates, getFaultsByBrandCategoryId } from '~/lib/queries'
 import { parseJson } from '~/lib/utils'
 import { buildAlternateUrl } from '~/lib/locales'
 import { siteConfig } from 'site-config'
@@ -101,12 +101,17 @@ if (type === 'article') {
 // ── Model ────────────────────────────────────────────────────────────────────
 let model: any = null
 let modelErrorCodes: any[] = []
+let modelFaults: any[] = []
 if (type === 'model') {
   const { data } = await getModelBySlug(brand, category, slug)
   model = data
   if (model) {
-    const { data: ecData } = await getErrorCodesByModel(model.brand_id, model.category_id)
+    const [{ data: ecData }, { data: faultData }] = await Promise.all([
+      getErrorCodesByModel(model.brand_id, model.category_id),
+      getFaultsByBrandCategoryId(model.brand_id, model.category_id, locale),
+    ])
     modelErrorCodes = ecData ?? []
+    modelFaults = faultData ?? []
   }
 }
 
@@ -342,6 +347,32 @@ const metadata = type === 'article'
         <!-- Common faults -->
         <section class="model-section" id="common-faults">
           <h2 class="model-h2">Common faults</h2>
+          {modelFaults.length > 0 ? (
+            <div class="fault-list">
+              {modelFaults.map((row: any) => {
+                const ft = row.fault_translations?.[0]
+                const ats: any[] = row.articles?.article_translations ?? []
+                const at = ats.find((t: any) => t.locale === locale && t.translation_status === 'published') ?? ats[0]
+                const badge = row.severity ? (severityBadge[row.severity] ?? null) : null
+                return (
+                  <article class="fault-card">
+                    <div class="fault-card-header">
+                      <span class="fault-name">{ft?.symptom_name ?? row.slug}</span>
+                      {badge && <span class={`severity ${badge.cls}`}>{badge.label}</span>}
+                    </div>
+                    {ft?.meta_description && <p class="fault-desc">{ft.meta_description}</p>}
+                    {at?.slug
+                      ? <a class="fault-link" href={`/${category}/${brand}/problems/${at.slug}/`}>Full guide →</a>
+                      : <span class="fault-link fault-link--pending">Guide coming soon</span>
+                    }
+                  </article>
+                )
+              })}
+            </div>
+          ) : (
+            <p class="no-data">No common faults listed yet.</p>
+          )}
+          <a href={`/${category}/${brand}/problems/`} class="all-faults-link">See all {brandLabel} {categoryLabel} problems →</a>
         </section>
 
         <!-- Error codes -->
@@ -844,4 +875,65 @@ const metadata = type === 'article'
     font-style: italic;
     margin-top: 2rem;
   }
+
+  /* ── Fault cards (model page Common faults) ──────────────────────────── */
+  .fault-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .fault-card {
+    border: 1.5px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 0.875rem 1.125rem;
+    background: #f8fafc;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .fault-card:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  .fault-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    margin-bottom: 0.4rem;
+    flex-wrap: wrap;
+  }
+  .fault-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #111827;
+    flex: 1;
+  }
+  .fault-desc {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: 0 0 0.5rem;
+    line-height: 1.5;
+  }
+  .fault-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+  }
+  .fault-link:hover { text-decoration: underline; }
+  .fault-link--pending {
+    color: #d1d5db;
+    font-weight: 400;
+    font-style: italic;
+    cursor: default;
+  }
+  .all-faults-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+  }
+  .all-faults-link:hover { text-decoration: underline; }
 </style>

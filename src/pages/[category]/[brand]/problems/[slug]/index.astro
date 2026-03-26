@@ -1,0 +1,333 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro'
+import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
+import QuickFixBox from '~/components/QuickFixBox.astro'
+import StepsSection from '~/components/StepsSection.astro'
+import FaqSection from '~/components/FaqSection.astro'
+import SparePartsSection from '~/components/SparePartsSection.astro'
+import { getAllFaultArticleSlugs, getFaultArticle, getFaultArticleAlternates, getFaultErrorCodes } from '~/lib/queries'
+import { parseJson } from '~/lib/utils'
+import { buildFaultArticleUrl } from '~/lib/locales'
+import { siteConfig } from 'site-config'
+
+export async function getStaticPaths() {
+  const { data: articles } = await getAllFaultArticleSlugs('en')
+  if (!articles) return []
+  return articles.map((a: any) => ({
+    params: { category: a.category_slug, brand: a.brand_slug, slug: a.slug },
+    props: { articleId: a.article_id },
+  }))
+}
+
+const { category, brand, slug } = Astro.params as { category: string; brand: string; slug: string }
+const { articleId } = Astro.props as { articleId: number }
+const siteUrl = `https://${siteConfig.domain}`
+const pageUrl = `${siteUrl}/${category}/${brand}/problems/${slug}/`
+
+const { data: article } = await getFaultArticle('en', slug)
+
+const fault = (article?.articles as any)?.faults
+
+// Related error codes
+const relatedEcs: any[] = []
+if (fault?.id) {
+  const { data: ecRows } = await getFaultErrorCodes(fault.id, 'en')
+  if (ecRows) {
+    for (const row of ecRows) {
+      if (row.error_codes) relatedEcs.push(row.error_codes)
+    }
+  }
+}
+
+// Hreflang alternates
+const rawAlternates = articleId ? await getFaultArticleAlternates(articleId) : []
+const alternateUrls = rawAlternates.map((alt: any) => ({
+  locale: alt.locale,
+  url: buildFaultArticleUrl(siteUrl, alt),
+}))
+
+const quickFix: string = article?.quick_fix ?? ''
+const causesRaw = parseJson(article?.causes_json)
+const steps = parseJson(article?.steps_json).map((s: any) => ({
+  title: s.action ?? s.title ?? '',
+  instruction: s.detail ?? s.instruction ?? '',
+  warning: s.warning,
+  tip: s.tip,
+}))
+const faqs = parseJson(article?.faq_json).map((f: any) => ({
+  q: f.question ?? f.q ?? '',
+  a: f.answer ?? f.a ?? '',
+}))
+const updatedAt = article?.last_updated
+  ? new Date(article.last_updated).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })
+  : null
+
+// JSON-LD
+const stepsRaw = parseJson(article?.steps_json)
+const howToSchema = article && stepsRaw.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: article.h1,
+  description: article.meta_description,
+  step: stepsRaw.map((s: any) => ({
+    '@type': 'HowToStep',
+    name: s.action ?? s.title ?? '',
+    text: s.detail ?? s.instruction ?? '',
+  })),
+} : null
+
+const faqsRaw = parseJson(article?.faq_json)
+const faqSchema = faqsRaw.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqsRaw.map((f: any) => ({
+    '@type': 'Question',
+    name: f.question ?? f.q ?? '',
+    acceptedAnswer: { '@type': 'Answer', text: f.answer ?? f.a ?? '' },
+  })),
+} : null
+
+const categoryLabel = category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const brandLabel = fault?.brands?.name ?? brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+
+const currentYear = new Date().getFullYear()
+const breadcrumbs = [
+  { name: 'Home', url: siteUrl + '/' },
+  { name: categoryLabel, url: `${siteUrl}/${category}/` },
+  { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
+  { name: 'Common Problems', url: `${siteUrl}/${category}/${brand}/problems/` },
+  { name: article?.h1 ?? slug, url: pageUrl },
+]
+
+const severityBadge: Record<string, { cls: string; label: string }> = {
+  easy:     { cls: 'severity-easy',     label: 'Easy' },
+  medium:   { cls: 'severity-medium',   label: 'Medium' },
+  advanced: { cls: 'severity-advanced', label: 'Advanced' },
+}
+const badge = fault?.severity ? (severityBadge[fault.severity] ?? null) : null
+---
+
+<PageLayout
+  currentLocale="en"
+  alternateUrls={alternateUrls}
+  metadata={{
+    title: article?.title_tag ? `${article.title_tag} (${currentYear})` : (article?.h1 ?? slug),
+    description: article?.meta_description ?? siteConfig.meta.description,
+    canonical: pageUrl,
+    ignoreTitleTemplate: true,
+    alternateUrls,
+  }}
+>
+  <div class="page-container">
+    {howToSchema && (
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(howToSchema)} />
+    )}
+    {faqSchema && (
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(faqSchema)} />
+    )}
+    <BreadcrumbNav items={breadcrumbs} />
+
+    {article ? (
+      <>
+        <h1 class="page-h1">{article.h1}</h1>
+
+        <div class="meta-bar">
+          {fault?.brands?.name && <span class="meta-chip">{fault.brands.name}</span>}
+          {badge && <span class={`meta-chip severity-chip ${badge.cls}`}>{badge.label} fix</span>}
+          {updatedAt && <span class="meta-chip">Updated {updatedAt}</span>}
+        </div>
+
+        {quickFix && <QuickFixBox text={quickFix} />}
+
+        {article.intro_html && (
+          <section class="prose-section">
+            <h2>Fault description</h2>
+            <div class="prose" set:html={article.intro_html} />
+          </section>
+        )}
+
+        {causesRaw.length > 0 && (
+          <section class="causes-section">
+            <h2>Causes</h2>
+            <ul class="causes-list">
+              {causesRaw.map((c: any) => (
+                <li>
+                  <strong>{c.cause}</strong>
+                  {c.frequency && (
+                    <span class={`freq-badge freq-${c.frequency}`}>
+                      {c.frequency === 'common' ? 'Most common' : c.frequency === 'occasional' ? 'Occasional' : 'Rare'}
+                    </span>
+                  )}
+                  {c.detail && <span class="cause-detail"> — {c.detail}</span>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {steps.length > 0 && <StepsSection steps={steps} />}
+
+        {relatedEcs.length > 0 && (
+          <section class="related-ec-section">
+            <h2>Related error codes</h2>
+            <ul class="ec-chips">
+              {relatedEcs.map((ec: any) => {
+                const ats: any[] = ec.articles?.article_translations ?? []
+                const at = ats.find((t: any) => t.locale === 'en' && t.translation_status === 'published') ?? ats[0]
+                return (
+                  <li>
+                    {at?.slug
+                      ? <a href={`/${category}/${brand}/${at.slug}/`} class="ec-chip ec-chip--link">{ec.code}</a>
+                      : <span class="ec-chip">{ec.code}</span>
+                    }
+                    {ec.display_text && <span class="ec-label">{ec.display_text}</span>}
+                  </li>
+                )
+              })}
+            </ul>
+          </section>
+        )}
+
+        {article.when_to_call_technician_html && (
+          <section class="prose-section technician-box">
+            <h2>When to call a service technician</h2>
+            <div class="prose" set:html={article.when_to_call_technician_html} />
+          </section>
+        )}
+
+        {article.prevention_html && (
+          <section class="prose-section">
+            <h2>Prevention</h2>
+            <div class="prose" set:html={article.prevention_html.replace(/<!--\s*SPARE_PARTS_FAULT:[^>]*-->/g, '')} />
+          </section>
+        )}
+
+        <SparePartsSection />
+
+        {faqs.length > 0 && <FaqSection faqs={faqs} />}
+      </>
+    ) : (
+      <p class="no-data">Content not available yet. Please check back soon.</p>
+    )}
+  </div>
+</PageLayout>
+
+<style>
+  .page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 3rem;
+  }
+  .page-h1 {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 800;
+    line-height: 1.25;
+    color: #111827;
+    margin: 0 0 1rem;
+  }
+  .meta-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .meta-chip {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #374151;
+  }
+  .severity-chip.severity-easy     { background: #dcfce7; color: #15803d; }
+  .severity-chip.severity-medium   { background: #fef9c3; color: #a16207; }
+  .severity-chip.severity-advanced { background: #fee2e2; color: #b91c1c; }
+  .prose-section {
+    margin: 2rem 0;
+  }
+  .prose-section h2,
+  .causes-section h2,
+  .related-ec-section h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: #111827;
+  }
+  .technician-box {
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+  }
+  .technician-box h2 { color: #dc2626; }
+  .prose :global(p) {
+    margin: 0 0 0.75rem;
+    color: #374151;
+    line-height: 1.7;
+  }
+  .causes-section {
+    margin: 1.5rem 0;
+  }
+  .causes-list {
+    padding-left: 1.25rem;
+    color: #374151;
+    line-height: 1.7;
+  }
+  .causes-list li { margin-bottom: 0.6rem; }
+  .cause-detail { color: #6b7280; }
+  .freq-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.1rem 0.45rem;
+    border-radius: 999px;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+  }
+  .freq-common    { background: #dcfce7; color: #15803d; }
+  .freq-occasional { background: #fef3c7; color: #b45309; }
+  .freq-rare      { background: #f3f4f6; color: #6b7280; }
+  .related-ec-section {
+    margin: 2rem 0;
+  }
+  .ec-chips {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .ec-chips li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .ec-chip {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    background: #f3f4f6;
+    color: #374151;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .ec-chip--link {
+    color: #2563eb;
+    background: #eff6ff;
+  }
+  .ec-chip--link:hover { text-decoration: underline; }
+  .ec-label {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  .no-data {
+    color: #6b7280;
+    font-style: italic;
+    margin-top: 2rem;
+  }
+</style>

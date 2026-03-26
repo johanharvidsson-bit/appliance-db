@@ -1,7 +1,7 @@
 ---
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
-import { getCategories, getBrandsByCategory, getErrorCodesByBrandCategory, getModelsByBrandCategory, getCategoryAlternates } from '~/lib/queries'
+import { getCategories, getBrandsByCategory, getErrorCodesByBrandCategory, getModelsByBrandCategory, getCategoryAlternates, getFaultsByBrandCategoryLocale } from '~/lib/queries'
 import { buildBrandUrl } from '~/lib/locales'
 import { siteConfig } from 'site-config'
 
@@ -34,10 +34,12 @@ const alternateUrls = (categoryAlternates ?? []).map((alt: any) => ({
   url: buildBrandUrl(siteUrl, alt.locale, alt.slug, brand),
 }))
 
-const [{ data: errorCodes }, { data: models }] = await Promise.all([
+const [{ data: errorCodes }, { data: models }, { data: faults }] = await Promise.all([
   getErrorCodesByBrandCategory(brand, category),
   getModelsByBrandCategory(brand, category),
+  getFaultsByBrandCategoryLocale('en', brand, category),
 ])
+const hasFaults = faults && faults.length > 0
 
 const categoryLabel = categoryName || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
 const brandLabel = brandName || brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
@@ -72,6 +74,17 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
     <p class="intro">
       Browse all known error codes for {brandLabel} {categoryLabel.toLowerCase()}s, then jump to your specific model below.
     </p>
+
+    <!-- ── Common problems callout ─────────────────────────────── -->
+    {hasFaults && (
+      <a href={`/${category}/${brand}/problems/`} class="problems-callout">
+        <span class="problems-callout-icon" aria-hidden="true">⚠</span>
+        <span class="problems-callout-text">
+          <strong>No error code?</strong> Browse symptom-based guides for common {brandLabel} {categoryLabel.toLowerCase()} problems.
+        </span>
+        <span class="problems-callout-arrow">→</span>
+      </a>
+    )}
 
     <!-- ── Section 1: Error codes ──────────────────────────────── -->
     <section class="section">
@@ -214,6 +227,45 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
     color: #6b7280;
     margin-bottom: 2rem;
     line-height: 1.6;
+  }
+
+  /* Common problems callout */
+  .problems-callout {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.875rem 1.125rem;
+    margin-bottom: 2rem;
+    border: 1.5px solid #fcd34d;
+    border-radius: 10px;
+    background: #fffbeb;
+    text-decoration: none;
+    color: #111827;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .problems-callout:hover {
+    border-color: #f59e0b;
+    background: #fef3c7;
+  }
+  .problems-callout-icon {
+    font-size: 1.1rem;
+    color: #d97706;
+    flex-shrink: 0;
+  }
+  .problems-callout-text {
+    flex: 1;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #374151;
+  }
+  .problems-callout-text strong {
+    color: #111827;
+  }
+  .problems-callout-arrow {
+    font-size: 1rem;
+    color: #d97706;
+    flex-shrink: 0;
+    font-weight: 700;
   }
 
   /* Sections */

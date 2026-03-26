@@ -47,3 +47,23 @@ export function buildBrandUrl(siteUrl: string, locale: string, categorySlug: str
     ? `${siteUrl}/${categorySlug}/${brandSlug}/`
     : `${siteUrl}/${locale}/${categorySlug}/${brandSlug}/`
 }
+
+/** Build URL for a fault listing page. */
+export function buildFaultListingUrl(
+  siteUrl: string,
+  locale: string,
+  categorySlug: string,
+  brandSlug: string
+): string {
+  const prefix = locale === 'en' ? '' : `/${locale}`
+  return `${siteUrl}${prefix}/${categorySlug}/${brandSlug}/problems/`
+}
+
+/** Build hreflang URL for a fault article alternate. */
+export function buildFaultArticleUrl(
+  siteUrl: string,
+  alt: { locale: string; category_slug: string; brand_slug: string; slug: string }
+): string {
+  const prefix = alt.locale === 'en' ? '' : `/${alt.locale}`
+  return `${siteUrl}${prefix}/${alt.category_slug}/${alt.brand_slug}/problems/${alt.slug}/`
+}

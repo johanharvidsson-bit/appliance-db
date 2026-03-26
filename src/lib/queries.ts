@@ -356,6 +356,258 @@ export async function getArticleAlternates(articleId: number) {
   }).filter((a: any) => a.slug && a.brand_slug && a.category_slug)
 }
 
+// ── Faults ────────────────────────────────────────────────────────────────────
+
+// Internal: resolve brand_id + category_id → brand/category slugs for a set of pairs.
+async function resolveBrandCategorySlugs(
+  pairs: { brand_id: number; category_id: number }[],
+  locale: string
+): Promise<{ brand_id: number; category_id: number; brand_slug: string; category_slug: string }[]> {
+  if (pairs.length === 0) return []
+  const brandIds = [...new Set(pairs.map((p) => p.brand_id))]
+  const catIds = [...new Set(pairs.map((p) => p.category_id))]
+
+  const [brandsResult, catsResult] = await Promise.all([
+    supabase.from('brands').select('id, slug').in('id', brandIds).eq('is_active', true),
+    locale === 'en'
+      ? supabase.from('categories').select('id, slug_en').in('id', catIds)
+      : supabase.from('category_translations').select('category_id, slug').eq('locale', locale).in('category_id', catIds),
+  ])
+
+  const brandMap = new Map<number, string>()
+  for (const b of brandsResult.data ?? []) brandMap.set(b.id, b.slug)
+
+  const catMap = new Map<number, string>()
+  if (locale === 'en') {
+    for (const c of catsResult.data ?? []) catMap.set((c as any).id, (c as any).slug_en)
+  } else {
+    for (const c of catsResult.data ?? []) catMap.set((c as any).category_id, (c as any).slug)
+  }
+
+  return pairs
+    .map((p) => ({
+      brand_id: p.brand_id,
+      category_id: p.category_id,
+      brand_slug: brandMap.get(p.brand_id) ?? '',
+      category_slug: catMap.get(p.category_id) ?? '',
+    }))
+    .filter((p) => p.brand_slug && p.category_slug)
+}
+
+/**
+ * Returns brand+category combos that have faults, with locale-specific category slugs.
+ * Used by getStaticPaths for fault listing pages.
+ * Avoids FK joins from faults → brands/categories (those may not be registered in PostgREST).
+ */
+export async function getBrandCategoryPairsWithFaults(locale: string) {
+  const { data: rows } = await supabase.from('faults').select('brand_id, category_id')
+  if (!rows || rows.length === 0) return []
+
+  const seen = new Set<string>()
+  const uniquePairs: { brand_id: number; category_id: number }[] = []
+  for (const row of rows) {
+    const key = `${row.brand_id}-${row.category_id}`
+    if (!seen.has(key)) { seen.add(key); uniquePairs.push(row) }
+  }
+
+  return resolveBrandCategorySlugs(uniquePairs, locale)
+}
+
+/**
+ * Faults for a model page's "Common faults" section.
+ * brand_id and category_id are integers (already resolved from the model row).
+ */
+export async function getFaultsByBrandCategoryId(brandId: number, categoryId: number, locale: string) {
+  const { data, error } = await supabase
+    .from('faults')
+    .select(`
+      id, slug, severity, has_error_code,
+      fault_translations ( symptom_name, meta_description, locale ),
+      articles ( article_translations ( slug, locale, translation_status ) )
+    `)
+    .eq('brand_id', brandId)
+    .eq('category_id', categoryId)
+    .order('id')
+
+  if (!data) return { data: [], error }
+
+  // Filter translations client-side since !inner + .eq on locale can fail silently
+  const shaped = data.map((row: any) => ({
+    ...row,
+    fault_translations: (row.fault_translations ?? []).filter((t: any) => t.locale === locale),
+  })).filter((row: any) => row.fault_translations.length > 0)
+
+  return { data: shaped, error: null }
+}
+
+/**
+ * Faults for a fault listing page (resolves brand+category from slugs).
+ */
+export async function getFaultsByBrandCategoryLocale(locale: string, brandSlug: string, categorySlug: string) {
+  const [brandId, catId] = await Promise.all([
+    getBrandId(brandSlug),
+    getCategoryIdByLocaleSlug(locale, categorySlug),
+  ])
+  if (!brandId || !catId) return { data: [], error: null }
+
+  const { data, error } = await supabase
+    .from('faults')
+    .select(`
+      id, slug, severity, has_error_code,
+      fault_translations ( symptom_name, meta_description, locale ),
+      articles ( article_translations ( slug, locale, translation_status ) )
+    `)
+    .eq('brand_id', brandId)
+    .eq('category_id', catId)
+    .order('id')
+
+  if (!data) return { data: [], error }
+
+  const shaped = data.map((row: any) => ({
+    ...row,
+    fault_translations: (row.fault_translations ?? []).filter((t: any) => t.locale === locale),
+  })).filter((row: any) => row.fault_translations.length > 0)
+
+  return { data: shaped, error: null }
+}
+
+/**
+ * All published fault article slugs for a given locale (for getStaticPaths).
+ * Returns { slug, brand_slug, category_slug, article_id }.
+ */
+export async function getAllFaultArticleSlugs(locale: string) {
+  // Step 1: get published fault article translations with their article row
+  const { data: atRows } = await supabase
+    .from('article_translations')
+    .select('slug, articles!inner ( id, article_type, fault_id )')
+    .eq('locale', locale)
+    .eq('translation_status', 'published')
+    .eq('articles.article_type', 'fault')
+
+  if (!atRows || atRows.length === 0) return { data: [], error: null }
+
+  // Step 2: collect unique fault_ids
+  const faultIds = [...new Set((atRows as any[]).map((r: any) => r.articles?.fault_id).filter(Boolean))]
+  if (faultIds.length === 0) return { data: [], error: null }
+
+  // Step 3: look up brand_id + category_id for each fault
+  const { data: faultRows } = await supabase
+    .from('faults').select('id, brand_id, category_id').in('id', faultIds)
+  const faultMap = new Map<number, { brand_id: number; category_id: number }>()
+  for (const f of faultRows ?? []) faultMap.set(f.id, { brand_id: f.brand_id, category_id: f.category_id })
+
+  // Step 4: resolve to slugs
+  const pairs = [...faultMap.values()]
+  const resolved = await resolveBrandCategorySlugs(
+    // dedupe
+    [...new Map(pairs.map((p) => [`${p.brand_id}-${p.category_id}`, p])).values()],
+    locale
+  )
+  const pairSlugMap = new Map<string, { brand_slug: string; category_slug: string }>()
+  for (const r of resolved) pairSlugMap.set(`${r.brand_id}-${r.category_id}`, r)
+
+  const shaped = (atRows as any[]).map((at: any) => {
+    const faultId = at.articles?.fault_id
+    const fault = faultId ? faultMap.get(faultId) : null
+    if (!fault) return null
+    const slugs = pairSlugMap.get(`${fault.brand_id}-${fault.category_id}`)
+    if (!slugs) return null
+    return {
+      slug: at.slug as string,
+      brand_slug: slugs.brand_slug,
+      category_slug: slugs.category_slug,
+      article_id: at.articles?.id as number,
+    }
+  }).filter((a): a is NonNullable<typeof a> => !!a && !!a.slug && !!a.brand_slug && !!a.category_slug)
+
+  return { data: shaped, error: null }
+}
+
+/**
+ * Full fault article content for a given locale + slug.
+ * Omits brand/category joins from faults (those FKs may not be in PostgREST).
+ */
+export async function getFaultArticle(locale: string, slug: string) {
+  return supabase
+    .from('article_translations')
+    .select(`
+      slug, title_tag, meta_description, h1,
+      quick_fix, intro_html,
+      causes_json, steps_json, faq_json,
+      prevention_html, when_to_call_technician_html,
+      last_updated,
+      articles (
+        id,
+        faults ( id, slug, severity, has_error_code )
+      )
+    `)
+    .eq('locale', locale)
+    .eq('slug', slug)
+    .eq('translation_status', 'published')
+    .single()
+}
+
+/**
+ * All published locale translations for a fault article (for hreflang).
+ */
+export async function getFaultArticleAlternates(articleId: number) {
+  // Step 1: get translations + fault_id
+  const { data: atRows } = await supabase
+    .from('article_translations')
+    .select('slug, locale, articles!inner ( fault_id )')
+    .eq('article_id', articleId)
+    .eq('translation_status', 'published')
+
+  if (!atRows || atRows.length === 0) return []
+
+  const faultId = (atRows[0] as any).articles?.fault_id
+  if (!faultId) return []
+
+  // Step 2: get brand_id + category_id from fault
+  const { data: faultRow } = await supabase
+    .from('faults').select('brand_id, category_id').eq('id', faultId).single()
+  if (!faultRow) return []
+
+  // Step 3: resolve slugs for all locales present
+  const locales = [...new Set((atRows as any[]).map((r: any) => r.locale as string))]
+  const brandMap = new Map<number, string>()
+  const { data: brandRow } = await supabase.from('brands').select('id, slug').eq('id', faultRow.brand_id).single()
+  if (brandRow) brandMap.set(brandRow.id, brandRow.slug)
+
+  const catSlugMap = new Map<string, string>()
+  const { data: catEN } = await supabase.from('categories').select('slug_en').eq('id', faultRow.category_id).single()
+  if (catEN) catSlugMap.set('en', catEN.slug_en)
+  const nonEnLocales = locales.filter((l) => l !== 'en')
+  if (nonEnLocales.length > 0) {
+    const { data: catTrans } = await supabase
+      .from('category_translations').select('locale, slug')
+      .eq('category_id', faultRow.category_id).in('locale', nonEnLocales)
+    for (const ct of catTrans ?? []) catSlugMap.set(ct.locale, ct.slug)
+  }
+
+  return (atRows as any[]).map((at: any) => ({
+    locale: at.locale as string,
+    slug: at.slug as string,
+    brand_slug: brandMap.get(faultRow.brand_id) ?? '',
+    category_slug: catSlugMap.get(at.locale) ?? catSlugMap.get('en') ?? '',
+  })).filter((a: any) => a.slug && a.brand_slug && a.category_slug)
+}
+
+/**
+ * Error codes linked to a fault via fault_error_code_map (for "Related error codes" section).
+ */
+export async function getFaultErrorCodes(faultId: number, locale: string) {
+  return supabase
+    .from('fault_error_code_map')
+    .select(`
+      error_codes (
+        code, display_text,
+        articles ( article_translations ( slug, locale, translation_status ) )
+      )
+    `)
+    .eq('fault_id', faultId)
+}
+
 export async function getRelatedArticles(excludeSlug: string, limit = 5) {
   return supabase
     .from('article_translations')

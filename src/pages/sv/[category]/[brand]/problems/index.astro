@@ -73,8 +73,6 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
       <div class="fault-list">
         {faults.map((row: any) => {
           const ft = row.fault_translations?.[0]
-          const ats: any[] = row.articles?.article_translations ?? []
-          const at = ats.find((t: any) => t.locale === locale && t.translation_status === 'published') ?? ats[0]
           const badge = row.severity ? (severityBadge[row.severity] ?? null) : null
           return (
             <article class="fault-card">
@@ -85,8 +83,8 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
               {ft?.meta_description && (
                 <p class="fault-desc">{ft.meta_description}</p>
               )}
-              {at?.slug
-                ? <a class="fault-link" href={`/${locale}/${category}/${brand}/problems/${at.slug}/`}>Fullständig felsökningsguide →</a>
+              {row.article_slug
+                ? <a class="fault-link" href={`/${locale}/${category}/${brand}/problems/${row.article_slug}/`}>Fullständig felsökningsguide →</a>
                 : <span class="fault-link fault-link--pending">Guide kommer snart</span>
               }
             </article>

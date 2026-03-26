@@ -351,8 +351,6 @@ const metadata = type === 'article'
             <div class="fault-list">
               {modelFaults.map((row: any) => {
                 const ft = row.fault_translations?.[0]
-                const ats: any[] = row.articles?.article_translations ?? []
-                const at = ats.find((t: any) => t.locale === locale && t.translation_status === 'published') ?? ats[0]
                 const badge = row.severity ? (severityBadge[row.severity] ?? null) : null
                 return (
                   <article class="fault-card">
@@ -361,8 +359,8 @@ const metadata = type === 'article'
                       {badge && <span class={`severity ${badge.cls}`}>{badge.label}</span>}
                     </div>
                     {ft?.meta_description && <p class="fault-desc">{ft.meta_description}</p>}
-                    {at?.slug
-                      ? <a class="fault-link" href={`/${category}/${brand}/problems/${at.slug}/`}>Full guide →</a>
+                    {row.article_slug
+                      ? <a class="fault-link" href={`/${category}/${brand}/problems/${row.article_slug}/`}>Full guide →</a>
                       : <span class="fault-link fault-link--pending">Guide coming soon</span>
                     }
                   </article>

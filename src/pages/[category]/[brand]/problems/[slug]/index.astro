@@ -5,7 +5,7 @@ import QuickFixBox from '~/components/QuickFixBox.astro'
 import StepsSection from '~/components/StepsSection.astro'
 import FaqSection from '~/components/FaqSection.astro'
 import SparePartsSection from '~/components/SparePartsSection.astro'
-import { getAllFaultArticleSlugs, getFaultArticle, getFaultArticleAlternates, getFaultErrorCodes } from '~/lib/queries'
+import { getAllFaultArticleSlugs, getFaultArticle, getFaultById, getFaultArticleAlternates, getFaultErrorCodes } from '~/lib/queries'
 import { parseJson } from '~/lib/utils'
 import { buildFaultArticleUrl } from '~/lib/locales'
 import { siteConfig } from 'site-config'
@@ -26,17 +26,18 @@ const pageUrl = `${siteUrl}/${category}/${brand}/problems/${slug}/`
 
 const { data: article } = await getFaultArticle('en', slug)
 
-const fault = (article?.articles as any)?.faults
+const faultId: number | null = (article?.articles as any)?.fault_id ?? null
 
-// Related error codes
+// Fetch fault metadata + related error codes in parallel
+const [faultResult, relatedEcsRaw] = await Promise.all([
+  faultId ? getFaultById(faultId) : Promise.resolve({ data: null }),
+  faultId ? getFaultErrorCodes(faultId, 'en') : Promise.resolve({ data: [] }),
+])
+const fault = faultResult.data
+
 const relatedEcs: any[] = []
-if (fault?.id) {
-  const { data: ecRows } = await getFaultErrorCodes(fault.id, 'en')
-  if (ecRows) {
-    for (const row of ecRows) {
-      if (row.error_codes) relatedEcs.push(row.error_codes)
-    }
-  }
+for (const row of (relatedEcsRaw.data ?? [])) {
+  if (row.error_codes) relatedEcs.push(row.error_codes)
 }
 
 // Hreflang alternates

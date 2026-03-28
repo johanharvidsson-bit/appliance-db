@@ -540,7 +540,8 @@ export async function getAllFaultArticleSlugs(locale: string) {
 
 /**
  * Full fault article content for a given locale + slug.
- * Omits brand/category joins from faults (those FKs may not be in PostgREST).
+ * Only selects articles.id and articles.fault_id (both plain columns, no nested FK joins)
+ * to avoid PostgREST errors from unregistered articles→faults FK.
  */
 export async function getFaultArticle(locale: string, slug: string) {
   return supabase
@@ -551,14 +552,20 @@ export async function getFaultArticle(locale: string, slug: string) {
       causes_json, steps_json, faq_json,
       prevention_html, when_to_call_technician_html,
       last_updated,
-      articles (
-        id,
-        faults ( id, slug, severity, has_error_code )
-      )
+      articles ( id, fault_id )
     `)
     .eq('locale', locale)
     .eq('slug', slug)
     .eq('translation_status', 'published')
+    .single()
+}
+
+/** Fault metadata (severity, has_error_code) for a fault article's meta bar. */
+export async function getFaultById(faultId: number) {
+  return supabase
+    .from('faults')
+    .select('id, slug, severity, has_error_code')
+    .eq('id', faultId)
     .single()
 }
 

@@ -543,7 +543,7 @@ export async function getAllFaultArticleSlugs(locale: string) {
  * Only selects articles.id and articles.fault_id (both plain columns, no nested FK joins)
  * to avoid PostgREST errors from unregistered articles→faults FK.
  */
-export async function getFaultArticle(locale: string, slug: string) {
+export async function getFaultArticle(locale: string, articleId: number) {
   return supabase
     .from('article_translations')
     .select(`
@@ -554,7 +554,7 @@ export async function getFaultArticle(locale: string, slug: string) {
       last_updated
     `)
     .eq('locale', locale)
-    .eq('slug', slug)
+    .eq('article_id', articleId)
     .eq('translation_status', 'published')
     .single()
 }

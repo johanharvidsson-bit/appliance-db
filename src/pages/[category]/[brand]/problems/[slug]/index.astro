@@ -24,7 +24,7 @@ const { articleId } = Astro.props as { articleId: number }
 const siteUrl = `https://${siteConfig.domain}`
 const pageUrl = `${siteUrl}/${category}/${brand}/problems/${slug}/`
 
-const { data: article } = await getFaultArticle('en', slug)
+const { data: article } = await getFaultArticle('en', articleId)
 
 const faultId: number | null = await getArticleFaultId(articleId)
 

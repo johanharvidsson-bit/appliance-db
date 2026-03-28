@@ -183,6 +183,11 @@ export async function getErrorCodesByModel(brandId: number, categoryId: number, 
 
 // ── Articles ──────────────────────────────────────────────────────────────────
 
+// EN: published only. Other locales: also serve machine-translated 'pending' content.
+function publishedStatuses(locale: string): string[] {
+  return locale === 'en' ? ['published'] : ['published', 'pending']
+}
+
 export async function getArticle(locale: string, slug: string) {
   return supabase
     .from('article_translations')
@@ -204,7 +209,7 @@ export async function getArticle(locale: string, slug: string) {
     `)
     .eq('locale', locale)
     .eq('slug', slug)
-    .eq('translation_status', 'published')
+    .in('translation_status', publishedStatuses(locale))
     .single()
 }
 
@@ -222,7 +227,7 @@ export async function getAllArticleSlugs(locale: string) {
       )
     `)
     .eq('locale', locale)
-    .eq('translation_status', 'published')
+    .in('translation_status', publishedStatuses(locale))
 
   // Reshape to { slug, brand_slug, category_slug, article_id }
   const shaped = (data ?? []).map((at: any) => {
@@ -342,7 +347,7 @@ export async function getArticleAlternates(articleId: number) {
       )
     `)
     .eq('article_id', articleId)
-    .eq('translation_status', 'published')
+    .in('translation_status', ['published', 'pending'])
 
   return (data ?? []).map((at: any) => {
     const ec = at.articles?.error_codes
@@ -426,10 +431,11 @@ async function attachFaultArticleSlugs(faults: any[], locale: string): Promise<a
     .eq('article_type', 'fault')
 
   // Build map: fault_id → article_translation for the given locale
+  const allowed = publishedStatuses(locale)
   const slugMap = new Map<number, string>()
   for (const art of artRows ?? []) {
     const ats: any[] = art.article_translations ?? []
-    const at = ats.find((t: any) => t.locale === locale && t.translation_status === 'published')
+    const at = ats.find((t: any) => t.locale === locale && allowed.includes(t.translation_status))
             ?? ats.find((t: any) => t.locale === 'en'    && t.translation_status === 'published')
     if (at?.slug) slugMap.set(art.fault_id, at.slug)
   }
@@ -491,12 +497,12 @@ export async function getFaultsByBrandCategoryLocale(locale: string, brandSlug: 
  * Returns { slug, brand_slug, category_slug, article_id }.
  */
 export async function getAllFaultArticleSlugs(locale: string) {
-  // Step 1: get published fault article translations with their article row
+  // Step 1: get published/pending fault article translations with their article row
   const { data: atRows } = await supabase
     .from('article_translations')
     .select('slug, articles!inner ( id, article_type, fault_id )')
     .eq('locale', locale)
-    .eq('translation_status', 'published')
+    .in('translation_status', publishedStatuses(locale))
     .eq('articles.article_type', 'fault')
 
   if (!atRows || atRows.length === 0) return { data: [], error: null }
@@ -555,7 +561,7 @@ export async function getFaultArticle(locale: string, articleId: number) {
     `)
     .eq('locale', locale)
     .eq('article_id', articleId)
-    .eq('translation_status', 'published')
+    .in('translation_status', publishedStatuses(locale))
     .single()
 }
 
@@ -587,7 +593,7 @@ export async function getFaultArticleAlternates(articleId: number) {
     .from('article_translations')
     .select('slug, locale, articles!inner ( fault_id )')
     .eq('article_id', articleId)
-    .eq('translation_status', 'published')
+    .in('translation_status', ['published', 'pending'])
 
   if (!atRows || atRows.length === 0) return []
 

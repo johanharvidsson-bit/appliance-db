@@ -7,14 +7,6 @@ const { specs, locale } = Astro.props
 
 const isEn = locale === 'en'
 
-const headings: Record<string, string> = {
-  en: 'Specifications',
-  sv: 'Specifikationer',
-  de: 'Technische Daten',
-  fr: 'Caractéristiques',
-}
-const heading = headings[locale] ?? headings.en
-
 type Field = 'capacity_kg' | 'spin_speed_rpm' | 'energy_class' | 'width_mm' | 'height_mm' | 'depth_mm' | 'noise_spinning_db' | 'energy_consumption_kwh' | 'water_consumption_l' | 'door_type'
 
 const fieldLabels: Record<Field, Record<string, string>> = {
@@ -93,31 +85,19 @@ if (specs.door_type != null) {
 ---
 
 {rows.length > 0 && (
-  <section class="specs-section">
-    <h2>{heading}</h2>
-    <table class="specs-table">
-      <tbody>
-        {rows.map(row => (
-          <tr>
-            <th>{row.label}</th>
-            <td>{row.value}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </section>
+  <table class="specs-table">
+    <tbody>
+      {rows.map(row => (
+        <tr>
+          <th>{row.label}</th>
+          <td>{row.value}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
 )}
 
 <style>
-  .specs-section {
-    margin: 2rem 0;
-  }
-  .specs-section h2 {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #111827;
-    margin-bottom: 0.75rem;
-  }
   .specs-table {
     width: 100%;
     border-collapse: collapse;

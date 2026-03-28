@@ -188,7 +188,7 @@ function publishedStatuses(locale: string): string[] {
   return locale === 'en' ? ['published'] : ['published', 'pending']
 }
 
-export async function getArticle(locale: string, slug: string) {
+export async function getArticle(locale: string, articleId: number) {
   return supabase
     .from('article_translations')
     .select(`
@@ -208,7 +208,7 @@ export async function getArticle(locale: string, slug: string) {
       )
     `)
     .eq('locale', locale)
-    .eq('slug', slug)
+    .eq('article_id', articleId)
     .in('translation_status', publishedStatuses(locale))
     .single()
 }

@@ -22,7 +22,7 @@ export async function getStaticPaths() {
   const locale = siteConfig.defaultLocale
   const paths: {
     params: { category: string; brand: string; slug: string }
-    props: { type: 'article' | 'model' }
+    props: { type: 'article' | 'model'; articleId?: number }
   }[] = []
 
   // ── Article paths ────────────────────────────────────────────────────────
@@ -31,7 +31,7 @@ export async function getStaticPaths() {
     for (const article of articles) {
       paths.push({
         params: { category: article.category_slug, brand: article.brand_slug, slug: article.slug },
-        props: { type: 'article' },
+        props: { type: 'article', articleId: article.article_id },
       })
     }
   }
@@ -57,7 +57,7 @@ export async function getStaticPaths() {
 }
 
 const { category, brand, slug } = Astro.params
-const { type } = Astro.props
+const { type, articleId } = Astro.props
 const locale = siteConfig.defaultLocale
 const siteUrl = `https://${siteConfig.domain}`
 
@@ -67,7 +67,7 @@ let articleModels: any[] = []
 let alternateUrls: { locale: string; url: string }[] = []
 if (type === 'article') {
   const [{ data: articleData }, { data: modelsData }] = await Promise.all([
-    getArticle(locale, slug),
+    getArticle(locale, articleId!),
     getModelsByBrandCategory(brand, category),
   ])
   article = articleData
@@ -86,16 +86,12 @@ const articleModelGroups: [string, any[]][] = (() => {
   return [...seriesMap.entries()].sort((a, b) => b[1].length - a[1].length)
 })()
 
-if (type === 'article') {
-  // Fetch hreflang alternates for this article
-  const articleId = (article?.articles as any)?.id as number | undefined
-  if (articleId) {
-    const rawAlternates = await getArticleAlternates(articleId)
-    alternateUrls = rawAlternates.map((alt: any) => ({
-      locale: alt.locale,
-      url: buildAlternateUrl(siteUrl, alt),
-    }))
-  }
+if (type === 'article' && articleId) {
+  const rawAlternates = await getArticleAlternates(articleId)
+  alternateUrls = rawAlternates.map((alt: any) => ({
+    locale: alt.locale,
+    url: buildAlternateUrl(siteUrl, alt),
+  }))
 }
 
 // ── Model ────────────────────────────────────────────────────────────────────

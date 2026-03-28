@@ -17,16 +17,17 @@ export async function getStaticPaths() {
   if (!articles) return []
   return articles.map((a: any) => ({
     params: { category: a.category_slug, brand: a.brand_slug, slug: a.slug },
-    props: { type: 'article' as const },
+    props: { type: 'article' as const, articleId: a.article_id as number },
   }))
 }
 
 const { category, brand, slug } = Astro.params as { category: string; brand: string; slug: string }
+const { articleId } = Astro.props as { articleId: number }
 const siteUrl = `https://${siteConfig.domain}`
 const pageUrl = `${siteUrl}/${locale}/${category}/${brand}/${slug}/`
 
 const [{ data: article }, { data: articleModels }, { data: categoryTrans }, { data: brandData }] = await Promise.all([
-  getArticle(locale, slug),
+  getArticle(locale, articleId),
   getModelsByBrandCategoryLocale(locale, brand, category),
   getCategoryByLocaleSlug(locale, category),
   getBrandBySlug(brand),

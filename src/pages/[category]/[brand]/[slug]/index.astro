@@ -13,7 +13,8 @@ import QuickFixBox from '~/components/QuickFixBox.astro'
 import StepsSection from '~/components/StepsSection.astro'
 import FaqSection from '~/components/FaqSection.astro'
 import SparePartsSection from '~/components/SparePartsSection.astro'
-import { getArticle, getAllArticleSlugs, getAllModelSlugs, getModelBySlug, getErrorCodesByModel, getModelsByBrandCategory, getArticleAlternates, getFaultsByBrandCategoryId } from '~/lib/queries'
+import SpecsTable from '~/components/SpecsTable.astro'
+import { getArticle, getAllArticleSlugs, getAllModelSlugs, getModelBySlug, getErrorCodesByModel, getModelsByBrandCategory, getArticleAlternates, getFaultsByBrandCategoryId, getWashingMachineSpecs } from '~/lib/queries'
 import { parseJson } from '~/lib/utils'
 import { buildAlternateUrl } from '~/lib/locales'
 import { siteConfig } from 'site-config'
@@ -98,16 +99,19 @@ if (type === 'article' && articleId) {
 let model: any = null
 let modelErrorCodes: any[] = []
 let modelFaults: any[] = []
+let modelSpecs: Record<string, any> | null = null
 if (type === 'model') {
   const { data } = await getModelBySlug(brand, category, slug)
   model = data
   if (model) {
-    const [{ data: ecData }, { data: faultData }] = await Promise.all([
+    const [{ data: ecData }, { data: faultData }, specsData] = await Promise.all([
       getErrorCodesByModel(model.brand_id, model.category_id),
       getFaultsByBrandCategoryId(model.brand_id, model.category_id, locale),
+      category === 'washing-machines' ? getWashingMachineSpecs(model.id) : Promise.resolve(null),
     ])
     modelErrorCodes = ecData ?? []
     modelFaults = faultData ?? []
+    modelSpecs = specsData
   }
 }
 
@@ -330,7 +334,7 @@ const metadata = type === 'article'
             <li><a href="#common-faults">Common faults</a></li>
             <li><a href="#error-codes">Error codes</a></li>
             <li><a href="#related-models">Model variants</a></li>
-            <li><a href="#specification">Specification</a></li>
+            {modelSpecs && <li><a href="#specification">Specification</a></li>}
             <li><a href="#spare-parts">Spare parts and service</a></li>
           </ol>
         </nav>
@@ -416,9 +420,11 @@ const metadata = type === 'article'
         </section>
 
         <!-- Specification -->
-        <section class="model-section" id="specification">
-          <h2 class="model-h2">Specification</h2>
-        </section>
+        {modelSpecs && (
+          <section class="model-section" id="specification">
+            <SpecsTable specs={modelSpecs} locale={locale} />
+          </section>
+        )}
 
         <!-- Spare parts and service -->
         <section class="model-section" id="spare-parts">

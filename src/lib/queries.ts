@@ -645,6 +645,15 @@ export async function getFaultErrorCodes(faultId: number, locale: string) {
     .eq('fault_id', faultId)
 }
 
+export async function getWashingMachineSpecs(modelId: number) {
+  const { data } = await supabase
+    .from('washing_machine_specs')
+    .select('capacity_kg, spin_speed_rpm, energy_class, width_mm, height_mm, depth_mm, noise_spinning_db, energy_consumption_kwh, water_consumption_l, door_type')
+    .eq('model_id', modelId)
+    .single()
+  return data as Record<string, any> | null
+}
+
 export async function getRelatedArticles(excludeSlug: string, limit = 5) {
   return supabase
     .from('article_translations')

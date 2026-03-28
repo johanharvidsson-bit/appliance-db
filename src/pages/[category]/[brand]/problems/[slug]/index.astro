@@ -5,7 +5,7 @@ import QuickFixBox from '~/components/QuickFixBox.astro'
 import StepsSection from '~/components/StepsSection.astro'
 import FaqSection from '~/components/FaqSection.astro'
 import SparePartsSection from '~/components/SparePartsSection.astro'
-import { getAllFaultArticleSlugs, getFaultArticle, getFaultById, getFaultArticleAlternates, getFaultErrorCodes } from '~/lib/queries'
+import { getAllFaultArticleSlugs, getFaultArticle, getArticleFaultId, getFaultById, getFaultArticleAlternates, getFaultErrorCodes } from '~/lib/queries'
 import { parseJson } from '~/lib/utils'
 import { buildFaultArticleUrl } from '~/lib/locales'
 import { siteConfig } from 'site-config'
@@ -26,7 +26,7 @@ const pageUrl = `${siteUrl}/${category}/${brand}/problems/${slug}/`
 
 const { data: article } = await getFaultArticle('en', slug)
 
-const faultId: number | null = (article?.articles as any)?.fault_id ?? null
+const faultId: number | null = await getArticleFaultId(articleId)
 
 // Fetch fault metadata + related error codes in parallel
 const [faultResult, relatedEcsRaw] = await Promise.all([

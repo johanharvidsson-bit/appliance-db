@@ -551,13 +551,22 @@ export async function getFaultArticle(locale: string, slug: string) {
       quick_fix, intro_html,
       causes_json, steps_json, faq_json,
       prevention_html, when_to_call_technician_html,
-      last_updated,
-      articles ( id, fault_id )
+      last_updated
     `)
     .eq('locale', locale)
     .eq('slug', slug)
     .eq('translation_status', 'published')
     .single()
+}
+
+/** Get fault_id for an article (used on fault article pages where articleId is in props). */
+export async function getArticleFaultId(articleId: number) {
+  const { data } = await supabase
+    .from('articles')
+    .select('fault_id')
+    .eq('id', articleId)
+    .single()
+  return (data as any)?.fault_id as number | null ?? null
 }
 
 /** Fault metadata (severity, has_error_code) for a fault article's meta bar. */

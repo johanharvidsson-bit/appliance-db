@@ -1,0 +1,40 @@
+---
+interface Props {
+  locale?: string
+}
+
+const { locale = 'en' } = Astro.props
+
+const steps = [
+  {
+    num: '1',
+    title: 'Select your appliance and brand',
+    desc: 'Or enter the error code directly',
+  },
+  {
+    num: '2',
+    title: 'Find your error code or symptom',
+    desc: 'Pick from the list or search',
+  },
+  {
+    num: '3',
+    title: 'Follow the fix steps',
+    desc: 'Free guides, no sign-up needed',
+  },
+]
+---
+
+<section class="bg-slate-50 py-12 px-4">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-xl font-bold text-gray-900 mb-8">How it works</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {steps.map(step => (
+        <div class="bg-white border border-gray-200 rounded-xl p-6 text-left">
+          <div class="text-green-600 font-bold text-2xl mb-3">{step.num}</div>
+          <h3 class="font-semibold text-gray-900 mb-1 text-sm">{step.title}</h3>
+          <p class="text-xs text-gray-500">{step.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,276 @@
+---
+import { siteConfig } from 'site-config'
+
+interface Category {
+  slug: string
+  name: string
+}
+
+interface Props {
+  categories: Category[]
+  locale?: string
+}
+
+const { categories, locale = 'en' } = Astro.props
+---
+
+<section class="bg-slate-50 py-12 px-4">
+  <div class="max-w-2xl mx-auto text-center">
+    <h1 class="text-4xl font-black text-gray-900 mb-3 leading-tight">{siteConfig.name}</h1>
+    <p class="text-lg font-semibold text-green-600 mb-2">Fix appliance error codes — free step-by-step guides</p>
+    <p class="text-sm text-gray-500 mb-8">Written by appliance technicians. No sign-up needed.</p>
+
+    <!-- Tab toggle -->
+    <div class="bg-white border border-gray-200 rounded-2xl shadow-sm p-6">
+      <div class="flex gap-1 bg-gray-100 rounded-full p-1 mb-6 w-fit mx-auto">
+        <button
+          id="tab-error"
+          class="tab-btn tab-active px-5 py-2 rounded-full text-sm font-semibold transition-all"
+          data-tab="error"
+        >
+          An error code
+        </button>
+        <button
+          id="tab-fault"
+          class="tab-btn px-5 py-2 rounded-full text-sm font-semibold text-gray-600 transition-all"
+          data-tab="fault"
+        >
+          A symptom / fault
+        </button>
+      </div>
+
+      <!-- Error code tab -->
+      <div id="panel-error" class="tab-panel">
+        <div class="flex flex-col sm:flex-row gap-3">
+          <div class="flex-1">
+            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ec-appliance">Appliance type</label>
+            <select id="ec-appliance" class="hero-select w-full">
+              <option value="">Select appliance…</option>
+              {categories.map(cat => (
+                <option value={cat.slug}>{cat.name}</option>
+              ))}
+            </select>
+          </div>
+          <div class="flex-1">
+            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ec-brand">Brand</label>
+            <select id="ec-brand" class="hero-select w-full" disabled>
+              <option value="">Select brand…</option>
+            </select>
+          </div>
+          <div class="flex-1">
+            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ec-code">Error code</label>
+            <input
+              id="ec-code"
+              type="text"
+              placeholder="e.g. 4E, F21…"
+              class="hero-input w-full"
+            />
+          </div>
+        </div>
+        <button id="ec-find-btn" class="hero-btn mt-4 w-full">
+          Find fix →
+        </button>
+      </div>
+
+      <!-- Fault / symptom tab -->
+      <div id="panel-fault" class="tab-panel hidden">
+        <div class="flex flex-col sm:flex-row gap-3 mb-5">
+          <div class="flex-1">
+            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ft-appliance">Appliance type</label>
+            <select id="ft-appliance" class="hero-select w-full">
+              <option value="">Select appliance…</option>
+              {categories.map(cat => (
+                <option value={cat.slug}>{cat.name}</option>
+              ))}
+            </select>
+          </div>
+          <div class="flex-1">
+            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ft-brand">Brand</label>
+            <select id="ft-brand" class="hero-select w-full" disabled>
+              <option value="">Select brand…</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Fault pills -->
+        <div id="fault-pills-container" class="flex flex-wrap gap-2 min-h-[2rem]">
+          <span class="text-sm text-gray-400 italic">Select an appliance to see common faults…</span>
+        </div>
+
+        <button id="ft-find-btn" class="hero-btn mt-4 w-full">
+          Find fix →
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Read embedded JSON blobs
+  const brandMapEl = document.getElementById('appliance-brand-map')
+  const faultDataEl = document.getElementById('fault-data')
+  const applianceBrandMap: Record<string, { name: string; slug: string }[]> =
+    brandMapEl ? JSON.parse(brandMapEl.textContent ?? '{}') : {}
+  const faultsByCategory: Record<string, { name: string; url: string }[]> =
+    faultDataEl ? JSON.parse(faultDataEl.textContent ?? '{}') : {}
+
+  // Tab switching
+  const tabBtns = document.querySelectorAll<HTMLButtonElement>('.tab-btn')
+  const panels = document.querySelectorAll<HTMLDivElement>('.tab-panel')
+
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tab = btn.dataset.tab
+      tabBtns.forEach(b => {
+        b.classList.toggle('tab-active', b.dataset.tab === tab)
+        b.classList.toggle('text-gray-600', b.dataset.tab !== tab)
+      })
+      panels.forEach(p => {
+        p.classList.toggle('hidden', p.id !== `panel-${tab}`)
+      })
+    })
+  })
+
+  // Populate brand select
+  function populateBrands(
+    selectEl: HTMLSelectElement,
+    categorySlug: string
+  ) {
+    selectEl.innerHTML = '<option value="">Select brand…</option>'
+    const brands = applianceBrandMap[categorySlug] ?? []
+    brands.forEach(b => {
+      const opt = document.createElement('option')
+      opt.value = b.slug
+      opt.textContent = b.name
+      selectEl.appendChild(opt)
+    })
+    selectEl.disabled = brands.length === 0
+  }
+
+  // ── Error code tab ──────────────────────────────────────────────────────────
+  const ecAppliance = document.getElementById('ec-appliance') as HTMLSelectElement
+  const ecBrand = document.getElementById('ec-brand') as HTMLSelectElement
+  const ecCode = document.getElementById('ec-code') as HTMLInputElement
+  const ecFindBtn = document.getElementById('ec-find-btn') as HTMLButtonElement
+
+  ecAppliance.addEventListener('change', () => {
+    populateBrands(ecBrand, ecAppliance.value)
+  })
+
+  ecFindBtn.addEventListener('click', () => {
+    const category = ecAppliance.value
+    const brand = ecBrand.value
+    const code = ecCode.value.trim()
+
+    if (!category) return
+
+    if (category && brand && code) {
+      const slug = `${brand}-error-code-${code.toLowerCase().replace(/\s+/g, '-')}`
+      window.location.href = `/${category}/${brand}/${slug}/`
+    } else if (category && brand) {
+      window.location.href = `/${category}/${brand}/`
+    } else {
+      window.location.href = `/${category}/`
+    }
+  })
+
+  ecCode.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') ecFindBtn.click()
+  })
+
+  // ── Fault tab ───────────────────────────────────────────────────────────────
+  const ftAppliance = document.getElementById('ft-appliance') as HTMLSelectElement
+  const ftBrand = document.getElementById('ft-brand') as HTMLSelectElement
+  const ftFindBtn = document.getElementById('ft-find-btn') as HTMLButtonElement
+  const faultPillsContainer = document.getElementById('fault-pills-container')!
+
+  function renderFaultPills(categorySlug: string, brandSlug: string) {
+    const faults = faultsByCategory[categorySlug] ?? []
+    faultPillsContainer.innerHTML = ''
+
+    if (faults.length === 0) {
+      faultPillsContainer.innerHTML = '<span class="text-sm text-gray-400 italic">No common faults found for this selection.</span>'
+      return
+    }
+
+    faults.forEach(fault => {
+      const btn = document.createElement('a')
+      btn.href = fault.url
+      btn.textContent = fault.name
+      btn.className = 'inline-block rounded-full border border-gray-300 px-4 py-2 text-sm text-gray-700 hover:bg-slate-100 cursor-pointer transition-colors'
+      faultPillsContainer.appendChild(btn)
+    })
+  }
+
+  ftAppliance.addEventListener('change', () => {
+    populateBrands(ftBrand, ftAppliance.value)
+    renderFaultPills(ftAppliance.value, ftBrand.value)
+  })
+
+  ftBrand.addEventListener('change', () => {
+    renderFaultPills(ftAppliance.value, ftBrand.value)
+  })
+
+  ftFindBtn.addEventListener('click', () => {
+    const category = ftAppliance.value
+    const brand = ftBrand.value
+    if (!category) return
+    window.location.href = brand ? `/${category}/${brand}/problems/` : `/${category}/`
+  })
+</script>
+
+<style>
+  .hero-select {
+    padding: 0.6rem 2.2rem 0.6rem 0.85rem;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #111827;
+    background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b7280' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
+    appearance: none;
+    cursor: pointer;
+    transition: border-color 0.15s;
+  }
+  .hero-select:focus {
+    outline: none;
+    border-color: #16a34a;
+    box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.12);
+  }
+  .hero-select:disabled {
+    background-color: #f9fafb;
+    color: #9ca3af;
+    cursor: not-allowed;
+  }
+  .hero-input {
+    padding: 0.6rem 0.85rem;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #111827;
+    transition: border-color 0.15s;
+  }
+  .hero-input:focus {
+    outline: none;
+    border-color: #16a34a;
+    box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.12);
+  }
+  .hero-btn {
+    padding: 0.7rem 1.5rem;
+    background: #16a34a;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .hero-btn:hover {
+    background: #15803d;
+  }
+  .tab-active {
+    background: #fff;
+    color: #111827;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+</style>

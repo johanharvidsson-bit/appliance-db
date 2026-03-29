@@ -1,0 +1,78 @@
+---
+interface Guide {
+  slug: string
+  h1: string
+  code: string
+  brandName: string
+  brandSlug: string
+  categorySlug: string
+}
+
+interface Props {
+  trending: Guide[]
+  popular: Guide[]
+  locale?: string
+}
+
+const { trending, popular, locale = 'en' } = Astro.props
+---
+
+{(trending.length > 0 || popular.length > 0) && (
+  <section class="py-10 px-4 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Trending error codes -->
+        {trending.length > 0 && (
+          <div class="bg-white border border-gray-200 rounded-xl p-5">
+            <h2 class="text-base font-bold text-gray-900 mb-4 flex items-center gap-2">
+              <span>🔥</span> Trending error codes
+            </h2>
+            <ul class="divide-y divide-gray-100">
+              {trending.map(guide => (
+                <li>
+                  <a
+                    href={`/${guide.categorySlug}/${guide.brandSlug}/${guide.slug}/`}
+                    class="flex items-center justify-between py-2.5 text-sm no-underline group"
+                  >
+                    <span class="text-gray-700 group-hover:text-green-700 transition-colors line-clamp-1 flex-1">
+                      {guide.h1 || `${guide.brandName} ${guide.code}`}
+                    </span>
+                    <span class="ml-3 flex-shrink-0 text-xs font-mono bg-gray-100 text-gray-600 px-2 py-0.5 rounded">
+                      {guide.code}
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <!-- Popular guides -->
+        {popular.length > 0 && (
+          <div class="bg-white border border-gray-200 rounded-xl p-5">
+            <h2 class="text-base font-bold text-gray-900 mb-4 flex items-center gap-2">
+              <span>⭐</span> Popular guides
+            </h2>
+            <ul class="divide-y divide-gray-100">
+              {popular.map(guide => (
+                <li>
+                  <a
+                    href={`/${guide.categorySlug}/${guide.brandSlug}/${guide.slug}/`}
+                    class="flex items-center justify-between py-2.5 text-sm no-underline group"
+                  >
+                    <span class="text-gray-700 group-hover:text-green-700 transition-colors line-clamp-1 flex-1">
+                      {guide.h1 || `${guide.brandName} ${guide.code}`}
+                    </span>
+                    <span class="ml-3 flex-shrink-0 text-xs font-mono bg-gray-100 text-gray-600 px-2 py-0.5 rounded">
+                      {guide.code}
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    </div>
+  </section>
+)}

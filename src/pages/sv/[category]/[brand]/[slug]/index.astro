@@ -69,8 +69,8 @@ const faqSchema = faqsRaw.length > 0 ? {
   })),
 } : null
 
-const articleId = (article?.articles as any)?.id as number | undefined
-const rawAlternates = articleId ? await getArticleAlternates(articleId) : []
+const resolvedArticleId = (article?.articles as any)?.id as number | undefined
+const rawAlternates = resolvedArticleId ? await getArticleAlternates(resolvedArticleId) : []
 const alternateUrls = rawAlternates.map((alt: any) => ({
   locale: alt.locale,
   url: buildAlternateUrl(siteUrl, alt),

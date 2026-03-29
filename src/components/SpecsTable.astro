@@ -1,126 +1,66 @@
 ---
 interface Props {
-  specs: Record<string, any>
-  locale: string
+  specs: Record<string, any> | null
+  locale?: string
 }
-const { specs, locale } = Astro.props
+const { specs, locale = 'en' } = Astro.props
+if (!specs) return
 
-const isEn = locale === 'en'
+const rows: { key: string; label: string; format: (v: any) => string }[] = [
+  { key: 'door_type',              label: 'Door type',           format: v => v === 'front' ? 'Front load' : v === 'top' ? 'Top load' : v },
+  { key: 'capacity_kg',            label: 'Drum capacity',       format: v => `${v} kg` },
+  { key: 'spin_speed_rpm',         label: 'Max spin speed',      format: v => `${v} rpm` },
+  { key: 'energy_class',           label: 'Energy class',        format: v => v },
+  { key: 'width_mm',               label: 'Width',               format: v => `${v} mm` },
+  { key: 'height_mm',              label: 'Height',              format: v => `${v} mm` },
+  { key: 'depth_mm',               label: 'Depth',               format: v => `${v} mm` },
+  { key: 'noise_spinning_db',      label: 'Noise (spin)',        format: v => `${v} dB` },
+  { key: 'energy_consumption_kwh', label: 'Energy consumption',  format: v => `${v} kWh` },
+  { key: 'water_consumption_l',    label: 'Water consumption',   format: v => `${v} L` },
+]
 
-type Field = 'capacity_kg' | 'spin_speed_rpm' | 'energy_class' | 'width_mm' | 'height_mm' | 'depth_mm' | 'noise_spinning_db' | 'energy_consumption_kwh' | 'water_consumption_l' | 'door_type'
-
-const fieldLabels: Record<Field, Record<string, string>> = {
-  capacity_kg:            { en: 'Drum capacity',           sv: 'Trumkapacitet',                  de: 'Fassungsvermögen' },
-  spin_speed_rpm:         { en: 'Max spin speed',          sv: 'Max centrifugeringshastighet',   de: 'Max. Schleuderdrehzahl' },
-  energy_class:           { en: 'Energy class',            sv: 'Energiklass',                    de: 'Energieffizienzklasse' },
-  width_mm:               { en: 'Width',                   sv: 'Bredd',                          de: 'Breite' },
-  height_mm:              { en: 'Height',                  sv: 'Höjd',                           de: 'Höhe' },
-  depth_mm:               { en: 'Depth',                   sv: 'Djup',                           de: 'Tiefe' },
-  noise_spinning_db:      { en: 'Noise (spin)',            sv: 'Buller (centrifugering)',        de: 'Geräusch (Schleudern)' },
-  energy_consumption_kwh: { en: 'Energy use/year',         sv: 'Energiförbrukning/år',           de: 'Energiverbrauch/Jahr' },
-  water_consumption_l:    { en: 'Water use/year',          sv: 'Vattenförbrukning/år',           de: 'Wasserverbrauch/Jahr' },
-  door_type:              { en: 'Door type',               sv: 'Lucköppning',                    de: 'Türöffnung' },
-}
-
-const doorLabels: Record<string, Record<string, string>> = {
-  front: { en: 'Front load', sv: 'Frontmatad', de: 'Frontlader' },
-  top:   { en: 'Top load',   sv: 'Toppmatad',  de: 'Toplader' },
-}
-
-function lbl(field: Field): string {
-  return fieldLabels[field][locale] ?? fieldLabels[field].en
-}
-
-const rows: { label: string; value: string }[] = []
-
-if (specs.capacity_kg != null) {
-  rows.push({
-    label: lbl('capacity_kg'),
-    value: isEn
-      ? `${(specs.capacity_kg * 2.205).toFixed(1)} lbs`
-      : `${specs.capacity_kg} kg`,
-  })
-}
-
-if (specs.spin_speed_rpm != null) {
-  rows.push({ label: lbl('spin_speed_rpm'), value: `${specs.spin_speed_rpm} RPM` })
-}
-
-if (!isEn && specs.energy_class != null) {
-  rows.push({ label: lbl('energy_class'), value: specs.energy_class })
-}
-
-for (const dim of ['width_mm', 'height_mm', 'depth_mm'] as const) {
-  if (specs[dim] != null) {
-    rows.push({
-      label: lbl(dim),
-      value: isEn
-        ? `${(specs[dim] / 25.4).toFixed(1)}"`
-        : `${specs[dim]} mm`,
-    })
-  }
-}
-
-if (specs.noise_spinning_db != null) {
-  rows.push({ label: lbl('noise_spinning_db'), value: `${specs.noise_spinning_db} dB` })
-}
-
-if (specs.energy_consumption_kwh != null) {
-  rows.push({ label: lbl('energy_consumption_kwh'), value: `${specs.energy_consumption_kwh} kWh` })
-}
-
-if (specs.water_consumption_l != null) {
-  rows.push({
-    label: lbl('water_consumption_l'),
-    value: isEn
-      ? `${Math.round(specs.water_consumption_l * 0.264)} gal`
-      : `${specs.water_consumption_l} L`,
-  })
-}
-
-if (specs.door_type != null) {
-  const doorVal = doorLabels[specs.door_type]?.[locale] ?? doorLabels[specs.door_type]?.en ?? specs.door_type
-  rows.push({ label: lbl('door_type'), value: doorVal })
-}
+const visibleRows = rows.filter(r => specs[r.key] != null)
+if (visibleRows.length === 0) return
 ---
 
-{rows.length > 0 && (
-  <table class="specs-table">
-    <tbody>
-      {rows.map(row => (
-        <tr>
-          <th>{row.label}</th>
-          <td>{row.value}</td>
-        </tr>
-      ))}
-    </tbody>
-  </table>
-)}
+<dl class="specs-table">
+  {visibleRows.map(row => (
+    <div class="specs-row">
+      <dt class="specs-label">{row.label}</dt>
+      <dd class="specs-value">{row.format(specs[row.key])}</dd>
+    </div>
+  ))}
+</dl>
 
 <style>
   .specs-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0;
   }
-  .specs-table tr {
-    border-bottom: 1px solid #e5e7eb;
+  .specs-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid #f3f4f6;
   }
-  .specs-table tr:last-child {
+  .specs-row:last-child {
     border-bottom: none;
   }
-  .specs-table th {
-    text-align: left;
-    font-weight: 500;
-    color: #6b7280;
-    padding: 0.5rem 1rem 0.5rem 0;
-    width: 50%;
-    vertical-align: top;
+  .specs-row:nth-child(even) {
+    background: #f9fafb;
   }
-  .specs-table td {
-    text-align: left;
+  .specs-label {
+    font-size: 0.875rem;
+    color: #6b7280;
     font-weight: 500;
+  }
+  .specs-value {
+    font-size: 0.875rem;
+    font-weight: 600;
     color: #111827;
-    padding: 0.5rem 0;
+    text-align: right;
   }
 </style>

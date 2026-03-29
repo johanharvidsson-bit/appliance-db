@@ -148,6 +148,25 @@ const updatedAt = article?.last_updated
   ? new Date(article.last_updated).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })
   : null
 
+// ── JSON-LD: Product (model pages with specs) ────────────────────────────────
+const productSchema = type === 'model' && model && modelSpecs ? {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: model.name,
+  brand: { '@type': 'Brand', name: brandLabel },
+  category: categoryLabel,
+  additionalProperty: [
+    ...(modelSpecs.capacity_kg        != null ? [{ '@type': 'PropertyValue', name: 'Drum Capacity',    value: `${modelSpecs.capacity_kg} kg`  }] : []),
+    ...(modelSpecs.spin_speed_rpm     != null ? [{ '@type': 'PropertyValue', name: 'Max Spin Speed',   value: `${modelSpecs.spin_speed_rpm} rpm` }] : []),
+    ...(modelSpecs.energy_class       != null ? [{ '@type': 'PropertyValue', name: 'Energy Class',     value: modelSpecs.energy_class }] : []),
+    ...(modelSpecs.width_mm           != null ? [{ '@type': 'PropertyValue', name: 'Width',            value: `${modelSpecs.width_mm} mm` }] : []),
+    ...(modelSpecs.height_mm          != null ? [{ '@type': 'PropertyValue', name: 'Height',           value: `${modelSpecs.height_mm} mm` }] : []),
+    ...(modelSpecs.depth_mm           != null ? [{ '@type': 'PropertyValue', name: 'Depth',            value: `${modelSpecs.depth_mm} mm` }] : []),
+    ...(modelSpecs.noise_spinning_db  != null ? [{ '@type': 'PropertyValue', name: 'Spin Noise',       value: `${modelSpecs.noise_spinning_db} dB` }] : []),
+    ...(modelSpecs.door_type          != null ? [{ '@type': 'PropertyValue', name: 'Door Type',        value: modelSpecs.door_type === 'front' ? 'Front Load' : 'Top Load' }] : []),
+  ],
+} : null
+
 // ── JSON-LD: HowTo (uses raw DB fields, not remapped StepsSection shape) ──────
 const stepsRaw = parseJson(article?.steps_json)
 const howToSchema = article && stepsRaw.length > 0 ? {
@@ -215,6 +234,9 @@ const metadata = type === 'article'
     )}
     {faqSchema && (
       <script type="application/ld+json" is:inline set:html={JSON.stringify(faqSchema)} />
+    )}
+    {productSchema && (
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(productSchema)} />
     )}
     <BreadcrumbNav items={breadcrumbs} />
 

@@ -28,7 +28,12 @@ const urlMap = Object.fromEntries(alternateUrls.map((a) => [a.locale, a.url]))
     aria-label="Switch language"
     type="button"
   >
-    <span aria-hidden="true">{current.flag}</span>
+    <svg class="lang-globe" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" width="15" height="15">
+      <circle cx="10" cy="10" r="8"/>
+      <path d="M10 2c-2 2.5-3 5-3 8s1 5.5 3 8M10 2c2 2.5 3 5 3 8s-1 5.5-3 8M2 10h16"/>
+      <path d="M3 6.5h14M3 13.5h14" stroke-linecap="round"/>
+    </svg>
+    <span class="lang-current-name">{current.name}</span>
     <svg class="lang-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" width="12" height="12">
       <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
     </svg>
@@ -44,9 +49,8 @@ const urlMap = Object.fromEntries(alternateUrls.map((a) => [a.locale, a.url]))
           aria-selected={isCurrent}
           data-locale={loc.code}
           data-active={loc.active}
-          title={!loc.active ? 'Coming soon' : undefined}
         >
-          <span aria-hidden="true">{loc.flag}</span>
+          <span class="lang-check" aria-hidden="true">{isCurrent ? '✓' : ''}</span>
           <span class="lang-name">{loc.name}</span>
           {!loc.active && <span class="cs-label">Coming soon</span>}
         </div>
@@ -133,8 +137,14 @@ const urlMap = Object.fromEntries(alternateUrls.map((a) => [a.locale, a.url]))
     border-color: rgba(0,0,0,0.08);
   }
 
-  .lang-code {
-    letter-spacing: 0.03em;
+  .lang-globe {
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .lang-current-name {
+    font-size: 0.85rem;
+    font-weight: 600;
   }
 
   .lang-chevron {
@@ -185,6 +195,14 @@ const urlMap = Object.fromEntries(alternateUrls.map((a) => [a.locale, a.url]))
   .lang-option.inactive {
     cursor: default;
     opacity: 0.5;
+  }
+
+  .lang-check {
+    width: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #16a34a;
+    flex-shrink: 0;
   }
 
   .lang-name {

@@ -100,13 +100,20 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
       </div>
 
       {errorCodes && errorCodes.length > 0 ? (
-        <div class="ec-list" id="ec-grid">
+        <>
+          <div class="ec-jumps">
+            {errorCodes.map((row: any) => (
+              <a href={`#ec-${row.code?.toLowerCase()}`} class="ec-jump">{row.code}</a>
+            ))}
+          </div>
+          <div class="ec-list" id="ec-grid">
           {errorCodes.map((row: any) => {
             const ats: any[] = row.articles?.article_translations ?? []
             const at = ats.find((t: any) => t.locale === 'en') ?? ats[0]
             const badge = row.severity ? (severityBadge[row.severity] ?? null) : null
             return (
               <article
+                id={`ec-${row.code?.toLowerCase()}`}
                 class="error-code"
                 data-code={row.code?.toLowerCase()}
                 data-text={row.short_description?.toLowerCase()}
@@ -131,6 +138,7 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
             )
           })}
         </div>
+        </>
       ) : (
         <p class="no-data">No error codes found yet. Check back soon.</p>
       )}
@@ -308,6 +316,31 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
   .search-input:focus {
     border-color: #2563eb;
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  }
+
+  /* ── Error code jump links ──────────────────────────────────────── */
+  .ec-jumps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1.25rem;
+  }
+  .ec-jump {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+    background: #f9fafb;
+    transition: border-color 0.1s, background 0.1s;
+  }
+  .ec-jump:hover {
+    border-color: #2563eb;
+    background: #eff6ff;
   }
 
   /* ── Error code two-row entries ─────────────────────────────────── */

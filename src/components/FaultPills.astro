@@ -1,4 +1,6 @@
 ---
+import { t } from '~/lib/ui'
+
 interface Pill {
   name: string
   url: string
@@ -15,8 +17,8 @@ const { pills, locale = 'en' } = Astro.props
 {pills && pills.length > 0 && (
   <section class="py-10 px-4">
     <div class="max-w-4xl mx-auto">
-      <h2 class="text-xl font-bold text-gray-900 mb-1">Common faults — what are you seeing?</h2>
-      <p class="text-sm text-gray-500 mb-5">No error code? Browse by symptom.</p>
+      <h2 class="text-xl font-bold text-gray-900 mb-1">{t(locale, 'home.commonFaults')}</h2>
+      <p class="text-sm text-gray-500 mb-5">{t(locale, 'home.commonFaultsSub')}</p>
       <div class="flex flex-wrap gap-2">
         {pills.map(pill => (
           <a

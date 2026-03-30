@@ -3,6 +3,7 @@ import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import { getCategories, getBrandsByCategory, getErrorCodesByBrandCategory, getModelsByBrandCategory, getCategoryAlternates, getFaultsByBrandCategoryLocale } from '~/lib/queries'
 import { buildBrandUrl } from '~/lib/locales'
+import { t } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
 export async function getStaticPaths() {
@@ -45,15 +46,15 @@ const categoryLabel = categoryName || category.replace(/-/g, ' ').replace(/\b\w/
 const brandLabel = brandName || brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
 
 const breadcrumbs = [
-  { name: 'Home', url: siteUrl + '/' },
+  { name: t('en', 'nav.home'), url: siteUrl + '/' },
   { name: categoryLabel, url: `${siteUrl}/${category}/` },
   { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
 ]
 
 const severityBadge: Record<string, { cls: string; label: string }> = {
-  easy:     { cls: 'severity-easy',     label: 'Easy' },
-  medium:   { cls: 'severity-medium',   label: 'Medium' },
-  advanced: { cls: 'severity-advanced', label: 'Advanced' },
+  easy:     { cls: 'severity-easy',     label: t('en', 'severity.easy') },
+  medium:   { cls: 'severity-medium',   label: t('en', 'severity.medium') },
+  advanced: { cls: 'severity-advanced', label: t('en', 'severity.advanced') },
 }
 ---
 
@@ -70,9 +71,9 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
   <div class="page-container">
     <BreadcrumbNav items={breadcrumbs} />
 
-    <h1 class="page-h1">{brandLabel} {categoryLabel} Error Codes</h1>
+    <h1 class="page-h1">{t('en', 'brand.h1', { brand: brandLabel, category: categoryLabel })}</h1>
     <p class="intro">
-      Browse all known error codes for {brandLabel} {categoryLabel.toLowerCase()}s, then jump to your specific model below.
+      {t('en', 'brand.intro', { brand: brandLabel, category: categoryLabel.toLowerCase() })}
     </p>
 
     <!-- ── Common problems callout ─────────────────────────────── -->
@@ -80,7 +81,7 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
       <a href={`/${category}/${brand}/problems/`} class="problems-callout">
         <span class="problems-callout-icon" aria-hidden="true">⚠</span>
         <span class="problems-callout-text">
-          <strong>No error code?</strong> Browse symptom-based guides for common {brandLabel} {categoryLabel.toLowerCase()} problems.
+          <strong>{t('en', 'brand.noErrorCodeCallout')}</strong> {t('en', 'brand.browseProblems', { brand: brandLabel, category: categoryLabel.toLowerCase() })}
         </span>
         <span class="problems-callout-arrow">→</span>
       </a>
@@ -89,11 +90,11 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
     <!-- ── Section 1: Error codes ──────────────────────────────── -->
     <section class="section">
       <div class="section-header">
-        <h2 class="section-h2">Error Codes <span class="count">({errorCodes?.length ?? 0})</span></h2>
+        <h2 class="section-h2">{t('en', 'brand.errorCodesHeading')} <span class="count">({errorCodes?.length ?? 0})</span></h2>
         <input
           id="ec-search"
           type="search"
-          placeholder="Search codes…"
+          placeholder={t('en', 'brand.searchCodes')}
           class="search-input"
           autocomplete="off"
         />
@@ -122,7 +123,7 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
                   <span class="error-id">{row.code}</span>
                   {row.short_description
                     ? <h2 class="error-title">{row.short_description}</h2>
-                    : <h2 class="error-title error-title--placeholder">Diagnostic title coming soon</h2>
+                    : <h2 class="error-title error-title--placeholder">{t('en', 'brand.titlePlaceholder')}</h2>
                   }
                   {badge
                     ? <span class={`severity ${badge.cls}`}>{badge.label}</span>
@@ -131,8 +132,8 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
                 </header>
                 <p class="error-description">{row.description}</p>
                 {at?.slug
-                  ? <a class="error-link" href={`/${category}/${brand}/${at.slug}/`}>Full troubleshooting guide →</a>
-                  : <span class="error-link error-link--pending">Guide coming soon</span>
+                  ? <a class="error-link" href={`/${category}/${brand}/${at.slug}/`}>{t('en', 'brand.guideLink')}</a>
+                  : <span class="error-link error-link--pending">{t('en', 'brand.guidePending')}</span>
                 }
               </article>
             )
@@ -140,7 +141,7 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
         </div>
         </>
       ) : (
-        <p class="no-data">No error codes found yet. Check back soon.</p>
+        <p class="no-data">{t('en', 'brand.noResults')}</p>
       )}
     </section>
 
@@ -148,7 +149,7 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
     {models && models.length > 0 && (
       <section class="section">
         <button class="models-toggle" id="models-toggle" aria-expanded="false">
-          Browse {brandLabel} {categoryLabel} models
+          {t('en', 'brand.browseModels', { brand: brandLabel, category: categoryLabel })}
           <svg class="toggle-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
           </svg>
@@ -156,11 +157,11 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
 
         <div class="models-panel" id="models-panel" hidden>
           <div class="models-panel-header">
-            <p class="section-sub">Select your model to see error codes and troubleshooting guides.</p>
+            <p class="section-sub">{t('en', 'brand.modelsPanelSub')}</p>
             <input
               id="model-search"
               type="search"
-              placeholder="Search models…"
+              placeholder={t('en', 'brand.searchModels')}
               class="search-input"
               autocomplete="off"
             />

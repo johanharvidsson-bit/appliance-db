@@ -3,6 +3,7 @@ import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import { getBrandCategoryPairsWithFaults, getFaultsByBrandCategoryLocale, getCategoryAlternates, getBrandBySlug, getCategoryBySlug } from '~/lib/queries'
 import { buildFaultListingUrl } from '~/lib/locales'
+import { t } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
 export async function getStaticPaths() {
@@ -37,16 +38,16 @@ const alternateUrls = (categoryAlternates as any[]).map((alt: any) => ({
 const pageUrl = `${siteUrl}/${category}/${brand}/problems/`
 
 const breadcrumbs = [
-  { name: 'Home', url: siteUrl + '/' },
+  { name: t('en', 'nav.home'), url: siteUrl + '/' },
   { name: categoryLabel, url: `${siteUrl}/${category}/` },
   { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
-  { name: 'Common Problems', url: pageUrl },
+  { name: t('en', 'problems.breadcrumb'), url: pageUrl },
 ]
 
 const severityBadge: Record<string, { cls: string; label: string }> = {
-  easy:     { cls: 'severity-easy',     label: 'Easy' },
-  medium:   { cls: 'severity-medium',   label: 'Medium' },
-  advanced: { cls: 'severity-advanced', label: 'Advanced' },
+  easy:     { cls: 'severity-easy',     label: t('en', 'severity.easy') },
+  medium:   { cls: 'severity-medium',   label: t('en', 'severity.medium') },
+  advanced: { cls: 'severity-advanced', label: t('en', 'severity.advanced') },
 }
 ---
 
@@ -63,9 +64,9 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
   <div class="page-container">
     <BreadcrumbNav items={breadcrumbs} />
 
-    <h1 class="page-h1">Common {brandLabel} {categoryLabel} Problems</h1>
+    <h1 class="page-h1">{t('en', 'problems.heading', { brand: brandLabel, category: categoryLabel })}</h1>
     <p class="intro">
-      Find your symptom below for a step-by-step diagnosis and repair guide.
+      {t('en', 'problems.intro')}
     </p>
 
     {faults && faults.length > 0 ? (
@@ -83,19 +84,19 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
                 <p class="fault-desc">{ft.meta_description}</p>
               )}
               {row.article_slug
-                ? <a class="fault-link" href={`/${category}/${brand}/problems/${row.article_slug}/`}>Full troubleshooting guide →</a>
-                : <span class="fault-link fault-link--pending">Guide coming soon</span>
+                ? <a class="fault-link" href={`/${category}/${brand}/problems/${row.article_slug}/`}>{t('en', 'brand.guideLink')}</a>
+                : <span class="fault-link fault-link--pending">{t('en', 'brand.guidePending')}</span>
               }
             </article>
           )
         })}
       </div>
     ) : (
-      <p class="no-data">No common problems listed yet. Check back soon.</p>
+      <p class="no-data">{t('en', 'problems.noData')}</p>
     )}
 
     <div class="back-link-wrap">
-      <a href={`/${category}/${brand}/`} class="back-link">← Back to {brandLabel} {categoryLabel} error codes</a>
+      <a href={`/${category}/${brand}/`} class="back-link">{t('en', 'problems.backLink', { brand: brandLabel, category: categoryLabel })}</a>
     </div>
   </div>
 </PageLayout>

@@ -1,4 +1,6 @@
 ---
+import { t } from '~/lib/ui'
+
 interface Category {
   slug: string
   name: string
@@ -25,7 +27,7 @@ const emojiMap: Record<string, string> = {
 {categories && categories.length > 0 && (
   <section class="py-10 px-4">
     <div class="max-w-4xl mx-auto">
-      <h2 class="text-xl font-bold text-gray-900 mb-5">Browse by appliance type</h2>
+      <h2 class="text-xl font-bold text-gray-900 mb-5">{t(locale, 'home.browseByType')}</h2>
       <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-7 gap-3">
         {categories.map(cat => (
           <a

@@ -3,6 +3,7 @@ import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import { getCategoriesByLocale, getBrandsByCategoryLocale, getCategoryAlternates } from '~/lib/queries'
 import { buildCategoryUrl } from '~/lib/locales'
+import { t } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
 const locale = 'sv'
@@ -34,7 +35,7 @@ const { data: brands } = await getBrandsByCategoryLocale(locale, category)
 const categoryLabel = categoryName || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
 
 const breadcrumbs = [
-  { name: 'Home', url: `${siteUrl}/${locale}/` },
+  { name: t(locale, 'nav.home'), url: `${siteUrl}/${locale}/` },
   { name: categoryLabel, url: `${siteUrl}/${locale}/${category}/` },
 ]
 ---
@@ -52,8 +53,8 @@ const breadcrumbs = [
 >
   <div class="page-container">
     <BreadcrumbNav items={breadcrumbs} />
-    <h1 class="page-h1">{categoryLabel} Error Codes</h1>
-    <p class="intro">Select your brand to find error code guides for your {categoryLabel.toLowerCase()}.</p>
+    <h1 class="page-h1">{t(locale, 'category.h1', { category: categoryLabel })}</h1>
+    <p class="intro">{t(locale, 'category.intro', { category: categoryLabel.toLowerCase() })}</p>
 
     {brands && brands.length > 0 ? (
       <div class="brand-grid">
@@ -69,7 +70,7 @@ const breadcrumbs = [
         ))}
       </div>
     ) : (
-      <p class="no-data">No brands available yet. Please check back soon.</p>
+      <p class="no-data">{t(locale, 'category.noBrands')}</p>
     )}
   </div>
 </PageLayout>

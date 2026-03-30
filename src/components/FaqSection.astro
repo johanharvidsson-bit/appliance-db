@@ -1,99 +1,40 @@
 ---
-interface FaqItem {
-  q: string
-  a: string
-}
-
-interface Props {
-  faqs: FaqItem[]
-}
-
-const { faqs } = Astro.props
+import { t } from '~/lib/ui'
+interface FaqItem { q: string; a: string }
+interface Props { faqs: FaqItem[]; locale?: string }
+const { faqs, locale = 'en' } = Astro.props
 // FAQPage JSON-LD is injected at page level (article page) using raw DB fields.
 // Do not inject here to avoid duplication.
 ---
 
 <section class="faq-section">
-  <h2 class="faq-heading">Frequently Asked Questions</h2>
+  <h2 class="faq-heading">{t(locale, 'faq.heading')}</h2>
   <div class="faq-list">
-    {
-      faqs.map((item) => (
-        <details class="faq-item" name="faq">
-          <summary class="faq-question">
-            <span>{item.q}</span>
-            <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path
-                fill-rule="evenodd"
-                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </summary>
-          <div class="faq-answer">
-            <p>{item.a}</p>
-          </div>
-        </details>
-      ))
-    }
+    {faqs.map((item) => (
+      <details class="faq-item" name="faq">
+        <summary class="faq-question">
+          <span>{item.q}</span>
+          <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>
+        </summary>
+        <div class="faq-answer"><p>{item.a}</p></div>
+      </details>
+    ))}
   </div>
 </section>
 
 <style>
-  .faq-section {
-    margin: 2.5rem 0;
-  }
-  .faq-heading {
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin-bottom: 1.25rem;
-    color: #111827;
-  }
-  .faq-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  .faq-item {
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .faq-item[open] {
-    border-color: #2563eb;
-  }
-  .faq-question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.25rem;
-    cursor: pointer;
-    font-weight: 600;
-    color: #111827;
-    list-style: none;
-    user-select: none;
-  }
-  .faq-question::-webkit-details-marker {
-    display: none;
-  }
-  .faq-question:hover {
-    background: #f9fafb;
-  }
-  .faq-chevron {
-    width: 1.25rem;
-    height: 1.25rem;
-    flex-shrink: 0;
-    color: #6b7280;
-    transition: transform 0.2s;
-  }
-  details[open] .faq-chevron {
-    transform: rotate(180deg);
-  }
-  .faq-answer {
-    padding: 0 1.25rem 1rem;
-    color: #374151;
-    line-height: 1.7;
-  }
-  .faq-answer p {
-    margin: 0;
-  }
+  .faq-section { margin: 2.5rem 0; }
+  .faq-heading { font-size: 1.25rem; font-weight: 700; margin-bottom: 1.25rem; color: #111827; }
+  .faq-list { display: flex; flex-direction: column; gap: 0.5rem; }
+  .faq-item { border: 1px solid #e5e7eb; border-radius: 8px; overflow: hidden; }
+  .faq-item[open] { border-color: #2563eb; }
+  .faq-question { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; cursor: pointer; font-weight: 600; color: #111827; list-style: none; user-select: none; }
+  .faq-question::-webkit-details-marker { display: none; }
+  .faq-question:hover { background: #f9fafb; }
+  .faq-chevron { width: 1.25rem; height: 1.25rem; flex-shrink: 0; color: #6b7280; transition: transform 0.2s; }
+  details[open] .faq-chevron { transform: rotate(180deg); }
+  .faq-answer { padding: 0 1.25rem 1rem; color: #374151; line-height: 1.7; }
+  .faq-answer p { margin: 0; }
 </style>

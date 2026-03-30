@@ -1,5 +1,6 @@
 ---
 import { LOCALES } from '~/lib/locales'
+import { t } from '~/lib/ui'
 
 interface LocaleUrl { locale: string; url: string }
 
@@ -25,7 +26,7 @@ const urlMap = Object.fromEntries(alternateUrls.map((a) => [a.locale, a.url]))
     class="lang-trigger"
     aria-haspopup="listbox"
     aria-expanded="false"
-    aria-label="Switch language"
+    aria-label={t(currentLocale, 'lang.switchAriaLabel')}
     type="button"
   >
     <svg class="lang-globe" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" width="15" height="15">
@@ -52,7 +53,7 @@ const urlMap = Object.fromEntries(alternateUrls.map((a) => [a.locale, a.url]))
         >
           <span class="lang-check" aria-hidden="true">{isCurrent ? '✓' : ''}</span>
           <span class="lang-name">{loc.name}</span>
-          {!loc.active && <span class="cs-label">Coming soon</span>}
+          {!loc.active && <span class="cs-label">{t(currentLocale, 'lang.comingSoon')}</span>}
         </div>
       )
     })}

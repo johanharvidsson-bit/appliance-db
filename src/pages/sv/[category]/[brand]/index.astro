@@ -3,6 +3,7 @@ import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import { getCategoriesByLocale, getBrandsByCategoryLocale, getErrorCodesByBrandCategoryLocale, getModelsByBrandCategoryLocale, getCategoryAlternates } from '~/lib/queries'
 import { buildBrandUrl } from '~/lib/locales'
+import { t } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
 const locale = 'sv'
@@ -45,7 +46,7 @@ const categoryLabel = categoryName || category.replace(/-/g, ' ').replace(/\b\w/
 const brandLabel = brandName || brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
 
 const breadcrumbs = [
-  { name: 'Home', url: `${siteUrl}/${locale}/` },
+  { name: t(locale, 'nav.home'), url: `${siteUrl}/${locale}/` },
   { name: categoryLabel, url: `${siteUrl}/${locale}/${category}/` },
   { name: brandLabel, url: `${siteUrl}/${locale}/${category}/${brand}/` },
 ]
@@ -68,13 +69,13 @@ const severityColor: Record<string, string> = {
 >
   <div class="page-container">
     <BreadcrumbNav items={breadcrumbs} />
-    <h1 class="page-h1">{brandLabel} {categoryLabel} Error Codes</h1>
-    <p class="intro">Browse all known error codes for {brandLabel} {categoryLabel.toLowerCase()}s.</p>
+    <h1 class="page-h1">{t(locale, 'brand.h1', { brand: brandLabel, category: categoryLabel })}</h1>
+    <p class="intro">{t(locale, 'brand.intro', { brand: brandLabel, category: categoryLabel.toLowerCase() })}</p>
 
     <section class="section">
       <div class="section-header">
-        <h2 class="section-h2">Error Codes <span class="count">({errorCodes?.length ?? 0})</span></h2>
-        <input id="ec-search" type="search" placeholder="Search codes…" class="search-input" autocomplete="off" />
+        <h2 class="section-h2">{t(locale, 'brand.errorCodesHeading')} <span class="count">({errorCodes?.length ?? 0})</span></h2>
+        <input id="ec-search" type="search" placeholder={t(locale, 'brand.searchCodes')} class="search-input" autocomplete="off" />
       </div>
       {errorCodes && errorCodes.length > 0 ? (
         <div class="ec-list" id="ec-grid">
@@ -90,9 +91,9 @@ const severityColor: Record<string, string> = {
                 <p class="ec-desc">{row.display_text}</p>
                 <div class="ec-card-right">
                   {at?.slug ? (
-                    <a href={`/${locale}/${category}/${brand}/${at.slug}/`} class="ec-link">View fix →</a>
+                    <a href={`/${locale}/${category}/${brand}/${at.slug}/`} class="ec-link">{t(locale, 'brand.guideLink')}</a>
                   ) : (
-                    <span class="ec-pending">Coming soon</span>
+                    <span class="ec-pending">{t(locale, 'brand.guidePending')}</span>
                   )}
                 </div>
               </div>
@@ -100,22 +101,22 @@ const severityColor: Record<string, string> = {
           })}
         </div>
       ) : (
-        <p class="no-data">No error codes found yet.</p>
+        <p class="no-data">{t(locale, 'brand.noResults')}</p>
       )}
     </section>
 
     {models && models.length > 0 && (
       <section class="section">
         <button class="models-toggle" id="models-toggle" aria-expanded="false">
-          Browse {brandLabel} {categoryLabel} models
+          {t(locale, 'brand.browseModels', { brand: brandLabel, category: categoryLabel })}
           <svg class="toggle-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
           </svg>
         </button>
         <div class="models-panel" id="models-panel" hidden>
           <div class="models-panel-header">
-            <p class="section-sub">Select your model to see error codes and troubleshooting guides.</p>
-            <input id="model-search" type="search" placeholder="Search models…" class="search-input" autocomplete="off" />
+            <p class="section-sub">{t(locale, 'brand.modelsPanelSub')}</p>
+            <input id="model-search" type="search" placeholder={t(locale, 'brand.searchModels')} class="search-input" autocomplete="off" />
           </div>
           <div class="model-chips" id="model-grid">
             {models.map((m: any) => (

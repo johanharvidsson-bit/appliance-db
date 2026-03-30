@@ -8,6 +8,7 @@ import SparePartsSection from '~/components/SparePartsSection.astro'
 import { getAllFaultArticleSlugs, getFaultArticle, getArticleFaultId, getFaultById, getFaultArticleAlternates, getFaultErrorCodes } from '~/lib/queries'
 import { parseJson } from '~/lib/utils'
 import { buildFaultArticleUrl } from '~/lib/locales'
+import { t } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
 export async function getStaticPaths() {
@@ -93,17 +94,17 @@ const brandLabel = fault?.brands?.name ?? brand.replace(/-/g, ' ').replace(/\b\w
 
 const currentYear = new Date().getFullYear()
 const breadcrumbs = [
-  { name: 'Home', url: siteUrl + '/' },
+  { name: t('en', 'nav.home'), url: siteUrl + '/' },
   { name: categoryLabel, url: `${siteUrl}/${category}/` },
   { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
-  { name: 'Common Problems', url: `${siteUrl}/${category}/${brand}/problems/` },
+  { name: t('en', 'problems.breadcrumb'), url: `${siteUrl}/${category}/${brand}/problems/` },
   { name: article?.h1 ?? slug, url: pageUrl },
 ]
 
 const severityBadge: Record<string, { cls: string; label: string }> = {
-  easy:     { cls: 'severity-easy',     label: 'Easy' },
-  medium:   { cls: 'severity-medium',   label: 'Medium' },
-  advanced: { cls: 'severity-advanced', label: 'Advanced' },
+  easy:     { cls: 'severity-easy',     label: t('en', 'severity.easy') },
+  medium:   { cls: 'severity-medium',   label: t('en', 'severity.medium') },
+  advanced: { cls: 'severity-advanced', label: t('en', 'severity.advanced') },
 }
 const badge = fault?.severity ? (severityBadge[fault.severity] ?? null) : null
 ---
@@ -135,28 +136,28 @@ const badge = fault?.severity ? (severityBadge[fault.severity] ?? null) : null
         <div class="meta-bar">
           {fault?.brands?.name && <span class="meta-chip">{fault.brands.name}</span>}
           {badge && <span class={`meta-chip severity-chip ${badge.cls}`}>{badge.label} fix</span>}
-          {updatedAt && <span class="meta-chip">Updated {updatedAt}</span>}
+          {updatedAt && <span class="meta-chip">{t('en', 'article.updatedAt', { date: updatedAt })}</span>}
         </div>
 
-        {quickFix && <QuickFixBox text={quickFix} />}
+        {quickFix && <QuickFixBox text={quickFix} locale="en" />}
 
         {article.intro_html && (
           <section class="prose-section">
-            <h2>Fault description</h2>
+            <h2>{t('en', 'article.faultDescription')}</h2>
             <div class="prose" set:html={article.intro_html} />
           </section>
         )}
 
         {causesRaw.length > 0 && (
           <section class="causes-section">
-            <h2>Causes</h2>
+            <h2>{t('en', 'article.causes')}</h2>
             <ul class="causes-list">
               {causesRaw.map((c: any) => (
                 <li>
                   <strong>{c.cause}</strong>
                   {c.frequency && (
                     <span class={`freq-badge freq-${c.frequency}`}>
-                      {c.frequency === 'common' ? 'Most common' : c.frequency === 'occasional' ? 'Occasional' : 'Rare'}
+                      {c.frequency === 'common' ? t('en', 'article.freqCommon') : c.frequency === 'occasional' ? t('en', 'article.freqOccasional') : t('en', 'article.freqRare')}
                     </span>
                   )}
                   {c.detail && <span class="cause-detail"> — {c.detail}</span>}
@@ -166,11 +167,11 @@ const badge = fault?.severity ? (severityBadge[fault.severity] ?? null) : null
           </section>
         )}
 
-        {steps.length > 0 && <StepsSection steps={steps} />}
+        {steps.length > 0 && <StepsSection steps={steps} locale="en" />}
 
         {relatedEcs.length > 0 && (
           <section class="related-ec-section">
-            <h2>Related error codes</h2>
+            <h2>{t('en', 'faultArticle.relatedErrorCodes')}</h2>
             <ul class="ec-chips">
               {relatedEcs.map((ec: any) => {
                 const ats: any[] = ec.articles?.article_translations ?? []
@@ -191,24 +192,24 @@ const badge = fault?.severity ? (severityBadge[fault.severity] ?? null) : null
 
         {article.when_to_call_technician_html && (
           <section class="prose-section technician-box">
-            <h2>When to call a service technician</h2>
+            <h2>{t('en', 'article.whenToCallTech')}</h2>
             <div class="prose" set:html={article.when_to_call_technician_html} />
           </section>
         )}
 
         {article.prevention_html && (
           <section class="prose-section">
-            <h2>Prevention</h2>
+            <h2>{t('en', 'faultArticle.prevention')}</h2>
             <div class="prose" set:html={article.prevention_html.replace(/<!--\s*SPARE_PARTS_FAULT:[^>]*-->/g, '')} />
           </section>
         )}
 
         <SparePartsSection />
 
-        {faqs.length > 0 && <FaqSection faqs={faqs} />}
+        {faqs.length > 0 && <FaqSection faqs={faqs} locale="en" />}
       </>
     ) : (
-      <p class="no-data">Content not available yet. Please check back soon.</p>
+      <p class="no-data">{t('en', 'article.notAvailable')}</p>
     )}
   </div>
 </PageLayout>

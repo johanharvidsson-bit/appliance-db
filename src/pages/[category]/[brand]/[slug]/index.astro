@@ -17,6 +17,7 @@ import SpecsTable from '~/components/SpecsTable.astro'
 import { getArticle, getAllArticleSlugs, getAllModelSlugs, getModelBySlug, getErrorCodesByModel, getModelsByBrandCategory, getArticleAlternates, getFaultsByBrandCategoryId, getWashingMachineSpecs } from '~/lib/queries'
 import { parseJson } from '~/lib/utils'
 import { buildAlternateUrl } from '~/lib/locales'
+import { t } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
 export async function getStaticPaths() {
@@ -117,9 +118,9 @@ if (type === 'model') {
 
 // ── Shared helpers ───────────────────────────────────────────────────────────
 const severityBadge: Record<string, { cls: string; label: string }> = {
-  easy:     { cls: 'severity-easy',     label: 'Easy' },
-  medium:   { cls: 'severity-medium',   label: 'Medium' },
-  advanced: { cls: 'severity-advanced', label: 'Advanced' },
+  easy:     { cls: 'severity-easy',     label: t(locale, 'severity.easy') },
+  medium:   { cls: 'severity-medium',   label: t(locale, 'severity.medium') },
+  advanced: { cls: 'severity-advanced', label: t(locale, 'severity.advanced') },
 }
 
 const categoryLabel = category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
@@ -194,18 +195,18 @@ const faqSchema = faqsRaw.length > 0 ? {
 } : null
 
 // ── Breadcrumb last segment: "Error Code {code}" not full H1 ─────────────────
-const errorCodeLabel = ec?.code ? `Error Code ${ec.code}` : (article?.h1 ?? slug)
+const errorCodeLabel = ec?.code ? t(locale, 'article.errorCodeLabel', { code: ec.code }) : (article?.h1 ?? slug)
 
 // ── Breadcrumbs ───────────────────────────────────────────────────────────────
 const breadcrumbs = type === 'article'
   ? [
-      { name: 'Home', url: siteUrl + '/' },
+      { name: t(locale, 'nav.home'), url: siteUrl + '/' },
       { name: categoryLabel, url: `${siteUrl}/${category}/` },
       { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
       { name: errorCodeLabel, url: pageUrl },
     ]
   : [
-      { name: 'Home', url: siteUrl + '/' },
+      { name: t(locale, 'nav.home'), url: siteUrl + '/' },
       { name: categoryLabel, url: `${siteUrl}/${category}/` },
       { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
       { name: model?.name ?? slug, url: pageUrl },
@@ -247,31 +248,31 @@ const metadata = type === 'article'
 
         <div class="meta-bar">
           {ec?.brands?.name && <span class="meta-chip">{ec.brands.name}</span>}
-          {updatedAt && <span class="meta-chip">Updated {updatedAt}</span>}
+          {updatedAt && <span class="meta-chip">{t(locale, 'article.updatedAt', { date: updatedAt })}</span>}
           {ec?.diy_possible === false && (
-            <span class="meta-chip danger">Professional repair recommended</span>
+            <span class="meta-chip danger">{t(locale, 'article.professionalRepair')}</span>
           )}
         </div>
 
-        {quickFix && <QuickFixBox text={quickFix} />}
+        {quickFix && <QuickFixBox text={quickFix} locale={locale} />}
 
         {article.intro_html && (
           <section class="prose-section">
-            <h2>Fault description</h2>
+            <h2>{t(locale, 'article.faultDescription')}</h2>
             <div class="prose" set:html={article.intro_html} />
           </section>
         )}
 
         {causesRaw.length > 0 && (
           <section class="causes-section">
-            <h2>Causes</h2>
+            <h2>{t(locale, 'article.causes')}</h2>
             <ul class="causes-list">
               {causesRaw.map((c: any) => (
                 <li>
                   <strong>{c.cause}</strong>
                   {c.frequency && (
                     <span class={`freq-badge freq-${c.frequency}`}>
-                      {c.frequency === 'common' ? 'Most common' : c.frequency === 'occasional' ? 'Occasional' : 'Rare'}
+                      {c.frequency === 'common' ? t(locale, 'article.freqCommon') : c.frequency === 'occasional' ? t(locale, 'article.freqOccasional') : t(locale, 'article.freqRare')}
                     </span>
                   )}
                   {c.detail && <span class="cause-detail"> — {c.detail}</span>}
@@ -281,21 +282,21 @@ const metadata = type === 'article'
           </section>
         )}
 
-        {steps.length > 0 && <StepsSection steps={steps} />}
+        {steps.length > 0 && <StepsSection steps={steps} locale={locale} />}
 
         {articleModelGroups.length > 0 && (
             <section class="affected-models-section">
-              <h2>Affected models</h2>
+              <h2>{t(locale, 'article.affectedModels')}</h2>
               <button class="models-toggle" id="article-models-toggle" aria-expanded="false">
-                Expand to see affected models
+                {t(locale, 'article.expandModels')}
                 <svg class="toggle-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                 </svg>
               </button>
               <div id="article-models-panel" hidden>
                 <div class="models-panel-header">
-                  <p class="models-panel-sub">Select your model to see its full troubleshooting page.</p>
-                  <input id="article-model-search" type="search" placeholder="Search models…" class="model-search-input" autocomplete="off" />
+                  <p class="models-panel-sub">{t(locale, 'article.modelPanelSub')}</p>
+                  <input id="article-model-search" type="search" placeholder={t(locale, 'article.searchModels')} class="model-search-input" autocomplete="off" />
                 </div>
                 <div id="article-model-grid">
                   {articleModelGroups.map(([seriesName, models]) =>
@@ -306,8 +307,8 @@ const metadata = type === 'article'
                     ) : (
                       <div class="series-group" data-series={seriesName.toLowerCase()}>
                         <button class="series-toggle" aria-expanded="false">
-                          <span class="series-name">{seriesName} series</span>
-                          <span class="series-count">{models.length} models</span>
+                          <span class="series-name">{t(locale, 'article.series', { name: seriesName })}</span>
+                          <span class="series-count">{t(locale, 'article.modelCount', { n: String(models.length) })}</span>
                           <svg class="series-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" width="14" height="14">
                             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                           </svg>
@@ -327,14 +328,14 @@ const metadata = type === 'article'
 
         {article.when_to_call_technician_html && (
           <section class="prose-section technician-box">
-            <h2>When to call a service technician</h2>
+            <h2>{t(locale, 'article.whenToCallTech')}</h2>
             <div class="prose" set:html={article.when_to_call_technician_html} />
           </section>
         )}
 
         <SparePartsSection />
 
-        {faqs.length > 0 && <FaqSection faqs={faqs} />}
+        {faqs.length > 0 && <FaqSection faqs={faqs} locale={locale} />}
       </>
     )}
 
@@ -344,31 +345,31 @@ const metadata = type === 'article'
         <h1 class="page-h1">{brandLabel} {model.name} – Error Codes &amp; Troubleshooting</h1>
 
         <div class="meta-bar">
-          {model.release_year && <span class="meta-chip">Released {model.release_year}</span>}
+          {model.release_year && <span class="meta-chip">{t(locale, 'model.released', { year: String(model.release_year) })}</span>}
           <span class="meta-chip">{categoryLabel}</span>
         </div>
 
         <!-- Contents -->
         <nav class="contents-nav" aria-label="Page contents">
-          <p class="contents-label">Contents</p>
+          <p class="contents-label">{t(locale, 'model.contents')}</p>
           <ol class="contents-list">
-            <li><a href="#model-overview">Model overview</a></li>
-            <li><a href="#common-faults">Common faults</a></li>
-            <li><a href="#error-codes">Error codes</a></li>
-            <li><a href="#related-models">Model variants</a></li>
-            {modelSpecs && <li><a href="#specification">Specification</a></li>}
-            <li><a href="#spare-parts">Spare parts and service</a></li>
+            <li><a href="#model-overview">{t(locale, 'model.overview')}</a></li>
+            <li><a href="#common-faults">{t(locale, 'model.commonFaults')}</a></li>
+            <li><a href="#error-codes">{t(locale, 'model.errorCodes')}</a></li>
+            <li><a href="#related-models">{t(locale, 'model.variants')}</a></li>
+            {modelSpecs && <li><a href="#specification">{t(locale, 'model.specification')}</a></li>}
+            <li><a href="#spare-parts">{t(locale, 'model.spareParts')}</a></li>
           </ol>
         </nav>
 
         <!-- Model overview -->
         <section class="model-section" id="model-overview">
-          <h2 class="model-h2">Model overview</h2>
+          <h2 class="model-h2">{t(locale, 'model.overview')}</h2>
         </section>
 
         <!-- Common faults -->
         <section class="model-section" id="common-faults">
-          <h2 class="model-h2">Common faults</h2>
+          <h2 class="model-h2">{t(locale, 'model.commonFaults')}</h2>
           {modelFaults.length > 0 ? (
             <div class="fault-list">
               {modelFaults.map((row: any) => {
@@ -382,22 +383,22 @@ const metadata = type === 'article'
                     </div>
                     {ft?.meta_description && <p class="fault-desc">{ft.meta_description}</p>}
                     {row.article_slug
-                      ? <a class="fault-link" href={`/${category}/${brand}/problems/${row.article_slug}/`}>Full guide →</a>
-                      : <span class="fault-link fault-link--pending">Guide coming soon</span>
+                      ? <a class="fault-link" href={`/${category}/${brand}/problems/${row.article_slug}/`}>{t(locale, 'brand.guideLink')}</a>
+                      : <span class="fault-link fault-link--pending">{t(locale, 'brand.guidePending')}</span>
                     }
                   </article>
                 )
               })}
             </div>
           ) : (
-            <p class="no-data">No common faults listed yet.</p>
+            <p class="no-data">{t(locale, 'model.noFaults')}</p>
           )}
-          <a href={`/${category}/${brand}/problems/`} class="all-faults-link">See all {brandLabel} {categoryLabel} problems →</a>
+          <a href={`/${category}/${brand}/problems/`} class="all-faults-link">{t(locale, 'model.allProblems', { brand: brandLabel, category: categoryLabel })}</a>
         </section>
 
         <!-- Error codes -->
         <section class="model-section" id="error-codes">
-          <h2 class="model-h2">Error codes</h2>
+          <h2 class="model-h2">{t(locale, 'model.errorCodes')}</h2>
           {modelErrorCodes.length > 0 ? (
             <div class="ec-list">
               {modelErrorCodes.map((row: any) => {
@@ -410,7 +411,7 @@ const metadata = type === 'article'
                       <span class="error-id">{row.code}</span>
                       {row.short_description
                         ? <h3 class="error-title">{row.short_description}</h3>
-                        : <h3 class="error-title error-title--placeholder">Diagnostic title coming soon</h3>
+                        : <h3 class="error-title error-title--placeholder">{t(locale, 'brand.titlePlaceholder')}</h3>
                       }
                       {badge
                         ? <span class={`severity ${badge.cls}`}>{badge.label}</span>
@@ -423,8 +424,8 @@ const metadata = type === 'article'
                     <div class="error-body">
                       {row.description && <p class="error-description">{row.description}</p>}
                       {at?.slug
-                        ? <a class="error-link" href={`/${category}/${brand}/${at.slug}/`}>Full troubleshooting guide →</a>
-                        : <span class="error-link error-link--pending">Guide coming soon</span>
+                        ? <a class="error-link" href={`/${category}/${brand}/${at.slug}/`}>{t(locale, 'brand.guideLink')}</a>
+                        : <span class="error-link error-link--pending">{t(locale, 'brand.guidePending')}</span>
                       }
                     </div>
                   </details>
@@ -432,33 +433,33 @@ const metadata = type === 'article'
               })}
             </div>
           ) : (
-            <p class="no-data">No error codes found yet for this model. Check back soon.</p>
+            <p class="no-data">{t(locale, 'model.noErrorCodes')}</p>
           )}
         </section>
 
         <!-- Model variants -->
         <section class="model-section" id="related-models">
-          <h2 class="model-h2">Model variants</h2>
+          <h2 class="model-h2">{t(locale, 'model.variants')}</h2>
         </section>
 
         <!-- Specification -->
         {modelSpecs && (
           <section class="model-section" id="specification">
-            <h2 class="model-h2">Specification</h2>
+            <h2 class="model-h2">{t(locale, 'model.specification')}</h2>
             <SpecsTable specs={modelSpecs} locale={locale} />
           </section>
         )}
 
         <!-- Spare parts and service -->
         <section class="model-section" id="spare-parts">
-          <h2 class="model-h2">Spare parts and service</h2>
+          <h2 class="model-h2">{t(locale, 'model.spareParts')}</h2>
           <SparePartsSection />
         </section>
       </>
     )}
 
     {!article && !model && (
-      <p class="no-data">Content not available yet. Please check back soon.</p>
+      <p class="no-data">{t(locale, 'article.notAvailable')}</p>
     )}
   </div>
 </PageLayout>

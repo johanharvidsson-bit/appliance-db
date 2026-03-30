@@ -1,12 +1,11 @@
 ---
-interface Props {
-  text: string
-}
-const { text } = Astro.props
+import { t } from '~/lib/ui'
+interface Props { text: string; locale?: string }
+const { text, locale = 'en' } = Astro.props
 ---
 
 <div class="quick-fix-box">
-  <span class="label">Quick Fix</span>
+  <span class="label">{t(locale, 'quickfix.label')}</span>
   <p>{text}</p>
 </div>
 

@@ -1,6 +1,7 @@
 ---
 import PageLayout from '~/layouts/PageLayout.astro'
 import { getCategoriesByLocale } from '~/lib/queries'
+import { t } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
 const locale = 'sv'
@@ -20,17 +21,16 @@ const { data: categories } = await getCategoriesByLocale(locale)
 >
   <section class="hero">
     <div class="hero-inner">
-      <h1 class="hero-h1">Fix Your Appliance Error Code – Fast</h1>
+      <h1 class="hero-h1">{t(locale, 'home.heroH1')}</h1>
       <p class="hero-sub">
-        Step-by-step troubleshooting guides for Samsung, Bosch, LG, Siemens and more.
-        Free DIY fixes written by appliance repair experts.
+        {t(locale, 'home.heroSub')}
       </p>
     </div>
   </section>
 
   <section class="categories-section">
     <div class="section-inner">
-      <h2 class="section-h2">Browse by Appliance Type</h2>
+      <h2 class="section-h2">{t(locale, 'home.browseByType')}</h2>
       {categories && categories.length > 0 ? (
         <div class="cat-grid">
           {categories.map((cat: any) => (
@@ -41,7 +41,7 @@ const { data: categories } = await getCategoriesByLocale(locale)
           ))}
         </div>
       ) : (
-        <p class="no-data">No categories yet. Check back soon.</p>
+        <p class="no-data">{t(locale, 'home.noCategories')}</p>
       )}
     </div>
   </section>

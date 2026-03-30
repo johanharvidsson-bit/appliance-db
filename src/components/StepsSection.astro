@@ -1,4 +1,5 @@
 ---
+import { t } from '~/lib/ui'
 interface Step {
   title: string
   instruction: string
@@ -6,126 +7,50 @@ interface Step {
   tip?: string
   image_url?: string
 }
-
-interface Props {
-  steps: Step[]
-}
-
-const { steps } = Astro.props
+interface Props { steps: Step[]; locale?: string }
+const { steps, locale = 'en' } = Astro.props
 ---
 
 <section class="steps-section">
-  <h2 class="steps-heading">Step-by-Step Fix</h2>
+  <h2 class="steps-heading">{t(locale, 'steps.heading')}</h2>
   <ol class="steps-list">
-    {
-      steps.map((step, i) => (
-        <li class="step-card">
-          <div class="step-number">{i + 1}</div>
-          <div class="step-content">
-            <h3 class="step-title">{step.title}</h3>
-            <p class="step-instruction">{step.instruction}</p>
-            {step.warning && (
-              <div class="step-warning">
-                <span class="warning-icon">⚠</span>
-                <span>{typeof step.warning === 'string' ? step.warning : 'Take care with this step.'}</span>
-              </div>
-            )}
-            {step.tip && (
-              <div class="step-tip">
-                <span class="tip-icon">💡</span>
-                <span>{step.tip}</span>
-              </div>
-            )}
-            {step.image_url && (
-              <img src={step.image_url} alt={step.title} class="step-image" loading="lazy" />
-            )}
-          </div>
-        </li>
-      ))
-    }
+    {steps.map((step, i) => (
+      <li class="step-card">
+        <div class="step-number">{i + 1}</div>
+        <div class="step-content">
+          <h3 class="step-title">{step.title}</h3>
+          <p class="step-instruction">{step.instruction}</p>
+          {step.warning && (
+            <div class="step-warning">
+              <span class="warning-icon">⚠</span>
+              <span>{typeof step.warning === 'string' ? step.warning : t(locale, 'steps.genericWarning')}</span>
+            </div>
+          )}
+          {step.tip && (
+            <div class="step-tip">
+              <span class="tip-icon">💡</span>
+              <span>{step.tip}</span>
+            </div>
+          )}
+          {step.image_url && (
+            <img src={step.image_url} alt={step.title} class="step-image" loading="lazy" />
+          )}
+        </div>
+      </li>
+    ))}
   </ol>
 </section>
 
 <style>
-  .steps-section {
-    margin: 2rem 0;
-  }
-  .steps-heading {
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin-bottom: 1.25rem;
-    color: #111827;
-  }
-  .steps-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .step-card {
-    display: flex;
-    gap: 1rem;
-    background: #fff;
-    border: 1px solid #e5e7eb;
-    border-radius: 10px;
-    padding: 1.25rem;
-  }
-  .step-number {
-    flex-shrink: 0;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    background: #2563eb;
-    color: #fff;
-    font-weight: 700;
-    font-size: 0.875rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .step-content {
-    flex: 1;
-  }
-  .step-title {
-    font-size: 1rem;
-    font-weight: 700;
-    margin: 0 0 0.5rem;
-    color: #111827;
-  }
-  .step-instruction {
-    margin: 0;
-    color: #374151;
-    line-height: 1.6;
-  }
-  .step-warning {
-    margin-top: 0.75rem;
-    background: #fef3c7;
-    border-left: 3px solid #f59e0b;
-    border-radius: 4px;
-    padding: 0.625rem 0.875rem;
-    display: flex;
-    gap: 0.5rem;
-    align-items: flex-start;
-    font-size: 0.875rem;
-    color: #92400e;
-  }
-  .step-tip {
-    margin-top: 0.75rem;
-    background: #eff6ff;
-    border-left: 3px solid #2563eb;
-    border-radius: 4px;
-    padding: 0.625rem 0.875rem;
-    display: flex;
-    gap: 0.5rem;
-    align-items: flex-start;
-    font-size: 0.875rem;
-    color: #1e40af;
-  }
-  .step-image {
-    margin-top: 0.75rem;
-    max-width: 100%;
-    border-radius: 6px;
-  }
+  .steps-section { margin: 2rem 0; }
+  .steps-heading { font-size: 1.25rem; font-weight: 700; margin-bottom: 1.25rem; color: #111827; }
+  .steps-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1rem; }
+  .step-card { display: flex; gap: 1rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1.25rem; }
+  .step-number { flex-shrink: 0; width: 2rem; height: 2rem; border-radius: 50%; background: #2563eb; color: #fff; font-weight: 700; font-size: 0.875rem; display: flex; align-items: center; justify-content: center; }
+  .step-content { flex: 1; }
+  .step-title { font-size: 1rem; font-weight: 700; margin: 0 0 0.5rem; color: #111827; }
+  .step-instruction { margin: 0; color: #374151; line-height: 1.6; }
+  .step-warning { margin-top: 0.75rem; background: #fef3c7; border-left: 3px solid #f59e0b; border-radius: 4px; padding: 0.625rem 0.875rem; display: flex; gap: 0.5rem; align-items: flex-start; font-size: 0.875rem; color: #92400e; }
+  .step-tip { margin-top: 0.75rem; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 4px; padding: 0.625rem 0.875rem; display: flex; gap: 0.5rem; align-items: flex-start; font-size: 0.875rem; color: #1e40af; }
+  .step-image { margin-top: 0.75rem; max-width: 100%; border-radius: 6px; }
 </style>

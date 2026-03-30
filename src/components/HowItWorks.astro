@@ -1,4 +1,6 @@
 ---
+import { t } from '~/lib/ui'
+
 interface Props {
   locale?: string
 }
@@ -8,25 +10,25 @@ const { locale = 'en' } = Astro.props
 const steps = [
   {
     num: '1',
-    title: 'Select your appliance and brand',
-    desc: 'Or enter the error code directly',
+    title: t(locale, 'home.step1Title'),
+    desc: t(locale, 'home.step1Desc'),
   },
   {
     num: '2',
-    title: 'Find your error code or symptom',
-    desc: 'Pick from the list or search',
+    title: t(locale, 'home.step2Title'),
+    desc: t(locale, 'home.step2Desc'),
   },
   {
     num: '3',
-    title: 'Follow the fix steps',
-    desc: 'Free guides, no sign-up needed',
+    title: t(locale, 'home.step3Title'),
+    desc: t(locale, 'home.step3Desc'),
   },
 ]
 ---
 
 <section class="bg-slate-50 py-12 px-4">
   <div class="max-w-4xl mx-auto text-center">
-    <h2 class="text-xl font-bold text-gray-900 mb-8">How it works</h2>
+    <h2 class="text-xl font-bold text-gray-900 mb-8">{t(locale, 'home.howItWorks')}</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
       {steps.map(step => (
         <div class="bg-white border border-gray-200 rounded-xl p-6 text-left">

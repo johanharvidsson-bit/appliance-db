@@ -1,4 +1,6 @@
 ---
+import { t } from '~/lib/ui'
+
 interface Guide {
   slug: string
   h1: string
@@ -25,7 +27,7 @@ const { trending, popular, locale = 'en' } = Astro.props
         {trending.length > 0 && (
           <div class="bg-white border border-gray-200 rounded-xl p-5">
             <h2 class="text-base font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <span>🔥</span> Trending error codes
+              <span>🔥</span> {t(locale, 'home.trending')}
             </h2>
             <ul class="divide-y divide-gray-100">
               {trending.map(guide => (
@@ -51,7 +53,7 @@ const { trending, popular, locale = 'en' } = Astro.props
         {popular.length > 0 && (
           <div class="bg-white border border-gray-200 rounded-xl p-5">
             <h2 class="text-base font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <span>⭐</span> Popular guides
+              <span>⭐</span> {t(locale, 'home.popular')}
             </h2>
             <ul class="divide-y divide-gray-100">
               {popular.map(guide => (

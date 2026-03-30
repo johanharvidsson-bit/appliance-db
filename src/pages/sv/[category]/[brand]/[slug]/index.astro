@@ -8,6 +8,7 @@ import SparePartsSection from '~/components/SparePartsSection.astro'
 import { getArticle, getAllArticleSlugs, getModelsByBrandCategoryLocale, getArticleAlternates, getCategoryByLocaleSlug, getBrandBySlug } from '~/lib/queries'
 import { parseJson } from '~/lib/utils'
 import { buildAlternateUrl } from '~/lib/locales'
+import { t } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
 const locale = 'sv'
@@ -88,9 +89,9 @@ const articleModelGroups: [string, any[]][] = (() => {
   return [...seriesMap.entries()].sort((a, b) => b[1].length - a[1].length)
 })()
 
-const errorCodeLabel = ec?.code ? `Error Code ${ec.code}` : (article?.h1 ?? slug)
+const errorCodeLabel = ec?.code ? t(locale, 'article.errorCodeLabel', { code: ec.code }) : (article?.h1 ?? slug)
 const breadcrumbs = [
-  { name: 'Home', url: `${siteUrl}/${locale}/` },
+  { name: t(locale, 'nav.home'), url: `${siteUrl}/${locale}/` },
   { name: categoryLabel, url: `${siteUrl}/${locale}/${category}/` },
   { name: brandLabel, url: `${siteUrl}/${locale}/${category}/${brand}/` },
   { name: errorCodeLabel, url: pageUrl },
@@ -123,29 +124,29 @@ const currentYear = new Date().getFullYear()
 
         <div class="meta-bar">
           {ec?.brands?.name && <span class="meta-chip">{ec.brands.name}</span>}
-          {updatedAt && <span class="meta-chip">Updated {updatedAt}</span>}
-          {ec?.diy_possible === false && <span class="meta-chip danger">Professional repair recommended</span>}
+          {updatedAt && <span class="meta-chip">{t(locale, 'article.updatedAt', { date: updatedAt })}</span>}
+          {ec?.diy_possible === false && <span class="meta-chip danger">{t(locale, 'article.professionalRepair')}</span>}
         </div>
 
-        {quickFix && <QuickFixBox text={quickFix} />}
+        {quickFix && <QuickFixBox text={quickFix} locale={locale} />}
 
         {article.intro_html && (
           <section class="prose-section">
-            <h2>Fault description</h2>
+            <h2>{t(locale, 'article.faultDescription')}</h2>
             <div class="prose" set:html={article.intro_html} />
           </section>
         )}
 
         {causesRaw.length > 0 && (
           <section class="causes-section">
-            <h2>Causes</h2>
+            <h2>{t(locale, 'article.causes')}</h2>
             <ul class="causes-list">
               {causesRaw.map((c: any) => (
                 <li>
                   <strong>{c.cause}</strong>
                   {c.frequency && (
                     <span class={`freq-badge freq-${c.frequency}`}>
-                      {c.frequency === 'common' ? 'Most common' : c.frequency === 'occasional' ? 'Occasional' : 'Rare'}
+                      {c.frequency === 'common' ? t(locale, 'article.freqCommon') : c.frequency === 'occasional' ? t(locale, 'article.freqOccasional') : t(locale, 'article.freqRare')}
                     </span>
                   )}
                   {c.detail && <span class="cause-detail"> — {c.detail}</span>}
@@ -155,21 +156,21 @@ const currentYear = new Date().getFullYear()
           </section>
         )}
 
-        {steps.length > 0 && <StepsSection steps={steps} />}
+        {steps.length > 0 && <StepsSection steps={steps} locale={locale} />}
 
         {articleModelGroups.length > 0 && (
             <section class="affected-models-section">
-              <h2>Affected models</h2>
+              <h2>{t(locale, 'article.affectedModels')}</h2>
               <button class="models-toggle" id="article-models-toggle" aria-expanded="false">
-                Expand to see affected models
+                {t(locale, 'article.expandModels')}
                 <svg class="toggle-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                 </svg>
               </button>
               <div id="article-models-panel" hidden>
                 <div class="models-panel-header">
-                  <p class="models-panel-sub">Select your model to see its full troubleshooting page.</p>
-                  <input id="article-model-search" type="search" placeholder="Search models…" class="model-search-input" autocomplete="off" />
+                  <p class="models-panel-sub">{t(locale, 'article.modelPanelSub')}</p>
+                  <input id="article-model-search" type="search" placeholder={t(locale, 'article.searchModels')} class="model-search-input" autocomplete="off" />
                 </div>
                 <div id="article-model-grid">
                   {articleModelGroups.map(([seriesName, models]) =>
@@ -180,8 +181,8 @@ const currentYear = new Date().getFullYear()
                     ) : (
                       <div class="series-group" data-series={seriesName.toLowerCase()}>
                         <button class="series-toggle" aria-expanded="false">
-                          <span class="series-name">{seriesName} series</span>
-                          <span class="series-count">{models.length} models</span>
+                          <span class="series-name">{t(locale, 'article.series', { name: seriesName })}</span>
+                          <span class="series-count">{t(locale, 'article.modelCount', { n: String(models.length) })}</span>
                           <svg class="series-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" width="14" height="14">
                             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                           </svg>
@@ -201,16 +202,16 @@ const currentYear = new Date().getFullYear()
 
         {article.when_to_call_technician_html && (
           <section class="prose-section technician-box">
-            <h2>When to call a service technician</h2>
+            <h2>{t(locale, 'article.whenToCallTech')}</h2>
             <div class="prose" set:html={article.when_to_call_technician_html} />
           </section>
         )}
 
         <SparePartsSection />
-        {faqs.length > 0 && <FaqSection faqs={faqs} />}
+        {faqs.length > 0 && <FaqSection faqs={faqs} locale={locale} />}
       </>
     ) : (
-      <p class="no-data">Content not available yet. Please check back soon.</p>
+      <p class="no-data">{t(locale, 'article.notAvailable')}</p>
     )}
   </div>
 </PageLayout>

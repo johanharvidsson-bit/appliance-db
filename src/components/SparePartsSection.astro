@@ -1,15 +1,19 @@
 ---
-// Static monetisation section — rendered on every fault article page.
-// Links are plain hrefs; affiliate parameters added later.
+import { t } from '~/lib/ui'
+
+interface Props {
+  locale?: string
+}
+const { locale = 'en' } = Astro.props
 ---
 
 <section class="spare-parts-section">
-  <h2>Spare parts and service</h2>
-  <p class="spare-parts-sub">Visit our partners for spare parts and service</p>
+  <h2>{t(locale, 'spareParts.heading')}</h2>
+  <p class="spare-parts-sub">{t(locale, 'spareParts.sub')}</p>
 
   <div class="spare-parts-grid">
     <div class="spare-parts-group">
-      <h3>Spare parts</h3>
+      <h3>{t(locale, 'spareParts.partsHeading')}</h3>
       <ul>
         <li>
           <a href="https://www.appliancepartspros.com" target="_blank" rel="noopener">
@@ -30,7 +34,7 @@
     </div>
 
     <div class="spare-parts-group">
-      <h3>Book a repair</h3>
+      <h3>{t(locale, 'spareParts.repairHeading')}</h3>
       <ul>
         <li>
           <a href="https://www.taskrabbit.com" target="_blank" rel="noopener">

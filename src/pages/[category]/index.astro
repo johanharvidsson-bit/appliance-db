@@ -42,8 +42,8 @@ const breadcrumbs = [
   currentLocale="en"
   alternateUrls={alternateUrls}
   metadata={{
-    title: `${categoryLabel} Error Codes – All Brands | ${siteConfig.name}`,
-    description: `Find error code fixes for all ${categoryLabel.toLowerCase()} brands. Samsung, Bosch, LG, Siemens and more – step-by-step DIY guides.`,
+    title: `${t('en', 'meta.categoryTitle', { category: categoryLabel })} | ${siteConfig.name}`,
+    description: t('en', 'meta.categoryDesc', { category: categoryLabel.toLowerCase() }),
     canonical: `${siteUrl}/${category}/`,
     alternateUrls,
   }}

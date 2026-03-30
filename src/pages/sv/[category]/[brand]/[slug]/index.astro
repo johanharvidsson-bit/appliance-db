@@ -207,7 +207,7 @@ const currentYear = new Date().getFullYear()
           </section>
         )}
 
-        <SparePartsSection />
+        <SparePartsSection locale={locale} />
         {faqs.length > 0 && <FaqSection faqs={faqs} locale={locale} />}
       </>
     ) : (

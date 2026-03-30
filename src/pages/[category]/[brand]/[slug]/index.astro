@@ -222,7 +222,7 @@ const metadata = type === 'article'
       alternateUrls,
     }
   : {
-      title: `${model?.name ?? slug} – Error Codes & Troubleshooting | ${siteConfig.name}`,
+      title: `${t(locale, 'model.h1', { brand: brandLabel, model: model?.name ?? slug })} | ${siteConfig.name}`,
       description: `Complete list of error codes and fixes for the ${brandLabel} ${model?.name ?? slug}.`,
       canonical: pageUrl,
     }
@@ -333,7 +333,7 @@ const metadata = type === 'article'
           </section>
         )}
 
-        <SparePartsSection />
+        <SparePartsSection locale={locale} />
 
         {faqs.length > 0 && <FaqSection faqs={faqs} locale={locale} />}
       </>
@@ -342,7 +342,7 @@ const metadata = type === 'article'
     {type === 'model' && model && (
       <>
         <!-- ── Model view ──────────────────────────────────── -->
-        <h1 class="page-h1">{brandLabel} {model.name} – Error Codes &amp; Troubleshooting</h1>
+        <h1 class="page-h1">{t(locale, 'model.h1', { brand: brandLabel, model: model.name })}</h1>
 
         <div class="meta-bar">
           {model.release_year && <span class="meta-chip">{t(locale, 'model.released', { year: String(model.release_year) })}</span>}
@@ -453,7 +453,7 @@ const metadata = type === 'article'
         <!-- Spare parts and service -->
         <section class="model-section" id="spare-parts">
           <h2 class="model-h2">{t(locale, 'model.spareParts')}</h2>
-          <SparePartsSection />
+          <SparePartsSection locale={locale} />
         </section>
       </>
     )}

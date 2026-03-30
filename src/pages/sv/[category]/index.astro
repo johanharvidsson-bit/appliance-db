@@ -44,8 +44,8 @@ const breadcrumbs = [
   currentLocale={locale}
   alternateUrls={alternateUrls}
   metadata={{
-    title: `${categoryLabel} Error Codes – All Brands | ${siteConfig.name}`,
-    description: `Find error code fixes for all ${categoryLabel.toLowerCase()} brands. Step-by-step DIY guides.`,
+    title: `${t(locale, 'meta.categoryTitle', { category: categoryLabel })} | ${siteConfig.name}`,
+    description: t(locale, 'meta.categoryDesc', { category: categoryLabel.toLowerCase() }),
     canonical: `${siteUrl}/${locale}/${category}/`,
     lang: locale,
     alternateUrls,

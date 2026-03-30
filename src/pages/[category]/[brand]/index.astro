@@ -62,8 +62,8 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
   currentLocale="en"
   alternateUrls={alternateUrls}
   metadata={{
-    title: `${brandLabel} ${categoryLabel} Error Codes & Models | ${siteConfig.name}`,
-    description: `All ${brandLabel} ${categoryLabel} error codes with step-by-step fixes, plus a full model list with troubleshooting guides.`,
+    title: `${t('en', 'meta.brandTitle', { brand: brandLabel, category: categoryLabel })} | ${siteConfig.name}`,
+    description: t('en', 'meta.brandDesc', { brand: brandLabel, category: categoryLabel.toLowerCase() }),
     canonical: `${siteUrl}/${category}/${brand}/`,
     alternateUrls,
   }}

@@ -60,8 +60,8 @@ const severityColor: Record<string, string> = {
   currentLocale={locale}
   alternateUrls={alternateUrls}
   metadata={{
-    title: `${brandLabel} ${categoryLabel} Error Codes & Models | ${siteConfig.name}`,
-    description: `All ${brandLabel} ${categoryLabel} error codes with step-by-step fixes, plus a full model list.`,
+    title: `${t(locale, 'meta.brandTitle', { brand: brandLabel, category: categoryLabel })} | ${siteConfig.name}`,
+    description: t(locale, 'meta.brandDesc', { brand: brandLabel, category: categoryLabel.toLowerCase() }),
     canonical: `${siteUrl}/${locale}/${category}/${brand}/`,
     lang: locale,
     alternateUrls,

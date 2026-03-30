@@ -12,8 +12,8 @@ const { data: categories } = await getCategoriesByLocale(locale)
 <PageLayout
   currentLocale={locale}
   metadata={{
-    title: `${siteConfig.name} – Fix Appliance Error Codes Fast`,
-    description: siteConfig.meta.description,
+    title: `${siteConfig.name} – ${t(locale, 'meta.siteTagline')}`,
+    description: t(locale, 'home.heroSub'),
     ignoreTitleTemplate: true,
     canonical: `${siteUrl}/${locale}/`,
     lang: locale,

@@ -12,7 +12,10 @@ const footerCategoryLinks = siteConfig.categories.map((c) => ({
 }))
 
 export const headerData = {
-  links: [],
+  links: [
+    { text: 'Appliances', href: '/' },
+    { text: 'Brands', href: '/brands/' },
+  ],
   actions: [],
 };
 

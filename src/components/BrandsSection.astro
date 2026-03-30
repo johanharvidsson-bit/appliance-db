@@ -27,19 +27,17 @@ const uniqueBrands = [...seenBrands.values()]
     <div class="max-w-4xl mx-auto">
       <div class="flex items-center justify-between mb-5">
         <h2 class="text-xl font-bold text-gray-900">{t(locale, 'home.popularBrands')}</h2>
-        {uniqueBrands[0] && (
-          <a
-            href={`/${uniqueBrands[0].categorySlug}/`}
-            class="text-sm text-green-700 font-medium hover:underline"
-          >
-            {t(locale, 'home.allBrands')}
-          </a>
-        )}
+        <a
+          href="/brands/"
+          class="text-sm text-green-700 font-medium hover:underline"
+        >
+          {t(locale, 'home.allBrands')}
+        </a>
       </div>
       <div class="flex flex-wrap gap-2">
         {uniqueBrands.map(brand => (
           <a
-            href={`/${brand.categorySlug}/${brand.slug}/`}
+            href={`/brands/${brand.slug}/`}
             class="rounded-full border border-gray-300 px-4 py-1.5 text-sm text-gray-700 font-medium hover:bg-slate-100 hover:border-gray-400 transition-colors no-underline"
           >
             {brand.name}

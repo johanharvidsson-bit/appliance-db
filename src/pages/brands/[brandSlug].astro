@@ -3,6 +3,9 @@ import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import { supabase } from '~/lib/supabase'
 import { siteConfig } from 'site-config'
+import { t } from '~/lib/ui'
+
+const locale = 'en'
 
 export async function getStaticPaths() {
   const { data: brands } = await supabase
@@ -131,54 +134,66 @@ const applianceTypeList =
   : typeNames.slice(0, -1).join(', ') + ' and ' + typeNames[typeNames.length - 1]
 
 const breadcrumbs = [
-  { name: 'Home', url: `${siteUrl}/` },
-  { name: 'Brands', url: `${siteUrl}/brands/` },
+  { name: t(locale, 'nav.home'), url: `${siteUrl}/` },
+  { name: t(locale, 'brandHub.allBrandsH1'), url: `${siteUrl}/brands/` },
   { name: brandName, url: `${siteUrl}/brands/${brandSlug}/` },
+]
+
+const alternateUrls = [
+  { locale: 'en', url: `${siteUrl}/brands/${brandSlug}/` },
+  { locale: 'sv', url: `${siteUrl}/sv/brands/${brandSlug}/` },
 ]
 ---
 
 <PageLayout
+  currentLocale={locale}
+  alternateUrls={alternateUrls}
   metadata={{
     title: `${brandName} Appliance Error Codes & Repair Guides | ${siteConfig.name}`,
     description: `Browse error codes and fault guides for ${brandName} ${applianceTypeList}. Free step-by-step repair guides.`,
     canonical: `${siteUrl}/brands/${brandSlug}/`,
+    alternateUrls,
   }}
 >
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": t(locale, 'nav.home'), "item": siteUrl + "/" },
+      { "@type": "ListItem", "position": 2, "name": t(locale, 'brandHub.allBrandsH1'), "item": siteUrl + "/brands/" },
+      { "@type": "ListItem", "position": 3, "name": brandName, "item": siteUrl + "/brands/" + brandSlug + "/" },
+    ],
+  })} />
+
   <div class="page-container">
     <BreadcrumbNav items={breadcrumbs} />
 
-    <h1 class="page-h1">{brandName} appliance repair guides</h1>
-    <p class="intro">Browse error codes and fault guides for {brandName} {applianceTypeList}.</p>
+    <h1 class="page-h1">{brandName} {t(locale, 'brandHub.h1Suffix')}</h1>
+    <p class="intro">{t(locale, 'brandHub.intro', { brand: brandName, types: applianceTypeList })}</p>
 
     {sections.length === 0 && (
-      <p class="no-data">No repair guides available yet for {brandName}.</p>
+      <p class="no-data">{t(locale, 'brandHub.noGuides', { brand: brandName })}</p>
     )}
 
     {sections.map((section, i) => (
       <section class:list={['brand-hub-section', { 'border-top': i > 0 }]}>
         <div class="section-header">
           <h2 class="section-h2">{brandName} {section.catName}</h2>
-          <a
-            href={`/${section.catSlug}/${brandSlug}/`}
-            class="all-link"
-          >
-            All {brandName} {section.catName.toLowerCase()} error codes →
+          <a href={`/${section.catSlug}/${brandSlug}/`} class="all-link">
+            {t(locale, 'brandHub.allCodesLink', { brand: brandName, type: section.catName.toLowerCase() })}
           </a>
         </div>
 
         {section.errorCodes.length > 0 && (
           <div class="ec-pills">
             {section.errorCodes.map(ec => (
-              <a
-                href={`/${section.catSlug}/${brandSlug}/#ec-${ec.code}`}
-                class="ec-pill"
-              >
+              <a href={`/${section.catSlug}/${brandSlug}/#ec-${ec.code}`} class="ec-pill">
                 {ec.code}
               </a>
             ))}
             {section.totalEcCount > 8 && (
               <a href={`/${section.catSlug}/${brandSlug}/`} class="more-link">
-                View all {section.totalEcCount} error codes →
+                {t(locale, 'brandHub.viewAllCodes', { n: String(section.totalEcCount) })}
               </a>
             )}
           </div>
@@ -186,7 +201,7 @@ const breadcrumbs = [
 
         {section.faults.length > 0 && (
           <div class="fault-row">
-            <span class="fault-label">Common {section.catName.toLowerCase()} faults</span>
+            <span class="fault-label">{t(locale, 'brandHub.commonFaults', { type: section.catName.toLowerCase() })}</span>
             <span class="fault-list">
               {section.faults.map((fault, fi) => (
                 <>
@@ -205,8 +220,8 @@ const breadcrumbs = [
     ))}
 
     <div class="bottom-cta">
-      <a href={`/${brandSlug}/`} class="cta-link">
-        Can't find your model? Browse all {brandName} error codes →
+      <a href="/brands/" class="cta-link">
+        {t(locale, 'brandHub.cta')}
       </a>
     </div>
   </div>

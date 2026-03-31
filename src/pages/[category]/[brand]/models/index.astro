@@ -1,0 +1,175 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro'
+import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
+import { supabase } from '~/lib/supabase'
+import { siteConfig } from 'site-config'
+import { t } from '~/lib/ui'
+
+const locale = 'en'
+
+export async function getStaticPaths() {
+  // Only generate pages for brand+category combos that actually have models
+  const { data: modelRows } = await supabase
+    .from('models')
+    .select('brand_id, category_id')
+
+  if (!modelRows || modelRows.length === 0) return []
+
+  const seen = new Set<string>()
+  const pairs: { brand_id: number; category_id: number }[] = []
+  for (const m of modelRows) {
+    const key = `${m.brand_id}-${m.category_id}`
+    if (!seen.has(key)) { seen.add(key); pairs.push(m) }
+  }
+
+  const brandIds = [...new Set(pairs.map(p => p.brand_id))]
+  const catIds = [...new Set(pairs.map(p => p.category_id))]
+
+  const [{ data: brands }, { data: cats }] = await Promise.all([
+    supabase.from('brands').select('id, name, slug').in('id', brandIds).eq('is_active', true),
+    supabase.from('category_translations').select('category_id, name, slug').in('category_id', catIds).eq('locale', 'en'),
+  ])
+
+  const brandMap = new Map((brands ?? []).map((b: any) => [b.id, b]))
+  const catMap = new Map((cats ?? []).map((c: any) => [c.category_id, c]))
+
+  return pairs
+    .map(({ brand_id, category_id }) => {
+      const brand = brandMap.get(brand_id) as any
+      const cat = catMap.get(category_id) as any
+      if (!brand || !cat) return null
+      return {
+        params: { category: cat.slug, brand: brand.slug },
+        props: { brandName: brand.name, categoryName: cat.name },
+      }
+    })
+    .filter(Boolean)
+}
+
+const { category, brand } = Astro.params as { category: string; brand: string }
+const { brandName, categoryName } = Astro.props as { brandName: string; categoryName: string }
+const siteUrl = `https://${siteConfig.domain}`
+
+const brandLabel = brandName || brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const categoryLabel = categoryName || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+
+const { data: models } = await supabase
+  .from('models')
+  .select('id, name, slug, series, release_year')
+  .eq('brand_id', (await supabase.from('brands').select('id').eq('slug', brand).single()).data?.id ?? 0)
+  .order('name')
+  .limit(2000)
+
+// Group by series (if any)
+const seriesMap = new Map<string, typeof models>()
+const noSeries: typeof models = []
+for (const m of models ?? []) {
+  if (m.series) {
+    if (!seriesMap.has(m.series)) seriesMap.set(m.series, [])
+    seriesMap.get(m.series)!.push(m)
+  } else {
+    noSeries.push(m)
+  }
+}
+const hasSeries = seriesMap.size > 0
+
+const breadcrumbs = [
+  { name: t(locale, 'nav.home'), url: `${siteUrl}/` },
+  { name: categoryLabel, url: `${siteUrl}/${category}/` },
+  { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
+  { name: t(locale, 'models.h1', { brand: brandLabel, category: categoryLabel }), url: `${siteUrl}/${category}/${brand}/models/` },
+]
+---
+
+<PageLayout
+  currentLocale={locale}
+  metadata={{
+    title: `${t(locale, 'models.meta.title', { brand: brandLabel, category: categoryLabel })} | ${siteConfig.name}`,
+    description: t(locale, 'models.meta.desc', { brand: brandLabel, category: categoryLabel.toLowerCase() }),
+    canonical: `${siteUrl}/${category}/${brand}/models/`,
+  }}
+>
+  <div class="page-container">
+    <BreadcrumbNav items={breadcrumbs} />
+
+    <h1 class="page-h1">{t(locale, 'models.h1', { brand: brandLabel, category: categoryLabel })}</h1>
+    <p class="intro">{t(locale, 'models.intro')}</p>
+
+    {(models?.length ?? 0) === 0 ? (
+      <p class="no-data">{t(locale, 'models.noModels')}</p>
+    ) : hasSeries ? (
+      <>
+        {[...seriesMap.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([series, seriesModels]) => (
+          <div class="series-group">
+            <div class="series-label">{series}</div>
+            <div class="model-grid">
+              {seriesModels!.map((m: any) => (
+                <a href={`/${category}/${brand}/${m.slug}/`} class="model-chip">
+                  {m.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+        {noSeries.length > 0 && (
+          <div class="series-group">
+            <div class="model-grid">
+              {noSeries.map((m: any) => (
+                <a href={`/${category}/${brand}/${m.slug}/`} class="model-chip">
+                  {m.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </>
+    ) : (
+      <div class="model-grid">
+        {models!.map((m: any) => (
+          <a href={`/${category}/${brand}/${m.slug}/`} class="model-chip">
+            {m.name}
+          </a>
+        ))}
+      </div>
+    )}
+
+    <div class="back-link-row">
+      <a href={`/${category}/${brand}/`} class="back-link">
+        {t(locale, 'models.backLink', { brand: brandLabel, category: categoryLabel })}
+      </a>
+    </div>
+  </div>
+</PageLayout>
+
+<style>
+  .page-container { max-width: 48rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  .page-h1 { font-size: 1.875rem; font-weight: 800; color: #111827; margin: 0.5rem 0 0.5rem; line-height: 1.2; }
+  .intro { color: #6b7280; margin: 0 0 2rem; }
+  .no-data { color: #6b7280; font-style: italic; }
+  .series-group { margin-bottom: 1.75rem; }
+  .series-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #9ca3af;
+    margin-bottom: 0.625rem;
+  }
+  .model-grid { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .model-chip {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-family: monospace;
+    color: #374151;
+    text-decoration: none;
+    background: #f9fafb;
+    transition: border-color 0.1s, background 0.1s, color 0.1s;
+  }
+  .model-chip:hover { border-color: #2563eb; background: #eff6ff; color: #1d4ed8; }
+  .back-link-row { margin-top: 2.5rem; border-top: 1px solid #e5e7eb; padding-top: 1.25rem; }
+  .back-link { font-size: 0.875rem; color: #6b7280; text-decoration: none; }
+  .back-link:hover { color: #2563eb; text-decoration: underline; }
+</style>

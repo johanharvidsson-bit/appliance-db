@@ -5,7 +5,7 @@ import { supabase } from '~/lib/supabase'
 import { siteConfig } from 'site-config'
 import { t } from '~/lib/ui'
 
-const locale = 'en'
+const locale = 'sv'
 const siteUrl = `https://${siteConfig.domain}`
 
 const { data: brands } = await supabase
@@ -15,8 +15,8 @@ const { data: brands } = await supabase
   .order('name')
 
 const breadcrumbs = [
-  { name: t(locale, 'nav.home'), url: `${siteUrl}/` },
-  { name: t(locale, 'brandHub.allBrandsH1'), url: `${siteUrl}/brands/` },
+  { name: t(locale, 'nav.home'), url: `${siteUrl}/sv/` },
+  { name: t(locale, 'brandHub.allBrandsH1'), url: `${siteUrl}/sv/brands/` },
 ]
 
 const grouped = new Map<string, typeof brands>()
@@ -37,9 +37,9 @@ const alternateUrls = [
   currentLocale={locale}
   alternateUrls={alternateUrls}
   metadata={{
-    title: `All Appliance Brands – Error Codes & Repair Guides | ${siteConfig.name}`,
-    description: 'Browse repair guides and error codes for all major appliance brands. Find your brand for step-by-step troubleshooting.',
-    canonical: `${siteUrl}/brands/`,
+    title: `Alla apparatmärken – Felkoder & Reparationsguider | ${siteConfig.name}`,
+    description: 'Bläddra bland reparationsguider och felkoder för alla stora apparatmärken. Hitta ditt märke för steg-för-steg-felsökning.',
+    canonical: `${siteUrl}/sv/brands/`,
     alternateUrls,
   }}
 >
@@ -47,8 +47,8 @@ const alternateUrls = [
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl + "/" },
-      { "@type": "ListItem", "position": 2, "name": t(locale, 'brandHub.allBrandsH1'), "item": siteUrl + "/brands/" },
+      { "@type": "ListItem", "position": 1, "name": t(locale, 'nav.home'), "item": siteUrl + "/sv/" },
+      { "@type": "ListItem", "position": 2, "name": t(locale, 'brandHub.allBrandsH1'), "item": siteUrl + "/sv/brands/" },
     ],
   })} />
 
@@ -63,7 +63,7 @@ const alternateUrls = [
         <div class="letter-heading">{letter}</div>
         <div class="brand-pills">
           {grouped.get(letter)!.map(brand => (
-            <a href={`/brands/${brand.slug}/`} class="brand-pill">
+            <a href={`/sv/brands/${brand.slug}/`} class="brand-pill">
               {brand.name}
             </a>
           ))}

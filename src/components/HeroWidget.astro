@@ -92,12 +92,7 @@ const { categories, locale = 'en' } = Astro.props
           </div>
         </div>
 
-        <!-- Fault pills -->
-        <div id="fault-pills-container" class="flex flex-wrap gap-2 min-h-[2rem]">
-          <span class="text-sm text-gray-400 italic">Select an appliance to see common faults…</span>
-        </div>
-
-        <button id="ft-find-btn" class="hero-btn mt-4 w-full">
+        <button id="ft-find-btn" class="hero-btn w-full">
           Find fix →
         </button>
       </div>
@@ -182,33 +177,9 @@ const { categories, locale = 'en' } = Astro.props
   const ftAppliance = document.getElementById('ft-appliance') as HTMLSelectElement
   const ftBrand = document.getElementById('ft-brand') as HTMLSelectElement
   const ftFindBtn = document.getElementById('ft-find-btn') as HTMLButtonElement
-  const faultPillsContainer = document.getElementById('fault-pills-container')!
-
-  function renderFaultPills(categorySlug: string, brandSlug: string) {
-    const faults = faultsByCategory[categorySlug] ?? []
-    faultPillsContainer.innerHTML = ''
-
-    if (faults.length === 0) {
-      faultPillsContainer.innerHTML = '<span class="text-sm text-gray-400 italic">No common faults found for this selection.</span>'
-      return
-    }
-
-    faults.forEach(fault => {
-      const btn = document.createElement('a')
-      btn.href = fault.url
-      btn.textContent = fault.name
-      btn.className = 'inline-block rounded-full border border-gray-300 px-4 py-2 text-sm text-gray-700 hover:bg-slate-100 cursor-pointer transition-colors'
-      faultPillsContainer.appendChild(btn)
-    })
-  }
 
   ftAppliance.addEventListener('change', () => {
     populateBrands(ftBrand, ftAppliance.value)
-    renderFaultPills(ftAppliance.value, ftBrand.value)
-  })
-
-  ftBrand.addEventListener('change', () => {
-    renderFaultPills(ftAppliance.value, ftBrand.value)
   })
 
   ftFindBtn.addEventListener('click', () => {

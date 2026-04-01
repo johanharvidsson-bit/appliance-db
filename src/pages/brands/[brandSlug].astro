@@ -42,6 +42,16 @@ const { data: catData } = catIds.length > 0
 const categories = (catData ?? []).map((c: any) => ({ slug: c.slug, name: c.name }))
   .sort((a, b) => a.name.localeCompare(b.name))
 
+const emojiMap: Record<string, string> = {
+  'washing-machines': '🫧',
+  'dishwashers': '🍽️',
+  'dryers': '🌀',
+  'refrigerators': '❄️',
+  'ovens': '🔥',
+  'freezers': '🧊',
+  'microwaves': '📡',
+}
+
 const breadcrumbs = [
   { name: t(locale, 'nav.home'), url: `${siteUrl}/` },
   { name: t(locale, 'brandHub.allBrandsH1'), url: `${siteUrl}/brands/` },
@@ -86,8 +96,8 @@ const alternateUrls = [
       <div class="appliance-grid">
         {categories.map(cat => (
           <a href={`/${cat.slug}/${brandSlug}/`} class="appliance-card">
+            <span class="appliance-emoji" aria-hidden="true">{emojiMap[cat.slug] ?? '🔧'}</span>
             <span class="appliance-name">{cat.name}</span>
-            <span class="appliance-arrow">→</span>
           </a>
         ))}
       </div>
@@ -121,35 +131,40 @@ const alternateUrls = [
     padding: 2rem 0;
   }
   .appliance-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 0.625rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+  }
+  @media (min-width: 480px) {
+    .appliance-grid { grid-template-columns: repeat(4, 1fr); }
   }
   .appliance-card {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem 1.25rem;
+    gap: 0.5rem;
+    padding: 0.75rem 0.5rem;
     border: 1px solid #e5e7eb;
-    border-radius: 10px;
-    background: #f9fafb;
+    border-radius: 0.75rem;
+    background: #fff;
     text-decoration: none;
-    color: #111827;
-    font-weight: 600;
-    transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
+    text-align: center;
+    transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
   }
   .appliance-card:hover {
-    border-color: #2563eb;
-    background: #eff6ff;
-    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-color: #4ade80;
+  }
+  .appliance-emoji {
+    font-size: 1.75rem;
+    line-height: 1;
   }
   .appliance-name {
-    font-size: 1rem;
-  }
-  .appliance-arrow {
-    color: #2563eb;
-    font-size: 1.1rem;
-    font-weight: 700;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #374151;
+    line-height: 1.2;
   }
   .bottom-cta {
     border-top: 1px solid #e5e7eb;

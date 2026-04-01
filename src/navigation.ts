@@ -25,11 +25,26 @@ export const footerData = {
       title: 'Browse',
       links: footerCategoryLinks,
     },
+    {
+      title: 'Company',
+      links: [
+        { text: 'About',    href: '/about/' },
+        { text: 'Contact',  href: '/contact/' },
+        { text: 'Brands',   href: '/brands/' },
+      ],
+    },
+    {
+      title: 'Legal',
+      links: [
+        { text: 'Privacy Policy',      href: '/privacy/' },
+        { text: 'Terms of Service',    href: '/terms/' },
+        { text: 'Cookie Policy',       href: '/cookie-policy/' },
+        { text: 'Affiliate Disclosure', href: '/affiliate-disclosure/' },
+        { text: 'Disclaimer',          href: '/disclaimer/' },
+      ],
+    },
   ],
-  secondaryLinks: [
-    { text: 'Terms',          href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
-  ],
+  secondaryLinks: [],
   socialLinks: [],
   footNote: `© ${new Date().getFullYear()} ${siteConfig.name}. All rights reserved.`,
 };

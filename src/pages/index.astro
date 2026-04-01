@@ -6,9 +6,7 @@ import { supabase } from '~/lib/supabase'
 import HeroWidget from '~/components/HeroWidget.astro'
 import ApplianceTypeGrid from '~/components/ApplianceTypeGrid.astro'
 import BrandsSection from '~/components/BrandsSection.astro'
-import FaultPills from '~/components/FaultPills.astro'
 import TrendingAndGuides from '~/components/TrendingAndGuides.astro'
-import HowItWorks from '~/components/HowItWorks.astro'
 
 // ── 1. Categories with EN names ───────────────────────────────────────────────
 const { data: catTranslations } = await supabase
@@ -64,81 +62,7 @@ for (const [catSlug, catBrands] of Object.entries(applianceBrandMap)) {
   }
 }
 
-// ── 3. Fault pills: top symptom names across all faults ──────────────────────
-const { data: faultTranslationsRaw } = await supabase
-  .from('fault_translations')
-  .select('fault_id, symptom_name')
-  .eq('locale', 'en')
-  .limit(200)
-
-// Get fault rows to have brand_id + category_id
-const faultIdsForPills = [...new Set((faultTranslationsRaw ?? []).map((ft: any) => ft.fault_id))].filter(Boolean)
-
-const { data: faultRowsRaw } = faultIdsForPills.length > 0
-  ? await supabase.from('faults').select('id, brand_id, category_id, slug').in('id', faultIdsForPills)
-  : { data: [] }
-
-const faultIdToRow = new Map<number, { brand_id: number; category_id: number; slug: string }>()
-for (const f of faultRowsRaw ?? []) faultIdToRow.set(f.id, { brand_id: f.brand_id, category_id: f.category_id, slug: f.slug })
-
-// Get fault article slugs for URL building
-const { data: faultArticlesRaw } = faultIdsForPills.length > 0
-  ? await supabase
-      .from('articles')
-      .select('fault_id, article_translations ( slug, locale, translation_status )')
-      .in('fault_id', faultIdsForPills)
-      .eq('article_type', 'fault')
-  : { data: [] }
-
-const faultIdToArticleSlug = new Map<number, string>()
-for (const art of faultArticlesRaw ?? []) {
-  const ats: any[] = (art as any).article_translations ?? []
-  const at = ats.find((t: any) => t.locale === 'en' && t.translation_status === 'published')
-  if (at?.slug) faultIdToArticleSlug.set((art as any).fault_id, at.slug)
-}
-
-// Build faultsByCategory: { [categorySlug]: { name, url }[] }
-// Deduplicate faults by symptom_name across brands (show each symptom once)
-const faultsByCategoryRaw: Record<string, { name: string; url: string }[]> = {}
-const seenSymptomsByCategory = new Map<string, Set<string>>()
-
-for (const ft of faultTranslationsRaw ?? []) {
-  const faultRow = faultIdToRow.get(ft.fault_id)
-  if (!faultRow) continue
-  const catSlug = catIdToSlug.get(faultRow.category_id)
-  const brandInfo = brandIdToInfo.get(faultRow.brand_id)
-  if (!catSlug || !brandInfo) continue
-
-  const symptomName: string = ft.symptom_name
-  if (!symptomName) continue
-
-  if (!seenSymptomsByCategory.has(catSlug)) seenSymptomsByCategory.set(catSlug, new Set())
-  const seen = seenSymptomsByCategory.get(catSlug)!
-  if (seen.has(symptomName)) continue
-  seen.add(symptomName)
-
-  if (!faultsByCategoryRaw[catSlug]) faultsByCategoryRaw[catSlug] = []
-
-  // Build URL: use article slug if available, otherwise fault listing page
-  const articleSlug = faultIdToArticleSlug.get(ft.fault_id)
-  const url = articleSlug
-    ? `/${catSlug}/${brandInfo.slug}/problems/${articleSlug}/`
-    : `/${catSlug}/${brandInfo.slug}/problems/`
-
-  faultsByCategoryRaw[catSlug].push({ name: symptomName, url })
-}
-const faultsByCategory = faultsByCategoryRaw
-
-// Flat fault pills for FaultPills section (top symptoms across all categories)
-const faultPillsMap = new Map<string, { name: string; url: string }>()
-for (const pills of Object.values(faultsByCategory)) {
-  for (const pill of pills) {
-    if (!faultPillsMap.has(pill.name)) faultPillsMap.set(pill.name, pill)
-  }
-}
-const faultPills = [...faultPillsMap.values()].slice(0, 20)
-
-// ── 4. Trending guides: top 6 article_translations ordered by last_updated DESC ──
+// ── 3. Trending guides: top 6 article_translations ordered by last_updated DESC ──
 const { data: trendingRaw } = await supabase
   .from('article_translations')
   .select(`
@@ -172,38 +96,6 @@ const trendingGuides = trendingFiltered.slice(0, 6).map((at: any) => {
   }
 }).filter((g: any) => g.slug && g.brandSlug && g.categorySlug)
 
-// ── 5. Popular guides: top 6 article_translations ordered by last_updated ASC ──
-const { data: popularRaw } = await supabase
-  .from('article_translations')
-  .select(`
-    slug, h1, last_updated,
-    articles (
-      id, article_type,
-      error_codes (
-        code,
-        brands ( name, slug ),
-        categories ( slug_en )
-      )
-    )
-  `)
-  .eq('locale', 'en')
-  .eq('translation_status', 'published')
-  .order('last_updated', { ascending: true })
-  .limit(30)
-
-const popularFiltered = (popularRaw ?? []).filter((at: any) => at.articles?.article_type === 'error_code')
-
-const popularGuides = popularFiltered.slice(0, 6).map((at: any) => {
-  const ec = at.articles?.error_codes
-  return {
-    slug: at.slug as string,
-    h1: at.h1 as string,
-    code: ec?.code as string ?? '',
-    brandName: ec?.brands?.name as string ?? '',
-    brandSlug: ec?.brands?.slug as string ?? '',
-    categorySlug: ec?.categories?.slug_en as string ?? '',
-  }
-}).filter((g: any) => g.slug && g.brandSlug && g.categorySlug)
 ---
 
 <PageLayout
@@ -215,7 +107,6 @@ const popularGuides = popularFiltered.slice(0, 6).map((at: any) => {
 >
   <!-- Embedded JSON for client-side use -->
   <script type="application/json" id="appliance-brand-map" set:html={JSON.stringify(applianceBrandMap)} />
-  <script type="application/json" id="fault-data" set:html={JSON.stringify(faultsByCategory)} />
 
   <!-- 1. Hero -->
   <HeroWidget categories={categories} />
@@ -226,12 +117,6 @@ const popularGuides = popularFiltered.slice(0, 6).map((at: any) => {
   <!-- 3. Brands section -->
   <BrandsSection brands={brands} />
 
-  <!-- 4. Fault pills -->
-  <FaultPills pills={faultPills} />
-
-  <!-- 5. Trending & popular guides -->
-  <TrendingAndGuides trending={trendingGuides} popular={popularGuides} />
-
-  <!-- 6. How it works -->
-  <HowItWorks />
+  <!-- 4. Trending guides -->
+  <TrendingAndGuides trending={trendingGuides} popular={[]} />
 </PageLayout>

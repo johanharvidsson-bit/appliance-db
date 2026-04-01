@@ -23,115 +23,24 @@ const { brandSlug } = Astro.params as { brandSlug: string }
 const { brandId, brandName } = Astro.props as { brandId: number; brandName: string }
 const siteUrl = `https://${siteConfig.domain}`
 
-// ── 1. Error codes for this brand (all categories) ────────────────────────────
+// Get distinct categories this brand has error codes for
 const { data: ecRows } = await supabase
   .from('error_codes')
-  .select('id, code, category_id')
+  .select('category_id')
   .eq('brand_id', brandId)
 
-// ── 2. Faults for this brand (all categories) ─────────────────────────────────
-const { data: faultRows } = await supabase
-  .from('faults')
-  .select('id, category_id, fault_translations ( symptom_name, locale )')
-  .eq('brand_id', brandId)
+const catIds = [...new Set((ecRows ?? []).map((e: any) => e.category_id).filter(Boolean))] as number[]
 
-// ── 3. Resolve category IDs → slug + name ─────────────────────────────────────
-const allCatIds = [...new Set([
-  ...(ecRows ?? []).map((e: any) => e.category_id),
-  ...(faultRows ?? []).map((f: any) => f.category_id),
-].filter(Boolean))] as number[]
-
-const { data: catData } = allCatIds.length > 0
+const { data: catData } = catIds.length > 0
   ? await supabase
       .from('category_translations')
       .select('category_id, slug, name')
-      .in('category_id', allCatIds)
+      .in('category_id', catIds)
       .eq('locale', 'en')
   : { data: [] }
 
-const catMap = new Map<number, { slug: string; name: string }>()
-for (const ct of catData ?? []) catMap.set((ct as any).category_id, { slug: (ct as any).slug, name: (ct as any).name })
-
-// ── 4. Fault article slugs ────────────────────────────────────────────────────
-const faultIds = (faultRows ?? []).map((f: any) => f.id)
-
-const { data: faultArticles } = faultIds.length > 0
-  ? await supabase
-      .from('articles')
-      .select('fault_id, article_translations ( slug, locale, translation_status )')
-      .in('fault_id', faultIds)
-      .eq('article_type', 'fault')
-  : { data: [] }
-
-const faultArticleMap = new Map<number, string>()
-for (const art of faultArticles ?? []) {
-  const ats: any[] = (art as any).article_translations ?? []
-  const at = ats.find((t: any) => t.locale === 'en' && t.translation_status === 'published')
-  if (at?.slug) faultArticleMap.set((art as any).fault_id, at.slug)
-}
-
-// ── 5. Build sections per category ────────────────────────────────────────────
-type Section = {
-  catSlug: string
-  catName: string
-  errorCodes: { code: string }[]
-  totalEcCount: number
-  faults: { symptomName: string; articleSlug: string | null }[]
-}
-
-const sectionMap = new Map<number, Section>()
-
-for (const ec of ecRows ?? []) {
-  const cat = catMap.get((ec as any).category_id)
-  if (!cat) continue
-  if (!sectionMap.has((ec as any).category_id)) {
-    sectionMap.set((ec as any).category_id, {
-      catSlug: cat.slug,
-      catName: cat.name,
-      errorCodes: [],
-      totalEcCount: 0,
-      faults: [],
-    })
-  }
-  const section = sectionMap.get((ec as any).category_id)!
-  section.totalEcCount++
-  if (section.errorCodes.length < 8) {
-    section.errorCodes.push({ code: (ec as any).code })
-  }
-}
-
-for (const fault of faultRows ?? []) {
-  const cat = catMap.get((fault as any).category_id)
-  if (!cat) continue
-  const ft = ((fault as any).fault_translations ?? []).find((t: any) => t.locale === 'en')
-  if (!ft?.symptom_name) continue
-  if (!sectionMap.has((fault as any).category_id)) {
-    sectionMap.set((fault as any).category_id, {
-      catSlug: cat.slug,
-      catName: cat.name,
-      errorCodes: [],
-      totalEcCount: 0,
-      faults: [],
-    })
-  }
-  const section = sectionMap.get((fault as any).category_id)!
-  if (section.faults.length < 6) {
-    section.faults.push({
-      symptomName: ft.symptom_name,
-      articleSlug: faultArticleMap.get((fault as any).id) ?? null,
-    })
-  }
-}
-
-const sections = [...sectionMap.values()].sort((a, b) => b.totalEcCount - a.totalEcCount)
-
-// Appliance type list for subheading
-const typeNames = sections.map(s => s.catName.toLowerCase())
-const applianceTypeList =
-  typeNames.length === 0 ? 'appliances'
-  : typeNames.length === 1 ? typeNames[0]
-  : typeNames.length === 2 ? typeNames.join(' and ')
-  : typeNames.slice(0, -1).join(', ') + ' and ' + typeNames[typeNames.length - 1]
+const categories = (catData ?? []).map((c: any) => ({ slug: c.slug, name: c.name }))
+  .sort((a, b) => a.name.localeCompare(b.name))
 
 const breadcrumbs = [
   { name: t(locale, 'nav.home'), url: `${siteUrl}/` },
@@ -149,8 +58,8 @@ const alternateUrls = [
   currentLocale={locale}
   alternateUrls={alternateUrls}
   metadata={{
-    title: `${brandName} Appliance Error Codes & Repair Guides | ${siteConfig.name}`,
-    description: `Browse error codes and fault guides for ${brandName} ${applianceTypeList}. Free step-by-step repair guides.`,
+    title: `${brandName} Faults and Error Codes | ${siteConfig.name}`,
+    description: `Browse ${brandName} error codes and fault guides by appliance type. Free step-by-step repair guides.`,
     canonical: `${siteUrl}/brands/${brandSlug}/`,
     alternateUrls,
   }}
@@ -168,68 +77,31 @@ const alternateUrls = [
   <div class="page-container">
     <BreadcrumbNav items={breadcrumbs} />
 
-    <h1 class="page-h1">{brandName} {t(locale, 'brandHub.h1Suffix')}</h1>
-    <p class="intro">{t(locale, 'brandHub.intro', { brand: brandName, types: applianceTypeList })}</p>
+    <h1 class="page-h1">{t(locale, 'brandHub.h1', { brand: brandName })}</h1>
+    <p class="intro">{t(locale, 'brandHub.intro', { brand: brandName })}</p>
 
-    {sections.length === 0 && (
+    {categories.length === 0 ? (
       <p class="no-data">{t(locale, 'brandHub.noGuides', { brand: brandName })}</p>
+    ) : (
+      <div class="appliance-grid">
+        {categories.map(cat => (
+          <a href={`/${cat.slug}/${brandSlug}/`} class="appliance-card">
+            <span class="appliance-name">{cat.name}</span>
+            <span class="appliance-arrow">→</span>
+          </a>
+        ))}
+      </div>
     )}
 
-    {sections.map((section, i) => (
-      <section class:list={['brand-hub-section', { 'border-top': i > 0 }]}>
-        <div class="section-header">
-          <h2 class="section-h2">{brandName} {section.catName}</h2>
-          <a href={`/${section.catSlug}/${brandSlug}/`} class="all-link">
-            {t(locale, 'brandHub.allCodesLink', { brand: brandName, type: section.catName.toLowerCase() })}
-          </a>
-        </div>
-
-        {section.errorCodes.length > 0 && (
-          <div class="ec-pills">
-            {section.errorCodes.map(ec => (
-              <a href={`/${section.catSlug}/${brandSlug}/#ec-${ec.code}`} class="ec-pill">
-                {ec.code}
-              </a>
-            ))}
-            {section.totalEcCount > 8 && (
-              <a href={`/${section.catSlug}/${brandSlug}/`} class="more-link">
-                {t(locale, 'brandHub.viewAllCodes', { n: String(section.totalEcCount) })}
-              </a>
-            )}
-          </div>
-        )}
-
-        {section.faults.length > 0 && (
-          <div class="fault-row">
-            <span class="fault-label">{t(locale, 'brandHub.commonFaults', { type: section.catName.toLowerCase() })}</span>
-            <span class="fault-list">
-              {section.faults.map((fault, fi) => (
-                <>
-                  {fi > 0 && <span class="sep">·</span>}
-                  {fault.articleSlug
-                    ? <a href={`/${section.catSlug}/${brandSlug}/problems/${fault.articleSlug}/`} class="fault-link">{fault.symptomName}</a>
-                    : <span class="fault-text">{fault.symptomName}</span>
-                  }
-                </>
-              ))}
-              <a href={`/${section.catSlug}/${brandSlug}/problems/`} class="fault-arrow"> →</a>
-            </span>
-          </div>
-        )}
-      </section>
-    ))}
-
     <div class="bottom-cta">
-      <a href="/brands/" class="cta-link">
-        {t(locale, 'brandHub.cta')}
-      </a>
+      <a href="/brands/" class="cta-link">{t(locale, 'brandHub.cta')}</a>
     </div>
   </div>
 </PageLayout>
 
 <style>
   .page-container {
-    max-width: 48rem;
+    max-width: 40rem;
     margin: 0 auto;
     padding: 1.5rem 1rem 3rem;
   }
@@ -248,112 +120,41 @@ const alternateUrls = [
     color: #6b7280;
     padding: 2rem 0;
   }
-  .brand-hub-section {
-    padding: 1.75rem 0;
-  }
-  .border-top {
-    border-top: 1px solid #e5e7eb;
-  }
-  .section-header {
+  .appliance-grid {
     display: flex;
-    align-items: baseline;
-    gap: 1rem;
-    flex-wrap: wrap;
-    margin-bottom: 1rem;
+    flex-direction: column;
+    gap: 0.625rem;
   }
-  .section-h2 {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #111827;
-    margin: 0;
-  }
-  .all-link {
-    font-size: 0.875rem;
-    color: #2563eb;
-    text-decoration: none;
-    white-space: nowrap;
-  }
-  .all-link:hover {
-    text-decoration: underline;
-  }
-  .ec-pills {
+  .appliance-card {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
     align-items: center;
-    margin-bottom: 1rem;
-  }
-  .ec-pill {
-    display: inline-block;
-    border: 1px solid #d1d5db;
-    border-radius: 9999px;
-    padding: 0.375rem 1rem;
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: #374151;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background: #f9fafb;
     text-decoration: none;
-    background: #fff;
-    transition: background 0.15s, border-color 0.15s;
+    color: #111827;
+    font-weight: 600;
+    transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
   }
-  .ec-pill:hover {
-    background: #f1f5f9;
-    border-color: #9ca3af;
+  .appliance-card:hover {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
   }
-  .more-link {
-    font-size: 0.875rem;
-    color: #6b7280;
-    text-decoration: none;
-    padding: 0.375rem 0.5rem;
+  .appliance-name {
+    font-size: 1rem;
   }
-  .more-link:hover {
+  .appliance-arrow {
     color: #2563eb;
-    text-decoration: underline;
-  }
-  .fault-row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0.5rem;
-    font-size: 0.875rem;
-  }
-  .fault-label {
-    font-size: 0.75rem;
+    font-size: 1.1rem;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #9ca3af;
-  }
-  .fault-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0.25rem;
-  }
-  .sep {
-    color: #d1d5db;
-  }
-  .fault-link {
-    color: #374151;
-    text-decoration: none;
-  }
-  .fault-link:hover {
-    color: #2563eb;
-    text-decoration: underline;
-  }
-  .fault-text {
-    color: #374151;
-  }
-  .fault-arrow {
-    color: #2563eb;
-    text-decoration: none;
-  }
-  .fault-arrow:hover {
-    text-decoration: underline;
   }
   .bottom-cta {
     border-top: 1px solid #e5e7eb;
     padding-top: 1.5rem;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .cta-link {
     font-size: 0.9rem;

@@ -1,5 +1,6 @@
 ---
 title: 'Disclaimer'
+description: 'ApplianceRepairBase provides general informational content only. Read our disclaimer regarding the use of appliance repair guides and safety responsibilities.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 

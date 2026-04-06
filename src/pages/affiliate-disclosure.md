@@ -1,5 +1,6 @@
 ---
 title: 'Affiliate Disclosure'
+description: 'ApplianceRepairBase participates in affiliate programs. Learn how we earn commissions and how this affects our content recommendations.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 

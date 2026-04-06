@@ -1,5 +1,6 @@
 ---
 title: 'About ApplianceRepairBase'
+description: 'ApplianceRepairBase is built by experienced appliance technicians. Learn about our mission to make troubleshooting faster and more accessible.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 

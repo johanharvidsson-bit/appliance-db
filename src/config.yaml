@@ -9,22 +9,22 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: ApplianceFix
-    template: '%s — ApplianceFix'
+    default: Appliance Repair Base
+    template: '%s — Appliance Repair Base'
   description: 'Fix your appliance error codes fast. Step-by-step guides for Samsung, Bosch, LG and more.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: ApplianceFix
+    site_name: Appliance Repair Base
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@appliancefix'
-    site: '@appliancefix'
+    handle: '@appliancerepairbase'
+    site: '@appliancerepairbase'
     cardType: summary_large_image
 
 i18n:

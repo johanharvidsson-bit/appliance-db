@@ -1,5 +1,6 @@
 ---
 title: 'Privacy Policy'
+description: 'Read the ApplianceRepairBase Privacy Policy to learn how we collect, use, and protect your information when you visit our website.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 

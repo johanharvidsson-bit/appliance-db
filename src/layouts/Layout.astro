@@ -55,6 +55,17 @@ const colors = siteConfig.colors;
       }
     </style>
 
+    <!-- Organization structured data -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": siteConfig.name,
+      "url": `https://${siteConfig.domain}`,
+      "logo": `https://${siteConfig.domain}/favicon.svg`,
+      "description": "Free step-by-step appliance repair guides for error codes and common faults.",
+      "sameAs": []
+    })} />
+
     <!-- Comment the line below to disable View Transitions -->
     <ClientRouter fallback="swap" />
   </head>

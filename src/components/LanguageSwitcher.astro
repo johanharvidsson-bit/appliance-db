@@ -61,53 +61,58 @@ const urlMap = Object.fromEntries(alternateUrls.map((a) => [a.locale, a.url]))
 </div>
 
 <script>
-  document.querySelectorAll<HTMLElement>('.lang-switcher').forEach((switcher) => {
-    const urlMap: Record<string, string> = JSON.parse(switcher.dataset.urlMap ?? '{}')
-    const currentLocale = switcher.dataset.current ?? 'en'
+  function initLangSwitchers() {
+    document.querySelectorAll<HTMLElement>('.lang-switcher').forEach((switcher) => {
+      const urlMap: Record<string, string> = JSON.parse(switcher.dataset.urlMap ?? '{}')
+      const currentLocale = switcher.dataset.current ?? 'en'
 
-    const trigger = switcher.querySelector<HTMLButtonElement>('.lang-trigger')!
-    const dropdown = switcher.querySelector<HTMLElement>('.lang-dropdown')!
+      const trigger = switcher.querySelector<HTMLButtonElement>('.lang-trigger')!
+      const dropdown = switcher.querySelector<HTMLElement>('.lang-dropdown')!
 
-    // On first visit this session, redirect to the user's stored locale preference.
-    // sessionStorage flag prevents redirect on every page load so users can
-    // navigate freely between language versions after the initial redirect.
-    const stored = localStorage.getItem('preferred-locale')
-    const alreadyRedirected = sessionStorage.getItem('locale-redirected')
-    if (stored && stored !== currentLocale && urlMap[stored] && !alreadyRedirected) {
-      sessionStorage.setItem('locale-redirected', 'true')
-      window.location.href = urlMap[stored]
-    }
+      // On first visit this session, redirect to the user's stored locale preference.
+      const stored = localStorage.getItem('preferred-locale')
+      const alreadyRedirected = sessionStorage.getItem('locale-redirected')
+      if (stored && stored !== currentLocale && urlMap[stored] && !alreadyRedirected) {
+        sessionStorage.setItem('locale-redirected', 'true')
+        window.location.href = urlMap[stored]
+      }
 
-    // Toggle dropdown
-    trigger.addEventListener('click', (e) => {
-      e.stopPropagation()
-      const isOpen = !dropdown.hidden
-      dropdown.hidden = isOpen
-      trigger.setAttribute('aria-expanded', String(!isOpen))
-    })
-
-    // Close when clicking outside
-    document.addEventListener('click', () => {
-      dropdown.hidden = true
-      trigger.setAttribute('aria-expanded', 'false')
-    })
-
-    // Handle option clicks
-    dropdown.querySelectorAll<HTMLElement>('.lang-option').forEach((opt) => {
-      opt.addEventListener('click', (e) => {
+      // Toggle dropdown
+      trigger.addEventListener('click', (e) => {
         e.stopPropagation()
-        const locale = opt.dataset.locale!
-        const active = opt.dataset.active === 'true'
-        if (!active) return // coming-soon locale — do nothing
+        const isOpen = !dropdown.hidden
+        dropdown.hidden = isOpen
+        trigger.setAttribute('aria-expanded', String(!isOpen))
+      })
 
-        localStorage.setItem('preferred-locale', locale)
+      // Handle option clicks
+      dropdown.querySelectorAll<HTMLElement>('.lang-option').forEach((opt) => {
+        opt.addEventListener('click', (e) => {
+          e.stopPropagation()
+          const locale = opt.dataset.locale!
+          const active = opt.dataset.active === 'true'
+          if (!active) return
 
-        // Navigate to the equivalent page, or to the locale homepage if no translation
-        const dest = urlMap[locale] ?? (locale === 'en' ? '/' : `/${locale}/`)
-        window.location.href = dest
+          localStorage.setItem('preferred-locale', locale)
+          const dest = urlMap[locale] ?? (locale === 'en' ? '/' : `/${locale}/`)
+          window.location.href = dest
+        })
       })
     })
+  }
+
+  // Close all dropdowns when clicking outside — registered once, queries live DOM
+  document.addEventListener('click', () => {
+    document.querySelectorAll<HTMLElement>('.lang-dropdown').forEach(d => {
+      d.hidden = true
+    })
+    document.querySelectorAll<HTMLButtonElement>('.lang-trigger').forEach(t => {
+      t.setAttribute('aria-expanded', 'false')
+    })
   })
+
+  initLangSwitchers()
+  document.addEventListener('astro:after-swap', initLangSwitchers)
 </script>
 
 <style>

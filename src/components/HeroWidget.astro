@@ -101,93 +101,90 @@ const { categories, locale = 'en' } = Astro.props
 </section>
 
 <script>
-  // Read embedded JSON blobs
-  const brandMapEl = document.getElementById('appliance-brand-map')
-  const faultDataEl = document.getElementById('fault-data')
-  const applianceBrandMap: Record<string, { name: string; slug: string }[]> =
-    brandMapEl ? JSON.parse(brandMapEl.textContent ?? '{}') : {}
-  const faultsByCategory: Record<string, { name: string; url: string }[]> =
-    faultDataEl ? JSON.parse(faultDataEl.textContent ?? '{}') : {}
+  function initHeroWidget() {
+    const brandMapEl = document.getElementById('appliance-brand-map')
+    if (!brandMapEl) return // not on the homepage
 
-  // Tab switching
-  const tabBtns = document.querySelectorAll<HTMLButtonElement>('.tab-btn')
-  const panels = document.querySelectorAll<HTMLDivElement>('.tab-panel')
+    const applianceBrandMap: Record<string, { name: string; slug: string }[]> =
+      JSON.parse(brandMapEl.textContent ?? '{}')
 
-  tabBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const tab = btn.dataset.tab
-      tabBtns.forEach(b => {
-        b.classList.toggle('tab-active', b.dataset.tab === tab)
-        b.classList.toggle('text-gray-600', b.dataset.tab !== tab)
+    function populateBrands(selectEl: HTMLSelectElement, categorySlug: string) {
+      selectEl.innerHTML = '<option value="">Select brand…</option>'
+      const brands = applianceBrandMap[categorySlug] ?? []
+      brands.forEach(b => {
+        const opt = document.createElement('option')
+        opt.value = b.slug
+        opt.textContent = b.name
+        selectEl.appendChild(opt)
       })
-      panels.forEach(p => {
-        p.classList.toggle('hidden', p.id !== `panel-${tab}`)
+      selectEl.disabled = brands.length === 0
+    }
+
+    // Tab switching
+    const tabBtns = document.querySelectorAll<HTMLButtonElement>('.tab-btn')
+    const panels = document.querySelectorAll<HTMLDivElement>('.tab-panel')
+
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const tab = btn.dataset.tab
+        tabBtns.forEach(b => {
+          b.classList.toggle('tab-active', b.dataset.tab === tab)
+          b.classList.toggle('text-gray-600', b.dataset.tab !== tab)
+        })
+        panels.forEach(p => {
+          p.classList.toggle('hidden', p.id !== `panel-${tab}`)
+        })
       })
     })
-  })
 
-  // Populate brand select
-  function populateBrands(
-    selectEl: HTMLSelectElement,
-    categorySlug: string
-  ) {
-    selectEl.innerHTML = '<option value="">Select brand…</option>'
-    const brands = applianceBrandMap[categorySlug] ?? []
-    brands.forEach(b => {
-      const opt = document.createElement('option')
-      opt.value = b.slug
-      opt.textContent = b.name
-      selectEl.appendChild(opt)
+    // ── Error code tab ────────────────────────────────────────────────────────
+    const ecAppliance = document.getElementById('ec-appliance') as HTMLSelectElement
+    const ecBrand = document.getElementById('ec-brand') as HTMLSelectElement
+    const ecCode = document.getElementById('ec-code') as HTMLInputElement
+    const ecFindBtn = document.getElementById('ec-find-btn') as HTMLButtonElement
+
+    ecAppliance.addEventListener('change', () => {
+      populateBrands(ecBrand, ecAppliance.value)
     })
-    selectEl.disabled = brands.length === 0
+
+    ecFindBtn.addEventListener('click', () => {
+      const category = ecAppliance.value
+      const brand = ecBrand.value
+      const code = ecCode.value.trim()
+      if (!category) return
+      if (category && brand && code) {
+        const slug = `${brand}-error-code-${code.toLowerCase().replace(/\s+/g, '-')}`
+        window.location.href = `/${category}/${brand}/${slug}/`
+      } else if (category && brand) {
+        window.location.href = `/${category}/${brand}/`
+      } else {
+        window.location.href = `/${category}/`
+      }
+    })
+
+    ecCode.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') ecFindBtn.click()
+    })
+
+    // ── Fault tab ─────────────────────────────────────────────────────────────
+    const ftAppliance = document.getElementById('ft-appliance') as HTMLSelectElement
+    const ftBrand = document.getElementById('ft-brand') as HTMLSelectElement
+    const ftFindBtn = document.getElementById('ft-find-btn') as HTMLButtonElement
+
+    ftAppliance.addEventListener('change', () => {
+      populateBrands(ftBrand, ftAppliance.value)
+    })
+
+    ftFindBtn.addEventListener('click', () => {
+      const category = ftAppliance.value
+      const brand = ftBrand.value
+      if (!category) return
+      window.location.href = brand ? `/${category}/${brand}/problems/` : `/${category}/`
+    })
   }
 
-  // ── Error code tab ──────────────────────────────────────────────────────────
-  const ecAppliance = document.getElementById('ec-appliance') as HTMLSelectElement
-  const ecBrand = document.getElementById('ec-brand') as HTMLSelectElement
-  const ecCode = document.getElementById('ec-code') as HTMLInputElement
-  const ecFindBtn = document.getElementById('ec-find-btn') as HTMLButtonElement
-
-  ecAppliance.addEventListener('change', () => {
-    populateBrands(ecBrand, ecAppliance.value)
-  })
-
-  ecFindBtn.addEventListener('click', () => {
-    const category = ecAppliance.value
-    const brand = ecBrand.value
-    const code = ecCode.value.trim()
-
-    if (!category) return
-
-    if (category && brand && code) {
-      const slug = `${brand}-error-code-${code.toLowerCase().replace(/\s+/g, '-')}`
-      window.location.href = `/${category}/${brand}/${slug}/`
-    } else if (category && brand) {
-      window.location.href = `/${category}/${brand}/`
-    } else {
-      window.location.href = `/${category}/`
-    }
-  })
-
-  ecCode.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') ecFindBtn.click()
-  })
-
-  // ── Fault tab ───────────────────────────────────────────────────────────────
-  const ftAppliance = document.getElementById('ft-appliance') as HTMLSelectElement
-  const ftBrand = document.getElementById('ft-brand') as HTMLSelectElement
-  const ftFindBtn = document.getElementById('ft-find-btn') as HTMLButtonElement
-
-  ftAppliance.addEventListener('change', () => {
-    populateBrands(ftBrand, ftAppliance.value)
-  })
-
-  ftFindBtn.addEventListener('click', () => {
-    const category = ftAppliance.value
-    const brand = ftBrand.value
-    if (!category) return
-    window.location.href = brand ? `/${category}/${brand}/problems/` : `/${category}/`
-  })
+  initHeroWidget()
+  document.addEventListener('astro:after-swap', initHeroWidget)
 </script>
 
 <style>

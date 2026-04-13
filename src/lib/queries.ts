@@ -104,13 +104,23 @@ export async function getModelsByBrandCategory(brandSlug: string, categorySlug: 
   const [brandId, catId] = await Promise.all([getBrandId(brandSlug), getCategoryId(categorySlug)])
   if (!brandId || !catId) return { data: [], error: null }
 
-  return supabase
-    .from('models')
-    .select('id, name, slug, series, release_year')
-    .eq('brand_id', brandId)
-    .eq('category_id', catId)
-    .order('name')
-    .limit(2000)
+  const PAGE = 1000
+  const all: any[] = []
+  let offset = 0
+  while (true) {
+    const { data, error } = await supabase
+      .from('models')
+      .select('id, name, slug, series, release_year')
+      .eq('brand_id', brandId)
+      .eq('category_id', catId)
+      .order('name')
+      .range(offset, offset + PAGE - 1)
+    if (error || !data?.length) break
+    all.push(...data)
+    if (data.length < PAGE) break
+    offset += PAGE
+  }
+  return { data: all, error: null }
 }
 
 export async function getModelBySlug(brandSlug: string, categorySlug: string, modelSlug: string) {
@@ -329,13 +339,23 @@ export async function getModelsByBrandCategoryLocale(
   ])
   if (!brandId || !catId) return { data: [], error: null }
 
-  return supabase
-    .from('models')
-    .select('id, name, slug, series, release_year')
-    .eq('brand_id', brandId)
-    .eq('category_id', catId)
-    .order('name')
-    .limit(2000)
+  const PAGE = 1000
+  const all: any[] = []
+  let offset = 0
+  while (true) {
+    const { data, error } = await supabase
+      .from('models')
+      .select('id, name, slug, series, release_year')
+      .eq('brand_id', brandId)
+      .eq('category_id', catId)
+      .order('name')
+      .range(offset, offset + PAGE - 1)
+    if (error || !data?.length) break
+    all.push(...data)
+    if (data.length < PAGE) break
+    offset += PAGE
+  }
+  return { data: all, error: null }
 }
 
 /**

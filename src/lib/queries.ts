@@ -131,15 +131,23 @@ export async function getModelBySlug(brandSlug: string, categorySlug: string, mo
  * Joins brands and categories so we get slug strings from the IDs.
  */
 export async function getAllModelSlugs() {
-  // Only generate pages for models that belong to active brands
-  const { data } = await supabase
-    .from('models')
-    .select('slug, brands!inner(slug, is_active), categories(slug_en)')
-    .eq('brands.is_active', true)
-    .limit(10000)
+  // Paginate through all models — Supabase default cap is 1,000 rows per request
+  const PAGE = 1000
+  const all: any[] = []
+  let offset = 0
+  while (true) {
+    const { data, error } = await supabase
+      .from('models')
+      .select('slug, brands!inner(slug, is_active), categories(slug_en)')
+      .eq('brands.is_active', true)
+      .range(offset, offset + PAGE - 1)
+    if (error || !data?.length) break
+    all.push(...data)
+    if (data.length < PAGE) break
+    offset += PAGE
+  }
 
-  // Reshape to { slug, brand_slug, category_slug }
-  const shaped = (data ?? []).map((m: any) => ({
+  const shaped = all.map((m: any) => ({
     slug: m.slug as string,
     brand_slug: m.brands?.slug as string,
     category_slug: m.categories?.slug_en as string,

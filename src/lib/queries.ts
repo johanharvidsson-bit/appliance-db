@@ -129,11 +129,25 @@ export async function getModelBySlug(brandSlug: string, categorySlug: string, mo
 
   return supabase
     .from('models')
-    .select('id, name, slug, release_year, manual_url, manual_pdf_url, brand_id, category_id')
+    .select('id, name, slug, series, release_year, manual_url, manual_pdf_url, brand_id, category_id')
     .eq('brand_id', brandId)
     .eq('category_id', catId)
     .eq('slug', modelSlug)
     .single()
+}
+
+/** Other models in the same series (for "Alternate models" section on model pages). */
+export async function getModelsBySeries(brandId: number, categoryId: number, series: string, excludeSlug: string) {
+  const { data } = await supabase
+    .from('models')
+    .select('id, name, slug')
+    .eq('brand_id', brandId)
+    .eq('category_id', categoryId)
+    .eq('series', series)
+    .neq('slug', excludeSlug)
+    .order('name')
+    .limit(50)
+  return data ?? []
 }
 
 /**

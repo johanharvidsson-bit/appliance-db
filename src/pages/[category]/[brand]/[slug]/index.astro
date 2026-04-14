@@ -14,7 +14,7 @@ import StepsSection from '~/components/StepsSection.astro'
 import FaqSection from '~/components/FaqSection.astro'
 import SparePartsSection from '~/components/SparePartsSection.astro'
 import SpecsTable from '~/components/SpecsTable.astro'
-import { getArticle, getAllArticleSlugs, getAllModelSlugs, getModelBySlug, getErrorCodesByModel, getModelsByBrandCategory, getArticleAlternates, getFaultsByBrandCategoryId, getWashingMachineSpecs } from '~/lib/queries'
+import { getArticle, getAllArticleSlugs, getAllModelSlugs, getModelBySlug, getModelsBySeries, getErrorCodesByModel, getModelsByBrandCategory, getArticleAlternates, getFaultsByBrandCategoryId, getWashingMachineSpecs } from '~/lib/queries'
 import { parseJson } from '~/lib/utils'
 import { buildAlternateUrl } from '~/lib/locales'
 import { t } from '~/lib/ui'
@@ -101,18 +101,21 @@ let model: any = null
 let modelErrorCodes: any[] = []
 let modelFaults: any[] = []
 let modelSpecs: Record<string, any> | null = null
+let seriesModels: any[] = []
 if (type === 'model') {
   const { data } = await getModelBySlug(brand, category, slug)
   model = data
   if (model) {
-    const [{ data: ecData }, { data: faultData }, specsData] = await Promise.all([
+    const [{ data: ecData }, { data: faultData }, specsData, altModels] = await Promise.all([
       getErrorCodesByModel(model.brand_id, model.category_id),
       getFaultsByBrandCategoryId(model.brand_id, model.category_id, locale),
       category === 'washing-machines' ? getWashingMachineSpecs(model.id) : Promise.resolve(null),
+      model.series ? getModelsBySeries(model.brand_id, model.category_id, model.series, slug) : Promise.resolve([]),
     ])
     modelErrorCodes = ecData ?? []
     modelFaults = faultData ?? []
     modelSpecs = specsData
+    seriesModels = altModels
   }
 }
 
@@ -440,6 +443,15 @@ const metadata = type === 'article'
         <!-- Model variants -->
         <section class="model-section" id="related-models">
           <h2 class="model-h2">{t(locale, 'model.variants')}</h2>
+          {seriesModels.length > 0 ? (
+            <div class="model-chips">
+              {seriesModels.map((m: any) => (
+                <a href={`/${category}/${brand}/${m.slug}/`} class="model-chip">{m.name}</a>
+              ))}
+            </div>
+          ) : (
+            <p class="no-data">{t(locale, 'model.noVariants')}</p>
+          )}
         </section>
 
         <!-- Specification -->
@@ -716,6 +728,12 @@ const metadata = type === 'article'
   .series-solo {
     display: inline-block;
     margin: 0 0.5rem 0.5rem 0;
+  }
+
+  .model-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
 
   .model-chip {

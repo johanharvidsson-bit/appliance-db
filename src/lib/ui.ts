@@ -66,6 +66,7 @@ const ui = {
     'model.noFaults': 'No common faults listed yet.',
     'model.allProblems': 'See all {brand} {category} problems →',
     'model.noErrorCodes': 'No error codes found yet for this model. Check back soon.',
+    'model.noVariants': 'No other models in this series.',
     // Problems/faults article page
     'faultArticle.relatedErrorCodes': 'Related error codes',
     'faultArticle.prevention': 'Prevention',
@@ -198,6 +199,7 @@ const ui = {
     'model.noFaults': 'Inga vanliga fel listade ännu.',
     'model.allProblems': 'Se alla {brand} {category}-problem →',
     'model.noErrorCodes': 'Inga felkoder hittades ännu för denna modell. Kom tillbaka snart.',
+    'model.noVariants': 'Inga andra modeller i denna serie.',
     'quickfix.label': 'Snabbfix',
     'steps.heading': 'Steg-för-steg-reparation',
     'steps.genericWarning': 'Var försiktig med det här steget.',

@@ -43,6 +43,16 @@ const [{ data: errorCodes }, { data: models }, { data: faults }] = await Promise
 ])
 const hasFaults = faults && faults.length > 0
 
+// Deduplicate models by series — one representative chip per series
+const canonicalModels = (() => {
+  const seen = new Map<string, any>()
+  for (const m of (models ?? [])) {
+    const key = m.series ?? m.name
+    if (!seen.has(key)) seen.set(key, m)
+  }
+  return [...seen.values()].sort((a, b) => a.name.localeCompare(b.name))
+})()
+
 const categoryLabel = categoryName || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
 const brandLabel = brandName || brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
 
@@ -170,10 +180,10 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
     </section>
 
     <!-- ── Section 3: Models (always expanded) ─────────────────── -->
-    {models && models.length > 0 && (
+    {canonicalModels.length > 0 && (
       <section id="models" class="section">
         <div class="section-header">
-          <h2 class="section-h2">{t('en', 'brand.modelsHeading')} <span class="count">({models.length})</span></h2>
+          <h2 class="section-h2">{t('en', 'brand.modelsHeading')} <span class="count">({models?.length ?? 0})</span></h2>
           <input
             id="model-search"
             type="search"
@@ -184,7 +194,7 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
         </div>
         <p class="section-sub">{t('en', 'brand.modelsPanelSub')}</p>
         <div class="model-chips" id="model-grid">
-          {models.map((m: any) => (
+          {canonicalModels.map((m: any) => (
             <a
               href={`/${category}/${brand}/${m.slug}/`}
               class="model-chip"

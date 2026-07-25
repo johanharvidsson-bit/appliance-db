@@ -36,7 +36,7 @@ def validate(brand_slug: str = "samsung", category_slug: str = "washing-machines
     checks = []
 
     # 1. Models exist
-    models = supabase.table("models").select("id,name,manual_pdf_url,scrape_status").eq("brand_id", brand_id).eq("category_id", category_id).execute()
+    models = supabase.table("models").select("id,name,manual_pdf_url,scrape_status,base_model,series").eq("brand_id", brand_id).eq("category_id", category_id).execute()
     model_count = len(models.data or [])
     checks.append(("Models in DB", model_count > 0, f"{model_count} rows"))
 
@@ -73,7 +73,58 @@ def validate(brand_slug: str = "samsung", category_slug: str = "washing-machines
     duplicates = len(codes) - len(set(codes))
     checks.append(("No duplicate error codes", duplicates == 0, f"{duplicates} duplicates found"))
 
-    # 7. Scrape jobs – check failure rate
+    # 6b. Error codes have descriptions (enrichment done)
+    if ecs.data:
+        ec_ids_all = [e["id"] for e in ecs.data]
+        ec_detail = supabase.table("error_codes").select("id,description,short_description,severity").in_("id", ec_ids_all[:200]).execute().data or []
+        missing_desc  = sum(1 for e in ec_detail if not e.get("description"))
+        missing_short = sum(1 for e in ec_detail if not e.get("short_description"))
+        checks.append(("Error codes enriched (description)", missing_desc == 0,
+                        f"{ec_count - missing_desc}/{ec_count} have description"))
+        checks.append(("Error codes enriched (short_description)", missing_short == 0,
+                        f"{ec_count - missing_short}/{ec_count} have short_description"))
+
+    # 6c. No models stuck in scrape_status=pending
+    stuck = sum(1 for m in (models.data or []) if m.get("scrape_status") == "pending")
+    checks.append(("No stuck pending models", stuck == 0, f"{stuck} models still pending"))
+
+    # 6d. base_model and series populated
+    null_base   = sum(1 for m in (models.data or []) if not m.get("base_model"))
+    checks.append(("base_model populated", null_base == 0, f"{null_base} models missing base_model"))
+
+    # 7. Affiliate site coverage by market
+    if model_ids:
+        all_pcs = supabase.table("product_codes").select("market").in_("model_id", model_ids[:500]).execute().data or []
+        markets = {pc.get("market") for pc in all_pcs}
+        gb_count = sum(1 for pc in all_pcs if pc.get("market") == "GB")
+        eu_count = sum(1 for pc in all_pcs if pc.get("market") == "EU")
+        us_count = sum(1 for pc in all_pcs if pc.get("market") == "US")
+        checks.append(("eSpares models scraped (GB)",            gb_count > 0, f"{gb_count} product_codes with market=GB"))
+        checks.append(("FixPart models scraped (EU)",            eu_count > 0, f"{eu_count} product_codes with market=EU"))
+        checks.append(("AppliancePartsPros models scraped (US)", us_count > 0, f"{us_count} product_codes with market=US"))
+    else:
+        checks.append(("eSpares models scraped (GB)",            False, "no models found"))
+        checks.append(("FixPart models scraped (EU)",            False, "no models found"))
+        checks.append(("AppliancePartsPros models scraped (US)", False, "no models found"))
+
+    # 8. Articles not stuck in partial state
+    if ecs.data:
+        articles = supabase.table("articles").select("id,status,error_code_id").in_("error_code_id", ec_ids_all[:200]).execute().data or []
+        orphaned_articles = [
+            a for a in articles
+            if a["status"] == "pending_translation"
+        ]
+        # Check if they actually have EN translations
+        truly_stuck = 0
+        if orphaned_articles:
+            art_ids = [a["id"] for a in orphaned_articles]
+            en_translations = supabase.table("article_translations").select("article_id").in_("article_id", art_ids).eq("locale", "en").execute().data or []
+            has_en = {t["article_id"] for t in en_translations}
+            truly_stuck = sum(1 for a in orphaned_articles if a["id"] not in has_en)
+        checks.append(("No stuck articles (pending with no EN)", truly_stuck == 0,
+                        f"{truly_stuck} articles stuck without EN translation"))
+
+    # 9. Scrape jobs – check failure rate
     recent_jobs = supabase.table("scrape_jobs").select("job_status").order("created_at", desc=True).limit(100).execute()
     if recent_jobs.data:
         failed = sum(1 for j in recent_jobs.data if j["job_status"] == "failed")

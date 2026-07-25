@@ -30,30 +30,38 @@ import anthropic
 from loguru import logger
 
 from config.settings import supabase
-from scrapers.base_scraper import fetch_soup, create_scrape_job, start_scrape_job, complete_scrape_job, fail_scrape_job
+from scrapers.base_scraper import fetch_soup_unblocked, create_scrape_job, start_scrape_job, complete_scrape_job, fail_scrape_job
 
 # ── Constants ──────────────────────────────────────────────────────────────────
 
-_client = anthropic.Anthropic()
-VISION_MODEL = "claude-haiku-4-5-20251001"
 CDN_BASE = "https://static-data2.manualslib.com/storage"
-MAX_PAGES_TO_CHECK = 8       # max page images to download per manual
-PAGES_FROM_END_FRACTION = 0.4  # look at last 40% of pages
-IMAGES_PER_BATCH = 4         # pages per Claude Vision call
-MAX_WORKERS = 5              # parallel image downloads
+MAX_PAGES_TO_CHECK = 12        # max page images to download per manual
+PAGES_START_FRACTION = 0.15    # skip first 15% (cover/TOC)
+PAGES_END_FRACTION   = 0.85    # skip last 15% (back matter/warranty)
+MAX_WORKERS = 5                # parallel image downloads
+VISION_BATCH_SIZE = 4          # pages per Claude Vision call
+
+_claude = anthropic.Anthropic()
+
+_VISION_PROMPT = """\
+These are pages from a home appliance (washing machine / dryer / dishwasher) manual.
+Carefully look for any error code table or troubleshooting section that lists fault codes.
+
+Extract every error code / fault code you can see together with its description.
+
+Return ONLY a JSON array — no other text:
+[{"code": "E17", "description": "Water inlet fault — check water supply"}, ...]
+
+Rules:
+- Include codes like E01, F23, E:17, 4C, OE, dE, Er05 etc.
+- If the same code appears multiple times keep the most descriptive entry.
+- If no error codes are visible on these pages return exactly: []
+"""
 
 _HTTP_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Referer": "https://www.manualslib.com/",
 }
-
-VISION_PROMPT = """\
-Look at these pages from an appliance service/user manual.
-Extract ALL error codes that appear on these pages.
-Return ONLY a valid JSON array with no extra text:
-[{"code": "E1", "display_text": "short description of what this error means"}, ...]
-If no error codes are visible, return [].
-Codes may look like: E1, 4E, HE, F01, Err3, OE, etc."""
 
 
 # ── CDN URL derivation ─────────────────────────────────────────────────────────
@@ -61,28 +69,49 @@ Codes may look like: E1, 4E, HE, F01, Err3, OE, etc."""
 def _cdn_url_from_viewer_page(manual_url: str) -> Optional[dict]:
     """
     Fetch the viewer page HTML and extract the CDN image URL template.
-    Returns {"cdn_template": "https://.../{N}_bg.png", "total_pages": N}
+    Handles both CDN formats:
+      New: storage/pdf75/{c1}/{c2}/{id}/images/{slug}_{N}_bg.png
+      Old: pdf3/{c1}/{c2}/{id}-{brand}/images/{slug}_{N}_bg.jpg
+    Returns {"cdn_template": "https://.../{N}_bg.EXT", "total_pages": N}
     or None on failure.
     """
+    # Strip URL fragment (#product-...) — server ignores it but helps readability
+    clean_url = manual_url.split("#")[0]
     try:
-        soup = fetch_soup(manual_url)
+        soup = fetch_soup_unblocked(clean_url)
         html = str(soup)
 
-        # Pattern: pdf75/{c1}/{c2}/{id}/images/{slug}_1_bg.png
+        cdn_template = None
+
+        # New format: storage/pdf{NN}/{c1}/{c2}/{id}/images/{slug}_1_bg.png
         m = re.search(
-            r'pdf75/(\d+)/(\d+)/(\d+)/images/([^\"\'>\s]+?)_1_bg\.png',
+            r'storage/(pdf\d+)/(\d+)/(\d+)/(\d+)/images/([^\"\'>\s]+?)_1_bg\.(png|jpg)',
             html,
         )
-        if not m:
-            logger.debug(f"No bg image pattern found in {manual_url}")
+        if m:
+            pdf_ver, c1, c2, manual_id, slug, ext = m.groups()
+            cdn_template = (
+                f"{CDN_BASE}/{pdf_ver}/{c1}/{c2}/{manual_id}/images/{slug}_{{N}}_bg.{ext}"
+            )
+
+        # Old format: pdf3/{c1}/{c2}/{id}-{brand}/images/{slug}_1_bg.jpg
+        # Note: page 1 cover is .jpg but pages 2+ are always .png — force png.
+        if not cdn_template:
+            m = re.search(
+                r'pdf\d+/(\d+)/(\d+)/(\d+-[a-z]+)/images/([^\"\'>\s]+?)_1_bg\.(png|jpg)',
+                html,
+            )
+            if m:
+                c1, c2, id_brand, slug, _ext = m.groups()
+                cdn_template = (
+                    f"https://static-data2.manualslib.com/pdf3/{c1}/{c2}/{id_brand}/images/{slug}_{{N}}_bg.png"
+                )
+
+        if not cdn_template:
+            logger.debug(f"No bg image pattern found in {clean_url}")
             return None
 
-        c1, c2, manual_id, slug = m.groups()
-        cdn_template = (
-            f"{CDN_BASE}/pdf75/{c1}/{c2}/{manual_id}/images/{slug}_{{N}}_bg.png"
-        )
-
-        # Page count: look for "N pages" text or max data-page attribute
+        # Page count: "N pages" text, data-page attrs, or thumb count
         page_count = 0
         pm = re.search(r'\b(\d{1,3})\s+pages?\b', soup.get_text(), re.I)
         if pm:
@@ -96,9 +125,8 @@ def _cdn_url_from_viewer_page(manual_url: str) -> Optional[dict]:
         if data_pages:
             page_count = max(page_count, max(data_pages))
 
-        # Fallback: count thumb references
         if not page_count:
-            thumbs = re.findall(r'_(\d+)_thumb\.png', html)
+            thumbs = re.findall(r'_(\d+)_(?:thumb|bg)\.(?:png|jpg)', html)
             if thumbs:
                 page_count = max(int(x) for x in thumbs)
 
@@ -114,9 +142,10 @@ def _cdn_url_from_viewer_page(manual_url: str) -> Optional[dict]:
 
 
 def _choose_pages(total_pages: int) -> list[int]:
-    """Select which page numbers to download (last PAGES_FROM_END_FRACTION of manual)."""
-    start = max(1, math.ceil(total_pages * (1 - PAGES_FROM_END_FRACTION)))
-    pages = list(range(start, total_pages + 1))
+    """Select which page numbers to download (middle portion of manual, skipping cover/back matter)."""
+    start = max(1, math.ceil(total_pages * PAGES_START_FRACTION))
+    end   = min(total_pages, math.floor(total_pages * PAGES_END_FRACTION))
+    pages = list(range(start, end + 1))
     # Cap to MAX_PAGES_TO_CHECK, evenly spaced if too many
     if len(pages) > MAX_PAGES_TO_CHECK:
         step = len(pages) / MAX_PAGES_TO_CHECK
@@ -131,6 +160,13 @@ def _download_page_image(cdn_template: str, page_num: int) -> Optional[bytes]:
         r = httpx.get(url, headers=_HTTP_HEADERS, timeout=15, follow_redirects=True)
         if r.status_code == 200 and r.headers.get("content-type", "").startswith("image"):
             return r.content
+        # Old CDN: page 1 cover is .jpg while content pages are .png — try alternate ext
+        if r.status_code == 404 and url.endswith(".png"):
+            alt_url = url[:-4] + ".jpg"
+            r2 = httpx.get(alt_url, headers=_HTTP_HEADERS, timeout=15, follow_redirects=True)
+            if r2.status_code == 200 and r2.headers.get("content-type", "").startswith("image"):
+                return r2.content
+        logger.debug(f"Page {page_num} returned {r.status_code}")
     except Exception as e:
         logger.debug(f"Failed to download page {page_num} from {url}: {e}")
     return None
@@ -150,56 +186,65 @@ def _download_pages_parallel(cdn_template: str, page_nums: list[int]) -> list[by
 
 # ── Claude Vision extraction ───────────────────────────────────────────────────
 
-def _extract_from_images(images: list[bytes]) -> list[dict]:
-    """Pass a batch of page images to Claude Vision and parse error codes."""
-    content = [{"type": "text", "text": VISION_PROMPT}]
-    for img_bytes in images:
-        content.append({
-            "type": "image",
-            "source": {
-                "type": "base64",
-                "media_type": "image/png",
-                "data": base64.standard_b64encode(img_bytes).decode(),
-            },
-        })
+def _image_content_block(img_bytes: bytes) -> dict:
+    """Build an Anthropic image content block from raw image bytes."""
+    media_type = "image/png" if img_bytes[:4] == b"\x89PNG" else "image/jpeg"
+    return {
+        "type": "image",
+        "source": {
+            "type": "base64",
+            "media_type": media_type,
+            "data": base64.standard_b64encode(img_bytes).decode(),
+        },
+    }
 
-    try:
-        resp = _client.messages.create(
-            model=VISION_MODEL,
-            max_tokens=1024,
-            messages=[{"role": "user", "content": content}],
-        )
-        text = resp.content[0].text.strip()
-        # Strip markdown fences if present
-        text = re.sub(r"^```[a-z]*\n?", "", text)
-        text = re.sub(r"\n?```$", "", text.rstrip())
-        return json.loads(text)
-    except json.JSONDecodeError:
-        logger.debug("Claude Vision returned non-JSON, trying regex fallback")
-        # Fallback: extract codes from raw text
-        raw = resp.content[0].text if 'resp' in dir() else ""
-        codes = re.findall(r'"code"\s*:\s*"([^"]{1,10})"', raw)
-        descs = re.findall(r'"display_text"\s*:\s*"([^"]{1,200})"', raw)
-        return [{"code": c, "display_text": d} for c, d in zip(codes, descs)]
-    except Exception as e:
-        logger.warning(f"Claude Vision call failed: {e}")
-        return []
+
+def _call_vision_batch(images: list[bytes]) -> list[dict]:
+    """Send a batch of page images to Claude Vision and return extracted codes."""
+    import time as _time
+    content = [_image_content_block(img) for img in images]
+    content.append({"type": "text", "text": _VISION_PROMPT})
+    for attempt in range(3):
+        try:
+            resp = _claude.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=1024,
+                messages=[{"role": "user", "content": content}],
+            )
+            text = resp.content[0].text.strip()
+            logger.debug(f"Vision response: {text[:200]}")
+            m = re.search(r"\[.*\]", text, re.DOTALL)
+            if not m:
+                return []
+            items = json.loads(m.group())
+            results = []
+            for item in items:
+                code = str(item.get("code", "")).strip().upper().replace(" ", "").replace(":", "")
+                desc = str(item.get("description", "")).strip()
+                if code and 2 <= len(code) <= 10 and desc:
+                    results.append({"code": code, "display_text": desc})
+            return results
+        except Exception as e:
+            if "rate_limit" in str(e).lower() or "429" in str(e):
+                wait = 60 * (attempt + 1)
+                logger.warning(f"Vision rate limit, waiting {wait}s (attempt {attempt+1}/3)")
+                _time.sleep(wait)
+            else:
+                logger.warning(f"Vision API call failed: {e}")
+                return []
+    return []
 
 
 def _run_vision_on_pages(images: list[bytes]) -> list[dict]:
-    """Run vision extraction in batches, deduplicate results."""
+    """Send page images to Claude Vision in batches and deduplicate results."""
     all_codes: dict[str, str] = {}
-    for i in range(0, len(images), IMAGES_PER_BATCH):
-        batch = images[i:i + IMAGES_PER_BATCH]
-        codes = _extract_from_images(batch)
-        for item in codes:
-            code = item.get("code", "").strip()
-            if code and len(code) <= 10:
-                # Keep longer description if we see the same code twice
-                existing = all_codes.get(code, "")
-                new_desc = item.get("display_text", "").strip()
-                if len(new_desc) > len(existing):
-                    all_codes[code] = new_desc
+    for i in range(0, len(images), VISION_BATCH_SIZE):
+        batch = images[i : i + VISION_BATCH_SIZE]
+        for item in _call_vision_batch(batch):
+            code = item["code"]
+            desc = item["display_text"]
+            if len(desc) > len(all_codes.get(code, "")):
+                all_codes[code] = desc
     return [{"code": k, "display_text": v} for k, v in all_codes.items()]
 
 
@@ -265,6 +310,7 @@ def extract_error_codes_for_model(
         cdn_info = _cdn_url_from_viewer_page(manual_url)
         if not cdn_info:
             fail_scrape_job(job_id, "Could not determine CDN URL from viewer page")
+            supabase.table("models").update({"scrape_status": "skipped"}).eq("id", model["id"]).execute()
             return 0
 
         page_nums = _choose_pages(cdn_info["total_pages"])

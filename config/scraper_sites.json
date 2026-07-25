@@ -1,0 +1,131 @@
+{
+  "_comment": "Scraper site configuration. Tuple-keyed dicts use 'brand|category' string keys.",
+
+  "manualslib": {
+    "brand_slugs": {
+      "samsung":    "samsung",
+      "lg":         "lg",
+      "bosch":      "bosch",
+      "whirlpool":  "whirlpool",
+      "aeg":        "aeg",
+      "electrolux": "electrolux",
+      "siemens":    "siemens",
+      "miele":      "miele",
+      "ge":         "ge",
+      "beko":       "beko",
+      "kitchenaid": "kitchenaid",
+      "hotpoint":   "hotpoint"
+    },
+    "category_paths": {
+      "washing-machines": "washer",
+      "dryers":           "dryer",
+      "dishwashers":      "dishwasher",
+      "refrigerators":    "refrigerator",
+      "freezers":         "freezer",
+      "ovens":            "range",
+      "microwaves":       "microwave-oven"
+    }
+  },
+
+  "espares": {
+    "_comment": "Keys are 'brand|category'. Values: [espares_brand_slug, espares_category_slug, path_id]",
+    "entries": {
+      "samsung|washing-machines":    ["samsung",    "washing-machine",  "127481"],
+      "lg|washing-machines":         ["lg",         "washing-machine",  "127464"],
+      "bosch|washing-machines":      ["bosch",      "washing-machine",  "127448"],
+      "hotpoint|washing-machines":   ["hotpoint",   "washing-machine",  "127456"],
+      "beko|washing-machines":       ["beko",       "washing-machine",  "127447"],
+      "aeg|washing-machines":        ["aeg",        "washing-machine",  "127445"],
+      "electrolux|washing-machines": ["electrolux", "washing-machine",  "127452"],
+      "siemens|washing-machines":    ["siemens",    "washing-machine",  "127475"],
+      "samsung|dryers":              ["samsung",    "tumble-dryer",     "127482"],
+      "bosch|dryers":                ["bosch",      "tumble-dryer",     "127449"],
+      "hotpoint|dryers":             ["hotpoint",   "tumble-dryer",     "127457"],
+      "beko|dryers":                 ["beko",       "tumble-dryer",     "127450"],
+      "samsung|dishwashers":         ["samsung",    "dishwasher",       "127483"],
+      "bosch|dishwashers":           ["bosch",      "dishwasher",       "127451"],
+      "hotpoint|dishwashers":        ["hotpoint",   "dishwasher",       "127459"],
+      "samsung|refrigerators":       ["samsung",    "fridge-freezer",   "127484"],
+      "lg|refrigerators":            ["lg",         "fridge-freezer",   "127465"],
+      "bosch|refrigerators":         ["bosch",      "fridge-freezer",   "127453"],
+      "samsung|microwaves":          ["samsung",    "microwave",        "127485"],
+      "lg|microwaves":               ["lg",         "microwave",        "127467"]
+    }
+  },
+
+  "fixpart": {
+    "category_paths": {
+      "washing-machines": "washing-machine-spare-parts",
+      "dryers":           "tumble-dryer-spare-parts",
+      "dishwashers":      "dishwasher-spare-parts",
+      "refrigerators":    "fridge-spare-parts",
+      "freezers":         "freezer-spare-parts",
+      "ovens":            "cooker-spare-parts",
+      "microwaves":       "microwave-spare-parts"
+    },
+    "appliance_groups": {
+      "washing-machines": "1",
+      "dryers":           "2",
+      "dishwashers":      "3",
+      "refrigerators":    "4",
+      "freezers":         "5",
+      "ovens":            "6",
+      "microwaves":       "7"
+    },
+    "brand_names": {
+      "samsung":    "SAMSUNG",
+      "lg":         "LG",
+      "bosch":      "BOSCH",
+      "whirlpool":  "WHIRLPOOL",
+      "aeg":        "AEG",
+      "electrolux": "ELECTROLUX",
+      "siemens":    "SIEMENS",
+      "miele":      "MIELE",
+      "ge":         "GE",
+      "beko":       "BEKO",
+      "kitchenaid": "KITCHENAID",
+      "hotpoint":   "HOTPOINT",
+      "indesit":    "INDESIT",
+      "candy":      "CANDY",
+      "zanussi":    "ZANUSSI"
+    }
+  },
+
+  "appliancepartspros": {
+    "_comment": "Keys are 'brand|category'. Values: list of 2-char BFS root prefixes.",
+    "prefixes": {
+      "samsung|washing-machines":   ["WF", "WA", "WV", "WD"],
+      "samsung|dryers":             ["DV", "DC"],
+      "samsung|dishwashers":        ["DW"],
+      "samsung|refrigerators":      ["RF", "RS", "RT", "RH", "RB", "RR"],
+      "samsung|microwaves":         ["ME", "MG", "MW", "MS"],
+      "lg|washing-machines":        ["WM", "WT", "WD"],
+      "lg|dryers":                  ["DL", "DLEX", "DLGX", "DLE", "DLG"],
+      "lg|dishwashers":             ["LD"],
+      "lg|refrigerators":           ["LT", "LF", "GR", "LR"],
+      "lg|microwaves":              ["LM", "MH"],
+      "whirlpool|washing-machines": ["WF", "WTW", "WFW", "CAW"],
+      "whirlpool|dryers":           ["WE", "WED", "WGD"],
+      "whirlpool|dishwashers":      ["WD", "WDF"],
+      "whirlpool|refrigerators":    ["WR", "GI", "GX"],
+      "ge|washing-machines":        ["GT", "GF"],
+      "ge|dryers":                  ["GD"],
+      "ge|refrigerators":           ["GN", "GS", "GZ", "GFE", "GFD"],
+      "kitchenaid|washing-machines": ["KT", "KF"],
+      "kitchenaid|dishwashers":     ["KD"]
+    },
+    "page_urls": {
+      "samsung|washing-machines":   "/samsung-washer-parts.html",
+      "samsung|dryers":             "/samsung-dryer-parts.html",
+      "samsung|dishwashers":        "/samsung-dishwasher-parts.html",
+      "samsung|refrigerators":      "/samsung-refrigerator-parts.html",
+      "samsung|microwaves":         "/samsung-microwave-parts.html",
+      "lg|washing-machines":        "/lg-washer-parts.html",
+      "lg|dryers":                  "/lg-dryer-parts.html",
+      "lg|refrigerators":           "/lg-refrigerator-parts.html",
+      "whirlpool|washing-machines": "/whirlpool-washer-parts.html",
+      "whirlpool|dryers":           "/whirlpool-dryer-parts.html",
+      "ge|refrigerators":           "/ge-refrigerator-parts.html"
+    }
+  }
+}

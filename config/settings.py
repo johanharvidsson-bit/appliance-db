@@ -5,6 +5,7 @@ All other modules import `settings` and `supabase_client` from here.
 """
 
 import os
+import json
 from pathlib import Path
 from dotenv import load_dotenv
 from supabase import create_client, Client
@@ -19,15 +20,40 @@ SUPABASE_URL: str = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_KEY: str = os.environ["SUPABASE_SERVICE_KEY"]
 
 def get_client() -> Client:
-    """Return a Supabase client using the service role key (full DB access)."""
+    """Return a new Supabase client using the service role key (full DB access)."""
     return create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 
-# Singleton – import this everywhere
+
+# Module-level singleton — import `supabase` for normal use.
+# For long-running loops that hit connection limits, call refresh_client()
+# instead of `global supabase; supabase = get_client()` inside each module.
 supabase: Client = get_client()
+
+
+def refresh_client() -> Client:
+    """
+    Replace the module-level Supabase singleton with a fresh connection.
+    Call this every N iterations in long-running scrape loops to avoid
+    HTTP/2 connection-limit errors.
+
+    Usage:
+        from config.settings import refresh_client
+        refresh_client()   # subsequent calls to `supabase` use the new client
+    """
+    global supabase
+    supabase = get_client()
+    # Also refresh the reference held by base_scraper and any other module
+    # that imported `supabase` directly — they must re-import after this call,
+    # so scrapers should use `from config.settings import supabase` at call
+    # sites rather than binding it once at module level.
+    import scrapers.base_scraper as _bs
+    _bs.supabase = supabase
+    return supabase
 
 # ── Scraping ───────────────────────────────────────────────────────────────────
 REQUEST_DELAY: float = float(os.getenv("REQUEST_DELAY_SECONDS", "2.0"))
 MAX_RETRIES: int     = int(os.getenv("MAX_RETRIES", "3"))
+SCRAPE_DO_API_KEY: str = os.getenv("SCRAPE_DO_API_Key2") or os.getenv("SCRAPE_DO_API_Key", "")
 DOWNLOAD_MANUALS: bool = os.getenv("DOWNLOAD_MANUALS", "true").lower() == "true"
 MANUAL_DIR: Path     = BASE_DIR / os.getenv("MANUAL_DOWNLOAD_DIR", "data/manuals")
 MANUAL_DIR.mkdir(parents=True, exist_ok=True)
@@ -42,6 +68,12 @@ logger.add(
     retention="30 days",
     level=os.getenv("LOG_LEVEL", "INFO"),
     format="{time:HH:mm:ss} | {level:<8} | {name}:{line} – {message}",
+)
+
+# ── Tesseract (OCR) ────────────────────────────────────────────────────────────
+import pytesseract
+pytesseract.pytesseract.tesseract_cmd = os.getenv(
+    "TESSERACT_CMD", r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 )
 
 # ── Phase-1 scope (used by scrapers to filter) ─────────────────────────────────
@@ -60,30 +92,38 @@ ACTIVE_CATEGORY_SLUGS = [
     "microwaves",
 ]
 
-# ManualsLib brand slugs (keyed by our brand slug)
-MANUALSLIB_BRAND_SLUGS = {
-    "samsung":    "samsung",
-    "lg":         "lg",
-    "bosch":      "bosch",
-    "whirlpool":  "whirlpool",
-    "aeg":        "aeg",
-    "electrolux": "electrolux",
-    "siemens":    "siemens",
-    "miele":      "miele",
-    "ge":         "ge",
-    "beko":       "beko",
-    "kitchenaid": "kitchenaid",
-    "hotpoint":   "hotpoint",
+# ── Scraper site configuration (loaded from JSON) ──────────────────────────────
+# Edit config/scraper_sites.json to add new brands, categories, or sites.
+# Tuple-keyed dicts use "brand|category" string keys in the JSON file.
+
+def _load_scraper_config() -> dict:
+    cfg_path = BASE_DIR / "config" / "scraper_sites.json"
+    with open(cfg_path, encoding="utf-8") as f:
+        return json.load(f)
+
+_SC = _load_scraper_config()
+
+# ManualsLib
+MANUALSLIB_BRAND_SLUGS:    dict[str, str] = _SC["manualslib"]["brand_slugs"]
+MANUALSLIB_CATEGORY_PATHS: dict[str, str] = _SC["manualslib"]["category_paths"]
+
+# eSpares: (brand, category) -> (espares_brand, espares_category, path_id)
+ESPARES_CONFIG: dict[tuple[str, str], tuple[str, str, str]] = {
+    tuple(k.split("|")): tuple(v)  # type: ignore[misc]
+    for k, v in _SC["espares"]["entries"].items()
 }
 
-# ManualsLib category slugs – used as /brand/{brand}/{slug}.html
-# Verified against live site; update if a category returns 0 results
-MANUALSLIB_CATEGORY_PATHS = {
-    "washing-machines": "washer",
-    "dryers":           "dryer",
-    "dishwashers":      "dishwasher",
-    "refrigerators":    "refrigerator",
-    "freezers":         "freezer",
-    "ovens":            "range",
-    "microwaves":       "microwave-oven",
+# FixPart
+FIXPART_CATEGORY_PATHS:   dict[str, str] = _SC["fixpart"]["category_paths"]
+FIXPART_APPLIANCE_GROUPS: dict[str, str] = _SC["fixpart"]["appliance_groups"]
+FIXPART_BRAND_NAMES:      dict[str, str] = _SC["fixpart"]["brand_names"]
+
+# AppliancePartsPros: (brand, category) -> [prefixes] / url_path
+APPP_PREFIXES: dict[tuple[str, str], list[str]] = {
+    tuple(k.split("|")): v  # type: ignore[misc]
+    for k, v in _SC["appliancepartspros"]["prefixes"].items()
+}
+APPP_PAGE_URLS: dict[tuple[str, str], str] = {
+    tuple(k.split("|")): v  # type: ignore[misc]
+    for k, v in _SC["appliancepartspros"]["page_urls"].items()
 }

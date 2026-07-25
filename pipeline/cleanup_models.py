@@ -3,7 +3,12 @@ pipeline/cleanup_models.py
 
 Cleans up the raw ManualsLib model data before error code extraction.
 
-Three operations (dry-run by default, use --execute to commit):
+Four operations (dry-run by default, use --execute to commit):
+
+  0. NORMALISE    – strips "Series" suffix, strips leading product-designation
+                    words (e.g. "VRT STEAM"), and expands slash-variant notation
+                    (e.g. "Q1657(T/S/V)" → model renamed to "Q1657",
+                     Q1657T/Q1657S/Q1657V added as product_codes).
 
   1. DELETE JUNK  – removes clearly invalid rows (wrong category, pure numbers,
                     part-number codes, etc.)
@@ -34,6 +39,55 @@ from rich import box
 from config.settings import supabase
 
 console = Console()
+
+
+# ── Name normalisation ─────────────────────────────────────────────────────────
+
+# Marketing/designation words that appear before the real model code
+_DESIGNATION_WORDS = re.compile(
+    r'^(VRT(\s+STEAM)?|SILVER(\s*CARE)?|SLIM\s*FIT|AEGIS|SILVER\s*NANO(\s+HEALTH(\s+SYSTEM)?)?'
+    r'|ECOBUBBLE|ADDWASH|QUICKDRIVE|BESPOKE|CRYSTAL\s*BLUE|AI\s*CONTROL'
+    r'|FRONT\s*LOAD(ER)?|TOP\s*LOAD(ER)?)\s+',
+    re.I,
+)
+
+def normalize_model_name(name: str) -> str:
+    """
+    Clean a raw ManualsLib model name:
+      1. Strip trailing " Series" (case-insensitive)
+      2. Strip firmware/revision suffixes e.g. "/A5-00", "/A5-01"
+      3. Strip leading product-designation words (e.g. "VRT STEAM ", "SilverCare ")
+      4. Normalise known product-line prefix casing (e.g. "FLEXWASH" → "FlexWash")
+    """
+    n = name.strip()
+    # Strip " Series" suffix with optional leading digit e.g. "5 Series", "SERIES" (any casing)
+    n = re.sub(r'\s+\d*\s*series$', '', n, flags=re.I).strip()
+    # Strip firmware revision suffixes like /A5-00, /A5-01, /A5-0
+    n = re.sub(r'\s*/[A-Z]\d+-\d+$', '', n).strip()
+    # Strip leading designation words
+    n = _DESIGNATION_WORDS.sub('', n).strip()
+    # Normalise known product-line prefix casing
+    n = re.sub(r'^flexwash\b', 'FlexWash', n, flags=re.I)
+    return n
+
+
+def expand_slash_variants(name: str) -> list[str]:
+    """
+    Expand slash-variant notation into individual model codes.
+    Returns an empty list if no expansion is needed.
+
+    Examples:
+      Q1657(T/S/V)    → ['Q1657T', 'Q1657S', 'Q1657V']
+      B1045(V/S/C)    → ['B1045V', 'B1045S', 'B1045C']
+      Q1657A(V/T/S)   → ['Q1657AV', 'Q1657AT', 'Q1657AS']
+      WF419AAW        → []   (no expansion)
+    """
+    m = re.match(r'^(.*?)\(([^)]+/[^)]+)\)(.*)$', name.strip())
+    if not m:
+        return []
+    prefix, variants_str, suffix = m.group(1).strip(), m.group(2), m.group(3).strip()
+    variants = [v.strip() for v in variants_str.split('/')]
+    return [f"{prefix}{v}{suffix}".strip() for v in variants if v]
 
 
 # ── Junk detection ─────────────────────────────────────────────────────────────
@@ -67,6 +121,8 @@ def model_family(name: str) -> str:
     """
     n = name.strip()
 
+    # Strip firmware revision suffixes: /A5-00, /A5-01, /A5-0
+    n = re.sub(r"\s*/[A-Z]\d+-\d+$", "", n)
     # Strip trailing market suffixes: /AA, /XAC, /US, etc.
     n = re.sub(r"\s*/[A-Z0-9]{2,4}$", "", n)
     # Strip "(V/S/C)" style variant specs
@@ -75,9 +131,14 @@ def model_family(name: str) -> str:
     n = re.sub(r"\s+[Ss]eries$", "", n)
     n = n.strip()
 
-    # Old Samsung style: letter + 4 digits + optional variant letters
-    # B1075C → B1075 | B1445AS → B1445A | B1445A → B1445A
-    m = re.match(r"^([A-Z]\d{4}[A-Z]?)[A-Z]{1,2}$", n)
+    # Old Samsung 7-char with base letter: B1445AS → B1445A  (strip trailing colour letter)
+    m = re.match(r"^([A-Z]\d{4}[A-Z])[A-Z]{1,2}$", n)
+    if m:
+        return m.group(1)
+
+    # Old Samsung 6-char colour variant: B1075C → B1075  (C/S/V/W/X are colour codes)
+    # B1445A is NOT matched here (A is a base/generation suffix, not a colour code)
+    m = re.match(r"^([A-Z]\d{4})([CSWVX])$", n)
     if m:
         return m.group(1)
 
@@ -150,6 +211,43 @@ def analyse(brand_id: int, category_id: int):
         .execute()
     ).data or []
 
+    # --- Step 0: normalise names + expand slash variants ---
+    names_to_normalize: dict[int, str] = {}   # model_id → cleaned name
+    slash_expansions: list[dict] = []         # models to rename + expand
+
+    for row in models:
+        # Expand slash variants first (before normalization)
+        variants = expand_slash_variants(row["name"])
+        if variants:
+            base = re.sub(r'\s*\([^)]*[/][^)]*\)', '', row["name"]).strip()
+            base = normalize_model_name(base)
+            slash_expansions.append({
+                "model_id":      row["id"],
+                "original_name": row["name"],
+                "base_name":     base,
+                "variants":      [normalize_model_name(v) for v in variants],
+            })
+            # Update the row's name in memory for subsequent steps
+            row = {**row, "name": base}
+        else:
+            cleaned = normalize_model_name(row["name"])
+            if cleaned != row["name"]:
+                names_to_normalize[row["id"]] = cleaned
+                row = {**row, "name": cleaned}
+
+    # Rebuild models list with normalized names applied in memory
+    slash_ids = {e["model_id"] for e in slash_expansions}
+    models_normalized = []
+    for row in models:
+        if row["id"] in slash_ids:
+            exp = next(e for e in slash_expansions if e["model_id"] == row["id"])
+            models_normalized.append({**row, "name": exp["base_name"]})
+        elif row["id"] in names_to_normalize:
+            models_normalized.append({**row, "name": names_to_normalize[row["id"]]})
+        else:
+            models_normalized.append(row)
+    models = models_normalized
+
     # --- Step 1: split junk vs valid ---
     junk_rows  = [r for r in models if junk_reason(r["name"])]
     valid_rows = [r for r in models if not junk_reason(r["name"])]
@@ -194,6 +292,8 @@ def analyse(brand_id: int, category_id: int):
 
     return {
         "total":                   len(models),
+        "names_to_normalize":      names_to_normalize,
+        "slash_expansions":        slash_expansions,
         "junk":                    junk_rows,
         "to_keep":                 to_keep,
         "to_delete":               to_delete,
@@ -214,6 +314,8 @@ def print_report(result: dict, brand_slug: str, category_slug: str) -> None:
     t.add_column("Metric", style="bold")
     t.add_column("Count", justify="right")
     t.add_row("Total model rows (current)",              str(result["total"]))
+    t.add_row("Names to normalise",                      f"[cyan]{len(result['names_to_normalize'])}[/cyan]")
+    t.add_row("Slash variants to expand",                f"[cyan]{len(result['slash_expansions'])}[/cyan]")
     t.add_row("Junk rows to delete",                     f"[red]{len(result['junk'])}[/red]")
     t.add_row("Unique PDFs (valid rows)",                str(result["unique_pdfs"]))
     t.add_row("Model family clusters",                   str(result["clusters"]))
@@ -248,6 +350,76 @@ def print_report(result: dict, brand_slug: str, category_slug: str) -> None:
 def execute(result: dict, brand_id: int, category_id: int) -> None:
     console.print("\n[bold]Executing cleanup...[/bold]")
 
+    # 0a. Normalise model names
+    normalised = 0
+    for model_id, new_name in result["names_to_normalize"].items():
+        new_slug = re.sub(r"[^a-z0-9]+", "-", new_name.lower()).strip("-")
+        # Skip if the target slug already belongs to a different model
+        conflict = (
+            supabase.table("models")
+            .select("id")
+            .eq("brand_id", brand_id)
+            .eq("category_id", category_id)
+            .eq("slug", new_slug)
+            .execute()
+        ).data
+        if conflict and conflict[0]["id"] != model_id:
+            logger.debug(f"Skipping normalise for id={model_id}: slug '{new_slug}' already taken")
+            continue
+        supabase.table("models").update(
+            {"name": new_name, "slug": new_slug}
+        ).eq("id", model_id).execute()
+        normalised += 1
+    if normalised:
+        console.print(f"  [cyan]Normalised {normalised} model names[/cyan]")
+
+    # 0b. Expand slash variants
+    deleted_in_step0: set[int] = set()  # model IDs deleted here — skip in later steps
+    expanded_count = 0
+    merged_count = 0
+    for exp in result["slash_expansions"]:
+        base = exp["base_name"]
+        new_slug = re.sub(r"[^a-z0-9]+", "-", base.lower()).strip("-")
+
+        # Check if a model with this base slug already exists
+        existing = (
+            supabase.table("models")
+            .select("id")
+            .eq("brand_id", brand_id)
+            .eq("category_id", category_id)
+            .eq("slug", new_slug)
+            .execute()
+        ).data
+        existing_id = existing[0]["id"] if existing else None
+
+        if existing_id and existing_id != exp["model_id"]:
+            # Base already exists as a separate row — delete the slash-variant row,
+            # add product_codes to the existing base model
+            target_id = existing_id
+            supabase.table("models").delete().eq("id", exp["model_id"]).execute()
+            deleted_in_step0.add(exp["model_id"])
+            merged_count += 1
+        else:
+            # Safe to rename
+            target_id = exp["model_id"]
+            supabase.table("models").update(
+                {"name": base, "slug": new_slug}
+            ).eq("id", exp["model_id"]).execute()
+            expanded_count += 1
+
+        for variant in exp["variants"]:
+            supabase.table("product_codes").upsert(
+                {"model_id": target_id, "code": variant[:100], "scrape_status": "done"},
+                on_conflict="code",
+                ignore_duplicates=True,
+            ).execute()
+
+    if expanded_count or merged_count:
+        console.print(
+            f"  [cyan]Slash variants: {expanded_count} renamed, "
+            f"{merged_count} merged into existing base models[/cyan]"
+        )
+
     # 1. Delete junk
     junk_ids = [r["id"] for r in result["junk"]]
     if junk_ids:
@@ -255,7 +427,7 @@ def execute(result: dict, brand_id: int, category_id: int) -> None:
         console.print(f"  [red]Deleted {len(junk_ids)} junk rows[/red]")
 
     # 2. Delete duplicate models (variants), but first collect product_code inserts
-    #    We need canonical IDs which are already correct (they stay in DB)
+    #    Skip any entries whose canonical or variant IDs were deleted in step 0b
     pc_rows = [
         {
             "model_id":     pc["canonical_id"],
@@ -263,6 +435,7 @@ def execute(result: dict, brand_id: int, category_id: int) -> None:
             "scrape_status": "done",
         }
         for pc in result["product_codes_to_add"]
+        if pc["canonical_id"] not in deleted_in_step0
     ]
     if pc_rows:
         # Check which canonical model IDs already have product_codes (re-run guard)
@@ -277,14 +450,17 @@ def execute(result: dict, brand_id: int, category_id: int) -> None:
         new_rows = [r for r in pc_rows if (r["model_id"], r["code"]) not in existing_keys]
 
         if new_rows:
-            batch = 200
-            for i in range(0, len(new_rows), batch):
-                supabase.table("product_codes").insert(new_rows[i:i+batch]).execute()
+            for i in range(0, len(new_rows), 200):
+                supabase.table("product_codes").upsert(
+                    new_rows[i:i+200],
+                    on_conflict="code",
+                    ignore_duplicates=True,
+                ).execute()
             console.print(f"  [cyan]Inserted {len(new_rows)} product_codes[/cyan]")
         else:
             console.print(f"  [dim]product_codes already exist, skipping[/dim]")
 
-    dup_ids = [r["id"] for r in result["to_delete"]]
+    dup_ids = [r["id"] for r in result["to_delete"] if r["id"] not in deleted_in_step0]
     if dup_ids:
         batch = 200
         for i in range(0, len(dup_ids), batch):
@@ -339,6 +515,58 @@ def execute(result: dict, brand_id: int, category_id: int) -> None:
     console.print("Run [bold]python -m pipeline.validate[/bold] to confirm data quality.")
 
 
+# ── Error code garbage cleanup ─────────────────────────────────────────────────
+
+def _is_garbage_display_text(text: str) -> bool:
+    """Return True if display_text looks like OCR noise rather than a real description."""
+    if not text or not text.strip():
+        return True
+    t = text.strip()
+    # Repeated short tokens: "ee ee ee", "1 1 1 1"
+    tokens = t.split()
+    if len(tokens) >= 3 and len(set(tokens)) == 1:
+        return True
+    # Mostly non-alphanumeric / looks like garbled OCR
+    alnum = sum(c.isalnum() for c in t)
+    if len(t) > 3 and alnum / len(t) < 0.4:
+        return True
+    # Purely numeric or single char
+    if re.match(r'^[\d\W]+$', t):
+        return True
+    return False
+
+
+def clean_garbage_error_codes(brand_id: int, category_id: int, dry_run: bool = True) -> int:
+    """
+    Delete error_code rows whose display_text is OCR garbage.
+    Returns count of rows deleted (or would delete in dry_run).
+    """
+    codes = (
+        supabase.table("error_codes")
+        .select("id,code,display_text")
+        .eq("brand_id", brand_id)
+        .eq("category_id", category_id)
+        .execute()
+    ).data or []
+
+    garbage_ids = [
+        r["id"] for r in codes
+        if _is_garbage_display_text(r.get("display_text", ""))
+    ]
+
+    if dry_run:
+        garbage = [r for r in codes if r["id"] in set(garbage_ids)]
+        console.print(f"\n[bold]Garbage error codes ({len(garbage_ids)}):[/bold]")
+        for r in sorted(garbage, key=lambda x: x["code"]):
+            console.print(f"  [red]{r['code']}[/red]: {r.get('display_text', '')[:60]}")
+    else:
+        if garbage_ids:
+            supabase.table("error_codes").delete().in_("id", garbage_ids).execute()
+            console.print(f"  [red]Deleted {len(garbage_ids)} garbage error codes[/red]")
+
+    return len(garbage_ids)
+
+
 # ── Entry point ────────────────────────────────────────────────────────────────
 
 def main():
@@ -356,11 +584,14 @@ def main():
         console.print(f"[red]Brand '{args.brand}' or category '{args.category}' not found[/red]")
         return
 
-    result = analyse(brand.data["id"], category.data["id"])
+    bid, cid = brand.data["id"], category.data["id"]
+
+    result = analyse(bid, cid)
     print_report(result, args.brand, args.category)
+    clean_garbage_error_codes(bid, cid, dry_run=not args.execute)
 
     if args.execute:
-        execute(result, brand.data["id"], category.data["id"])
+        execute(result, bid, cid)
     else:
         console.print(
             "\n[dim]Dry run. Add [bold]--execute[/bold] to commit changes.[/dim]"

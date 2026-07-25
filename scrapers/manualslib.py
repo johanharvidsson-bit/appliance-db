@@ -196,8 +196,34 @@ def scrape_brand_category(brand_slug: str, category_slug: str) -> int:
         return 0
 
     if not all_models:
-        logger.warning(f"No models found at {listing_url} – check the category URL slug")
-        complete_scrape_job(job_id)
+        # Check how many models already exist in the DB for this combo.
+        # If we already have data, zero results almost certainly means the scrape
+        # was blocked or the URL slug changed — not that the category is empty.
+        existing_count = (
+            supabase.table("models")
+            .select("id", count="exact")
+            .eq("brand_id", brand_id)
+            .eq("category_id", category_id)
+            .execute()
+        ).count or 0
+
+        if existing_count > 0:
+            fail_scrape_job(
+                job_id,
+                f"Zero results returned but {existing_count} models already exist "
+                f"— possible bot block or broken URL slug. Existing data preserved.",
+            )
+            logger.error(
+                f"[{brand_slug}/{category_slug}] Zero results from ManualsLib but "
+                f"{existing_count} models are in DB. Scrape likely blocked. "
+                f"URL: {listing_url}"
+            )
+        else:
+            complete_scrape_job(job_id, parsed_json={"count": 0})
+            logger.warning(
+                f"[{brand_slug}/{category_slug}] No models found at {listing_url} "
+                f"– verify the category URL slug in config/scraper_sites.json"
+            )
         return 0
 
     complete_scrape_job(job_id, parsed_json={"count": len(all_models)})

@@ -21,7 +21,10 @@ from rich import box
 
 from config.settings import supabase, ACTIVE_BRAND_SLUGS, ACTIVE_CATEGORY_SLUGS
 from scrapers.manualslib import scrape_brand_category
-from scrapers.image_extractor import process_all_pending_models
+from pipeline.extract_error_codes import run as extract_error_codes_run
+from scrapers.espares import scrape_all as scrape_espares
+from scrapers.fixpart import scrape_all as scrape_fixpart
+from scrapers.appliancepartspros import scrape_all as scrape_appliancepartspros
 from pipeline.article_generator import process_all as generate_articles
 
 console = Console()
@@ -47,7 +50,18 @@ def print_status(brand_slug: str, category_slug: str) -> None:
     articles      = supabase.table("articles").select("id,status").execute()
 
     model_ids = {m["id"] for m in (models.data or [])}
-    pc_count  = sum(1 for pc in (product_codes.data or []) if pc["model_id"] in model_ids)
+
+    # Product codes with market breakdown
+    all_pcs = supabase.table("product_codes").select("id,model_id,market").in_(
+        "model_id", list(model_ids)[:500]
+    ).execute().data or []
+    pc_by_market: dict[str, int] = {}
+    for pc in all_pcs:
+        if pc["model_id"] in model_ids:
+            market = pc.get("market") or "—"
+            pc_by_market[market] = pc_by_market.get(market, 0) + 1
+    pc_count = sum(pc_by_market.values())
+    market_detail = "  ".join(f"{m}:{n}" for m, n in sorted(pc_by_market.items()))
 
     models_done    = sum(1 for m in (models.data or []) if m["scrape_status"] == "done")
     models_pending = sum(1 for m in (models.data or []) if m["scrape_status"] == "pending")
@@ -61,8 +75,8 @@ def print_status(brand_slug: str, category_slug: str) -> None:
     table.add_column("Count",   justify="right")
     table.add_column("Details", style="dim")
 
-    table.add_row("Models",        str(len(models.data or [])),     f"{models_done} done / {models_pending} pending")
-    table.add_row("Product codes", str(pc_count),                   "")
+    table.add_row("Models",        str(len(models.data or [])),      f"{models_done} done / {models_pending} pending")
+    table.add_row("Product codes", str(pc_count),                    market_detail or "")
     table.add_row("Error codes",   str(len(error_codes.data or [])), "")
     table.add_row("Articles",      str(len(articles.data or [])),    "")
 
@@ -79,7 +93,7 @@ def step_models(brand_slug: str, category_slug: str) -> None:
 
 def step_error_codes(brand_slug: str, category_slug: str) -> None:
     console.rule(f"[bold blue]Step 2: Extract error codes from PDFs")
-    process_all_pending_models(brand_slug, category_slug)
+    extract_error_codes_run(brand_slug=brand_slug, category_slug=category_slug)
     console.print(f"[green]OK Error code extraction complete[/green]\n")
 
 
@@ -87,6 +101,30 @@ def step_articles(brand_slug: str, category_slug: str) -> None:
     console.rule("[bold blue]Step 3: Generate articles via Claude API")
     generate_articles(brand_slug, category_slug)
     console.print("[green]OK Article generation complete[/green]\n")
+
+
+def step_espares(brand_slug: str, category_slug: str) -> None:
+    console.rule("[bold blue]Step: Scrape eSpares (GB market)")
+    count = scrape_espares(brand_slug, category_slug)
+    console.print(f"[green]OK {count} new product codes from eSpares[/green]\n")
+
+
+def step_fixpart(brand_slug: str, category_slug: str) -> None:
+    console.rule("[bold blue]Step: Scrape FixPart (EU market)")
+    count = scrape_fixpart(brand_slug, category_slug)
+    console.print(f"[green]OK {count} new product codes from FixPart[/green]\n")
+
+
+def step_appliancepartspros(brand_slug: str, category_slug: str) -> None:
+    console.rule("[bold blue]Step: Scrape AppliancePartsPros (US market)")
+    count = scrape_appliancepartspros(brand_slug, category_slug)
+    console.print(f"[green]OK {count} new product codes from AppliancePartsPros[/green]\n")
+
+
+def step_parts_sites(brand_slug: str, category_slug: str) -> None:
+    step_espares(brand_slug, category_slug)
+    step_fixpart(brand_slug, category_slug)
+    step_appliancepartspros(brand_slug, category_slug)
 
 
 def step_status(brand_slug: str, category_slug: str) -> None:
@@ -97,10 +135,14 @@ def step_status(brand_slug: str, category_slug: str) -> None:
 # ── Entry point ────────────────────────────────────────────────────────────────
 
 STEPS = {
-    "models":       step_models,
-    "error_codes":  step_error_codes,
-    "articles":     step_articles,
-    "status":       step_status,
+    "models":               step_models,
+    "error_codes":          step_error_codes,
+    "articles":             step_articles,
+    "espares":              step_espares,
+    "fixpart":              step_fixpart,
+    "appliancepartspros":   step_appliancepartspros,
+    "parts_sites":          step_parts_sites,
+    "status":               step_status,
 }
 
 

@@ -139,8 +139,8 @@ export async function getModelsByBrandCategory(brandSlug: string, categorySlug: 
   return { data: all, error: null }
 }
 
-export async function getModelBySlug(brandSlug: string, categorySlug: string, modelSlug: string) {
-  const [brandId, catId] = await Promise.all([getBrandId(brandSlug), getCategoryId(categorySlug)])
+export async function getModelBySlug(brandSlug: string, categorySlug: string, modelSlug: string, locale: string = LOCALE) {
+  const [brandId, catId] = await Promise.all([getBrandId(brandSlug), getCategoryIdByLocaleSlug(locale, categorySlug)])
   if (!brandId || !catId) return { data: null, error: 'Not found' }
 
   return supabase
@@ -244,19 +244,22 @@ function publishedStatuses(locale: string): string[] {
  * part of the match — see migration 007's note on article_translations.
  */
 export async function getArticleBySlug(locale: string, categorySlug: string, brandSlug: string, slug: string) {
+  const catId = await getCategoryIdByLocaleSlug(locale, categorySlug)
+  if (!catId) return null
+
   const { data } = await supabase
     .from('article_translations')
     .select(`
       slug,
       articles!inner (
         id,
-        error_codes!inner ( brands!inner(slug), categories!inner(slug_en) )
+        error_codes!inner ( brands!inner(slug), category_id )
       )
     `)
     .eq('locale', locale)
     .eq('slug', slug)
     .eq('articles.error_codes.brands.slug', brandSlug)
-    .eq('articles.error_codes.categories.slug_en', categorySlug)
+    .eq('articles.error_codes.category_id', catId)
     .in('translation_status', publishedStatuses(locale))
     .maybeSingle()
 

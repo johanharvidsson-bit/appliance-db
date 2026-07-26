@@ -1,0 +1,78 @@
+---
+prerender: true
+lang: 'sv'
+title: 'Om ApplianceRepairBase'
+description: 'ApplianceRepairBase byggs av erfarna vitvarutekniker. Läs om vårt mål att göra felsökning snabbare och mer tillgänglig.'
+layout: '~/layouts/MarkdownLayout.astro'
+---
+
+ApplianceRepairBase är en resurs byggd av erfarna vitvarutekniker med ett tydligt mål: att hjälpa människor snabbt diagnostisera och lösa problem med sina hushållsapparater.
+
+Vi vet hur frustrerande det kan vara när en tvättmaskin stannar mitt i ett program, en diskmaskin visar en okänd felkod, eller en ugn plötsligt slutar värma. Ofta är informationen som behövs för att lösa problemet spridd, otydlig eller alltför teknisk. Det är problemet vi vill lösa.
+
+---
+
+## Vår bakgrund
+
+Vi är erfarna vitvarutekniker med praktisk kunskap om att diagnostisera och reparera ett brett utbud av hushållsapparater, inklusive:
+
+- Tvättmaskiner
+- Diskmaskiner
+- Torktumlare
+- Ugnar och spisar
+- Kylskåp och frysar
+
+Vår erfarenhet kommer från verklig felsökning, inte bara manualer. Vi förstår hur fel faktiskt visar sig, hur felkoder beter sig i praktiken, och hur olika märken hanterar diagnostik.
+
+---
+
+## Vad vi gör
+
+ApplianceRepairBase är utformad för att göra felsökning snabbare och mer strukturerad.
+
+Vi organiserar information kring:
+
+- Apparatmärken
+- Modeller
+- Felkoder
+- Vanliga fel
+
+Istället för att tvinga användare att söka i flera källor strävar vi efter att ge en tydlig väg från problem → diagnos → nästa steg.
+
+---
+
+## Vårt tillvägagångssätt
+
+Vi fokuserar på:
+
+- Tydliga och koncisa förklaringar
+- Praktiska felsökningssteg
+- Strukturerad, lättnavigerad information
+- Kontinuerlig utökning av modeller och felkoder
+
+Vi prioriterar användbarhet framför komplexitet, så att användare snabbt kan avgöra om ett problem är något de kan undersöka själva eller om professionell service behövs.
+
+---
+
+## Viktig information
+
+Även om vi har praktisk erfarenhet av vitvarureparationer tillhandahålls informationen på den här webbplatsen endast i informationssyfte.
+
+Reparationer av hushållsapparater kan innebära säkerhetsrisker. Om du är osäker eller obekväm med att utföra en reparation bör du alltid kontakta en kvalificerad tekniker.
+
+---
+
+## Vårt uppdrag
+
+Vårt uppdrag är enkelt:
+
+Att göra felsökning av hushållsapparater mer tillgänglig, strukturerad och handlingsbar — så att användare kan spara tid, minska frustration och fatta bättre beslut.
+
+---
+
+## Kontakt
+
+Om du har frågor, feedback eller förslag, tveka inte att höra av dig:
+
+E-post: info@appliancerepairbase.com
+Webbplats: https://appliancerepairbase.com

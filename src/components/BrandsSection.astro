@@ -13,6 +13,7 @@ interface Props {
 }
 
 const { brands, locale = 'en' } = Astro.props
+const localePrefix = locale === 'en' ? '' : `/${locale}`
 
 // Deduplicate brands by slug, keeping first occurrence's categorySlug
 const seenBrands = new Map<string, Brand>()
@@ -26,12 +27,12 @@ const uniqueBrands = [...seenBrands.values()]
   <section class="py-10 px-4 bg-white">
     <div class="max-w-4xl mx-auto">
       <div class="flex items-center justify-between mb-5">
-        <h2 class="text-xl font-bold text-gray-900">Browse by Brand</h2>
+        <h2 class="text-xl font-bold text-gray-900">{t(locale, 'home.browseByBrand')}</h2>
       </div>
       <div class="flex flex-wrap gap-2">
         {uniqueBrands.map(brand => (
           <a
-            href={`/brands/${brand.slug}/`}
+            href={`${localePrefix}/brands/${brand.slug}/`}
             class="rounded-full border border-gray-300 px-4 py-1.5 text-sm text-gray-700 font-medium hover:bg-slate-100 hover:border-gray-400 transition-colors no-underline"
           >
             {brand.name}

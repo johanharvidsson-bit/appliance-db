@@ -15,6 +15,8 @@ export interface Props {
 }
 
 const { metadata, currentLocale = 'en', alternateUrls = [] } = Astro.props;
+const resolvedHeaderData = headerData(currentLocale);
+const resolvedFooterData = footerData(currentLocale);
 
 // Merge alternateUrls into metadata so Layout.astro can render hreflang tags
 const mergedMetadata = alternateUrls.length > 0
@@ -27,12 +29,12 @@ const mergedMetadata = alternateUrls.length > 0
     <Announcement />
   </slot>
   <slot name="header">
-    <Header {...headerData} isSticky currentLocale={currentLocale} alternateUrls={alternateUrls} />
+    <Header {...resolvedHeaderData} isSticky currentLocale={currentLocale} alternateUrls={alternateUrls} />
   </slot>
   <main>
     <slot />
   </main>
   <slot name="footer">
-    <Footer {...footerData} />
+    <Footer {...resolvedFooterData} />
   </slot>
 </Layout>

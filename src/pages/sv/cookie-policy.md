@@ -1,0 +1,110 @@
+---
+prerender: true
+lang: 'sv'
+title: 'Cookiepolicy'
+description: 'Läs om hur ApplianceRepairBase använder cookies för analys, annonsering och affiliate-spårning, och hur du hanterar dina cookie-inställningar.'
+layout: '~/layouts/MarkdownLayout.astro'
+---
+
+_Senast uppdaterad: 1 april 2026_
+
+Denna cookiepolicy förklarar hur ApplianceRepairBase ("vi", "oss" eller "vår") använder cookies och liknande tekniker när du besöker https://appliancerepairbase.com ("Webbplatsen").
+
+---
+
+## 1. Vad är cookies?
+
+Cookies är små textfiler som lagras på din enhet (dator, surfplatta eller mobil) när du besöker en webbplats. De hjälper webbplatser att fungera korrekt, förbättrar användarupplevelsen och ger information till webbplatsägare.
+
+---
+
+## 2. Hur vi använder cookies
+
+Vi använder cookies för följande ändamål:
+
+### a) Nödvändiga cookies
+
+Dessa cookies är nödvändiga för att Webbplatsen ska fungera korrekt. De möjliggör kärnfunktioner såsom:
+
+- Sidnavigering
+- Säkerhet
+- Grundläggande funktionalitet
+
+Dessa cookies kan inte inaktiveras.
+
+### b) Analyscookies
+
+Dessa cookies hjälper oss förstå hur besökare interagerar med Webbplatsen genom att samla in information såsom:
+
+- Besökta sidor
+- Tid spenderad på sidor
+- Trafikkällor
+
+Vi kan använda verktyg som Google Analytics för detta ändamål.
+
+### c) Annonscookies
+
+Vi kan använda annonscookies för att:
+
+- Visa relevanta annonser
+- Begränsa hur ofta annonser visas
+- Mäta annonsprestanda
+
+Tredjepartsleverantörer, inklusive Google, kan använda cookies för att visa annonser baserat på dina tidigare besök på denna och andra webbplatser.
+
+### d) Affiliate-spårningscookies
+
+Vi kan använda cookies för att spåra hänvisningar från affiliate-länkar. Detta gör att vi kan tjäna provision när användare gör köp via partnerwebbplatser.
+
+---
+
+## 3. Cookies från tredje part
+
+Vissa cookies placeras av tredjepartstjänster som visas på våra sidor. Dessa kan inkludera:
+
+- Google AdSense
+- Google Analytics
+- Affiliate-nätverk (t.ex. AppliancePartsPros, eSpares, FixPart)
+
+Dessa tredje parter kan samla in och behandla data enligt sina egna integritetspolicyer.
+
+---
+
+## 4. Dina cookie-val
+
+Beroende på var du befinner dig (t.ex. EU/EES/Storbritannien) kan du få en cookie-samtyckesbanner som gör att du kan:
+
+- Acceptera alla cookies
+- Avvisa icke-nödvändiga cookies
+- Anpassa dina inställningar
+
+Du kan även hantera cookies via dina webbläsarinställningar:
+
+- Blockera eller radera cookies
+- Ställa in preferenser för specifika webbplatser
+
+Observera att inaktivering av cookies kan påverka Webbplatsens funktionalitet.
+
+---
+
+## 5. Rättslig grund för behandling (GDPR)
+
+För användare inom Europeiska ekonomiska samarbetsområdet (EES) och Storbritannien:
+
+- Nödvändiga cookies behandlas baserat på berättigat intresse
+- Icke-nödvändiga cookies (analys, annonsering) används endast med ditt samtycke
+
+---
+
+## 6. Uppdateringar av denna cookiepolicy
+
+Vi kan uppdatera denna cookiepolicy från tid till annan. Ändringar publiceras på denna sida med ett reviderat datum för "Senast uppdaterad".
+
+---
+
+## 7. Kontakta oss
+
+Om du har frågor om vår användning av cookies, kontakta:
+
+E-post: info@appliancerepairbase.com
+Webbplats: https://appliancerepairbase.com

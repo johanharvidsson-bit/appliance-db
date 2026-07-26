@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from 'site-config'
+import { t } from '~/lib/ui'
 
 interface Category {
   slug: string
@@ -12,13 +13,14 @@ interface Props {
 }
 
 const { categories, locale = 'en' } = Astro.props
+const localePrefix = locale === 'en' ? '' : `/${locale}`
 ---
 
-<section class="bg-slate-50 py-12 px-4">
+<section class="bg-slate-50 py-12 px-4" data-locale-prefix={localePrefix}>
   <div class="max-w-2xl mx-auto text-center">
     <h1 class="text-4xl font-black text-gray-900 mb-3 leading-tight">{siteConfig.name}</h1>
-    <p class="text-lg font-semibold text-green-600 mb-2">Fix appliance error codes — free step-by-step guides</p>
-    <p class="text-sm text-gray-500 mb-8">Written by appliance technicians. No sign-up needed.</p>
+    <p class="text-lg font-semibold text-green-600 mb-2">{t(locale, 'hero.tagline')}</p>
+    <p class="text-sm text-gray-500 mb-8">{t(locale, 'hero.subtext')}</p>
 
     <!-- Tab toggle -->
     <div class="bg-white border border-gray-200 rounded-2xl shadow-sm p-6">
@@ -28,14 +30,14 @@ const { categories, locale = 'en' } = Astro.props
           class="tab-btn tab-active px-5 py-2 rounded-full text-sm font-semibold transition-all"
           data-tab="error"
         >
-          An error code
+          {t(locale, 'hero.tabError')}
         </button>
         <button
           id="tab-fault"
           class="tab-btn px-5 py-2 rounded-full text-sm font-semibold text-gray-600 transition-all"
           data-tab="fault"
         >
-          A symptom / fault
+          {t(locale, 'hero.tabFault')}
         </button>
       </div>
 
@@ -43,32 +45,32 @@ const { categories, locale = 'en' } = Astro.props
       <div id="panel-error" class="tab-panel">
         <div class="flex flex-col sm:flex-row gap-3">
           <div class="flex-1">
-            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ec-appliance">Appliance type</label>
+            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ec-appliance">{t(locale, 'hero.applianceType')}</label>
             <select id="ec-appliance" class="hero-select w-full">
-              <option value="">Select appliance…</option>
+              <option value="">{t(locale, 'hero.selectAppliance')}</option>
               {categories.map(cat => (
                 <option value={cat.slug}>{cat.name}</option>
               ))}
             </select>
           </div>
           <div class="flex-1">
-            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ec-brand">Brand</label>
+            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ec-brand">{t(locale, 'hero.brand')}</label>
             <select id="ec-brand" class="hero-select w-full" disabled>
-              <option value="">Select brand…</option>
+              <option value="">{t(locale, 'hero.selectBrand')}</option>
             </select>
           </div>
           <div class="flex-1">
-            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ec-code">Error code</label>
+            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ec-code">{t(locale, 'hero.errorCode')}</label>
             <input
               id="ec-code"
               type="text"
-              placeholder="e.g. 4E, F21…"
+              placeholder={t(locale, 'hero.errorCodePlaceholder')}
               class="hero-input w-full"
             />
           </div>
         </div>
         <button id="ec-find-btn" class="hero-btn mt-4 w-full">
-          Find fix →
+          {t(locale, 'hero.findFix')}
         </button>
       </div>
 
@@ -76,24 +78,24 @@ const { categories, locale = 'en' } = Astro.props
       <div id="panel-fault" class="tab-panel hidden">
         <div class="flex flex-col sm:flex-row gap-3 mb-5">
           <div class="flex-1">
-            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ft-appliance">Appliance type</label>
+            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ft-appliance">{t(locale, 'hero.applianceType')}</label>
             <select id="ft-appliance" class="hero-select w-full">
-              <option value="">Select appliance…</option>
+              <option value="">{t(locale, 'hero.selectAppliance')}</option>
               {categories.map(cat => (
                 <option value={cat.slug}>{cat.name}</option>
               ))}
             </select>
           </div>
           <div class="flex-1">
-            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ft-brand">Brand</label>
+            <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5" for="ft-brand">{t(locale, 'hero.brand')}</label>
             <select id="ft-brand" class="hero-select w-full" disabled>
-              <option value="">Select brand…</option>
+              <option value="">{t(locale, 'hero.selectBrand')}</option>
             </select>
           </div>
         </div>
 
         <button id="ft-find-btn" class="hero-btn w-full">
-          Find fix →
+          {t(locale, 'hero.findFix')}
         </button>
       </div>
     </div>
@@ -108,8 +110,12 @@ const { categories, locale = 'en' } = Astro.props
     const applianceBrandMap: Record<string, { name: string; slug: string }[]> =
       JSON.parse(brandMapEl.textContent ?? '{}')
 
+    const heroSection = document.querySelector<HTMLElement>('[data-locale-prefix]')
+    const localePrefix = heroSection?.dataset.localePrefix ?? ''
+
     function populateBrands(selectEl: HTMLSelectElement, categorySlug: string) {
-      selectEl.innerHTML = '<option value="">Select brand…</option>'
+      const placeholder = selectEl.querySelector('option[value=""]')?.textContent ?? ''
+      selectEl.innerHTML = `<option value="">${placeholder}</option>`
       const brands = applianceBrandMap[categorySlug] ?? []
       brands.forEach(b => {
         const opt = document.createElement('option')
@@ -154,11 +160,11 @@ const { categories, locale = 'en' } = Astro.props
       if (!category) return
       if (category && brand && code) {
         const slug = `${brand}-error-code-${code.toLowerCase().replace(/\s+/g, '-')}`
-        window.location.href = `/${category}/${brand}/${slug}/`
+        window.location.href = `${localePrefix}/${category}/${brand}/${slug}/`
       } else if (category && brand) {
-        window.location.href = `/${category}/${brand}/`
+        window.location.href = `${localePrefix}/${category}/${brand}/`
       } else {
-        window.location.href = `/${category}/`
+        window.location.href = `${localePrefix}/${category}/`
       }
     })
 
@@ -179,7 +185,7 @@ const { categories, locale = 'en' } = Astro.props
       const category = ftAppliance.value
       const brand = ftBrand.value
       if (!category) return
-      window.location.href = brand ? `/${category}/${brand}/problems/` : `/${category}/`
+      window.location.href = brand ? `${localePrefix}/${category}/${brand}/problems/` : `${localePrefix}/${category}/`
     })
   }
 

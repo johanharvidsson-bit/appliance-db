@@ -17,6 +17,7 @@ interface Props {
 }
 
 const { trending, popular, locale = 'en' } = Astro.props
+const localePrefix = locale === 'en' ? '' : `/${locale}`
 ---
 
 {trending.length > 0 && (
@@ -30,7 +31,7 @@ const { trending, popular, locale = 'en' } = Astro.props
           {trending.map(guide => (
             <li>
               <a
-                href={`/${guide.categorySlug}/${guide.brandSlug}/${guide.slug}/`}
+                href={`${localePrefix}/${guide.categorySlug}/${guide.brandSlug}/${guide.slug}/`}
                 class="flex items-center justify-between py-2.5 text-sm no-underline group"
               >
                 <span class="text-gray-700 group-hover:text-green-700 transition-colors line-clamp-1 flex-1">

@@ -1,0 +1,162 @@
+---
+prerender: true
+lang: 'sv'
+title: 'Integritetspolicy'
+description: 'Läs ApplianceRepairBases integritetspolicy för att förstå hur vi samlar in, använder och skyddar din information när du besöker vår webbplats.'
+layout: '~/layouts/MarkdownLayout.astro'
+---
+
+_Senast uppdaterad: 1 april 2026_
+
+Välkommen till ApplianceRepairBase ("vi", "oss" eller "vår"). Denna integritetspolicy förklarar hur vi samlar in, använder, delar och skyddar din information när du besöker https://appliancerepairbase.com ("Webbplatsen").
+
+Om du inte samtycker till villkoren i denna integritetspolicy ber vi dig att inte använda Webbplatsen.
+
+---
+
+## 1. Information vi samlar in
+
+Vi kan samla in information om dig på flera sätt, inklusive:
+
+### a) Personuppgifter
+
+Vi kräver inte att användare skapar konton eller lämnar personlig information för att använda Webbplatsen. Vi kan dock samla in personlig information som du frivilligt lämnar, till exempel:
+
+- Namn
+- E-postadress
+- All information som skickas via kontaktformulär
+
+### b) Automatiskt insamlad data
+
+När du besöker Webbplatsen kan vi automatiskt samla in:
+
+- IP-adress
+- Webbläsartyp
+- Enhetsinformation
+- Besökta sidor
+- Hänvisande URL:er
+- Tid och datum för besöket
+
+### c) Cookies och spårningstekniker
+
+Vi använder cookies och liknande spårningstekniker för att:
+
+- Driva och underhålla Webbplatsen
+- Analysera trafik och användningsmönster
+- Visa anpassad annonsering
+
+---
+
+## 2. Hur vi använder din information
+
+Vi använder insamlad information för att:
+
+- Tillhandahålla, driva och underhålla Webbplatsen
+- Förbättra användarupplevelsen och innehållets relevans
+- Analysera användning och trender
+- Kommunicera med användare (om de kontaktar oss)
+- Visa annonser och affiliate-länkar
+
+---
+
+## 3. Annonsering och affiliate-information
+
+Vi kan delta i affiliate-marknadsföringsprogram och visa annonser. Det innebär:
+
+- Vi kan tjäna provision på köp som görs via länkar
+- Tredjepartsleverantörer kan använda cookies för att visa annonser baserat på dina tidigare besök
+
+Dessa partners kan inkludera, men är inte begränsade till:
+
+- Google AdSense
+- AppliancePartsPros
+- eSpares
+- FixPart
+
+---
+
+## 4. Tredje parters integritetspolicyer
+
+Vi kan använda tredjepartstjänster såsom:
+
+- Analysleverantörer (t.ex. Google Analytics)
+- Annonsnätverk (t.ex. Google AdSense)
+
+Dessa tredje parter kan samla in och behandla din data enligt sina egna integritetspolicyer. Vi rekommenderar att du granskar dessa policyer separat.
+
+---
+
+## 5. Datalagring
+
+Vi behåller personuppgifter endast så länge det är nödvändigt för att:
+
+- Uppfylla de syften som beskrivs i denna policy
+- Följa juridiska skyldigheter
+- Lösa tvister
+- Upprätthålla avtal
+
+---
+
+## 6. Dina rättigheter till dataskydd (GDPR)
+
+Om du befinner dig inom Europeiska ekonomiska samarbetsområdet (EES) har du rätt att:
+
+- Få tillgång till dina personuppgifter
+- Rätta felaktiga uppgifter
+- Begära radering av dina uppgifter
+- Begränsa eller invända mot behandling
+- Dataportabilitet
+
+För att utöva dessa rättigheter, kontakta oss på: info@appliancerepairbase.com
+
+---
+
+## 7. Rättigheter för invånare i Kalifornien (CCPA)
+
+Om du är bosatt i Kalifornien har du rätt att:
+
+- Begära information om insamlade personuppgifter
+- Begära radering av dina uppgifter
+- Välja bort försäljning av personuppgifter
+
+Vi säljer inte personuppgifter.
+
+För att göra en begäran, kontakta: info@appliancerepairbase.com
+
+---
+
+## 8. Cookiepolicy
+
+Vi använder cookies för att förbättra din upplevelse. Du kan:
+
+- Inaktivera cookies via dina webbläsarinställningar
+- Hantera cookie-inställningar via samtyckesbanners (där tillämpligt)
+
+Läs mer i vår [Cookiepolicy](/sv/cookie-policy/).
+
+---
+
+## 9. Datasäkerhet
+
+Vi vidtar rimliga tekniska och organisatoriska åtgärder för att skydda din data. Ingen överföringsmetod via internet är dock 100 % säker.
+
+---
+
+## 10. Information om barn
+
+Webbplatsen är inte avsedd för barn under 13 år. Vi samlar inte medvetet in personuppgifter från barn.
+
+---
+
+## 11. Ändringar av denna integritetspolicy
+
+Vi kan uppdatera denna integritetspolicy från tid till annan. Uppdateringar publiceras på denna sida med ett reviderat datum för "Senast uppdaterad".
+
+---
+
+## 12. Kontakta oss
+
+Om du har frågor om denna integritetspolicy kan du kontakta oss på:
+
+E-post: info@appliancerepairbase.com
+Webbplats: https://appliancerepairbase.com

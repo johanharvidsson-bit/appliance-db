@@ -36,7 +36,7 @@ console = Console()
 _client = anthropic.Anthropic()
 
 MODEL         = "claude-sonnet-4-6"   # all article generation and translation
-MAX_TOKENS    = 4096
+MAX_TOKENS    = 6144
 TRANSLATED_BY = "claude"
 
 # Locale display names used in translation prompts

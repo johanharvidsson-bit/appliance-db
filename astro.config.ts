@@ -9,10 +9,7 @@ import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
-// NOTE: @astrojs/cloudflare v13+ requires Astro 6. For Astro 5 + static output,
-// Cloudflare Pages serves the dist/ folder natively – no adapter needed.
-// When upgrading to Astro 6, uncomment the adapter below.
-// import cloudflare from '@astrojs/cloudflare';
+import cloudflare from '@astrojs/cloudflare';
 import type { AstroIntegration } from 'astro';
 
 import astrowind from './vendor/integration';
@@ -26,8 +23,11 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  output: 'static',
-  // adapter: cloudflare(), // enable when upgrading to Astro 6
+  // 'server' + the Cloudflare adapter: most routes opt into static prerendering
+  // via `export const prerender = true`; model detail pages (the ~20k pages
+  // that blew Cloudflare Pages' build time/file-count limits) render on-demand.
+  output: 'server',
+  adapter: cloudflare(),
 
   i18n: {
     defaultLocale: 'en',

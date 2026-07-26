@@ -1,4 +1,5 @@
 ---
+prerender: true
 title: 'Terms of Service'
 description: 'Read the ApplianceRepairBase Terms of Service governing your use of our appliance troubleshooting guides and website.'
 layout: '~/layouts/MarkdownLayout.astro'

@@ -1,12 +1,17 @@
 ---
 /**
- * Handles two URL patterns:
- *   Article:  /[category]/[brand]/error-code-[code]/
+ * Handles two URL patterns, resolved on demand (SSR) per request:
+ *   Article:  /[category]/[brand]/[error-code-slug]/
  *   Model:    /[category]/[brand]/[model-slug]/
  *
- * getStaticPaths returns both. The component decides which view to render
- * based on whether the slug starts with "error-code-".
+ * Rendered on-demand rather than prerendered — with ~20k+ model slugs,
+ * statically building one HTML file per model blew past Cloudflare Pages'
+ * build time (20 min) and file-count (20k free / 100k paid) limits. Every
+ * other route in this site stays static via `export const prerender = true`;
+ * this is the one exception.
  */
+export const prerender = false
+
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import QuickFixBox from '~/components/QuickFixBox.astro'
@@ -14,60 +19,53 @@ import StepsSection from '~/components/StepsSection.astro'
 import FaqSection from '~/components/FaqSection.astro'
 import SparePartsSection from '~/components/SparePartsSection.astro'
 import SpecsTable from '~/components/SpecsTable.astro'
-import { getArticle, getAllArticleSlugs, getAllModelPageData, getModelsByBrandCategory, getArticleAlternates } from '~/lib/queries'
+import {
+  getArticleBySlug, getArticle, getModelsByBrandCategory, getArticleAlternates,
+  getModelBySlug, getErrorCodesByModel, getFaultsByBrandCategoryId, getWashingMachineSpecs, getModelsBySeries,
+} from '~/lib/queries'
 import { parseJson } from '~/lib/utils'
 import { buildAlternateUrl } from '~/lib/locales'
 import { t } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
-export async function getStaticPaths() {
-  const locale = siteConfig.defaultLocale
-  const paths: {
-    params: { category: string; brand: string; slug: string }
-    props: Record<string, any>
-  }[] = []
-
-  // ── Article paths ────────────────────────────────────────────────────────
-  const { data: articles } = await getAllArticleSlugs(locale)
-  if (articles) {
-    for (const article of articles) {
-      paths.push({
-        params: { category: article.category_slug, brand: article.brand_slug, slug: article.slug },
-        props: { type: 'article', articleId: article.article_id },
-      })
-    }
-  }
-
-  // ── Model paths ──────────────────────────────────────────────────────────
-  // All per-model data (error codes, faults, specs, series siblings) is
-  // pre-fetched in bulk here and passed straight through as props, so the
-  // page body below does zero DB queries for model pages.
-  const modelPageData = await getAllModelPageData(locale)
-  for (const m of modelPageData) {
-    paths.push({
-      params: { category: m.category_slug, brand: m.brand_slug, slug: m.slug },
-      props: {
-        type: 'model',
-        model: m.model,
-        modelErrorCodes: m.modelErrorCodes,
-        modelFaults: m.modelFaults,
-        modelSpecs: m.modelSpecs,
-        seriesModels: m.seriesModels,
-      },
-    })
-  }
-
-  return paths
-}
-
-const { category, brand, slug } = Astro.params
-const {
-  type, articleId,
-  model: modelProp, modelErrorCodes: modelErrorCodesProp, modelFaults: modelFaultsProp,
-  modelSpecs: modelSpecsProp, seriesModels: seriesModelsProp,
-} = Astro.props
+const { category, brand, slug } = Astro.params as { category: string; brand: string; slug: string }
 const locale = siteConfig.defaultLocale
 const siteUrl = `https://${siteConfig.domain}`
+
+// ── Resolve whether this slug is an article or a model ───────────────────────
+let type: 'article' | 'model' | null = null
+let articleId: number | null = null
+let model: any = null
+let modelErrorCodes: any[] = []
+let modelFaults: any[] = []
+let modelSpecs: Record<string, any> | null = null
+let seriesModels: any[] = []
+
+const matchedArticle = await getArticleBySlug(locale, category, brand, slug)
+if (matchedArticle) {
+  type = 'article'
+  articleId = matchedArticle.article_id
+} else {
+  const { data: modelData } = await getModelBySlug(brand, category, slug)
+  if (modelData) {
+    type = 'model'
+    model = modelData
+    const [{ data: ecData }, { data: faultData }, specsData, altModels] = await Promise.all([
+      getErrorCodesByModel(model.brand_id, model.category_id),
+      getFaultsByBrandCategoryId(model.brand_id, model.category_id, locale),
+      category === 'washing-machines' ? getWashingMachineSpecs(model.id) : Promise.resolve(null),
+      model.series ? getModelsBySeries(model.brand_id, model.category_id, model.series, slug) : Promise.resolve([]),
+    ])
+    modelErrorCodes = ecData ?? []
+    modelFaults = faultData ?? []
+    modelSpecs = specsData
+    seriesModels = altModels
+  }
+}
+
+if (!type) {
+  return new Response(null, { status: 404 })
+}
 
 // ── Article ──────────────────────────────────────────────────────────────────
 let article: any = null
@@ -101,15 +99,6 @@ if (type === 'article' && articleId) {
     url: buildAlternateUrl(siteUrl, alt),
   }))
 }
-
-// ── Model ────────────────────────────────────────────────────────────────────
-// All of this is pre-fetched in bulk by getAllModelPageData() in getStaticPaths
-// and passed straight through as props — no DB queries at render time.
-const model: any = type === 'model' ? modelProp : null
-const modelErrorCodes: any[] = modelErrorCodesProp ?? []
-const modelFaults: any[] = modelFaultsProp ?? []
-const modelSpecs: Record<string, any> | null = modelSpecsProp ?? null
-const seriesModels: any[] = seriesModelsProp ?? []
 
 // ── Shared helpers ───────────────────────────────────────────────────────────
 const severityBadge: Record<string, { cls: string; label: string }> = {

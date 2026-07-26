@@ -1,4 +1,5 @@
 ---
+prerender: true
 title: 'Contact Us'
 description: 'Get in touch with ApplianceRepairBase for general inquiries, business partnerships, or to report corrections to our appliance repair guides.'
 layout: '~/layouts/MarkdownLayout.astro'

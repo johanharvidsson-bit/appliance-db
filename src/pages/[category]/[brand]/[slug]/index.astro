@@ -14,7 +14,7 @@ import StepsSection from '~/components/StepsSection.astro'
 import FaqSection from '~/components/FaqSection.astro'
 import SparePartsSection from '~/components/SparePartsSection.astro'
 import SpecsTable from '~/components/SpecsTable.astro'
-import { getArticle, getAllArticleSlugs, getAllModelSlugs, getModelBySlug, getModelsBySeries, getErrorCodesByModel, getModelsByBrandCategory, getArticleAlternates, getFaultsByBrandCategoryId, getWashingMachineSpecs } from '~/lib/queries'
+import { getArticle, getAllArticleSlugs, getAllModelPageData, getModelsByBrandCategory, getArticleAlternates } from '~/lib/queries'
 import { parseJson } from '~/lib/utils'
 import { buildAlternateUrl } from '~/lib/locales'
 import { t } from '~/lib/ui'
@@ -24,7 +24,7 @@ export async function getStaticPaths() {
   const locale = siteConfig.defaultLocale
   const paths: {
     params: { category: string; brand: string; slug: string }
-    props: { type: 'article' | 'model'; articleId?: number }
+    props: Record<string, any>
   }[] = []
 
   // ── Article paths ────────────────────────────────────────────────────────
@@ -39,27 +39,33 @@ export async function getStaticPaths() {
   }
 
   // ── Model paths ──────────────────────────────────────────────────────────
-  const { data: models } = await getAllModelSlugs()
-  if (models) {
-    for (const model of models) {
-      if (model.brand_slug && model.category_slug && model.slug) {
-        paths.push({
-          params: {
-            category: model.category_slug,
-            brand: model.brand_slug,
-            slug: model.slug,
-          },
-          props: { type: 'model' },
-        })
-      }
-    }
+  // All per-model data (error codes, faults, specs, series siblings) is
+  // pre-fetched in bulk here and passed straight through as props, so the
+  // page body below does zero DB queries for model pages.
+  const modelPageData = await getAllModelPageData(locale)
+  for (const m of modelPageData) {
+    paths.push({
+      params: { category: m.category_slug, brand: m.brand_slug, slug: m.slug },
+      props: {
+        type: 'model',
+        model: m.model,
+        modelErrorCodes: m.modelErrorCodes,
+        modelFaults: m.modelFaults,
+        modelSpecs: m.modelSpecs,
+        seriesModels: m.seriesModels,
+      },
+    })
   }
 
   return paths
 }
 
 const { category, brand, slug } = Astro.params
-const { type, articleId } = Astro.props
+const {
+  type, articleId,
+  model: modelProp, modelErrorCodes: modelErrorCodesProp, modelFaults: modelFaultsProp,
+  modelSpecs: modelSpecsProp, seriesModels: seriesModelsProp,
+} = Astro.props
 const locale = siteConfig.defaultLocale
 const siteUrl = `https://${siteConfig.domain}`
 
@@ -97,27 +103,13 @@ if (type === 'article' && articleId) {
 }
 
 // ── Model ────────────────────────────────────────────────────────────────────
-let model: any = null
-let modelErrorCodes: any[] = []
-let modelFaults: any[] = []
-let modelSpecs: Record<string, any> | null = null
-let seriesModels: any[] = []
-if (type === 'model') {
-  const { data } = await getModelBySlug(brand, category, slug)
-  model = data
-  if (model) {
-    const [{ data: ecData }, { data: faultData }, specsData, altModels] = await Promise.all([
-      getErrorCodesByModel(model.brand_id, model.category_id),
-      getFaultsByBrandCategoryId(model.brand_id, model.category_id, locale),
-      category === 'washing-machines' ? getWashingMachineSpecs(model.id) : Promise.resolve(null),
-      model.series ? getModelsBySeries(model.brand_id, model.category_id, model.series, slug) : Promise.resolve([]),
-    ])
-    modelErrorCodes = ecData ?? []
-    modelFaults = faultData ?? []
-    modelSpecs = specsData
-    seriesModels = altModels
-  }
-}
+// All of this is pre-fetched in bulk by getAllModelPageData() in getStaticPaths
+// and passed straight through as props — no DB queries at render time.
+const model: any = type === 'model' ? modelProp : null
+const modelErrorCodes: any[] = modelErrorCodesProp ?? []
+const modelFaults: any[] = modelFaultsProp ?? []
+const modelSpecs: Record<string, any> | null = modelSpecsProp ?? null
+const seriesModels: any[] = seriesModelsProp ?? []
 
 // ── Shared helpers ───────────────────────────────────────────────────────────
 const severityBadge: Record<string, { cls: string; label: string }> = {

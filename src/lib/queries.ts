@@ -180,6 +180,148 @@ export async function getAllModelSlugs() {
   return { data: shaped, error: null }
 }
 
+/**
+ * Bulk-fetches everything needed to render every model page in one pass:
+ * models, washing_machine_specs, error_codes and faults — all grouped in
+ * memory by brand+category (or model id), instead of one round-trip per
+ * model at render time. With ~20k+ model pages, five per-page queries each
+ * (getModelBySlug, getErrorCodesByModel, getFaultsByBrandCategoryId,
+ * getWashingMachineSpecs, getModelsBySeries) added up to 100k+ build-time
+ * requests and blew through Cloudflare Pages' build time limit.
+ *
+ * error_codes and faults are scoped at brand+category level (same list for
+ * every model in that brand/category — see faults table comment), so they
+ * only need to be fetched once per combo, not once per model.
+ */
+export async function getAllModelPageData(locale = LOCALE) {
+  const PAGE = 1000
+
+  // ── All active-brand models ─────────────────────────────────────────────
+  const models: any[] = []
+  {
+    let offset = 0
+    while (true) {
+      const { data, error } = await supabase
+        .from('models')
+        .select(`
+          id, name, slug, series, release_year, manual_url, manual_pdf_url,
+          brand_id, category_id,
+          brands!inner(slug, is_active), categories(slug_en)
+        `)
+        .eq('brands.is_active', true)
+        .range(offset, offset + PAGE - 1)
+      if (error || !data?.length) break
+      models.push(...data)
+      if (data.length < PAGE) break
+      offset += PAGE
+    }
+  }
+
+  // ── All washing machine specs, keyed by model_id ────────────────────────
+  const specsByModel = new Map<number, Record<string, any>>()
+  {
+    let offset = 0
+    while (true) {
+      const { data, error } = await supabase
+        .from('washing_machine_specs')
+        .select('model_id, capacity_kg, spin_speed_rpm, energy_class, width_mm, height_mm, depth_mm, noise_spinning_db, energy_consumption_kwh, water_consumption_l, door_type')
+        .range(offset, offset + PAGE - 1)
+      if (error || !data?.length) break
+      for (const row of data) {
+        const { model_id, ...specs } = row as any
+        specsByModel.set(model_id, specs)
+      }
+      if (data.length < PAGE) break
+      offset += PAGE
+    }
+  }
+
+  // ── All error codes, grouped by brand_id-category_id ────────────────────
+  const errorCodesByCombo = new Map<string, any[]>()
+  {
+    let offset = 0
+    while (true) {
+      const { data, error } = await supabase
+        .from('error_codes')
+        .select(`
+          id, code, short_description, description, severity, brand_id, category_id,
+          articles ( article_translations ( slug, locale, translation_status ) )
+        `)
+        .order('code')
+        .range(offset, offset + PAGE - 1)
+      if (error || !data?.length) break
+      for (const row of data) {
+        const key = `${(row as any).brand_id}-${(row as any).category_id}`
+        if (!errorCodesByCombo.has(key)) errorCodesByCombo.set(key, [])
+        errorCodesByCombo.get(key)!.push(row)
+      }
+      if (data.length < PAGE) break
+      offset += PAGE
+    }
+  }
+
+  // ── All faults, grouped by brand_id-category_id ─────────────────────────
+  const { data: faultRows } = await supabase
+    .from('faults')
+    .select('id, slug, severity, has_error_code, brand_id, category_id, fault_translations ( symptom_name, meta_description, locale )')
+    .order('id')
+
+  const localeFaults = (faultRows ?? [])
+    .map((row: any) => ({
+      ...row,
+      fault_translations: (row.fault_translations ?? []).filter((t: any) => t.locale === locale),
+    }))
+    .filter((row: any) => row.fault_translations.length > 0)
+
+  const faultsWithSlugs = await attachFaultArticleSlugs(localeFaults, locale)
+
+  const faultsByCombo = new Map<string, any[]>()
+  for (const row of faultsWithSlugs) {
+    const key = `${row.brand_id}-${row.category_id}`
+    if (!faultsByCombo.has(key)) faultsByCombo.set(key, [])
+    faultsByCombo.get(key)!.push(row)
+  }
+
+  // ── Series siblings, grouped by brand_id-category_id-series ─────────────
+  const seriesGroups = new Map<string, any[]>()
+  for (const m of models) {
+    if (!m.series) continue
+    const key = `${m.brand_id}-${m.category_id}-${m.series}`
+    if (!seriesGroups.has(key)) seriesGroups.set(key, [])
+    seriesGroups.get(key)!.push(m)
+  }
+
+  // ── Assemble one entry per model path ───────────────────────────────────
+  return models
+    .filter((m) => m.slug && m.brands?.slug && m.categories?.slug_en)
+    .map((m) => {
+      const comboKey = `${m.brand_id}-${m.category_id}`
+      const seriesKey = m.series ? `${m.brand_id}-${m.category_id}-${m.series}` : null
+      const seriesModels = seriesKey
+        ? (seriesGroups.get(seriesKey) ?? [])
+            .filter((s) => s.slug !== m.slug)
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .slice(0, 50)
+            .map((s) => ({ id: s.id, name: s.name, slug: s.slug }))
+        : []
+
+      return {
+        category_slug: m.categories.slug_en as string,
+        brand_slug: m.brands.slug as string,
+        slug: m.slug as string,
+        model: {
+          id: m.id, name: m.name, slug: m.slug, series: m.series,
+          release_year: m.release_year, manual_url: m.manual_url,
+          manual_pdf_url: m.manual_pdf_url, brand_id: m.brand_id, category_id: m.category_id,
+        },
+        modelErrorCodes: errorCodesByCombo.get(comboKey) ?? [],
+        modelFaults: faultsByCombo.get(comboKey) ?? [],
+        modelSpecs: m.categories.slug_en === 'washing-machines' ? (specsByModel.get(m.id) ?? null) : null,
+        seriesModels,
+      }
+    })
+}
+
 // ── Error codes ───────────────────────────────────────────────────────────────
 
 export async function getErrorCodesByBrandCategory(brandSlug: string, categorySlug: string) {

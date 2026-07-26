@@ -82,13 +82,24 @@ export async function getBrandsByCategory(categorySlug: string) {
   const catId = await getCategoryId(categorySlug)
   if (!catId) return { data: [], error: null }
 
-  // Get distinct brand_ids with models in this category
-  const { data: modelRows } = await supabase
-    .from('models')
-    .select('brand_id')
-    .eq('category_id', catId)
+  // Get distinct brand_ids with models in this category. Paginated — a
+  // category can have thousands of models, past the 1000-row default cap.
+  const modelRows: { brand_id: number }[] = []
+  const PAGE = 1000
+  let offset = 0
+  while (true) {
+    const { data, error } = await supabase
+      .from('models')
+      .select('brand_id')
+      .eq('category_id', catId)
+      .range(offset, offset + PAGE - 1)
+    if (error || !data?.length) break
+    modelRows.push(...data)
+    if (data.length < PAGE) break
+    offset += PAGE
+  }
 
-  if (!modelRows || modelRows.length === 0) return { data: [], error: null }
+  if (modelRows.length === 0) return { data: [], error: null }
 
   const brandIds = [...new Set(modelRows.map((m) => m.brand_id))]
 
@@ -337,12 +348,24 @@ export async function getBrandsByCategoryLocale(locale: string, categorySlug: st
   const catId = await getCategoryIdByLocaleSlug(locale, categorySlug)
   if (!catId) return { data: [], error: null }
 
-  const { data: modelRows } = await supabase
-    .from('models')
-    .select('brand_id')
-    .eq('category_id', catId)
+  // Paginated — a category can have thousands of models, past the
+  // 1000-row default cap on an unpaginated select.
+  const modelRows: { brand_id: number }[] = []
+  const PAGE = 1000
+  let offset = 0
+  while (true) {
+    const { data, error } = await supabase
+      .from('models')
+      .select('brand_id')
+      .eq('category_id', catId)
+      .range(offset, offset + PAGE - 1)
+    if (error || !data?.length) break
+    modelRows.push(...data)
+    if (data.length < PAGE) break
+    offset += PAGE
+  }
 
-  if (!modelRows || modelRows.length === 0) return { data: [], error: null }
+  if (modelRows.length === 0) return { data: [], error: null }
 
   const brandIds = [...new Set(modelRows.map((m) => m.brand_id))]
   return supabase

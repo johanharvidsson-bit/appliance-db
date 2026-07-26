@@ -26,13 +26,26 @@ const siteUrl = `https://${siteConfig.domain}`
 
 // Get distinct categories this brand has models in (not error_codes — those
 // only exist for washing-machines so far, which hid every other category
-// this brand actually has content for).
-const { data: modelRows } = await supabase
-  .from('models')
-  .select('category_id')
-  .eq('brand_id', brandId)
+// this brand actually has content for). Paginated — a brand can have
+// thousands of models, past the 1000-row default cap.
+const modelRows: { category_id: number }[] = []
+{
+  const PAGE = 1000
+  let offset = 0
+  while (true) {
+    const { data, error } = await supabase
+      .from('models')
+      .select('category_id')
+      .eq('brand_id', brandId)
+      .range(offset, offset + PAGE - 1)
+    if (error || !data?.length) break
+    modelRows.push(...data)
+    if (data.length < PAGE) break
+    offset += PAGE
+  }
+}
 
-const catIds = [...new Set((modelRows ?? []).map((m: any) => m.category_id).filter(Boolean))] as number[]
+const catIds = [...new Set(modelRows.map((m: any) => m.category_id).filter(Boolean))] as number[]
 
 // Fetch SV slugs/names for display + EN slugs for emoji lookup
 const [{ data: catDataSv }, { data: catDataEn }] = catIds.length > 0

@@ -69,23 +69,28 @@ export async function getCategoryByLocaleSlug(locale: string, slug: string) {
 // ── Brands ────────────────────────────────────────────────────────────────────
 
 /**
- * Returns active brands that have at least one error code in the given category.
+ * Returns active brands that have at least one model in the given category.
  * categorySlug is the category_translations.slug (e.g. "washing-machines").
  * The category.slug_en == categorySlug (e.g. "washing-machines").
+ *
+ * Gates on models rather than error_codes: error codes have so far only been
+ * scraped for washing-machines, which left every other category's page
+ * showing "No brands available" even though thousands of model pages exist
+ * and render fine (specs, variants, etc. don't require an error code).
  */
 export async function getBrandsByCategory(categorySlug: string) {
   const catId = await getCategoryId(categorySlug)
   if (!catId) return { data: [], error: null }
 
-  // Get distinct brand_ids with error codes in this category
-  const { data: ecs } = await supabase
-    .from('error_codes')
+  // Get distinct brand_ids with models in this category
+  const { data: modelRows } = await supabase
+    .from('models')
     .select('brand_id')
     .eq('category_id', catId)
 
-  if (!ecs || ecs.length === 0) return { data: [], error: null }
+  if (!modelRows || modelRows.length === 0) return { data: [], error: null }
 
-  const brandIds = [...new Set(ecs.map((e) => e.brand_id))]
+  const brandIds = [...new Set(modelRows.map((m) => m.brand_id))]
 
   return supabase
     .from('brands')
@@ -327,18 +332,19 @@ export async function getCategoryAlternates(categoryId: number) {
 }
 
 /** Brands with error codes in a category, looked up by locale-specific slug. */
+/** Brands with models in a category, looked up by locale-specific slug. */
 export async function getBrandsByCategoryLocale(locale: string, categorySlug: string) {
   const catId = await getCategoryIdByLocaleSlug(locale, categorySlug)
   if (!catId) return { data: [], error: null }
 
-  const { data: ecs } = await supabase
-    .from('error_codes')
+  const { data: modelRows } = await supabase
+    .from('models')
     .select('brand_id')
     .eq('category_id', catId)
 
-  if (!ecs || ecs.length === 0) return { data: [], error: null }
+  if (!modelRows || modelRows.length === 0) return { data: [], error: null }
 
-  const brandIds = [...new Set(ecs.map((e) => e.brand_id))]
+  const brandIds = [...new Set(modelRows.map((m) => m.brand_id))]
   return supabase
     .from('brands')
     .select('id, name, slug, logo_url')

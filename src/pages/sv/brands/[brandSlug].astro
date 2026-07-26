@@ -24,13 +24,15 @@ const { brandSlug } = Astro.params as { brandSlug: string }
 const { brandId, brandName } = Astro.props as { brandId: number; brandName: string }
 const siteUrl = `https://${siteConfig.domain}`
 
-// Get distinct categories this brand has error codes for
-const { data: ecRows } = await supabase
-  .from('error_codes')
+// Get distinct categories this brand has models in (not error_codes — those
+// only exist for washing-machines so far, which hid every other category
+// this brand actually has content for).
+const { data: modelRows } = await supabase
+  .from('models')
   .select('category_id')
   .eq('brand_id', brandId)
 
-const catIds = [...new Set((ecRows ?? []).map((e: any) => e.category_id).filter(Boolean))] as number[]
+const catIds = [...new Set((modelRows ?? []).map((m: any) => m.category_id).filter(Boolean))] as number[]
 
 // Fetch SV slugs/names for display + EN slugs for emoji lookup
 const [{ data: catDataSv }, { data: catDataEn }] = catIds.length > 0

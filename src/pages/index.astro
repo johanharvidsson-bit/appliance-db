@@ -24,13 +24,17 @@ const categories: { slug: string; name: string; id: number }[] = (catTranslation
 // Build id → slug map for later use
 const catIdToSlug = new Map<number, string>(categories.map(c => [c.id, c.slug]))
 
-// ── 2. Brands per category (from error_codes table) ──────────────────────────
-const { data: errorCodesRaw } = await supabase
-  .from('error_codes')
+// ── 2. Brands per category (from models table) ───────────────────────────────
+// Gating on models rather than error_codes: error codes have so far only been
+// scraped for washing-machines, which left every other appliance type showing
+// no brands in the finder even though thousands of model pages exist and
+// render fine. Same fix as getBrandsByCategory (queries.ts).
+const { data: modelsRaw } = await supabase
+  .from('models')
   .select('brand_id, category_id')
 
 // Get unique brand_ids
-const allBrandIds = [...new Set((errorCodesRaw ?? []).map((ec: any) => ec.brand_id))].filter(Boolean)
+const allBrandIds = [...new Set((modelsRaw ?? []).map((m: any) => m.brand_id))].filter(Boolean)
 
 const { data: brandsRaw } = allBrandIds.length > 0
   ? await supabase.from('brands').select('id, name, slug').in('id', allBrandIds).eq('is_active', true)
@@ -41,9 +45,9 @@ for (const b of brandsRaw ?? []) brandIdToInfo.set(b.id, { name: b.name, slug: b
 
 // Build applianceBrandMap: { [categorySlug]: { name, slug }[] }
 const applianceBrandMapRaw: Record<string, { name: string; slug: string }[]> = {}
-for (const ec of errorCodesRaw ?? []) {
-  const catSlug = catIdToSlug.get(ec.category_id)
-  const brand = brandIdToInfo.get(ec.brand_id)
+for (const m of modelsRaw ?? []) {
+  const catSlug = catIdToSlug.get(m.category_id)
+  const brand = brandIdToInfo.get(m.brand_id)
   if (!catSlug || !brand) continue
   if (!applianceBrandMapRaw[catSlug]) applianceBrandMapRaw[catSlug] = []
   // Deduplicate brands within each category

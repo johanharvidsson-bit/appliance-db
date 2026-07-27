@@ -7,16 +7,66 @@
  *  error_codes→ brand_id + category_id FK ints
  *  categories → slug_en (not slug)
  *  article_translations / articles → currently empty, handled gracefully
+ *
+ * Error handling: every query goes through `logged()` (single query) or
+ * `paginateAll()` (paginated query) so that PostgREST/DB errors are logged
+ * server-side instead of silently becoming an empty result. This matters more
+ * now that the DB is a single self-hosted VPS instead of managed Supabase Cloud —
+ * a DB/network hiccup should show up in Cloudflare Pages Function logs, not
+ * just render as "no data" on the page.
  */
 import { supabase } from './supabase'
 import { siteConfig } from 'site-config'
 
 const LOCALE = siteConfig.defaultLocale
+const PAGE_SIZE = 1000
+
+// ── Error logging helpers ──────────────────────────────────────────────────────
+
+/**
+ * Awaits a single PostgREST query and logs (without throwing) if it errored.
+ * Typed loosely as `any` on purpose: the Supabase client here isn't given a
+ * Database generic (see `src/lib/supabase.ts`), so query results are already
+ * effectively untyped everywhere in this codebase — trying to thread a real
+ * generic through this wrapper made TypeScript infer `never` for some embedded
+ * (joined) selects instead of `any`, breaking callers.
+ */
+async function logged(promise: PromiseLike<{ data: any; error: any }>, label: string): Promise<{ data: any; error: any }> {
+  const result = await promise
+  if (result.error) console.error(`[queries:${label}]`, result.error)
+  return result
+}
+
+/**
+ * Paginates through a PostgREST query in PAGE_SIZE-row chunks — PostgREST caps
+ * unpaginated selects at 1000 rows, which several tables here exceed (e.g.
+ * ~35k models). Replaces the near-identical `while(true) { .range(...) }`
+ * loop that used to be copy-pasted in 5 different query functions.
+ */
+async function paginateAll(
+  buildQuery: (from: number, to: number) => PromiseLike<{ data: any[] | null; error: any }>,
+  label: string
+): Promise<any[]> {
+  const all: any[] = []
+  let offset = 0
+  while (true) {
+    const { data, error } = await buildQuery(offset, offset + PAGE_SIZE - 1)
+    if (error) console.error(`[queries:${label}]`, error)
+    if (error || !data?.length) break
+    all.push(...data)
+    if (data.length < PAGE_SIZE) break
+    offset += PAGE_SIZE
+  }
+  return all
+}
 
 // ── Internal helpers ──────────────────────────────────────────────────────────
 
 async function getCategoryId(categorySlug: string): Promise<number | null> {
-  const { data } = await supabase.from('categories').select('id').eq('slug_en', categorySlug).single()
+  const { data } = await logged(
+    supabase.from('categories').select('id').eq('slug_en', categorySlug).single(),
+    `getCategoryId(${categorySlug})`
+  )
   return data?.id ?? null
 }
 
@@ -24,46 +74,43 @@ async function getCategoryId(categorySlug: string): Promise<number | null> {
 // For 'en', uses categories.slug_en. For other locales, uses category_translations.slug.
 async function getCategoryIdByLocaleSlug(locale: string, slug: string): Promise<number | null> {
   if (locale === 'en') return getCategoryId(slug)
-  const { data } = await supabase
-    .from('category_translations')
-    .select('category_id')
-    .eq('locale', locale)
-    .eq('slug', slug)
-    .single()
+  const { data } = await logged(
+    supabase.from('category_translations').select('category_id').eq('locale', locale).eq('slug', slug).single(),
+    `getCategoryIdByLocaleSlug(${locale}, ${slug})`
+  )
   return data?.category_id ?? null
 }
 
 async function getBrandId(brandSlug: string): Promise<number | null> {
-  const { data } = await supabase.from('brands').select('id').eq('slug', brandSlug).single()
+  const { data } = await logged(
+    supabase.from('brands').select('id').eq('slug', brandSlug).single(),
+    `getBrandId(${brandSlug})`
+  )
   return data?.id ?? null
 }
 
 // ── Categories ────────────────────────────────────────────────────────────────
 
 export async function getCategories() {
-  return supabase
-    .from('category_translations')
-    .select('slug, name, category_id')
-    .eq('locale', LOCALE)
+  return logged(
+    supabase.from('category_translations').select('slug, name, category_id').eq('locale', LOCALE),
+    'getCategories'
+  )
 }
 
 export async function getCategoryBySlug(slug: string) {
-  return supabase
-    .from('category_translations')
-    .select('slug, name, category_id')
-    .eq('locale', LOCALE)
-    .eq('slug', slug)
-    .single()
+  return logged(
+    supabase.from('category_translations').select('slug, name, category_id').eq('locale', LOCALE).eq('slug', slug).single(),
+    `getCategoryBySlug(${slug})`
+  )
 }
 
 export async function getCategoryByLocaleSlug(locale: string, slug: string) {
   if (locale === 'en') return getCategoryBySlug(slug)
-  return supabase
-    .from('category_translations')
-    .select('slug, name, category_id')
-    .eq('locale', locale)
-    .eq('slug', slug)
-    .single()
+  return logged(
+    supabase.from('category_translations').select('slug, name, category_id').eq('locale', locale).eq('slug', slug).single(),
+    `getCategoryByLocaleSlug(${locale}, ${slug})`
+  )
 }
 
 // ── Brands ────────────────────────────────────────────────────────────────────
@@ -82,36 +129,27 @@ export async function getBrandsByCategory(categorySlug: string) {
   const catId = await getCategoryId(categorySlug)
   if (!catId) return { data: [], error: null }
 
-  // Get distinct brand_ids with models in this category. Paginated — a
-  // category can have thousands of models, past the 1000-row default cap.
-  const modelRows: { brand_id: number }[] = []
-  const PAGE = 1000
-  let offset = 0
-  while (true) {
-    const { data, error } = await supabase
-      .from('models')
-      .select('brand_id')
-      .eq('category_id', catId)
-      .range(offset, offset + PAGE - 1)
-    if (error || !data?.length) break
-    modelRows.push(...data)
-    if (data.length < PAGE) break
-    offset += PAGE
-  }
+  // Paginated — a category can have thousands of models, past the 1000-row default cap.
+  const modelRows = await paginateAll(
+    (from, to) => supabase.from('models').select('brand_id').eq('category_id', catId).range(from, to),
+    `getBrandsByCategory:models(${categorySlug})`
+  )
 
   if (modelRows.length === 0) return { data: [], error: null }
 
   const brandIds = [...new Set(modelRows.map((m) => m.brand_id))]
 
-  return supabase
-    .from('brands')
-    .select('id, name, slug, logo_url')
-    .in('id', brandIds)
-    .eq('is_active', true)
+  return logged(
+    supabase.from('brands').select('id, name, slug, logo_url').in('id', brandIds).eq('is_active', true),
+    `getBrandsByCategory:brands(${categorySlug})`
+  )
 }
 
 export async function getBrandBySlug(brandSlug: string) {
-  return supabase.from('brands').select('id, name, slug, logo_url').eq('slug', brandSlug).single()
+  return logged(
+    supabase.from('brands').select('id, name, slug, logo_url').eq('slug', brandSlug).single(),
+    `getBrandBySlug(${brandSlug})`
+  )
 }
 
 // ── Models ────────────────────────────────────────────────────────────────────
@@ -120,22 +158,17 @@ export async function getModelsByBrandCategory(brandSlug: string, categorySlug: 
   const [brandId, catId] = await Promise.all([getBrandId(brandSlug), getCategoryId(categorySlug)])
   if (!brandId || !catId) return { data: [], error: null }
 
-  const PAGE = 1000
-  const all: any[] = []
-  let offset = 0
-  while (true) {
-    const { data, error } = await supabase
-      .from('models')
-      .select('id, name, slug, series, release_year')
-      .eq('brand_id', brandId)
-      .eq('category_id', catId)
-      .order('name')
-      .range(offset, offset + PAGE - 1)
-    if (error || !data?.length) break
-    all.push(...data)
-    if (data.length < PAGE) break
-    offset += PAGE
-  }
+  const all = await paginateAll(
+    (from, to) =>
+      supabase
+        .from('models')
+        .select('id, name, slug, series, release_year')
+        .eq('brand_id', brandId)
+        .eq('category_id', catId)
+        .order('name')
+        .range(from, to),
+    `getModelsByBrandCategory(${brandSlug}, ${categorySlug})`
+  )
   return { data: all, error: null }
 }
 
@@ -143,26 +176,32 @@ export async function getModelBySlug(brandSlug: string, categorySlug: string, mo
   const [brandId, catId] = await Promise.all([getBrandId(brandSlug), getCategoryIdByLocaleSlug(locale, categorySlug)])
   if (!brandId || !catId) return { data: null, error: 'Not found' }
 
-  return supabase
-    .from('models')
-    .select('id, name, slug, series, release_year, manual_url, manual_pdf_url, brand_id, category_id')
-    .eq('brand_id', brandId)
-    .eq('category_id', catId)
-    .eq('slug', modelSlug)
-    .single()
+  return logged(
+    supabase
+      .from('models')
+      .select('id, name, slug, series, release_year, manual_url, manual_pdf_url, brand_id, category_id')
+      .eq('brand_id', brandId)
+      .eq('category_id', catId)
+      .eq('slug', modelSlug)
+      .single(),
+    `getModelBySlug(${brandSlug}, ${categorySlug}, ${modelSlug})`
+  )
 }
 
 /** Other models in the same series (for "Alternate models" section on model pages). */
 export async function getModelsBySeries(brandId: number, categoryId: number, series: string, excludeSlug: string) {
-  const { data } = await supabase
-    .from('models')
-    .select('id, name, slug')
-    .eq('brand_id', brandId)
-    .eq('category_id', categoryId)
-    .eq('series', series)
-    .neq('slug', excludeSlug)
-    .order('name')
-    .limit(50)
+  const { data, error } = await logged(
+    supabase
+      .from('models')
+      .select('id, name, slug')
+      .eq('brand_id', brandId)
+      .eq('category_id', categoryId)
+      .eq('series', series)
+      .neq('slug', excludeSlug)
+      .order('name')
+      .limit(50),
+    `getModelsBySeries(${brandId}, ${categoryId}, ${series})`
+  )
   return data ?? []
 }
 
@@ -171,21 +210,15 @@ export async function getModelsBySeries(brandId: number, categoryId: number, ser
  * Joins brands and categories so we get slug strings from the IDs.
  */
 export async function getAllModelSlugs() {
-  // Paginate through all models — Supabase default cap is 1,000 rows per request
-  const PAGE = 1000
-  const all: any[] = []
-  let offset = 0
-  while (true) {
-    const { data, error } = await supabase
-      .from('models')
-      .select('slug, brands!inner(slug, is_active), categories(slug_en)')
-      .eq('brands.is_active', true)
-      .range(offset, offset + PAGE - 1)
-    if (error || !data?.length) break
-    all.push(...data)
-    if (data.length < PAGE) break
-    offset += PAGE
-  }
+  const all = await paginateAll(
+    (from, to) =>
+      supabase
+        .from('models')
+        .select('slug, brands!inner(slug, is_active), categories(slug_en)')
+        .eq('brands.is_active', true)
+        .range(from, to),
+    'getAllModelSlugs'
+  )
 
   const shaped = all.map((m: any) => ({
     slug: m.slug as string,
@@ -202,15 +235,18 @@ export async function getErrorCodesByBrandCategory(brandSlug: string, categorySl
   const [brandId, catId] = await Promise.all([getBrandId(brandSlug), getCategoryId(categorySlug)])
   if (!brandId || !catId) return { data: [], error: null }
 
-  return supabase
-    .from('error_codes')
-    .select(`
-      id, code, short_description, description, severity,
-      articles ( article_translations ( slug, locale ) )
-    `)
-    .eq('brand_id', brandId)
-    .eq('category_id', catId)
-    .order('code')
+  return logged(
+    supabase
+      .from('error_codes')
+      .select(`
+        id, code, short_description, description, severity,
+        articles ( article_translations ( slug, locale ) )
+      `)
+      .eq('brand_id', brandId)
+      .eq('category_id', catId)
+      .order('code'),
+    `getErrorCodesByBrandCategory(${brandSlug}, ${categorySlug})`
+  )
 }
 
 /**
@@ -218,15 +254,18 @@ export async function getErrorCodesByBrandCategory(brandSlug: string, categorySl
  * we return all error codes for the model's brand+category.
  */
 export async function getErrorCodesByModel(brandId: number, categoryId: number, locale = LOCALE) {
-  return supabase
-    .from('error_codes')
-    .select(`
-      id, code, short_description, description, severity,
-      articles ( article_translations ( slug, locale, translation_status ) )
-    `)
-    .eq('brand_id', brandId)
-    .eq('category_id', categoryId)
-    .order('code')
+  return logged(
+    supabase
+      .from('error_codes')
+      .select(`
+        id, code, short_description, description, severity,
+        articles ( article_translations ( slug, locale, translation_status ) )
+      `)
+      .eq('brand_id', brandId)
+      .eq('category_id', categoryId)
+      .order('code'),
+    `getErrorCodesByModel(${brandId}, ${categoryId})`
+  )
 }
 
 // ── Articles ──────────────────────────────────────────────────────────────────
@@ -247,66 +286,75 @@ export async function getArticleBySlug(locale: string, categorySlug: string, bra
   const catId = await getCategoryIdByLocaleSlug(locale, categorySlug)
   if (!catId) return null
 
-  const { data } = await supabase
-    .from('article_translations')
-    .select(`
-      slug,
-      articles!inner (
-        id,
-        error_codes!inner ( brands!inner(slug), category_id )
-      )
-    `)
-    .eq('locale', locale)
-    .eq('slug', slug)
-    .eq('articles.error_codes.brands.slug', brandSlug)
-    .eq('articles.error_codes.category_id', catId)
-    .in('translation_status', publishedStatuses(locale))
-    .maybeSingle()
+  const { data } = await logged(
+    supabase
+      .from('article_translations')
+      .select(`
+        slug,
+        articles!inner (
+          id,
+          error_codes!inner ( brands!inner(slug), category_id )
+        )
+      `)
+      .eq('locale', locale)
+      .eq('slug', slug)
+      .eq('articles.error_codes.brands.slug', brandSlug)
+      .eq('articles.error_codes.category_id', catId)
+      .in('translation_status', publishedStatuses(locale))
+      .maybeSingle(),
+    `getArticleBySlug(${locale}, ${categorySlug}, ${brandSlug}, ${slug})`
+  )
 
   if (!data) return null
   return { article_id: (data as any).articles.id as number }
 }
 
 export async function getArticle(locale: string, articleId: number) {
-  return supabase
-    .from('article_translations')
-    .select(`
-      slug, title_tag, meta_description, h1,
-      quick_fix, intro_html,
-      causes_json, steps_json, faq_json,
-      affected_models_json, parts_json,
-      prevention_html, when_to_call_technician_html,
-      last_updated,
-      articles (
-        id,
-        error_codes (
-          code, display_text, severity, diy_possible,
-          brands ( name, slug ),
-          categories ( slug_en )
+  return logged(
+    supabase
+      .from('article_translations')
+      .select(`
+        slug, title_tag, meta_description, h1,
+        quick_fix, intro_html,
+        causes_json, steps_json, faq_json,
+        affected_models_json, parts_json,
+        prevention_html, when_to_call_technician_html,
+        last_updated,
+        articles (
+          id,
+          error_codes (
+            code, display_text, severity, diy_possible,
+            brands ( name, slug ),
+            categories ( slug_en )
+          )
         )
-      )
-    `)
-    .eq('locale', locale)
-    .eq('article_id', articleId)
-    .in('translation_status', publishedStatuses(locale))
-    .single()
+      `)
+      .eq('locale', locale)
+      .eq('article_id', articleId)
+      .in('translation_status', publishedStatuses(locale))
+      .single(),
+    `getArticle(${locale}, ${articleId})`
+  )
 }
 
 export async function getAllArticleSlugs(locale: string) {
-  const { data } = await supabase
-    .from('article_translations')
-    .select(`
-      slug,
-      articles (
-        id,
-        error_codes (
-          brands ( slug ),
-          categories ( slug_en, category_translations ( slug, locale ) )
+  const { data } = await logged(
+    supabase
+      .from('article_translations')
+      .select(`
+        slug,
+        articles (
+          id,
+          error_codes (
+            brands ( slug ),
+            categories ( slug_en, category_translations ( slug, locale ) )
+          )
         )
-      )
-    `)
-    .eq('locale', locale)
-    .in('translation_status', publishedStatuses(locale))
+      `)
+      .eq('locale', locale)
+      .in('translation_status', publishedStatuses(locale)),
+    `getAllArticleSlugs(${locale})`
+  )
 
   // Reshape to { slug, brand_slug, category_slug, article_id }
   const shaped = (data ?? []).map((at: any) => {
@@ -327,10 +375,10 @@ export async function getAllArticleSlugs(locale: string) {
 
 /** All categories in a given locale (used by locale getStaticPaths). */
 export async function getCategoriesByLocale(locale: string) {
-  return supabase
-    .from('category_translations')
-    .select('slug, name, category_id')
-    .eq('locale', locale)
+  return logged(
+    supabase.from('category_translations').select('slug, name, category_id').eq('locale', locale),
+    `getCategoriesByLocale(${locale})`
+  )
 }
 
 /**
@@ -338,14 +386,13 @@ export async function getCategoriesByLocale(locale: string) {
  * Used to build hreflang alternate URLs for category and brand pages.
  */
 export async function getCategoryAlternates(categoryId: number) {
-  const { data } = await supabase
-    .from('category_translations')
-    .select('locale, slug')
-    .eq('category_id', categoryId)
+  const { data } = await logged(
+    supabase.from('category_translations').select('locale, slug').eq('category_id', categoryId),
+    `getCategoryAlternates(${categoryId})`
+  )
   return data ?? []
 }
 
-/** Brands with error codes in a category, looked up by locale-specific slug. */
 /** Brands with models in a category, looked up by locale-specific slug. */
 export async function getBrandsByCategoryLocale(locale: string, categorySlug: string) {
   const catId = await getCategoryIdByLocaleSlug(locale, categorySlug)
@@ -353,29 +400,18 @@ export async function getBrandsByCategoryLocale(locale: string, categorySlug: st
 
   // Paginated — a category can have thousands of models, past the
   // 1000-row default cap on an unpaginated select.
-  const modelRows: { brand_id: number }[] = []
-  const PAGE = 1000
-  let offset = 0
-  while (true) {
-    const { data, error } = await supabase
-      .from('models')
-      .select('brand_id')
-      .eq('category_id', catId)
-      .range(offset, offset + PAGE - 1)
-    if (error || !data?.length) break
-    modelRows.push(...data)
-    if (data.length < PAGE) break
-    offset += PAGE
-  }
+  const modelRows = await paginateAll(
+    (from, to) => supabase.from('models').select('brand_id').eq('category_id', catId).range(from, to),
+    `getBrandsByCategoryLocale:models(${locale}, ${categorySlug})`
+  )
 
   if (modelRows.length === 0) return { data: [], error: null }
 
   const brandIds = [...new Set(modelRows.map((m) => m.brand_id))]
-  return supabase
-    .from('brands')
-    .select('id, name, slug, logo_url')
-    .in('id', brandIds)
-    .eq('is_active', true)
+  return logged(
+    supabase.from('brands').select('id, name, slug, logo_url').in('id', brandIds).eq('is_active', true),
+    `getBrandsByCategoryLocale:brands(${locale}, ${categorySlug})`
+  )
 }
 
 /** Error codes for a brand+category in a given locale (slug resolved by locale). */
@@ -390,15 +426,18 @@ export async function getErrorCodesByBrandCategoryLocale(
   ])
   if (!brandId || !catId) return { data: [], error: null }
 
-  return supabase
-    .from('error_codes')
-    .select(`
-      id, code, display_text, severity, diy_possible,
-      articles ( article_translations ( slug, locale ) )
-    `)
-    .eq('brand_id', brandId)
-    .eq('category_id', catId)
-    .order('code')
+  return logged(
+    supabase
+      .from('error_codes')
+      .select(`
+        id, code, display_text, severity, diy_possible,
+        articles ( article_translations ( slug, locale ) )
+      `)
+      .eq('brand_id', brandId)
+      .eq('category_id', catId)
+      .order('code'),
+    `getErrorCodesByBrandCategoryLocale(${locale}, ${brandSlug}, ${categorySlug})`
+  )
 }
 
 /** Models for a brand+category in a given locale (slug resolved by locale). */
@@ -413,22 +452,17 @@ export async function getModelsByBrandCategoryLocale(
   ])
   if (!brandId || !catId) return { data: [], error: null }
 
-  const PAGE = 1000
-  const all: any[] = []
-  let offset = 0
-  while (true) {
-    const { data, error } = await supabase
-      .from('models')
-      .select('id, name, slug, series, release_year')
-      .eq('brand_id', brandId)
-      .eq('category_id', catId)
-      .order('name')
-      .range(offset, offset + PAGE - 1)
-    if (error || !data?.length) break
-    all.push(...data)
-    if (data.length < PAGE) break
-    offset += PAGE
-  }
+  const all = await paginateAll(
+    (from, to) =>
+      supabase
+        .from('models')
+        .select('id, name, slug, series, release_year')
+        .eq('brand_id', brandId)
+        .eq('category_id', catId)
+        .order('name')
+        .range(from, to),
+    `getModelsByBrandCategoryLocale(${locale}, ${brandSlug}, ${categorySlug})`
+  )
   return { data: all, error: null }
 }
 
@@ -437,19 +471,22 @@ export async function getModelsByBrandCategoryLocale(
  * Returns [{locale, slug, brand_slug, category_slug}] — used to build hreflang tags.
  */
 export async function getArticleAlternates(articleId: number) {
-  const { data } = await supabase
-    .from('article_translations')
-    .select(`
-      slug, locale,
-      articles (
-        error_codes (
-          brands ( slug ),
-          categories ( slug_en, category_translations ( slug, locale ) )
+  const { data } = await logged(
+    supabase
+      .from('article_translations')
+      .select(`
+        slug, locale,
+        articles (
+          error_codes (
+            brands ( slug ),
+            categories ( slug_en, category_translations ( slug, locale ) )
+          )
         )
-      )
-    `)
-    .eq('article_id', articleId)
-    .in('translation_status', ['published', 'pending'])
+      `)
+      .eq('article_id', articleId)
+      .in('translation_status', ['published', 'pending']),
+    `getArticleAlternates(${articleId})`
+  )
 
   return (data ?? []).map((at: any) => {
     const ec = at.articles?.error_codes
@@ -475,10 +512,13 @@ async function resolveBrandCategorySlugs(
   const catIds = [...new Set(pairs.map((p) => p.category_id))]
 
   const [brandsResult, catsResult] = await Promise.all([
-    supabase.from('brands').select('id, slug').in('id', brandIds).eq('is_active', true),
+    logged(supabase.from('brands').select('id, slug').in('id', brandIds).eq('is_active', true), 'resolveBrandCategorySlugs:brands'),
     locale === 'en'
-      ? supabase.from('categories').select('id, slug_en').in('id', catIds)
-      : supabase.from('category_translations').select('category_id, slug').eq('locale', locale).in('category_id', catIds),
+      ? logged(supabase.from('categories').select('id, slug_en').in('id', catIds), 'resolveBrandCategorySlugs:categories')
+      : logged(
+          supabase.from('category_translations').select('category_id, slug').eq('locale', locale).in('category_id', catIds),
+          'resolveBrandCategorySlugs:category_translations'
+        ),
   ])
 
   const brandMap = new Map<number, string>()
@@ -507,7 +547,7 @@ async function resolveBrandCategorySlugs(
  * Avoids FK joins from faults → brands/categories (those may not be registered in PostgREST).
  */
 export async function getBrandCategoryPairsWithFaults(locale: string) {
-  const { data: rows } = await supabase.from('faults').select('brand_id, category_id')
+  const { data: rows } = await logged(supabase.from('faults').select('brand_id, category_id'), 'getBrandCategoryPairsWithFaults')
   if (!rows || rows.length === 0) return []
 
   const seen = new Set<string>()
@@ -526,11 +566,14 @@ async function attachFaultArticleSlugs(faults: any[], locale: string): Promise<a
   if (faults.length === 0) return faults
   const faultIds = faults.map((f) => f.id)
 
-  const { data: artRows } = await supabase
-    .from('articles')
-    .select('fault_id, article_translations ( slug, locale, translation_status )')
-    .in('fault_id', faultIds)
-    .eq('article_type', 'fault')
+  const { data: artRows } = await logged(
+    supabase
+      .from('articles')
+      .select('fault_id, article_translations ( slug, locale, translation_status )')
+      .in('fault_id', faultIds)
+      .eq('article_type', 'fault'),
+    'attachFaultArticleSlugs'
+  )
 
   // Build map: fault_id → article_translation for the given locale
   const allowed = publishedStatuses(locale)
@@ -550,12 +593,15 @@ async function attachFaultArticleSlugs(faults: any[], locale: string): Promise<a
  * brand_id and category_id are integers (already resolved from the model row).
  */
 export async function getFaultsByBrandCategoryId(brandId: number, categoryId: number, locale: string) {
-  const { data, error } = await supabase
-    .from('faults')
-    .select('id, slug, severity, has_error_code, fault_translations ( symptom_name, meta_description, locale )')
-    .eq('brand_id', brandId)
-    .eq('category_id', categoryId)
-    .order('id')
+  const { data, error } = await logged(
+    supabase
+      .from('faults')
+      .select('id, slug, severity, has_error_code, fault_translations ( symptom_name, meta_description, locale )')
+      .eq('brand_id', brandId)
+      .eq('category_id', categoryId)
+      .order('id'),
+    `getFaultsByBrandCategoryId(${brandId}, ${categoryId})`
+  )
 
   if (!data) return { data: [], error }
 
@@ -577,12 +623,15 @@ export async function getFaultsByBrandCategoryLocale(locale: string, brandSlug: 
   ])
   if (!brandId || !catId) return { data: [], error: null }
 
-  const { data, error } = await supabase
-    .from('faults')
-    .select('id, slug, severity, has_error_code, fault_translations ( symptom_name, meta_description, locale )')
-    .eq('brand_id', brandId)
-    .eq('category_id', catId)
-    .order('id')
+  const { data, error } = await logged(
+    supabase
+      .from('faults')
+      .select('id, slug, severity, has_error_code, fault_translations ( symptom_name, meta_description, locale )')
+      .eq('brand_id', brandId)
+      .eq('category_id', catId)
+      .order('id'),
+    `getFaultsByBrandCategoryLocale(${locale}, ${brandSlug}, ${categorySlug})`
+  )
 
   if (!data) return { data: [], error }
 
@@ -600,12 +649,15 @@ export async function getFaultsByBrandCategoryLocale(locale: string, brandSlug: 
  */
 export async function getAllFaultArticleSlugs(locale: string) {
   // Step 1: get published/pending fault article translations with their article row
-  const { data: atRows } = await supabase
-    .from('article_translations')
-    .select('slug, articles!inner ( id, article_type, fault_id )')
-    .eq('locale', locale)
-    .in('translation_status', publishedStatuses(locale))
-    .eq('articles.article_type', 'fault')
+  const { data: atRows } = await logged(
+    supabase
+      .from('article_translations')
+      .select('slug, articles!inner ( id, article_type, fault_id )')
+      .eq('locale', locale)
+      .in('translation_status', publishedStatuses(locale))
+      .eq('articles.article_type', 'fault'),
+    `getAllFaultArticleSlugs:translations(${locale})`
+  )
 
   if (!atRows || atRows.length === 0) return { data: [], error: null }
 
@@ -614,8 +666,10 @@ export async function getAllFaultArticleSlugs(locale: string) {
   if (faultIds.length === 0) return { data: [], error: null }
 
   // Step 3: look up brand_id + category_id for each fault
-  const { data: faultRows } = await supabase
-    .from('faults').select('id, brand_id, category_id').in('id', faultIds)
+  const { data: faultRows } = await logged(
+    supabase.from('faults').select('id, brand_id, category_id').in('id', faultIds),
+    `getAllFaultArticleSlugs:faults(${locale})`
+  )
   const faultMap = new Map<number, { brand_id: number; category_id: number }>()
   for (const f of faultRows ?? []) faultMap.set(f.id, { brand_id: f.brand_id, category_id: f.category_id })
 
@@ -652,38 +706,39 @@ export async function getAllFaultArticleSlugs(locale: string) {
  * to avoid PostgREST errors from unregistered articles→faults FK.
  */
 export async function getFaultArticle(locale: string, articleId: number) {
-  return supabase
-    .from('article_translations')
-    .select(`
-      slug, title_tag, meta_description, h1,
-      quick_fix, intro_html,
-      causes_json, steps_json, faq_json,
-      prevention_html, when_to_call_technician_html,
-      last_updated
-    `)
-    .eq('locale', locale)
-    .eq('article_id', articleId)
-    .in('translation_status', publishedStatuses(locale))
-    .single()
+  return logged(
+    supabase
+      .from('article_translations')
+      .select(`
+        slug, title_tag, meta_description, h1,
+        quick_fix, intro_html,
+        causes_json, steps_json, faq_json,
+        prevention_html, when_to_call_technician_html,
+        last_updated
+      `)
+      .eq('locale', locale)
+      .eq('article_id', articleId)
+      .in('translation_status', publishedStatuses(locale))
+      .single(),
+    `getFaultArticle(${locale}, ${articleId})`
+  )
 }
 
 /** Get fault_id for an article (used on fault article pages where articleId is in props). */
 export async function getArticleFaultId(articleId: number) {
-  const { data } = await supabase
-    .from('articles')
-    .select('fault_id')
-    .eq('id', articleId)
-    .single()
+  const { data } = await logged(
+    supabase.from('articles').select('fault_id').eq('id', articleId).single(),
+    `getArticleFaultId(${articleId})`
+  )
   return (data as any)?.fault_id as number | null ?? null
 }
 
 /** Fault metadata (severity, has_error_code) for a fault article's meta bar. */
 export async function getFaultById(faultId: number) {
-  return supabase
-    .from('faults')
-    .select('id, slug, severity, has_error_code')
-    .eq('id', faultId)
-    .single()
+  return logged(
+    supabase.from('faults').select('id, slug, severity, has_error_code').eq('id', faultId).single(),
+    `getFaultById(${faultId})`
+  )
 }
 
 /**
@@ -691,11 +746,14 @@ export async function getFaultById(faultId: number) {
  */
 export async function getFaultArticleAlternates(articleId: number) {
   // Step 1: get translations + fault_id
-  const { data: atRows } = await supabase
-    .from('article_translations')
-    .select('slug, locale, articles!inner ( fault_id )')
-    .eq('article_id', articleId)
-    .in('translation_status', ['published', 'pending'])
+  const { data: atRows } = await logged(
+    supabase
+      .from('article_translations')
+      .select('slug, locale, articles!inner ( fault_id )')
+      .eq('article_id', articleId)
+      .in('translation_status', ['published', 'pending']),
+    `getFaultArticleAlternates:translations(${articleId})`
+  )
 
   if (!atRows || atRows.length === 0) return []
 
@@ -703,24 +761,35 @@ export async function getFaultArticleAlternates(articleId: number) {
   if (!faultId) return []
 
   // Step 2: get brand_id + category_id from fault
-  const { data: faultRow } = await supabase
-    .from('faults').select('brand_id, category_id').eq('id', faultId).single()
+  const { data: faultRow } = await logged(
+    supabase.from('faults').select('brand_id, category_id').eq('id', faultId).single(),
+    `getFaultArticleAlternates:fault(${faultId})`
+  )
   if (!faultRow) return []
 
   // Step 3: resolve slugs for all locales present
   const locales = [...new Set((atRows as any[]).map((r: any) => r.locale as string))]
   const brandMap = new Map<number, string>()
-  const { data: brandRow } = await supabase.from('brands').select('id, slug').eq('id', faultRow.brand_id).single()
+  const { data: brandRow } = await logged(
+    supabase.from('brands').select('id, slug').eq('id', faultRow.brand_id).single(),
+    `getFaultArticleAlternates:brand(${faultRow.brand_id})`
+  )
   if (brandRow) brandMap.set(brandRow.id, brandRow.slug)
 
   const catSlugMap = new Map<string, string>()
-  const { data: catEN } = await supabase.from('categories').select('slug_en').eq('id', faultRow.category_id).single()
+  const { data: catEN } = await logged(
+    supabase.from('categories').select('slug_en').eq('id', faultRow.category_id).single(),
+    `getFaultArticleAlternates:categoryEN(${faultRow.category_id})`
+  )
   if (catEN) catSlugMap.set('en', catEN.slug_en)
   const nonEnLocales = locales.filter((l) => l !== 'en')
   if (nonEnLocales.length > 0) {
-    const { data: catTrans } = await supabase
-      .from('category_translations').select('locale, slug')
-      .eq('category_id', faultRow.category_id).in('locale', nonEnLocales)
+    const { data: catTrans } = await logged(
+      supabase
+        .from('category_translations').select('locale, slug')
+        .eq('category_id', faultRow.category_id).in('locale', nonEnLocales),
+      `getFaultArticleAlternates:categoryTranslations(${faultRow.category_id})`
+    )
     for (const ct of catTrans ?? []) catSlugMap.set(ct.locale, ct.slug)
   }
 
@@ -736,39 +805,48 @@ export async function getFaultArticleAlternates(articleId: number) {
  * Error codes linked to a fault via fault_error_code_map (for "Related error codes" section).
  */
 export async function getFaultErrorCodes(faultId: number, locale: string) {
-  return supabase
-    .from('fault_error_code_map')
-    .select(`
-      error_codes (
-        code, display_text,
-        articles ( article_translations ( slug, locale, translation_status ) )
-      )
-    `)
-    .eq('fault_id', faultId)
+  return logged(
+    supabase
+      .from('fault_error_code_map')
+      .select(`
+        error_codes (
+          code, display_text,
+          articles ( article_translations ( slug, locale, translation_status ) )
+        )
+      `)
+      .eq('fault_id', faultId),
+    `getFaultErrorCodes(${faultId})`
+  )
 }
 
 export async function getWashingMachineSpecs(modelId: number) {
-  const { data } = await supabase
-    .from('washing_machine_specs')
-    .select('capacity_kg, spin_speed_rpm, energy_class, width_mm, height_mm, depth_mm, noise_spinning_db, energy_consumption_kwh, water_consumption_l, door_type')
-    .eq('model_id', modelId)
-    .single()
+  const { data } = await logged(
+    supabase
+      .from('washing_machine_specs')
+      .select('capacity_kg, spin_speed_rpm, energy_class, width_mm, height_mm, depth_mm, noise_spinning_db, energy_consumption_kwh, water_consumption_l, door_type')
+      .eq('model_id', modelId)
+      .single(),
+    `getWashingMachineSpecs(${modelId})`
+  )
   return data as Record<string, any> | null
 }
 
 export async function getRelatedArticles(excludeSlug: string, limit = 5) {
-  return supabase
-    .from('article_translations')
-    .select(`
-      slug, title_tag, quick_fix,
-      articles (
-        error_codes (
-          code, display_text, severity
+  return logged(
+    supabase
+      .from('article_translations')
+      .select(`
+        slug, title_tag, quick_fix,
+        articles (
+          error_codes (
+            code, display_text, severity
+          )
         )
-      )
-    `)
-    .eq('locale', LOCALE)
-    .eq('translation_status', 'published')
-    .neq('slug', excludeSlug)
-    .limit(limit)
+      `)
+      .eq('locale', LOCALE)
+      .eq('translation_status', 'published')
+      .neq('slug', excludeSlug)
+      .limit(limit),
+    `getRelatedArticles(${excludeSlug})`
+  )
 }

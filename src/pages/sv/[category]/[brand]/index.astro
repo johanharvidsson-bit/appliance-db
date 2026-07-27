@@ -55,8 +55,14 @@ const breadcrumbs = [
   { name: brandLabel, url: `${siteUrl}/${locale}/${category}/${brand}/` },
 ]
 
-const severityColor: Record<string, string> = {
-  critical: 'badge-red', high: 'badge-orange', medium: 'badge-yellow', low: 'badge-green',
+// Real error_codes.severity values are 'easy' | 'medium' | 'advanced' (verified against
+// the live DB) — this used to be a critical/high/medium/low map that never matched
+// anything, and printed the raw untranslated value. See EN's [category]/[brand]/index.astro
+// for the matching (correct) convention.
+const severityBadge: Record<string, { cls: string; label: string }> = {
+  easy:     { cls: 'badge-green',  label: t(locale, 'severity.easy') },
+  medium:   { cls: 'badge-yellow', label: t(locale, 'severity.medium') },
+  advanced: { cls: 'badge-red',    label: t(locale, 'severity.advanced') },
 }
 ---
 
@@ -127,7 +133,9 @@ const severityColor: Record<string, string> = {
               <div class="ec-card" data-code={row.code?.toLowerCase()} data-text={row.display_text?.toLowerCase()}>
                 <div class="ec-card-left">
                   <span class="ec-code">{row.code}</span>
-                  {row.severity && <span class={`ec-badge ${severityColor[row.severity] ?? 'badge-gray'}`}>{row.severity}</span>}
+                  {row.severity && severityBadge[row.severity] && (
+                    <span class={`ec-badge ${severityBadge[row.severity].cls}`}>{severityBadge[row.severity].label}</span>
+                  )}
                 </div>
                 <p class="ec-desc">{row.display_text}</p>
                 <div class="ec-card-right">

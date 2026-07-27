@@ -18,7 +18,7 @@ Revenue comes from display ads and geo-targeted affiliate links (AppliancePartsP
 |---|---|
 | Frontend | Astro 5 (based on AstroWind template) |
 | Styling | Tailwind CSS, accent color `#16a34a` (green-600), font Inter |
-| Database | Supabase (Postgres) |
+| Database | Postgres, self-hosted on our own VPS (accessed via a Supabase-compatible PostgREST API at `api.appliancerepairbase.com`) |
 | Hosting | Cloudflare Pages |
 | Repo | GitHub, user `johanharvidsson-bit` |
 | Dev machine | Windows, VSCode, `C:\Users\Admin\` |
@@ -137,22 +137,26 @@ English is the **default locale** — no prefix.
 
 - English: no URL prefix (`/washing-machine/samsung/e4`)
 - Other languages: subdirectory prefix (`/sv/washing-machine/samsung/e4`)
-- All Supabase queries filter by `locale` — default to `'en'`
+- All database queries filter by `locale` — default to `'en'`
 - All new components must accept a `locale` prop even if only `'en'` is used now
 - Translation tables follow the pattern: base table + `_translations` table with `locale` column
 
 ---
 
-## Supabase client
+## Database client
 
-Import from `@/lib/supabase`:
+The database runs self-hosted (Postgres + a Supabase-compatible PostgREST API) on our own VPS, reachable at `api.appliancerepairbase.com`. The frontend still talks to it with the `@supabase/supabase-js` client library, since that's the client the PostgREST-style API expects — "Supabase" here refers to the self-hosted stack, not the Supabase Cloud SaaS product.
+
+Import from `~/lib/supabase` (actual path — see `src/lib/supabase.ts`):
 ```ts
-import { supabase } from '@/lib/supabase'
+import { supabase } from '~/lib/supabase'
 ```
 
-All homepage data must be fetched **at build time** in Astro component frontmatter — no runtime Supabase calls from the browser. Data needed client-side for interactive elements should be serialised as JSON and embedded in the HTML at build time.
+All query helpers live in `src/lib/queries.ts`.
 
-RLS is configured with public read access for published content.
+All homepage data must be fetched **at build time** in Astro component frontmatter — no runtime database calls from the browser. Data needed client-side for interactive elements should be serialised as JSON and embedded in the HTML at build time.
+
+Row-level security is configured with public read access for published content.
 
 ---
 
@@ -177,7 +181,7 @@ Affiliate CTAs appear on article pages, not on the homepage.
 - **Base model codes as canonical unit.** Do not create separate pages per regional SKU variant.
 - **Faults scoped at brand + appliance type.** Do not scope faults per model — `model_fault_map` is explicitly deferred.
 - **Article content in structured fields.** Content is stored as `steps_json`, `causes_json`, `faq_json` etc. — not as HTML blobs. Do not consolidate these into a single content field.
-- **Build-time data only on homepage.** No client-side Supabase calls on the homepage.
+- **Build-time data only on homepage.** No client-side database calls on the homepage.
 
 ---
 
@@ -197,4 +201,5 @@ Affiliate CTAs appear on article pages, not on the homepage.
 - English content is populated
 - Homepage currently has a basic error-code-only hero widget — this is being replaced
 - Fault entity (`faults`, `fault_translations`, `fault_error_code_map` tables) is set up but fault content seeding is in progress
-- Swedish (`/sv/`) and German (`/de/`) locales are planned but not yet implemented
+- Swedish (`/sv/`) locale is implemented (parallel page set under `src/pages/sv/`); German (`/de/`) is still planned but not implemented
+- New-site expansion (a second vertical alongside appliances) is parked for now — focus is on the appliance site

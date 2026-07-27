@@ -1,7 +1,7 @@
 # Homepage Redesign — Claude Code Specification
 **Project:** Appliance Repair Base (`appliancerepairbase.com`)
 **File:** `src/pages/index.astro` (and new component files)
-**Stack:** Astro 5, Tailwind CSS, Supabase (build-time data fetch)
+**Stack:** Astro 5, Tailwind CSS, self-hosted database on our VPS (build-time data fetch)
 **Accent color:** `#16a34a` (green-600)
 
 ---
@@ -51,7 +51,7 @@ Three controls in a row (stack vertically on mobile):
 
 | Control | Type | Data source |
 |---|---|---|
-| Appliance type | `<select>` | Fetched from Supabase at build time — distinct `appliance_type` values from `models` table |
+| Appliance type | `<select>` | Fetched from the database at build time — distinct `appliance_type` values from `models` table |
 | Brand | `<select>` | Disabled until appliance type selected. Filtered list of brands for that appliance type. Populate via inline `<script>` using a pre-serialised JSON map of `appliance_type → [brands]` embedded in the page at build time. |
 | Error code | `<input type="text">` | Free text, placeholder "e.g. E4, F53" |
 
@@ -79,7 +79,7 @@ Three controls in a row (stack vertically on mobile):
 `src/components/ApplianceTypeGrid.astro`
 
 ### Data
-Fetch distinct `appliance_type` values from Supabase `models` table at build time. Map each to an emoji icon and display label (maintain a static mapping object in the component):
+Fetch distinct `appliance_type` values from the database's `models` table at build time. Map each to an emoji icon and display label (maintain a static mapping object in the component):
 
 ```js
 const icons = {
@@ -107,7 +107,7 @@ const icons = {
 `src/components/BrandsSection.astro`
 
 ### Data
-Fetch top brands by article count from Supabase at build time:
+Fetch top brands by article count from the database at build time:
 ```sql
 select brand_slug, brand_name, count(*) as article_count
 from articles
@@ -130,7 +130,7 @@ limit 20
 `src/components/FaultPills.astro`
 
 ### Data
-Fetch fault names from Supabase `faults` + `fault_translations` tables at build time (English, `locale = 'en'`):
+Fetch fault names from the database's `faults` + `fault_translations` tables at build time (English, `locale = 'en'`):
 ```sql
 select f.fault_slug, ft.name, f.appliance_type
 from faults f
@@ -214,7 +214,7 @@ The dropdown data can be fetched once at build time and shared via Astro's `getS
 
 ## i18n / multilingual
 
-All Supabase queries should use `locale = 'en'` (unprefixed default). The component architecture should make it easy to pass `locale` as a prop later when implementing `/sv/`, `/de/` etc. prefixed routes.
+All database queries should use `locale = 'en'` (unprefixed default). The component architecture should make it easy to pass `locale` as a prop later when implementing `/sv/`, `/de/` etc. prefixed routes.
 
 Fault and brand names should come from translation tables where available; fall back to slug-derived display name if no translation exists.
 
@@ -222,7 +222,7 @@ Fault and brand names should come from translation tables where available; fall 
 
 ## Build-time data strategy
 
-Avoid runtime Supabase calls. All homepage data fetched in the Astro component frontmatter (server-side at build time via `import { supabase } from '@/lib/supabase'`).
+Avoid runtime database calls. All homepage data fetched in the Astro component frontmatter (server-side at build time via `import { supabase } from '~/lib/supabase'` — a Supabase-compatible client pointed at our self-hosted VPS database).
 
 Data that needs to be available client-side for the interactive dropdowns and pill filtering should be serialised as JSON and embedded in the HTML:
 

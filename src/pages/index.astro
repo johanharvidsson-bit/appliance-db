@@ -30,7 +30,7 @@ const catIdToSlug = new Map<number, string>(categories.map(c => [c.id, c.slug]))
 // no brands in the finder even though thousands of model pages exist and
 // render fine. Same fix as getBrandsByCategory (queries.ts).
 //
-// Paginated: PostgREST (and Supabase's hosted default) caps an unpaginated
+// Paginated: PostgREST's default caps an unpaginated
 // select at 1000 rows, which silently truncated this to whichever brands
 // happened to occupy the table's first 1000 physical rows.
 const modelsRaw: { brand_id: number; category_id: number }[] = []

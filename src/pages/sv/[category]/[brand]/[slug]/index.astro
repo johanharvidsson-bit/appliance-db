@@ -211,7 +211,7 @@ const metadata = type === 'article'
     {productSchema && (
       <script type="application/ld+json" is:inline set:html={JSON.stringify(productSchema)} />
     )}
-    <BreadcrumbNav items={breadcrumbs} />
+    <BreadcrumbNav items={breadcrumbs} locale={locale} />
 
     {type === 'article' && article && (
       <>
@@ -319,7 +319,7 @@ const metadata = type === 'article'
           <span class="meta-chip">{categoryLabel}</span>
         </div>
 
-        <nav class="contents-nav" aria-label="Page contents">
+        <nav class="contents-nav" aria-label="Sidinnehåll">
           <p class="contents-label">{t(locale, 'model.contents')}</p>
           <ol class="contents-list">
             <li><a href="#model-overview">{t(locale, 'model.overview')}</a></li>

@@ -1,5 +1,4 @@
 ---
-prerender: true
 lang: 'sv'
 title: 'Ansvarsfriskrivning'
 description: 'ApplianceRepairBase tillhandahåller endast allmänt informationsinnehåll. Läs vår ansvarsfriskrivning gällande användning av reparationsguider och säkerhetsansvar.'

@@ -1,4 +1,6 @@
 ---
+import { t } from '~/lib/ui'
+
 interface BreadcrumbItem {
   name: string
   url: string
@@ -6,9 +8,10 @@ interface BreadcrumbItem {
 
 interface Props {
   items: BreadcrumbItem[]
+  locale?: string
 }
 
-const { items } = Astro.props
+const { items, locale = 'en' } = Astro.props
 
 const schema = {
   '@context': 'https://schema.org',
@@ -26,7 +29,7 @@ const schema = {
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
 </Fragment>
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
+<nav class="breadcrumb" aria-label={t(locale, 'breadcrumb.ariaLabel')}>
   <ol>
     {
       items.map((item, i) => (

@@ -1,5 +1,4 @@
 ---
-export const prerender = true
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import SparePartsSection from '~/components/SparePartsSection.astro'
@@ -78,7 +77,7 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
   }}
 >
   <div class="page-container">
-    <BreadcrumbNav items={breadcrumbs} />
+    <BreadcrumbNav items={breadcrumbs} locale={locale} />
     <h1 class="page-h1">{t(locale, 'brand.h1', { brand: brandLabel, category: categoryLabel })}</h1>
     <p class="intro">
       {t(locale, 'brand.intro', { brand: brandLabel, category: categoryLabel.toLowerCase() })}

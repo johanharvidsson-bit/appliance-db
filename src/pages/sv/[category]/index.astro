@@ -1,5 +1,4 @@
 ---
-export const prerender = true
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import { getCategoriesByLocale, getBrandsByCategoryLocale, getCategoryAlternates } from '~/lib/queries'
@@ -53,7 +52,7 @@ const breadcrumbs = [
   }}
 >
   <div class="page-container">
-    <BreadcrumbNav items={breadcrumbs} />
+    <BreadcrumbNav items={breadcrumbs} locale={locale} />
     <h1 class="page-h1">{t(locale, 'category.h1', { category: categoryLabel })}</h1>
     <p class="intro">{t(locale, 'category.intro', { category: categoryLabel.toLowerCase() })}</p>
 
@@ -62,7 +61,7 @@ const breadcrumbs = [
         {brands.map((b: any) => (
           <a href={`/${locale}/${category}/${b.slug}/`} class="brand-card">
             {b.logo_url ? (
-              <img src={b.logo_url} alt={`${b.name} logo`} class="brand-logo" loading="lazy" />
+              <img src={b.logo_url} alt={`${b.name} logotyp`} class="brand-logo" loading="lazy" />
             ) : (
               <span class="brand-initial">{b.name.charAt(0)}</span>
             )}

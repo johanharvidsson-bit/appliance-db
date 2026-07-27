@@ -1,5 +1,4 @@
 ---
-prerender: true
 title: 'Cookie Policy'
 description: 'Learn how ApplianceRepairBase uses cookies for analytics, advertising, and affiliate tracking, and how to manage your cookie preferences.'
 layout: '~/layouts/MarkdownLayout.astro'

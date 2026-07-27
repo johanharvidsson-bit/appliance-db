@@ -1,19 +1,18 @@
 ---
-export const prerender = true
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import { supabase } from '~/lib/supabase'
+import { logged } from '~/lib/queries'
 import { siteConfig } from 'site-config'
 import { t } from '~/lib/ui'
 
 const locale = 'en'
 const siteUrl = `https://${siteConfig.domain}`
 
-const { data: brands } = await supabase
-  .from('brands')
-  .select('id, name, slug')
-  .eq('is_active', true)
-  .order('name')
+const { data: brands } = await logged(
+  supabase.from('brands').select('id, name, slug').eq('is_active', true).order('name'),
+  'brands/index'
+)
 
 const breadcrumbs = [
   { name: t(locale, 'nav.home'), url: `${siteUrl}/` },
@@ -54,7 +53,7 @@ const alternateUrls = [
   })} />
 
   <div class="page-container">
-    <BreadcrumbNav items={breadcrumbs} />
+    <BreadcrumbNav items={breadcrumbs} locale={locale} />
 
     <h1 class="page-h1">{t(locale, 'brandHub.allBrandsH1')}</h1>
     <p class="intro">{t(locale, 'brandHub.allBrandsIntro')}</p>

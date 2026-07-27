@@ -1,8 +1,8 @@
 ---
-export const prerender = true
 import PageLayout from '~/layouts/PageLayout.astro'
 import { siteConfig } from 'site-config'
 import { supabase } from '~/lib/supabase'
+import { logged, paginateAll } from '~/lib/queries'
 
 import HeroWidget from '~/components/HeroWidget.astro'
 import ApplianceTypeGrid from '~/components/ApplianceTypeGrid.astro'
@@ -10,10 +10,10 @@ import BrandsSection from '~/components/BrandsSection.astro'
 import TrendingAndGuides from '~/components/TrendingAndGuides.astro'
 
 // ── 1. Categories with EN names ───────────────────────────────────────────────
-const { data: catTranslations } = await supabase
-  .from('category_translations')
-  .select('category_id, name, slug')
-  .eq('locale', 'en')
+const { data: catTranslations } = await logged(
+  supabase.from('category_translations').select('category_id, name, slug').eq('locale', 'en'),
+  'index:categories'
+)
 
 const categories: { slug: string; name: string; id: number }[] = (catTranslations ?? []).map((ct: any) => ({
   id: ct.category_id,
@@ -33,27 +33,16 @@ const catIdToSlug = new Map<number, string>(categories.map(c => [c.id, c.slug]))
 // Paginated: PostgREST's default caps an unpaginated
 // select at 1000 rows, which silently truncated this to whichever brands
 // happened to occupy the table's first 1000 physical rows.
-const modelsRaw: { brand_id: number; category_id: number }[] = []
-{
-  const PAGE = 1000
-  let offset = 0
-  while (true) {
-    const { data, error } = await supabase
-      .from('models')
-      .select('brand_id, category_id')
-      .range(offset, offset + PAGE - 1)
-    if (error || !data?.length) break
-    modelsRaw.push(...data)
-    if (data.length < PAGE) break
-    offset += PAGE
-  }
-}
+const modelsRaw = await paginateAll(
+  (from, to) => supabase.from('models').select('brand_id, category_id').range(from, to),
+  'index:models'
+)
 
 // Get unique brand_ids
 const allBrandIds = [...new Set((modelsRaw ?? []).map((m: any) => m.brand_id))].filter(Boolean)
 
 const { data: brandsRaw } = allBrandIds.length > 0
-  ? await supabase.from('brands').select('id, name, slug').in('id', allBrandIds).eq('is_active', true)
+  ? await logged(supabase.from('brands').select('id, name, slug').in('id', allBrandIds).eq('is_active', true), 'index:brands')
   : { data: [] }
 
 const brandIdToInfo = new Map<number, { name: string; slug: string }>()
@@ -84,23 +73,26 @@ for (const [catSlug, catBrands] of Object.entries(applianceBrandMap)) {
 }
 
 // ── 3. Trending guides: top 6 article_translations ordered by last_updated DESC ──
-const { data: trendingRaw } = await supabase
-  .from('article_translations')
-  .select(`
-    slug, h1, last_updated,
-    articles (
-      id, article_type,
-      error_codes (
-        code,
-        brands ( name, slug ),
-        categories ( slug_en )
+const { data: trendingRaw } = await logged(
+  supabase
+    .from('article_translations')
+    .select(`
+      slug, h1, last_updated,
+      articles (
+        id, article_type,
+        error_codes (
+          code,
+          brands ( name, slug ),
+          categories ( slug_en )
+        )
       )
-    )
-  `)
-  .eq('locale', 'en')
-  .eq('translation_status', 'published')
-  .order('last_updated', { ascending: false })
-  .limit(30)
+    `)
+    .eq('locale', 'en')
+    .eq('translation_status', 'published')
+    .order('last_updated', { ascending: false })
+    .limit(30),
+  'index:trending'
+)
 
 // Filter to error_code type in JS
 const trendingFiltered = (trendingRaw ?? []).filter((at: any) => at.articles?.article_type === 'error_code')

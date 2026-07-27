@@ -1,5 +1,4 @@
 ---
-prerender: true
 lang: 'sv'
 title: 'Om ApplianceRepairBase'
 description: 'ApplianceRepairBase byggs av erfarna vitvarutekniker. Läs om vårt mål att göra felsökning snabbare och mer tillgänglig.'

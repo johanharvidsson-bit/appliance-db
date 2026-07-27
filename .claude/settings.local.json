@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(git stash *)",
+      "Bash(sed -i 's/<BreadcrumbNav items={breadcrumbs} \\\\/>/<BreadcrumbNav items={breadcrumbs} locale={locale} \\\\/>/' src/pages/brands/index.astro src/pages/brands/[brandSlug].astro src/pages/sv/brands/index.astro src/pages/sv/brands/[brandSlug].astro src/pages/sv/[category]/index.astro src/pages/sv/[category]/[brand]/index.astro src/pages/sv/[category]/[brand]/models/index.astro src/pages/sv/[category]/[brand]/problems/index.astro src/pages/sv/[category]/[brand]/problems/[slug]/index.astro src/pages/sv/[category]/[brand]/[slug]/index.astro src/pages/[category]/[brand]/models/index.astro src/pages/[category]/[brand]/[slug]/index.astro)",
+      "Bash(sed -i 's/<BreadcrumbNav items={breadcrumbs} \\\\/>/<BreadcrumbNav items={breadcrumbs} locale=\"en\" \\\\/>/' src/pages/[category]/index.astro src/pages/[category]/[brand]/index.astro src/pages/[category]/[brand]/problems/index.astro src/pages/[category]/[brand]/problems/[slug]/index.astro)"
     ]
   }
 }

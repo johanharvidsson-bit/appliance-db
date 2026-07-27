@@ -31,7 +31,7 @@ const PAGE_SIZE = 1000
  * generic through this wrapper made TypeScript infer `never` for some embedded
  * (joined) selects instead of `any`, breaking callers.
  */
-async function logged(promise: PromiseLike<{ data: any; error: any }>, label: string): Promise<{ data: any; error: any }> {
+export async function logged(promise: PromiseLike<{ data: any; error: any }>, label: string): Promise<{ data: any; error: any }> {
   const result = await promise
   if (result.error) console.error(`[queries:${label}]`, result.error)
   return result
@@ -43,7 +43,7 @@ async function logged(promise: PromiseLike<{ data: any; error: any }>, label: st
  * ~35k models). Replaces the near-identical `while(true) { .range(...) }`
  * loop that used to be copy-pasted in 5 different query functions.
  */
-async function paginateAll(
+export async function paginateAll(
   buildQuery: (from: number, to: number) => PromiseLike<{ data: any[] | null; error: any }>,
   label: string
 ): Promise<any[]> {
@@ -736,7 +736,7 @@ export async function getArticleFaultId(articleId: number) {
 /** Fault metadata (severity, has_error_code) for a fault article's meta bar. */
 export async function getFaultById(faultId: number) {
   return logged(
-    supabase.from('faults').select('id, slug, severity, has_error_code').eq('id', faultId).single(),
+    supabase.from('faults').select('id, slug, severity, has_error_code, brands ( name, slug )').eq('id', faultId).single(),
     `getFaultById(${faultId})`
   )
 }

@@ -1,5 +1,4 @@
 ---
-prerender: true
 lang: 'sv'
 title: 'Affiliate-information'
 description: 'ApplianceRepairBase deltar i affiliate-program. Läs om hur vi tjänar provision och hur det påverkar våra innehållsrekommendationer.'

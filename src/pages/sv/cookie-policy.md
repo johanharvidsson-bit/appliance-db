@@ -1,5 +1,4 @@
 ---
-prerender: true
 lang: 'sv'
 title: 'Cookiepolicy'
 description: 'Läs om hur ApplianceRepairBase använder cookies för analys, annonsering och affiliate-spårning, och hur du hanterar dina cookie-inställningar.'

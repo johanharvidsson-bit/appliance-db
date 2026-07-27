@@ -1,5 +1,4 @@
 ---
-prerender: true
 lang: 'sv'
 title: 'Kontakta oss'
 description: 'Kom i kontakt med ApplianceRepairBase för allmänna frågor, affärssamarbeten, eller för att rapportera rättelser till våra reparationsguider.'

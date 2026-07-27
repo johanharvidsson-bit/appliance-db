@@ -1,5 +1,4 @@
 ---
-prerender: true
 lang: 'sv'
 title: 'Användarvillkor'
 description: 'Läs ApplianceRepairBases användarvillkor som reglerar din användning av våra felsökningsguider och webbplats.'

@@ -1,5 +1,4 @@
 ---
-prerender: true
 lang: 'sv'
 title: 'Integritetspolicy'
 description: 'Läs ApplianceRepairBases integritetspolicy för att förstå hur vi samlar in, använder och skyddar din information när du besöker vår webbplats.'

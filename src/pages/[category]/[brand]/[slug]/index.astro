@@ -225,7 +225,7 @@ const metadata = type === 'article'
     {productSchema && (
       <script type="application/ld+json" is:inline set:html={JSON.stringify(productSchema)} />
     )}
-    <BreadcrumbNav items={breadcrumbs} />
+    <BreadcrumbNav items={breadcrumbs} locale={locale} />
 
     {type === 'article' && article && (
       <>

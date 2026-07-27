@@ -22,7 +22,14 @@ const {
   description,
   openGraph = {},
   twitter = {},
+  lang,
 } = Astro.props;
+
+// og:locale wants language_TERRITORY (e.g. "sv_SE"), not a bare BCP-47 tag.
+// This used to always fall back to the site-wide I18N.language ("en"), so
+// every Swedish page declared og:locale=en_US regardless of its actual lang.
+const OG_LOCALE_MAP: Record<string, string> = { en: 'en_US', sv: 'sv_SE', de: 'de_DE', fr: 'fr_FR', es: 'es_ES', pl: 'pl_PL' };
+const resolvedOgLocale = lang ? (OG_LOCALE_MAP[lang] ?? lang) : I18N?.language || 'en';
 
 const seoProps: AstroSeoProps = merge(
   {
@@ -36,7 +43,7 @@ const seoProps: AstroSeoProps = merge(
       url: canonical,
       site_name: SITE?.name,
       images: [],
-      locale: I18N?.language || 'en',
+      locale: resolvedOgLocale,
       type: 'website',
     },
     twitter: {

@@ -21,8 +21,9 @@ import SparePartsSection from '~/components/SparePartsSection.astro'
 import SpecsTable from '~/components/SpecsTable.astro'
 import {
   getArticleBySlug, getArticle, getModelsByBrandCategory, getArticleAlternates,
-  getModelBySlug, getErrorCodesByModel, getFaultsByBrandCategoryId, getWashingMachineSpecs, getModelsBySeries,
+  getModelBySlug, getErrorCodesByModel, getFaultsByBrandCategoryId, getModelsBySeries,
 } from '~/lib/queries'
+import { getSpecsConfig, buildSpecSchemaProperties, type SpecField } from '~/lib/specs'
 import { parseJson } from '~/lib/utils'
 import { buildAlternateUrl } from '~/lib/locales'
 import { t } from '~/lib/ui'
@@ -41,6 +42,8 @@ let modelFaults: any[] = []
 let modelSpecs: Record<string, any> | null = null
 let seriesModels: any[] = []
 
+const specsConfig = getSpecsConfig(category)
+
 const matchedArticle = await getArticleBySlug(locale, category, brand, slug)
 if (matchedArticle) {
   type = 'article'
@@ -53,7 +56,7 @@ if (matchedArticle) {
     const [{ data: ecData }, { data: faultData }, specsData, altModels] = await Promise.all([
       getErrorCodesByModel(model.brand_id, model.category_id),
       getFaultsByBrandCategoryId(model.brand_id, model.category_id, locale),
-      category === 'washing-machines' ? getWashingMachineSpecs(model.id) : Promise.resolve(null),
+      specsConfig ? specsConfig.fetch(model.id) : Promise.resolve(null),
       model.series ? getModelsBySeries(model.brand_id, model.category_id, model.series, slug) : Promise.resolve([]),
     ])
     modelErrorCodes = ecData ?? []
@@ -66,6 +69,14 @@ if (matchedArticle) {
 if (!type) {
   return new Response(null, { status: 404 })
 }
+
+// This route renders on demand (see the file-header comment) rather than being
+// statically prerendered like the rest of the site — mainly to support the
+// 20k+ model pages. Article pages don't strictly need that, but share this file.
+// Setting an edge cache header lets Cloudflare serve repeat requests for the
+// same URL without re-invoking the function, recovering most of the
+// static-prerendering performance/cost benefit without changing the URL structure.
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
 
 // ── Article ──────────────────────────────────────────────────────────────────
 let article: any = null
@@ -134,22 +145,13 @@ const updatedAt = article?.last_updated
   : null
 
 // ── JSON-LD: Product (model pages with specs) ────────────────────────────────
-const productSchema = type === 'model' && model && modelSpecs ? {
+const productSchema = type === 'model' && model && modelSpecs && specsConfig ? {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: model.name,
   brand: { '@type': 'Brand', name: brandLabel },
   category: categoryLabel,
-  additionalProperty: [
-    ...(modelSpecs.capacity_kg        != null ? [{ '@type': 'PropertyValue', name: 'Drum Capacity',    value: `${modelSpecs.capacity_kg} kg`  }] : []),
-    ...(modelSpecs.spin_speed_rpm     != null ? [{ '@type': 'PropertyValue', name: 'Max Spin Speed',   value: `${modelSpecs.spin_speed_rpm} rpm` }] : []),
-    ...(modelSpecs.energy_class       != null ? [{ '@type': 'PropertyValue', name: 'Energy Class',     value: modelSpecs.energy_class }] : []),
-    ...(modelSpecs.width_mm           != null ? [{ '@type': 'PropertyValue', name: 'Width',            value: `${modelSpecs.width_mm} mm` }] : []),
-    ...(modelSpecs.height_mm          != null ? [{ '@type': 'PropertyValue', name: 'Height',           value: `${modelSpecs.height_mm} mm` }] : []),
-    ...(modelSpecs.depth_mm           != null ? [{ '@type': 'PropertyValue', name: 'Depth',            value: `${modelSpecs.depth_mm} mm` }] : []),
-    ...(modelSpecs.noise_spinning_db  != null ? [{ '@type': 'PropertyValue', name: 'Spin Noise',       value: `${modelSpecs.noise_spinning_db} dB` }] : []),
-    ...(modelSpecs.door_type          != null ? [{ '@type': 'PropertyValue', name: 'Door Type',        value: modelSpecs.door_type === 'front' ? 'Front Load' : 'Top Load' }] : []),
-  ],
+  additionalProperty: buildSpecSchemaProperties(modelSpecs, specsConfig.fields),
 } : null
 
 // ── JSON-LD: HowTo (uses raw DB fields, not remapped StepsSection shape) ──────
@@ -436,10 +438,10 @@ const metadata = type === 'article'
         </section>
 
         <!-- Specification -->
-        {modelSpecs && (
+        {modelSpecs && specsConfig && (
           <section class="model-section" id="specification">
             <h2 class="model-h2">{t(locale, 'model.specification')}</h2>
-            <SpecsTable specs={modelSpecs} locale={locale} />
+            <SpecsTable specs={modelSpecs} fields={specsConfig.fields} locale={locale} />
           </section>
         )}
 

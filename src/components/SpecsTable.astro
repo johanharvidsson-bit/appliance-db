@@ -1,42 +1,15 @@
 ---
-import { t } from '~/lib/ui'
+import { buildSpecRows, type SpecField } from '~/lib/specs'
 
 interface Props {
   specs: Record<string, any> | null
+  fields: SpecField[]
   locale?: string
 }
-const { specs, locale = 'en' } = Astro.props
+const { specs, fields, locale = 'en' } = Astro.props
 if (!specs) return
 
-const rows: { key: string; label: string; value: string }[] = []
-
-if (specs.door_type != null) {
-  const val = specs.door_type === 'front'
-    ? t(locale, 'specs.frontLoad')
-    : specs.door_type === 'top'
-      ? t(locale, 'specs.topLoad')
-      : specs.door_type
-  rows.push({ key: 'door_type', label: t(locale, 'specs.doorType'), value: val })
-}
-if (specs.capacity_kg != null)
-  rows.push({ key: 'capacity_kg', label: t(locale, 'specs.drumCapacity'), value: `${specs.capacity_kg} kg` })
-if (specs.spin_speed_rpm != null)
-  rows.push({ key: 'spin_speed_rpm', label: t(locale, 'specs.maxSpinSpeed'), value: `${specs.spin_speed_rpm} rpm` })
-if (specs.energy_class != null)
-  rows.push({ key: 'energy_class', label: t(locale, 'specs.energyClass'), value: specs.energy_class })
-if (specs.width_mm != null)
-  rows.push({ key: 'width_mm', label: t(locale, 'specs.width'), value: `${specs.width_mm} mm` })
-if (specs.height_mm != null)
-  rows.push({ key: 'height_mm', label: t(locale, 'specs.height'), value: `${specs.height_mm} mm` })
-if (specs.depth_mm != null)
-  rows.push({ key: 'depth_mm', label: t(locale, 'specs.depth'), value: `${specs.depth_mm} mm` })
-if (specs.noise_spinning_db != null)
-  rows.push({ key: 'noise_spinning_db', label: t(locale, 'specs.noiseSpin'), value: `${specs.noise_spinning_db} dB` })
-if (specs.energy_consumption_kwh != null)
-  rows.push({ key: 'energy_consumption_kwh', label: t(locale, 'specs.energyConsumption'), value: `${specs.energy_consumption_kwh} kWh` })
-if (specs.water_consumption_l != null)
-  rows.push({ key: 'water_consumption_l', label: t(locale, 'specs.waterConsumption'), value: `${specs.water_consumption_l} L` })
-
+const rows = buildSpecRows(specs, fields, locale)
 if (rows.length === 0) return
 ---
 

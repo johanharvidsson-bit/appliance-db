@@ -1,4 +1,6 @@
-export type Locale = 'en' | 'sv' | 'de' | 'fr' | 'es' | 'pl'
+// Derived from src/lib/locales.ts (the single source of truth for supported locale codes).
+import type { LocaleCode } from './locales'
+export type Locale = LocaleCode
 
 const ui = {
   en: {

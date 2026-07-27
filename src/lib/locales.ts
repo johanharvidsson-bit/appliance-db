@@ -5,14 +5,24 @@ export interface LocaleInfo {
   active: boolean
 }
 
-export const LOCALES: LocaleInfo[] = [
+/**
+ * Single source of truth for supported locale codes. Previously this list was
+ * hand-duplicated in `astro.config.ts` (`i18n.locales`), `src/lib/ui.ts` (the
+ * `Locale` type), and `src/pages/404.astro` — all four had to be kept in sync
+ * by hand. Now `astro.config.ts` and `ui.ts` both derive from this array; only
+ * `ui.ts`'s translation dictionary still needs a manual entry per code (an
+ * empty `{}` for locales with no translations yet).
+ */
+export const LOCALES = [
   { code: 'en', name: 'English',  flag: '🇬🇧', active: true },
   { code: 'sv', name: 'Svenska',  flag: '🇸🇪', active: true },
   { code: 'de', name: 'Deutsch',  flag: '🇩🇪', active: false },
   { code: 'fr', name: 'Français', flag: '🇫🇷', active: false },
   { code: 'es', name: 'Español',  flag: '🇪🇸', active: false },
   { code: 'pl', name: 'Polski',   flag: '🇵🇱', active: false },
-]
+] as const satisfies readonly LocaleInfo[]
+
+export type LocaleCode = (typeof LOCALES)[number]['code']
 
 export const ACTIVE_LOCALES = LOCALES.filter((l) => l.active).map((l) => l.code)
 

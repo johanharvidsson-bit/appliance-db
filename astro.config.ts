@@ -15,6 +15,7 @@ import type { AstroIntegration } from 'astro';
 import astrowind from './vendor/integration';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter';
+import { LOCALES } from './src/lib/locales';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -31,7 +32,8 @@ export default defineConfig({
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'sv', 'de', 'fr', 'es', 'pl'],
+    // Derived from src/lib/locales.ts — the single source of truth for locale codes.
+    locales: LOCALES.map((l) => l.code),
     routing: {
       prefixDefaultLocale: false,
     },

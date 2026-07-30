@@ -32,6 +32,17 @@ from loguru import logger
 from config.settings import supabase
 from scrapers.base_scraper import fetch_soup_unblocked, create_scrape_job, start_scrape_job, complete_scrape_job, fail_scrape_job
 
+
+class VisionQuotaExceededError(Exception):
+    """
+    Raised when the Claude Vision call fails due to a hard account-level usage
+    cap (distinct from a transient 429 rate limit, which is retried in place).
+    Left uncaught by the batch/model level so it stops the current combo
+    immediately instead of burning through every remaining pending model
+    with failed calls that then get silently recorded as "0 codes, done".
+    """
+    pass
+
 # ── Constants ──────────────────────────────────────────────────────────────────
 
 CDN_BASE = "https://static-data2.manualslib.com/storage"
@@ -225,7 +236,13 @@ def _call_vision_batch(images: list[bytes]) -> list[dict]:
                     results.append({"code": code, "display_text": desc})
             return results
         except Exception as e:
-            if "rate_limit" in str(e).lower() or "429" in str(e):
+            msg = str(e)
+            if "usage limit" in msg.lower():
+                # Hard account-level cap, not a transient rate limit — retrying
+                # (here or on the next model) can't succeed until it resets, so
+                # stop the whole run instead of failing every remaining model.
+                raise VisionQuotaExceededError(msg) from e
+            if "rate_limit" in msg.lower() or "429" in msg:
                 wait = 60 * (attempt + 1)
                 logger.warning(f"Vision rate limit, waiting {wait}s (attempt {attempt+1}/3)")
                 _time.sleep(wait)
@@ -329,6 +346,13 @@ def extract_error_codes_for_model(
         logger.success(f"  Model {model['id']} ({model.get('name','')}): {count} error codes from {len(images)} pages")
         return count
 
+    except VisionQuotaExceededError as e:
+        # Leave scrape_status untouched (still "pending") so this model gets
+        # picked up again once the quota resets, instead of being permanently
+        # recorded as "done, 0 codes" for a page that was never actually read.
+        fail_scrape_job(job_id, str(e))
+        raise
+
     except Exception as e:
         fail_scrape_job(job_id, str(e))
         logger.error(f"  Model {model['id']}: {type(e).__name__}: {e}")
@@ -383,7 +407,16 @@ def process_all_pending_models(brand_slug: str, category_slug: str) -> None:
     for manual_url, group in by_url.items():
         # Process using the first model in the group; share result with all variants
         primary = group[0]
-        count = extract_error_codes_for_model(primary, brand_id, category_id)
+        try:
+            count = extract_error_codes_for_model(primary, brand_id, category_id)
+        except VisionQuotaExceededError as e:
+            logger.warning(
+                f"Vision API usage limit hit — stopping {brand_slug}/{category_slug} early "
+                f"({processed}/{len(by_url)} manuals done, {total_codes} codes so far). "
+                f"Remaining models stay 'pending' and will be picked up on a later run once "
+                f"the limit resets. Detail: {e}"
+            )
+            return
         total_codes += count
         processed += 1
 

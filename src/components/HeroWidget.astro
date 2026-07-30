@@ -159,8 +159,14 @@ const localePrefix = locale === 'en' ? '' : `/${locale}`
       const code = ecCode.value.trim()
       if (!category) return
       if (category && brand && code) {
-        const slug = `${brand}-error-code-${code.toLowerCase().replace(/\s+/g, '-')}`
-        window.location.href = `${localePrefix}/${category}/${brand}/${slug}/`
+        // Article slugs aren't consistently "{brand}-error-code-{code}" across
+        // brands (Samsung/LG prefix with the brand, Bosch/Siemens/Electrolux
+        // don't), so guessing the full article slug 404s for half the brands.
+        // Land on the brand+category page instead, anchored to that error
+        // code's card (id="ec-{code}" — see [category]/[brand]/index.astro) —
+        // works regardless of slug convention and degrades gracefully to the
+        // top of the page if the code isn't in the database.
+        window.location.href = `${localePrefix}/${category}/${brand}/#ec-${code.toLowerCase().replace(/\s+/g, '-')}`
       } else if (category && brand) {
         window.location.href = `${localePrefix}/${category}/${brand}/`
       } else {

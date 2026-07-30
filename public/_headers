@@ -1,2 +1,10 @@
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
+
+# All pages are SSR against the VPS-hosted database. Cache at the edge so a
+# VPS outage doesn't take the whole site down: stale-if-error lets Cloudflare
+# keep serving the last good copy for up to 7 days if the origin errors out,
+# and stale-while-revalidate keeps pages fast by serving cached content while
+# refreshing in the background instead of blocking on every request.
+/*
+  Cache-Control: public, max-age=1800, s-maxage=3600, stale-while-revalidate=86400, stale-if-error=604800

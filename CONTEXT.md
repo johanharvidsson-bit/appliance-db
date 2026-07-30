@@ -147,6 +147,8 @@ English is the **default locale** — no prefix.
 
 The database runs self-hosted (Postgres + a Supabase-compatible PostgREST API) on our own VPS, reachable at `api.appliancerepairbase.com`. The frontend still talks to it with the `@supabase/supabase-js` client library, since that's the client the PostgREST-style API expects — "Supabase" here refers to the self-hosted stack, not the Supabase Cloud SaaS product.
 
+See **[BACKEND_REQUIREMENTS.md](./BACKEND_REQUIREMENTS.md)** for the full backend contract (schema, required FK constraints, RLS, performance expectations) derived from what `queries.ts` actually queries.
+
 Import from `~/lib/supabase` (actual path — see `src/lib/supabase.ts`):
 ```ts
 import { supabase } from '~/lib/supabase'

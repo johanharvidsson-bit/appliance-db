@@ -1,68 +1,29 @@
 ---
+/** On-demand (SSR) — see EN counterpart's file-header comment for why. */
+export const prerender = false
+
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import { supabase } from '~/lib/supabase'
-import { logged, paginateAll } from '~/lib/queries'
+import { paginateAll, getBrandBySlug, getCategoryByLocaleSlug } from '~/lib/queries'
 import { siteConfig } from 'site-config'
 import { t } from '~/lib/ui'
 
 const locale = 'sv'
 
-export async function getStaticPaths() {
-  // Paginated — an unpaginated select is silently capped at 1000 rows by
-  // PostgREST's default, well under the ~35k total models, which
-  // could skip whichever brand+category combos didn't happen to be in
-  // that first page.
-  const modelRows = await paginateAll(
-    (from, to) => supabase.from('models').select('brand_id, category_id').range(from, to),
-    'sv/[category]/[brand]/models:getStaticPaths'
-  )
-
-  if (modelRows.length === 0) return []
-
-  const seen = new Set<string>()
-  const pairs: { brand_id: number; category_id: number }[] = []
-  for (const m of modelRows) {
-    const key = `${m.brand_id}-${m.category_id}`
-    if (!seen.has(key)) { seen.add(key); pairs.push(m) }
-  }
-
-  const brandIds = [...new Set(pairs.map(p => p.brand_id))]
-  const catIds = [...new Set(pairs.map(p => p.category_id))]
-
-  const [{ data: brands }, { data: cats }] = await Promise.all([
-    logged(supabase.from('brands').select('id, name, slug').in('id', brandIds).eq('is_active', true), 'sv/[category]/[brand]/models:brands'),
-    // Use SV category slugs for SV pages
-    logged(supabase.from('category_translations').select('category_id, name, slug').in('category_id', catIds).eq('locale', 'sv'), 'sv/[category]/[brand]/models:categories'),
-  ])
-
-  const brandMap = new Map((brands ?? []).map((b: any) => [b.id, b]))
-  const catMap = new Map((cats ?? []).map((c: any) => [c.category_id, c]))
-
-  return pairs
-    .map(({ brand_id, category_id }) => {
-      const brand = brandMap.get(brand_id) as any
-      const cat = catMap.get(category_id) as any
-      if (!brand || !cat) return null
-      return {
-        params: { category: cat.slug, brand: brand.slug },
-        props: { brandName: brand.name, categoryName: cat.name, categoryId: category_id },
-      }
-    })
-    .filter(Boolean)
-}
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
 
 const { category, brand } = Astro.params as { category: string; brand: string }
-const { brandName, categoryName } = Astro.props as { brandName: string; categoryName: string; categoryId: number }
+const [{ data: brandRow }, { data: categoryData }] = await Promise.all([
+  getBrandBySlug(brand),
+  getCategoryByLocaleSlug(locale, category),
+])
+if (!brandRow) return new Response(null, { status: 404 })
+
+const brandLabel = brandRow.name || brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const categoryLabel = categoryData?.name || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
 const siteUrl = `https://${siteConfig.domain}`
 
-const brandLabel = brandName || brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
-const categoryLabel = categoryName || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
-
-const { data: brandRow } = await logged(
-  supabase.from('brands').select('id').eq('slug', brand).single(),
-  `sv/[category]/[brand]/models:brandId(${brand})`
-)
 const models = await paginateAll(
   (from, to) =>
     supabase.from('models').select('id, name, slug, series, release_year').eq('brand_id', brandRow?.id ?? 0).order('name').range(from, to),

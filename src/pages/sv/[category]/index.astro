@@ -1,38 +1,30 @@
 ---
+/** On-demand (SSR) — see EN counterpart's file-header comment for why. */
+export const prerender = false
+
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
-import { getCategoriesByLocale, getBrandsByCategoryLocale, getCategoryAlternates } from '~/lib/queries'
+import { getCategoryByLocaleSlug, getBrandsByCategoryLocale, getCategoryAlternates } from '~/lib/queries'
 import { buildCategoryUrl } from '~/lib/locales'
 import { t } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
 const locale = 'sv'
 
-export async function getStaticPaths() {
-  const { data: categories } = await getCategoriesByLocale('sv')
-  if (!categories) return []
-  const paths: any[] = []
-  for (const cat of categories) {
-    const alternates = await getCategoryAlternates(cat.category_id)
-    paths.push({
-      params: { category: cat.slug },
-      props: { categoryName: cat.name, categoryAlternates: alternates },
-    })
-  }
-  return paths
-}
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
 
 const { category } = Astro.params as { category: string }
-const { categoryName, categoryAlternates } = Astro.props as { categoryName: string; categoryAlternates: any[] }
+const { data: categoryData } = await getCategoryByLocaleSlug(locale, category)
 const siteUrl = `https://${siteConfig.domain}`
-const alternateUrls = (categoryAlternates ?? []).map((alt: any) => ({
+const categoryAlternates = categoryData?.category_id ? await getCategoryAlternates(categoryData.category_id) : []
+const alternateUrls = categoryAlternates.map((alt: any) => ({
   locale: alt.locale,
   url: buildCategoryUrl(siteUrl, alt.locale, alt.slug),
 }))
 
 const { data: brands } = await getBrandsByCategoryLocale(locale, category)
 
-const categoryLabel = categoryName || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const categoryLabel = categoryData?.name || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
 
 const breadcrumbs = [
   { name: t(locale, 'nav.home'), url: `${siteUrl}/${locale}/` },

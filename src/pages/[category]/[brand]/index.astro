@@ -1,37 +1,27 @@
 ---
+/** On-demand (SSR) — see src/pages/[category]/[brand]/[slug]/index.astro for why. */
+export const prerender = false
+
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import SparePartsSection from '~/components/SparePartsSection.astro'
-import { getCategories, getBrandsByCategory, getErrorCodesByBrandCategory, getModelsByBrandCategory, getCategoryAlternates, getFaultsByBrandCategoryLocale } from '~/lib/queries'
+import { getCategoryBySlug, getBrandBySlug, getErrorCodesByBrandCategory, getModelsByBrandCategory, getCategoryAlternates, getFaultsByBrandCategoryLocale } from '~/lib/queries'
 import { buildBrandUrl } from '~/lib/locales'
-import { t } from '~/lib/ui'
+import { t, getSeverityBadges } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
-export async function getStaticPaths() {
-  const { data: categories } = await getCategories()
-  if (!categories) return []
-
-  const paths: any[] = []
-  for (const cat of categories) {
-    const [{ data: brands }, alternates] = await Promise.all([
-      getBrandsByCategory(cat.slug),
-      getCategoryAlternates(cat.category_id),
-    ])
-    if (!brands) continue
-    for (const brand of brands) {
-      paths.push({
-        params: { category: cat.slug, brand: brand.slug },
-        props: { categoryName: cat.name, brandName: brand.name, categoryAlternates: alternates },
-      })
-    }
-  }
-  return paths
-}
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
 
 const { category, brand } = Astro.params as { category: string; brand: string }
-const { categoryName, brandName, categoryAlternates } = Astro.props as { categoryName: string; brandName: string; categoryAlternates: any[] }
+const [{ data: categoryData }, { data: brandData }] = await Promise.all([
+  getCategoryBySlug(category),
+  getBrandBySlug(brand),
+])
+const categoryName = categoryData?.name ?? ''
+const brandName = brandData?.name ?? ''
 const siteUrl = `https://${siteConfig.domain}`
-const alternateUrls = (categoryAlternates ?? []).map((alt: any) => ({
+const categoryAlternates = categoryData?.category_id ? await getCategoryAlternates(categoryData.category_id) : []
+const alternateUrls = categoryAlternates.map((alt: any) => ({
   locale: alt.locale,
   url: buildBrandUrl(siteUrl, alt.locale, alt.slug, brand),
 }))
@@ -62,11 +52,7 @@ const breadcrumbs = [
   { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
 ]
 
-const severityBadge: Record<string, { cls: string; label: string }> = {
-  easy:     { cls: 'severity-easy',     label: t('en', 'severity.easy') },
-  medium:   { cls: 'severity-medium',   label: t('en', 'severity.medium') },
-  advanced: { cls: 'severity-advanced', label: t('en', 'severity.advanced') },
-}
+const severityBadge = getSeverityBadges('en')
 ---
 
 <PageLayout

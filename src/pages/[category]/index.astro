@@ -1,36 +1,34 @@
 ---
+/**
+ * On-demand (SSR) — the whole site moved off static prerendering (see git log
+ * "Switch every remaining static page to SSR"), so category/brand come from
+ * Astro.params and are looked up directly here rather than via getStaticPaths
+ * (which Astro no longer calls once prerender isn't true — its props never
+ * populate, which used to silently break the category display name/hreflang).
+ */
+export const prerender = false
+
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
-import { getCategories, getBrandsByCategory, getCategoryAlternates } from '~/lib/queries'
+import { getCategoryBySlug, getBrandsByCategory, getCategoryAlternates } from '~/lib/queries'
 import { buildCategoryUrl } from '~/lib/locales'
 import { t } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
-export async function getStaticPaths() {
-  const { data: categories } = await getCategories()
-  if (!categories) return []
-  const paths: any[] = []
-  for (const cat of categories) {
-    const alternates = await getCategoryAlternates(cat.category_id)
-    paths.push({
-      params: { category: cat.slug },
-      props: { categoryName: cat.name, categoryAlternates: alternates },
-    })
-  }
-  return paths
-}
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
 
-const { category } = Astro.params
-const { categoryName, categoryAlternates } = Astro.props
+const { category } = Astro.params as { category: string }
+const { data: categoryData } = await getCategoryBySlug(category)
 const siteUrl = `https://${siteConfig.domain}`
-const alternateUrls = (categoryAlternates ?? []).map((alt: any) => ({
+const categoryAlternates = categoryData?.category_id ? await getCategoryAlternates(categoryData.category_id) : []
+const alternateUrls = categoryAlternates.map((alt: any) => ({
   locale: alt.locale,
   url: buildCategoryUrl(siteUrl, alt.locale, alt.slug),
 }))
 
 const { data: brands } = await getBrandsByCategory(category)
 
-const categoryLabel = categoryName || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const categoryLabel = categoryData?.name || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
 
 const breadcrumbs = [
   { name: t('en', 'nav.home'), url: siteUrl + '/' },

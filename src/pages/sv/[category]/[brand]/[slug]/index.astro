@@ -24,7 +24,7 @@ import {
 import { getSpecsConfig, buildSpecSchemaProperties } from '~/lib/specs'
 import { parseJson } from '~/lib/utils'
 import { buildAlternateUrl } from '~/lib/locales'
-import { t } from '~/lib/ui'
+import { t, getSeverityBadges } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
 const locale = 'sv'
@@ -116,11 +116,7 @@ const categoryLabel = categoryTrans?.name ?? category.replace(/-/g, ' ').replace
 const brandLabel = brandData?.name ?? brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
 
 // ── Shared helpers ───────────────────────────────────────────────────────────
-const severityBadge: Record<string, { cls: string; label: string }> = {
-  easy:     { cls: 'severity-easy',     label: t(locale, 'severity.easy') },
-  medium:   { cls: 'severity-medium',   label: t(locale, 'severity.medium') },
-  advanced: { cls: 'severity-advanced', label: t(locale, 'severity.advanced') },
-}
+const severityBadge = getSeverityBadges(locale)
 
 // ── Article derived values ────────────────────────────────────────────────────
 const ec = (article?.articles as any)?.error_codes

@@ -1,10 +1,15 @@
 ---
+/** On-demand (SSR) — see EN counterpart's file-header comment for why. */
+export const prerender = false
+
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import { supabase } from '~/lib/supabase'
 import { logged } from '~/lib/queries'
 import { siteConfig } from 'site-config'
 import { t } from '~/lib/ui'
+
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
 
 const locale = 'sv'
 const siteUrl = `https://${siteConfig.domain}`

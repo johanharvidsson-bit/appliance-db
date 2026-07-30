@@ -1,39 +1,29 @@
 ---
+/** On-demand (SSR) — see EN counterpart's file-header comment for why. */
+export const prerender = false
+
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import SparePartsSection from '~/components/SparePartsSection.astro'
-import { getCategoriesByLocale, getBrandsByCategoryLocale, getErrorCodesByBrandCategoryLocale, getModelsByBrandCategoryLocale, getCategoryAlternates, getFaultsByBrandCategoryLocale } from '~/lib/queries'
+import { getCategoryByLocaleSlug, getBrandBySlug, getErrorCodesByBrandCategoryLocale, getModelsByBrandCategoryLocale, getCategoryAlternates, getFaultsByBrandCategoryLocale } from '~/lib/queries'
 import { buildBrandUrl } from '~/lib/locales'
-import { t } from '~/lib/ui'
+import { t, getSeverityBadges } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
 const locale = 'sv'
 
-export async function getStaticPaths() {
-  const { data: categories } = await getCategoriesByLocale('sv')
-  if (!categories) return []
-
-  const paths: any[] = []
-  for (const cat of categories) {
-    const [{ data: brands }, alternates] = await Promise.all([
-      getBrandsByCategoryLocale('sv', cat.slug),
-      getCategoryAlternates(cat.category_id),
-    ])
-    if (!brands) continue
-    for (const brand of brands) {
-      paths.push({
-        params: { category: cat.slug, brand: brand.slug },
-        props: { categoryName: cat.name, brandName: brand.name, categoryAlternates: alternates },
-      })
-    }
-  }
-  return paths
-}
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
 
 const { category, brand } = Astro.params as { category: string; brand: string }
-const { categoryName, brandName, categoryAlternates } = Astro.props as { categoryName: string; brandName: string; categoryAlternates: any[] }
+const [{ data: categoryData }, { data: brandData }] = await Promise.all([
+  getCategoryByLocaleSlug(locale, category),
+  getBrandBySlug(brand),
+])
+const categoryName = categoryData?.name ?? ''
+const brandName = brandData?.name ?? ''
 const siteUrl = `https://${siteConfig.domain}`
-const alternateUrls = (categoryAlternates ?? []).map((alt: any) => ({
+const categoryAlternates = categoryData?.category_id ? await getCategoryAlternates(categoryData.category_id) : []
+const alternateUrls = categoryAlternates.map((alt: any) => ({
   locale: alt.locale,
   url: buildBrandUrl(siteUrl, alt.locale, alt.slug, brand),
 }))
@@ -58,11 +48,7 @@ const breadcrumbs = [
 // the live DB) — this used to be a critical/high/medium/low map that never matched
 // anything, and printed the raw untranslated value. See EN's [category]/[brand]/index.astro
 // for the matching (correct) convention.
-const severityBadge: Record<string, { cls: string; label: string }> = {
-  easy:     { cls: 'badge-green',  label: t(locale, 'severity.easy') },
-  medium:   { cls: 'badge-yellow', label: t(locale, 'severity.medium') },
-  advanced: { cls: 'badge-red',    label: t(locale, 'severity.advanced') },
-}
+const severityBadge = getSeverityBadges(locale)
 ---
 
 <PageLayout
@@ -244,8 +230,8 @@ const severityBadge: Record<string, { cls: string; label: string }> = {
   .ec-card-left { display: flex; align-items: center; gap: 0.5rem; min-width: 130px; flex-shrink: 0; }
   .ec-code { font-family: monospace; font-size: 1rem; font-weight: 700; color: #111827; }
   .ec-badge { font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.1rem 0.4rem; border-radius: 999px; white-space: nowrap; }
-  .badge-red { background: #fef2f2; color: #dc2626; } .badge-orange { background: #fff7ed; color: #ea580c; }
-  .badge-yellow { background: #fefce8; color: #ca8a04; } .badge-green { background: #f0fdf4; color: #16a34a; }
+  .severity-advanced { background: #fef2f2; color: #dc2626; }
+  .severity-medium { background: #fefce8; color: #ca8a04; } .severity-easy { background: #f0fdf4; color: #16a34a; }
   .badge-gray { background: #f3f4f6; color: #6b7280; }
   .ec-desc { font-size: 0.875rem; color: #374151; margin: 0; flex: 1; line-height: 1.5; }
   .ec-card-right { flex-shrink: 0; min-width: 90px; text-align: right; }

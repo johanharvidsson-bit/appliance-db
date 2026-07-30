@@ -1,18 +1,15 @@
 ---
+/** On-demand (SSR) — see src/pages/[category]/[brand]/[slug]/index.astro for why. */
+export const prerender = false
+
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
-import { getBrandCategoryPairsWithFaults, getFaultsByBrandCategoryLocale, getCategoryAlternates, getBrandBySlug, getCategoryBySlug } from '~/lib/queries'
+import { getFaultsByBrandCategoryLocale, getCategoryAlternates, getBrandBySlug, getCategoryBySlug } from '~/lib/queries'
 import { buildFaultListingUrl } from '~/lib/locales'
-import { t } from '~/lib/ui'
+import { t, getSeverityBadges } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
-export async function getStaticPaths() {
-  const pairs = await getBrandCategoryPairsWithFaults('en')
-  return pairs.map((p) => ({
-    params: { category: p.category_slug, brand: p.brand_slug },
-    props: {},
-  }))
-}
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
 
 const { category, brand } = Astro.params as { category: string; brand: string }
 const siteUrl = `https://${siteConfig.domain}`
@@ -44,11 +41,7 @@ const breadcrumbs = [
   { name: t('en', 'problems.breadcrumb'), url: pageUrl },
 ]
 
-const severityBadge: Record<string, { cls: string; label: string }> = {
-  easy:     { cls: 'severity-easy',     label: t('en', 'severity.easy') },
-  medium:   { cls: 'severity-medium',   label: t('en', 'severity.medium') },
-  advanced: { cls: 'severity-advanced', label: t('en', 'severity.advanced') },
-}
+const severityBadge = getSeverityBadges('en')
 ---
 
 <PageLayout

@@ -1,27 +1,23 @@
 ---
+/** On-demand (SSR) — see EN counterpart's file-header comment for why. */
+export const prerender = false
+
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import { supabase } from '~/lib/supabase'
-import { logged, paginateAll } from '~/lib/queries'
+import { logged, paginateAll, getBrandBySlug } from '~/lib/queries'
 import { siteConfig } from 'site-config'
 import { t } from '~/lib/ui'
 
 const locale = 'sv'
 
-export async function getStaticPaths() {
-  const { data: brands } = await logged(
-    supabase.from('brands').select('id, name, slug').eq('is_active', true),
-    'sv/brands/[brandSlug]:getStaticPaths'
-  )
-
-  return (brands ?? []).map((brand: any) => ({
-    params: { brandSlug: brand.slug },
-    props: { brandId: brand.id, brandName: brand.name },
-  }))
-}
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
 
 const { brandSlug } = Astro.params as { brandSlug: string }
-const { brandId, brandName } = Astro.props as { brandId: number; brandName: string }
+const { data: brandRow } = await getBrandBySlug(brandSlug)
+if (!brandRow) return new Response(null, { status: 404 })
+const brandId: number = brandRow.id
+const brandName: string = brandRow.name
 const siteUrl = `https://${siteConfig.domain}`
 
 // Get distinct categories this brand has models in (not error_codes — those

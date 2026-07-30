@@ -1,4 +1,7 @@
 ---
+/** On-demand (SSR) — see src/pages/[category]/[brand]/[slug]/index.astro for why. */
+export const prerender = false
+
 import PageLayout from '~/layouts/PageLayout.astro'
 import { siteConfig } from 'site-config'
 import { supabase } from '~/lib/supabase'
@@ -8,6 +11,11 @@ import HeroWidget from '~/components/HeroWidget.astro'
 import ApplianceTypeGrid from '~/components/ApplianceTypeGrid.astro'
 import BrandsSection from '~/components/BrandsSection.astro'
 import TrendingAndGuides from '~/components/TrendingAndGuides.astro'
+
+// This page re-runs a full models-table paginated scan (~35 round trips) on every
+// request now that it's on-demand rather than built once at deploy time — edge
+// caching matters a lot more here than on most pages.
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
 
 // ── 1. Categories with EN names ───────────────────────────────────────────────
 const { data: catTranslations } = await logged(

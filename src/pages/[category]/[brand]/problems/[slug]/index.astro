@@ -1,29 +1,28 @@
 ---
+/** On-demand (SSR) — see src/pages/[category]/[brand]/[slug]/index.astro for why. */
+export const prerender = false
+
 import PageLayout from '~/layouts/PageLayout.astro'
 import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
 import QuickFixBox from '~/components/QuickFixBox.astro'
 import StepsSection from '~/components/StepsSection.astro'
 import FaqSection from '~/components/FaqSection.astro'
 import SparePartsSection from '~/components/SparePartsSection.astro'
-import { getAllFaultArticleSlugs, getFaultArticle, getArticleFaultId, getFaultById, getFaultArticleAlternates, getFaultErrorCodes } from '~/lib/queries'
+import { getFaultArticleBySlug, getFaultArticle, getArticleFaultId, getFaultById, getFaultArticleAlternates, getFaultErrorCodes } from '~/lib/queries'
 import { parseJson } from '~/lib/utils'
 import { buildFaultArticleUrl } from '~/lib/locales'
-import { t } from '~/lib/ui'
+import { t, getSeverityBadges } from '~/lib/ui'
 import { siteConfig } from 'site-config'
 
-export async function getStaticPaths() {
-  const { data: articles } = await getAllFaultArticleSlugs('en')
-  if (!articles) return []
-  return articles.map((a: any) => ({
-    params: { category: a.category_slug, brand: a.brand_slug, slug: a.slug },
-    props: { articleId: a.article_id },
-  }))
-}
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
 
 const { category, brand, slug } = Astro.params as { category: string; brand: string; slug: string }
-const { articleId } = Astro.props as { articleId: number }
 const siteUrl = `https://${siteConfig.domain}`
 const pageUrl = `${siteUrl}/${category}/${brand}/problems/${slug}/`
+
+const matched = await getFaultArticleBySlug('en', category, brand, slug)
+if (!matched) return new Response(null, { status: 404 })
+const articleId = matched.article_id
 
 const { data: article } = await getFaultArticle('en', articleId)
 
@@ -101,11 +100,7 @@ const breadcrumbs = [
   { name: article?.h1 ?? slug, url: pageUrl },
 ]
 
-const severityBadge: Record<string, { cls: string; label: string }> = {
-  easy:     { cls: 'severity-easy',     label: t('en', 'severity.easy') },
-  medium:   { cls: 'severity-medium',   label: t('en', 'severity.medium') },
-  advanced: { cls: 'severity-advanced', label: t('en', 'severity.advanced') },
-}
+const severityBadge = getSeverityBadges('en')
 const badge = fault?.severity ? (severityBadge[fault.severity] ?? null) : null
 ---
 

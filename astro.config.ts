@@ -3,7 +3,6 @@ import { fileURLToPath } from 'url';
 
 import { defineConfig } from 'astro/config';
 
-import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
@@ -24,9 +23,15 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  // 'server' + the Cloudflare adapter: most routes opt into static prerendering
-  // via `export const prerender = true`; model detail pages (the ~20k pages
-  // that blew Cloudflare Pages' build time/file-count limits) render on-demand.
+  // 'server' + the Cloudflare adapter: the whole site renders on-demand (see git
+  // log "Switch every remaining static page to SSR") — Cloudflare Pages' _routes.json
+  // caps at 100 include/exclude rules, and one exclude-rule-per-static-file blew
+  // that cap once SV parity pushed the static page count past ~337.
+  //
+  // Sitemap: @astrojs/sitemap only knows about statically-prerendered routes, so
+  // with nothing prerendered it can't discover the ~48k model/article/category
+  // URLs anymore — removed in favor of hand-rolled sitemap-*.xml.ts endpoints
+  // that query the DB directly (see those files + public/robots.txt).
   output: 'server',
   adapter: cloudflare(),
 
@@ -43,7 +48,6 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    sitemap(),
     mdx(),
     icon({
       include: {

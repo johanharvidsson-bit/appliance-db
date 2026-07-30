@@ -312,3 +312,20 @@ export function t(locale: string, key: UiKeys, vars?: Record<string, string>): s
   }
   return str
 }
+
+export interface SeverityBadge { cls: string; label: string }
+
+/**
+ * The error_codes/faults `severity` column is 'easy' | 'medium' | 'advanced'
+ * (verified against the live DB). This was previously hand-duplicated in 8
+ * different page files — one copy used a completely different (wrong,
+ * untranslated) vocabulary and silently broke severity badges on that one
+ * locale/page until caught. Single source of truth now.
+ */
+export function getSeverityBadges(locale: string): Record<'easy' | 'medium' | 'advanced', SeverityBadge> {
+  return {
+    easy: { cls: 'severity-easy', label: t(locale, 'severity.easy') },
+    medium: { cls: 'severity-medium', label: t(locale, 'severity.medium') },
+    advanced: { cls: 'severity-advanced', label: t(locale, 'severity.advanced') },
+  }
+}

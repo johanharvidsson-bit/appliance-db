@@ -229,6 +229,39 @@ export async function getAllModelSlugs() {
   return { data: shaped, error: null }
 }
 
+/**
+ * All model slugs with brand slug + BOTH locales' category slugs, for the
+ * hand-rolled sitemap (src/pages/sitemap-models-*.xml.ts) — one full paginated
+ * pass over ~48k models reused for both the /en/ and /sv/ sitemap files
+ * instead of querying twice. Category slugs are resolved via a tiny (7-row)
+ * lookup rather than an embedded join, to keep the big paginated query cheap.
+ */
+export async function getAllModelSlugsForSitemap() {
+  const [{ data: catsEn }, { data: catsSv }] = await Promise.all([
+    logged(supabase.from('categories').select('id, slug_en'), 'getAllModelSlugsForSitemap:categoriesEn'),
+    logged(supabase.from('category_translations').select('category_id, slug').eq('locale', 'sv'), 'getAllModelSlugsForSitemap:categoriesSv'),
+  ])
+  const enSlugByCatId = new Map<number, string>((catsEn ?? []).map((c: any) => [c.id, c.slug_en]))
+  const svSlugByCatId = new Map<number, string>((catsSv ?? []).map((c: any) => [c.category_id, c.slug]))
+
+  const all = await paginateAll(
+    (from, to) =>
+      supabase
+        .from('models')
+        .select('slug, category_id, brands!inner(slug, is_active)')
+        .eq('brands.is_active', true)
+        .range(from, to),
+    'getAllModelSlugsForSitemap:models'
+  )
+
+  return all.map((m: any) => ({
+    slug: m.slug as string,
+    brand_slug: m.brands?.slug as string,
+    category_slug_en: enSlugByCatId.get(m.category_id) as string | undefined,
+    category_slug_sv: svSlugByCatId.get(m.category_id) as string | undefined,
+  })).filter((m) => m.slug && m.brand_slug && m.category_slug_en && m.category_slug_sv)
+}
+
 // ── Error codes ───────────────────────────────────────────────────────────────
 
 export async function getErrorCodesByBrandCategory(brandSlug: string, categorySlug: string) {
@@ -698,6 +731,46 @@ export async function getAllFaultArticleSlugs(locale: string) {
   }).filter((a): a is NonNullable<typeof a> => !!a && !!a.slug && !!a.brand_slug && !!a.category_slug)
 
   return { data: shaped, error: null }
+}
+
+/**
+ * Targeted single-row lookup: resolve (locale, category, brand, slug) to an
+ * article_id for a fault article. Used by the on-demand problems/[slug] route
+ * now that it can no longer get articleId from getStaticPaths props (the
+ * whole site moved to SSR — see git log "Switch every remaining static page
+ * to SSR"). Avoids an embedded articles→faults join (may not be registered
+ * in PostgREST, see getFaultArticle below) by resolving fault_id then
+ * checking its brand/category in a second step, same defensive pattern as
+ * attachFaultArticleSlugs.
+ */
+export async function getFaultArticleBySlug(locale: string, categorySlug: string, brandSlug: string, slug: string) {
+  const [catId, brandId] = await Promise.all([getCategoryIdByLocaleSlug(locale, categorySlug), getBrandId(brandSlug)])
+  if (!catId || !brandId) return null
+
+  const { data: atRows } = await logged(
+    supabase
+      .from('article_translations')
+      .select('slug, articles!inner ( id, article_type, fault_id )')
+      .eq('locale', locale)
+      .eq('slug', slug)
+      .eq('articles.article_type', 'fault')
+      .in('translation_status', publishedStatuses(locale)),
+    `getFaultArticleBySlug:translations(${locale}, ${categorySlug}, ${brandSlug}, ${slug})`
+  )
+  if (!atRows || atRows.length === 0) return null
+
+  for (const at of atRows as any[]) {
+    const faultId = at.articles?.fault_id
+    if (!faultId) continue
+    const { data: faultRow } = await logged(
+      supabase.from('faults').select('brand_id, category_id').eq('id', faultId).single(),
+      `getFaultArticleBySlug:fault(${faultId})`
+    )
+    if (faultRow?.brand_id === brandId && faultRow?.category_id === catId) {
+      return { article_id: at.articles.id as number }
+    }
+  }
+  return null
 }
 
 /**

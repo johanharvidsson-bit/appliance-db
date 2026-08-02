@@ -1,6 +1,33 @@
+# Secrets and machine-local environment files
 .env
+.env.*
+!.env.example
+
+# Python environments and bytecode
+.venv/
+venv/
 __pycache__/
 *.pyc
 *.pyo
-logs/*.log
+
+# Runtime and operational state
+logs/
+STATUS.md
+
+# Raw production rollback data and regenerable runtime output
+data/backups/
+data/generated/
+data/manuals/
+data/**/before-*.json
+data/**/*-before-*.json
+data/**/*backup*.json
+data/**/*rollback*.json
+data/article_priority0_current.csv
+data/article_priority0_current.json
+data/p1-after-failed-pilot.csv
+data/p1-after-failed-pilot.json
+data/reports/article-priority0-audit-2026-07-30.csv
+data/reports/article-priority0-audit-2026-07-30.json
+
+# Local assistant configuration
 .claude/

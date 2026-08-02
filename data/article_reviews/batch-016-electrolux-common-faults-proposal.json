@@ -1,0 +1,835 @@
+{
+  "batch": "016-electrolux-common-faults",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    349,
+    350,
+    353,
+    354,
+    355
+  ],
+  "sources": [
+    "https://support.electrolux.co.uk/support-articles/article/washer-dryer-displays-error-message-e20-or-c2-emits-2-beeps-or-2-flashes",
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-does-not-spin",
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-displays-error-code-e10-e11-c1-or-emits-1-beep-1-flash",
+    "https://support.electrolux.co.uk/support-articles/article/the-door-of-the-washing-machine-cannot-be-opened",
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-emits-noises-and-shakes-while-spinning"
+  ],
+  "translations": {
+    "349": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "washing-machine-wont-drain",
+        "sv_slug": "tvattmaskin-tommer-inte"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Won't Drain: Safe Checks",
+        "meta_description": "Washing Machine Won't Drain? See verified causes, safe manual-based checks and clear signs that authorised service is needed.",
+        "h1": "Washing Machine Won't Drain",
+        "description": "The washer cannot pump out its water.",
+        "quick_fix": "Check the drain hose, household drain and the user-accessible pump filter exactly as the model manual describes (about 5–30 minutes).",
+        "intro_html": "<p>The washer cannot pump out its water.</p><p>Check the drain hose, household drain and the user-accessible pump filter exactly as the model manual describes. Switch off and unplug before accessible cleaning and never use force.</p>",
+        "causes_json": [
+          {
+            "cause": "Drain hose restriction",
+            "detail": "The hose may be kinked, blocked or installed incorrectly."
+          },
+          {
+            "cause": "Blocked household drain",
+            "detail": "A sink trap or standpipe can prevent discharge."
+          },
+          {
+            "cause": "Blocked accessible pump filter",
+            "detail": "Lint or small objects may obstruct the filter on models that provide user access."
+          },
+          {
+            "cause": "Internal drain fault",
+            "detail": "A pump, level system or internal blockage requires diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check external conditions",
+            "detail": "Check the drain hose, household drain and the user-accessible pump filter exactly as the model manual describes."
+          },
+          {
+            "step": 3,
+            "action": "Follow the exact manual",
+            "detail": "Use the product number for the correct procedure; remove no panels and improvise no emergency release."
+          },
+          {
+            "step": 4,
+            "action": "Make one controlled test",
+            "detail": "Test once only when there is no leak, burning smell, smoke, heavy scraping noise or electrical fault."
+          },
+          {
+            "step": 5,
+            "action": "Arrange authorised service",
+            "detail": "Stop troubleshooting if the fault returns or an internal component is suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the fault remains after external checks, if the drum does not move normally or if the lock, pump, valve, sensor or mechanics are suspected.</p><p>Switch off immediately for water near electricity, burning smell, smoke, abnormal heat, tripped protection or severe grinding, scraping or impacts.</p>",
+        "prevention_html": "<p>Empty pockets, dose correctly, mix large and small items, avoid overloading and clean user-accessible filters and hoses at the manual's intervals.</p><p>Keep the washer stable and hoses free from pinching; this does not prevent internal component faults.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Check the drain hose, household drain and the user-accessible pump filter exactly as the model manual describes. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskinen tömmer inte: säkra kontroller",
+        "meta_description": "Tvättmaskinen tömmer inte? Se verifierade orsaker, säkra kontroller enligt manualen och tydliga tecken på att auktoriserad service behövs.",
+        "h1": "Tvättmaskinen tömmer inte",
+        "description": "Tvättmaskinen kan inte pumpa ut vattnet.",
+        "quick_fix": "Kontrollera avloppsslangen, fastighetens avlopp och det användaråtkomliga pumpfiltret exakt enligt modellens manual (cirka 5–30 minuter).",
+        "intro_html": "<p>Tvättmaskinen kan inte pumpa ut vattnet.</p><p>Kontrollera avloppsslangen, fastighetens avlopp och det användaråtkomliga pumpfiltret exakt enligt modellens manual. Stäng av och koppla ur före åtkomlig rengöring och använd aldrig våld.</p>",
+        "causes_json": [
+          {
+            "cause": "Begränsning i avloppsslangen",
+            "detail": "Slangen kan vara vikt, blockerad eller felmonterad."
+          },
+          {
+            "cause": "Blockerat fastighetsavlopp",
+            "detail": "Vattenlås eller avloppsrör kan hindra tömningen."
+          },
+          {
+            "cause": "Blockerat åtkomligt pumpfilter",
+            "detail": "Ludd eller små föremål kan hindra filtret på modeller med användaråtkomst."
+          },
+          {
+            "cause": "Internt tömningsfel",
+            "detail": "Pump, nivåsystem eller intern blockering kräver diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera yttre förhållanden",
+            "detail": "Kontrollera avloppsslangen, fastighetens avlopp och det användaråtkomliga pumpfiltret exakt enligt modellens manual."
+          },
+          {
+            "step": 3,
+            "action": "Följ exakt manual",
+            "detail": "Använd produktnumret för rätt instruktion; lossa inga paneler och improvisera ingen nödupplåsning."
+          },
+          {
+            "step": 4,
+            "action": "Gör ett kontrollerat test",
+            "detail": "Testa en gång endast när inget läckage, bränd lukt, rök, kraftigt skrapljud eller elfel finns."
+          },
+          {
+            "step": 5,
+            "action": "Boka auktoriserad service",
+            "detail": "Avsluta felsökningen om felet återkommer eller om en intern del misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om felet kvarstår efter yttre kontroller, om trumman inte rör sig normalt eller om lås, pump, ventil, givare eller mekanik misstänks.</p><p>Stäng av direkt vid vatten nära el, bränd lukt, rök, onormal värme, utlöst elskydd eller kraftiga malande/skrapande slag.</p>",
+        "prevention_html": "<p>Töm fickor, dosera rätt, blanda stora och små plagg, undvik överlast och håll användaråtkomliga filter och slangar rena enligt manualens intervall.</p><p>Kontrollera att maskinen står stadigt och att slangar inte kläms; detta förebygger inte interna komponentfel.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Kontrollera avloppsslangen, fastighetens avlopp och det användaråtkomliga pumpfiltret exakt enligt modellens manual. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "350": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "wont-spin",
+        "sv_slug": "centrifugerar-inte"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Won't Spin: Safe Checks",
+        "meta_description": "Washing Machine Won't Spin? See verified causes, safe manual-based checks and clear signs that authorised service is needed.",
+        "h1": "Washing Machine Won't Spin",
+        "description": "The washer does not complete its spin phase.",
+        "quick_fix": "Check the selected option, redistribute the load and confirm that the washer can drain (about 5–30 minutes).",
+        "intro_html": "<p>The washer does not complete its spin phase.</p><p>Check the selected option, redistribute the load and confirm that the washer can drain. Switch off and unplug before accessible cleaning and never use force.</p>",
+        "causes_json": [
+          {
+            "cause": "Unbalanced or unsuitable load",
+            "detail": "One heavy item, overloading or a very small load may prevent safe spin."
+          },
+          {
+            "cause": "Rinse Hold or no-spin selected",
+            "detail": "The programme option can intentionally retain water or omit final spin."
+          },
+          {
+            "cause": "Drainage restriction",
+            "detail": "The washer normally cannot spin safely while water remains."
+          },
+          {
+            "cause": "Internal drive or sensing fault",
+            "detail": "Persistent failure requires professional diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check external conditions",
+            "detail": "Check the selected option, redistribute the load and confirm that the washer can drain."
+          },
+          {
+            "step": 3,
+            "action": "Follow the exact manual",
+            "detail": "Use the product number for the correct procedure; remove no panels and improvise no emergency release."
+          },
+          {
+            "step": 4,
+            "action": "Make one controlled test",
+            "detail": "Test once only when there is no leak, burning smell, smoke, heavy scraping noise or electrical fault."
+          },
+          {
+            "step": 5,
+            "action": "Arrange authorised service",
+            "detail": "Stop troubleshooting if the fault returns or an internal component is suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the fault remains after external checks, if the drum does not move normally or if the lock, pump, valve, sensor or mechanics are suspected.</p><p>Switch off immediately for water near electricity, burning smell, smoke, abnormal heat, tripped protection or severe grinding, scraping or impacts.</p>",
+        "prevention_html": "<p>Empty pockets, dose correctly, mix large and small items, avoid overloading and clean user-accessible filters and hoses at the manual's intervals.</p><p>Keep the washer stable and hoses free from pinching; this does not prevent internal component faults.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Check the selected option, redistribute the load and confirm that the washer can drain. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskinen centrifugerar inte: säkra kontroller",
+        "meta_description": "Tvättmaskinen centrifugerar inte? Se verifierade orsaker, säkra kontroller enligt manualen och tydliga tecken på att auktoriserad service behövs.",
+        "h1": "Tvättmaskinen centrifugerar inte",
+        "description": "Tvättmaskinen slutför inte centrifugeringen.",
+        "quick_fix": "Kontrollera valt tillval, fördela om lasten och bekräfta att maskinen kan tömma (cirka 5–30 minuter).",
+        "intro_html": "<p>Tvättmaskinen slutför inte centrifugeringen.</p><p>Kontrollera valt tillval, fördela om lasten och bekräfta att maskinen kan tömma. Stäng av och koppla ur före åtkomlig rengöring och använd aldrig våld.</p>",
+        "causes_json": [
+          {
+            "cause": "Obalanserad eller olämplig last",
+            "detail": "Ett tungt plagg, överlast eller mycket liten last kan stoppa säker centrifugering."
+          },
+          {
+            "cause": "Sköljstopp eller ingen centrifugering",
+            "detail": "Valt tillval kan avsiktligt behålla vatten eller hoppa över slutcentrifugering."
+          },
+          {
+            "cause": "Tömningshinder",
+            "detail": "Maskinen kan normalt inte centrifugera säkert när vatten finns kvar."
+          },
+          {
+            "cause": "Internt driv- eller givarfel",
+            "detail": "Bestående fel kräver professionell diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera yttre förhållanden",
+            "detail": "Kontrollera valt tillval, fördela om lasten och bekräfta att maskinen kan tömma."
+          },
+          {
+            "step": 3,
+            "action": "Följ exakt manual",
+            "detail": "Använd produktnumret för rätt instruktion; lossa inga paneler och improvisera ingen nödupplåsning."
+          },
+          {
+            "step": 4,
+            "action": "Gör ett kontrollerat test",
+            "detail": "Testa en gång endast när inget läckage, bränd lukt, rök, kraftigt skrapljud eller elfel finns."
+          },
+          {
+            "step": 5,
+            "action": "Boka auktoriserad service",
+            "detail": "Avsluta felsökningen om felet återkommer eller om en intern del misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om felet kvarstår efter yttre kontroller, om trumman inte rör sig normalt eller om lås, pump, ventil, givare eller mekanik misstänks.</p><p>Stäng av direkt vid vatten nära el, bränd lukt, rök, onormal värme, utlöst elskydd eller kraftiga malande/skrapande slag.</p>",
+        "prevention_html": "<p>Töm fickor, dosera rätt, blanda stora och små plagg, undvik överlast och håll användaråtkomliga filter och slangar rena enligt manualens intervall.</p><p>Kontrollera att maskinen står stadigt och att slangar inte kläms; detta förebygger inte interna komponentfel.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Kontrollera valt tillval, fördela om lasten och bekräfta att maskinen kan tömma. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "353": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "wont-fill",
+        "sv_slug": "fyller-inte-med-vatten"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Won't Fill With Water: Safe Checks",
+        "meta_description": "Washing Machine Won't Fill With Water? See verified causes, safe manual-based checks and clear signs that authorised service is needed.",
+        "h1": "Washing Machine Won't Fill With Water",
+        "description": "The washer receives no water or fills too slowly.",
+        "quick_fix": "Open the water tap fully and check water flow, the straight inlet hose and accessible inlet filter as the manual describes (about 5–30 minutes).",
+        "intro_html": "<p>The washer receives no water or fills too slowly.</p><p>Open the water tap fully and check water flow, the straight inlet hose and accessible inlet filter as the manual describes. Switch off and unplug before accessible cleaning and never use force.</p>",
+        "causes_json": [
+          {
+            "cause": "Water supply closed or weak",
+            "detail": "A closed tap or low flow prevents filling."
+          },
+          {
+            "cause": "Kinked inlet hose",
+            "detail": "A trapped or sharply bent hose restricts water."
+          },
+          {
+            "cause": "Blocked accessible inlet filter",
+            "detail": "Deposits at the hose connection can reduce flow."
+          },
+          {
+            "cause": "Internal inlet or level fault",
+            "detail": "A valve, wiring or sensor fault requires service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check external conditions",
+            "detail": "Open the water tap fully and check water flow, the straight inlet hose and accessible inlet filter as the manual describes."
+          },
+          {
+            "step": 3,
+            "action": "Follow the exact manual",
+            "detail": "Use the product number for the correct procedure; remove no panels and improvise no emergency release."
+          },
+          {
+            "step": 4,
+            "action": "Make one controlled test",
+            "detail": "Test once only when there is no leak, burning smell, smoke, heavy scraping noise or electrical fault."
+          },
+          {
+            "step": 5,
+            "action": "Arrange authorised service",
+            "detail": "Stop troubleshooting if the fault returns or an internal component is suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the fault remains after external checks, if the drum does not move normally or if the lock, pump, valve, sensor or mechanics are suspected.</p><p>Switch off immediately for water near electricity, burning smell, smoke, abnormal heat, tripped protection or severe grinding, scraping or impacts.</p>",
+        "prevention_html": "<p>Empty pockets, dose correctly, mix large and small items, avoid overloading and clean user-accessible filters and hoses at the manual's intervals.</p><p>Keep the washer stable and hoses free from pinching; this does not prevent internal component faults.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Open the water tap fully and check water flow, the straight inlet hose and accessible inlet filter as the manual describes. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskinen fyller inte med vatten: säkra kontroller",
+        "meta_description": "Tvättmaskinen fyller inte med vatten? Se verifierade orsaker, säkra kontroller enligt manualen och tydliga tecken på att auktoriserad service behövs.",
+        "h1": "Tvättmaskinen fyller inte med vatten",
+        "description": "Tvättmaskinen får inget vatten eller fyller för långsamt.",
+        "quick_fix": "Öppna vattenkranen helt och kontrollera flöde, rak tilloppsslang och åtkomligt inloppsfilter enligt manualen (cirka 5–30 minuter).",
+        "intro_html": "<p>Tvättmaskinen får inget vatten eller fyller för långsamt.</p><p>Öppna vattenkranen helt och kontrollera flöde, rak tilloppsslang och åtkomligt inloppsfilter enligt manualen. Stäng av och koppla ur före åtkomlig rengöring och använd aldrig våld.</p>",
+        "causes_json": [
+          {
+            "cause": "Stängd eller svag vattentillförsel",
+            "detail": "Stängd kran eller lågt flöde hindrar fyllning."
+          },
+          {
+            "cause": "Vikt tilloppsslang",
+            "detail": "En klämd eller kraftigt böjd slang begränsar vattnet."
+          },
+          {
+            "cause": "Blockerat åtkomligt inloppsfilter",
+            "detail": "Avlagringar vid slanganslutningen kan minska flödet."
+          },
+          {
+            "cause": "Internt inlopps- eller nivåfel",
+            "detail": "Ventil, kablage eller givare kräver service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera yttre förhållanden",
+            "detail": "Öppna vattenkranen helt och kontrollera flöde, rak tilloppsslang och åtkomligt inloppsfilter enligt manualen."
+          },
+          {
+            "step": 3,
+            "action": "Följ exakt manual",
+            "detail": "Använd produktnumret för rätt instruktion; lossa inga paneler och improvisera ingen nödupplåsning."
+          },
+          {
+            "step": 4,
+            "action": "Gör ett kontrollerat test",
+            "detail": "Testa en gång endast när inget läckage, bränd lukt, rök, kraftigt skrapljud eller elfel finns."
+          },
+          {
+            "step": 5,
+            "action": "Boka auktoriserad service",
+            "detail": "Avsluta felsökningen om felet återkommer eller om en intern del misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om felet kvarstår efter yttre kontroller, om trumman inte rör sig normalt eller om lås, pump, ventil, givare eller mekanik misstänks.</p><p>Stäng av direkt vid vatten nära el, bränd lukt, rök, onormal värme, utlöst elskydd eller kraftiga malande/skrapande slag.</p>",
+        "prevention_html": "<p>Töm fickor, dosera rätt, blanda stora och små plagg, undvik överlast och håll användaråtkomliga filter och slangar rena enligt manualens intervall.</p><p>Kontrollera att maskinen står stadigt och att slangar inte kläms; detta förebygger inte interna komponentfel.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Öppna vattenkranen helt och kontrollera flöde, rak tilloppsslang och åtkomligt inloppsfilter enligt manualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "354": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "door-wont-open",
+        "sv_slug": "dorren-oppnas-inte"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Door Won't Open: Safe Checks",
+        "meta_description": "Washing Machine Door Won't Open? See verified causes, safe manual-based checks and clear signs that authorised service is needed.",
+        "h1": "Washing Machine Door Won't Open",
+        "description": "The safety lock has not released, often because the cycle just ended or water remains.",
+        "quick_fix": "Wait 3–5 minutes, check the lock symbol and drain only by the documented procedure for the exact model (about 5–30 minutes).",
+        "intro_html": "<p>The safety lock has not released, often because the cycle just ended or water remains.</p><p>Wait 3–5 minutes, check the lock symbol and drain only by the documented procedure for the exact model. Switch off and unplug before accessible cleaning and never use force.</p>",
+        "causes_json": [
+          {
+            "cause": "Normal lock delay",
+            "detail": "The lock may remain active for about 3–5 minutes after a cycle."
+          },
+          {
+            "cause": "Water remains in the drum",
+            "detail": "The safety lock prevents opening while water is present."
+          },
+          {
+            "cause": "Water or laundry is too hot",
+            "detail": "The lock can remain engaged until conditions are safe."
+          },
+          {
+            "cause": "Door-lock or control fault",
+            "detail": "A lock that stays engaged after safe checks requires service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check external conditions",
+            "detail": "Wait 3–5 minutes, check the lock symbol and drain only by the documented procedure for the exact model."
+          },
+          {
+            "step": 3,
+            "action": "Follow the exact manual",
+            "detail": "Use the product number for the correct procedure; remove no panels and improvise no emergency release."
+          },
+          {
+            "step": 4,
+            "action": "Make one controlled test",
+            "detail": "Test once only when there is no leak, burning smell, smoke, heavy scraping noise or electrical fault."
+          },
+          {
+            "step": 5,
+            "action": "Arrange authorised service",
+            "detail": "Stop troubleshooting if the fault returns or an internal component is suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the fault remains after external checks, if the drum does not move normally or if the lock, pump, valve, sensor or mechanics are suspected.</p><p>Switch off immediately for water near electricity, burning smell, smoke, abnormal heat, tripped protection or severe grinding, scraping or impacts.</p>",
+        "prevention_html": "<p>Empty pockets, dose correctly, mix large and small items, avoid overloading and clean user-accessible filters and hoses at the manual's intervals.</p><p>Keep the washer stable and hoses free from pinching; this does not prevent internal component faults.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Wait 3–5 minutes, check the lock symbol and drain only by the documented procedure for the exact model. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskinens dörr öppnas inte: säkra kontroller",
+        "meta_description": "Tvättmaskinens dörr öppnas inte? Se verifierade orsaker, säkra kontroller enligt manualen och tydliga tecken på att auktoriserad service behövs.",
+        "h1": "Tvättmaskinens dörr öppnas inte",
+        "description": "Säkerhetslåset har inte släppt, ofta för att programmet nyss avslutats eller vatten finns kvar.",
+        "quick_fix": "Vänta 3–5 minuter, kontrollera låssymbolen och töm bara enligt den dokumenterade proceduren för exakt modell (cirka 5–30 minuter).",
+        "intro_html": "<p>Säkerhetslåset har inte släppt, ofta för att programmet nyss avslutats eller vatten finns kvar.</p><p>Vänta 3–5 minuter, kontrollera låssymbolen och töm bara enligt den dokumenterade proceduren för exakt modell. Stäng av och koppla ur före åtkomlig rengöring och använd aldrig våld.</p>",
+        "causes_json": [
+          {
+            "cause": "Normal låsfördröjning",
+            "detail": "Låset kan vara aktivt cirka 3–5 minuter efter programslut."
+          },
+          {
+            "cause": "Vatten finns kvar i trumman",
+            "detail": "Säkerhetslåset hindrar öppning när vatten finns kvar."
+          },
+          {
+            "cause": "Vatten eller tvätt är för varm",
+            "detail": "Låset kan förbli aktivt tills förhållandena är säkra."
+          },
+          {
+            "cause": "Fel på lucklås eller styrning",
+            "detail": "Ett lås som förblir aktivt efter säkra kontroller kräver service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera yttre förhållanden",
+            "detail": "Vänta 3–5 minuter, kontrollera låssymbolen och töm bara enligt den dokumenterade proceduren för exakt modell."
+          },
+          {
+            "step": 3,
+            "action": "Följ exakt manual",
+            "detail": "Använd produktnumret för rätt instruktion; lossa inga paneler och improvisera ingen nödupplåsning."
+          },
+          {
+            "step": 4,
+            "action": "Gör ett kontrollerat test",
+            "detail": "Testa en gång endast när inget läckage, bränd lukt, rök, kraftigt skrapljud eller elfel finns."
+          },
+          {
+            "step": 5,
+            "action": "Boka auktoriserad service",
+            "detail": "Avsluta felsökningen om felet återkommer eller om en intern del misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om felet kvarstår efter yttre kontroller, om trumman inte rör sig normalt eller om lås, pump, ventil, givare eller mekanik misstänks.</p><p>Stäng av direkt vid vatten nära el, bränd lukt, rök, onormal värme, utlöst elskydd eller kraftiga malande/skrapande slag.</p>",
+        "prevention_html": "<p>Töm fickor, dosera rätt, blanda stora och små plagg, undvik överlast och håll användaråtkomliga filter och slangar rena enligt manualens intervall.</p><p>Kontrollera att maskinen står stadigt och att slangar inte kläms; detta förebygger inte interna komponentfel.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Vänta 3–5 minuter, kontrollera låssymbolen och töm bara enligt den dokumenterade proceduren för exakt modell. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "355": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "making-loud-noise",
+        "sv_slug": "låter-högt"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Making Loud Noise: Safe Checks",
+        "meta_description": "Washing Machine Making Loud Noise? See verified causes, safe manual-based checks and clear signs that authorised service is needed.",
+        "h1": "Washing Machine Making Loud Noise",
+        "description": "Excessive noise may come from installation, an unbalanced load or an accessible foreign object.",
+        "quick_fix": "Stop the washer, redistribute the load and check levelling, clearances and accessible filter areas described in the manual (about 5–30 minutes).",
+        "intro_html": "<p>Excessive noise may come from installation, an unbalanced load or an accessible foreign object.</p><p>Stop the washer, redistribute the load and check levelling, clearances and accessible filter areas described in the manual. Switch off and unplug before accessible cleaning and never use force.</p>",
+        "causes_json": [
+          {
+            "cause": "Unbalanced or overloaded load",
+            "detail": "A single heavy item or overloaded drum can cause impacts during spin."
+          },
+          {
+            "cause": "Installation or levelling",
+            "detail": "Transit bolts, uneven feet or contact with furniture can amplify vibration."
+          },
+          {
+            "cause": "Accessible foreign object",
+            "detail": "Coins, buttons or loose fittings may strike the drum or collect in the filter."
+          },
+          {
+            "cause": "Internal mechanical fault",
+            "detail": "Grinding, scraping or worsening noise requires professional diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check external conditions",
+            "detail": "Stop the washer, redistribute the load and check levelling, clearances and accessible filter areas described in the manual."
+          },
+          {
+            "step": 3,
+            "action": "Follow the exact manual",
+            "detail": "Use the product number for the correct procedure; remove no panels and improvise no emergency release."
+          },
+          {
+            "step": 4,
+            "action": "Make one controlled test",
+            "detail": "Test once only when there is no leak, burning smell, smoke, heavy scraping noise or electrical fault."
+          },
+          {
+            "step": 5,
+            "action": "Arrange authorised service",
+            "detail": "Stop troubleshooting if the fault returns or an internal component is suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the fault remains after external checks, if the drum does not move normally or if the lock, pump, valve, sensor or mechanics are suspected.</p><p>Switch off immediately for water near electricity, burning smell, smoke, abnormal heat, tripped protection or severe grinding, scraping or impacts.</p>",
+        "prevention_html": "<p>Empty pockets, dose correctly, mix large and small items, avoid overloading and clean user-accessible filters and hoses at the manual's intervals.</p><p>Keep the washer stable and hoses free from pinching; this does not prevent internal component faults.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Stop the washer, redistribute the load and check levelling, clearances and accessible filter areas described in the manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskinen låter högt: säkra kontroller",
+        "meta_description": "Tvättmaskinen låter högt? Se verifierade orsaker, säkra kontroller enligt manualen och tydliga tecken på att auktoriserad service behövs.",
+        "h1": "Tvättmaskinen låter högt",
+        "description": "Kraftigt ljud kan bero på installation, obalanserad last eller ett åtkomligt främmande föremål.",
+        "quick_fix": "Stoppa maskinen, fördela om lasten och kontrollera nivå, frigång och åtkomliga filterområden enligt manualen (cirka 5–30 minuter).",
+        "intro_html": "<p>Kraftigt ljud kan bero på installation, obalanserad last eller ett åtkomligt främmande föremål.</p><p>Stoppa maskinen, fördela om lasten och kontrollera nivå, frigång och åtkomliga filterområden enligt manualen. Stäng av och koppla ur före åtkomlig rengöring och använd aldrig våld.</p>",
+        "causes_json": [
+          {
+            "cause": "Obalanserad eller överlastad trumma",
+            "detail": "Ett tungt plagg eller överlast kan ge slag under centrifugering."
+          },
+          {
+            "cause": "Installation eller nivå",
+            "detail": "Transportbultar, ojämna fötter eller kontakt med inredning kan förstärka vibrationer."
+          },
+          {
+            "cause": "Åtkomligt främmande föremål",
+            "detail": "Mynt, knappar eller lösa detaljer kan slå mot trumman eller fastna i filtret."
+          },
+          {
+            "cause": "Internt mekaniskt fel",
+            "detail": "Malande, skrapande eller tilltagande ljud kräver professionell diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera yttre förhållanden",
+            "detail": "Stoppa maskinen, fördela om lasten och kontrollera nivå, frigång och åtkomliga filterområden enligt manualen."
+          },
+          {
+            "step": 3,
+            "action": "Följ exakt manual",
+            "detail": "Använd produktnumret för rätt instruktion; lossa inga paneler och improvisera ingen nödupplåsning."
+          },
+          {
+            "step": 4,
+            "action": "Gör ett kontrollerat test",
+            "detail": "Testa en gång endast när inget läckage, bränd lukt, rök, kraftigt skrapljud eller elfel finns."
+          },
+          {
+            "step": 5,
+            "action": "Boka auktoriserad service",
+            "detail": "Avsluta felsökningen om felet återkommer eller om en intern del misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om felet kvarstår efter yttre kontroller, om trumman inte rör sig normalt eller om lås, pump, ventil, givare eller mekanik misstänks.</p><p>Stäng av direkt vid vatten nära el, bränd lukt, rök, onormal värme, utlöst elskydd eller kraftiga malande/skrapande slag.</p>",
+        "prevention_html": "<p>Töm fickor, dosera rätt, blanda stora och små plagg, undvik överlast och håll användaråtkomliga filter och slangar rena enligt manualens intervall.</p><p>Kontrollera att maskinen står stadigt och att slangar inte kläms; detta förebygger inte interna komponentfel.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Stoppa maskinen, fördela om lasten och kontrollera nivå, frigång och åtkomliga filterområden enligt manualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

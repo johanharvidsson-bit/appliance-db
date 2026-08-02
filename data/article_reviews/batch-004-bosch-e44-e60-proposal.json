@@ -1,0 +1,884 @@
+{
+  "batch": "004-bosch-e44-e60",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    183,
+    184,
+    185,
+    186,
+    187
+  ],
+  "sources": [
+    "https://www.bosch-home.com/de/service/support/waschmaschine",
+    "https://www.bosch-home.com/ch/de/service/hilfe-und-support/waschmaschine",
+    "https://media3.bosch-home.com/Documents/9001430458_B.pdf",
+    "https://media3.bosch-home.com/Documents/9001717406_A.pdf"
+  ],
+  "translations": {
+    "183": {
+      "code": "E44",
+      "preserve": {
+        "en_slug": "error-code-e44",
+        "sv_slug": "felkod-e44"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E44: Safe Next Steps",
+        "meta_description": "Bosch washer showing E44? Learn the verified code meaning, the safe action to take now, what not to inspect yourself and when to arrange Bosch service.",
+        "h1": "What Does E44 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies E44 as an indication that Bosch does not provide a universal meaning for bare E44 in its general washer list.",
+        "quick_fix": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>E44 requires the complete display and the washer's E-Nr for safe interpretation. Bosch does not provide a universal meaning for bare e44 in its general washer list.</p><p>Do not borrow a meaning from a dishwasher or another Bosch washer family. Do not remove panels or order a part until the exact manual or Bosch service identifies the fault.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete code information",
+            "detail": "Punctuation, extra digits or an F can change the meaning. Record the complete display."
+          },
+          {
+            "cause": "Model and market differences",
+            "detail": "Bosch families can use different code formats. The E-Nr is needed for the correct manual."
+          },
+          {
+            "cause": "A condition described by the exact manual",
+            "detail": "Perform only the external check or user maintenance explicitly stated for that model."
+          },
+          {
+            "cause": "A persistent condition requiring service",
+            "detail": "If the exact manual provides no user action or the code returns, Bosch service should diagnose the washer."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E44 display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from E44 alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E44?",
+            "answer": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E44 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E44 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin felkod E44: säkra nästa steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E44? Läs kodens verifierade betydelse, säker första åtgärd, vad du inte ska kontrollera själv och när service behövs.",
+        "h1": "Vad betyder E44 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att E44 betyder att Bosch inte anger någon generell betydelse för enbart E44 i sin övergripande tvättmaskinslista.",
+        "quick_fix": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>För E44 krävs hela displaykoden och maskinens E‑Nr för en säker tolkning. Bosch inte anger någon generell betydelse för enbart e44 i sin övergripande tvättmaskinslista.</p><p>Använd inte kodbetydelser från en diskmaskin eller annan Bosch-serie. Ta inte bort paneler och beställ inte en reservdel innan rätt manual eller Bosch service har identifierat felet.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig kodinformation",
+            "detail": "Skiljetecken, ytterligare siffror eller ett F kan ändra betydelsen. Dokumentera hela displayen."
+          },
+          {
+            "cause": "Skillnader mellan modeller och marknader",
+            "detail": "Bosch-serier kan använda olika kodformat. E‑Nr behövs för rätt manual."
+          },
+          {
+            "cause": "Ett tillstånd som manualen kan beskriva",
+            "detail": "Utför bara den yttre kontroll eller det användarunderhåll som uttryckligen anges för exakt modell."
+          },
+          {
+            "cause": "Ett kvarstående servicebehov",
+            "detail": "Om rätt manual saknar användaråtgärd eller koden återkommer ska Bosch service diagnostisera maskinen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E44-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från E44.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E44?",
+            "answer": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E44 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E44 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "184": {
+      "code": "E45",
+      "preserve": {
+        "en_slug": "error-code-e45",
+        "sv_slug": "felkod-e45"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E45: Safe Next Steps",
+        "meta_description": "Bosch washer showing E45? Learn the verified code meaning, the safe action to take now, what not to inspect yourself and when to arrange Bosch service.",
+        "h1": "What Does E45 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies E45 as an indication that Bosch does not provide a universal meaning for bare E45 in its general washer list.",
+        "quick_fix": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>E45 requires the complete display and the washer's E-Nr for safe interpretation. Bosch does not provide a universal meaning for bare e45 in its general washer list.</p><p>Do not borrow a meaning from a dishwasher or another Bosch washer family. Do not remove panels or order a part until the exact manual or Bosch service identifies the fault.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete code information",
+            "detail": "Punctuation, extra digits or an F can change the meaning. Record the complete display."
+          },
+          {
+            "cause": "Model and market differences",
+            "detail": "Bosch families can use different code formats. The E-Nr is needed for the correct manual."
+          },
+          {
+            "cause": "A condition described by the exact manual",
+            "detail": "Perform only the external check or user maintenance explicitly stated for that model."
+          },
+          {
+            "cause": "A persistent condition requiring service",
+            "detail": "If the exact manual provides no user action or the code returns, Bosch service should diagnose the washer."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E45 display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from E45 alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E45?",
+            "answer": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E45 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E45 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin felkod E45: säkra nästa steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E45? Läs kodens verifierade betydelse, säker första åtgärd, vad du inte ska kontrollera själv och när service behövs.",
+        "h1": "Vad betyder E45 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att E45 betyder att Bosch inte anger någon generell betydelse för enbart E45 i sin övergripande tvättmaskinslista.",
+        "quick_fix": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>För E45 krävs hela displaykoden och maskinens E‑Nr för en säker tolkning. Bosch inte anger någon generell betydelse för enbart e45 i sin övergripande tvättmaskinslista.</p><p>Använd inte kodbetydelser från en diskmaskin eller annan Bosch-serie. Ta inte bort paneler och beställ inte en reservdel innan rätt manual eller Bosch service har identifierat felet.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig kodinformation",
+            "detail": "Skiljetecken, ytterligare siffror eller ett F kan ändra betydelsen. Dokumentera hela displayen."
+          },
+          {
+            "cause": "Skillnader mellan modeller och marknader",
+            "detail": "Bosch-serier kan använda olika kodformat. E‑Nr behövs för rätt manual."
+          },
+          {
+            "cause": "Ett tillstånd som manualen kan beskriva",
+            "detail": "Utför bara den yttre kontroll eller det användarunderhåll som uttryckligen anges för exakt modell."
+          },
+          {
+            "cause": "Ett kvarstående servicebehov",
+            "detail": "Om rätt manual saknar användaråtgärd eller koden återkommer ska Bosch service diagnostisera maskinen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E45-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från E45.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E45?",
+            "answer": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E45 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E45 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "185": {
+      "code": "E47",
+      "preserve": {
+        "en_slug": "error-code-e47",
+        "sv_slug": "felkod-e47"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E47: Safe Next Steps",
+        "meta_description": "Bosch washer showing E47? Learn the verified code meaning, the safe action to take now, what not to inspect yourself and when to arrange Bosch service.",
+        "h1": "What Does E47 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies E47 as an indication that Bosch lists E47/F47/E00-47 for some washer families, but the exact model documentation is required for its meaning.",
+        "quick_fix": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>E47 requires the complete display and the washer's E-Nr for safe interpretation. Bosch lists e47/f47/e00-47 for some washer families, but the exact model documentation is required for its meaning.</p><p>Do not borrow a meaning from a dishwasher or another Bosch washer family. Do not remove panels or order a part until the exact manual or Bosch service identifies the fault.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete code information",
+            "detail": "Punctuation, extra digits or an F can change the meaning. Record the complete display."
+          },
+          {
+            "cause": "Model and market differences",
+            "detail": "Bosch families can use different code formats. The E-Nr is needed for the correct manual."
+          },
+          {
+            "cause": "A condition described by the exact manual",
+            "detail": "Perform only the external check or user maintenance explicitly stated for that model."
+          },
+          {
+            "cause": "A persistent condition requiring service",
+            "detail": "If the exact manual provides no user action or the code returns, Bosch service should diagnose the washer."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E47 display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from E47 alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E47?",
+            "answer": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E47 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E47 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin felkod E47: säkra nästa steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E47? Läs kodens verifierade betydelse, säker första åtgärd, vad du inte ska kontrollera själv och när service behövs.",
+        "h1": "Vad betyder E47 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att E47 betyder att Bosch listar E47/F47/E00-47 för vissa tvättmaskinsserier, men exakt modelldokumentation krävs för betydelsen.",
+        "quick_fix": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>För E47 krävs hela displaykoden och maskinens E‑Nr för en säker tolkning. Bosch listar e47/f47/e00-47 för vissa tvättmaskinsserier, men exakt modelldokumentation krävs för betydelsen.</p><p>Använd inte kodbetydelser från en diskmaskin eller annan Bosch-serie. Ta inte bort paneler och beställ inte en reservdel innan rätt manual eller Bosch service har identifierat felet.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig kodinformation",
+            "detail": "Skiljetecken, ytterligare siffror eller ett F kan ändra betydelsen. Dokumentera hela displayen."
+          },
+          {
+            "cause": "Skillnader mellan modeller och marknader",
+            "detail": "Bosch-serier kan använda olika kodformat. E‑Nr behövs för rätt manual."
+          },
+          {
+            "cause": "Ett tillstånd som manualen kan beskriva",
+            "detail": "Utför bara den yttre kontroll eller det användarunderhåll som uttryckligen anges för exakt modell."
+          },
+          {
+            "cause": "Ett kvarstående servicebehov",
+            "detail": "Om rätt manual saknar användaråtgärd eller koden återkommer ska Bosch service diagnostisera maskinen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E47-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från E47.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E47?",
+            "answer": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E47 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E47 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "186": {
+      "code": "E50",
+      "preserve": {
+        "en_slug": "error-code-e50",
+        "sv_slug": "felkod-e50"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E50: Safe Next Steps",
+        "meta_description": "Bosch washer showing E50? Learn the verified code meaning, the safe action to take now, what not to inspect yourself and when to arrange Bosch service.",
+        "h1": "What Does E50 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies E50 as an indication that Bosch lists E50/F50/E00-50 for some washer families, but the exact model documentation is required for its meaning.",
+        "quick_fix": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>E50 requires the complete display and the washer's E-Nr for safe interpretation. Bosch lists e50/f50/e00-50 for some washer families, but the exact model documentation is required for its meaning.</p><p>Do not borrow a meaning from a dishwasher or another Bosch washer family. Do not remove panels or order a part until the exact manual or Bosch service identifies the fault.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete code information",
+            "detail": "Punctuation, extra digits or an F can change the meaning. Record the complete display."
+          },
+          {
+            "cause": "Model and market differences",
+            "detail": "Bosch families can use different code formats. The E-Nr is needed for the correct manual."
+          },
+          {
+            "cause": "A condition described by the exact manual",
+            "detail": "Perform only the external check or user maintenance explicitly stated for that model."
+          },
+          {
+            "cause": "A persistent condition requiring service",
+            "detail": "If the exact manual provides no user action or the code returns, Bosch service should diagnose the washer."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E50 display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from E50 alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E50?",
+            "answer": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E50 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E50 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin felkod E50: säkra nästa steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E50? Läs kodens verifierade betydelse, säker första åtgärd, vad du inte ska kontrollera själv och när service behövs.",
+        "h1": "Vad betyder E50 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att E50 betyder att Bosch listar E50/F50/E00-50 för vissa tvättmaskinsserier, men exakt modelldokumentation krävs för betydelsen.",
+        "quick_fix": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>För E50 krävs hela displaykoden och maskinens E‑Nr för en säker tolkning. Bosch listar e50/f50/e00-50 för vissa tvättmaskinsserier, men exakt modelldokumentation krävs för betydelsen.</p><p>Använd inte kodbetydelser från en diskmaskin eller annan Bosch-serie. Ta inte bort paneler och beställ inte en reservdel innan rätt manual eller Bosch service har identifierat felet.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig kodinformation",
+            "detail": "Skiljetecken, ytterligare siffror eller ett F kan ändra betydelsen. Dokumentera hela displayen."
+          },
+          {
+            "cause": "Skillnader mellan modeller och marknader",
+            "detail": "Bosch-serier kan använda olika kodformat. E‑Nr behövs för rätt manual."
+          },
+          {
+            "cause": "Ett tillstånd som manualen kan beskriva",
+            "detail": "Utför bara den yttre kontroll eller det användarunderhåll som uttryckligen anges för exakt modell."
+          },
+          {
+            "cause": "Ett kvarstående servicebehov",
+            "detail": "Om rätt manual saknar användaråtgärd eller koden återkommer ska Bosch service diagnostisera maskinen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E50-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från E50.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E50?",
+            "answer": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E50 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E50 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "187": {
+      "code": "E60",
+      "preserve": {
+        "en_slug": "error-code-e60",
+        "sv_slug": "felkod-e60"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E60: Safe Next Steps",
+        "meta_description": "Bosch washer showing E60? Learn the verified code meaning, the safe action to take now, what not to inspect yourself and when to arrange Bosch service.",
+        "h1": "What Does E60 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies E60 as an indication that E60 without its suffix is incomplete; for example, Bosch documents E:60/-2B as an unbalanced load.",
+        "quick_fix": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>E60 requires the complete display and the washer's E-Nr for safe interpretation. E60 without its suffix is incomplete; for example, bosch documents e:60/-2b as an unbalanced load.</p><p>Do not borrow a meaning from a dishwasher or another Bosch washer family. Do not remove panels or order a part until the exact manual or Bosch service identifies the fault.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete code information",
+            "detail": "Punctuation, extra digits or an F can change the meaning. Record the complete display."
+          },
+          {
+            "cause": "Model and market differences",
+            "detail": "Bosch families can use different code formats. The E-Nr is needed for the correct manual."
+          },
+          {
+            "cause": "A condition described by the exact manual",
+            "detail": "Perform only the external check or user maintenance explicitly stated for that model."
+          },
+          {
+            "cause": "A persistent condition requiring service",
+            "detail": "If the exact manual provides no user action or the code returns, Bosch service should diagnose the washer."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E60 display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from E60 alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E60?",
+            "answer": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E60 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E60 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin felkod E60: säkra nästa steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E60? Läs kodens verifierade betydelse, säker första åtgärd, vad du inte ska kontrollera själv och när service behövs.",
+        "h1": "Vad betyder E60 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att E60 betyder att E60 utan suffix är ofullständig; Bosch dokumenterar exempelvis E:60/-2B som obalanserad last.",
+        "quick_fix": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>För E60 krävs hela displaykoden och maskinens E‑Nr för en säker tolkning. E60 utan suffix är ofullständig; bosch dokumenterar exempelvis e:60/-2b som obalanserad last.</p><p>Använd inte kodbetydelser från en diskmaskin eller annan Bosch-serie. Ta inte bort paneler och beställ inte en reservdel innan rätt manual eller Bosch service har identifierat felet.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig kodinformation",
+            "detail": "Skiljetecken, ytterligare siffror eller ett F kan ändra betydelsen. Dokumentera hela displayen."
+          },
+          {
+            "cause": "Skillnader mellan modeller och marknader",
+            "detail": "Bosch-serier kan använda olika kodformat. E‑Nr behövs för rätt manual."
+          },
+          {
+            "cause": "Ett tillstånd som manualen kan beskriva",
+            "detail": "Utför bara den yttre kontroll eller det användarunderhåll som uttryckligen anges för exakt modell."
+          },
+          {
+            "cause": "Ett kvarstående servicebehov",
+            "detail": "Om rätt manual saknar användaråtgärd eller koden återkommer ska Bosch service diagnostisera maskinen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E60-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från E60.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E60?",
+            "answer": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E60 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E60 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

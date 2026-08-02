@@ -1,0 +1,835 @@
+{
+  "batch": "030-samsung-spin-drum-controls-electrical",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    138,
+    141,
+    142,
+    146,
+    147
+  ],
+  "sources": [
+    "https://www.samsung.com/uk/support/home-appliances/what-to-do-if-your-washing-machine-is-not-spinning/",
+    "https://www.samsung.com/us/support/troubleshoot/TSG10007308/",
+    "https://www.samsung.com/us/support/troubleshoot/TSG10007300/",
+    "https://www.samsung.com/ae/support/home-appliances/how-to-handle-a-burning-smell-in-your-washing-machine/",
+    "https://www.samsung.com/us/support/troubleshoot/TSG10007246/"
+  ],
+  "translations": {
+    "138": {
+      "code": "clothes are still wet after spinning",
+      "preserve": {
+        "en_slug": "samsung-clothes-still-wet",
+        "sv_slug": "samsung-kläder-fortfarande-våta"
+      },
+      "en": {
+        "title_tag": "Samsung Clothes Still Wet After Spin: Safe Checks",
+        "meta_description": "Samsung washer clothes are still wet after spinning? Read safe checks, clear stop rules and when Samsung service or an electrician is required.",
+        "h1": "Samsung Clothes Still Wet After Spin: Safe Checks",
+        "description": "Samsung links soaking-wet laundry to poor spinning, often caused by an unbalanced load, drainage restriction, unsuitable cycle or an unlevel washer.",
+        "quick_fix": "Redistribute the load, verify the cycle and level, and check the visible drain hose and user-accessible filter according to the exact manual (about 5–15 minutes to make the washer safe).",
+        "intro_html": "<p>Samsung links soaking-wet laundry to poor spinning, often caused by an unbalanced load, drainage restriction, unsuitable cycle or an unlevel washer.</p><p>Redistribute the load, verify the cycle and level, and check the visible drain hose and user-accessible filter according to the exact manual. Open no panels, make no measurements and never bypass electrical protection.</p>",
+        "causes_json": [
+          {
+            "cause": "Unbalanced or unsuitable load",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Restricted drainage",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Washer is not level",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Internal pump, motor, sensor or control fault",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme. For burning smell, smoke or tripped protection, leave the washer off and isolate power from a safe location."
+          },
+          {
+            "step": 2,
+            "action": "Record the symptom",
+            "detail": "Photograph the display and visible symptoms and note the model number and when the problem occurred."
+          },
+          {
+            "step": 3,
+            "action": "Make only the permitted external check",
+            "detail": "Redistribute the load, verify the cycle and level, and check the visible drain hose and user-accessible filter according to the exact manual. Do not touch a damaged plug or outlet or open any enclosure."
+          },
+          {
+            "step": 4,
+            "action": "Decide whether restart is permitted",
+            "detail": "Try no more than once after correcting an external cause and only without safety warning signs."
+          },
+          {
+            "step": 5,
+            "action": "Arrange professional help",
+            "detail": "Request Samsung service for an appliance fault and a qualified electrician for a suspected outlet or fixed-wiring fault."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Burning smell or repeatedly tripped electrical protection requires stopping without restart. Otherwise arrange Samsung service when safe external checks are insufficient.</p><p>Use a qualified electrician for a damaged outlet or fixed installation. Do not dismantle the washer.</p>",
+        "prevention_html": "<p>Follow load, installation and filter instructions, keep controls dry and use the specified grounded electrical connection without unsuitable extensions.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling or repeated resets.</p>",
+        "faq_json": [
+          {
+            "question": "Can I continue when the washer clothes are still wet after spinning?",
+            "answer": "Redistribute the load, verify the cycle and level, and check the visible drain hose and user-accessible filter according to the exact manual. Stop if the problem remains or returns."
+          },
+          {
+            "question": "May I open the washer and inspect parts?",
+            "answer": "No. Do not remove panels or touch or measure the motor, pump, heater, wiring or electronics."
+          },
+          {
+            "question": "Does the symptom identify a replacement part?",
+            "answer": "No. The exact model and professional diagnosis are required before ordering any part."
+          },
+          {
+            "question": "When is Samsung service needed?",
+            "answer": "Arrange service if safe external checks are insufficient; for tripped protection or burning smell, keep the washer off."
+          },
+          {
+            "question": "When is an electrician needed?",
+            "answer": "Use a qualified electrician for a damaged outlet, plug or cord, or repeatedly tripped electrical protection."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-kläder fortfarande våta: säkra kontroller",
+        "meta_description": "Samsung-tvättmaskinen kläderna är fortfarande våta efter centrifugering? Läs säkra kontroller, tydliga stoppregler och när Samsung-service eller elektriker krävs.",
+        "h1": "Samsung-kläder fortfarande våta: säkra kontroller",
+        "description": "Samsung kopplar genomvåt tvätt till bristfällig centrifugering, ofta på grund av obalanserad last, begränsad tömning, olämpligt program eller en maskin som inte står plant.",
+        "quick_fix": "Fördela lasten, kontrollera program och nivå och kontrollera synlig avloppsslang och användaråtkomligt filter enligt exakt manual (cirka 5–15 minuter för att säkra maskinen).",
+        "intro_html": "<p>Samsung kopplar genomvåt tvätt till bristfällig centrifugering, ofta på grund av obalanserad last, begränsad tömning, olämpligt program eller en maskin som inte står plant.</p><p>Fördela lasten, kontrollera program och nivå och kontrollera synlig avloppsslang och användaråtkomligt filter enligt exakt manual. Öppna inga paneler, gör inga mätningar och kringgå aldrig ett elskydd.</p>",
+        "causes_json": [
+          {
+            "cause": "Obalanserad eller olämplig last",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Begränsad tömning",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Maskinen står inte plant",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Internt fel i pump, motor, sensor eller styrning",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet. Vid bränd lukt, rök eller utlöst elskydd låter du maskinen vara avstängd och bryter strömmen från säker plats."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera",
+            "detail": "Fotografera display och synliga symptom och anteckna modellnummer och när problemet uppstod."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast tillåten yttre kontroll",
+            "detail": "Fördela lasten, kontrollera program och nivå och kontrollera synlig avloppsslang och användaråtkomligt filter enligt exakt manual. Rör inte skadad kontakt eller uttag och öppna inget hölje."
+          },
+          {
+            "step": 4,
+            "action": "Avgör om återstart är tillåten",
+            "detail": "Prova högst en gång efter korrigerad yttre orsak och endast utan säkerhetstecken."
+          },
+          {
+            "step": 5,
+            "action": "Ordna professionell hjälp",
+            "detail": "Boka Samsung-service för maskinfel och behörig elektriker vid misstänkt fel i uttag eller fast installation."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Bränd lukt eller återkommande utlöst elskydd kräver stopp utan återstart. I övriga fall bokas Samsung-service om säkra yttre kontroller inte räcker.</p><p>Anlita behörig elektriker för skadat uttag eller fast elinstallation. Demontera inte maskinen.</p>",
+        "prevention_html": "<p>Följ last-, installations- och filteranvisningar, håll reglagen torra och använd avsedd jordad elanslutning utan olämpliga förlängningar.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering eller upprepade återställningar.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta när maskinen kläderna är fortfarande våta efter centrifugering?",
+            "answer": "Fördela lasten, kontrollera program och nivå och kontrollera synlig avloppsslang och användaråtkomligt filter enligt exakt manual. Avbryt om problemet kvarstår eller återkommer."
+          },
+          {
+            "question": "Kan jag öppna maskinen och kontrollera delar?",
+            "answer": "Nej. Ta inte bort paneler och rör eller mät inte motor, pump, värmare, kablage eller elektronik."
+          },
+          {
+            "question": "Visar symtomet vilken reservdel som behövs?",
+            "answer": "Nej. Exakt modell och professionell diagnos krävs innan någon del beställs."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "Boka service om säkra yttre kontroller inte räcker; vid elskydd eller bränd lukt ska maskinen förbli avstängd."
+          },
+          {
+            "question": "När behövs elektriker?",
+            "answer": "Anlita behörig elektriker vid skadat uttag, kontakt, sladd eller återkommande utlöst elskydd."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "141": {
+      "code": "drum is not turning",
+      "preserve": {
+        "en_slug": "samsung-drum-not-turning",
+        "sv_slug": "samsung-trumma-snurrar-inte"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Drum Not Turning: Safe Steps",
+        "meta_description": "Samsung washer drum is not turning? Read safe checks, clear stop rules and when Samsung service or an electrician is required.",
+        "h1": "Samsung Washing Machine Drum Not Turning: Safe Steps",
+        "description": "Samsung advises service when the drum does not turn during either washing or spinning after basic load and drainage checks.",
+        "quick_fix": "Stop the washer, record any code and arrange Samsung service if the drum remains stationary; do not force or dismantle it (about 5–15 minutes to make the washer safe).",
+        "intro_html": "<p>Samsung advises service when the drum does not turn during either washing or spinning after basic load and drainage checks.</p><p>Stop the washer, record any code and arrange Samsung service if the drum remains stationary; do not force or dismantle it. Open no panels, make no measurements and never bypass electrical protection.</p>",
+        "causes_json": [
+          {
+            "cause": "Water has not drained",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Load or obstruction prevents safe movement",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Motor information code",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Internal drive, bearing, sensor or control fault",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme. For burning smell, smoke or tripped protection, leave the washer off and isolate power from a safe location."
+          },
+          {
+            "step": 2,
+            "action": "Record the symptom",
+            "detail": "Photograph the display and visible symptoms and note the model number and when the problem occurred."
+          },
+          {
+            "step": 3,
+            "action": "Make only the permitted external check",
+            "detail": "Stop the washer, record any code and arrange Samsung service if the drum remains stationary; do not force or dismantle it. Do not touch a damaged plug or outlet or open any enclosure."
+          },
+          {
+            "step": 4,
+            "action": "Decide whether restart is permitted",
+            "detail": "Try no more than once after correcting an external cause and only without safety warning signs."
+          },
+          {
+            "step": 5,
+            "action": "Arrange professional help",
+            "detail": "Request Samsung service for an appliance fault and a qualified electrician for a suspected outlet or fixed-wiring fault."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Burning smell or repeatedly tripped electrical protection requires stopping without restart. Otherwise arrange Samsung service when safe external checks are insufficient.</p><p>Use a qualified electrician for a damaged outlet or fixed installation. Do not dismantle the washer.</p>",
+        "prevention_html": "<p>Follow load, installation and filter instructions, keep controls dry and use the specified grounded electrical connection without unsuitable extensions.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling or repeated resets.</p>",
+        "faq_json": [
+          {
+            "question": "Can I continue when the washer drum is not turning?",
+            "answer": "Stop the washer, record any code and arrange Samsung service if the drum remains stationary; do not force or dismantle it. Stop if the problem remains or returns."
+          },
+          {
+            "question": "May I open the washer and inspect parts?",
+            "answer": "No. Do not remove panels or touch or measure the motor, pump, heater, wiring or electronics."
+          },
+          {
+            "question": "Does the symptom identify a replacement part?",
+            "answer": "No. The exact model and professional diagnosis are required before ordering any part."
+          },
+          {
+            "question": "When is Samsung service needed?",
+            "answer": "Arrange service if safe external checks are insufficient; for tripped protection or burning smell, keep the washer off."
+          },
+          {
+            "question": "When is an electrician needed?",
+            "answer": "Use a qualified electrician for a damaged outlet, plug or cord, or repeatedly tripped electrical protection."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskinens trumma snurrar inte: säkra steg",
+        "meta_description": "Samsung-tvättmaskinen trumman snurrar inte? Läs säkra kontroller, tydliga stoppregler och när Samsung-service eller elektriker krävs.",
+        "h1": "Samsung-tvättmaskinens trumma snurrar inte: säkra steg",
+        "description": "Samsung rekommenderar service när trumman inte snurrar under vare sig tvätt eller centrifugering efter grundläggande last- och tömningskontroller.",
+        "quick_fix": "Stoppa maskinen, dokumentera eventuell kod och boka Samsung-service om trumman står stilla; tvinga eller demontera den inte (cirka 5–15 minuter för att säkra maskinen).",
+        "intro_html": "<p>Samsung rekommenderar service när trumman inte snurrar under vare sig tvätt eller centrifugering efter grundläggande last- och tömningskontroller.</p><p>Stoppa maskinen, dokumentera eventuell kod och boka Samsung-service om trumman står stilla; tvinga eller demontera den inte. Öppna inga paneler, gör inga mätningar och kringgå aldrig ett elskydd.</p>",
+        "causes_json": [
+          {
+            "cause": "Vattnet har inte tömts",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Last eller hinder förhindrar säker rörelse",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Informationskod för motor",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Internt fel i drivning, lager, sensor eller styrning",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet. Vid bränd lukt, rök eller utlöst elskydd låter du maskinen vara avstängd och bryter strömmen från säker plats."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera",
+            "detail": "Fotografera display och synliga symptom och anteckna modellnummer och när problemet uppstod."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast tillåten yttre kontroll",
+            "detail": "Stoppa maskinen, dokumentera eventuell kod och boka Samsung-service om trumman står stilla; tvinga eller demontera den inte. Rör inte skadad kontakt eller uttag och öppna inget hölje."
+          },
+          {
+            "step": 4,
+            "action": "Avgör om återstart är tillåten",
+            "detail": "Prova högst en gång efter korrigerad yttre orsak och endast utan säkerhetstecken."
+          },
+          {
+            "step": 5,
+            "action": "Ordna professionell hjälp",
+            "detail": "Boka Samsung-service för maskinfel och behörig elektriker vid misstänkt fel i uttag eller fast installation."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Bränd lukt eller återkommande utlöst elskydd kräver stopp utan återstart. I övriga fall bokas Samsung-service om säkra yttre kontroller inte räcker.</p><p>Anlita behörig elektriker för skadat uttag eller fast elinstallation. Demontera inte maskinen.</p>",
+        "prevention_html": "<p>Följ last-, installations- och filteranvisningar, håll reglagen torra och använd avsedd jordad elanslutning utan olämpliga förlängningar.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering eller upprepade återställningar.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta när maskinen trumman snurrar inte?",
+            "answer": "Stoppa maskinen, dokumentera eventuell kod och boka Samsung-service om trumman står stilla; tvinga eller demontera den inte. Avbryt om problemet kvarstår eller återkommer."
+          },
+          {
+            "question": "Kan jag öppna maskinen och kontrollera delar?",
+            "answer": "Nej. Ta inte bort paneler och rör eller mät inte motor, pump, värmare, kablage eller elektronik."
+          },
+          {
+            "question": "Visar symtomet vilken reservdel som behövs?",
+            "answer": "Nej. Exakt modell och professionell diagnos krävs innan någon del beställs."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "Boka service om säkra yttre kontroller inte räcker; vid elskydd eller bränd lukt ska maskinen förbli avstängd."
+          },
+          {
+            "question": "När behövs elektriker?",
+            "answer": "Anlita behörig elektriker vid skadat uttag, kontakt, sladd eller återkommande utlöst elskydd."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "142": {
+      "code": "control panel is unresponsive",
+      "preserve": {
+        "en_slug": "samsung-control-panel-unresponsive",
+        "sv_slug": "samsung-kontrollpanel-svarar-inte"
+      },
+      "en": {
+        "title_tag": "Samsung Washer Control Panel Unresponsive: Safe Checks",
+        "meta_description": "Samsung washer control panel is unresponsive? Read safe checks, clear stop rules and when Samsung service or an electrician is required.",
+        "h1": "Samsung Washer Control Panel Unresponsive: Safe Checks",
+        "description": "Samsung identifies Child Lock, moisture on controls, unavailable cycle options or a temporary control condition as common reasons for unresponsive buttons.",
+        "quick_fix": "Check the Child Lock indicator and selected cycle, let the external panel dry and power-cycle the washer for 60 seconds once (about 5–15 minutes to make the washer safe).",
+        "intro_html": "<p>Samsung identifies Child Lock, moisture on controls, unavailable cycle options or a temporary control condition as common reasons for unresponsive buttons.</p><p>Check the Child Lock indicator and selected cycle, let the external panel dry and power-cycle the washer for 60 seconds once. Open no panels, make no measurements and never bypass electrical protection.</p>",
+        "causes_json": [
+          {
+            "cause": "Child Lock is enabled",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Moisture or residue on external controls",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Option unavailable for the selected cycle",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Button, power-supply or control fault",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme. For burning smell, smoke or tripped protection, leave the washer off and isolate power from a safe location."
+          },
+          {
+            "step": 2,
+            "action": "Record the symptom",
+            "detail": "Photograph the display and visible symptoms and note the model number and when the problem occurred."
+          },
+          {
+            "step": 3,
+            "action": "Make only the permitted external check",
+            "detail": "Check the Child Lock indicator and selected cycle, let the external panel dry and power-cycle the washer for 60 seconds once. Do not touch a damaged plug or outlet or open any enclosure."
+          },
+          {
+            "step": 4,
+            "action": "Decide whether restart is permitted",
+            "detail": "Try no more than once after correcting an external cause and only without safety warning signs."
+          },
+          {
+            "step": 5,
+            "action": "Arrange professional help",
+            "detail": "Request Samsung service for an appliance fault and a qualified electrician for a suspected outlet or fixed-wiring fault."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Burning smell or repeatedly tripped electrical protection requires stopping without restart. Otherwise arrange Samsung service when safe external checks are insufficient.</p><p>Use a qualified electrician for a damaged outlet or fixed installation. Do not dismantle the washer.</p>",
+        "prevention_html": "<p>Follow load, installation and filter instructions, keep controls dry and use the specified grounded electrical connection without unsuitable extensions.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling or repeated resets.</p>",
+        "faq_json": [
+          {
+            "question": "Can I continue when the washer control panel is unresponsive?",
+            "answer": "Check the Child Lock indicator and selected cycle, let the external panel dry and power-cycle the washer for 60 seconds once. Stop if the problem remains or returns."
+          },
+          {
+            "question": "May I open the washer and inspect parts?",
+            "answer": "No. Do not remove panels or touch or measure the motor, pump, heater, wiring or electronics."
+          },
+          {
+            "question": "Does the symptom identify a replacement part?",
+            "answer": "No. The exact model and professional diagnosis are required before ordering any part."
+          },
+          {
+            "question": "When is Samsung service needed?",
+            "answer": "Arrange service if safe external checks are insufficient; for tripped protection or burning smell, keep the washer off."
+          },
+          {
+            "question": "When is an electrician needed?",
+            "answer": "Use a qualified electrician for a damaged outlet, plug or cord, or repeatedly tripped electrical protection."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskinens panel svarar inte: säkra kontroller",
+        "meta_description": "Samsung-tvättmaskinen kontrollpanelen svarar inte? Läs säkra kontroller, tydliga stoppregler och när Samsung-service eller elektriker krävs.",
+        "h1": "Samsung-tvättmaskinens panel svarar inte: säkra kontroller",
+        "description": "Samsung anger barnlås, fukt på reglagen, otillgängliga programval eller ett tillfälligt styrtillstånd som vanliga orsaker till svarslösa knappar.",
+        "quick_fix": "Kontrollera barnlåsindikering och valt program, låt den yttre panelen torka och bryt strömmen till maskinen i 60 sekunder en gång (cirka 5–15 minuter för att säkra maskinen).",
+        "intro_html": "<p>Samsung anger barnlås, fukt på reglagen, otillgängliga programval eller ett tillfälligt styrtillstånd som vanliga orsaker till svarslösa knappar.</p><p>Kontrollera barnlåsindikering och valt program, låt den yttre panelen torka och bryt strömmen till maskinen i 60 sekunder en gång. Öppna inga paneler, gör inga mätningar och kringgå aldrig ett elskydd.</p>",
+        "causes_json": [
+          {
+            "cause": "Barnlåset är aktiverat",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Fukt eller rester på yttre reglage",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Valet är inte tillgängligt för programmet",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Fel i knapp, strömförsörjning eller styrning",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet. Vid bränd lukt, rök eller utlöst elskydd låter du maskinen vara avstängd och bryter strömmen från säker plats."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera",
+            "detail": "Fotografera display och synliga symptom och anteckna modellnummer och när problemet uppstod."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast tillåten yttre kontroll",
+            "detail": "Kontrollera barnlåsindikering och valt program, låt den yttre panelen torka och bryt strömmen till maskinen i 60 sekunder en gång. Rör inte skadad kontakt eller uttag och öppna inget hölje."
+          },
+          {
+            "step": 4,
+            "action": "Avgör om återstart är tillåten",
+            "detail": "Prova högst en gång efter korrigerad yttre orsak och endast utan säkerhetstecken."
+          },
+          {
+            "step": 5,
+            "action": "Ordna professionell hjälp",
+            "detail": "Boka Samsung-service för maskinfel och behörig elektriker vid misstänkt fel i uttag eller fast installation."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Bränd lukt eller återkommande utlöst elskydd kräver stopp utan återstart. I övriga fall bokas Samsung-service om säkra yttre kontroller inte räcker.</p><p>Anlita behörig elektriker för skadat uttag eller fast elinstallation. Demontera inte maskinen.</p>",
+        "prevention_html": "<p>Följ last-, installations- och filteranvisningar, håll reglagen torra och använd avsedd jordad elanslutning utan olämpliga förlängningar.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering eller upprepade återställningar.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta när maskinen kontrollpanelen svarar inte?",
+            "answer": "Kontrollera barnlåsindikering och valt program, låt den yttre panelen torka och bryt strömmen till maskinen i 60 sekunder en gång. Avbryt om problemet kvarstår eller återkommer."
+          },
+          {
+            "question": "Kan jag öppna maskinen och kontrollera delar?",
+            "answer": "Nej. Ta inte bort paneler och rör eller mät inte motor, pump, värmare, kablage eller elektronik."
+          },
+          {
+            "question": "Visar symtomet vilken reservdel som behövs?",
+            "answer": "Nej. Exakt modell och professionell diagnos krävs innan någon del beställs."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "Boka service om säkra yttre kontroller inte räcker; vid elskydd eller bränd lukt ska maskinen förbli avstängd."
+          },
+          {
+            "question": "När behövs elektriker?",
+            "answer": "Anlita behörig elektriker vid skadat uttag, kontakt, sladd eller återkommande utlöst elskydd."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "146": {
+      "code": "trips the electrical protection",
+      "preserve": {
+        "en_slug": "samsung-trips-electrics",
+        "sv_slug": "samsung-löser-ut-säkringen"
+      },
+      "en": {
+        "title_tag": "Samsung Washer Trips the Electrics: Stop and Get Help",
+        "meta_description": "Samsung washer trips the electrical protection? Read safe checks, clear stop rules and when Samsung service or an electrician is required.",
+        "h1": "Samsung Washer Trips the Electrics: Stop and Get Help",
+        "description": "Repeated operation of an electrical protective device can indicate a supply, cord, outlet or internal appliance fault and must not be bypassed.",
+        "quick_fix": "Leave the washer off, do not reset the protection to retry it and arrange a qualified electrician or Samsung service as appropriate (about 5–15 minutes to make the washer safe).",
+        "intro_html": "<p>Repeated operation of an electrical protective device can indicate a supply, cord, outlet or internal appliance fault and must not be bypassed.</p><p>Leave the washer off, do not reset the protection to retry it and arrange a qualified electrician or Samsung service as appropriate. Open no panels, make no measurements and never bypass electrical protection.</p>",
+        "causes_json": [
+          {
+            "cause": "Damaged cord, plug or outlet",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Unsuitable or faulty electrical supply",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Moisture or insulation fault",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Internal motor, heater, wiring or control fault",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme. For burning smell, smoke or tripped protection, leave the washer off and isolate power from a safe location."
+          },
+          {
+            "step": 2,
+            "action": "Record the symptom",
+            "detail": "Photograph the display and visible symptoms and note the model number and when the problem occurred."
+          },
+          {
+            "step": 3,
+            "action": "Make only the permitted external check",
+            "detail": "Leave the washer off, do not reset the protection to retry it and arrange a qualified electrician or Samsung service as appropriate. Do not touch a damaged plug or outlet or open any enclosure."
+          },
+          {
+            "step": 4,
+            "action": "Decide whether restart is permitted",
+            "detail": "Restart is not permitted for this symptom."
+          },
+          {
+            "step": 5,
+            "action": "Arrange professional help",
+            "detail": "Request Samsung service for an appliance fault and a qualified electrician for a suspected outlet or fixed-wiring fault."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Burning smell or repeatedly tripped electrical protection requires stopping without restart. Otherwise arrange Samsung service when safe external checks are insufficient.</p><p>Use a qualified electrician for a damaged outlet or fixed installation. Do not dismantle the washer.</p>",
+        "prevention_html": "<p>Follow load, installation and filter instructions, keep controls dry and use the specified grounded electrical connection without unsuitable extensions.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling or repeated resets.</p>",
+        "faq_json": [
+          {
+            "question": "Can I continue when the washer trips the electrical protection?",
+            "answer": "Leave the washer off, do not reset the protection to retry it and arrange a qualified electrician or Samsung service as appropriate. Do not restart the appliance before professional assessment."
+          },
+          {
+            "question": "May I open the washer and inspect parts?",
+            "answer": "No. Do not remove panels or touch or measure the motor, pump, heater, wiring or electronics."
+          },
+          {
+            "question": "Does the symptom identify a replacement part?",
+            "answer": "No. The exact model and professional diagnosis are required before ordering any part."
+          },
+          {
+            "question": "When is Samsung service needed?",
+            "answer": "Arrange service if safe external checks are insufficient; for tripped protection or burning smell, keep the washer off."
+          },
+          {
+            "question": "When is an electrician needed?",
+            "answer": "Use a qualified electrician for a damaged outlet, plug or cord, or repeatedly tripped electrical protection."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskinen löser ut elskyddet: stoppa",
+        "meta_description": "Samsung-tvättmaskinen löser ut elskyddet? Läs säkra kontroller, tydliga stoppregler och när Samsung-service eller elektriker krävs.",
+        "h1": "Samsung-tvättmaskinen löser ut elskyddet: stoppa",
+        "description": "Upprepad utlösning av ett elskydd kan tyda på fel i matning, sladd, uttag eller maskin och får inte kringgås.",
+        "quick_fix": "Låt maskinen vara avstängd, återställ inte skyddet för att prova igen och anlita behörig elektriker eller Samsung-service efter behov (cirka 5–15 minuter för att säkra maskinen).",
+        "intro_html": "<p>Upprepad utlösning av ett elskydd kan tyda på fel i matning, sladd, uttag eller maskin och får inte kringgås.</p><p>Låt maskinen vara avstängd, återställ inte skyddet för att prova igen och anlita behörig elektriker eller Samsung-service efter behov. Öppna inga paneler, gör inga mätningar och kringgå aldrig ett elskydd.</p>",
+        "causes_json": [
+          {
+            "cause": "Skadad sladd, kontakt eller uttag",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Olämplig eller felaktig elmatning",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Fukt- eller isolationsfel",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Internt fel i motor, värmare, kablage eller styrning",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet. Vid bränd lukt, rök eller utlöst elskydd låter du maskinen vara avstängd och bryter strömmen från säker plats."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera",
+            "detail": "Fotografera display och synliga symptom och anteckna modellnummer och när problemet uppstod."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast tillåten yttre kontroll",
+            "detail": "Låt maskinen vara avstängd, återställ inte skyddet för att prova igen och anlita behörig elektriker eller Samsung-service efter behov. Rör inte skadad kontakt eller uttag och öppna inget hölje."
+          },
+          {
+            "step": 4,
+            "action": "Avgör om återstart är tillåten",
+            "detail": "Återstart är inte tillåten vid detta symptom."
+          },
+          {
+            "step": 5,
+            "action": "Ordna professionell hjälp",
+            "detail": "Boka Samsung-service för maskinfel och behörig elektriker vid misstänkt fel i uttag eller fast installation."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Bränd lukt eller återkommande utlöst elskydd kräver stopp utan återstart. I övriga fall bokas Samsung-service om säkra yttre kontroller inte räcker.</p><p>Anlita behörig elektriker för skadat uttag eller fast elinstallation. Demontera inte maskinen.</p>",
+        "prevention_html": "<p>Följ last-, installations- och filteranvisningar, håll reglagen torra och använd avsedd jordad elanslutning utan olämpliga förlängningar.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering eller upprepade återställningar.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta när maskinen löser ut elskyddet?",
+            "answer": "Låt maskinen vara avstängd, återställ inte skyddet för att prova igen och anlita behörig elektriker eller Samsung-service efter behov. Maskinen får inte startas om innan den bedömts professionellt."
+          },
+          {
+            "question": "Kan jag öppna maskinen och kontrollera delar?",
+            "answer": "Nej. Ta inte bort paneler och rör eller mät inte motor, pump, värmare, kablage eller elektronik."
+          },
+          {
+            "question": "Visar symtomet vilken reservdel som behövs?",
+            "answer": "Nej. Exakt modell och professionell diagnos krävs innan någon del beställs."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "Boka service om säkra yttre kontroller inte räcker; vid elskydd eller bränd lukt ska maskinen förbli avstängd."
+          },
+          {
+            "question": "När behövs elektriker?",
+            "answer": "Anlita behörig elektriker vid skadat uttag, kontakt, sladd eller återkommande utlöst elskydd."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "147": {
+      "code": "has a burning smell",
+      "preserve": {
+        "en_slug": "samsung-burning-smell",
+        "sv_slug": "samsung-bränd-lukt"
+      },
+      "en": {
+        "title_tag": "Samsung Washer Burning Smell: Stop and Get Help",
+        "meta_description": "Samsung washer has a burning smell? Read safe checks, clear stop rules and when Samsung service or an electrician is required.",
+        "h1": "Samsung Washer Burning Smell: Stop and Get Help",
+        "description": "Samsung says to switch the washer off immediately when a burning odour occurs; smoke, melting or abnormal heat requires urgent isolation.",
+        "quick_fix": "Stop the washer and isolate power from a safe location; do not restart, open panels or clean a filter until the appliance has been professionally assessed (about 5–15 minutes to make the washer safe).",
+        "intro_html": "<p>Samsung says to switch the washer off immediately when a burning odour occurs; smoke, melting or abnormal heat requires urgent isolation.</p><p>Stop the washer and isolate power from a safe location; do not restart, open panels or clean a filter until the appliance has been professionally assessed. Open no panels, make no measurements and never bypass electrical protection.</p>",
+        "causes_json": [
+          {
+            "cause": "Overheated plug, cord or outlet",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Stalled motor or pump",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Friction or overheating inside the appliance",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          },
+          {
+            "cause": "Internal wiring or electronics fault",
+            "detail": "This is a possible cause; internal faults require professional diagnosis for the exact model."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme. For burning smell, smoke or tripped protection, leave the washer off and isolate power from a safe location."
+          },
+          {
+            "step": 2,
+            "action": "Record the symptom",
+            "detail": "Photograph the display and visible symptoms and note the model number and when the problem occurred."
+          },
+          {
+            "step": 3,
+            "action": "Make only the permitted external check",
+            "detail": "Stop the washer and isolate power from a safe location; do not restart, open panels or clean a filter until the appliance has been professionally assessed. Do not touch a damaged plug or outlet or open any enclosure."
+          },
+          {
+            "step": 4,
+            "action": "Decide whether restart is permitted",
+            "detail": "Restart is not permitted for this symptom."
+          },
+          {
+            "step": 5,
+            "action": "Arrange professional help",
+            "detail": "Request Samsung service for an appliance fault and a qualified electrician for a suspected outlet or fixed-wiring fault."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Burning smell or repeatedly tripped electrical protection requires stopping without restart. Otherwise arrange Samsung service when safe external checks are insufficient.</p><p>Use a qualified electrician for a damaged outlet or fixed installation. Do not dismantle the washer.</p>",
+        "prevention_html": "<p>Follow load, installation and filter instructions, keep controls dry and use the specified grounded electrical connection without unsuitable extensions.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling or repeated resets.</p>",
+        "faq_json": [
+          {
+            "question": "Can I continue when the washer has a burning smell?",
+            "answer": "Stop the washer and isolate power from a safe location; do not restart, open panels or clean a filter until the appliance has been professionally assessed. Do not restart the appliance before professional assessment."
+          },
+          {
+            "question": "May I open the washer and inspect parts?",
+            "answer": "No. Do not remove panels or touch or measure the motor, pump, heater, wiring or electronics."
+          },
+          {
+            "question": "Does the symptom identify a replacement part?",
+            "answer": "No. The exact model and professional diagnosis are required before ordering any part."
+          },
+          {
+            "question": "When is Samsung service needed?",
+            "answer": "Arrange service if safe external checks are insufficient; for tripped protection or burning smell, keep the washer off."
+          },
+          {
+            "question": "When is an electrician needed?",
+            "answer": "Use a qualified electrician for a damaged outlet, plug or cord, or repeatedly tripped electrical protection."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin luktar bränt: stoppa och få hjälp",
+        "meta_description": "Samsung-tvättmaskinen har en bränd lukt? Läs säkra kontroller, tydliga stoppregler och när Samsung-service eller elektriker krävs.",
+        "h1": "Samsung-tvättmaskin luktar bränt: stoppa och få hjälp",
+        "description": "Samsung anger att tvättmaskinen ska stängas av omedelbart vid bränd lukt; rök, smältning eller onormal värme kräver akut frånkoppling.",
+        "quick_fix": "Stoppa maskinen och bryt strömmen från en säker plats; starta inte om, öppna inga paneler och rengör inget filter innan maskinen bedömts professionellt (cirka 5–15 minuter för att säkra maskinen).",
+        "intro_html": "<p>Samsung anger att tvättmaskinen ska stängas av omedelbart vid bränd lukt; rök, smältning eller onormal värme kräver akut frånkoppling.</p><p>Stoppa maskinen och bryt strömmen från en säker plats; starta inte om, öppna inga paneler och rengör inget filter innan maskinen bedömts professionellt. Öppna inga paneler, gör inga mätningar och kringgå aldrig ett elskydd.</p>",
+        "causes_json": [
+          {
+            "cause": "Överhettad kontakt, sladd eller uttag",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Blockerad motor eller pump",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Friktion eller överhettning i maskinen",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          },
+          {
+            "cause": "Internt kablage- eller elektronikfel",
+            "detail": "Detta är en möjlig orsak; interna fel kräver professionell diagnos för exakt modell."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet. Vid bränd lukt, rök eller utlöst elskydd låter du maskinen vara avstängd och bryter strömmen från säker plats."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera",
+            "detail": "Fotografera display och synliga symptom och anteckna modellnummer och när problemet uppstod."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast tillåten yttre kontroll",
+            "detail": "Stoppa maskinen och bryt strömmen från en säker plats; starta inte om, öppna inga paneler och rengör inget filter innan maskinen bedömts professionellt. Rör inte skadad kontakt eller uttag och öppna inget hölje."
+          },
+          {
+            "step": 4,
+            "action": "Avgör om återstart är tillåten",
+            "detail": "Återstart är inte tillåten vid detta symptom."
+          },
+          {
+            "step": 5,
+            "action": "Ordna professionell hjälp",
+            "detail": "Boka Samsung-service för maskinfel och behörig elektriker vid misstänkt fel i uttag eller fast installation."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Bränd lukt eller återkommande utlöst elskydd kräver stopp utan återstart. I övriga fall bokas Samsung-service om säkra yttre kontroller inte räcker.</p><p>Anlita behörig elektriker för skadat uttag eller fast elinstallation. Demontera inte maskinen.</p>",
+        "prevention_html": "<p>Följ last-, installations- och filteranvisningar, håll reglagen torra och använd avsedd jordad elanslutning utan olämpliga förlängningar.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering eller upprepade återställningar.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta när maskinen har en bränd lukt?",
+            "answer": "Stoppa maskinen och bryt strömmen från en säker plats; starta inte om, öppna inga paneler och rengör inget filter innan maskinen bedömts professionellt. Maskinen får inte startas om innan den bedömts professionellt."
+          },
+          {
+            "question": "Kan jag öppna maskinen och kontrollera delar?",
+            "answer": "Nej. Ta inte bort paneler och rör eller mät inte motor, pump, värmare, kablage eller elektronik."
+          },
+          {
+            "question": "Visar symtomet vilken reservdel som behövs?",
+            "answer": "Nej. Exakt modell och professionell diagnos krävs innan någon del beställs."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "Boka service om säkra yttre kontroller inte räcker; vid elskydd eller bränd lukt ska maskinen förbli avstängd."
+          },
+          {
+            "question": "När behövs elektriker?",
+            "answer": "Anlita behörig elektriker vid skadat uttag, kontakt, sladd eller återkommande utlöst elskydd."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

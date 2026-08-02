@@ -1,0 +1,795 @@
+{
+  "batch": "037-siemens-no-common-faults",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    244,
+    330,
+    331,
+    334,
+    336
+  ],
+  "sources": [
+    "https://www.siemens-home.bsh-group.com/ae/customer-service/support/troubleshooting/washing-machines/error-codes-symbols",
+    "https://www.siemens-home.bsh-group.com/ae/customer-service/support/troubleshooting/washing-machines/not-draining",
+    "https://www.siemens-home.bsh-group.com/ae/customer-service/support/troubleshooting/washing-machines/not-spinning",
+    "https://www.siemens-home.bsh-group.com/ae/customer-service/support/troubleshooting/washing-machines/no-water",
+    "https://www.siemens-home.bsh-group.com/ae/customer-service/support/troubleshooting/washing-machines/noise-new-appliances"
+  ],
+  "translations": {
+    "244": {
+      "code": "NO",
+      "preserve": {
+        "en_slug": "error-code-no",
+        "sv_slug": "felkod-no"
+      },
+      "en": {
+        "title_tag": "Siemens Error NO: Meaning and Safe Steps",
+        "meta_description": "Siemens washer showing NO? See what the public Siemens code table supports, safe checks and when service is required.",
+        "h1": "What Does NO Mean on a Siemens Washing Machine?",
+        "description": "NO is not defined as a universal washer error in Siemens' public code table, so the complete display and exact E-Nr are required.",
+        "quick_fix": "Photograph every displayed character, confirm whether it is text or a symbol and check the manual for the exact E-Nr (about 5–30 minutes).",
+        "intro_html": "<p>NO is not defined as a universal washer error in Siemens' public code table, so the complete display and exact E-Nr are required.</p><p>Photograph every displayed character, confirm whether it is text or a symbol and check the manual for the exact E-Nr. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete or misread display",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Model-specific status message",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "A symbol mistaken for letters",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal condition requiring Siemens diagnosis",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Photograph every displayed character, confirm whether it is text or a symbol and check the manual for the exact E-Nr. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Siemens service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens felkod NO: betydelse och säkra steg",
+        "meta_description": "Siemens-tvättmaskin visar NO? Se vad Siemens offentliga kodtabell faktiskt stöder, säkra kontroller och när service krävs.",
+        "h1": "Vad betyder NO på en Siemens-tvättmaskin?",
+        "description": "NO definieras inte som ett universellt tvättmaskinsfel i Siemens offentliga kodtabell, så hela displayen och exakt E‑Nr behövs.",
+        "quick_fix": "Fotografera varje visat tecken, bekräfta om det är text eller en symbol och kontrollera manualen för exakt E‑Nr (cirka 5–30 minuter).",
+        "intro_html": "<p>NO definieras inte som ett universellt tvättmaskinsfel i Siemens offentliga kodtabell, så hela displayen och exakt E‑Nr behövs.</p><p>Fotografera varje visat tecken, bekräfta om det är text eller en symbol och kontrollera manualen för exakt E‑Nr. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig eller feltolkad display",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Modellspecifikt statusmeddelande",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "En symbol som misstolkas som bokstäver",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt tillstånd som kräver Siemens-diagnos",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Fotografera varje visat tecken, bekräfta om det är text eller en symbol och kontrollera manualen för exakt E‑Nr. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Siemens-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "330": {
+      "code": "drain",
+      "preserve": {
+        "en_slug": "washing-machine-wont-drain",
+        "sv_slug": "tvattmaskin-tommer-inte"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Won't Drain: Safe Checks",
+        "meta_description": "Siemens Washing Machine Won't Drain? See verified Siemens causes, safe external checks and when authorised service is required.",
+        "h1": "Siemens Washing Machine Won't Drain",
+        "description": "A kinked drain hose, blocked user-accessible pump filter or restricted household drain can stop the washer emptying.",
+        "quick_fix": "Close the tap, switch off and unplug, let hot water cool, then inspect the visible hose and drain or clean the accessible filter exactly as the E-Nr manual specifies (about 5–30 minutes).",
+        "intro_html": "<p>A kinked drain hose, blocked user-accessible pump filter or restricted household drain can stop the washer emptying.</p><p>Close the tap, switch off and unplug, let hot water cool, then inspect the visible hose and drain or clean the accessible filter exactly as the E-Nr manual specifies. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Kinked or blocked drain hose",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked user-accessible pump filter",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Restricted household drain connection",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal pump or control fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Close the tap, switch off and unplug, let hot water cool, then inspect the visible hose and drain or clean the accessible filter exactly as the E-Nr manual specifies. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Siemens service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskinen tömmer inte: säkra kontroller",
+        "meta_description": "Siemens-tvättmaskinen tömmer inte? Se Siemens verifierade orsaker, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Siemens-tvättmaskinen tömmer inte",
+        "description": "En vikt avloppsslang, blockerat användaråtkomligt pumpfilter eller hindrat avlopp kan stoppa tömningen.",
+        "quick_fix": "Stäng kranen, stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig slang samt töm eller rengör åtkomligt filter exakt enligt E‑Nr-manualen (cirka 5–30 minuter).",
+        "intro_html": "<p>En vikt avloppsslang, blockerat användaråtkomligt pumpfilter eller hindrat avlopp kan stoppa tömningen.</p><p>Stäng kranen, stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig slang samt töm eller rengör åtkomligt filter exakt enligt E‑Nr-manualen. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Vikt eller blockerad avloppsslang",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerat användaråtkomligt pumpfilter",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Hinder i bostadens avloppsanslutning",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt pump- eller styrfel",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Stäng kranen, stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig slang samt töm eller rengör åtkomligt filter exakt enligt E‑Nr-manualen. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Siemens-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "331": {
+      "code": "spin",
+      "preserve": {
+        "en_slug": "wont-spin",
+        "sv_slug": "centrifugerar-inte"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Won't Spin: Safe Checks",
+        "meta_description": "Siemens Washing Machine Won't Spin? See verified Siemens causes, safe external checks and when authorised service is required.",
+        "h1": "Siemens Washing Machine Won't Spin",
+        "description": "Siemens identifies drainage restrictions, a blocked filter and an unbalanced or overloaded drum as common reasons for reduced or absent spinning.",
+        "quick_fix": "Confirm that the programme includes spinning, redistribute the load and check that the washer can drain (about 5–30 minutes).",
+        "intro_html": "<p>Siemens identifies drainage restrictions, a blocked filter and an unbalanced or overloaded drum as common reasons for reduced or absent spinning.</p><p>Confirm that the programme includes spinning, redistribute the load and check that the washer can drain. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Programme without a spin phase",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Unbalanced or overloaded drum",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Drainage restriction or blocked filter",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal drive or control fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Confirm that the programme includes spinning, redistribute the load and check that the washer can drain. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Siemens service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskinen centrifugerar inte: säkra kontroller",
+        "meta_description": "Siemens-tvättmaskinen centrifugerar inte? Se Siemens verifierade orsaker, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Siemens-tvättmaskinen centrifugerar inte",
+        "description": "Siemens anger tömningshinder, blockerat filter och obalanserad eller överlastad trumma som vanliga orsaker till minskad eller utebliven centrifugering.",
+        "quick_fix": "Bekräfta att programmet omfattar centrifugering, fördela om lasten och kontrollera att maskinen kan tömma (cirka 5–30 minuter).",
+        "intro_html": "<p>Siemens anger tömningshinder, blockerat filter och obalanserad eller överlastad trumma som vanliga orsaker till minskad eller utebliven centrifugering.</p><p>Bekräfta att programmet omfattar centrifugering, fördela om lasten och kontrollera att maskinen kan tömma. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Program utan centrifugeringsfas",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Obalanserad eller överlastad trumma",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Tömningshinder eller blockerat filter",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt driv- eller styrfel",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Bekräfta att programmet omfattar centrifugering, fördela om lasten och kontrollera att maskinen kan tömma. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Siemens-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "334": {
+      "code": "fill",
+      "preserve": {
+        "en_slug": "wont-fill",
+        "sv_slug": "fyller-inte"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Won't Fill With Water: Safe Checks",
+        "meta_description": "Siemens Washing Machine Won't Fill With Water? See verified Siemens causes, safe external checks and when authorised service is required.",
+        "h1": "Siemens Washing Machine Won't Fill With Water",
+        "description": "Siemens recommends checking the water supply, pressure, door closure and external inlet hose when no water enters.",
+        "quick_fix": "Open the tap, check for an outage and adequate pressure, close the door firmly and straighten the visible inlet hose (about 5–30 minutes).",
+        "intro_html": "<p>Siemens recommends checking the water supply, pressure, door closure and external inlet hose when no water enters.</p><p>Open the tap, check for an outage and adequate pressure, close the door firmly and straighten the visible inlet hose. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Closed tap or water outage",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Low household water pressure",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Kinked inlet hose or accessible filter restriction",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Door-lock, inlet-valve or control fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Open the tap, check for an outage and adequate pressure, close the door firmly and straighten the visible inlet hose. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Siemens service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskinen fyller inte med vatten: säkra kontroller",
+        "meta_description": "Siemens-tvättmaskinen fyller inte med vatten? Se Siemens verifierade orsaker, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Siemens-tvättmaskinen fyller inte med vatten",
+        "description": "Siemens rekommenderar kontroll av vattenförsörjning, tryck, luckstängning och yttre tilloppsslang när inget vatten kommer in.",
+        "quick_fix": "Öppna kranen, kontrollera vattenavbrott och tillräckligt tryck, stäng luckan ordentligt och räta den synliga tilloppsslangen (cirka 5–30 minuter).",
+        "intro_html": "<p>Siemens rekommenderar kontroll av vattenförsörjning, tryck, luckstängning och yttre tilloppsslang när inget vatten kommer in.</p><p>Öppna kranen, kontrollera vattenavbrott och tillräckligt tryck, stäng luckan ordentligt och räta den synliga tilloppsslangen. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Stängd kran eller vattenavbrott",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Lågt vattentryck i bostaden",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Vikt tilloppsslang eller hinder i åtkomligt filter",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Fel i lucklås, inloppsventil eller styrning",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Öppna kranen, kontrollera vattenavbrott och tillräckligt tryck, stäng luckan ordentligt och räta den synliga tilloppsslangen. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Siemens-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "336": {
+      "code": "noise",
+      "preserve": {
+        "en_slug": "making-loud-noise",
+        "sv_slug": "låter-högt"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Making Loud Noise: Safe Checks",
+        "meta_description": "Siemens Washing Machine Making Loud Noise? See verified Siemens causes, safe external checks and when authorised service is required.",
+        "h1": "Siemens Washing Machine Making Loud Noise",
+        "description": "Unusual noise can come from transport bolts or packing, poor levelling, an unbalanced load or an internal mechanical fault.",
+        "quick_fix": "Stop the washer, check the load and visible installation, and compare the sound with the exact E-Nr manual without opening any panel (about 5–30 minutes).",
+        "intro_html": "<p>Unusual noise can come from transport bolts or packing, poor levelling, an unbalanced load or an internal mechanical fault.</p><p>Stop the washer, check the load and visible installation, and compare the sound with the exact E-Nr manual without opening any panel. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Transport bolts or packing remain",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Washer is not level on a stable floor",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Unbalanced load or loose pocket item",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal bearing, drive or suspension fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Stop the washer, check the load and visible installation, and compare the sound with the exact E-Nr manual without opening any panel. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Siemens service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskinen låter högt: säkra kontroller",
+        "meta_description": "Siemens-tvättmaskinen låter högt? Se Siemens verifierade orsaker, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Siemens-tvättmaskinen låter högt",
+        "description": "Ovanligt ljud kan bero på transportbultar eller emballage, felaktig nivellering, obalanserad last eller internt mekaniskt fel.",
+        "quick_fix": "Stoppa maskinen, kontrollera lasten och den synliga installationen och jämför ljudet med manualen för exakt E‑Nr (cirka 5–30 minuter).",
+        "intro_html": "<p>Ovanligt ljud kan bero på transportbultar eller emballage, felaktig nivellering, obalanserad last eller internt mekaniskt fel.</p><p>Stoppa maskinen, kontrollera lasten och den synliga installationen och jämför ljudet med manualen för exakt E‑Nr. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Transportbultar eller emballage finns kvar",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Maskinen står inte i nivå på stabilt golv",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Obalanserad last eller löst föremål ur en ficka",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt lager-, driv- eller upphängningsfel",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Stoppa maskinen, kontrollera lasten och den synliga installationen och jämför ljudet med manualen för exakt E‑Nr. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Siemens-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

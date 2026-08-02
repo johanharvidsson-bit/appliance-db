@@ -1,0 +1,835 @@
+{
+  "batch": "017-electrolux-common-faults-2",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    356,
+    357,
+    360,
+    361,
+    362
+  ],
+  "sources": [
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-does-not-heat-up-and-does-not-display-an-error-message",
+    "https://support.electrolux.co.uk/support-articles/article/how-to-stop-your-washing-machine-vibrating-and-reduce-noise-unbalanced-load-reduce-vibration-during-rinse",
+    "https://support.electrolux.co.uk/support-articles/article/seal-on-the-washing-machines-door-is-damaged",
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-displays-error-code-e20-e21-or-c2-emits-2-beeps-or-2-flashes",
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-does-not-work-does-not-react"
+  ],
+  "translations": {
+    "356": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "not-heating-water",
+        "sv_slug": "värmer-inte-vatten"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Not Heating Water: Safe Checks",
+        "meta_description": "Washing Machine Not Heating Water? Read verified causes, safe manual-based checks and when authorised service is required.",
+        "h1": "Washing Machine Not Heating Water",
+        "description": "The washer appears not to heat the wash water.",
+        "quick_fix": "Confirm the selected programme and temperature; remember that the final rinse is normally cold (about 5–30 minutes).",
+        "intro_html": "<p>The washer appears not to heat the wash water.</p><p>Confirm the selected programme and temperature; remember that the final rinse is normally cold. Unplug before cleaning or external checks and never open appliance panels.</p>",
+        "causes_json": [
+          {
+            "cause": "Cold or low-temperature programme",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Normal cold final rinse",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Heating-system fault",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Temperature-sensing or control fault",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check settings and symptoms",
+            "detail": "Confirm the selected programme and temperature; remember that the final rinse is normally cold."
+          },
+          {
+            "step": 3,
+            "action": "Record details",
+            "detail": "Note the programme stage, any code and the PNC/product number."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact manual",
+            "detail": "Perform documented user checks only; dismantle nothing and make no electrical measurements."
+          },
+          {
+            "step": 5,
+            "action": "Arrange service",
+            "detail": "Stop if the issue remains or the seal, heater, motor, electronics or internal mechanics are suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the problem remains after external checks. Do not use the washer with a damaged seal, leakage or abnormal mechanical movement.</p><p>Unplug immediately for water near electricity, burning smell, smoke, abnormal heat, tripped protection, sparks or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, close zips, leave the door ajar after use when safe and clean the seal and accessible areas as the manual specifies.</p><p>Keep the washer level and select the correct programme; this does not prevent internal component faults.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Confirm the selected programme and temperature; remember that the final rinse is normally cold. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskinen värmer inte vattnet: säkra kontroller",
+        "meta_description": "Tvättmaskinen värmer inte vattnet? Läs verifierade orsaker, säkra kontroller enligt manualen och när auktoriserad service krävs.",
+        "h1": "Tvättmaskinen värmer inte vattnet",
+        "description": "Tvättmaskinen verkar inte värma tvättvattnet.",
+        "quick_fix": "Kontrollera valt program och temperatur; tänk på att slutsköljningen normalt är kall (cirka 5–30 minuter).",
+        "intro_html": "<p>Tvättmaskinen verkar inte värma tvättvattnet.</p><p>Kontrollera valt program och temperatur; tänk på att slutsköljningen normalt är kall. Koppla ur före rengöring eller yttre kontroll och öppna aldrig maskinens paneler.</p>",
+        "causes_json": [
+          {
+            "cause": "Kallt eller lågtempererat program",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Normal kall slutsköljning",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Fel i värmesystemet",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Fel på temperaturgivning eller styrning",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera inställning och symptom",
+            "detail": "Kontrollera valt program och temperatur; tänk på att slutsköljningen normalt är kall."
+          },
+          {
+            "step": 3,
+            "action": "Dokumentera",
+            "detail": "Notera programfas, eventuell kod och PNC-/produktnummer."
+          },
+          {
+            "step": 4,
+            "action": "Följ exakt manual",
+            "detail": "Gör bara dokumenterade användarkontroller; demontera inget och gör inga elektriska mätningar."
+          },
+          {
+            "step": 5,
+            "action": "Boka service",
+            "detail": "Avsluta om felet kvarstår eller om tätning, värmare, motor, elektronik eller intern mekanik misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om problemet kvarstår efter yttre kontroller. Använd inte maskinen med skadad tätning, läckage eller onormal mekanisk rörelse.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, onormal värme, utlöst elskydd, gnistor eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, stäng dragkedjor, lämna luckan på glänt efter användning när det är säkert och rengör tätning och åtkomliga delar enligt manualen.</p><p>Håll maskinen nivellerad och använd rätt program; detta förebygger inte interna komponentfel.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Kontrollera valt program och temperatur; tänk på att slutsköljningen normalt är kall. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "357": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "vibrating-excessively",
+        "sv_slug": "vibrerar-för-mycket"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Vibrating Excessively: Safe Checks",
+        "meta_description": "Washing Machine Vibrating Excessively? Read verified causes, safe manual-based checks and when authorised service is required.",
+        "h1": "Washing Machine Vibrating Excessively",
+        "description": "The washer moves or vibrates more than expected.",
+        "quick_fix": "Check transit bolts on a new installation, level all feet, provide clearance and redistribute the load (about 5–30 minutes).",
+        "intro_html": "<p>The washer moves or vibrates more than expected.</p><p>Check transit bolts on a new installation, level all feet, provide clearance and redistribute the load. Unplug before cleaning or external checks and never open appliance panels.</p>",
+        "causes_json": [
+          {
+            "cause": "Transit bolts still fitted",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Washer not level or floor unstable",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Unbalanced or unusual load",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Internal suspension or mechanical fault",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check settings and symptoms",
+            "detail": "Check transit bolts on a new installation, level all feet, provide clearance and redistribute the load."
+          },
+          {
+            "step": 3,
+            "action": "Record details",
+            "detail": "Note the programme stage, any code and the PNC/product number."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact manual",
+            "detail": "Perform documented user checks only; dismantle nothing and make no electrical measurements."
+          },
+          {
+            "step": 5,
+            "action": "Arrange service",
+            "detail": "Stop if the issue remains or the seal, heater, motor, electronics or internal mechanics are suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the problem remains after external checks. Do not use the washer with a damaged seal, leakage or abnormal mechanical movement.</p><p>Unplug immediately for water near electricity, burning smell, smoke, abnormal heat, tripped protection, sparks or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, close zips, leave the door ajar after use when safe and clean the seal and accessible areas as the manual specifies.</p><p>Keep the washer level and select the correct programme; this does not prevent internal component faults.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Check transit bolts on a new installation, level all feet, provide clearance and redistribute the load. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskinen vibrerar för mycket: säkra kontroller",
+        "meta_description": "Tvättmaskinen vibrerar för mycket? Läs verifierade orsaker, säkra kontroller enligt manualen och när auktoriserad service krävs.",
+        "h1": "Tvättmaskinen vibrerar för mycket",
+        "description": "Tvättmaskinen rör sig eller vibrerar mer än förväntat.",
+        "quick_fix": "Kontrollera transportbultar vid ny installation, nivellera alla fötter, ge frigång och fördela om lasten (cirka 5–30 minuter).",
+        "intro_html": "<p>Tvättmaskinen rör sig eller vibrerar mer än förväntat.</p><p>Kontrollera transportbultar vid ny installation, nivellera alla fötter, ge frigång och fördela om lasten. Koppla ur före rengöring eller yttre kontroll och öppna aldrig maskinens paneler.</p>",
+        "causes_json": [
+          {
+            "cause": "Transportbultar sitter kvar",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Maskinen står ojämnt eller golvet är instabilt",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Obalanserad eller ovanlig last",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Internt upphängnings- eller mekanikfel",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera inställning och symptom",
+            "detail": "Kontrollera transportbultar vid ny installation, nivellera alla fötter, ge frigång och fördela om lasten."
+          },
+          {
+            "step": 3,
+            "action": "Dokumentera",
+            "detail": "Notera programfas, eventuell kod och PNC-/produktnummer."
+          },
+          {
+            "step": 4,
+            "action": "Följ exakt manual",
+            "detail": "Gör bara dokumenterade användarkontroller; demontera inget och gör inga elektriska mätningar."
+          },
+          {
+            "step": 5,
+            "action": "Boka service",
+            "detail": "Avsluta om felet kvarstår eller om tätning, värmare, motor, elektronik eller intern mekanik misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om problemet kvarstår efter yttre kontroller. Använd inte maskinen med skadad tätning, läckage eller onormal mekanisk rörelse.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, onormal värme, utlöst elskydd, gnistor eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, stäng dragkedjor, lämna luckan på glänt efter användning när det är säkert och rengör tätning och åtkomliga delar enligt manualen.</p><p>Håll maskinen nivellerad och använd rätt program; detta förebygger inte interna komponentfel.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Kontrollera transportbultar vid ny installation, nivellera alla fötter, ge frigång och fördela om lasten. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "360": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "door-seal-damaged",
+        "sv_slug": "dorrtätning-skadad"
+      },
+      "en": {
+        "title_tag": "Electrolux Damaged or Mouldy Washing Machine Door Seal: Safe Checks",
+        "meta_description": "Damaged or Mouldy Washing Machine Door Seal? Read verified causes, safe manual-based checks and when authorised service is required.",
+        "h1": "Damaged or Mouldy Washing Machine Door Seal",
+        "description": "The door gasket is damaged, loose, deformed or contaminated.",
+        "quick_fix": "Do not use a washer with a damaged or leaking seal; clean only an intact seal by the exact manual (about 5–30 minutes).",
+        "intro_html": "<p>The door gasket is damaged, loose, deformed or contaminated.</p><p>Do not use a washer with a damaged or leaking seal; clean only an intact seal by the exact manual. Unplug before cleaning or external checks and never open appliance panels.</p>",
+        "causes_json": [
+          {
+            "cause": "Laundry trapped in the door",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Zips or metal objects",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Overloading",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Residue and persistent moisture",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check settings and symptoms",
+            "detail": "Do not use a washer with a damaged or leaking seal; clean only an intact seal by the exact manual."
+          },
+          {
+            "step": 3,
+            "action": "Record details",
+            "detail": "Note the programme stage, any code and the PNC/product number."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact manual",
+            "detail": "Perform documented user checks only; dismantle nothing and make no electrical measurements."
+          },
+          {
+            "step": 5,
+            "action": "Arrange service",
+            "detail": "Stop if the issue remains or the seal, heater, motor, electronics or internal mechanics are suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the problem remains after external checks. Do not use the washer with a damaged seal, leakage or abnormal mechanical movement.</p><p>Unplug immediately for water near electricity, burning smell, smoke, abnormal heat, tripped protection, sparks or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, close zips, leave the door ajar after use when safe and clean the seal and accessible areas as the manual specifies.</p><p>Keep the washer level and select the correct programme; this does not prevent internal component faults.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Do not use a washer with a damaged or leaking seal; clean only an intact seal by the exact manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux skadad eller möglig dörrtätning: säkra kontroller",
+        "meta_description": "Skadad eller möglig dörrtätning? Läs verifierade orsaker, säkra kontroller enligt manualen och när auktoriserad service krävs.",
+        "h1": "Skadad eller möglig dörrtätning",
+        "description": "Lucktätningen är skadad, lös, deformerad eller smutsig.",
+        "quick_fix": "Använd inte en maskin med skadad eller läckande tätning; rengör endast en hel tätning enligt manualen (cirka 5–30 minuter).",
+        "intro_html": "<p>Lucktätningen är skadad, lös, deformerad eller smutsig.</p><p>Använd inte en maskin med skadad eller läckande tätning; rengör endast en hel tätning enligt manualen. Koppla ur före rengöring eller yttre kontroll och öppna aldrig maskinens paneler.</p>",
+        "causes_json": [
+          {
+            "cause": "Tvätt fastnar i luckan",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Dragkedjor eller metallföremål",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Överlast",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Rester och kvarstående fukt",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera inställning och symptom",
+            "detail": "Använd inte en maskin med skadad eller läckande tätning; rengör endast en hel tätning enligt manualen."
+          },
+          {
+            "step": 3,
+            "action": "Dokumentera",
+            "detail": "Notera programfas, eventuell kod och PNC-/produktnummer."
+          },
+          {
+            "step": 4,
+            "action": "Följ exakt manual",
+            "detail": "Gör bara dokumenterade användarkontroller; demontera inget och gör inga elektriska mätningar."
+          },
+          {
+            "step": 5,
+            "action": "Boka service",
+            "detail": "Avsluta om felet kvarstår eller om tätning, värmare, motor, elektronik eller intern mekanik misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om problemet kvarstår efter yttre kontroller. Använd inte maskinen med skadad tätning, läckage eller onormal mekanisk rörelse.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, onormal värme, utlöst elskydd, gnistor eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, stäng dragkedjor, lämna luckan på glänt efter användning när det är säkert och rengör tätning och åtkomliga delar enligt manualen.</p><p>Håll maskinen nivellerad och använd rätt program; detta förebygger inte interna komponentfel.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Använd inte en maskin med skadad eller läckande tätning; rengör endast en hel tätning enligt manualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "361": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "drum-not-turning",
+        "sv_slug": "trumma-snurrar-inte"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Drum Not Turning: Safe Checks",
+        "meta_description": "Washing Machine Drum Not Turning? Read verified causes, safe manual-based checks and when authorised service is required.",
+        "h1": "Washing Machine Drum Not Turning",
+        "description": "The drum does not rotate during the programme.",
+        "quick_fix": "Check the programme, load, closed door and drainage; do not reach inside or inspect the drive system (about 5–30 minutes).",
+        "intro_html": "<p>The drum does not rotate during the programme.</p><p>Check the programme, load, closed door and drainage; do not reach inside or inspect the drive system. Unplug before cleaning or external checks and never open appliance panels.</p>",
+        "causes_json": [
+          {
+            "cause": "Programme delay or paused cycle",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Load or drainage problem",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Door not locked",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Internal motor, drive or control fault",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check settings and symptoms",
+            "detail": "Check the programme, load, closed door and drainage; do not reach inside or inspect the drive system."
+          },
+          {
+            "step": 3,
+            "action": "Record details",
+            "detail": "Note the programme stage, any code and the PNC/product number."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact manual",
+            "detail": "Perform documented user checks only; dismantle nothing and make no electrical measurements."
+          },
+          {
+            "step": 5,
+            "action": "Arrange service",
+            "detail": "Stop if the issue remains or the seal, heater, motor, electronics or internal mechanics are suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the problem remains after external checks. Do not use the washer with a damaged seal, leakage or abnormal mechanical movement.</p><p>Unplug immediately for water near electricity, burning smell, smoke, abnormal heat, tripped protection, sparks or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, close zips, leave the door ajar after use when safe and clean the seal and accessible areas as the manual specifies.</p><p>Keep the washer level and select the correct programme; this does not prevent internal component faults.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Check the programme, load, closed door and drainage; do not reach inside or inspect the drive system. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskinens trumma snurrar inte: säkra kontroller",
+        "meta_description": "Tvättmaskinens trumma snurrar inte? Läs verifierade orsaker, säkra kontroller enligt manualen och när auktoriserad service krävs.",
+        "h1": "Tvättmaskinens trumma snurrar inte",
+        "description": "Trumman roterar inte under programmet.",
+        "quick_fix": "Kontrollera program, last, stängd lucka och tömning; för inte in händer och inspektera inte drivsystemet (cirka 5–30 minuter).",
+        "intro_html": "<p>Trumman roterar inte under programmet.</p><p>Kontrollera program, last, stängd lucka och tömning; för inte in händer och inspektera inte drivsystemet. Koppla ur före rengöring eller yttre kontroll och öppna aldrig maskinens paneler.</p>",
+        "causes_json": [
+          {
+            "cause": "Programfördröjning eller paus",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Last- eller tömningsproblem",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Luckan är inte låst",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Internt motor-, driv- eller styrfel",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera inställning och symptom",
+            "detail": "Kontrollera program, last, stängd lucka och tömning; för inte in händer och inspektera inte drivsystemet."
+          },
+          {
+            "step": 3,
+            "action": "Dokumentera",
+            "detail": "Notera programfas, eventuell kod och PNC-/produktnummer."
+          },
+          {
+            "step": 4,
+            "action": "Följ exakt manual",
+            "detail": "Gör bara dokumenterade användarkontroller; demontera inget och gör inga elektriska mätningar."
+          },
+          {
+            "step": 5,
+            "action": "Boka service",
+            "detail": "Avsluta om felet kvarstår eller om tätning, värmare, motor, elektronik eller intern mekanik misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om problemet kvarstår efter yttre kontroller. Använd inte maskinen med skadad tätning, läckage eller onormal mekanisk rörelse.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, onormal värme, utlöst elskydd, gnistor eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, stäng dragkedjor, lämna luckan på glänt efter användning när det är säkert och rengör tätning och åtkomliga delar enligt manualen.</p><p>Håll maskinen nivellerad och använd rätt program; detta förebygger inte interna komponentfel.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Kontrollera program, last, stängd lucka och tömning; för inte in händer och inspektera inte drivsystemet. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "362": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "control-panel-unresponsive",
+        "sv_slug": "kontrollpanel-svarar-inte"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Control Panel Unresponsive: Safe Checks",
+        "meta_description": "Washing Machine Control Panel Unresponsive? Read verified causes, safe manual-based checks and when authorised service is required.",
+        "h1": "Washing Machine Control Panel Unresponsive",
+        "description": "The display or controls do not respond normally.",
+        "quick_fix": "Check the mains supply, door and child lock shown in the exact manual, then disconnect for 15 minutes once (about 5–30 minutes).",
+        "intro_html": "<p>The display or controls do not respond normally.</p><p>Check the mains supply, door and child lock shown in the exact manual, then disconnect for 15 minutes once. Unplug before cleaning or external checks and never open appliance panels.</p>",
+        "causes_json": [
+          {
+            "cause": "No power at the outlet",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Child lock active",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Door not fully closed",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          },
+          {
+            "cause": "Internal interface or control fault",
+            "detail": "Check this only through user-accessible, model-specific steps in the manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check settings and symptoms",
+            "detail": "Check the mains supply, door and child lock shown in the exact manual, then disconnect for 15 minutes once."
+          },
+          {
+            "step": 3,
+            "action": "Record details",
+            "detail": "Note the programme stage, any code and the PNC/product number."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact manual",
+            "detail": "Perform documented user checks only; dismantle nothing and make no electrical measurements."
+          },
+          {
+            "step": 5,
+            "action": "Arrange service",
+            "detail": "Stop if the issue remains or the seal, heater, motor, electronics or internal mechanics are suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the problem remains after external checks. Do not use the washer with a damaged seal, leakage or abnormal mechanical movement.</p><p>Unplug immediately for water near electricity, burning smell, smoke, abnormal heat, tripped protection, sparks or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, close zips, leave the door ajar after use when safe and clean the seal and accessible areas as the manual specifies.</p><p>Keep the washer level and select the correct programme; this does not prevent internal component faults.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Check the mains supply, door and child lock shown in the exact manual, then disconnect for 15 minutes once. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskinens kontrollpanel svarar inte: säkra kontroller",
+        "meta_description": "Tvättmaskinens kontrollpanel svarar inte? Läs verifierade orsaker, säkra kontroller enligt manualen och när auktoriserad service krävs.",
+        "h1": "Tvättmaskinens kontrollpanel svarar inte",
+        "description": "Displayen eller reglagen svarar inte normalt.",
+        "quick_fix": "Kontrollera nätmatning, lucka och barnlås enligt exakt manual och koppla sedan ur i 15 minuter en gång (cirka 5–30 minuter).",
+        "intro_html": "<p>Displayen eller reglagen svarar inte normalt.</p><p>Kontrollera nätmatning, lucka och barnlås enligt exakt manual och koppla sedan ur i 15 minuter en gång. Koppla ur före rengöring eller yttre kontroll och öppna aldrig maskinens paneler.</p>",
+        "causes_json": [
+          {
+            "cause": "Ingen spänning i uttaget",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Barnlåset är aktivt",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Luckan är inte helt stängd",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          },
+          {
+            "cause": "Internt gränssnitts- eller styrfel",
+            "detail": "Kontrollera detta endast med användaråtkomliga och modellspecifika steg i manualen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera inställning och symptom",
+            "detail": "Kontrollera nätmatning, lucka och barnlås enligt exakt manual och koppla sedan ur i 15 minuter en gång."
+          },
+          {
+            "step": 3,
+            "action": "Dokumentera",
+            "detail": "Notera programfas, eventuell kod och PNC-/produktnummer."
+          },
+          {
+            "step": 4,
+            "action": "Följ exakt manual",
+            "detail": "Gör bara dokumenterade användarkontroller; demontera inget och gör inga elektriska mätningar."
+          },
+          {
+            "step": 5,
+            "action": "Boka service",
+            "detail": "Avsluta om felet kvarstår eller om tätning, värmare, motor, elektronik eller intern mekanik misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om problemet kvarstår efter yttre kontroller. Använd inte maskinen med skadad tätning, läckage eller onormal mekanisk rörelse.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, onormal värme, utlöst elskydd, gnistor eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, stäng dragkedjor, lämna luckan på glänt efter användning när det är säkert och rengör tätning och åtkomliga delar enligt manualen.</p><p>Håll maskinen nivellerad och använd rätt program; detta förebygger inte interna komponentfel.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Kontrollera nätmatning, lucka och barnlås enligt exakt manual och koppla sedan ur i 15 minuter en gång. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

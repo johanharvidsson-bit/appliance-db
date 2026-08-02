@@ -1,0 +1,885 @@
+{
+  "batch": "009-bosch-noise-controls",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    317,
+    318,
+    319,
+    323,
+    324
+  ],
+  "sources": [
+    "https://www.bosch-home.com/us/owner-support/washers",
+    "https://www.bosch-home.com/ae/en/customer-service/get-support/washing-machine-makes-noise",
+    "https://www.bosch-home.com/us/owner-support/get-support/support-selfhelp-washing-machine-drum-doesnt-turn",
+    "https://www.bosch-home.com/us/owner-support/error-codes/washers",
+    "https://www.bosch-home.com/gh/en/service/get-support/key-symbol-appears-in-display"
+  ],
+  "translations": {
+    "317": {
+      "code": "NOISE",
+      "preserve": {
+        "en_slug": "making-loud-noise",
+        "sv_slug": "låter-högt"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Making Loud Noise: Safe Checks",
+        "meta_description": "Safe Bosch checks, verified causes and clear guidance on when to stop the washing machine and arrange professional service.",
+        "h1": "Why Is My Bosch Washing Machine Making Loud Noises?",
+        "description": "Bosch lists an unbalanced or overloaded load, incorrect levelling, transit bolts and accessible foreign objects among common causes of unusual washer noise.",
+        "quick_fix": "Pause safely, redistribute the load and check levelling and visible objects according to the exact manual (about 5–15 minutes).",
+        "intro_html": "<p>Bosch lists an unbalanced or overloaded load, incorrect levelling, transit bolts and accessible foreign objects among common causes of unusual washer noise.</p><p>Pause safely, redistribute the load and check levelling and visible objects according to the exact manual. Always follow the manual for the exact E-Nr and do not remove panels or test internal parts.</p>",
+        "causes_json": [
+          {
+            "cause": "Unbalanced or overloaded laundry",
+            "detail": "Heavy items can gather on one side and create banging during spin."
+          },
+          {
+            "cause": "Washer not level or surface unstable",
+            "detail": "All feet must stand firmly and lock nuts must be secured as the installation manual describes."
+          },
+          {
+            "cause": "Transit bolts on a new installation",
+            "detail": "Transport restraints left fitted can cause severe noise and damage."
+          },
+          {
+            "cause": "Foreign object or internal fault",
+            "detail": "Accessible objects may rattle; persistent grinding, scraping or knocking needs service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop and observe",
+            "detail": "Pause safely, wait for the drum to stop and record the noise, movement, display and programme stage."
+          },
+          {
+            "step": 2,
+            "action": "Check the E-Nr and manual",
+            "detail": "Use instructions only for the exact model and market."
+          },
+          {
+            "step": 3,
+            "action": "Perform the safe external check",
+            "detail": "Pause safely, redistribute the load and check levelling and visible objects according to the exact manual."
+          },
+          {
+            "step": 4,
+            "action": "Check for warning signs",
+            "detail": "Stop for a burning smell, smoke, leakage, heavy impacts, scraping noise or a tripped supply."
+          },
+          {
+            "step": 5,
+            "action": "Test at most once",
+            "detail": "Make one short test only if the manual permits it and the washer is stable, dry and has no warning signs."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the problem remains or Bosch directs the symptom to a technician. Provide the E-Nr and observations."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange service if the problem remains after safe documented external checks. Stop immediately for burning smell, smoke, leakage, electrical faults, heavy impacts or scraping noise.</p><p>Do not remove panels or inspect the motor, heater, bearings, suspension, wiring or control board yourself.</p>",
+        "prevention_html": "<p>Follow load limits and installation instructions, mix large and small items and keep the washer stable and correctly levelled.</p><p>Use the correct programme and perform only user maintenance described in the model manual.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing Why Is My Bosch Washing Machine Making Loud Noises??",
+            "answer": "Pause safely, redistribute the load and check levelling and visible objects according to the exact manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset Why Is My Bosch Washing Machine Making Loud Noises? by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does Why Is My Bosch Washing Machine Making Loud Noises? identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin låter högt: säkra kontroller",
+        "meta_description": "Säkra Bosch-kontroller, verifierade orsaker och tydliga gränser för när tvättmaskinen ska stoppas och lämnas till service.",
+        "h1": "Varför låter Bosch-tvättmaskinen högt?",
+        "description": "Bosch anger obalanserad eller överfull last, fel nivellering, transportbultar och åtkomliga främmande föremål som vanliga orsaker till ovanliga ljud.",
+        "quick_fix": "Pausa säkert, fördela tvätten och kontrollera nivellering och synliga föremål enligt rätt manual (cirka 5–15 minuter).",
+        "intro_html": "<p>Bosch anger obalanserad eller överfull last, fel nivellering, transportbultar och åtkomliga främmande föremål som vanliga orsaker till ovanliga ljud.</p><p>Pausa säkert, fördela tvätten och kontrollera nivellering och synliga föremål enligt rätt manual. Följ alltid manualen för exakt E‑Nr och ta inte bort paneler eller testa interna delar.</p>",
+        "causes_json": [
+          {
+            "cause": "Obalanserad eller överfull tvätt",
+            "detail": "Tunga plagg kan samlas på ena sidan och orsaka slag under centrifugering."
+          },
+          {
+            "cause": "Maskinen står inte plant",
+            "detail": "Alla fötter ska stå stadigt och låsmuttrarna säkras enligt installationsmanualen."
+          },
+          {
+            "cause": "Transportbultar på en ny installation",
+            "detail": "Kvarlämnade transportsäkringar kan orsaka kraftigt ljud och skada."
+          },
+          {
+            "cause": "Främmande föremål eller internt fel",
+            "detail": "Åtkomliga föremål kan skramla; kvarstående malande, skrapande eller dunkande ljud kräver service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa och observera",
+            "detail": "Pausa säkert, vänta tills trumman står stilla och dokumentera ljud, rörelse, display och programfas."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera E‑Nr och manual",
+            "detail": "Använd bara anvisningar för exakt modell och marknad."
+          },
+          {
+            "step": 3,
+            "action": "Gör den säkra yttre kontrollen",
+            "detail": "Pausa säkert, fördela tvätten och kontrollera nivellering och synliga föremål enligt rätt manual."
+          },
+          {
+            "step": 4,
+            "action": "Kontrollera varningssignaler",
+            "detail": "Avbryt vid bränd lukt, rök, läckage, kraftiga slag, skrapande ljud eller utlöst säkring."
+          },
+          {
+            "step": 5,
+            "action": "Testa högst en gång",
+            "detail": "Gör bara ett kort test om manualen medger det och maskinen är stabil, torr och utan varningssignaler."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om problemet kvarstår eller om Bosch hänvisar symptomet till tekniker. Uppge E‑Nr och observationerna."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka service om problemet kvarstår efter säkra, dokumenterade yttre kontroller. Avbryt omedelbart vid bränd lukt, rök, läckage, elfel, kraftiga slag eller skrapande ljud.</p><p>Ta inte bort paneler och kontrollera inte motor, värmare, lager, upphängning, kablage eller styrkort själv.</p>",
+        "prevention_html": "<p>Följ lastgränser och installationsanvisningar, fördela stora och små plagg och håll maskinen stabil och korrekt nivellerad.</p><p>Använd rätt program och utför bara det användarunderhåll som anges i modellmanualen.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med Varför låter Bosch-tvättmaskinen högt??",
+            "answer": "Pausa säkert, fördela tvätten och kontrollera nivellering och synliga föremål enligt rätt manual. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa Varför låter Bosch-tvättmaskinen högt? genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar Varför låter Bosch-tvättmaskinen högt? vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "318": {
+      "code": "NO_HEAT",
+      "preserve": {
+        "en_slug": "not-heating-water",
+        "sv_slug": "värmer-inte-vatten"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Not Heating Water: Safe Checks",
+        "meta_description": "Safe Bosch checks, verified causes and clear guidance on when to stop the washing machine and arrange professional service.",
+        "h1": "Why Is My Bosch Washing Machine Not Heating the Water?",
+        "description": "A suspected heating problem cannot be confirmed by touching the door; persistent cold washing, a stopped programme or Bosch heating code needs model-specific diagnosis.",
+        "quick_fix": "Check the selected programme and displayed code, then stop and arrange Bosch service if the washer repeatedly fails to complete or shows a heating fault (about 5–15 minutes).",
+        "intro_html": "<p>A suspected heating problem cannot be confirmed by touching the door; persistent cold washing, a stopped programme or Bosch heating code needs model-specific diagnosis.</p><p>Check the selected programme and displayed code, then stop and arrange Bosch service if the washer repeatedly fails to complete or shows a heating fault. Always follow the manual for the exact E-Nr and do not remove panels or test internal parts.</p>",
+        "causes_json": [
+          {
+            "cause": "Programme temperature and energy-efficient operation",
+            "detail": "Some programmes use lower temperatures and the door is not a reliable water-temperature test."
+          },
+          {
+            "cause": "Documented heating code",
+            "detail": "Bosch identifies E19/F19 as heating time exceeded and E20/F20 as unexpected heating."
+          },
+          {
+            "cause": "Temperature sensing or heating control",
+            "detail": "Persistent incorrect temperature requires internal diagnosis for the exact E-Nr."
+          },
+          {
+            "cause": "Internal electrical fault",
+            "detail": "Heaters, sensors, wiring and control electronics are not user-serviceable checks."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop and observe",
+            "detail": "Pause safely, wait for the drum to stop and record the noise, movement, display and programme stage."
+          },
+          {
+            "step": 2,
+            "action": "Check the E-Nr and manual",
+            "detail": "Use instructions only for the exact model and market."
+          },
+          {
+            "step": 3,
+            "action": "Perform the safe external check",
+            "detail": "Check the selected programme and displayed code, then stop and arrange Bosch service if the washer repeatedly fails to complete or shows a heating fault."
+          },
+          {
+            "step": 4,
+            "action": "Check for warning signs",
+            "detail": "Stop for a burning smell, smoke, leakage, heavy impacts, scraping noise or a tripped supply."
+          },
+          {
+            "step": 5,
+            "action": "Test at most once",
+            "detail": "Make one short test only if the manual permits it and the washer is stable, dry and has no warning signs."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the problem remains or Bosch directs the symptom to a technician. Provide the E-Nr and observations."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange service if the problem remains after safe documented external checks. Stop immediately for burning smell, smoke, leakage, electrical faults, heavy impacts or scraping noise.</p><p>Do not remove panels or inspect the motor, heater, bearings, suspension, wiring or control board yourself.</p>",
+        "prevention_html": "<p>Follow load limits and installation instructions, mix large and small items and keep the washer stable and correctly levelled.</p><p>Use the correct programme and perform only user maintenance described in the model manual.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing Why Is My Bosch Washing Machine Not Heating the Water??",
+            "answer": "Check the selected programme and displayed code, then stop and arrange Bosch service if the washer repeatedly fails to complete or shows a heating fault. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset Why Is My Bosch Washing Machine Not Heating the Water? by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does Why Is My Bosch Washing Machine Not Heating the Water? identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin värmer inte vatten: säkra steg",
+        "meta_description": "Säkra Bosch-kontroller, verifierade orsaker och tydliga gränser för när tvättmaskinen ska stoppas och lämnas till service.",
+        "h1": "Varför värmer inte Bosch-tvättmaskinen vattnet?",
+        "description": "Ett misstänkt värmefel kan inte bekräftas genom att känna på luckan; kvarstående kall tvätt, avstannat program eller Bosch värmekod kräver modellspecifik diagnos.",
+        "quick_fix": "Kontrollera valt program och visad kod, stoppa sedan och boka Bosch-service om maskinen upprepade gånger inte slutför programmet eller visar värmefel (cirka 5–15 minuter).",
+        "intro_html": "<p>Ett misstänkt värmefel kan inte bekräftas genom att känna på luckan; kvarstående kall tvätt, avstannat program eller Bosch värmekod kräver modellspecifik diagnos.</p><p>Kontrollera valt program och visad kod, stoppa sedan och boka Bosch-service om maskinen upprepade gånger inte slutför programmet eller visar värmefel. Följ alltid manualen för exakt E‑Nr och ta inte bort paneler eller testa interna delar.</p>",
+        "causes_json": [
+          {
+            "cause": "Programtemperatur och energieffektiv drift",
+            "detail": "Vissa program använder lägre temperatur och luckan är inget tillförlitligt temperaturtest."
+          },
+          {
+            "cause": "Dokumenterad värmekod",
+            "detail": "Bosch anger E19/F19 för överskriden uppvärmningstid och E20/F20 för oväntad uppvärmning."
+          },
+          {
+            "cause": "Temperaturmätning eller värmestyrning",
+            "detail": "Kvarstående fel temperatur kräver intern diagnos för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt elfel",
+            "detail": "Värmare, sensorer, kablage och styrelektronik ska inte kontrolleras av användaren."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa och observera",
+            "detail": "Pausa säkert, vänta tills trumman står stilla och dokumentera ljud, rörelse, display och programfas."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera E‑Nr och manual",
+            "detail": "Använd bara anvisningar för exakt modell och marknad."
+          },
+          {
+            "step": 3,
+            "action": "Gör den säkra yttre kontrollen",
+            "detail": "Kontrollera valt program och visad kod, stoppa sedan och boka Bosch-service om maskinen upprepade gånger inte slutför programmet eller visar värmefel."
+          },
+          {
+            "step": 4,
+            "action": "Kontrollera varningssignaler",
+            "detail": "Avbryt vid bränd lukt, rök, läckage, kraftiga slag, skrapande ljud eller utlöst säkring."
+          },
+          {
+            "step": 5,
+            "action": "Testa högst en gång",
+            "detail": "Gör bara ett kort test om manualen medger det och maskinen är stabil, torr och utan varningssignaler."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om problemet kvarstår eller om Bosch hänvisar symptomet till tekniker. Uppge E‑Nr och observationerna."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka service om problemet kvarstår efter säkra, dokumenterade yttre kontroller. Avbryt omedelbart vid bränd lukt, rök, läckage, elfel, kraftiga slag eller skrapande ljud.</p><p>Ta inte bort paneler och kontrollera inte motor, värmare, lager, upphängning, kablage eller styrkort själv.</p>",
+        "prevention_html": "<p>Följ lastgränser och installationsanvisningar, fördela stora och små plagg och håll maskinen stabil och korrekt nivellerad.</p><p>Använd rätt program och utför bara det användarunderhåll som anges i modellmanualen.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med Varför värmer inte Bosch-tvättmaskinen vattnet??",
+            "answer": "Kontrollera valt program och visad kod, stoppa sedan och boka Bosch-service om maskinen upprepade gånger inte slutför programmet eller visar värmefel. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa Varför värmer inte Bosch-tvättmaskinen vattnet? genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar Varför värmer inte Bosch-tvättmaskinen vattnet? vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "319": {
+      "code": "VIBRATION",
+      "preserve": {
+        "en_slug": "vibrating-excessively",
+        "sv_slug": "vibrerar-för-mycket"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Vibrating Too Much: Safe Checks",
+        "meta_description": "Safe Bosch checks, verified causes and clear guidance on when to stop the washing machine and arrange professional service.",
+        "h1": "Why Is My Bosch Washing Machine Vibrating Excessively?",
+        "description": "Bosch identifies load imbalance, overloading, incorrect levelling, an unsuitable floor and fitted transit bolts as common causes of excessive vibration.",
+        "quick_fix": "Stop the washer if it moves or strikes the cabinet, then redistribute the load and check installation against the exact manual (about 5–15 minutes).",
+        "intro_html": "<p>Bosch identifies load imbalance, overloading, incorrect levelling, an unsuitable floor and fitted transit bolts as common causes of excessive vibration.</p><p>Stop the washer if it moves or strikes the cabinet, then redistribute the load and check installation against the exact manual. Always follow the manual for the exact E-Nr and do not remove panels or test internal parts.</p>",
+        "causes_json": [
+          {
+            "cause": "Unbalanced load",
+            "detail": "One heavy item or tangled laundry can create strong forces during spin."
+          },
+          {
+            "cause": "Overloaded drum",
+            "detail": "An overfull drum cannot distribute laundry effectively."
+          },
+          {
+            "cause": "Incorrect levelling or unstable floor",
+            "detail": "All feet need firm contact with a suitable stable surface."
+          },
+          {
+            "cause": "Transit bolts or installation fault",
+            "detail": "A new washer must have its transport restraints removed exactly as instructed."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop and observe",
+            "detail": "Pause safely, wait for the drum to stop and record the noise, movement, display and programme stage."
+          },
+          {
+            "step": 2,
+            "action": "Check the E-Nr and manual",
+            "detail": "Use instructions only for the exact model and market."
+          },
+          {
+            "step": 3,
+            "action": "Perform the safe external check",
+            "detail": "Stop the washer if it moves or strikes the cabinet, then redistribute the load and check installation against the exact manual."
+          },
+          {
+            "step": 4,
+            "action": "Check for warning signs",
+            "detail": "Stop for a burning smell, smoke, leakage, heavy impacts, scraping noise or a tripped supply."
+          },
+          {
+            "step": 5,
+            "action": "Test at most once",
+            "detail": "Make one short test only if the manual permits it and the washer is stable, dry and has no warning signs."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the problem remains or Bosch directs the symptom to a technician. Provide the E-Nr and observations."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange service if the problem remains after safe documented external checks. Stop immediately for burning smell, smoke, leakage, electrical faults, heavy impacts or scraping noise.</p><p>Do not remove panels or inspect the motor, heater, bearings, suspension, wiring or control board yourself.</p>",
+        "prevention_html": "<p>Follow load limits and installation instructions, mix large and small items and keep the washer stable and correctly levelled.</p><p>Use the correct programme and perform only user maintenance described in the model manual.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing Why Is My Bosch Washing Machine Vibrating Excessively??",
+            "answer": "Stop the washer if it moves or strikes the cabinet, then redistribute the load and check installation against the exact manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset Why Is My Bosch Washing Machine Vibrating Excessively? by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does Why Is My Bosch Washing Machine Vibrating Excessively? identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin vibrerar för mycket: säkra kontroller",
+        "meta_description": "Säkra Bosch-kontroller, verifierade orsaker och tydliga gränser för när tvättmaskinen ska stoppas och lämnas till service.",
+        "h1": "Varför vibrerar Bosch-tvättmaskinen för mycket?",
+        "description": "Bosch anger lastobalans, överlast, fel nivellering, olämpligt golv och kvarvarande transportbultar som vanliga orsaker till kraftig vibration.",
+        "quick_fix": "Stoppa maskinen om den flyttar sig eller slår, fördela därefter lasten och kontrollera installationen mot rätt manual (cirka 5–15 minuter).",
+        "intro_html": "<p>Bosch anger lastobalans, överlast, fel nivellering, olämpligt golv och kvarvarande transportbultar som vanliga orsaker till kraftig vibration.</p><p>Stoppa maskinen om den flyttar sig eller slår, fördela därefter lasten och kontrollera installationen mot rätt manual. Följ alltid manualen för exakt E‑Nr och ta inte bort paneler eller testa interna delar.</p>",
+        "causes_json": [
+          {
+            "cause": "Obalanserad last",
+            "detail": "Ett tungt plagg eller hoptrasslad tvätt kan skapa stora krafter vid centrifugering."
+          },
+          {
+            "cause": "Överfull trumma",
+            "detail": "En överfull trumma kan inte fördela tvätten effektivt."
+          },
+          {
+            "cause": "Fel nivellering eller instabilt golv",
+            "detail": "Alla fötter måste stå stadigt på ett lämpligt stabilt underlag."
+          },
+          {
+            "cause": "Transportbultar eller installationsfel",
+            "detail": "En ny maskins transportsäkringar ska tas bort exakt enligt anvisningen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa och observera",
+            "detail": "Pausa säkert, vänta tills trumman står stilla och dokumentera ljud, rörelse, display och programfas."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera E‑Nr och manual",
+            "detail": "Använd bara anvisningar för exakt modell och marknad."
+          },
+          {
+            "step": 3,
+            "action": "Gör den säkra yttre kontrollen",
+            "detail": "Stoppa maskinen om den flyttar sig eller slår, fördela därefter lasten och kontrollera installationen mot rätt manual."
+          },
+          {
+            "step": 4,
+            "action": "Kontrollera varningssignaler",
+            "detail": "Avbryt vid bränd lukt, rök, läckage, kraftiga slag, skrapande ljud eller utlöst säkring."
+          },
+          {
+            "step": 5,
+            "action": "Testa högst en gång",
+            "detail": "Gör bara ett kort test om manualen medger det och maskinen är stabil, torr och utan varningssignaler."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om problemet kvarstår eller om Bosch hänvisar symptomet till tekniker. Uppge E‑Nr och observationerna."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka service om problemet kvarstår efter säkra, dokumenterade yttre kontroller. Avbryt omedelbart vid bränd lukt, rök, läckage, elfel, kraftiga slag eller skrapande ljud.</p><p>Ta inte bort paneler och kontrollera inte motor, värmare, lager, upphängning, kablage eller styrkort själv.</p>",
+        "prevention_html": "<p>Följ lastgränser och installationsanvisningar, fördela stora och små plagg och håll maskinen stabil och korrekt nivellerad.</p><p>Använd rätt program och utför bara det användarunderhåll som anges i modellmanualen.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med Varför vibrerar Bosch-tvättmaskinen för mycket??",
+            "answer": "Stoppa maskinen om den flyttar sig eller slår, fördela därefter lasten och kontrollera installationen mot rätt manual. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa Varför vibrerar Bosch-tvättmaskinen för mycket? genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar Varför vibrerar Bosch-tvättmaskinen för mycket? vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "323": {
+      "code": "DRUM",
+      "preserve": {
+        "en_slug": "drum-not-turning",
+        "sv_slug": "trumman-snurrar-inte"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Drum Not Turning: What to Do",
+        "meta_description": "Safe Bosch checks, verified causes and clear guidance on when to stop the washing machine and arrange professional service.",
+        "h1": "Why Is My Bosch Washing Machine Drum Not Turning?",
+        "description": "Bosch says a new washer may still have its transport lock fitted; if an established washer's drum does not turn, Bosch directs the user to service.",
+        "quick_fix": "For a new installation, check transport-lock removal in the exact manual; otherwise switch off, unplug and contact Bosch service (about 5–15 minutes).",
+        "intro_html": "<p>Bosch says a new washer may still have its transport lock fitted; if an established washer's drum does not turn, Bosch directs the user to service.</p><p>For a new installation, check transport-lock removal in the exact manual; otherwise switch off, unplug and contact Bosch service. Always follow the manual for the exact E-Nr and do not remove panels or test internal parts.</p>",
+        "causes_json": [
+          {
+            "cause": "Transport lock on a new washer",
+            "detail": "Bosch specifically identifies fitted transport restraints as a possible reason on a new appliance."
+          },
+          {
+            "cause": "Programme or safety condition",
+            "detail": "Record any display message and confirm the door and programme state in the exact manual."
+          },
+          {
+            "cause": "Obstruction or mechanical resistance",
+            "detail": "Do not force the drum or remove panels to search internally."
+          },
+          {
+            "cause": "Drive or electrical fault",
+            "detail": "Bosch recommends service when an established washer's drum no longer turns."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop and observe",
+            "detail": "Pause safely, wait for the drum to stop and record the noise, movement, display and programme stage."
+          },
+          {
+            "step": 2,
+            "action": "Check the E-Nr and manual",
+            "detail": "Use instructions only for the exact model and market."
+          },
+          {
+            "step": 3,
+            "action": "Perform the safe external check",
+            "detail": "For a new installation, check transport-lock removal in the exact manual; otherwise switch off, unplug and contact Bosch service."
+          },
+          {
+            "step": 4,
+            "action": "Check for warning signs",
+            "detail": "Stop for a burning smell, smoke, leakage, heavy impacts, scraping noise or a tripped supply."
+          },
+          {
+            "step": 5,
+            "action": "Test at most once",
+            "detail": "Make one short test only if the manual permits it and the washer is stable, dry and has no warning signs."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the problem remains or Bosch directs the symptom to a technician. Provide the E-Nr and observations."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange service if the problem remains after safe documented external checks. Stop immediately for burning smell, smoke, leakage, electrical faults, heavy impacts or scraping noise.</p><p>Do not remove panels or inspect the motor, heater, bearings, suspension, wiring or control board yourself.</p>",
+        "prevention_html": "<p>Follow load limits and installation instructions, mix large and small items and keep the washer stable and correctly levelled.</p><p>Use the correct programme and perform only user maintenance described in the model manual.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing Why Is My Bosch Washing Machine Drum Not Turning??",
+            "answer": "For a new installation, check transport-lock removal in the exact manual; otherwise switch off, unplug and contact Bosch service. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset Why Is My Bosch Washing Machine Drum Not Turning? by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does Why Is My Bosch Washing Machine Drum Not Turning? identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskinstrumma snurrar inte: säkra steg",
+        "meta_description": "Säkra Bosch-kontroller, verifierade orsaker och tydliga gränser för när tvättmaskinen ska stoppas och lämnas till service.",
+        "h1": "Varför snurrar inte Bosch-tvättmaskinens trumma?",
+        "description": "Bosch anger att en ny maskin kan ha transportsäkringen kvar; om en tidigare använd maskins trumma inte snurrar hänvisar Bosch till service.",
+        "quick_fix": "På en ny installation kontrollerar du transportsäkringen i rätt manual; annars stänger du av, drar ur kontakten och kontaktar Bosch-service (cirka 5–15 minuter).",
+        "intro_html": "<p>Bosch anger att en ny maskin kan ha transportsäkringen kvar; om en tidigare använd maskins trumma inte snurrar hänvisar Bosch till service.</p><p>På en ny installation kontrollerar du transportsäkringen i rätt manual; annars stänger du av, drar ur kontakten och kontaktar Bosch-service. Följ alltid manualen för exakt E‑Nr och ta inte bort paneler eller testa interna delar.</p>",
+        "causes_json": [
+          {
+            "cause": "Transportsäkring på en ny maskin",
+            "detail": "Bosch anger särskilt kvarvarande transportsäkringar som möjlig orsak på en ny maskin."
+          },
+          {
+            "cause": "Program- eller säkerhetstillstånd",
+            "detail": "Dokumentera displayen och kontrollera luck- och programstatus i rätt manual."
+          },
+          {
+            "cause": "Hinder eller mekaniskt motstånd",
+            "detail": "Tvinga inte trumman och ta inte bort paneler för intern kontroll."
+          },
+          {
+            "cause": "Driv- eller elfel",
+            "detail": "Bosch rekommenderar service när en tidigare använd maskins trumma inte längre snurrar."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa och observera",
+            "detail": "Pausa säkert, vänta tills trumman står stilla och dokumentera ljud, rörelse, display och programfas."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera E‑Nr och manual",
+            "detail": "Använd bara anvisningar för exakt modell och marknad."
+          },
+          {
+            "step": 3,
+            "action": "Gör den säkra yttre kontrollen",
+            "detail": "På en ny installation kontrollerar du transportsäkringen i rätt manual; annars stänger du av, drar ur kontakten och kontaktar Bosch-service."
+          },
+          {
+            "step": 4,
+            "action": "Kontrollera varningssignaler",
+            "detail": "Avbryt vid bränd lukt, rök, läckage, kraftiga slag, skrapande ljud eller utlöst säkring."
+          },
+          {
+            "step": 5,
+            "action": "Testa högst en gång",
+            "detail": "Gör bara ett kort test om manualen medger det och maskinen är stabil, torr och utan varningssignaler."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om problemet kvarstår eller om Bosch hänvisar symptomet till tekniker. Uppge E‑Nr och observationerna."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka service om problemet kvarstår efter säkra, dokumenterade yttre kontroller. Avbryt omedelbart vid bränd lukt, rök, läckage, elfel, kraftiga slag eller skrapande ljud.</p><p>Ta inte bort paneler och kontrollera inte motor, värmare, lager, upphängning, kablage eller styrkort själv.</p>",
+        "prevention_html": "<p>Följ lastgränser och installationsanvisningar, fördela stora och små plagg och håll maskinen stabil och korrekt nivellerad.</p><p>Använd rätt program och utför bara det användarunderhåll som anges i modellmanualen.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med Varför snurrar inte Bosch-tvättmaskinens trumma??",
+            "answer": "På en ny installation kontrollerar du transportsäkringen i rätt manual; annars stänger du av, drar ur kontakten och kontaktar Bosch-service. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa Varför snurrar inte Bosch-tvättmaskinens trumma? genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar Varför snurrar inte Bosch-tvättmaskinens trumma? vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "324": {
+      "code": "CONTROLS",
+      "preserve": {
+        "en_slug": "control-panel-unresponsive",
+        "sv_slug": "kontrollpanel-svarar-inte"
+      },
+      "en": {
+        "title_tag": "Bosch Washer Control Panel Unresponsive: Safe Checks",
+        "meta_description": "Safe Bosch checks, verified causes and clear guidance on when to stop the washing machine and arrange professional service.",
+        "h1": "Why Is My Bosch Washing Machine Control Panel Unresponsive?",
+        "description": "Bosch documents energy-saving mode and child lock as normal reasons a display or buttons may appear inactive; a persistent unresponsive panel needs service.",
+        "quick_fix": "Check power, wake energy-saving mode and deactivate child lock only by the exact model-manual method; otherwise switch off and contact Bosch (about 5–15 minutes).",
+        "intro_html": "<p>Bosch documents energy-saving mode and child lock as normal reasons a display or buttons may appear inactive; a persistent unresponsive panel needs service.</p><p>Check power, wake energy-saving mode and deactivate child lock only by the exact model-manual method; otherwise switch off and contact Bosch. Always follow the manual for the exact E-Nr and do not remove panels or test internal parts.</p>",
+        "causes_json": [
+          {
+            "cause": "Energy-saving mode",
+            "detail": "Bosch states the display may switch off and can be activated by pressing a button."
+          },
+          {
+            "cause": "Child lock",
+            "detail": "A key symbol can mean the controls are intentionally disabled; release methods differ by model."
+          },
+          {
+            "cause": "Power or programme state",
+            "detail": "Confirm the plug, household protection and door/programme state without opening the appliance."
+          },
+          {
+            "cause": "Persistent control fault",
+            "detail": "An unresponsive display after documented checks needs professional diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop and observe",
+            "detail": "Pause safely, wait for the drum to stop and record the noise, movement, display and programme stage."
+          },
+          {
+            "step": 2,
+            "action": "Check the E-Nr and manual",
+            "detail": "Use instructions only for the exact model and market."
+          },
+          {
+            "step": 3,
+            "action": "Perform the safe external check",
+            "detail": "Check power, wake energy-saving mode and deactivate child lock only by the exact model-manual method; otherwise switch off and contact Bosch."
+          },
+          {
+            "step": 4,
+            "action": "Check for warning signs",
+            "detail": "Stop for a burning smell, smoke, leakage, heavy impacts, scraping noise or a tripped supply."
+          },
+          {
+            "step": 5,
+            "action": "Test at most once",
+            "detail": "Make one short test only if the manual permits it and the washer is stable, dry and has no warning signs."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the problem remains or Bosch directs the symptom to a technician. Provide the E-Nr and observations."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange service if the problem remains after safe documented external checks. Stop immediately for burning smell, smoke, leakage, electrical faults, heavy impacts or scraping noise.</p><p>Do not remove panels or inspect the motor, heater, bearings, suspension, wiring or control board yourself.</p>",
+        "prevention_html": "<p>Follow load limits and installation instructions, mix large and small items and keep the washer stable and correctly levelled.</p><p>Use the correct programme and perform only user maintenance described in the model manual.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing Why Is My Bosch Washing Machine Control Panel Unresponsive??",
+            "answer": "Check power, wake energy-saving mode and deactivate child lock only by the exact model-manual method; otherwise switch off and contact Bosch. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset Why Is My Bosch Washing Machine Control Panel Unresponsive? by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does Why Is My Bosch Washing Machine Control Panel Unresponsive? identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch kontrollpanel svarar inte: säkra kontroller",
+        "meta_description": "Säkra Bosch-kontroller, verifierade orsaker och tydliga gränser för när tvättmaskinen ska stoppas och lämnas till service.",
+        "h1": "Varför svarar inte Bosch-tvättmaskinens kontrollpanel?",
+        "description": "Bosch dokumenterar energisparläge och barnlås som normala orsaker till att display eller knappar verkar inaktiva; ett kvarstående fel kräver service.",
+        "quick_fix": "Kontrollera strömmen, väck energisparläget och avaktivera barnlåset endast enligt rätt modellmanual; stäng annars av och kontakta Bosch (cirka 5–15 minuter).",
+        "intro_html": "<p>Bosch dokumenterar energisparläge och barnlås som normala orsaker till att display eller knappar verkar inaktiva; ett kvarstående fel kräver service.</p><p>Kontrollera strömmen, väck energisparläget och avaktivera barnlåset endast enligt rätt modellmanual; stäng annars av och kontakta Bosch. Följ alltid manualen för exakt E‑Nr och ta inte bort paneler eller testa interna delar.</p>",
+        "causes_json": [
+          {
+            "cause": "Energisparläge",
+            "detail": "Bosch anger att displayen kan slockna och aktiveras med en knapp."
+          },
+          {
+            "cause": "Barnlås",
+            "detail": "En nyckelsymbol kan betyda att reglagen avsiktligt är spärrade; upplåsning skiljer sig mellan modeller."
+          },
+          {
+            "cause": "Ström- eller programstatus",
+            "detail": "Kontrollera stickpropp, elskydd och luck-/programstatus utan att öppna maskinen."
+          },
+          {
+            "cause": "Kvarstående styrfel",
+            "detail": "En panel som inte svarar efter dokumenterade kontroller kräver professionell diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa och observera",
+            "detail": "Pausa säkert, vänta tills trumman står stilla och dokumentera ljud, rörelse, display och programfas."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera E‑Nr och manual",
+            "detail": "Använd bara anvisningar för exakt modell och marknad."
+          },
+          {
+            "step": 3,
+            "action": "Gör den säkra yttre kontrollen",
+            "detail": "Kontrollera strömmen, väck energisparläget och avaktivera barnlåset endast enligt rätt modellmanual; stäng annars av och kontakta Bosch."
+          },
+          {
+            "step": 4,
+            "action": "Kontrollera varningssignaler",
+            "detail": "Avbryt vid bränd lukt, rök, läckage, kraftiga slag, skrapande ljud eller utlöst säkring."
+          },
+          {
+            "step": 5,
+            "action": "Testa högst en gång",
+            "detail": "Gör bara ett kort test om manualen medger det och maskinen är stabil, torr och utan varningssignaler."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om problemet kvarstår eller om Bosch hänvisar symptomet till tekniker. Uppge E‑Nr och observationerna."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka service om problemet kvarstår efter säkra, dokumenterade yttre kontroller. Avbryt omedelbart vid bränd lukt, rök, läckage, elfel, kraftiga slag eller skrapande ljud.</p><p>Ta inte bort paneler och kontrollera inte motor, värmare, lager, upphängning, kablage eller styrkort själv.</p>",
+        "prevention_html": "<p>Följ lastgränser och installationsanvisningar, fördela stora och små plagg och håll maskinen stabil och korrekt nivellerad.</p><p>Använd rätt program och utför bara det användarunderhåll som anges i modellmanualen.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med Varför svarar inte Bosch-tvättmaskinens kontrollpanel??",
+            "answer": "Kontrollera strömmen, väck energisparläget och avaktivera barnlåset endast enligt rätt modellmanual; stäng annars av och kontakta Bosch. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa Varför svarar inte Bosch-tvättmaskinens kontrollpanel? genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar Varför svarar inte Bosch-tvättmaskinens kontrollpanel? vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

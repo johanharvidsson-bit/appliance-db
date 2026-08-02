@@ -1,0 +1,835 @@
+{
+  "batch": "028-samsung-overflow-system-temperature-faults",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    49,
+    50,
+    51,
+    129,
+    130
+  ],
+  "sources": [
+    "https://www.samsung.com/ae/support/home-appliances/overflow-error-on-samsung-washing-machine/",
+    "https://www.samsung.com/us/support/troubleshoot/TSG10000997/",
+    "https://www.samsung.com/ua/support/home-appliances/how-to-solve-the-temperature-problem-of-my-washing-machine-error-codes-tc1-tc2/",
+    "https://www.samsung.com/us/support/troubleshoot/TSG10007110/",
+    "https://www.samsung.com/uk/support/home-appliances/what-to-do-if-your-washing-machine-is-not-spinning/"
+  ],
+  "translations": {
+    "49": {
+      "code": "OE",
+      "preserve": {
+        "en_slug": "samsung-error-code-oe",
+        "sv_slug": "samsung-felkod-oe"
+      },
+      "en": {
+        "title_tag": "What Does OE Mean on a Samsung Washing Machine?",
+        "meta_description": "Samsung washer showing OE? Read the verified meaning, safe checks and when authorised service is required.",
+        "h1": "What Does OE Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies OE or OF as an overflow condition.",
+        "quick_fix": "Stop the cycle, turn off the water tap and power, and do not run another cycle if water continues entering or leaks (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies OE or OF as an overflow condition.</p><p>Stop the cycle, turn off the water tap and power, and do not run another cycle if water continues entering or leaks. Open no panels, measure no internal parts and do not order a part from the symptom alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Excess detergent or foam",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Restricted drain path",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Incorrect drain-hose installation",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal inlet valve, level sensor or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the symptom",
+            "detail": "Photograph the display and note the model number, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Stop the cycle, turn off the water tap and power, and do not run another cycle if water continues entering or leaks. Follow the exact manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the fault remains or returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the problem remains after safe external checks. Sensors, motors, fans, pumps, valves, wiring and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load and detergent instructions, keep the washer level and inspect visible hoses and user-accessible filters as the exact manual specifies.</p><p>Internal sensor, motor, pump, fan, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer when OE appears?",
+            "answer": "Stop the cycle, turn off the water tap and power, and do not run another cycle if water continues entering or leaks. Do not continue if the problem remains or there is leakage, burning smell, smoke or abnormal heat."
+          },
+          {
+            "question": "Is switching off a repair?",
+            "answer": "No. One restart may check a temporary condition but does not prove that a recurring fault is repaired."
+          },
+          {
+            "question": "Does the symptom identify a replacement part?",
+            "answer": "No. Samsung or a qualified technician must diagnose internal parts before anything is ordered."
+          },
+          {
+            "question": "Why is the model number required?",
+            "answer": "Code meanings, filter access and safe user steps can differ between Samsung models and markets."
+          },
+          {
+            "question": "May I measure internal parts myself?",
+            "answer": "No. Do not remove panels or measure sensors, motors, heaters, pumps, valves, wiring or electronics."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Vad betyder OE på en Samsung-tvättmaskin?",
+        "meta_description": "Visar Samsung-tvättmaskinen OE? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder OE på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att OE eller OF är ett överfyllnadstillstånd.",
+        "quick_fix": "Stoppa programmet, stäng vattenkranen och strömmen och kör inte ett nytt program om vatten fortsätter att fyllas på eller läcker (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att OE eller OF är ett överfyllnadstillstånd.</p><p>Stoppa programmet, stäng vattenkranen och strömmen och kör inte ett nytt program om vatten fortsätter att fyllas på eller läcker. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från symtomet ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "För mycket tvättmedel eller skum",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Begränsad avloppsväg",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Felaktig installation av avloppsslangen",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt fel i inloppsventil, nivåsensor eller styrning",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera",
+            "detail": "Fotografera displayen och anteckna modellnummer, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Stoppa programmet, stäng vattenkranen och strömmen och kör inte ett nytt program om vatten fortsätter att fyllas på eller läcker. Följ exakt manual vid tömning av vatten eller rengöring av filter."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om felet kvarstår eller återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter säkra yttre kontroller. Sensorer, motorer, fläktar, pumpar, ventiler, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last- och doseringsanvisningar, håll maskinen plan och kontrollera synliga slangar och användaråtkomliga filter enligt exakt manual.</p><p>Interna sensor-, motor-, pump-, fläkt-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen när OE visas?",
+            "answer": "Stoppa programmet, stäng vattenkranen och strömmen och kör inte ett nytt program om vatten fortsätter att fyllas på eller läcker. Kör inte vidare om problemet kvarstår eller om det finns läckage, bränd lukt, rök eller onormal värme."
+          },
+          {
+            "question": "Är en avstängning en reparation?",
+            "answer": "Nej. En enda omstart kan kontrollera ett tillfälligt tillstånd men bevisar inte att ett återkommande fel är löst."
+          },
+          {
+            "question": "Visar symtomet vilken reservdel som ska bytas?",
+            "answer": "Nej. Samsung eller en kvalificerad tekniker måste diagnostisera interna delar innan något beställs."
+          },
+          {
+            "question": "Varför behövs modellnumret?",
+            "answer": "Kodbetydelser, filteråtkomst och säkra användarsteg kan skilja mellan Samsung-modeller och marknader."
+          },
+          {
+            "question": "Får jag mäta interna delar själv?",
+            "answer": "Nej. Ta inte bort paneler och mät inte sensorer, motorer, värmare, pumpar, ventiler, kablage eller elektronik."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "50": {
+      "code": "SF1",
+      "preserve": {
+        "en_slug": "samsung-error-code-sf1",
+        "sv_slug": "samsung-felkod-sf1"
+      },
+      "en": {
+        "title_tag": "What Does SF1 Mean on a Samsung Washing Machine?",
+        "meta_description": "Samsung washer showing SF1? Read the verified meaning, safe checks and when authorised service is required.",
+        "h1": "What Does SF1 Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies SF1 as a system error that requires model-specific diagnosis.",
+        "quick_fix": "Switch the washer off for two to three minutes once; arrange Samsung service if SF1 returns (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies SF1 as a system error that requires model-specific diagnosis.</p><p>Switch the washer off for two to three minutes once; arrange Samsung service if SF1 returns. Open no panels, measure no internal parts and do not order a part from the symptom alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Temporary control condition",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific system condition",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal connection or signal fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Control-electronics fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the symptom",
+            "detail": "Photograph the display and note the model number, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Switch the washer off for two to three minutes once; arrange Samsung service if SF1 returns. Follow the exact manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the fault remains or returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the problem remains after safe external checks. Sensors, motors, fans, pumps, valves, wiring and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load and detergent instructions, keep the washer level and inspect visible hoses and user-accessible filters as the exact manual specifies.</p><p>Internal sensor, motor, pump, fan, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer when SF1 appears?",
+            "answer": "Switch the washer off for two to three minutes once; arrange Samsung service if SF1 returns. Do not continue if the problem remains or there is leakage, burning smell, smoke or abnormal heat."
+          },
+          {
+            "question": "Is switching off a repair?",
+            "answer": "No. One restart may check a temporary condition but does not prove that a recurring fault is repaired."
+          },
+          {
+            "question": "Does the symptom identify a replacement part?",
+            "answer": "No. Samsung or a qualified technician must diagnose internal parts before anything is ordered."
+          },
+          {
+            "question": "Why is the model number required?",
+            "answer": "Code meanings, filter access and safe user steps can differ between Samsung models and markets."
+          },
+          {
+            "question": "May I measure internal parts myself?",
+            "answer": "No. Do not remove panels or measure sensors, motors, heaters, pumps, valves, wiring or electronics."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Vad betyder SF1 på en Samsung-tvättmaskin?",
+        "meta_description": "Visar Samsung-tvättmaskinen SF1? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder SF1 på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att SF1 är ett systemfel som kräver modellspecifik diagnos.",
+        "quick_fix": "Stäng av tvättmaskinen i två till tre minuter en gång; boka Samsung-service om SF1 återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att SF1 är ett systemfel som kräver modellspecifik diagnos.</p><p>Stäng av tvättmaskinen i två till tre minuter en gång; boka Samsung-service om SF1 återkommer. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från symtomet ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Tillfälligt styrtillstånd",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifikt systemtillstånd",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt anslutnings- eller signalfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i styrelektroniken",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera",
+            "detail": "Fotografera displayen och anteckna modellnummer, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Stäng av tvättmaskinen i två till tre minuter en gång; boka Samsung-service om SF1 återkommer. Följ exakt manual vid tömning av vatten eller rengöring av filter."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om felet kvarstår eller återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter säkra yttre kontroller. Sensorer, motorer, fläktar, pumpar, ventiler, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last- och doseringsanvisningar, håll maskinen plan och kontrollera synliga slangar och användaråtkomliga filter enligt exakt manual.</p><p>Interna sensor-, motor-, pump-, fläkt-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen när SF1 visas?",
+            "answer": "Stäng av tvättmaskinen i två till tre minuter en gång; boka Samsung-service om SF1 återkommer. Kör inte vidare om problemet kvarstår eller om det finns läckage, bränd lukt, rök eller onormal värme."
+          },
+          {
+            "question": "Är en avstängning en reparation?",
+            "answer": "Nej. En enda omstart kan kontrollera ett tillfälligt tillstånd men bevisar inte att ett återkommande fel är löst."
+          },
+          {
+            "question": "Visar symtomet vilken reservdel som ska bytas?",
+            "answer": "Nej. Samsung eller en kvalificerad tekniker måste diagnostisera interna delar innan något beställs."
+          },
+          {
+            "question": "Varför behövs modellnumret?",
+            "answer": "Kodbetydelser, filteråtkomst och säkra användarsteg kan skilja mellan Samsung-modeller och marknader."
+          },
+          {
+            "question": "Får jag mäta interna delar själv?",
+            "answer": "Nej. Ta inte bort paneler och mät inte sensorer, motorer, värmare, pumpar, ventiler, kablage eller elektronik."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "51": {
+      "code": "tE",
+      "preserve": {
+        "en_slug": "samsung-error-code-te",
+        "sv_slug": "samsung-felkod-te"
+      },
+      "en": {
+        "title_tag": "What Does tE Mean on a Samsung Washing Machine?",
+        "meta_description": "Samsung washer showing tE? Read the verified meaning, safe checks and when authorised service is required.",
+        "h1": "What Does tE Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies tE as a temperature-sensor error.",
+        "quick_fix": "Stop the washer and contact Samsung service; do not test the sensor, heater, wiring or control board (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies tE as a temperature-sensor error.</p><p>Stop the washer and contact Samsung service; do not test the sensor, heater, wiring or control board. Open no panels, measure no internal parts and do not order a part from the symptom alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Temperature signal outside the expected range",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific temperature sensor fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal wiring fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Heater or control-electronics fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the symptom",
+            "detail": "Photograph the display and note the model number, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Stop the washer and contact Samsung service; do not test the sensor, heater, wiring or control board. Follow the exact manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the fault remains or returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the problem remains after safe external checks. Sensors, motors, fans, pumps, valves, wiring and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load and detergent instructions, keep the washer level and inspect visible hoses and user-accessible filters as the exact manual specifies.</p><p>Internal sensor, motor, pump, fan, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer when tE appears?",
+            "answer": "Stop the washer and contact Samsung service; do not test the sensor, heater, wiring or control board. Do not continue if the problem remains or there is leakage, burning smell, smoke or abnormal heat."
+          },
+          {
+            "question": "Is switching off a repair?",
+            "answer": "No. One restart may check a temporary condition but does not prove that a recurring fault is repaired."
+          },
+          {
+            "question": "Does the symptom identify a replacement part?",
+            "answer": "No. Samsung or a qualified technician must diagnose internal parts before anything is ordered."
+          },
+          {
+            "question": "Why is the model number required?",
+            "answer": "Code meanings, filter access and safe user steps can differ between Samsung models and markets."
+          },
+          {
+            "question": "May I measure internal parts myself?",
+            "answer": "No. Do not remove panels or measure sensors, motors, heaters, pumps, valves, wiring or electronics."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Vad betyder tE på en Samsung-tvättmaskin?",
+        "meta_description": "Visar Samsung-tvättmaskinen tE? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder tE på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att tE är ett fel i temperatursensorn.",
+        "quick_fix": "Stoppa tvättmaskinen och kontakta Samsung-service; testa inte sensor, värmare, kablage eller styrkort (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att tE är ett fel i temperatursensorn.</p><p>Stoppa tvättmaskinen och kontakta Samsung-service; testa inte sensor, värmare, kablage eller styrkort. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från symtomet ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Temperatursignal utanför förväntat område",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifikt fel i temperatursensorn",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt kablagefel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i värmare eller styrelektronik",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera",
+            "detail": "Fotografera displayen och anteckna modellnummer, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Stoppa tvättmaskinen och kontakta Samsung-service; testa inte sensor, värmare, kablage eller styrkort. Följ exakt manual vid tömning av vatten eller rengöring av filter."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om felet kvarstår eller återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter säkra yttre kontroller. Sensorer, motorer, fläktar, pumpar, ventiler, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last- och doseringsanvisningar, håll maskinen plan och kontrollera synliga slangar och användaråtkomliga filter enligt exakt manual.</p><p>Interna sensor-, motor-, pump-, fläkt-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen när tE visas?",
+            "answer": "Stoppa tvättmaskinen och kontakta Samsung-service; testa inte sensor, värmare, kablage eller styrkort. Kör inte vidare om problemet kvarstår eller om det finns läckage, bränd lukt, rök eller onormal värme."
+          },
+          {
+            "question": "Är en avstängning en reparation?",
+            "answer": "Nej. En enda omstart kan kontrollera ett tillfälligt tillstånd men bevisar inte att ett återkommande fel är löst."
+          },
+          {
+            "question": "Visar symtomet vilken reservdel som ska bytas?",
+            "answer": "Nej. Samsung eller en kvalificerad tekniker måste diagnostisera interna delar innan något beställs."
+          },
+          {
+            "question": "Varför behövs modellnumret?",
+            "answer": "Kodbetydelser, filteråtkomst och säkra användarsteg kan skilja mellan Samsung-modeller och marknader."
+          },
+          {
+            "question": "Får jag mäta interna delar själv?",
+            "answer": "Nej. Ta inte bort paneler och mät inte sensorer, motorer, värmare, pumpar, ventiler, kablage eller elektronik."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "129": {
+      "code": "won't drain",
+      "preserve": {
+        "en_slug": "samsung-washing-machine-wont-drain",
+        "sv_slug": "samsung-tvattmaskin-tommer-inte"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Won't Drain: Safe Checks",
+        "meta_description": "Samsung washer won't drain? Safely check the hose and user-accessible filter and learn when service is required.",
+        "h1": "Samsung Washing Machine Won't Drain: Safe Checks",
+        "description": "A Samsung washer that will not drain commonly has a kinked drain hose, incorrect installation or a blocked user-accessible pump filter.",
+        "quick_fix": "Let hot water cool, unplug the washer, check the external drain hose and clean the pump filter only if the exact manual provides a user procedure (about 5–30 minutes).",
+        "intro_html": "<p>A Samsung washer that will not drain commonly has a kinked drain hose, incorrect installation or a blocked user-accessible pump filter.</p><p>Let hot water cool, unplug the washer, check the external drain hose and clean the pump filter only if the exact manual provides a user procedure. Open no panels, measure no internal parts and do not order a part from the symptom alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Kinked or incorrectly installed drain hose",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Blocked user-accessible pump filter",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Blocked household waste connection",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal pump or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the symptom",
+            "detail": "Photograph the display and note the model number, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Let hot water cool, unplug the washer, check the external drain hose and clean the pump filter only if the exact manual provides a user procedure. Follow the exact manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the fault remains or returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the problem remains after safe external checks. Sensors, motors, fans, pumps, valves, wiring and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load and detergent instructions, keep the washer level and inspect visible hoses and user-accessible filters as the exact manual specifies.</p><p>Internal sensor, motor, pump, fan, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I use the washer when it won't drain?",
+            "answer": "Let hot water cool, unplug the washer, check the external drain hose and clean the pump filter only if the exact manual provides a user procedure. Do not continue if the problem remains or there is leakage, burning smell, smoke or abnormal heat."
+          },
+          {
+            "question": "Is switching off a repair?",
+            "answer": "No. One restart may check a temporary condition but does not prove that a recurring fault is repaired."
+          },
+          {
+            "question": "Does the symptom identify a replacement part?",
+            "answer": "No. Samsung or a qualified technician must diagnose internal parts before anything is ordered."
+          },
+          {
+            "question": "Why is the model number required?",
+            "answer": "Code meanings, filter access and safe user steps can differ between Samsung models and markets."
+          },
+          {
+            "question": "May I measure internal parts myself?",
+            "answer": "No. Do not remove panels or measure sensors, motors, heaters, pumps, valves, wiring or electronics."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskinen tömmer inte: säkra kontroller",
+        "meta_description": "Samsung-tvättmaskinen tömmer inte? Kontrollera slang och användaråtkomligt filter säkert och se när service krävs.",
+        "h1": "Samsung-tvättmaskinen tömmer inte: säkra kontroller",
+        "description": "En Samsung-tvättmaskin som inte tömmer har ofta en vikt avloppsslang, felaktig installation eller ett blockerat användaråtkomligt pumpfilter.",
+        "quick_fix": "Låt hett vatten svalna, dra ur kontakten, kontrollera den yttre avloppsslangen och rengör pumpfiltret endast om exakt manual har en användarinstruktion (cirka 5–30 minuter).",
+        "intro_html": "<p>En Samsung-tvättmaskin som inte tömmer har ofta en vikt avloppsslang, felaktig installation eller ett blockerat användaråtkomligt pumpfilter.</p><p>Låt hett vatten svalna, dra ur kontakten, kontrollera den yttre avloppsslangen och rengör pumpfiltret endast om exakt manual har en användarinstruktion. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från symtomet ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Vikt eller felmonterad avloppsslang",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Blockerat användaråtkomligt pumpfilter",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Blockerad avloppsanslutning i bostaden",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt pump- eller styrfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera",
+            "detail": "Fotografera displayen och anteckna modellnummer, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Låt hett vatten svalna, dra ur kontakten, kontrollera den yttre avloppsslangen och rengör pumpfiltret endast om exakt manual har en användarinstruktion. Följ exakt manual vid tömning av vatten eller rengöring av filter."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om felet kvarstår eller återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter säkra yttre kontroller. Sensorer, motorer, fläktar, pumpar, ventiler, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last- och doseringsanvisningar, håll maskinen plan och kontrollera synliga slangar och användaråtkomliga filter enligt exakt manual.</p><p>Interna sensor-, motor-, pump-, fläkt-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag använda maskinen när den inte tömmer?",
+            "answer": "Låt hett vatten svalna, dra ur kontakten, kontrollera den yttre avloppsslangen och rengör pumpfiltret endast om exakt manual har en användarinstruktion. Kör inte vidare om problemet kvarstår eller om det finns läckage, bränd lukt, rök eller onormal värme."
+          },
+          {
+            "question": "Är en avstängning en reparation?",
+            "answer": "Nej. En enda omstart kan kontrollera ett tillfälligt tillstånd men bevisar inte att ett återkommande fel är löst."
+          },
+          {
+            "question": "Visar symtomet vilken reservdel som ska bytas?",
+            "answer": "Nej. Samsung eller en kvalificerad tekniker måste diagnostisera interna delar innan något beställs."
+          },
+          {
+            "question": "Varför behövs modellnumret?",
+            "answer": "Kodbetydelser, filteråtkomst och säkra användarsteg kan skilja mellan Samsung-modeller och marknader."
+          },
+          {
+            "question": "Får jag mäta interna delar själv?",
+            "answer": "Nej. Ta inte bort paneler och mät inte sensorer, motorer, värmare, pumpar, ventiler, kablage eller elektronik."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "130": {
+      "code": "won't spin",
+      "preserve": {
+        "en_slug": "samsung-wont-spin",
+        "sv_slug": "samsung-centrifugerar-inte"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Won't Spin: Safe Checks",
+        "meta_description": "Samsung washer won't spin? Safely check the load, level and drainage and learn when service is required.",
+        "h1": "Samsung Washing Machine Won't Spin: Safe Checks",
+        "description": "A Samsung washer may not spin because the load is unbalanced, it cannot drain, the installation is unstable or service is required.",
+        "quick_fix": "Redistribute the load, verify that the washer is level and check the external drain path before trying one spin cycle (about 5–30 minutes).",
+        "intro_html": "<p>A Samsung washer may not spin because the load is unbalanced, it cannot drain, the installation is unstable or service is required.</p><p>Redistribute the load, verify that the washer is level and check the external drain path before trying one spin cycle. Open no panels, measure no internal parts and do not order a part from the symptom alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Unbalanced or unsuitable load",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Water has not drained",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Washer is not level or stable",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Motor, sensor or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the symptom",
+            "detail": "Photograph the display and note the model number, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Redistribute the load, verify that the washer is level and check the external drain path before trying one spin cycle. Follow the exact manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the fault remains or returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the problem remains after safe external checks. Sensors, motors, fans, pumps, valves, wiring and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load and detergent instructions, keep the washer level and inspect visible hoses and user-accessible filters as the exact manual specifies.</p><p>Internal sensor, motor, pump, fan, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I use the washer when it won't spin?",
+            "answer": "Redistribute the load, verify that the washer is level and check the external drain path before trying one spin cycle. Do not continue if the problem remains or there is leakage, burning smell, smoke or abnormal heat."
+          },
+          {
+            "question": "Is switching off a repair?",
+            "answer": "No. One restart may check a temporary condition but does not prove that a recurring fault is repaired."
+          },
+          {
+            "question": "Does the symptom identify a replacement part?",
+            "answer": "No. Samsung or a qualified technician must diagnose internal parts before anything is ordered."
+          },
+          {
+            "question": "Why is the model number required?",
+            "answer": "Code meanings, filter access and safe user steps can differ between Samsung models and markets."
+          },
+          {
+            "question": "May I measure internal parts myself?",
+            "answer": "No. Do not remove panels or measure sensors, motors, heaters, pumps, valves, wiring or electronics."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskinen centrifugerar inte: säkra kontroller",
+        "meta_description": "Samsung-tvättmaskinen centrifugerar inte? Kontrollera last, nivå och tömning säkert och se när service krävs.",
+        "h1": "Samsung-tvättmaskinen centrifugerar inte: säkra kontroller",
+        "description": "En Samsung-tvättmaskin kan avstå från centrifugering på grund av obalans, utebliven tömning, instabil installation eller ett fel som kräver service.",
+        "quick_fix": "Fördela tvätten jämnt, kontrollera att maskinen står plant och kontrollera den yttre avloppsvägen innan ett centrifugeringsförsök (cirka 5–30 minuter).",
+        "intro_html": "<p>En Samsung-tvättmaskin kan avstå från centrifugering på grund av obalans, utebliven tömning, instabil installation eller ett fel som kräver service.</p><p>Fördela tvätten jämnt, kontrollera att maskinen står plant och kontrollera den yttre avloppsvägen innan ett centrifugeringsförsök. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från symtomet ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Obalanserad eller olämplig last",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Vattnet har inte tömts",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Maskinen står inte plant eller stabilt",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i motor, sensor eller styrning",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera",
+            "detail": "Fotografera displayen och anteckna modellnummer, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Fördela tvätten jämnt, kontrollera att maskinen står plant och kontrollera den yttre avloppsvägen innan ett centrifugeringsförsök. Följ exakt manual vid tömning av vatten eller rengöring av filter."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om felet kvarstår eller återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter säkra yttre kontroller. Sensorer, motorer, fläktar, pumpar, ventiler, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last- och doseringsanvisningar, håll maskinen plan och kontrollera synliga slangar och användaråtkomliga filter enligt exakt manual.</p><p>Interna sensor-, motor-, pump-, fläkt-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag använda maskinen när den inte centrifugerar?",
+            "answer": "Fördela tvätten jämnt, kontrollera att maskinen står plant och kontrollera den yttre avloppsvägen innan ett centrifugeringsförsök. Kör inte vidare om problemet kvarstår eller om det finns läckage, bränd lukt, rök eller onormal värme."
+          },
+          {
+            "question": "Är en avstängning en reparation?",
+            "answer": "Nej. En enda omstart kan kontrollera ett tillfälligt tillstånd men bevisar inte att ett återkommande fel är löst."
+          },
+          {
+            "question": "Visar symtomet vilken reservdel som ska bytas?",
+            "answer": "Nej. Samsung eller en kvalificerad tekniker måste diagnostisera interna delar innan något beställs."
+          },
+          {
+            "question": "Varför behövs modellnumret?",
+            "answer": "Kodbetydelser, filteråtkomst och säkra användarsteg kan skilja mellan Samsung-modeller och marknader."
+          },
+          {
+            "question": "Får jag mäta interna delar själv?",
+            "answer": "Nej. Ta inte bort paneler och mät inte sensorer, motorer, värmare, pumpar, ventiler, kablage eller elektronik."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

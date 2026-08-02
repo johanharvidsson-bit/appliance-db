@@ -1,0 +1,835 @@
+{
+  "batch": "043-bosch-core-codes",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    163,
+    165,
+    166,
+    179,
+    182
+  ],
+  "sources": [
+    "https://www.bosch-home.com/us/owner-support/get-support/deactivate-the-child-lock",
+    "https://www.bosch-home.com/us/owner-support/error-codes/washers",
+    "https://www.bosch-home.com/eg/en/service/get-support/washing-machine-errors",
+    "https://media3.bosch-home.com/Documents/9000890428_A.pdf",
+    "https://media3.bosch-home.com/Documents/9001710962_C.pdf"
+  ],
+  "translations": {
+    "163": {
+      "code": "CL",
+      "preserve": {
+        "en_slug": "error-code-cl",
+        "sv_slug": "felkod-cl"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error CL: Safe Steps",
+        "meta_description": "Bosch washer showing CL? Read the verified or model-specific meaning, safe checks and when Bosch service is required.",
+        "h1": "What Does CL Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies CL as the child lock being active on models that use this display message.",
+        "quick_fix": "Use the exact model manual or the marked key control to deactivate Child Lock because the control sequence varies by model (about 5–30 minutes).",
+        "intro_html": "<p>Bosch identifies CL as the child lock being active on models that use this display message.</p><p>Use the exact model manual or the marked key control to deactivate Child Lock because the control sequence varies by model. The code alone confirms no replacement part; dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Child Lock intentionally active",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Child Lock activated accidentally",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific key control not yet released",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Interface or control fault if CL cannot be cleared as documented",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete CL display and note the model code and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Use the exact model manual or the marked key control to deactivate Child Lock because the control sequence varies by model. Follow every warning in the exact model manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the code remains or returns. Open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if CL remains or returns after documented external checks. Sensors, motor, pump, door lock, wiring and electronics require model-specific diagnosis.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and detergent guidance, empty pockets and keep visible hoses and user-accessible filters clean as the model manual specifies.</p><p>Internal sensor, motor, communication and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing CL?",
+            "answer": "Use the exact model manual or the marked key control to deactivate Child Lock because the control sequence varies by model. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset CL by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does CL identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch-tvättmaskin felkod CL: säkra steg",
+        "meta_description": "Visar Bosch-tvättmaskinen CL? Läs verifierad eller modellspecifik betydelse, säkra kontroller och när Bosch-service krävs.",
+        "h1": "Vad betyder CL på en Bosch-tvättmaskin?",
+        "description": "Bosch identifierar CL som aktivt barnlås på modeller som använder detta displaymeddelande.",
+        "quick_fix": "Använd manualen för exakt modell eller den markerade nyckelkontrollen för att avaktivera barnlåset eftersom knappsekvensen varierar mellan modeller (cirka 5–30 minuter).",
+        "intro_html": "<p>Bosch identifierar CL som aktivt barnlås på modeller som använder detta displaymeddelande.</p><p>Använd manualen för exakt modell eller den markerade nyckelkontrollen för att avaktivera barnlåset eftersom knappsekvensen varierar mellan modeller. Koden ensam bekräftar ingen reservdel; demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Barnlåset är avsiktligt aktivt",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Barnlåset aktiverades av misstag",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik nyckelkontroll har inte låsts upp",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Gränssnitts- eller styrfel om CL inte kan tas bort enligt manualen",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela CL-visningen och anteckna modellkod och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Använd manualen för exakt modell eller den markerade nyckelkontrollen för att avaktivera barnlåset eftersom knappsekvensen varierar mellan modeller. Följ varningarna i exakt modellmanual."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om CL kvarstår eller återkommer efter de dokumenterade yttre kontrollerna. Givare, motor, pump, lucklås, kablage och elektronik kräver modellspecifik diagnos.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och doseringsanvisningar, töm fickor och håll synliga slangar och användaråtkomliga filter rena enligt modellmanualen.</p><p>Interna givar-, motor-, kommunikations- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med CL?",
+            "answer": "Använd manualen för exakt modell eller den markerade nyckelkontrollen för att avaktivera barnlåset eftersom knappsekvensen varierar mellan modeller. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa CL genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar CL vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "165": {
+      "code": "E17",
+      "preserve": {
+        "en_slug": "error-code-e17",
+        "sv_slug": "felkod-e17"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E17: Safe Steps",
+        "meta_description": "Bosch washer showing E17? Read the verified or model-specific meaning, safe checks and when Bosch service is required.",
+        "h1": "What Does E17 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies E17 as impaired water supply, including a closed tap, kinked inlet hose, low pressure or a blocked inlet filter.",
+        "quick_fix": "Open the tap fully, straighten the visible inlet hose and check household water pressure; clean an accessible inlet filter only as the exact manual specifies (about 5–30 minutes).",
+        "intro_html": "<p>Bosch identifies E17 as impaired water supply, including a closed tap, kinked inlet hose, low pressure or a blocked inlet filter.</p><p>Open the tap fully, straighten the visible inlet hose and check household water pressure; clean an accessible inlet filter only as the exact manual specifies. The code alone confirms no replacement part; dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Water tap closed or not fully open",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Kinked or trapped inlet hose",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Low household water pressure",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Blocked accessible inlet filter or internal inlet fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete E17 display and note the model code and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Open the tap fully, straighten the visible inlet hose and check household water pressure; clean an accessible inlet filter only as the exact manual specifies. Follow every warning in the exact model manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the code remains or returns. Open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if E17 remains or returns after documented external checks. Sensors, motor, pump, door lock, wiring and electronics require model-specific diagnosis.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and detergent guidance, empty pockets and keep visible hoses and user-accessible filters clean as the model manual specifies.</p><p>Internal sensor, motor, communication and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E17?",
+            "answer": "Open the tap fully, straighten the visible inlet hose and check household water pressure; clean an accessible inlet filter only as the exact manual specifies. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E17 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E17 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch-tvättmaskin felkod E17: säkra steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E17? Läs verifierad eller modellspecifik betydelse, säkra kontroller och när Bosch-service krävs.",
+        "h1": "Vad betyder E17 på en Bosch-tvättmaskin?",
+        "description": "Bosch identifierar E17 som begränsad vattentillförsel, bland annat stängd kran, vikt tilloppsslang, lågt tryck eller blockerat inloppsfilter.",
+        "quick_fix": "Öppna kranen helt, räta den synliga tilloppsslangen och kontrollera bostadens vattentryck; rengör åtkomligt inloppsfilter endast enligt exakt manual (cirka 5–30 minuter).",
+        "intro_html": "<p>Bosch identifierar E17 som begränsad vattentillförsel, bland annat stängd kran, vikt tilloppsslang, lågt tryck eller blockerat inloppsfilter.</p><p>Öppna kranen helt, räta den synliga tilloppsslangen och kontrollera bostadens vattentryck; rengör åtkomligt inloppsfilter endast enligt exakt manual. Koden ensam bekräftar ingen reservdel; demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Vattenkranen är stängd eller inte helt öppen",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Vikt eller klämd tilloppsslang",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Lågt vattentryck i bostaden",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Blockerat åtkomligt inloppsfilter eller internt tilloppsfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela E17-visningen och anteckna modellkod och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Öppna kranen helt, räta den synliga tilloppsslangen och kontrollera bostadens vattentryck; rengör åtkomligt inloppsfilter endast enligt exakt manual. Följ varningarna i exakt modellmanual."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om E17 kvarstår eller återkommer efter de dokumenterade yttre kontrollerna. Givare, motor, pump, lucklås, kablage och elektronik kräver modellspecifik diagnos.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och doseringsanvisningar, töm fickor och håll synliga slangar och användaråtkomliga filter rena enligt modellmanualen.</p><p>Interna givar-, motor-, kommunikations- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E17?",
+            "answer": "Öppna kranen helt, räta den synliga tilloppsslangen och kontrollera bostadens vattentryck; rengör åtkomligt inloppsfilter endast enligt exakt manual. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E17 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E17 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "166": {
+      "code": "E18",
+      "preserve": {
+        "en_slug": "error-code-e18",
+        "sv_slug": "felkod-e18"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E18: Safe Steps",
+        "meta_description": "Bosch washer showing E18? Read the verified or model-specific meaning, safe checks and when Bosch service is required.",
+        "h1": "What Does E18 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies E18 as a blocked drain pump, drain hose or household waste connection.",
+        "quick_fix": "Close the tap, switch off and unplug, let hot water cool, then drain and clean the user-accessible pump filter and visible hose as the model manual specifies (about 5–30 minutes).",
+        "intro_html": "<p>Bosch identifies E18 as a blocked drain pump, drain hose or household waste connection.</p><p>Close the tap, switch off and unplug, let hot water cool, then drain and clean the user-accessible pump filter and visible hose as the model manual specifies. The code alone confirms no replacement part; dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Blocked user-accessible pump filter",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Kinked or blocked drain hose",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Blocked household waste connection",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal drain-pump or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete E18 display and note the model code and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Close the tap, switch off and unplug, let hot water cool, then drain and clean the user-accessible pump filter and visible hose as the model manual specifies. Follow every warning in the exact model manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the code remains or returns. Open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if E18 remains or returns after documented external checks. Sensors, motor, pump, door lock, wiring and electronics require model-specific diagnosis.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and detergent guidance, empty pockets and keep visible hoses and user-accessible filters clean as the model manual specifies.</p><p>Internal sensor, motor, communication and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E18?",
+            "answer": "Close the tap, switch off and unplug, let hot water cool, then drain and clean the user-accessible pump filter and visible hose as the model manual specifies. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E18 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E18 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch-tvättmaskin felkod E18: säkra steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E18? Läs verifierad eller modellspecifik betydelse, säkra kontroller och när Bosch-service krävs.",
+        "h1": "Vad betyder E18 på en Bosch-tvättmaskin?",
+        "description": "Bosch identifierar E18 som blockering i avloppspump, avloppsslang eller bostadens avloppsanslutning.",
+        "quick_fix": "Stäng kranen, stäng av och dra ur kontakten, låt hett vatten svalna och töm samt rengör sedan användaråtkomligt pumpfilter och synlig slang enligt modellmanualen (cirka 5–30 minuter).",
+        "intro_html": "<p>Bosch identifierar E18 som blockering i avloppspump, avloppsslang eller bostadens avloppsanslutning.</p><p>Stäng kranen, stäng av och dra ur kontakten, låt hett vatten svalna och töm samt rengör sedan användaråtkomligt pumpfilter och synlig slang enligt modellmanualen. Koden ensam bekräftar ingen reservdel; demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Blockerat användaråtkomligt pumpfilter",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Vikt eller blockerad avloppsslang",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Blockerad avloppsanslutning i bostaden",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt pump- eller styrfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela E18-visningen och anteckna modellkod och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Stäng kranen, stäng av och dra ur kontakten, låt hett vatten svalna och töm samt rengör sedan användaråtkomligt pumpfilter och synlig slang enligt modellmanualen. Följ varningarna i exakt modellmanual."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om E18 kvarstår eller återkommer efter de dokumenterade yttre kontrollerna. Givare, motor, pump, lucklås, kablage och elektronik kräver modellspecifik diagnos.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och doseringsanvisningar, töm fickor och håll synliga slangar och användaråtkomliga filter rena enligt modellmanualen.</p><p>Interna givar-, motor-, kommunikations- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E18?",
+            "answer": "Stäng kranen, stäng av och dra ur kontakten, låt hett vatten svalna och töm samt rengör sedan användaråtkomligt pumpfilter och synlig slang enligt modellmanualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E18 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E18 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "179": {
+      "code": "E36",
+      "preserve": {
+        "en_slug": "error-code-e36",
+        "sv_slug": "felkod-e36"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E36: Safe Steps",
+        "meta_description": "Bosch washer showing E36? Read the verified or model-specific meaning, safe checks and when Bosch service is required.",
+        "h1": "What Does E36 Mean on a Bosch Washing Machine?",
+        "description": "A standalone E36 display is incomplete for current Bosch guidance, which distinguishes longer values such as E:36/-10 and E:36/-25/-26.",
+        "quick_fix": "Photograph the complete display, record every suffix and use the exact E-Nr manual before choosing a drain-related action (about 5–30 minutes).",
+        "intro_html": "<p>A standalone E36 display is incomplete for current Bosch guidance, which distinguishes longer values such as E:36/-10 and E:36/-25/-26.</p><p>Photograph the complete display, record every suffix and use the exact E-Nr manual before choosing a drain-related action. The code alone confirms no replacement part; dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Suffix not visible or not recorded",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Pump cap not correctly seated for some E:36/-10 models",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Blocked pump for some E:36/-25/-26 models",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific drain or control condition",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete E36 display and note the model code and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Photograph the complete display, record every suffix and use the exact E-Nr manual before choosing a drain-related action. Follow every warning in the exact model manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the code remains or returns. Open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if E36 remains or returns after documented external checks. Sensors, motor, pump, door lock, wiring and electronics require model-specific diagnosis.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and detergent guidance, empty pockets and keep visible hoses and user-accessible filters clean as the model manual specifies.</p><p>Internal sensor, motor, communication and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E36?",
+            "answer": "Photograph the complete display, record every suffix and use the exact E-Nr manual before choosing a drain-related action. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E36 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E36 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch-tvättmaskin felkod E36: säkra steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E36? Läs verifierad eller modellspecifik betydelse, säkra kontroller och när Bosch-service krävs.",
+        "h1": "Vad betyder E36 på en Bosch-tvättmaskin?",
+        "description": "En fristående E36-visning är ofullständig enligt aktuell Bosch-vägledning, som skiljer mellan längre värden som E:36/-10 och E:36/-25/-26.",
+        "quick_fix": "Fotografera hela displayen, dokumentera varje suffix och använd manualen för exakt E‑Nr innan en tömningsåtgärd väljs (cirka 5–30 minuter).",
+        "intro_html": "<p>En fristående E36-visning är ofullständig enligt aktuell Bosch-vägledning, som skiljer mellan längre värden som E:36/-10 och E:36/-25/-26.</p><p>Fotografera hela displayen, dokumentera varje suffix och använd manualen för exakt E‑Nr innan en tömningsåtgärd väljs. Koden ensam bekräftar ingen reservdel; demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Suffixet syns inte eller dokumenterades inte",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Pumpkåpan sitter inte korrekt på vissa E:36/-10-modeller",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Blockerad pump på vissa E:36/-25/-26-modeller",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifikt tömnings- eller styrtillstånd",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela E36-visningen och anteckna modellkod och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Fotografera hela displayen, dokumentera varje suffix och använd manualen för exakt E‑Nr innan en tömningsåtgärd väljs. Följ varningarna i exakt modellmanual."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om E36 kvarstår eller återkommer efter de dokumenterade yttre kontrollerna. Givare, motor, pump, lucklås, kablage och elektronik kräver modellspecifik diagnos.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och doseringsanvisningar, töm fickor och håll synliga slangar och användaråtkomliga filter rena enligt modellmanualen.</p><p>Interna givar-, motor-, kommunikations- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E36?",
+            "answer": "Fotografera hela displayen, dokumentera varje suffix och använd manualen för exakt E‑Nr innan en tömningsåtgärd väljs. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E36 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E36 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "182": {
+      "code": "E42",
+      "preserve": {
+        "en_slug": "error-code-e42",
+        "sv_slug": "felkod-e42"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E42: Safe Steps",
+        "meta_description": "Bosch washer showing E42? Read the verified or model-specific meaning, safe checks and when Bosch service is required.",
+        "h1": "What Does E42 Mean on a Bosch Washing Machine?",
+        "description": "E42 has no universal definition in Bosch's current public washer code table, so the complete display and exact E-Nr manual are required.",
+        "quick_fix": "Photograph the complete code and contact Bosch with the exact E-Nr; do not infer a motor or control component from E42 alone (about 5–30 minutes).",
+        "intro_html": "<p>E42 has no universal definition in Bosch's current public washer code table, so the complete display and exact E-Nr manual are required.</p><p>Photograph the complete code and contact Bosch with the exact E-Nr; do not infer a motor or control component from E42 alone. The code alone confirms no replacement part; dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete or misread display",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific information code",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "A longer code or suffix not fully visible",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal condition requiring Bosch diagnosis",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete E42 display and note the model code and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Photograph the complete code and contact Bosch with the exact E-Nr; do not infer a motor or control component from E42 alone. Follow every warning in the exact model manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the code remains or returns. Open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if E42 remains or returns after documented external checks. Sensors, motor, pump, door lock, wiring and electronics require model-specific diagnosis.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and detergent guidance, empty pockets and keep visible hoses and user-accessible filters clean as the model manual specifies.</p><p>Internal sensor, motor, communication and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E42?",
+            "answer": "Photograph the complete code and contact Bosch with the exact E-Nr; do not infer a motor or control component from E42 alone. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E42 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E42 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch-tvättmaskin felkod E42: säkra steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E42? Läs verifierad eller modellspecifik betydelse, säkra kontroller och när Bosch-service krävs.",
+        "h1": "Vad betyder E42 på en Bosch-tvättmaskin?",
+        "description": "E42 har ingen universell definition i Bosch aktuella offentliga felkodstabell för tvättmaskiner, så hela displayen och manualen för exakt E‑Nr krävs.",
+        "quick_fix": "Fotografera hela koden och kontakta Bosch med exakt E‑Nr; dra ingen slutsats om motor- eller styrkomponent från enbart E42 (cirka 5–30 minuter).",
+        "intro_html": "<p>E42 har ingen universell definition i Bosch aktuella offentliga felkodstabell för tvättmaskiner, så hela displayen och manualen för exakt E‑Nr krävs.</p><p>Fotografera hela koden och kontakta Bosch med exakt E‑Nr; dra ingen slutsats om motor- eller styrkomponent från enbart E42. Koden ensam bekräftar ingen reservdel; demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig eller feltolkad display",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik informationskod",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "En längre kod eller suffix syns inte helt",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt tillstånd som kräver Bosch-diagnos",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela E42-visningen och anteckna modellkod och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Fotografera hela koden och kontakta Bosch med exakt E‑Nr; dra ingen slutsats om motor- eller styrkomponent från enbart E42. Följ varningarna i exakt modellmanual."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om E42 kvarstår eller återkommer efter de dokumenterade yttre kontrollerna. Givare, motor, pump, lucklås, kablage och elektronik kräver modellspecifik diagnos.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och doseringsanvisningar, töm fickor och håll synliga slangar och användaråtkomliga filter rena enligt modellmanualen.</p><p>Interna givar-, motor-, kommunikations- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E42?",
+            "answer": "Fotografera hela koden och kontakta Bosch med exakt E‑Nr; dra ingen slutsats om motor- eller styrkomponent från enbart E42. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E42 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E42 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

@@ -1,0 +1,833 @@
+{
+  "batch": "019-lg-de-e6-ee",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    89,
+    90,
+    91,
+    92,
+    93
+  ],
+  "sources": [
+    "https://www.lg.com/us/support/help-library/front-load-washer-what-are-de-de1-and-de2-error-codes--1400508168566",
+    "https://www.lg.com/us/support/help-library/lg-washer-troubleshooting-an-e6-error-code-CT10000010-20152420542110",
+    "https://www.lg.com/us/support/help-library/lg-top-load-washer-led-blinking-error-codes-CT00000305-20154392606264"
+  ],
+  "translations": {
+    "89": {
+      "code": "dE",
+      "preserve": {
+        "en_slug": "lg-error-code-de",
+        "sv_slug": "lg-felkod-de"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error dE: Meaning and Safe Steps",
+        "meta_description": "LG washer showing dE? Read the verified, model-specific meaning, safe checks and when authorised service is required.",
+        "h1": "What Does dE Mean on an LG Washing Machine?",
+        "description": "The washer was unable to lock the door.",
+        "quick_fix": "Check that laundry or debris is not trapped between the door and gasket, close the door again and make one documented reset (about 5–20 minutes).",
+        "intro_html": "<p>The washer was unable to lock the door.</p><p>Check that laundry or debris is not trapped between the door and gasket, close the door again and make one documented reset. The code does not confirm a specific part, and users must not electrically test the lock, clutch or electronics.</p>",
+        "causes_json": [
+          {
+            "cause": "Laundry or debris in the opening",
+            "detail": "Material between the glass and gasket can prevent correct closure."
+          },
+          {
+            "cause": "Door not fully closed",
+            "detail": "Open and close it again without slamming or forcing it."
+          },
+          {
+            "cause": "Overload or damaged latch",
+            "detail": "A large load can press on the door; a damaged latch requires service."
+          },
+          {
+            "cause": "Door-lock or control fault",
+            "detail": "A recurring code after external checks requires diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Wait for the drum to stop. Do not force the door, drum or pulsator."
+          },
+          {
+            "step": 2,
+            "action": "Unplug",
+            "detail": "Switch off and unplug with dry hands before external checks."
+          },
+          {
+            "step": 3,
+            "action": "Make the user check",
+            "detail": "Check that laundry or debris is not trapped between the door and gasket, close the door again and make one documented reset."
+          },
+          {
+            "step": 4,
+            "action": "Confirm model and code",
+            "detail": "Use the model number for the correct LG manual; meanings can differ between front- and top-load platforms."
+          },
+          {
+            "step": 5,
+            "action": "Arrange service",
+            "detail": "Request authorised LG service if the code returns. Open no panels and measure no circuits."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if dE returns after the one safe check. A damaged lock, internal clutch and EEPROM/control-board faults require a trained technician.</p><p>Unplug immediately for leakage, burning smell, smoke, abnormal heat, sparks or tripped protection.</p>",
+        "prevention_html": "<p>Avoid overloading, check pockets, keep the door opening and gasket clean and close the door without force.</p><p>Remove objects only when clearly visible and accessible; internal mechanical and electronic faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing dE?",
+            "answer": "Check that laundry or debris is not trapped between the door and gasket, close the door again and make one documented reset. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset dE by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does dE identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod dE: betydelse och säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen dE? Läs verifierad, modellspecifik betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder dE på en LG-tvättmaskin?",
+        "description": "Tvättmaskinen kunde inte låsa luckan.",
+        "quick_fix": "Kontrollera att tvätt eller smuts inte sitter mellan lucka och tätning, stäng luckan igen och gör en enda dokumenterad återställning (cirka 5–20 minuter).",
+        "intro_html": "<p>Tvättmaskinen kunde inte låsa luckan.</p><p>Kontrollera att tvätt eller smuts inte sitter mellan lucka och tätning, stäng luckan igen och gör en enda dokumenterad återställning. Koden bekräftar inte en viss reservdel och lucklås, koppling eller elektronik ska inte provas elektriskt av användaren.</p>",
+        "causes_json": [
+          {
+            "cause": "Tvätt eller smuts i lucköppningen",
+            "detail": "Material mellan glas och tätning kan hindra korrekt stängning."
+          },
+          {
+            "cause": "Luckan är inte helt stängd",
+            "detail": "Öppna och stäng igen utan att slå eller tvinga luckan."
+          },
+          {
+            "cause": "Överlast eller skadad spärr",
+            "detail": "För stor last kan trycka mot luckan; skadad spärr kräver service."
+          },
+          {
+            "cause": "Lucklås eller styrfel",
+            "detail": "Återkommande kod efter yttre kontroll kräver diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte lucka, trumma eller pulsator."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur",
+            "detail": "Stäng av och dra ur kontakten med torra händer före yttre kontroll."
+          },
+          {
+            "step": 3,
+            "action": "Gör användarkontrollen",
+            "detail": "Kontrollera att tvätt eller smuts inte sitter mellan lucka och tätning, stäng luckan igen och gör en enda dokumenterad återställning."
+          },
+          {
+            "step": 4,
+            "action": "Bekräfta modell och kod",
+            "detail": "Använd modellnumret för rätt LG-manual; kodbetydelser kan skilja mellan front- och toppmatade plattformar."
+          },
+          {
+            "step": 5,
+            "action": "Boka service",
+            "detail": "Boka auktoriserad LG-service om koden återkommer. Öppna inga paneler och mät inga kretsar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om dE återkommer efter den enda säkra kontrollen. Skadat lucklås, intern koppling och EEPROM-/styrkortsfel kräver utbildad tekniker.</p><p>Koppla ur direkt vid läckage, bränd lukt, rök, onormal värme, gnistor eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Undvik överlast, kontrollera fickor, håll lucköppning och tätning rena och stäng luckan utan våld.</p><p>Föremål ska bara tas bort om de är tydligt synliga och åtkomliga; interna mekanik- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med dE?",
+            "answer": "Kontrollera att tvätt eller smuts inte sitter mellan lucka och tätning, stäng luckan igen och gör en enda dokumenterad återställning. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa dE genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar dE vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "90": {
+      "code": "dE1",
+      "preserve": {
+        "en_slug": "lg-error-code-de1",
+        "sv_slug": "lg-felkod-de1"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error dE1: Meaning and Safe Steps",
+        "meta_description": "LG washer showing dE1? Read the verified, model-specific meaning, safe checks and when authorised service is required.",
+        "h1": "What Does dE1 Mean on an LG Washing Machine?",
+        "description": "The door is not closed properly.",
+        "quick_fix": "Check that laundry or debris is not trapped between the door and gasket, close the door again and make one documented reset (about 5–20 minutes).",
+        "intro_html": "<p>The door is not closed properly.</p><p>Check that laundry or debris is not trapped between the door and gasket, close the door again and make one documented reset. The code does not confirm a specific part, and users must not electrically test the lock, clutch or electronics.</p>",
+        "causes_json": [
+          {
+            "cause": "Laundry or debris in the opening",
+            "detail": "Material between the glass and gasket can prevent correct closure."
+          },
+          {
+            "cause": "Door not fully closed",
+            "detail": "Open and close it again without slamming or forcing it."
+          },
+          {
+            "cause": "Overload or damaged latch",
+            "detail": "A large load can press on the door; a damaged latch requires service."
+          },
+          {
+            "cause": "Door-lock or control fault",
+            "detail": "A recurring code after external checks requires diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Wait for the drum to stop. Do not force the door, drum or pulsator."
+          },
+          {
+            "step": 2,
+            "action": "Unplug",
+            "detail": "Switch off and unplug with dry hands before external checks."
+          },
+          {
+            "step": 3,
+            "action": "Make the user check",
+            "detail": "Check that laundry or debris is not trapped between the door and gasket, close the door again and make one documented reset."
+          },
+          {
+            "step": 4,
+            "action": "Confirm model and code",
+            "detail": "Use the model number for the correct LG manual; meanings can differ between front- and top-load platforms."
+          },
+          {
+            "step": 5,
+            "action": "Arrange service",
+            "detail": "Request authorised LG service if the code returns. Open no panels and measure no circuits."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if dE1 returns after the one safe check. A damaged lock, internal clutch and EEPROM/control-board faults require a trained technician.</p><p>Unplug immediately for leakage, burning smell, smoke, abnormal heat, sparks or tripped protection.</p>",
+        "prevention_html": "<p>Avoid overloading, check pockets, keep the door opening and gasket clean and close the door without force.</p><p>Remove objects only when clearly visible and accessible; internal mechanical and electronic faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing dE1?",
+            "answer": "Check that laundry or debris is not trapped between the door and gasket, close the door again and make one documented reset. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset dE1 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does dE1 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod dE1: betydelse och säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen dE1? Läs verifierad, modellspecifik betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder dE1 på en LG-tvättmaskin?",
+        "description": "Luckan är inte korrekt stängd.",
+        "quick_fix": "Kontrollera att tvätt eller smuts inte sitter mellan lucka och tätning, stäng luckan igen och gör en enda dokumenterad återställning (cirka 5–20 minuter).",
+        "intro_html": "<p>Luckan är inte korrekt stängd.</p><p>Kontrollera att tvätt eller smuts inte sitter mellan lucka och tätning, stäng luckan igen och gör en enda dokumenterad återställning. Koden bekräftar inte en viss reservdel och lucklås, koppling eller elektronik ska inte provas elektriskt av användaren.</p>",
+        "causes_json": [
+          {
+            "cause": "Tvätt eller smuts i lucköppningen",
+            "detail": "Material mellan glas och tätning kan hindra korrekt stängning."
+          },
+          {
+            "cause": "Luckan är inte helt stängd",
+            "detail": "Öppna och stäng igen utan att slå eller tvinga luckan."
+          },
+          {
+            "cause": "Överlast eller skadad spärr",
+            "detail": "För stor last kan trycka mot luckan; skadad spärr kräver service."
+          },
+          {
+            "cause": "Lucklås eller styrfel",
+            "detail": "Återkommande kod efter yttre kontroll kräver diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte lucka, trumma eller pulsator."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur",
+            "detail": "Stäng av och dra ur kontakten med torra händer före yttre kontroll."
+          },
+          {
+            "step": 3,
+            "action": "Gör användarkontrollen",
+            "detail": "Kontrollera att tvätt eller smuts inte sitter mellan lucka och tätning, stäng luckan igen och gör en enda dokumenterad återställning."
+          },
+          {
+            "step": 4,
+            "action": "Bekräfta modell och kod",
+            "detail": "Använd modellnumret för rätt LG-manual; kodbetydelser kan skilja mellan front- och toppmatade plattformar."
+          },
+          {
+            "step": 5,
+            "action": "Boka service",
+            "detail": "Boka auktoriserad LG-service om koden återkommer. Öppna inga paneler och mät inga kretsar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om dE1 återkommer efter den enda säkra kontrollen. Skadat lucklås, intern koppling och EEPROM-/styrkortsfel kräver utbildad tekniker.</p><p>Koppla ur direkt vid läckage, bränd lukt, rök, onormal värme, gnistor eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Undvik överlast, kontrollera fickor, håll lucköppning och tätning rena och stäng luckan utan våld.</p><p>Föremål ska bara tas bort om de är tydligt synliga och åtkomliga; interna mekanik- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med dE1?",
+            "answer": "Kontrollera att tvätt eller smuts inte sitter mellan lucka och tätning, stäng luckan igen och gör en enda dokumenterad återställning. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa dE1 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar dE1 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "91": {
+      "code": "dE2",
+      "preserve": {
+        "en_slug": "lg-error-code-de2",
+        "sv_slug": "lg-felkod-de2"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error dE2: Meaning and Safe Steps",
+        "meta_description": "LG washer showing dE2? Read the verified, model-specific meaning, safe checks and when authorised service is required.",
+        "h1": "What Does dE2 Mean on an LG Washing Machine?",
+        "description": "The door is closed but has not locked.",
+        "quick_fix": "Check that laundry or debris is not trapped between the door and gasket, close the door again and make one documented reset (about 5–20 minutes).",
+        "intro_html": "<p>The door is closed but has not locked.</p><p>Check that laundry or debris is not trapped between the door and gasket, close the door again and make one documented reset. The code does not confirm a specific part, and users must not electrically test the lock, clutch or electronics.</p>",
+        "causes_json": [
+          {
+            "cause": "Laundry or debris in the opening",
+            "detail": "Material between the glass and gasket can prevent correct closure."
+          },
+          {
+            "cause": "Door not fully closed",
+            "detail": "Open and close it again without slamming or forcing it."
+          },
+          {
+            "cause": "Overload or damaged latch",
+            "detail": "A large load can press on the door; a damaged latch requires service."
+          },
+          {
+            "cause": "Door-lock or control fault",
+            "detail": "A recurring code after external checks requires diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Wait for the drum to stop. Do not force the door, drum or pulsator."
+          },
+          {
+            "step": 2,
+            "action": "Unplug",
+            "detail": "Switch off and unplug with dry hands before external checks."
+          },
+          {
+            "step": 3,
+            "action": "Make the user check",
+            "detail": "Check that laundry or debris is not trapped between the door and gasket, close the door again and make one documented reset."
+          },
+          {
+            "step": 4,
+            "action": "Confirm model and code",
+            "detail": "Use the model number for the correct LG manual; meanings can differ between front- and top-load platforms."
+          },
+          {
+            "step": 5,
+            "action": "Arrange service",
+            "detail": "Request authorised LG service if the code returns. Open no panels and measure no circuits."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if dE2 returns after the one safe check. A damaged lock, internal clutch and EEPROM/control-board faults require a trained technician.</p><p>Unplug immediately for leakage, burning smell, smoke, abnormal heat, sparks or tripped protection.</p>",
+        "prevention_html": "<p>Avoid overloading, check pockets, keep the door opening and gasket clean and close the door without force.</p><p>Remove objects only when clearly visible and accessible; internal mechanical and electronic faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing dE2?",
+            "answer": "Check that laundry or debris is not trapped between the door and gasket, close the door again and make one documented reset. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset dE2 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does dE2 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod dE2: betydelse och säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen dE2? Läs verifierad, modellspecifik betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder dE2 på en LG-tvättmaskin?",
+        "description": "Luckan är stängd men har inte låsts.",
+        "quick_fix": "Kontrollera att tvätt eller smuts inte sitter mellan lucka och tätning, stäng luckan igen och gör en enda dokumenterad återställning (cirka 5–20 minuter).",
+        "intro_html": "<p>Luckan är stängd men har inte låsts.</p><p>Kontrollera att tvätt eller smuts inte sitter mellan lucka och tätning, stäng luckan igen och gör en enda dokumenterad återställning. Koden bekräftar inte en viss reservdel och lucklås, koppling eller elektronik ska inte provas elektriskt av användaren.</p>",
+        "causes_json": [
+          {
+            "cause": "Tvätt eller smuts i lucköppningen",
+            "detail": "Material mellan glas och tätning kan hindra korrekt stängning."
+          },
+          {
+            "cause": "Luckan är inte helt stängd",
+            "detail": "Öppna och stäng igen utan att slå eller tvinga luckan."
+          },
+          {
+            "cause": "Överlast eller skadad spärr",
+            "detail": "För stor last kan trycka mot luckan; skadad spärr kräver service."
+          },
+          {
+            "cause": "Lucklås eller styrfel",
+            "detail": "Återkommande kod efter yttre kontroll kräver diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte lucka, trumma eller pulsator."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur",
+            "detail": "Stäng av och dra ur kontakten med torra händer före yttre kontroll."
+          },
+          {
+            "step": 3,
+            "action": "Gör användarkontrollen",
+            "detail": "Kontrollera att tvätt eller smuts inte sitter mellan lucka och tätning, stäng luckan igen och gör en enda dokumenterad återställning."
+          },
+          {
+            "step": 4,
+            "action": "Bekräfta modell och kod",
+            "detail": "Använd modellnumret för rätt LG-manual; kodbetydelser kan skilja mellan front- och toppmatade plattformar."
+          },
+          {
+            "step": 5,
+            "action": "Boka service",
+            "detail": "Boka auktoriserad LG-service om koden återkommer. Öppna inga paneler och mät inga kretsar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om dE2 återkommer efter den enda säkra kontrollen. Skadat lucklås, intern koppling och EEPROM-/styrkortsfel kräver utbildad tekniker.</p><p>Koppla ur direkt vid läckage, bränd lukt, rök, onormal värme, gnistor eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Undvik överlast, kontrollera fickor, håll lucköppning och tätning rena och stäng luckan utan våld.</p><p>Föremål ska bara tas bort om de är tydligt synliga och åtkomliga; interna mekanik- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med dE2?",
+            "answer": "Kontrollera att tvätt eller smuts inte sitter mellan lucka och tätning, stäng luckan igen och gör en enda dokumenterad återställning. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa dE2 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar dE2 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "92": {
+      "code": "E6",
+      "preserve": {
+        "en_slug": "lg-error-code-e6",
+        "sv_slug": "lg-felkod-e6"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error E6: Meaning and Safe Steps",
+        "meta_description": "LG washer showing E6? Read the verified, model-specific meaning, safe checks and when authorised service is required.",
+        "h1": "What Does E6 Mean on an LG Washing Machine?",
+        "description": "LG documents E6 on applicable models as a clutch error, sometimes caused by an object between the pulsator and tub; the exact model manual must confirm this meaning.",
+        "quick_fix": "Switch off, unplug and check only visible loose objects removable without dismantling; arrange service if the code returns (about 5–20 minutes).",
+        "intro_html": "<p>LG documents E6 on applicable models as a clutch error, sometimes caused by an object between the pulsator and tub; the exact model manual must confirm this meaning.</p><p>Switch off, unplug and check only visible loose objects removable without dismantling; arrange service if the code returns. The code does not confirm a specific part, and users must not electrically test the lock, clutch or electronics.</p>",
+        "causes_json": [
+          {
+            "cause": "Model-specific code meaning",
+            "detail": "Always confirm the code in the exact model manual."
+          },
+          {
+            "cause": "Visible foreign object",
+            "detail": "On applicable pulsator models, an object in the gap can trigger E6."
+          },
+          {
+            "cause": "Internal clutch or drive fault",
+            "detail": "Persistent E6 requires authorised service."
+          },
+          {
+            "cause": "EEPROM or control-board fault",
+            "detail": "Persistent EE requires authorised service and is not a user repair."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Wait for the drum to stop. Do not force the door, drum or pulsator."
+          },
+          {
+            "step": 2,
+            "action": "Unplug",
+            "detail": "Switch off and unplug with dry hands before external checks."
+          },
+          {
+            "step": 3,
+            "action": "Make the user check",
+            "detail": "Switch off, unplug and check only visible loose objects removable without dismantling; arrange service if the code returns."
+          },
+          {
+            "step": 4,
+            "action": "Confirm model and code",
+            "detail": "Use the model number for the correct LG manual; meanings can differ between front- and top-load platforms."
+          },
+          {
+            "step": 5,
+            "action": "Arrange service",
+            "detail": "Request authorised LG service if the code returns. Open no panels and measure no circuits."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if E6 returns after the one safe check. A damaged lock, internal clutch and EEPROM/control-board faults require a trained technician.</p><p>Unplug immediately for leakage, burning smell, smoke, abnormal heat, sparks or tripped protection.</p>",
+        "prevention_html": "<p>Avoid overloading, check pockets, keep the door opening and gasket clean and close the door without force.</p><p>Remove objects only when clearly visible and accessible; internal mechanical and electronic faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E6?",
+            "answer": "Switch off, unplug and check only visible loose objects removable without dismantling; arrange service if the code returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E6 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E6 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod E6: betydelse och säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen E6? Läs verifierad, modellspecifik betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder E6 på en LG-tvättmaskin?",
+        "description": "Lg dokumenterar e6 på tillämpliga modeller som ett kopplingsfel, ibland orsakat av ett föremål mellan pulsator och trumma; exakt modellmanual måste bekräfta betydelsen.",
+        "quick_fix": "Stäng av, koppla ur och kontrollera endast synliga lösa föremål som kan tas bort utan demontering; boka service om koden återkommer (cirka 5–20 minuter).",
+        "intro_html": "<p>Lg dokumenterar e6 på tillämpliga modeller som ett kopplingsfel, ibland orsakat av ett föremål mellan pulsator och trumma; exakt modellmanual måste bekräfta betydelsen.</p><p>Stäng av, koppla ur och kontrollera endast synliga lösa föremål som kan tas bort utan demontering; boka service om koden återkommer. Koden bekräftar inte en viss reservdel och lucklås, koppling eller elektronik ska inte provas elektriskt av användaren.</p>",
+        "causes_json": [
+          {
+            "cause": "Modellspecifik kodbetydelse",
+            "detail": "Bekräfta alltid koden i manualen för exakt modell."
+          },
+          {
+            "cause": "Synligt främmande föremål",
+            "detail": "E6 kan på tillämpliga pulsator-modeller utlösas av ett föremål i springan."
+          },
+          {
+            "cause": "Internt kopplings- eller drivfel",
+            "detail": "E6 som kvarstår kräver auktoriserad service."
+          },
+          {
+            "cause": "EEPROM- eller styrkortsfel",
+            "detail": "EE som kvarstår kräver auktoriserad service och är ingen användarreparation."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte lucka, trumma eller pulsator."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur",
+            "detail": "Stäng av och dra ur kontakten med torra händer före yttre kontroll."
+          },
+          {
+            "step": 3,
+            "action": "Gör användarkontrollen",
+            "detail": "Stäng av, koppla ur och kontrollera endast synliga lösa föremål som kan tas bort utan demontering; boka service om koden återkommer."
+          },
+          {
+            "step": 4,
+            "action": "Bekräfta modell och kod",
+            "detail": "Använd modellnumret för rätt LG-manual; kodbetydelser kan skilja mellan front- och toppmatade plattformar."
+          },
+          {
+            "step": 5,
+            "action": "Boka service",
+            "detail": "Boka auktoriserad LG-service om koden återkommer. Öppna inga paneler och mät inga kretsar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om E6 återkommer efter den enda säkra kontrollen. Skadat lucklås, intern koppling och EEPROM-/styrkortsfel kräver utbildad tekniker.</p><p>Koppla ur direkt vid läckage, bränd lukt, rök, onormal värme, gnistor eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Undvik överlast, kontrollera fickor, håll lucköppning och tätning rena och stäng luckan utan våld.</p><p>Föremål ska bara tas bort om de är tydligt synliga och åtkomliga; interna mekanik- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E6?",
+            "answer": "Stäng av, koppla ur och kontrollera endast synliga lösa föremål som kan tas bort utan demontering; boka service om koden återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E6 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E6 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "93": {
+      "code": "EE",
+      "preserve": {
+        "en_slug": "lg-error-code-ee",
+        "sv_slug": "lg-felkod-ee"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error EE: Meaning and Safe Steps",
+        "meta_description": "LG washer showing EE? Read the verified, model-specific meaning, safe checks and when authorised service is required.",
+        "h1": "What Does EE Mean on an LG Washing Machine?",
+        "description": "LG documents EE on applicable models as an EEPROM/main-control-board error; the exact model manual must confirm this meaning.",
+        "quick_fix": "Switch off, unplug and check only visible loose objects removable without dismantling; arrange service if the code returns (about 5–20 minutes).",
+        "intro_html": "<p>LG documents EE on applicable models as an EEPROM/main-control-board error; the exact model manual must confirm this meaning.</p><p>Switch off, unplug and check only visible loose objects removable without dismantling; arrange service if the code returns. The code does not confirm a specific part, and users must not electrically test the lock, clutch or electronics.</p>",
+        "causes_json": [
+          {
+            "cause": "Model-specific code meaning",
+            "detail": "Always confirm the code in the exact model manual."
+          },
+          {
+            "cause": "Visible foreign object",
+            "detail": "On applicable pulsator models, an object in the gap can trigger E6."
+          },
+          {
+            "cause": "Internal clutch or drive fault",
+            "detail": "Persistent E6 requires authorised service."
+          },
+          {
+            "cause": "EEPROM or control-board fault",
+            "detail": "Persistent EE requires authorised service and is not a user repair."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Wait for the drum to stop. Do not force the door, drum or pulsator."
+          },
+          {
+            "step": 2,
+            "action": "Unplug",
+            "detail": "Switch off and unplug with dry hands before external checks."
+          },
+          {
+            "step": 3,
+            "action": "Make the user check",
+            "detail": "Switch off, unplug and check only visible loose objects removable without dismantling; arrange service if the code returns."
+          },
+          {
+            "step": 4,
+            "action": "Confirm model and code",
+            "detail": "Use the model number for the correct LG manual; meanings can differ between front- and top-load platforms."
+          },
+          {
+            "step": 5,
+            "action": "Arrange service",
+            "detail": "Request authorised LG service if the code returns. Open no panels and measure no circuits."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if EE returns after the one safe check. A damaged lock, internal clutch and EEPROM/control-board faults require a trained technician.</p><p>Unplug immediately for leakage, burning smell, smoke, abnormal heat, sparks or tripped protection.</p>",
+        "prevention_html": "<p>Avoid overloading, check pockets, keep the door opening and gasket clean and close the door without force.</p><p>Remove objects only when clearly visible and accessible; internal mechanical and electronic faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing EE?",
+            "answer": "Switch off, unplug and check only visible loose objects removable without dismantling; arrange service if the code returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset EE by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does EE identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod EE: betydelse och säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen EE? Läs verifierad, modellspecifik betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder EE på en LG-tvättmaskin?",
+        "description": "Lg dokumenterar ee på tillämpliga modeller som ett eeprom-/huvudkortsfel; exakt modellmanual måste bekräfta betydelsen.",
+        "quick_fix": "Stäng av, koppla ur och kontrollera endast synliga lösa föremål som kan tas bort utan demontering; boka service om koden återkommer (cirka 5–20 minuter).",
+        "intro_html": "<p>Lg dokumenterar ee på tillämpliga modeller som ett eeprom-/huvudkortsfel; exakt modellmanual måste bekräfta betydelsen.</p><p>Stäng av, koppla ur och kontrollera endast synliga lösa föremål som kan tas bort utan demontering; boka service om koden återkommer. Koden bekräftar inte en viss reservdel och lucklås, koppling eller elektronik ska inte provas elektriskt av användaren.</p>",
+        "causes_json": [
+          {
+            "cause": "Modellspecifik kodbetydelse",
+            "detail": "Bekräfta alltid koden i manualen för exakt modell."
+          },
+          {
+            "cause": "Synligt främmande föremål",
+            "detail": "E6 kan på tillämpliga pulsator-modeller utlösas av ett föremål i springan."
+          },
+          {
+            "cause": "Internt kopplings- eller drivfel",
+            "detail": "E6 som kvarstår kräver auktoriserad service."
+          },
+          {
+            "cause": "EEPROM- eller styrkortsfel",
+            "detail": "EE som kvarstår kräver auktoriserad service och är ingen användarreparation."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte lucka, trumma eller pulsator."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur",
+            "detail": "Stäng av och dra ur kontakten med torra händer före yttre kontroll."
+          },
+          {
+            "step": 3,
+            "action": "Gör användarkontrollen",
+            "detail": "Stäng av, koppla ur och kontrollera endast synliga lösa föremål som kan tas bort utan demontering; boka service om koden återkommer."
+          },
+          {
+            "step": 4,
+            "action": "Bekräfta modell och kod",
+            "detail": "Använd modellnumret för rätt LG-manual; kodbetydelser kan skilja mellan front- och toppmatade plattformar."
+          },
+          {
+            "step": 5,
+            "action": "Boka service",
+            "detail": "Boka auktoriserad LG-service om koden återkommer. Öppna inga paneler och mät inga kretsar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om EE återkommer efter den enda säkra kontrollen. Skadat lucklås, intern koppling och EEPROM-/styrkortsfel kräver utbildad tekniker.</p><p>Koppla ur direkt vid läckage, bränd lukt, rök, onormal värme, gnistor eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Undvik överlast, kontrollera fickor, håll lucköppning och tätning rena och stäng luckan utan våld.</p><p>Föremål ska bara tas bort om de är tydligt synliga och åtkomliga; interna mekanik- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med EE?",
+            "answer": "Stäng av, koppla ur och kontrollera endast synliga lösa föremål som kan tas bort utan demontering; boka service om koden återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa EE genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar EE vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

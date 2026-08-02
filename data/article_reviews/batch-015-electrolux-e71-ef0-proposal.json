@@ -1,0 +1,884 @@
+{
+  "batch": "015-electrolux-e71-ef0",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    272,
+    273,
+    274,
+    275,
+    276
+  ],
+  "sources": [
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-displays-error-message-e90-e91-e92-e93-or-e94",
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-displays-warning-code-ef0",
+    "https://tds.electrolux.com/others/599/705/670EN.PDF",
+    "https://tds.electrolux.com/others/599/724/080EN.PDF"
+  ],
+  "translations": {
+    "272": {
+      "code": "E71",
+      "preserve": {
+        "en_slug": "error-code-e71",
+        "sv_slug": "felkod-e71"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E71: Safe Steps",
+        "meta_description": "Electrolux washer showing E71? Check the verified meaning, safe user actions and when authorised service is required.",
+        "h1": "What Does E71 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E71 as a washing-temperature NTC sensor signal outside limits, caused by a short/open sensor, wiring or control-board fault.",
+        "quick_fix": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics (about 5–30 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E71 as a washing-temperature NTC sensor signal outside limits, caused by a short/open sensor, wiring or control-board fault.</p><p>Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics. Record the complete code and PNC/product number and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Verified electronic condition",
+            "detail": "Official Electrolux service documentation identifies E71 as a washing-temperature NTC sensor signal outside limits, caused by a short/open sensor, wiring or control-board fault."
+          },
+          {
+            "cause": "Model-specific sensor or communication",
+            "detail": "The PNC identifies the correct electronics platform and service data."
+          },
+          {
+            "cause": "Internal wiring or connection",
+            "detail": "Circuits behind panels must be checked only by a trained technician."
+          },
+          {
+            "cause": "Control board or configuration",
+            "detail": "The code identifies a system but does not confirm which part needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or handle water that may be hot."
+          },
+          {
+            "step": 2,
+            "action": "Turn off water and power",
+            "detail": "Close the water tap and unplug with dry hands if the area is dry."
+          },
+          {
+            "step": 3,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E71 display and note the PNC/product number and programme stage."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact model manual",
+            "detail": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics."
+          },
+          {
+            "step": 5,
+            "action": "Test only when safe",
+            "detail": "For EF0, make one test after foam subsides and visible causes are corrected only if there is no leakage or other warning sign."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service directly for E71/E91/E92/E94 and for recurring EF0. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E71 requires authorised service when it is an E71/E9 code or when EF0 returns after documented external checks. Do not use the washer when leaking.</p><p>Stop immediately for water near electricity, burning smell, smoke, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Dose detergent for water hardness and load, mix large and small items and keep the dispenser, door opening and visible hose connections clean and watertight.</p><p>Internal sensor, communication and configuration faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E71?",
+            "answer": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E71 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E71 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E71: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E71? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder E71 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e71 betyder att tvättens ntc-temperaturgivarsignal ligger utanför gränserna på grund av kortsluten/öppen givare, kablage eller styrkort.",
+        "quick_fix": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik (cirka 5–30 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e71 betyder att tvättens ntc-temperaturgivarsignal ligger utanför gränserna på grund av kortsluten/öppen givare, kablage eller styrkort.</p><p>Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik. Dokumentera hela koden och PNC-/produktnumret och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Verifierat elektroniskt tillstånd",
+            "detail": "Officiell electrolux-servicedokumentation anger att e71 betyder att tvättens ntc-temperaturgivarsignal ligger utanför gränserna på grund av kortsluten/öppen givare, kablage eller styrkort."
+          },
+          {
+            "cause": "Modellspecifik givare eller kommunikation",
+            "detail": "PNC identifierar rätt elektronikplattform och servicedata."
+          },
+          {
+            "cause": "Internt kablage eller anslutning",
+            "detail": "Kretsar bakom paneler ska endast kontrolleras av utbildad tekniker."
+          },
+          {
+            "cause": "Styrkort eller konfiguration",
+            "detail": "Koden pekar ut ett system men bekräftar inte vilken del som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte luckan och hantera inte vatten som kan vara varmt."
+          },
+          {
+            "step": 2,
+            "action": "Stäng vatten och ström",
+            "detail": "Stäng vattenkranen och dra ur kontakten med torra händer om området är torrt."
+          },
+          {
+            "step": 3,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E71-visningen och notera PNC-/produktnummer och programfas."
+          },
+          {
+            "step": 4,
+            "action": "Följ rätt modellmanual",
+            "detail": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik."
+          },
+          {
+            "step": 5,
+            "action": "Testa bara när det är säkert",
+            "detail": "För EF0 kan ett enda test göras efter att skum lagt sig och synliga orsaker åtgärdats, om inget läckage eller annan varningssignal finns."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka direkt för E71/E91/E92/E94 och för EF0 som återkommer. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E71 kräver auktoriserad service om det är en E71/E9-kod eller om EF0 återkommer efter dokumenterade yttre kontroller. Använd inte maskinen vid läckage.</p><p>Avbryt direkt vid vatten nära el, bränd lukt, rök, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Dosera tvättmedel efter vattenhårdhet och last, fördela stora och små plagg och håll dispenser, lucköppning och synliga slanganslutningar rena och täta.</p><p>Interna givarfel, kommunikationsfel och konfigurationsfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E71?",
+            "answer": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E71 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E71 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "273": {
+      "code": "E91",
+      "preserve": {
+        "en_slug": "error-code-e91",
+        "sv_slug": "felkod-e91"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E91: Safe Steps",
+        "meta_description": "Electrolux washer showing E91? Check the verified meaning, safe user actions and when authorised service is required.",
+        "h1": "What Does E91 Mean on an Electrolux Washing Machine?",
+        "description": "Electrolux identifies E91 as an electronic communication problem; service documentation specifies communication between the user interface and main board.",
+        "quick_fix": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics (about 5–30 minutes).",
+        "intro_html": "<p>Electrolux identifies E91 as an electronic communication problem; service documentation specifies communication between the user interface and main board.</p><p>Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics. Record the complete code and PNC/product number and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Verified electronic condition",
+            "detail": "Electrolux identifies E91 as an electronic communication problem; service documentation specifies communication between the user interface and main board."
+          },
+          {
+            "cause": "Model-specific sensor or communication",
+            "detail": "The PNC identifies the correct electronics platform and service data."
+          },
+          {
+            "cause": "Internal wiring or connection",
+            "detail": "Circuits behind panels must be checked only by a trained technician."
+          },
+          {
+            "cause": "Control board or configuration",
+            "detail": "The code identifies a system but does not confirm which part needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or handle water that may be hot."
+          },
+          {
+            "step": 2,
+            "action": "Turn off water and power",
+            "detail": "Close the water tap and unplug with dry hands if the area is dry."
+          },
+          {
+            "step": 3,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E91 display and note the PNC/product number and programme stage."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact model manual",
+            "detail": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics."
+          },
+          {
+            "step": 5,
+            "action": "Test only when safe",
+            "detail": "For EF0, make one test after foam subsides and visible causes are corrected only if there is no leakage or other warning sign."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service directly for E71/E91/E92/E94 and for recurring EF0. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E91 requires authorised service when it is an E71/E9 code or when EF0 returns after documented external checks. Do not use the washer when leaking.</p><p>Stop immediately for water near electricity, burning smell, smoke, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Dose detergent for water hardness and load, mix large and small items and keep the dispenser, door opening and visible hose connections clean and watertight.</p><p>Internal sensor, communication and configuration faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E91?",
+            "answer": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E91 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E91 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E91: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E91? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder E91 på en Electrolux-tvättmaskin?",
+        "description": "Electrolux anger att e91 är ett elektroniskt kommunikationsproblem; servicedokumentationen specificerar kommunikationen mellan användargränssnitt och huvudkort.",
+        "quick_fix": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik (cirka 5–30 minuter).",
+        "intro_html": "<p>Electrolux anger att e91 är ett elektroniskt kommunikationsproblem; servicedokumentationen specificerar kommunikationen mellan användargränssnitt och huvudkort.</p><p>Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik. Dokumentera hela koden och PNC-/produktnumret och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Verifierat elektroniskt tillstånd",
+            "detail": "Electrolux anger att e91 är ett elektroniskt kommunikationsproblem; servicedokumentationen specificerar kommunikationen mellan användargränssnitt och huvudkort."
+          },
+          {
+            "cause": "Modellspecifik givare eller kommunikation",
+            "detail": "PNC identifierar rätt elektronikplattform och servicedata."
+          },
+          {
+            "cause": "Internt kablage eller anslutning",
+            "detail": "Kretsar bakom paneler ska endast kontrolleras av utbildad tekniker."
+          },
+          {
+            "cause": "Styrkort eller konfiguration",
+            "detail": "Koden pekar ut ett system men bekräftar inte vilken del som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte luckan och hantera inte vatten som kan vara varmt."
+          },
+          {
+            "step": 2,
+            "action": "Stäng vatten och ström",
+            "detail": "Stäng vattenkranen och dra ur kontakten med torra händer om området är torrt."
+          },
+          {
+            "step": 3,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E91-visningen och notera PNC-/produktnummer och programfas."
+          },
+          {
+            "step": 4,
+            "action": "Följ rätt modellmanual",
+            "detail": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik."
+          },
+          {
+            "step": 5,
+            "action": "Testa bara när det är säkert",
+            "detail": "För EF0 kan ett enda test göras efter att skum lagt sig och synliga orsaker åtgärdats, om inget läckage eller annan varningssignal finns."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka direkt för E71/E91/E92/E94 och för EF0 som återkommer. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E91 kräver auktoriserad service om det är en E71/E9-kod eller om EF0 återkommer efter dokumenterade yttre kontroller. Använd inte maskinen vid läckage.</p><p>Avbryt direkt vid vatten nära el, bränd lukt, rök, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Dosera tvättmedel efter vattenhårdhet och last, fördela stora och små plagg och håll dispenser, lucköppning och synliga slanganslutningar rena och täta.</p><p>Interna givarfel, kommunikationsfel och konfigurationsfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E91?",
+            "answer": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E91 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E91 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "274": {
+      "code": "E92",
+      "preserve": {
+        "en_slug": "error-code-e92",
+        "sv_slug": "felkod-e92"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E92: Safe Steps",
+        "meta_description": "Electrolux washer showing E92? Check the verified meaning, safe user actions and when authorised service is required.",
+        "h1": "What Does E92 Mean on an Electrolux Washing Machine?",
+        "description": "Electrolux identifies E92 as an electronic configuration or communication problem; service documentation describes a protocol mismatch.",
+        "quick_fix": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics (about 5–30 minutes).",
+        "intro_html": "<p>Electrolux identifies E92 as an electronic configuration or communication problem; service documentation describes a protocol mismatch.</p><p>Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics. Record the complete code and PNC/product number and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Verified electronic condition",
+            "detail": "Electrolux identifies E92 as an electronic configuration or communication problem; service documentation describes a protocol mismatch."
+          },
+          {
+            "cause": "Model-specific sensor or communication",
+            "detail": "The PNC identifies the correct electronics platform and service data."
+          },
+          {
+            "cause": "Internal wiring or connection",
+            "detail": "Circuits behind panels must be checked only by a trained technician."
+          },
+          {
+            "cause": "Control board or configuration",
+            "detail": "The code identifies a system but does not confirm which part needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or handle water that may be hot."
+          },
+          {
+            "step": 2,
+            "action": "Turn off water and power",
+            "detail": "Close the water tap and unplug with dry hands if the area is dry."
+          },
+          {
+            "step": 3,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E92 display and note the PNC/product number and programme stage."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact model manual",
+            "detail": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics."
+          },
+          {
+            "step": 5,
+            "action": "Test only when safe",
+            "detail": "For EF0, make one test after foam subsides and visible causes are corrected only if there is no leakage or other warning sign."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service directly for E71/E91/E92/E94 and for recurring EF0. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E92 requires authorised service when it is an E71/E9 code or when EF0 returns after documented external checks. Do not use the washer when leaking.</p><p>Stop immediately for water near electricity, burning smell, smoke, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Dose detergent for water hardness and load, mix large and small items and keep the dispenser, door opening and visible hose connections clean and watertight.</p><p>Internal sensor, communication and configuration faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E92?",
+            "answer": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E92 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E92 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E92: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E92? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder E92 på en Electrolux-tvättmaskin?",
+        "description": "Electrolux anger att e92 är ett elektroniskt konfigurations- eller kommunikationsproblem; servicedokumentationen beskriver en protokollavvikelse.",
+        "quick_fix": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik (cirka 5–30 minuter).",
+        "intro_html": "<p>Electrolux anger att e92 är ett elektroniskt konfigurations- eller kommunikationsproblem; servicedokumentationen beskriver en protokollavvikelse.</p><p>Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik. Dokumentera hela koden och PNC-/produktnumret och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Verifierat elektroniskt tillstånd",
+            "detail": "Electrolux anger att e92 är ett elektroniskt konfigurations- eller kommunikationsproblem; servicedokumentationen beskriver en protokollavvikelse."
+          },
+          {
+            "cause": "Modellspecifik givare eller kommunikation",
+            "detail": "PNC identifierar rätt elektronikplattform och servicedata."
+          },
+          {
+            "cause": "Internt kablage eller anslutning",
+            "detail": "Kretsar bakom paneler ska endast kontrolleras av utbildad tekniker."
+          },
+          {
+            "cause": "Styrkort eller konfiguration",
+            "detail": "Koden pekar ut ett system men bekräftar inte vilken del som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte luckan och hantera inte vatten som kan vara varmt."
+          },
+          {
+            "step": 2,
+            "action": "Stäng vatten och ström",
+            "detail": "Stäng vattenkranen och dra ur kontakten med torra händer om området är torrt."
+          },
+          {
+            "step": 3,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E92-visningen och notera PNC-/produktnummer och programfas."
+          },
+          {
+            "step": 4,
+            "action": "Följ rätt modellmanual",
+            "detail": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik."
+          },
+          {
+            "step": 5,
+            "action": "Testa bara när det är säkert",
+            "detail": "För EF0 kan ett enda test göras efter att skum lagt sig och synliga orsaker åtgärdats, om inget läckage eller annan varningssignal finns."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka direkt för E71/E91/E92/E94 och för EF0 som återkommer. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E92 kräver auktoriserad service om det är en E71/E9-kod eller om EF0 återkommer efter dokumenterade yttre kontroller. Använd inte maskinen vid läckage.</p><p>Avbryt direkt vid vatten nära el, bränd lukt, rök, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Dosera tvättmedel efter vattenhårdhet och last, fördela stora och små plagg och håll dispenser, lucköppning och synliga slanganslutningar rena och täta.</p><p>Interna givarfel, kommunikationsfel och konfigurationsfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E92?",
+            "answer": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E92 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E92 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "275": {
+      "code": "E94",
+      "preserve": {
+        "en_slug": "error-code-e94",
+        "sv_slug": "felkod-e94"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E94: Safe Steps",
+        "meta_description": "Electrolux washer showing E94? Check the verified meaning, safe user actions and when authorised service is required.",
+        "h1": "What Does E94 Mean on an Electrolux Washing Machine?",
+        "description": "Electrolux identifies E94 as an electronic configuration problem; service documentation specifies incorrect washing-cycle configuration.",
+        "quick_fix": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics (about 5–30 minutes).",
+        "intro_html": "<p>Electrolux identifies E94 as an electronic configuration problem; service documentation specifies incorrect washing-cycle configuration.</p><p>Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics. Record the complete code and PNC/product number and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Verified electronic condition",
+            "detail": "Electrolux identifies E94 as an electronic configuration problem; service documentation specifies incorrect washing-cycle configuration."
+          },
+          {
+            "cause": "Model-specific sensor or communication",
+            "detail": "The PNC identifies the correct electronics platform and service data."
+          },
+          {
+            "cause": "Internal wiring or connection",
+            "detail": "Circuits behind panels must be checked only by a trained technician."
+          },
+          {
+            "cause": "Control board or configuration",
+            "detail": "The code identifies a system but does not confirm which part needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or handle water that may be hot."
+          },
+          {
+            "step": 2,
+            "action": "Turn off water and power",
+            "detail": "Close the water tap and unplug with dry hands if the area is dry."
+          },
+          {
+            "step": 3,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E94 display and note the PNC/product number and programme stage."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact model manual",
+            "detail": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics."
+          },
+          {
+            "step": 5,
+            "action": "Test only when safe",
+            "detail": "For EF0, make one test after foam subsides and visible causes are corrected only if there is no leakage or other warning sign."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service directly for E71/E91/E92/E94 and for recurring EF0. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E94 requires authorised service when it is an E71/E9 code or when EF0 returns after documented external checks. Do not use the washer when leaking.</p><p>Stop immediately for water near electricity, burning smell, smoke, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Dose detergent for water hardness and load, mix large and small items and keep the dispenser, door opening and visible hose connections clean and watertight.</p><p>Internal sensor, communication and configuration faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E94?",
+            "answer": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test sensors, wiring or electronics. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E94 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E94 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E94: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E94? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder E94 på en Electrolux-tvättmaskin?",
+        "description": "Electrolux anger att e94 är ett elektroniskt konfigurationsproblem; servicedokumentationen specificerar felaktig konfiguration av tvättprogram.",
+        "quick_fix": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik (cirka 5–30 minuter).",
+        "intro_html": "<p>Electrolux anger att e94 är ett elektroniskt konfigurationsproblem; servicedokumentationen specificerar felaktig konfiguration av tvättprogram.</p><p>Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik. Dokumentera hela koden och PNC-/produktnumret och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Verifierat elektroniskt tillstånd",
+            "detail": "Electrolux anger att e94 är ett elektroniskt konfigurationsproblem; servicedokumentationen specificerar felaktig konfiguration av tvättprogram."
+          },
+          {
+            "cause": "Modellspecifik givare eller kommunikation",
+            "detail": "PNC identifierar rätt elektronikplattform och servicedata."
+          },
+          {
+            "cause": "Internt kablage eller anslutning",
+            "detail": "Kretsar bakom paneler ska endast kontrolleras av utbildad tekniker."
+          },
+          {
+            "cause": "Styrkort eller konfiguration",
+            "detail": "Koden pekar ut ett system men bekräftar inte vilken del som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte luckan och hantera inte vatten som kan vara varmt."
+          },
+          {
+            "step": 2,
+            "action": "Stäng vatten och ström",
+            "detail": "Stäng vattenkranen och dra ur kontakten med torra händer om området är torrt."
+          },
+          {
+            "step": 3,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E94-visningen och notera PNC-/produktnummer och programfas."
+          },
+          {
+            "step": 4,
+            "action": "Följ rätt modellmanual",
+            "detail": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik."
+          },
+          {
+            "step": 5,
+            "action": "Testa bara när det är säkert",
+            "detail": "För EF0 kan ett enda test göras efter att skum lagt sig och synliga orsaker åtgärdats, om inget läckage eller annan varningssignal finns."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka direkt för E71/E91/E92/E94 och för EF0 som återkommer. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E94 kräver auktoriserad service om det är en E71/E9-kod eller om EF0 återkommer efter dokumenterade yttre kontroller. Använd inte maskinen vid läckage.</p><p>Avbryt direkt vid vatten nära el, bränd lukt, rök, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Dosera tvättmedel efter vattenhårdhet och last, fördela stora och små plagg och håll dispenser, lucköppning och synliga slanganslutningar rena och täta.</p><p>Interna givarfel, kommunikationsfel och konfigurationsfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E94?",
+            "answer": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte givare, kablage eller elektronik. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E94 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E94 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "276": {
+      "code": "EF0",
+      "preserve": {
+        "en_slug": "error-code-ef0",
+        "sv_slug": "felkod-ef0"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error EF0: Safe Steps",
+        "meta_description": "Electrolux washer showing EF0? Check the verified meaning, safe user actions and when authorised service is required.",
+        "h1": "What Does EF0 Mean on an Electrolux Washing Machine?",
+        "description": "Electrolux states that EF0 can be triggered by water leakage, excessive foam, an unbalanced load or an appliance malfunction.",
+        "quick_fix": "Switch off, turn off the water tap and disconnect safely; check visible leakage, trapped laundry, detergent dose, load balance and user-accessible connections as the exact manual describes (about 5–30 minutes).",
+        "intro_html": "<p>Electrolux states that EF0 can be triggered by water leakage, excessive foam, an unbalanced load or an appliance malfunction.</p><p>Switch off, turn off the water tap and disconnect safely; check visible leakage, trapped laundry, detergent dose, load balance and user-accessible connections as the exact manual describes. Record the complete code and PNC/product number and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Excess detergent or foam",
+            "detail": "Overdosing can interfere with level sensing and prevent spinning."
+          },
+          {
+            "cause": "Unbalanced load",
+            "detail": "One large item or a few items may not distribute and the washer repeats spin attempts."
+          },
+          {
+            "cause": "Visible or internal leakage",
+            "detail": "Check only hose connections, filter area, door seal and trapped laundry covered by the manual."
+          },
+          {
+            "cause": "Aqua Control or appliance fault",
+            "detail": "Recurring EF0 after safe checks requires authorised service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or handle water that may be hot."
+          },
+          {
+            "step": 2,
+            "action": "Turn off water and power",
+            "detail": "Close the water tap and unplug with dry hands if the area is dry."
+          },
+          {
+            "step": 3,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete EF0 display and note the PNC/product number and programme stage."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact model manual",
+            "detail": "Switch off, turn off the water tap and disconnect safely; check visible leakage, trapped laundry, detergent dose, load balance and user-accessible connections as the exact manual describes."
+          },
+          {
+            "step": 5,
+            "action": "Test only when safe",
+            "detail": "For EF0, make one test after foam subsides and visible causes are corrected only if there is no leakage or other warning sign."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service directly for E71/E91/E92/E94 and for recurring EF0. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>EF0 requires authorised service when it is an E71/E9 code or when EF0 returns after documented external checks. Do not use the washer when leaking.</p><p>Stop immediately for water near electricity, burning smell, smoke, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Dose detergent for water hardness and load, mix large and small items and keep the dispenser, door opening and visible hose connections clean and watertight.</p><p>Internal sensor, communication and configuration faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing EF0?",
+            "answer": "Switch off, turn off the water tap and disconnect safely; check visible leakage, trapped laundry, detergent dose, load balance and user-accessible connections as the exact manual describes. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset EF0 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does EF0 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod EF0: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen EF0? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder EF0 på en Electrolux-tvättmaskin?",
+        "description": "Electrolux anger att ef0 kan utlösas av vattenläckage, för mycket skum, obalanserad last eller fel i maskinen.",
+        "quick_fix": "Stäng av, stäng vattenkranen och koppla ur säkert; kontrollera synligt läckage, tvätt i luckan, dosering, lastbalans och användaråtkomliga anslutningar enligt rätt manual (cirka 5–30 minuter).",
+        "intro_html": "<p>Electrolux anger att ef0 kan utlösas av vattenläckage, för mycket skum, obalanserad last eller fel i maskinen.</p><p>Stäng av, stäng vattenkranen och koppla ur säkert; kontrollera synligt läckage, tvätt i luckan, dosering, lastbalans och användaråtkomliga anslutningar enligt rätt manual. Dokumentera hela koden och PNC-/produktnumret och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "För mycket tvättmedel eller skum",
+            "detail": "Överdosering kan störa nivåsystemet och hindra centrifugering."
+          },
+          {
+            "cause": "Obalanserad last",
+            "detail": "Ett stort eller få plagg kan inte fördelas och maskinen gör upprepade centrifugeringsförsök."
+          },
+          {
+            "cause": "Synligt eller internt läckage",
+            "detail": "Kontrollera endast slanganslutningar, filterområde, lucktätning och fastnad tvätt som manualen medger."
+          },
+          {
+            "cause": "Aqua Control eller maskinfel",
+            "detail": "Återkommande EF0 efter säkra kontroller kräver auktoriserad service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte luckan och hantera inte vatten som kan vara varmt."
+          },
+          {
+            "step": 2,
+            "action": "Stäng vatten och ström",
+            "detail": "Stäng vattenkranen och dra ur kontakten med torra händer om området är torrt."
+          },
+          {
+            "step": 3,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela EF0-visningen och notera PNC-/produktnummer och programfas."
+          },
+          {
+            "step": 4,
+            "action": "Följ rätt modellmanual",
+            "detail": "Stäng av, stäng vattenkranen och koppla ur säkert; kontrollera synligt läckage, tvätt i luckan, dosering, lastbalans och användaråtkomliga anslutningar enligt rätt manual."
+          },
+          {
+            "step": 5,
+            "action": "Testa bara när det är säkert",
+            "detail": "För EF0 kan ett enda test göras efter att skum lagt sig och synliga orsaker åtgärdats, om inget läckage eller annan varningssignal finns."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka direkt för E71/E91/E92/E94 och för EF0 som återkommer. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>EF0 kräver auktoriserad service om det är en E71/E9-kod eller om EF0 återkommer efter dokumenterade yttre kontroller. Använd inte maskinen vid läckage.</p><p>Avbryt direkt vid vatten nära el, bränd lukt, rök, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Dosera tvättmedel efter vattenhårdhet och last, fördela stora och små plagg och håll dispenser, lucköppning och synliga slanganslutningar rena och täta.</p><p>Interna givarfel, kommunikationsfel och konfigurationsfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med EF0?",
+            "answer": "Stäng av, stäng vattenkranen och koppla ur säkert; kontrollera synligt läckage, tvätt i luckan, dosering, lastbalans och användaråtkomliga anslutningar enligt rätt manual. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa EF0 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar EF0 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

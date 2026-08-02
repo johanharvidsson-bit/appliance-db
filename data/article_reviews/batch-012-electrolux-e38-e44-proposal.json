@@ -1,0 +1,884 @@
+{
+  "batch": "012-electrolux-e38-e44",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    256,
+    257,
+    258,
+    259,
+    260
+  ],
+  "sources": [
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-displays-error-code-e40",
+    "https://support.electrolux.co.uk/support-articles/article/the-washing-machine-door-does-not-close-properly",
+    "https://tds.electrolux.com/others/599/705/670EN.PDF",
+    "https://tds.electrolux.com/others/599/703/247EN.PDF"
+  ],
+  "translations": {
+    "256": {
+      "code": "E38",
+      "preserve": {
+        "en_slug": "error-code-e38",
+        "sv_slug": "felkod-e38"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E38: Safe Steps",
+        "meta_description": "Electrolux washer showing E38? Check the verified meaning, safe door checks and when authorised service is required.",
+        "h1": "What Does E38 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E38 as a blocked pressure chamber or no detected water-level change during drum rotation.",
+        "quick_fix": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or inspect the pressure system or drive belt (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E38 as a blocked pressure chamber or no detected water-level change during drum rotation.</p><p>Switch off, unplug and arrange authorised Electrolux service; do not open the washer or inspect the pressure system or drive belt. Do not force the door, bypass the safety lock or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Blocked pressure chamber",
+            "detail": "Electrolux states that water level does not change as expected during drum rotation."
+          },
+          {
+            "cause": "Pressure-system hydraulic path",
+            "detail": "An internal hose or chamber may be blocked and requires service access."
+          },
+          {
+            "cause": "Drive belt or absent drum rotation",
+            "detail": "Some documented causes involve the drive and are not user inspections."
+          },
+          {
+            "cause": "Sensor, wiring or control fault",
+            "detail": "The PNC is needed for correct technical diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop and wait",
+            "detail": "Wait for the drum to stop. Do not force a locked door or open it when water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E38 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 3,
+            "action": "Check the door externally",
+            "detail": "Remove visibly trapped laundry, reduce overloading and inspect the seal without tools."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact model manual",
+            "detail": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or inspect the pressure system or drive belt."
+          },
+          {
+            "step": 5,
+            "action": "Make at most one safe test",
+            "detail": "Test E40/E41 once after correct closure only if the washer is dry and the manual permits it."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service if the code remains and immediately for E38 or internal E42/E44. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised Electrolux service if E40/E41 remains after the door is cleared and closed correctly. E38, E42 and E44 require professional internal diagnosis.</p><p>Stop using the washer for water in the drum with an unsafe lock, leakage, burning smell, smoke or tripped protection.</p>",
+        "prevention_html": "<p>Do not overload the drum, keep the opening and seal clear of laundry and close the door without slamming it.</p><p>Follow load and maintenance instructions for the exact model. Internal pressure and lock-circuit faults cannot be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E38?",
+            "answer": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or inspect the pressure system or drive belt. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E38 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E38 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E38: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E38? Läs verifierad betydelse, säkra luckkontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder E38 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e38 betyder blockerad tryckkammare eller att ingen förändring av vattennivån registreras under trumrotation.",
+        "quick_fix": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och kontrollera inte trycksystem eller drivrem (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e38 betyder blockerad tryckkammare eller att ingen förändring av vattennivån registreras under trumrotation.</p><p>Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och kontrollera inte trycksystem eller drivrem. Tvinga inte luckan, förbikoppla inte säkerhetslåset och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Blockerad tryckkammare",
+            "detail": "Electrolux anger att vattennivån inte ändras som förväntat under trumrotation."
+          },
+          {
+            "cause": "Trycksystemets hydrauliska väg",
+            "detail": "Intern slang eller kammare kan vara blockerad och kräver servicetillgång."
+          },
+          {
+            "cause": "Drivrem eller utebliven trumrotation",
+            "detail": "Vissa dokumenterade orsaker hör till drivsystemet och ska inte inspekteras av användaren."
+          },
+          {
+            "cause": "Sensor-, kablage- eller styrfel",
+            "detail": "PNC behövs för korrekt teknisk diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa och vänta",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp en låst lucka och öppna inte om vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E38-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 3,
+            "action": "Kontrollera luckan utvändigt",
+            "detail": "Ta bort synligt fastnad tvätt, minska överlast och kontrollera tätningen utan verktyg."
+          },
+          {
+            "step": 4,
+            "action": "Följ rätt modellmanual",
+            "detail": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och kontrollera inte trycksystem eller drivrem."
+          },
+          {
+            "step": 5,
+            "action": "Gör högst ett säkert test",
+            "detail": "Testa endast E40/E41 en gång efter korrekt stängning och bara om maskinen är torr och manualen medger det."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service om koden kvarstår och direkt för E38 eller interna E42/E44. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad Electrolux-service om E40/E41 kvarstår efter att luckan frigjorts och stängts korrekt. E38, E42 och E44 kräver professionell intern diagnos.</p><p>Sluta använda maskinen vid vatten i trumman med osäkert lås, läckage, bränd lukt, rök eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Överfyll inte trumman, håll lucköppning och tätning fria från tvätt och stäng luckan utan att slå igen den.</p><p>Följ last- och underhållsanvisningarna för exakt modell. Interna tryck- och låskretsfel kan inte förebyggas med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E38?",
+            "answer": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och kontrollera inte trycksystem eller drivrem. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E38 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E38 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "257": {
+      "code": "E40",
+      "preserve": {
+        "en_slug": "error-code-e40",
+        "sv_slug": "felkod-e40"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E40: Safe Steps",
+        "meta_description": "Electrolux washer showing E40? Check the verified meaning, safe door checks and when authorised service is required.",
+        "h1": "What Does E40 Mean on an Electrolux Washing Machine?",
+        "description": "Electrolux identifies E40 as a door or lid that is not properly closed or detected.",
+        "quick_fix": "Remove laundry trapped at the seal, reduce an overloaded drum and close the door firmly until the lock clicks (about 5 minutes).",
+        "intro_html": "<p>Electrolux identifies E40 as a door or lid that is not properly closed or detected.</p><p>Remove laundry trapped at the seal, reduce an overloaded drum and close the door firmly until the lock clicks. Do not force the door, bypass the safety lock or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Laundry trapped in the door opening",
+            "detail": "An item between the seal and glass can prevent closing and locking."
+          },
+          {
+            "cause": "Overloaded drum",
+            "detail": "Laundry pressing against the door can stop the lock engaging correctly."
+          },
+          {
+            "cause": "Mechanical child lock or model setting",
+            "detail": "Check only by the manual for the exact PNC/product number."
+          },
+          {
+            "cause": "Faulty door lock or detection",
+            "detail": "If the external check does not help, authorised diagnosis is required."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop and wait",
+            "detail": "Wait for the drum to stop. Do not force a locked door or open it when water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E40 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 3,
+            "action": "Check the door externally",
+            "detail": "Remove visibly trapped laundry, reduce overloading and inspect the seal without tools."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact model manual",
+            "detail": "Remove laundry trapped at the seal, reduce an overloaded drum and close the door firmly until the lock clicks."
+          },
+          {
+            "step": 5,
+            "action": "Make at most one safe test",
+            "detail": "Test E40/E41 once after correct closure only if the washer is dry and the manual permits it."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service if the code remains and immediately for E38 or internal E42/E44. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised Electrolux service if E40/E41 remains after the door is cleared and closed correctly. E38, E42 and E44 require professional internal diagnosis.</p><p>Stop using the washer for water in the drum with an unsafe lock, leakage, burning smell, smoke or tripped protection.</p>",
+        "prevention_html": "<p>Do not overload the drum, keep the opening and seal clear of laundry and close the door without slamming it.</p><p>Follow load and maintenance instructions for the exact model. Internal pressure and lock-circuit faults cannot be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E40?",
+            "answer": "Remove laundry trapped at the seal, reduce an overloaded drum and close the door firmly until the lock clicks. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E40 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E40 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E40: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E40? Läs verifierad betydelse, säkra luckkontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder E40 på en Electrolux-tvättmaskin?",
+        "description": "Electrolux anger att e40 betyder att luckan eller locket inte är korrekt stängt eller registrerat.",
+        "quick_fix": "Ta bort tvätt som fastnat vid tätningen, minska en överfull last och stäng luckan bestämt tills låset klickar (cirka 5 minuter).",
+        "intro_html": "<p>Electrolux anger att e40 betyder att luckan eller locket inte är korrekt stängt eller registrerat.</p><p>Ta bort tvätt som fastnat vid tätningen, minska en överfull last och stäng luckan bestämt tills låset klickar. Tvinga inte luckan, förbikoppla inte säkerhetslåset och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Tvätt har fastnat i lucköppningen",
+            "detail": "Ett plagg mellan tätning och glas kan hindra luckan från att stängas och låsas."
+          },
+          {
+            "cause": "Överfull trumma",
+            "detail": "Tvätt som trycker mot luckan kan hindra korrekt låsning."
+          },
+          {
+            "cause": "Mekaniskt barnlås eller modellinställning",
+            "detail": "Kontrollera endast enligt manualen för exakt PNC-/produktnummer."
+          },
+          {
+            "cause": "Defekt lucklås eller registrering",
+            "detail": "Om den yttre kontrollen inte hjälper krävs auktoriserad diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa och vänta",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp en låst lucka och öppna inte om vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E40-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 3,
+            "action": "Kontrollera luckan utvändigt",
+            "detail": "Ta bort synligt fastnad tvätt, minska överlast och kontrollera tätningen utan verktyg."
+          },
+          {
+            "step": 4,
+            "action": "Följ rätt modellmanual",
+            "detail": "Ta bort tvätt som fastnat vid tätningen, minska en överfull last och stäng luckan bestämt tills låset klickar."
+          },
+          {
+            "step": 5,
+            "action": "Gör högst ett säkert test",
+            "detail": "Testa endast E40/E41 en gång efter korrekt stängning och bara om maskinen är torr och manualen medger det."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service om koden kvarstår och direkt för E38 eller interna E42/E44. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad Electrolux-service om E40/E41 kvarstår efter att luckan frigjorts och stängts korrekt. E38, E42 och E44 kräver professionell intern diagnos.</p><p>Sluta använda maskinen vid vatten i trumman med osäkert lås, läckage, bränd lukt, rök eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Överfyll inte trumman, håll lucköppning och tätning fria från tvätt och stäng luckan utan att slå igen den.</p><p>Följ last- och underhållsanvisningarna för exakt modell. Interna tryck- och låskretsfel kan inte förebyggas med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E40?",
+            "answer": "Ta bort tvätt som fastnat vid tätningen, minska en överfull last och stäng luckan bestämt tills låset klickar. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E40 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E40 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "258": {
+      "code": "E41",
+      "preserve": {
+        "en_slug": "error-code-e41",
+        "sv_slug": "felkod-e41"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E41: Safe Steps",
+        "meta_description": "Electrolux washer showing E41? Check the verified meaning, safe door checks and when authorised service is required.",
+        "h1": "What Does E41 Mean on an Electrolux Washing Machine?",
+        "description": "Electrolux identifies E41 as a door-open or door-not-detected condition after the programme attempts to start.",
+        "quick_fix": "Remove trapped laundry, reduce the load and close the door firmly; if E41 remains, arrange authorised service (about 5 minutes).",
+        "intro_html": "<p>Electrolux identifies E41 as a door-open or door-not-detected condition after the programme attempts to start.</p><p>Remove trapped laundry, reduce the load and close the door firmly; if E41 remains, arrange authorised service. Do not force the door, bypass the safety lock or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Laundry trapped in the door opening",
+            "detail": "An item between the seal and glass can prevent closing and locking."
+          },
+          {
+            "cause": "Overloaded drum",
+            "detail": "Laundry pressing against the door can stop the lock engaging correctly."
+          },
+          {
+            "cause": "Mechanical child lock or model setting",
+            "detail": "Check only by the manual for the exact PNC/product number."
+          },
+          {
+            "cause": "Faulty door lock or detection",
+            "detail": "If the external check does not help, authorised diagnosis is required."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop and wait",
+            "detail": "Wait for the drum to stop. Do not force a locked door or open it when water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E41 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 3,
+            "action": "Check the door externally",
+            "detail": "Remove visibly trapped laundry, reduce overloading and inspect the seal without tools."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact model manual",
+            "detail": "Remove trapped laundry, reduce the load and close the door firmly; if E41 remains, arrange authorised service."
+          },
+          {
+            "step": 5,
+            "action": "Make at most one safe test",
+            "detail": "Test E40/E41 once after correct closure only if the washer is dry and the manual permits it."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service if the code remains and immediately for E38 or internal E42/E44. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised Electrolux service if E40/E41 remains after the door is cleared and closed correctly. E38, E42 and E44 require professional internal diagnosis.</p><p>Stop using the washer for water in the drum with an unsafe lock, leakage, burning smell, smoke or tripped protection.</p>",
+        "prevention_html": "<p>Do not overload the drum, keep the opening and seal clear of laundry and close the door without slamming it.</p><p>Follow load and maintenance instructions for the exact model. Internal pressure and lock-circuit faults cannot be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E41?",
+            "answer": "Remove trapped laundry, reduce the load and close the door firmly; if E41 remains, arrange authorised service. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E41 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E41 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E41: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E41? Läs verifierad betydelse, säkra luckkontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder E41 på en Electrolux-tvättmaskin?",
+        "description": "Electrolux anger att e41 betyder att luckan är öppen eller inte registreras efter att programmet försökt starta.",
+        "quick_fix": "Ta bort fastnad tvätt, minska lasten och stäng luckan bestämt; kvarstår E41 bokar du auktoriserad service (cirka 5 minuter).",
+        "intro_html": "<p>Electrolux anger att e41 betyder att luckan är öppen eller inte registreras efter att programmet försökt starta.</p><p>Ta bort fastnad tvätt, minska lasten och stäng luckan bestämt; kvarstår E41 bokar du auktoriserad service. Tvinga inte luckan, förbikoppla inte säkerhetslåset och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Tvätt har fastnat i lucköppningen",
+            "detail": "Ett plagg mellan tätning och glas kan hindra luckan från att stängas och låsas."
+          },
+          {
+            "cause": "Överfull trumma",
+            "detail": "Tvätt som trycker mot luckan kan hindra korrekt låsning."
+          },
+          {
+            "cause": "Mekaniskt barnlås eller modellinställning",
+            "detail": "Kontrollera endast enligt manualen för exakt PNC-/produktnummer."
+          },
+          {
+            "cause": "Defekt lucklås eller registrering",
+            "detail": "Om den yttre kontrollen inte hjälper krävs auktoriserad diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa och vänta",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp en låst lucka och öppna inte om vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E41-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 3,
+            "action": "Kontrollera luckan utvändigt",
+            "detail": "Ta bort synligt fastnad tvätt, minska överlast och kontrollera tätningen utan verktyg."
+          },
+          {
+            "step": 4,
+            "action": "Följ rätt modellmanual",
+            "detail": "Ta bort fastnad tvätt, minska lasten och stäng luckan bestämt; kvarstår E41 bokar du auktoriserad service."
+          },
+          {
+            "step": 5,
+            "action": "Gör högst ett säkert test",
+            "detail": "Testa endast E40/E41 en gång efter korrekt stängning och bara om maskinen är torr och manualen medger det."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service om koden kvarstår och direkt för E38 eller interna E42/E44. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad Electrolux-service om E40/E41 kvarstår efter att luckan frigjorts och stängts korrekt. E38, E42 och E44 kräver professionell intern diagnos.</p><p>Sluta använda maskinen vid vatten i trumman med osäkert lås, läckage, bränd lukt, rök eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Överfyll inte trumman, håll lucköppning och tätning fria från tvätt och stäng luckan utan att slå igen den.</p><p>Följ last- och underhållsanvisningarna för exakt modell. Interna tryck- och låskretsfel kan inte förebyggas med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E41?",
+            "answer": "Ta bort fastnad tvätt, minska lasten och stäng luckan bestämt; kvarstår E41 bokar du auktoriserad service. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E41 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E41 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "259": {
+      "code": "E42",
+      "preserve": {
+        "en_slug": "error-code-e42",
+        "sv_slug": "felkod-e42"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E42: Safe Steps",
+        "meta_description": "Electrolux washer showing E42? Check the verified meaning, safe door checks and when authorised service is required.",
+        "h1": "What Does E42 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E42 as a door-closure problem involving the interlock, wiring or control system.",
+        "quick_fix": "Check only for trapped laundry and correct external closure, then switch off, unplug and arrange authorised Electrolux service if E42 remains (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E42 as a door-closure problem involving the interlock, wiring or control system.</p><p>Check only for trapped laundry and correct external closure, then switch off, unplug and arrange authorised Electrolux service if E42 remains. Do not force the door, bypass the safety lock or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Door-lock sensing circuit",
+            "detail": "Electrolux service documentation places the fault in lock detection or its control circuit."
+          },
+          {
+            "cause": "Door interlock or wiring",
+            "detail": "E42 may involve the lock, internal connections or control system."
+          },
+          {
+            "cause": "Control board",
+            "detail": "E44 is an internal sensing circuit and requires the correct service data."
+          },
+          {
+            "cause": "Persistent safety interlock",
+            "detail": "Do not run the washer by forcing or bypassing the lock."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop and wait",
+            "detail": "Wait for the drum to stop. Do not force a locked door or open it when water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E42 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 3,
+            "action": "Check the door externally",
+            "detail": "Remove visibly trapped laundry, reduce overloading and inspect the seal without tools."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact model manual",
+            "detail": "Check only for trapped laundry and correct external closure, then switch off, unplug and arrange authorised Electrolux service if E42 remains."
+          },
+          {
+            "step": 5,
+            "action": "Make at most one safe test",
+            "detail": "Test E40/E41 once after correct closure only if the washer is dry and the manual permits it."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service if the code remains and immediately for E38 or internal E42/E44. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised Electrolux service if E40/E41 remains after the door is cleared and closed correctly. E38, E42 and E44 require professional internal diagnosis.</p><p>Stop using the washer for water in the drum with an unsafe lock, leakage, burning smell, smoke or tripped protection.</p>",
+        "prevention_html": "<p>Do not overload the drum, keep the opening and seal clear of laundry and close the door without slamming it.</p><p>Follow load and maintenance instructions for the exact model. Internal pressure and lock-circuit faults cannot be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E42?",
+            "answer": "Check only for trapped laundry and correct external closure, then switch off, unplug and arrange authorised Electrolux service if E42 remains. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E42 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E42 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E42: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E42? Läs verifierad betydelse, säkra luckkontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder E42 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e42 är ett luckstängningsproblem som kan beröra lås, kablage eller styrsystem.",
+        "quick_fix": "Kontrollera endast fastnad tvätt och korrekt yttre stängning och stäng sedan av, dra ur kontakten och boka auktoriserad service om E42 kvarstår (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e42 är ett luckstängningsproblem som kan beröra lås, kablage eller styrsystem.</p><p>Kontrollera endast fastnad tvätt och korrekt yttre stängning och stäng sedan av, dra ur kontakten och boka auktoriserad service om E42 kvarstår. Tvinga inte luckan, förbikoppla inte säkerhetslåset och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Lucklåsets avkänningskrets",
+            "detail": "Electrolux servicedokumentation placerar felet i låsregistrering eller styrkrets."
+          },
+          {
+            "cause": "Lucklås eller kablage",
+            "detail": "E42 kan beröra lås, interna anslutningar eller styrsystem."
+          },
+          {
+            "cause": "Styrkort",
+            "detail": "E44 är en intern avkänningskrets och ska diagnostiseras med rätt servicedata."
+          },
+          {
+            "cause": "Kvarstående säkerhetsspärr",
+            "detail": "Maskinen ska inte köras genom att låset pressas eller förbikopplas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa och vänta",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp en låst lucka och öppna inte om vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E42-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 3,
+            "action": "Kontrollera luckan utvändigt",
+            "detail": "Ta bort synligt fastnad tvätt, minska överlast och kontrollera tätningen utan verktyg."
+          },
+          {
+            "step": 4,
+            "action": "Följ rätt modellmanual",
+            "detail": "Kontrollera endast fastnad tvätt och korrekt yttre stängning och stäng sedan av, dra ur kontakten och boka auktoriserad service om E42 kvarstår."
+          },
+          {
+            "step": 5,
+            "action": "Gör högst ett säkert test",
+            "detail": "Testa endast E40/E41 en gång efter korrekt stängning och bara om maskinen är torr och manualen medger det."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service om koden kvarstår och direkt för E38 eller interna E42/E44. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad Electrolux-service om E40/E41 kvarstår efter att luckan frigjorts och stängts korrekt. E38, E42 och E44 kräver professionell intern diagnos.</p><p>Sluta använda maskinen vid vatten i trumman med osäkert lås, läckage, bränd lukt, rök eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Överfyll inte trumman, håll lucköppning och tätning fria från tvätt och stäng luckan utan att slå igen den.</p><p>Följ last- och underhållsanvisningarna för exakt modell. Interna tryck- och låskretsfel kan inte förebyggas med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E42?",
+            "answer": "Kontrollera endast fastnad tvätt och korrekt yttre stängning och stäng sedan av, dra ur kontakten och boka auktoriserad service om E42 kvarstår. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E42 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E42 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "260": {
+      "code": "E44",
+      "preserve": {
+        "en_slug": "error-code-e44",
+        "sv_slug": "felkod-e44"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E44: Safe Steps",
+        "meta_description": "Electrolux washer showing E44? Check the verified meaning, safe door checks and when authorised service is required.",
+        "h1": "What Does E44 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E44 as a fault in the door-interlock sensing circuit.",
+        "quick_fix": "Switch off, unplug and arrange authorised Electrolux service; do not bypass the lock or test wiring or the control board (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E44 as a fault in the door-interlock sensing circuit.</p><p>Switch off, unplug and arrange authorised Electrolux service; do not bypass the lock or test wiring or the control board. Do not force the door, bypass the safety lock or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Door-lock sensing circuit",
+            "detail": "Electrolux service documentation places the fault in lock detection or its control circuit."
+          },
+          {
+            "cause": "Door interlock or wiring",
+            "detail": "E42 may involve the lock, internal connections or control system."
+          },
+          {
+            "cause": "Control board",
+            "detail": "E44 is an internal sensing circuit and requires the correct service data."
+          },
+          {
+            "cause": "Persistent safety interlock",
+            "detail": "Do not run the washer by forcing or bypassing the lock."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop and wait",
+            "detail": "Wait for the drum to stop. Do not force a locked door or open it when water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E44 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 3,
+            "action": "Check the door externally",
+            "detail": "Remove visibly trapped laundry, reduce overloading and inspect the seal without tools."
+          },
+          {
+            "step": 4,
+            "action": "Follow the exact model manual",
+            "detail": "Switch off, unplug and arrange authorised Electrolux service; do not bypass the lock or test wiring or the control board."
+          },
+          {
+            "step": 5,
+            "action": "Make at most one safe test",
+            "detail": "Test E40/E41 once after correct closure only if the washer is dry and the manual permits it."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service if the code remains and immediately for E38 or internal E42/E44. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised Electrolux service if E40/E41 remains after the door is cleared and closed correctly. E38, E42 and E44 require professional internal diagnosis.</p><p>Stop using the washer for water in the drum with an unsafe lock, leakage, burning smell, smoke or tripped protection.</p>",
+        "prevention_html": "<p>Do not overload the drum, keep the opening and seal clear of laundry and close the door without slamming it.</p><p>Follow load and maintenance instructions for the exact model. Internal pressure and lock-circuit faults cannot be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E44?",
+            "answer": "Switch off, unplug and arrange authorised Electrolux service; do not bypass the lock or test wiring or the control board. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E44 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E44 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E44: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E44? Läs verifierad betydelse, säkra luckkontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder E44 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e44 är ett fel i lucklåsets avkänningskrets.",
+        "quick_fix": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; förbikoppla inte låset och testa inte kablage eller styrkort (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e44 är ett fel i lucklåsets avkänningskrets.</p><p>Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; förbikoppla inte låset och testa inte kablage eller styrkort. Tvinga inte luckan, förbikoppla inte säkerhetslåset och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Lucklåsets avkänningskrets",
+            "detail": "Electrolux servicedokumentation placerar felet i låsregistrering eller styrkrets."
+          },
+          {
+            "cause": "Lucklås eller kablage",
+            "detail": "E42 kan beröra lås, interna anslutningar eller styrsystem."
+          },
+          {
+            "cause": "Styrkort",
+            "detail": "E44 är en intern avkänningskrets och ska diagnostiseras med rätt servicedata."
+          },
+          {
+            "cause": "Kvarstående säkerhetsspärr",
+            "detail": "Maskinen ska inte köras genom att låset pressas eller förbikopplas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa och vänta",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp en låst lucka och öppna inte om vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E44-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 3,
+            "action": "Kontrollera luckan utvändigt",
+            "detail": "Ta bort synligt fastnad tvätt, minska överlast och kontrollera tätningen utan verktyg."
+          },
+          {
+            "step": 4,
+            "action": "Följ rätt modellmanual",
+            "detail": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; förbikoppla inte låset och testa inte kablage eller styrkort."
+          },
+          {
+            "step": 5,
+            "action": "Gör högst ett säkert test",
+            "detail": "Testa endast E40/E41 en gång efter korrekt stängning och bara om maskinen är torr och manualen medger det."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service om koden kvarstår och direkt för E38 eller interna E42/E44. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad Electrolux-service om E40/E41 kvarstår efter att luckan frigjorts och stängts korrekt. E38, E42 och E44 kräver professionell intern diagnos.</p><p>Sluta använda maskinen vid vatten i trumman med osäkert lås, läckage, bränd lukt, rök eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Överfyll inte trumman, håll lucköppning och tätning fria från tvätt och stäng luckan utan att slå igen den.</p><p>Följ last- och underhållsanvisningarna för exakt modell. Interna tryck- och låskretsfel kan inte förebyggas med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E44?",
+            "answer": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; förbikoppla inte låset och testa inte kablage eller styrkort. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E44 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E44 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

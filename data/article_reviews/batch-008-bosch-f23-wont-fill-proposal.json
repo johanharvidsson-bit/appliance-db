@@ -1,0 +1,885 @@
+{
+  "batch": "008-bosch-f23-wont-fill",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    204,
+    205,
+    206,
+    312,
+    315
+  ],
+  "sources": [
+    "https://www.bosch-home.com/us/owner-support/get-support/support-selfhelp-washing-error-e23-or-f23-washing-machine",
+    "https://www.bosch-home.com/us/owner-support/error-codes/washers",
+    "https://media3.bosch-home.com/Documents/9001026001_A.pdf",
+    "https://www.bosch-home.com/us/owner-support/washers/troubleshooting/not-spinning",
+    "https://www.bosch-home.com/us/owner-support/get-support/water-is-not-running"
+  ],
+  "translations": {
+    "204": {
+      "code": "F23",
+      "preserve": {
+        "en_slug": "error-code-f23",
+        "sv_slug": "felkod-f23"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error F23: Safe Next Steps",
+        "meta_description": "Bosch washer showing F23? Learn the verified code meaning, the safe action to take now, what not to inspect yourself and when to arrange Bosch service.",
+        "h1": "What Does F23 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies F23 as an indication that AquaStop has activated and there may be water in the base or a leak.",
+        "quick_fix": "Turn off the water tap immediately and do not use the washer until Bosch service has checked it (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>Bosch identifies F23 as an indication that AquaStop has activated and there may be water in the base or a leak. This is a protection or sensor-related code, not a prompt to test internal parts.</p><p>Turn off the water tap immediately and do not use the washer until Bosch service has checked it. Record the full display and the washer's E-Nr for support. Do not remove panels, test wiring or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "The condition Bosch identifies",
+            "detail": "For Bosch washing machines, F23 indicates that AquaStop has activated and there may be water in the base or a leak. The code identifies a system requiring attention but is not a complete parts diagnosis."
+          },
+          {
+            "cause": "A model-specific sensor or protection event",
+            "detail": "The exact component arrangement and service procedure depend on the E-Nr and market. Use the manual and service information for the exact washer."
+          },
+          {
+            "cause": "A persistent rather than temporary condition",
+            "detail": "If the code remains after the appliance is safely stopped, it needs professional assessment. Repeated resetting can hide the symptom without correcting the cause."
+          },
+          {
+            "cause": "An internal fault requiring service",
+            "detail": "Wiring, sensors, valves, electronics and water-protection components are inside the appliance. Bosch directs the user to customer service rather than internal testing."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Turn off the water tap immediately and do not use the washer until Bosch service has checked it. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete F23 display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Turn off the water tap immediately and do not use the washer until Bosch service has checked it. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from F23 alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing F23?",
+            "answer": "Turn off the water tap immediately and do not use the washer until Bosch service has checked it. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset F23 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does F23 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin felkod F23: säkra nästa steg",
+        "meta_description": "Visar Bosch-tvättmaskinen F23? Läs kodens verifierade betydelse, säker första åtgärd, vad du inte ska kontrollera själv och när service behövs.",
+        "h1": "Vad betyder F23 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att F23 betyder att AquaStop har aktiverats och det kan finnas vatten i bottentråget eller ett läckage.",
+        "quick_fix": "Stäng vattenkranen omedelbart och använd inte maskinen innan Bosch service har kontrollerat den (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>Bosch anger att F23 betyder att AquaStop har aktiverats och det kan finnas vatten i bottentråget eller ett läckage. Det är en skydds- eller sensorrelaterad kod, inte en uppmaning att testa interna delar.</p><p>Stäng vattenkranen omedelbart och använd inte maskinen innan Bosch service har kontrollerat den. Anteckna hela displayen och maskinens E‑Nr. Ta inte bort paneler, mät inte kablage och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Det tillstånd Bosch anger",
+            "detail": "På Bosch-tvättmaskiner anger F23 att AquaStop har aktiverats och det kan finnas vatten i bottentråget eller ett läckage. Koden visar vilket system som behöver uppmärksamhet men är inte en fullständig reservdelsdiagnos."
+          },
+          {
+            "cause": "En modellberoende sensor- eller skyddshändelse",
+            "detail": "Komponentuppbyggnad och serviceförfarande beror på E‑Nr och marknad. Använd manual och serviceinformation för exakt maskin."
+          },
+          {
+            "cause": "Ett kvarstående tillstånd",
+            "detail": "Om koden finns kvar när maskinen har stoppats säkert behövs professionell bedömning. Upprepade återställningar åtgärdar inte orsaken."
+          },
+          {
+            "cause": "Ett internt fel som kräver service",
+            "detail": "Kablage, sensorer, ventiler, elektronik och vattenskydd sitter inne i maskinen. Bosch hänvisar användaren till service i stället för interna tester."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Stäng vattenkranen omedelbart och använd inte maskinen innan Bosch service har kontrollerat den. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela F23-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Stäng vattenkranen omedelbart och använd inte maskinen innan Bosch service har kontrollerat den. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från F23.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med F23?",
+            "answer": "Stäng vattenkranen omedelbart och använd inte maskinen innan Bosch service har kontrollerat den. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa F23 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar F23 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "205": {
+      "code": "F43",
+      "preserve": {
+        "en_slug": "error-code-f43",
+        "sv_slug": "felkod-f43"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error F43: Safe Next Steps",
+        "meta_description": "Bosch washer showing F43? Learn the verified code meaning, the safe action to take now, what not to inspect yourself and when to arrange Bosch service.",
+        "h1": "What Does F43 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies F43 as an indication that Bosch does not provide a universal meaning for bare F43 in its current general washer list; the exact model manual and E-Nr are required.",
+        "quick_fix": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>F43 requires the complete display and the washer's E-Nr for safe interpretation. Bosch does not provide a universal meaning for bare f43 in its current general washer list; the exact model manual and e-nr are required.</p><p>Do not borrow a meaning from a dishwasher or another Bosch washer family. Do not remove panels or order a part until the exact manual or Bosch service identifies the fault.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete code information",
+            "detail": "Punctuation, extra digits or an F can change the meaning. Record the complete display."
+          },
+          {
+            "cause": "Model and market differences",
+            "detail": "Bosch families can use different code formats. The E-Nr is needed for the correct manual."
+          },
+          {
+            "cause": "A condition described by the exact manual",
+            "detail": "Perform only the external check or user maintenance explicitly stated for that model."
+          },
+          {
+            "cause": "A persistent condition requiring service",
+            "detail": "If the exact manual provides no user action or the code returns, Bosch service should diagnose the washer."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete F43 display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from F43 alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing F43?",
+            "answer": "Record the complete code including punctuation and suffix, find the E-Nr, and follow only the exact model manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset F43 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does F43 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin felkod F43: säkra nästa steg",
+        "meta_description": "Visar Bosch-tvättmaskinen F43? Läs kodens verifierade betydelse, säker första åtgärd, vad du inte ska kontrollera själv och när service behövs.",
+        "h1": "Vad betyder F43 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att F43 betyder att Bosch anger ingen generell betydelse för enbart F43 i sin aktuella övergripande tvättmaskinslista; exakt modellmanual och E‑Nr krävs.",
+        "quick_fix": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>För F43 krävs hela displaykoden och maskinens E‑Nr för en säker tolkning. Bosch anger ingen generell betydelse för enbart f43 i sin aktuella övergripande tvättmaskinslista; exakt modellmanual och e‑nr krävs.</p><p>Använd inte kodbetydelser från en diskmaskin eller annan Bosch-serie. Ta inte bort paneler och beställ inte en reservdel innan rätt manual eller Bosch service har identifierat felet.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig kodinformation",
+            "detail": "Skiljetecken, ytterligare siffror eller ett F kan ändra betydelsen. Dokumentera hela displayen."
+          },
+          {
+            "cause": "Skillnader mellan modeller och marknader",
+            "detail": "Bosch-serier kan använda olika kodformat. E‑Nr behövs för rätt manual."
+          },
+          {
+            "cause": "Ett tillstånd som manualen kan beskriva",
+            "detail": "Utför bara den yttre kontroll eller det användarunderhåll som uttryckligen anges för exakt modell."
+          },
+          {
+            "cause": "Ett kvarstående servicebehov",
+            "detail": "Om rätt manual saknar användaråtgärd eller koden återkommer ska Bosch service diagnostisera maskinen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela F43-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från F43.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med F43?",
+            "answer": "Anteckna hela koden inklusive skiljetecken och suffix, leta upp E‑Nr och följ endast den exakta modellmanualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa F43 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar F43 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "206": {
+      "code": "NO",
+      "preserve": {
+        "en_slug": "error-code-no",
+        "sv_slug": "felkod-no"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Shows NO: Door Cannot Open",
+        "meta_description": "Bosch washer showing NO? It normally means the door cannot open yet. Follow safe steps for temperature, water level and continuing the programme.",
+        "h1": "What Does NO Mean on a Bosch Washing Machine?",
+        "description": "In an official Bosch manual, NO means the door cannot be opened for reloading because the temperature or water level is too high.",
+        "quick_fix": "Wait until temperature and water level are safe, keep the door closed and select Start/Reload as the manual instructs (time varies).",
+        "intro_html": "<p>In the documented Bosch manual, NO is a status message: the door cannot open for reloading because the temperature or water level is too high. It is not a replacement-parts diagnosis.</p><p>Keep the door closed and select Start/Reload to continue the programme. Do not force the door or attempt to drain hot water.</p>",
+        "causes_json": [
+          {
+            "cause": "The condition Bosch identifies",
+            "detail": "For Bosch washing machines, NO indicates that the door cannot be opened for reloading because the temperature or water level is too high. The code identifies a system requiring attention but is not a complete parts diagnosis."
+          },
+          {
+            "cause": "A model-specific sensor or protection event",
+            "detail": "The exact component arrangement and service procedure depend on the E-Nr and market. Use the manual and service information for the exact washer."
+          },
+          {
+            "cause": "A persistent rather than temporary condition",
+            "detail": "If the code remains after the appliance is safely stopped, it needs professional assessment. Repeated resetting can hide the symptom without correcting the cause."
+          },
+          {
+            "cause": "An internal fault requiring service",
+            "detail": "Wiring, sensors, valves, electronics and water-protection components are inside the appliance. Bosch directs the user to customer service rather than internal testing."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Wait until temperature or water level is safe and select Start/Reload to continue as described in the manual. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete NO display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Wait until temperature or water level is safe and select Start/Reload to continue as described in the manual. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from NO alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing NO?",
+            "answer": "Wait until temperature or water level is safe and select Start/Reload to continue as described in the manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset NO by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does NO identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin visar NO: luckan kan inte öppnas",
+        "meta_description": "Visar Bosch-tvättmaskinen NO? Det betyder normalt att luckan inte kan öppnas ännu. Läs säkra steg för temperatur, vattennivå och fortsatt program.",
+        "h1": "Vad betyder NO på en Bosch-tvättmaskin?",
+        "description": "I en officiell Bosch-manual betyder NO att luckan inte kan öppnas för omlastning eftersom temperaturen eller vattennivån är för hög.",
+        "quick_fix": "Vänta tills temperaturen och vattennivån är säkra, håll luckan stängd och välj Start/Reload enligt manualen (tiden varierar).",
+        "intro_html": "<p>NO är i den dokumenterade Bosch-manualen ett statusmeddelande: luckan kan inte öppnas för omlastning eftersom temperaturen eller vattennivån är för hög. Det är inte en reservdelsdiagnos.</p><p>Håll luckan stängd och välj Start/Reload för att fortsätta programmet. Tvinga inte upp luckan och försök inte tömma hett vatten.</p>",
+        "causes_json": [
+          {
+            "cause": "Det tillstånd Bosch anger",
+            "detail": "På Bosch-tvättmaskiner anger NO att luckan inte kan öppnas för omlastning därför att temperaturen eller vattennivån är för hög. Koden visar vilket system som behöver uppmärksamhet men är inte en fullständig reservdelsdiagnos."
+          },
+          {
+            "cause": "En modellberoende sensor- eller skyddshändelse",
+            "detail": "Komponentuppbyggnad och serviceförfarande beror på E‑Nr och marknad. Använd manual och serviceinformation för exakt maskin."
+          },
+          {
+            "cause": "Ett kvarstående tillstånd",
+            "detail": "Om koden finns kvar när maskinen har stoppats säkert behövs professionell bedömning. Upprepade återställningar åtgärdar inte orsaken."
+          },
+          {
+            "cause": "Ett internt fel som kräver service",
+            "detail": "Kablage, sensorer, ventiler, elektronik och vattenskydd sitter inne i maskinen. Bosch hänvisar användaren till service i stället för interna tester."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Vänta tills temperaturen sjunker eller vattennivån blir säker och välj Start/Reload för att fortsätta enligt manualen. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela NO-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Vänta tills temperaturen sjunker eller vattennivån blir säker och välj Start/Reload för att fortsätta enligt manualen. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från NO.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med NO?",
+            "answer": "Vänta tills temperaturen sjunker eller vattennivån blir säker och välj Start/Reload för att fortsätta enligt manualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa NO genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar NO vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "312": {
+      "code": "WONT_SPIN",
+      "preserve": {
+        "en_slug": "wont-spin",
+        "sv_slug": "centrifugerar-inte"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Not Spinning: Safe Checks",
+        "meta_description": "Bosch washer not spinning? Safely check load balance, drainage and the pump, and learn when Bosch service is needed.",
+        "h1": "Why Is My Bosch Washing Machine Not Spinning?",
+        "description": "Bosch lists an unbalanced load, blocked drainage or a blocked pump among common reasons a washer will not spin.",
+        "quick_fix": "Pause safely, redistribute the laundry and check the drain hose and pump only as the model manual describes (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>Bosch identifies won't spin as an indication that the load may be unbalanced or the drain hose or pump may be blocked. This is a protection or sensor-related code, not a prompt to test internal parts.</p><p>Pause safely, redistribute the laundry and check the drain hose and pump only as the model manual describes. Record the full display and the washer's E-Nr for support. Do not remove panels, test wiring or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Unbalanced load",
+            "detail": "One heavy item or tangled laundry can make the washer reduce or cancel the spin."
+          },
+          {
+            "cause": "Kinked or blocked drainage",
+            "detail": "The washer cannot spin correctly if it cannot drain the water."
+          },
+          {
+            "cause": "Blocked pump",
+            "detail": "Bosch describes cleaning a user-accessible pump according to the model manual, with a hot-water scalding risk."
+          },
+          {
+            "cause": "Technical drive fault",
+            "detail": "If safe checks do not help, the motor, drive or electronics may need Bosch service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Pause safely, redistribute the laundry and check the drain hose and pump only as the model manual describes. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete won't spin display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Pause safely, redistribute the laundry and check the drain hose and pump only as the model manual describes. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from won't spin alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing won't spin?",
+            "answer": "Pause safely, redistribute the laundry and check the drain hose and pump only as the model manual describes. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset won't spin by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does won't spin identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin centrifugerar inte: säkra kontroller",
+        "meta_description": "Centrifugerar Bosch-tvättmaskinen inte? Kontrollera lastbalans, avlopp och pump säkert och se när Bosch-service behövs.",
+        "h1": "Varför centrifugerar inte Bosch-tvättmaskinen?",
+        "description": "Bosch anger obalanserad last, blockerat avlopp eller pump som vanliga orsaker när maskinen inte centrifugerar.",
+        "quick_fix": "Pausa säkert, fördela tvätten och kontrollera avloppsslang och pump endast enligt modellmanualen (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>Bosch anger att centrifugerar inte betyder att maskinen kan ha obalanserad tvätt, blockerad pump eller vikt avloppsslang. Det är en skydds- eller sensorrelaterad kod, inte en uppmaning att testa interna delar.</p><p>Pausa säkert, fördela tvätten och kontrollera avloppsslang och pump endast enligt modellmanualen. Anteckna hela displayen och maskinens E‑Nr. Ta inte bort paneler, mät inte kablage och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Obalanserad last",
+            "detail": "Ett tungt plagg eller hoptrasslad tvätt kan få maskinen att minska eller avbryta centrifugeringen."
+          },
+          {
+            "cause": "Vikt eller blockerat avlopp",
+            "detail": "Maskinen kan inte centrifugera korrekt om den inte kan tömma vattnet."
+          },
+          {
+            "cause": "Blockerad pump",
+            "detail": "Bosch beskriver rengöring av användaråtkomlig pump enligt modellmanualen, med risk för hett vatten."
+          },
+          {
+            "cause": "Tekniskt drivfel",
+            "detail": "Om säkra kontroller inte hjälper kan motor, drivning eller elektronik kräva Bosch-service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Pausa säkert, fördela tvätten och kontrollera avloppsslang och pump endast enligt modellmanualen. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela centrifugerar inte-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Pausa säkert, fördela tvätten och kontrollera avloppsslang och pump endast enligt modellmanualen. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från centrifugerar inte.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med centrifugerar inte?",
+            "answer": "Pausa säkert, fördela tvätten och kontrollera avloppsslang och pump endast enligt modellmanualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa centrifugerar inte genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar centrifugerar inte vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "315": {
+      "code": "WONT_FILL",
+      "preserve": {
+        "en_slug": "wont-fill",
+        "sv_slug": "fyller-inte"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Not Filling: Safe Checks",
+        "meta_description": "Bosch washer not filling? Safely check the tap, pressure, hose, inlet filter and door, and learn when service is needed.",
+        "h1": "Why Is My Bosch Washing Machine Not Filling with Water?",
+        "description": "Bosch lists the water supply, low pressure, a kinked hose, blocked inlet filters or an unlocked door among common reasons a washer will not fill.",
+        "quick_fix": "Check the tap is open, hoses are straight and the door is closed; clean only inlet filters covered by the model manual (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>Bosch identifies won't fill as an indication that the tap may be closed, the inlet hose kinked, the inlet filter blocked, water pressure low or the door not properly closed. This is a protection or sensor-related code, not a prompt to test internal parts.</p><p>Check the tap is open, hoses are straight and the door is closed; clean only inlet filters covered by the model manual. Record the full display and the washer's E-Nr for support. Do not remove panels, test wiring or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Closed tap or low pressure",
+            "detail": "Bosch states a fully open tap should supply about 10 litres per minute; low installation pressure needs a plumber."
+          },
+          {
+            "cause": "Kinked inlet hose",
+            "detail": "A pinched or kinked supply hose restricts the water flow."
+          },
+          {
+            "cause": "Blocked inlet filter",
+            "detail": "Bosch describes cleaning it with a small brush after closing the tap; never immerse the AquaStop unit."
+          },
+          {
+            "cause": "Door not locked",
+            "detail": "Laundry in the opening or an overloaded drum may prevent locking and therefore water intake."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Check the tap is open, hoses are straight and the door is closed; clean only inlet filters covered by the model manual. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete won't fill display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Check the tap is open, hoses are straight and the door is closed; clean only inlet filters covered by the model manual. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from won't fill alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing won't fill?",
+            "answer": "Check the tap is open, hoses are straight and the door is closed; clean only inlet filters covered by the model manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset won't fill by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does won't fill identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin fyller inte vatten: säkra kontroller",
+        "meta_description": "Tar Bosch-tvättmaskinen inte in vatten? Kontrollera kran, tryck, slang, filter och lucka säkert och se när service behövs.",
+        "h1": "Varför fyller inte Bosch-tvättmaskinen vatten?",
+        "description": "Bosch anger vattenförsörjning, lågt tryck, vikt slang, blockerat inloppsfilter eller ej låst lucka som vanliga orsaker när maskinen inte fyller.",
+        "quick_fix": "Kontrollera att kranen är öppen, slangarna raka, luckan stängd och rengör endast inloppsfilter enligt modellmanualen (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>Bosch anger att fyller inte betyder att vattenkranen kan vara stängd, tilloppsslangen vikt, inloppsfiltret blockerat, vattentrycket lågt eller luckan inte korrekt stängd. Det är en skydds- eller sensorrelaterad kod, inte en uppmaning att testa interna delar.</p><p>Kontrollera att kranen är öppen, slangarna raka, luckan stängd och rengör endast inloppsfilter enligt modellmanualen. Anteckna hela displayen och maskinens E‑Nr. Ta inte bort paneler, mät inte kablage och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Stängd kran eller lågt tryck",
+            "detail": "Bosch anger att fullt öppnad kran bör ge ungefär 10 liter per minut; lågt installationstryck kräver rörmokare."
+          },
+          {
+            "cause": "Vikt tilloppsslang",
+            "detail": "En klämd eller vikt slang hindrar vattenflödet."
+          },
+          {
+            "cause": "Blockerat inloppsfilter",
+            "detail": "Bosch beskriver rengöring med liten borste efter att kranen stängts; AquaStop-enheten får inte sänkas i vatten."
+          },
+          {
+            "cause": "Luckan är inte låst",
+            "detail": "Tvätt i lucköppningen eller överlast kan hindra låset och därmed vattenintaget."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Kontrollera att kranen är öppen, slangarna raka, luckan stängd och rengör endast inloppsfilter enligt modellmanualen. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela fyller inte-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Kontrollera att kranen är öppen, slangarna raka, luckan stängd och rengör endast inloppsfilter enligt modellmanualen. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från fyller inte.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med fyller inte?",
+            "answer": "Kontrollera att kranen är öppen, slangarna raka, luckan stängd och rengör endast inloppsfilter enligt modellmanualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa fyller inte genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar fyller inte vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

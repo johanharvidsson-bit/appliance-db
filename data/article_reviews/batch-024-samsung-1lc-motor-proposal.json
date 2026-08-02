@@ -1,0 +1,833 @@
+{
+  "batch": "024-samsung-1lc-motor",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    24,
+    25,
+    26,
+    27,
+    29
+  ],
+  "sources": [
+    "https://www.samsung.com/uk/support/home-appliances/check-out-the-information-codes-on-my-washing-machine/",
+    "https://www.samsung.com/uk/support/home-appliances/what-do-the-codes-on-my-washing-machine-mean/",
+    "https://www.samsung.com/uk/support/home-appliances/what-to-do-if-your-washing-machine-is-not-spinning/"
+  ],
+  "translations": {
+    "24": {
+      "code": "1LC",
+      "preserve": {
+        "en_slug": "samsung-error-code-1lc",
+        "sv_slug": "samsung-felkod-1lc"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 1LC: Safe Steps",
+        "meta_description": "Samsung washer showing 1LC? Read the verified, model-specific meaning, safe checks and when service is required.",
+        "h1": "What Does 1LC Mean on a Samsung Washing Machine?",
+        "description": "1LC is model-specific; Samsung's public guide groups LC/LC1-family codes with low-water-level or drain-hose conditions.",
+        "quick_fix": "Stop the washer, check for visible leakage and confirm the external drain hose position from the exact model manual (about 5–15 minutes).",
+        "intro_html": "<p>1LC is model-specific; Samsung's public guide groups LC/LC1-family codes with low-water-level or drain-hose conditions.</p><p>Stop the washer, check for visible leakage and confirm the external drain hose position from the exact model manual. The code does not confirm a particular part; open no panels and measure no motor, sensor, wiring or board.</p>",
+        "causes_json": [
+          {
+            "cause": "Model-specific LC condition",
+            "detail": "The complete code and exact model manual are required for interpretation."
+          },
+          {
+            "cause": "Drain hose too low or misplaced",
+            "detail": "Incorrect height can cause siphoning and a low water level."
+          },
+          {
+            "cause": "Visible or internal leakage",
+            "detail": "Stop using the washer when water is present around it."
+          },
+          {
+            "cause": "Internal level or control fault",
+            "detail": "A recurring code requires Samsung service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete 1LC display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make external checks only",
+            "detail": "Stop the washer, check for visible leakage and confirm the external drain hose position from the exact model manual."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart once only without leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 1LC returns after one shutdown. Motor-family subcodes and a persistent LC condition require model-specific professional diagnosis.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, keep the washer level and install the drain hose according to the exact installation manual.</p><p>Internal motor, sensor, communication and electronics faults cannot be safely prevented or diagnosed through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 1LC?",
+            "answer": "Stop the washer, check for visible leakage and confirm the external drain hose position from the exact model manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 1LC by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 1LC identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 1LC: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 1LC? Läs verifierad, modellspecifik betydelse, säkra kontroller och när service krävs.",
+        "h1": "Vad betyder 1LC på en Samsung-tvättmaskin?",
+        "description": "1lc är modellspecifik; samsungs offentliga guide grupperar lc-/lc1-familjen med låg vattennivå eller avloppsslangens läge.",
+        "quick_fix": "Stoppa maskinen, kontrollera synligt läckage och bekräfta den yttre avloppsslangens läge i exakt modellmanual (cirka 5–15 minuter).",
+        "intro_html": "<p>1lc är modellspecifik; samsungs offentliga guide grupperar lc-/lc1-familjen med låg vattennivå eller avloppsslangens läge.</p><p>Stoppa maskinen, kontrollera synligt läckage och bekräfta den yttre avloppsslangens läge i exakt modellmanual. Koden bekräftar inte en viss reservdel; öppna inga paneler och mät inte motor, givare, kablage eller styrkort.</p>",
+        "causes_json": [
+          {
+            "cause": "Modellspecifikt LC-tillstånd",
+            "detail": "Hela koden och exakt modellmanual krävs för rätt tolkning."
+          },
+          {
+            "cause": "Avloppsslang för lågt eller felplacerad",
+            "detail": "Fel höjd kan ge självdränering och låg vattennivå."
+          },
+          {
+            "cause": "Synligt eller internt läckage",
+            "detail": "Stoppa användningen vid vatten runt maskinen."
+          },
+          {
+            "cause": "Internt nivå- eller styrfel",
+            "detail": "Återkommande kod kräver Samsung-service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela 1LC-visningen och notera modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast yttre kontroll",
+            "detail": "Stoppa maskinen, kontrollera synligt läckage och bekräfta den yttre avloppsslangens läge i exakt modellmanual."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta bara om en gång och endast utan läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 1LC återkommer efter en avstängning. Motorfamiljens underkoder och bestående LC-tillstånd kräver modellspecifik professionell diagnos.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, håll maskinen i nivå och montera avloppsslangen enligt exakt installationsmanual.</p><p>Interna motor-, givar-, kommunikations- och elektronikfel kan inte förebyggas eller diagnostiseras säkert genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 1LC?",
+            "answer": "Stoppa maskinen, kontrollera synligt läckage och bekräfta den yttre avloppsslangens läge i exakt modellmanual. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 1LC genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 1LC vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "25": {
+      "code": "3C",
+      "preserve": {
+        "en_slug": "samsung-error-code-3c",
+        "sv_slug": "samsung-felkod-3c"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 3C: Safe Steps",
+        "meta_description": "Samsung washer showing 3C? Read the verified, model-specific meaning, safe checks and when service is required.",
+        "h1": "What Does 3C Mean on a Samsung Washing Machine?",
+        "description": "Samsung groups 3C with motor-operation errors; the exact model manual defines the subcode.",
+        "quick_fix": "Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns (about 5–15 minutes).",
+        "intro_html": "<p>Samsung groups 3C with motor-operation errors; the exact model manual defines the subcode.</p><p>Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns. The code does not confirm a particular part; open no panels and measure no motor, sensor, wiring or board.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor operation interrupted",
+            "detail": "Samsung lists 3C in the motor-error family."
+          },
+          {
+            "cause": "Overload or obstructed drum movement",
+            "detail": "An excessive load can prevent normal motor operation."
+          },
+          {
+            "cause": "Model-specific motor or sensor signal",
+            "detail": "Do not translate the subcode into a specific part without the correct manual."
+          },
+          {
+            "cause": "Internal motor, wiring or control fault",
+            "detail": "This requires a trained technician."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete 3C display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make external checks only",
+            "detail": "Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart once only without leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 3C returns after one shutdown. Motor-family subcodes and a persistent LC condition require model-specific professional diagnosis.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, keep the washer level and install the drain hose according to the exact installation manual.</p><p>Internal motor, sensor, communication and electronics faults cannot be safely prevented or diagnosed through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 3C?",
+            "answer": "Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 3C by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 3C identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 3C: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 3C? Läs verifierad, modellspecifik betydelse, säkra kontroller och när service krävs.",
+        "h1": "Vad betyder 3C på en Samsung-tvättmaskin?",
+        "description": "Samsung grupperar 3c med fel i motordriften; exakt modellmanual definierar underkoden.",
+        "quick_fix": "Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer (cirka 5–15 minuter).",
+        "intro_html": "<p>Samsung grupperar 3c med fel i motordriften; exakt modellmanual definierar underkoden.</p><p>Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer. Koden bekräftar inte en viss reservdel; öppna inga paneler och mät inte motor, givare, kablage eller styrkort.</p>",
+        "causes_json": [
+          {
+            "cause": "Motoroperation avbruten",
+            "detail": "Samsung listar 3C i motorfamiljen."
+          },
+          {
+            "cause": "Överlast eller blockerad trumrörelse",
+            "detail": "För stor last kan hindra normal motoroperation."
+          },
+          {
+            "cause": "Modellspecifik motor- eller givarsignal",
+            "detail": "Underkoden ska inte översättas till en viss del utan rätt manual."
+          },
+          {
+            "cause": "Internt motor-, kablage- eller styrfel",
+            "detail": "Detta kräver utbildad tekniker."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela 3C-visningen och notera modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast yttre kontroll",
+            "detail": "Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta bara om en gång och endast utan läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 3C återkommer efter en avstängning. Motorfamiljens underkoder och bestående LC-tillstånd kräver modellspecifik professionell diagnos.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, håll maskinen i nivå och montera avloppsslangen enligt exakt installationsmanual.</p><p>Interna motor-, givar-, kommunikations- och elektronikfel kan inte förebyggas eller diagnostiseras säkert genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 3C?",
+            "answer": "Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 3C genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 3C vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "26": {
+      "code": "3E",
+      "preserve": {
+        "en_slug": "samsung-error-code-3e",
+        "sv_slug": "samsung-felkod-3e"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 3E: Safe Steps",
+        "meta_description": "Samsung washer showing 3E? Read the verified, model-specific meaning, safe checks and when service is required.",
+        "h1": "What Does 3E Mean on a Samsung Washing Machine?",
+        "description": "Samsung groups 3E with motor-operation errors; the exact model manual defines the subcode.",
+        "quick_fix": "Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns (about 5–15 minutes).",
+        "intro_html": "<p>Samsung groups 3E with motor-operation errors; the exact model manual defines the subcode.</p><p>Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns. The code does not confirm a particular part; open no panels and measure no motor, sensor, wiring or board.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor operation interrupted",
+            "detail": "Samsung lists 3E in the motor-error family."
+          },
+          {
+            "cause": "Overload or obstructed drum movement",
+            "detail": "An excessive load can prevent normal motor operation."
+          },
+          {
+            "cause": "Model-specific motor or sensor signal",
+            "detail": "Do not translate the subcode into a specific part without the correct manual."
+          },
+          {
+            "cause": "Internal motor, wiring or control fault",
+            "detail": "This requires a trained technician."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete 3E display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make external checks only",
+            "detail": "Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart once only without leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 3E returns after one shutdown. Motor-family subcodes and a persistent LC condition require model-specific professional diagnosis.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, keep the washer level and install the drain hose according to the exact installation manual.</p><p>Internal motor, sensor, communication and electronics faults cannot be safely prevented or diagnosed through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 3E?",
+            "answer": "Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 3E by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 3E identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 3E: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 3E? Läs verifierad, modellspecifik betydelse, säkra kontroller och när service krävs.",
+        "h1": "Vad betyder 3E på en Samsung-tvättmaskin?",
+        "description": "Samsung grupperar 3e med fel i motordriften; exakt modellmanual definierar underkoden.",
+        "quick_fix": "Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer (cirka 5–15 minuter).",
+        "intro_html": "<p>Samsung grupperar 3e med fel i motordriften; exakt modellmanual definierar underkoden.</p><p>Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer. Koden bekräftar inte en viss reservdel; öppna inga paneler och mät inte motor, givare, kablage eller styrkort.</p>",
+        "causes_json": [
+          {
+            "cause": "Motoroperation avbruten",
+            "detail": "Samsung listar 3E i motorfamiljen."
+          },
+          {
+            "cause": "Överlast eller blockerad trumrörelse",
+            "detail": "För stor last kan hindra normal motoroperation."
+          },
+          {
+            "cause": "Modellspecifik motor- eller givarsignal",
+            "detail": "Underkoden ska inte översättas till en viss del utan rätt manual."
+          },
+          {
+            "cause": "Internt motor-, kablage- eller styrfel",
+            "detail": "Detta kräver utbildad tekniker."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela 3E-visningen och notera modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast yttre kontroll",
+            "detail": "Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta bara om en gång och endast utan läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 3E återkommer efter en avstängning. Motorfamiljens underkoder och bestående LC-tillstånd kräver modellspecifik professionell diagnos.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, håll maskinen i nivå och montera avloppsslangen enligt exakt installationsmanual.</p><p>Interna motor-, givar-, kommunikations- och elektronikfel kan inte förebyggas eller diagnostiseras säkert genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 3E?",
+            "answer": "Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 3E genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 3E vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "27": {
+      "code": "3E1",
+      "preserve": {
+        "en_slug": "samsung-error-code-3e1",
+        "sv_slug": "samsung-felkod-3e1"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 3E1: Safe Steps",
+        "meta_description": "Samsung washer showing 3E1? Read the verified, model-specific meaning, safe checks and when service is required.",
+        "h1": "What Does 3E1 Mean on a Samsung Washing Machine?",
+        "description": "Samsung groups 3E1 with motor-operation errors; the exact model manual defines the subcode.",
+        "quick_fix": "Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns (about 5–15 minutes).",
+        "intro_html": "<p>Samsung groups 3E1 with motor-operation errors; the exact model manual defines the subcode.</p><p>Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns. The code does not confirm a particular part; open no panels and measure no motor, sensor, wiring or board.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor operation interrupted",
+            "detail": "Samsung lists 3E1 in the motor-error family."
+          },
+          {
+            "cause": "Overload or obstructed drum movement",
+            "detail": "An excessive load can prevent normal motor operation."
+          },
+          {
+            "cause": "Model-specific motor or sensor signal",
+            "detail": "Do not translate the subcode into a specific part without the correct manual."
+          },
+          {
+            "cause": "Internal motor, wiring or control fault",
+            "detail": "This requires a trained technician."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete 3E1 display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make external checks only",
+            "detail": "Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart once only without leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 3E1 returns after one shutdown. Motor-family subcodes and a persistent LC condition require model-specific professional diagnosis.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, keep the washer level and install the drain hose according to the exact installation manual.</p><p>Internal motor, sensor, communication and electronics faults cannot be safely prevented or diagnosed through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 3E1?",
+            "answer": "Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 3E1 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 3E1 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 3E1: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 3E1? Läs verifierad, modellspecifik betydelse, säkra kontroller och när service krävs.",
+        "h1": "Vad betyder 3E1 på en Samsung-tvättmaskin?",
+        "description": "Samsung grupperar 3e1 med fel i motordriften; exakt modellmanual definierar underkoden.",
+        "quick_fix": "Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer (cirka 5–15 minuter).",
+        "intro_html": "<p>Samsung grupperar 3e1 med fel i motordriften; exakt modellmanual definierar underkoden.</p><p>Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer. Koden bekräftar inte en viss reservdel; öppna inga paneler och mät inte motor, givare, kablage eller styrkort.</p>",
+        "causes_json": [
+          {
+            "cause": "Motoroperation avbruten",
+            "detail": "Samsung listar 3E1 i motorfamiljen."
+          },
+          {
+            "cause": "Överlast eller blockerad trumrörelse",
+            "detail": "För stor last kan hindra normal motoroperation."
+          },
+          {
+            "cause": "Modellspecifik motor- eller givarsignal",
+            "detail": "Underkoden ska inte översättas till en viss del utan rätt manual."
+          },
+          {
+            "cause": "Internt motor-, kablage- eller styrfel",
+            "detail": "Detta kräver utbildad tekniker."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela 3E1-visningen och notera modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast yttre kontroll",
+            "detail": "Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta bara om en gång och endast utan läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 3E1 återkommer efter en avstängning. Motorfamiljens underkoder och bestående LC-tillstånd kräver modellspecifik professionell diagnos.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, håll maskinen i nivå och montera avloppsslangen enligt exakt installationsmanual.</p><p>Interna motor-, givar-, kommunikations- och elektronikfel kan inte förebyggas eller diagnostiseras säkert genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 3E1?",
+            "answer": "Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 3E1 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 3E1 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "29": {
+      "code": "3E3",
+      "preserve": {
+        "en_slug": "samsung-error-code-3e3",
+        "sv_slug": "samsung-felkod-3e3"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 3E3: Safe Steps",
+        "meta_description": "Samsung washer showing 3E3? Read the verified, model-specific meaning, safe checks and when service is required.",
+        "h1": "What Does 3E3 Mean on a Samsung Washing Machine?",
+        "description": "Samsung groups 3E3 with motor-operation errors; the exact model manual defines the subcode.",
+        "quick_fix": "Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns (about 5–15 minutes).",
+        "intro_html": "<p>Samsung groups 3E3 with motor-operation errors; the exact model manual defines the subcode.</p><p>Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns. The code does not confirm a particular part; open no panels and measure no motor, sensor, wiring or board.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor operation interrupted",
+            "detail": "Samsung lists 3E3 in the motor-error family."
+          },
+          {
+            "cause": "Overload or obstructed drum movement",
+            "detail": "An excessive load can prevent normal motor operation."
+          },
+          {
+            "cause": "Model-specific motor or sensor signal",
+            "detail": "Do not translate the subcode into a specific part without the correct manual."
+          },
+          {
+            "cause": "Internal motor, wiring or control fault",
+            "detail": "This requires a trained technician."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete 3E3 display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make external checks only",
+            "detail": "Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart once only without leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 3E3 returns after one shutdown. Motor-family subcodes and a persistent LC condition require model-specific professional diagnosis.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, keep the washer level and install the drain hose according to the exact installation manual.</p><p>Internal motor, sensor, communication and electronics faults cannot be safely prevented or diagnosed through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 3E3?",
+            "answer": "Switch off at the mains, wait one minute and start one new programme; arrange Samsung service if the code returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 3E3 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 3E3 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 3E3: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 3E3? Läs verifierad, modellspecifik betydelse, säkra kontroller och när service krävs.",
+        "h1": "Vad betyder 3E3 på en Samsung-tvättmaskin?",
+        "description": "Samsung grupperar 3e3 med fel i motordriften; exakt modellmanual definierar underkoden.",
+        "quick_fix": "Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer (cirka 5–15 minuter).",
+        "intro_html": "<p>Samsung grupperar 3e3 med fel i motordriften; exakt modellmanual definierar underkoden.</p><p>Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer. Koden bekräftar inte en viss reservdel; öppna inga paneler och mät inte motor, givare, kablage eller styrkort.</p>",
+        "causes_json": [
+          {
+            "cause": "Motoroperation avbruten",
+            "detail": "Samsung listar 3E3 i motorfamiljen."
+          },
+          {
+            "cause": "Överlast eller blockerad trumrörelse",
+            "detail": "För stor last kan hindra normal motoroperation."
+          },
+          {
+            "cause": "Modellspecifik motor- eller givarsignal",
+            "detail": "Underkoden ska inte översättas till en viss del utan rätt manual."
+          },
+          {
+            "cause": "Internt motor-, kablage- eller styrfel",
+            "detail": "Detta kräver utbildad tekniker."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela 3E3-visningen och notera modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast yttre kontroll",
+            "detail": "Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta bara om en gång och endast utan läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 3E3 återkommer efter en avstängning. Motorfamiljens underkoder och bestående LC-tillstånd kräver modellspecifik professionell diagnos.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, håll maskinen i nivå och montera avloppsslangen enligt exakt installationsmanual.</p><p>Interna motor-, givar-, kommunikations- och elektronikfel kan inte förebyggas eller diagnostiseras säkert genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 3E3?",
+            "answer": "Stäng av vid nätet, vänta en minut och starta ett nytt program en gång; boka Samsung-service om koden återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 3E3 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 3E3 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

@@ -1,0 +1,884 @@
+{
+  "batch": "014-electrolux-e59-e68",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    267,
+    268,
+    269,
+    270,
+    271
+  ],
+  "sources": [
+    "https://support.electrolux.co.uk/support-articles/article/washer-dryer-displays-error-message-e50-e59-c9-or-f9",
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-displays-error-message-e60",
+    "https://tds.electrolux.com/others/599/724/080EN.PDF",
+    "https://tds.electrolux.com/others/599/705/670EN.PDF"
+  ],
+  "translations": {
+    "267": {
+      "code": "E59",
+      "preserve": {
+        "en_slug": "error-code-e59",
+        "sv_slug": "felkod-e59"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E59: Stop and Service",
+        "meta_description": "Electrolux washer showing E59? Check the verified meaning, how to make it safe and why authorised service is required.",
+        "h1": "What Does E59 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux documentation identifies E59 as no motor-tachometer signal for three seconds, with possible motor-inverter wiring, inverter-board or motor causes.",
+        "quick_fix": "Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux documentation identifies E59 as no motor-tachometer signal for three seconds, with possible motor-inverter wiring, inverter-board or motor causes.</p><p>Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service. Do not restart to test a motor, heating, overheating or earth-leakage fault.</p>",
+        "causes_json": [
+          {
+            "cause": "Missing speed signal",
+            "detail": "Electrolux states that the control system receives no expected feedback from the motor."
+          },
+          {
+            "cause": "Motor-to-inverter wiring",
+            "detail": "Internal connections require safe inspection by a trained technician."
+          },
+          {
+            "cause": "Inverter board",
+            "detail": "Power electronics may need model-specific diagnosis for the correct PNC."
+          },
+          {
+            "cause": "Motor",
+            "detail": "The code alone does not confirm which component needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or try to continue the programme."
+          },
+          {
+            "step": 2,
+            "action": "Switch off and disconnect safely",
+            "detail": "Unplug with dry hands if the area is dry. If moisture is near electricity, isolate power safely elsewhere."
+          },
+          {
+            "step": 3,
+            "action": "Turn off the water tap",
+            "detail": "Leave the washer without water and power until professionally inspected."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E59 display and note the PNC/product number and programme stage."
+          },
+          {
+            "step": 5,
+            "action": "Do not restart",
+            "detail": "A reset does not confirm that the motor, heating or insulation fault is safe."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Provide the PNC and full code. Do not remove panels or test the motor, inverter, heater, sensor or earth circuit."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E59 requires authorised Electrolux service. E62 and E68 are particularly safety-critical because they concern overheating and electrical leakage to earth.</p><p>Isolate power safely for a burning smell, smoke, abnormal heat, leakage near electricity or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and programme instructions for the exact PNC and stop when a motor or heating code appears.</p><p>Internal motor, heating and insulation faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E59?",
+            "answer": "Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E59 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E59 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E59: stoppa och boka service",
+        "meta_description": "Visar Electrolux-tvättmaskinen E59? Läs verifierad betydelse, hur maskinen säkras och varför auktoriserad service krävs.",
+        "h1": "Vad betyder E59 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-dokumentation anger att e59 betyder att signal saknas från motorns varvtalsgivare i tre sekunder, med möjliga orsaker i motor–inverter-kablage, inverterkort eller motor.",
+        "quick_fix": "Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-dokumentation anger att e59 betyder att signal saknas från motorns varvtalsgivare i tre sekunder, med möjliga orsaker i motor–inverter-kablage, inverterkort eller motor.</p><p>Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service. Starta inte om för att testa ett motor-, värme-, överhettnings- eller jordfel.</p>",
+        "causes_json": [
+          {
+            "cause": "Utebliven varvtalssignal",
+            "detail": "Electrolux anger att styrsystemet inte får förväntad återkoppling från motorn."
+          },
+          {
+            "cause": "Motor–inverter-kablage",
+            "detail": "Interna anslutningar kräver säker kontroll av utbildad tekniker."
+          },
+          {
+            "cause": "Inverterkort",
+            "detail": "Effektelektroniken kan behöva modellspecifik diagnos för rätt PNC."
+          },
+          {
+            "cause": "Motor",
+            "detail": "Koden ensam bekräftar inte vilken komponent som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte luckan och försök inte fortsätta programmet."
+          },
+          {
+            "step": 2,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Dra ur kontakten med torra händer om området är torrt. Finns fukt nära el bryter du strömmen säkert på annan plats."
+          },
+          {
+            "step": 3,
+            "action": "Stäng vattenkranen",
+            "detail": "Lämna maskinen utan vatten och ström tills professionell kontroll är utförd."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E59-visningen och notera PNC-/produktnummer och programfas."
+          },
+          {
+            "step": 5,
+            "action": "Starta inte om",
+            "detail": "En återställning bekräftar inte att motor-, värme- eller isolationsfelet är säkert."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Uppge PNC och full kod. Ta inte bort paneler och testa inte motor, inverter, värmare, givare eller jordkrets."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E59 kräver auktoriserad Electrolux-service. E62 och E68 är särskilt säkerhetskritiska på grund av överhettning respektive elektriskt läckage mot jord.</p><p>Isolera strömmen säkert vid bränd lukt, rök, onormal värme, läckage nära el eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och programanvisningarna för exakt PNC och avbryt när en motor- eller värmekod visas.</p><p>Interna motor-, värme- och isolationsfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E59?",
+            "answer": "Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E59 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E59 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "268": {
+      "code": "E60",
+      "preserve": {
+        "en_slug": "error-code-e60",
+        "sv_slug": "felkod-e60"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E60: Stop and Service",
+        "meta_description": "Electrolux washer showing E60? Check the verified meaning, how to make it safe and why authorised service is required.",
+        "h1": "What Does E60 Mean on an Electrolux Washing Machine?",
+        "description": "Electrolux identifies E60 and other E6-family washing-machine codes as heating problems requiring authorised service.",
+        "quick_fix": "Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service (about 5 minutes).",
+        "intro_html": "<p>Electrolux identifies E60 and other E6-family washing-machine codes as heating problems requiring authorised service.</p><p>Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service. Do not restart to test a motor, heating, overheating or earth-leakage fault.</p>",
+        "causes_json": [
+          {
+            "cause": "Documented heating condition",
+            "detail": "Electrolux identifies E60 and other E6-family washing-machine codes as heating problems requiring authorised service."
+          },
+          {
+            "cause": "Temperature sensor",
+            "detail": "The NTC sensor or its position can affect temperature sensing and needs internal diagnosis."
+          },
+          {
+            "cause": "Heater or internal wiring",
+            "detail": "The heating circuit uses mains voltage and is not a user measurement."
+          },
+          {
+            "cause": "Control board or relay",
+            "detail": "Heating control and earth-leakage monitoring require the correct service data and equipment."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or try to continue the programme."
+          },
+          {
+            "step": 2,
+            "action": "Switch off and disconnect safely",
+            "detail": "Unplug with dry hands if the area is dry. If moisture is near electricity, isolate power safely elsewhere."
+          },
+          {
+            "step": 3,
+            "action": "Turn off the water tap",
+            "detail": "Leave the washer without water and power until professionally inspected."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E60 display and note the PNC/product number and programme stage."
+          },
+          {
+            "step": 5,
+            "action": "Do not restart",
+            "detail": "A reset does not confirm that the motor, heating or insulation fault is safe."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Provide the PNC and full code. Do not remove panels or test the motor, inverter, heater, sensor or earth circuit."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E60 requires authorised Electrolux service. E62 and E68 are particularly safety-critical because they concern overheating and electrical leakage to earth.</p><p>Isolate power safely for a burning smell, smoke, abnormal heat, leakage near electricity or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and programme instructions for the exact PNC and stop when a motor or heating code appears.</p><p>Internal motor, heating and insulation faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E60?",
+            "answer": "Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E60 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E60 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E60: stoppa och boka service",
+        "meta_description": "Visar Electrolux-tvättmaskinen E60? Läs verifierad betydelse, hur maskinen säkras och varför auktoriserad service krävs.",
+        "h1": "Vad betyder E60 på en Electrolux-tvättmaskin?",
+        "description": "Electrolux anger att e60 och andra e6-koder på tvättmaskiner gäller värmeproblem som kräver auktoriserad service.",
+        "quick_fix": "Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service (cirka 5 minuter).",
+        "intro_html": "<p>Electrolux anger att e60 och andra e6-koder på tvättmaskiner gäller värmeproblem som kräver auktoriserad service.</p><p>Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service. Starta inte om för att testa ett motor-, värme-, överhettnings- eller jordfel.</p>",
+        "causes_json": [
+          {
+            "cause": "Dokumenterat värmetillstånd",
+            "detail": "Electrolux anger att e60 och andra e6-koder på tvättmaskiner gäller värmeproblem som kräver auktoriserad service."
+          },
+          {
+            "cause": "Temperaturgivare",
+            "detail": "NTC-sensor eller placering kan påverka temperaturmätningen och kräver intern diagnos."
+          },
+          {
+            "cause": "Värmare eller internt kablage",
+            "detail": "Värmekretsen arbetar med nätspänning och ska inte mätas av användaren."
+          },
+          {
+            "cause": "Styrkort eller relä",
+            "detail": "Styrning av värmen och jordfelsövervakning kräver rätt servicedata och mätutrustning."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte luckan och försök inte fortsätta programmet."
+          },
+          {
+            "step": 2,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Dra ur kontakten med torra händer om området är torrt. Finns fukt nära el bryter du strömmen säkert på annan plats."
+          },
+          {
+            "step": 3,
+            "action": "Stäng vattenkranen",
+            "detail": "Lämna maskinen utan vatten och ström tills professionell kontroll är utförd."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E60-visningen och notera PNC-/produktnummer och programfas."
+          },
+          {
+            "step": 5,
+            "action": "Starta inte om",
+            "detail": "En återställning bekräftar inte att motor-, värme- eller isolationsfelet är säkert."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Uppge PNC och full kod. Ta inte bort paneler och testa inte motor, inverter, värmare, givare eller jordkrets."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E60 kräver auktoriserad Electrolux-service. E62 och E68 är särskilt säkerhetskritiska på grund av överhettning respektive elektriskt läckage mot jord.</p><p>Isolera strömmen säkert vid bränd lukt, rök, onormal värme, läckage nära el eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och programanvisningarna för exakt PNC och avbryt när en motor- eller värmekod visas.</p><p>Interna motor-, värme- och isolationsfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E60?",
+            "answer": "Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E60 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E60 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "269": {
+      "code": "E61",
+      "preserve": {
+        "en_slug": "error-code-e61",
+        "sv_slug": "felkod-e61"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E61: Stop and Service",
+        "meta_description": "Electrolux washer showing E61? Check the verified meaning, how to make it safe and why authorised service is required.",
+        "h1": "What Does E61 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E61 as insufficient heating during washing.",
+        "quick_fix": "Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E61 as insufficient heating during washing.</p><p>Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service. Do not restart to test a motor, heating, overheating or earth-leakage fault.</p>",
+        "causes_json": [
+          {
+            "cause": "Documented heating condition",
+            "detail": "Official Electrolux service documentation identifies E61 as insufficient heating during washing."
+          },
+          {
+            "cause": "Temperature sensor",
+            "detail": "The NTC sensor or its position can affect temperature sensing and needs internal diagnosis."
+          },
+          {
+            "cause": "Heater or internal wiring",
+            "detail": "The heating circuit uses mains voltage and is not a user measurement."
+          },
+          {
+            "cause": "Control board or relay",
+            "detail": "Heating control and earth-leakage monitoring require the correct service data and equipment."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or try to continue the programme."
+          },
+          {
+            "step": 2,
+            "action": "Switch off and disconnect safely",
+            "detail": "Unplug with dry hands if the area is dry. If moisture is near electricity, isolate power safely elsewhere."
+          },
+          {
+            "step": 3,
+            "action": "Turn off the water tap",
+            "detail": "Leave the washer without water and power until professionally inspected."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E61 display and note the PNC/product number and programme stage."
+          },
+          {
+            "step": 5,
+            "action": "Do not restart",
+            "detail": "A reset does not confirm that the motor, heating or insulation fault is safe."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Provide the PNC and full code. Do not remove panels or test the motor, inverter, heater, sensor or earth circuit."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E61 requires authorised Electrolux service. E62 and E68 are particularly safety-critical because they concern overheating and electrical leakage to earth.</p><p>Isolate power safely for a burning smell, smoke, abnormal heat, leakage near electricity or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and programme instructions for the exact PNC and stop when a motor or heating code appears.</p><p>Internal motor, heating and insulation faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E61?",
+            "answer": "Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E61 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E61 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E61: stoppa och boka service",
+        "meta_description": "Visar Electrolux-tvättmaskinen E61? Läs verifierad betydelse, hur maskinen säkras och varför auktoriserad service krävs.",
+        "h1": "Vad betyder E61 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e61 betyder otillräcklig uppvärmning under tvätt.",
+        "quick_fix": "Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e61 betyder otillräcklig uppvärmning under tvätt.</p><p>Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service. Starta inte om för att testa ett motor-, värme-, överhettnings- eller jordfel.</p>",
+        "causes_json": [
+          {
+            "cause": "Dokumenterat värmetillstånd",
+            "detail": "Officiell electrolux-servicedokumentation anger att e61 betyder otillräcklig uppvärmning under tvätt."
+          },
+          {
+            "cause": "Temperaturgivare",
+            "detail": "NTC-sensor eller placering kan påverka temperaturmätningen och kräver intern diagnos."
+          },
+          {
+            "cause": "Värmare eller internt kablage",
+            "detail": "Värmekretsen arbetar med nätspänning och ska inte mätas av användaren."
+          },
+          {
+            "cause": "Styrkort eller relä",
+            "detail": "Styrning av värmen och jordfelsövervakning kräver rätt servicedata och mätutrustning."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte luckan och försök inte fortsätta programmet."
+          },
+          {
+            "step": 2,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Dra ur kontakten med torra händer om området är torrt. Finns fukt nära el bryter du strömmen säkert på annan plats."
+          },
+          {
+            "step": 3,
+            "action": "Stäng vattenkranen",
+            "detail": "Lämna maskinen utan vatten och ström tills professionell kontroll är utförd."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E61-visningen och notera PNC-/produktnummer och programfas."
+          },
+          {
+            "step": 5,
+            "action": "Starta inte om",
+            "detail": "En återställning bekräftar inte att motor-, värme- eller isolationsfelet är säkert."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Uppge PNC och full kod. Ta inte bort paneler och testa inte motor, inverter, värmare, givare eller jordkrets."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E61 kräver auktoriserad Electrolux-service. E62 och E68 är särskilt säkerhetskritiska på grund av överhettning respektive elektriskt läckage mot jord.</p><p>Isolera strömmen säkert vid bränd lukt, rök, onormal värme, läckage nära el eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och programanvisningarna för exakt PNC och avbryt när en motor- eller värmekod visas.</p><p>Interna motor-, värme- och isolationsfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E61?",
+            "answer": "Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E61 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E61 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "270": {
+      "code": "E62",
+      "preserve": {
+        "en_slug": "error-code-e62",
+        "sv_slug": "felkod-e62"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E62: Stop and Service",
+        "meta_description": "Electrolux washer showing E62? Check the verified meaning, how to make it safe and why authorised service is required.",
+        "h1": "What Does E62 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E62 as overheating during washing, documented as temperature above 88°C for more than five minutes.",
+        "quick_fix": "Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E62 as overheating during washing, documented as temperature above 88°C for more than five minutes.</p><p>Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service. Do not restart to test a motor, heating, overheating or earth-leakage fault.</p>",
+        "causes_json": [
+          {
+            "cause": "Documented heating condition",
+            "detail": "Official Electrolux service documentation identifies E62 as overheating during washing, documented as temperature above 88°C for more than five minutes."
+          },
+          {
+            "cause": "Temperature sensor",
+            "detail": "The NTC sensor or its position can affect temperature sensing and needs internal diagnosis."
+          },
+          {
+            "cause": "Heater or internal wiring",
+            "detail": "The heating circuit uses mains voltage and is not a user measurement."
+          },
+          {
+            "cause": "Control board or relay",
+            "detail": "Heating control and earth-leakage monitoring require the correct service data and equipment."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop immediately",
+            "detail": "Wait for the drum to stop. Do not force the door or try to continue the programme."
+          },
+          {
+            "step": 2,
+            "action": "Switch off and disconnect safely",
+            "detail": "Unplug with dry hands if the area is dry. If moisture is near electricity, isolate power safely elsewhere."
+          },
+          {
+            "step": 3,
+            "action": "Turn off the water tap",
+            "detail": "Leave the washer without water and power until professionally inspected."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E62 display and note the PNC/product number and programme stage."
+          },
+          {
+            "step": 5,
+            "action": "Do not restart",
+            "detail": "A reset does not confirm that the motor, heating or insulation fault is safe."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Provide the PNC and full code. Do not remove panels or test the motor, inverter, heater, sensor or earth circuit."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E62 requires authorised Electrolux service. E62 and E68 are particularly safety-critical because they concern overheating and electrical leakage to earth.</p><p>Isolate power safely for a burning smell, smoke, abnormal heat, leakage near electricity or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and programme instructions for the exact PNC and stop when a motor or heating code appears.</p><p>Internal motor, heating and insulation faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E62?",
+            "answer": "Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E62 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E62 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E62: stoppa och boka service",
+        "meta_description": "Visar Electrolux-tvättmaskinen E62? Läs verifierad betydelse, hur maskinen säkras och varför auktoriserad service krävs.",
+        "h1": "Vad betyder E62 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e62 betyder överhettning under tvätt, dokumenterat som temperatur över 88 °c i mer än fem minuter.",
+        "quick_fix": "Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e62 betyder överhettning under tvätt, dokumenterat som temperatur över 88 °c i mer än fem minuter.</p><p>Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service. Starta inte om för att testa ett motor-, värme-, överhettnings- eller jordfel.</p>",
+        "causes_json": [
+          {
+            "cause": "Dokumenterat värmetillstånd",
+            "detail": "Officiell electrolux-servicedokumentation anger att e62 betyder överhettning under tvätt, dokumenterat som temperatur över 88 °c i mer än fem minuter."
+          },
+          {
+            "cause": "Temperaturgivare",
+            "detail": "NTC-sensor eller placering kan påverka temperaturmätningen och kräver intern diagnos."
+          },
+          {
+            "cause": "Värmare eller internt kablage",
+            "detail": "Värmekretsen arbetar med nätspänning och ska inte mätas av användaren."
+          },
+          {
+            "cause": "Styrkort eller relä",
+            "detail": "Styrning av värmen och jordfelsövervakning kräver rätt servicedata och mätutrustning."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa omedelbart",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte luckan och försök inte fortsätta programmet."
+          },
+          {
+            "step": 2,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Dra ur kontakten med torra händer om området är torrt. Finns fukt nära el bryter du strömmen säkert på annan plats."
+          },
+          {
+            "step": 3,
+            "action": "Stäng vattenkranen",
+            "detail": "Lämna maskinen utan vatten och ström tills professionell kontroll är utförd."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E62-visningen och notera PNC-/produktnummer och programfas."
+          },
+          {
+            "step": 5,
+            "action": "Starta inte om",
+            "detail": "En återställning bekräftar inte att motor-, värme- eller isolationsfelet är säkert."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Uppge PNC och full kod. Ta inte bort paneler och testa inte motor, inverter, värmare, givare eller jordkrets."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E62 kräver auktoriserad Electrolux-service. E62 och E68 är särskilt säkerhetskritiska på grund av överhettning respektive elektriskt läckage mot jord.</p><p>Isolera strömmen säkert vid bränd lukt, rök, onormal värme, läckage nära el eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och programanvisningarna för exakt PNC och avbryt när en motor- eller värmekod visas.</p><p>Interna motor-, värme- och isolationsfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E62?",
+            "answer": "Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E62 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E62 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "271": {
+      "code": "E68",
+      "preserve": {
+        "en_slug": "error-code-e68",
+        "sv_slug": "felkod-e68"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E68: Stop and Service",
+        "meta_description": "Electrolux washer showing E68? Check the verified meaning, how to make it safe and why authorised service is required.",
+        "h1": "What Does E68 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E68 as electrical current leakage between the washing heater and earth.",
+        "quick_fix": "Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E68 as electrical current leakage between the washing heater and earth.</p><p>Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service. Do not restart to test a motor, heating, overheating or earth-leakage fault.</p>",
+        "causes_json": [
+          {
+            "cause": "Documented heating condition",
+            "detail": "Official Electrolux service documentation identifies E68 as electrical current leakage between the washing heater and earth."
+          },
+          {
+            "cause": "Temperature sensor",
+            "detail": "The NTC sensor or its position can affect temperature sensing and needs internal diagnosis."
+          },
+          {
+            "cause": "Heater or internal wiring",
+            "detail": "The heating circuit uses mains voltage and is not a user measurement."
+          },
+          {
+            "cause": "Control board or relay",
+            "detail": "Heating control and earth-leakage monitoring require the correct service data and equipment."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop immediately",
+            "detail": "Wait for the drum to stop. Do not force the door or try to continue the programme."
+          },
+          {
+            "step": 2,
+            "action": "Switch off and disconnect safely",
+            "detail": "Unplug with dry hands if the area is dry. If moisture is near electricity, isolate power safely elsewhere."
+          },
+          {
+            "step": 3,
+            "action": "Turn off the water tap",
+            "detail": "Leave the washer without water and power until professionally inspected."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E68 display and note the PNC/product number and programme stage."
+          },
+          {
+            "step": 5,
+            "action": "Do not restart",
+            "detail": "A reset does not confirm that the motor, heating or insulation fault is safe."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Provide the PNC and full code. Do not remove panels or test the motor, inverter, heater, sensor or earth circuit."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E68 requires authorised Electrolux service. E62 and E68 are particularly safety-critical because they concern overheating and electrical leakage to earth.</p><p>Isolate power safely for a burning smell, smoke, abnormal heat, leakage near electricity or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and programme instructions for the exact PNC and stop when a motor or heating code appears.</p><p>Internal motor, heating and insulation faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E68?",
+            "answer": "Switch off immediately, unplug if the area is dry and safe, turn off the water tap and arrange authorised Electrolux service. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E68 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E68 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E68: stoppa och boka service",
+        "meta_description": "Visar Electrolux-tvättmaskinen E68? Läs verifierad betydelse, hur maskinen säkras och varför auktoriserad service krävs.",
+        "h1": "Vad betyder E68 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e68 betyder elektriskt läckage mellan tvättvärmaren och jord.",
+        "quick_fix": "Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e68 betyder elektriskt läckage mellan tvättvärmaren och jord.</p><p>Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service. Starta inte om för att testa ett motor-, värme-, överhettnings- eller jordfel.</p>",
+        "causes_json": [
+          {
+            "cause": "Dokumenterat värmetillstånd",
+            "detail": "Officiell electrolux-servicedokumentation anger att e68 betyder elektriskt läckage mellan tvättvärmaren och jord."
+          },
+          {
+            "cause": "Temperaturgivare",
+            "detail": "NTC-sensor eller placering kan påverka temperaturmätningen och kräver intern diagnos."
+          },
+          {
+            "cause": "Värmare eller internt kablage",
+            "detail": "Värmekretsen arbetar med nätspänning och ska inte mätas av användaren."
+          },
+          {
+            "cause": "Styrkort eller relä",
+            "detail": "Styrning av värmen och jordfelsövervakning kräver rätt servicedata och mätutrustning."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa omedelbart",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte luckan och försök inte fortsätta programmet."
+          },
+          {
+            "step": 2,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Dra ur kontakten med torra händer om området är torrt. Finns fukt nära el bryter du strömmen säkert på annan plats."
+          },
+          {
+            "step": 3,
+            "action": "Stäng vattenkranen",
+            "detail": "Lämna maskinen utan vatten och ström tills professionell kontroll är utförd."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E68-visningen och notera PNC-/produktnummer och programfas."
+          },
+          {
+            "step": 5,
+            "action": "Starta inte om",
+            "detail": "En återställning bekräftar inte att motor-, värme- eller isolationsfelet är säkert."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Uppge PNC och full kod. Ta inte bort paneler och testa inte motor, inverter, värmare, givare eller jordkrets."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E68 kräver auktoriserad Electrolux-service. E62 och E68 är särskilt säkerhetskritiska på grund av överhettning respektive elektriskt läckage mot jord.</p><p>Isolera strömmen säkert vid bränd lukt, rök, onormal värme, läckage nära el eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och programanvisningarna för exakt PNC och avbryt när en motor- eller värmekod visas.</p><p>Interna motor-, värme- och isolationsfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E68?",
+            "answer": "Stäng av omedelbart, dra ur kontakten om området är torrt och säkert, stäng vattenkranen och boka auktoriserad Electrolux-service. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E68 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E68 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

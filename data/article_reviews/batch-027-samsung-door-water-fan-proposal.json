@@ -1,0 +1,834 @@
+{
+  "batch": "027-samsung-door-water-fan",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    42,
+    43,
+    45,
+    46,
+    47
+  ],
+  "sources": [
+    "https://www.samsung.com/in/support/home-appliances/how-to-fix-de-dc-error-in-samsung-washing-machine/",
+    "https://www.samsung.com/uk/support/home-appliances/what-do-the-codes-on-my-washing-machine-mean/",
+    "https://www.samsung.com/sg/support/home-appliances/what-is-error-code-e1-means-in-samsung-washing-machine/",
+    "https://www.samsung.com/pt/support/home-appliances/o-que-significam-os-codigos-de-erro-na-maquina-de-lavar-roupa/"
+  ],
+  "translations": {
+    "42": {
+      "code": "dE",
+      "preserve": {
+        "en_slug": "samsung-error-code-de",
+        "sv_slug": "samsung-felkod-de"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error dE: Safe Steps",
+        "meta_description": "Samsung washer showing dE? Read the verified meaning, safe external checks and when authorised service is required.",
+        "h1": "What Does dE Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies dE as a door issue.",
+        "quick_fix": "Unplug the washer, remove trapped laundry and close the door firmly without forcing it (about 5–15 minutes).",
+        "intro_html": "<p>Samsung identifies dE as a door issue.</p><p>Unplug the washer, remove trapped laundry and close the door firmly without forcing it. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Door not fully closed",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Laundry trapped at the door",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Load preventing closure",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Door-lock or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete dE display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the safe external check",
+            "detail": "Unplug the washer, remove trapped laundry and close the door firmly without forcing it. Do not touch an internal switch, lock, fan, valve, wiring or electronics."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Restart only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code remains or returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if dE remains or returns after safe external checks. Door locks, switches, fans, valves, wiring and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits and installation instructions, keep the door seal and external controls clean and dry, and inspect visible hoses as the manual specifies.</p><p>Record the complete code and model number. Internal lock, fan, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing dE?",
+            "answer": "Unplug the washer, remove trapped laundry and close the door firmly without forcing it. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset dE by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does dE identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod dE: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen dE? Läs verifierad betydelse, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder dE på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att dE är ett luckproblem.",
+        "quick_fix": "Dra ur kontakten, ta bort tvätt som har fastnat och stäng luckan ordentligt utan att tvinga den (cirka 5–15 minuter).",
+        "intro_html": "<p>Samsung anger att dE är ett luckproblem.</p><p>Dra ur kontakten, ta bort tvätt som har fastnat och stäng luckan ordentligt utan att tvinga den. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Luckan är inte helt stängd",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Tvätt har fastnat vid luckan",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Lasten hindrar stängning",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i lucklås eller styrning",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman stannat och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela dE-visningen och anteckna modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast säker yttre kontroll",
+            "detail": "Dra ur kontakten, ta bort tvätt som har fastnat och stäng luckan ordentligt utan att tvinga den. Rör inte intern brytare, lås, fläkt, ventil, kablage eller elektronik."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Starta endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden kvarstår eller återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om dE kvarstår eller återkommer efter säkra yttre kontroller. Lucklås, brytare, fläktar, ventiler, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser och installationsanvisningar, håll lucktätning och yttre reglage rena och torra och kontrollera synliga slangar enligt manualen.</p><p>Notera hela koden och modellnumret. Interna lås-, fläkt-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med dE?",
+            "answer": "Dra ur kontakten, ta bort tvätt som har fastnat och stäng luckan ordentligt utan att tvinga den. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa dE genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar dE vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "43": {
+      "code": "dE2",
+      "preserve": {
+        "en_slug": "samsung-error-code-de2",
+        "sv_slug": "samsung-felkod-de2"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error dE2: Safe Steps",
+        "meta_description": "Samsung washer showing dE2? Read the verified meaning, safe external checks and when authorised service is required.",
+        "h1": "What Does dE2 Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies dE2 as an on/off switch error.",
+        "quick_fix": "Disconnect the washer from the mains for five minutes once and arrange Samsung service if dE2 returns (about 5–15 minutes).",
+        "intro_html": "<p>Samsung identifies dE2 as an on/off switch error.</p><p>Disconnect the washer from the mains for five minutes once and arrange Samsung service if dE2 returns. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Temporary control condition",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "On/off control remains actuated",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "External control damage",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal switch or electronics fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete dE2 display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the safe external check",
+            "detail": "Disconnect the washer from the mains for five minutes once and arrange Samsung service if dE2 returns. Do not touch an internal switch, lock, fan, valve, wiring or electronics."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Restart only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code remains or returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if dE2 remains or returns after safe external checks. Door locks, switches, fans, valves, wiring and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits and installation instructions, keep the door seal and external controls clean and dry, and inspect visible hoses as the manual specifies.</p><p>Record the complete code and model number. Internal lock, fan, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing dE2?",
+            "answer": "Disconnect the washer from the mains for five minutes once and arrange Samsung service if dE2 returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset dE2 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does dE2 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod dE2: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen dE2? Läs verifierad betydelse, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder dE2 på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att dE2 är ett fel i strömbrytaren.",
+        "quick_fix": "Koppla bort tvättmaskinen från elnätet i fem minuter en gång och boka Samsung-service om dE2 återkommer (cirka 5–15 minuter).",
+        "intro_html": "<p>Samsung anger att dE2 är ett fel i strömbrytaren.</p><p>Koppla bort tvättmaskinen från elnätet i fem minuter en gång och boka Samsung-service om dE2 återkommer. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Tillfälligt styrtillstånd",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "På/av-reglaget förblir aktiverat",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Yttre skada på reglaget",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt brytar- eller elektronikfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman stannat och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela dE2-visningen och anteckna modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast säker yttre kontroll",
+            "detail": "Koppla bort tvättmaskinen från elnätet i fem minuter en gång och boka Samsung-service om dE2 återkommer. Rör inte intern brytare, lås, fläkt, ventil, kablage eller elektronik."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Starta endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden kvarstår eller återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om dE2 kvarstår eller återkommer efter säkra yttre kontroller. Lucklås, brytare, fläktar, ventiler, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser och installationsanvisningar, håll lucktätning och yttre reglage rena och torra och kontrollera synliga slangar enligt manualen.</p><p>Notera hela koden och modellnumret. Interna lås-, fläkt-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med dE2?",
+            "answer": "Koppla bort tvättmaskinen från elnätet i fem minuter en gång och boka Samsung-service om dE2 återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa dE2 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar dE2 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "45": {
+      "code": "E",
+      "preserve": {
+        "en_slug": "samsung-error-code-e",
+        "sv_slug": "samsung-felkod-e"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error E: Safe Steps",
+        "meta_description": "Samsung washer showing E? Read the verified meaning, safe external checks and when authorised service is required.",
+        "h1": "What Does E Mean on a Samsung Washing Machine?",
+        "description": "A lone E is not defined in Samsung's generic public washer code table; its meaning depends on the exact model and complete display.",
+        "quick_fix": "Photograph the complete display and contact Samsung with the exact model number before assigning a meaning (about 5–15 minutes).",
+        "intro_html": "<p>A lone E is not defined in Samsung's generic public washer code table; its meaning depends on the exact model and complete display.</p><p>Photograph the complete display and contact Samsung with the exact model number before assigning a meaning. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete or misread display",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific information code",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "A neighbouring character is not visible",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal condition requiring Samsung diagnosis",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete E display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the safe external check",
+            "detail": "Photograph the complete display and contact Samsung with the exact model number before assigning a meaning. Do not touch an internal switch, lock, fan, valve, wiring or electronics."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Restart only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code remains or returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if E remains or returns after safe external checks. Door locks, switches, fans, valves, wiring and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits and installation instructions, keep the door seal and external controls clean and dry, and inspect visible hoses as the manual specifies.</p><p>Record the complete code and model number. Internal lock, fan, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E?",
+            "answer": "Photograph the complete display and contact Samsung with the exact model number before assigning a meaning. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod E: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen E? Läs verifierad betydelse, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder E på en Samsung-tvättmaskin?",
+        "description": "En ensam E-kod definieras inte i Samsungs generella offentliga kodtabell för tvättmaskiner; betydelsen beror på exakt modell och hela displayen.",
+        "quick_fix": "Fotografera hela displayen och kontakta Samsung med exakt modellnummer innan koden ges en betydelse (cirka 5–15 minuter).",
+        "intro_html": "<p>En ensam E-kod definieras inte i Samsungs generella offentliga kodtabell för tvättmaskiner; betydelsen beror på exakt modell och hela displayen.</p><p>Fotografera hela displayen och kontakta Samsung med exakt modellnummer innan koden ges en betydelse. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig eller feltolkad display",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik informationskod",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Ett intilliggande tecken syns inte",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt tillstånd som kräver Samsung-diagnos",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman stannat och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela E-visningen och anteckna modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast säker yttre kontroll",
+            "detail": "Fotografera hela displayen och kontakta Samsung med exakt modellnummer innan koden ges en betydelse. Rör inte intern brytare, lås, fläkt, ventil, kablage eller elektronik."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Starta endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden kvarstår eller återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om E kvarstår eller återkommer efter säkra yttre kontroller. Lucklås, brytare, fläktar, ventiler, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser och installationsanvisningar, håll lucktätning och yttre reglage rena och torra och kontrollera synliga slangar enligt manualen.</p><p>Notera hela koden och modellnumret. Interna lås-, fläkt-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E?",
+            "answer": "Fotografera hela displayen och kontakta Samsung med exakt modellnummer innan koden ges en betydelse. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "46": {
+      "code": "E1",
+      "preserve": {
+        "en_slug": "samsung-error-code-e1",
+        "sv_slug": "samsung-felkod-e1"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error E1: Safe Steps",
+        "meta_description": "Samsung washer showing E1? Read the verified meaning, safe external checks and when authorised service is required.",
+        "h1": "What Does E1 Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies E1 as a water-supply issue on applicable washer models.",
+        "quick_fix": "Open the tap fully, verify household flow and straighten the external inlet hose; clean the mesh filter only as the exact manual specifies (about 5–15 minutes).",
+        "intro_html": "<p>Samsung identifies E1 as a water-supply issue on applicable washer models.</p><p>Open the tap fully, verify household flow and straighten the external inlet hose; clean the mesh filter only as the exact manual specifies. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Closed tap or water outage",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Low water flow or pressure",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Kinked inlet hose",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Blocked mesh filter or internal inlet fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete E1 display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the safe external check",
+            "detail": "Open the tap fully, verify household flow and straighten the external inlet hose; clean the mesh filter only as the exact manual specifies. Do not touch an internal switch, lock, fan, valve, wiring or electronics."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Restart only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code remains or returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if E1 remains or returns after safe external checks. Door locks, switches, fans, valves, wiring and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits and installation instructions, keep the door seal and external controls clean and dry, and inspect visible hoses as the manual specifies.</p><p>Record the complete code and model number. Internal lock, fan, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E1?",
+            "answer": "Open the tap fully, verify household flow and straighten the external inlet hose; clean the mesh filter only as the exact manual specifies. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E1 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E1 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod E1: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen E1? Läs verifierad betydelse, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder E1 på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att E1 är ett fel i vattenförsörjningen på berörda tvättmaskinsmodeller.",
+        "quick_fix": "Öppna kranen helt, kontrollera vattenflödet och räta den yttre tilloppsslangen; rengör nätfiltret endast enligt exakt manual (cirka 5–15 minuter).",
+        "intro_html": "<p>Samsung anger att E1 är ett fel i vattenförsörjningen på berörda tvättmaskinsmodeller.</p><p>Öppna kranen helt, kontrollera vattenflödet och räta den yttre tilloppsslangen; rengör nätfiltret endast enligt exakt manual. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Stängd kran eller vattenavbrott",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Lågt vattenflöde eller tryck",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Vikt tilloppsslang",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Blockerat nätfilter eller internt inloppsfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman stannat och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela E1-visningen och anteckna modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast säker yttre kontroll",
+            "detail": "Öppna kranen helt, kontrollera vattenflödet och räta den yttre tilloppsslangen; rengör nätfiltret endast enligt exakt manual. Rör inte intern brytare, lås, fläkt, ventil, kablage eller elektronik."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Starta endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden kvarstår eller återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om E1 kvarstår eller återkommer efter säkra yttre kontroller. Lucklås, brytare, fläktar, ventiler, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser och installationsanvisningar, håll lucktätning och yttre reglage rena och torra och kontrollera synliga slangar enligt manualen.</p><p>Notera hela koden och modellnumret. Interna lås-, fläkt-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E1?",
+            "answer": "Öppna kranen helt, kontrollera vattenflödet och räta den yttre tilloppsslangen; rengör nätfiltret endast enligt exakt manual. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E1 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E1 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "47": {
+      "code": "FE",
+      "preserve": {
+        "en_slug": "samsung-error-code-fe",
+        "sv_slug": "samsung-felkod-fe"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error FE: Safe Steps",
+        "meta_description": "Samsung washer showing FE? Read the verified meaning, safe external checks and when authorised service is required.",
+        "h1": "What Does FE Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies FE as a fan issue on applicable washer-dryer models.",
+        "quick_fix": "Stop the appliance, switch it off and arrange Samsung service; do not open panels or reach the fan (about 5–15 minutes).",
+        "intro_html": "<p>Samsung identifies FE as a fan issue on applicable washer-dryer models.</p><p>Stop the appliance, switch it off and arrange Samsung service; do not open panels or reach the fan. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Fan operation interrupted",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Restricted model-specific airflow",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Fan signal or wiring fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal fan or control-electronics fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete FE display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the safe external check",
+            "detail": "Stop the appliance, switch it off and arrange Samsung service; do not open panels or reach the fan. Do not touch an internal switch, lock, fan, valve, wiring or electronics."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Restart only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code remains or returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if FE remains or returns after safe external checks. Door locks, switches, fans, valves, wiring and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits and installation instructions, keep the door seal and external controls clean and dry, and inspect visible hoses as the manual specifies.</p><p>Record the complete code and model number. Internal lock, fan, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing FE?",
+            "answer": "Stop the appliance, switch it off and arrange Samsung service; do not open panels or reach the fan. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset FE by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does FE identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod FE: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen FE? Läs verifierad betydelse, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder FE på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att FE är ett fläktfel på berörda kombinerade tvättmaskiner och torktumlare.",
+        "quick_fix": "Stoppa maskinen, stäng av den och boka Samsung-service; öppna inga paneler och försök inte nå fläkten (cirka 5–15 minuter).",
+        "intro_html": "<p>Samsung anger att FE är ett fläktfel på berörda kombinerade tvättmaskiner och torktumlare.</p><p>Stoppa maskinen, stäng av den och boka Samsung-service; öppna inga paneler och försök inte nå fläkten. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Fläktdriften har avbrutits",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Begränsat modellspecifikt luftflöde",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i fläktsignal eller kablage",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt fläkt- eller elektronikfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman stannat och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela FE-visningen och anteckna modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast säker yttre kontroll",
+            "detail": "Stoppa maskinen, stäng av den och boka Samsung-service; öppna inga paneler och försök inte nå fläkten. Rör inte intern brytare, lås, fläkt, ventil, kablage eller elektronik."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Starta endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden kvarstår eller återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om FE kvarstår eller återkommer efter säkra yttre kontroller. Lucklås, brytare, fläktar, ventiler, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser och installationsanvisningar, håll lucktätning och yttre reglage rena och torra och kontrollera synliga slangar enligt manualen.</p><p>Notera hela koden och modellnumret. Interna lås-, fläkt-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med FE?",
+            "answer": "Stoppa maskinen, stäng av den och boka Samsung-service; öppna inga paneler och försök inte nå fläkten. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa FE genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar FE vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

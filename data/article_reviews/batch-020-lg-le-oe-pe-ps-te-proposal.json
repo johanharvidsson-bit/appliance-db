@@ -1,0 +1,833 @@
+{
+  "batch": "020-lg-le-oe-pe-ps-te",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    96,
+    97,
+    98,
+    100,
+    102
+  ],
+  "sources": [
+    "https://www.lg.com/us/support/help-library/lg-frontload-washer-why-is-an-le-error-code-displayed-on-my-washing-machine--20152890351149",
+    "https://www.lg.com/us/support/help-library/oe-error-code-front-load-washer-CT10000010-1337714738535",
+    "https://www.lg.com/us/support/help-library/lg-front-load-washer-error-code-list-CT10000010-20155069413456"
+  ],
+  "translations": {
+    "96": {
+      "code": "LE",
+      "preserve": {
+        "en_slug": "lg-error-code-le",
+        "sv_slug": "lg-felkod-le"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error LE: Meaning and Safe Steps",
+        "meta_description": "LG washer showing LE? Read the verified meaning, safe manual-based checks and when authorised service is required.",
+        "h1": "What Does LE Mean on an LG Washing Machine?",
+        "description": "The tub failed to spin because the motor could not operate normally.",
+        "quick_fix": "Unplug for 5 minutes, reduce an overloaded wash and remove only clearly visible loose objects without reaching into mechanisms (about 5–30 minutes).",
+        "intro_html": "<p>The tub failed to spin because the motor could not operate normally.</p><p>Unplug for 5 minutes, reduce an overloaded wash and remove only clearly visible loose objects without reaching into mechanisms. Do not order a part from the code alone, dismantle the washer or measure internal components.</p>",
+        "causes_json": [
+          {
+            "cause": "Overloaded drum",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Visible foreign object",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Motor temporarily overloaded",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Internal motor, sensor or drive fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Unplug",
+            "detail": "Disconnect with dry hands. Do not handle filter water until it has cooled."
+          },
+          {
+            "step": 3,
+            "action": "Make the correct external check",
+            "detail": "Unplug for 5 minutes, reduce an overloaded wash and remove only clearly visible loose objects without reaching into mechanisms."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Make at most one restart after correcting an external cause and only without leakage, smell, heat, smoke or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Unplug and request authorised service if LE returns. Use an electrician if the outlet or fixed supply is suspect."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if LE remains or returns. PE, PS and tE concern systems users must not test; LE and OE require service when external checks do not resolve the fault.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, dose correctly, keep external hoses free of kinks and clean the user-accessible filter as the model manual specifies.</p><p>Connect the washer as installed without an unsuitable power strip; internal sensor, motor and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing LE?",
+            "answer": "Unplug for 5 minutes, reduce an overloaded wash and remove only clearly visible loose objects without reaching into mechanisms. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset LE by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does LE identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod LE: betydelse och säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen LE? Läs verifierad betydelse, säkra kontroller enligt manualen och när auktoriserad service krävs.",
+        "h1": "Vad betyder LE på en LG-tvättmaskin?",
+        "description": "Trumman kunde inte rotera eftersom motorn inte kunde arbeta normalt.",
+        "quick_fix": "Koppla ur i 5 minuter, minska en överlastad tvätt och ta endast bort tydligt synliga lösa föremål utan att nå in i mekanismer (cirka 5–30 minuter).",
+        "intro_html": "<p>Trumman kunde inte rotera eftersom motorn inte kunde arbeta normalt.</p><p>Koppla ur i 5 minuter, minska en överlastad tvätt och ta endast bort tydligt synliga lösa föremål utan att nå in i mekanismer. Beställ inte en reservdel från koden ensam och demontera eller mät inga interna komponenter.</p>",
+        "causes_json": [
+          {
+            "cause": "Överlastad trumma",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Synligt främmande föremål",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Tillfälligt överbelastad motor",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Internt motor-, givar- eller drivfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur",
+            "detail": "Dra ur kontakten med torra händer. Hantera inte filtervatten förrän det har svalnat."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt yttre kontroll",
+            "detail": "Koppla ur i 5 minuter, minska en överlastad tvätt och ta endast bort tydligt synliga lösa föremål utan att nå in i mekanismer."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Gör högst en återstart efter korrigerad yttre orsak och endast utan läckage, lukt, värme, rök eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Koppla ur och boka auktoriserad service om LE återkommer. Använd elektriker om uttag eller fast elinstallation misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om LE kvarstår eller återkommer. PE, PS och tE pekar mot system som inte ska provas av användaren; LE och OE kräver service när yttre kontroller inte löser felet.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, dosera rätt, håll yttre slangar fria från veck och rengör användaråtkomligt filter enligt modellmanualen.</p><p>Anslut maskinen enligt installationsanvisningen utan olämpligt grenuttag; interna givar-, motor- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med LE?",
+            "answer": "Koppla ur i 5 minuter, minska en överlastad tvätt och ta endast bort tydligt synliga lösa föremål utan att nå in i mekanismer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa LE genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar LE vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "97": {
+      "code": "OE",
+      "preserve": {
+        "en_slug": "lg-error-code-oe",
+        "sv_slug": "lg-felkod-oe"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error OE: Meaning and Safe Steps",
+        "meta_description": "LG washer showing OE? Read the verified meaning, safe manual-based checks and when authorised service is required.",
+        "h1": "What Does OE Mean on an LG Washing Machine?",
+        "description": "The washer could not drain the water used during the cycle.",
+        "quick_fix": "Check the external drain hose and clean the user-accessible pump filter only by the exact manual after water has cooled (about 5–30 minutes).",
+        "intro_html": "<p>The washer could not drain the water used during the cycle.</p><p>Check the external drain hose and clean the user-accessible pump filter only by the exact manual after water has cooled. Do not order a part from the code alone, dismantle the washer or measure internal components.</p>",
+        "causes_json": [
+          {
+            "cause": "Kinked drain hose",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Clogged pump filter",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Excess detergent and suds",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Internal pump or drainage fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Unplug",
+            "detail": "Disconnect with dry hands. Do not handle filter water until it has cooled."
+          },
+          {
+            "step": 3,
+            "action": "Make the correct external check",
+            "detail": "Check the external drain hose and clean the user-accessible pump filter only by the exact manual after water has cooled."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Make at most one restart after correcting an external cause and only without leakage, smell, heat, smoke or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Unplug and request authorised service if OE returns. Use an electrician if the outlet or fixed supply is suspect."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if OE remains or returns. PE, PS and tE concern systems users must not test; LE and OE require service when external checks do not resolve the fault.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, dose correctly, keep external hoses free of kinks and clean the user-accessible filter as the model manual specifies.</p><p>Connect the washer as installed without an unsuitable power strip; internal sensor, motor and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing OE?",
+            "answer": "Check the external drain hose and clean the user-accessible pump filter only by the exact manual after water has cooled. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset OE by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does OE identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod OE: betydelse och säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen OE? Läs verifierad betydelse, säkra kontroller enligt manualen och när auktoriserad service krävs.",
+        "h1": "Vad betyder OE på en LG-tvättmaskin?",
+        "description": "Tvättmaskinen kunde inte tömma vattnet från programmet.",
+        "quick_fix": "Kontrollera den yttre avloppsslangen och rengör det användaråtkomliga pumpfiltret endast enligt exakt manual efter att vattnet svalnat (cirka 5–30 minuter).",
+        "intro_html": "<p>Tvättmaskinen kunde inte tömma vattnet från programmet.</p><p>Kontrollera den yttre avloppsslangen och rengör det användaråtkomliga pumpfiltret endast enligt exakt manual efter att vattnet svalnat. Beställ inte en reservdel från koden ensam och demontera eller mät inga interna komponenter.</p>",
+        "causes_json": [
+          {
+            "cause": "Vikt avloppsslang",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Blockerat pumpfilter",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "För mycket tvättmedel och skum",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Internt pump- eller tömningsfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur",
+            "detail": "Dra ur kontakten med torra händer. Hantera inte filtervatten förrän det har svalnat."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt yttre kontroll",
+            "detail": "Kontrollera den yttre avloppsslangen och rengör det användaråtkomliga pumpfiltret endast enligt exakt manual efter att vattnet svalnat."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Gör högst en återstart efter korrigerad yttre orsak och endast utan läckage, lukt, värme, rök eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Koppla ur och boka auktoriserad service om OE återkommer. Använd elektriker om uttag eller fast elinstallation misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om OE kvarstår eller återkommer. PE, PS och tE pekar mot system som inte ska provas av användaren; LE och OE kräver service när yttre kontroller inte löser felet.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, dosera rätt, håll yttre slangar fria från veck och rengör användaråtkomligt filter enligt modellmanualen.</p><p>Anslut maskinen enligt installationsanvisningen utan olämpligt grenuttag; interna givar-, motor- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med OE?",
+            "answer": "Kontrollera den yttre avloppsslangen och rengör det användaråtkomliga pumpfiltret endast enligt exakt manual efter att vattnet svalnat. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa OE genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar OE vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "98": {
+      "code": "PE",
+      "preserve": {
+        "en_slug": "lg-error-code-pe",
+        "sv_slug": "lg-felkod-pe"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error PE: Meaning and Safe Steps",
+        "meta_description": "LG washer showing PE? Read the verified meaning, safe manual-based checks and when authorised service is required.",
+        "h1": "What Does PE Mean on an LG Washing Machine?",
+        "description": "The water-level sensor is not working properly.",
+        "quick_fix": "Unplug for 10 seconds once and restart; do not test the level sensor or its wiring (about 5–30 minutes).",
+        "intro_html": "<p>The water-level sensor is not working properly.</p><p>Unplug for 10 seconds once and restart; do not test the level sensor or its wiring. Do not order a part from the code alone, dismantle the washer or measure internal components.</p>",
+        "causes_json": [
+          {
+            "cause": "Water-level sensing fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Temporary control error",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Excessive suds on some models",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Internal sensor, hose, wiring or board fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Unplug",
+            "detail": "Disconnect with dry hands. Do not handle filter water until it has cooled."
+          },
+          {
+            "step": 3,
+            "action": "Make the correct external check",
+            "detail": "Unplug for 10 seconds once and restart; do not test the level sensor or its wiring."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Make at most one restart after correcting an external cause and only without leakage, smell, heat, smoke or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Unplug and request authorised service if PE returns. Use an electrician if the outlet or fixed supply is suspect."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if PE remains or returns. PE, PS and tE concern systems users must not test; LE and OE require service when external checks do not resolve the fault.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, dose correctly, keep external hoses free of kinks and clean the user-accessible filter as the model manual specifies.</p><p>Connect the washer as installed without an unsuitable power strip; internal sensor, motor and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing PE?",
+            "answer": "Unplug for 10 seconds once and restart; do not test the level sensor or its wiring. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset PE by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does PE identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod PE: betydelse och säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen PE? Läs verifierad betydelse, säkra kontroller enligt manualen och när auktoriserad service krävs.",
+        "h1": "Vad betyder PE på en LG-tvättmaskin?",
+        "description": "Vattennivågivaren fungerar inte korrekt.",
+        "quick_fix": "Koppla ur i 10 sekunder en gång och starta om; prova inte nivågivaren eller dess kablage (cirka 5–30 minuter).",
+        "intro_html": "<p>Vattennivågivaren fungerar inte korrekt.</p><p>Koppla ur i 10 sekunder en gång och starta om; prova inte nivågivaren eller dess kablage. Beställ inte en reservdel från koden ensam och demontera eller mät inga interna komponenter.</p>",
+        "causes_json": [
+          {
+            "cause": "Fel på vattennivågivning",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Tillfälligt styrfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "För mycket skum på vissa modeller",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Internt givar-, slang-, kablage- eller kortfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur",
+            "detail": "Dra ur kontakten med torra händer. Hantera inte filtervatten förrän det har svalnat."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt yttre kontroll",
+            "detail": "Koppla ur i 10 sekunder en gång och starta om; prova inte nivågivaren eller dess kablage."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Gör högst en återstart efter korrigerad yttre orsak och endast utan läckage, lukt, värme, rök eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Koppla ur och boka auktoriserad service om PE återkommer. Använd elektriker om uttag eller fast elinstallation misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om PE kvarstår eller återkommer. PE, PS och tE pekar mot system som inte ska provas av användaren; LE och OE kräver service när yttre kontroller inte löser felet.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, dosera rätt, håll yttre slangar fria från veck och rengör användaråtkomligt filter enligt modellmanualen.</p><p>Anslut maskinen enligt installationsanvisningen utan olämpligt grenuttag; interna givar-, motor- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med PE?",
+            "answer": "Koppla ur i 10 sekunder en gång och starta om; prova inte nivågivaren eller dess kablage. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa PE genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar PE vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "100": {
+      "code": "PS",
+      "preserve": {
+        "en_slug": "lg-error-code-ps",
+        "sv_slug": "lg-felkod-ps"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error PS: Meaning and Safe Steps",
+        "meta_description": "LG washer showing PS? Read the verified meaning, safe manual-based checks and when authorised service is required.",
+        "h1": "What Does PS Mean on an LG Washing Machine?",
+        "description": "The washer detected a power-supply issue and stopped the programme.",
+        "quick_fix": "Do not use a power strip; plug directly into a suitable wall outlet, unplug for 60 seconds once and request service if PS returns (about 5–30 minutes).",
+        "intro_html": "<p>The washer detected a power-supply issue and stopped the programme.</p><p>Do not use a power strip; plug directly into a suitable wall outlet, unplug for 60 seconds once and request service if PS returns. Do not order a part from the code alone, dismantle the washer or measure internal components.</p>",
+        "causes_json": [
+          {
+            "cause": "Unsuitable power strip or extension",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Power-supply interruption",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Outlet or fixed-supply problem",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Internal power or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Unplug",
+            "detail": "Disconnect with dry hands. Do not handle filter water until it has cooled."
+          },
+          {
+            "step": 3,
+            "action": "Make the correct external check",
+            "detail": "Do not use a power strip; plug directly into a suitable wall outlet, unplug for 60 seconds once and request service if PS returns."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Make at most one restart after correcting an external cause and only without leakage, smell, heat, smoke or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Unplug and request authorised service if PS returns. Use an electrician if the outlet or fixed supply is suspect."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if PS remains or returns. PE, PS and tE concern systems users must not test; LE and OE require service when external checks do not resolve the fault.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, dose correctly, keep external hoses free of kinks and clean the user-accessible filter as the model manual specifies.</p><p>Connect the washer as installed without an unsuitable power strip; internal sensor, motor and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing PS?",
+            "answer": "Do not use a power strip; plug directly into a suitable wall outlet, unplug for 60 seconds once and request service if PS returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset PS by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does PS identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod PS: betydelse och säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen PS? Läs verifierad betydelse, säkra kontroller enligt manualen och när auktoriserad service krävs.",
+        "h1": "Vad betyder PS på en LG-tvättmaskin?",
+        "description": "Tvättmaskinen upptäckte ett problem med elmatningen och stoppade programmet.",
+        "quick_fix": "Använd inte grenuttag; anslut direkt till ett lämpligt vägguttag, koppla ur i 60 sekunder en gång och boka service om PS återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>Tvättmaskinen upptäckte ett problem med elmatningen och stoppade programmet.</p><p>Använd inte grenuttag; anslut direkt till ett lämpligt vägguttag, koppla ur i 60 sekunder en gång och boka service om PS återkommer. Beställ inte en reservdel från koden ensam och demontera eller mät inga interna komponenter.</p>",
+        "causes_json": [
+          {
+            "cause": "Olämpligt grenuttag eller förlängning",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Avbrott i elmatningen",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Fel på uttag eller fast installation",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Internt kraft- eller styrfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur",
+            "detail": "Dra ur kontakten med torra händer. Hantera inte filtervatten förrän det har svalnat."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt yttre kontroll",
+            "detail": "Använd inte grenuttag; anslut direkt till ett lämpligt vägguttag, koppla ur i 60 sekunder en gång och boka service om PS återkommer."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Gör högst en återstart efter korrigerad yttre orsak och endast utan läckage, lukt, värme, rök eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Koppla ur och boka auktoriserad service om PS återkommer. Använd elektriker om uttag eller fast elinstallation misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om PS kvarstår eller återkommer. PE, PS och tE pekar mot system som inte ska provas av användaren; LE och OE kräver service när yttre kontroller inte löser felet.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, dosera rätt, håll yttre slangar fria från veck och rengör användaråtkomligt filter enligt modellmanualen.</p><p>Anslut maskinen enligt installationsanvisningen utan olämpligt grenuttag; interna givar-, motor- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med PS?",
+            "answer": "Använd inte grenuttag; anslut direkt till ett lämpligt vägguttag, koppla ur i 60 sekunder en gång och boka service om PS återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa PS genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar PS vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "102": {
+      "code": "tE",
+      "preserve": {
+        "en_slug": "lg-error-code-te",
+        "sv_slug": "lg-felkod-te"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error tE: Meaning and Safe Steps",
+        "meta_description": "LG washer showing tE? Read the verified meaning, safe manual-based checks and when authorised service is required.",
+        "h1": "What Does tE Mean on an LG Washing Machine?",
+        "description": "The washer detected a temperature-sensor or heating error.",
+        "quick_fix": "Unplug for 10 seconds once and restart; close the water taps, unplug and request service if tE returns (about 5–30 minutes).",
+        "intro_html": "<p>The washer detected a temperature-sensor or heating error.</p><p>Unplug for 10 seconds once and restart; close the water taps, unplug and request service if tE returns. Do not order a part from the code alone, dismantle the washer or measure internal components.</p>",
+        "causes_json": [
+          {
+            "cause": "Temperature-sensor error",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Heating-system error",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Temporary control condition",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          },
+          {
+            "cause": "Internal wiring or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine an internal fault."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Unplug",
+            "detail": "Disconnect with dry hands. Do not handle filter water until it has cooled."
+          },
+          {
+            "step": 3,
+            "action": "Make the correct external check",
+            "detail": "Unplug for 10 seconds once and restart; close the water taps, unplug and request service if tE returns."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Make at most one restart after correcting an external cause and only without leakage, smell, heat, smoke or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Unplug and request authorised service if tE returns. Use an electrician if the outlet or fixed supply is suspect."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if tE remains or returns. PE, PS and tE concern systems users must not test; LE and OE require service when external checks do not resolve the fault.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, dose correctly, keep external hoses free of kinks and clean the user-accessible filter as the model manual specifies.</p><p>Connect the washer as installed without an unsuitable power strip; internal sensor, motor and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing tE?",
+            "answer": "Unplug for 10 seconds once and restart; close the water taps, unplug and request service if tE returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset tE by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does tE identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod tE: betydelse och säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen tE? Läs verifierad betydelse, säkra kontroller enligt manualen och när auktoriserad service krävs.",
+        "h1": "Vad betyder tE på en LG-tvättmaskin?",
+        "description": "Tvättmaskinen upptäckte ett temperaturgivar- eller värmefel.",
+        "quick_fix": "Koppla ur i 10 sekunder en gång och starta om; stäng vattenkranarna, koppla ur och boka service om tE återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>Tvättmaskinen upptäckte ett temperaturgivar- eller värmefel.</p><p>Koppla ur i 10 sekunder en gång och starta om; stäng vattenkranarna, koppla ur och boka service om tE återkommer. Beställ inte en reservdel från koden ensam och demontera eller mät inga interna komponenter.</p>",
+        "causes_json": [
+          {
+            "cause": "Fel på temperaturgivaren",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Fel i värmesystemet",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Tillfälligt styrtillstånd",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          },
+          {
+            "cause": "Internt kablage- eller styrfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör intern felkälla."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur",
+            "detail": "Dra ur kontakten med torra händer. Hantera inte filtervatten förrän det har svalnat."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt yttre kontroll",
+            "detail": "Koppla ur i 10 sekunder en gång och starta om; stäng vattenkranarna, koppla ur och boka service om tE återkommer."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Gör högst en återstart efter korrigerad yttre orsak och endast utan läckage, lukt, värme, rök eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Koppla ur och boka auktoriserad service om tE återkommer. Använd elektriker om uttag eller fast elinstallation misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om tE kvarstår eller återkommer. PE, PS och tE pekar mot system som inte ska provas av användaren; LE och OE kräver service när yttre kontroller inte löser felet.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, dosera rätt, håll yttre slangar fria från veck och rengör användaråtkomligt filter enligt modellmanualen.</p><p>Anslut maskinen enligt installationsanvisningen utan olämpligt grenuttag; interna givar-, motor- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med tE?",
+            "answer": "Koppla ur i 10 sekunder en gång och starta om; stäng vattenkranarna, koppla ur och boka service om tE återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa tE genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar tE vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

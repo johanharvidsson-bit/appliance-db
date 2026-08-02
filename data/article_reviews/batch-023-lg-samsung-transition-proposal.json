@@ -1,0 +1,834 @@
+{
+  "batch": "023-lg-samsung-transition",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    157,
+    161,
+    7,
+    8,
+    9
+  ],
+  "sources": [
+    "https://www.lg.com/us/support/help-library/lg-front-load-washer-error-code-list-CT10000010-20155069413456",
+    "https://www.lg.com/us/support/help-library/lg-washer-troubleshooting-washing-machine-drum-not-spinning-CT10000010-20150584818000",
+    "https://www.samsung.com/uk/support/home-appliances/check-out-the-information-codes-on-my-washing-machine/",
+    "https://www.samsung.com/uk/support/home-appliances/what-do-the-codes-on-my-washing-machine-mean/"
+  ],
+  "translations": {
+    "157": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "lg-drum-not-turning",
+        "sv_slug": "lg-trumma-snurrar-inte"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Drum Not Turning: Safe Checks",
+        "meta_description": "LG Washing Machine Drum Not Turning? Read the verified meaning, safe checks from official support and when authorised service is required.",
+        "h1": "LG Washing Machine Drum Not Turning",
+        "description": "The drum does not rotate during the wash or spin phase.",
+        "quick_fix": "Check the selected cycle, load, closed door and drainage, then stop if the drum remains stationary (about 5–20 minutes).",
+        "intro_html": "<p>The drum does not rotate during the wash or spin phase.</p><p>Check the selected cycle, load, closed door and drainage, then stop if the drum remains stationary. Do not guess an internal part from the code or symptom, and open or measure no internal circuits.</p>",
+        "causes_json": [
+          {
+            "cause": "Code-specific appliance condition",
+            "detail": "The complete code determines the correct troubleshooting path."
+          },
+          {
+            "cause": "Load, door or drainage",
+            "detail": "External operating conditions can stop a cycle or drum movement."
+          },
+          {
+            "cause": "Temporary control fault",
+            "detail": "A documented restart can rule out a temporary condition."
+          },
+          {
+            "cause": "Internal motor, sensor or control fault",
+            "detail": "A persistent code or stationary drum requires diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Check the selected cycle, load, closed door and drainage, then stop if the drum remains stationary."
+          },
+          {
+            "step": 3,
+            "action": "Follow the correct manual",
+            "detail": "Use the model number and complete code; perform documented user checks only."
+          },
+          {
+            "step": 4,
+            "action": "Reset once",
+            "detail": "Unplug with dry hands as the manufacturer advises and restart only without leakage, smell, smoke, heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange authorised service",
+            "detail": "Request service if the code or symptom returns. Remove no panels and measure no sensors, motors or boards."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the code returns after one restart, if the drum does not rotate or if the exact manual identifies an internal sensor, motor, communication or control fault.</p><p>Unplug immediately for water near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, keep the washer level and always record the full code and model number before contacting support.</p><p>Internal sensor, motor, communication and electronics faults cannot be safely prevented or diagnosed through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Check the selected cycle, load, closed door and drainage, then stop if the drum remains stationary. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskinens trumma snurrar inte: säkra kontroller",
+        "meta_description": "LG-tvättmaskinens trumma snurrar inte? Läs verifierad betydelse, säkra kontroller enligt officiell support och när auktoriserad service krävs.",
+        "h1": "LG-tvättmaskinens trumma snurrar inte",
+        "description": "Trumman roterar inte under tvätt- eller centrifugeringsfasen.",
+        "quick_fix": "Kontrollera valt program, last, stängd lucka och tömning och stoppa om trumman förblir stilla (cirka 5–20 minuter).",
+        "intro_html": "<p>Trumman roterar inte under tvätt- eller centrifugeringsfasen.</p><p>Kontrollera valt program, last, stängd lucka och tömning och stoppa om trumman förblir stilla. Gissa inte en intern del från koden eller symptomet och öppna eller mät inga interna kretsar.</p>",
+        "causes_json": [
+          {
+            "cause": "Kodspecifikt maskintillstånd",
+            "detail": "Den fullständiga koden styr rätt felsökning."
+          },
+          {
+            "cause": "Last, lucka eller tömning",
+            "detail": "Yttre driftsvillkor kan stoppa program eller trumrörelse."
+          },
+          {
+            "cause": "Tillfälligt styrfel",
+            "detail": "En dokumenterad omstart kan utesluta ett tillfälligt tillstånd."
+          },
+          {
+            "cause": "Internt motor-, givar- eller styrfel",
+            "detail": "Bestående kod eller stillastående trumma kräver diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Kontrollera valt program, last, stängd lucka och tömning och stoppa om trumman förblir stilla."
+          },
+          {
+            "step": 3,
+            "action": "Följ rätt manual",
+            "detail": "Använd modellnumret och hela koden; gör endast dokumenterade användarkontroller."
+          },
+          {
+            "step": 4,
+            "action": "Återställ en gång",
+            "detail": "Koppla ur med torra händer enligt tillverkarens råd och starta bara om utan läckage, lukt, rök, värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service om koden eller symptomet återkommer. Demontera inte paneler och mät inga givare, motorer eller styrkort."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om koden återkommer efter en omstart, om trumman inte roterar eller om exakt manual anger ett internt givar-, motor-, kommunikations- eller styrfel.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, håll maskinen i nivå och notera alltid hela koden och modellnumret innan support kontaktas.</p><p>Interna sensor-, motor-, kommunikations- och elektronikfel kan inte förebyggas eller diagnostiseras säkert genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Kontrollera valt program, last, stängd lucka och tömning och stoppa om trumman förblir stilla. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "161": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "lg-error-code-on-display",
+        "sv_slug": "lg-felkod-pa-display"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Shows an Error Code: Safe Checks",
+        "meta_description": "LG Washing Machine Shows an Error Code? Read the verified meaning, safe checks from official support and when authorised service is required.",
+        "h1": "LG Washing Machine Shows an Error Code",
+        "description": "The washer has detected a condition identified by the complete displayed code.",
+        "quick_fix": "Photograph the full code, confirm the exact model number and use LG's model-specific manual or official code guide (about 5–20 minutes).",
+        "intro_html": "<p>The washer has detected a condition identified by the complete displayed code.</p><p>Photograph the full code, confirm the exact model number and use LG's model-specific manual or official code guide. Do not guess an internal part from the code or symptom, and open or measure no internal circuits.</p>",
+        "causes_json": [
+          {
+            "cause": "Code-specific appliance condition",
+            "detail": "The complete code determines the correct troubleshooting path."
+          },
+          {
+            "cause": "Load, door or drainage",
+            "detail": "External operating conditions can stop a cycle or drum movement."
+          },
+          {
+            "cause": "Temporary control fault",
+            "detail": "A documented restart can rule out a temporary condition."
+          },
+          {
+            "cause": "Internal motor, sensor or control fault",
+            "detail": "A persistent code or stationary drum requires diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the full code, confirm the exact model number and use LG's model-specific manual or official code guide."
+          },
+          {
+            "step": 3,
+            "action": "Follow the correct manual",
+            "detail": "Use the model number and complete code; perform documented user checks only."
+          },
+          {
+            "step": 4,
+            "action": "Reset once",
+            "detail": "Unplug with dry hands as the manufacturer advises and restart only without leakage, smell, smoke, heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange authorised service",
+            "detail": "Request service if the code or symptom returns. Remove no panels and measure no sensors, motors or boards."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the code returns after one restart, if the drum does not rotate or if the exact manual identifies an internal sensor, motor, communication or control fault.</p><p>Unplug immediately for water near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, keep the washer level and always record the full code and model number before contacting support.</p><p>Internal sensor, motor, communication and electronics faults cannot be safely prevented or diagnosed through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Photograph the full code, confirm the exact model number and use LG's model-specific manual or official code guide. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskinen visar en felkod: säkra kontroller",
+        "meta_description": "LG-tvättmaskinen visar en felkod? Läs verifierad betydelse, säkra kontroller enligt officiell support och när auktoriserad service krävs.",
+        "h1": "LG-tvättmaskinen visar en felkod",
+        "description": "Tvättmaskinen har upptäckt ett tillstånd som identifieras av hela koden på displayen.",
+        "quick_fix": "Fotografera hela koden, bekräfta exakt modellnummer och använd LG:s modellspecifika manual eller officiella kodguide (cirka 5–20 minuter).",
+        "intro_html": "<p>Tvättmaskinen har upptäckt ett tillstånd som identifieras av hela koden på displayen.</p><p>Fotografera hela koden, bekräfta exakt modellnummer och använd LG:s modellspecifika manual eller officiella kodguide. Gissa inte en intern del från koden eller symptomet och öppna eller mät inga interna kretsar.</p>",
+        "causes_json": [
+          {
+            "cause": "Kodspecifikt maskintillstånd",
+            "detail": "Den fullständiga koden styr rätt felsökning."
+          },
+          {
+            "cause": "Last, lucka eller tömning",
+            "detail": "Yttre driftsvillkor kan stoppa program eller trumrörelse."
+          },
+          {
+            "cause": "Tillfälligt styrfel",
+            "detail": "En dokumenterad omstart kan utesluta ett tillfälligt tillstånd."
+          },
+          {
+            "cause": "Internt motor-, givar- eller styrfel",
+            "detail": "Bestående kod eller stillastående trumma kräver diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela koden, bekräfta exakt modellnummer och använd LG:s modellspecifika manual eller officiella kodguide."
+          },
+          {
+            "step": 3,
+            "action": "Följ rätt manual",
+            "detail": "Använd modellnumret och hela koden; gör endast dokumenterade användarkontroller."
+          },
+          {
+            "step": 4,
+            "action": "Återställ en gång",
+            "detail": "Koppla ur med torra händer enligt tillverkarens råd och starta bara om utan läckage, lukt, rök, värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service om koden eller symptomet återkommer. Demontera inte paneler och mät inga givare, motorer eller styrkort."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om koden återkommer efter en omstart, om trumman inte roterar eller om exakt manual anger ett internt givar-, motor-, kommunikations- eller styrfel.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, håll maskinen i nivå och notera alltid hela koden och modellnumret innan support kontaktas.</p><p>Interna sensor-, motor-, kommunikations- och elektronikfel kan inte förebyggas eller diagnostiseras säkert genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Fotografera hela koden, bekräfta exakt modellnummer och använd LG:s modellspecifika manual eller officiella kodguide. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "7": {
+      "code": "15C",
+      "preserve": {
+        "en_slug": "samsung-error-code-15c",
+        "sv_slug": "samsung-felkod-15c"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error Code 15C: Meaning and Safe Steps",
+        "meta_description": "Samsung Washing Machine Error Code 15C? Read the verified meaning, safe checks from official support and when authorised service is required.",
+        "h1": "What Does 15C Mean on a Samsung Washing Machine?",
+        "description": "15C is not defined in Samsung's generic public washer code table and must be confirmed in the exact model manual.",
+        "quick_fix": "Record the complete code and model, switch off for one minute once and contact Samsung support if it returns (about 5–20 minutes).",
+        "intro_html": "<p>15C is not defined in Samsung's generic public washer code table and must be confirmed in the exact model manual.</p><p>Record the complete code and model, switch off for one minute once and contact Samsung support if it returns. Do not guess an internal part from the code or symptom, and open or measure no internal circuits.</p>",
+        "causes_json": [
+          {
+            "cause": "Model-specific code",
+            "detail": "The complete code string and exact model are required for the correct meaning."
+          },
+          {
+            "cause": "Temporary control condition",
+            "detail": "One shutdown can rule out a temporary state."
+          },
+          {
+            "cause": "Sensor or communication fault",
+            "detail": "1C concerns level sensing; the AC family concerns communication where the model manual confirms it."
+          },
+          {
+            "cause": "Internal control or wiring fault",
+            "detail": "This requires Samsung service and is not a user repair."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Record the complete code and model, switch off for one minute once and contact Samsung support if it returns."
+          },
+          {
+            "step": 3,
+            "action": "Follow the correct manual",
+            "detail": "Use the model number and complete code; perform documented user checks only."
+          },
+          {
+            "step": 4,
+            "action": "Reset once",
+            "detail": "Unplug with dry hands as the manufacturer advises and restart only without leakage, smell, smoke, heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange authorised service",
+            "detail": "Request service if the code or symptom returns. Remove no panels and measure no sensors, motors or boards."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the code returns after one restart, if the drum does not rotate or if the exact manual identifies an internal sensor, motor, communication or control fault.</p><p>Unplug immediately for water near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, keep the washer level and always record the full code and model number before contacting support.</p><p>Internal sensor, motor, communication and electronics faults cannot be safely prevented or diagnosed through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 15C?",
+            "answer": "Record the complete code and model, switch off for one minute once and contact Samsung support if it returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 15C by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 15C identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 15C: betydelse och säkra steg",
+        "meta_description": "Samsung-tvättmaskin felkod 15C? Läs verifierad betydelse, säkra kontroller enligt officiell support och när auktoriserad service krävs.",
+        "h1": "Vad betyder 15C på en Samsung-tvättmaskin?",
+        "description": "15c definieras inte i samsungs generella offentliga kodtabell för tvättmaskiner och måste bekräftas i exakt modellmanual.",
+        "quick_fix": "Notera hela koden och modellen, stäng av i en minut en gång och kontakta Samsung-support om den återkommer (cirka 5–20 minuter).",
+        "intro_html": "<p>15c definieras inte i samsungs generella offentliga kodtabell för tvättmaskiner och måste bekräftas i exakt modellmanual.</p><p>Notera hela koden och modellen, stäng av i en minut en gång och kontakta Samsung-support om den återkommer. Gissa inte en intern del från koden eller symptomet och öppna eller mät inga interna kretsar.</p>",
+        "causes_json": [
+          {
+            "cause": "Modellspecifik kod",
+            "detail": "Hela kodsträngen och exakt modell krävs för korrekt betydelse."
+          },
+          {
+            "cause": "Tillfälligt styrtillstånd",
+            "detail": "En enda avstängning kan utesluta ett tillfälligt tillstånd."
+          },
+          {
+            "cause": "Givar- eller kommunikationsfel",
+            "detail": "1C gäller nivågivning; AC-familjen gäller kommunikation på modeller där manualen bekräftar det."
+          },
+          {
+            "cause": "Internt styr- eller kablagefel",
+            "detail": "Detta kräver Samsung-service och är ingen användarreparation."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Notera hela koden och modellen, stäng av i en minut en gång och kontakta Samsung-support om den återkommer."
+          },
+          {
+            "step": 3,
+            "action": "Följ rätt manual",
+            "detail": "Använd modellnumret och hela koden; gör endast dokumenterade användarkontroller."
+          },
+          {
+            "step": 4,
+            "action": "Återställ en gång",
+            "detail": "Koppla ur med torra händer enligt tillverkarens råd och starta bara om utan läckage, lukt, rök, värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service om koden eller symptomet återkommer. Demontera inte paneler och mät inga givare, motorer eller styrkort."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om koden återkommer efter en omstart, om trumman inte roterar eller om exakt manual anger ett internt givar-, motor-, kommunikations- eller styrfel.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, håll maskinen i nivå och notera alltid hela koden och modellnumret innan support kontaktas.</p><p>Interna sensor-, motor-, kommunikations- och elektronikfel kan inte förebyggas eller diagnostiseras säkert genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 15C?",
+            "answer": "Notera hela koden och modellen, stäng av i en minut en gång och kontakta Samsung-support om den återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 15C genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 15C vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "8": {
+      "code": "1AC",
+      "preserve": {
+        "en_slug": "samsung-error-code-1ac",
+        "sv_slug": "samsung-felkod-1ac"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error Code 1AC: Meaning and Safe Steps",
+        "meta_description": "Samsung Washing Machine Error Code 1AC? Read the verified meaning, safe checks from official support and when authorised service is required.",
+        "h1": "What Does 1AC Mean on a Samsung Washing Machine?",
+        "description": "1AC is model-specific; Samsung's public guide identifies AC/AE-family codes as communication checks between control boards.",
+        "quick_fix": "Record the complete code and model, switch off for one minute once and contact Samsung service if it returns (about 5–20 minutes).",
+        "intro_html": "<p>1AC is model-specific; Samsung's public guide identifies AC/AE-family codes as communication checks between control boards.</p><p>Record the complete code and model, switch off for one minute once and contact Samsung service if it returns. Do not guess an internal part from the code or symptom, and open or measure no internal circuits.</p>",
+        "causes_json": [
+          {
+            "cause": "Model-specific code",
+            "detail": "The complete code string and exact model are required for the correct meaning."
+          },
+          {
+            "cause": "Temporary control condition",
+            "detail": "One shutdown can rule out a temporary state."
+          },
+          {
+            "cause": "Sensor or communication fault",
+            "detail": "1C concerns level sensing; the AC family concerns communication where the model manual confirms it."
+          },
+          {
+            "cause": "Internal control or wiring fault",
+            "detail": "This requires Samsung service and is not a user repair."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Record the complete code and model, switch off for one minute once and contact Samsung service if it returns."
+          },
+          {
+            "step": 3,
+            "action": "Follow the correct manual",
+            "detail": "Use the model number and complete code; perform documented user checks only."
+          },
+          {
+            "step": 4,
+            "action": "Reset once",
+            "detail": "Unplug with dry hands as the manufacturer advises and restart only without leakage, smell, smoke, heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange authorised service",
+            "detail": "Request service if the code or symptom returns. Remove no panels and measure no sensors, motors or boards."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the code returns after one restart, if the drum does not rotate or if the exact manual identifies an internal sensor, motor, communication or control fault.</p><p>Unplug immediately for water near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, keep the washer level and always record the full code and model number before contacting support.</p><p>Internal sensor, motor, communication and electronics faults cannot be safely prevented or diagnosed through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 1AC?",
+            "answer": "Record the complete code and model, switch off for one minute once and contact Samsung service if it returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 1AC by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 1AC identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 1AC: betydelse och säkra steg",
+        "meta_description": "Samsung-tvättmaskin felkod 1AC? Läs verifierad betydelse, säkra kontroller enligt officiell support och när auktoriserad service krävs.",
+        "h1": "Vad betyder 1AC på en Samsung-tvättmaskin?",
+        "description": "1ac är modellspecifik; samsungs offentliga guide beskriver ac-/ae-familjen som kommunikationskontroller mellan styrkort.",
+        "quick_fix": "Notera hela koden och modellen, stäng av i en minut en gång och kontakta Samsung-service om den återkommer (cirka 5–20 minuter).",
+        "intro_html": "<p>1ac är modellspecifik; samsungs offentliga guide beskriver ac-/ae-familjen som kommunikationskontroller mellan styrkort.</p><p>Notera hela koden och modellen, stäng av i en minut en gång och kontakta Samsung-service om den återkommer. Gissa inte en intern del från koden eller symptomet och öppna eller mät inga interna kretsar.</p>",
+        "causes_json": [
+          {
+            "cause": "Modellspecifik kod",
+            "detail": "Hela kodsträngen och exakt modell krävs för korrekt betydelse."
+          },
+          {
+            "cause": "Tillfälligt styrtillstånd",
+            "detail": "En enda avstängning kan utesluta ett tillfälligt tillstånd."
+          },
+          {
+            "cause": "Givar- eller kommunikationsfel",
+            "detail": "1C gäller nivågivning; AC-familjen gäller kommunikation på modeller där manualen bekräftar det."
+          },
+          {
+            "cause": "Internt styr- eller kablagefel",
+            "detail": "Detta kräver Samsung-service och är ingen användarreparation."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Notera hela koden och modellen, stäng av i en minut en gång och kontakta Samsung-service om den återkommer."
+          },
+          {
+            "step": 3,
+            "action": "Följ rätt manual",
+            "detail": "Använd modellnumret och hela koden; gör endast dokumenterade användarkontroller."
+          },
+          {
+            "step": 4,
+            "action": "Återställ en gång",
+            "detail": "Koppla ur med torra händer enligt tillverkarens råd och starta bara om utan läckage, lukt, rök, värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service om koden eller symptomet återkommer. Demontera inte paneler och mät inga givare, motorer eller styrkort."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om koden återkommer efter en omstart, om trumman inte roterar eller om exakt manual anger ett internt givar-, motor-, kommunikations- eller styrfel.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, håll maskinen i nivå och notera alltid hela koden och modellnumret innan support kontaktas.</p><p>Interna sensor-, motor-, kommunikations- och elektronikfel kan inte förebyggas eller diagnostiseras säkert genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 1AC?",
+            "answer": "Notera hela koden och modellen, stäng av i en minut en gång och kontakta Samsung-service om den återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 1AC genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 1AC vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "9": {
+      "code": "1C",
+      "preserve": {
+        "en_slug": "samsung-error-code-1c",
+        "sv_slug": "samsung-felkod-1c"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error Code 1C: Meaning and Safe Steps",
+        "meta_description": "Samsung Washing Machine Error Code 1C? Read the verified meaning, safe checks from official support and when authorised service is required.",
+        "h1": "What Does 1C Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies 1C as a water-level sensor error.",
+        "quick_fix": "Switch the washer off for one minute once and restart; request Samsung service if 1C returns (about 5–20 minutes).",
+        "intro_html": "<p>Samsung identifies 1C as a water-level sensor error.</p><p>Switch the washer off for one minute once and restart; request Samsung service if 1C returns. Do not guess an internal part from the code or symptom, and open or measure no internal circuits.</p>",
+        "causes_json": [
+          {
+            "cause": "Model-specific code",
+            "detail": "The complete code string and exact model are required for the correct meaning."
+          },
+          {
+            "cause": "Temporary control condition",
+            "detail": "One shutdown can rule out a temporary state."
+          },
+          {
+            "cause": "Sensor or communication fault",
+            "detail": "1C concerns level sensing; the AC family concerns communication where the model manual confirms it."
+          },
+          {
+            "cause": "Internal control or wiring fault",
+            "detail": "This requires Samsung service and is not a user repair."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Switch the washer off for one minute once and restart; request Samsung service if 1C returns."
+          },
+          {
+            "step": 3,
+            "action": "Follow the correct manual",
+            "detail": "Use the model number and complete code; perform documented user checks only."
+          },
+          {
+            "step": 4,
+            "action": "Reset once",
+            "detail": "Unplug with dry hands as the manufacturer advises and restart only without leakage, smell, smoke, heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange authorised service",
+            "detail": "Request service if the code or symptom returns. Remove no panels and measure no sensors, motors or boards."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service if the code returns after one restart, if the drum does not rotate or if the exact manual identifies an internal sensor, motor, communication or control fault.</p><p>Unplug immediately for water near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, keep the washer level and always record the full code and model number before contacting support.</p><p>Internal sensor, motor, communication and electronics faults cannot be safely prevented or diagnosed through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 1C?",
+            "answer": "Switch the washer off for one minute once and restart; request Samsung service if 1C returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 1C by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 1C identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 1C: betydelse och säkra steg",
+        "meta_description": "Samsung-tvättmaskin felkod 1C? Läs verifierad betydelse, säkra kontroller enligt officiell support och när auktoriserad service krävs.",
+        "h1": "Vad betyder 1C på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att 1c är ett fel på vattennivågivaren.",
+        "quick_fix": "Stäng av tvättmaskinen i en minut en gång och starta om; boka Samsung-service om 1C återkommer (cirka 5–20 minuter).",
+        "intro_html": "<p>Samsung anger att 1c är ett fel på vattennivågivaren.</p><p>Stäng av tvättmaskinen i en minut en gång och starta om; boka Samsung-service om 1C återkommer. Gissa inte en intern del från koden eller symptomet och öppna eller mät inga interna kretsar.</p>",
+        "causes_json": [
+          {
+            "cause": "Modellspecifik kod",
+            "detail": "Hela kodsträngen och exakt modell krävs för korrekt betydelse."
+          },
+          {
+            "cause": "Tillfälligt styrtillstånd",
+            "detail": "En enda avstängning kan utesluta ett tillfälligt tillstånd."
+          },
+          {
+            "cause": "Givar- eller kommunikationsfel",
+            "detail": "1C gäller nivågivning; AC-familjen gäller kommunikation på modeller där manualen bekräftar det."
+          },
+          {
+            "cause": "Internt styr- eller kablagefel",
+            "detail": "Detta kräver Samsung-service och är ingen användarreparation."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Stäng av tvättmaskinen i en minut en gång och starta om; boka Samsung-service om 1C återkommer."
+          },
+          {
+            "step": 3,
+            "action": "Följ rätt manual",
+            "detail": "Använd modellnumret och hela koden; gör endast dokumenterade användarkontroller."
+          },
+          {
+            "step": 4,
+            "action": "Återställ en gång",
+            "detail": "Koppla ur med torra händer enligt tillverkarens råd och starta bara om utan läckage, lukt, rök, värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service om koden eller symptomet återkommer. Demontera inte paneler och mät inga givare, motorer eller styrkort."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service om koden återkommer efter en omstart, om trumman inte roterar eller om exakt manual anger ett internt givar-, motor-, kommunikations- eller styrfel.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, håll maskinen i nivå och notera alltid hela koden och modellnumret innan support kontaktas.</p><p>Interna sensor-, motor-, kommunikations- och elektronikfel kan inte förebyggas eller diagnostiseras säkert genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 1C?",
+            "answer": "Stäng av tvättmaskinen i en minut en gång och starta om; boka Samsung-service om 1C återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 1C genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 1C vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

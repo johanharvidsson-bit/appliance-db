@@ -1,0 +1,883 @@
+{
+  "batch": "011-electrolux-e24-e35",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    251,
+    252,
+    253,
+    254,
+    255
+  ],
+  "sources": [
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-displays-error-code-e30",
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-displays-an-error-code-how-to-fix-it",
+    "https://tds.electrolux.com/others/599/705/670EN.PDF"
+  ],
+  "translations": {
+    "251": {
+      "code": "E24",
+      "preserve": {
+        "en_slug": "error-code-e24",
+        "sv_slug": "felkod-e24"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E24: Safe Steps",
+        "meta_description": "Electrolux washer showing E24? Check the verified meaning, the safe first response and when authorised service is required.",
+        "h1": "What Does E24 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E24 as a fault in the sensing circuit for the electronic component that controls the drain pump.",
+        "quick_fix": "Switch off, unplug and arrange authorised Electrolux service; do not test the pump circuit, wiring or control board (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E24 as a fault in the sensing circuit for the electronic component that controls the drain pump.</p><p>Switch off, unplug and arrange authorised Electrolux service; do not test the pump circuit, wiring or control board. Give service the complete code and PNC/product number. The code alone is not a safe replacement-parts diagnosis.</p>",
+        "causes_json": [
+          {
+            "cause": "Verified electronic circuit",
+            "detail": "Official Electrolux service documentation identifies E24 as a fault in the sensing circuit for the electronic component that controls the drain pump."
+          },
+          {
+            "cause": "Model-specific component design",
+            "detail": "Pump, sensor and control circuits vary by PNC and electronic platform."
+          },
+          {
+            "cause": "Wiring or connection",
+            "detail": "Internal connections require safe measurement by a trained technician."
+          },
+          {
+            "cause": "Control-board or component fault",
+            "detail": "The code identifies a system but does not confirm which part needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door, especially with E35 or visible water."
+          },
+          {
+            "step": 2,
+            "action": "Turn off the water tap",
+            "detail": "Stop the supply for E30, E35, visible leakage or uncertain water level."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and disconnect safely",
+            "detail": "Unplug with dry hands if the outlet and area are dry. Otherwise isolate power safely elsewhere."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E24 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 5,
+            "action": "Follow the exact model manual",
+            "detail": "Switch off, unplug and arrange authorised Electrolux service; do not test the pump circuit, wiring or control board."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service for a persistent code and always for internal circuit or level codes. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised Electrolux service immediately for E24, E31 and E35, and for E25 when the exact manual gives no user action. For E30, request service if leakage is visible or the code returns.</p><p>Stop immediately for water near electricity, burning smell, smoke, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Check visible hose connections, keep the door opening clear and follow installation and detergent instructions for the exact model.</p><p>Internal pump, pressure and control-circuit faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E24?",
+            "answer": "Switch off, unplug and arrange authorised Electrolux service; do not test the pump circuit, wiring or control board. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E24 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E24 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E24: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E24? Läs verifierad betydelse, säkra första åtgärder och när auktoriserad service krävs.",
+        "h1": "Vad betyder E24 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e24 är ett fel i avkänningskretsen för den elektroniska komponent som styr avloppspumpen.",
+        "quick_fix": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; testa inte pumpkrets, kablage eller styrkort (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e24 är ett fel i avkänningskretsen för den elektroniska komponent som styr avloppspumpen.</p><p>Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; testa inte pumpkrets, kablage eller styrkort. Ange hela koden och PNC-/produktnumret till service. Felkoden ensam är inte en säker reservdelsdiagnos.</p>",
+        "causes_json": [
+          {
+            "cause": "Verifierad elektronisk krets",
+            "detail": "Officiell electrolux-servicedokumentation anger att e24 är ett fel i avkänningskretsen för den elektroniska komponent som styr avloppspumpen."
+          },
+          {
+            "cause": "Modellspecifik komponentuppbyggnad",
+            "detail": "Pump-, sensor- och styrkretsar varierar med PNC och elektronikplattform."
+          },
+          {
+            "cause": "Kablage eller anslutning",
+            "detail": "Interna anslutningar kräver säker mätning av utbildad tekniker."
+          },
+          {
+            "cause": "Styrkort eller komponentfel",
+            "detail": "Koden pekar på ett system men bekräftar inte vilken del som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp luckan, särskilt inte vid E35 eller synligt vatten."
+          },
+          {
+            "step": 2,
+            "action": "Stäng vattenkranen",
+            "detail": "Stoppa vattenflödet vid E30, E35, synligt läckage eller osäker nivå."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Dra ur kontakten med torra händer om uttaget och området är torra. Bryt annars strömmen säkert på annan plats."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E24-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 5,
+            "action": "Följ rätt modellmanual",
+            "detail": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; testa inte pumpkrets, kablage eller styrkort."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service för kvarstående kod och alltid för interna krets- eller nivåkoder. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad Electrolux-service omedelbart för E24, E31 och E35 samt för E25 när rätt manual inte ger en användaråtgärd. För E30 bokar du service om läckage syns eller koden återkommer.</p><p>Avbryt direkt vid vatten nära el, bränd lukt, rök, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Kontrollera synliga slanganslutningar, håll lucköppningen fri och följ installations- och tvättmedelsanvisningarna för exakt modell.</p><p>Interna pump-, tryck- och styrkretsfel kan inte förebyggas eller diagnostiseras säkert med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E24?",
+            "answer": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; testa inte pumpkrets, kablage eller styrkort. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E24 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E24 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "252": {
+      "code": "E25",
+      "preserve": {
+        "en_slug": "error-code-e25",
+        "sv_slug": "felkod-e25"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E25: Safe Steps",
+        "meta_description": "Electrolux washer showing E25? Check the verified meaning, the safe first response and when authorised service is required.",
+        "h1": "What Does E25 Mean on an Electrolux Washing Machine?",
+        "description": "Electrolux does not publish one universal consumer meaning for bare E25 across all washer platforms; the exact model, product number and full display are required.",
+        "quick_fix": "Record the full code and product number, switch off and unplug, then use the exact manual or authorised Electrolux service (about 5 minutes).",
+        "intro_html": "<p>Electrolux does not publish one universal consumer meaning for bare E25 across all washer platforms; the exact model, product number and full display are required.</p><p>Record the full code and product number, switch off and unplug, then use the exact manual or authorised Electrolux service. Give service the complete code and PNC/product number. The code alone is not a safe replacement-parts diagnosis.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete code information",
+            "detail": "Code format and meaning can differ between Electrolux platforms. Record the entire display."
+          },
+          {
+            "cause": "Model and market difference",
+            "detail": "The PNC/product number identifies the correct manual and electronic platform."
+          },
+          {
+            "cause": "Possible internal condition",
+            "detail": "Perform only external checks explicitly specified for the exact model."
+          },
+          {
+            "cause": "Persistent need for service",
+            "detail": "If the code returns or the manual provides no user action, authorised diagnosis is required."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door, especially with E35 or visible water."
+          },
+          {
+            "step": 2,
+            "action": "Turn off the water tap",
+            "detail": "Stop the supply for E30, E35, visible leakage or uncertain water level."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and disconnect safely",
+            "detail": "Unplug with dry hands if the outlet and area are dry. Otherwise isolate power safely elsewhere."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E25 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 5,
+            "action": "Follow the exact model manual",
+            "detail": "Record the full code and product number, switch off and unplug, then use the exact manual or authorised Electrolux service."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service for a persistent code and always for internal circuit or level codes. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised Electrolux service immediately for E24, E31 and E35, and for E25 when the exact manual gives no user action. For E30, request service if leakage is visible or the code returns.</p><p>Stop immediately for water near electricity, burning smell, smoke, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Check visible hose connections, keep the door opening clear and follow installation and detergent instructions for the exact model.</p><p>Internal pump, pressure and control-circuit faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E25?",
+            "answer": "Record the full code and product number, switch off and unplug, then use the exact manual or authorised Electrolux service. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E25 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E25 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E25: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E25? Läs verifierad betydelse, säkra första åtgärder och när auktoriserad service krävs.",
+        "h1": "Vad betyder E25 på en Electrolux-tvättmaskin?",
+        "description": "Electrolux publicerar ingen generell konsumentbetydelse för enbart e25 på alla tvättmaskinsplattformar; exakt modell, produktnummer och hela displaykoden krävs.",
+        "quick_fix": "Dokumentera hela koden och produktnumret, stäng av och dra ur kontakten och använd rätt manual eller auktoriserad Electrolux-service (cirka 5 minuter).",
+        "intro_html": "<p>Electrolux publicerar ingen generell konsumentbetydelse för enbart e25 på alla tvättmaskinsplattformar; exakt modell, produktnummer och hela displaykoden krävs.</p><p>Dokumentera hela koden och produktnumret, stäng av och dra ur kontakten och använd rätt manual eller auktoriserad Electrolux-service. Ange hela koden och PNC-/produktnumret till service. Felkoden ensam är inte en säker reservdelsdiagnos.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig kodinformation",
+            "detail": "Kodformat och betydelse kan variera mellan Electrolux-plattformar. Dokumentera hela displayen."
+          },
+          {
+            "cause": "Modell- och marknadsskillnad",
+            "detail": "PNC-/produktnumret identifierar rätt manual och elektronikplattform."
+          },
+          {
+            "cause": "Möjligt internt tillstånd",
+            "detail": "Gör endast de yttre kontroller som uttryckligen anges för exakt modell."
+          },
+          {
+            "cause": "Kvarstående servicebehov",
+            "detail": "Om koden återkommer eller manualen saknar användaråtgärd krävs auktoriserad diagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp luckan, särskilt inte vid E35 eller synligt vatten."
+          },
+          {
+            "step": 2,
+            "action": "Stäng vattenkranen",
+            "detail": "Stoppa vattenflödet vid E30, E35, synligt läckage eller osäker nivå."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Dra ur kontakten med torra händer om uttaget och området är torra. Bryt annars strömmen säkert på annan plats."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E25-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 5,
+            "action": "Följ rätt modellmanual",
+            "detail": "Dokumentera hela koden och produktnumret, stäng av och dra ur kontakten och använd rätt manual eller auktoriserad Electrolux-service."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service för kvarstående kod och alltid för interna krets- eller nivåkoder. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad Electrolux-service omedelbart för E24, E31 och E35 samt för E25 när rätt manual inte ger en användaråtgärd. För E30 bokar du service om läckage syns eller koden återkommer.</p><p>Avbryt direkt vid vatten nära el, bränd lukt, rök, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Kontrollera synliga slanganslutningar, håll lucköppningen fri och följ installations- och tvättmedelsanvisningarna för exakt modell.</p><p>Interna pump-, tryck- och styrkretsfel kan inte förebyggas eller diagnostiseras säkert med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E25?",
+            "answer": "Dokumentera hela koden och produktnumret, stäng av och dra ur kontakten och använd rätt manual eller auktoriserad Electrolux-service. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E25 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E25 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "253": {
+      "code": "E30",
+      "preserve": {
+        "en_slug": "error-code-e30",
+        "sv_slug": "felkod-e30"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E30: Safe Steps",
+        "meta_description": "Electrolux washer showing E30? Check the verified meaning, the safe first response and when authorised service is required.",
+        "h1": "What Does E30 Mean on an Electrolux Washing Machine?",
+        "description": "Electrolux describes E30 or C3 as a water-pressure sensing condition that can be associated with water in the base or leakage.",
+        "quick_fix": "Turn off the water supply, switch off and unplug, then inspect only visible supply-hose connections, trapped laundry and the door seal as the exact manual permits (about 5 minutes).",
+        "intro_html": "<p>Electrolux describes E30 or C3 as a water-pressure sensing condition that can be associated with water in the base or leakage.</p><p>Turn off the water supply, switch off and unplug, then inspect only visible supply-hose connections, trapped laundry and the door seal as the exact manual permits. Give service the complete code and PNC/product number. The code alone is not a safe replacement-parts diagnosis.</p>",
+        "causes_json": [
+          {
+            "cause": "Visible leakage or water in the base",
+            "detail": "A leaking hose connection, damaged door seal or laundry trapped in the opening can release water."
+          },
+          {
+            "cause": "Water-pressure or level system",
+            "detail": "E30 concerns pressure sensing; E35 identifies excessive level and safety draining."
+          },
+          {
+            "cause": "Valve or internal hydraulics",
+            "detail": "Internal valves, hoses and pressure chambers require authorised service."
+          },
+          {
+            "cause": "Sensor, wiring or control fault",
+            "detail": "The code and PNC are needed for diagnosis; users must not measure internal circuits."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door, especially with E35 or visible water."
+          },
+          {
+            "step": 2,
+            "action": "Turn off the water tap",
+            "detail": "Stop the supply for E30, E35, visible leakage or uncertain water level."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and disconnect safely",
+            "detail": "Unplug with dry hands if the outlet and area are dry. Otherwise isolate power safely elsewhere."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E30 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 5,
+            "action": "Follow the exact model manual",
+            "detail": "Turn off the water supply, switch off and unplug, then inspect only visible supply-hose connections, trapped laundry and the door seal as the exact manual permits."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service for a persistent code and always for internal circuit or level codes. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised Electrolux service immediately for E24, E31 and E35, and for E25 when the exact manual gives no user action. For E30, request service if leakage is visible or the code returns.</p><p>Stop immediately for water near electricity, burning smell, smoke, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Check visible hose connections, keep the door opening clear and follow installation and detergent instructions for the exact model.</p><p>Internal pump, pressure and control-circuit faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E30?",
+            "answer": "Turn off the water supply, switch off and unplug, then inspect only visible supply-hose connections, trapped laundry and the door seal as the exact manual permits. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E30 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E30 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E30: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E30? Läs verifierad betydelse, säkra första åtgärder och när auktoriserad service krävs.",
+        "h1": "Vad betyder E30 på en Electrolux-tvättmaskin?",
+        "description": "Electrolux beskriver e30 eller c3 som ett tillstånd i vattentrycksmätningen som kan vara kopplat till vatten i botten eller läckage.",
+        "quick_fix": "Stäng vattenkranen, stäng av och dra ur kontakten och kontrollera endast synliga tilloppsanslutningar, fastnad tvätt och lucktätning enligt rätt manual (cirka 5 minuter).",
+        "intro_html": "<p>Electrolux beskriver e30 eller c3 som ett tillstånd i vattentrycksmätningen som kan vara kopplat till vatten i botten eller läckage.</p><p>Stäng vattenkranen, stäng av och dra ur kontakten och kontrollera endast synliga tilloppsanslutningar, fastnad tvätt och lucktätning enligt rätt manual. Ange hela koden och PNC-/produktnumret till service. Felkoden ensam är inte en säker reservdelsdiagnos.</p>",
+        "causes_json": [
+          {
+            "cause": "Synligt läckage eller vatten i botten",
+            "detail": "En otät slanganslutning, skadad lucktätning eller tvätt i lucköppningen kan släppa ut vatten."
+          },
+          {
+            "cause": "Vattentrycks- eller nivåsystem",
+            "detail": "E30 omfattar tryckmätning; E35 anger för hög nivå och säkerhetstömning."
+          },
+          {
+            "cause": "Ventil eller intern hydraulik",
+            "detail": "Interna ventiler, slangar och tryckkammare kräver auktoriserad service."
+          },
+          {
+            "cause": "Sensor-, kablage- eller styrfel",
+            "detail": "Kod och PNC behövs för rätt diagnos; användaren ska inte mäta interna kretsar."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp luckan, särskilt inte vid E35 eller synligt vatten."
+          },
+          {
+            "step": 2,
+            "action": "Stäng vattenkranen",
+            "detail": "Stoppa vattenflödet vid E30, E35, synligt läckage eller osäker nivå."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Dra ur kontakten med torra händer om uttaget och området är torra. Bryt annars strömmen säkert på annan plats."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E30-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 5,
+            "action": "Följ rätt modellmanual",
+            "detail": "Stäng vattenkranen, stäng av och dra ur kontakten och kontrollera endast synliga tilloppsanslutningar, fastnad tvätt och lucktätning enligt rätt manual."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service för kvarstående kod och alltid för interna krets- eller nivåkoder. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad Electrolux-service omedelbart för E24, E31 och E35 samt för E25 när rätt manual inte ger en användaråtgärd. För E30 bokar du service om läckage syns eller koden återkommer.</p><p>Avbryt direkt vid vatten nära el, bränd lukt, rök, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Kontrollera synliga slanganslutningar, håll lucköppningen fri och följ installations- och tvättmedelsanvisningarna för exakt modell.</p><p>Interna pump-, tryck- och styrkretsfel kan inte förebyggas eller diagnostiseras säkert med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E30?",
+            "answer": "Stäng vattenkranen, stäng av och dra ur kontakten och kontrollera endast synliga tilloppsanslutningar, fastnad tvätt och lucktätning enligt rätt manual. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E30 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E30 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "254": {
+      "code": "E31",
+      "preserve": {
+        "en_slug": "error-code-e31",
+        "sv_slug": "felkod-e31"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E31: Safe Steps",
+        "meta_description": "Electrolux washer showing E31? Check the verified meaning, the safe first response and when authorised service is required.",
+        "h1": "What Does E31 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E31 as an electronic pressure-switch circuit signal outside its permitted limits.",
+        "quick_fix": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test the pressure sensor, wiring or board (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E31 as an electronic pressure-switch circuit signal outside its permitted limits.</p><p>Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test the pressure sensor, wiring or board. Give service the complete code and PNC/product number. The code alone is not a safe replacement-parts diagnosis.</p>",
+        "causes_json": [
+          {
+            "cause": "Verified electronic circuit",
+            "detail": "Official Electrolux service documentation identifies E31 as an electronic pressure-switch circuit signal outside its permitted limits."
+          },
+          {
+            "cause": "Model-specific component design",
+            "detail": "Pump, sensor and control circuits vary by PNC and electronic platform."
+          },
+          {
+            "cause": "Wiring or connection",
+            "detail": "Internal connections require safe measurement by a trained technician."
+          },
+          {
+            "cause": "Control-board or component fault",
+            "detail": "The code identifies a system but does not confirm which part needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door, especially with E35 or visible water."
+          },
+          {
+            "step": 2,
+            "action": "Turn off the water tap",
+            "detail": "Stop the supply for E30, E35, visible leakage or uncertain water level."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and disconnect safely",
+            "detail": "Unplug with dry hands if the outlet and area are dry. Otherwise isolate power safely elsewhere."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E31 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 5,
+            "action": "Follow the exact model manual",
+            "detail": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test the pressure sensor, wiring or board."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service for a persistent code and always for internal circuit or level codes. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised Electrolux service immediately for E24, E31 and E35, and for E25 when the exact manual gives no user action. For E30, request service if leakage is visible or the code returns.</p><p>Stop immediately for water near electricity, burning smell, smoke, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Check visible hose connections, keep the door opening clear and follow installation and detergent instructions for the exact model.</p><p>Internal pump, pressure and control-circuit faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E31?",
+            "answer": "Switch off, unplug and arrange authorised Electrolux service; do not open the washer or test the pressure sensor, wiring or board. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E31 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E31 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E31: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E31? Läs verifierad betydelse, säkra första åtgärder och när auktoriserad service krävs.",
+        "h1": "Vad betyder E31 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e31 betyder att signalen från den elektroniska tryckvaktens krets ligger utanför tillåtna gränser.",
+        "quick_fix": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte trycksensor, kablage eller kort (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e31 betyder att signalen från den elektroniska tryckvaktens krets ligger utanför tillåtna gränser.</p><p>Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte trycksensor, kablage eller kort. Ange hela koden och PNC-/produktnumret till service. Felkoden ensam är inte en säker reservdelsdiagnos.</p>",
+        "causes_json": [
+          {
+            "cause": "Verifierad elektronisk krets",
+            "detail": "Officiell electrolux-servicedokumentation anger att e31 betyder att signalen från den elektroniska tryckvaktens krets ligger utanför tillåtna gränser."
+          },
+          {
+            "cause": "Modellspecifik komponentuppbyggnad",
+            "detail": "Pump-, sensor- och styrkretsar varierar med PNC och elektronikplattform."
+          },
+          {
+            "cause": "Kablage eller anslutning",
+            "detail": "Interna anslutningar kräver säker mätning av utbildad tekniker."
+          },
+          {
+            "cause": "Styrkort eller komponentfel",
+            "detail": "Koden pekar på ett system men bekräftar inte vilken del som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp luckan, särskilt inte vid E35 eller synligt vatten."
+          },
+          {
+            "step": 2,
+            "action": "Stäng vattenkranen",
+            "detail": "Stoppa vattenflödet vid E30, E35, synligt läckage eller osäker nivå."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Dra ur kontakten med torra händer om uttaget och området är torra. Bryt annars strömmen säkert på annan plats."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E31-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 5,
+            "action": "Följ rätt modellmanual",
+            "detail": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte trycksensor, kablage eller kort."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service för kvarstående kod och alltid för interna krets- eller nivåkoder. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad Electrolux-service omedelbart för E24, E31 och E35 samt för E25 när rätt manual inte ger en användaråtgärd. För E30 bokar du service om läckage syns eller koden återkommer.</p><p>Avbryt direkt vid vatten nära el, bränd lukt, rök, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Kontrollera synliga slanganslutningar, håll lucköppningen fri och följ installations- och tvättmedelsanvisningarna för exakt modell.</p><p>Interna pump-, tryck- och styrkretsfel kan inte förebyggas eller diagnostiseras säkert med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E31?",
+            "answer": "Stäng av, dra ur kontakten och boka auktoriserad Electrolux-service; öppna inte maskinen och testa inte trycksensor, kablage eller kort. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E31 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E31 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "255": {
+      "code": "E35",
+      "preserve": {
+        "en_slug": "error-code-e35",
+        "sv_slug": "felkod-e35"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E35: Safe Steps",
+        "meta_description": "Electrolux washer showing E35? Check the verified meaning, the safe first response and when authorised service is required.",
+        "h1": "What Does E35 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E35 as the water level being too high and the washer entering a safety-drain state.",
+        "quick_fix": "Turn off the water tap, switch off and unplug if safely possible, do not open the door, and arrange authorised Electrolux service (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E35 as the water level being too high and the washer entering a safety-drain state.</p><p>Turn off the water tap, switch off and unplug if safely possible, do not open the door, and arrange authorised Electrolux service. Give service the complete code and PNC/product number. The code alone is not a safe replacement-parts diagnosis.</p>",
+        "causes_json": [
+          {
+            "cause": "Visible leakage or water in the base",
+            "detail": "A leaking hose connection, damaged door seal or laundry trapped in the opening can release water."
+          },
+          {
+            "cause": "Water-pressure or level system",
+            "detail": "E30 concerns pressure sensing; E35 identifies excessive level and safety draining."
+          },
+          {
+            "cause": "Valve or internal hydraulics",
+            "detail": "Internal valves, hoses and pressure chambers require authorised service."
+          },
+          {
+            "cause": "Sensor, wiring or control fault",
+            "detail": "The code and PNC are needed for diagnosis; users must not measure internal circuits."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door, especially with E35 or visible water."
+          },
+          {
+            "step": 2,
+            "action": "Turn off the water tap",
+            "detail": "Stop the supply for E30, E35, visible leakage or uncertain water level."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and disconnect safely",
+            "detail": "Unplug with dry hands if the outlet and area are dry. Otherwise isolate power safely elsewhere."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E35 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 5,
+            "action": "Follow the exact model manual",
+            "detail": "Turn off the water tap, switch off and unplug if safely possible, do not open the door, and arrange authorised Electrolux service."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Request service for a persistent code and always for internal circuit or level codes. Do not remove panels."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised Electrolux service immediately for E24, E31 and E35, and for E25 when the exact manual gives no user action. For E30, request service if leakage is visible or the code returns.</p><p>Stop immediately for water near electricity, burning smell, smoke, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Check visible hose connections, keep the door opening clear and follow installation and detergent instructions for the exact model.</p><p>Internal pump, pressure and control-circuit faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E35?",
+            "answer": "Turn off the water tap, switch off and unplug if safely possible, do not open the door, and arrange authorised Electrolux service. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E35 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E35 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E35: säkra steg",
+        "meta_description": "Visar Electrolux-tvättmaskinen E35? Läs verifierad betydelse, säkra första åtgärder och när auktoriserad service krävs.",
+        "h1": "Vad betyder E35 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e35 betyder för hög vattennivå och att maskinen går in i säkerhetstömning.",
+        "quick_fix": "Stäng vattenkranen, stäng av och dra ur kontakten om det kan göras säkert, öppna inte luckan och boka auktoriserad Electrolux-service (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e35 betyder för hög vattennivå och att maskinen går in i säkerhetstömning.</p><p>Stäng vattenkranen, stäng av och dra ur kontakten om det kan göras säkert, öppna inte luckan och boka auktoriserad Electrolux-service. Ange hela koden och PNC-/produktnumret till service. Felkoden ensam är inte en säker reservdelsdiagnos.</p>",
+        "causes_json": [
+          {
+            "cause": "Synligt läckage eller vatten i botten",
+            "detail": "En otät slanganslutning, skadad lucktätning eller tvätt i lucköppningen kan släppa ut vatten."
+          },
+          {
+            "cause": "Vattentrycks- eller nivåsystem",
+            "detail": "E30 omfattar tryckmätning; E35 anger för hög nivå och säkerhetstömning."
+          },
+          {
+            "cause": "Ventil eller intern hydraulik",
+            "detail": "Interna ventiler, slangar och tryckkammare kräver auktoriserad service."
+          },
+          {
+            "cause": "Sensor-, kablage- eller styrfel",
+            "detail": "Kod och PNC behövs för rätt diagnos; användaren ska inte mäta interna kretsar."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp luckan, särskilt inte vid E35 eller synligt vatten."
+          },
+          {
+            "step": 2,
+            "action": "Stäng vattenkranen",
+            "detail": "Stoppa vattenflödet vid E30, E35, synligt läckage eller osäker nivå."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Dra ur kontakten med torra händer om uttaget och området är torra. Bryt annars strömmen säkert på annan plats."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E35-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 5,
+            "action": "Följ rätt modellmanual",
+            "detail": "Stäng vattenkranen, stäng av och dra ur kontakten om det kan göras säkert, öppna inte luckan och boka auktoriserad Electrolux-service."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Boka service för kvarstående kod och alltid för interna krets- eller nivåkoder. Ta inte bort paneler."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad Electrolux-service omedelbart för E24, E31 och E35 samt för E25 när rätt manual inte ger en användaråtgärd. För E30 bokar du service om läckage syns eller koden återkommer.</p><p>Avbryt direkt vid vatten nära el, bränd lukt, rök, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Kontrollera synliga slanganslutningar, håll lucköppningen fri och följ installations- och tvättmedelsanvisningarna för exakt modell.</p><p>Interna pump-, tryck- och styrkretsfel kan inte förebyggas eller diagnostiseras säkert med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E35?",
+            "answer": "Stäng vattenkranen, stäng av och dra ur kontakten om det kan göras säkert, öppna inte luckan och boka auktoriserad Electrolux-service. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E35 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E35 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

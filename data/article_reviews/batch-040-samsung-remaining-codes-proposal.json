@@ -1,0 +1,835 @@
+{
+  "batch": "040-samsung-remaining-codes",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    23,
+    28,
+    34,
+    37,
+    44
+  ],
+  "sources": [
+    "https://www.samsung.com/nl/support/home-appliances/wat-betekent-de-foutcode-op-het-display-van-mijn-wasmachine/",
+    "https://www.samsung.com/uk/support/home-appliances/how-to-resolve-a-5e-or-5c-error-code-on-a-washing-machine/",
+    "https://www.samsung.com/uk/support/home-appliances/check-out-the-information-codes-on-my-washing-machine/",
+    "https://support-cacyber.samsung.com/cacyber/popup/iframe/pop_troubleshooting_fr.jsp?idx=898831&lang=ca&modelcode=WF337AAR%2FXAA",
+    "https://www.samsung.com/ua/support/home-appliances/what-are-the-de-de1-de2-errors-on-the-display-of-my-washing-machine/"
+  ],
+  "translations": {
+    "23": {
+      "code": "1E",
+      "preserve": {
+        "en_slug": "samsung-error-code-1e",
+        "sv_slug": "samsung-felkod-1e"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 1E: Safe Steps",
+        "meta_description": "Samsung washer showing 1E? Read the verified or model-specific meaning, safe checks and when Samsung service is required.",
+        "h1": "What Does 1E Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies 1E or 1C as a water-level-sensor problem.",
+        "quick_fix": "Switch off at the mains for one minute once and arrange Samsung service if the code returns (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies 1E or 1C as a water-level-sensor problem.</p><p>Switch off at the mains for one minute once and arrange Samsung service if the code returns. The code alone confirms no replacement part; dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Water-level signal outside range",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Pressure path or level-sensing condition",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific sensor connection fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal sensor, wiring or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete 1E display and note the model code and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Switch off at the mains for one minute once and arrange Samsung service if the code returns. Follow every warning in the exact model manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the code remains or returns. Open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 1E remains or returns after documented external checks. Sensors, motor, pump, door lock, wiring and electronics require model-specific diagnosis.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and detergent guidance, empty pockets and keep visible hoses and user-accessible filters clean as the model manual specifies.</p><p>Internal sensor, motor, communication and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Samsung washer showing 1E?",
+            "answer": "Switch off at the mains for one minute once and arrange Samsung service if the code returns. Do not run another cycle until Samsung guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 1E by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Samsung classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 1E identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Samsung service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Samsung model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Samsung directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 1E: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 1E? Läs verifierad eller modellspecifik betydelse, säkra kontroller och när Samsung-service krävs.",
+        "h1": "Vad betyder 1E på en Samsung-tvättmaskin?",
+        "description": "Samsung identifierar 1E eller 1C som problem med vattennivågivaren.",
+        "quick_fix": "Stäng av vid nätet i en minut en gång och boka Samsung-service om koden återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung identifierar 1E eller 1C som problem med vattennivågivaren.</p><p>Stäng av vid nätet i en minut en gång och boka Samsung-service om koden återkommer. Koden ensam bekräftar ingen reservdel; demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Vattennivåsignal utanför området",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Tillstånd i tryckväg eller nivåavkänning",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifikt anslutningsfel till givaren",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt givar-, kablage- eller styrfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela 1E-visningen och anteckna modellkod och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Stäng av vid nätet i en minut en gång och boka Samsung-service om koden återkommer. Följ varningarna i exakt modellmanual."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 1E kvarstår eller återkommer efter de dokumenterade yttre kontrollerna. Givare, motor, pump, lucklås, kablage och elektronik kräver modellspecifik diagnos.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och doseringsanvisningar, töm fickor och håll synliga slangar och användaråtkomliga filter rena enligt modellmanualen.</p><p>Interna givar-, motor-, kommunikations- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 1E?",
+            "answer": "Stäng av vid nätet i en minut en gång och boka Samsung-service om koden återkommer. Kör inte ett nytt program innan Samsung eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 1E genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 1E vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Samsung service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Samsung E‑Nr?",
+            "answer": "Samsung-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Samsung hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "28": {
+      "code": "3E2",
+      "preserve": {
+        "en_slug": "samsung-error-code-3e2",
+        "sv_slug": "samsung-felkod-3e2"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 3E2: Safe Steps",
+        "meta_description": "Samsung washer showing 3E2? Read the verified or model-specific meaning, safe checks and when Samsung service is required.",
+        "h1": "What Does 3E2 Mean on a Samsung Washing Machine?",
+        "description": "Samsung groups 3E2 with motor-operation errors; the exact model manual defines the subcode.",
+        "quick_fix": "Stop the washer, check only for overload or a clearly obstructed load, then power off for one minute once (about 5–30 minutes).",
+        "intro_html": "<p>Samsung groups 3E2 with motor-operation errors; the exact model manual defines the subcode.</p><p>Stop the washer, check only for overload or a clearly obstructed load, then power off for one minute once. The code alone confirms no replacement part; dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor operation interrupted",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Overload or obstructed load",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific motor-speed signal",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal motor, sensor, wiring or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete 3E2 display and note the model code and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Stop the washer, check only for overload or a clearly obstructed load, then power off for one minute once. Follow every warning in the exact model manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the code remains or returns. Open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 3E2 remains or returns after documented external checks. Sensors, motor, pump, door lock, wiring and electronics require model-specific diagnosis.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and detergent guidance, empty pockets and keep visible hoses and user-accessible filters clean as the model manual specifies.</p><p>Internal sensor, motor, communication and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Samsung washer showing 3E2?",
+            "answer": "Stop the washer, check only for overload or a clearly obstructed load, then power off for one minute once. Do not run another cycle until Samsung guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 3E2 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Samsung classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 3E2 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Samsung service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Samsung model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Samsung directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 3E2: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 3E2? Läs verifierad eller modellspecifik betydelse, säkra kontroller och när Samsung-service krävs.",
+        "h1": "Vad betyder 3E2 på en Samsung-tvättmaskin?",
+        "description": "Samsung grupperar 3E2 med fel i motordriften; exakt modellmanual definierar underkoden.",
+        "quick_fix": "Stoppa maskinen, kontrollera endast överlast eller en tydligt hindrad last och stäng sedan av vid nätet i en minut en gång (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung grupperar 3E2 med fel i motordriften; exakt modellmanual definierar underkoden.</p><p>Stoppa maskinen, kontrollera endast överlast eller en tydligt hindrad last och stäng sedan av vid nätet i en minut en gång. Koden ensam bekräftar ingen reservdel; demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Motordriften avbruten",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Överlast eller hindrad last",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik signal för motorhastighet",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt motor-, givar-, kablage- eller styrfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela 3E2-visningen och anteckna modellkod och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Stoppa maskinen, kontrollera endast överlast eller en tydligt hindrad last och stäng sedan av vid nätet i en minut en gång. Följ varningarna i exakt modellmanual."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 3E2 kvarstår eller återkommer efter de dokumenterade yttre kontrollerna. Givare, motor, pump, lucklås, kablage och elektronik kräver modellspecifik diagnos.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och doseringsanvisningar, töm fickor och håll synliga slangar och användaråtkomliga filter rena enligt modellmanualen.</p><p>Interna givar-, motor-, kommunikations- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 3E2?",
+            "answer": "Stoppa maskinen, kontrollera endast överlast eller en tydligt hindrad last och stäng sedan av vid nätet i en minut en gång. Kör inte ett nytt program innan Samsung eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 3E2 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 3E2 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Samsung service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Samsung E‑Nr?",
+            "answer": "Samsung-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Samsung hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "34": {
+      "code": "5C",
+      "preserve": {
+        "en_slug": "samsung-error-code-5c",
+        "sv_slug": "samsung-felkod-5c"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 5C: Safe Steps",
+        "meta_description": "Samsung washer showing 5C? Read the verified or model-specific meaning, safe checks and when Samsung service is required.",
+        "h1": "What Does 5C Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies 5C or 5E as a drainage problem, commonly involving a blocked filter, kinked hose or incorrect hose installation.",
+        "quick_fix": "Switch off and unplug, allow hot water to cool, then check the visible drain hose and clean the user-accessible filter exactly as the model manual specifies (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies 5C or 5E as a drainage problem, commonly involving a blocked filter, kinked hose or incorrect hose installation.</p><p>Switch off and unplug, allow hot water to cool, then check the visible drain hose and clean the user-accessible filter exactly as the model manual specifies. The code alone confirms no replacement part; dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Blocked user-accessible drain filter",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Kinked or blocked drain hose",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Incorrect drain-hose installation",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal drain-pump or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete 5C display and note the model code and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Switch off and unplug, allow hot water to cool, then check the visible drain hose and clean the user-accessible filter exactly as the model manual specifies. Follow every warning in the exact model manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the code remains or returns. Open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 5C remains or returns after documented external checks. Sensors, motor, pump, door lock, wiring and electronics require model-specific diagnosis.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and detergent guidance, empty pockets and keep visible hoses and user-accessible filters clean as the model manual specifies.</p><p>Internal sensor, motor, communication and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Samsung washer showing 5C?",
+            "answer": "Switch off and unplug, allow hot water to cool, then check the visible drain hose and clean the user-accessible filter exactly as the model manual specifies. Do not run another cycle until Samsung guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 5C by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Samsung classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 5C identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Samsung service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Samsung model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Samsung directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 5C: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 5C? Läs verifierad eller modellspecifik betydelse, säkra kontroller och när Samsung-service krävs.",
+        "h1": "Vad betyder 5C på en Samsung-tvättmaskin?",
+        "description": "Samsung identifierar 5C eller 5E som tömningsproblem, ofta orsakat av blockerat filter, vikt slang eller felaktig slanginstallation.",
+        "quick_fix": "Stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig avloppsslang samt rengör användaråtkomligt filter exakt enligt modellmanualen (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung identifierar 5C eller 5E som tömningsproblem, ofta orsakat av blockerat filter, vikt slang eller felaktig slanginstallation.</p><p>Stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig avloppsslang samt rengör användaråtkomligt filter exakt enligt modellmanualen. Koden ensam bekräftar ingen reservdel; demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Blockerat användaråtkomligt avloppsfilter",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Vikt eller blockerad avloppsslang",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Felaktig installation av avloppsslangen",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt pump- eller styrfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela 5C-visningen och anteckna modellkod och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig avloppsslang samt rengör användaråtkomligt filter exakt enligt modellmanualen. Följ varningarna i exakt modellmanual."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 5C kvarstår eller återkommer efter de dokumenterade yttre kontrollerna. Givare, motor, pump, lucklås, kablage och elektronik kräver modellspecifik diagnos.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och doseringsanvisningar, töm fickor och håll synliga slangar och användaråtkomliga filter rena enligt modellmanualen.</p><p>Interna givar-, motor-, kommunikations- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 5C?",
+            "answer": "Stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig avloppsslang samt rengör användaråtkomligt filter exakt enligt modellmanualen. Kör inte ett nytt program innan Samsung eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 5C genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 5C vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Samsung service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Samsung E‑Nr?",
+            "answer": "Samsung-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Samsung hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "37": {
+      "code": "AC2",
+      "preserve": {
+        "en_slug": "samsung-error-code-ac2",
+        "sv_slug": "samsung-felkod-ac2"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error AC2: Safe Steps",
+        "meta_description": "Samsung washer showing AC2? Read the verified or model-specific meaning, safe checks and when Samsung service is required.",
+        "h1": "What Does AC2 Mean on a Samsung Washing Machine?",
+        "description": "AC2 is model-specific; Samsung legacy support describes an I/O-board communication diagnostic, while current common-code lists use other AC-family communication codes.",
+        "quick_fix": "Photograph the complete display, confirm the exact model code and follow that model's manual; power off once and request service if AC2 returns (about 5–30 minutes).",
+        "intro_html": "<p>AC2 is model-specific; Samsung legacy support describes an I/O-board communication diagnostic, while current common-code lists use other AC-family communication codes.</p><p>Photograph the complete display, confirm the exact model code and follow that model's manual; power off once and request service if AC2 returns. The code alone confirms no replacement part; dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Model-specific communication diagnostic",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Incomplete or misread display",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Temporary control communication interruption",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal board, wiring or communication fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete AC2 display and note the model code and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Photograph the complete display, confirm the exact model code and follow that model's manual; power off once and request service if AC2 returns. Follow every warning in the exact model manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the code remains or returns. Open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if AC2 remains or returns after documented external checks. Sensors, motor, pump, door lock, wiring and electronics require model-specific diagnosis.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and detergent guidance, empty pockets and keep visible hoses and user-accessible filters clean as the model manual specifies.</p><p>Internal sensor, motor, communication and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Samsung washer showing AC2?",
+            "answer": "Photograph the complete display, confirm the exact model code and follow that model's manual; power off once and request service if AC2 returns. Do not run another cycle until Samsung guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset AC2 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Samsung classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does AC2 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Samsung service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Samsung model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Samsung directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod AC2: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen AC2? Läs verifierad eller modellspecifik betydelse, säkra kontroller och när Samsung-service krävs.",
+        "h1": "Vad betyder AC2 på en Samsung-tvättmaskin?",
+        "description": "AC2 är modellspecifik; äldre Samsung-support beskriver en kommunikationsdiagnos för I/O-kort, medan aktuella standardlistor använder andra AC-familjekoder.",
+        "quick_fix": "Fotografera hela displayen, bekräfta exakt modellkod och följ modellens manual; stäng av en gång och boka service om AC2 återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>AC2 är modellspecifik; äldre Samsung-support beskriver en kommunikationsdiagnos för I/O-kort, medan aktuella standardlistor använder andra AC-familjekoder.</p><p>Fotografera hela displayen, bekräfta exakt modellkod och följ modellens manual; stäng av en gång och boka service om AC2 återkommer. Koden ensam bekräftar ingen reservdel; demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Modellspecifik kommunikationsdiagnos",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Ofullständig eller feltolkad display",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Tillfälligt avbrott i styrkommunikation",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt kort-, kablage- eller kommunikationsfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela AC2-visningen och anteckna modellkod och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Fotografera hela displayen, bekräfta exakt modellkod och följ modellens manual; stäng av en gång och boka service om AC2 återkommer. Följ varningarna i exakt modellmanual."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om AC2 kvarstår eller återkommer efter de dokumenterade yttre kontrollerna. Givare, motor, pump, lucklås, kablage och elektronik kräver modellspecifik diagnos.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och doseringsanvisningar, töm fickor och håll synliga slangar och användaråtkomliga filter rena enligt modellmanualen.</p><p>Interna givar-, motor-, kommunikations- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med AC2?",
+            "answer": "Fotografera hela displayen, bekräfta exakt modellkod och följ modellens manual; stäng av en gång och boka service om AC2 återkommer. Kör inte ett nytt program innan Samsung eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa AC2 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar AC2 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Samsung service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Samsung E‑Nr?",
+            "answer": "Samsung-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Samsung hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "44": {
+      "code": "dEi",
+      "preserve": {
+        "en_slug": "samsung-error-code-dei",
+        "sv_slug": "samsung-felkod-dei"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error dEi: Safe Steps",
+        "meta_description": "Samsung washer showing dEi? Read the verified or model-specific meaning, safe checks and when Samsung service is required.",
+        "h1": "What Does dEi Mean on a Samsung Washing Machine?",
+        "description": "dEi is not a universal code in Samsung's current common washer table and must not be assumed to mean dE1 without the exact model manual.",
+        "quick_fix": "Photograph every character, check that the door is fully closed without trapped laundry and use the exact model-code manual (about 5–30 minutes).",
+        "intro_html": "<p>dEi is not a universal code in Samsung's current common washer table and must not be assumed to mean dE1 without the exact model manual.</p><p>Photograph every character, check that the door is fully closed without trapped laundry and use the exact model-code manual. The code alone confirms no replacement part; dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete or misread display",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Door not fully closed or laundry trapped",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific door information code",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal door-lock, wiring or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record code and model",
+            "detail": "Photograph the complete dEi display and note the model code and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Photograph every character, check that the door is fully closed without trapped laundry and use the exact model-code manual. Follow every warning in the exact model manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, electrical fault or severe mechanical noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the code remains or returns. Open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if dEi remains or returns after documented external checks. Sensors, motor, pump, door lock, wiring and electronics require model-specific diagnosis.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load, installation and detergent guidance, empty pockets and keep visible hoses and user-accessible filters clean as the model manual specifies.</p><p>Internal sensor, motor, communication and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Samsung washer showing dEi?",
+            "answer": "Photograph every character, check that the door is fully closed without trapped laundry and use the exact model-code manual. Do not run another cycle until Samsung guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset dEi by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Samsung classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does dEi identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Samsung service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Samsung model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Samsung directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod dEi: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen dEi? Läs verifierad eller modellspecifik betydelse, säkra kontroller och när Samsung-service krävs.",
+        "h1": "Vad betyder dEi på en Samsung-tvättmaskin?",
+        "description": "dEi är inte en universell kod i Samsungs aktuella standardtabell och får inte antas betyda dE1 utan manualen för exakt modell.",
+        "quick_fix": "Fotografera varje tecken, kontrollera att luckan är helt stängd utan fastklämd tvätt och använd manualen för exakt modellkod (cirka 5–30 minuter).",
+        "intro_html": "<p>dEi är inte en universell kod i Samsungs aktuella standardtabell och får inte antas betyda dE1 utan manualen för exakt modell.</p><p>Fotografera varje tecken, kontrollera att luckan är helt stängd utan fastklämd tvätt och använd manualen för exakt modellkod. Koden ensam bekräftar ingen reservdel; demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig eller feltolkad display",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Luckan inte helt stängd eller tvätt har fastnat",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik informationskod för luckan",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt lucklås-, kablage- eller styrfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och modell",
+            "detail": "Fotografera hela dEi-visningen och anteckna modellkod och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Fotografera varje tecken, kontrollera att luckan är helt stängd utan fastklämd tvätt och använd manualen för exakt modellkod. Följ varningarna i exakt modellmanual."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt mekaniskt ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om dEi kvarstår eller återkommer efter de dokumenterade yttre kontrollerna. Givare, motor, pump, lucklås, kablage och elektronik kräver modellspecifik diagnos.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ last-, installations- och doseringsanvisningar, töm fickor och håll synliga slangar och användaråtkomliga filter rena enligt modellmanualen.</p><p>Interna givar-, motor-, kommunikations- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med dEi?",
+            "answer": "Fotografera varje tecken, kontrollera att luckan är helt stängd utan fastklämd tvätt och använd manualen för exakt modellkod. Kör inte ett nytt program innan Samsung eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa dEi genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar dEi vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Samsung service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Samsung E‑Nr?",
+            "answer": "Samsung-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Samsung hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

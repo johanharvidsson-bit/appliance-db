@@ -1,0 +1,326 @@
+{
+  "batch": "039-siemens-electrical-burning",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    347,
+    348
+  ],
+  "sources": [
+    "https://www.siemens-home.bsh-group.com/ae/customer-service/support/troubleshooting/washing-machines/trips-electrics",
+    "https://www.siemens-home.bsh-group.com/se/kundservice/support/felsokning/tvattmaskiner/orsakar-kortslutning",
+    "https://www.siemens-home.bsh-group.com/ae/customer-service/support/troubleshooting/washing-machines/not-turning-on",
+    "https://www.siemens-home.bsh-group.com/ae/customer-service/support/troubleshooting/washing-machines/"
+  ],
+  "translations": {
+    "347": {
+      "code": "electrical trip",
+      "preserve": {
+        "en_slug": "trips-electrics",
+        "sv_slug": "löser-ut-säkringen"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Trips the Electrics: Safe Checks",
+        "meta_description": "Siemens Washing Machine Trips the Electrics? See verified Siemens causes, safe external checks and when authorised service is required.",
+        "h1": "Siemens Washing Machine Trips the Electrics",
+        "description": "Siemens lists the motor, heater, suppressor, shorted wiring or water on an electrical part as possible causes, all of which require qualified diagnosis if the washer trips protection.",
+        "quick_fix": "Stop using the washer and isolate it only from a dry safe position. Do not reset protection for repeated tests; arrange Siemens service.",
+        "intro_html": "<p>Siemens lists the motor, heater, suppressor, shorted wiring or water on an electrical part as possible causes, all of which require qualified diagnosis if the washer trips protection.</p><p>Stop using the washer, isolate it only from a dry safe position and arrange Siemens service; ask an electrician to assess the fixed installation when appropriate. Open no panels, make no measurements and run no test programme.</p>",
+        "causes_json": [
+          {
+            "cause": "Internal motor or heater fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Suppressor or control-electronics fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Damaged internal wiring or short circuit",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Water reaching an electrical component or a fixed-installation fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop immediately",
+            "detail": "Stop using the washer. For smoke or fire risk, keep clear, evacuate if necessary and call emergency services for immediate danger."
+          },
+          {
+            "step": 2,
+            "action": "Isolate only when safe",
+            "detail": "Disconnect power from a dry safe position. Do not touch wet or damaged equipment or expose yourself to smoke."
+          },
+          {
+            "step": 3,
+            "action": "Do not restart",
+            "detail": "Do not reset electrical protection to try the washer again and run no test programme."
+          },
+          {
+            "step": 4,
+            "action": "Record without touching",
+            "detail": "Note the E-Nr, programme stage, displayed code, where the smell or sound arose and which protection device operated."
+          },
+          {
+            "step": 5,
+            "action": "Arrange the right professional help",
+            "detail": "Contact Siemens service for the appliance and a qualified electrician if the socket, cable, protection or fixed installation may be involved."
+          }
+        ],
+        "when_to_call_technician_html": "<p>This situation requires qualified assessment before the washer is used again. Contact Siemens service; also contact a qualified electrician if the fixed installation or protection may be responsible.</p><p>For active smoke, fire, sparks or immediate danger, keep clear, evacuate and call local emergency services.</p>",
+        "prevention_html": "<p>Use an earthed outlet and the connection required by the installation manual. Avoid extension leads, keep the mains cable undamaged and resolve leaks before use.</p><p>Internal electrical and mechanical faults cannot be prevented through user dismantling or testing.</p>",
+        "faq_json": [
+          {
+            "question": "Can I restart the washer to check it?",
+            "answer": "No. Repeated tripping or a burning smell must be assessed before the appliance is used again."
+          },
+          {
+            "question": "Should I reset the RCD?",
+            "answer": "Not to test the washer again. Isolate the appliance safely and have the appliance and installation assessed by the appropriate professional."
+          },
+          {
+            "question": "Can I open a panel to find the fault?",
+            "answer": "No. Electricity, heat and possible leakage make internal inspection unsuitable for a user."
+          },
+          {
+            "question": "Whom should I contact?",
+            "answer": "Siemens service for the washer and a qualified electrician if the socket, cable, protection or fixed installation may be involved."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskinen löser ut elskyddet: säkra kontroller",
+        "meta_description": "Siemens-tvättmaskinen löser ut elskyddet? Se Siemens verifierade orsaker, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Siemens-tvättmaskinen löser ut elskyddet",
+        "description": "Siemens listar motor, värmare, störningsskydd, kortslutet kablage eller vatten på en elektrisk del som möjliga orsaker, vilka kräver kvalificerad diagnos när maskinen löser ut elskydd.",
+        "quick_fix": "Sluta använda maskinen och frånkoppla den endast från en torr säker plats. Återställ inte för upprepade test; boka Siemens-service.",
+        "intro_html": "<p>Siemens listar motor, värmare, störningsskydd, kortslutet kablage eller vatten på en elektrisk del som möjliga orsaker, vilka kräver kvalificerad diagnos när maskinen löser ut elskydd.</p><p>Sluta använda maskinen, frånkoppla den endast från en torr säker plats och boka Siemens-service; låt elektriker bedöma den fasta installationen vid behov. Öppna inga paneler, gör inga mätningar och utför inget provprogram.</p>",
+        "causes_json": [
+          {
+            "cause": "Internt motor- eller värmarfel",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Fel i störningsskydd eller styrelektronik",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Skadat internt kablage eller kortslutning",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Vatten på elektrisk komponent eller fel i fast installation",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Avbryt omedelbart",
+            "detail": "Stoppa användningen. Vid rök eller brandrisk: håll avstånd, utrym vid behov och ring 112 vid akut fara."
+          },
+          {
+            "step": 2,
+            "action": "Frånkoppla endast säkert",
+            "detail": "Bryt strömmen från en torr säker plats. Rör inte våt eller skadad utrustning och utsätt dig inte för rök."
+          },
+          {
+            "step": 3,
+            "action": "Starta inte om",
+            "detail": "Återställ inte elskyddet för att prova maskinen igen och kör inget testprogram."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera utan beröring",
+            "detail": "Anteckna E‑Nr, programfas, visad kod, var lukten eller ljudet uppstod och vilket elskydd som löste ut."
+          },
+          {
+            "step": 5,
+            "action": "Boka rätt fackhjälp",
+            "detail": "Kontakta Siemens-service för maskinen och behörig elektriker om uttag, kabel, elskydd eller fast installation kan vara berörd."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Den här situationen kräver kvalificerad bedömning innan maskinen används igen. Kontakta Siemens-service; kontakta även behörig elektriker om den fasta installationen eller elskyddet kan vara orsaken.</p><p>Vid aktiv rök, brand, gnistor eller akut fara: håll avstånd, utrym och ring 112.</p>",
+        "prevention_html": "<p>Använd jordat uttag och den anslutning som installationsmanualen kräver. Undvik förlängningssladdar, håll nätkabeln oskadad och åtgärda läckage innan användning.</p><p>Interna el- och mekanikfel kan inte förebyggas genom egen demontering eller provning.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag starta om maskinen för att kontrollera?",
+            "answer": "Nej. Upprepad utlösning eller bränd lukt ska bedömas innan maskinen används igen."
+          },
+          {
+            "question": "Ska jag återställa jordfelsbrytaren?",
+            "answer": "Inte för att prova maskinen igen. Isolera maskinen säkert och låt rätt fackperson bedöma både maskin och installation."
+          },
+          {
+            "question": "Kan jag öppna en panel för att hitta felet?",
+            "answer": "Nej. El, värme och möjliga läckage gör intern kontroll olämplig för användaren."
+          },
+          {
+            "question": "Vem ska jag kontakta?",
+            "answer": "Siemens-service för maskinen och behörig elektriker om uttag, kabel, elskydd eller fast installation kan vara inblandad."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "348": {
+      "code": "burning smell",
+      "preserve": {
+        "en_slug": "burning-smell",
+        "sv_slug": "bränd-lukt"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Has a Burning Smell: Safe Checks",
+        "meta_description": "Siemens Washing Machine Has a Burning Smell? See verified Siemens causes, safe external checks and when authorised service is required.",
+        "h1": "Siemens Washing Machine Has a Burning Smell",
+        "description": "A burning smell, smoke, sparks or abnormal heat can indicate an electrical or mechanical overheating hazard and is not suitable for user testing.",
+        "quick_fix": "Stop the programme and isolate power only from a dry safe position. Do not restart the washer; arrange qualified service.",
+        "intro_html": "<p>A burning smell, smoke, sparks or abnormal heat can indicate an electrical or mechanical overheating hazard and is not suitable for user testing.</p><p>Stop the programme, keep clear of smoke and isolate power only if this can be done safely; do not restart the washer and arrange qualified service. Open no panels, make no measurements and run no test programme.</p>",
+        "causes_json": [
+          {
+            "cause": "Overheated motor or drive component",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Electrical connection, wiring or control fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Friction from an internal mechanical fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Foreign material or another heat source requiring inspection",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop immediately",
+            "detail": "Stop using the washer. For smoke or fire risk, keep clear, evacuate if necessary and call emergency services for immediate danger."
+          },
+          {
+            "step": 2,
+            "action": "Isolate only when safe",
+            "detail": "Disconnect power from a dry safe position. Do not touch wet or damaged equipment or expose yourself to smoke."
+          },
+          {
+            "step": 3,
+            "action": "Do not restart",
+            "detail": "Do not reset electrical protection to try the washer again and run no test programme."
+          },
+          {
+            "step": 4,
+            "action": "Record without touching",
+            "detail": "Note the E-Nr, programme stage, displayed code, where the smell or sound arose and which protection device operated."
+          },
+          {
+            "step": 5,
+            "action": "Arrange the right professional help",
+            "detail": "Contact Siemens service for the appliance and a qualified electrician if the socket, cable, protection or fixed installation may be involved."
+          }
+        ],
+        "when_to_call_technician_html": "<p>This situation requires qualified assessment before the washer is used again. Contact Siemens service; also contact a qualified electrician if the fixed installation or protection may be responsible.</p><p>For active smoke, fire, sparks or immediate danger, keep clear, evacuate and call local emergency services.</p>",
+        "prevention_html": "<p>Use an earthed outlet and the connection required by the installation manual. Avoid extension leads, keep the mains cable undamaged and resolve leaks before use.</p><p>Internal electrical and mechanical faults cannot be prevented through user dismantling or testing.</p>",
+        "faq_json": [
+          {
+            "question": "Can I restart the washer to check it?",
+            "answer": "No. Repeated tripping or a burning smell must be assessed before the appliance is used again."
+          },
+          {
+            "question": "Should I reset the RCD?",
+            "answer": "Not to test the washer again. Isolate the appliance safely and have the appliance and installation assessed by the appropriate professional."
+          },
+          {
+            "question": "Can I open a panel to find the fault?",
+            "answer": "No. Electricity, heat and possible leakage make internal inspection unsuitable for a user."
+          },
+          {
+            "question": "Whom should I contact?",
+            "answer": "Siemens service for the washer and a qualified electrician if the socket, cable, protection or fixed installation may be involved."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskinen luktar bränt: säkra kontroller",
+        "meta_description": "Siemens-tvättmaskinen luktar bränt? Se Siemens verifierade orsaker, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Siemens-tvättmaskinen luktar bränt",
+        "description": "Bränd lukt, rök, gnistor eller onormal värme kan tyda på elektrisk eller mekanisk överhettningsrisk och lämpar sig inte för användartest.",
+        "quick_fix": "Stoppa programmet och bryt strömmen endast från en torr säker plats. Starta inte om maskinen; boka kvalificerad service.",
+        "intro_html": "<p>Bränd lukt, rök, gnistor eller onormal värme kan tyda på elektrisk eller mekanisk överhettningsrisk och lämpar sig inte för användartest.</p><p>Stoppa programmet, håll avstånd från rök och bryt strömmen endast om det kan göras säkert; starta inte om maskinen och boka kvalificerad service. Öppna inga paneler, gör inga mätningar och utför inget provprogram.</p>",
+        "causes_json": [
+          {
+            "cause": "Överhettad motor- eller drivkomponent",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Fel i elanslutning, kablage eller styrning",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Friktion från internt mekaniskt fel",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Främmande material eller annan värmekälla som kräver inspektion",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Avbryt omedelbart",
+            "detail": "Stoppa användningen. Vid rök eller brandrisk: håll avstånd, utrym vid behov och ring 112 vid akut fara."
+          },
+          {
+            "step": 2,
+            "action": "Frånkoppla endast säkert",
+            "detail": "Bryt strömmen från en torr säker plats. Rör inte våt eller skadad utrustning och utsätt dig inte för rök."
+          },
+          {
+            "step": 3,
+            "action": "Starta inte om",
+            "detail": "Återställ inte elskyddet för att prova maskinen igen och kör inget testprogram."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera utan beröring",
+            "detail": "Anteckna E‑Nr, programfas, visad kod, var lukten eller ljudet uppstod och vilket elskydd som löste ut."
+          },
+          {
+            "step": 5,
+            "action": "Boka rätt fackhjälp",
+            "detail": "Kontakta Siemens-service för maskinen och behörig elektriker om uttag, kabel, elskydd eller fast installation kan vara berörd."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Den här situationen kräver kvalificerad bedömning innan maskinen används igen. Kontakta Siemens-service; kontakta även behörig elektriker om den fasta installationen eller elskyddet kan vara orsaken.</p><p>Vid aktiv rök, brand, gnistor eller akut fara: håll avstånd, utrym och ring 112.</p>",
+        "prevention_html": "<p>Använd jordat uttag och den anslutning som installationsmanualen kräver. Undvik förlängningssladdar, håll nätkabeln oskadad och åtgärda läckage innan användning.</p><p>Interna el- och mekanikfel kan inte förebyggas genom egen demontering eller provning.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag starta om maskinen för att kontrollera?",
+            "answer": "Nej. Upprepad utlösning eller bränd lukt ska bedömas innan maskinen används igen."
+          },
+          {
+            "question": "Ska jag återställa jordfelsbrytaren?",
+            "answer": "Inte för att prova maskinen igen. Isolera maskinen säkert och låt rätt fackperson bedöma både maskin och installation."
+          },
+          {
+            "question": "Kan jag öppna en panel för att hitta felet?",
+            "answer": "Nej. El, värme och möjliga läckage gör intern kontroll olämplig för användaren."
+          },
+          {
+            "question": "Vem ska jag kontakta?",
+            "answer": "Siemens-service för maskinen och behörig elektriker om uttag, kabel, elskydd eller fast installation kan vara inblandad."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

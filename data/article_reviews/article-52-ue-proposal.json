@@ -1,0 +1,231 @@
+{
+  "article_id": 52,
+  "review_status": "proposal_only_not_applied",
+  "review_date": "2026-07-30",
+  "preserve_unchanged": [
+    "slug",
+    "symptoms_json",
+    "affected_models_json",
+    "translation_status",
+    "source_locale"
+  ],
+  "set_on_approval": [
+    "last_updated"
+  ],
+  "sources": [
+    {
+      "title": "My Samsung washing machine is showing a UE code during a spin cycle. What can I do?",
+      "url": "https://www.samsung.com/uk/support/home-appliances/my-samsung-washing-machine-is-showing-a-ue-code-during-a-spin-cycle-what-can-i-do/"
+    },
+    {
+      "title": "What do the codes on my washing machine mean?",
+      "url": "https://www.samsung.com/uk/support/home-appliances/what-do-the-codes-on-my-washing-machine-mean/"
+    },
+    {
+      "title": "How do I run Calibration Mode on my Samsung washing machine?",
+      "url": "https://www.samsung.com/uk/support/home-appliances/how-do-i-run-calibration-mode-on-my-samsung-washing-machine/"
+    },
+    {
+      "title": "How can I open the door of my washing machine during operation?",
+      "url": "https://www.samsung.com/uk/support/home-appliances/how-can-i-open-the-door-of-my-washing-machine-during-operation/"
+    },
+    {
+      "title": "How to fix UE / UB error in Samsung washing machine",
+      "url": "https://www.samsung.com/in/support/home-appliances/how-to-fix-ue-ub-error-in-samsung-washing-machine/"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title_tag": "Samsung Washing Machine UE Error: Causes and Safe Fixes",
+      "meta_description": "Samsung washer showing UE or Ub? Learn how to rebalance the load, check the cycle limit and level the machine safely, plus when to request service.",
+      "h1": "What Does UE or Ub Mean on a Samsung Washing Machine?",
+      "description": "UE or Ub means the washing machine has detected an unbalanced load and cannot complete the spin normally.",
+      "quick_fix": "Pause the cycle, wait for the drum to stop and the door to unlock, then switch off and unplug the washer before untangling and evenly redistributing the laundry (about 5 minutes).",
+      "intro_html": "<p>A Samsung washing machine displays UE or Ub when it cannot balance the laundry for spinning. The machine may pause while it tries to redistribute the load, then stop the spin or continue at a reduced speed to limit vibration.</p><p>This warning is usually caused by laundry collecting on one side of the drum, a single heavy item, or a load that is too small or too large for the selected programme. It does not normally mean that a part has failed. Codes, programme names and available controls vary by model and market, so use your model's manual when selecting a drain, spin or calibration function.</p>",
+      "causes_json": [
+        {
+          "cause": "Laundry has gathered on one side",
+          "detail": "Towels, jeans, sheets and duvet covers can bunch together or wrap around other items. The drum cannot reach its normal spin speed when the weight remains concentrated in one area."
+        },
+        {
+          "cause": "A single heavy or bulky item",
+          "detail": "A bath mat, large towel, pillow or similar item may become much heavier when wet and have no comparable item to balance it. Samsung advises adding or removing items to create a more even load."
+        },
+        {
+          "cause": "Too little laundry",
+          "detail": "One or two items may not spread evenly around the drum. A small load can therefore trigger UE or Ub even though the washer is well below its maximum capacity."
+        },
+        {
+          "cause": "The programme's load limit has been exceeded",
+          "detail": "The maximum weight can be lower for bedding, delicates and other specialist programmes than for a standard cotton cycle. Check the programme and its stated capacity in the manual for the exact model."
+        },
+        {
+          "cause": "The washer is not level or stable",
+          "detail": "If all feet are not firmly supported on a flat, stable floor, normal drum movement can become excessive during spin. A recently installed or moved machine is particularly worth checking."
+        },
+        {
+          "cause": "A persistent installation, calibration or mechanical problem",
+          "detail": "If UE or Ub occurs repeatedly with different, correctly sized loads, the washer may need model-specific calibration or professional assessment. Internal suspension, sensing or drive faults should be diagnosed by a service technician."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Pause the cycle and wait",
+          "detail": "Press Start/Pause and wait until the drum has stopped completely. Do not force the door; the lock may remain engaged while the washer contains water or while the drum is moving."
+        },
+        {
+          "step": 2,
+          "action": "Drain the washer if the door stays locked",
+          "detail": "Follow the manual for your model to run a drain programme. On many Samsung models this is done by selecting Spin and then choosing No Spin or zero, but the controls differ; once the water has drained, wait for the lock to release."
+        },
+        {
+          "step": 3,
+          "action": "Switch off, unplug and rebalance the laundry",
+          "detail": "After the door unlocks, switch off the washer and unplug it before adjusting the load. Untangle sheets and covers, spread the items evenly, and add or remove suitable items if one wet, heavy piece is sitting alone."
+        },
+        {
+          "step": 4,
+          "action": "Check the programme and weight limit",
+          "detail": "Confirm that the selected programme is suitable for the fabric and load. Use the model's manual rather than a general drum-fill rule, because permitted weights vary by programme and bulky items may have a much lower limit."
+        },
+        {
+          "step": 5,
+          "action": "Check that the washer is stable",
+          "detail": "With the appliance switched off and unplugged, confirm that it stands on a flat, solid surface and that all feet touch the floor. If adjustment is needed, follow the installation section of the model's manual and secure the feet as instructed."
+        },
+        {
+          "step": 6,
+          "action": "Restart and observe the spin",
+          "detail": "Reconnect the washer and try the appropriate spin or wash programme with the corrected load. Stop the machine if it moves across the floor, strikes the cabinet heavily or makes grinding or rumbling noises."
+        },
+        {
+          "step": 7,
+          "action": "Use model-specific calibration or request service",
+          "detail": "If the code returns after installation or moving, check whether the manual specifies an empty-drum calibration cycle; do not use a generic button combination. If UE or Ub continues with several balanced loads, contact a service technician and do not remove any panels yourself."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Request service if UE or Ub returns with several correctly sized, evenly distributed loads after the washer has been levelled and, where specified by the manual, calibrated. Also stop using the washer if the drum or cabinet moves excessively, the appliance walks across the floor, or you hear persistent grinding, scraping or heavy impacts.</p><p>A technician should assess internal suspension, sensing, bearing or drive components. Do not remove the front, rear or top panels to inspect springs, dampers or electronics yourself. UE or Ub alone does not identify a failed part, so a part should not be ordered without diagnosis.</p>",
+      "prevention_html": "<p>Mix large and small items so that wet laundry can distribute around the drum, and avoid washing one absorbent, heavy item by itself. Untangle sheets and duvet covers before loading them.</p><p>Choose a programme suitable for the load and stay within the programme-specific weight limit in the model's manual. Keep the washer on a flat, stable surface, check that its feet remain secure, and run calibration only when the manual recommends it, such as after installation or moving.</p>",
+      "faq_json": [
+        {
+          "question": "Are UE and Ub the same Samsung washing machine warning?",
+          "answer": "Both codes indicate that the load in the drum is unbalanced. The code shown varies between models and markets, so confirm the wording in the manual for your exact model."
+        },
+        {
+          "question": "What should I do if the door stays locked after UE appears?",
+          "answer": "Do not force the door. Run the drain function described in the model's manual; on many Samsung machines this uses the Spin programme with No Spin or zero selected, and the door can unlock after the water has drained."
+        },
+        {
+          "question": "Should I calibrate the washer after a UE or Ub code?",
+          "answer": "Calibration may help after installation or moving, or when the model's manual specifically recommends it. The controls differ between models, so empty the drum and follow only the instructions for your machine rather than a generic button combination."
+        },
+        {
+          "question": "Why does UE return when the load looks balanced?",
+          "answer": "Check the selected programme's weight limit and confirm that the appliance is level on a stable floor. If the warning returns with several different, correctly sized loads, stop troubleshooting internally and arrange professional assessment."
+        },
+        {
+          "question": "Do I need to buy a replacement part for a UE error?",
+          "answer": "Usually not. UE or Ub is normally resolved by correcting the load, programme choice or installation; parts should be considered only if a service technician diagnoses a persistent mechanical or sensing fault."
+        }
+      ],
+      "parts_json": []
+    },
+    "sv": {
+      "title_tag": "Samsung tvättmaskin felkod UE: orsaker och säkra råd",
+      "meta_description": "Visar Samsung-tvättmaskinen UE eller Ub? Så balanserar du tvätten, kontrollerar programmets viktgräns och ser när det är dags att boka service.",
+      "h1": "Vad betyder UE eller Ub på en Samsung-tvättmaskin?",
+      "description": "UE eller Ub betyder att tvättmaskinen har upptäckt en obalanserad last och inte kan slutföra centrifugeringen normalt.",
+      "quick_fix": "Pausa programmet, vänta tills trumman stannat och luckan låsts upp, stäng sedan av maskinen och dra ur kontakten innan du reder ut och fördelar tvätten jämnt (cirka 5 minuter).",
+      "intro_html": "<p>En Samsung-tvättmaskin visar UE eller Ub när den inte lyckas balansera tvätten inför centrifugeringen. Maskinen kan pausa medan den försöker fördela lasten och därefter avbryta centrifugeringen eller fortsätta med lägre varvtal för att begränsa vibrationerna.</p><p>Varningen beror oftast på att tvätten har samlats på ena sidan av trumman, att ett ensamt tungt plagg ligger i maskinen eller att lasten är för liten eller för stor för det valda programmet. Den betyder normalt inte att en komponent är trasig. Koder, programnamn och reglage varierar mellan modeller och marknader. Följ därför manualen för din modell när du väljer tömning, centrifugering eller kalibrering.</p>",
+      "causes_json": [
+        {
+          "cause": "Tvätten har samlats på ena sidan",
+          "detail": "Handdukar, jeans, lakan och påslakan kan klumpa ihop sig eller snurra in sig i andra plagg. Trumman kan inte nå normalt centrifugeringsvarvtal när vikten ligger koncentrerad till en del av trumman."
+        },
+        {
+          "cause": "Ett ensamt tungt eller skrymmande plagg",
+          "detail": "En badrumsmatta, stor handduk, kudde eller liknande kan bli mycket tung när den är våt och sakna ett jämnt motstycke. Samsung rekommenderar att man lägger till eller tar bort plagg så att lasten blir bättre balanserad."
+        },
+        {
+          "cause": "För lite tvätt",
+          "detail": "Ett eller två plagg fördelas inte alltid jämnt runt trumman. En liten last kan därför utlösa UE eller Ub trots att maskinen är långt ifrån sin maximala kapacitet."
+        },
+        {
+          "cause": "Programmets viktgräns har överskridits",
+          "detail": "Den tillåtna vikten kan vara lägre för sängkläder, fintvätt och andra specialprogram än för ett vanligt bomullsprogram. Kontrollera programmet och dess angivna kapacitet i manualen för den exakta modellen."
+        },
+        {
+          "cause": "Maskinen står inte plant och stabilt",
+          "detail": "Om alla fötter inte vilar stadigt mot ett plant och stabilt golv kan trummans normala rörelser förstärkas under centrifugeringen. Det är särskilt viktigt att kontrollera en nyligen installerad eller flyttad maskin."
+        },
+        {
+          "cause": "Ett kvarstående installations-, kalibrerings- eller mekaniskt problem",
+          "detail": "Om UE eller Ub återkommer med flera olika laster av rätt storlek kan maskinen behöva modellspecifik kalibrering eller professionell bedömning. Fel i upphängning, avkänning eller drivsystem ska diagnostiseras av en servicetekniker."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Pausa programmet och vänta",
+          "detail": "Tryck på Start/Paus och vänta tills trumman har stannat helt. Tvinga inte upp luckan; låset kan förbli aktiverat medan det finns vatten i maskinen eller trumman fortfarande rör sig."
+        },
+        {
+          "step": 2,
+          "action": "Töm maskinen om luckan förblir låst",
+          "detail": "Följ manualen för din modell och kör ett tömningsprogram. På många Samsung-modeller görs det genom att välja Centrifugering och därefter Ingen centrifugering eller noll, men reglagen varierar; vänta tills vattnet har tömts och lucklåset släpper."
+        },
+        {
+          "step": 3,
+          "action": "Stäng av, dra ur kontakten och balansera tvätten",
+          "detail": "När luckan har låsts upp stänger du av maskinen och drar ur kontakten innan du justerar lasten. Red ut lakan och påslakan, fördela plaggen jämnt och lägg till eller ta bort lämpliga plagg om ett ensamt vått och tungt plagg ligger i trumman."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera program och viktgräns",
+          "detail": "Kontrollera att programmet är avsett för materialet och lasten. Använd modellens manual i stället för en generell regel om hur full trumman får vara, eftersom viktgränsen varierar mellan program och ofta är betydligt lägre för skrymmande tvätt."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera att maskinen står stabilt",
+          "detail": "Med maskinen avstängd och urkopplad kontrollerar du att den står på ett plant, fast underlag och att alla fötter har kontakt med golvet. Om något behöver justeras följer du installationsavsnittet i modellens manual och låser fötterna enligt anvisningarna."
+        },
+        {
+          "step": 6,
+          "action": "Starta om och observera centrifugeringen",
+          "detail": "Anslut maskinen igen och prova ett lämpligt centrifugerings- eller tvättprogram med den korrigerade lasten. Stoppa maskinen om den förflyttar sig över golvet, slår kraftigt i höljet eller ger ihållande skrapande eller mullrande ljud."
+        },
+        {
+          "step": 7,
+          "action": "Använd modellspecifik kalibrering eller boka service",
+          "detail": "Om koden återkommer efter installation eller flytt kontrollerar du om manualen anger en kalibreringskörning med tom trumma; använd inte en generell knappkombination. Om UE eller Ub fortsätter med flera balanserade laster kontaktar du en servicetekniker och tar inte själv bort några paneler."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Boka service om UE eller Ub återkommer med flera korrekt fyllda och jämnt fördelade laster efter att maskinen har ställts plant och, om manualen anger det, kalibrerats. Sluta också använda maskinen om trumman eller höljet rör sig onormalt mycket, maskinen vandrar över golvet eller du hör ihållande skrapningar, mullrande ljud eller kraftiga slag.</p><p>En servicetekniker bör bedöma interna delar i upphängning, avkänning, lager eller drivsystem. Ta inte själv bort front-, bak- eller toppanelen för att kontrollera fjädrar, stötdämpare eller elektronik. UE eller Ub pekar inte ut en bestämd trasig del, så beställ ingen reservdel utan diagnos.</p>",
+      "prevention_html": "<p>Blanda stora och små plagg så att den våta tvätten kan fördela sig runt trumman, och undvik att tvätta ett ensamt absorberande och tungt plagg. Red ut lakan och påslakan innan du lägger dem i maskinen.</p><p>Välj ett program som passar lasten och håll dig till den programspecifika viktgränsen i modellens manual. Låt maskinen stå på ett plant och stabilt underlag, kontrollera att fötterna sitter stadigt och kör endast kalibrering när manualen rekommenderar det, till exempel efter installation eller flytt.</p>",
+      "faq_json": [
+        {
+          "question": "Är UE och Ub samma varning på en Samsung-tvättmaskin?",
+          "answer": "Båda koderna betyder att lasten i trumman är obalanserad. Vilken kod som visas varierar mellan modeller och marknader, så kontrollera formuleringen i manualen för din exakta modell."
+        },
+        {
+          "question": "Vad gör jag om luckan förblir låst när UE visas?",
+          "answer": "Tvinga inte upp luckan. Kör tömningsfunktionen enligt modellens manual; på många Samsung-maskiner väljer man Centrifugering och därefter Ingen centrifugering eller noll, och luckan kan låsas upp när vattnet har tömts."
+        },
+        {
+          "question": "Ska jag kalibrera tvättmaskinen efter UE eller Ub?",
+          "answer": "Kalibrering kan vara relevant efter installation eller flytt, eller när manualen för modellen uttryckligen rekommenderar den. Reglagen skiljer sig mellan modeller, så töm trumman och följ bara anvisningarna för din maskin i stället för en generell knappkombination."
+        },
+        {
+          "question": "Varför återkommer UE trots att tvätten ser jämnt fördelad ut?",
+          "answer": "Kontrollera viktgränsen för det valda programmet och att maskinen står plant på ett stabilt golv. Om varningen återkommer med flera olika laster av rätt storlek ska du avstå från intern felsökning och låta en servicetekniker bedöma maskinen."
+        },
+        {
+          "question": "Behöver jag köpa en reservdel när maskinen visar UE?",
+          "answer": "Vanligtvis inte. UE eller Ub går normalt att hantera genom att korrigera lasten, programvalet eller installationen; en reservdel blir aktuell först om en servicetekniker konstaterar ett kvarstående mekaniskt fel eller avkänningsfel."
+        }
+      ],
+      "parts_json": []
+    }
+  }
+}

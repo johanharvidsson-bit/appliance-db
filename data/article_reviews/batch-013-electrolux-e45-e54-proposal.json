@@ -1,0 +1,883 @@
+{
+  "batch": "013-electrolux-e45-e54",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    261,
+    262,
+    263,
+    264,
+    265
+  ],
+  "sources": [
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-displays-error-message-e50",
+    "https://tds.electrolux.com/others/599/705/670EN.PDF",
+    "https://tds.electrolux.com/others/599/724/080EN.PDF"
+  ],
+  "translations": {
+    "261": {
+      "code": "E45",
+      "preserve": {
+        "en_slug": "error-code-e45",
+        "sv_slug": "felkod-e45"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E45: Stop and Service",
+        "meta_description": "Electrolux washer showing E45? Check the verified meaning, how to make the washer safe and why authorised service is required.",
+        "h1": "What Does E45 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E45 as a fault in the sensing circuit for the electronic component that operates the door interlock.",
+        "quick_fix": "Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E45 as a fault in the sensing circuit for the electronic component that operates the door interlock.</p><p>Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels. This is an internal lock, motor or control fault, not a prompt for a user to measure or replace parts.</p>",
+        "causes_json": [
+          {
+            "cause": "Door-interlock sensing circuit",
+            "detail": "Electrolux identifies an incorrect signal in the circuit that operates the door interlock."
+          },
+          {
+            "cause": "Control board",
+            "detail": "Service documentation places diagnosis in internal electronics and requires the correct PNC and platform."
+          },
+          {
+            "cause": "Internal wiring or connection",
+            "detail": "Connections behind panels must be checked only by a trained technician."
+          },
+          {
+            "cause": "Persistent safety interlock",
+            "detail": "Never bypass or force the door lock to run the washer."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or attempt another programme."
+          },
+          {
+            "step": 2,
+            "action": "Switch off and disconnect",
+            "detail": "Unplug with dry hands if the outlet and area are dry. Otherwise isolate power safely elsewhere."
+          },
+          {
+            "step": 3,
+            "action": "Turn off the water tap",
+            "detail": "Leave the washer switched off and without a water supply until assessed."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E45 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 5,
+            "action": "Do not restart",
+            "detail": "A reset is not proof that a motor, lock or electrical control fault is safe."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Provide the PNC, code and programme stage. Do not remove panels or test the motor, lock, wiring or board."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E45 requires authorised Electrolux service. Leave the washer switched off and disconnected until professionally inspected.</p><p>Stop immediately and isolate power safely for a burning smell, smoke, abnormal heat, leakage near electricity or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, installation and maintenance for the exact PNC and stop the washer when a motor or lock fault appears.</p><p>Internal electronic, relay and sensor faults cannot be safely prevented or diagnosed by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E45?",
+            "answer": "Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E45 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E45 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E45: stoppa och boka service",
+        "meta_description": "Visar Electrolux-tvättmaskinen E45? Läs verifierad betydelse, hur maskinen säkras och varför auktoriserad service krävs.",
+        "h1": "Vad betyder E45 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e45 är ett fel i avkänningskretsen för den elektroniska komponent som aktiverar lucklåset.",
+        "quick_fix": "Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e45 är ett fel i avkänningskretsen för den elektroniska komponent som aktiverar lucklåset.</p><p>Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler. Koden gäller ett internt lås-, motor- eller styrfel och är inte en uppmaning till användaren att mäta eller byta delar.</p>",
+        "causes_json": [
+          {
+            "cause": "Lucklåsets avkänningskrets",
+            "detail": "Electrolux anger att fel signal når styrsystemet från kretsen som aktiverar lucklåset."
+          },
+          {
+            "cause": "Styrkort",
+            "detail": "Servicedokumentationen placerar diagnosen i intern elektronik och kräver rätt PNC och plattform."
+          },
+          {
+            "cause": "Internt kablage eller anslutning",
+            "detail": "Anslutningar bakom paneler ska endast kontrolleras av utbildad tekniker."
+          },
+          {
+            "cause": "Kvarstående säkerhetsspärr",
+            "detail": "Lucklåset får aldrig förbikopplas eller tvingas för att köra maskinen."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp luckan och försök inte starta ett nytt program."
+          },
+          {
+            "step": 2,
+            "action": "Stäng av och koppla ur",
+            "detail": "Dra ur kontakten med torra händer om uttag och område är torra. Bryt annars strömmen säkert på annan plats."
+          },
+          {
+            "step": 3,
+            "action": "Stäng vattenkranen",
+            "detail": "Lämna maskinen avstängd och utan vattentillförsel tills den har bedömts."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E45-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 5,
+            "action": "Starta inte om",
+            "detail": "En återställning är inte bevis på att ett motor-, lås- eller elektriskt styrfel är säkert."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Uppge PNC, kod och programfas. Ta inte bort paneler och testa inte motor, lås, kablage eller kort."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E45 kräver auktoriserad Electrolux-service. Lämna maskinen avstängd och bortkopplad tills den är professionellt kontrollerad.</p><p>Avbryt omedelbart och isolera strömmen säkert vid bränd lukt, rök, onormal värme, läckage nära el eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, installation och underhåll för exakt PNC och stoppa maskinen när ett motor- eller låsfel visas.</p><p>Interna elektroniska fel, reläfel och givarfel kan inte förebyggas eller diagnostiseras säkert med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E45?",
+            "answer": "Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E45 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E45 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "262": {
+      "code": "E50",
+      "preserve": {
+        "en_slug": "error-code-e50",
+        "sv_slug": "felkod-e50"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E50: Stop and Service",
+        "meta_description": "Electrolux washer showing E50? Check the verified meaning, how to make the washer safe and why authorised service is required.",
+        "h1": "What Does E50 Mean on an Electrolux Washing Machine?",
+        "description": "Electrolux identifies E50 as a motor-fault family and advises stopping use until an authorised technician has repaired the appliance.",
+        "quick_fix": "Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels (about 5 minutes).",
+        "intro_html": "<p>Electrolux identifies E50 as a motor-fault family and advises stopping use until an authorised technician has repaired the appliance.</p><p>Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels. This is an internal lock, motor or control fault, not a prompt for a user to measure or replace parts.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor or drive circuit",
+            "detail": "Electrolux identifies E50 as a motor-fault family and advises stopping use until an authorised technician has repaired the appliance."
+          },
+          {
+            "cause": "Internal wiring",
+            "detail": "Damaged or incorrect connections can affect motor control and feedback."
+          },
+          {
+            "cause": "Control board or power electronics",
+            "detail": "E51 and E54 concern electrical switching states that require safe measurement."
+          },
+          {
+            "cause": "Motor or tachometer",
+            "detail": "E52 concerns missing speed feedback; the code alone does not confirm which part needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or attempt another programme."
+          },
+          {
+            "step": 2,
+            "action": "Switch off and disconnect",
+            "detail": "Unplug with dry hands if the outlet and area are dry. Otherwise isolate power safely elsewhere."
+          },
+          {
+            "step": 3,
+            "action": "Turn off the water tap",
+            "detail": "Leave the washer switched off and without a water supply until assessed."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E50 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 5,
+            "action": "Do not restart",
+            "detail": "A reset is not proof that a motor, lock or electrical control fault is safe."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Provide the PNC, code and programme stage. Do not remove panels or test the motor, lock, wiring or board."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E50 requires authorised Electrolux service. Leave the washer switched off and disconnected until professionally inspected.</p><p>Stop immediately and isolate power safely for a burning smell, smoke, abnormal heat, leakage near electricity or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, installation and maintenance for the exact PNC and stop the washer when a motor or lock fault appears.</p><p>Internal electronic, relay and sensor faults cannot be safely prevented or diagnosed by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E50?",
+            "answer": "Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E50 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E50 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E50: stoppa och boka service",
+        "meta_description": "Visar Electrolux-tvättmaskinen E50? Läs verifierad betydelse, hur maskinen säkras och varför auktoriserad service krävs.",
+        "h1": "Vad betyder E50 på en Electrolux-tvättmaskin?",
+        "description": "Electrolux anger att e50 tillhör motorfelen och rekommenderar att apparaten inte används innan en auktoriserad tekniker har reparerat den.",
+        "quick_fix": "Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler (cirka 5 minuter).",
+        "intro_html": "<p>Electrolux anger att e50 tillhör motorfelen och rekommenderar att apparaten inte används innan en auktoriserad tekniker har reparerat den.</p><p>Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler. Koden gäller ett internt lås-, motor- eller styrfel och är inte en uppmaning till användaren att mäta eller byta delar.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor- eller drivkrets",
+            "detail": "Electrolux anger att e50 tillhör motorfelen och rekommenderar att apparaten inte används innan en auktoriserad tekniker har reparerat den."
+          },
+          {
+            "cause": "Internt kablage",
+            "detail": "Skadade eller felaktiga anslutningar kan påverka motorstyrning och återkoppling."
+          },
+          {
+            "cause": "Styrkort eller effektelektronik",
+            "detail": "E51 och E54 gäller elektriska kopplingstillstånd som kräver säker mätning."
+          },
+          {
+            "cause": "Motor eller varvtalsgivare",
+            "detail": "E52 gäller utebliven återkopplingssignal; koden ensam bekräftar inte vilken del som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp luckan och försök inte starta ett nytt program."
+          },
+          {
+            "step": 2,
+            "action": "Stäng av och koppla ur",
+            "detail": "Dra ur kontakten med torra händer om uttag och område är torra. Bryt annars strömmen säkert på annan plats."
+          },
+          {
+            "step": 3,
+            "action": "Stäng vattenkranen",
+            "detail": "Lämna maskinen avstängd och utan vattentillförsel tills den har bedömts."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E50-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 5,
+            "action": "Starta inte om",
+            "detail": "En återställning är inte bevis på att ett motor-, lås- eller elektriskt styrfel är säkert."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Uppge PNC, kod och programfas. Ta inte bort paneler och testa inte motor, lås, kablage eller kort."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E50 kräver auktoriserad Electrolux-service. Lämna maskinen avstängd och bortkopplad tills den är professionellt kontrollerad.</p><p>Avbryt omedelbart och isolera strömmen säkert vid bränd lukt, rök, onormal värme, läckage nära el eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, installation och underhåll för exakt PNC och stoppa maskinen när ett motor- eller låsfel visas.</p><p>Interna elektroniska fel, reläfel och givarfel kan inte förebyggas eller diagnostiseras säkert med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E50?",
+            "answer": "Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E50 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E50 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "263": {
+      "code": "E51",
+      "preserve": {
+        "en_slug": "error-code-e51",
+        "sv_slug": "felkod-e51"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E51: Stop and Service",
+        "meta_description": "Electrolux washer showing E51? Check the verified meaning, how to make the washer safe and why authorised service is required.",
+        "h1": "What Does E51 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E51 as a short-circuited motor power-control triac or related motor, wiring or control-board fault.",
+        "quick_fix": "Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E51 as a short-circuited motor power-control triac or related motor, wiring or control-board fault.</p><p>Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels. This is an internal lock, motor or control fault, not a prompt for a user to measure or replace parts.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor or drive circuit",
+            "detail": "Official Electrolux service documentation identifies E51 as a short-circuited motor power-control triac or related motor, wiring or control-board fault."
+          },
+          {
+            "cause": "Internal wiring",
+            "detail": "Damaged or incorrect connections can affect motor control and feedback."
+          },
+          {
+            "cause": "Control board or power electronics",
+            "detail": "E51 and E54 concern electrical switching states that require safe measurement."
+          },
+          {
+            "cause": "Motor or tachometer",
+            "detail": "E52 concerns missing speed feedback; the code alone does not confirm which part needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or attempt another programme."
+          },
+          {
+            "step": 2,
+            "action": "Switch off and disconnect",
+            "detail": "Unplug with dry hands if the outlet and area are dry. Otherwise isolate power safely elsewhere."
+          },
+          {
+            "step": 3,
+            "action": "Turn off the water tap",
+            "detail": "Leave the washer switched off and without a water supply until assessed."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E51 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 5,
+            "action": "Do not restart",
+            "detail": "A reset is not proof that a motor, lock or electrical control fault is safe."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Provide the PNC, code and programme stage. Do not remove panels or test the motor, lock, wiring or board."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E51 requires authorised Electrolux service. Leave the washer switched off and disconnected until professionally inspected.</p><p>Stop immediately and isolate power safely for a burning smell, smoke, abnormal heat, leakage near electricity or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, installation and maintenance for the exact PNC and stop the washer when a motor or lock fault appears.</p><p>Internal electronic, relay and sensor faults cannot be safely prevented or diagnosed by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E51?",
+            "answer": "Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E51 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E51 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E51: stoppa och boka service",
+        "meta_description": "Visar Electrolux-tvättmaskinen E51? Läs verifierad betydelse, hur maskinen säkras och varför auktoriserad service krävs.",
+        "h1": "Vad betyder E51 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e51 betyder kortsluten effekttriac för motorn eller relaterat fel i motor, kablage eller styrkort.",
+        "quick_fix": "Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e51 betyder kortsluten effekttriac för motorn eller relaterat fel i motor, kablage eller styrkort.</p><p>Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler. Koden gäller ett internt lås-, motor- eller styrfel och är inte en uppmaning till användaren att mäta eller byta delar.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor- eller drivkrets",
+            "detail": "Officiell electrolux-servicedokumentation anger att e51 betyder kortsluten effekttriac för motorn eller relaterat fel i motor, kablage eller styrkort."
+          },
+          {
+            "cause": "Internt kablage",
+            "detail": "Skadade eller felaktiga anslutningar kan påverka motorstyrning och återkoppling."
+          },
+          {
+            "cause": "Styrkort eller effektelektronik",
+            "detail": "E51 och E54 gäller elektriska kopplingstillstånd som kräver säker mätning."
+          },
+          {
+            "cause": "Motor eller varvtalsgivare",
+            "detail": "E52 gäller utebliven återkopplingssignal; koden ensam bekräftar inte vilken del som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp luckan och försök inte starta ett nytt program."
+          },
+          {
+            "step": 2,
+            "action": "Stäng av och koppla ur",
+            "detail": "Dra ur kontakten med torra händer om uttag och område är torra. Bryt annars strömmen säkert på annan plats."
+          },
+          {
+            "step": 3,
+            "action": "Stäng vattenkranen",
+            "detail": "Lämna maskinen avstängd och utan vattentillförsel tills den har bedömts."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E51-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 5,
+            "action": "Starta inte om",
+            "detail": "En återställning är inte bevis på att ett motor-, lås- eller elektriskt styrfel är säkert."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Uppge PNC, kod och programfas. Ta inte bort paneler och testa inte motor, lås, kablage eller kort."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E51 kräver auktoriserad Electrolux-service. Lämna maskinen avstängd och bortkopplad tills den är professionellt kontrollerad.</p><p>Avbryt omedelbart och isolera strömmen säkert vid bränd lukt, rök, onormal värme, läckage nära el eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, installation och underhåll för exakt PNC och stoppa maskinen när ett motor- eller låsfel visas.</p><p>Interna elektroniska fel, reläfel och givarfel kan inte förebyggas eller diagnostiseras säkert med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E51?",
+            "answer": "Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E51 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E51 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "264": {
+      "code": "E52",
+      "preserve": {
+        "en_slug": "error-code-e52",
+        "sv_slug": "felkod-e52"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E52: Stop and Service",
+        "meta_description": "Electrolux washer showing E52? Check the verified meaning, how to make the washer safe and why authorised service is required.",
+        "h1": "What Does E52 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E52 as no signal from the motor tachometer generator, with possible motor, wiring or control-board causes.",
+        "quick_fix": "Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E52 as no signal from the motor tachometer generator, with possible motor, wiring or control-board causes.</p><p>Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels. This is an internal lock, motor or control fault, not a prompt for a user to measure or replace parts.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor or drive circuit",
+            "detail": "Official Electrolux service documentation identifies E52 as no signal from the motor tachometer generator, with possible motor, wiring or control-board causes."
+          },
+          {
+            "cause": "Internal wiring",
+            "detail": "Damaged or incorrect connections can affect motor control and feedback."
+          },
+          {
+            "cause": "Control board or power electronics",
+            "detail": "E51 and E54 concern electrical switching states that require safe measurement."
+          },
+          {
+            "cause": "Motor or tachometer",
+            "detail": "E52 concerns missing speed feedback; the code alone does not confirm which part needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or attempt another programme."
+          },
+          {
+            "step": 2,
+            "action": "Switch off and disconnect",
+            "detail": "Unplug with dry hands if the outlet and area are dry. Otherwise isolate power safely elsewhere."
+          },
+          {
+            "step": 3,
+            "action": "Turn off the water tap",
+            "detail": "Leave the washer switched off and without a water supply until assessed."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E52 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 5,
+            "action": "Do not restart",
+            "detail": "A reset is not proof that a motor, lock or electrical control fault is safe."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Provide the PNC, code and programme stage. Do not remove panels or test the motor, lock, wiring or board."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E52 requires authorised Electrolux service. Leave the washer switched off and disconnected until professionally inspected.</p><p>Stop immediately and isolate power safely for a burning smell, smoke, abnormal heat, leakage near electricity or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, installation and maintenance for the exact PNC and stop the washer when a motor or lock fault appears.</p><p>Internal electronic, relay and sensor faults cannot be safely prevented or diagnosed by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E52?",
+            "answer": "Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E52 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E52 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E52: stoppa och boka service",
+        "meta_description": "Visar Electrolux-tvättmaskinen E52? Läs verifierad betydelse, hur maskinen säkras och varför auktoriserad service krävs.",
+        "h1": "Vad betyder E52 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e52 betyder att signal saknas från motorns varvtalsgivare, med möjliga orsaker i motor, kablage eller styrkort.",
+        "quick_fix": "Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e52 betyder att signal saknas från motorns varvtalsgivare, med möjliga orsaker i motor, kablage eller styrkort.</p><p>Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler. Koden gäller ett internt lås-, motor- eller styrfel och är inte en uppmaning till användaren att mäta eller byta delar.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor- eller drivkrets",
+            "detail": "Officiell electrolux-servicedokumentation anger att e52 betyder att signal saknas från motorns varvtalsgivare, med möjliga orsaker i motor, kablage eller styrkort."
+          },
+          {
+            "cause": "Internt kablage",
+            "detail": "Skadade eller felaktiga anslutningar kan påverka motorstyrning och återkoppling."
+          },
+          {
+            "cause": "Styrkort eller effektelektronik",
+            "detail": "E51 och E54 gäller elektriska kopplingstillstånd som kräver säker mätning."
+          },
+          {
+            "cause": "Motor eller varvtalsgivare",
+            "detail": "E52 gäller utebliven återkopplingssignal; koden ensam bekräftar inte vilken del som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp luckan och försök inte starta ett nytt program."
+          },
+          {
+            "step": 2,
+            "action": "Stäng av och koppla ur",
+            "detail": "Dra ur kontakten med torra händer om uttag och område är torra. Bryt annars strömmen säkert på annan plats."
+          },
+          {
+            "step": 3,
+            "action": "Stäng vattenkranen",
+            "detail": "Lämna maskinen avstängd och utan vattentillförsel tills den har bedömts."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E52-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 5,
+            "action": "Starta inte om",
+            "detail": "En återställning är inte bevis på att ett motor-, lås- eller elektriskt styrfel är säkert."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Uppge PNC, kod och programfas. Ta inte bort paneler och testa inte motor, lås, kablage eller kort."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E52 kräver auktoriserad Electrolux-service. Lämna maskinen avstängd och bortkopplad tills den är professionellt kontrollerad.</p><p>Avbryt omedelbart och isolera strömmen säkert vid bränd lukt, rök, onormal värme, läckage nära el eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, installation och underhåll för exakt PNC och stoppa maskinen när ett motor- eller låsfel visas.</p><p>Interna elektroniska fel, reläfel och givarfel kan inte förebyggas eller diagnostiseras säkert med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E52?",
+            "answer": "Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E52 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E52 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "265": {
+      "code": "E54",
+      "preserve": {
+        "en_slug": "error-code-e54",
+        "sv_slug": "felkod-e54"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Error E54: Stop and Service",
+        "meta_description": "Electrolux washer showing E54? Check the verified meaning, how to make the washer safe and why authorised service is required.",
+        "h1": "What Does E54 Mean on an Electrolux Washing Machine?",
+        "description": "Official Electrolux service documentation identifies E54 as motor-relay contacts sticking, with voltage potentially present in the motor circuit when it should be inactive.",
+        "quick_fix": "Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels (about 5 minutes).",
+        "intro_html": "<p>Official Electrolux service documentation identifies E54 as motor-relay contacts sticking, with voltage potentially present in the motor circuit when it should be inactive.</p><p>Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels. This is an internal lock, motor or control fault, not a prompt for a user to measure or replace parts.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor or drive circuit",
+            "detail": "Official Electrolux service documentation identifies E54 as motor-relay contacts sticking, with voltage potentially present in the motor circuit when it should be inactive."
+          },
+          {
+            "cause": "Internal wiring",
+            "detail": "Damaged or incorrect connections can affect motor control and feedback."
+          },
+          {
+            "cause": "Control board or power electronics",
+            "detail": "E51 and E54 concern electrical switching states that require safe measurement."
+          },
+          {
+            "cause": "Motor or tachometer",
+            "detail": "E52 concerns missing speed feedback; the code alone does not confirm which part needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Wait for the drum to stop. Do not force the door or attempt another programme."
+          },
+          {
+            "step": 2,
+            "action": "Switch off and disconnect",
+            "detail": "Unplug with dry hands if the outlet and area are dry. Otherwise isolate power safely elsewhere."
+          },
+          {
+            "step": 3,
+            "action": "Turn off the water tap",
+            "detail": "Leave the washer switched off and without a water supply until assessed."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and PNC",
+            "detail": "Photograph the complete E54 display and note the PNC/product number from the rating plate."
+          },
+          {
+            "step": 5,
+            "action": "Do not restart",
+            "detail": "A reset is not proof that a motor, lock or electrical control fault is safe."
+          },
+          {
+            "step": 6,
+            "action": "Arrange authorised service",
+            "detail": "Provide the PNC, code and programme stage. Do not remove panels or test the motor, lock, wiring or board."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E54 requires authorised Electrolux service. Leave the washer switched off and disconnected until professionally inspected.</p><p>Stop immediately and isolate power safely for a burning smell, smoke, abnormal heat, leakage near electricity or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, installation and maintenance for the exact PNC and stop the washer when a motor or lock fault appears.</p><p>Internal electronic, relay and sensor faults cannot be safely prevented or diagnosed by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E54?",
+            "answer": "Switch off, unplug, turn off the water tap and arrange authorised Electrolux service; do not use the washer or remove any panels. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E54 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E54 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskin felkod E54: stoppa och boka service",
+        "meta_description": "Visar Electrolux-tvättmaskinen E54? Läs verifierad betydelse, hur maskinen säkras och varför auktoriserad service krävs.",
+        "h1": "Vad betyder E54 på en Electrolux-tvättmaskin?",
+        "description": "Officiell electrolux-servicedokumentation anger att e54 betyder att motorreläets kontakter har fastnat och att spänning kan finnas i motorkretsen när den ska vara inaktiv.",
+        "quick_fix": "Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler (cirka 5 minuter).",
+        "intro_html": "<p>Officiell electrolux-servicedokumentation anger att e54 betyder att motorreläets kontakter har fastnat och att spänning kan finnas i motorkretsen när den ska vara inaktiv.</p><p>Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler. Koden gäller ett internt lås-, motor- eller styrfel och är inte en uppmaning till användaren att mäta eller byta delar.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor- eller drivkrets",
+            "detail": "Officiell electrolux-servicedokumentation anger att e54 betyder att motorreläets kontakter har fastnat och att spänning kan finnas i motorkretsen när den ska vara inaktiv."
+          },
+          {
+            "cause": "Internt kablage",
+            "detail": "Skadade eller felaktiga anslutningar kan påverka motorstyrning och återkoppling."
+          },
+          {
+            "cause": "Styrkort eller effektelektronik",
+            "detail": "E51 och E54 gäller elektriska kopplingstillstånd som kräver säker mätning."
+          },
+          {
+            "cause": "Motor eller varvtalsgivare",
+            "detail": "E52 gäller utebliven återkopplingssignal; koden ensam bekräftar inte vilken del som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp luckan och försök inte starta ett nytt program."
+          },
+          {
+            "step": 2,
+            "action": "Stäng av och koppla ur",
+            "detail": "Dra ur kontakten med torra händer om uttag och område är torra. Bryt annars strömmen säkert på annan plats."
+          },
+          {
+            "step": 3,
+            "action": "Stäng vattenkranen",
+            "detail": "Lämna maskinen avstängd och utan vattentillförsel tills den har bedömts."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och PNC",
+            "detail": "Fotografera hela E54-visningen och notera PNC-/produktnummer från typskylten."
+          },
+          {
+            "step": 5,
+            "action": "Starta inte om",
+            "detail": "En återställning är inte bevis på att ett motor-, lås- eller elektriskt styrfel är säkert."
+          },
+          {
+            "step": 6,
+            "action": "Boka auktoriserad service",
+            "detail": "Uppge PNC, kod och programfas. Ta inte bort paneler och testa inte motor, lås, kablage eller kort."
+          }
+        ],
+        "when_to_call_technician_html": "<p>E54 kräver auktoriserad Electrolux-service. Lämna maskinen avstängd och bortkopplad tills den är professionellt kontrollerad.</p><p>Avbryt omedelbart och isolera strömmen säkert vid bränd lukt, rök, onormal värme, läckage nära el eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, installation och underhåll för exakt PNC och stoppa maskinen när ett motor- eller låsfel visas.</p><p>Interna elektroniska fel, reläfel och givarfel kan inte förebyggas eller diagnostiseras säkert med användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E54?",
+            "answer": "Stäng av, dra ur kontakten, stäng vattenkranen och boka auktoriserad Electrolux-service; använd inte maskinen och öppna inga paneler. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E54 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E54 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

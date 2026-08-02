@@ -23,7 +23,15 @@ def main()->None:
   batch=d["batch"]
   exact=BASE_DIR/"data/backups/article_reviews"/f"batch-{batch.removeprefix('batch-')}-before.json"
   timestamped=list((BASE_DIR/"data/backups/article_reviews").glob(f"{batch.removeprefix('batch-')}-before-*.json"))+list((BASE_DIR/"data/backups/article_reviews").glob(f"{batch}-before-*.json"))
-  batch_backup[batch]={"exact_before":exact.exists(),"timestamped_after_apply":bool(timestamped)}
+  timestamped_before_snapshot_found=bool(timestamped)
+  batch_backup[batch]={
+   "exact_before":exact.exists(),
+   "timestamped_before_snapshot_found":timestamped_before_snapshot_found,
+   # Deprecated compatibility alias: this indicates a timestamped before-state
+   # snapshot, not successful application or post-write verification.
+   "timestamped_after_apply":timestamped_before_snapshot_found,
+   "timestamped_after_apply_deprecated":True,
+  }
   if exact.exists():
    before=json.loads(exact.read_text(encoding="utf-8"))
    for row in before.get("rows",[]):
@@ -65,7 +73,7 @@ def main()->None:
    for field in FIELDS:
     if row.get(field)!=item[loc].get(field):failures.append(f"{aid}/{loc}:{field}_readback")
    if _translation_flags(row):failures.append(f"{aid}/{loc}:quality_flags={_translation_flags(row)}")
- missing_backups=[b for b,v in batch_backup.items() if not all(v.values())]
+ missing_backups=[b for b,v in batch_backup.items() if not v["exact_before"] or not v["timestamped_before_snapshot_found"]]
  report={"generated_at":datetime.now(timezone.utc).isoformat(),"host":SUPABASE_URL,"proposal_batches":len(proposals),"unique_original_article_ids":len(ids),"article_rows":len(articles),"translation_rows":len(translations),"baseline_rows":len(baseline),"statuses":dict(Counter(r["locale"]+":"+r["translation_status"] for r in translations)),"backup_coverage":batch_backup,"missing_backup_batches":missing_backups,"source_issues":source_issues,"failures":failures,"passed":len(ids)==259 and len(articles)==259 and len(translations)==518 and len(baseline)==518 and not failures and not missing_backups and not source_issues}
  out=BASE_DIR/"data/original-259-completion-audit.json";out.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8");print(json.dumps({k:report[k] for k in ("proposal_batches","unique_original_article_ids","article_rows","translation_rows","statuses","missing_backup_batches","source_issues","failures","passed")},ensure_ascii=False,indent=2))
 if __name__=="__main__":main()

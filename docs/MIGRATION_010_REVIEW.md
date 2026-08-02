@@ -1,19 +1,47 @@
 # Migration 010 consistency review
 
-> **Production activation gate:** `pipeline/scrape_specs.py` requires the
-> `model_specs` table. Do not run it against any database where migration 010
-> is absent. Production migration status is currently unknown and must be
-> established through a separately approved read-only status check. Applying
-> migration 010 requires separate approval and a documented backup/rollback
-> plan.
+**Status: `MIGRATION_010_CONFIRMED_APPLIED`**
+
+Production was verified read-only on 2026-08-02. The recorded migration
+identifier is version `010`, filename `010_model_specs_generic.sql`.
+
+> **Operational activation gate:** Migration 010 is already applied; no further
+> migration execution is required. `pipeline/scrape_specs.py` has not been run
+> after the migration. Activating it remains a separate operational decision
+> requiring ordinary runtime, credential, scraper, and backup validation.
+
+## Read-only production verification
+
+The 2026-08-02 verification used `psql` inside the existing PostgreSQL 16
+container. It ran inside `BEGIN TRANSACTION READ ONLY`, used catalog and
+read-only `SELECT` statements, confirmed `transaction_read_only = on`, and
+ended with `ROLLBACK`.
+
+Verified findings:
+
+- `public.schema_migrations` contains
+  `('010', '010_model_specs_generic.sql')`.
+- `public.model_specs` exists with `model_id`, `specs`, `scraped_at`, and
+  `created_at` in the expected types and nullability.
+- The expected primary key, cascading foreign key, B-tree index, and JSONB GIN
+  index exist.
+- Row-level security is enabled and policy `public read model_specs` permits
+  `SELECT`.
+- Roles `anon` and `authenticated` have `SELECT`, without
+  `INSERT`/`UPDATE`/`DELETE` grants.
+- `washing_machine_specs` contains 419 rows.
+- All 419 corresponding rows exist in `model_specs`; zero typed rows are
+  missing, zero `specs` values are null, and all 419 JSONB values exactly match
+  the migration's backfill shape.
 
 ## Conclusions
 
 1. `db/schema.sql` does **not** represent a fresh database after migration 010. It consolidates migrations 002–009, creates `washing_machine_specs`, and records 002–009 as applied. A fresh installation still needs migration 010 to create and backfill `model_specs`.
-2. Migration 010 is safe to retry through `db.apply_migration` after version `010` has been recorded. The SQL file is not intrinsically fully idempotent: table/index creation and backfill are guarded, but `CREATE POLICY "public read model_specs"` has no duplicate-policy guard.
+2. Migration 010 must not be rerun. The SQL file is not intrinsically fully idempotent: table/index creation and backfill are guarded, but `CREATE POLICY "public read model_specs"` has no duplicate-policy guard.
 3. `pipeline/scrape_specs.py` requires `model_specs`. It queries that relation and upserts JSONB specifications into it.
 4. Without migration 010, specification runs fail when PostgREST cannot resolve `model_specs`; no specification rows can be read or written. Existing `washing_machine_specs` data remains present but the recovered pipeline no longer targets it.
-5. File presence on the VPS does not prove that migration 010 was applied. Production migration status remains an explicit approval gate.
+5. Production migration status is confirmed by the tracking row, catalog
+   shape, security configuration, grants, and complete 419-row backfill.
 
 ## Migration sequence
 
@@ -23,9 +51,9 @@
 
 The backfill uses `ON CONFLICT (model_id) DO NOTHING`, so rerunning it does not overwrite an existing generic row. This is conservative but means a partial earlier backfill is not refreshed automatically.
 
-## Later read-only verification
+## Verification query pattern
 
-Run these only after separate approval against the intended database:
+The completed verification included these catalog checks:
 
 ```sql
 SELECT
@@ -51,4 +79,6 @@ WHERE table_schema = 'public' AND table_name = 'model_specs'
 ORDER BY ordinal_position;
 ```
 
-Do not run `scrape_specs.py` until both the table and migration state have been reconciled.
+Migration application is no longer a blocker for `scrape_specs.py`. Do not run
+the scraper until its separate operational validation and execution are
+explicitly approved.

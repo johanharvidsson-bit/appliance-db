@@ -78,8 +78,9 @@ payload. It contains no credentials or secret values.
 ### Directly evidenced facts
 
 The preserved final audits directly evidence the P0 counts and status totals,
-the 45-batch backup coverage, the remaining P1 inventory, and the P2 coverage
-and invariants stated above.
+the resulting production state for all 45 batches at audit time, the remaining
+P1 inventory, and the P2 coverage and invariants stated above. Backup coverage
+must be assessed separately from production-state read-back.
 
 ### Indirectly corroborated handover claims
 
@@ -90,14 +91,20 @@ read-back and HTTP verification reports described below do not survive.
 
 ### Known missing evidence
 
-**Exact batch-045 proposal payload.**
+**Exact batch-045 proposal payload and execution evidence.**
 
 Recovery commit `19440be` contains reviewed batch proposals 001–044 but not
-`data/article_reviews/batch-045-p0-core-final-proposal.json`. The final audit
-confirms that batch 045 was applied and backed up, and the deterministic batch
-045 builder and exact baseline are preserved. The exact applied batch-045
-proposal must be recovered later through a separately approved read-only
-artifact copy; it must not be guessed or regenerated for provenance purposes.
+`data/article_reviews/batch-045-p0-core-final-proposal.json`. The final audit's
+live read-back verifies that batch 045's resulting production state matched the
+proposal available to the audit at that time. That is evidence of the final
+production state, not proof of the exact execution path.
+
+The exact applied proposal file does not survive, and no timestamped apply-time
+backup survives. The deterministic batch-045 builder and exact before-state
+baseline are preserved, but the exact apply mechanism and complete rollback
+provenance cannot be independently reconstructed. Reconstructed artifacts must
+not be presented as originals, and production work must not be replayed to fill
+this evidence gap.
 
 **P2 HTTP verification report.** No archived HTTP verification report survives
 for the 20 English P2 pages. The HTTP 200 result is therefore a handover claim,

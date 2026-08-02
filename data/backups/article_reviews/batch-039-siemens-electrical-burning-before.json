@@ -1,0 +1,422 @@
+{
+  "exported_at": "2026-07-30T22:33:55.744249+00:00",
+  "source": "production-vps-read-only",
+  "article_ids": [
+    347,
+    348
+  ],
+  "rows": [
+    {
+      "article_id": 347,
+      "locale": "en",
+      "slug": "trips-electrics",
+      "title_tag": "Siemens Washing Machine Trips Electrics – Fixes",
+      "meta_description": "Siemens washing machine tripping your electrics? Learn the most common causes, step-by-step fixes, and when to call a service technician. Safe, practical advice.",
+      "h1": "Why Does My Siemens Washing Machine Keep Tripping the Electrics?",
+      "description": "The washing machine causes the household circuit breaker or RCD to trip when it is switched on or during a wash cycle.",
+      "quick_fix": "Unplug the machine, wait 10 minutes, then plug it into a different wall socket on a separate circuit to rule out a faulty socket or overloaded circuit — if the breaker holds, the original socket or circuit is the problem (takes about 5 minutes).",
+      "intro_html": "<p>When a Siemens washing machine trips the electrics, it means the appliance is drawing a fault current large enough to trigger your home's RCD (residual current device) or circuit breaker. This is a safety mechanism working exactly as intended — it cuts power to prevent electric shock or fire. The trip may happen the moment you switch the machine on, as soon as water enters, or part-way through a cycle when the heating element activates.</p><p>The fault almost always originates in one of three systems: the electrical supply and wiring, the heating circuit, or the motor and control electronics. On some Siemens models the control board may log error code E68, which points specifically to a current-leakage fault detected by the machine's own monitoring circuit. Regardless of whether a code appears, a tripping machine should never be ignored or repeatedly reset — continued use risks damage to your home wiring and poses a genuine safety hazard.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty heating element",
+          "detail": "The heating element is the most common cause. Over time the element's insulation breaks down, allowing current to leak to the machine's metal body and triggering the RCD. The trip typically occurs a few minutes into a cycle once the element is asked to heat water."
+        },
+        {
+          "cause": "Damaged or degraded wiring inside the machine",
+          "detail": "Wiring harnesses can chafe against the drum, cabinet edges, or moving parts over years of use, wearing through the insulation. A bare wire touching the chassis creates an immediate earth fault that trips the breaker."
+        },
+        {
+          "cause": "Faulty motor or motor brushes",
+          "detail": "Carbon brushes wear down and can leave conductive dust inside the motor housing, causing leakage current. A failing motor winding can also develop an earth fault, often causing the trip to occur when the drum begins to spin."
+        },
+        {
+          "cause": "Water ingress into electrical components",
+          "detail": "A leaking door seal, pump, or hose connection can allow water to reach the control board, wiring connectors, or motor. Even a small amount of moisture in the wrong place is enough to cause a current leak and trip the RCD."
+        },
+        {
+          "cause": "Defective control board or capacitor",
+          "detail": "A failed capacitor or short-circuit on the main PCB can draw excessive current or create a leakage path to earth. This type of fault often causes the trip at power-on rather than mid-cycle."
+        },
+        {
+          "cause": "Overloaded or faulty household circuit",
+          "detail": "If other high-draw appliances share the same circuit, the combined load can trip a breaker that is already weakened with age. A worn RCD can also become overly sensitive and trip on normal leakage levels that would not affect a newer device."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Isolate the machine and test the socket",
+          "detail": "Unplug the washing machine immediately and reset the breaker or RCD. Plug a different appliance — a lamp or phone charger — into the same socket to confirm the socket itself is working. Then plug the washing machine into a socket on a completely different circuit. If the breaker no longer trips, the original circuit or socket is the issue, not the machine."
+        },
+        {
+          "step": 2,
+          "action": "Check for visible water leaks around electrical parts",
+          "detail": "Pull the machine forward and inspect underneath and behind it for signs of water pooling. Check the door seal, the soap drawer recess, and the area around the pump filter at the front. If you find water near any wiring or the motor, dry the area thoroughly and identify the source of the leak before proceeding. Do not run the machine again until it is completely dry."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the power cable and plug",
+          "detail": "Examine the full length of the mains cable for cuts, kinks, scorch marks, or areas where the outer sheath has worn through. Check the plug for signs of burning or a loose connection inside. A damaged cable must be replaced — do not use tape as a repair. This is a straightforward part to source and replace."
+        },
+        {
+          "step": 4,
+          "action": "Test the heating element for earth leakage",
+          "detail": "With the machine unplugged, access the element from the rear panel. Disconnect the element's wiring connectors and use a multimeter set to resistance (or a dedicated insulation tester) to measure between each element terminal and the machine's metal body. A reading of anything less than several megaohms indicates the element insulation has failed and the element needs replacing. This is one of the most cost-effective repairs for this fault."
+        },
+        {
+          "step": 5,
+          "action": "Inspect motor brushes and motor body",
+          "detail": "Access the motor — usually located at the bottom rear of the machine. Remove the carbon brushes and check their length; brushes worn to less than 5 mm should be replaced. Look inside the brush holders for heavy carbon dust deposits and clean them out with a dry cloth. Refit new brushes and test whether the fault clears."
+        },
+        {
+          "step": 6,
+          "action": "Check wiring harnesses for chafing or damage",
+          "detail": "With the machine unplugged and panels removed, trace the main wiring looms and look for areas where cables run close to the drum, sharp metal edges, or moving components. Gently flex each section and look for cracked insulation or exposed copper. Any damaged section of loom should be replaced rather than taped, as tape repairs are not reliable long-term."
+        },
+        {
+          "step": 7,
+          "action": "Assess the control board",
+          "detail": "If all the above checks pass and the machine still trips, the control board is the likely culprit. Visually inspect the PCB for burnt components, swollen capacitors, or scorch marks. Error code E68 on compatible Siemens models specifically flags a current-leakage fault detected by the board's monitoring circuit, which can indicate either a genuine downstream fault or a board that is misreporting. Board replacement or professional diagnosis is the appropriate next step."
+        }
+      ],
+      "when_to_call_technician_html": "<p>You should contact a qualified service technician if the machine trips the RCD instantly every time it is plugged in, if you can smell burning or see scorch marks anywhere on the appliance, or if you have tested the heating element and motor and both appear sound. These scenarios suggest a fault inside the control board or a wiring issue that requires specialist test equipment to locate safely.</p><p>Because this fault involves live mains electricity and potential shock risk, any repair that goes beyond replacing the element or brushes — such as rewiring, board replacement, or motor replacement — is best carried out by a technician with the correct tools and safety training. Do not continue to reset and run the machine while the fault is unresolved.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Siemens washing machine trips the electrics are the heating element (the single most frequent cause of RCD trips in washing machines), the carbon motor brushes, and the main power cable. In cases involving water ingress, the door seal is also often replaced at the same time to prevent a recurrence. Keeping the door seal clean and free of debris, and checking hose connections annually for weeping joints, significantly reduces the chance of water reaching electrical components.</p><p>If your RCD is more than 10 years old, it is worth having it tested by an electrician — older devices can become either overly sensitive or, conversely, slow to trip, neither of which is desirable. Running the washing machine on its own dedicated circuit is best practice for a high-draw appliance.</p>\n<!-- SPARE_PARTS_FAULT:trips-electrics -->",
+      "faq_json": [
+        {
+          "answer": "No. A tripping RCD or breaker is a warning that current is leaking somewhere it should not be. Repeatedly resetting and running the machine risks electric shock, damage to your home wiring, and potentially fire. The machine should remain unplugged until the fault is identified and fixed.",
+          "question": "Is it safe to keep resetting the breaker and using the machine?"
+        },
+        {
+          "answer": "This pattern strongly points to a failed heating element. The element only draws significant current when it is asked to heat water, so the leakage fault only becomes large enough to trip the RCD at that point in the cycle. Testing the element with a multimeter as described in the steps above will confirm this.",
+          "question": "Why does my Siemens washing machine only trip the electrics when it starts heating?"
+        },
+        {
+          "answer": "E68 indicates that the machine's internal monitoring circuit has detected an abnormal leakage current — essentially the machine's own self-diagnosis agreeing with what your RCD is telling you. It does not pinpoint the exact component at fault, so you still need to work through the likely causes, starting with the heating element.",
+          "question": "What does error code E68 mean on a Siemens washing machine?"
+        },
+        {
+          "answer": "It is possible but less common. Try the machine on a different circuit as described in Step 1. If it trips every circuit you try, the fault is in the machine. If it only trips one circuit, have an electrician inspect that circuit and the RCD unit itself, particularly if the RCD is old or has been tripping frequently for other appliances too.",
+          "question": "Could the problem be with my house electrics rather than the washing machine?"
+        },
+        {
+          "answer": "If the heating element is the cause, it is one of the more affordable washing machine repairs — the part itself is relatively inexpensive and the labour time is modest. Motor brushes are even cheaper. A control board replacement is significantly more costly, which is why it is worth ruling out the simpler components first before committing to a board.",
+          "question": "How much does it typically cost to fix a washing machine that trips the electrics?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:49:50.272828+00:00"
+    },
+    {
+      "article_id": 347,
+      "locale": "sv",
+      "slug": "löser-ut-säkringen",
+      "title_tag": "Siemens Tvättmaskin Löser Ut Säkringen – Lösningar",
+      "meta_description": "Löser din Siemens tvättmaskin ut säkringen? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Säkra, praktiska råd",
+      "h1": "Varför Löser Min Siemens Tvättmaskin Ut Säkringen?",
+      "description": "Tvättmaskinen utlöser hushållets automatsäkring eller jordfelsbrytare när den slås på eller under ett tvättprogram.",
+      "quick_fix": "Dra ur maskinen, vänta 10 minuter och anslut den sedan till ett annat vägguttag på en separat krets för att utesluta ett defekt uttag eller en överbelastad krets — om säkringen håller är det ursprungliga uttaget eller kretsen som är problemet (tar ungefär 5 minuter).",
+      "intro_html": "<p>När en Siemens tvättmaskin löser ut säkringen innebär det att maskinen drar en felström som är tillräckligt stor för att utlösa hemmets jordfelsbrytare (RCD) eller automatsäkring. Detta är en säkerhetsmekanism som fungerar precis som avsett — den bryter strömmen för att förhindra elektrisk stöt eller brand. Utlösningen kan ske i samma ögonblick som du slår på maskinen, så snart vatten börjar fyllas på, eller mitt i ett program när värmeelementen aktiveras.</p><p>Felet uppstår nästan alltid i ett av tre system: elförsörjningen och kablaget, värmekretsen, eller motorn och styrelektroniken. På vissa Siemens-modeller kan styrkortet logga felkod E68, vilket specifikt pekar på ett strömläckagefel som detekterats av maskinens egna övervakningskrets. Oavsett om en felkod visas bör en maskin som löser ut säkringen aldrig ignoreras eller återställas upprepade gånger — fortsatt användning riskerar att skada hemmets elinstallation och utgör en verklig säkerhetsrisk.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt värmeelement",
+          "detail": "Värmeelementet är den vanligaste orsaken. Med tiden bryts elementets isolering ned, vilket gör att ström kan läcka till maskinens metallkropp och utlösa jordfelsbrytaren. Utlösningen sker vanligtvis några minuter in i ett program när elementet börjar värma vattnet."
+        },
+        {
+          "cause": "Skadat eller nedbrutet kablage inuti maskinen",
+          "detail": "Kabelstammar kan nötas mot trumman, kåpkanter eller rörliga delar under åren, vilket sliter igenom isoleringen. En bar ledare som vidrör chassit skapar omedelbart ett jordfel som löser ut säkringen."
+        },
+        {
+          "cause": "Defekt motor eller motorborstar",
+          "detail": "Kolborstar slits ned och kan lämna ledande damm inuti motorhuset, vilket orsakar läckageström. En felaktig motorlindning kan också utveckla ett jordfel, vilket ofta gör att utlösningen sker när trumman börjar snurra."
+        },
+        {
+          "cause": "Vatteninträngning i elektriska komponenter",
+          "detail": "En läckande dörrtätning, pump eller slanganslutning kan låta vatten nå styrkortet, kabelkontakter eller motorn. Även en liten mängd fukt på fel ställe räcker för att orsaka ett strömläckage och utlösa jordfelsbrytaren."
+        },
+        {
+          "cause": "Defekt styrkort eller kondensator",
+          "detail": "En trasig kondensator eller kortslutning på huvudkortet kan dra för hög ström eller skapa en läckageväg till jord. Den här typen av fel orsakar ofta utlösningen vid inkoppling snarare än mitt i ett program."
+        },
+        {
+          "cause": "Överbelastad eller defekt hushållskrets",
+          "detail": "Om andra apparater med hög effektförbrukning delar samma krets kan den sammanlagda belastningen lösa ut en säkring som redan är försvagad av ålder. En sliten jordfelsbrytare kan också bli överkänslig och lösa ut vid normala läckagenivåer som inte skulle påverka en nyare enhet."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Isolera maskinen och testa uttaget",
+          "detail": "Dra ur tvättmaskinen omedelbart och återställ säkringen eller jordfelsbrytaren. Anslut en annan apparat — en lampa eller en telefonladdare — till samma uttag för att bekräfta att uttaget fungerar. Anslut sedan tvättmaskinen till ett uttag på en helt annan krets. Om säkringen inte längre löser ut är det ursprungliga kretsen eller uttaget som är problemet, inte maskinen."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera om det finns synliga vattenläckor nära elektriska delar",
+          "detail": "Dra fram maskinen och inspektera under och bakom den för tecken på vattenansamling. Kontrollera dörrtätningen, tvättmedelslådans nisch och området runt pumpfiltret på framsidan. Om du hittar vatten nära kablage eller motorn, torka området noggrant och identifiera läckagekällan innan du fortsätter. Kör inte maskinen igen förrän den är helt torr."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera nätkabeln och kontakten",
+          "detail": "Undersök hela nätkabelns längd efter skärskador, knickar, brännmärken eller ställen där ytterhöljet har slitits igenom. Kontrollera kontakten för tecken på brännskador eller lösa anslutningar inuti. En skadad kabel måste bytas ut — använd inte tejp som reparation. Det är en enkel reservdel att hitta och byta."
+        },
+        {
+          "step": 4,
+          "action": "Testa värmeelementet för jordläckage",
+          "detail": "Med maskinen urkopplad, kom åt elementet via bakpanelen. Koppla loss elementets kabelkontakter och använd en multimeter inställd på resistans (eller en dedikerad isolationstestare) för att mäta mellan varje elementterminal och maskinens metallkropp. Ett värde på mindre än flera megaohm indikerar att elementets isolering har havererat och att elementet behöver bytas. Detta är en av de mest kostnadseffektiva reparationerna för detta fel."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera motorborstar och motorhus",
+          "detail": "Kom åt motorn — vanligtvis placerad längst ned bak på maskinen. Ta bort kolborstarna och kontrollera deras längd; borstar som slitits ned till mindre än 5 mm bör bytas. Titta inuti borsthållarna efter kraftiga kolstoftsavlagringar och rengör dem med en torr trasa. Montera nya borstar och testa om felet försvinner."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera kabelstammar efter nötning eller skador",
+          "detail": "Med maskinen urkopplad och panelerna borttagna, följ de huvudsakliga kabelstammarna och leta efter ställen där kablar löper nära trumman, vassa metallkanter eller rörliga komponenter. Böj försiktigt varje avsnitt och leta efter sprucken isolering eller exponerad koppar. Alla skadade kabelavsnitt bör bytas ut snarare än tejpas, eftersom tejpreparationer inte är tillförlitliga på lång sikt."
+        },
+        {
+          "step": 7,
+          "action": "Bedöm styrkortet",
+          "detail": "Om alla ovanstående kontroller godkänns och maskinen fortfarande löser ut säkringen är styrkortet troligen boven. Inspektera kretskortet visuellt efter brända komponenter, uppsvällda kondensatorer eller brännmärken. Felkod E68 på kompatibla Siemens-modeller flaggar specifikt för ett strömläckagefel som detekterats av kortets övervakningskrets, vilket kan indikera antingen ett verkligt fel längre ned i kretsen eller ett kort som felrapporterar. Kortbyte eller professionell diagnos är lämpligt nästa steg."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Du bör kontakta en behörig servicetekniker om maskinen löser ut jordfelsbrytaren omedelbart varje gång den kopplas in, om du känner bränndoft eller ser brännmärken någonstans på maskinen, eller om du har testat värmeelementet och motorn och båda verkar vara i ordning. Dessa scenarier tyder på ett fel inuti styrkortet eller ett kablageproblem som kräver specialiserad testutrustning för att lokaliseras på ett säkert sätt.</p><p>Eftersom detta fel involverar nätspänning och potentiell stötrisk bör alla reparationer som går utöver att byta element eller borstar — såsom omdragning av kablage, kortbyte eller motorbyte — utföras av en tekniker med rätt verktyg och säkerhetsutbildning. Fortsätt inte att återställa och köra maskinen medan felet är olöst.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Siemens tvättmaskin löser ut säkringen är värmeelementet (den enskilt vanligaste orsaken till jordfelsbrytarutlösningar i tvättmaskiner), kolmotorborstarna och huvudnätkabeln. I fall med vatteninträngning byts även dörrtätningen ofta ut samtidigt för att förhindra upprepning. Att hålla dörrtätningen ren och fri från skräp, samt att årligen kontrollera slanganslutningar för sipprande fogar, minskar avsevärt risken för att vatten når elektriska komponenter.</p><p>Om din jordfelsbrytare är mer än 10 år gammal är det värt att låta en elektriker testa den — äldre enheter kan bli antingen överkänsliga eller, omvänt, långsamma att lösa ut, vilket inget av dem är önskvärt. Att köra tvättmaskinen på en egen dedikerad krets är bästa praxis för en apparat med hög effektförbrukning.</p>\n<!-- SPARE_PARTS_FAULT:trips-electrics -->",
+      "faq_json": [
+        {
+          "answer": "Nej. En utlöst jordfelsbrytare eller automatsäkring är en varning om att ström läcker någonstans den inte ska. Att upprepade gånger återställa och köra maskinen riskerar elektrisk stöt, skador på hemmets elinstallation och potentiellt brand. Maskinen bör förbli urkopplad tills felet har identifierats och åtgärdats.",
+          "question": "Är det säkert att fortsätta återställa säkringen och använda maskinen?"
+        },
+        {
+          "answer": "Detta mönster pekar starkt på ett havererat värmeelement. Elementet drar bara betydande ström när det ombeds värma vatten, så läckagefelet blir bara tillräckligt stort för att utlösa jordfelsbrytaren vid den punkten i programmet. Att testa elementet med en multimeter enligt stegen ovan bekräftar detta.",
+          "question": "Varför löser min Siemens tvättmaskin bara ut säkringen när den börjar värma?"
+        },
+        {
+          "answer": "E68 indikerar att maskinens interna övervakningskrets har detekterat en onormal läckageström — i princip maskinens egen självdiagnos som bekräftar vad din jordfelsbrytare signalerar. Den pekar inte ut den exakta felaktiga komponenten, så du behöver fortfarande gå igenom de troliga orsakerna, med start i värmeelementet.",
+          "question": "Vad betyder felkod E68 på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Det är möjligt men mindre vanligt. Prova maskinen på en annan krets enligt beskrivningen i steg 1. Om den löser ut varje krets du provar finns felet i maskinen. Om den bara löser ut en krets, låt en elektriker inspektera den kretsen och jordfelsbrytarenheten, särskilt om jordfelsbrytaren är gammal eller har löst ut ofta för andra apparater också.",
+          "question": "Kan problemet bero på hemmets elinstallation snarare än tvättmaskinen?"
+        },
+        {
+          "answer": "Om värmeelementet är orsaken är det en av de mer prisvärda tvättmaskinreparationerna — själva delen är relativt billig och arbetstiden är begränsad. Kolborstar är ännu billigare. Ett kortbyte är betydligt dyrare, vilket är anledningen till att det är värt att utesluta de enklare komponenterna först innan man bestämmer sig för ett kort.",
+          "question": "Hur mycket kostar det vanligtvis att laga en tvättmaskin som löser ut säkringen?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:51:09.331256+00:00"
+    },
+    {
+      "article_id": 348,
+      "locale": "en",
+      "slug": "burning-smell",
+      "title_tag": "Siemens Washing Machine Burning Smell – Causes & Fixes",
+      "meta_description": "Siemens washing machine giving off a burning smell? Find the most common causes, step-by-step fixes, and when to call a service technician.",
+      "h1": "Why Does My Siemens Washing Machine Smell Like It's Burning?",
+      "description": "A burning smell from a Siemens washing machine indicates that a component — most commonly the motor, drive belt, or wiring — is overheating or failing during operation.",
+      "quick_fix": "Check and clear the pump filter of any debris or blockage, as a seized pump can cause the motor to overheat and produce a burning odour within minutes of starting a cycle (takes about 5 minutes).",
+      "intro_html": "<p>A burning smell coming from your Siemens washing machine is one of those faults you should never ignore or run through another cycle hoping it will go away. The smell can range from a sharp electrical or plastic odour to something closer to singed rubber, and each variation points toward a different part of the machine under stress. In most cases the smell appears during or shortly after a wash cycle, sometimes accompanied by the machine stopping mid-programme or vibrating more than usual.</p><p>The washing machine's drive system, motor, and electrical components are the most likely sources. When any of these parts are overloaded, worn, or failing, friction and heat build up quickly and produce the characteristic smell. Because this symptom can involve live electrical components, it is important to work through the checks below methodically and to unplug the machine before inspecting anything inside the cabinet.</p>",
+      "causes_json": [
+        {
+          "cause": "Worn or slipping drive belt",
+          "detail": "The drive belt transfers power from the motor to the drum. When it becomes worn, cracked, or misaligned it slips against the pulleys and generates heat, producing a strong rubber-burning smell that is often most noticeable at the start of a spin cycle."
+        },
+        {
+          "cause": "Overheating or failing motor",
+          "detail": "The motor can overheat if it is working harder than normal — for example, due to an overloaded drum, a seized bearing, or worn motor brushes. A failing motor often produces an acrid electrical smell and may cause the machine to stop mid-cycle as a thermal cut-out trips."
+        },
+        {
+          "cause": "Blocked or seized drain pump",
+          "detail": "If a foreign object such as a coin, hair clip, or piece of fabric has jammed the pump impeller, the pump motor is forced to work against the blockage and can overheat rapidly. This often produces a burning plastic smell and may trigger drainage errors."
+        },
+        {
+          "cause": "Faulty or scorched wiring and electrical connections",
+          "detail": "Loose terminals, damaged wiring insulation, or a failing capacitor can arc or overheat, producing a sharp burning plastic or electrical smell. This is one of the more serious causes and can be a fire risk if left unaddressed."
+        },
+        {
+          "cause": "Worn drum bearings",
+          "detail": "When the rear drum bearings wear out, the drum no longer spins freely and the resulting friction puts extra load on the motor and belt. You may also notice a loud rumbling or grinding noise alongside the smell, particularly during spin."
+        },
+        {
+          "cause": "Foreign object trapped between drum and seal",
+          "detail": "Small items such as socks, underwire from a bra, or coins can slip past the door seal and become trapped between the drum and the outer tub. As the drum rotates, the friction burns the item and produces a smell that can be mistaken for an electrical fault."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine immediately",
+          "detail": "As soon as you notice a burning smell, stop the cycle and disconnect the machine from the mains. Do not restart it until you have identified the source. Allow the machine to cool for at least 20 minutes before touching any internal components."
+        },
+        {
+          "step": 2,
+          "action": "Check the drum for trapped items",
+          "detail": "Open the door and rotate the drum slowly by hand. Feel around the edge of the door seal, pulling it back gently to check for trapped items such as coins, underwire, or small garments. Remove anything you find. If the drum feels stiff or grinds as you turn it, the bearings may be the issue — move to step 5."
+        },
+        {
+          "step": 3,
+          "action": "Clean the pump filter",
+          "detail": "The pump filter is usually located behind a small panel at the bottom front of the machine. Place a shallow tray and some towels underneath, then unscrew the filter cap slowly to drain residual water. Remove the filter completely and clear any debris from both the filter and the housing. A blocked impeller will often have a burnt plastic smell attached to it."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the drive belt",
+          "detail": "With the machine unplugged, remove the back panel using a screwdriver. Locate the drive belt running between the motor pulley and the drum pulley. Look for signs of cracking, fraying, glazing, or a shiny worn surface. A belt that has been slipping will often leave black rubber dust on nearby components. Replace the belt if it shows any of these signs."
+        },
+        {
+          "step": 5,
+          "action": "Check the motor brushes",
+          "detail": "Carbon motor brushes wear down over time and are a very common cause of burning smells in Siemens washing machines. With the back panel removed, locate the motor and identify the brush holders on either side. Remove each brush and measure its length — if either brush is shorter than around 15 mm, both should be replaced as a pair. New brushes are an inexpensive and straightforward repair."
+        },
+        {
+          "step": 6,
+          "action": "Examine visible wiring and connections",
+          "detail": "With the machine still unplugged, visually inspect the wiring harness, connectors, and any visible terminals for signs of scorching, melting, or discolouration. Pay particular attention to the connections at the motor, control board, and heating element. Do not attempt to repair burnt wiring yourself — this requires a service technician."
+        },
+        {
+          "step": 7,
+          "action": "Run a short test cycle and monitor closely",
+          "detail": "If you have cleared a blockage or replaced the belt or brushes, reassemble the machine and run a short 30-degree cycle while staying nearby. If the smell returns at any point, stop the machine immediately and do not use it again until a service technician has inspected it."
+        }
+      ],
+      "when_to_call_technician_html": "<p>You should contact a qualified service technician without attempting further DIY work if you can see any scorched, melted, or discoloured wiring, if the machine trips your household circuit breaker when switched on, or if the burning smell is sharp and electrical rather than rubbery. These signs suggest a fault with the control board, wiring loom, or motor that carries a genuine risk of fire or electric shock if handled incorrectly.</p><p>Similarly, if you have replaced the drive belt and motor brushes but the smell persists, or if the drum is stiff and noisy indicating failed bearings, the repair involves dismantling a significant portion of the machine. A service technician will have the tools and diagnostic equipment to identify the exact component and replace it safely.</p>",
+      "prevention_html": "<p>The parts most commonly replaced on Siemens washing machines when a burning smell is diagnosed are the <strong>drive belt</strong>, <strong>carbon motor brushes</strong>, and the <strong>drain pump</strong>. The drive belt and motor brushes are wear items that degrade gradually over years of use, so replacing them proactively when you notice early warning signs — such as a faint smell only during spin, or slightly longer spin times — can prevent a more serious fault developing. Keeping the pump filter clean every one to three months is the simplest way to protect the pump motor from overheating.</p><p>Use the parts finder below to locate the correct drive belt, motor brushes, or drain pump for your specific Siemens model. Always match parts to your full model number, which is printed on the label inside the door frame.</p>\n<!-- SPARE_PARTS_FAULT:burning-smell -->",
+      "faq_json": [
+        {
+          "answer": "No — you should stop using the machine until you have identified and resolved the cause. A burning smell can indicate overheating electrical components or wiring, which carries a risk of fire. Unplug the machine and work through the checks above before running another cycle.",
+          "question": "Is it safe to keep using my Siemens washing machine if it smells like burning?"
+        },
+        {
+          "answer": "A smell that appears specifically during spin is most often caused by a worn or slipping drive belt, since the belt is under the greatest load at high drum speeds. Worn motor brushes are another common cause, as the motor draws more current during spin. Both are relatively straightforward to inspect and replace.",
+          "question": "Why does my washing machine only smell of burning during the spin cycle?"
+        },
+        {
+          "answer": "Motor brushes typically last between five and ten years depending on how frequently the machine is used and what programmes are run most often. Heavy use with frequent high-speed spins will wear them faster. When brushes wear down, the motor starts to spark and overheat, producing a burning smell and sometimes causing the machine to cut out mid-cycle.",
+          "question": "How long do motor brushes last in a Siemens washing machine?"
+        },
+        {
+          "answer": "A very faint smell during the first one or two cycles can occasionally occur as manufacturing residues and protective coatings burn off internal components. However, this should be very mild and disappear quickly. Any strong, persistent, or clearly rubbery or electrical smell — even on a new machine — should be investigated and reported to the retailer or manufacturer.",
+          "question": "Could a new washing machine smell of burning during the first few uses?"
+        },
+        {
+          "answer": "Yes. Consistently overloading the drum forces the motor and drive belt to work much harder than they are designed to, generating excess heat. Over time this accelerates wear on the belt and motor brushes and can cause overheating even during a normal cycle. Always follow the load capacity stated in your Siemens machine's manual for the programme you are using.",
+          "question": "Can an overloaded drum cause a burning smell?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:52:04.602759+00:00"
+    },
+    {
+      "article_id": 348,
+      "locale": "sv",
+      "slug": "bränd-lukt",
+      "title_tag": "Siemens Tvättmaskin Bränner – Orsaker & Lösningar",
+      "meta_description": "Luktar det bränt från din Siemens tvättmaskin? Hitta de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker.",
+      "h1": "Varför luktar min Siemens tvättmaskin bränt?",
+      "description": "En bränd lukt från en Siemens tvättmaskin tyder på att en komponent – oftast motorn, drivremmen eller kablaget – överhettas eller håller på att gå sönder under drift.",
+      "quick_fix": "Kontrollera och rengör pumpfiltret från skräp eller blockeringar, eftersom en blockerad pump kan få motorn att överhettas och ge ifrån sig en bränd lukt inom några minuter efter att ett program startats (tar ungefär 5 minuter).",
+      "intro_html": "<p>En bränd lukt från din Siemens tvättmaskin är ett fel du aldrig bör ignorera eller köra ytterligare ett program med i hopp om att det ska försvinna. Lukten kan variera från en skarp elektrisk eller plastliknande doft till något som liknar bränd gummi, och varje variation pekar mot en annan del av maskinen som är under belastning. I de flesta fall uppstår lukten under eller strax efter ett tvättprogram, ibland i kombination med att maskinen stannar mitt i programmet eller vibrerar mer än vanligt.</p><p>Tvättmaskinens drivsystem, motor och elektriska komponenter är de mest troliga källorna. När någon av dessa delar är överbelastad, sliten eller håller på att gå sönder byggs friktion och värme upp snabbt och ger upphov till den karakteristiska lukten. Eftersom detta symptom kan involvera strömförande elektriska komponenter är det viktigt att gå igenom kontrollerna nedan metodiskt och att dra ur maskinen ur vägguttaget innan du inspekterar något inuti höljet.</p>",
+      "causes_json": [
+        {
+          "cause": "Sliten eller slirande drivrem",
+          "detail": "Drivremmen överför kraft från motorn till trumman. När den blir sliten, sprucken eller felinriktad slira den mot remmskivorna och genererar värme, vilket ger en stark gummilukt som ofta märks tydligast i början av centrifugeringen."
+        },
+        {
+          "cause": "Överhettad eller defekt motor",
+          "detail": "Motorn kan överhettas om den arbetar hårdare än normalt – till exempel på grund av en överlastad trumma, ett fastnat lager eller slitna motorborstar. En defekt motor ger ofta en skarp elektrisk lukt och kan få maskinen att stanna mitt i programmet när ett termoskydd löser ut."
+        },
+        {
+          "cause": "Blockerad eller fastnad avloppspump",
+          "detail": "Om ett främmande föremål, till exempel ett mynt, ett hårspänne eller ett tygstycke, har fastnat i pumpens impeller tvingas pumpmotorn arbeta mot blockeringen och kan överhettas snabbt. Detta ger ofta en bränd plastlukt och kan utlösa avloppsfel."
+        },
+        {
+          "cause": "Defekt eller bränt kablage och elektriska anslutningar",
+          "detail": "Lösa terminaler, skadat kabelisolering eller en defekt kondensator kan ge upphov till ljusbågar eller överhettning, vilket ger en skarp bränd plast- eller elektrisk lukt. Detta är en av de allvarligare orsakerna och kan utgöra en brandrisk om det inte åtgärdas."
+        },
+        {
+          "cause": "Slitna trumlagrar",
+          "detail": "När de bakre trumlagren slits ut snurrar inte trumman längre fritt, och den resulterande friktionen belastar motorn och remmen extra. Du kan också märka ett högt mullrande eller malande ljud tillsammans med lukten, särskilt under centrifugering."
+        },
+        {
+          "cause": "Främmande föremål fastnat mellan trumma och tätning",
+          "detail": "Små föremål som strumpor, bysthållarbyglar eller mynt kan glida förbi dörrtätningen och fastna mellan trumman och det yttre karet. När trumman roterar bränner friktionen föremålet och ger en lukt som kan förväxlas med ett elektriskt fel."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och dra ur maskinen omedelbart",
+          "detail": "Så snart du märker en bränd lukt, stoppa programmet och koppla bort maskinen från elnätet. Starta inte om den förrän du har identifierat källan. Låt maskinen svalna i minst 20 minuter innan du rör vid några interna komponenter."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera trumman efter fastnade föremål",
+          "detail": "Öppna luckan och rotera trumman långsamt för hand. Känn längs kanten på dörrtätningen och dra försiktigt tillbaka den för att kontrollera om det finns fastnade föremål som mynt, bysthållarbyglar eller små plagg. Ta bort allt du hittar. Om trumman känns stel eller maler när du vrider den kan lagren vara problemet – gå vidare till steg 5."
+        },
+        {
+          "step": 3,
+          "action": "Rengör pumpfiltret",
+          "detail": "Pumpfiltret sitter vanligtvis bakom en liten lucka längst ned på maskinens framsida. Placera ett grunt kärl och några handdukar undertill och skruva sedan långsamt loss filterlocket för att tömma ut kvarvarande vatten. Ta ut filtret helt och rengör det från skräp, liksom filterhuset. Ett blockerat impellerhjul har ofta en bränd plastlukt."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera drivremmen",
+          "detail": "Med maskinen urkopplad, ta bort bakpanelen med en skruvmejsel. Leta upp drivremmen som löper mellan motorns remmskiva och trummans remmskiva. Titta efter tecken på sprickor, fransning, glasering eller en blank sliten yta. En rem som har slirande lämnar ofta svart gummidamm på närliggande komponenter. Byt ut remmen om den uppvisar något av dessa tecken."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera motorborstarna",
+          "detail": "Kolmotorborstar slits ned med tiden och är en mycket vanlig orsak till bränd lukt i Siemens tvättmaskiner. Med bakpanelen borttagen, leta upp motorn och identifiera borsthållarna på vardera sidan. Ta ut varje borste och mät dess längd – om någon borste är kortare än ungefär 15 mm bör båda bytas ut som ett par. Nya borstar är en billig och enkel reparation."
+        },
+        {
+          "step": 6,
+          "action": "Undersök synligt kablage och anslutningar",
+          "detail": "Med maskinen fortfarande urkopplad, inspektera visuellt kabelstammen, kontaktdon och synliga terminaler efter tecken på svärta, smältning eller missfärgning. Var särskilt uppmärksam på anslutningarna vid motorn, styrkortet och värmeelementen. Försök inte reparera bränt kablage själv – detta kräver en servicetekniker."
+        },
+        {
+          "step": 7,
+          "action": "Kör ett kort testprogram och övervaka noga",
+          "detail": "Om du har rengjort en blockering eller bytt rem eller borstar, montera ihop maskinen och kör ett kort 30-gradersprogram medan du stannar i närheten. Om lukten återkommer vid något tillfälle, stoppa maskinen omedelbart och använd den inte igen förrän en servicetekniker har inspekterat den."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Du bör kontakta en behörig servicetekniker utan att försöka utföra ytterligare DIY-arbete om du kan se bränt, smält eller missfärgat kablage, om maskinen löser ut ditt hushålls jordfelsbrytare när den slås på, eller om den brända lukten är skarp och elektrisk snarare än gummiartad. Dessa tecken tyder på ett fel på styrkortet, kabelstammen eller motorn som medför en verklig risk för brand eller elektrisk stöt om det hanteras felaktigt.</p><p>På samma sätt, om du har bytt drivremmen och motorborstarna men lukten kvarstår, eller om trumman är stel och bullrig vilket tyder på defekta lager, innebär reparationen att en betydande del av maskinen måste demonteras. En servicetekniker har de verktyg och den diagnostikutrustning som krävs för att identifiera den exakta komponenten och byta ut den på ett säkert sätt.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut på Siemens tvättmaskiner när en bränd lukt diagnostiseras är <strong>drivremmen</strong>, <strong>kolmotorborstarna</strong> och <strong>avloppspumpen</strong>. Drivremmen och motorborstarna är förbrukningsdelar som gradvis försämras under år av användning, så att byta ut dem i förebyggande syfte när du märker tidiga varningstecken – till exempel en svag lukt enbart under centrifugering eller något längre centrifugeringstider – kan förhindra att ett allvarligare fel uppstår. Att hålla pumpfiltret rent var en till tre månader är det enklaste sättet att skydda pumpmotorn från överhettning.</p><p>Använd reservdelsverktyget nedan för att hitta rätt drivrem, motorborstar eller avloppspump för din specifika Siemens-modell. Matcha alltid delar mot ditt fullständiga modellnummer, som finns tryckt på etiketten inuti dörrkarmens ram.</p>\n<!-- SPARE_PARTS_FAULT:burning-smell -->",
+      "faq_json": [
+        {
+          "answer": "Nej – du bör sluta använda maskinen tills du har identifierat och åtgärdat orsaken. En bränd lukt kan tyda på överhettade elektriska komponenter eller kablage, vilket medför en brandrisk. Dra ur maskinen och gå igenom kontrollerna ovan innan du kör ett nytt program.",
+          "question": "Är det säkert att fortsätta använda min Siemens tvättmaskin om den luktar bränt?"
+        },
+        {
+          "answer": "En lukt som uppstår specifikt under centrifugering orsakas oftast av en sliten eller slirande drivrem, eftersom remmen är under störst belastning vid höga trumhastigheter. Slitna motorborstar är en annan vanlig orsak, eftersom motorn drar mer ström under centrifugering. Båda är relativt enkla att inspektera och byta ut.",
+          "question": "Varför luktar min tvättmaskin bränt enbart under centrifugeringen?"
+        },
+        {
+          "answer": "Motorborstar håller vanligtvis mellan fem och tio år beroende på hur ofta maskinen används och vilka program som körs mest. Intensiv användning med frekventa höghastighetscentrifugeringar sliter ut dem snabbare. När borstarna slits ned börjar motorn gnista och överhettas, vilket ger en bränd lukt och ibland får maskinen att stanna mitt i programmet.",
+          "question": "Hur länge håller motorborstarna i en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "En mycket svag lukt under de första ett eller två programmen kan ibland förekomma när tillverkningsrester och skyddsbeläggningar bränns av från interna komponenter. Detta bör dock vara mycket milt och försvinna snabbt. Varje stark, ihållande eller tydligt gummiartad eller elektrisk lukt – även på en ny maskin – bör undersökas och rapporteras till återförsäljaren eller tillverkaren.",
+          "question": "Kan en ny tvättmaskin lukta bränt under de första användningarna?"
+        },
+        {
+          "answer": "Ja. Att konsekvent överlasta trumman tvingar motorn och drivremmen att arbeta mycket hårdare än de är konstruerade för, vilket genererar överskottsvärme. Med tiden accelererar detta slitaget på remmen och motorborstarna och kan orsaka överhettning även under ett normalt program. Följ alltid den lastkapacitet som anges i din Siemens-maskins manual för det program du använder.",
+          "question": "Kan en överlastad trumma orsaka bränd lukt?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:53:23.822572+00:00"
+    }
+  ]
+}

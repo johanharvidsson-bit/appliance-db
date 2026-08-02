@@ -1,0 +1,1507 @@
+{
+  "exported_at": "2026-07-30T21:54:59.649235+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    103,
+    104,
+    105,
+    106,
+    148
+  ],
+  "rows": [
+    {
+      "article_id": 103,
+      "locale": "en",
+      "slug": "lg-error-code-te1",
+      "title_tag": "LG Washing Machine Error Code tE1 | Fix It Now",
+      "meta_description": "LG washing machine showing tE1? Learn what causes this NTC temperature sensor fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code tE1 Mean on an LG Washing Machine?",
+      "description": "Error code tE1 on an LG washing machine indicates that the NTC thermistor (temperature sensor) is reading outside its expected range, meaning the machine cannot reliably monitor water temperature.",
+      "quick_fix": "Unplug the washing machine, wait 10 minutes, then reconnect power and restart the cycle — this clears a temporary sensor glitch in many cases and takes about 5 minutes.",
+      "intro_html": "<p>The tE1 error code points to a fault in the main NTC thermistor, which is the component responsible for measuring water temperature inside the drum. When this sensor sends a reading that falls outside the acceptable range — either too high, too low, or no signal at all — the machine's control board flags tE1 and halts the programme to prevent overheating or a failed wash.</p><p>You may notice the machine stopping mid-cycle, refusing to start a wash, or displaying the code immediately after selecting a temperature-based programme. The drum may still turn briefly before the error appears, and in some cases the machine will attempt to restart before locking out entirely.</p><p>The fault affects models across several LG series including the F1056, F1068, and F1096 families. While the error sounds technical, the underlying cause is often straightforward and can be resolved without specialist tools in many situations.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty or failed NTC thermistor",
+          "detail": "The thermistor itself degrades over time, particularly after repeated heating cycles. A broken internal element or cracked housing causes the resistance reading to fall outside the expected range, triggering tE1."
+        },
+        {
+          "cause": "Loose or corroded thermistor wiring connector",
+          "detail": "The connector linking the thermistor to the main PCB can work loose due to vibration during spin cycles, or corrode from moisture exposure inside the machine. A poor connection produces an intermittent or absent signal that the control board interprets as a sensor error."
+        },
+        {
+          "cause": "Damaged wiring harness between thermistor and PCB",
+          "detail": "The wiring running from the sensor to the control board can chafe against the drum casing or other components over years of use. A partial break or short in the harness produces erratic resistance readings identical to a failed sensor."
+        },
+        {
+          "cause": "Main PCB fault",
+          "detail": "If the control board's thermistor input circuit is damaged — for example by a power surge — it may misread a perfectly healthy sensor. This is less common but should be considered if a new thermistor does not clear the fault."
+        },
+        {
+          "cause": "Temporary software or sensor glitch",
+          "detail": "Occasionally a brief voltage fluctuation or software hiccup causes the board to log a false tE1 reading. A full power reset is enough to clear this without any component replacement."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a full power reset",
+          "detail": "Switch the machine off at the programme dial, then unplug it from the wall socket. Leave it unplugged for at least 10 minutes to allow the control board to fully discharge. Plug back in, select a programme, and observe whether tE1 returns. This resolves the fault when the cause is a temporary glitch."
+        },
+        {
+          "step": 2,
+          "action": "Check for error code confirmation",
+          "detail": "If tE1 reappears immediately or within the first few minutes of a new cycle, the fault is persistent and requires physical inspection. Note exactly when the code appears — at startup, during heating, or mid-cycle — as this helps narrow down the cause."
+        },
+        {
+          "step": 3,
+          "action": "Locate and inspect the thermistor connector",
+          "detail": "Unplug the machine before doing anything further. Remove the rear panel (usually held by two or three screws along the top edge). The NTC thermistor is typically clipped into the lower rear of the outer drum tub. Trace the wiring to its connector on the main harness and check that it is firmly seated. Disconnect and reconnect it firmly, looking for any signs of corrosion or bent pins."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the wiring harness for visible damage",
+          "detail": "With the rear panel still off, follow the thermistor wiring along its route toward the PCB. Look for any sections where the insulation has worn through, melted, or been pinched. If you find damaged wiring, the affected section of harness will need to be replaced or repaired by a service technician, as live wiring repairs carry a safety risk."
+        },
+        {
+          "step": 5,
+          "action": "Test the thermistor resistance with a multimeter",
+          "detail": "Disconnect the thermistor connector and set a multimeter to the resistance (Ohms) setting. At room temperature (around 20°C), a healthy LG NTC thermistor typically reads approximately 10,000–12,000 ohms. A reading of zero, infinite resistance, or a wildly different value confirms the sensor has failed and needs replacing."
+        },
+        {
+          "step": 6,
+          "action": "Replace the NTC thermistor",
+          "detail": "If the multimeter confirms a failed sensor, fit a compatible replacement thermistor for your specific model number. The part clips or screws into the drum tub in the same position as the original. Reconnect the wiring, refit the rear panel, and run a short wash cycle to confirm the tE1 code has cleared."
+        },
+        {
+          "step": 7,
+          "action": "Reassemble and run a test cycle",
+          "detail": "Once any repair or replacement is complete, refit all panels securely and plug the machine back in. Run a 40°C cotton cycle and monitor the display throughout. If tE1 does not reappear and the machine completes the cycle normally, the fault is resolved."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Contact a service technician if tE1 persists after you have replaced the thermistor with a confirmed compatible part and checked all wiring connections. This points to a fault on the main PCB itself, which requires specialist diagnostic equipment and soldering skills to repair or replace safely.</p><p>You should also call a technician if you find damaged wiring inside the machine, or if you are not comfortable working around electrical components. Any repair involving the main control board, live wiring, or internal drum components carries a risk of electric shock or further damage if handled incorrectly.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a tE1 fault are the NTC thermistor itself, the thermistor wiring harness connector, and in persistent cases the main PCB. Having the correct thermistor for your exact model number is important — resistance characteristics vary between series, and fitting the wrong part can cause the error to return.</p><p>You can search for compatible parts for your LG washing machine model using the tool below.</p>\n<!-- SPARE_PARTS:tE1 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. When tE1 is active, the machine cannot monitor water temperature accurately, which means it may overheat the water or fail to reach the correct temperature for the selected programme. Most LG machines will stop the cycle automatically to prevent damage, so continued use is unlikely to be possible anyway until the fault is cleared.",
+          "question": "Can I still use my LG washing machine with a tE1 error?"
+        },
+        {
+          "answer": "The most reliable way is to test the thermistor with a multimeter as described in step 5. If the resistance reading is within the expected range (roughly 10,000–12,000 ohms at room temperature), the sensor is healthy and the PCB input circuit is the more likely culprit. If the reading is open circuit or zero, replace the thermistor first before considering the PCB.",
+          "question": "How do I know if the thermistor is the problem and not the PCB?"
+        },
+        {
+          "answer": "For most LG front-loader models, replacing the thermistor takes around 30 to 45 minutes once you have the correct part. The main time is spent removing the rear panel and locating the sensor on the drum tub. The swap itself is straightforward — the sensor clips or screws into place and the connector is a simple push-fit.",
+          "question": "How long does it take to replace an LG washing machine thermistor?"
+        },
+        {
+          "answer": "If the replacement part is the correct specification for your model and the wiring harness is undamaged, the fault should not return. If tE1 reappears shortly after fitting a new thermistor, inspect the wiring connector carefully for corrosion or a poor contact, and consider whether a PCB fault may be misreading the new sensor.",
+          "question": "Will tE1 come back after I replace the thermistor?"
+        },
+        {
+          "answer": "No. On LG washing machines, tE1 specifically relates to the main NTC thermistor reading being out of range. tE2 and tE3 refer to faults with other temperature-sensing components or heating circuit elements. The diagnostic steps and replacement parts differ between these codes, so it is worth confirming the exact code displayed before ordering any parts.",
+          "question": "Is tE1 the same as tE2 or tE3 on LG washing machines?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:38.741589+00:00"
+    },
+    {
+      "article_id": 103,
+      "locale": "sv",
+      "slug": "lg-felkod-te1",
+      "title_tag": "LG Tvättmaskin Felkod tE1 | Åtgärda Det Nu",
+      "meta_description": "Visar din LG-tvättmaskin tE1? Lär dig vad som orsakar detta fel på NTC-temperatursensorn och hur du åtgärdar det själv innan du kontaktar en servicetekniker.",
+      "h1": "Vad Betyder Felkod tE1 på en LG Tvättmaskin?",
+      "description": "Felkod tE1 på en LG-tvättmaskin indikerar att NTC-termistorn (temperatursensorn) avger ett värde utanför förväntat område, vilket innebär att maskinen inte kan övervaka vattentemperaturen på ett tillförlitligt sätt.",
+      "quick_fix": "Koppla ur tvättmaskinen, vänta 10 minuter, anslut sedan strömmen igen och starta om programmet — detta rensar ett tillfälligt sensorfel i många fall och tar ungefär 5 minuter.",
+      "intro_html": "<p>Felkoden tE1 pekar på ett fel i huvud-NTC-termistorn, vilket är den komponent som ansvarar för att mäta vattentemperaturen inuti trumman. När denna sensor skickar ett värde som faller utanför det acceptabla området — antingen för högt, för lågt eller ingen signal alls — flaggar maskinens styrkort tE1 och avbryter programmet för att förhindra överhettning eller en misslyckad tvätt.</p><p>Du kan märka att maskinen stannar mitt i ett program, vägrar att starta en tvätt, eller visar koden omedelbart efter att ett temperaturbaserat program valts. Trumman kan fortfarande rotera kort innan felet visas, och i vissa fall försöker maskinen starta om innan den låser sig helt.</p><p>Felet påverkar modeller i flera LG-serier, inklusive F1056-, F1068- och F1096-familjerna. Även om felet låter tekniskt är den bakomliggande orsaken ofta enkel och kan i många fall åtgärdas utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt eller trasig NTC-termistor",
+          "detail": "Termistorn försämras med tiden, särskilt efter upprepade uppvärmningscykler. Ett brutet internt element eller ett sprucket hölje gör att motståndsavläsningen faller utanför det förväntade området och utlöser tE1."
+        },
+        {
+          "cause": "Lös eller korroderad kabelkontakt till termistorn",
+          "detail": "Kontakten som förbinder termistorn med huvud-PCB:n kan lossna på grund av vibrationer under centrifugeringscykler, eller korrodera från fuktexponering inuti maskinen. En dålig anslutning ger en intermittent eller utebliven signal som styrkortet tolkar som ett sensorfel."
+        },
+        {
+          "cause": "Skadad kabelstam mellan termistor och PCB",
+          "detail": "Kabeln som löper från sensorn till styrkortet kan nötas mot trumhöljet eller andra komponenter under åren. Ett partiellt brott eller kortslutning i kabelstammen ger oregelbundna motståndsavläsningar identiska med en defekt sensor."
+        },
+        {
+          "cause": "Fel på huvud-PCB",
+          "detail": "Om styrkortets termistoringångskrets är skadad — till exempel av ett strömöverspänning — kan den feltolka en helt frisk sensor. Detta är mindre vanligt men bör övervägas om en ny termistor inte rensar felet."
+        },
+        {
+          "cause": "Tillfälligt program- eller sensorfel",
+          "detail": "Ibland orsakar en kortvarig spänningsfluktuering eller ett programfel att kortet loggar en falsk tE1-avläsning. En fullständig strömåterställning räcker för att rensa detta utan att byta ut några komponenter."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en fullständig strömåterställning",
+          "detail": "Stäng av maskinen med programväljaren och koppla sedan ur den från vägguttaget. Låt den vara urkopplad i minst 10 minuter så att styrkortet hinner ladda ur helt. Anslut igen, välj ett program och observera om tE1 återkommer. Detta löser felet när orsaken är ett tillfälligt fel."
+        },
+        {
+          "step": 2,
+          "action": "Bekräfta felkoden",
+          "detail": "Om tE1 återkommer omedelbart eller inom de första minuterna av ett nytt program är felet bestående och kräver fysisk inspektion. Notera exakt när koden visas — vid start, under uppvärmning eller mitt i programmet — eftersom detta hjälper till att fastställa orsaken."
+        },
+        {
+          "step": 3,
+          "action": "Lokalisera och inspektera termistorkontakten",
+          "detail": "Koppla ur maskinen innan du gör något mer. Ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar längs överkanten). NTC-termistorn är vanligtvis klippt fast i den nedre bakre delen av det yttre trumkaret. Följ kabeln till dess kontakt på huvudkabelstammen och kontrollera att den sitter ordentligt. Koppla loss och återanslut den ordentligt och leta efter tecken på korrosion eller böjda stift."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera kabelstammen för synliga skador",
+          "detail": "Med bakpanelen fortfarande borttagen, följ termistorkabeln längs dess väg mot PCB:n. Leta efter avsnitt där isoleringen har nötts igenom, smält eller klämts. Om du hittar skadad kabelstam måste det berörda avsnittet bytas ut eller repareras av en servicetekniker, eftersom reparationer av strömförande kablar innebär en säkerhetsrisk."
+        },
+        {
+          "step": 5,
+          "action": "Testa termistorns motstånd med en multimeter",
+          "detail": "Koppla loss termistorkontakten och ställ in en multimeter på motståndsinställningen (Ohm). Vid rumstemperatur (cirka 20°C) avger en frisk LG NTC-termistor vanligtvis ungefär 10 000–12 000 ohm. En avläsning på noll, oändligt motstånd eller ett helt avvikande värde bekräftar att sensorn har gått sönder och behöver bytas ut."
+        },
+        {
+          "step": 6,
+          "action": "Byt ut NTC-termistorn",
+          "detail": "Om multimetern bekräftar en defekt sensor, montera en kompatibel ersättningstermistor för ditt specifika modellnummer. Delen klickas eller skruvas fast i trumkaret på samma position som originalet. Återanslut kabeln, montera tillbaka bakpanelen och kör ett kort tvättprogram för att bekräfta att tE1-koden har rensats."
+        },
+        {
+          "step": 7,
+          "action": "Montera ihop och kör ett testprogram",
+          "detail": "När reparationen eller bytet är klart, montera tillbaka alla paneler ordentligt och anslut maskinen till strömmen. Kör ett bomullsprogram vid 40°C och övervaka displayen under hela programmet. Om tE1 inte återkommer och maskinen slutför programmet normalt är felet åtgärdat."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om tE1 kvarstår efter att du har bytt ut termistorn mot en bekräftat kompatibel del och kontrollerat alla kabelanslutningar. Detta tyder på ett fel på huvud-PCB:n, vilket kräver specialiserad diagnostikutrustning och lödkunskaper för att reparera eller byta ut på ett säkert sätt.</p><p>Du bör också kontakta en tekniker om du hittar skadade kablar inuti maskinen, eller om du inte känner dig bekväm med att arbeta med elektriska komponenter. Alla reparationer som involverar huvudstyrkortet, strömförande kablar eller interna trumkomponenter innebär risk för elektrisk stöt eller ytterligare skador om de hanteras felaktigt.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett tE1-fel är NTC-termistorn själv, kabelstamskontakten till termistorn och i ihållande fall huvud-PCB:n. Det är viktigt att ha rätt termistor för ditt exakta modellnummer — motståndsegenskaperna varierar mellan serier och att montera fel del kan göra att felet återkommer.</p><p>Du kan söka efter kompatibla delar för din LG-tvättmaskinmodell med hjälp av verktyget nedan.</p>\n<!-- SPARE_PARTS:tE1 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt. När tE1 är aktiv kan maskinen inte övervaka vattentemperaturen korrekt, vilket innebär att den kan överhetta vattnet eller misslyckas med att nå rätt temperatur för det valda programmet. De flesta LG-maskiner stoppar programmet automatiskt för att förhindra skador, så fortsatt användning är ändå osannolik tills felet är åtgärdat.",
+          "question": "Kan jag fortfarande använda min LG-tvättmaskin med ett tE1-fel?"
+        },
+        {
+          "answer": "Det tillförlitligaste sättet är att testa termistorn med en multimeter enligt steg 5. Om motståndsavläsningen ligger inom det förväntade området (ungefär 10 000–12 000 ohm vid rumstemperatur) är sensorn frisk och PCB:ns ingångskrets är den mer troliga boven. Om avläsningen visar öppen krets eller noll, byt ut termistorn först innan du överväger PCB:n.",
+          "question": "Hur vet jag om termistorn är problemet och inte PCB:n?"
+        },
+        {
+          "answer": "För de flesta LG frontmatade modeller tar det ungefär 30 till 45 minuter att byta termistorn när du har rätt del. Huvuddelen av tiden går åt till att ta bort bakpanelen och lokalisera sensorn på trumkaret. Själva bytet är enkelt — sensorn klickas eller skruvas på plats och kontakten är ett enkelt tryckkoppling.",
+          "question": "Hur lång tid tar det att byta en LG-tvättmaskins termistor?"
+        },
+        {
+          "answer": "Om ersättningsdelen har rätt specifikation för din modell och kabelstammen är oskadad bör felet inte återkomma. Om tE1 återkommer kort efter att en ny termistor monterats, inspektera kabelkontakten noggrant för korrosion eller dålig kontakt och överväg om ett PCB-fel kan feltolka den nya sensorn.",
+          "question": "Kommer tE1 att återkomma efter att jag bytt termistorn?"
+        },
+        {
+          "answer": "Nej. På LG-tvättmaskiner avser tE1 specifikt att huvud-NTC-termistorns avläsning är utanför området. tE2 och tE3 avser fel på andra temperaturkänslande komponenter eller uppvärmningskretsens element. Diagnostikstegen och reservdelarna skiljer sig åt mellan dessa koder, så det är värt att bekräfta den exakta koden som visas innan du beställer några delar.",
+          "question": "Är tE1 detsamma som tE2 eller tE3 på LG-tvättmaskiner?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:40.358788+00:00"
+    },
+    {
+      "article_id": 104,
+      "locale": "en",
+      "slug": "lg-error-code-te2",
+      "title_tag": "LG Washing Machine Error Code tE2 | Fix It Now",
+      "meta_description": "LG washing machine showing tE2? Learn what causes this drum temperature sensor fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code tE2 Mean on an LG Washing Machine?",
+      "description": "Error code tE2 indicates a fault with the secondary drum temperature sensor (thermistor), meaning the washing machine cannot accurately monitor the water temperature inside the drum.",
+      "quick_fix": "Check that the thermistor wiring harness connector is firmly seated on the sensor — unplug the machine, locate the connector at the back of the drum, press it firmly home, then restore power and run a short cycle to see if tE2 clears (takes about 10 minutes).",
+      "intro_html": "<p>The tE2 error code on an LG washing machine points to a problem with the secondary thermistor — a small sensor that monitors the temperature of the water inside the drum. LG machines use two temperature sensors as a safety measure; tE2 specifically relates to the second of these. When the machine cannot get a reliable reading from this sensor, it stops the cycle to prevent overheating or incorrect wash temperatures.</p><p>When tE2 appears, the wash programme will typically pause or abort mid-cycle, and the error code will display on the control panel. The machine is not necessarily broken beyond repair — in many cases the fault is caused by a loose electrical connection or a failed sensor rather than any damage to the drum or motor. Working through the checks below in order will help you identify whether this is something you can resolve yourself.</p>",
+      "causes_json": [
+        {
+          "cause": "Loose or disconnected wiring connector",
+          "detail": "The thermistor connects to the main wiring harness via a small plastic connector. Vibration during spin cycles can work this connector loose over time, breaking the electrical circuit and triggering tE2."
+        },
+        {
+          "cause": "Failed secondary thermistor",
+          "detail": "The thermistor itself can fail due to age, heat exposure, or manufacturing defect. When the sensor's resistance value falls outside the expected range, the control board logs tE2 and halts the programme."
+        },
+        {
+          "cause": "Damaged or broken wiring",
+          "detail": "The wires running between the thermistor and the main PCB can become chafed, pinched, or broken — particularly where they pass through the cabinet frame. A break anywhere in this circuit produces the same error as a faulty sensor."
+        },
+        {
+          "cause": "Main PCB fault",
+          "detail": "If the control board's input circuit for the secondary thermistor is damaged, it will misread or fail to read the sensor signal entirely. This is less common but should be considered if the sensor and wiring both test as good."
+        },
+        {
+          "cause": "Water or moisture ingress",
+          "detail": "Condensation or a minor internal leak can cause corrosion at the thermistor connector or along the wiring, increasing resistance in the circuit and producing an out-of-range reading."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains and leave it unplugged for at least 5 minutes. This allows the control board to fully reset. Plug back in, select a short wash cycle, and check whether tE2 returns. If the error is gone, monitor the machine over the next few washes to confirm it does not reappear."
+        },
+        {
+          "step": 2,
+          "action": "Inspect and reseat the thermistor wiring connector",
+          "detail": "Unplug the machine from the mains before doing anything else. Remove the rear panel (usually held by two or three screws along the top edge). Locate the secondary thermistor — it sits against the outer drum and has a two-wire connector. Press the connector firmly until you feel or hear it click into place. Restore power and test."
+        },
+        {
+          "step": 3,
+          "action": "Check the wiring for visible damage",
+          "detail": "With the rear panel still off, trace the two wires from the thermistor back towards the main PCB. Look for any sections where the insulation is worn, pinched against a metal edge, or discoloured from heat. If you find a damaged section, the wiring loom will need to be repaired or replaced — this is a job for a service technician unless you are confident with electrical repairs."
+        },
+        {
+          "step": 4,
+          "action": "Test the thermistor resistance with a multimeter",
+          "detail": "Disconnect the thermistor connector and set your multimeter to the resistance (Ohms) setting. At room temperature (around 20°C), a healthy NTC thermistor typically reads between 10,000 and 15,000 ohms — check your model's service data if available. A reading of zero, infinity, or wildly outside this range confirms the sensor has failed and needs replacing."
+        },
+        {
+          "step": 5,
+          "action": "Replace the secondary thermistor",
+          "detail": "If the sensor has failed, order a replacement thermistor matched to your specific LG model number. The sensor is usually held in place by a single retaining clip or screw and unplugs from the wiring harness. Fit the new sensor, reconnect the wiring, refit the rear panel, and run a full test cycle to confirm the error has cleared."
+        },
+        {
+          "step": 6,
+          "action": "Check for moisture or corrosion at the connector",
+          "detail": "If the connector pins look green or white with corrosion, clean them carefully with electrical contact cleaner and a small brush. Allow to dry completely before reconnecting. If corrosion is severe, the connector block itself may need replacing to ensure a reliable contact."
+        },
+        {
+          "step": 7,
+          "action": "Consider the main PCB if all else checks out",
+          "detail": "If the thermistor tests within range, the wiring is intact, and the connectors are clean and secure, the fault may lie with the main control board's sensor input circuit. At this point, further diagnosis requires specialist equipment and the job should be passed to a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Contact a service technician if you have replaced the thermistor and checked all wiring but tE2 continues to appear. This pattern strongly suggests the main PCB is at fault, and board-level diagnosis or replacement is not a practical DIY task. Similarly, if you find wiring that has been burned, heavily corroded, or damaged close to the drum heater, do not attempt to run the machine — have it inspected before use.</p><p>You should also call a technician if you are not comfortable removing the rear panel or working near electrical components. The steps above are straightforward, but working on any appliance while it is connected to the mains carries a risk of electric shock. If in doubt, leave it to a professional.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a tE2 fault are the secondary thermistor (NTC temperature sensor), the thermistor wiring harness, and — in more serious cases — the main PCB. Keeping a note of your exact model number (found on the label inside the door rim) will help you order the correct part first time.</p><p>To reduce the chance of sensor faults developing, avoid overloading the drum, which increases vibration and can gradually loosen wiring connectors. Running a monthly drum-clean cycle also helps prevent moisture and detergent residue from building up around internal components.</p>\n<!-- SPARE_PARTS:tE2 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. The machine has stopped the cycle because it cannot monitor drum temperature reliably. Running it in this state risks washing at the wrong temperature or, in a worst case, overheating. Resolve the fault before using the machine again.",
+          "question": "Can I still use my LG washing machine while it shows tE2?"
+        },
+        {
+          "answer": "No. tE1 relates to the primary drum temperature sensor, while tE2 points specifically to the secondary thermistor. Both sensors monitor water temperature, but they are separate components. The diagnostic steps are similar, but you need to identify and test the correct sensor for the code shown.",
+          "question": "Is tE2 the same as tE1 on an LG washing machine?"
+        },
+        {
+          "answer": "A replacement NTC thermistor for an LG washing machine typically costs between £10 and £25 for the part alone. If a service technician carries out the replacement, you will also pay a call-out fee and labour, which varies by region. Replacing the sensor yourself is straightforward and keeps costs low.",
+          "question": "How much does it cost to replace an LG thermistor?"
+        },
+        {
+          "answer": "Occasionally a tE2 error caused by a temporary electrical glitch will clear after a full power cycle. However, if the sensor or wiring has genuinely failed, the error will return as soon as the machine tries to read the temperature again. A code that keeps coming back needs a physical repair, not just a reset.",
+          "question": "Will tE2 clear itself after the machine cools down?"
+        },
+        {
+          "answer": "The tE2 code appears across a range of LG front-loader models including the F0712WS, F0812WS, F1056MD, F1056ND, F1056QD series, F1056QP, F1068LD series, F1068QD series, F1073TD, F1091TD series, F1096Q/TDW1, and F1096QDA series. If your model is not listed, check your user manual — the fault description and repair approach will be the same.",
+          "question": "Which LG washing machine models are affected by tE2?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:38.811132+00:00"
+    },
+    {
+      "article_id": 104,
+      "locale": "sv",
+      "slug": "lg-felkod-te2",
+      "title_tag": "LG Tvättmaskin Felkod tE2 | Åtgärda Det Nu",
+      "meta_description": "Visar din LG-tvättmaskin tE2? Lär dig vad som orsakar detta fel på trummans temperatursensor och hur du åtgärdar det själv innan du kontaktar en servicetekniker.",
+      "h1": "Vad Betyder Felkod tE2 på en LG Tvättmaskin?",
+      "description": "Felkod tE2 indikerar ett fel på den sekundära trumtemperatursensorn (termistorn), vilket innebär att tvättmaskinen inte kan övervaka vattentemperaturen inuti trumman på ett tillförlitligt sätt.",
+      "quick_fix": "Kontrollera att termistorns kabelkontakt sitter ordentligt fast på sensorn — koppla ur maskinen, lokalisera kontakten på baksidan av trumman, tryck in den ordentligt tills den sitter fast, återställ sedan strömmen och kör ett kort program för att se om tE2 försvinner (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkoden tE2 på en LG-tvättmaskin pekar på ett problem med den sekundära termistorn — en liten sensor som övervakar temperaturen på vattnet inuti trumman. LG-maskiner använder två temperatursensorer som en säkerhetsåtgärd; tE2 avser specifikt den andra av dessa. När maskinen inte kan få ett tillförlitligt avläsningsvärde från denna sensor avbryter den programmet för att förhindra överhettning eller felaktiga tvätttemperaturer.</p><p>När tE2 visas kommer tvättrogrammet vanligtvis att pausas eller avbrytas mitt i cykeln, och felkoden visas på kontrollpanelen. Maskinen är inte nödvändigtvis obrukbar — i många fall orsakas felet av en lös elektrisk anslutning eller en defekt sensor snarare än någon skada på trumman eller motorn. Genom att gå igenom kontrollerna nedan i ordning kan du avgöra om detta är något du kan lösa själv.</p>",
+      "causes_json": [
+        {
+          "cause": "Lös eller frånkopplad kabelkontakt",
+          "detail": "Termistorn ansluts till huvudkabelstammen via en liten plastkontakt. Vibrationer under centrifugeringscykler kan med tiden lossa denna kontakt, bryta den elektriska kretsen och utlösa tE2."
+        },
+        {
+          "cause": "Defekt sekundär termistor",
+          "detail": "Termistorn i sig kan gå sönder på grund av ålder, värmepåverkan eller tillverkningsfel. När sensorns resistansvärde faller utanför det förväntade intervallet registrerar styrkortet tE2 och avbryter programmet."
+        },
+        {
+          "cause": "Skadad eller bruten kabelstam",
+          "detail": "Kablarna som löper mellan termistorn och huvud-PCB:n kan bli nötta, klämda eller brutna — särskilt där de passerar genom maskinens stomme. Ett brott var som helst i denna krets ger samma felkod som en defekt sensor."
+        },
+        {
+          "cause": "Fel på huvud-PCB",
+          "detail": "Om styrkortet ingångskrets för den sekundära termistorn är skadad, kommer den att läsa av sensorsignalen felaktigt eller inte alls. Detta är mindre vanligt men bör övervägas om sensorn och kabelstammen båda testar som godkända."
+        },
+        {
+          "cause": "Inträngning av vatten eller fukt",
+          "detail": "Kondens eller en mindre intern läcka kan orsaka korrosion vid termistorkontakten eller längs kabelstammen, vilket ökar resistansen i kretsen och ger ett avläsningsvärde utanför det tillåtna intervallet."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid eluttaget och låt den vara urkopplad i minst 5 minuter. Detta gör att styrkortet kan återställas helt. Anslut igen, välj ett kort tvättprogram och kontrollera om tE2 återkommer. Om felet är borta, övervaka maskinen under de närmaste tvättningarna för att bekräfta att det inte återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Inspektera och återanslut termistorns kabelkontakt",
+          "detail": "Koppla ur maskinen från eluttaget innan du gör något annat. Ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar längs överkanten). Lokalisera den sekundära termistorn — den sitter mot den yttre trumman och har en tvåtrådskontakt. Tryck in kontakten ordentligt tills du känner eller hör att den klickar på plats. Återställ strömmen och testa."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera kabelstammen för synliga skador",
+          "detail": "Med bakpanelen fortfarande borttagen, följ de två kablarna från termistorn tillbaka mot huvud-PCB:n. Leta efter avsnitt där isoleringen är nött, klämd mot en metallkant eller missfärgad av värme. Om du hittar ett skadat avsnitt måste kabelstammen repareras eller bytas ut — detta är ett arbete för en servicetekniker om du inte är säker på elektriska reparationer."
+        },
+        {
+          "step": 4,
+          "action": "Testa termistorns resistans med en multimeter",
+          "detail": "Koppla loss termistorkontakten och ställ in multimetern på resistans (Ohm). Vid rumstemperatur (cirka 20°C) läser en frisk NTC-termistor vanligtvis mellan 10 000 och 15 000 ohm — kontrollera din modells servicedata om tillgänglig. En avläsning på noll, oändlighet eller långt utanför detta intervall bekräftar att sensorn har gått sönder och behöver bytas."
+        },
+        {
+          "step": 5,
+          "action": "Byt ut den sekundära termistorn",
+          "detail": "Om sensorn har gått sönder, beställ en ersättningstermistor anpassad till ditt specifika LG-modellnummer. Sensorn hålls vanligtvis på plats av ett enda fästclips eller en skruv och kopplas loss från kabelstammen. Montera den nya sensorn, återanslut kabelstammen, sätt tillbaka bakpanelen och kör ett fullständigt testprogram för att bekräfta att felet har försvunnit."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera om det finns fukt eller korrosion vid kontakten",
+          "detail": "Om kontaktstiften ser gröna eller vita ut med korrosion, rengör dem försiktigt med elektrisk kontaktrengöringsspray och en liten borste. Låt torka helt innan du återansluter. Om korrosionen är allvarlig kan själva kontaktblocket behöva bytas ut för att säkerställa en tillförlitlig kontakt."
+        },
+        {
+          "step": 7,
+          "action": "Överväg huvud-PCB om allt annat ser bra ut",
+          "detail": "Om termistorn testar inom rätt intervall, kabelstammen är intakt och kontakterna är rena och säkra, kan felet ligga i styrkortet ingångskrets för sensorn. I detta läge kräver ytterligare diagnos specialutrustning och arbetet bör överlämnas till en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om du har bytt termistorn och kontrollerat all kabelstam men tE2 fortsätter att visas. Detta mönster tyder starkt på att huvud-PCB:n är felaktig, och diagnos eller byte på kortnivå är inte en praktisk gör-det-själv-uppgift. På samma sätt, om du hittar kabelstam som har brunnit, kraftigt korroderat eller skadats nära trummans värmeelement, försök inte köra maskinen — låt den inspekteras innan användning.</p><p>Du bör också ringa en tekniker om du inte är bekväm med att ta bort bakpanelen eller arbeta nära elektriska komponenter. Stegen ovan är enkla, men att arbeta på en apparat som är ansluten till elnätet medför risk för elektrisk stöt. Om du är osäker, låt en fackman sköta det.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett tE2-fel är den sekundära termistorn (NTC-temperatursensor), termistorns kabelstam och — i allvarligare fall — huvud-PCB:n. Att notera ditt exakta modellnummer (finns på etiketten inuti dörrkanten) hjälper dig att beställa rätt del på första försöket.</p><p>För att minska risken för att sensorfelen uppstår, undvik att överlasta trumman, vilket ökar vibrationer och gradvis kan lossa kabelkontakter. Att köra ett månatligt trumrengöringsprogram hjälper också till att förhindra att fukt och tvättmedelsrester samlas runt interna komponenter.</p>\n<!-- SPARE_PARTS:tE2 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt. Maskinen har avbrutit programmet eftersom den inte kan övervaka trumtemperaturen på ett tillförlitligt sätt. Att köra den i detta tillstånd riskerar tvätt vid fel temperatur eller, i värsta fall, överhettning. Åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag fortfarande använda min LG-tvättmaskin när den visar tE2?"
+        },
+        {
+          "answer": "Nej. tE1 avser den primära trumtemperatursensorn, medan tE2 specifikt pekar på den sekundära termistorn. Båda sensorerna övervakar vattentemperaturen, men de är separata komponenter. Diagnostikstegen är liknande, men du måste identifiera och testa rätt sensor för den visade koden.",
+          "question": "Är tE2 detsamma som tE1 på en LG-tvättmaskin?"
+        },
+        {
+          "answer": "En ersättnings-NTC-termistor för en LG-tvättmaskin kostar vanligtvis mellan 150 och 350 kronor för enbart delen. Om en servicetekniker utför bytet tillkommer även en utryckningsavgift och arbetskostnad, som varierar beroende på region. Att byta sensorn själv är enkelt och håller kostnaderna låga.",
+          "question": "Hur mycket kostar det att byta en LG-termistor?"
+        },
+        {
+          "answer": "Ibland kan ett tE2-fel som orsakats av en tillfällig elektrisk störning försvinna efter en fullständig omstart. Men om sensorn eller kabelstammen verkligen har gått sönder, kommer felet att återkomma så snart maskinen försöker läsa av temperaturen igen. En kod som återkommer behöver en fysisk reparation, inte bara en återställning.",
+          "question": "Försvinner tE2 av sig självt när maskinen svalnar?"
+        },
+        {
+          "answer": "Felkoden tE2 förekommer på ett antal LG frontmatade modeller, inklusive F0712WS, F0812WS, F1056MD, F1056ND, F1056QD-serien, F1056QP, F1068LD-serien, F1068QD-serien, F1073TD, F1091TD-serien, F1096Q/TDW1 och F1096QDA-serien. Om din modell inte finns med, kontrollera din bruksanvisning — felbeskrivningen och reparationsmetoden är densamma.",
+          "question": "Vilka LG-tvättmaskinmodeller påverkas av tE2?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:40.433645+00:00"
+    },
+    {
+      "article_id": 105,
+      "locale": "en",
+      "slug": "lg-error-code-te3",
+      "title_tag": "LG Washing Machine Error Code tE3 | Fix It Now",
+      "meta_description": "LG washing machine showing error code tE3? Learn what causes this heat pump thermistor fault and how to fix it yourself in simple steps.",
+      "h1": "What Does Error Code tE3 Mean on an LG Washing Machine?",
+      "description": "Error code tE3 indicates a condenser temperature sensor fault on LG heat pump washing machines, meaning the appliance cannot correctly read the temperature of the heat exchanger thermistor.",
+      "quick_fix": "Clean the condenser filter and heat exchanger fins at the front bottom panel of the machine to remove lint blockages that cause false thermistor readings, then restart the cycle (takes about 10 minutes).",
+      "intro_html": "<p>Error code tE3 appears on LG heat pump washing machines when the control board detects an abnormal signal from the condenser temperature sensor, also known as the heat exchanger thermistor. This sensor monitors the temperature inside the heat pump condenser unit to ensure the drying and washing cycle runs safely and efficiently.</p><p>When tE3 triggers, the machine will typically pause mid-cycle or refuse to start a new programme. You may notice the drum stops, the display flashes tE3, and in some cases the appliance beeps repeatedly. The heat pump system is effectively disabled until the fault is resolved.</p><p>The good news is that tE3 is not always caused by a failed component. Blocked airflow around the condenser is a very common trigger, and clearing it takes only a few minutes with no tools required.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked or clogged condenser filter",
+          "detail": "Lint, fluff, and debris accumulate in the condenser filter over time, restricting airflow across the heat exchanger. Reduced airflow causes the condenser to overheat or produce erratic temperature readings, triggering tE3."
+        },
+        {
+          "cause": "Faulty or degraded heat exchanger thermistor",
+          "detail": "The thermistor itself can fail due to age, moisture ingress, or physical damage. A failed thermistor sends an out-of-range resistance value to the control board, which the machine interprets as a sensor error."
+        },
+        {
+          "cause": "Loose or corroded thermistor wiring connection",
+          "detail": "Vibration during spin cycles can loosen the electrical connector between the thermistor and the main PCB. Corrosion on the connector pins can also cause intermittent or absent signals."
+        },
+        {
+          "cause": "Heat pump refrigerant issue",
+          "detail": "If the heat pump circuit has lost refrigerant charge or has a blockage, the condenser temperature can behave abnormally and push the thermistor reading outside acceptable limits. This is a less common cause and requires professional diagnosis."
+        },
+        {
+          "cause": "Main PCB fault",
+          "detail": "In rare cases the control board itself misreads or fails to process the thermistor signal correctly. This is usually only suspected after the thermistor and wiring have been confirmed as good."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power off and unplug the machine",
+          "detail": "Switch the washing machine off at the programme dial and unplug it from the wall socket. Wait at least two minutes before doing anything else. This allows any residual charge to dissipate and gives the control board a full reset, which occasionally clears a transient tE3 fault on its own."
+        },
+        {
+          "step": 2,
+          "action": "Clean the condenser filter",
+          "detail": "Open the small access panel at the bottom front of the machine. Pull out the condenser filter — it usually slides or clips out without tools. Rinse it thoroughly under running water to remove all lint and debris, then leave it to dry completely before reinserting. LG recommends cleaning this filter every month on heat pump models."
+        },
+        {
+          "step": 3,
+          "action": "Inspect and clean the heat exchanger fins",
+          "detail": "With the condenser filter removed, shine a torch into the housing and look at the metal fins of the heat exchanger. Use a soft brush or the brush attachment of a vacuum cleaner to gently remove any compacted fluff from the fin surface. Avoid bending the fins, as this can further restrict airflow."
+        },
+        {
+          "step": 4,
+          "action": "Restart the machine and run a short cycle",
+          "detail": "Reinsert the clean filter, close the access panel, plug the machine back in, and run a short cotton or rinse cycle. Watch to see whether tE3 reappears. If the error is gone, the blockage was the root cause and no further action is needed."
+        },
+        {
+          "step": 5,
+          "action": "Check the thermistor wiring connector",
+          "detail": "If tE3 persists, unplug the machine again and carefully remove the rear or top panel according to your model's service layout. Locate the heat exchanger thermistor — a small sensor clipped to the condenser housing with a two-wire connector. Press the connector firmly to reseat it and check for any signs of corrosion or burnt pins. Clean corroded pins gently with electrical contact cleaner."
+        },
+        {
+          "step": 6,
+          "action": "Test the thermistor resistance",
+          "detail": "With the connector unplugged, use a multimeter set to the resistance (Ohms) range and measure across the two thermistor terminals. At room temperature (around 20°C) a healthy NTC thermistor typically reads between 10kΩ and 15kΩ. A reading of zero, infinity, or wildly outside this range confirms the thermistor has failed and needs replacing."
+        },
+        {
+          "step": 7,
+          "action": "Replace the thermistor if faulty",
+          "detail": "Order the correct replacement thermistor for your specific LG model number (found on the label inside the door frame). The sensor usually unclips from the condenser housing and the connector pulls apart by hand. Fit the new thermistor, reconnect the wiring, reassemble the panels, and run a full test cycle to confirm the fault has cleared."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Contact a service technician if tE3 returns after you have cleaned the condenser filter, reseated the wiring, and replaced the thermistor with a confirmed good part. Persistent errors at this point suggest a fault within the heat pump refrigerant circuit — such as a low refrigerant charge, a blocked expansion valve, or a failing compressor — none of which can be safely diagnosed or repaired without specialist equipment and F-gas certification.</p><p>You should also call a technician if you notice the machine producing unusual smells, if the condenser housing feels excessively hot to the touch, or if the error code appears immediately every time the machine is powered on without any delay. These symptoms point to a deeper electrical or refrigerant fault that goes beyond straightforward DIY repair.</p>",
+      "prevention_html": "<p>The most effective way to prevent tE3 from recurring is to clean the condenser filter every four weeks, particularly if you use the machine frequently or wash items that shed a lot of lint such as towels and fleece fabrics. Keeping the area around the machine well ventilated also helps the heat pump operate within its normal temperature range.</p><p>The parts most commonly replaced when resolving a tE3 fault are the heat exchanger thermistor (temperature sensor), the thermistor wiring harness, and in persistent cases the main PCB. Using genuine LG parts ensures the correct resistance characteristics and connector fit for your model.</p>\n<!-- SPARE_PARTS:tE3 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to continue using the machine with an active tE3 fault. The heat pump system is disabled when this error is present, which means drying performance will be affected on washer-dryer models. Running repeated cycles with a faulty temperature sensor can also place additional stress on the heat pump compressor.",
+          "question": "Can I still use my LG washing machine while it shows tE3?"
+        },
+        {
+          "answer": "LG recommends cleaning the condenser filter approximately once a month under normal use. If you regularly wash towels, bedding, or synthetic fabrics that produce heavy lint, consider checking it every two weeks. A blocked filter is the single most common cause of tE3 and takes only a few minutes to address.",
+          "question": "How often should I clean the condenser filter on an LG heat pump washing machine?"
+        },
+        {
+          "answer": "No, these are distinct fault codes. tE1 and tE2 relate to the drum or heater thermistors used during the wash cycle, while tE3 is specific to the condenser temperature sensor in the heat pump circuit. The diagnostic steps and replacement parts differ between these codes, so it is important to confirm which code your machine is displaying.",
+          "question": "Is tE3 the same as tE1 or tE2 on LG machines?"
+        },
+        {
+          "answer": "The thermistor part itself is generally inexpensive, typically ranging from £10 to £30 depending on the model. If you are comfortable with basic appliance repair the job is straightforward and avoids a call-out fee. If you prefer a service technician to carry out the replacement, expect to pay a call-out charge on top of the part cost.",
+          "question": "How much does it cost to replace an LG heat exchanger thermistor?"
+        },
+        {
+          "answer": "A power cycle — unplugging the machine for two minutes — can sometimes clear a transient tE3 reading caused by a temporary sensor glitch. However, if the underlying cause is a blocked condenser, a failed thermistor, or a wiring fault, the error will return as soon as the machine attempts to run the heat pump again. A reset alone is not a fix for a genuine hardware fault.",
+          "question": "Will a factory reset clear the tE3 error code on my LG washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:38.886338+00:00"
+    },
+    {
+      "article_id": 105,
+      "locale": "sv",
+      "slug": "lg-felkod-te3",
+      "title_tag": "LG Tvättmaskin Felkod tE3 | Åtgärda Det Nu",
+      "meta_description": "Visar din LG tvättmaskin felkod tE3? Lär dig vad som orsakar detta fel på värmepumpens termistor och hur du åtgärdar det själv i enkla steg.",
+      "h1": "Vad Betyder Felkod tE3 på en LG Tvättmaskin?",
+      "description": "Felkod tE3 indikerar ett fel på kondensorns temperatursensor på LG tvättmaskiner med värmepump, vilket innebär att maskinen inte kan avläsa temperaturen på värmeväxlarens termistor korrekt.",
+      "quick_fix": "Rengör kondensorfiltret och värmeväxlarens lameller på maskinens nedre frontpanel för att ta bort luddblockeringar som orsakar felaktiga termistoravläsningar, starta sedan om cykeln (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod tE3 visas på LG tvättmaskiner med värmepump när styrkortet upptäcker en onormal signal från kondensorns temperatursensor, även känd som värmeväxlarens termistor. Denna sensor övervakar temperaturen inuti värmepumpens kondensorenhet för att säkerställa att tork- och tvättcykeln körs säkert och effektivt.</p><p>När tE3 utlöses kommer maskinen vanligtvis att pausa mitt i cykeln eller vägra att starta ett nytt program. Du kan märka att trumman stannar, displayen blinkar tE3, och i vissa fall piper maskinen upprepade gånger. Värmepumpsystemet är i praktiken inaktiverat tills felet är åtgärdat.</p><p>Den goda nyheten är att tE3 inte alltid orsakas av en defekt komponent. Blockerat luftflöde runt kondensorn är en mycket vanlig utlösare, och att rensa det tar bara några minuter utan verktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt eller tilltäppt kondensorfilter",
+          "detail": "Ludd, fibrer och smuts ansamlas i kondensorfiltret över tid och begränsar luftflödet över värmeväxlaren. Minskat luftflöde gör att kondensorn överhettas eller ger oregelbundna temperaturavläsningar, vilket utlöser tE3."
+        },
+        {
+          "cause": "Defekt eller försämrad värmeväxlartermistor",
+          "detail": "Termistorn i sig kan haverera på grund av ålder, fuktinträngning eller fysisk skada. En defekt termistor skickar ett motståndsvärde utanför det normala intervallet till styrkortet, vilket maskinen tolkar som ett sensorfel."
+        },
+        {
+          "cause": "Lös eller korroderad kabelanslutning till termistorn",
+          "detail": "Vibrationer under centrifugeringscykler kan lossa den elektriska kontakten mellan termistorn och huvud-PCB:n. Korrosion på kontaktstiften kan också orsaka intermittenta eller uteblivna signaler."
+        },
+        {
+          "cause": "Problem med värmepumpens köldmedium",
+          "detail": "Om värmepumpkretsen har förlorat köldmediumladdning eller har en blockering kan kondensortemperaturen bete sig onormalt och driva termistoravläsningen utanför acceptabla gränser. Detta är en mindre vanlig orsak och kräver professionell diagnos."
+        },
+        {
+          "cause": "Fel på huvud-PCB",
+          "detail": "I sällsynta fall läser styrkortet av eller bearbetar termistorsignalen felaktigt. Detta misstänks vanligtvis först efter att termistorn och kablaget har bekräftats vara i gott skick."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Stäng av tvättmaskinen med programväljaren och dra ut kontakten ur vägguttaget. Vänta minst två minuter innan du gör något annat. Detta låter eventuell kvarvarande laddning avledas och ger styrkortet en fullständig återställning, vilket ibland rensar ett tillfälligt tE3-fel på egen hand."
+        },
+        {
+          "step": 2,
+          "action": "Rengör kondensorfiltret",
+          "detail": "Öppna den lilla åtkomstluckan längst ned på maskinens framsida. Dra ut kondensorfiltret — det glider eller klickar vanligtvis ut utan verktyg. Skölj det noggrant under rinnande vatten för att ta bort allt ludd och all smuts, låt det sedan torka helt innan du sätter tillbaka det. LG rekommenderar att rengöra detta filter varje månad på modeller med värmepump."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera och rengör värmeväxlarens lameller",
+          "detail": "Med kondensorfiltret borttaget, lyser du med en ficklampa in i höljet och tittar på värmeväxlarens metalllameller. Använd en mjuk borste eller dammsugaren med borstmunstycke för att försiktigt ta bort kompakterat ludd från lamellernas yta. Undvik att böja lamellerna, eftersom detta ytterligare kan begränsa luftflödet."
+        },
+        {
+          "step": 4,
+          "action": "Starta om maskinen och kör en kort cykel",
+          "detail": "Sätt tillbaka det rena filtret, stäng åtkomstluckan, anslut maskinen till elnätet och kör en kort bomulls- eller sköljcykel. Kontrollera om tE3 dyker upp igen. Om felet är borta var blockeringen grundorsaken och inga ytterligare åtgärder behövs."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera termistorns kabelanslutning",
+          "detail": "Om tE3 kvarstår, koppla ur maskinen igen och ta försiktigt bort bak- eller toppanelen enligt din modells servicelayout. Lokalisera värmeväxlarens termistor — en liten sensor fastklämd på kondensorhöljet med en tvåtrådskontakt. Tryck in kontakten ordentligt för att återansluta den och kontrollera om det finns tecken på korrosion eller brända stift. Rengör korroderade stift försiktigt med elektrisk kontaktrengöringsspray."
+        },
+        {
+          "step": 6,
+          "action": "Mät termistorns motstånd",
+          "detail": "Med kontakten urkopplad, använd en multimeter inställd på motstånd (Ohm) och mät över termistorns två anslutningar. Vid rumstemperatur (cirka 20°C) läser en frisk NTC-termistor vanligtvis mellan 10 kΩ och 15 kΩ. En avläsning på noll, oändlighet eller långt utanför detta intervall bekräftar att termistorn har havererat och behöver bytas."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut termistorn om den är defekt",
+          "detail": "Beställ rätt ersättningstermistor för ditt specifika LG-modellnummer (finns på etiketten inuti dörrkarmens ram). Sensorn klickar vanligtvis loss från kondensorhöljet och kontakten dras isär för hand. Montera den nya termistorn, återanslut kablaget, montera ihop panelerna och kör en fullständig testcykel för att bekräfta att felet är åtgärdat."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om tE3 återkommer efter att du har rengjort kondensorfiltret, återanslutit kablaget och bytt ut termistorn mot en bekräftat fungerande del. Kvarstående fel vid det här laget tyder på ett fel i värmepumpens köldmediumkrets — såsom låg köldmediumladdning, ett blockerat expansionsventil eller en havererad kompressor — inget av vilket kan diagnostiseras eller repareras säkert utan specialutrustning och F-gascertifiering.</p><p>Du bör också ringa en tekniker om du märker att maskinen avger ovanliga lukter, om kondensorhöljet känns överdrivet varmt vid beröring, eller om felkoden visas omedelbart varje gång maskinen slås på utan någon fördröjning. Dessa symptom pekar på ett djupare elektriskt fel eller köldmediumfel som går bortom enkel DIY-reparation.</p>",
+      "prevention_html": "<p>Det mest effektiva sättet att förhindra att tE3 återkommer är att rengöra kondensorfiltret var fjärde vecka, särskilt om du använder maskinen ofta eller tvättar plagg som avger mycket ludd, såsom handdukar och fleecetygtyger. Att hålla området runt maskinen välventilerat hjälper också värmepumpen att arbeta inom sitt normala temperaturintervall.</p><p>De delar som oftast byts ut vid åtgärdande av ett tE3-fel är värmeväxlarens termistor (temperatursensor), termistorns kabelstam och i ihållande fall huvud-PCB:n. Att använda äkta LG-delar säkerställer rätt motståndsvärden och kontaktpassform för din modell.</p>\n<!-- SPARE_PARTS:tE3 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt att fortsätta använda maskinen med ett aktivt tE3-fel. Värmepumpsystemet är inaktiverat när detta fel är aktivt, vilket innebär att torkprestandan påverkas på kombinerade tvättmaskiner och torktumlare. Att köra upprepade cykler med en defekt temperatursensor kan också utsätta värmepumpens kompressor för ytterligare påfrestningar.",
+          "question": "Kan jag fortfarande använda min LG tvättmaskin när den visar tE3?"
+        },
+        {
+          "answer": "LG rekommenderar att rengöra kondensorfiltret ungefär en gång i månaden vid normal användning. Om du regelbundet tvättar handdukar, sängkläder eller syntetiska tyger som producerar mycket ludd, bör du överväga att kontrollera det varannan vecka. Ett igensatt filter är den enskilt vanligaste orsaken till tE3 och tar bara några minuter att åtgärda.",
+          "question": "Hur ofta ska jag rengöra kondensorfiltret på en LG tvättmaskin med värmepump?"
+        },
+        {
+          "answer": "Nej, dessa är distinkta felkoder. tE1 och tE2 avser trummans eller värmeelement-termistorerna som används under tvättcykeln, medan tE3 är specifik för kondensorns temperatursensor i värmepumpkretsen. Diagnostikstegen och reservdelarna skiljer sig åt mellan dessa koder, så det är viktigt att bekräfta vilken kod din maskin visar.",
+          "question": "Är tE3 samma som tE1 eller tE2 på LG-maskiner?"
+        },
+        {
+          "answer": "Termistordelen i sig är generellt sett billig, vanligtvis i intervallet 100–300 kr beroende på modell. Om du är bekväm med grundläggande vitvarureperation är jobbet enkelt och undviker en utryckningsavgift. Om du föredrar att en servicetekniker utför bytet, räkna med att betala en utryckningsavgift utöver delkostnaden.",
+          "question": "Hur mycket kostar det att byta en LG värmeväxlartermistor?"
+        },
+        {
+          "answer": "En strömcykel — att koppla ur maskinen i två minuter — kan ibland rensa en tillfällig tE3-avläsning orsakad av ett kortvarigt sensorfel. Men om den underliggande orsaken är ett igensatt kondensorfilter, en defekt termistor eller ett kabelfel, kommer felet att återkomma så snart maskinen försöker köra värmepumpen igen. En återställning ensam är inte en lösning på ett genuint hårdvarufel.",
+          "question": "Kommer en fabriksåterställning att rensa felkoden tE3 på min LG tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:38.970165+00:00"
+    },
+    {
+      "article_id": 106,
+      "locale": "en",
+      "slug": "lg-error-code-ue",
+      "title_tag": "LG Washing Machine Error Code UE | Fix Unbalanced Load",
+      "meta_description": "LG washing machine showing UE error? Learn what causes an unbalanced load fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does the UE Error Code Mean on an LG Washing Machine?",
+      "description": "The UE error code on an LG washing machine indicates that the laundry inside the drum is unevenly distributed, preventing the machine from reaching a safe spin speed.",
+      "quick_fix": "Open the door, redistribute the laundry evenly around the drum by hand, close the door, and restart the spin cycle — the machine should balance and complete the spin within 5–10 minutes (takes about 5 minutes to redistribute).",
+      "intro_html": "<p>When your LG washing machine displays the UE error code, it has detected that the load inside the drum is out of balance. During the spin phase, the machine monitors drum vibration; if the weight is too unevenly spread, it stops spinning to protect the motor, bearings, and cabinet from damage caused by excessive shaking.</p><p>You may notice the drum rocking heavily, the machine making a loud thumping noise, or the cycle pausing and restarting several times before the error appears. In many cases the machine will attempt to rebalance the load automatically by adding a small amount of water and tumbling — if that fails, the UE code is displayed and the cycle halts.</p><p>The good news is that this fault is almost always caused by how the laundry is loaded rather than a mechanical failure, and most cases can be resolved in a few minutes without any tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Unevenly distributed laundry",
+          "detail": "A single heavy item such as a duvet, towel, or jeans can clump to one side of the drum during spinning. This creates an imbalance the machine cannot correct on its own."
+        },
+        {
+          "cause": "Washing a single item or very small load",
+          "detail": "One or two items have very little mass to spread around the drum, making it almost impossible for the machine to achieve balance. Small loads are one of the most frequent triggers of the UE code."
+        },
+        {
+          "cause": "Overloaded drum",
+          "detail": "Packing too much laundry in prevents items from moving freely during the tumble phase, so the load cannot redistribute itself. The drum ends up with a heavy, compacted mass on one side."
+        },
+        {
+          "cause": "Machine not sitting level on the floor",
+          "detail": "If the washing machine is not perfectly level, gravity pulls the load to one side before spinning even begins. Worn or incorrectly adjusted levelling feet are a common underlying cause of repeated UE errors."
+        },
+        {
+          "cause": "Worn or damaged drum bearings",
+          "detail": "Bearings that are beginning to fail allow the drum to wobble on its shaft, making it harder for the machine to stabilise even a well-distributed load. This is usually accompanied by a rumbling or grinding noise during the spin."
+        },
+        {
+          "cause": "Faulty suspension springs or shock absorbers",
+          "detail": "The drum is held in place by springs and dampers that absorb movement during spinning. If one of these components is broken or worn out, the drum swings too freely and the imbalance sensor triggers the UE code even with a normal load."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Pause the cycle and open the door",
+          "detail": "Press the Start/Pause button to stop the machine. Wait for the door lock to release — this can take up to two minutes. Do not force the door open while the drum is still moving."
+        },
+        {
+          "step": 2,
+          "action": "Redistribute the laundry by hand",
+          "detail": "Reach into the drum and spread the items as evenly as possible around the inside of the drum wall. If you find a single heavy item balled up in the centre, shake it out and drape it loosely around the drum. Close the door and restart the spin cycle."
+        },
+        {
+          "step": 3,
+          "action": "Adjust the load size",
+          "detail": "If you are washing just one or two items, add a couple of similar-weight items such as towels to help balance the drum. If the drum was overfilled, remove some items and wash them in a second load. As a guide, the drum should be no more than three-quarters full."
+        },
+        {
+          "step": 4,
+          "action": "Check that the machine is level",
+          "detail": "Place a spirit level on top of the machine and check it front-to-back and side-to-side. If it is not level, adjust the four levelling feet by turning them clockwise to raise or anticlockwise to lower each corner. Lock each foot in place with the locking nut once the machine is stable."
+        },
+        {
+          "step": 5,
+          "action": "Check the machine is not rocking on the floor",
+          "detail": "Push each corner of the machine gently — it should not rock at all. If the floor itself is uneven, a rubber anti-vibration mat placed under the machine can help stabilise it and reduce the chance of future UE errors."
+        },
+        {
+          "step": 6,
+          "action": "Run a drum-only spin test",
+          "detail": "With the drum empty, select a spin-only cycle at 1000 rpm or higher. Listen and watch carefully — the machine should run quietly and smoothly. Loud rumbling, grinding, or heavy vibration during an empty spin points to a mechanical fault such as worn bearings or a damaged shock absorber."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the shock absorbers and suspension springs",
+          "detail": "If you are comfortable doing so, pull the machine away from the wall and remove the back panel. Check that all suspension springs are intact and that the shock absorbers are not leaking fluid or visibly broken. Replace any damaged components before using the machine again."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have redistributed the load, confirmed the machine is level, and the UE error still appears consistently with normal-sized loads, the fault is likely mechanical. A rumbling or grinding noise during spinning, or visible drum wobble when you rotate it by hand, strongly suggests the drum bearings are worn. This repair requires the machine to be partially dismantled and is not suitable as a DIY job.</p><p>Similarly, if you find a broken suspension spring or a leaking shock absorber during your inspection, contact a service technician. Running the machine with damaged suspension components can cause further damage to the drum, motor, and cabinet over time.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when diagnosing a persistent UE fault are the drum shock absorbers (dampers), the suspension springs, and the drum bearing assembly. Shock absorbers wear gradually over years of use and are a relatively straightforward replacement. Suspension springs can snap if the machine is regularly overloaded. Bearings typically last many years but will eventually need replacement, especially if the machine has been used with consistently heavy loads.</p><p>To reduce the likelihood of UE errors in future, always load the machine to the recommended capacity, avoid washing single bulky items alone, and check the levelling feet every six months — particularly if the machine has been moved.</p>\n<!-- SPARE_PARTS:UE -->",
+      "faq_json": [
+        {
+          "answer": "Yes, in many cases it will try. When the machine detects an imbalance, it adds a small amount of water and tumbles the load to try to redistribute it before attempting to spin again. If it succeeds, the cycle continues without any action needed from you. If it fails after several attempts, it displays the UE code and stops.",
+          "question": "Can the LG washing machine fix a UE error by itself?"
+        },
+        {
+          "answer": "Repeated UE errors with well-distributed loads usually point to a mechanical issue rather than a loading problem. The most common culprits are worn shock absorbers, a broken suspension spring, or failing drum bearings. Check that the machine is perfectly level first, as this is an easy fix — if levelling does not help, a service technician should inspect the suspension and bearing components.",
+          "question": "Why does my LG washing machine keep getting UE errors even with normal loads?"
+        },
+        {
+          "answer": "If the error is caused by an unbalanced load, redistributing the laundry and restarting is perfectly safe. However, if the error is caused by a mechanical fault such as broken suspension or worn bearings, continuing to use the machine can cause further damage. It is best to investigate and resolve the root cause before running more cycles.",
+          "question": "Is it safe to keep using the machine if it shows UE?"
+        },
+        {
+          "answer": "The UE code works the same way across the affected LG models — it indicates the drum cannot reach a safe spin speed due to imbalance. The steps to resolve it are identical regardless of whether you have an F1056MD, F1068LD, or any other model in the affected range.",
+          "question": "Does the UE error affect all LG washing machine models the same way?"
+        },
+        {
+          "answer": "As a general rule, fill the drum to no more than three-quarters of its capacity. For bulky items like duvets or large towels, half-full is a safer guide. Always check the maximum load weight stated in your model's manual, as this varies between models in the LG range.",
+          "question": "How full should I fill my LG washing machine to avoid UE errors?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:40.506606+00:00"
+    },
+    {
+      "article_id": 106,
+      "locale": "sv",
+      "slug": "lg-felkod-ue",
+      "title_tag": "LG Tvättmaskin Felkod UE | Åtgärda Obalanserad Last",
+      "meta_description": "Visar din LG tvättmaskin felkod UE? Lär dig vad som orsakar ett obalansfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod UE på en LG tvättmaskin?",
+      "description": "Felkod UE på en LG tvättmaskin indikerar att tvätten inuti trumman är ojämnt fördelad, vilket hindrar maskinen från att nå en säker centrifugeringshastighet.",
+      "quick_fix": "Öppna luckan, fördela om tvätten jämnt runt trumman för hand, stäng luckan och starta om centrifugeringsprogrammet — maskinen bör balansera sig och slutföra centrifugeringen inom 5–10 minuter (tar ungefär 5 minuter att fördela om).",
+      "intro_html": "<p>När din LG tvättmaskin visar felkod UE har den upptäckt att lasten inuti trumman är obalanserad. Under centrifugeringsfasen övervakar maskinen trummans vibrationer; om vikten är alltför ojämnt fördelad slutar den att centrifugera för att skydda motor, lager och kabinett från skador orsakade av kraftiga skakningar.</p><p>Du kan märka att trumman gungar kraftigt, att maskinen avger ett högt dunkande ljud, eller att programmet pausar och startar om flera gånger innan felet visas. I många fall försöker maskinen automatiskt balansera om lasten genom att tillföra en liten mängd vatten och tumla tvätten — om det misslyckas visas UE-koden och programmet stannar.</p><p>Den goda nyheten är att detta fel nästan alltid beror på hur tvätten är lastad snarare än ett mekaniskt fel, och de flesta fall kan lösas på några minuter utan några verktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Ojämnt fördelad tvätt",
+          "detail": "Ett enda tungt plagg, till exempel en duntäcke, handduk eller jeans, kan klumpa ihop sig på ena sidan av trumman under centrifugeringen. Detta skapar en obalans som maskinen inte kan korrigera på egen hand."
+        },
+        {
+          "cause": "Tvätt av ett enstaka plagg eller mycket liten last",
+          "detail": "Ett eller två plagg har för liten massa för att fördelas runt trumman, vilket gör det nästan omöjligt för maskinen att uppnå balans. Små laster är en av de vanligaste orsakerna till UE-koden."
+        },
+        {
+          "cause": "Överfylld trumma",
+          "detail": "Att packa för mycket tvätt hindrar plaggen från att röra sig fritt under tumlingsfasen, så lasten kan inte fördela om sig själv. Trumman får en tung, kompakterad massa på ena sidan."
+        },
+        {
+          "cause": "Maskinen står inte i vågrätt läge",
+          "detail": "Om tvättmaskinen inte står helt i vågrätt läge drar gravitationen lasten åt ena sidan redan innan centrifugeringen börjar. Slitna eller felaktigt justerade nivåfötter är en vanlig bakomliggande orsak till upprepade UE-fel."
+        },
+        {
+          "cause": "Slitna eller skadade trumlagrar",
+          "detail": "Lager som börjar ge vika tillåter trumman att vackla på sin axel, vilket gör det svårare för maskinen att stabilisera sig även med en välfördelad last. Detta åtföljs vanligtvis av ett mullrande eller malande ljud under centrifugeringen."
+        },
+        {
+          "cause": "Defekta upphängningsfjädrar eller stötdämpare",
+          "detail": "Trumman hålls på plats av fjädrar och dämpare som absorberar rörelser under centrifugeringen. Om någon av dessa komponenter är trasig eller sliten svänger trumman för fritt och obalansgivaren utlöser UE-koden även med en normal last."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Pausa programmet och öppna luckan",
+          "detail": "Tryck på Start/Paus-knappen för att stoppa maskinen. Vänta tills lucklåset öppnas — detta kan ta upp till två minuter. Tvinga inte upp luckan medan trumman fortfarande rör sig."
+        },
+        {
+          "step": 2,
+          "action": "Fördela om tvätten för hand",
+          "detail": "Räck in i trumman och sprid plaggen så jämnt som möjligt runt trummans insida. Om du hittar ett enstaka tungt plagg ihopklumpat i mitten, skaka ut det och lägg det löst runt trumman. Stäng luckan och starta om centrifugeringsprogrammet."
+        },
+        {
+          "step": 3,
+          "action": "Justera lastens storlek",
+          "detail": "Om du tvättar bara ett eller två plagg, lägg till några plagg med liknande vikt, till exempel handdukar, för att hjälpa till att balansera trumman. Om trumman var överfylld, ta ut några plagg och tvätta dem i en separat omgång. Som riktlinje bör trumman vara högst tre fjärdedelar full."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera att maskinen står i vågrätt läge",
+          "detail": "Placera ett vattenpass ovanpå maskinen och kontrollera det framifrån bakåt och från sida till sida. Om den inte är i vågrätt läge, justera de fyra nivåfötterna genom att vrida dem medurs för att höja eller moturs för att sänka varje hörn. Lås varje fot med låsmuttern när maskinen är stabil."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera att maskinen inte gungar på golvet",
+          "detail": "Tryck försiktigt på varje hörn av maskinen — den ska inte gunga alls. Om golvet i sig är ojämnt kan en gummimatta mot vibrationer placerad under maskinen hjälpa till att stabilisera den och minska risken för framtida UE-fel."
+        },
+        {
+          "step": 6,
+          "action": "Kör ett centrifugeringstest med tom trumma",
+          "detail": "Med tom trumma, välj ett centrifugeringsprogram vid 1000 varv/min eller högre. Lyssna och titta noga — maskinen ska gå tyst och jämnt. Högt mullrande, malande ljud eller kraftiga vibrationer under en tom centrifugering tyder på ett mekaniskt fel, till exempel slitna lager eller en skadad stötdämpare."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera stötdämpare och upphängningsfjädrar",
+          "detail": "Om du känner dig bekväm med det, dra ut maskinen från väggen och ta bort bakpanelen. Kontrollera att alla upphängningsfjädrar är intakta och att stötdämparna inte läcker vätska eller är synligt trasiga. Byt ut eventuella skadade komponenter innan du använder maskinen igen."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har fördelat om lasten, bekräftat att maskinen står i vågrätt läge och UE-felet ändå uppträder konsekvent med normalt stora laster, är felet troligen mekaniskt. Ett mullrande eller malande ljud under centrifugeringen, eller synlig trumvackling när du roterar den för hand, tyder starkt på att trumlagren är slitna. Denna reparation kräver att maskinen delvis demonteras och lämpar sig inte som ett gör-det-själv-arbete.</p><p>På samma sätt, om du hittar en trasig upphängningsfjäder eller en läckande stötdämpare under din inspektion, kontakta en servicetekniker. Att använda maskinen med skadade upphängningskomponenter kan med tiden orsaka ytterligare skador på trumma, motor och kabinett.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid diagnos av ett ihållande UE-fel är trummans stötdämpare, upphängningsfjädrarna och trumlagrets lagerhus. Stötdämpare slits gradvis under åren och är en relativt enkel åtgärd. Upphängningsfjädrar kan gå av om maskinen regelbundet överlastas. Lager håller vanligtvis i många år men behöver till slut bytas ut, särskilt om maskinen har använts med konsekvent tunga laster.</p><p>För att minska risken för UE-fel i framtiden, ladda alltid maskinen till rekommenderad kapacitet, undvik att tvätta enstaka skrymmande plagg ensamma och kontrollera nivåfötterna var sjätte månad — särskilt om maskinen har flyttats.</p>\n<!-- SPARE_PARTS:UE -->",
+      "faq_json": [
+        {
+          "answer": "Ja, i många fall försöker den det. När maskinen upptäcker en obalans tillför den en liten mängd vatten och tumlar lasten för att försöka fördela om den innan den försöker centrifugera igen. Om det lyckas fortsätter programmet utan att du behöver göra något. Om det misslyckas efter flera försök visas UE-koden och maskinen stannar.",
+          "question": "Kan LG tvättmaskinen åtgärda ett UE-fel på egen hand?"
+        },
+        {
+          "answer": "Upprepade UE-fel med välfördelade laster tyder vanligtvis på ett mekaniskt problem snarare än ett lastningsproblem. De vanligaste orsakerna är slitna stötdämpare, en trasig upphängningsfjäder eller sviktande trumlagrar. Kontrollera först att maskinen står helt i vågrätt läge, eftersom det är en enkel åtgärd — om justering inte hjälper bör en servicetekniker inspektera upphängnings- och lagerkomponenterna.",
+          "question": "Varför får min LG tvättmaskin upprepade UE-fel även med normala laster?"
+        },
+        {
+          "answer": "Om felet orsakas av en obalanserad last är det helt säkert att fördela om tvätten och starta om. Om felet däremot orsakas av ett mekaniskt fel, till exempel trasig upphängning eller slitna lager, kan fortsatt användning av maskinen orsaka ytterligare skador. Det är bäst att undersöka och åtgärda grundorsaken innan fler program körs.",
+          "question": "Är det säkert att fortsätta använda maskinen om den visar UE?"
+        },
+        {
+          "answer": "UE-koden fungerar på samma sätt i alla berörda LG-modeller — den indikerar att trumman inte kan nå en säker centrifugeringshastighet på grund av obalans. Stegen för att lösa det är identiska oavsett om du har en F1056MD, F1068LD eller någon annan modell i det berörda sortimentet.",
+          "question": "Påverkar UE-felet alla LG tvättmaskinmodeller på samma sätt?"
+        },
+        {
+          "answer": "Som en allmän regel, fyll trumman till högst tre fjärdedelar av dess kapacitet. För skrymmande plagg som duntäcken eller stora handdukar är halvfull ett säkrare riktmärke. Kontrollera alltid den maximala lastvikten som anges i din modells bruksanvisning, eftersom denna varierar mellan modellerna i LG-sortimentet.",
+          "question": "Hur full bör jag fylla min LG tvättmaskin för att undvika UE-fel?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:40.575303+00:00"
+    },
+    {
+      "article_id": 148,
+      "locale": "en",
+      "slug": "lg-washing-machine-wont-drain",
+      "title_tag": "LG Washing Machine Won't Drain – Causes & Fixes",
+      "meta_description": "LG washing machine not draining? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers OE error code on 977+ models.",
+      "h1": "Why Won't My LG Washing Machine Drain?",
+      "description": "The washing machine fails to pump water out of the drum at the end of a wash or rinse cycle, leaving clothes sitting in standing water.",
+      "quick_fix": "Pull out and clean the pump filter located behind the small access panel at the bottom-front of the machine — this clears the blockage responsible for most LG drainage failures and should restore normal draining within one cycle (takes about 10 minutes).",
+      "intro_html": "<p>When your LG washing machine won't drain, you'll typically find the drum still full of water at the end of a cycle, or the machine paused mid-cycle with the door locked. In many cases the control panel will display the <strong>OE error code</strong>, which is LG's way of signalling that water hasn't been removed within the expected time window.</p><p>The drainage system on an LG washing machine involves several components working together: the pump filter, the drain pump motor, the drain hose, and the pressure sensor that tells the machine when the drum is empty. A fault anywhere in this chain can stop the cycle from completing.</p><p>The good news is that the majority of drainage faults on LG machines are caused by a blocked filter or kinked hose — both of which you can resolve yourself without any specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked pump filter",
+          "detail": "Lint, coins, hair grips, and small items of clothing accumulate in the pump filter over time and restrict water flow. This is by far the most frequent cause of drainage failure on LG washing machines."
+        },
+        {
+          "cause": "Kinked or blocked drain hose",
+          "detail": "The corrugated drain hose at the back of the machine can become kinked if the machine has been pushed too close to the wall, or blocked internally with detergent residue. Either condition prevents water from leaving the drum."
+        },
+        {
+          "cause": "Faulty or obstructed drain pump",
+          "detail": "Even after the filter is clear, a small object such as a button or piece of wire can jam the pump impeller and stop it spinning. In some cases the pump motor itself fails electrically and will need replacing."
+        },
+        {
+          "cause": "Blocked household standpipe or waste connection",
+          "detail": "If the drain hose empties into a standpipe or sink waste, a blockage further down the household plumbing can cause water to back up into the machine. This is easy to overlook because the fault appears to be with the appliance."
+        },
+        {
+          "cause": "Faulty pressure sensor (water level sensor)",
+          "detail": "The pressure sensor monitors how much water is in the drum and signals the control board when draining is complete. If the sensor or its connecting air tube is faulty, the machine may believe the drum is still full and refuse to advance the cycle."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "In a small number of cases the main control board fails to send the correct signal to the drain pump. This is relatively rare and is usually only diagnosed after all other causes have been ruled out."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Cancel the cycle and manually drain the drum",
+          "detail": "Select the Spin or Drain programme on the dial and press Start — this sometimes clears a temporary sensor glitch and allows the machine to drain normally. If the drum remains full, place towels on the floor, open the small access panel at the bottom-front of the machine, and use the emergency drain hose (a short rubber tube clipped inside the panel) to drain the water into a shallow bowl before proceeding."
+        },
+        {
+          "step": 2,
+          "action": "Clean the pump filter",
+          "detail": "With the drum empty, unscrew the large circular filter cap inside the access panel anticlockwise. Pull the filter out and rinse it under a tap, removing all lint, debris, and any foreign objects. Also reach into the filter housing with your fingers and check that the pump impeller (a small plastic fan) spins freely. Refit the filter firmly — a loose filter cap will cause a leak."
+        },
+        {
+          "step": 3,
+          "action": "Check the drain hose for kinks and blockages",
+          "detail": "Pull the machine away from the wall and inspect the full length of the corrugated drain hose. Straighten any kinks and ensure the hose is not compressed behind the appliance. The end of the hose should sit no higher than 100 cm above floor level — if it is too high, the pump cannot overcome the head pressure."
+        },
+        {
+          "step": 4,
+          "action": "Check the household standpipe or waste connection",
+          "detail": "Disconnect the drain hose from the standpipe or sink waste and pour a jug of water directly into the standpipe to confirm it drains freely. If it drains slowly or backs up, the blockage is in your household plumbing rather than the machine, and the pipe will need clearing before the washing machine will drain correctly."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the pump impeller for obstructions",
+          "detail": "If the filter was clear but the pump still makes a humming noise without draining, a foreign object may be jammed in the impeller. With the machine unplugged, remove the filter again and use a torch to look into the housing. Use long-nose pliers to carefully remove any visible obstruction. Do not force the impeller — if it won't turn freely after removing visible debris, the pump may need replacing."
+        },
+        {
+          "step": 6,
+          "action": "Reset the machine",
+          "detail": "Unplug the washing machine from the mains socket, wait 60 seconds, then plug it back in. Select a short Spin cycle and observe whether the machine drains. A power reset can clear a temporary OE error caused by a control board communication glitch, particularly after a power fluctuation."
+        },
+        {
+          "step": 7,
+          "action": "Test the pressure sensor air tube",
+          "detail": "If the machine still won't drain after the steps above, locate the thin plastic air tube that runs from the bottom of the drum up to the pressure sensor on the control panel area. Disconnect both ends and blow through it to confirm it is clear — a blocked or cracked tube gives the sensor a false reading. Reconnect securely or replace the tube if it is split."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Call a service technician if the drain pump makes no sound at all when a drain cycle is selected (suggesting an electrical failure of the pump motor or control board), or if the pump hums continuously but water does not move even after the filter and impeller have been confirmed clear. These faults require component testing with a multimeter and, in most cases, a part replacement that involves accessing internal wiring.</p><p>You should also seek professional help if water is leaking from around the pump filter housing after you have refitted the filter, or if the OE error code returns immediately after every cycle despite the filter being clean — this pattern can indicate a failing pressure sensor or a control board fault that needs specialist diagnosis.</p>",
+      "prevention_html": "<p>The most effective way to prevent drainage faults on an LG washing machine is to clean the pump filter every one to three months, depending on how frequently you wash. Always check pockets before loading — coins, hair grips, and tissues are the most common causes of pump blockages. Using the correct amount of HE (high-efficiency) detergent also reduces the build-up of residue inside the drain hose over time.</p><p>The parts most commonly replaced when an LG washing machine won't drain are the <strong>drain pump assembly</strong>, the <strong>pump filter and housing</strong>, and the <strong>pressure sensor</strong> (also called the water level sensor). Genuine LG parts are recommended to ensure compatibility across the 977+ affected models.</p>\n<!-- SPARE_PARTS_FAULT:wont-drain -->",
+      "faq_json": [
+        {
+          "answer": "OE stands for Outlet Error and means the machine has detected that water has not drained within the expected time. It is triggered by the control board when the pressure sensor still registers water in the drum after the drain pump has been running. Clearing the pump filter resolves the OE code in the majority of cases.",
+          "question": "What does the OE error code mean on an LG washing machine?"
+        },
+        {
+          "answer": "It is best not to continue using the machine until the fault is resolved. Running repeated cycles with standing water in the drum puts extra strain on the pump motor and can cause mould and odour to develop inside the drum and door seal. Address the drainage fault first, then resume normal use.",
+          "question": "Can I use my LG washing machine if it won't drain?"
+        },
+        {
+          "answer": "LG recommends cleaning the pump filter approximately once a month, though every two to three months is sufficient for households that wash less frequently. If you regularly wash pet bedding, heavily soiled items, or items with loose fibres, clean it monthly to prevent build-up.",
+          "question": "How often should I clean the pump filter on my LG washing machine?"
+        },
+        {
+          "answer": "Slow draining is an early warning sign, usually indicating a partially blocked pump filter or a drain hose that is beginning to restrict flow. Left unattended it will progress to a complete blockage and trigger the OE error. Clean the filter and check the hose routing now to avoid a more disruptive fault later.",
+          "question": "My LG washing machine drains slowly but does eventually empty — is that a problem?"
+        },
+        {
+          "answer": "A replacement LG drain pump typically costs between £25 and £55 for the part alone, depending on the model. If you are comfortable with basic appliance repair the pump is accessible from the front of most LG machines after removing the lower panel. A service technician call-out will add labour costs on top of the part price.",
+          "question": "How much does it cost to replace the drain pump on an LG washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:43.349741+00:00"
+    },
+    {
+      "article_id": 148,
+      "locale": "sv",
+      "slug": "lg-tvattmaskin-tommer-inte",
+      "title_tag": "LG Tvättmaskin Tömmer Inte – Orsaker & Lösningar",
+      "meta_description": "Tömmer inte din LG-tvättmaskin? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker OE-felkod på 977+ modelle",
+      "h1": "Varför Tömmer Inte Min LG-Tvättmaskin?",
+      "description": "Tvättmaskinen pumpar inte ut vattnet ur trumman i slutet av ett tvätt- eller sköljprogram, vilket lämnar kläderna stående i stillastående vatten.",
+      "quick_fix": "Ta ut och rengör pumpfiltret som sitter bakom den lilla luckan längst ned på maskinens framsida – detta åtgärdar den blockering som orsakar de flesta tömningsproblem på LG-maskiner och bör återställa normal tömning inom ett program (tar ungefär 10 minuter).",
+      "intro_html": "<p>När din LG-tvättmaskin inte tömmer hittar du vanligtvis trumman fortfarande full med vatten i slutet av ett program, eller att maskinen har stannat mitt i cykeln med låst lucka. I många fall visar kontrollpanelen <strong>OE-felkoden</strong>, vilket är LG:s sätt att signalera att vattnet inte har tömts inom den förväntade tidsramen.</p><p>Tömningssystemet på en LG-tvättmaskin består av flera komponenter som samverkar: pumpfiltret, pumpmotorn, avloppsslangen och trycksensorn som talar om för maskinen när trumman är tom. Ett fel var som helst i denna kedja kan hindra programmet från att slutföras.</p><p>Den goda nyheten är att de flesta tömningsfel på LG-maskiner orsakas av ett igensatt filter eller en veckad slang – båda kan du åtgärda själv utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt pumpfilter",
+          "detail": "Ludd, mynt, hårnålar och små plagg samlas i pumpfiltret över tid och begränsar vattenflödet. Detta är den överlägset vanligaste orsaken till tömningsfel på LG-tvättmaskiner."
+        },
+        {
+          "cause": "Veckad eller blockerad avloppsslang",
+          "detail": "Den korrugerade avloppsslangen på maskinens baksida kan veckas om maskinen har skjutits för nära väggen, eller blockeras invändigt av tvättmedelsrester. Båda tillstånden hindrar vattnet från att lämna trumman."
+        },
+        {
+          "cause": "Defekt eller blockerad avloppspump",
+          "detail": "Även efter att filtret är rengjort kan ett litet föremål, till exempel en knapp eller en bit tråd, fastna i pumpens impeller och hindra den från att snurra. I vissa fall havererar pumpmotorn elektriskt och behöver bytas ut."
+        },
+        {
+          "cause": "Blockerat avloppsrör eller avloppsanslutning i huset",
+          "detail": "Om avloppsslangen mynnar i ett golvbrunnsrör eller ett diskbänksavlopp kan en blockering längre ned i husets rörledningar orsaka att vatten tränger tillbaka in i maskinen. Detta är lätt att förbise eftersom felet verkar ligga hos maskinen."
+        },
+        {
+          "cause": "Defekt trycksensor (vattennivåsensor)",
+          "detail": "Trycksensorn övervakar hur mycket vatten som finns i trumman och signalerar till styrkortet när tömningen är klar. Om sensorn eller dess anslutande luftslang är defekt kan maskinen tro att trumman fortfarande är full och vägra att fortsätta programmet."
+        },
+        {
+          "cause": "Fel på styrkortet",
+          "detail": "I ett litet antal fall skickar huvudstyrkortet inte rätt signal till avloppspumpen. Detta är relativt ovanligt och diagnostiseras vanligtvis först efter att alla andra orsaker har uteslutits."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Avbryt programmet och töm trumman manuellt",
+          "detail": "Välj Centrifugering eller Tömning på ratten och tryck på Start – detta rensar ibland ett tillfälligt sensorfel och låter maskinen tömma normalt. Om trumman förblir full, lägg handdukar på golvet, öppna den lilla luckan längst ned på maskinens framsida och använd nödtömningsslangen (en kort gummislang fäst inuti luckan) för att tömma vattnet i ett grunt kärl innan du fortsätter."
+        },
+        {
+          "step": 2,
+          "action": "Rengör pumpfiltret",
+          "detail": "Med trumman tömd, skruva loss det stora runda filterlocket inuti luckan moturs. Dra ut filtret och skölj det under kranen och ta bort allt ludd, smuts och eventuella främmande föremål. Stick också in fingrarna i filterhuset och kontrollera att pumpens impeller (ett litet plastflänshjul) snurrar fritt. Sätt tillbaka filtret ordentligt – ett löst filterlock orsakar läckage."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera avloppsslangen för veckning och blockering",
+          "detail": "Dra ut maskinen från väggen och inspektera hela längden på den korrugerade avloppsslangen. Räta ut eventuella veckar och se till att slangen inte är klämd bakom maskinen. Slangens ände bör inte sitta högre än 100 cm över golvnivå – om den sitter för högt kan pumpen inte övervinna tryckhöjden."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera avloppsröret eller avloppsanslutningen i huset",
+          "detail": "Koppla loss avloppsslangen från golvbrunnsröret eller diskbänksavloppet och häll en kanna vatten direkt i röret för att bekräfta att det rinner fritt. Om det rinner långsamt eller backar upp finns blockeringen i husets rörledningar snarare än i maskinen, och röret måste rensas innan tvättmaskinen kan tömma korrekt."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera pumpens impeller för hinder",
+          "detail": "Om filtret var rent men pumpen fortfarande surrar utan att tömma kan ett främmande föremål ha fastnat i impellern. Med maskinen urkopplad, ta bort filtret igen och använd en ficklampa för att titta in i huset. Använd spetsnåltång för att försiktigt ta bort eventuella synliga hinder. Tvinga inte impellern – om den inte snurrar fritt efter att synliga hinder tagits bort kan pumpen behöva bytas."
+        },
+        {
+          "step": 6,
+          "action": "Återställ maskinen",
+          "detail": "Dra ut tvättmaskinens stickkontakt ur vägguttaget, vänta 60 sekunder och sätt sedan i den igen. Välj ett kort centrifugeringsprogram och observera om maskinen tömmer. En strömåterställning kan rensa ett tillfälligt OE-fel orsakat av ett kommunikationsfel i styrkortet, särskilt efter en strömfluktuering."
+        },
+        {
+          "step": 7,
+          "action": "Testa trycksensorns luftslang",
+          "detail": "Om maskinen fortfarande inte tömmer efter ovanstående steg, leta upp den tunna plastluftslangen som löper från trummans botten upp till trycksensorn vid kontrollpanelen. Koppla loss båda ändarna och blås igenom den för att bekräfta att den är fri – en blockerad eller sprucken slang ger sensorn ett felaktigt avläsningsvärde. Återanslut ordentligt eller byt ut slangen om den är sprucken."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om avloppspumpen inte låter alls när ett tömningsprogram väljs (vilket tyder på ett elektriskt fel på pumpmotorn eller styrkortet), eller om pumpen surrar kontinuerligt men vattnet inte rör sig även efter att filtret och impellern har kontrollerats och befunnits fria. Dessa fel kräver komponenttestning med en multimeter och i de flesta fall ett komponentbyte som innebär åtkomst till intern kablage.</p><p>Du bör också söka professionell hjälp om vatten läcker från pumpfilterhuset efter att du har satt tillbaka filtret, eller om OE-felkoden återkommer omedelbart efter varje program trots att filtret är rent – detta mönster kan tyda på en defekt trycksensor eller ett styrkortsfel som kräver specialistdiagnos.</p>",
+      "prevention_html": "<p>Det effektivaste sättet att förebygga tömningsfel på en LG-tvättmaskin är att rengöra pumpfiltret var en till tre månader, beroende på hur ofta du tvättar. Kontrollera alltid fickorna innan du lastar maskinen – mynt, hårnålar och näsdukar är de vanligaste orsakerna till pumpstopp. Att använda rätt mängd HE-tvättmedel (högeffektivt) minskar också uppbyggnaden av rester inuti avloppsslangen över tid.</p><p>De delar som oftast byts ut när en LG-tvättmaskin inte tömmer är <strong>avloppspumpsenheten</strong>, <strong>pumpfiltret med hus</strong> och <strong>trycksensorn</strong> (även kallad vattennivåsensorn). Äkta LG-delar rekommenderas för att säkerställa kompatibilitet med de 977+ berörda modellerna.</p>\n<!-- SPARE_PARTS_FAULT:wont-drain -->",
+      "faq_json": [
+        {
+          "answer": "OE står för Outlet Error (avloppsfel) och innebär att maskinen har registrerat att vattnet inte har tömts inom förväntad tid. Den utlöses av styrkortet när trycksensorn fortfarande registrerar vatten i trumman efter att avloppspumpen har varit igång. Att rengöra pumpfiltret löser OE-koden i de flesta fall.",
+          "question": "Vad betyder OE-felkoden på en LG-tvättmaskin?"
+        },
+        {
+          "answer": "Det är bäst att inte fortsätta använda maskinen tills felet är åtgärdat. Att köra upprepade program med stillastående vatten i trumman belastar pumpmotorn extra och kan orsaka mögel och dålig lukt inuti trumman och lucktätningen. Åtgärda tömningsfelet först och återuppta sedan normal användning.",
+          "question": "Kan jag använda min LG-tvättmaskin om den inte tömmer?"
+        },
+        {
+          "answer": "LG rekommenderar att rengöra pumpfiltret ungefär en gång i månaden, men var två till tre månader räcker för hushåll som tvättar mer sällan. Om du regelbundet tvättar husdjursbäddar, kraftigt smutsade plagg eller plagg med lösa fibrer, rengör det månadsvis för att förhindra uppbyggnad.",
+          "question": "Hur ofta ska jag rengöra pumpfiltret på min LG-tvättmaskin?"
+        },
+        {
+          "answer": "Långsam tömning är ett tidigt varningstecken och tyder vanligtvis på ett delvis igensatt pumpfilter eller en avloppsslang som börjar begränsa flödet. Om det lämnas utan åtgärd kommer det att utvecklas till en fullständig blockering och utlösa OE-felet. Rengör filtret och kontrollera slangens dragning nu för att undvika ett mer störande fel senare.",
+          "question": "Min LG-tvättmaskin tömmer långsamt men töms till slut – är det ett problem?"
+        },
+        {
+          "answer": "En ersättningspump till LG kostar vanligtvis mellan 300 och 650 kronor för enbart delen, beroende på modell. Om du är bekväm med grundläggande vitvaruservice är pumpen åtkomlig framifrån på de flesta LG-maskiner efter att den nedre panelen tagits bort. En servicetekniker tillkommer med arbetskostnad utöver delspriset.",
+          "question": "Hur mycket kostar det att byta avloppspump på en LG-tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:44.763988+00:00"
+    }
+  ]
+}

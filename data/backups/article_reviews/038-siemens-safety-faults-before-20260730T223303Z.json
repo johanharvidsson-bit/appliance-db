@@ -1,0 +1,1043 @@
+{
+  "exported_at": "2026-07-30T22:33:03.509375+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    337,
+    338,
+    339,
+    342,
+    343
+  ],
+  "rows": [
+    {
+      "article_id": 337,
+      "locale": "en",
+      "slug": "not-heating-water",
+      "title_tag": "Siemens Washing Machine Not Heating Water – Fixes",
+      "meta_description": "Siemens washing machine not heating water? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers error codes E60–E69.",
+      "h1": "Why Is My Siemens Washing Machine Not Heating the Water?",
+      "description": "The washing machine completes a cycle but the water remains cold, meaning clothes are not washed at the selected temperature.",
+      "quick_fix": "Run a 60°C cotton cycle with no laundry and check whether the drum feels warm partway through — if it does not, reset the machine by switching it off at the wall for 5 minutes and restarting the programme, which clears temporary control board faults and restores normal heating in many cases (takes about 5 minutes).",
+      "intro_html": "<p>When a Siemens washing machine fails to heat water, the wash cycle still runs from start to finish, but the water inside the drum stays at or near room temperature regardless of the temperature setting you have chosen. Clothes may come out still smelling or looking unwashed, particularly on programmes that rely on heat to activate detergent and break down grease.</p><p>The heating system in a washing machine involves several components working together: a heating element submerged in the drum, a temperature sensor (NTC thermistor) that monitors water temperature, and a control board that decides when to switch heating on and off. A fault in any one of these can prevent heating entirely. Related error codes E60 through E69 may appear on the display, each pointing to a slightly different part of the heating circuit, but the visible symptom is the same — cold water throughout the wash.</p><p>This is classed as an advanced fault because it often requires electrical testing with a multimeter and, in some cases, partial disassembly of the machine. That said, some causes are straightforward and can be resolved without specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Failed heating element",
+          "detail": "The heating element is the most common reason a Siemens washing machine stops heating. Over time, the element burns out or develops a break in the resistance wire, preventing it from generating heat. Error codes E60 or E61 are often associated with this failure."
+        },
+        {
+          "cause": "Faulty NTC temperature sensor (thermistor)",
+          "detail": "The NTC sensor measures the water temperature and reports it back to the control board. If the sensor drifts out of calibration or fails completely, the board either never triggers heating or cuts it off too early. Codes E62, E63, or E65 may be displayed."
+        },
+        {
+          "cause": "Defective control board (PCB)",
+          "detail": "The main PCB controls the relay that switches power to the heating element. A burnt relay contact or software fault on the board can prevent the heating circuit from activating even when the element and sensor are both healthy. Codes E66, E67, or E68 can indicate a board-level issue."
+        },
+        {
+          "cause": "Wiring or connector fault",
+          "detail": "The wires connecting the heating element and thermistor to the control board can corrode, loosen, or break, especially near the back of the drum where vibration is high. A loose spade connector on the element terminals is a surprisingly common cause of intermittent or complete heating failure."
+        },
+        {
+          "cause": "Heavy limescale build-up on the element",
+          "detail": "In hard-water areas, limescale coats the element and acts as an insulator, reducing heating efficiency dramatically. In severe cases the element overheats locally and trips an internal thermal cut-out, which may not reset automatically. Error code E64 or E69 can appear in this scenario."
+        },
+        {
+          "cause": "Tripped thermal cut-out (safety thermostat)",
+          "detail": "Some Siemens models include a one-shot or resettable thermal cut-out on the heater assembly. If the element has previously overheated — often due to limescale — this safety device opens the circuit and stays open until it is manually reset or replaced."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Confirm the fault and note any error codes",
+          "detail": "Select a 60°C or 90°C cotton programme and start the machine with an empty drum. After 15–20 minutes, carefully open the detergent drawer and feel the water through the door glass — it should be noticeably warm. Note any error code shown on the display, as codes E60–E69 will help narrow down which component has failed before you start disassembling anything."
+        },
+        {
+          "step": 2,
+          "action": "Power-cycle the machine to clear temporary faults",
+          "detail": "Switch the machine off at the wall socket and leave it unplugged for at least 5 minutes. This allows the control board capacitors to discharge fully and can clear a software glitch that is incorrectly blocking the heating circuit. Plug back in, select a hot programme, and retest. If heating is restored, monitor the machine over the next few washes to confirm the fix has held."
+        },
+        {
+          "step": 3,
+          "action": "Inspect and clean the filter and check for error code recurrence",
+          "detail": "A blocked pump filter can cause the machine to abort or shorten the heating phase as a protective measure. Locate the filter behind the small panel at the bottom front of the machine, place a towel and shallow tray underneath, and unscrew the cap slowly to drain residual water. Remove any debris, refit the filter firmly, and run a hot cycle again to see whether the error code returns."
+        },
+        {
+          "step": 4,
+          "action": "Test the heating element with a multimeter",
+          "detail": "Disconnect the machine from the mains. Remove the back panel (usually held by two or three screws) to access the heating element at the base of the drum. Disconnect the two spade connectors and set your multimeter to resistance (Ω). A healthy Siemens element typically reads between 20 and 30 ohms. A reading of zero (short circuit) or infinite resistance (open circuit) confirms the element has failed and needs replacing. Also check that both connectors are firmly seated and free from corrosion before reassembling."
+        },
+        {
+          "step": 5,
+          "action": "Test the NTC temperature sensor",
+          "detail": "With the back panel still removed, locate the NTC thermistor — it is usually clipped into the heater housing or mounted nearby on the drum casing. Disconnect it and measure resistance with your multimeter. At room temperature (around 20°C) a standard NTC sensor should read approximately 10,000–12,000 ohms. A reading far outside this range, or an open circuit, means the sensor needs replacing. This is a relatively inexpensive part and straightforward to swap."
+        },
+        {
+          "step": 6,
+          "action": "Check wiring and connectors throughout the heating circuit",
+          "detail": "Trace the wiring from the element and thermistor back towards the control board, looking for any wires that are burnt, pinched, or have pulled free from their connectors. Gently tug each spade connector to confirm it is secure. Repair or replace any damaged wiring using appropriately rated connectors — do not use standard household electrical tape on connections inside a washing machine."
+        },
+        {
+          "step": 7,
+          "action": "Descale the machine if limescale is suspected",
+          "detail": "If you live in a hard-water area and the machine has not been descaled recently, run a dedicated washing machine descaler or a 90°C service wash with 500 ml of white vinegar and no laundry. Repeat if necessary. If the element has already failed due to limescale damage, descaling alone will not fix it — the element will need to be replaced — but descaling after fitting a new element will extend its life significantly."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested the heating element and NTC sensor with a multimeter and both components measure within normal ranges, the fault is most likely inside the control board itself — specifically a failed heating relay or a damaged PCB track. Diagnosing and replacing a control board requires specialist knowledge and access to Siemens wiring diagrams, and an incorrect repair can create a safety hazard. At this point, booking a service technician is the right course of action.</p><p>You should also call a service technician immediately if you notice any signs of burning smells, scorch marks around the element terminals, or if the machine trips your household circuit breaker when it attempts to heat. These symptoms suggest an electrical fault that goes beyond a simple component swap and must be assessed by a qualified professional before the machine is used again.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Siemens washing machine stops heating are the <strong>heating element</strong>, the <strong>NTC temperature sensor (thermistor)</strong>, and occasionally the <strong>thermal cut-out (safety thermostat)</strong>. If you are already replacing the element, it is worth fitting a new thermistor at the same time, as both parts are accessible from the same location and the thermistor is inexpensive. Running a monthly 90°C maintenance wash and using a descaler every three to six months in hard-water areas will significantly extend the life of the heating element.</p><p>Use the parts finder below to locate the correct heating element, NTC sensor, or thermal cut-out for your specific Siemens model number.</p>\n<!-- SPARE_PARTS_FAULT:not-heating-water -->",
+      "faq_json": [
+        {
+          "answer": "These codes all relate to the heating circuit. E60 and E61 typically indicate a problem with the heating element itself, E62 and E63 point to the NTC temperature sensor, and E64–E69 cover issues such as limescale overheating, wiring faults, and control board relay failures. Noting the exact code before you start investigating will save time by pointing you to the most likely faulty component.",
+          "question": "What do error codes E60 to E69 mean on a Siemens washing machine?"
+        },
+        {
+          "answer": "You can continue using it for cold-water programmes (30°C or 'cold' settings) while you arrange a repair, but avoid selecting hot programmes because the machine may attempt to heat and draw current through a damaged element, which could cause further damage or trip your circuit breaker. Clothes washed in cold water will not be hygienically cleaned on programmes that rely on heat to kill bacteria.",
+          "question": "Can I still use my washing machine if it is not heating the water?"
+        },
+        {
+          "answer": "In soft-water areas, a heating element can last the lifetime of the machine — often 10 to 15 years. In hard-water areas without regular descaling, elements can fail in as little as 3 to 5 years due to limescale build-up causing localised overheating. Using a water softener tablet with each wash and running a descaling cycle every three months will extend element life considerably.",
+          "question": "How long does a Siemens washing machine heating element last?"
+        },
+        {
+          "answer": "For someone comfortable using a multimeter and basic hand tools, replacing the element is achievable. The back panel needs to be removed, the drum partially drained, and the element unbolted from its housing. However, it does involve working near mains-voltage components, so the machine must be fully unplugged before you start and must remain unplugged throughout. If you are not confident working with electrical appliances, ask a service technician to carry out the replacement.",
+          "question": "Is replacing a washing machine heating element a DIY job?"
+        },
+        {
+          "answer": "Intermittent heating is often caused by a loose wiring connector on the element or thermistor that makes contact in some positions but not others, or by a control board relay that is beginning to fail. A hairline crack in the element can also cause intermittent faults, as the crack opens and closes with thermal expansion. Intermittent faults are harder to diagnose than permanent ones — a service technician with diagnostic equipment will be able to identify the root cause more reliably.",
+          "question": "Why does my Siemens washing machine sometimes heat and sometimes not?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:28:00.877872+00:00"
+    },
+    {
+      "article_id": 337,
+      "locale": "sv",
+      "slug": "värmer-inte-vatten",
+      "title_tag": "Siemens tvättmaskin värmer inte vatten – Lösningar",
+      "meta_description": "Siemens tvättmaskin värmer inte vatten? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkoder E60–E69.",
+      "h1": "Varför värmer inte min Siemens tvättmaskin vattnet?",
+      "description": "Tvättmaskinen slutför ett program men vattnet förblir kallt, vilket innebär att kläderna inte tvättas vid den valda temperaturen.",
+      "quick_fix": "Kör ett bomullsprogram på 60°C utan tvätt och kontrollera om trumman känns varm halvvägs igenom – om den inte gör det, återställ maskinen genom att stänga av den vid vägguttaget i 5 minuter och starta om programmet, vilket rensar tillfälliga fel i styrkortet och återställer normal uppvärmning i många fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>När en Siemens tvättmaskin inte värmer vattnet körs tvättcykeln fortfarande från start till slut, men vattnet i trumman stannar vid eller nära rumstemperatur oavsett vilken temperaturinställning du har valt. Kläder kan komma ut fortfarande luktande eller smutsiga, särskilt vid program som förlitar sig på värme för att aktivera tvättmedel och bryta ned fett.</p><p>Uppvärmningssystemet i en tvättmaskin består av flera komponenter som samverkar: ett värmeelement nedsänkt i trumman, en temperatursensor (NTC-termistor) som övervakar vattentemperaturen och ett styrkort som bestämmer när uppvärmningen ska slås på och av. Ett fel i någon av dessa kan förhindra uppvärmning helt. Relaterade felkoder E60 till E69 kan visas på displayen, där var och en pekar på en något annorlunda del av uppvärmningskretsen, men det synliga symptomet är detsamma – kallt vatten under hela tvätten.</p><p>Detta klassas som ett avancerat fel eftersom det ofta kräver elektrisk testning med en multimeter och i vissa fall partiell isärtagning av maskinen. Det sagt finns det orsaker som är enkla och kan åtgärdas utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Trasigt värmeelement",
+          "detail": "Värmeelementet är den vanligaste orsaken till att en Siemens tvättmaskin slutar värma. Med tiden bränns elementet ut eller får ett brott i motståndsträden, vilket hindrar det från att generera värme. Felkoder E60 eller E61 är ofta förknippade med detta fel."
+        },
+        {
+          "cause": "Defekt NTC-temperatursensor (termistor)",
+          "detail": "NTC-sensorn mäter vattentemperaturen och rapporterar tillbaka till styrkortet. Om sensorn driftar ur kalibrering eller slutar fungera helt, utlöser kortet antingen aldrig uppvärmning eller stänger av den för tidigt. Koderna E62, E63 eller E65 kan visas."
+        },
+        {
+          "cause": "Defekt styrkort (PCB)",
+          "detail": "Huvud-PCB:n styr reläet som kopplar ström till värmeelementet. En bränd reläkontakt eller ett programvarufel på kortet kan förhindra att uppvärmningskretsen aktiveras även när elementet och sensorn båda är friska. Koderna E66, E67 eller E68 kan indikera ett fel på kortnivå."
+        },
+        {
+          "cause": "Kabelfel eller kontaktfel",
+          "detail": "Kablarna som förbinder värmeelementet och termistorn med styrkortet kan korrodera, lossna eller gå av, särskilt nära baksidan av trumman där vibrationen är hög. En lös flatstiftsanslutning på elementets anslutningspunkter är en förvånansvärt vanlig orsak till intermittent eller fullständigt uppvärmningsfel."
+        },
+        {
+          "cause": "Kraftig kalkavlagring på elementet",
+          "detail": "I områden med hårt vatten belägger kalk elementet och fungerar som ett isoleringsmaterial, vilket dramatiskt minskar uppvärmningseffektiviteten. I allvarliga fall överhettas elementet lokalt och utlöser en intern termisk säkerhetsbrytare, som kanske inte återställs automatiskt. Felkod E64 eller E69 kan visas i detta scenario."
+        },
+        {
+          "cause": "Utlöst termisk säkerhetsbrytare (säkerhetstermostaten)",
+          "detail": "Vissa Siemens-modeller inkluderar en engångs- eller återställningsbar termisk säkerhetsbrytare på värmaraggregatet. Om elementet tidigare har överhettats – ofta på grund av kalk – öppnar denna säkerhetsanordning kretsen och förblir öppen tills den återställs manuellt eller byts ut."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Bekräfta felet och notera eventuella felkoder",
+          "detail": "Välj ett bomullsprogram på 60°C eller 90°C och starta maskinen med tom trumma. Efter 15–20 minuter, öppna försiktigt tvättmedelsbacken och känn på vattnet genom luckan – det bör vara märkbart varmt. Notera eventuell felkod som visas på displayen, eftersom koderna E60–E69 hjälper dig att avgöra vilken komponent som har gått sönder innan du börjar ta isär något."
+        },
+        {
+          "step": 2,
+          "action": "Starta om maskinen för att rensa tillfälliga fel",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara urkopplad i minst 5 minuter. Detta låter styrkortets kondensatorer laddas ur helt och kan rensa ett programvarufel som felaktigt blockerar uppvärmningskretsen. Koppla in igen, välj ett varmt program och testa igen. Om uppvärmningen återställs, övervaka maskinen under de nästa tvättarna för att bekräfta att felet är åtgärdat."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera och rengör filtret och kontrollera om felkoden återkommer",
+          "detail": "Ett igensatt pumpfilter kan göra att maskinen avbryter eller förkortar uppvärmningsfasen som en skyddsåtgärd. Hitta filtret bakom den lilla luckan längst ned på maskinens framsida, lägg en handduk och ett grunt fat undertill och skruva långsamt loss locket för att tömma kvarvarande vatten. Ta bort eventuellt skräp, sätt tillbaka filtret ordentligt och kör ett varmt program igen för att se om felkoden återkommer."
+        },
+        {
+          "step": 4,
+          "action": "Testa värmeelementet med en multimeter",
+          "detail": "Koppla bort maskinen från elnätet. Ta bort bakpanelen (vanligtvis hållen av två eller tre skruvar) för att komma åt värmeelementet vid trummans bas. Koppla loss de två flatstiftsanslutningarna och ställ in multimetern på motstånd (Ω). Ett friskt Siemens-element läser vanligtvis mellan 20 och 30 ohm. En avläsning på noll (kortslutning) eller oändligt motstånd (öppen krets) bekräftar att elementet har gått sönder och behöver bytas. Kontrollera också att båda anslutningarna sitter ordentligt och är fria från korrosion innan du sätter ihop igen."
+        },
+        {
+          "step": 5,
+          "action": "Testa NTC-temperatursensorn",
+          "detail": "Med bakpanelen fortfarande borttagen, lokalisera NTC-termistorn – den är vanligtvis klippt in i värmarhuset eller monterad i närheten på trummans hölje. Koppla loss den och mät motståndet med multimetern. Vid rumstemperatur (cirka 20°C) bör en standard NTC-sensor läsa ungefär 10 000–12 000 ohm. En avläsning långt utanför detta intervall, eller en öppen krets, innebär att sensorn behöver bytas. Detta är en relativt billig del och enkel att byta."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera kablar och anslutningar i hela uppvärmningskretsen",
+          "detail": "Följ kablarna från elementet och termistorn tillbaka mot styrkortet och leta efter kablar som är brända, klämda eller har lossnat från sina anslutningar. Dra försiktigt i varje flatstiftsanslutning för att bekräfta att den sitter säkert. Reparera eller byt ut skadade kablar med lämpligt klassade anslutningar – använd inte vanlig hushållsisoleringstejp på anslutningar inuti en tvättmaskin."
+        },
+        {
+          "step": 7,
+          "action": "Avkalka maskinen om kalkavlagring misstänks",
+          "detail": "Om du bor i ett område med hårt vatten och maskinen inte har avkalkats nyligen, kör ett dedikerat avkalkningsmedel för tvättmaskiner eller en servicetvätt på 90°C med 500 ml vit vinäger och ingen tvätt. Upprepa vid behov. Om elementet redan har gått sönder på grund av kalkskador räcker det inte att avkalka – elementet måste bytas – men avkalkning efter att ett nytt element monterats förlänger dess livslängd avsevärt."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat värmeelementet och NTC-sensorn med en multimeter och båda komponenterna mäter inom normala intervall, är felet troligtvis inuti styrkortet – specifikt ett trasigt uppvärmningsrelä eller ett skadat PCB-spår. Att diagnostisera och byta ett styrkort kräver specialkunskaper och tillgång till Siemens kopplingsscheman, och en felaktig reparation kan skapa en säkerhetsrisk. I detta läge är det rätt att boka en servicetekniker.</p><p>Du bör också omedelbart kontakta en servicetekniker om du märker tecken på bränd lukt, brännmärken runt elementets anslutningspunkter, eller om maskinen löser ut din hushållssäkring när den försöker värma. Dessa symptom tyder på ett elfel som går bortom ett enkelt komponentbyte och måste bedömas av en behörig fackman innan maskinen används igen.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Siemens tvättmaskin slutar värma är <strong>värmeelementet</strong>, <strong>NTC-temperatursensorn (termistorn)</strong> och ibland <strong>den termiska säkerhetsbrytaren (säkerhetstermostaten)</strong>. Om du redan byter elementet är det värt att montera en ny termistor samtidigt, eftersom båda delarna är åtkomliga från samma plats och termistorn är billig. Att köra en månatlig underhållstvätt på 90°C och använda ett avkalkningsmedel var tredje till sjätte månad i områden med hårt vatten förlänger värmeelementets livslängd avsevärt.</p><p>Använd reservdelsfindern nedan för att hitta rätt värmeelement, NTC-sensor eller termisk säkerhetsbrytare för ditt specifika Siemens-modellnummer.</p>\n<!-- SPARE_PARTS_FAULT:not-heating-water -->",
+      "faq_json": [
+        {
+          "answer": "Dessa koder relaterar alla till uppvärmningskretsen. E60 och E61 indikerar vanligtvis ett problem med själva värmeelementet, E62 och E63 pekar på NTC-temperatursensorn, och E64–E69 täcker problem som kalköverhettning, kabelfel och styrkortsreläfel. Att notera den exakta koden innan du börjar undersöka sparar tid genom att peka dig mot den troligaste defekta komponenten.",
+          "question": "Vad betyder felkoderna E60 till E69 på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Du kan fortsätta använda den för kallvatttenprogram (30°C eller 'kall'-inställningar) medan du ordnar en reparation, men undvik att välja varma program eftersom maskinen kan försöka värma och dra ström genom ett skadat element, vilket kan orsaka ytterligare skador eller lösa ut din säkring. Kläder tvättade i kallt vatten hygieniseras inte på program som förlitar sig på värme för att döda bakterier.",
+          "question": "Kan jag fortfarande använda tvättmaskinen om den inte värmer vattnet?"
+        },
+        {
+          "answer": "I mjukvattenområden kan ett värmeelement hålla maskinens hela livslängd – ofta 10 till 15 år. I hårdvattenområden utan regelbunden avkalkning kan element gå sönder på så lite som 3 till 5 år på grund av kalkavlagring som orsakar lokal överhettning. Att använda en avhärdningstablett vid varje tvätt och köra en avkalkningscykel var tredje månad förlänger elementets livslängd avsevärt.",
+          "question": "Hur länge håller ett värmeelement i en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "För någon som är bekväm med att använda en multimeter och grundläggande handverktyg är det möjligt att byta elementet själv. Bakpanelen måste tas bort, trumman delvis tömmas och elementet lossas från sitt hus. Det innebär dock arbete nära nätspänningskomponenter, så maskinen måste vara helt urkopplad innan du börjar och måste förbli urkopplad under hela arbetet. Om du inte känner dig trygg med att arbeta med elektriska apparater, be en servicetekniker utföra bytet.",
+          "question": "Är det ett gör-det-själv-jobb att byta värmeelement i en tvättmaskin?"
+        },
+        {
+          "answer": "Intermittent uppvärmning orsakas ofta av en lös kabelanslutning på elementet eller termistorn som gör kontakt i vissa lägen men inte i andra, eller av ett styrkortsrelä som börjar gå sönder. En hårfin spricka i elementet kan också orsaka intermittenta fel, eftersom sprickan öppnar och stänger med termisk expansion. Intermittenta fel är svårare att diagnostisera än permanenta – en servicetekniker med diagnostikutrustning kan identifiera grundorsaken mer tillförlitligt.",
+          "question": "Varför värmer min Siemens tvättmaskin ibland och ibland inte?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-07-26T21:56:50.058109+00:00"
+    },
+    {
+      "article_id": 338,
+      "locale": "en",
+      "slug": "vibrating-excessively",
+      "title_tag": "Siemens Washing Machine Vibrating Excessively – Fixes",
+      "meta_description": "Is your Siemens washing machine shaking violently during a cycle? Find the most common causes and step-by-step fixes to stop excessive vibration fast.",
+      "h1": "Why Is My Siemens Washing Machine Vibrating So Much?",
+      "description": "The washing machine shakes, rattles, or moves across the floor during a wash or spin cycle, more than would be considered normal operation.",
+      "quick_fix": "Check that all four transit bolts have been removed from the back of the machine — leaving even one in place causes severe vibration during every spin cycle (takes about 5 minutes).",
+      "intro_html": "<p>Excessive vibration in a Siemens washing machine is one of the most common complaints homeowners report, and the good news is that the majority of cases have a straightforward cause that you can address yourself. The problem typically becomes most obvious during the spin cycle, when the drum reaches high speed and any imbalance or instability is amplified into noticeable shaking, loud banging, or the machine physically moving across the floor.</p><p>The washing machine's drum, suspension system, and levelling feet all work together to absorb movement and keep the appliance stable. When any one of these elements is compromised — or when the load inside the drum is unevenly distributed — the machine cannot dampen the forces generated at spin speed. Understanding which part of that system is failing helps you fix the problem quickly and avoid unnecessary wear on other components.</p>",
+      "causes_json": [
+        {
+          "cause": "Transit bolts not removed",
+          "detail": "Siemens washing machines are shipped with metal transit bolts fitted to the rear panel to lock the drum in place during transport. If these bolts are still in position, the drum cannot move freely and the machine will vibrate violently on every spin cycle."
+        },
+        {
+          "cause": "Uneven or unlevel floor surface",
+          "detail": "If the machine is not sitting perfectly level, the drum's rotation creates a rocking motion that worsens as spin speed increases. Even a slight tilt of a few millimetres is enough to cause significant shaking."
+        },
+        {
+          "cause": "Incorrectly adjusted levelling feet",
+          "detail": "Each of the four adjustable feet must be in firm contact with the floor and locked in position. A foot that is too high, too low, or not locked will allow the machine to rock during operation."
+        },
+        {
+          "cause": "Unbalanced laundry load",
+          "detail": "A single heavy item such as a duvet, towel, or jeans can clump to one side of the drum during spinning, creating an off-centre weight that causes severe vibration. The machine may pause and attempt to redistribute the load, but this does not always succeed."
+        },
+        {
+          "cause": "Worn or damaged drum bearings",
+          "detail": "Over time, the bearings that support the drum shaft can wear out, causing the drum to run with a wobble. This is usually accompanied by a loud rumbling or grinding noise that gets worse as the machine ages."
+        },
+        {
+          "cause": "Faulty or worn shock absorbers or suspension springs",
+          "detail": "The shock absorbers and springs are designed to dampen drum movement during spinning. If one or more have weakened or broken, the drum will bounce and vibrate excessively rather than spinning smoothly."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check for and remove transit bolts",
+          "detail": "Look at the back panel of your Siemens washing machine for two to four large plastic-capped bolts, usually arranged in a row. Use a spanner to remove them fully and keep them in a safe place in case you move home. Once removed, the plastic spacers should also come out — consult your manual if you are unsure which holes to check."
+        },
+        {
+          "step": 2,
+          "action": "Level the machine using a spirit level",
+          "detail": "Place a spirit level on top of the machine, first front-to-back and then side-to-side. The bubble should sit exactly in the centre. If it does not, the machine needs adjusting before you go any further."
+        },
+        {
+          "step": 3,
+          "action": "Adjust and lock all four levelling feet",
+          "detail": "Tilt the machine slightly and turn each foot by hand — clockwise to lower, anticlockwise to raise — until all four are in firm contact with the floor. Once level, tighten the lock nut on each foot up against the machine's base to prevent them from moving during operation. Recheck with the spirit level after locking."
+        },
+        {
+          "step": 4,
+          "action": "Redistribute or reduce the laundry load",
+          "detail": "Open the door and manually spread the laundry evenly around the drum. Avoid washing a single heavy item on its own — add a couple of similar items to balance the load. Overloading the drum can also cause vibration, so make sure you are not exceeding the maximum load stated in your model's manual."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the shock absorbers for visible damage",
+          "detail": "With the machine unplugged, remove the front or rear panel (depending on your model) to access the shock absorbers. These are cylindrical dampers connecting the outer drum to the machine's frame. Look for oil leaks, broken clips, or a damper that moves too freely with no resistance — any of these indicate a failed unit that needs replacing."
+        },
+        {
+          "step": 6,
+          "action": "Check the suspension springs",
+          "detail": "While the panel is off, inspect the springs that hang the drum from the top of the cabinet. A spring that has snapped or stretched significantly will allow the drum to sit lower on one side, causing an imbalance. Replacement springs are a straightforward part to source and fit."
+        },
+        {
+          "step": 7,
+          "action": "Test the drum bearings",
+          "detail": "With the machine empty and unplugged, reach inside and try to move the drum up and down by hand. A small amount of play is normal, but if you feel significant movement or hear a grinding sound when you rotate the drum slowly by hand, the bearings are likely worn and will need professional replacement."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have completed all the steps above and the machine is still vibrating excessively, or if you can hear a loud grinding or rumbling noise during the spin cycle, the drum bearings are the most likely culprit. Bearing replacement requires dismantling a significant portion of the machine and pressing new bearings into the drum housing — this is not a straightforward DIY job and is best handled by a qualified service technician.</p><p>You should also call a service technician if you notice the drum visibly dropping to one side, if the machine is making a loud banging noise that sounds like the drum striking the cabinet, or if water is leaking from the rear of the machine — all of which can indicate structural damage to the suspension or drum assembly that needs professional assessment.</p>",
+      "prevention_html": "<p>Keeping your Siemens washing machine stable and vibration-free over the long term comes down to a few simple habits. Always check that the levelling feet are secure every six months or after the machine has been moved for any reason. Avoid regularly washing single heavy items and try to keep loads balanced and within the recommended weight limit. Running a drum-clean cycle monthly also helps prevent build-up that can affect drum balance.</p><p>The parts most commonly replaced when dealing with excessive vibration on Siemens washing machines are the <strong>shock absorbers (dampers)</strong>, the <strong>drum suspension springs</strong>, and the <strong>drum bearings</strong>. Shock absorbers and springs are relatively affordable and straightforward to fit yourself; bearings are more involved. You can find compatible parts for your specific model using the tool below.</p>\n<!-- SPARE_PARTS_FAULT:vibrating-excessively -->",
+      "faq_json": [
+        {
+          "answer": "Some vibration during spin is normal because the drum is rotating at high speed. However, if the machine is moving across the floor, making loud banging noises, or shaking the surrounding units, that level of vibration is not normal and points to one of the causes listed above. Start by checking the levelling feet and load balance.",
+          "question": "My Siemens washing machine only vibrates on the spin cycle — is that normal?"
+        },
+        {
+          "answer": "It is best to resolve the issue before continuing to use the machine regularly. Persistent excessive vibration puts stress on the drum bearings, shock absorbers, and internal connections, which can turn a simple fix into a more expensive repair. If the vibration is caused by transit bolts or levelling, fix it immediately — it takes only a few minutes.",
+          "question": "Can I still use the machine if it is vibrating a lot?"
+        },
+        {
+          "answer": "Look at the back panel of the machine for a row of large bolts, usually with coloured plastic caps or covers. Your machine's installation manual will show their exact location and how many there are — typically two to four. If the machine has never been installed before or was recently moved, there is a good chance they are still in place.",
+          "question": "How do I know if my Siemens washing machine transit bolts are still fitted?"
+        },
+        {
+          "answer": "Shock absorbers for Siemens washing machines are generally an affordable spare part. If you are comfortable doing the repair yourself, the parts alone are the main cost. If you prefer a service technician to carry out the work, factor in a call-out fee and labour on top of the parts cost.",
+          "question": "How much does it cost to replace shock absorbers on a Siemens washing machine?"
+        },
+        {
+          "answer": "An anti-vibration mat placed under the machine can reduce the noise and movement transmitted to the floor, and is a useful addition once the underlying cause has been fixed. However, a mat alone will not solve the root problem if the machine has faulty shock absorbers, worn bearings, or is not properly levelled — always address the cause first.",
+          "question": "Will putting the washing machine on an anti-vibration mat help?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:30:21.048959+00:00"
+    },
+    {
+      "article_id": 338,
+      "locale": "sv",
+      "slug": "vibrerar-for-mycket",
+      "title_tag": "Siemens Tvättmaskin Vibrerar För Mycket – Lösningar",
+      "meta_description": "Skakar din Siemens tvättmaskin våldsamt under ett program? Hitta de vanligaste orsakerna och steg-för-steg-lösningar för att snabbt stoppa överdrivna vibrationer.",
+      "h1": "Varför Vibrerar Min Siemens Tvättmaskin Så Mycket?",
+      "description": "Tvättmaskinen skakar, skramlar eller rör sig över golvet under ett tvätt- eller centrifugeringsprogram, mer än vad som anses vara normal drift.",
+      "quick_fix": "Kontrollera att alla fyra transportbultarna har tagits bort från maskinens baksida — även om bara en sitter kvar orsakar det kraftiga vibrationer vid varje centrifugering (tar ungefär 5 minuter).",
+      "intro_html": "<p>Överdrivna vibrationer i en Siemens tvättmaskin är ett av de vanligaste problemen som hushållsägare rapporterar, och den goda nyheten är att de flesta fall har en enkel orsak som du kan åtgärda själv. Problemet blir vanligtvis tydligast under centrifugeringen, när trumman når hög hastighet och varje obalans eller instabilitet förstärks till märkbar skakning, högt bankande eller att maskinen fysiskt rör sig över golvet.</p><p>Tvättmaskinens trumma, fjädringssystem och nivåfötter samverkar för att absorbera rörelser och hålla maskinen stabil. När något av dessa element är skadat — eller när lasten inuti trumman är ojämnt fördelad — kan maskinen inte dämpa de krafter som uppstår vid centrifugeringshastighet. Att förstå vilken del av systemet som är felaktig hjälper dig att snabbt lösa problemet och undvika onödigt slitage på andra komponenter.</p>",
+      "causes_json": [
+        {
+          "cause": "Transportbultar inte borttagna",
+          "detail": "Siemens tvättmaskiner levereras med metallbultar monterade på bakpanelen för att låsa trumman på plats under transport. Om dessa bultar fortfarande sitter på plats kan trumman inte röra sig fritt och maskinen kommer att vibrera kraftigt vid varje centrifugering."
+        },
+        {
+          "cause": "Ojämnt eller snett golv",
+          "detail": "Om maskinen inte står helt i vågrätt läge skapar trummans rotation en gungande rörelse som förvärras när centrifugeringshastigheten ökar. Även en liten lutning på några millimeter räcker för att orsaka kraftig skakning."
+        },
+        {
+          "cause": "Felaktigt justerade nivåfötter",
+          "detail": "Var och en av de fyra justerbara fötterna måste ha fast kontakt med golvet och vara låsta i rätt läge. En fot som är för hög, för låg eller inte låst gör att maskinen gungar under drift."
+        },
+        {
+          "cause": "Obalanserad tvätt",
+          "detail": "Ett enda tungt plagg, till exempel en täcke, handduk eller ett par jeans, kan klumpa ihop sig på ena sidan av trumman under centrifugeringen och skapa en excentrisk tyngd som orsakar kraftiga vibrationer. Maskinen kan pausa och försöka fördela om lasten, men detta lyckas inte alltid."
+        },
+        {
+          "cause": "Slitna eller skadade trumlagrar",
+          "detail": "Med tiden kan lagren som stöder trummans axel slitas ut, vilket gör att trumman roterar med ett gungande rörelsemönster. Detta åtföljs vanligtvis av ett högt mullrande eller malande ljud som förvärras med maskinens ålder."
+        },
+        {
+          "cause": "Defekta eller slitna stötdämpare eller fjädrar",
+          "detail": "Stötdämparna och fjädrarna är utformade för att dämpa trummans rörelser under centrifugeringen. Om en eller flera har försvagats eller gått sönder kommer trumman att studsa och vibrera överdrivet i stället för att snurra jämnt."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera och ta bort transportbultarna",
+          "detail": "Titta på bakpanelen på din Siemens tvättmaskin efter två till fyra stora bultar med plastlock, vanligtvis placerade i en rad. Använd en skiftnyckel för att ta bort dem helt och förvara dem på ett säkert ställe ifall du flyttar. När de är borttagna ska även plastmellanlägg tas ut — se i din manual om du är osäker på vilka hål du ska kontrollera."
+        },
+        {
+          "step": 2,
+          "action": "Nivåjustera maskinen med ett vattenpass",
+          "detail": "Placera ett vattenpass ovanpå maskinen, först framifrån bakåt och sedan från sida till sida. Bubblan ska sitta exakt i mitten. Om den inte gör det behöver maskinen justeras innan du går vidare."
+        },
+        {
+          "step": 3,
+          "action": "Justera och lås alla fyra nivåfötter",
+          "detail": "Luta maskinen något och vrid varje fot för hand — medurs för att sänka, moturs för att höja — tills alla fyra har fast kontakt med golvet. När maskinen är i vågrätt läge, dra åt låsmuttern på varje fot mot maskinens bas för att förhindra att de rör sig under drift. Kontrollera med vattenpasset igen efter låsning."
+        },
+        {
+          "step": 4,
+          "action": "Fördela om eller minska tvättlasten",
+          "detail": "Öppna luckan och fördela tvätten jämnt för hand runt trumman. Undvik att tvätta ett enda tungt plagg ensamt — lägg till ett par liknande plagg för att balansera lasten. Överfyllning av trumman kan också orsaka vibrationer, så se till att du inte överskrider den maximala lastvikt som anges i din modells manual."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera stötdämparna för synliga skador",
+          "detail": "Med maskinen urkopplad, ta bort fram- eller bakpanelen (beroende på din modell) för att komma åt stötdämparna. Dessa är cylindriska dämpare som förbinder den yttre trumman med maskinens ram. Leta efter oljeläckor, trasiga clips eller en dämpare som rör sig för fritt utan motstånd — något av detta tyder på en defekt enhet som behöver bytas."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera fjädrarna",
+          "detail": "Medan panelen är borttagen, inspektera fjädrarna som håller trumman upphängd från kabinetets ovansida. En fjäder som har gått av eller sträckts ut avsevärt gör att trumman sitter lägre på ena sidan och orsakar obalans. Ersättningsfjädrar är en enkel reservdel att hitta och montera."
+        },
+        {
+          "step": 7,
+          "action": "Testa trumlagren",
+          "detail": "Med maskinen tom och urkopplad, räck in och försök röra trumman upp och ned för hand. En liten rörlighet är normal, men om du känner ett betydande spel eller hör ett malande ljud när du roterar trumman långsamt för hand är lagren troligtvis slitna och behöver bytas av en fackman."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har genomfört alla stegen ovan och maskinen fortfarande vibrerar överdrivet, eller om du hör ett högt malande eller mullrande ljud under centrifugeringen, är trumlagren den troligaste orsaken. Lagerbyte kräver att en stor del av maskinen demonteras och att nya lager pressas in i trumhuset — detta är inte ett enkelt gör-det-själv-arbete och hanteras bäst av en behörig servicetekniker.</p><p>Du bör också kontakta en servicetekniker om du märker att trumman synligt sjunker åt ena sidan, om maskinen gör ett högt bankande ljud som låter som att trumman slår mot kabinettet, eller om vatten läcker från maskinens baksida — allt detta kan tyda på strukturella skador på fjädringen eller trumenheten som kräver professionell bedömning.</p>",
+      "prevention_html": "<p>Att hålla din Siemens tvättmaskin stabil och fri från vibrationer på lång sikt handlar om några enkla vanor. Kontrollera alltid att nivåfötterna sitter säkert var sjätte månad eller efter att maskinen har flyttats av någon anledning. Undvik att regelbundet tvätta enstaka tunga plagg och försök att hålla lasterna balanserade och inom den rekommenderade viktgränsen. Att köra ett trumrengöringsprogram månadsvis hjälper också till att förhindra ansamlingar som kan påverka trummans balans.</p><p>De delar som oftast byts vid överdrivna vibrationer på Siemens tvättmaskiner är <strong>stötdämparna</strong>, <strong>trummans fjädrar</strong> och <strong>trumlagren</strong>. Stötdämpare och fjädrar är relativt prisvärda och enkla att montera själv; lager är mer komplicerade att byta. Du kan hitta kompatibla reservdelar för din specifika modell med hjälp av verktyget nedan.</p>\n<!-- SPARE_PARTS_FAULT:vibrating-excessively -->",
+      "faq_json": [
+        {
+          "answer": "Viss vibration under centrifugeringen är normalt eftersom trumman roterar med hög hastighet. Men om maskinen rör sig över golvet, gör höga bankande ljud eller skakar de omgivande skåpen är den nivån av vibration inte normal och pekar på en av orsakerna som listas ovan. Börja med att kontrollera nivåfötterna och lastbalansen.",
+          "question": "Min Siemens tvättmaskin vibrerar bara under centrifugeringen — är det normalt?"
+        },
+        {
+          "answer": "Det är bäst att lösa problemet innan du fortsätter att använda maskinen regelbundet. Ihållande överdrivna vibrationer belastar trumlagren, stötdämparna och interna anslutningar, vilket kan förvandla en enkel åtgärd till en dyrare reparation. Om vibrationerna orsakas av transportbultar eller nivåjustering, åtgärda det omedelbart — det tar bara några minuter.",
+          "question": "Kan jag fortsätta använda maskinen om den vibrerar mycket?"
+        },
+        {
+          "answer": "Titta på maskinens bakpanel efter en rad stora bultar, vanligtvis med färgade plastlock eller skydd. Maskinens installationsmanual visar deras exakta placering och hur många det finns — vanligtvis två till fyra. Om maskinen aldrig har installerats tidigare eller nyligen har flyttats är det stor chans att de fortfarande sitter kvar.",
+          "question": "Hur vet jag om transportbultarna på min Siemens tvättmaskin fortfarande sitter kvar?"
+        },
+        {
+          "answer": "Stötdämpare till Siemens tvättmaskiner är generellt sett en prisvärd reservdel. Om du är bekväm med att utföra reparationen själv är reservdelarna den huvudsakliga kostnaden. Om du föredrar att en servicetekniker utför arbetet, räkna med en utryckningsavgift och arbetskostnad utöver reservdelskostnaden.",
+          "question": "Hur mycket kostar det att byta stötdämpare på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "En antivibrationsmat placerad under maskinen kan minska det ljud och den rörelse som överförs till golvet, och är ett användbart tillskott när den bakomliggande orsaken har åtgärdats. En mat ensam löser dock inte grundproblemet om maskinen har defekta stötdämpare, slitna lager eller inte är korrekt nivåjusterad — åtgärda alltid orsaken först.",
+          "question": "Hjälper det att ställa tvättmaskinen på en antivibrationsmat?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:31:32.16209+00:00"
+    },
+    {
+      "article_id": 339,
+      "locale": "en",
+      "slug": "clothes-still-wet",
+      "title_tag": "Siemens Washing Machine Clothes Still Wet After Spin",
+      "meta_description": "Clothes still wet after your Siemens washing machine spin cycle? Find the most common causes and step-by-step fixes you can do at home today.",
+      "h1": "Why Are My Clothes Still Wet After a Siemens Washing Machine Spin?",
+      "description": "The washing machine completes its cycle but clothes come out excessively wet, indicating the spin cycle has not reached full speed or has not run at all.",
+      "quick_fix": "Redistribute the laundry evenly inside the drum, close the door firmly, and run a dedicated spin-only cycle at the highest spin speed — this resolves the problem in the majority of cases (takes about 5 minutes).",
+      "intro_html": "<p>When a Siemens washing machine finishes its programme and the laundry still feels soaking or heavily damp, it usually means the drum never reached its target spin speed — or skipped the spin phase entirely. You may notice the cycle seemed shorter than usual, or that the machine felt unusually quiet during what should have been the noisiest part of the wash.</p><p>The spin system relies on several components working together: the motor, the drum bearings, the door latch, and the control electronics. A fault in any one of these can cause the machine to reduce spin speed or abort it as a safety measure. In most cases, though, the root cause is something straightforward — an unbalanced load or a minor setting error — that you can sort out in a few minutes without any tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Unbalanced or overloaded drum",
+          "detail": "A single heavy item like a duvet or jeans can clump to one side, causing the machine to detect excessive vibration and automatically reduce spin speed to protect itself. Siemens machines are particularly sensitive to imbalance and will repeatedly attempt to redistribute the load before giving up."
+        },
+        {
+          "cause": "Incorrect spin speed selected",
+          "detail": "Some programmes default to a low spin speed or a 'gentle' setting, especially delicate or wool cycles. It is easy to accidentally select 'no spin' or a reduced RPM without noticing, leaving clothes much wetter than expected."
+        },
+        {
+          "cause": "Drain filter or pump partially blocked",
+          "detail": "If water cannot drain away quickly enough, the machine will not spin at full speed because there is still standing water in the drum. A partially clogged coin-trap filter is one of the most common causes of poor spinning on Siemens machines."
+        },
+        {
+          "cause": "Door latch not engaging fully",
+          "detail": "The machine will not spin if the door interlock does not register as securely closed. A worn or misaligned door catch can cause the machine to skip the spin phase entirely as a safety precaution."
+        },
+        {
+          "cause": "Worn or stretched drive belt",
+          "detail": "The drive belt transfers power from the motor to the drum. If it has stretched or slipped, the drum may turn slowly during the wash but fail to reach spin speeds. You may hear the motor running but notice the drum barely moving."
+        },
+        {
+          "cause": "Motor brushes worn down",
+          "detail": "Older Siemens washing machines use carbon brushes in the motor. As these wear down, the motor loses power and cannot sustain the high RPM needed for an effective spin. This is more common on machines over five years old."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the spin speed setting",
+          "detail": "Before anything else, look at the programme dial and spin speed selector. Make sure you have not accidentally set the spin to 'off' or to a very low speed such as 400 RPM. Select the highest spin speed appropriate for your fabric type and run a spin-only cycle to test."
+        },
+        {
+          "step": 2,
+          "action": "Redistribute the laundry",
+          "detail": "Open the door and pull the laundry out. Separate any items that have tangled together and place them back loosely and evenly around the drum. Avoid washing a single heavy item on its own — add a couple of towels to balance the load. Close the door and run a spin-only cycle."
+        },
+        {
+          "step": 3,
+          "action": "Clean the drain filter",
+          "detail": "The filter is usually behind a small flap at the bottom front of the machine. Place a shallow tray and some towels underneath, then slowly unscrew the filter cap to let any trapped water drain out. Remove the filter, rinse it under a tap to clear fluff and debris, then refit it securely. A blocked filter is a very common cause of poor spinning."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the door latch",
+          "detail": "Push the door firmly shut and listen for a clear click. If the door feels loose or the latch does not click positively, the interlock may not be signalling correctly to the control board. Check for any visible damage to the plastic catch on the door or the striker on the machine body."
+        },
+        {
+          "step": 5,
+          "action": "Check the machine is level",
+          "detail": "A washing machine that rocks or sits unevenly on the floor will trigger imbalance detection during spin. Use a spirit level on top of the machine and adjust the four feet by turning them clockwise to raise or anticlockwise to lower. Lock each foot in place with the locking nut once level."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the drive belt",
+          "detail": "Switch off and unplug the machine. Remove the back panel (usually held by a few screws). Locate the large rubber belt running around the drum pulley and motor pulley. If it is slack, snapped, or has slipped off, it will need replacing. A replacement belt is an inexpensive part and straightforward to fit."
+        },
+        {
+          "step": 7,
+          "action": "Check the motor brushes",
+          "detail": "With the back panel still removed, locate the motor and identify the two carbon brush holders on either side. Slide each brush out and measure its length — if either is shorter than about 15 mm, it is worn and should be replaced. New brushes are widely available for Siemens motors and clip in without specialist tools."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and the machine still will not spin properly, the fault may lie with the motor control board, the main PCB, or the drum bearings. Bearing failure is usually accompanied by a loud rumbling or grinding noise during the wash. These repairs involve dismantling significant parts of the machine and, in the case of electronics, carry a risk of further damage if handled incorrectly.</p><p>You should also call a service technician if you notice burning smells, the machine trips your household fuse or RCD, or if water is leaking from the drum area — these are signs that continuing to use the appliance could be unsafe.</p>",
+      "prevention_html": "<p>Keeping on top of a few simple maintenance habits will significantly reduce the chance of spin problems returning. Clean the drain filter every one to two months, avoid overloading the drum beyond the rated capacity shown in your manual, and use the correct amount of detergent — excess suds can interfere with spin detection. Running a hot maintenance wash (90°C, empty drum) once a month also keeps the drum and pump clear.</p><p>The parts most commonly replaced when diagnosing this fault on Siemens washing machines are the <strong>drive belt</strong>, the <strong>carbon motor brushes</strong>, and the <strong>door interlock switch</strong>. Genuine Siemens-compatible versions of all three are available below.</p>\n<!-- SPARE_PARTS_FAULT:clothes-still-wet -->",
+      "faq_json": [
+        {
+          "answer": "The most likely reason is that the machine detected an unbalanced load and could not correct it. Siemens machines will attempt to rebalance several times and then stop rather than risk damaging the drum or bearings. Redistributing the laundry and restarting a spin-only cycle usually resolves this immediately.",
+          "question": "Why does my Siemens washing machine stop before the spin cycle finishes?"
+        },
+        {
+          "answer": "Yes. Excess detergent creates foam that the machine's sensors can misread as a full drum, causing it to reduce spin speed or add extra rinse cycles. Always use the amount recommended on the detergent packaging for your water hardness and load size. If you see foam remaining in the drum after the cycle, cut back on detergent.",
+          "question": "Can too much detergent cause clothes to come out wet?"
+        },
+        {
+          "answer": "In most cases it is safe to continue using it while you investigate, provided there are no unusual noises, smells, or leaks. However, if the drum is making a grinding or rumbling sound, stop using the machine until the bearings have been checked, as continued use can cause more extensive and expensive damage.",
+          "question": "Is it safe to keep using the machine if clothes are coming out wet?"
+        },
+        {
+          "answer": "Turn the programme dial to the spin symbol (it looks like a drum with curved arrows). Select your desired spin speed using the separate spin speed button, then press Start. The machine will drain any remaining water and then spin. Refer to your model's manual if you cannot locate the spin programme, as the dial layout varies slightly between Siemens series.",
+          "question": "How do I run a spin-only cycle on a Siemens washing machine?"
+        },
+        {
+          "answer": "A standard spin-only cycle on a Siemens machine typically takes between 10 and 20 minutes depending on the spin speed selected and the size of the load. If the cycle is completing in under five minutes or the drum barely seems to move, that points to a mechanical fault such as a worn belt or motor brushes rather than a settings issue.",
+          "question": "How long should a Siemens washing machine spin cycle take?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:32:26.139461+00:00"
+    },
+    {
+      "article_id": 339,
+      "locale": "sv",
+      "slug": "kläder-fortfarande-våta",
+      "title_tag": "Siemens Tvättmaskin Kläder Fortfarande Våta Efter Centrifugering",
+      "meta_description": "Kläder fortfarande våta efter din Siemens tvättmaskinscentrifugering? Hitta de vanligaste orsakerna och steg-för-steg-lösningar du kan göra hemma idag.",
+      "h1": "Varför är mina kläder fortfarande våta efter centrifugeringen i min Siemens tvättmaskin?",
+      "description": "Tvättmaskinen slutför sitt program men kläderna kommer ut överdrivet våta, vilket tyder på att centrifugeringen inte nått full hastighet eller inte körts alls.",
+      "quick_fix": "Fördela tvätten jämnt inuti trumman, stäng luckan ordentligt och kör ett separat centrifugeringsprogram på högsta centrifugeringshastighet — detta löser problemet i de flesta fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>När en Siemens tvättmaskin avslutar sitt program och tvätten fortfarande känns genomblöt eller kraftigt fuktig beror det vanligtvis på att trumman aldrig nådde sin målhastighet vid centrifugeringen — eller hoppade över centrifugeringsfasen helt. Du kanske märker att programmet verkade kortare än vanligt, eller att maskinen var ovanligt tyst under det som borde ha varit den ljudligaste delen av tvätten.</p><p>Centrifugeringssystemet är beroende av att flera komponenter samverkar: motorn, trumlagren, lucklåset och styrelektroniken. Ett fel i någon av dessa kan få maskinen att minska centrifugeringshastigheten eller avbryta den som en säkerhetsåtgärd. I de flesta fall är dock grundorsaken något enkelt — en obalanserad last eller ett mindre inställningsfel — som du kan åtgärda på några minuter utan några verktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Obalanserad eller överlastad trumma",
+          "detail": "Ett enda tungt plagg som en duntäcke eller jeans kan klumpa ihop sig på ena sidan, vilket får maskinen att upptäcka kraftiga vibrationer och automatiskt minska centrifugeringshastigheten för att skydda sig själv. Siemens-maskiner är särskilt känsliga för obalans och kommer upprepade gånger att försöka omfördela lasten innan de ger upp."
+        },
+        {
+          "cause": "Felaktig centrifugeringshastighet vald",
+          "detail": "Vissa program är förinställda på låg centrifugeringshastighet eller ett 'skonsamt' läge, särskilt för delikat- eller ullprogram. Det är lätt att av misstag välja 'ingen centrifugering' eller ett reducerat varvtal utan att märka det, vilket lämnar kläderna mycket våtare än förväntat."
+        },
+        {
+          "cause": "Avloppsfilter eller pump delvis igensatt",
+          "detail": "Om vattnet inte kan rinna ut tillräckligt snabbt kommer maskinen inte att centrifugera på full hastighet eftersom det fortfarande finns stående vatten i trumman. Ett delvis igensatt myntfångarfilter är en av de vanligaste orsakerna till dålig centrifugering på Siemens-maskiner."
+        },
+        {
+          "cause": "Lucklåset hakar inte i ordentligt",
+          "detail": "Maskinen centrifugerar inte om lucklåset inte registreras som säkert stängt. En sliten eller feljusterad luckhake kan få maskinen att hoppa över centrifugeringsfasen helt som en säkerhetsåtgärd."
+        },
+        {
+          "cause": "Sliten eller utsträckt drivrem",
+          "detail": "Drivremmen överför kraft från motorn till trumman. Om den har sträckts ut eller slirkat kan trumman rotera långsamt under tvätten men misslyckas med att nå centrifugeringshastigheter. Du kanske hör att motorn går men märker att trumman knappt rör sig."
+        },
+        {
+          "cause": "Motorborstar slitna",
+          "detail": "Äldre Siemens tvättmaskiner använder kolborstar i motorn. När dessa slits ned förlorar motorn kraft och kan inte upprätthålla det höga varvtal som krävs för en effektiv centrifugering. Detta är vanligare på maskiner som är äldre än fem år."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera centrifugeringshastigheten",
+          "detail": "Kontrollera först programvredet och centrifugeringshastighetsväljaren. Se till att du inte av misstag har ställt in centrifugeringen på 'av' eller på en mycket låg hastighet som 400 varv/min. Välj den högsta centrifugeringshastigheten som är lämplig för din tygtyp och kör ett centrifugeringsprogram för att testa."
+        },
+        {
+          "step": 2,
+          "action": "Omfördela tvätten",
+          "detail": "Öppna luckan och ta ut tvätten. Separera plagg som har trasslar ihop sig och lägg tillbaka dem löst och jämnt runt trumman. Undvik att tvätta ett enda tungt plagg ensamt — lägg till ett par handdukar för att balansera lasten. Stäng luckan och kör ett centrifugeringsprogram."
+        },
+        {
+          "step": 3,
+          "action": "Rengör avloppsfiltret",
+          "detail": "Filtret sitter vanligtvis bakom en liten lucka längst ned på maskinens framsida. Placera ett grunt fat och några handdukar undertill och skruva sedan långsamt loss filterlocket för att låta eventuellt instängt vatten rinna ut. Ta bort filtret, skölj det under kranen för att ta bort ludd och smuts och sätt sedan tillbaka det ordentligt. Ett igensatt filter är en mycket vanlig orsak till dålig centrifugering."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera lucklåset",
+          "detail": "Tryck luckan ordentligt stängd och lyssna efter ett tydligt klick. Om luckan känns lös eller låset inte klickar tydligt kanske låsmekanismen inte signalerar korrekt till styrkortet. Kontrollera om det finns synliga skador på plastspärren på luckan eller på låsblecket på maskinkroppen."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera att maskinen står i vater",
+          "detail": "En tvättmaskin som gungar eller står ojämnt på golvet utlöser obalansdetektering under centrifugeringen. Använd ett vattenpass på toppen av maskinen och justera de fyra fötterna genom att vrida dem medurs för att höja eller moturs för att sänka. Lås varje fot på plats med låsmuttern när maskinen är i vater."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera drivremmen",
+          "detail": "Stäng av och koppla ur maskinen. Ta bort bakpanelen (vanligtvis fäst med några skruvar). Leta upp det stora gummiremmen som löper runt trummans remskiva och motorns remskiva. Om den är slak, av eller har slirkat av måste den bytas. En ersättningsrem är en billig del och enkel att montera."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera motorborstarna",
+          "detail": "Med bakpanelen fortfarande borttagen, leta upp motorn och identifiera de två kolborstehållarna på vardera sidan. Dra ut varje borste och mät dess längd — om någon är kortare än ungefär 15 mm är den sliten och bör bytas. Nya borstar finns allmänt tillgängliga för Siemens-motorer och klickar på plats utan specialverktyg."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har arbetat igenom alla stegen ovan och maskinen fortfarande inte centrifugerar ordentligt kan felet ligga hos motorstyrkortet, huvud-PCB:n eller trumlagren. Lagerhaveri åtföljs vanligtvis av ett högt mullrande eller malande ljud under tvätten. Dessa reparationer innebär att man demonterar betydande delar av maskinen och, när det gäller elektronik, medför risk för ytterligare skador om de hanteras felaktigt.</p><p>Du bör också ringa en servicetekniker om du märker bränd lukt, om maskinen löser ut ditt hushålls säkring eller jordfelsbrytare, eller om vatten läcker från trumområdet — dessa är tecken på att det kan vara osäkert att fortsätta använda maskinen.</p>",
+      "prevention_html": "<p>Att hålla koll på några enkla underhållsvanor minskar avsevärt risken för att centrifugeringsproblem återkommer. Rengör avloppsfiltret var en till två månader, undvik att överlasta trumman utöver den märkkapacitet som anges i din manual och använd rätt mängd tvättmedel — överskott av skum kan störa centrifugeringsdetekteringen. Att köra ett varmt underhållsprogram (90°C, tom trumma) en gång i månaden håller också trumman och pumpen rena.</p><p>De delar som oftast byts vid diagnostisering av detta fel på Siemens tvättmaskiner är <strong>drivremmen</strong>, <strong>kolmotorborstarna</strong> och <strong>lucklåsbrytaren</strong>. Äkta Siemens-kompatibla versioner av alla tre finns tillgängliga nedan.</p>\n<!-- SPARE_PARTS_FAULT:clothes-still-wet -->",
+      "faq_json": [
+        {
+          "answer": "Den troligaste orsaken är att maskinen upptäckte en obalanserad last och inte kunde korrigera den. Siemens-maskiner försöker balansera om lasten flera gånger och stannar sedan hellre än att riskera att skada trumman eller lagren. Att omfördela tvätten och starta om ett centrifugeringsprogram löser vanligtvis detta omedelbart.",
+          "question": "Varför stannar min Siemens tvättmaskin innan centrifugeringen är klar?"
+        },
+        {
+          "answer": "Ja. Överskott av tvättmedel skapar skum som maskinens sensorer kan feltolka som en full trumma, vilket får den att minska centrifugeringshastigheten eller lägga till extra sköljcykler. Använd alltid den mängd som rekommenderas på tvättmedelsförpackningen för din vattenhårdhet och laststorlek. Om du ser skum kvar i trumman efter programmet, minska mängden tvättmedel.",
+          "question": "Kan för mycket tvättmedel göra att kläder kommer ut våta?"
+        },
+        {
+          "answer": "I de flesta fall är det säkert att fortsätta använda den medan du undersöker problemet, förutsatt att det inte finns ovanliga ljud, lukter eller läckor. Om trumman dock ger ifrån sig ett malande eller mullrande ljud, sluta använda maskinen tills lagren har kontrollerats, eftersom fortsatt användning kan orsaka mer omfattande och kostsamma skador.",
+          "question": "Är det säkert att fortsätta använda maskinen om kläder kommer ut våta?"
+        },
+        {
+          "answer": "Vrid programvredet till centrifugeringssymbolen (den ser ut som en trumma med böjda pilar). Välj önskad centrifugeringshastighet med den separata centrifugeringsknappen och tryck sedan på Start. Maskinen tömmer eventuellt kvarvarande vatten och centrifugerar sedan. Se din modells manual om du inte hittar centrifugeringsprogrammet, eftersom vredelayouten varierar något mellan olika Siemens-serier.",
+          "question": "Hur kör jag ett centrifugeringsprogram på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Ett vanligt centrifugeringsprogram på en Siemens-maskin tar vanligtvis mellan 10 och 20 minuter beroende på vald centrifugeringshastighet och lastens storlek. Om programmet slutförs på under fem minuter eller trumman knappt verkar röra sig tyder det på ett mekaniskt fel som en sliten rem eller motorborstar snarare än ett inställningsproblem.",
+          "question": "Hur lång tid ska ett centrifugeringsprogram på en Siemens tvättmaskin ta?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:33:40.07708+00:00"
+    },
+    {
+      "article_id": 342,
+      "locale": "en",
+      "slug": "drum-not-turning",
+      "title_tag": "Siemens Washing Machine Drum Not Turning – Fixes",
+      "meta_description": "Siemens washing machine drum not turning? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers error code E50.",
+      "h1": "Why Has My Siemens Washing Machine Drum Stopped Turning?",
+      "description": "The washing machine drum remains stationary during the wash or spin cycle, meaning clothes are not being agitated or spun.",
+      "quick_fix": "Check and replace the drive belt — open the back panel, inspect the belt around the drum pulley and motor, and fit a new one if it is snapped or has slipped off; this resolves the majority of cases and takes about 20 minutes.",
+      "intro_html": "<p>When your Siemens washing machine starts a cycle but the drum stays completely still — or barely moves — it usually points to a fault somewhere in the drive system. You may hear the motor humming, water filling normally, and the programme timer counting down, yet the drum itself does not rotate. In some cases the machine will display error code E50, which Siemens uses to flag a motor or drive fault.</p><p>The drive system on a Siemens washing machine typically consists of a motor, a carbon-brush assembly, a drive belt, and a control board that coordinates them. A failure in any one of these components can prevent the drum from turning. The symptom can appear suddenly after a heavy load, or gradually worsen over time as parts wear out.</p><p>Because this fault sits in the advanced severity category, some repairs — particularly those involving the motor or control board — are best left to a service technician. However, several causes are straightforward enough for a confident homeowner to diagnose and fix at home.</p>",
+      "causes_json": [
+        {
+          "cause": "Broken or slipped drive belt",
+          "detail": "The drive belt transfers rotation from the motor to the drum pulley. Over time it can snap, stretch, or slip off entirely, leaving the drum unable to turn even though the motor is running."
+        },
+        {
+          "cause": "Worn or failed motor carbon brushes",
+          "detail": "Carbon brushes maintain electrical contact with the motor's commutator. Once they wear down below a usable length, the motor loses power and cannot drive the drum — this is one of the most common causes on older Siemens machines."
+        },
+        {
+          "cause": "Faulty or seized drum motor",
+          "detail": "If the motor itself has burned out or its bearings have seized, it will not generate the torque needed to turn the drum. You may hear a faint hum or smell burning if this is the case."
+        },
+        {
+          "cause": "Defective motor control board or inverter module",
+          "detail": "Siemens machines use an electronic control board to regulate motor speed and direction. A failed triac, relay, or inverter component on this board can cut power to the motor entirely, triggering error code E50."
+        },
+        {
+          "cause": "Overloaded drum causing thermal cutout",
+          "detail": "Packing the drum too tightly can cause the motor to overheat and trip an internal thermal cutout. The machine may resume normal operation once it has cooled down, but repeated overloading accelerates wear."
+        },
+        {
+          "cause": "Obstruction jamming the drum",
+          "detail": "A foreign object — a coin, underwire, or small garment — can become lodged between the drum and the tub, physically preventing rotation. The motor may strain against the blockage and eventually cut out."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reset the machine and check for overloading",
+          "detail": "Switch the machine off at the mains, wait two minutes, then restart it with a small, balanced load. If the drum was jammed by an overload or a temporary thermal cutout, this reset is often enough to restore normal operation. Remove some items if the drum was packed tightly."
+        },
+        {
+          "step": 2,
+          "action": "Listen and feel for a physical obstruction",
+          "detail": "With the machine unplugged, try turning the drum by hand. It should rotate smoothly with only slight resistance from the door seal. If it feels stiff, grinds, or stops abruptly, a foreign object is likely trapped between the drum and the outer tub. Check the door seal recess and the drum paddle holes for coins, wires, or debris."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the drive belt",
+          "detail": "Unplug the machine and remove the rear panel (usually held by three or four screws). Locate the large rubber belt running around the drum pulley and the smaller motor pulley. If the belt is snapped, stretched, or lying loose at the bottom of the cabinet, replace it with the correct belt for your model. Refit the panel and run a short cycle to confirm the drum turns."
+        },
+        {
+          "step": 4,
+          "action": "Check the motor carbon brushes",
+          "detail": "With the rear panel still off, locate the motor and identify the two carbon brush holders on either side. Slide or unscrew each holder and pull out the brush. A healthy brush is typically 15–20 mm long; if either brush is worn down to 5 mm or less, replace both as a pair. Carbon brushes are inexpensive and widely available for Siemens motors."
+        },
+        {
+          "step": 5,
+          "action": "Test the motor for continuity",
+          "detail": "Using a multimeter set to resistance (Ω), disconnect the motor wiring harness and test across the motor terminals according to your model's wiring diagram. A reading of infinity (open circuit) on the main winding indicates a burned-out motor that needs replacement. If you are not comfortable using a multimeter, move on to calling a service technician."
+        },
+        {
+          "step": 6,
+          "action": "Note any error codes displayed",
+          "detail": "If the display shows E50, photograph or note it before resetting. E50 specifically points to a motor circuit fault on Siemens machines and can help a service technician narrow down whether the issue is the motor itself, the brushes, or the control board. Share this code when booking a repair."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the motor control board (advanced)",
+          "detail": "If the belt and brushes are both in good condition, the control board may be at fault. With the machine unplugged, locate the board (usually behind the front or top panel) and look for visibly burned components, swollen capacitors, or scorch marks. A damaged board needs professional replacement — do not attempt to power the machine if you see burn damage."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Call a service technician if the drum still does not turn after you have replaced the drive belt and carbon brushes, or if the motor shows no continuity on a multimeter test. A burned-out motor or a failed inverter board requires specialist tools and component-level knowledge to replace safely, and attempting it without experience risks further damage to the machine or injury.</p><p>You should also seek professional help immediately if you notice a burning smell, scorch marks on the control board, or if the machine trips your household circuit breaker when it tries to start. These signs indicate an electrical fault that goes beyond routine maintenance and must be assessed by a qualified service technician before the appliance is used again.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Siemens washing machine drum stops turning are the drive belt, the motor carbon brushes, and — less frequently — the drum motor itself. Keeping a spare set of carbon brushes on hand is worthwhile if your machine is more than five years old, as brush wear is gradual and predictable. Replacing the belt and brushes together during the same repair visit saves time and reduces the chance of a repeat callout shortly afterwards.</p><p>To reduce wear on these components, avoid consistently running the machine at maximum load capacity, clean the drum and door seal regularly to prevent debris from entering the tub, and run a monthly maintenance wash at 60 °C to clear detergent residue that can unbalance loads over time.</p>\n<!-- SPARE_PARTS_FAULT:drum-not-turning -->",
+      "faq_json": [
+        {
+          "answer": "E50 indicates a fault in the motor circuit. It can be triggered by worn carbon brushes, a failed motor, or a problem with the motor control board. Start by checking the brushes, as they are the most common and cheapest cause of this code.",
+          "question": "What does error code E50 mean on a Siemens washing machine?"
+        },
+        {
+          "answer": "No — running a cycle without drum rotation means clothes will sit in water without being washed or rinsed properly, and the motor may overheat trying to drive a jammed or beltless drum. Switch the machine off and diagnose the fault before using it again.",
+          "question": "Can I use my Siemens washing machine if the drum is not turning?"
+        },
+        {
+          "answer": "Carbon brushes typically last between five and ten years depending on how frequently the machine is used and at what temperatures. Machines used daily or regularly on high-spin programmes will wear brushes faster. Replacing them is a straightforward job and significantly cheaper than replacing the motor.",
+          "question": "How long do carbon brushes last in a Siemens washing machine?"
+        },
+        {
+          "answer": "If the drum rotates freely when you push it manually but stays still during a programme, the motor or its power supply is the likely culprit rather than a physical obstruction. Check the carbon brushes first, then test the motor for continuity, and finally inspect the control board for visible damage.",
+          "question": "Why does the drum turn by hand but not during a cycle?"
+        },
+        {
+          "answer": "It depends on the age and overall condition of the machine. A motor replacement is a significant cost, so if the machine is more than eight to ten years old and has other worn components, it may be more economical to replace it. A service technician can give you a repair-versus-replace assessment once they have diagnosed the fault.",
+          "question": "Is it worth repairing a Siemens washing machine with a seized motor?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:39:13.970242+00:00"
+    },
+    {
+      "article_id": 342,
+      "locale": "sv",
+      "slug": "trumman-snurrar-inte",
+      "title_tag": "Siemens Tvättmaskin Trumma Snurrar Inte – Lösningar",
+      "meta_description": "Siemens tvättmaskin trumma snurrar inte? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkod E50.",
+      "h1": "Varför har trumman i min Siemens tvättmaskin slutat snurra?",
+      "description": "Tvättmaskinens trumma förblir stationär under tvätt- eller centrifugeringscykeln, vilket innebär att kläderna varken omrörs eller centrifugeras.",
+      "quick_fix": "Kontrollera och byt drivremmen – öppna bakpanelen, inspektera remmen runt trummans remskiva och motorn, och montera en ny om den har gått av eller hoppat av. Detta löser de flesta fall och tar ungefär 20 minuter.",
+      "intro_html": "<p>När din Siemens tvättmaskin startar ett program men trumman förblir helt stilla – eller knappt rör sig – pekar det vanligtvis på ett fel någonstans i drivsystemet. Du kan höra att motorn surrar, att vatten fylls på normalt och att programtimern räknar ned, men trumman roterar ändå inte. I vissa fall visar maskinen felkod E50, vilket Siemens använder för att indikera ett motor- eller drivfel.</p><p>Drivsystemet på en Siemens tvättmaskin består vanligtvis av en motor, en kolborstsenhet, en drivrem och ett styrkort som koordinerar dem. Ett fel i någon av dessa komponenter kan hindra trumman från att snurra. Symptomet kan uppstå plötsligt efter en tung tvätt, eller gradvis förvärras med tiden när delar slits ut.</p><p>Eftersom detta fel tillhör kategorin avancerad svårighetsgrad är vissa reparationer – särskilt de som rör motorn eller styrkortet – bäst lämpade för en servicetekniker. Flera orsaker är dock tillräckligt enkla för att en hemmafixare med självförtroende ska kunna diagnostisera och åtgärda dem hemma.</p>",
+      "causes_json": [
+        {
+          "cause": "Trasig eller avhoppad drivrem",
+          "detail": "Drivremmen överför rotation från motorn till trummans remskiva. Med tiden kan den gå av, sträckas ut eller hoppa av helt, vilket gör att trumman inte kan snurra även om motorn är igång."
+        },
+        {
+          "cause": "Slitna eller defekta motorkolborstar",
+          "detail": "Kolborstar upprätthåller elektrisk kontakt med motorns kommutator. När de slits ned under en användbar längd förlorar motorn kraft och kan inte driva trumman – detta är en av de vanligaste orsakerna på äldre Siemens-maskiner."
+        },
+        {
+          "cause": "Defekt eller låst trummotor",
+          "detail": "Om motorn själv har bränt ut eller om dess lager har låst sig, genererar den inte det vridmoment som krävs för att snurra trumman. Du kan höra ett svagt surrande eller känna bränndoft om detta är fallet."
+        },
+        {
+          "cause": "Defekt motorstyrkortet eller invertermodul",
+          "detail": "Siemens-maskiner använder ett elektroniskt styrkort för att reglera motorns hastighet och riktning. En defekt triac, relä eller inverterkomponent på detta kort kan helt bryta strömmen till motorn och utlösa felkod E50."
+        },
+        {
+          "cause": "Överfylld trumma orsakar termisk säkring",
+          "detail": "Att packa trumman för hårt kan göra att motorn överhettas och löser ut en intern termisk säkring. Maskinen kan återgå till normal drift när den har svalnat, men upprepad överlastning påskyndar slitaget."
+        },
+        {
+          "cause": "Hinder som blockerar trumman",
+          "detail": "Ett främmande föremål – ett mynt, en bysthållartråd eller ett litet plagg – kan fastna mellan trumman och karet och fysiskt förhindra rotation. Motorn kan anstränga sig mot blockeringen och till slut stängas av."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Återställ maskinen och kontrollera överlastning",
+          "detail": "Stäng av maskinen vid eluttaget, vänta två minuter och starta sedan om den med en liten, balanserad tvätt. Om trumman blockerades av en överlastning eller en tillfällig termisk säkring räcker denna återställning ofta för att återställa normal drift. Ta ut några plagg om trumman var hårt packad."
+        },
+        {
+          "step": 2,
+          "action": "Lyssna och känn efter fysiska hinder",
+          "detail": "Med maskinen urkopplad, försök snurra trumman för hand. Den ska rotera mjukt med endast ett lätt motstånd från dörrtätningen. Om den känns stel, skrapar eller stannar abrupt är det troligt att ett främmande föremål har fastnat mellan trumman och det yttre karet. Kontrollera dörrtätningens fördjupning och trummans paddelhål efter mynt, trådar eller skräp."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera drivremmen",
+          "detail": "Koppla ur maskinen och ta bort bakpanelen (vanligtvis fäst med tre eller fyra skruvar). Leta upp det stora gummiremmen som löper runt trummans remskiva och den mindre motorremskivan. Om remmen är trasig, utsträckt eller ligger löst i botten av maskinen, byt ut den mot rätt rem för din modell. Montera tillbaka panelen och kör ett kort program för att bekräfta att trumman snurrar."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera motorns kolborstar",
+          "detail": "Med bakpanelen fortfarande borttagen, leta upp motorn och identifiera de två kolborstshållarna på vardera sidan. Skjut ut eller skruva loss varje hållare och dra ut borsten. En frisk borste är vanligtvis 15–20 mm lång; om någon borste är nednött till 5 mm eller mindre, byt ut båda som ett par. Kolborstar är billiga och finns allmänt tillgängliga för Siemens-motorer."
+        },
+        {
+          "step": 5,
+          "action": "Testa motorn för kontinuitet",
+          "detail": "Använd en multimeter inställd på motstånd (Ω), koppla loss motorns kabelstam och testa över motorterminalerna enligt din modells kopplingsschema. En avläsning av oändlighet (öppen krets) på huvudlindningen indikerar en utbränd motor som behöver bytas. Om du inte är bekväm med att använda en multimeter, gå vidare till att kontakta en servicetekniker."
+        },
+        {
+          "step": 6,
+          "action": "Notera eventuella felkoder som visas",
+          "detail": "Om displayen visar E50, fotografera eller notera det innan du återställer. E50 pekar specifikt på ett motorkretsfel på Siemens-maskiner och kan hjälpa en servicetekniker att avgöra om problemet är motorn själv, borstarna eller styrkortet. Dela denna kod när du bokar en reparation."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera motorstyrkortet (avancerat)",
+          "detail": "Om remmen och borstarna båda är i gott skick kan styrkortet vara felaktigt. Med maskinen urkopplad, leta upp kortet (vanligtvis bakom front- eller toppanelen) och leta efter synligt brända komponenter, uppsvällda kondensatorer eller brännmärken. Ett skadat kort behöver professionellt byte – försök inte starta maskinen om du ser brannskador."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om trumman fortfarande inte snurrar efter att du har bytt drivremmen och kolborstarna, eller om motorn inte visar kontinuitet vid ett multimetertest. En utbränd motor eller ett defekt inverterkort kräver specialverktyg och komponentnivåkunskap för att bytas ut på ett säkert sätt, och att försöka utan erfarenhet riskerar ytterligare skador på maskinen eller personskada.</p><p>Du bör också omedelbart söka professionell hjälp om du märker en bränndoft, brännmärken på styrkortet, eller om maskinen löser ut din hushållssäkring när den försöker starta. Dessa tecken indikerar ett elfel som går utöver rutinunderhåll och måste bedömas av en kvalificerad servicetekniker innan apparaten används igen.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Siemens tvättmaskins trumma slutar snurra är drivremmen, motorns kolborstar och – mer sällan – trummotorn själv. Att ha en reservuppsättning kolborstar till hands är värt besväret om din maskin är mer än fem år gammal, eftersom borstslitage är gradvis och förutsägbart. Att byta rem och borstar tillsammans vid samma reparationstillfälle sparar tid och minskar risken för ett nytt servicebesök kort därefter.</p><p>För att minska slitaget på dessa komponenter, undvik att konsekvent köra maskinen vid maximal lastkapacitet, rengör trumman och dörrtätningen regelbundet för att förhindra att skräp kommer in i karet, och kör en månatlig underhållstvätt vid 60 °C för att rensa bort tvättmedelsrester som kan obalansera tvätten med tiden.</p>\n<!-- SPARE_PARTS_FAULT:drum-not-turning -->",
+      "faq_json": [
+        {
+          "answer": "E50 indikerar ett fel i motorns krets. Det kan utlösas av slitna kolborstar, en defekt motor eller ett problem med motorstyrkortet. Börja med att kontrollera borstarna, eftersom de är den vanligaste och billigaste orsaken till denna kod.",
+          "question": "Vad betyder felkod E50 på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Nej – att köra ett program utan trumrotation innebär att kläderna ligger i vatten utan att tvättas eller sköljas ordentligt, och motorn kan överhettas när den försöker driva en blockerad eller remfri trumma. Stäng av maskinen och diagnostisera felet innan du använder den igen.",
+          "question": "Kan jag använda min Siemens tvättmaskin om trumman inte snurrar?"
+        },
+        {
+          "answer": "Kolborstar håller vanligtvis mellan fem och tio år beroende på hur ofta maskinen används och vid vilka temperaturer. Maskiner som används dagligen eller regelbundet på höga centrifugeringsprogram sliter ut borstar snabbare. Att byta dem är ett enkelt jobb och betydligt billigare än att byta motorn.",
+          "question": "Hur länge håller kolborstar i en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Om trumman roterar fritt när du skjuter på den för hand men stannar under ett program är motorn eller dess strömförsörjning troligen orsaken snarare än ett fysiskt hinder. Kontrollera kolborstarna först, testa sedan motorn för kontinuitet och inspektera slutligen styrkortet för synliga skador.",
+          "question": "Varför snurrar trumman för hand men inte under ett program?"
+        },
+        {
+          "answer": "Det beror på maskinens ålder och allmänna skick. Ett motorbyte är en betydande kostnad, så om maskinen är mer än åtta till tio år gammal och har andra slitna komponenter kan det vara mer ekonomiskt att byta ut den. En servicetekniker kan ge dig en bedömning av reparation kontra utbyte när de har diagnostiserat felet.",
+          "question": "Är det värt att reparera en Siemens tvättmaskin med en låst motor?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:40:24.733738+00:00"
+    },
+    {
+      "article_id": 343,
+      "locale": "en",
+      "slug": "control-panel-unresponsive",
+      "title_tag": "Siemens Washing Machine Control Panel Unresponsive",
+      "meta_description": "Siemens washing machine control panel not responding? Learn the most common causes, step-by-step fixes, and when to call a service technician.",
+      "h1": "Why Has My Siemens Washing Machine Control Panel Stopped Responding?",
+      "description": "The control panel on the washing machine does not respond to button presses or dial input, leaving the machine unable to start or change settings.",
+      "quick_fix": "Press and hold the 'Start/Pause' button for 5 seconds to perform a soft reset — this clears temporary software faults and restores panel responsiveness in most cases (takes about 2 minutes).",
+      "intro_html": "<p>When the control panel on your Siemens washing machine becomes unresponsive, you may find that buttons do nothing, the display stays blank or frozen, or the programme selector dial fails to register any input. The machine may appear to have power — drum light on, for example — but simply refuses to react to any commands.</p><p>This symptom typically points to a fault in the electronic control system, which includes the main control board, the user interface board, or the wiring that connects them. In some cases the machine will log error codes E91 or E92, both of which relate to communication failures between the control panel and the main PCB.</p><p>Because this fault sits at the heart of how the machine operates, it can feel alarming, but a significant number of cases are caused by minor software glitches or simple wiring issues that you can address yourself before calling anyone out.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary software or firmware glitch",
+          "detail": "The control board can occasionally freeze due to a power fluctuation or an interrupted cycle, leaving the panel locked and unresponsive. A full power reset usually clears this without any parts being needed."
+        },
+        {
+          "cause": "Child lock or demo mode activated",
+          "detail": "Siemens machines have a child lock feature that disables all panel inputs when active, which is easy to trigger accidentally. Some models also have a demo or showroom mode that mimics a locked panel."
+        },
+        {
+          "cause": "Faulty or loose wiring harness between UI board and main PCB",
+          "detail": "The ribbon cable or wiring loom connecting the user interface board to the main control board can work loose over time, especially after vibration from heavy loads. A poor connection here causes the E91 or E92 communication error and makes the panel appear dead."
+        },
+        {
+          "cause": "Failed user interface (UI) board",
+          "detail": "The UI board sits directly behind the control panel and handles all button and dial inputs. If it develops a fault — often due to moisture ingress or component failure — the panel will stop responding entirely."
+        },
+        {
+          "cause": "Failed main control board (PCB)",
+          "detail": "The main PCB manages communication across all systems in the machine. A failure here can prevent it from receiving or processing any signals from the control panel, resulting in a completely unresponsive front end."
+        },
+        {
+          "cause": "Power supply issue",
+          "detail": "An unstable mains supply, a blown internal fuse, or a faulty door interlock preventing the machine from powering up correctly can all cause the panel to appear unresponsive even when the machine has partial power."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a full power reset",
+          "detail": "Switch the machine off at the mains socket and unplug it completely. Leave it unplugged for at least 5 minutes to allow the capacitors on the control board to fully discharge. Plug back in and try the panel again — this resolves a large proportion of temporary software freezes."
+        },
+        {
+          "step": 2,
+          "action": "Check and deactivate the child lock",
+          "detail": "Look for a padlock icon on the display or a key symbol on one of the buttons. On most Siemens models, child lock is deactivated by pressing and holding the designated button (often labelled 'Key' or shown with a padlock) for 3–5 seconds. Consult your model's manual if you are unsure which button to hold."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the mains supply and socket",
+          "detail": "Test the wall socket with another appliance to confirm it is live. Check your consumer unit for a tripped circuit breaker. A low or intermittent voltage supply can cause the control board to behave erratically, so if other appliances on the same circuit are also behaving oddly, contact an electrician before proceeding."
+        },
+        {
+          "step": 4,
+          "action": "Check the door interlock",
+          "detail": "The machine will not accept any panel input if it believes the door is open. Firmly close the door and listen for the click of the interlock engaging. If the door seal is damaged or the latch is worn, the machine may not register the door as closed, blocking all panel functions."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the wiring harness connections",
+          "detail": "With the machine unplugged, remove the top panel (usually two screws at the rear) to access the wiring. Locate the ribbon cable or connector running from the control panel area down to the main PCB and press each connector firmly home. Look for any visible signs of burning, corrosion, or chafing on the wires. Reconnect everything securely before powering back on."
+        },
+        {
+          "step": 6,
+          "action": "Check for error codes E91 or E92",
+          "detail": "If the display is partially functional, note any error codes shown. E91 and E92 on Siemens machines indicate a communication breakdown between the UI board and the main PCB. If these codes appear after reseating the wiring and the fault persists, one of the two boards is likely faulty and will need to be replaced."
+        },
+        {
+          "step": 7,
+          "action": "Replace the user interface board or main PCB",
+          "detail": "If all previous steps have failed, the UI board is the more common component to fail and is generally less expensive to replace than the main PCB. Source the correct part using your machine's full model number (found on the label inside the door frame). If you are not confident working with electronics, this step is best handed to a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>You should contact a qualified service technician if the control panel remains completely unresponsive after a full power reset, child lock check, and wiring inspection, or if you can see visible burn marks, melted plastic, or smell burning from behind the panel. These signs suggest a component has failed in a way that requires safe handling and specialist diagnostic equipment.</p><p>You should also seek professional help if error codes E91 or E92 persist after reseating all connectors, as correctly identifying whether the UI board or the main PCB is at fault — and replacing only the defective part — requires experience and, in many cases, a diagnostic tool that reads live board data.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Siemens washing machine control panel becomes unresponsive are the user interface (UI) board, the main control PCB, and the wiring harness or ribbon cable that connects them. Having the correct model number to hand before ordering is essential, as these parts are model-specific and non-interchangeable.</p><p>To reduce the risk of this fault recurring, use a surge-protected extension lead or plug the machine directly into a dedicated socket to protect the electronics from power spikes. Avoid overloading the drum, as excessive vibration can gradually loosen internal connectors over time.</p>\n<!-- SPARE_PARTS_FAULT:control-panel-unresponsive -->",
+      "faq_json": [
+        {
+          "answer": "Start with a full power reset by unplugging the machine for 5 minutes. If the display remains blank, check whether the child lock is active, as this can suppress the display on some models. If neither resolves it, the UI board or its wiring connection to the main PCB is the most likely cause.",
+          "question": "My Siemens washing machine display is blank but the machine has power — what should I check first?"
+        },
+        {
+          "answer": "Both codes indicate a communication fault between the user interface board and the main control PCB. E91 typically signals a loss of communication, while E92 points to a data error in that communication. Reseating the wiring harness between the two boards is the first practical step; if the codes return, one of the boards will need replacing.",
+          "question": "What do error codes E91 and E92 mean on a Siemens washing machine?"
+        },
+        {
+          "answer": "It is possible for a confident DIYer with basic electronics experience. You will need to unplug the machine, remove the top or front panel depending on the model, disconnect the old board carefully, and fit the new one. Always use the full model number from the door label to order the exact replacement part. If you are unsure at any point, a service technician is the safer option.",
+          "question": "Can I replace the control panel board myself?"
+        },
+        {
+          "answer": "On most Siemens models, press and hold the button marked with a key or padlock symbol for 3–5 seconds until the padlock icon disappears from the display. The exact button varies by model, so check your user manual if you cannot identify it. The manual is usually available as a free PDF download from the Siemens home appliances website using your model number.",
+          "question": "How do I turn off the child lock on my Siemens washing machine?"
+        },
+        {
+          "answer": "Not necessarily. A large number of cases are resolved by a simple power reset or deactivating the child lock at no cost. Wiring harness issues are also relatively inexpensive to fix. The cost rises if the UI board or main PCB needs replacing, but a UI board is typically the cheaper of the two and is often the component at fault.",
+          "question": "Is an unresponsive control panel always an expensive repair?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:41:15.797331+00:00"
+    },
+    {
+      "article_id": 343,
+      "locale": "sv",
+      "slug": "kontrollpanel-svarar-inte",
+      "title_tag": "Siemens Tvättmaskin Kontrollpanel Svarar Inte",
+      "meta_description": "Svarar inte kontrollpanelen på din Siemens tvättmaskin? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker.",
+      "h1": "Varför har kontrollpanelen på min Siemens tvättmaskin slutat svara?",
+      "description": "Kontrollpanelen på tvättmaskinen svarar inte på knapptryckningar eller vredinmatning, vilket gör att maskinen inte kan startas eller ändra inställningar.",
+      "quick_fix": "Håll in knappen 'Start/Paus' i 5 sekunder för att utföra en mjuk återställning — detta rensar tillfälliga programvarufel och återställer panelens funktion i de flesta fall (tar ungefär 2 minuter).",
+      "intro_html": "<p>När kontrollpanelen på din Siemens tvättmaskin slutar svara kan du märka att knappar inte reagerar, att displayen förblir tom eller fryst, eller att programvredet inte registrerar någon inmatning. Maskinen kan verka ha ström — till exempel lyser trumbelysningen — men vägrar helt enkelt att reagera på kommandon.</p><p>Det här symptomet pekar vanligtvis på ett fel i det elektroniska styrsystemet, vilket inkluderar huvudkortet, användargränssnittskortet (UI-kortet) eller kablaget som förbinder dem. I vissa fall loggar maskinen felkoderna E91 eller E92, som båda rör kommunikationsfel mellan kontrollpanelen och huvud-PCB:n.</p><p>Eftersom det här felet sitter i hjärtat av hur maskinen fungerar kan det kännas alarmerande, men ett betydande antal fall orsakas av mindre programvarufel eller enkla kablageproblem som du kan åtgärda själv innan du kontaktar någon.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt programvaru- eller firmwarefel",
+          "detail": "Styrkortet kan ibland frysa på grund av en strömfluktuering eller ett avbrutet program, vilket låser panelen och gör den oanvändbar. En fullständig strömåterställning löser vanligtvis detta utan att några delar behöver bytas."
+        },
+        {
+          "cause": "Barnlås eller demoläge aktiverat",
+          "detail": "Siemens-maskiner har en barnlåsfunktion som inaktiverar alla panelinmatningar när den är aktiv, vilket lätt kan aktiveras av misstag. Vissa modeller har även ett demo- eller visningsläge som efterliknar en låst panel."
+        },
+        {
+          "cause": "Defekt eller löst kabelstamme mellan UI-kort och huvud-PCB",
+          "detail": "Bandkabeln eller kabelstammen som förbinder användargränssnittskortet med huvudkortet kan lossna med tiden, särskilt efter vibrationer från tunga tvättpåfyllningar. En dålig anslutning här orsakar kommunikationsfelet E91 eller E92 och får panelen att verka helt död."
+        },
+        {
+          "cause": "Defekt användargränssnittskort (UI-kort)",
+          "detail": "UI-kortet sitter direkt bakom kontrollpanelen och hanterar alla knappar och vredinmatningar. Om det utvecklar ett fel — ofta på grund av fuktintrång eller komponentfel — slutar panelen att svara helt."
+        },
+        {
+          "cause": "Defekt huvudkort (PCB)",
+          "detail": "Huvud-PCB:n hanterar kommunikationen i alla maskinens system. Ett fel här kan hindra den från att ta emot eller bearbeta signaler från kontrollpanelen, vilket resulterar i ett helt oanvändbart frontparti."
+        },
+        {
+          "cause": "Problem med strömförsörjningen",
+          "detail": "En instabil nätspänning, en sprängd intern säkring eller ett defekt dörrlås som hindrar maskinen från att starta korrekt kan alla få panelen att verka oanvändbar även när maskinen har delvis ström."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en fullständig strömåterställning",
+          "detail": "Stäng av maskinen vid vägguttaget och dra ur kontakten helt. Låt den vara urkopplad i minst 5 minuter så att kondensatorerna på styrkortet hinner laddas ur helt. Anslut igen och prova panelen — detta löser en stor andel av tillfälliga programvarufrysningar."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera och inaktivera barnlåset",
+          "detail": "Leta efter en hänglåsikon på displayen eller en nyckelsymbol på en av knapparna. På de flesta Siemens-modeller inaktiveras barnlåset genom att hålla in den avsedda knappen (ofta märkt 'Nyckel' eller visad med ett hänglås) i 3–5 sekunder. Konsultera din modells manual om du är osäker på vilken knapp du ska hålla in."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera nätspänningen och vägguttaget",
+          "detail": "Testa vägguttaget med en annan apparat för att bekräfta att det är spänningssatt. Kontrollera din elcentral för en utlöst säkring. En låg eller intermittent spänning kan få styrkortet att bete sig oregelbundet, så om andra apparater på samma krets också beter sig konstigt, kontakta en elektriker innan du fortsätter."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera dörrlåset",
+          "detail": "Maskinen accepterar inga panelinmatningar om den tror att dörren är öppen. Stäng dörren ordentligt och lyssna efter klicket när låset hakar i. Om dörrtätningen är skadad eller låsmekanismen är sliten kanske maskinen inte registrerar dörren som stängd, vilket blockerar alla panelfunktioner."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera kabelstammens anslutningar",
+          "detail": "Med maskinen urkopplad, ta bort toppanelen (vanligtvis två skruvar baktill) för att komma åt kablaget. Leta upp bandkabeln eller kontakten som löper från kontrollpanelens område ner till huvud-PCB:n och tryck in varje kontakt ordentligt. Leta efter synliga tecken på brännskador, korrosion eller nötning på kablarna. Återanslut allt säkert innan du slår på strömmen igen."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera efter felkoderna E91 eller E92",
+          "detail": "Om displayen är delvis funktionell, notera eventuella felkoder som visas. E91 och E92 på Siemens-maskiner indikerar ett kommunikationsavbrott mellan UI-kortet och huvud-PCB:n. Om dessa koder visas efter att kablaget återanslutits och felet kvarstår, är troligtvis ett av de två korten defekt och behöver bytas."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut användargränssnittskortet eller huvud-PCB:n",
+          "detail": "Om alla tidigare steg har misslyckats är UI-kortet den vanligare komponenten att gå sönder och är i allmänhet billigare att byta ut än huvud-PCB:n. Beställ rätt del med hjälp av maskinens fullständiga modellnummer (finns på etiketten inuti dörrkanten). Om du inte känner dig trygg med att arbeta med elektronik är det bäst att överlåta detta steg till en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Du bör kontakta en behörig servicetekniker om kontrollpanelen förblir helt oanvändbar efter en fullständig strömåterställning, kontroll av barnlåset och inspektion av kablaget, eller om du kan se synliga brännskador, smält plast eller luktar bränt från bakom panelen. Dessa tecken tyder på att en komponent har gått sönder på ett sätt som kräver säker hantering och specialiserad diagnostikutrustning.</p><p>Du bör också söka professionell hjälp om felkoderna E91 eller E92 kvarstår efter att alla kontakter återanslutits, eftersom det krävs erfarenhet och i många fall ett diagnostikverktyg som läser live-kortdata för att korrekt identifiera om UI-kortet eller huvud-PCB:n är defekt — och bara byta ut den felaktiga delen.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Siemens tvättmaskins kontrollpanel slutar svara är användargränssnittskortet (UI-kortet), huvud-PCB:n och kabelstammen eller bandkabeln som förbinder dem. Det är viktigt att ha rätt modellnummer till hands innan du beställer, eftersom dessa delar är modellspecifika och inte utbytbara.</p><p>För att minska risken för att felet upprepas, använd en överspänningsskyddad grenuttag eller anslut maskinen direkt till ett dedikerat vägguttag för att skydda elektroniken mot spänningspikar. Undvik att överlasta trumman, eftersom kraftiga vibrationer gradvis kan lossa interna kontakter med tiden.</p>\n<!-- SPARE_PARTS_FAULT:control-panel-unresponsive -->",
+      "faq_json": [
+        {
+          "answer": "Börja med en fullständig strömåterställning genom att koppla ur maskinen i 5 minuter. Om displayen fortfarande är tom, kontrollera om barnlåset är aktivt, eftersom detta kan undertrycka displayen på vissa modeller. Om inget av dessa åtgärder löser problemet är UI-kortet eller dess kabelanslutning till huvud-PCB:n den troligaste orsaken.",
+          "question": "Displayen på min Siemens tvättmaskin är tom men maskinen har ström — vad ska jag kontrollera först?"
+        },
+        {
+          "answer": "Båda koderna indikerar ett kommunikationsfel mellan användargränssnittskortet och huvud-PCB:n. E91 signalerar vanligtvis ett kommunikationsavbrott, medan E92 pekar på ett datafel i den kommunikationen. Att återansluta kabelstammen mellan de två korten är det första praktiska steget; om koderna återkommer behöver ett av korten bytas ut.",
+          "question": "Vad betyder felkoderna E91 och E92 på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Det är möjligt för en händig hemmafixare med grundläggande elektronikkunskaper. Du behöver koppla ur maskinen, ta bort topp- eller frontpanelen beroende på modell, koppla loss det gamla kortet försiktigt och montera det nya. Använd alltid det fullständiga modellnumret från dörretiketten för att beställa exakt rätt reservdel. Om du är osäker vid något tillfälle är en servicetekniker det säkrare alternativet.",
+          "question": "Kan jag byta kontrollpanelkortet själv?"
+        },
+        {
+          "answer": "På de flesta Siemens-modeller håller du in knappen märkt med en nyckel eller ett hänglås i 3–5 sekunder tills hänglåsikonen försvinner från displayen. Den exakta knappen varierar beroende på modell, så kontrollera din bruksanvisning om du inte kan identifiera den. Manualen finns vanligtvis tillgänglig som gratis PDF-nedladdning från Siemens hushållsapparaters webbplats med ditt modellnummer.",
+          "question": "Hur stänger jag av barnlåset på min Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Inte nödvändigtvis. Ett stort antal fall löses med en enkel strömåterställning eller genom att inaktivera barnlåset utan kostnad. Kablageproblem är också relativt billiga att åtgärda. Kostnaden ökar om UI-kortet eller huvud-PCB:n behöver bytas, men ett UI-kort är vanligtvis det billigare av de två och är ofta den felaktiga komponenten.",
+          "question": "Är en oanvändbar kontrollpanel alltid en dyr reparation?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:42:22.749473+00:00"
+    }
+  ]
+}

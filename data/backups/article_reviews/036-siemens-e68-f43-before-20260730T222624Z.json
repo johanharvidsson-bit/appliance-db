@@ -1,0 +1,1019 @@
+{
+  "exported_at": "2026-07-30T22:26:24.630169+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    237,
+    238,
+    239,
+    241,
+    243
+  ],
+  "rows": [
+    {
+      "article_id": 237,
+      "locale": "en",
+      "slug": "error-code-e68",
+      "title_tag": "Siemens Washing Machine Error Code E68 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error E68? Learn what causes this heating circuit fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E68 Mean on a Siemens Washing Machine?",
+      "description": "Error code E68 on a Siemens washing machine indicates a fault in the heating circuit, typically involving the heating element or a temperature sensor that is not functioning within the expected range.",
+      "quick_fix": "Check that the machine is not overloaded and run a short 30°C cycle to see if the heating circuit responds — if the error clears and the water warms normally, the fault was likely a temporary sensor misread (takes about 10 minutes).",
+      "intro_html": "<p>Error code E68 points to a problem in your Siemens washing machine's heating circuit. This circuit is responsible for warming the water to the temperature you select, and the machine monitors it continuously using one or more NTC temperature sensors. When the control board detects a reading that falls outside the expected range — either too high, too low, or completely absent — it logs E68 and typically halts the programme to prevent damage.</p><p>In practice, you may notice the wash cycle stopping partway through, clothes coming out cold even on a hot wash setting, or the machine refusing to progress past the heating phase. The drum may still turn and water may still fill, but the programme will not advance until the heating system reports a valid temperature. Understanding which part of the circuit has failed is the key to resolving this fault efficiently.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty NTC temperature sensor",
+          "detail": "The NTC sensor monitors water temperature and feeds readings back to the control board. If it develops a short circuit, open circuit, or drifts out of calibration, the board cannot confirm the water is heating correctly and triggers E68."
+        },
+        {
+          "cause": "Failed or burnt-out heating element",
+          "detail": "The heating element is the component that physically warms the water. Over time, limescale build-up or electrical stress can cause it to fail, meaning the water temperature never rises and the sensor reports no change."
+        },
+        {
+          "cause": "Wiring or connector fault in the heating circuit",
+          "detail": "Loose, corroded, or damaged wiring between the heating element, temperature sensor, and control board can interrupt the signal. Vibration over years of use can work connectors loose without any visible external damage."
+        },
+        {
+          "cause": "Heavy limescale deposits on the heating element",
+          "detail": "In hard water areas, limescale can coat the heating element thickly enough to insulate it, causing it to overheat internally and trip a thermal cut-out. The element may still be physically intact but unable to heat efficiently."
+        },
+        {
+          "cause": "Control board (PCB) fault",
+          "detail": "If the main control board cannot correctly send power to the heating element or interpret the sensor signal, it may generate a false E68 even when the heating components themselves are in good condition. This is less common but possible after a power surge."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reset the machine",
+          "detail": "Switch the washing machine off at the mains socket and leave it unpowered for at least 5 minutes. This allows the control board to fully discharge and can clear a temporary sensor misread. Switch back on, select a 40°C or 60°C programme, and observe whether E68 returns."
+        },
+        {
+          "step": 2,
+          "action": "Check the load size and redistribute laundry",
+          "detail": "An overloaded drum can restrict water circulation around the heating element, causing uneven temperature readings. Remove some items, redistribute the remaining load evenly, and restart the cycle. This takes only a couple of minutes and costs nothing."
+        },
+        {
+          "step": 3,
+          "action": "Run a descaling cycle",
+          "detail": "If you live in a hard water area and have not descaled the machine recently, run an empty drum clean or maintenance wash at 90°C using a proprietary washing machine descaler. Heavy limescale on the element is a common cause of heating faults and this step can restore normal operation without any dismantling."
+        },
+        {
+          "step": 4,
+          "action": "Inspect and test the NTC temperature sensor",
+          "detail": "Disconnect the machine from the mains before proceeding. The NTC sensor is usually located on or near the heating element at the base of the drum. Disconnect its wiring plug and use a multimeter set to resistance (ohms) to test it — a healthy NTC sensor typically reads around 20–30 kΩ at room temperature. A reading of zero or infinite resistance indicates a failed sensor that needs replacing."
+        },
+        {
+          "step": 5,
+          "action": "Test the heating element for continuity",
+          "detail": "With the machine still unplugged, locate the heating element terminals (accessible from the rear or front depending on your model). Set your multimeter to continuity or resistance mode and probe both terminals. A working element typically reads between 20 and 50 ohms; an open circuit reading means the element has failed and must be replaced. Also check for continuity between each terminal and the machine's metal body — any reading here indicates an earth fault."
+        },
+        {
+          "step": 6,
+          "action": "Check wiring and connectors to the heating circuit",
+          "detail": "With the machine unplugged, visually inspect all wiring leading to the heating element and NTC sensor. Look for scorch marks, melted insulation, or connectors that pull away easily. Reseat any loose plugs firmly. If you find burnt or broken wires, these will need to be repaired or replaced before the machine is used again."
+        },
+        {
+          "step": 7,
+          "action": "Replace the faulty component and retest",
+          "detail": "Once you have identified the failed part — most commonly the NTC sensor or heating element — fit the correct replacement part for your specific Siemens model (check your model number on the door frame sticker). Reassemble, reconnect to the mains, and run a full 60°C cycle to confirm the error has cleared and the water heats correctly."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested both the NTC sensor and the heating element and both appear to be within normal parameters, but E68 continues to appear, the fault is likely within the main control board (PCB). Diagnosing and replacing a PCB requires specialist equipment and a good understanding of appliance electronics — this is not a straightforward DIY repair and is best handled by a qualified service technician.</p><p>You should also call a service technician if you found evidence of burning, scorching, or melted wiring during your inspection, or if the machine trips your household circuit breaker when it attempts to heat. These symptoms suggest an electrical fault that could pose a safety risk if the machine is used further before repair.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E68 fault are the NTC temperature sensor, the heating element, and — less frequently — the wiring harness connecting these components to the control board. Keeping a note of your exact Siemens model number (found on the sticker inside the door frame) will help you source the correct compatible parts quickly.</p><p>To reduce the likelihood of E68 recurring, use a washing machine descaler every three to six months if you live in a hard water area, and always use the correct amount of detergent to prevent residue build-up around the element. Running a monthly maintenance wash at 60°C or above also helps keep the heating circuit clear.</p>\n<!-- SPARE_PARTS:E68 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to continue using the machine with an active E68 fault. The programme will typically stall during the heating phase, meaning clothes will not be washed at the correct temperature. More importantly, if the fault is caused by a failing heating element with an earth fault, continued use could pose an electrical safety risk.",
+          "question": "Can I still use my Siemens washing machine while it shows E68?"
+        },
+        {
+          "answer": "If the fault is a failed NTC temperature sensor, this is usually an inexpensive repair — the part itself often costs between £10 and £25, and fitting it yourself is straightforward. A heating element replacement typically costs £20–£50 for the part. If a service technician is needed, expect to add a call-out and labour charge on top of the part cost.",
+          "question": "How much does it cost to fix a Siemens E68 error?"
+        },
+        {
+          "answer": "Descaling can resolve E68 in cases where heavy limescale has insulated the heating element and caused it to overheat or trip its thermal cut-out. It will not fix a mechanically or electrically failed element or a faulty sensor. It is worth trying as a first step because it is free of risk and may save you the cost of a replacement part.",
+          "question": "Will descaling actually fix an E68 error?"
+        },
+        {
+          "answer": "The model number (E-Nr) is printed on a sticker located on the inside edge of the door frame — visible when the door is open. It typically starts with letters followed by a string of numbers and letters. You will need this number to order the correct replacement NTC sensor or heating element, as these parts vary between models.",
+          "question": "How do I find the model number on my Siemens washing machine?"
+        },
+        {
+          "answer": "E68 consistently relates to the heating circuit across Siemens washing machine ranges, but the exact component layout, sensor type, and element specification can differ between models. Always cross-reference your specific model number when ordering parts or following a repair guide, as accessing the heating element may involve removing the front panel on some models and the rear panel on others.",
+          "question": "Is E68 the same fault on all Siemens washing machine models?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T14:53:42.560458+00:00"
+    },
+    {
+      "article_id": 237,
+      "locale": "sv",
+      "slug": "felkod-e68",
+      "title_tag": "Siemens Tvättmaskin Felkod E68 | Åtgärda Problemet Nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod E68? Lär dig vad som orsakar detta fel i värmekretsen, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod E68 på en Siemens Tvättmaskin?",
+      "description": "Felkod E68 på en Siemens tvättmaskin indikerar ett fel i värmekretsen, vanligtvis kopplat till värmeelement eller en temperatursensor som inte fungerar inom förväntat område.",
+      "quick_fix": "Kontrollera att maskinen inte är överfylld och kör ett kort 30°C-program för att se om värmekretsen svarar — om felet försvinner och vattnet värms normalt berodde felet troligen på ett tillfälligt sensoravläsningsfel (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod E68 pekar på ett problem i din Siemens tvättmaskines värmekrets. Denna krets ansvarar för att värma vattnet till den temperatur du väljer, och maskinen övervakar den kontinuerligt med hjälp av en eller flera NTC-temperatursensorer. När styrkortet registrerar ett värde som faller utanför det förväntade området — antingen för högt, för lågt eller helt frånvarande — loggar det E68 och stoppar vanligtvis programmet för att förhindra skador.</p><p>I praktiken kan du märka att tvättcykeln stannar mitt i, att kläderna kommer ut kalla även vid ett varmt tvättprogram, eller att maskinen vägrar att gå vidare förbi uppvärmningsfasen. Trumman kan fortfarande rotera och vatten kan fortfarande fyllas på, men programmet fortsätter inte förrän värmesystemet rapporterar en giltig temperatur. Att förstå vilken del av kretsen som har gått sönder är nyckeln till att lösa detta fel på ett effektivt sätt.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt NTC-temperatursensor",
+          "detail": "NTC-sensorn övervakar vattentemperaturen och skickar avläsningar tillbaka till styrkortet. Om den utvecklar en kortslutning, ett öppet kretsar eller driftar ur kalibrering kan kortet inte bekräfta att vattnet värms korrekt och utlöser E68."
+        },
+        {
+          "cause": "Trasigt eller utbränt värmeelement",
+          "detail": "Värmeelementet är den komponent som fysiskt värmer vattnet. Med tiden kan kalkavlagringar eller elektrisk belastning orsaka att det slutar fungera, vilket innebär att vattentemperaturen aldrig stiger och sensorn rapporterar ingen förändring."
+        },
+        {
+          "cause": "Kabelfel eller kontaktfel i värmekretsen",
+          "detail": "Lösa, korroderade eller skadade kablar mellan värmeelementet, temperatursensorn och styrkortet kan avbryta signalen. Vibrationer under många års användning kan lossa kontakter utan att det syns några yttre skador."
+        },
+        {
+          "cause": "Kraftiga kalkavlagringar på värmeelementet",
+          "detail": "I områden med hårt vatten kan kalk belägga värmeelementet tillräckligt tjockt för att isolera det, vilket gör att det överhettas internt och löser ut ett termiskt skydd. Elementet kan fortfarande vara fysiskt intakt men oförmöget att värma effektivt."
+        },
+        {
+          "cause": "Fel på styrkortet (PCB)",
+          "detail": "Om huvudstyrkortet inte korrekt kan skicka ström till värmeelementet eller tolka sensorsignalen kan det generera ett falskt E68 även när värmekomponenterna i sig är i gott skick. Detta är mindre vanligt men möjligt efter ett strömöverspänning."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Återställ maskinen",
+          "detail": "Stäng av tvättmaskinen vid vägguttaget och låt den vara strömlös i minst 5 minuter. Detta låter styrkortet ladda ur helt och kan rensa ett tillfälligt sensoravläsningsfel. Slå på igen, välj ett 40°C- eller 60°C-program och observera om E68 återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera laststorleken och fördela tvätten",
+          "detail": "En överfylld trumma kan begränsa vattencirkulationen runt värmeelementet och orsaka ojämna temperaturavläsningar. Ta ut några plagg, fördela resterande tvätt jämnt och starta om cykeln. Detta tar bara ett par minuter och kostar ingenting."
+        },
+        {
+          "step": 3,
+          "action": "Kör ett avkalkningsprogram",
+          "detail": "Om du bor i ett område med hårt vatten och inte har avkalkat maskinen nyligen, kör ett tomt trumrengörings- eller underhållsprogram vid 90°C med ett lämpligt avkalkningsmedel för tvättmaskiner. Kraftiga kalkavlagringar på elementet är en vanlig orsak till värmefel och detta steg kan återställa normal drift utan att behöva demontera maskinen."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera och testa NTC-temperatursensorn",
+          "detail": "Koppla bort maskinen från elnätet innan du fortsätter. NTC-sensorn sitter vanligtvis på eller nära värmeelementet vid trummans botten. Koppla loss dess kontaktdon och använd en multimeter inställd på motstånd (ohm) för att testa den — en frisk NTC-sensor läser vanligtvis cirka 20–30 kΩ vid rumstemperatur. En avläsning på noll eller oändligt motstånd indikerar en defekt sensor som behöver bytas."
+        },
+        {
+          "step": 5,
+          "action": "Testa värmeelementet för kontinuitet",
+          "detail": "Med maskinen fortfarande urkopplad, lokalisera värmeelementets anslutningar (åtkomliga från baksidan eller framsidan beroende på din modell). Ställ in multimetern på kontinuitet eller motstånd och mät på båda anslutningarna. Ett fungerande element läser vanligtvis mellan 20 och 50 ohm; en öppen krets indikerar att elementet har gått sönder och måste bytas. Kontrollera också kontinuitet mellan varje anslutning och maskinens metallkropp — en avläsning här indikerar ett jordfel."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera kablar och kontakter till värmekretsen",
+          "detail": "Med maskinen urkopplad, inspektera visuellt alla kablar som leder till värmeelementet och NTC-sensorn. Leta efter brännmärken, smält isolering eller kontakter som lätt lossnar. Sätt tillbaka eventuella lösa kontakter ordentligt. Om du hittar brända eller trasiga kablar måste dessa repareras eller bytas ut innan maskinen används igen."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut den defekta komponenten och testa igen",
+          "detail": "När du har identifierat den trasiga delen — oftast NTC-sensorn eller värmeelementet — montera rätt reservdel för din specifika Siemens-modell (kontrollera ditt modellnummer på klistermärket på dörrkarmens insida). Montera ihop, anslut till elnätet och kör ett fullständigt 60°C-program för att bekräfta att felet är åtgärdat och att vattnet värms korrekt."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat både NTC-sensorn och värmeelementet och båda verkar vara inom normala parametrar, men E68 fortsätter att visas, beror felet troligen på huvudstyrkortet (PCB). Att diagnostisera och byta ett styrkort kräver specialutrustning och god kunskap om hushållselektronik — detta är inte en enkel gör-det-själv-reparation och hanteras bäst av en behörig servicetekniker.</p><p>Du bör också kontakta en servicetekniker om du hittade tecken på bränning, förkolning eller smälta kablar under din inspektion, eller om maskinen löser ut din säkring när den försöker värma. Dessa symptom tyder på ett elfel som kan utgöra en säkerhetsrisk om maskinen används ytterligare innan reparation.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E68-fel är NTC-temperatursensorn, värmeelementet och — mer sällan — kabelstammen som förbinder dessa komponenter med styrkortet. Att notera ditt exakta Siemens-modellnummer (finns på klistermärket inuti dörrkarmens kant) hjälper dig att snabbt hitta rätt kompatibla reservdelar.</p><p>För att minska risken för att E68 återkommer, använd ett avkalkningsmedel för tvättmaskiner var tredje till sjätte månad om du bor i ett område med hårt vatten, och använd alltid rätt mängd tvättmedel för att förhindra att rester samlas runt elementet. Att köra ett månatligt underhållsprogram vid 60°C eller högre hjälper också till att hålla värmekretsen ren.</p>\n<!-- SPARE_PARTS:E68 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt att fortsätta använda maskinen med ett aktivt E68-fel. Programmet stannar vanligtvis under uppvärmningsfasen, vilket innebär att kläderna inte tvättas vid rätt temperatur. Viktigare är att om felet orsakas av ett defekt värmeelement med ett jordfel kan fortsatt användning utgöra en elektrisk säkerhetsrisk.",
+          "question": "Kan jag fortfarande använda min Siemens tvättmaskin när den visar E68?"
+        },
+        {
+          "answer": "Om felet beror på en defekt NTC-temperatursensor är detta vanligtvis en billig reparation — själva delen kostar ofta mellan 100 och 250 kronor, och att montera den själv är enkelt. Ett byte av värmeelement kostar vanligtvis 200–500 kronor för delen. Om en servicetekniker behövs, tillkommer ett utrycknings- och arbetskostnadsavgift utöver delkostnaden.",
+          "question": "Hur mycket kostar det att åtgärda ett Siemens E68-fel?"
+        },
+        {
+          "answer": "Avkalkning kan lösa E68 i fall där kraftiga kalkavlagringar har isolerat värmeelementet och fått det att överhettas eller lösa ut sitt termiska skydd. Det åtgärdar inte ett mekaniskt eller elektriskt trasigt element eller en defekt sensor. Det är värt att prova som ett första steg eftersom det är riskfritt och kan spara dig kostnaden för en reservdel.",
+          "question": "Kan avkalkning verkligen åtgärda ett E68-fel?"
+        },
+        {
+          "answer": "Modellnumret (E-Nr) finns tryckt på ett klistermärke på insidan av dörrkarmens kant — synligt när dörren är öppen. Det börjar vanligtvis med bokstäver följt av en serie siffror och bokstäver. Du behöver detta nummer för att beställa rätt NTC-sensor eller värmeelement, eftersom dessa delar varierar mellan modeller.",
+          "question": "Hur hittar jag modellnumret på min Siemens tvättmaskin?"
+        },
+        {
+          "answer": "E68 avser konsekvent värmekretsen i Siemens tvättmaskinssortiment, men den exakta komponentlayouten, sensortypen och elementspecifikationen kan skilja sig mellan modeller. Kontrollera alltid ditt specifika modellnummer när du beställer delar eller följer en reparationsguide, eftersom åtkomst till värmeelementet kan kräva att frontpanelen tas bort på vissa modeller och bakpanelen på andra.",
+          "question": "Är E68 samma fel på alla Siemens tvättmaskinmodeller?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T14:54:51.528111+00:00"
+    },
+    {
+      "article_id": 238,
+      "locale": "en",
+      "slug": "error-code-e69",
+      "title_tag": "Siemens Washing Machine Error Code E69 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error E69? Learn what causes this heating circuit fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E69 Mean on a Siemens Washing Machine?",
+      "description": "Error code E69 on a Siemens washing machine indicates a fault in the heating circuit, typically involving the heating element or a temperature sensor that is not functioning within the expected range.",
+      "quick_fix": "Check that the machine is not overloaded and run a short 30°C cycle to see if the heating fault clears — if the NTC temperature sensor has a temporary misread, this reset-style test often resolves it without further action (takes about 10 minutes).",
+      "intro_html": "<p>Error code E69 points to a problem in your Siemens washing machine's heating circuit. This circuit is responsible for warming the water to the temperature you select, and when the machine's control board detects a reading that falls outside the expected range — either from the heating element itself or from the NTC temperature sensor that monitors water temperature — it stops the programme and displays E69 to prevent damage or unsafe operation.</p><p>When this error appears, the wash cycle will typically pause or fail to progress past the heating phase. You may notice that the water in the drum remains cold, or the machine simply sits at a certain point in the cycle without advancing. In some cases the machine will drain and lock out further programmes until the fault is addressed.</p><p>The good news is that not every E69 fault requires replacement parts. Wiring issues, a temporarily stuck sensor, or a build-up of limescale on the heating element are all common and fixable causes worth investigating before calling anyone out.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty or degraded NTC temperature sensor",
+          "detail": "The NTC sensor monitors water temperature throughout the wash. If it has drifted out of calibration, developed a short circuit, or failed entirely, the control board receives an implausible reading and triggers E69."
+        },
+        {
+          "cause": "Failed or burnt-out heating element",
+          "detail": "The heating element is a high-wear component that can burn out over time, particularly in hard-water areas where limescale builds up on its surface. A failed element means the water never reaches the target temperature, causing the control board to flag a heating circuit fault."
+        },
+        {
+          "cause": "Heavy limescale deposits on the heating element",
+          "detail": "Limescale acts as an insulating layer on the element, forcing it to work harder and run hotter than normal. This can cause the element to overheat, trip the thermal cut-out, or produce erratic temperature readings that trigger E69."
+        },
+        {
+          "cause": "Loose or corroded wiring connections",
+          "detail": "The wiring harness connecting the heating element and NTC sensor to the control board can work loose over time due to vibration, or corrode in the damp environment inside the machine. A poor connection produces intermittent or out-of-range signals that the board interprets as a fault."
+        },
+        {
+          "cause": "Faulty main control board (PCB)",
+          "detail": "In less common cases, the control board itself misreads or fails to process signals from the heating circuit correctly. This is usually only suspected after the sensor, element, and wiring have all been checked and found to be in good condition."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains socket and leave it unpowered for at least 5 minutes. This allows the control board to fully reset. Turn it back on and select a 30°C or 40°C cotton cycle to see whether the error returns before investigating further."
+        },
+        {
+          "step": 2,
+          "action": "Check the load size and redistribute laundry",
+          "detail": "An overloaded drum can restrict water circulation and cause uneven heating, which may contribute to sensor misreads. Remove some items if the drum is packed tightly, and make sure laundry is spread evenly before restarting."
+        },
+        {
+          "step": 3,
+          "action": "Run a hot descaling cycle",
+          "detail": "Add a proprietary washing machine descaler to the drum (follow the product's dosage instructions) and run the hottest cycle available — typically 90°C. Limescale on the heating element is a very common cause of E69 on machines used in hard-water areas, and a descaling cycle can restore normal operation without any dismantling."
+        },
+        {
+          "step": 4,
+          "action": "Inspect and test the NTC temperature sensor",
+          "detail": "With the machine unplugged, access the NTC sensor — it is usually clipped to the outer tub near the heating element. Disconnect its wiring plug and use a multimeter set to resistance (Ohms) to test it. At room temperature, a healthy NTC sensor typically reads between 10,000 and 20,000 Ohms; consult your model's service data if available. A reading of zero or infinity indicates a failed sensor that needs replacing."
+        },
+        {
+          "step": 5,
+          "action": "Check the wiring harness for damage or loose connections",
+          "detail": "With the machine still unplugged, trace the wiring from the heating element and NTC sensor back towards the control board. Look for any connectors that have pulled loose, wires that appear burnt or chafed, and terminals showing signs of corrosion. Reseat any loose connectors firmly and replace any visibly damaged wiring before retesting."
+        },
+        {
+          "step": 6,
+          "action": "Test the heating element for continuity",
+          "detail": "Using a multimeter set to continuity or resistance, place the probes on the two terminals of the heating element (with the machine unplugged and the wiring disconnected). A working element typically shows a resistance of 20–50 Ohms. An open circuit (no continuity) confirms the element has failed and needs to be replaced. Also check that the element is not earthing to the machine body, which would indicate insulation breakdown."
+        },
+        {
+          "step": 7,
+          "action": "Reassemble, restart, and monitor",
+          "detail": "After any repair or replacement, reassemble all panels securely, restore power, and run a full 60°C cycle while staying nearby to confirm the machine heats correctly and completes without displaying E69. If the error reappears immediately, the fault is likely with the control board and a service technician should be consulted."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested and replaced both the NTC temperature sensor and the heating element and the E69 error still appears, the fault most likely lies with the main control board (PCB). PCB diagnosis and replacement requires specialist equipment and knowledge of the machine's wiring diagram, and an incorrect repair can cause further damage — this is the point to book a service technician.</p><p>You should also call a service technician without attempting DIY repairs if you notice any signs of burning smells, scorch marks around the heating element area, or visible damage to wiring insulation. These indicate a more serious electrical fault that should not be operated until it has been professionally assessed.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E69 fault are the NTC temperature sensor, the heating element, and — less frequently — the wiring harness connecting these components to the control board. Having the correct part reference for your specific Siemens model before ordering will save time; the model number is usually printed on a label inside the door seal or on the back panel.</p><p>To reduce the likelihood of E69 recurring, run a dedicated descaling cycle every three to six months if you live in a hard-water area, and use the correct amount of detergent to minimise residue build-up around the element. Using a monthly 60°C or 90°C maintenance wash also helps keep the heating circuit clear.</p>\n<!-- SPARE_PARTS:E69 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. When E69 is active, the machine is not heating water correctly, which means laundry will not be properly cleaned or sanitised. Running repeated cycles in a fault state can also place additional stress on the control board and wiring. Address the fault before using the machine for normal loads.",
+          "question": "Can I still use my Siemens washing machine while it shows E69?"
+        },
+        {
+          "answer": "Testing both with a multimeter is the most reliable way to tell them apart. The NTC sensor should show a measurable resistance at room temperature; a reading of zero or open circuit means it has failed. The heating element should show continuity between its terminals; no continuity means it has burnt out. Testing the sensor first is recommended as it is cheaper and easier to replace.",
+          "question": "How do I know if it's the sensor or the heating element that has failed?"
+        },
+        {
+          "answer": "On most Siemens washing machines, E69 specifically relates to the heating circuit — either the element or the temperature sensor. However, fault code definitions can vary slightly between model ranges and production years. Always cross-reference the error code against your machine's specific user manual or the label inside the door for confirmation.",
+          "question": "Is E69 always a heating fault, or can it mean something else on some Siemens models?"
+        },
+        {
+          "answer": "If the NTC sensor is the cause, it is one of the more affordable repairs — the part itself is usually inexpensive and straightforward to fit. A heating element is a mid-range cost part but still a common DIY repair. If the control board needs replacing, parts and labour costs are considerably higher, and it may be worth comparing the repair cost against the age and value of the machine.",
+          "question": "How much does it typically cost to fix a Siemens E69 error?"
+        },
+        {
+          "answer": "Descaling genuinely resolves E69 in some cases, particularly on older machines in hard-water areas where limescale has built up on the element and is causing it to overheat or produce erratic readings. It is worth trying as a first step because it costs very little and requires no dismantling. If the error persists after a thorough descaling cycle, move on to testing the sensor and element directly.",
+          "question": "Will descaling really fix an E69 error, or is that just a first step?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T14:55:47.276135+00:00"
+    },
+    {
+      "article_id": 238,
+      "locale": "sv",
+      "slug": "felkod-e69",
+      "title_tag": "Siemens Tvättmaskin Felkod E69 | Åtgärda Det Nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod E69? Lär dig vad som orsakar detta fel i värmekretsen, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E69 på en Siemens tvättmaskin?",
+      "description": "Felkod E69 på en Siemens tvättmaskin indikerar ett fel i värmekretsen, vanligtvis kopplat till värmeelement eller en temperatursensor som inte fungerar inom förväntat område.",
+      "quick_fix": "Kontrollera att maskinen inte är överfylld och kör ett kort 30°C-program för att se om värmefelet försvinner — om NTC-temperatursensorn har haft en tillfällig felavläsning löser detta återställningstest ofta problemet utan ytterligare åtgärder (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod E69 pekar på ett problem i din Siemens tvättmaskines värmekrets. Denna krets ansvarar för att värma vattnet till den temperatur du väljer, och när maskinens styrkort registrerar ett värde som faller utanför förväntat område — antingen från värmeelementet självt eller från NTC-temperatursensorn som övervakar vattentemperaturen — avbryter den programmet och visar E69 för att förhindra skada eller osäker drift.</p><p>När detta fel uppstår pausar tvättcykeln vanligtvis eller misslyckas med att komma förbi uppvärmningsfasen. Du kan märka att vattnet i trumman förblir kallt, eller att maskinen stannar vid en viss punkt i cykeln utan att gå vidare. I vissa fall tömmer maskinen sig och låser ytterligare program tills felet har åtgärdats.</p><p>Den goda nyheten är att inte alla E69-fel kräver utbyte av delar. Kabelproblem, en tillfälligt fastnad sensor eller kalkavlagringar på värmeelementet är alla vanliga och åtgärdbara orsaker som är värda att undersöka innan du kontaktar någon.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt eller försämrad NTC-temperatursensor",
+          "detail": "NTC-sensorn övervakar vattentemperaturen under hela tvätten. Om den har driftat ur kalibrering, utvecklat en kortslutning eller slutat fungera helt, tar styrkortet emot ett orimligt värde och utlöser E69."
+        },
+        {
+          "cause": "Trasigt eller utbränt värmeelement",
+          "detail": "Värmeelementet är en högt belastad komponent som kan brinna ut med tiden, särskilt i områden med hårt vatten där kalk ansamlas på ytan. Ett trasigt element innebär att vattnet aldrig når måltemperaturen, vilket får styrkortet att flagga ett fel i värmekretsen."
+        },
+        {
+          "cause": "Kraftiga kalkavlagringar på värmeelementet",
+          "detail": "Kalk fungerar som ett isolerande lager på elementet och tvingar det att arbeta hårdare och bli varmare än normalt. Detta kan orsaka överhettning av elementet, utlösa det termiska skyddet eller ge oregelbundna temperaturavläsningar som utlöser E69."
+        },
+        {
+          "cause": "Lösa eller korroderade kabelanslutningar",
+          "detail": "Kabelstammen som förbinder värmeelementet och NTC-sensorn med styrkortet kan lossna med tiden på grund av vibrationer, eller korrodera i den fuktiga miljön inuti maskinen. En dålig anslutning ger intermittenta eller felaktiga signaler som styrkortet tolkar som ett fel."
+        },
+        {
+          "cause": "Defekt huvudstyrkort (PCB)",
+          "detail": "I mindre vanliga fall läser styrkortet av eller bearbetar signaler från värmekretsen felaktigt. Detta misstänks vanligtvis först efter att sensorn, elementet och kablaget alla har kontrollerats och befunnits vara i gott skick."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara strömlös i minst 5 minuter. Detta låter styrkortet återställa sig helt. Slå på den igen och välj ett bomullsprogram på 30°C eller 40°C för att se om felet återkommer innan du undersöker vidare."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera laststorleken och fördela tvätten",
+          "detail": "En överfylld trumma kan begränsa vattencirkulationen och orsaka ojämn uppvärmning, vilket kan bidra till felaktiga sensoravläsningar. Ta ut några plagg om trumman är hårt packad och se till att tvätten är jämnt fördelad innan du startar om."
+        },
+        {
+          "step": 3,
+          "action": "Kör ett varmt avkalkningsprogram",
+          "detail": "Tillsätt ett avkalkningsmedel avsett för tvättmaskiner i trumman (följ produktens doseringsanvisningar) och kör det varmaste tillgängliga programmet — vanligtvis 90°C. Kalk på värmeelementet är en mycket vanlig orsak till E69 på maskiner som används i områden med hårt vatten, och ett avkalkningsprogram kan återställa normal drift utan att maskinen behöver demonteras."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera och testa NTC-temperatursensorn",
+          "detail": "Med maskinen urkopplad, ta åt dig NTC-sensorn — den sitter vanligtvis fastklämd på yttertanken nära värmeelementet. Koppla loss kontakten och använd en multimeter inställd på motstånd (Ohm) för att testa den. Vid rumstemperatur visar en frisk NTC-sensor vanligtvis mellan 10 000 och 20 000 Ohm; konsultera din modells servicedata om tillgänglig. En avläsning på noll eller oändlighet indikerar en defekt sensor som behöver bytas."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera kabelstammen för skador eller lösa anslutningar",
+          "detail": "Med maskinen fortfarande urkopplad, följ kablaget från värmeelementet och NTC-sensorn tillbaka mot styrkortet. Leta efter kontakter som har lossnat, kablar som ser brända eller nötta ut samt anslutningar med tecken på korrosion. Sätt tillbaka lösa kontakter ordentligt och byt ut synligt skadat kablage innan du testar igen."
+        },
+        {
+          "step": 6,
+          "action": "Testa värmeelementet för kontinuitet",
+          "detail": "Använd en multimeter inställd på kontinuitet eller motstånd och placera mätsonderna på de två anslutningarna på värmeelementet (med maskinen urkopplad och kablaget frånkopplat). Ett fungerande element visar vanligtvis ett motstånd på 20–50 Ohm. Öppen krets (ingen kontinuitet) bekräftar att elementet har gått sönder och behöver bytas. Kontrollera också att elementet inte jordar mot maskinens stomme, vilket skulle indikera isolationsfel."
+        },
+        {
+          "step": 7,
+          "action": "Montera ihop, starta om och övervaka",
+          "detail": "Efter reparation eller utbyte, montera tillbaka alla paneler ordentligt, återställ strömmen och kör ett fullständigt 60°C-program medan du stannar i närheten för att bekräfta att maskinen värmer korrekt och slutförs utan att visa E69. Om felet återkommer omedelbart beror felet troligtvis på styrkortet och en servicetekniker bör kontaktas."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat och bytt ut både NTC-temperatursensorn och värmeelementet och E69-felet fortfarande visas, beror felet troligtvis på huvudstyrkortet (PCB). Diagnos och byte av PCB kräver specialutrustning och kunskap om maskinens kopplingsschema, och en felaktig reparation kan orsaka ytterligare skador — det är nu dags att boka en servicetekniker.</p><p>Du bör också kontakta en servicetekniker utan att försöka utföra egna reparationer om du märker bränd lukt, brännmärken runt värmeelementets område eller synliga skador på kabelisoleringen. Dessa indikerar ett allvarligare elfel som inte bör användas förrän det har bedömts professionellt.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E69-fel är NTC-temperatursensorn, värmeelementet och — mer sällan — kabelstammen som förbinder dessa komponenter med styrkortet. Att ha rätt delnummer för din specifika Siemens-modell innan du beställer sparar tid; modellnumret finns vanligtvis på en etikett inuti dörrtätningen eller på bakpanelen.</p><p>För att minska risken för att E69 återkommer, kör ett dedikerat avkalkningsprogram var tredje till sjätte månad om du bor i ett område med hårt vatten, och använd rätt mängd tvättmedel för att minimera avlagringar runt elementet. Att köra ett månatligt underhållsprogram på 60°C eller 90°C hjälper också till att hålla värmekretsen ren.</p>\n<!-- SPARE_PARTS:E69 -->",
+      "faq_json": [
+        {
+          "answer": "Det rekommenderas inte. När E69 är aktivt värmer maskinen inte vattnet korrekt, vilket innebär att tvätten inte rengörs eller desinficeras ordentligt. Att köra upprepade cykler i ett feltillstånd kan också belasta styrkortet och kablaget ytterligare. Åtgärda felet innan du använder maskinen för normala tvättar.",
+          "question": "Kan jag fortfarande använda min Siemens tvättmaskin när den visar E69?"
+        },
+        {
+          "answer": "Att testa båda med en multimeter är det mest tillförlitliga sättet att skilja dem åt. NTC-sensorn ska visa ett mätbart motstånd vid rumstemperatur; en avläsning på noll eller öppen krets innebär att den har gått sönder. Värmeelementet ska visa kontinuitet mellan sina anslutningar; ingen kontinuitet innebär att det har brunnit ut. Det rekommenderas att testa sensorn först eftersom den är billigare och enklare att byta.",
+          "question": "Hur vet jag om det är sensorn eller värmeelementet som har gått sönder?"
+        },
+        {
+          "answer": "På de flesta Siemens tvättmaskiner avser E69 specifikt värmekretsen — antingen elementet eller temperatursensorn. Felkodsdefinitioner kan dock variera något mellan modellserier och tillverkningsår. Kontrollera alltid felkoden mot din maskins specifika bruksanvisning eller etiketten inuti dörren för bekräftelse.",
+          "question": "Är E69 alltid ett värmefel, eller kan det betyda något annat på vissa Siemens-modeller?"
+        },
+        {
+          "answer": "Om NTC-sensorn är orsaken är det en av de mer prisvärda reparationerna — själva delen är vanligtvis billig och enkel att montera. Ett värmeelement är en del i mellanklass men fortfarande en vanlig gör-det-själv-reparation. Om styrkortet behöver bytas är kostnaden för delar och arbete betydligt högre, och det kan vara värt att jämföra reparationskostnaden med maskinens ålder och värde.",
+          "question": "Vad kostar det vanligtvis att åtgärda ett Siemens E69-fel?"
+        },
+        {
+          "answer": "Avkalkning löser faktiskt E69 i vissa fall, särskilt på äldre maskiner i områden med hårt vatten där kalk har ansamlats på elementet och orsakar överhettning eller oregelbundna avläsningar. Det är värt att prova som ett första steg eftersom det kostar mycket lite och inte kräver någon demontering. Om felet kvarstår efter ett grundligt avkalkningsprogram, gå vidare med att testa sensorn och elementet direkt.",
+          "question": "Kan avkalkning verkligen åtgärda ett E69-fel, eller är det bara ett första steg?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T14:57:01.360098+00:00"
+    },
+    {
+      "article_id": 239,
+      "locale": "en",
+      "slug": "error-code-e90",
+      "title_tag": "Siemens Washing Machine Error Code E90 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error E90? Learn what causes this PCB communication fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code E90 Mean on a Siemens Washing Machine?",
+      "description": "Error code E90 on a Siemens washing machine indicates an internal PCB communication fault, meaning the control board has detected a software or hardware error in its own circuitry.",
+      "quick_fix": "Perform a full power cycle by switching the machine off at the wall socket, waiting 5 minutes, then switching it back on and restarting the programme — this clears temporary software glitches and resolves the fault in many cases (takes about 5 minutes).",
+      "intro_html": "<p>Error code E90 points to a problem with the internal communication between components on your Siemens washing machine's main control board (PCB). The board manages every function of the machine — from motor speed and water intake to heating and spin cycles — so when its internal communication breaks down, the machine cannot operate safely and will stop mid-cycle or refuse to start.</p><p>When E90 appears, the machine typically halts the current programme and displays the code on the control panel. You may notice the drum has stopped moving, the door remains locked, or the display becomes unresponsive. In some cases the machine will restart briefly before the error reappears.</p><p>The good news is that E90 is sometimes caused by a temporary software glitch rather than a physical component failure, which means a straightforward reset can be enough to clear it. Working through the steps below in order will help you identify whether this is a simple fix or something that needs professional attention.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary software glitch on the control board",
+          "detail": "A brief power fluctuation, interrupted cycle, or software hiccup can cause the PCB to lose its internal communication state. This is the most common trigger and is often resolved by a full power cycle."
+        },
+        {
+          "cause": "Loose or corroded wiring harness connections",
+          "detail": "The ribbon cables and wiring connectors linking the main PCB to the display board or sub-boards can work loose over time due to vibration. Corrosion on connector pins can also interrupt the signal and trigger E90."
+        },
+        {
+          "cause": "Faulty or damaged main control board (PCB)",
+          "detail": "If the PCB itself has suffered component failure — such as a blown capacitor or damaged microprocessor — it will be unable to maintain internal communication. Physical damage from moisture ingress or power surges is a common cause."
+        },
+        {
+          "cause": "Faulty display or user interface board",
+          "detail": "The display module communicates constantly with the main PCB. If the interface board develops a fault, the main board may interpret the loss of communication as an E90 error even though the main PCB itself is undamaged."
+        },
+        {
+          "cause": "Power supply instability",
+          "detail": "An unstable mains supply, a failing suppressor filter on the board, or a worn power inlet component can cause the PCB to receive inconsistent voltage. This can corrupt the board's internal processes and trigger communication errors."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Turn the washing machine off using the power button, then switch it off at the wall socket. Leave it completely unplugged for at least 5 minutes to allow the capacitors on the board to fully discharge. Plug it back in, switch on at the wall, and attempt to start a new programme. This clears temporary software faults and resolves E90 in a significant number of cases."
+        },
+        {
+          "step": 2,
+          "action": "Perform a factory reset",
+          "detail": "If the power cycle alone does not clear the code, try resetting the machine to its factory defaults. On most Siemens models this is done by turning the programme dial to the off position, then holding the Start/Pause button for around 5 seconds. Refer to your model's user manual for the exact reset procedure, as button combinations can vary between models."
+        },
+        {
+          "step": 3,
+          "action": "Check the mains power supply",
+          "detail": "Plug another appliance into the same socket to confirm the outlet is delivering a stable supply. If you have a surge-protected extension lead, try connecting the washing machine directly to the wall socket instead, as some extension leads can cause voltage irregularities. A consistently unstable supply will cause the error to return even after a successful reset."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the wiring harness and connectors",
+          "detail": "Switch off and unplug the machine before opening the back or top panel (consult your model's service guide for access). Locate the ribbon cables and wiring connectors running between the main PCB and the display board. Press each connector firmly to reseat it, and look for any signs of corrosion, burn marks, or damaged insulation. Reconnect anything that appears loose, then reassemble and test."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the main PCB for visible damage",
+          "detail": "With the machine unplugged and the PCB accessible, examine the board carefully under good lighting. Look for swollen or leaking capacitors, scorch marks, or areas where moisture may have reached the board. Any visible damage to the board is a strong indicator that the PCB needs to be replaced rather than repaired."
+        },
+        {
+          "step": 6,
+          "action": "Test or replace the display/interface board",
+          "detail": "If the main PCB looks undamaged, the fault may lie with the display or user interface board. If you have access to a compatible replacement board, swapping it out is a practical way to confirm whether this component is responsible. Ensure the machine is fully unplugged before handling any boards, and take note of all connector positions before disconnecting anything."
+        },
+        {
+          "step": 7,
+          "action": "Replace the main control board (PCB)",
+          "detail": "If all other steps have been completed without resolving the fault, the main PCB is the most likely culprit. Source a compatible replacement board using your machine's full model number. Fitting a new PCB is a straightforward swap on most Siemens models, but if you are not confident working with electronics, this step is best handed to a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If the error code returns immediately after a power cycle and factory reset, and you have found no loose connections or visible damage, the main PCB has most likely suffered an internal component failure that cannot be resolved through DIY steps. Similarly, if you notice burn marks, a smell of burning plastic, or signs of moisture damage on the board, stop troubleshooting and contact a service technician — continuing to run the machine in this state carries a risk of further damage.</p><p>You should also call a service technician if the machine's display is completely unresponsive, if the door will not unlock after a power cycle, or if the error reappears within a few cycles of fitting a new display board. These symptoms suggest a deeper fault with the main PCB or the machine's internal wiring that requires specialist diagnostic equipment to trace accurately.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Siemens E90 fault are the main control board (PCB), the display or user interface board, and the wiring harness connecting the two. In many cases, sourcing and fitting a replacement board yourself is a cost-effective alternative to a full service call, provided you use a part that is confirmed compatible with your specific model number.</p><p>When ordering, always use the full model number printed on the rating plate inside the door frame to ensure an exact match. Fitting an incorrect board can introduce new faults or prevent the machine from operating at all.</p>\n<!-- SPARE_PARTS:E90 -->",
+      "faq_json": [
+        {
+          "answer": "A power cycle fixes E90 when the cause is a temporary software glitch, which is the most common scenario. However, if the fault is caused by a damaged PCB, a faulty display board, or a wiring problem, the error will return after the reset. If E90 comes back within a few cycles, work through the remaining diagnostic steps to identify the underlying cause.",
+          "question": "Will a power cycle always fix error E90 on a Siemens washing machine?"
+        },
+        {
+          "answer": "No. When E90 is active, the machine has detected an internal communication fault and will typically stop the programme to prevent further damage. Attempting to force the machine to run through repeated resets without investigating the cause could worsen a developing PCB fault. It is best to diagnose and resolve the error before running a full wash cycle.",
+          "question": "Is it safe to keep using my Siemens washing machine when E90 is showing?"
+        },
+        {
+          "answer": "Replacement main control boards for Siemens washing machines typically cost between £60 and £180 depending on the model, with older or less common models sometimes sitting at the higher end. If you fit the board yourself, that is your total cost. A service technician will add a labour charge on top, so it is worth confirming the total quote before proceeding.",
+          "question": "How much does it cost to replace a Siemens washing machine PCB?"
+        },
+        {
+          "answer": "Yes. A sudden power surge can corrupt the software state on the PCB or physically damage components on the board, both of which can trigger E90. If the error appeared immediately after a power cut or electrical storm, inspect the board carefully for burn marks or damaged components. Using a surge-protected socket can help prevent this type of fault in future.",
+          "question": "Can a power surge cause error E90?"
+        },
+        {
+          "answer": "Locate the full model number on the rating plate, which is usually found on the inside of the door frame or on the back of the machine. Use this number — not just the series name — when searching for a replacement board, as PCBs are often model-specific. Cross-reference the part number printed on the existing board if possible to confirm compatibility before purchasing.",
+          "question": "How do I find the right replacement PCB for my Siemens washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T14:57:57.265092+00:00"
+    },
+    {
+      "article_id": 239,
+      "locale": "sv",
+      "slug": "felkod-e90",
+      "title_tag": "Siemens tvättmaskin felkod E90 | Åtgärda felet nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod E90? Lär dig vad som orsakar detta PCB-kommunikationsfel och hur du åtgärdar det själv innan du kontaktar en servicetekniker.",
+      "h1": "Vad betyder felkod E90 på en Siemens tvättmaskin?",
+      "description": "Felkod E90 på en Siemens tvättmaskin indikerar ett internt PCB-kommunikationsfel, vilket innebär att styrkortet har upptäckt ett program- eller hårdvarufel i sin egen krets.",
+      "quick_fix": "Utför en fullständig strömcykel genom att stänga av maskinen vid vägguttaget, vänta 5 minuter och sedan slå på den igen och starta om programmet – detta rensar tillfälliga programvarufel och löser felet i många fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E90 pekar på ett problem med den interna kommunikationen mellan komponenterna på din Siemens tvättmaskines huvudstyrkort (PCB). Kortet styr varje funktion på maskinen – från motorhastighet och vattenintag till uppvärmning och centrifugering – så när den interna kommunikationen bryts kan maskinen inte köras på ett säkert sätt och stannar mitt i ett program eller vägrar att starta.</p><p>När E90 visas stannar maskinen vanligtvis det pågående programmet och visar koden på kontrollpanelen. Du kan märka att trumman har slutat röra sig, att dörren förblir låst eller att displayen inte svarar. I vissa fall startar maskinen om kortvarigt innan felet visas igen.</p><p>Den goda nyheten är att E90 ibland orsakas av ett tillfälligt programvarufel snarare än ett fysiskt komponentfel, vilket innebär att en enkel återställning kan räcka för att rensa det. Genom att arbeta igenom stegen nedan i ordning kan du avgöra om detta är en enkel åtgärd eller något som kräver professionell hjälp.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt programvarufel på styrkortet",
+          "detail": "En kortvarig strömfluktuering, ett avbrutet program eller ett programvarufel kan göra att PCB:n förlorar sitt interna kommunikationstillstånd. Detta är den vanligaste orsaken och löses ofta med en fullständig strömcykel."
+        },
+        {
+          "cause": "Lösa eller korroderade kabelkontakter",
+          "detail": "Bandkablarna och kabelkontakterna som förbinder huvud-PCB:n med displaykortet eller delkorten kan lossna med tiden på grund av vibrationer. Korrosion på kontaktstiften kan också avbryta signalen och utlösa E90."
+        },
+        {
+          "cause": "Defekt eller skadat huvudstyrkort (PCB)",
+          "detail": "Om PCB:n själv har drabbats av komponentfel – till exempel en sprängd kondensator eller en skadad mikroprocessor – kan den inte upprätthålla intern kommunikation. Fysisk skada från fuktintrång eller strömöverspänningar är en vanlig orsak."
+        },
+        {
+          "cause": "Defekt display- eller användargränssnittskort",
+          "detail": "Displaymodulen kommunicerar ständigt med huvud-PCB:n. Om gränssnittskortet utvecklar ett fel kan huvudkortet tolka kommunikationsbortfallet som ett E90-fel, även om huvud-PCB:n i sig är oskadad."
+        },
+        {
+          "cause": "Instabil strömförsörjning",
+          "detail": "En instabil nätspänning, ett defekt suppressorfilter på kortet eller en sliten strömingångskomponent kan göra att PCB:n tar emot inkonsekvent spänning. Detta kan störa kortets interna processer och utlösa kommunikationsfel."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en strömcykel på maskinen",
+          "detail": "Stäng av tvättmaskinen med strömknappen och stäng sedan av den vid vägguttaget. Låt den vara helt urkopplad i minst 5 minuter så att kondensatorerna på kortet hinner laddas ur helt. Koppla in den igen, slå på vid väggen och försök starta ett nytt program. Detta rensar tillfälliga programvarufel och löser E90 i ett betydande antal fall."
+        },
+        {
+          "step": 2,
+          "action": "Utför en fabriksåterställning",
+          "detail": "Om strömcykeln ensam inte rensar koden, försök att återställa maskinen till fabriksinställningarna. På de flesta Siemens-modeller görs detta genom att vrida programväljaren till av-läget och sedan hålla in Start/Paus-knappen i ungefär 5 sekunder. Se din modells bruksanvisning för den exakta återställningsproceduren, eftersom knappkombinationerna kan variera mellan modeller."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera nätströmförsörjningen",
+          "detail": "Koppla in en annan apparat i samma uttag för att bekräfta att uttaget levererar en stabil spänning. Om du har en överspänningsskyddad förlängningssladd, försök att ansluta tvättmaskinen direkt till vägguttaget istället, eftersom vissa förlängningssladdar kan orsaka spänningsvariationer. En konsekvent instabil strömförsörjning gör att felet återkommer även efter en lyckad återställning."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera kabelknippen och kontakter",
+          "detail": "Stäng av och koppla ur maskinen innan du öppnar bak- eller toppanelen (se din modells serviceguide för åtkomst). Leta upp bandkablarna och kabelkontakterna som löper mellan huvud-PCB:n och displaykortet. Tryck in varje kontakt ordentligt för att återansluta den, och leta efter tecken på korrosion, brännmärken eller skadad isolering. Återanslut allt som verkar löst, montera sedan ihop och testa."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera huvud-PCB:n för synliga skador",
+          "detail": "Med maskinen urkopplad och PCB:n åtkomlig, undersök kortet noggrant i bra belysning. Leta efter svullna eller läckande kondensatorer, brännmärken eller områden där fukt kan ha nått kortet. Synliga skador på kortet är en stark indikation på att PCB:n behöver bytas ut snarare än repareras."
+        },
+        {
+          "step": 6,
+          "action": "Testa eller byt ut display-/gränssnittskortet",
+          "detail": "Om huvud-PCB:n ser oskadad ut kan felet ligga hos display- eller användargränssnittskortet. Om du har tillgång till ett kompatibelt ersättningskort är det ett praktiskt sätt att bekräfta om denna komponent är ansvarig att byta ut det. Se till att maskinen är helt urkopplad innan du hanterar några kort, och notera alla kontaktpositioner innan du kopplar ur något."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut huvudstyrkortet (PCB)",
+          "detail": "Om alla andra steg har genomförts utan att felet lösts är huvud-PCB:n den troligaste boven. Skaffa ett kompatibelt ersättningskort med hjälp av maskinens fullständiga modellnummer. Att montera ett nytt PCB är ett enkelt byte på de flesta Siemens-modeller, men om du inte känner dig trygg med att arbeta med elektronik är det bäst att överlåta detta steg till en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om felkoden återkommer omedelbart efter en strömcykel och fabriksåterställning, och du inte har hittat några lösa anslutningar eller synliga skador, har huvud-PCB:n med stor sannolikhet drabbats av ett internt komponentfel som inte kan lösas med egna åtgärder. På samma sätt, om du märker brännmärken, luktar bränd plast eller ser tecken på fuktskador på kortet, sluta felsöka och kontakta en servicetekniker – att fortsätta köra maskinen i detta tillstånd riskerar att orsaka ytterligare skador.</p><p>Du bör också kontakta en servicetekniker om maskinens display är helt okänslig, om dörren inte låser upp efter en strömcykel, eller om felet återkommer inom några cykler efter att ett nytt displaykort monterats. Dessa symptom tyder på ett djupare fel med huvud-PCB:n eller maskinens interna kablage som kräver specialiserad diagnostikutrustning för att spåra korrekt.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett Siemens E90-fel är huvudstyrkortet (PCB), display- eller användargränssnittskortet samt kabelknippen som förbinder de två. I många fall är det ett kostnadseffektivt alternativ till ett fullständigt servicebesök att själv skaffa och montera ett ersättningskort, förutsatt att du använder en del som är bekräftat kompatibel med ditt specifika modellnummer.</p><p>När du beställer, använd alltid det fullständiga modellnumret som finns på typskylten inuti dörrkarmens ram för att säkerställa en exakt matchning. Att montera ett felaktigt kort kan introducera nya fel eller förhindra att maskinen fungerar överhuvudtaget.</p>\n<!-- SPARE_PARTS:E90 -->",
+      "faq_json": [
+        {
+          "answer": "En strömcykel löser E90 när orsaken är ett tillfälligt programvarufel, vilket är det vanligaste scenariot. Men om felet orsakas av ett skadat PCB, ett defekt displaykort eller ett kabelproblem, kommer felet att återkomma efter återställningen. Om E90 återkommer inom några cykler, arbeta igenom de återstående diagnostikstegen för att identifiera den underliggande orsaken.",
+          "question": "Löser en strömcykel alltid felkod E90 på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Nej. När E90 är aktivt har maskinen upptäckt ett internt kommunikationsfel och stoppar vanligtvis programmet för att förhindra ytterligare skador. Att försöka tvinga maskinen att köra genom upprepade återställningar utan att undersöka orsaken kan förvärra ett pågående PCB-fel. Det är bäst att diagnostisera och lösa felet innan du kör ett fullständigt tvättprogram.",
+          "question": "Är det säkert att fortsätta använda min Siemens tvättmaskin när E90 visas?"
+        },
+        {
+          "answer": "Ersättningshuvudstyrkortet för Siemens tvättmaskiner kostar vanligtvis mellan 700 och 2 000 kronor beroende på modell, där äldre eller mindre vanliga modeller ibland hamnar i den högre änden. Om du monterar kortet själv är det din totala kostnad. En servicetekniker tillkommer med en arbetskostnadsavgift utöver detta, så det är värt att bekräfta den totala offerten innan du går vidare.",
+          "question": "Hur mycket kostar det att byta ut ett PCB i en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Ja. En plötslig strömöverspänning kan skada programvarutillståndet på PCB:n eller fysiskt skada komponenter på kortet, vilket båda kan utlösa E90. Om felet uppträdde omedelbart efter ett strömavbrott eller en elektrisk storm, undersök kortet noggrant för brännmärken eller skadade komponenter. Att använda ett överspänningsskyddat uttag kan hjälpa till att förhindra denna typ av fel i framtiden.",
+          "question": "Kan en strömöverspänning orsaka felkod E90?"
+        },
+        {
+          "answer": "Leta upp det fullständiga modellnumret på typskylten, som vanligtvis finns på insidan av dörrkarmens ram eller på maskinens baksida. Använd detta nummer – inte bara serienamnet – när du söker efter ett ersättningskort, eftersom PCB:er ofta är modellspecifika. Korsreferera artikelnumret som är tryckt på det befintliga kortet om möjligt för att bekräfta kompatibiliteten innan du köper.",
+          "question": "Hur hittar jag rätt ersättnings-PCB till min Siemens tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T14:59:09.088343+00:00"
+    },
+    {
+      "article_id": 241,
+      "locale": "en",
+      "slug": "error-code-e92",
+      "title_tag": "Siemens Washing Machine Error Code E92 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error E92? Learn what causes this PCB communication fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code E92 Mean on a Siemens Washing Machine?",
+      "description": "Error code E92 on a Siemens washing machine indicates an internal PCB communication fault, meaning the control boards are failing to exchange data correctly.",
+      "quick_fix": "Perform a full power cycle by switching the machine off at the wall socket, waiting 5 minutes, then switching it back on and restarting the programme — this clears temporary communication errors in the majority of E92 cases (takes about 5 minutes).",
+      "intro_html": "<p>Error code E92 points to a breakdown in communication between the internal circuit boards inside your Siemens washing machine. Modern washing machines rely on multiple electronic control modules talking to each other constantly — the main control board, the motor control module, and the user interface board all exchange signals throughout every wash cycle. When that communication breaks down or produces unexpected data, the machine logs E92 and halts to prevent further damage.</p><p>When E92 appears, the machine will typically stop mid-cycle or refuse to start a new programme. The display may freeze, flash, or show the code repeatedly. In some cases the drum will stop turning even though the machine appears powered on. This is a protective response — the machine is designed to stop rather than run with unreliable control signals.</p><p>The good news is that E92 is not always a sign of a failed component. Electrical interference, a brief power fluctuation, or a software glitch can all trigger this code without causing any lasting damage. Starting with the simplest checks will resolve the fault in many cases.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary software or firmware glitch",
+          "detail": "A brief power fluctuation or voltage spike can cause the PCB software to enter an inconsistent state, triggering a false E92 code. This is the most common cause and is usually resolved by a full power cycle."
+        },
+        {
+          "cause": "Loose or corroded wiring harness connector",
+          "detail": "The ribbon cables and plug connectors linking the main control board to the motor module or display board can work loose over time due to vibration. A poor connection interrupts the data signal and causes the communication fault."
+        },
+        {
+          "cause": "Faulty main control board (PCB)",
+          "detail": "If the main PCB has suffered component failure — often due to a power surge or age-related wear — it may be unable to send or receive signals reliably. This typically produces a persistent E92 that returns immediately after a power cycle."
+        },
+        {
+          "cause": "Faulty motor control module",
+          "detail": "The motor control module communicates with the main board to report speed and load data. A failing motor module can disrupt this communication channel and register as an E92 fault."
+        },
+        {
+          "cause": "Damaged or wet wiring",
+          "detail": "A slow internal water leak or condensation can reach wiring connectors and cause short circuits or signal interference. Water damage to wiring is a less common but serious cause that requires careful inspection."
+        },
+        {
+          "cause": "Software incompatibility after a partial update",
+          "detail": "On some Siemens models, an interrupted or incomplete software update can leave the firmware in a mismatched state between modules. This is rare in domestic settings but can occur after a power cut during a service update."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine completely",
+          "detail": "Turn the programme selector to the off position, then switch the machine off at the wall socket. Leave it unplugged for at least 5 minutes to allow the capacitors on the PCB to fully discharge. Plug back in, switch on, and attempt to start a fresh programme. This clears the majority of transient E92 faults."
+        },
+        {
+          "step": 2,
+          "action": "Check the mains supply and socket",
+          "detail": "Plug a different appliance into the same socket to confirm the outlet is delivering a stable supply. If you have a surge-protected extension lead, try connecting the washing machine through it. Unstable mains voltage is a known trigger for PCB communication errors."
+        },
+        {
+          "step": 3,
+          "action": "Run a short test programme",
+          "detail": "Select a quick wash or rinse-only programme and observe whether the machine completes it without displaying E92. If the fault only appears on certain programmes, note which ones — this information is useful for a service technician and can help narrow down which module is involved."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the wiring harness connectors (if comfortable doing so)",
+          "detail": "Disconnect the machine from the mains before opening any panels. With the top or rear panel removed according to your model's layout, visually check the ribbon cable connectors between the main board and other modules. Press each connector firmly home and look for signs of corrosion, burning, or moisture. Reconnect the power and test again."
+        },
+        {
+          "step": 5,
+          "action": "Check for signs of water ingress near the PCB",
+          "detail": "While the panel is open, look for water staining, rust marks, or damp residue around the control board area. Even a small internal leak can cause intermittent communication faults. If you find evidence of moisture, dry the area thoroughly and identify the source of the leak before running the machine again."
+        },
+        {
+          "step": 6,
+          "action": "Reset to factory defaults if your model supports it",
+          "detail": "Some Siemens washing machines allow a full programme reset by holding the start button and turning the selector dial simultaneously — check your model's user manual for the exact sequence. A factory reset can clear corrupted software states that a simple power cycle does not resolve."
+        },
+        {
+          "step": 7,
+          "action": "Contact a service technician if the fault persists",
+          "detail": "If E92 returns after completing all the steps above, the fault is likely a hardware failure in the main PCB or motor control module. These components require diagnostic equipment to test accurately and should be replaced by a qualified service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>You should contact a service technician if the E92 code returns immediately every time you power the machine on, or if the machine shows additional symptoms such as a completely blank display, burning smell, or visible scorch marks near the control panel. These signs point to a hardware failure that cannot be resolved through user-level troubleshooting.</p><p>Similarly, if you have found evidence of water damage to the wiring or PCB area, do not continue to run the machine. A service technician will need to assess the extent of the damage, replace affected components safely, and confirm the machine is electrically safe before it is used again.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when diagnosing a persistent E92 fault are the main control board (PCB), the motor control module, and the wiring harness that connects them. In some cases only a connector or short section of wiring needs replacing rather than the full harness, so it is worth having a technician confirm the exact failed component before ordering parts.</p><p>If you want to source replacement parts in advance or check availability for your specific Siemens model, use the parts finder below. Having the full model number from the rating plate (usually found inside the door rim) will ensure you get the correct board revision.</p>\n<!-- SPARE_PARTS:E92 -->",
+      "faq_json": [
+        {
+          "answer": "Occasionally, yes — if the fault was caused by a one-off power fluctuation, the code may not return after a power cycle. However, if there is an underlying hardware fault such as a failing PCB or loose connector, the code will keep coming back. It is worth running a full test cycle after the power cycle to confirm the fault has cleared properly.",
+          "question": "Will E92 go away on its own?"
+        },
+        {
+          "answer": "No. When E92 is active, the machine has detected that its control systems are not communicating reliably. Running a wash cycle in this state could result in the machine behaving unpredictably — for example, not stopping at the correct time or failing to control water temperature. Switch the machine off until the fault is resolved.",
+          "question": "Is it safe to keep using the machine while E92 is showing?"
+        },
+        {
+          "answer": "Main control boards for Siemens washing machines typically cost between £80 and £180 for the part alone, depending on the model. Labour charges from a service technician will add to this. It is worth getting a quote before committing to the repair, particularly on older machines, to weigh the repair cost against replacement.",
+          "question": "How much does it cost to replace a Siemens washing machine PCB?"
+        },
+        {
+          "answer": "Yes. A sudden power cut or voltage spike — such as those caused by a tripped circuit breaker or a storm — can interrupt the PCB's normal operation and leave the software in an inconsistent state. A full 5-minute power cycle is usually enough to recover from this type of event.",
+          "question": "Can E92 be caused by a power cut?"
+        },
+        {
+          "answer": "E92 is reported across a range of Siemens washing machine models rather than being specific to one series. The underlying cause — internal PCB communication failure — is a function of the electronic architecture shared across many models. If you are unsure whether your specific model is affected, check the full model number against Siemens service documentation or contact a service technician.",
+          "question": "Does E92 affect all Siemens washing machine models?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T15:02:04.428352+00:00"
+    },
+    {
+      "article_id": 241,
+      "locale": "sv",
+      "slug": "felkod-e92",
+      "title_tag": "Siemens tvättmaskin felkod E92 | Åtgärda felet nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod E92? Lär dig vad som orsakar detta PCB-kommunikationsfel och hur du åtgärdar det själv innan du kontaktar en servicetekniker.",
+      "h1": "Vad betyder felkod E92 på en Siemens tvättmaskin?",
+      "description": "Felkod E92 på en Siemens tvättmaskin indikerar ett internt PCB-kommunikationsfel, vilket innebär att styrkorten inte utbyter data korrekt med varandra.",
+      "quick_fix": "Utför en fullständig omstart genom att stänga av maskinen vid vägguttaget, vänta 5 minuter och sedan slå på den igen och starta om programmet — detta rensar tillfälliga kommunikationsfel i de flesta E92-fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E92 pekar på ett kommunikationsavbrott mellan de interna kretskorten i din Siemens tvättmaskin. Moderna tvättmaskiner är beroende av att flera elektroniska styrmoduler ständigt kommunicerar med varandra — huvudkortet, motorstyrmodulen och användargränssnittskortet utbyter alla signaler under hela tvättcykeln. När den kommunikationen bryts ned eller ger oväntade data loggar maskinen E92 och stannar för att förhindra ytterligare skador.</p><p>När E92 visas stannar maskinen vanligtvis mitt i ett program eller vägrar att starta ett nytt. Displayen kan frysa, blinka eller visa koden upprepade gånger. I vissa fall slutar trumman att rotera trots att maskinen verkar vara påslagen. Detta är ett skyddssvar — maskinen är konstruerad för att stanna snarare än att köra med opålitliga styrsignaler.</p><p>Den goda nyheten är att E92 inte alltid är ett tecken på en defekt komponent. Elektriska störningar, en kortvarig spänningsfluktuering eller ett programvarufel kan alla utlösa denna kod utan att orsaka bestående skador. Att börja med de enklaste kontrollerna löser felet i många fall.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt program- eller firmwarefel",
+          "detail": "En kortvarig spänningsfluktuering eller spänningspik kan få PCB-programvaran att hamna i ett inkonsekvent tillstånd och utlösa en falsk E92-kod. Detta är den vanligaste orsaken och löses vanligtvis med en fullständig omstart."
+        },
+        {
+          "cause": "Löst eller korroderat kabelkontaktdon",
+          "detail": "Bandkablarna och kontaktdonen som förbinder huvudkortet med motormodulen eller displaykortet kan lossna med tiden på grund av vibrationer. En dålig anslutning avbryter datasignalen och orsakar kommunikationsfelet."
+        },
+        {
+          "cause": "Defekt huvudkort (PCB)",
+          "detail": "Om huvud-PCB:n har drabbats av komponentfel — ofta på grund av ett spänningsöverskott eller åldersrelaterat slitage — kan det vara oförmöget att skicka eller ta emot signaler på ett tillförlitligt sätt. Detta ger vanligtvis ett ihållande E92-fel som återkommer omedelbart efter en omstart."
+        },
+        {
+          "cause": "Defekt motorstyrmodul",
+          "detail": "Motorstyrmodulen kommunicerar med huvudkortet för att rapportera hastighets- och lastdata. En felaktig motormodul kan störa denna kommunikationskanal och registreras som ett E92-fel."
+        },
+        {
+          "cause": "Skadad eller fuktig kablage",
+          "detail": "En långsam intern vattenläcka eller kondens kan nå kabelkontaktdon och orsaka kortslutningar eller signalstörningar. Vattenskador på kablaget är en mindre vanlig men allvarlig orsak som kräver noggrann inspektion."
+        },
+        {
+          "cause": "Programvarusinkompatibilitet efter en ofullständig uppdatering",
+          "detail": "På vissa Siemens-modeller kan en avbruten eller ofullständig programvaruuppdatering lämna firmware i ett felmatchat tillstånd mellan modulerna. Detta är sällsynt i hemmiljö men kan inträffa efter ett strömavbrott under en serviceuppdatering."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen helt",
+          "detail": "Vrid programväljaren till av-läget och stäng sedan av maskinen vid vägguttaget. Låt den vara urkopplad i minst 5 minuter så att kondensatorerna på PCB:n hinner laddas ur helt. Koppla in igen, slå på och försök starta ett nytt program. Detta rensar de flesta tillfälliga E92-fel."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera nätspänningen och uttaget",
+          "detail": "Koppla in en annan apparat i samma uttag för att bekräfta att uttaget levererar en stabil spänning. Om du har en överspänningsskyddad grenuttag, prova att ansluta tvättmaskinen via den. Instabil nätspänning är en känd utlösare för PCB-kommunikationsfel."
+        },
+        {
+          "step": 3,
+          "action": "Kör ett kort testprogram",
+          "detail": "Välj ett snabbtvättprogram eller ett sköljningsprogram och observera om maskinen slutför det utan att visa E92. Om felet bara uppträder vid vissa program, notera vilka — denna information är användbar för en servicetekniker och kan hjälpa till att avgränsa vilken modul som är inblandad."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera kabelkontaktdonen (om du känner dig bekväm med det)",
+          "detail": "Koppla bort maskinen från elnätet innan du öppnar några paneler. Med topp- eller bakpanelen borttagen enligt din modells layout, kontrollera visuellt bandkabelkontaktdonen mellan huvudkortet och övriga moduler. Tryck in varje kontaktdon ordentligt och leta efter tecken på korrosion, brännskador eller fukt. Återanslut strömmen och testa igen."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera om det finns tecken på vattenintrång nära PCB:n",
+          "detail": "Medan panelen är öppen, leta efter vattenfläckar, rostmärken eller fuktiga rester runt styrkortsområdet. Även en liten intern läcka kan orsaka intermittenta kommunikationsfel. Om du hittar tecken på fukt, torka området noggrant och identifiera källan till läckan innan du kör maskinen igen."
+        },
+        {
+          "step": 6,
+          "action": "Återställ till fabriksinställningar om din modell stöder det",
+          "detail": "Vissa Siemens tvättmaskiner tillåter en fullständig programåterställning genom att hålla in startknappen och vrida väljarratten samtidigt — kontrollera din modells användarmanual för den exakta sekvensen. En fabriksåterställning kan rensa korrupta programvarutillstånd som en enkel omstart inte löser."
+        },
+        {
+          "step": 7,
+          "action": "Kontakta en servicetekniker om felet kvarstår",
+          "detail": "Om E92 återkommer efter att du har utfört alla stegen ovan är felet troligtvis ett hårdvarufel i huvud-PCB:n eller motorstyrmodulen. Dessa komponenter kräver diagnostikutrustning för att testas korrekt och bör bytas ut av en behörig servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Du bör kontakta en servicetekniker om E92-koden återkommer omedelbart varje gång du slår på maskinen, eller om maskinen uppvisar ytterligare symptom såsom en helt blank display, bränd lukt eller synliga brännmärken nära kontrollpanelen. Dessa tecken pekar på ett hårdvarufel som inte kan åtgärdas genom felsökning på användarnivå.</p><p>På samma sätt, om du har hittat tecken på vattenskador på kablaget eller PCB-området, ska du inte fortsätta att använda maskinen. En servicetekniker behöver bedöma skadans omfattning, byta ut drabbade komponenter på ett säkert sätt och bekräfta att maskinen är elsäker innan den används igen.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid diagnostisering av ett ihållande E92-fel är huvudkortet (PCB), motorstyrmodulen och kablaget som förbinder dem. I vissa fall behöver bara ett kontaktdon eller en kort del av kablaget bytas ut snarare än hela kablaget, så det är värt att låta en tekniker bekräfta den exakta defekta komponenten innan du beställer delar.</p><p>Om du vill hitta reservdelar i förväg eller kontrollera tillgängligheten för din specifika Siemens-modell, använd reservdelssökaren nedan. Att ha det fullständiga modellnumret från typskylten (vanligtvis placerad inuti dörrkanten) säkerställer att du får rätt kortsrevision.</p>\n<!-- SPARE_PARTS:E92 -->",
+      "faq_json": [
+        {
+          "answer": "Ibland, ja — om felet orsakades av en engångsspänningsfluktuering kanske koden inte återkommer efter en omstart. Men om det finns ett underliggande hårdvarufel, till exempel ett defekt PCB eller ett löst kontaktdon, kommer koden att fortsätta återkomma. Det är värt att köra en fullständig testcykel efter omstarten för att bekräfta att felet har åtgärdats ordentligt.",
+          "question": "Försvinner E92 av sig självt?"
+        },
+        {
+          "answer": "Nej. När E92 är aktiv har maskinen upptäckt att dess styrsystem inte kommunicerar tillförlitligt. Att köra en tvättcykel i detta tillstånd kan leda till att maskinen beter sig oförutsägbart — till exempel inte stannar vid rätt tidpunkt eller misslyckas med att reglera vattentemperaturen. Stäng av maskinen tills felet är åtgärdat.",
+          "question": "Är det säkert att fortsätta använda maskinen medan E92 visas?"
+        },
+        {
+          "answer": "Huvudkort till Siemens tvättmaskiner kostar vanligtvis mellan 900 och 2 000 kronor för enbart delen, beroende på modell. Arbetskostnader från en servicetekniker tillkommer. Det är värt att begära en offert innan du bestämmer dig för reparationen, särskilt på äldre maskiner, för att väga reparationskostnaden mot att köpa en ny maskin.",
+          "question": "Hur mycket kostar det att byta PCB på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Ja. Ett plötsligt strömavbrott eller en spänningspik — till exempel orsakad av en utlöst säkring eller ett åskväder — kan avbryta PCB:ns normala drift och lämna programvaran i ett inkonsekvent tillstånd. En fullständig omstart på 5 minuter räcker vanligtvis för att återhämta sig från denna typ av händelse.",
+          "question": "Kan E92 orsakas av ett strömavbrott?"
+        },
+        {
+          "answer": "E92 rapporteras på ett flertal Siemens tvättmaskinmodeller snarare än att vara specifikt för en serie. Den underliggande orsaken — internt PCB-kommunikationsfel — är en funktion av den elektroniska arkitektur som delas av många modeller. Om du är osäker på om din specifika modell påverkas, kontrollera det fullständiga modellnumret mot Siemens servicedokumentation eller kontakta en servicetekniker.",
+          "question": "Påverkar E92 alla Siemens tvättmaskinmodeller?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T15:03:10.606172+00:00"
+    },
+    {
+      "article_id": 243,
+      "locale": "en",
+      "slug": "error-code-f43",
+      "title_tag": "Siemens Washing Machine Error Code F43 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error F43? Learn what causes the drum to stop turning and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code F43 Mean on a Siemens Washing Machine?",
+      "description": "Error code F43 on a Siemens washing machine indicates that the drum has stopped turning, caused by a jammed motor, worn carbon brushes, or a faulty motor.",
+      "quick_fix": "Check the drum for a jammed item by rotating it by hand with the machine unplugged — remove any obstruction you find, then restart the cycle (takes about 10 minutes).",
+      "intro_html": "<p>Error code F43 means your Siemens washing machine has detected that the drum is not rotating as expected. The machine monitors motor feedback during every cycle, and when it receives no movement signal — or a signal that falls outside normal parameters — it stops the programme and displays F43 to protect the motor and drum bearings from damage.</p><p>When this error appears, the wash cycle will halt mid-programme. You may notice the drum is completely still, or that it attempts to turn and then stops almost immediately. In some cases you will hear a humming sound as the motor tries but fails to drive the drum.</p><p>The fault can stem from something as simple as a sock caught between the drum and the door seal, or from a more significant mechanical issue such as worn carbon brushes or a failing motor. Working through the checks below in order will help you identify the cause quickly.</p>",
+      "causes_json": [
+        {
+          "cause": "Foreign object jamming the drum",
+          "detail": "Small items such as coins, underwire from a bra, or a sock can slip between the drum and the door seal or drum paddle, physically preventing the drum from rotating. This is the most common trigger for F43 and is usually easy to identify and clear."
+        },
+        {
+          "cause": "Worn or failed carbon brushes",
+          "detail": "Brushed motors rely on carbon brushes to transfer electrical current to the spinning armature. Over time these brushes wear down and lose contact, causing the motor to lose torque or stop turning altogether. This is a very common cause on machines that are several years old."
+        },
+        {
+          "cause": "Seized or stiff drum bearings",
+          "detail": "The drum sits on bearings at the rear of the outer tub. When these bearings wear out or corrode, the drum becomes very difficult to turn and the motor cannot overcome the resistance. You may notice a rumbling or grinding noise before the F43 error appears."
+        },
+        {
+          "cause": "Faulty motor",
+          "detail": "The motor itself can develop internal faults — a burnt-out winding, a failed capacitor on single-phase motors, or damaged rotor magnets on brushless models. A faulty motor will typically fail to start or will cut out under load."
+        },
+        {
+          "cause": "Wiring or connector fault between motor and control board",
+          "detail": "The wiring harness connecting the motor to the main control board can suffer from loose connectors, corrosion, or chafed insulation. If the control board cannot send or receive signals from the motor, it will log F43 even if the motor itself is undamaged."
+        },
+        {
+          "cause": "Faulty motor control module or main PCB",
+          "detail": "In some cases the motor and drum are mechanically sound but the control electronics that drive the motor have failed. A defective motor control module or main PCB will prevent the motor from receiving the correct drive signal."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Unplug the machine and check for a jammed drum",
+          "detail": "Switch the machine off at the wall and unplug it. Open the door and try turning the drum slowly by hand in both directions. If it will not move at all, or moves only a fraction before stopping, feel around the gap between the drum and the door seal for any trapped items such as coins, wire, or fabric. Remove anything you find, then plug the machine back in and run a short cycle to see if the error clears."
+        },
+        {
+          "step": 2,
+          "action": "Redistribute or reduce the load",
+          "detail": "An unbalanced or overloaded drum can cause the motor to stall and trigger F43. Remove some items from the drum, redistribute the remaining laundry evenly, and restart the cycle. As a guide, most Siemens washing machines should not be loaded beyond roughly 80% of their rated capacity for heavy fabrics such as towels or denim."
+        },
+        {
+          "step": 3,
+          "action": "Inspect and replace the carbon brushes",
+          "detail": "Unplug the machine and pull it away from the wall. Remove the back panel (usually held by three or four screws). Locate the motor — it sits beneath the drum — and identify the two carbon brush holders on either side of the motor body. Slide or unscrew each holder and pull out the brush. If either brush is worn down to less than 10 mm in length, both brushes should be replaced as a pair. Replacement brushes for Siemens motors are widely available and straightforward to fit."
+        },
+        {
+          "step": 4,
+          "action": "Check the motor wiring and connectors",
+          "detail": "With the back panel still removed, trace the wiring harness from the motor up to the control board. Press each connector firmly to ensure it is fully seated. Look for any wires that appear burnt, corroded, or have damaged insulation. A loose connector is a quick fix — simply push it back in firmly. Damaged wiring will need to be repaired or the harness replaced."
+        },
+        {
+          "step": 5,
+          "action": "Test the drum bearings",
+          "detail": "With the machine unplugged, grip the drum through the door opening and try rocking it up and down. A small amount of play is normal, but significant movement or a rough, gritty feeling when you spin the drum by hand suggests the bearings are worn. Also listen for a rumbling or grinding noise when you rotate the drum. Worn bearings require the rear bearing housing to be replaced — this is a more involved repair but is achievable with basic tools and a spare afternoon."
+        },
+        {
+          "step": 6,
+          "action": "Run a diagnostic cycle and note any additional error codes",
+          "detail": "Reassemble the machine and run a service diagnostic if your model supports it — consult your user manual for the key combination to enter diagnostic mode. Additional error codes displayed alongside F43 can point directly to the motor, the control board, or the wiring, saving time on further diagnosis. Note down any codes before clearing them."
+        },
+        {
+          "step": 7,
+          "action": "Consider motor or PCB replacement if all else checks out",
+          "detail": "If the drum turns freely, the brushes are good, the wiring is intact, and the bearings feel smooth, the fault is likely in the motor itself or the motor control electronics. At this stage, testing requires a multimeter to check motor winding resistance and supply voltage at the motor connector. If you are not comfortable with electrical testing, this is the point to contact a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Contact a service technician if the drum is completely seized and you cannot identify a physical obstruction, if you have replaced the carbon brushes and the error persists, or if you find burnt or melted components anywhere near the motor or control board. These symptoms suggest internal motor failure or PCB damage that requires specialist testing equipment to diagnose safely.</p><p>You should also seek professional help if the machine makes a loud grinding or banging noise when attempting to run — this can indicate a bearing failure severe enough that continued use risks damaging the outer tub or drum shaft, turning a moderate repair into a much more costly one.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an F43 fault are the carbon brush set (sold as a pair specific to your motor type), the drum bearing kit (which typically includes the rear bearing, front bearing, and shaft seal), and the motor itself if internal winding failure is confirmed. On newer brushless-motor models, the motor control module is also a frequent replacement item.</p><p>To reduce the risk of F43 recurring, check pockets before loading laundry to prevent coins and small objects from entering the drum, avoid consistently overloading the machine, and use a drum-cleaning cycle monthly to prevent detergent residue from building up around the door seal gap.</p>\n<!-- SPARE_PARTS:F43 -->",
+      "faq_json": [
+        {
+          "answer": "No — you should not run the machine while F43 is active. The error means the drum is not turning, so continuing to run a cycle will not wash your clothes and could cause the motor to overheat or burn out. Unplug the machine and work through the checks above before using it again.",
+          "question": "Can I still use my Siemens washing machine while it shows F43?"
+        },
+        {
+          "answer": "Carbon brushes generally last between five and ten years depending on how frequently the machine is used. Households that run the machine daily will see brushes wear faster than those running two or three cycles a week. Replacing brushes is one of the most cost-effective maintenance tasks you can do on an older brushed-motor machine.",
+          "question": "How long do carbon brushes typically last on a Siemens washing machine?"
+        },
+        {
+          "answer": "F43 is not always a motor fault. A trapped foreign object is actually the most common cause and takes only a few minutes to check and clear. Always start with the simplest physical checks before assuming the motor needs attention. Overloading is another frequently overlooked cause that costs nothing to fix.",
+          "question": "Is F43 always a motor problem, or could it be something simpler?"
+        },
+        {
+          "answer": "If the fix is a jammed object or a carbon brush replacement, costs are minimal — a brush set usually costs between £10 and £25. Bearing replacement parts typically run £20–£50 but require more labour time. A full motor replacement is the most expensive route, with parts ranging from £80 to £200 depending on the model, plus labour if a technician carries out the work.",
+          "question": "How much does it typically cost to repair a Siemens F43 error?"
+        },
+        {
+          "answer": "A power reset — unplugging the machine for a few minutes — may clear the error code temporarily, but if the underlying fault is still present the code will return as soon as the machine tries to run the drum again. A reset is useful for confirming whether the fault is intermittent, but it is not a fix on its own. Always investigate the root cause.",
+          "question": "Will resetting the machine clear the F43 error permanently?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T15:06:20.079168+00:00"
+    },
+    {
+      "article_id": 243,
+      "locale": "sv",
+      "slug": "felkod-f43",
+      "title_tag": "Siemens Tvättmaskin Felkod F43 | Åtgärda Det Nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod F43? Lär dig vad som gör att trumman slutar rotera och hur du åtgärdar det själv innan du ringer en servicetekniker.",
+      "h1": "Vad Betyder Felkod F43 på en Siemens Tvättmaskin?",
+      "description": "Felkod F43 på en Siemens tvättmaskin indikerar att trumman har slutat rotera, orsakat av en fastklämd motor, slitna kolborstar eller en defekt motor.",
+      "quick_fix": "Kontrollera om något fastnat i trumman genom att rotera den för hand med maskinen urkopplad — ta bort eventuellt hinder och starta sedan om programmet (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod F43 innebär att din Siemens tvättmaskin har upptäckt att trumman inte roterar som förväntat. Maskinen övervakar motorns återkoppling under varje program, och när den inte får någon rörelsesignal — eller en signal som faller utanför normala parametrar — stoppar den programmet och visar F43 för att skydda motorn och trummans lager från skada.</p><p>När detta fel uppstår avbryts tvättcykeln mitt i programmet. Du kan märka att trumman är helt stilla, eller att den försöker rotera och sedan stannar nästan omedelbart. I vissa fall hörs ett surrande ljud när motorn försöker men misslyckas med att driva trumman.</p><p>Felet kan bero på något så enkelt som en strumpa som fastnat mellan trumman och dörrtätningen, eller på ett mer allvarligt mekaniskt problem som slitna kolborstar eller en defekt motor. Genom att gå igenom kontrollerna nedan i ordning kan du snabbt identifiera orsaken.</p>",
+      "causes_json": [
+        {
+          "cause": "Främmande föremål som klämt fast trumman",
+          "detail": "Små föremål som mynt, bysthållartråd eller en strumpa kan glida in mellan trumman och dörrtätningen eller trummans paddel och fysiskt förhindra trumman från att rotera. Detta är den vanligaste orsaken till F43 och är vanligtvis lätt att identifiera och åtgärda."
+        },
+        {
+          "cause": "Slitna eller defekta kolborstar",
+          "detail": "Motorer med kolborstar förlitar sig på kolborstar för att överföra elektrisk ström till den roterande ankaret. Med tiden slits dessa borstar ner och förlorar kontakt, vilket gör att motorn tappar vridmoment eller slutar rotera helt. Detta är en mycket vanlig orsak på maskiner som är flera år gamla."
+        },
+        {
+          "cause": "Kärvande eller stela trumlagrar",
+          "detail": "Trumman sitter på lager i bakkanten av det yttre karet. När dessa lager slits ut eller korroderar blir trumman mycket svår att rotera och motorn kan inte övervinna motståndet. Du kan märka ett mullrande eller skrapande ljud innan F43-felet uppstår."
+        },
+        {
+          "cause": "Defekt motor",
+          "detail": "Motorn själv kan utveckla interna fel — en utbränd lindning, en defekt kondensator på enfasmotorer eller skadade rotormagneter på borststfria modeller. En defekt motor misslyckas vanligtvis med att starta eller slår av under belastning."
+        },
+        {
+          "cause": "Kabelfel eller kontaktfel mellan motor och styrkort",
+          "detail": "Kabelstammen som förbinder motorn med huvudstyrkortet kan drabbas av lösa kontakter, korrosion eller skadad isolering. Om styrkortet inte kan skicka eller ta emot signaler från motorn loggas F43 även om motorn i sig är oskadad."
+        },
+        {
+          "cause": "Defekt motorstyrmodul eller huvud-PCB",
+          "detail": "I vissa fall är motorn och trumman mekaniskt felfria men styrelektroniken som driver motorn har gått sönder. En defekt motorstyrmodul eller huvud-PCB förhindrar motorn från att ta emot korrekt drivningssignal."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Koppla ur maskinen och kontrollera om trumman är fastklämd",
+          "detail": "Stäng av maskinen vid vägguttaget och koppla ur den. Öppna luckan och försök rotera trumman långsamt för hand i båda riktningarna. Om den inte rör sig alls, eller rör sig bara en liten bit innan den stannar, känn längs springan mellan trumman och dörrtätningen efter eventuella fastklämda föremål som mynt, tråd eller tyg. Ta bort allt du hittar, koppla sedan in maskinen igen och kör ett kort program för att se om felet försvinner."
+        },
+        {
+          "step": 2,
+          "action": "Omfördela eller minska tvätten",
+          "detail": "En obalanserad eller överfylld trumma kan få motorn att stanna och utlösa F43. Ta ut några plagg ur trumman, fördela resterande tvätt jämnt och starta om programmet. Som riktlinje bör de flesta Siemens tvättmaskiner inte lastas mer än ungefär 80 % av sin nominella kapacitet för tunga tyger som handdukar eller denim."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera och byt kolborstarna",
+          "detail": "Koppla ur maskinen och dra ut den från väggen. Ta bort bakpanelen (vanligtvis fäst med tre eller fyra skruvar). Lokalisera motorn — den sitter under trumman — och identifiera de två kolborsthållarna på vardera sidan av motorhuset. Skjut ut eller skruva loss varje hållare och dra ut borsten. Om någon borste är nednött till mindre än 10 mm i längd bör båda borstarna bytas ut som ett par. Ersättningsborstar för Siemens-motorer finns allmänt tillgängliga och är enkla att montera."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera motorns kablar och kontakter",
+          "detail": "Med bakpanelen fortfarande borttagen, följ kabelstammen från motorn upp till styrkortet. Tryck in varje kontakt ordentligt för att säkerställa att den sitter fast. Leta efter kablar som ser brända, korroderade ut eller har skadad isolering. En lös kontakt är en snabb åtgärd — tryck helt enkelt in den ordentligt igen. Skadade kablar behöver repareras eller kabelstammen bytas ut."
+        },
+        {
+          "step": 5,
+          "action": "Testa trumlagren",
+          "detail": "Med maskinen urkopplad, ta tag i trumman genom lucköppningen och försök gunga den upp och ner. En liten rörelse är normalt, men betydande rörelse eller en grov, grusig känsla när du snurrar trumman för hand tyder på att lagren är slitna. Lyssna också efter ett mullrande eller skrapande ljud när du roterar trumman. Slitna lager kräver att det bakre lagerhuset byts ut — detta är en mer omfattande reparation men är möjlig med grundläggande verktyg och en ledig eftermiddag."
+        },
+        {
+          "step": 6,
+          "action": "Kör ett diagnostikprogram och notera eventuella ytterligare felkoder",
+          "detail": "Montera ihop maskinen och kör en servicediagnostik om din modell stöder det — se din bruksanvisning för tangentkombinationen för att aktivera diagnostikläget. Ytterligare felkoder som visas tillsammans med F43 kan peka direkt på motorn, styrkortet eller kablarna och spara tid vid vidare felsökning. Notera alla koder innan du rensar dem."
+        },
+        {
+          "step": 7,
+          "action": "Överväg motorbyte eller PCB-byte om allt annat ser bra ut",
+          "detail": "Om trumman roterar fritt, borstarna är i gott skick, kablarna är intakta och lagren känns mjuka, är felet troligtvis i motorn själv eller motorstyrningselektroniken. I detta skede kräver testning en multimeter för att kontrollera motorlindningens resistans och matningsspänning vid motorkontakten. Om du inte är bekväm med elektrisk testning är det dags att kontakta en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om trumman är helt låst och du inte kan identifiera ett fysiskt hinder, om du har bytt kolborstarna och felet kvarstår, eller om du hittar brända eller smälta komponenter i närheten av motorn eller styrkortet. Dessa symptom tyder på internt motorfel eller PCB-skada som kräver specialiserad testutrustning för säker diagnos.</p><p>Du bör också söka professionell hjälp om maskinen ger ifrån sig ett högt skrapande eller bankande ljud när den försöker köra — detta kan indikera ett lagerhaveri som är så allvarligt att fortsatt användning riskerar att skada det yttre karet eller trumaxeln, och förvandlar en måttlig reparation till en betydligt mer kostsam.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett F43-fel är kolborstuppsättningen (säljs som ett par specifikt för din motortyp), trumlagersatsen (som vanligtvis inkluderar bakre lager, främre lager och axeltätning) samt motorn själv om internt lindningsfel bekräftas. På nyare modeller med borststfri motor är motorstyrmodulen också ett vanligt utbytesföremål.</p><p>För att minska risken för att F43 återkommer, kontrollera fickor innan du lägger i tvätten för att förhindra att mynt och små föremål hamnar i trumman, undvik att konsekvent överfylla maskinen och använd ett trumrengöringsprogram månadsvis för att förhindra att tvättmedelsrester byggs upp runt dörrtätningens springa.</p>\n<!-- SPARE_PARTS:F43 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — du bör inte köra maskinen medan F43 är aktivt. Felet innebär att trumman inte roterar, så att fortsätta köra ett program kommer inte att tvätta dina kläder och kan orsaka att motorn överhettas eller bränns ut. Koppla ur maskinen och gå igenom kontrollerna ovan innan du använder den igen.",
+          "question": "Kan jag fortfarande använda min Siemens tvättmaskin när den visar F43?"
+        },
+        {
+          "answer": "Kolborstar håller i allmänhet mellan fem och tio år beroende på hur ofta maskinen används. Hushåll som kör maskinen dagligen ser borstarna slitas snabbare än de som kör två eller tre program i veckan. Att byta borstar är en av de mest kostnadseffektiva underhållsåtgärderna du kan göra på en äldre maskin med kolborstmotor.",
+          "question": "Hur länge håller kolborstarna vanligtvis på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "F43 är inte alltid ett motorfel. Ett fastklämmt främmande föremål är faktiskt den vanligaste orsaken och tar bara några minuter att kontrollera och åtgärda. Börja alltid med de enklaste fysiska kontrollerna innan du antar att motorn behöver åtgärdas. Överfyllning är en annan ofta förbisedd orsak som inte kostar något att åtgärda.",
+          "question": "Är F43 alltid ett motorproblem, eller kan det vara något enklare?"
+        },
+        {
+          "answer": "Om åtgärden är ett fastklämmt föremål eller ett kolborstbyte är kostnaderna minimala — en borstuppsättning kostar vanligtvis mellan 100 och 250 kronor. Reservdelar för lagerbyte kostar vanligtvis 200–500 kronor men kräver mer arbetstid. Ett fullständigt motorbyte är det dyraste alternativet, med delar som kostar mellan 800 och 2 000 kronor beroende på modell, plus arbetskostnad om en tekniker utför arbetet.",
+          "question": "Hur mycket kostar det vanligtvis att reparera ett Siemens F43-fel?"
+        },
+        {
+          "answer": "En strömåterställning — att koppla ur maskinen i några minuter — kan tillfälligt rensa felkoden, men om det underliggande felet fortfarande finns kommer koden att återkomma så snart maskinen försöker köra trumman igen. En återställning är användbar för att bekräfta om felet är intermittent, men det är inte en åtgärd i sig. Undersök alltid grundorsaken.",
+          "question": "Rensar en återställning av maskinen F43-felet permanent?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T15:07:38.49311+00:00"
+    }
+  ]
+}

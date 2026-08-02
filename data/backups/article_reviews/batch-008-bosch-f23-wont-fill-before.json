@@ -1,0 +1,1119 @@
+{
+  "batch": "008-bosch-f23-wont-fill",
+  "article_ids": [
+    204,
+    205,
+    206,
+    312,
+    315
+  ],
+  "articles": [
+    {
+      "id": 204,
+      "error_code_id": 297,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 205,
+      "error_code_id": 322,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 206,
+      "error_code_id": 323,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 312,
+      "error_code_id": null,
+      "fault_id": 36,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 315,
+      "error_code_id": null,
+      "fault_id": 39,
+      "status": "published",
+      "article_type": "fault"
+    }
+  ],
+  "rows": [
+    {
+      "id": 336,
+      "article_id": 204,
+      "locale": "en",
+      "slug": "error-code-f23",
+      "title_tag": "Bosch Washing Machine Error Code F23 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code F23? Learn what causes water in the base pan, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code F23 Mean on a Bosch Washing Machine?",
+      "description": "Error code F23 on a Bosch washing machine indicates that water has been detected in the base pan beneath the drum, triggering the anti-flood protection system.",
+      "quick_fix": "Tilt the machine gently forward about 45 degrees to drain water from the base pan, then leave it upright for at least 30 minutes to dry before restarting — this clears the float switch and resolves the fault in many cases (takes about 30–40 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code F23 means your Bosch washing machine has detected water pooling in the base pan — the shallow tray that sits underneath the internal components. This area is not part of the normal water circuit; water should never be there during operation. When moisture reaches a certain level, a float switch inside the base pan rises and sends a signal to the control board, which immediately halts the programme and displays F23.</p><p>When this error occurs, the machine will typically stop mid-cycle, lock the door, and may activate the drain pump continuously in an attempt to remove water. You may notice the drum is unresponsive and the display stays fixed on F23. In some cases a small amount of water may be visible beneath the appliance on the floor.</p><p>The fault is a safety feature, not a malfunction in itself — it is telling you that a leak has occurred somewhere inside the machine and needs to be investigated before normal use can resume.</p>",
+      "causes_json": [
+        {
+          "cause": "Leaking door seal or drum gasket",
+          "detail": "A torn, cracked, or debris-damaged door seal is one of the most common reasons water escapes into the base pan. Water seeps past the seal during the wash cycle and gradually collects below the drum."
+        },
+        {
+          "cause": "Loose or split internal hose connection",
+          "detail": "Hoses connecting the drum, pump, and dispenser drawer can loosen over time due to vibration or age. Even a small split or a partially detached clip can allow water to drip steadily into the base pan."
+        },
+        {
+          "cause": "Faulty or overflowing detergent dispenser",
+          "detail": "Using too much detergent or a blocked dispenser drawer can cause water and foam to overflow internally rather than entering the drum correctly. This excess liquid can find its way down into the base pan."
+        },
+        {
+          "cause": "Cracked or damaged pump housing",
+          "detail": "The drain pump sits low in the machine and is exposed to constant water flow. A crack in the pump body or a failed pump seal can cause a slow but persistent leak directly into the base pan area."
+        },
+        {
+          "cause": "Faulty float switch staying triggered",
+          "detail": "Once the base pan has been wet, the float switch can sometimes remain in the raised position even after the water has evaporated or been drained. This keeps the F23 error active even though no active leak is present."
+        },
+        {
+          "cause": "Tub or outer drum crack",
+          "detail": "Less commonly, the outer plastic drum can develop a hairline crack, particularly in older machines or after a heavy impact. This allows water to escape the drum during every cycle and accumulate below."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Before doing anything else, turn the programme dial to off and unplug the appliance from the mains. This is essential for safety when water is present near electrical components. Do not attempt to restart the machine until you have completed all checks."
+        },
+        {
+          "step": 2,
+          "action": "Drain the base pan by tilting the machine",
+          "detail": "With help from another person, carefully tilt the machine forward at roughly 45 degrees and hold it there for 30–60 seconds to allow water to drain out from the base. Place towels on the floor beforehand. Once drained, stand the machine upright and leave it for at least 30 minutes to allow residual moisture to evaporate and the float switch to drop back down."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the door seal for damage",
+          "detail": "Open the door and run your fingers around the full circumference of the rubber door gasket. Look and feel for tears, holes, or areas where the seal has pulled away from its groove. Also check for trapped debris such as coins or grit that could be causing a gap. A damaged seal will need to be replaced."
+        },
+        {
+          "step": 4,
+          "action": "Check the detergent dispenser and reduce detergent",
+          "detail": "Remove the dispenser drawer completely and rinse it under warm water to clear any blockages. Check the dispenser housing inside the machine for limescale or detergent build-up. If you have been using more than the recommended detergent dose, reduce it — excess suds are a surprisingly common cause of internal overflow."
+        },
+        {
+          "step": 5,
+          "action": "Remove the lower access panel and inspect hoses and the pump",
+          "detail": "Most Bosch washing machines have a removable kick panel at the bottom front. Unclip or unscrew it and use a torch to look at the visible hose connections and the pump housing. Look for signs of moisture, white limescale deposits (which indicate a slow drip), or obvious splits. Gently press on hose clips to confirm they are seated firmly."
+        },
+        {
+          "step": 6,
+          "action": "Run a short test cycle and monitor closely",
+          "detail": "Once the machine is dry and you have addressed any visible issues, plug it back in and run a short 30-degree cotton cycle. Stay with the machine and check underneath and around the door seal during filling and washing. If F23 returns or you see water escaping, stop the cycle immediately and proceed to professional assessment."
+        },
+        {
+          "step": 7,
+          "action": "Reset the error code if the machine is dry and no leak is found",
+          "detail": "If the base pan was wet but you cannot find an active leak, the float switch may simply need to reset. After ensuring everything is dry, power the machine back on — in many cases the error will clear automatically. If it does not clear, consult your model's manual for the specific reset procedure, which typically involves holding the start button for several seconds."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you can see an active leak during a test cycle — water dripping from a hose, the pump housing, or the outer drum — do not continue using the machine. These repairs involve disassembling internal components and working near the motor and electrical wiring, which is not suitable for DIY repair. Similarly, if the F23 error returns immediately after the base pan has been fully dried and no obvious cause is found, there may be a crack in the outer tub or a fault with the float switch itself that requires specialist diagnosis.</p><p>You should also contact a service technician if the door seal replacement does not resolve the fault, or if water is reaching the base pan rapidly rather than as a slow drip — this suggests a more significant failure that could cause further damage or a safety hazard if left unattended.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch F23 fault are the door seal (also called the door gasket or bellows), the drain pump, and internal fill or drain hoses. In some cases the float switch itself is replaced if it has become stuck or corroded. Sourcing genuine or compatible parts for your specific Bosch model number will give the best long-term result.</p><p>To reduce the risk of F23 occurring, use only the recommended amount of low-foaming HE detergent, clean the door seal and dispenser drawer monthly, and run a maintenance wash at 60 or 90 degrees every four to six weeks to prevent build-up that can stress seals and hoses over time.</p>\n<!-- SPARE_PARTS:F23 -->",
+      "faq_json": [
+        {
+          "answer": "No. F23 means water is already present in the base pan, and continuing to run the machine risks water reaching electrical components, causing further damage or a safety hazard. Switch the machine off and investigate the cause before using it again.",
+          "question": "Can I keep using my Bosch washing machine while it shows F23?"
+        },
+        {
+          "answer": "Sometimes, yes. If the base pan dries out completely and the float switch drops back to its resting position, the error may clear when you power the machine back on. However, if there is an ongoing leak, the error will return as soon as the machine fills with water again, so the underlying cause must still be found and fixed.",
+          "question": "Will F23 clear itself once the water dries out?"
+        },
+        {
+          "answer": "Inspect the seal carefully with the door open, feeling for tears, stiffness, or areas where it has detached from the drum rim. You can also run a short cycle and watch the seal closely during filling — any water tracking down the inside of the door glass or dripping from the lower part of the seal points to a gasket problem.",
+          "question": "How do I know if the door seal is causing the F23 error?"
+        },
+        {
+          "answer": "If your machine is within the standard warranty period and the leak is due to a manufacturing defect rather than misuse or accidental damage, the repair should be covered. Contact Bosch customer service with your model and serial number to check your warranty status before arranging a paid repair.",
+          "question": "Is F23 covered under Bosch warranty?"
+        },
+        {
+          "answer": "Cost depends on the root cause. Replacing a door seal is usually a mid-range repair and is something a confident DIYer can do with the right part. A drain pump replacement is similar in cost. If the outer drum is cracked, repair costs can be high enough that replacement of the machine may be more economical, particularly on older models.",
+          "question": "How much does it typically cost to repair a Bosch F23 fault?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:46:37.542847+00:00"
+    },
+    {
+      "id": 337,
+      "article_id": 204,
+      "locale": "sv",
+      "slug": "felkod-f23",
+      "title_tag": "Bosch tvättmaskin felkod F23 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod F23? Lär dig vad som orsakar vatten i bottenplattan, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod F23 på en Bosch tvättmaskin?",
+      "description": "Felkod F23 på en Bosch tvättmaskin indikerar att vatten har upptäckts i bottenplattan under trumman, vilket aktiverar maskinens översvämningsskydd.",
+      "quick_fix": "Luta maskinen försiktigt framåt cirka 45 grader för att tömma vatten från bottenplattan, ställ sedan upp den igen och låt den stå i minst 30 minuter för att torka innan du startar om — detta återställer flödesbrytaren och löser felet i många fall (tar ungefär 30–40 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod F23 innebär att din Bosch tvättmaskin har upptäckt att vatten samlats i bottenplattan — det grunda uppsamlingsfacket som sitter under de interna komponenterna. Det här området ingår inte i det normala vattenkretsloppet; det ska aldrig finnas vatten där under drift. När fukt når en viss nivå stiger en flödesbrytare i bottenplattan och skickar en signal till styrkortet, som omedelbart avbryter programmet och visar F23.</p><p>När det här felet uppstår stannar maskinen vanligtvis mitt i ett program, låser luckan och kan aktivera dräneringspumpen kontinuerligt i ett försök att avlägsna vattnet. Du kan märka att trumman inte svarar och att displayen är fast på F23. I vissa fall kan en liten mängd vatten vara synlig under maskinen på golvet.</p><p>Felet är en säkerhetsfunktion, inte ett fel i sig — det talar om för dig att en läcka har uppstått någonstans inne i maskinen och måste undersökas innan normal användning kan återupptas.</p>",
+      "causes_json": [
+        {
+          "cause": "Läckande lucktätning eller trumpackning",
+          "detail": "En trasig, sprucken eller skräpskadad lucktätning är en av de vanligaste orsakerna till att vatten tar sig in i bottenplattan. Vatten tränger förbi tätningen under tvättcykeln och samlas gradvis under trumman."
+        },
+        {
+          "cause": "Lös eller sprucken intern slangangslutning",
+          "detail": "Slangar som förbinder trumman, pumpen och tvättmedelsfacket kan lossna med tiden på grund av vibrationer eller ålder. Även en liten spricka eller ett delvis lossnat clips kan låta vatten droppa ner i bottenplattan."
+        },
+        {
+          "cause": "Defekt eller överfyllt tvättmedelsfack",
+          "detail": "Att använda för mycket tvättmedel eller ett igensatt tvättmedelsfack kan göra att vatten och skum svämmar över internt i stället för att ledas in i trumman på rätt sätt. Denna överskottsvätska kan rinna ner i bottenplattan."
+        },
+        {
+          "cause": "Sprucket eller skadat pumphus",
+          "detail": "Dräneringspumpen sitter lågt i maskinen och utsätts för konstant vattenflöde. En spricka i pumphuset eller en defekt pumptätning kan orsaka en långsam men ihållande läcka direkt in i bottenplattans område."
+        },
+        {
+          "cause": "Defekt flödesbrytare som förblir aktiverad",
+          "detail": "När bottenplattan väl har blivit våt kan flödesbrytaren ibland stanna kvar i det upphöjda läget även efter att vattnet har avdunstat eller tömts ut. Detta håller F23-felet aktivt trots att ingen aktiv läcka finns."
+        },
+        {
+          "cause": "Spricka i yttre trumma",
+          "detail": "Mer sällan kan den yttre plasttrumman utveckla en hårfin spricka, särskilt i äldre maskiner eller efter ett kraftigt slag. Detta gör att vatten kan läcka ut ur trumman under varje cykel och samlas under maskinen."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Innan du gör något annat, vrid programväljaren till av och dra ut kontakten ur vägguttaget. Detta är nödvändigt av säkerhetsskäl när vatten finns i närheten av elektriska komponenter. Försök inte starta om maskinen förrän du har genomfört alla kontroller."
+        },
+        {
+          "step": 2,
+          "action": "Töm bottenplattan genom att luta maskinen",
+          "detail": "Med hjälp av en annan person, luta försiktigt maskinen framåt ungefär 45 grader och håll den så i 30–60 sekunder för att låta vatten rinna ut från bottenplattan. Lägg handdukar på golvet i förväg. När vattnet har runnit ut, ställ maskinen upprätt igen och låt den stå i minst 30 minuter för att låta kvarvarande fukt avdunsta och flödesbrytaren sjunka tillbaka."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera lucktätningen för skador",
+          "detail": "Öppna luckan och känn med fingrarna längs hela gummitätningens omkrets. Titta och känn efter revor, hål eller ställen där tätningen har lossnat från sitt spår. Kontrollera även om det finns innesittande skräp som mynt eller grus som kan orsaka en öppning. En skadad tätning måste bytas ut."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera tvättmedelsfacket och minska tvättmedeldosen",
+          "detail": "Ta ut tvättmedelslådan helt och skölj den under varmt vatten för att rensa eventuella igensättningar. Kontrollera tvättmedelsfackets insida i maskinen för kalkavlagringar eller tvättmedelsrester. Om du har använt mer än rekommenderad tvättmedelsdos, minska den — överskott av skum är en förvånansvärt vanlig orsak till internt spill."
+        },
+        {
+          "step": 5,
+          "action": "Ta bort den nedre åtkomstpanelen och inspektera slangar och pump",
+          "detail": "De flesta Bosch tvättmaskiner har en avtagbar sockelpanel längst ner på framsidan. Lossa eller skruva av den och använd en ficklampa för att titta på de synliga slangangslutningarna och pumphuset. Leta efter tecken på fukt, vita kalkavlagringar (som indikerar ett långsamt droppande) eller uppenbara sprickor. Tryck försiktigt på slangklämmorna för att bekräfta att de sitter ordentligt."
+        },
+        {
+          "step": 6,
+          "action": "Kör en kort testcykel och övervaka noga",
+          "detail": "När maskinen är torr och du har åtgärdat eventuella synliga problem, anslut den igen och kör en kort bomullscykel på 30 grader. Stanna vid maskinen och kontrollera under och runt lucktätningen under påfyllning och tvätt. Om F23 återkommer eller du ser vatten läcka ut, stoppa cykeln omedelbart och gå vidare till professionell bedömning."
+        },
+        {
+          "step": 7,
+          "action": "Återställ felkoden om maskinen är torr och ingen läcka hittas",
+          "detail": "Om bottenplattan var våt men du inte kan hitta en aktiv läcka, kan flödesbrytaren helt enkelt behöva återställas. När du har säkerställt att allt är torrt, slå på maskinen igen — i många fall försvinner felet automatiskt. Om det inte försvinner, se din modells manual för den specifika återställningsproceduren, som vanligtvis innebär att hålla startknappen intryckt i flera sekunder."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du kan se en aktiv läcka under en testcykel — vatten som droppar från en slang, pumphuset eller den yttre trumman — fortsätt inte använda maskinen. Dessa reparationer innebär att man demonterar interna komponenter och arbetar nära motor och elektrisk kablage, vilket inte lämpar sig för gör-det-själv-reparation. På samma sätt, om F23-felet återkommer omedelbart efter att bottenplattan har torkats helt och ingen uppenbar orsak hittas, kan det finnas en spricka i den yttre trumman eller ett fel på flödesbrytaren som kräver specialistdiagnos.</p><p>Du bör också kontakta en servicetekniker om byte av lucktätningen inte löser felet, eller om vatten når bottenplattan snabbt snarare än som ett långsamt droppande — detta tyder på ett allvarligare fel som kan orsaka ytterligare skada eller en säkerhetsrisk om det lämnas utan åtgärd.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett Bosch F23-fel är lucktätningen (även kallad dörrtätning eller bälg), dräneringspumpen och interna påfyllnings- eller dräneringsslangar. I vissa fall byts flödesbrytaren själv ut om den har fastnat eller korroderat. Att använda äkta eller kompatibla delar för ditt specifika Bosch modellnummer ger bäst långsiktigt resultat.</p><p>För att minska risken för att F23 uppstår, använd endast rekommenderad mängd lågskummande HE-tvättmedel, rengör lucktätningen och tvättmedelsfacket månadsvis och kör en underhållstvätt på 60 eller 90 grader var fjärde till sjätte vecka för att förhindra avlagringar som kan belasta tätningar och slangar över tid.</p>\n<!-- SPARE_PARTS:F23 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. F23 innebär att vatten redan finns i bottenplattan, och att fortsätta köra maskinen riskerar att vatten når elektriska komponenter, vilket kan orsaka ytterligare skada eller en säkerhetsrisk. Stäng av maskinen och undersök orsaken innan du använder den igen.",
+          "question": "Kan jag fortsätta använda min Bosch tvättmaskin när den visar F23?"
+        },
+        {
+          "answer": "Ibland, ja. Om bottenplattan torkar ut helt och flödesbrytaren sjunker tillbaka till sitt viloläge kan felet försvinna när du slår på maskinen igen. Men om det finns en pågående läcka kommer felet att återkomma så snart maskinen fylls med vatten igen, så den bakomliggande orsaken måste fortfarande hittas och åtgärdas.",
+          "question": "Försvinner F23 av sig självt när vattnet torkar?"
+        },
+        {
+          "answer": "Inspektera tätningen noggrant med luckan öppen och känn efter revor, styvhet eller ställen där den har lossnat från trumkanten. Du kan också köra en kort cykel och titta noga på tätningen under påfyllning — vatten som rinner längs insidan av luckglaset eller droppar från tätningens nedre del pekar på ett tätningsproblem.",
+          "question": "Hur vet jag om lucktätningen orsakar F23-felet?"
+        },
+        {
+          "answer": "Om din maskin är inom den ordinarie garantiperioden och läckan beror på ett tillverkningsfel snarare än felaktig användning eller olycksskada, bör reparationen täckas. Kontakta Bosch kundtjänst med ditt modell- och serienummer för att kontrollera din garantistatus innan du bokar en betald reparation.",
+          "question": "Täcker Bosch garanti F23?"
+        },
+        {
+          "answer": "Kostnaden beror på grundorsaken. Att byta en lucktätning är vanligtvis en reparation i mellanklass och något en händig gör-det-självare kan göra med rätt del. Byte av dräneringspump är liknande i kostnad. Om den yttre trumman är sprucken kan reparationskostnaderna bli så höga att det kan vara mer ekonomiskt att byta ut maskinen, särskilt på äldre modeller.",
+          "question": "Vad kostar det vanligtvis att reparera ett Bosch F23-fel?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:47:52.922997+00:00"
+    },
+    {
+      "id": 338,
+      "article_id": 205,
+      "locale": "en",
+      "slug": "error-code-f43",
+      "title_tag": "Bosch Washing Machine Error Code F43 | Drum Not Turning",
+      "meta_description": "Bosch washing machine showing error F43? Learn what causes the drum to stop turning and how to fix motor, brush, and jam issues yourself.",
+      "h1": "What Does Error Code F43 Mean on a Bosch Washing Machine?",
+      "description": "Error code F43 on a Bosch washing machine indicates that the drum has stopped turning, caused by a jammed motor, worn carbon brushes, or a faulty motor.",
+      "quick_fix": "Check the drum for a physical obstruction by rotating it by hand with the machine unplugged — if it turns freely, reset the machine by unplugging it for 5 minutes and restarting the cycle to clear a temporary motor fault (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code F43 means your Bosch washing machine has detected that the drum is not rotating as it should. The machine monitors motor speed and drum movement throughout every cycle, and when it cannot confirm the drum is turning correctly, it stops the programme and displays F43 to prevent damage to the motor or your laundry.</p><p>When this error appears, the wash cycle will halt mid-programme. You may notice the machine is silent where you would normally hear the drum turning, or it may make a humming sound as the motor attempts to run but fails to drive the drum. The door will remain locked while the fault is active.</p><p>The underlying cause can range from something as simple as a foreign object jamming the drum to worn motor brushes or a failing motor — so it is worth working through the checks in order before assuming the worst.</p>",
+      "causes_json": [
+        {
+          "cause": "Foreign object jamming the drum or drum bearing",
+          "detail": "Coins, bra underwires, or small items of clothing can become lodged between the drum and the door seal or inner tub, physically preventing the drum from rotating. This is one of the most common triggers for F43 and is often the easiest to resolve."
+        },
+        {
+          "cause": "Worn or failed carbon motor brushes",
+          "detail": "Bosch washing machines with brushed motors rely on carbon brushes to transfer electrical current to the motor. Over time these brushes wear down and lose contact, causing the motor to lose power intermittently or stop driving the drum altogether."
+        },
+        {
+          "cause": "Seized or failing drive motor",
+          "detail": "The motor itself can seize due to overheating, bearing failure, or general wear after years of use. A seized motor will often produce a humming noise as it tries to start but cannot turn the drum shaft."
+        },
+        {
+          "cause": "Worn or broken drive belt",
+          "detail": "Many Bosch washing machine models use a drive belt to connect the motor to the drum pulley. If this belt snaps or slips off, the motor will run but the drum will not move, triggering F43."
+        },
+        {
+          "cause": "Faulty motor control board or wiring",
+          "detail": "The motor control module regulates power delivery to the motor. A fault on this board, or damaged wiring between the board and the motor, can prevent the motor from receiving the correct signals to run."
+        },
+        {
+          "cause": "Overloaded drum",
+          "detail": "An excessively heavy load can place enough strain on the motor to prevent it from reaching the required speed, causing the machine to detect a drum fault. This is more likely to occur on older machines where motor performance has already declined slightly."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Unplug the machine and check for obstructions",
+          "detail": "Switch the machine off at the wall and unplug it from the mains. Open the door and carefully run your hand around the rubber door seal, feeling for any trapped items such as coins, wires, or fabric. Try rotating the drum by hand — it should turn with moderate resistance. If it feels completely locked or grinds, there is likely a physical obstruction or a seized bearing."
+        },
+        {
+          "step": 2,
+          "action": "Reduce the load and restart",
+          "detail": "If the drum was overloaded, remove roughly half the laundry and redistribute the remaining items evenly. Plug the machine back in, select a short cycle, and observe whether the drum begins to turn normally. An overload is a quick fix that takes only a few minutes to test."
+        },
+        {
+          "step": 3,
+          "action": "Perform a power reset",
+          "detail": "Unplug the washing machine from the mains socket and leave it disconnected for at least 5 minutes. This allows the motor control electronics to fully reset. Plug back in, select a spin-only programme, and watch and listen to confirm whether the drum rotates. This resolves temporary motor control glitches that can trigger F43."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the drive belt",
+          "detail": "To access the drive belt you will need to remove the rear panel of the machine — unscrew the retaining screws around the panel edge and lift it away. Look at the large drum pulley and the motor pulley. If the belt is snapped, lying loose at the bottom of the machine, or visibly cracked and frayed, it needs replacing. Replacement belts are inexpensive and widely available for most Bosch models."
+        },
+        {
+          "step": 5,
+          "action": "Check and replace the carbon brushes",
+          "detail": "With the rear panel removed, locate the motor — the carbon brushes are housed in small plastic holders on either side of the motor body. Slide or unscrew the brush holders out and inspect the brushes. If the carbon tip is shorter than approximately 5–6 mm or is visibly crumbled, the brushes are worn and should be replaced as a pair. New brushes are a low-cost part and fitting them is straightforward with basic tools."
+        },
+        {
+          "step": 6,
+          "action": "Inspect motor wiring and connections",
+          "detail": "While the rear panel is off, check the wiring harness running to the motor for any signs of burning, chafing, or loose connectors. Press each connector firmly to ensure it is fully seated. Damaged wiring should be repaired or replaced before running the machine again, as poor connections can cause intermittent faults and further damage."
+        },
+        {
+          "step": 7,
+          "action": "Test the motor directly",
+          "detail": "If all the above checks pass and the drum still does not turn, the motor itself may have failed. A multimeter can be used to test motor winding resistance — consult your model's service data for the expected values. A reading of zero (short circuit) or infinite resistance (open circuit) confirms a failed motor winding, meaning the motor needs to be replaced."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have checked for obstructions, replaced the drive belt, and fitted new carbon brushes but the drum still will not turn, the motor itself has likely failed or the motor control board is faulty. These components require accurate diagnosis with test equipment and, in the case of the control board, careful handling to avoid further damage.</p><p>You should also call a service technician if you notice any burning smell coming from the machine, scorch marks around the motor or wiring, or if the machine trips your household circuit breaker when it attempts to start. These are signs of an electrical fault that should not be investigated without professional knowledge.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch F43 error are the <strong>carbon motor brushes</strong>, the <strong>drive belt</strong>, and in more serious cases the <strong>drive motor</strong> itself. Keeping a set of carbon brushes on hand is worthwhile if your machine is more than five years old, as they wear gradually and replacing them before complete failure can prevent the F43 fault from occurring in the first place.</p><p>To reduce the risk of F43 recurring, always check pockets before loading laundry to prevent foreign objects from jamming the drum, avoid consistently overloading the machine, and run a maintenance wash monthly to keep the motor and drum components in good condition. Search for compatible parts for your specific Bosch model using the widget below.</p>\n<!-- SPARE_PARTS:F43 -->",
+      "faq_json": [
+        {
+          "answer": "No — when F43 is active the machine has stopped the cycle because the drum is not rotating safely. Running it in this state risks overheating the motor or causing further damage. Resolve the fault before using the machine again.",
+          "question": "Can I still use my Bosch washing machine while it shows F43?"
+        },
+        {
+          "answer": "Worn brushes typically cause the drum to turn intermittently or only at certain speeds before failing completely, and the machine may have been cutting out more frequently in the weeks before F43 appeared. A fully seized motor usually produces a humming sound with no drum movement at all from the first attempt. Inspecting the brush length is a quick visual check — if they are worn down, replace them first before assuming the motor is at fault.",
+          "question": "How do I know if it is the brushes or the motor that has failed?"
+        },
+        {
+          "answer": "Carbon brushes typically last between 5 and 10 years depending on how frequently the machine is used and the types of programmes selected. High-spin cycles place more demand on the motor and can accelerate brush wear. Replacing them proactively around the 7-year mark is a sensible precaution.",
+          "question": "How long do carbon brushes last in a Bosch washing machine?"
+        },
+        {
+          "answer": "If the drum turns freely by hand but the machine shows F43, a broken belt is a strong possibility — the motor is running but not driving the drum. However, if the drum is stiff or locked, the belt is unlikely to be the sole cause and you should also check for obstructions and inspect the motor and bearings.",
+          "question": "Will a new drive belt fix F43 if the drum turns freely by hand?"
+        },
+        {
+          "answer": "It depends on the cause. Carbon brushes and drive belts are inexpensive parts, typically costing between £5 and £25, and can be fitted at home with basic tools. A replacement motor is more costly, usually £60–£150 for the part alone, and fitting it adds labour time. A motor control board replacement is the most expensive outcome and may not be economical on an older machine.",
+          "question": "Is F43 on a Bosch washing machine an expensive repair?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:48:47.495049+00:00"
+    },
+    {
+      "id": 339,
+      "article_id": 205,
+      "locale": "sv",
+      "slug": "felkod-f43",
+      "title_tag": "Bosch Tvättmaskin Felkod F43 | Trumman Snurrar Inte",
+      "meta_description": "Visar din Bosch tvättmaskin felkod F43? Lär dig vad som orsakar att trumman slutar snurra och hur du själv åtgärdar problem med motor, borstar och igensättningar.",
+      "h1": "Vad Betyder Felkod F43 på en Bosch Tvättmaskin?",
+      "description": "Felkod F43 på en Bosch tvättmaskin indikerar att trumman har slutat snurra, orsakat av en blockerad motor, slitna kolborstar eller en defekt motor.",
+      "quick_fix": "Kontrollera om trumman är fysiskt blockerad genom att rotera den för hand med maskinen urkopplad — om den snurrar fritt, återställ maskinen genom att dra ur kontakten i 5 minuter och starta om programmet för att rensa ett tillfälligt motorfel (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod F43 innebär att din Bosch tvättmaskin har upptäckt att trumman inte roterar som den ska. Maskinen övervakar motorhastigheten och trummans rörelse under hela cykeln, och när den inte kan bekräfta att trumman snurrar korrekt stoppar den programmet och visar F43 för att förhindra skador på motorn eller tvätten.</p><p>När detta fel uppstår avbryts tvättcykeln mitt i programmet. Du kan märka att maskinen är tyst där du normalt skulle höra trumman snurra, eller att den avger ett surrande ljud när motorn försöker starta men inte lyckas driva trumman. Luckan förblir låst så länge felet är aktivt.</p><p>Den bakomliggande orsaken kan variera från något så enkelt som ett främmande föremål som blockerar trumman till slitna motorborstar eller en defekt motor — det är därför värt att gå igenom kontrollerna i ordning innan du antar det värsta.</p>",
+      "causes_json": [
+        {
+          "cause": "Främmande föremål blockerar trumman eller trumlagret",
+          "detail": "Mynt, bh-byglar eller små klädesplagg kan fastna mellan trumman och dörrtätningen eller det inre karet och fysiskt förhindra trumman från att rotera. Detta är en av de vanligaste orsakerna till F43 och är ofta den enklaste att åtgärda."
+        },
+        {
+          "cause": "Slitna eller defekta kolmotorborstar",
+          "detail": "Bosch tvättmaskiner med borstmotorer är beroende av kolborstar för att överföra elektrisk ström till motorn. Med tiden slits dessa borstar ned och förlorar kontakt, vilket gör att motorn tappar kraft periodvis eller helt slutar driva trumman."
+        },
+        {
+          "cause": "Kärvad eller defekt drivmotor",
+          "detail": "Motorn själv kan kärva på grund av överhettning, lagerhaveri eller allmänt slitage efter många års användning. En kärvad motor avger ofta ett surrande ljud när den försöker starta men inte kan rotera trumaxeln."
+        },
+        {
+          "cause": "Sliten eller trasig drivrem",
+          "detail": "Många Bosch tvättmaskinmodeller använder en drivrem för att koppla samman motorn med trummans remskiva. Om denna rem går av eller glider av kommer motorn att gå men trumman inte att röra sig, vilket utlöser F43."
+        },
+        {
+          "cause": "Defekt motorstyrningskort eller kablage",
+          "detail": "Motorstyrningsmodulen reglerar strömtillförseln till motorn. Ett fel på detta kort, eller skadat kablage mellan kortet och motorn, kan förhindra att motorn tar emot rätt signaler för att starta."
+        },
+        {
+          "cause": "Överfylld trumma",
+          "detail": "En alltför tung last kan belasta motorn tillräckligt mycket för att förhindra att den når erforderlig hastighet, vilket gör att maskinen registrerar ett trumfel. Detta är mer sannolikt på äldre maskiner där motorprestandan redan har minskat något."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Dra ur kontakten och kontrollera om det finns hinder",
+          "detail": "Stäng av maskinen vid vägguttaget och dra ur kontakten. Öppna luckan och känn försiktigt längs gummitätningen runt dörren efter eventuellt fastnade föremål som mynt, trådar eller tyg. Försök rotera trumman för hand — den ska snurra med måttligt motstånd. Om den känns helt låst eller gnisslar finns det troligen ett fysiskt hinder eller ett kärvat lager."
+        },
+        {
+          "step": 2,
+          "action": "Minska lasten och starta om",
+          "detail": "Om trumman var överfylld, ta ut ungefär hälften av tvätten och fördela de kvarvarande plaggen jämnt. Sätt i kontakten igen, välj ett kort program och observera om trumman börjar snurra normalt. En överlast är en snabb åtgärd som bara tar några minuter att testa."
+        },
+        {
+          "step": 3,
+          "action": "Utför en strömåterställning",
+          "detail": "Dra ur tvättmaskinens kontakt från vägguttaget och låt den vara urkopplad i minst 5 minuter. Detta gör att motorstyrningselektroniken kan återställas helt. Sätt i kontakten igen, välj ett centrifugeringsprogram och lyssna och titta för att bekräfta om trumman roterar. Detta löser tillfälliga motorstyrningsfel som kan utlösa F43."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera drivremmen",
+          "detail": "För att komma åt drivremmen behöver du ta bort maskinens bakpanel — skruva loss fästskruvarna runt panelkanten och lyft bort den. Titta på den stora trummans remskiva och motorns remskiva. Om remmen är av, ligger löst i botten av maskinen eller är synligt sprucken och fransig behöver den bytas. Ersättningsremmar är billiga och finns tillgängliga för de flesta Bosch-modeller."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera och byt kolborstarna",
+          "detail": "Med bakpanelen borttagen, lokalisera motorn — kolborstarna sitter i små planthållare på vardera sidan av motorhuset. Dra ut eller skruva loss borstehållarna och inspektera borstarna. Om kolspetsen är kortare än ungefär 5–6 mm eller är synligt söndersmulad är borstarna slitna och bör bytas ut i par. Nya borstar är en billig reservdel och monteringen är enkel med grundläggande verktyg."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera motorkablage och anslutningar",
+          "detail": "Medan bakpanelen är borttagen, kontrollera kabelstammen som leder till motorn efter tecken på brännskador, nötning eller lösa kontakter. Tryck in varje kontakt ordentligt för att säkerställa att den sitter fast. Skadat kablage bör repareras eller bytas ut innan maskinen körs igen, eftersom dåliga anslutningar kan orsaka intermittenta fel och ytterligare skador."
+        },
+        {
+          "step": 7,
+          "action": "Testa motorn direkt",
+          "detail": "Om alla ovanstående kontroller är godkända och trumman fortfarande inte snurrar kan motorn själv ha gått sönder. En multimeter kan användas för att testa motorlindningarnas resistans — konsultera din modells servicedata för förväntade värden. En avläsning på noll (kortslutning) eller oändligt motstånd (öppen krets) bekräftar en defekt motorlindning, vilket innebär att motorn behöver bytas ut."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har kontrollerat efter hinder, bytt drivremmen och monterat nya kolborstar men trumman fortfarande inte snurrar har motorn troligen gått sönder eller så är motorstyrningskortet defekt. Dessa komponenter kräver noggrann diagnos med testutrustning och, när det gäller styrningskortet, försiktig hantering för att undvika ytterligare skador.</p><p>Du bör också kontakta en servicetekniker om du märker en bränd lukt från maskinen, brännmärken runt motorn eller kablagen, eller om maskinen löser ut din hushållssäkring när den försöker starta. Dessa är tecken på ett elfel som inte bör undersökas utan professionell kunskap.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett Bosch F43-fel är <strong>kolmotorborstarna</strong>, <strong>drivremmen</strong> och i allvarligare fall <strong>drivmotorn</strong> själv. Att ha ett set kolborstar till hands är klokt om din maskin är mer än fem år gammal, eftersom de slits gradvis och att byta dem innan de är helt utslitna kan förhindra att F43-felet uppstår överhuvudtaget.</p><p>För att minska risken för att F43 återkommer, kontrollera alltid fickor innan du lägger i tvätten för att förhindra att främmande föremål blockerar trumman, undvik att konsekvent överfylla maskinen och kör ett underhållsprogram månadsvis för att hålla motor och trumkomponenter i gott skick. Sök efter kompatibla reservdelar för din specifika Bosch-modell med hjälp av widgeten nedan.</p>\n<!-- SPARE_PARTS:F43 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — när F43 är aktivt har maskinen stoppat cykeln eftersom trumman inte roterar på ett säkert sätt. Att köra den i detta tillstånd riskerar att överhetta motorn eller orsaka ytterligare skador. Åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag fortfarande använda min Bosch tvättmaskin när den visar F43?"
+        },
+        {
+          "answer": "Slitna borstar gör vanligtvis att trumman snurrar periodvis eller bara vid vissa hastigheter innan den slutar helt, och maskinen kan ha stängt av sig allt oftare under veckorna innan F43 uppstod. En helt kärvad motor avger vanligtvis ett surrande ljud utan någon trumrörelse alls från första försöket. Att inspektera borstlängden är en snabb visuell kontroll — om de är slitna, byt dem först innan du antar att motorn är defekt.",
+          "question": "Hur vet jag om det är borstarna eller motorn som har gått sönder?"
+        },
+        {
+          "answer": "Kolborstar håller vanligtvis mellan 5 och 10 år beroende på hur ofta maskinen används och vilka program som väljs. Höghastighetscentrifugering belastar motorn mer och kan påskynda borstslitaget. Att byta dem förebyggande runt 7-årsmarkeringen är en klok försiktighetsåtgärd.",
+          "question": "Hur länge håller kolborstarna i en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Om trumman snurrar fritt för hand men maskinen visar F43 är en trasig rem en stark möjlighet — motorn går men driver inte trumman. Om trumman däremot är stel eller låst är remmen troligen inte den enda orsaken och du bör även kontrollera efter hinder och inspektera motorn och lagren.",
+          "question": "Löser en ny drivrem F43 om trumman snurrar fritt för hand?"
+        },
+        {
+          "answer": "Det beror på orsaken. Kolborstar och drivremmar är billiga reservdelar som vanligtvis kostar mellan 50 och 250 kronor och kan monteras hemma med grundläggande verktyg. En ersättningsmotor är dyrare, vanligtvis 600–1 500 kronor för enbart delen, och monteringen tillkommer i arbetstid. Byte av motorstyrningskort är det dyraste utfallet och kan vara olönsamt på en äldre maskin.",
+          "question": "Är F43 på en Bosch tvättmaskin en dyr reparation?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:50:02.389481+00:00"
+    },
+    {
+      "id": 340,
+      "article_id": 206,
+      "locale": "en",
+      "slug": "error-code-no",
+      "title_tag": "Bosch Washing Machine Error Code NO | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code NO? Learn what causes water not entering, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code NO Mean on a Bosch Washing Machine?",
+      "description": "Error code NO on a Bosch washing machine indicates that water is not entering the drum within the expected time, signalling a fault in the water supply or inlet system.",
+      "quick_fix": "Check that the cold water tap behind the machine is fully open, straighten any kinks in the inlet hose, and restart the cycle — this resolves the majority of NO error cases (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code NO appears on certain basic Bosch washing machine models when the appliance fails to detect water entering the drum at the start of a cycle or during a fill phase. It is functionally equivalent to the E17 fault code used on other Bosch models, and both point to the same underlying problem: the machine is not receiving an adequate water supply.</p><p>When this error triggers, the wash cycle will pause or stop entirely, and the error code will be displayed on the control panel. The machine is protecting itself — running a drum without water could damage the motor, heating element, and drum bearings. In most cases, the fault lies outside the machine itself, making it one of the more straightforward errors a homeowner can investigate.</p><p>Before assuming a component has failed, work through the supply-side checks first. The majority of NO errors are resolved without replacing any parts at all.</p>",
+      "causes_json": [
+        {
+          "cause": "Water tap turned off or not fully open",
+          "detail": "The cold water supply tap behind the machine may have been accidentally closed or left only partially open. Even a tap that is three-quarters open can restrict flow enough to trigger the error."
+        },
+        {
+          "cause": "Kinked or blocked inlet hose",
+          "detail": "The rubber hose connecting the tap to the machine can become kinked if the machine has been pushed back against the wall. A partial blockage from limescale or debris inside the hose can also reduce flow to a level the machine cannot work with."
+        },
+        {
+          "cause": "Blocked inlet hose filter mesh",
+          "detail": "A small mesh filter sits inside the inlet hose connection at the back of the machine. Over time this filter collects sediment and limescale, gradually reducing water flow until the machine can no longer fill correctly."
+        },
+        {
+          "cause": "Faulty or seized water inlet valve",
+          "detail": "The inlet valve is an electrically operated solenoid valve that opens to allow water in. If the solenoid coil fails or the valve body becomes clogged with scale, it will not open fully or at all, preventing water from entering."
+        },
+        {
+          "cause": "Low mains water pressure",
+          "detail": "Bosch washing machines require a minimum water pressure — typically around 0.5 bar — to fill correctly. If your household pressure drops below this, perhaps due to works in the street or a shared supply, the machine may not fill in time and will display the NO error."
+        },
+        {
+          "cause": "Faulty pressure sensor or wiring",
+          "detail": "The pressure sensor (also called a pressure switch or level sensor) monitors how much water is in the drum. If it is faulty or its connecting hose is blocked, it may incorrectly report that the drum is already full or fail to signal that filling has begun, causing the machine to stop and display the error."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the water supply tap",
+          "detail": "Locate the cold water tap on the wall or under the sink behind the machine and confirm it is turned fully anticlockwise (open). If it was closed or only partially open, open it fully and restart the cycle. This single check resolves the error in a significant number of cases."
+        },
+        {
+          "step": 2,
+          "action": "Inspect the inlet hose for kinks",
+          "detail": "Pull the machine gently away from the wall and run your hand along the full length of the inlet hose. Straighten any kinks or tight bends you find. Once the hose lies in a smooth curve, push the machine back carefully to avoid re-kinking it, then restart the cycle."
+        },
+        {
+          "step": 3,
+          "action": "Clean the inlet hose filter mesh",
+          "detail": "Turn off the water tap, then unscrew the inlet hose from the back of the machine — have a towel ready as some water will spill. Use a pair of needle-nose pliers or a small screwdriver to carefully pull out the mesh filter from the machine's inlet port. Rinse it under the tap and remove any visible debris or limescale. Refit the filter, reconnect the hose, and turn the tap back on."
+        },
+        {
+          "step": 4,
+          "action": "Check household water pressure",
+          "detail": "Turn on a cold tap elsewhere in the house and observe the flow. If pressure seems unusually low throughout the property, contact your water supplier to check for local supply issues. You can also ask a plumber to measure pressure at the machine's supply point if you suspect a persistent low-pressure problem."
+        },
+        {
+          "step": 5,
+          "action": "Test the inlet valve",
+          "detail": "With the machine unplugged and the water supply off, disconnect the inlet hose and inspect the valve body at the back of the machine for visible scale build-up or damage. You can test the solenoid coil with a multimeter — a reading outside the manufacturer's specified resistance range (typically 3–5 kΩ) indicates a failed coil. A faulty inlet valve will need to be replaced."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the pressure sensor and its hose",
+          "detail": "The pressure sensor is usually located inside the machine's top panel, connected to the drum by a thin rubber hose. Unplug the machine, remove the top panel (two screws at the rear), and check that the small rubber hose running to the sensor is not blocked, split, or disconnected. Blow gently through the hose to clear any blockage. If the sensor itself is suspected faulty, it will need testing or replacing."
+        },
+        {
+          "step": 7,
+          "action": "Perform a reset",
+          "detail": "After completing any of the above checks, switch the machine off at the mains, wait 60 seconds, then switch it back on and select a fresh cycle. This clears any stored fault state and allows the machine to attempt a normal fill sequence from scratch."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have confirmed the water supply is fully open, the hose is clear and undamaged, and the filter mesh is clean, but the machine still displays the NO error, the fault is likely internal. A failed inlet valve solenoid, a defective pressure sensor, or a wiring fault between these components and the control board are not straightforward DIY repairs and carry a risk of water damage if reassembled incorrectly.</p><p>You should also contact a service technician if you notice any signs of water leaking from the inlet valve area, if the machine trips your household electrics when it attempts to fill, or if the error code returns immediately after a reset with no obvious supply-side cause.</p>",
+      "prevention_html": "<p>The most commonly replaced parts for a Bosch washing machine NO error are the <strong>water inlet valve</strong> (the solenoid valve assembly at the rear of the machine), the <strong>inlet hose filter mesh</strong> (a low-cost item worth replacing if the original is corroded or deformed), and the <strong>pressure sensor</strong> (also called the water level switch). Keeping the filter mesh clean every six to twelve months is the single most effective way to prevent this error from recurring, particularly in hard water areas.</p><p>If you need to order any of these parts, use the search tool below to find components compatible with your specific Bosch model number.</p>\n<!-- SPARE_PARTS:NO -->",
+      "faq_json": [
+        {
+          "answer": "Yes, they describe the same fault — water not entering the machine within the expected time. The NO code appears on certain basic or older Bosch models that use a simpler display, while E17 is shown on models with a more detailed numeric fault code system. The causes and fixes are identical for both.",
+          "question": "Is error code NO the same as error code E17 on Bosch washing machines?"
+        },
+        {
+          "answer": "No. The machine will not progress past the fill stage while the error is active, so running a cycle is not possible until the fault is resolved. Attempting to force a cycle without water present could damage the heating element and drum bearings, so it is best to diagnose and fix the issue first.",
+          "question": "Can I still use my washing machine while it shows the NO error?"
+        },
+        {
+          "answer": "If the filter mesh is clean, the hose is clear, and the tap is fully open but the machine still will not fill, the inlet valve is a strong suspect. You can confirm this by testing the solenoid coil with a multimeter — a reading outside the normal resistance range, or an open circuit, means the valve has failed and needs replacing. A valve that is visibly cracked or leaking should also be replaced immediately.",
+          "question": "How do I know if my water inlet valve needs replacing?"
+        },
+        {
+          "answer": "Intermittent filling problems often point to a partially blocked inlet valve or a filter mesh that is not fully blocked but is restricting flow enough to cause occasional failures. It can also indicate borderline low water pressure that dips below the machine's minimum requirement at certain times of day. Cleaning the filter mesh and checking pressure are the best starting points.",
+          "question": "My machine fills fine on some cycles but shows NO on others — what does that mean?"
+        },
+        {
+          "answer": "In hard water areas, cleaning the inlet filter every six months is a sensible routine. In soft water areas, once a year is usually sufficient. The process takes only a few minutes and can prevent the NO error from occurring in the first place, making it one of the most worthwhile pieces of basic washing machine maintenance.",
+          "question": "How often should I clean the inlet hose filter on my Bosch washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:50:54.160732+00:00"
+    },
+    {
+      "id": 341,
+      "article_id": 206,
+      "locale": "sv",
+      "slug": "felkod-no",
+      "title_tag": "Bosch tvättmaskin felkod NO | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod NO? Lär dig vad som orsakar att vatten inte kommer in, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod NO på en Bosch tvättmaskin?",
+      "description": "Felkod NO på en Bosch tvättmaskin indikerar att vatten inte fyller trumman inom förväntad tid, vilket signalerar ett fel i vattenförsörjningen eller inloppsystemet.",
+      "quick_fix": "Kontrollera att kallvattenkranen bakom maskinen är helt öppen, räta ut eventuella veck i inloppslangen och starta om programmet – detta löser de flesta NO-felfall (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod NO visas på vissa grundläggande Bosch tvättmaskinmodeller när maskinen inte kan detektera att vatten fyller trumman i början av ett program eller under en fyllningsfas. Den är funktionellt likvärdig med felkod E17 som används på andra Bosch-modeller, och båda pekar på samma grundläggande problem: maskinen får inte tillräcklig vattenförsörjning.</p><p>När detta fel utlöses pausas eller stoppas tvättcykeln helt, och felkoden visas på kontrollpanelen. Maskinen skyddar sig själv – att köra en trumma utan vatten kan skada motorn, värmeelement och trumlagren. I de flesta fall ligger felet utanför själva maskinen, vilket gör det till ett av de mer lätthanterliga felen som en husägare kan undersöka.</p><p>Innan du antar att en komponent har gått sönder bör du först gå igenom kontrollerna på försörjningssidan. De flesta NO-fel löses utan att några delar behöver bytas ut.</p>",
+      "causes_json": [
+        {
+          "cause": "Vattenkranen avstängd eller inte helt öppen",
+          "detail": "Kallvattenkranen bakom maskinen kan ha stängts av misstag eller lämnats bara delvis öppen. Även en kran som är tre fjärdedelar öppen kan begränsa flödet tillräckligt för att utlösa felet."
+        },
+        {
+          "cause": "Veckad eller blockerad inloppsslang",
+          "detail": "Gummislangen som förbinder kranen med maskinen kan bli veckad om maskinen har skjutits tillbaka mot väggen. En partiell blockering av kalkavlagringar eller skräp inuti slangen kan också minska flödet till en nivå som maskinen inte kan arbeta med."
+        },
+        {
+          "cause": "Igensatt filtermesh i inloppsslangen",
+          "detail": "Ett litet nätfilter sitter inuti inloppsslangskopplingen på maskinens baksida. Med tiden samlar detta filter upp sediment och kalkavlagringar, vilket gradvis minskar vattenflödet tills maskinen inte längre kan fylla korrekt."
+        },
+        {
+          "cause": "Defekt eller fastnad vatteninloppsventil",
+          "detail": "Inloppsventilen är en elektriskt styrd magnetventil som öppnas för att släppa in vatten. Om magnetspolen går sönder eller ventilkroppen täpps igen av kalk, öppnas den inte fullt ut eller inte alls, vilket hindrar vatten från att komma in."
+        },
+        {
+          "cause": "Lågt vattentryck i ledningsnätet",
+          "detail": "Bosch tvättmaskiner kräver ett minsta vattentryck – vanligtvis cirka 0,5 bar – för att fylla korrekt. Om hushållets tryck sjunker under detta, kanske på grund av arbeten i gatan eller en delad vattenförsörjning, kanske maskinen inte hinner fylla i tid och visar NO-felet."
+        },
+        {
+          "cause": "Defekt trycksensor eller kablage",
+          "detail": "Trycksensorn (även kallad pressostaten eller nivåsensorn) övervakar hur mycket vatten som finns i trumman. Om den är defekt eller dess anslutningsslang är blockerad kan den felaktigt rapportera att trumman redan är full eller misslyckas med att signalera att fyllning har påbörjats, vilket får maskinen att stanna och visa felet."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera vattenkranen",
+          "detail": "Leta upp kallvattenkranen på väggen eller under diskhon bakom maskinen och bekräfta att den är vriden helt moturs (öppen). Om den var stängd eller bara delvis öppen, öppna den helt och starta om programmet. Denna enkla kontroll löser felet i ett betydande antal fall."
+        },
+        {
+          "step": 2,
+          "action": "Inspektera inloppsslangen för veck",
+          "detail": "Dra försiktigt ut maskinen från väggen och känn längs hela inloppsslangen. Räta ut eventuella veck eller skarpa böjar du hittar. När slangen ligger i en jämn kurva, skjut försiktigt tillbaka maskinen för att undvika att den vecklas igen, och starta sedan om programmet."
+        },
+        {
+          "step": 3,
+          "action": "Rengör filtermeshet i inloppsslangen",
+          "detail": "Stäng av vattenkranen och skruva sedan loss inloppsslangen från maskinens baksida – ha en handduk till hands eftersom lite vatten kommer att rinna ut. Använd en spetsnåltång eller en liten skruvmejsel för att försiktigt dra ut nätfiltret från maskinens inloppsöppning. Skölj det under kranen och ta bort synligt skräp eller kalkavlagringar. Sätt tillbaka filtret, återanslut slangen och öppna kranen igen."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera hushållets vattentryck",
+          "detail": "Öppna en kallvattenkran på annan plats i huset och observera flödet. Om trycket verkar ovanligt lågt i hela fastigheten, kontakta ditt vattenbolag för att kontrollera om det finns lokala försörjningsproblem. Du kan också be en rörmokare mäta trycket vid maskinens anslutningspunkt om du misstänker ett ihållande lågtrycksproblem."
+        },
+        {
+          "step": 5,
+          "action": "Testa inloppsventilen",
+          "detail": "Med maskinen urkopplad och vattenförsörjningen avstängd, koppla loss inloppsslangen och inspektera ventilkroppen på maskinens baksida för synliga kalkavlagringar eller skador. Du kan testa magnetspolen med en multimeter – ett värde utanför tillverkarens angivna motståndsvärde (vanligtvis 3–5 kΩ) indikerar en defekt spole. En defekt inloppsventil måste bytas ut."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera trycksensorn och dess slang",
+          "detail": "Trycksensorn sitter vanligtvis inuti maskinens toppanel, ansluten till trumman via en tunn gummislang. Koppla ur maskinen, ta bort toppanelen (två skruvar baktill) och kontrollera att den lilla gummislangen som leder till sensorn inte är blockerad, sprucken eller lossnad. Blås försiktigt genom slangen för att rensa eventuella blockeringar. Om sensorn själv misstänks vara defekt behöver den testas eller bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Utför en återställning",
+          "detail": "Efter att ha genomfört någon av ovanstående kontroller, stäng av maskinen vid eluttaget, vänta 60 sekunder och slå sedan på den igen och välj ett nytt program. Detta rensar eventuellt lagrat feltillstånd och låter maskinen försöka genomföra en normal fyllningssekvens från början."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har bekräftat att vattenförsörjningen är helt öppen, slangen är fri och oskadad och filtermeshet är rent, men maskinen fortfarande visar NO-felet, är felet troligtvis internt. En defekt magnetspole i inloppsventilen, en felaktig trycksensor eller ett kabelfel mellan dessa komponenter och styrkortet är inte enkla gör-det-själv-reparationer och medför risk för vattenskador om de monteras ihop felaktigt.</p><p>Du bör också kontakta en servicetekniker om du märker tecken på vattenläckage från inloppsventilens område, om maskinen löser ut säkringen när den försöker fylla, eller om felkoden återkommer omedelbart efter en återställning utan någon uppenbar orsak på försörjningssidan.</p>",
+      "prevention_html": "<p>De mest utbytta delarna vid Bosch tvättmaskins NO-fel är <strong>vatteninloppsventilen</strong> (magnetventilenheten på maskinens baksida), <strong>filtermeshet i inloppsslangen</strong> (en billig del som är värd att byta ut om originalet är korroderat eller deformerat) och <strong>trycksensorn</strong> (även kallad vattennivåbrytaren). Att hålla filtermeshet rent var sjätte till tolfte månad är det enskilt mest effektiva sättet att förhindra att detta fel återkommer, särskilt i områden med hårt vatten.</p><p>Om du behöver beställa någon av dessa delar, använd sökverktyget nedan för att hitta komponenter som är kompatibla med ditt specifika Bosch modellnummer.</p>\n<!-- SPARE_PARTS:NO -->",
+      "faq_json": [
+        {
+          "answer": "Ja, de beskriver samma fel – vatten som inte kommer in i maskinen inom förväntad tid. NO-koden visas på vissa grundläggande eller äldre Bosch-modeller som använder ett enklare display, medan E17 visas på modeller med ett mer detaljerat numeriskt felkodssystem. Orsakerna och åtgärderna är identiska för båda.",
+          "question": "Är felkod NO samma som felkod E17 på Bosch tvättmaskiner?"
+        },
+        {
+          "answer": "Nej. Maskinen kommer inte att gå vidare förbi fyllningsfasen medan felet är aktivt, så det går inte att köra ett program förrän felet är åtgärdat. Att försöka tvinga igenom ett program utan vatten kan skada värmeelement och trumlagren, så det är bäst att diagnostisera och åtgärda problemet först.",
+          "question": "Kan jag fortfarande använda min tvättmaskin när den visar NO-felet?"
+        },
+        {
+          "answer": "Om filtermeshet är rent, slangen är fri och kranen är helt öppen men maskinen fortfarande inte fyller, är inloppsventilen en stark misstänkt. Du kan bekräfta detta genom att testa magnetspolen med en multimeter – ett värde utanför det normala motståndsvärdet, eller ett öppet kretsvärde, innebär att ventilen har gått sönder och behöver bytas ut. En ventil som är synligt sprucken eller läcker bör också bytas ut omedelbart.",
+          "question": "Hur vet jag om min vatteninloppsventil behöver bytas ut?"
+        },
+        {
+          "answer": "Intermittenta fyllningsproblem pekar ofta på en delvis blockerad inloppsventil eller ett filtermesh som inte är helt igensatt men som begränsar flödet tillräckligt för att orsaka tillfälliga fel. Det kan också indikera ett gränsvärde för lågt vattentryck som sjunker under maskinens minimikrav vid vissa tider på dygnet. Att rengöra filtermeshet och kontrollera trycket är de bästa utgångspunkterna.",
+          "question": "Min maskin fyller bra på vissa program men visar NO på andra – vad betyder det?"
+        },
+        {
+          "answer": "I områden med hårt vatten är det klokt att rengöra inloppsfilter var sjätte månad. I mjukvattenområden räcker det vanligtvis med en gång per år. Processen tar bara några minuter och kan förhindra att NO-felet uppstår överhuvudtaget, vilket gör det till ett av de mest värdefulla inslagen i grundläggande tvättmaskinsskötsel.",
+          "question": "Hur ofta bör jag rengöra inloppsslangsfiltret på min Bosch tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:52:07.904408+00:00"
+    },
+    {
+      "id": 487,
+      "article_id": 312,
+      "locale": "en",
+      "slug": "wont-spin",
+      "title_tag": "Bosch Washing Machine Won't Spin – Causes & Fixes",
+      "meta_description": "Bosch washing machine not spinning? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers error code E50.",
+      "h1": "Why Has My Bosch Washing Machine Stopped Spinning?",
+      "description": "The washing machine completes its cycle but leaves clothes soaking wet because the drum fails to spin or spins too slowly to remove water effectively.",
+      "quick_fix": "Redistribute the laundry load evenly inside the drum, close the door firmly, and restart a spin-only cycle — an unbalanced load is the most common cause and resolving it typically restores full spin speed (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When a Bosch washing machine refuses to spin, you'll usually find clothes still dripping wet at the end of a cycle, or the drum rotating very slowly without building up speed. The machine may pause mid-cycle, display error code E50, or simply stop and drain without ever reaching spin speed. This is one of the more common faults reported across Bosch's range, affecting over 13,000 models.</p><p>The spin function relies on several systems working together: the motor, the motor control board, the door latch, the drain pump, and the load-sensing software. A failure in any one of these can prevent the drum from spinning. The good news is that many causes are straightforward to diagnose at home before any parts need replacing.</p>",
+      "causes_json": [
+        {
+          "cause": "Unbalanced or overloaded drum",
+          "detail": "Bosch machines have built-in sensors that detect an uneven load and will reduce or cancel the spin to prevent vibration damage. A single heavy item like a duvet or a tightly packed drum are the most frequent triggers."
+        },
+        {
+          "cause": "Faulty or worn carbon brushes on the motor",
+          "detail": "The motor uses carbon brushes to transfer electrical current to the spinning armature. As they wear down over time, the motor loses power and can no longer reach spin speed, often triggering error code E50."
+        },
+        {
+          "cause": "Door latch or interlock failure",
+          "detail": "The machine will not enter the spin phase unless it confirms the door is securely locked. A worn or broken door interlock sends no signal to the control board, so the spin cycle is skipped entirely."
+        },
+        {
+          "cause": "Blocked or faulty drain pump",
+          "detail": "Bosch machines will not spin if standing water cannot be removed first. A blocked pump filter, a foreign object in the pump, or a failed pump motor can all prevent drainage and therefore prevent spinning."
+        },
+        {
+          "cause": "Worn or snapped drive belt",
+          "detail": "The drive belt connects the motor to the drum. If it has stretched, slipped off, or snapped, the motor runs but the drum does not move. You may hear the motor humming without any drum rotation."
+        },
+        {
+          "cause": "Faulty motor control board",
+          "detail": "The control board regulates the speed and direction of the motor. A damaged board may fail to send the correct signals during the spin phase, sometimes accompanied by error code E50 or an unresponsive programme selector."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Rebalance the load and run a spin-only cycle",
+          "detail": "Open the door and redistribute the laundry so weight is spread evenly around the drum. Remove a few items if the drum is packed tightly. Select a spin-only programme and press start — if the machine completes the spin, an unbalanced load was the cause."
+        },
+        {
+          "step": 2,
+          "action": "Check and clean the pump filter",
+          "detail": "Locate the filter access panel at the bottom front of the machine. Place a towel and a shallow tray underneath, then slowly unscrew the filter cap to release residual water. Remove any fluff, coins, or debris from the filter and the pump housing, then refit the cap securely before running a test cycle."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the door latch and interlock",
+          "detail": "Close the door and listen for a firm click. If the door feels loose or the machine does not register it as closed, examine the latch hook on the door and the interlock socket on the machine body for visible damage or wear. A faulty interlock will need to be replaced — it is a straightforward part to swap on most Bosch models."
+        },
+        {
+          "step": 4,
+          "action": "Check for error code E50 and reset the machine",
+          "detail": "If E50 is displayed, this points specifically to a motor fault. Try a hard reset first: turn the machine off at the wall socket, wait two minutes, then power it back on and run a short cycle. If E50 returns immediately, the motor or its brushes are likely the cause and further investigation is needed."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the carbon brushes",
+          "detail": "With the machine unplugged, remove the back panel to access the motor. The carbon brushes clip into holders on either side of the motor. Slide them out and measure their length — if they are shorter than 15 mm, they are worn and should be replaced. New brushes are inexpensive and widely available for Bosch motors."
+        },
+        {
+          "step": 6,
+          "action": "Check the drive belt",
+          "detail": "With the back panel still removed, inspect the belt that runs around the drum pulley and motor spindle. Look for signs of fraying, cracking, or a belt that has come off the pulley entirely. A snapped belt is easy to confirm visually. Replacement belts are model-specific, so note your model number before ordering."
+        },
+        {
+          "step": 7,
+          "action": "Test the motor and control board",
+          "detail": "If all the above checks pass but the machine still will not spin, the motor windings or the motor control board may have failed. Testing these components requires a multimeter and some electrical knowledge. If you are not comfortable working with internal wiring, this is the point to contact a service technician."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>Contact a service technician if error code E50 persists after replacing the carbon brushes, if the motor makes a burning smell or unusual grinding noise, or if the drum is completely immobile even when the machine is running. These symptoms suggest a failed motor winding or a damaged control board — both require specialist diagnostic equipment to confirm and are not safe to repair without proper training.</p><p>You should also seek professional help if water remains in the drum after cleaning the pump filter and the pump itself makes no sound during the drain phase, as this may indicate internal pump motor failure or a wiring fault between the pump and the control board.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Bosch washing machine won't spin are the carbon brushes (which have a natural service life and wear gradually), the door interlock switch (which takes repeated mechanical stress every cycle), and the drive belt (which can degrade with age or heavy use). Keeping the pump filter clean every one to three months also reduces strain on the drain system and helps the machine reach spin speed reliably.</p><p>If you need to replace any of these components, use the part finder below to locate the correct parts for your specific Bosch model number.</p>\n<!-- SPARE_PARTS_FAULT:wont-spin -->",
+      "faq_json": [
+        {
+          "answer": "E50 indicates a motor fault, most commonly caused by worn carbon brushes that can no longer supply adequate current to the motor. It can also point to a faulty motor control board or a wiring issue between the board and the motor. Start by inspecting and replacing the brushes, as this resolves the majority of E50 faults.",
+          "question": "What does error code E50 mean on a Bosch washing machine?"
+        },
+        {
+          "answer": "If the machine drains successfully but skips the spin, the most likely causes are a faulty door interlock, worn motor brushes, or a broken drive belt. The machine's safety logic requires a confirmed door lock signal before it will spin, so the interlock is a good first thing to check. If the door locks fine, move on to inspecting the brushes and belt.",
+          "question": "My Bosch washing machine drains but won't spin — what's wrong?"
+        },
+        {
+          "answer": "Yes, replacing carbon brushes is one of the more accessible DIY repairs on a Bosch washing machine. You need to unplug the machine, remove the back panel, and slide the old brushes out of their holders. The process takes around 30 to 45 minutes with basic tools. Make sure you buy brushes rated for your specific motor model.",
+          "question": "Can I replace the carbon brushes myself?"
+        },
+        {
+          "answer": "Slow or incomplete spinning is often caused by partially worn carbon brushes that still supply some current but not enough for high-speed spin. An unbalanced load can also cause the machine to cap its spin speed as a protective measure. Try rebalancing the load first, and if the problem persists, check the condition of the brushes.",
+          "question": "Why does my Bosch washing machine spin slowly but not reach full speed?"
+        },
+        {
+          "answer": "The motor itself can last 10 to 15 years under normal use, but the carbon brushes typically need replacing after 5 to 8 years depending on how frequently the machine is used. Replacing the brushes at the first sign of spin problems is far more cost-effective than allowing a worn brush to damage the motor armature, which is a much more expensive repair.",
+          "question": "How long should a Bosch washing machine motor last?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T14:33:55.615099+00:00"
+    },
+    {
+      "id": 488,
+      "article_id": 312,
+      "locale": "sv",
+      "slug": "centrifugerar-inte",
+      "title_tag": "Bosch tvättmaskin centrifugerar inte – orsaker och lösningar",
+      "meta_description": "Centrifugerar inte din Bosch tvättmaskin? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkod E50.",
+      "h1": "Varför har min Bosch tvättmaskin slutat centrifugera?",
+      "description": "Tvättmaskinen slutför sitt program men lämnar kläderna genomblöta eftersom trumman inte centrifugerar eller snurrar för långsamt för att effektivt avlägsna vatten.",
+      "quick_fix": "Fördela tvätten jämnt i trumman, stäng luckan ordentligt och starta ett centrifugeringsprogram – en obalanserad last är den vanligaste orsaken och att åtgärda detta återställer vanligtvis full centrifugeringshastighet (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en Bosch tvättmaskin vägrar centrifugera hittar du vanligtvis kläder som fortfarande droppar i slutet av ett program, eller att trumman roterar mycket långsamt utan att bygga upp hastighet. Maskinen kan pausa mitt i programmet, visa felkod E50, eller helt enkelt stanna och tömma utan att någonsin nå centrifugeringshastighet. Detta är ett av de vanligare felen som rapporteras i Boschs sortiment och berör över 13 000 modeller.</p><p>Centrifugeringsfunktionen är beroende av att flera system fungerar tillsammans: motorn, motorstyrkortet, lucklåset, avloppspumpen och lastdetekteringsprogramvaran. Ett fel i något av dessa kan hindra trumman från att centrifugera. Den goda nyheten är att många orsaker är enkla att diagnostisera hemma innan några delar behöver bytas ut.</p>",
+      "causes_json": [
+        {
+          "cause": "Obalanserad eller överlastad trumma",
+          "detail": "Bosch-maskiner har inbyggda sensorer som upptäcker en ojämn last och minskar eller avbryter centrifugeringen för att förhindra vibrationsskador. Ett enstaka tungt plagg som en duntäcke eller en hårt packad trumma är de vanligaste orsakerna."
+        },
+        {
+          "cause": "Defekta eller slitna kolborstar på motorn",
+          "detail": "Motorn använder kolborstar för att överföra elektrisk ström till den roterande ankaret. När de slits ned med tiden förlorar motorn kraft och kan inte längre nå centrifugeringshastighet, vilket ofta utlöser felkod E50."
+        },
+        {
+          "cause": "Fel på lucklås eller säkerhetsbrytare",
+          "detail": "Maskinen går inte in i centrifugeringsfasen om den inte bekräftar att luckan är ordentligt låst. En sliten eller trasig säkerhetsbrytare skickar ingen signal till styrkortet, vilket gör att centrifugeringsprogrammet hoppas över helt."
+        },
+        {
+          "cause": "Igensatt eller defekt avloppspump",
+          "detail": "Bosch-maskiner centrifugerar inte om stående vatten inte kan avlägsnas först. Ett igensatt pumpfilter, ett främmande föremål i pumpen eller en defekt pumpmotor kan alla förhindra avlopp och därmed centrifugering."
+        },
+        {
+          "cause": "Sliten eller av drivrem",
+          "detail": "Drivremmen förbinder motorn med trumman. Om den har sträckts ut, halkade av eller gått av körs motorn men trumman rör sig inte. Du kan höra motorn surra utan någon trumrotation."
+        },
+        {
+          "cause": "Defekt motorstyrkortet",
+          "detail": "Styrkortet reglerar motorns hastighet och riktning. Ett skadat kort kan misslyckas med att skicka rätt signaler under centrifugeringsfasen, ibland åtföljt av felkod E50 eller en icke-responsiv programväljare."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Balansera om lasten och kör ett centrifugeringsprogram",
+          "detail": "Öppna luckan och fördela om tvätten så att vikten är jämnt fördelad runt trumman. Ta bort några plagg om trumman är hårt packad. Välj ett centrifugeringsprogram och tryck på start – om maskinen slutför centrifugeringen var en obalanserad last orsaken."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera och rengör pumpfiltret",
+          "detail": "Hitta filterluckan längst ned på maskinens framsida. Lägg en handduk och ett grunt kärl undertill och skruva sedan långsamt loss filterlocket för att släppa ut kvarvarande vatten. Ta bort ludd, mynt eller skräp från filtret och pumphuset, sätt sedan tillbaka locket ordentligt innan du kör ett testprogram."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera lucklåset och säkerhetsbrytaren",
+          "detail": "Stäng luckan och lyssna efter ett tydligt klick. Om luckan känns lös eller maskinen inte registrerar den som stängd, undersök låskroken på luckan och säkerhetsbrytarens uttag på maskinkroppen för synliga skador eller slitage. En defekt säkerhetsbrytare måste bytas ut – det är en enkel del att byta på de flesta Bosch-modeller."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera felkod E50 och återställ maskinen",
+          "detail": "Om E50 visas pekar detta specifikt på ett motorfel. Prova en hård återställning först: stäng av maskinen vid vägguttaget, vänta två minuter och slå sedan på den igen och kör ett kort program. Om E50 återkommer omedelbart är motorn eller dess kolborstar troligen orsaken och ytterligare undersökning behövs."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera kolborstarna",
+          "detail": "Med maskinen urkopplad, ta bort bakpanelen för att komma åt motorn. Kolborstarna sitter i hållare på vardera sidan av motorn. Dra ut dem och mät deras längd – om de är kortare än 15 mm är de slitna och bör bytas ut. Nya borstar är billiga och finns allmänt tillgängliga för Bosch-motorer."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera drivremmen",
+          "detail": "Med bakpanelen fortfarande borttagen, inspektera remmen som löper runt trummans remskiva och motoraxeln. Leta efter tecken på fransning, sprickor eller en rem som helt har halkade av remskivan. En av rem är lätt att bekräfta visuellt. Ersättningsremmar är modellspecifika, så notera ditt modellnummer innan du beställer."
+        },
+        {
+          "step": 7,
+          "action": "Testa motorn och styrkortet",
+          "detail": "Om alla ovanstående kontroller godkänns men maskinen fortfarande inte centrifugerar kan motorlindningarna eller motorstyrkortet ha gått sönder. Att testa dessa komponenter kräver en multimeter och viss elektrisk kunskap. Om du inte är bekväm med att arbeta med intern kablage är det dags att kontakta en servicetekniker."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om felkod E50 kvarstår efter att kolborstarna bytts ut, om motorn avger en bränd lukt eller ovanligt slipljud, eller om trumman är helt orörlig även när maskinen är igång. Dessa symptom tyder på en defekt motorlindning eller ett skadat styrkort – båda kräver specialiserad diagnostikutrustning för att bekräftas och är inte säkra att reparera utan rätt utbildning.</p><p>Du bör också söka professionell hjälp om vatten kvarstår i trumman efter rengöring av pumpfiltret och pumpen inte avger något ljud under avloppsfasen, eftersom detta kan tyda på ett internt pumpfel eller ett kabelfel mellan pumpen och styrkortet.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Bosch tvättmaskin inte centrifugerar är kolborstarna (som har en naturlig livslängd och slits gradvis), lucksäkerhetsbrytaren (som utsätts för upprepade mekaniska påfrestningar varje program) och drivremmen (som kan försämras med åldern eller vid tung användning). Att hålla pumpfiltret rent var en till tre månader minskar också belastningen på avloppssystemet och hjälper maskinen att nå centrifugeringshastighet på ett tillförlitligt sätt.</p><p>Om du behöver byta ut någon av dessa komponenter, använd reservdelsfindern nedan för att hitta rätt delar till ditt specifika Bosch-modellnummer.</p>\n<!-- SPARE_PARTS_FAULT:wont-spin -->",
+      "faq_json": [
+        {
+          "answer": "E50 indikerar ett motorfel, oftast orsakat av slitna kolborstar som inte längre kan leverera tillräcklig ström till motorn. Det kan också peka på ett defekt motorstyrkortet eller ett kabelfel mellan kortet och motorn. Börja med att inspektera och byta ut borstarna, eftersom detta löser majoriteten av E50-fel.",
+          "question": "Vad betyder felkod E50 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Om maskinen tömmer framgångsrikt men hoppar över centrifugeringen är de troligaste orsakerna en defekt lucksäkerhetsbrytare, slitna motorborstar eller en trasig drivrem. Maskinens säkerhetslogik kräver en bekräftad lucklåssignal innan den centrifugerar, så säkerhetsbrytaren är ett bra ställe att börja. Om luckan låser sig bra, gå vidare till att inspektera borstarna och remmen.",
+          "question": "Min Bosch tvättmaskin tömmer men centrifugerar inte – vad är fel?"
+        },
+        {
+          "answer": "Ja, att byta kolborstar är en av de mer tillgängliga gör-det-själv-reparationerna på en Bosch tvättmaskin. Du behöver koppla ur maskinen, ta bort bakpanelen och dra ut de gamla borstarna ur sina hållare. Processen tar ungefär 30 till 45 minuter med grundläggande verktyg. Se till att du köper borstar som är avsedda för din specifika motormodell.",
+          "question": "Kan jag byta kolborstarna själv?"
+        },
+        {
+          "answer": "Långsam eller ofullständig centrifugering orsakas ofta av delvis slitna kolborstar som fortfarande levererar viss ström men inte tillräckligt för höghastighetscentrifugering. En obalanserad last kan också få maskinen att begränsa sin centrifugeringshastighet som en skyddsåtgärd. Prova att balansera om lasten först, och om problemet kvarstår, kontrollera borstarnas skick.",
+          "question": "Varför centrifugerar min Bosch tvättmaskin långsamt men når inte full hastighet?"
+        },
+        {
+          "answer": "Motorn i sig kan hålla 10 till 15 år vid normal användning, men kolborstarna behöver vanligtvis bytas efter 5 till 8 år beroende på hur ofta maskinen används. Att byta borstarna vid de första tecknen på centrifugeringsproblem är mycket mer kostnadseffektivt än att låta en sliten borste skada motorankaret, vilket är en betydligt dyrare reparation.",
+          "question": "Hur länge ska en Bosch tvättmaskinmotor hålla?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T14:35:05.385163+00:00"
+    },
+    {
+      "id": 493,
+      "article_id": 315,
+      "locale": "en",
+      "slug": "wont-fill",
+      "title_tag": "Bosch Washing Machine Won't Fill With Water – Fixes",
+      "meta_description": "Bosch washing machine not filling with water? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers error codes E16–E19.",
+      "h1": "Why Has My Bosch Washing Machine Stopped Filling With Water?",
+      "description": "The washing machine starts a cycle but little or no water enters the drum, leaving laundry unwashed.",
+      "quick_fix": "Check that both water tap(s) behind the machine are fully open and the inlet hose is not kinked — restoring full water flow resolves this fault in the majority of cases (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When a Bosch washing machine won't fill, you'll typically notice the drum stays dry after the cycle starts, or the machine pauses shortly after beginning and displays an error code such as E16, E17, E18, or E19. These codes all relate to the water intake system — the machine is telling you it expected water by a certain point in the cycle but didn't detect it.</p><p>The filling system involves several components working together: the household water supply, the inlet hose, a mesh filter inside the hose connection, the inlet valve itself, and the pressure sensor that tells the control board when enough water has entered. A problem anywhere along this chain can stop the drum from filling.</p><p>The good news is that the most common causes are straightforward to check yourself without any specialist tools, and many can be resolved in under fifteen minutes.</p>",
+      "causes_json": [
+        {
+          "cause": "Water supply tap turned off or restricted",
+          "detail": "The tap feeding the machine may have been accidentally closed, or only partially open after maintenance work. Without adequate water pressure, the inlet valve cannot open properly and the drum stays empty."
+        },
+        {
+          "cause": "Blocked or kinked inlet hose",
+          "detail": "The rubber hose connecting the machine to the tap can become kinked if the machine has been pushed back against the wall. Sediment or debris can also partially block the hose, reducing flow to a trickle."
+        },
+        {
+          "cause": "Clogged inlet valve filter mesh",
+          "detail": "A small mesh filter sits inside the hose connection point at the back of the machine and catches particles from the water supply. Over time this filter can become blocked with limescale or grit, severely restricting water flow."
+        },
+        {
+          "cause": "Faulty water inlet valve",
+          "detail": "The inlet valve is an electrically operated solenoid that opens to let water in. If the solenoid coil burns out or the valve body becomes scaled up, it will not open even when the control board sends the correct signal."
+        },
+        {
+          "cause": "Faulty pressure sensor (pressure switch)",
+          "detail": "The pressure sensor monitors the water level inside the drum. If it fails or its connecting hose becomes blocked or detached, the control board may incorrectly believe the drum is already full and never trigger the inlet valve to open."
+        },
+        {
+          "cause": "Control board or wiring fault",
+          "detail": "In less common cases, the main control board fails to send the signal to open the inlet valve, or a wiring connector between the board and the valve becomes loose or corroded. This is more likely on older machines or those that have experienced a power surge."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the water supply tap",
+          "detail": "Locate the tap on the wall or under the sink behind the machine and make sure it is fully open — turn it anticlockwise as far as it will go. Also check that your household water supply is on generally; try a nearby tap to confirm. If the tap was closed or restricted, open it fully and restart the cycle."
+        },
+        {
+          "step": 2,
+          "action": "Inspect the inlet hose for kinks or damage",
+          "detail": "Gently pull the machine forward and run your hand along the full length of the inlet hose. Straighten any kinks and ensure the hose is not being pinched by the machine's weight or a cabinet edge. If the hose is cracked or the rubber has perished, replace it before running another cycle."
+        },
+        {
+          "step": 3,
+          "action": "Clean the inlet hose filter mesh",
+          "detail": "Turn off the water tap, then unscrew the inlet hose from the back of the machine — have a towel ready as some water will spill. Use a pair of needle-nose pliers or tweezers to carefully pull out the small mesh filter from the machine's inlet port. Rinse it under a tap and use an old toothbrush to remove any limescale or grit, then refit it and reconnect the hose securely."
+        },
+        {
+          "step": 4,
+          "action": "Run a short cycle to test water flow",
+          "detail": "After completing steps 1–3, select a quick wash or rinse cycle and watch the machine for the first two to three minutes. You should hear water rushing into the drum. If the machine now fills normally, the fault is resolved. If it still does not fill, continue to the next steps."
+        },
+        {
+          "step": 5,
+          "action": "Check and clear the pressure sensor hose",
+          "detail": "Unplug the machine from the mains before proceeding. Remove the top panel (usually two screws at the rear) and locate the thin rubber hose running from the bottom of the drum up to the pressure sensor — a small round component typically mounted near the top of the cabinet. Detach the hose and blow gently through it to check it is clear. Reattach it firmly at both ends, ensuring there are no cracks."
+        },
+        {
+          "step": 6,
+          "action": "Test the inlet valve with a multimeter",
+          "detail": "With the machine unplugged, disconnect the wiring connectors from the inlet valve solenoid coils. Set a multimeter to resistance (Ω) mode and test across each coil's terminals. A healthy solenoid typically reads between 200 and 500 ohms; a reading of zero or infinity indicates a failed coil and the valve should be replaced. Inlet valves are a standard spare part and can be fitted at home with basic tools."
+        },
+        {
+          "step": 7,
+          "action": "Reset the machine and check for error codes",
+          "detail": "After any repair, plug the machine back in and run a full cycle. If an error code such as E16, E17, E18, or E19 reappears, note which code is shown — E16 and E17 typically point to the inlet valve or water supply, while E18 and E19 can indicate a pressure sensor or flow meter issue. Use the specific code to guide further diagnosis or to describe the fault clearly when contacting a service technician."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and the machine still will not fill, or if the inlet valve tests as healthy but the drum remains dry, the fault is likely inside the control board or involves the wiring loom — both of which require specialist diagnostic equipment to test safely. Similarly, if the machine repeatedly trips your household fuse or circuit breaker when it attempts to fill, stop using it immediately and call a service technician.</p><p>A service technician should also be your first call if the machine is still under warranty, if you are not comfortable working with electrical components, or if the pressure sensor needs replacing and you are unsure how to access it on your specific model. Attempting repairs beyond your confidence level can cause further damage or create a safety risk.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Bosch washing machine won't fill are the <strong>water inlet valve</strong> (the solenoid-operated valve at the back of the machine), the <strong>inlet hose filter mesh</strong> (a low-cost item worth keeping as a spare), and the <strong>pressure sensor</strong> (also called the pressure switch or water level sensor). Replacing the inlet valve or pressure sensor yourself is achievable for a confident DIYer and can save a significant amount compared with a full call-out.</p><p>To reduce the chance of this fault recurring, clean the inlet filter mesh every six to twelve months, avoid pushing the machine hard against the wall so the hose stays kink-free, and consider fitting a washing machine service valve that makes it easy to isolate the water supply quickly. In hard water areas, using a descaler treatment periodically will help keep the valve and filter clear of limescale build-up.</p>\n<!-- SPARE_PARTS_FAULT:wont-fill -->",
+      "faq_json": [
+        {
+          "answer": "Error code E17 indicates that the machine did not detect water entering the drum within the expected time. It is most commonly caused by a closed water tap, a blocked inlet filter, or a faulty inlet valve. Work through the steps above starting with the simplest checks before assuming a component has failed.",
+          "question": "What does error code E17 mean on a Bosch washing machine?"
+        },
+        {
+          "answer": "Yes. Bosch washing machines require a minimum water pressure — typically around 0.5 bar — to force the inlet valve open. If your household pressure is unusually low, perhaps due to works in the street or a partially closed stopcock, the machine may time out and display a fill error. Check other taps in your home to see whether pressure is low throughout the property.",
+          "question": "Can low water pressure stop a Bosch washing machine from filling?"
+        },
+        {
+          "answer": "Most Bosch machines fill within two to four minutes at the start of a cycle, depending on the programme selected and your water pressure. If you can hear a faint hum from the valve but very little water is entering, a partially blocked filter or restricted hose is the most likely cause.",
+          "question": "How long does it normally take a Bosch washing machine to fill?"
+        },
+        {
+          "answer": "No — running a wash cycle with insufficient water can damage the drum bearings, overheat the heating element, and leave laundry poorly cleaned. Stop the cycle, investigate the cause using the steps in this guide, and only restart once the machine is filling correctly.",
+          "question": "Is it safe to use the machine if it only partially fills?"
+        },
+        {
+          "answer": "Inlet valves for Bosch washing machines typically cost between £15 and £45 for the part, depending on the model. If you fit it yourself the total cost is just the part price; a service technician call-out will add labour on top of that. Always use a valve that matches your specific model number to ensure a correct fit.",
+          "question": "How much does a Bosch washing machine inlet valve cost to replace?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T14:40:03.15541+00:00"
+    },
+    {
+      "id": 494,
+      "article_id": 315,
+      "locale": "sv",
+      "slug": "fyller-inte",
+      "title_tag": "Bosch Tvättmaskin Fyller Inte Med Vatten – Lösningar",
+      "meta_description": "Fyller inte din Bosch tvättmaskin med vatten? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkoder E1",
+      "h1": "Varför Har Min Bosch Tvättmaskin Slutat Fylla Med Vatten?",
+      "description": "Tvättmaskinen startar ett program men lite eller inget vatten kommer in i trumman, vilket lämnar tvätten otvättad.",
+      "quick_fix": "Kontrollera att vattenkranen (kranarna) bakom maskinen är helt öppna och att inloppsslagen inte är böjd – att återställa fullt vattenflöde löser detta fel i de flesta fall (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en Bosch tvättmaskin inte fyller märker du vanligtvis att trumman förblir torr efter att programmet startat, eller att maskinen pausar kort efter start och visar en felkod som E16, E17, E18 eller E19. Dessa koder är alla kopplade till vattenintagssystemet – maskinen talar om att den förväntade sig vatten vid en viss punkt i programmet men inte registrerade det.</p><p>Fyllningssystemet består av flera komponenter som samverkar: hushållets vattenförsörjning, inloppsslangen, ett nätfilter inuti slanganslutningen, inloppsventilen själv och trycksensorn som talar om för styrkortet när tillräckligt med vatten har kommit in. Ett problem var som helst i denna kedja kan hindra trumman från att fyllas.</p><p>Den goda nyheten är att de vanligaste orsakerna är enkla att kontrollera själv utan specialverktyg, och många kan åtgärdas på under femton minuter.</p>",
+      "causes_json": [
+        {
+          "cause": "Vattenkranen avstängd eller begränsad",
+          "detail": "Kranen som matar maskinen kan ha stängts av av misstag, eller bara vara delvis öppen efter underhållsarbete. Utan tillräckligt vattentryck kan inloppsventilen inte öppnas ordentligt och trumman förblir tom."
+        },
+        {
+          "cause": "Blockerad eller böjd inloppsslang",
+          "detail": "Gummislangen som ansluter maskinen till kranen kan bli böjd om maskinen har tryckts tillbaka mot väggen. Sediment eller smuts kan också delvis blockera slangen och reducera flödet till ett sipprande."
+        },
+        {
+          "cause": "Igensatt nätfilter i inloppsventilen",
+          "detail": "Ett litet nätfilter sitter inuti slanganslutningspunkten på maskinens baksida och fångar upp partiklar från vattenförsörjningen. Med tiden kan detta filter bli blockerat av kalkavlagringar eller grus, vilket kraftigt begränsar vattenflödet."
+        },
+        {
+          "cause": "Defekt vatteninloppsventil",
+          "detail": "Inloppsventilen är en elektriskt styrd solenoid som öppnas för att släppa in vatten. Om solenoidspolen bränns ut eller ventilkroppen kalkar igen, öppnas den inte ens när styrkortet skickar rätt signal."
+        },
+        {
+          "cause": "Defekt trycksensor (tryckvakt)",
+          "detail": "Trycksensorn övervakar vattennivån inuti trumman. Om den slutar fungera eller dess anslutningsslang blockeras eller lossnar kan styrkortet felaktigt tro att trumman redan är full och aldrig aktivera inloppsventilen."
+        },
+        {
+          "cause": "Fel på styrkort eller kablage",
+          "detail": "I mindre vanliga fall misslyckas huvudstyrkortet med att skicka signalen för att öppna inloppsventilen, eller så lossnar eller korroderar en kabelanslutning mellan kortet och ventilen. Detta är vanligare på äldre maskiner eller sådana som utsatts för ett strömöverspänning."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera vattenkranen",
+          "detail": "Leta upp kranen på väggen eller under diskhon bakom maskinen och se till att den är helt öppen – vrid den moturs så långt det går. Kontrollera också att hushållets vattenförsörjning är på generellt; prova en kran i närheten för att bekräfta. Om kranen var stängd eller begränsad, öppna den helt och starta om programmet."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera inloppsslangen för böjar eller skador",
+          "detail": "Dra försiktigt fram maskinen och känn längs hela inloppsslangen. Räta ut eventuella böjar och se till att slangen inte kläms av maskinens vikt eller ett skåpkant. Om slangen är sprucken eller gummit har åldrats, byt ut den innan du kör ett nytt program."
+        },
+        {
+          "step": 3,
+          "action": "Rengör nätfiltret i inloppsslangen",
+          "detail": "Stäng av vattenkranen och skruva sedan loss inloppsslangen från maskinens baksida – ha en handduk till hands eftersom lite vatten kommer att rinna ut. Använd en spetsnåltång eller pincett för att försiktigt dra ut det lilla nätfiltret från maskinens inloppsöppning. Skölj det under kranen och använd en gammal tandborste för att ta bort kalkavlagringar eller grus, sätt sedan tillbaka det och anslut slangen ordentligt."
+        },
+        {
+          "step": 4,
+          "action": "Kör ett kort program för att testa vattenflödet",
+          "detail": "Efter att ha utfört steg 1–3, välj ett snabbtvättprogram eller sköljprogram och observera maskinen under de första två till tre minuterna. Du bör höra vatten strömma in i trumman. Om maskinen nu fyller normalt är felet åtgärdat. Om den fortfarande inte fyller, fortsätt till nästa steg."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera och rensa trycksensorns slang",
+          "detail": "Koppla ur maskinen från elnätet innan du fortsätter. Ta bort toppanelen (vanligtvis två skruvar baktill) och leta upp den tunna gummislangen som löper från trummans botten upp till trycksensorn – en liten rund komponent som vanligtvis är monterad nära skåpets topp. Lossa slangen och blås försiktigt igenom den för att kontrollera att den är fri. Återanslut den ordentligt i båda ändarna och se till att det inte finns några sprickor."
+        },
+        {
+          "step": 6,
+          "action": "Testa inloppsventilen med en multimeter",
+          "detail": "Med maskinen urkopplad, koppla loss kabelanslutningarna från inloppsventilens solenoidspolar. Ställ in en multimeter på motstånd (Ω) och mät över varje spoles anslutningar. En frisk solenoid läser vanligtvis mellan 200 och 500 ohm; ett värde på noll eller oändlighet indikerar en defekt spole och ventilen bör bytas ut. Inloppsventiler är standardreservdelar och kan monteras hemma med grundläggande verktyg."
+        },
+        {
+          "step": 7,
+          "action": "Återställ maskinen och kontrollera felkoder",
+          "detail": "Efter en reparation, anslut maskinen till elnätet och kör ett fullständigt program. Om en felkod som E16, E17, E18 eller E19 visas igen, notera vilken kod som visas – E16 och E17 pekar vanligtvis på inloppsventilen eller vattenförsörjningen, medan E18 och E19 kan indikera ett problem med trycksensorn eller flödesmätaren. Använd den specifika koden för att vägleda ytterligare felsökning eller för att tydligt beskriva felet när du kontaktar en servicetekniker."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har arbetat igenom alla stegen ovan och maskinen fortfarande inte fyller, eller om inloppsventilen testar som frisk men trumman förblir torr, är felet troligtvis inne i styrkortet eller involverar kabelstammen – båda kräver specialiserad diagnostikutrustning för att testas säkert. På samma sätt, om maskinen upprepade gånger löser ut din hushållssäkring eller jordfelsbrytare när den försöker fylla, sluta använda den omedelbart och kontakta en servicetekniker.</p><p>En servicetekniker bör också vara ditt första val om maskinen fortfarande är under garanti, om du inte är bekväm med att arbeta med elektriska komponenter, eller om trycksensorn behöver bytas ut och du är osäker på hur du kommer åt den på din specifika modell. Att försöka reparationer utöver din kompetensnivå kan orsaka ytterligare skador eller skapa en säkerhetsrisk.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Bosch tvättmaskin inte fyller är <strong>vatteninloppsventilen</strong> (den solenoidstyrda ventilen på maskinens baksida), <strong>nätfiltret i inloppsslangen</strong> (en billig artikel värd att ha som reserv) och <strong>trycksensorn</strong> (även kallad tryckvakt eller vattennivåsensor). Att byta inloppsventilen eller trycksensorn själv är möjligt för en händig hemmafixare och kan spara en betydande summa jämfört med ett fullständigt servicebesök.</p><p>För att minska risken för att detta fel upprepas, rengör inloppsfilternätet var sjätte till tolfte månad, undvik att trycka maskinen hårt mot väggen så att slangen förblir böjfri, och överväg att montera en servicekran för tvättmaskinen som gör det enkelt att snabbt stänga av vattenförsörjningen. I områden med hårt vatten hjälper regelbunden användning av avkalkningsmedel till att hålla ventilen och filtret fria från kalkavlagringar.</p>\n<!-- SPARE_PARTS_FAULT:wont-fill -->",
+      "faq_json": [
+        {
+          "answer": "Felkod E17 indikerar att maskinen inte registrerade att vatten kom in i trumman inom förväntad tid. Det orsakas oftast av en stängd vattenkran, ett blockerat inloppsfilter eller en defekt inloppsventil. Arbeta igenom stegen ovan med start från de enklaste kontrollerna innan du antar att en komponent har gått sönder.",
+          "question": "Vad betyder felkod E17 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Ja. Bosch tvättmaskiner kräver ett minsta vattentryck – vanligtvis runt 0,5 bar – för att tvinga inloppsventilen att öppnas. Om ditt hushållstryck är ovanligt lågt, kanske på grund av arbeten i gatan eller en delvis stängd huvudkran, kan maskinen tajma ut och visa ett fyllningsfel. Kontrollera andra kranar i ditt hem för att se om trycket är lågt i hela fastigheten.",
+          "question": "Kan lågt vattentryck hindra en Bosch tvättmaskin från att fylla?"
+        },
+        {
+          "answer": "De flesta Bosch-maskiner fyller inom två till fyra minuter i början av ett program, beroende på valt program och ditt vattentryck. Om du kan höra ett svagt surrande från ventilen men mycket lite vatten kommer in, är ett delvis blockerat filter eller en begränsad slang den troligaste orsaken.",
+          "question": "Hur lång tid tar det normalt för en Bosch tvättmaskin att fylla?"
+        },
+        {
+          "answer": "Nej – att köra ett tvättprogram med otillräckligt vatten kan skada trumlagren, överhettas värmeelement och lämna tvätten dåligt rengjord. Stoppa programmet, undersök orsaken med hjälp av stegen i den här guiden och starta bara om när maskinen fyller korrekt.",
+          "question": "Är det säkert att använda maskinen om den bara fyller delvis?"
+        },
+        {
+          "answer": "Inloppsventiler till Bosch tvättmaskiner kostar vanligtvis mellan 200 och 500 kronor för delen, beroende på modell. Om du monterar den själv är totalkostnaden bara delspriset; ett servicebesök av en tekniker tillkommer med arbetskostnad utöver det. Använd alltid en ventil som matchar ditt specifika modellnummer för att säkerställa korrekt passform.",
+          "question": "Hur mycket kostar det att byta inloppsventilen på en Bosch tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T14:41:19.6068+00:00"
+    }
+  ]
+}

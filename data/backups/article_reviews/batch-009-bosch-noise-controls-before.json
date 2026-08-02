@@ -1,0 +1,1119 @@
+{
+  "batch": "009-bosch-noise-controls",
+  "article_ids": [
+    317,
+    318,
+    319,
+    323,
+    324
+  ],
+  "articles": [
+    {
+      "id": 317,
+      "error_code_id": null,
+      "fault_id": 41,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 318,
+      "error_code_id": null,
+      "fault_id": 42,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 319,
+      "error_code_id": null,
+      "fault_id": 43,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 323,
+      "error_code_id": null,
+      "fault_id": 47,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 324,
+      "error_code_id": null,
+      "fault_id": 48,
+      "status": "published",
+      "article_type": "fault"
+    }
+  ],
+  "rows": [
+    {
+      "id": 497,
+      "article_id": 317,
+      "locale": "en",
+      "slug": "making-loud-noise",
+      "title_tag": "Bosch Washing Machine Making Loud Noise – Fixes",
+      "meta_description": "Is your Bosch washing machine making a loud noise during a cycle? Find the most common causes and step-by-step fixes you can try at home right now.",
+      "h1": "Why Is My Bosch Washing Machine Making a Loud Noise?",
+      "description": "The washing machine produces an unusually loud banging, grinding, rattling, or rumbling noise during one or more stages of the wash cycle.",
+      "quick_fix": "Check the drum for loose items such as coins, bra wires, or buttons by rotating it by hand and listening for rattling — removing any foreign objects typically eliminates the noise immediately (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>A Bosch washing machine that suddenly starts making a loud noise is one of the most common complaints homeowners report. The noise can take many forms — a rhythmic banging during the spin cycle, a grinding or rumbling sound during agitation, or a persistent rattling throughout the wash. Each pattern points to a different part of the machine, so paying attention to <em>when</em> the noise occurs is the most useful first step.</p><p>In most cases the fault lies in the drum area, either because a foreign object has become trapped between the drum and the tub, or because a mechanical component such as the drum bearings or shock absorbers has worn out over time. Less commonly, the motor brushes or pump can be the source. None of these faults will fix themselves, and some will worsen if the machine continues to be used, so it is worth investigating promptly.</p><p>The good news is that several of the most frequent causes are straightforward to diagnose and resolve without specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Foreign object trapped in the drum or pump",
+          "detail": "Coins, bra underwires, buttons, and small clips can slip through the door seal and become lodged between the inner drum and the outer tub, or travel further into the drain pump. This creates a sharp rattling or scraping noise that is often loudest during the spin cycle."
+        },
+        {
+          "cause": "Worn drum bearings",
+          "detail": "The rear drum bearings support the drum shaft and allow it to spin smoothly. When they wear out — usually after several years of regular use — they produce a deep rumbling or grinding sound that gets louder as the spin speed increases."
+        },
+        {
+          "cause": "Faulty or worn shock absorbers",
+          "detail": "Shock absorbers dampen drum movement during the spin cycle. When one or more lose their resistance, the drum moves excessively and bangs against the cabinet, producing a loud rhythmic thumping, especially at high spin speeds."
+        },
+        {
+          "cause": "Unbalanced or overloaded drum",
+          "detail": "A single heavy item like a duvet or a tangled bundle of laundry can cause the drum to spin unevenly, leading to loud banging as it strikes the inside of the machine. This is more likely if the machine is also not sitting level on the floor."
+        },
+        {
+          "cause": "Worn motor brushes",
+          "detail": "Bosch washing machines with brushed motors rely on carbon brushes to transfer current to the motor. As these wear down they can cause a harsh scraping or intermittent buzzing noise, and the machine may also struggle to reach full spin speed."
+        },
+        {
+          "cause": "Blocked or failing drain pump",
+          "detail": "A partially blocked pump filter or a pump impeller damaged by a foreign object can produce a loud humming or rattling noise during the drain phase of the cycle. You may also notice the machine draining more slowly than usual."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the load size and redistribute the laundry",
+          "detail": "Open the door and rearrange the items inside so they are spread evenly around the drum. Avoid washing single heavy items alone — add a couple of towels to balance the load. Restart the cycle and listen to see whether the noise has reduced."
+        },
+        {
+          "step": 2,
+          "action": "Inspect the drum for foreign objects",
+          "detail": "With the machine switched off and unplugged, rotate the drum slowly by hand and feel or listen for any scraping or rattling. Run your fingers around the rubber door seal, lifting the inner lip to check for trapped items. Remove anything you find with pliers if necessary."
+        },
+        {
+          "step": 3,
+          "action": "Check and level the machine's feet",
+          "detail": "Place a spirit level on top of the machine and adjust the four feet by turning them clockwise or anticlockwise until the machine sits perfectly level on the floor. A machine that rocks even slightly will amplify drum movement and create banging during the spin. Tighten the lock nuts on each foot once level."
+        },
+        {
+          "step": 4,
+          "action": "Clean the drain pump filter",
+          "detail": "Locate the small access panel at the bottom front of the machine. Place a shallow tray and some towels underneath, then slowly unscrew the filter cap to release residual water. Remove the filter completely, clear any debris, rinse it under a tap, and refit it securely. Run a short cycle to check whether the noise during draining has gone."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the shock absorbers",
+          "detail": "With the machine unplugged, remove the back panel or top panel depending on your model. Locate the shock absorbers connecting the outer tub to the cabinet frame — there are usually two at the front and two at the rear. Push and pull each one by hand; a worn absorber will feel loose or offer very little resistance and should be replaced."
+        },
+        {
+          "step": 6,
+          "action": "Check the motor brushes",
+          "detail": "Access the motor by removing the back panel. The carbon brushes slot into holders on either side of the motor. Slide them out and measure their length — if they are shorter than around 5 mm they are worn and need replacing. New brushes are an inexpensive and widely available spare part for most Bosch models."
+        },
+        {
+          "step": 7,
+          "action": "Test the drum bearings",
+          "detail": "With the machine empty and unplugged, grip the drum at the 3 o'clock and 9 o'clock positions and try to rock it up and down. Any noticeable play or a rough, gritty feeling when you spin the drum by hand indicates worn bearings. Bearing replacement is a significant repair involving full drum disassembly — see the section below on when to call a service technician."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If you have worked through the steps above and the noise persists, or if you detected play in the drum when testing the bearings, it is time to contact a service technician. Drum bearing replacement requires the machine to be largely dismantled, and incorrect reassembly can cause further damage. Similarly, if the drum is visibly off-centre, the spider arm that supports the drum shaft may have fractured — a fault that makes the machine unsafe to run.</p><p>You should also stop using the machine and call a technician if the noise is accompanied by burning smell, visible water leaking from the rear of the machine, or if the drum has stopped turning altogether. Continuing to run the machine in these conditions risks causing secondary damage that significantly increases repair costs.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Bosch washing machine develops a loud noise are the <strong>drum bearings and bearing seal kit</strong>, the <strong>shock absorbers</strong>, and the <strong>motor carbon brushes</strong>. Having the correct part number for your specific model before ordering will save time — you can usually find this on the rating plate inside the door frame. Fitting genuine or quality-equivalent parts helps ensure the repair lasts.</p><p>To reduce the likelihood of noise faults developing, always check pockets before loading, use a laundry bag for underwired bras, avoid consistently overloading the drum, and run a monthly maintenance wash at 60 °C to keep the drum and pump clear of residue. Checking that the machine remains level every six months is also worthwhile, particularly if it sits on a wooden or uneven floor.</p>\n<!-- SPARE_PARTS_FAULT:making-loud-noise -->",
+      "faq_json": [
+        {
+          "answer": "Noise that appears specifically during the spin cycle — when drum speed is highest — most commonly points to worn drum bearings or failing shock absorbers. Both components are put under the greatest stress at high RPM. Try reducing the spin speed temporarily as a test; if the noise drops significantly, bearings or absorbers are the likely culprit.",
+          "question": "Why does my Bosch washing machine make a loud noise only during the spin cycle?"
+        },
+        {
+          "answer": "It depends on the cause. A rattling from a trapped coin is unlikely to cause immediate harm, though it can damage the drum over time. A grinding noise from worn bearings is more serious — the drum shaft can eventually fail, causing the drum to drop and potentially damage the outer tub. It is best to diagnose and fix the fault before continuing regular use.",
+          "question": "Is it safe to keep using my Bosch washing machine if it is making a loud noise?"
+        },
+        {
+          "answer": "A loud humming, rattling, or whirring during the drain phase usually means the pump filter is blocked or a small object has reached the pump impeller. Start by cleaning the filter at the bottom front of the machine. If the noise continues after cleaning, the pump impeller may be damaged and the pump assembly will need to be replaced.",
+          "question": "My Bosch washing machine makes a loud noise when draining — what is causing it?"
+        },
+        {
+          "answer": "Under normal household use, drum bearings on a Bosch washing machine typically last between eight and twelve years. Consistently overloading the machine, running very high spin speeds, or a failed door seal that allows water into the bearing housing can all shorten their lifespan considerably.",
+          "question": "How long do Bosch washing machine drum bearings typically last?"
+        },
+        {
+          "answer": "Yes, and it is one of the most common causes of sudden loud banging in an otherwise healthy machine. When heavy items clump together on one side of the drum, the resulting imbalance causes the drum to wobble violently at spin speeds, striking the cabinet walls. Modern Bosch machines have an imbalance detection system that will attempt to redistribute the load or reduce spin speed, but severe imbalance can still produce significant noise before the system intervenes.",
+          "question": "Can an unbalanced load really cause a loud banging noise?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T14:44:09.615749+00:00"
+    },
+    {
+      "id": 498,
+      "article_id": 317,
+      "locale": "sv",
+      "slug": "låter-högt",
+      "title_tag": "Bosch Tvättmaskin Låter Högt – Lösningar",
+      "meta_description": "Låter din Bosch tvättmaskin högt under ett program? Hitta de vanligaste orsakerna och steg-för-steg-lösningar du kan prova hemma just nu.",
+      "h1": "Varför låter min Bosch tvättmaskin så högt?",
+      "description": "Tvättmaskinen producerar ett ovanligt högt bankande, malande, skramlande eller dånande ljud under ett eller flera steg i tvättcykeln.",
+      "quick_fix": "Kontrollera trumman efter lösa föremål som mynt, bh-byglar eller knappar genom att rotera den för hand och lyssna efter skramlande ljud — att ta bort eventuella främmande föremål eliminerar vanligtvis ljudet omedelbart (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>En Bosch tvättmaskin som plötsligt börjar låta högt är ett av de vanligaste klagomålen som hushållsägare rapporterar. Ljudet kan ta många former — ett rytmiskt bankande under centrifugeringen, ett malande eller dånande ljud under tvätten, eller ett ihållande skramlande under hela programmet. Varje mönster pekar på en annan del av maskinen, så att uppmärksamma <em>när</em> ljudet uppstår är det mest användbara första steget.</p><p>I de flesta fall ligger felet i trumområdet, antingen för att ett främmande föremål har fastnat mellan trumman och karet, eller för att en mekanisk komponent som trumlagren eller stötdämparna har slitits ut med tiden. Mer sällan kan motorborstarna eller pumpen vara källan. Inget av dessa fel åtgärdar sig självt, och vissa förvärras om maskinen fortsätter att användas, så det är värt att undersöka saken omgående.</p><p>Den goda nyheten är att flera av de vanligaste orsakerna är enkla att diagnostisera och åtgärda utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Främmande föremål fastnat i trumman eller pumpen",
+          "detail": "Mynt, bh-byglar, knappar och små clips kan glida igenom dörrtätningen och fastna mellan innertrumman och ytterkarret, eller ta sig vidare in i avloppspumpen. Detta skapar ett skarpt skramlande eller skrapande ljud som ofta är som högst under centrifugeringen."
+        },
+        {
+          "cause": "Slitna trumlagrar",
+          "detail": "De bakre trumlagren stöder trumaxeln och låter den snurra smidigt. När de slits ut — vanligtvis efter flera års regelbunden användning — producerar de ett djupt dånande eller malande ljud som blir högre ju mer centrifugeringshastigheten ökar."
+        },
+        {
+          "cause": "Defekta eller slitna stötdämpare",
+          "detail": "Stötdämpare dämpar trummans rörelser under centrifugeringen. När en eller flera förlorar sitt motstånd rör sig trumman överdrivet och slår mot maskinhöljet, vilket ger ett högt rytmiskt dunkande, särskilt vid höga centrifugeringshastigheter."
+        },
+        {
+          "cause": "Obalanserad eller överlastad trumma",
+          "detail": "Ett enda tungt föremål som en duntäcke eller ett trassligt knippe tvätt kan få trumman att snurra ojämnt, vilket leder till högt bankande när den slår mot maskinens insida. Detta är mer troligt om maskinen dessutom inte står plant på golvet."
+        },
+        {
+          "cause": "Slitna motorborstor",
+          "detail": "Bosch tvättmaskiner med borstmotorer använder kolborstor för att överföra ström till motorn. När dessa slits ned kan de orsaka ett hårt skrapande eller intermittent surrande ljud, och maskinen kan också ha svårt att nå full centrifugeringshastighet."
+        },
+        {
+          "cause": "Igensatt eller defekt avloppspump",
+          "detail": "Ett delvis igensatt pumpfilter eller ett pumphjul som skadats av ett främmande föremål kan producera ett högt surrande eller skramlande ljud under avloppsfasen i programmet. Du kan också märka att maskinen tömmer sig långsammare än vanligt."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera laststorleken och fördela om tvätten",
+          "detail": "Öppna luckan och arrangera om plaggen inuti så att de är jämnt fördelade runt trumman. Undvik att tvätta enstaka tunga föremål ensamma — lägg till ett par handdukar för att balansera lasten. Starta om programmet och lyssna om ljudet har minskat."
+        },
+        {
+          "step": 2,
+          "action": "Undersök trumman efter främmande föremål",
+          "detail": "Med maskinen avstängd och urkopplad, rotera trumman långsamt för hand och känn eller lyssna efter skrapande eller skramlande. Känn med fingrarna runt gummidörrtätningen och lyft den inre kanten för att kontrollera om det finns fastnade föremål. Ta bort allt du hittar med en tång om det behövs."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera och nivåjustera maskinens fötter",
+          "detail": "Placera ett vattenpass ovanpå maskinen och justera de fyra fötterna genom att vrida dem medurs eller moturs tills maskinen står helt plant på golvet. En maskin som gungar även lite förstärker trummans rörelser och skapar bankande under centrifugeringen. Dra åt låsmuttrarna på varje fot när maskinen är i nivå."
+        },
+        {
+          "step": 4,
+          "action": "Rengör avloppspumpens filter",
+          "detail": "Hitta den lilla åtkomstluckan längst ned på maskinens framsida. Placera ett grunt fat och några handdukar undertill, skruva sedan långsamt loss filterlocket för att släppa ut kvarvarande vatten. Ta bort filtret helt, rensa bort skräp, skölj det under kranen och sätt tillbaka det ordentligt. Kör ett kort program för att kontrollera om ljudet under avloppet har försvunnit."
+        },
+        {
+          "step": 5,
+          "action": "Undersök stötdämparna",
+          "detail": "Med maskinen urkopplad, ta bort bakpanelen eller toppanelen beroende på din modell. Hitta stötdämparna som förbinder ytterkarret med maskinhöljet — det finns vanligtvis två framtill och två baktill. Tryck och dra i var och en för hand; en sliten dämpare känns lös eller erbjuder mycket lite motstånd och bör bytas ut."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera motorborstarna",
+          "detail": "Kom åt motorn genom att ta bort bakpanelen. Kolborstarna sitter i hållare på vardera sidan av motorn. Dra ut dem och mät deras längd — om de är kortare än ungefär 5 mm är de slitna och behöver bytas. Nya borstor är en billig och lättillgänglig reservdel för de flesta Bosch-modeller."
+        },
+        {
+          "step": 7,
+          "action": "Testa trumlagren",
+          "detail": "Med maskinen tom och urkopplad, grip tag i trumman vid klockan 3 och klockan 9 och försök gunga den upp och ned. Märkbart glapp eller en grov, grusig känsla när du snurrar trumman för hand indikerar slitna lager. Lagerbyte är en omfattande reparation som kräver fullständig isärtagning av trumman — se avsnittet nedan om när du bör kontakta en servicetekniker."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har arbetat igenom stegen ovan och ljudet kvarstår, eller om du upptäckte glapp i trumman när du testade lagren, är det dags att kontakta en servicetekniker. Byte av trumlagrar kräver att maskinen till stor del demonteras, och felaktig återmontering kan orsaka ytterligare skador. På samma sätt, om trumman är synligt ur centrum, kan spindelarmen som stöder trumaxeln ha gått av — ett fel som gör maskinen osäker att använda.</p><p>Du bör också sluta använda maskinen och ringa en tekniker om ljudet åtföljs av bränd lukt, synligt vattenläckage från maskinens baksida, eller om trumman har slutat rotera helt. Att fortsätta köra maskinen under dessa förhållanden riskerar att orsaka följdskador som avsevärt ökar reparationskostnaderna.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Bosch tvättmaskin utvecklar ett högt ljud är <strong>trumlagren och lagertätningssatsen</strong>, <strong>stötdämparna</strong> och <strong>motorns kolborstor</strong>. Att ha rätt artikelnummer för din specifika modell innan du beställer sparar tid — du hittar vanligtvis detta på typskylten inuti lucköppningen. Att montera äkta eller kvalitetsmässigt likvärdiga delar hjälper till att säkerställa att reparationen håller.</p><p>För att minska risken för att ljudproblem uppstår, kontrollera alltid fickorna innan du lastar maskinen, använd en tvättnätspåse för bh:ar med byglar, undvik att konsekvent överlasta trumman och kör ett månatligt underhållsprogram vid 60 °C för att hålla trumman och pumpen fria från avlagringar. Att kontrollera att maskinen förblir i nivå var sjätte månad är också värt att göra, särskilt om den står på ett trägolv eller ett ojämnt underlag.</p>\n<!-- SPARE_PARTS_FAULT:making-loud-noise -->",
+      "faq_json": [
+        {
+          "answer": "Ljud som uppstår specifikt under centrifugeringen — när trummans hastighet är som högst — pekar oftast på slitna trumlagrar eller defekta stötdämpare. Båda komponenterna utsätts för störst påfrestning vid höga varvtal. Prova att tillfälligt sänka centrifugeringshastigheten som ett test; om ljudet minskar avsevärt är lager eller dämpare troligen orsaken.",
+          "question": "Varför låter min Bosch tvättmaskin högt bara under centrifugeringen?"
+        },
+        {
+          "answer": "Det beror på orsaken. Ett skramlande från ett fastnat mynt är osannolikt att orsaka omedelbar skada, även om det kan skada trumman med tiden. Ett malande ljud från slitna lager är allvarligare — trumaxeln kan till slut gå sönder, vilket gör att trumman sjunker och potentiellt skadar ytterkarret. Det är bäst att diagnostisera och åtgärda felet innan du fortsätter med regelbunden användning.",
+          "question": "Är det säkert att fortsätta använda min Bosch tvättmaskin om den låter högt?"
+        },
+        {
+          "answer": "Ett högt surrande, skramlande eller vinande under avloppsfasen betyder vanligtvis att pumpfiltret är igensatt eller att ett litet föremål har nått pumphjulet. Börja med att rengöra filtret längst ned på maskinens framsida. Om ljudet fortsätter efter rengöringen kan pumphjulet vara skadat och pumpaggregatet behöver bytas ut.",
+          "question": "Min Bosch tvättmaskin låter högt när den tömmer — vad orsakar det?"
+        },
+        {
+          "answer": "Under normalt hushållsbruk håller trumlagren i en Bosch tvättmaskin vanligtvis mellan åtta och tolv år. Att konsekvent överlasta maskinen, köra mycket höga centrifugeringshastigheter eller en defekt dörrtätning som låter vatten tränga in i lagerhuset kan alla förkorta deras livslängd avsevärt.",
+          "question": "Hur länge håller trumlagren i en Bosch tvättmaskin vanligtvis?"
+        },
+        {
+          "answer": "Ja, och det är en av de vanligaste orsakerna till plötsligt högt bankande i en annars felfri maskin. När tunga föremål klumpar ihop sig på ena sidan av trumman orsakar den resulterande obalansen att trumman skakar våldsamt vid centrifugeringshastigheter och slår mot höljesväggar. Moderna Bosch-maskiner har ett obalansdetekteringssystem som försöker omfördela lasten eller sänka centrifugeringshastigheten, men kraftig obalans kan ändå producera betydande ljud innan systemet ingriper.",
+          "question": "Kan en obalanserad last verkligen orsaka ett högt bankande ljud?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T14:45:34.977337+00:00"
+    },
+    {
+      "id": 499,
+      "article_id": 318,
+      "locale": "en",
+      "slug": "not-heating-water",
+      "title_tag": "Bosch Washing Machine Not Heating Water – Fixes",
+      "meta_description": "Bosch washing machine not heating water? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers error codes E60–E69.",
+      "h1": "Why Is My Bosch Washing Machine Not Heating the Water?",
+      "description": "The washing machine completes a cycle but the water remains cold, meaning clothes are not washed at the selected temperature.",
+      "quick_fix": "Run a 60°C cotton cycle with no laundry and check whether the drum feels warm partway through — if it does not, reset the machine by switching it off at the wall for 60 seconds and restarting; this clears temporary control board faults and resolves the issue in a small but meaningful number of cases (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When a Bosch washing machine fails to heat water, the wash cycle still runs from start to finish, but the water inside the drum stays at or near room temperature regardless of the programme temperature you selected. Clothes may come out still smelling stale, greasy marks may not lift, and biological detergents — which rely on warm water to activate enzymes — will perform poorly.</p><p>The heating system in a Bosch washing machine consists of a heating element, a temperature sensor (NTC thermistor), and the control board that interprets sensor readings and switches the element on and off. A fault in any one of these components can prevent heating entirely. Related error codes E60 through E69 may appear on the display, each pointing to a slightly different part of the heating circuit, but the underlying diagnosis process is largely the same.</p><p>Because this fault involves electrical components that carry mains voltage, some steps below require a multimeter and basic electrical confidence. If you are not comfortable working with internal wiring, skip to the section on calling a service technician.</p>",
+      "causes_json": [
+        {
+          "cause": "Failed heating element",
+          "detail": "The heating element is the most common reason a Bosch washing machine stops heating. Over time, the element burns out or develops an internal break, preventing it from generating heat even when the control board sends the correct signal."
+        },
+        {
+          "cause": "Faulty NTC temperature sensor (thermistor)",
+          "detail": "The NTC sensor monitors water temperature and reports back to the control board. If it fails or drifts out of calibration, the board may believe the water is already hot and never switch the element on — error codes E61, E62, and E65 are commonly linked to this component."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "The main PCB controls when power is sent to the heating element. A damaged relay or failed triac on the board can interrupt this signal, leaving the element permanently off even though it is physically intact. Codes E66, E67, and E68 often point here."
+        },
+        {
+          "cause": "Wiring harness damage or loose connection",
+          "detail": "Vibration over years of use can loosen the connectors between the heating element, the NTC sensor, and the control board. A partially disconnected or corroded terminal can mimic a component failure without any part actually being broken."
+        },
+        {
+          "cause": "Heavy limescale build-up on the element",
+          "detail": "In hard-water areas, limescale coats the element and acts as an insulator, reducing heating efficiency dramatically. In severe cases the element overheats locally and burns out, triggering protective cut-outs and codes such as E63 or E64."
+        },
+        {
+          "cause": "Thermal cut-out (thermal fuse) tripped or blown",
+          "detail": "Bosch machines include a thermal cut-out that protects the element from overheating. If it has tripped due to a previous overheating event, the element will receive no power until the cut-out is replaced or reset."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the programme selection and display for error codes",
+          "detail": "Confirm you have selected a programme that actually heats water — a cold rinse or a 20°C eco cycle will not heat. Note any error code on the display (E60–E69) before clearing it, as this narrows down which component to inspect first. Consult your model's manual to confirm what each code means for your specific machine."
+        },
+        {
+          "step": 2,
+          "action": "Reset the machine and run a test cycle",
+          "detail": "Switch the machine off at the wall socket and leave it unpowered for 60 seconds. Restart and select a 60°C cotton programme. About 15–20 minutes into the cycle, carefully open the detergent drawer and feel the water entering the drum — it should be noticeably warm. This rules out a temporary control board glitch before you start disassembling anything."
+        },
+        {
+          "step": 3,
+          "action": "Inspect and test the NTC temperature sensor",
+          "detail": "Disconnect the machine from the mains. The NTC sensor is usually clipped to the heating element housing at the rear or front lower section of the drum. Unplug its connector and measure resistance with a multimeter — at room temperature (around 20°C) a healthy NTC typically reads 4,000–6,000 ohms. A reading of zero or infinity indicates a failed sensor that needs replacing."
+        },
+        {
+          "step": 4,
+          "action": "Test the heating element for continuity",
+          "detail": "With the machine still unplugged, locate the heating element terminals (accessible from the rear panel on most Bosch models). Set your multimeter to resistance and probe the two main terminals — a working element typically reads between 20 and 50 ohms. An open circuit (infinite resistance) confirms the element has burned out and must be replaced. Also check that neither terminal shows continuity to the machine's metal casing, which would indicate a short to earth."
+        },
+        {
+          "step": 5,
+          "action": "Check the thermal cut-out",
+          "detail": "The thermal cut-out is a small disc or capsule mounted directly on or very close to the heating element. Test it for continuity with your multimeter — it should read close to zero ohms when healthy. If it reads open circuit, it has blown and needs to be replaced. Investigate why it tripped (usually limescale or a failing element) before fitting a new one, or it will blow again."
+        },
+        {
+          "step": 6,
+          "action": "Inspect wiring connectors to the element and sensor",
+          "detail": "With the machine unplugged, trace the wiring from the heating element and NTC sensor back toward the control board. Look for connectors that have pulled loose, terminals that are corroded or discoloured, and any wiring that shows signs of heat damage or chafing. Reseat any loose connectors firmly and replace any damaged sections of harness before reassembling."
+        },
+        {
+          "step": 7,
+          "action": "Assess the control board",
+          "detail": "If the element, NTC sensor, thermal cut-out, and wiring all test as healthy, the fault is most likely on the control board itself — specifically a failed relay or triac that switches power to the element. Visually inspect the board for burn marks, swollen capacitors, or cracked solder joints. Control board replacement or repair is the final step and is best carried out by a service technician unless you have experience with PCB-level work."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>Call a service technician if you have tested the heating element, NTC sensor, and thermal cut-out and all appear electrically sound, yet the machine still does not heat. This pattern strongly suggests a control board fault — replacing or repairing a PCB involves mains-voltage circuitry and, on Bosch machines, may also require software configuration after fitting a new board.</p><p>You should also seek professional help if you find burn marks inside the machine, smell burning during a cycle, or if the machine trips your household circuit breaker when it attempts to heat. These signs indicate a potentially dangerous electrical fault that goes beyond routine component replacement.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Bosch washing machine stops heating are the <strong>heating element</strong>, the <strong>NTC temperature sensor</strong>, and the <strong>thermal cut-out fuse</strong>. Using a descaling tablet every three to six months (more frequently in hard-water areas) significantly extends element life by preventing the limescale build-up that causes premature burnout. Always use the correct amount of detergent and avoid consistently running only cold or 30°C cycles, as occasional higher-temperature washes help keep the element free of residue.</p><p>If you need to replace any of these components, use genuine Bosch-compatible parts matched to your model number to ensure correct resistance ratings and a proper fit.</p>\n<!-- SPARE_PARTS_FAULT:not-heating-water -->",
+      "faq_json": [
+        {
+          "answer": "These codes all relate to the heating circuit. E60 is a general heating fault, E61–E65 typically indicate NTC sensor or temperature-reading problems, and E66–E69 usually point to the control board or the element circuit itself. Note the specific code before clearing it, as it helps narrow down which component to test first.",
+          "question": "What do error codes E60 to E69 mean on a Bosch washing machine?"
+        },
+        {
+          "answer": "You can run the machine safely on a cold wash in the short term, but it is not a long-term solution. Washing at cold temperatures will not kill bacteria effectively, biological detergents will not activate properly, and the underlying fault — particularly if it involves a partially failed element — could worsen and eventually cause the machine to trip your electrics.",
+          "question": "Can I still use my Bosch washing machine if it is not heating?"
+        },
+        {
+          "answer": "Test both with a multimeter. A burned-out element will show infinite resistance (open circuit) between its two main terminals. A failed NTC sensor will show either infinite resistance or zero resistance rather than the expected 4,000–6,000 ohms at room temperature. Testing both takes about 20 minutes and tells you exactly which part to order.",
+          "question": "How do I know if my heating element has burned out rather than the sensor?"
+        },
+        {
+          "answer": "In most cases it is worth repairing. A heating element and NTC sensor are relatively low-cost parts, and fitting them is straightforward on most Bosch models. Even a control board replacement is usually cheaper than a new machine. The decision changes if the machine is over ten years old and has other developing faults — at that point a service technician can give you an honest assessment.",
+          "question": "Is a Bosch washing machine heating fault worth repairing, or should I replace the machine?"
+        },
+        {
+          "answer": "Yes. In hard-water areas, limescale accumulates on the element surface and acts as an insulator, forcing the element to work harder and run hotter until it eventually burns out or triggers the thermal cut-out. Running a dedicated washing machine descaler every three months is one of the most effective ways to prevent heating faults and extend the life of the element.",
+          "question": "Could hard water cause my Bosch washing machine to stop heating?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T14:46:35.77744+00:00"
+    },
+    {
+      "id": 500,
+      "article_id": 318,
+      "locale": "sv",
+      "slug": "värmer-inte-vatten",
+      "title_tag": "Bosch Tvättmaskin Värmer Inte Vatten – Lösningar",
+      "meta_description": "Värmer inte din Bosch tvättmaskin vattnet? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkoder E60–E",
+      "h1": "Varför Värmer Inte Min Bosch Tvättmaskin Vattnet?",
+      "description": "Tvättmaskinen slutför ett program men vattnet förblir kallt, vilket innebär att kläderna inte tvättas vid den valda temperaturen.",
+      "quick_fix": "Kör ett bomullsprogram på 60°C utan tvätt och kontrollera om trumman känns varm en bit in i programmet — om den inte gör det, återställ maskinen genom att stänga av den vid vägguttaget i 60 sekunder och starta om; detta rensar tillfälliga fel i styrkortet och löser problemet i ett litet men märkbart antal fall (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en Bosch tvättmaskin inte värmer vattnet körs tvättcykeln fortfarande från start till slut, men vattnet i trumman stannar vid eller nära rumstemperatur oavsett vilken programtemperatur du valt. Kläderna kan komma ut med kvar lukt, fettfläckar kanske inte lossnar, och biologiska tvättmedel — som är beroende av varmt vatten för att aktivera enzymer — fungerar dåligt.</p><p>Värmesystemet i en Bosch tvättmaskin består av ett värmeelement, en temperatursensor (NTC-termistor) och styrkortet som tolkar sensoravläsningar och slår på och av elementet. Ett fel i någon av dessa komponenter kan förhindra uppvärmning helt. Relaterade felkoder E60 till E69 kan visas på displayen, där var och en pekar på en något annorlunda del av värmekretsen, men den grundläggande diagnostikprocessen är i stort sett densamma.</p><p>Eftersom detta fel involverar elektriska komponenter som bär nätspänning kräver vissa steg nedan en multimeter och grundläggande elektrisk erfarenhet. Om du inte känner dig bekväm med att arbeta med intern kablage, hoppa till avsnittet om att kontakta en servicetekniker.</p>",
+      "causes_json": [
+        {
+          "cause": "Trasigt värmeelement",
+          "detail": "Värmeelementet är den vanligaste orsaken till att en Bosch tvättmaskin slutar värma. Med tiden bränner elementet ut eller får ett internt brott, vilket hindrar det från att generera värme även när styrkortet skickar rätt signal."
+        },
+        {
+          "cause": "Defekt NTC-temperatursensor (termistor)",
+          "detail": "NTC-sensorn övervakar vattentemperaturen och rapporterar tillbaka till styrkortet. Om den slutar fungera eller driftar ur kalibrering kan kortet tro att vattnet redan är varmt och aldrig slå på elementet — felkoder E61, E62 och E65 är vanligtvis kopplade till denna komponent."
+        },
+        {
+          "cause": "Fel på styrkortet",
+          "detail": "Huvud-PCB:n styr när ström skickas till värmeelementet. Ett skadat relä eller en trasig triac på kortet kan avbryta denna signal och lämna elementet permanent avstängt även om det är fysiskt intakt. Koder E66, E67 och E68 pekar ofta hit."
+        },
+        {
+          "cause": "Skada på kabelstammen eller lösa anslutningar",
+          "detail": "Vibrationer under många års användning kan lossa kontakterna mellan värmeelementet, NTC-sensorn och styrkortet. En delvis frånkopplad eller korroderad terminal kan efterlikna ett komponentfel utan att någon del faktiskt är trasig."
+        },
+        {
+          "cause": "Kraftig kalkavlagring på elementet",
+          "detail": "I områden med hårt vatten belägger kalk elementet och fungerar som ett isoleringsmaterial, vilket dramatiskt minskar värmeeffektiviteten. I allvarliga fall överhettas elementet lokalt och bränner ut, vilket utlöser skyddande säkringar och koder som E63 eller E64."
+        },
+        {
+          "cause": "Termisk säkring utlöst eller trasig",
+          "detail": "Bosch-maskiner har en termisk säkring som skyddar elementet från överhettning. Om den har utlösts på grund av en tidigare överhettningshändelse får elementet ingen ström förrän säkringen ersätts eller återställs."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera programvalet och displayen för felkoder",
+          "detail": "Bekräfta att du har valt ett program som faktiskt värmer vatten — en kall sköljning eller ett 20°C-ekoprogram värmer inte. Notera eventuell felkod på displayen (E60–E69) innan du rensar den, eftersom detta begränsar vilken komponent du bör inspektera först. Konsultera din modells manual för att bekräfta vad varje kod betyder för just din maskin."
+        },
+        {
+          "step": 2,
+          "action": "Återställ maskinen och kör ett testprogram",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara strömlös i 60 sekunder. Starta om och välj ett bomullsprogram på 60°C. Ungefär 15–20 minuter in i programmet, öppna försiktigt tvättmedelslådan och känn på vattnet som rinner in i trumman — det bör vara märkbart varmt. Detta utesluter ett tillfälligt fel på styrkortet innan du börjar demontera något."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera och testa NTC-temperatursensorn",
+          "detail": "Koppla bort maskinen från elnätet. NTC-sensorn sitter vanligtvis fastklämd på värmeelementhuset i den nedre bakre eller främre delen av trumman. Koppla loss dess kontakt och mät motståndet med en multimeter — vid rumstemperatur (cirka 20°C) läser en frisk NTC vanligtvis 4 000–6 000 ohm. En avläsning på noll eller oändlighet indikerar en defekt sensor som behöver bytas."
+        },
+        {
+          "step": 4,
+          "action": "Testa värmeelementet för kontinuitet",
+          "detail": "Med maskinen fortfarande urkopplad, lokalisera värmeelementets terminaler (åtkomliga från bakpanelen på de flesta Bosch-modeller). Ställ in multimetern på motstånd och mät de två huvudterminalerna — ett fungerande element läser vanligtvis mellan 20 och 50 ohm. En öppen krets (oändligt motstånd) bekräftar att elementet har bränt ut och måste bytas. Kontrollera också att ingen terminal visar kontinuitet till maskinens metallhölje, vilket skulle indikera en kortslutning till jord."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera den termiska säkringen",
+          "detail": "Den termiska säkringen är en liten skiva eller kapsel monterad direkt på eller mycket nära värmeelementet. Testa den för kontinuitet med din multimeter — den bör läsa nära noll ohm när den är frisk. Om den visar öppen krets har den löst ut och behöver bytas. Undersök varför den utlöstes (vanligtvis kalk eller ett sviktande element) innan du monterar en ny, annars löser den ut igen."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera kabelkontakterna till elementet och sensorn",
+          "detail": "Med maskinen urkopplad, följ kablaget från värmeelementet och NTC-sensorn tillbaka mot styrkortet. Leta efter kontakter som har lossnat, terminaler som är korroderade eller missfärgade, och kablage som visar tecken på värmeskada eller nötning. Sätt tillbaka lösa kontakter ordentligt och ersätt eventuella skadade delar av kabelstammen innan du monterar ihop maskinen."
+        },
+        {
+          "step": 7,
+          "action": "Bedöm styrkortet",
+          "detail": "Om elementet, NTC-sensorn, den termiska säkringen och kablaget alla testar som friska är felet troligtvis på styrkortet självt — specifikt ett trasigt relä eller en triac som kopplar ström till elementet. Inspektera kortet visuellt efter brännmärken, svullna kondensatorer eller spruckna lödfogningar. Byte eller reparation av styrkortet är det sista steget och utförs bäst av en servicetekniker om du inte har erfarenhet av arbete på PCB-nivå."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om du har testat värmeelementet, NTC-sensorn och den termiska säkringen och alla verkar elektriskt friska, men maskinen fortfarande inte värmer. Detta mönster tyder starkt på ett fel på styrkortet — att byta eller reparera ett PCB involverar nätspänningskretsar och kan på Bosch-maskiner även kräva programvarukonfiguration efter montering av ett nytt kort.</p><p>Du bör också söka professionell hjälp om du hittar brännmärken inuti maskinen, luktar bränt under ett program, eller om maskinen löser ut din hushållssäkring när den försöker värma. Dessa tecken indikerar ett potentiellt farligt elektriskt fel som går utöver rutinmässigt komponentbyte.</p>",
+      "prevention_html": "<p>De delar som oftast byts när en Bosch tvättmaskin slutar värma är <strong>värmeelementet</strong>, <strong>NTC-temperatursensorn</strong> och <strong>den termiska säkringen</strong>. Att använda en avkalkningsprodukt var tredje till sjätte månad (oftare i områden med hårt vatten) förlänger elementets livslängd avsevärt genom att förhindra den kalkavlagring som orsakar för tidig utbränning. Använd alltid rätt mängd tvättmedel och undvik att konsekvent köra enbart kalla eller 30°C-program, eftersom enstaka tvätt vid högre temperaturer hjälper till att hålla elementet fritt från avlagringar.</p><p>Om du behöver byta någon av dessa komponenter, använd äkta Bosch-kompatibla delar matchade till ditt modellnummer för att säkerställa korrekta motståndsvärden och rätt passform.</p>\n<!-- SPARE_PARTS_FAULT:not-heating-water -->",
+      "faq_json": [
+        {
+          "answer": "Dessa koder relaterar alla till värmekretsen. E60 är ett allmänt värmefel, E61–E65 indikerar vanligtvis problem med NTC-sensorn eller temperaturavläsningen, och E66–E69 pekar vanligtvis på styrkortet eller elementkretsen. Notera den specifika koden innan du rensar den, eftersom den hjälper till att begränsa vilken komponent som ska testas först.",
+          "question": "Vad betyder felkoderna E60 till E69 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Du kan köra maskinen säkert på en kall tvätt på kort sikt, men det är inte en långsiktig lösning. Tvätt vid kalla temperaturer dödar inte bakterier effektivt, biologiska tvättmedel aktiveras inte ordentligt, och det underliggande felet — särskilt om det involverar ett delvis trasigt element — kan förvärras och till slut orsaka att maskinen löser ut din elcentral.",
+          "question": "Kan jag fortfarande använda min Bosch tvättmaskin om den inte värmer?"
+        },
+        {
+          "answer": "Testa båda med en multimeter. Ett utbränt element visar oändligt motstånd (öppen krets) mellan sina två huvudterminaler. En defekt NTC-sensor visar antingen oändligt motstånd eller noll motstånd snarare än de förväntade 4 000–6 000 ohm vid rumstemperatur. Att testa båda tar ungefär 20 minuter och berättar exakt vilken del du ska beställa.",
+          "question": "Hur vet jag om mitt värmeelement har bränt ut snarare än sensorn?"
+        },
+        {
+          "answer": "I de flesta fall är det värt att reparera. Ett värmeelement och en NTC-sensor är relativt billiga delar, och att montera dem är enkelt på de flesta Bosch-modeller. Även ett byte av styrkortet är vanligtvis billigare än en ny maskin. Beslutet förändras om maskinen är över tio år gammal och har andra tilltagande fel — i så fall kan en servicetekniker ge dig en ärlig bedömning.",
+          "question": "Är det värt att reparera ett värmefel på en Bosch tvättmaskin, eller bör jag byta ut maskinen?"
+        },
+        {
+          "answer": "Ja. I områden med hårt vatten ansamlas kalk på elementsytan och fungerar som ett isoleringsmaterial, vilket tvingar elementet att arbeta hårdare och köra varmare tills det till slut bränner ut eller utlöser den termiska säkringen. Att köra ett dedikerat avkalkningsmedel för tvättmaskiner var tredje månad är ett av de mest effektiva sätten att förebygga värmefel och förlänga elementets livslängd.",
+          "question": "Kan hårt vatten orsaka att min Bosch tvättmaskin slutar värma?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T14:47:52.485218+00:00"
+    },
+    {
+      "id": 501,
+      "article_id": 319,
+      "locale": "en",
+      "slug": "vibrating-excessively",
+      "title_tag": "Bosch Washing Machine Vibrating Excessively – Fixes",
+      "meta_description": "Is your Bosch washing machine shaking violently during a cycle? Find the most common causes and step-by-step fixes to stop excessive vibration quickly.",
+      "h1": "Why Is My Bosch Washing Machine Vibrating So Much?",
+      "description": "The washing machine shakes, rattles, or moves across the floor during a wash or spin cycle, more than would be considered normal operation.",
+      "quick_fix": "Check that all four feet are firmly in contact with the floor and adjust any that are uneven using a spanner until the machine sits completely level — this resolves the majority of vibration complaints (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Excessive vibration in a Bosch washing machine is one of the most common complaints homeowners report, and in most cases it has a straightforward cause. You might notice the machine rocking back and forth, 'walking' across the floor, producing a loud banging noise during the spin cycle, or causing nearby cabinets to rattle. In severe cases the drum can sound like it is hitting the inside of the cabinet.</p><p>The spin cycle is where vibration is most noticeable because the drum reaches high speeds — sometimes over 1,200 RPM. Any imbalance in the load, the machine's footing, or internal components is amplified at those speeds. The good news is that the majority of vibration faults are mechanical and external, meaning you can diagnose and fix them without specialist tools or knowledge.</p><p>Work through the checks below in order, starting with the simplest. Most people find the problem within the first two or three steps.</p>",
+      "causes_json": [
+        {
+          "cause": "Uneven or unlevel feet",
+          "detail": "If one or more of the machine's adjustable feet is not making firm contact with the floor, the machine will rock during the spin cycle. Even a small gap of a few millimetres is enough to cause significant vibration."
+        },
+        {
+          "cause": "Unbalanced laundry load",
+          "detail": "A single heavy item like a duvet or a pair of jeans can clump to one side of the drum, creating an off-centre weight that the machine cannot compensate for. Bosch machines will sometimes reduce spin speed automatically, but vibration can still be severe."
+        },
+        {
+          "cause": "Transit bolts still fitted",
+          "detail": "Bosch washing machines are shipped with transit bolts at the rear that lock the drum in place during transport. If these were never removed before first use, the drum is partially restricted and will vibrate heavily on every cycle."
+        },
+        {
+          "cause": "Worn or damaged drum bearings",
+          "detail": "Over time the rear drum bearings wear out, allowing the drum to wobble on its shaft. This typically produces a loud rumbling or grinding noise alongside the vibration, and tends to worsen gradually over months."
+        },
+        {
+          "cause": "Weak or damaged suspension springs and shock absorbers",
+          "detail": "The drum is suspended inside the cabinet by springs and damped by shock absorbers. If any of these components weaken or fail, the drum movement is no longer controlled and vibration transfers directly to the outer casing."
+        },
+        {
+          "cause": "Hard or uneven flooring surface",
+          "detail": "A smooth tiled or laminate floor offers very little grip for the machine's feet, allowing it to slide and amplify vibration. Placing the machine on a thin anti-vibration mat can make a significant difference in these situations."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Remove the transit bolts if this is a new or recently moved machine",
+          "detail": "Look at the back panel of the machine for three or four large plastic-capped bolts, usually coloured red or yellow. Use a spanner to remove them fully and keep them somewhere safe in case you move the machine again. Running a Bosch washing machine with transit bolts fitted will cause severe vibration and can damage the drum suspension permanently."
+        },
+        {
+          "step": 2,
+          "action": "Level the machine using the adjustable feet",
+          "detail": "Place a spirit level on top of the machine and check it in both directions. Each foot can be turned by hand or with a spanner — turn anticlockwise to lower that corner. Once all four feet are touching the floor firmly, tighten the locking nut on each foot up against the base of the machine to stop them moving. Recheck with the spirit level after tightening."
+        },
+        {
+          "step": 3,
+          "action": "Place an anti-vibration mat under the machine",
+          "detail": "If the machine sits on a smooth hard floor, a rubber anti-vibration mat (available from most hardware stores for around £10–£20) will grip the floor and absorb movement. Make sure the mat is the correct size so all four feet sit on it. This is particularly effective in upstairs laundry rooms where vibration can travel through the floor structure."
+        },
+        {
+          "step": 4,
+          "action": "Redistribute or reduce the laundry load",
+          "detail": "Open the door and rearrange the items so they are spread evenly around the drum. Avoid washing single heavy items alone — add a couple of towels to balance the load. Also check you are not overloading the drum; Bosch machines have a rated capacity and exceeding it prevents the load from tumbling freely, causing imbalance."
+        },
+        {
+          "step": 5,
+          "action": "Run an empty spin cycle to isolate the cause",
+          "detail": "If the machine vibrates heavily even with no laundry inside, the problem is mechanical rather than load-related. Listen carefully — a rumbling or grinding sound points to worn drum bearings, while a clunking or banging sound suggests a failed shock absorber or spring. Note what you hear, as this will help a service technician diagnose the fault quickly."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the shock absorbers for visible damage",
+          "detail": "With the machine unplugged, remove the front or rear panel (depending on your Bosch model — check your user manual). The shock absorbers are cylindrical components connecting the drum to the base frame. Look for oil leaks, cracked plastic ends, or a damper that compresses too easily with light hand pressure. A faulty shock absorber will need to be replaced."
+        },
+        {
+          "step": 7,
+          "action": "Check the drum for bearing wear",
+          "detail": "With the machine unplugged, open the door and try to move the drum up and down by hand. A small amount of movement is normal, but if there is noticeable play or a rough, gritty feeling when you spin the drum slowly by hand, the rear bearings are worn. Bearing replacement is a significant repair and is best carried out by a service technician."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and the machine still vibrates excessively during an empty spin cycle, the fault is almost certainly internal. Worn drum bearings, a broken suspension spring, or a failed shock absorber all require the machine to be partially dismantled. These repairs involve handling heavy components and, in the case of bearings, pressing parts off a shaft — work that carries a risk of injury or further damage if attempted without experience.</p><p>You should also call a service technician if you notice the drum is visibly off-centre when you look through the door glass, if the machine has started leaking alongside the vibration, or if there is any burning smell during operation. These signs suggest the vibration has already caused secondary damage that needs professional assessment.</p>",
+      "prevention_html": "<p>Keeping your Bosch washing machine level and loading it correctly are the two most effective ways to prevent vibration problems from developing. Check the feet every six to twelve months — they can work loose over time, especially on hard floors. Avoid regularly washing single heavy items and try to keep loads balanced. If you move the machine for any reason, always refit the transit bolts for transport and remove them again before the next use.</p><p>The parts most commonly replaced when dealing with excessive vibration on Bosch washing machines are the <strong>shock absorbers (dampers)</strong>, the <strong>drum suspension springs</strong>, and the <strong>rear drum bearing and seal kit</strong>. Using genuine Bosch spare parts ensures the correct fit and helps the machine return to its original performance specification.</p>\n<!-- SPARE_PARTS_FAULT:vibrating-excessively -->",
+      "faq_json": [
+        {
+          "answer": "It depends on the cause. If the vibration is due to an uneven floor or an unbalanced load, continuing to use the machine while you sort the problem is unlikely to cause damage. However, if the vibration is caused by worn bearings or broken suspension components, continued use will accelerate wear on other parts and could eventually cause the drum to contact the outer tub, leading to a more expensive repair.",
+          "question": "Is it safe to keep using my Bosch washing machine if it is vibrating a lot?"
+        },
+        {
+          "answer": "Some vibration during the spin cycle is normal because the drum is rotating at high speed. What is not normal is the machine moving across the floor, producing loud banging, or shaking so much that it is audible throughout the house. If the vibration is noticeably worse than when the machine was new, work through the levelling and load-balancing checks first.",
+          "question": "My Bosch washing machine only vibrates on the spin cycle — is that normal?"
+        },
+        {
+          "answer": "Look at the back panel of the machine. Transit bolts are typically large bolts with a plastic cap or sleeve, often coloured red, yellow, or blue, and there are usually three or four of them in a row. If you are unsure, check the installation section of your Bosch user manual, which will show their exact location and how to remove them.",
+          "question": "How do I know if my Bosch washing machine transit bolts are still fitted?"
+        },
+        {
+          "answer": "Yes. An overloaded drum does not allow clothes to tumble freely, so they can bunch together on one side and create an imbalance. Equally, a very small load — such as one or two items — can also cause imbalance because there is not enough weight distributed around the drum. A medium, evenly distributed load generally produces the least vibration.",
+          "question": "Can a full load cause more vibration than a small load?"
+        },
+        {
+          "answer": "Shock absorbers on a Bosch washing machine typically last between five and ten years under normal use, though this varies depending on how frequently the machine is used and whether it is regularly overloaded. If your machine is more than seven years old and has started vibrating more than usual, worn shock absorbers are a likely cause and are a relatively straightforward part to replace.",
+          "question": "How long do Bosch washing machine shock absorbers typically last?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T14:48:49.761127+00:00"
+    },
+    {
+      "id": 502,
+      "article_id": 319,
+      "locale": "sv",
+      "slug": "vibrerar-för-mycket",
+      "title_tag": "Bosch Tvättmaskin Vibrerar För Mycket – Lösningar",
+      "meta_description": "Skakar din Bosch tvättmaskin våldsamt under ett program? Hitta de vanligaste orsakerna och steg-för-steg-lösningar för att snabbt stoppa överdrivna vibrationer.",
+      "h1": "Varför Vibrerar Min Bosch Tvättmaskin Så Mycket?",
+      "description": "Tvättmaskinen skakar, skramlar eller förflyttar sig över golvet under ett tvätt- eller centrifugeringsprogram, mer än vad som anses vara normal drift.",
+      "quick_fix": "Kontrollera att alla fyra fötter har ordentlig kontakt med golvet och justera eventuella ojämna fötter med en skiftnyckel tills maskinen står helt i vater — detta löser majoriteten av vibrationsklagomål (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Överdrivna vibrationer i en Bosch tvättmaskin är ett av de vanligaste problemen som hushållsägare rapporterar, och i de flesta fall har det en enkel orsak. Du kanske märker att maskinen gungar fram och tillbaka, 'vandrar' över golvet, producerar ett högt bankande ljud under centrifugeringen, eller får närliggande skåp att skramla. I allvarliga fall kan trumman låta som om den slår mot insidan av höljet.</p><p>Centrifugeringsprogrammet är där vibrationer märks mest eftersom trumman når höga hastigheter — ibland över 1 200 RPM. Varje obalans i lasten, maskinens stöd eller interna komponenter förstärks vid dessa hastigheter. Den goda nyheten är att majoriteten av vibrationsfel är mekaniska och externa, vilket innebär att du kan diagnostisera och åtgärda dem utan specialverktyg eller fackkunskap.</p><p>Arbeta igenom kontrollerna nedan i ordning, börja med det enklaste. De flesta hittar problemet inom de första två eller tre stegen.</p>",
+      "causes_json": [
+        {
+          "cause": "Ojämna eller sneda fötter",
+          "detail": "Om en eller flera av maskinens justerbara fötter inte har ordentlig kontakt med golvet kommer maskinen att gunga under centrifugeringen. Även ett litet glapp på några millimeter räcker för att orsaka betydande vibrationer."
+        },
+        {
+          "cause": "Obalanserad tvätt",
+          "detail": "Ett enda tungt plagg, som en täcke eller ett par jeans, kan klumpa ihop sig på ena sidan av trumman och skapa en excentrisk tyngd som maskinen inte kan kompensera för. Bosch-maskiner minskar ibland centrifugeringshastigheten automatiskt, men vibrationerna kan ändå vara kraftiga."
+        },
+        {
+          "cause": "Transportbultar fortfarande monterade",
+          "detail": "Bosch tvättmaskiner levereras med transportbultar på baksidan som låser trumman på plats under transport. Om dessa aldrig togs bort före första användning är trumman delvis låst och kommer att vibrera kraftigt vid varje program."
+        },
+        {
+          "cause": "Slitna eller skadade trumlagrar",
+          "detail": "Med tiden slits de bakre trumlagren ut, vilket gör att trumman kan vicka på sin axel. Detta ger vanligtvis ett högt mullrande eller slipande ljud tillsammans med vibrationerna, och tenderar att förvärras gradvis över månader."
+        },
+        {
+          "cause": "Svaga eller skadade upphängningsfäder och stötdämpare",
+          "detail": "Trumman är upphängd inuti höljet med fjädrar och dämpas av stötdämpare. Om någon av dessa komponenter försvagas eller går sönder kontrolleras inte längre trummans rörelse och vibrationerna överförs direkt till det yttre höljet."
+        },
+        {
+          "cause": "Hårt eller ojämnt golvunderlag",
+          "detail": "Ett slätt kakel- eller laminatgolv ger mycket lite grepp för maskinens fötter, vilket gör att den kan glida och förstärka vibrationerna. Att placera maskinen på en tunn antivibrationsplatta kan göra en betydande skillnad i dessa situationer."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Ta bort transportbultarna om detta är en ny eller nyligen flyttad maskin",
+          "detail": "Titta på maskinens bakpanel efter tre eller fyra stora bultar med plastlock, vanligtvis röda eller gula. Använd en skiftnyckel för att ta bort dem helt och förvara dem på ett säkert ställe ifall du behöver flytta maskinen igen. Att köra en Bosch tvättmaskin med transportbultar monterade orsakar kraftiga vibrationer och kan permanent skada trummans upphängning."
+        },
+        {
+          "step": 2,
+          "action": "Ställ maskinen i vater med hjälp av de justerbara fötterna",
+          "detail": "Placera ett vattenpass ovanpå maskinen och kontrollera i båda riktningarna. Varje fot kan vridas för hand eller med en skiftnyckel — vrid moturs för att sänka det hörnet. När alla fyra fötter har ordentlig kontakt med golvet, dra åt låsmuttern på varje fot mot maskinens bas för att förhindra att de rör sig. Kontrollera med vattenpasset igen efter åtdragning."
+        },
+        {
+          "step": 3,
+          "action": "Placera en antivibrationsplatta under maskinen",
+          "detail": "Om maskinen står på ett slätt hårt golv kommer en gummiantivibrationsplatta (finns i de flesta byggvaruhandlar för ungefär 100–200 kr) att gripa tag i golvet och absorbera rörelser. Se till att plattan är rätt storlek så att alla fyra fötter vilar på den. Detta är särskilt effektivt i tvättstugor på övre våningar där vibrationer kan spridas genom golvkonstruktionen."
+        },
+        {
+          "step": 4,
+          "action": "Omfördela eller minska tvättlasten",
+          "detail": "Öppna luckan och arrangera om plaggen så att de är jämnt fördelade runt trumman. Undvik att tvätta enstaka tunga plagg ensamma — lägg till ett par handdukar för att balansera lasten. Kontrollera också att du inte överlastar trumman; Bosch-maskiner har en angiven kapacitet och att överskrida den hindrar tvätten från att tumla fritt, vilket orsakar obalans."
+        },
+        {
+          "step": 5,
+          "action": "Kör ett tomt centrifugeringsprogram för att isolera orsaken",
+          "detail": "Om maskinen vibrerar kraftigt även utan tvätt inuti är problemet mekaniskt snarare än lastrelaterat. Lyssna noga — ett mullrande eller slipande ljud tyder på slitna trumlagrar, medan ett dunkande eller bankande ljud tyder på en defekt stötdämpare eller fjäder. Notera vad du hör, eftersom detta hjälper en servicetekniker att snabbt diagnostisera felet."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera stötdämparna för synliga skador",
+          "detail": "Med maskinen urkopplad, ta bort front- eller bakpanelen (beroende på din Bosch-modell — kontrollera din bruksanvisning). Stötdämparna är cylindriska komponenter som förbinder trumman med basramen. Leta efter oljeläckor, spruckna plaständar eller en dämpare som komprimeras för lätt med lätt handtryck. En defekt stötdämpare måste bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera trumman för lagerslitage",
+          "detail": "Med maskinen urkopplad, öppna luckan och försök att röra trumman upp och ner för hand. En liten rörelse är normal, men om det finns märkbart spel eller en grov, grusig känsla när du snurrar trumman långsamt för hand är de bakre lagren slitna. Lagerbyte är en omfattande reparation och utförs bäst av en servicetekniker."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har arbetat igenom alla stegen ovan och maskinen fortfarande vibrerar kraftigt under ett tomt centrifugeringsprogram är felet nästan säkert internt. Slitna trumlagrar, en bruten upphängningsfjäder eller en defekt stötdämpare kräver att maskinen delvis demonteras. Dessa reparationer innebär hantering av tunga komponenter och, i fallet med lager, att delar pressas av en axel — arbete som medför risk för skada eller ytterligare skador om det utförs utan erfarenhet.</p><p>Du bör också kontakta en servicetekniker om du märker att trumman är synligt ur centrum när du tittar genom luckan, om maskinen har börjat läcka tillsammans med vibrationerna, eller om det finns någon bränd lukt under drift. Dessa tecken tyder på att vibrationerna redan har orsakat sekundära skador som behöver professionell bedömning.</p>",
+      "prevention_html": "<p>Att hålla din Bosch tvättmaskin i vater och lasta den korrekt är de två mest effektiva sätten att förhindra att vibrationsproblem uppstår. Kontrollera fötterna var sjätte till tolfte månad — de kan lossna med tiden, särskilt på hårda golv. Undvik att regelbundet tvätta enstaka tunga plagg och försök att hålla lasterna balanserade. Om du flyttar maskinen av någon anledning, montera alltid tillbaka transportbultarna för transport och ta bort dem igen före nästa användning.</p><p>De delar som oftast byts ut vid hantering av överdrivna vibrationer på Bosch tvättmaskiner är <strong>stötdämparna (dämpare)</strong>, <strong>trummans upphängningsfjädrar</strong> och <strong>det bakre trumlagret med tätningssats</strong>. Användning av äkta Bosch reservdelar säkerställer korrekt passform och hjälper maskinen att återgå till sin ursprungliga prestandaspecifikation.</p>\n<!-- SPARE_PARTS_FAULT:vibrating-excessively -->",
+      "faq_json": [
+        {
+          "answer": "Det beror på orsaken. Om vibrationerna beror på ett ojämnt golv eller en obalanserad last är det osannolikt att fortsatt användning orsakar skada medan du åtgärdar problemet. Men om vibrationerna orsakas av slitna lager eller trasiga upphängningskomponenter kommer fortsatt användning att accelerera slitaget på andra delar och kan så småningom orsaka att trumman kommer i kontakt med det yttre karet, vilket leder till en dyrare reparation.",
+          "question": "Är det säkert att fortsätta använda min Bosch tvättmaskin om den vibrerar mycket?"
+        },
+        {
+          "answer": "Vissa vibrationer under centrifugeringen är normala eftersom trumman roterar med hög hastighet. Vad som inte är normalt är att maskinen förflyttar sig över golvet, producerar höga bankande ljud eller skakar så mycket att det hörs i hela huset. Om vibrationerna är märkbart värre än när maskinen var ny, arbeta igenom kontrollerna för nivåjustering och lastbalansering först.",
+          "question": "Min Bosch tvättmaskin vibrerar bara under centrifugeringen — är det normalt?"
+        },
+        {
+          "answer": "Titta på maskinens bakpanel. Transportbultar är vanligtvis stora bultar med ett plastlock eller en plasthylsa, ofta röda, gula eller blå, och det finns vanligtvis tre eller fyra av dem på rad. Om du är osäker, kontrollera installationsavsnittet i din Bosch bruksanvisning, som visar deras exakta placering och hur du tar bort dem.",
+          "question": "Hur vet jag om transportbultarna på min Bosch tvättmaskin fortfarande är monterade?"
+        },
+        {
+          "answer": "Ja. En överfull trumma tillåter inte kläder att tumla fritt, så de kan klumpa ihop sig på ena sidan och skapa en obalans. På samma sätt kan en mycket liten last — till exempel ett eller två plagg — också orsaka obalans eftersom det inte finns tillräckligt med vikt fördelad runt trumman. En medelstor, jämnt fördelad last ger generellt minst vibrationer.",
+          "question": "Kan en full last orsaka mer vibrationer än en liten last?"
+        },
+        {
+          "answer": "Stötdämparna på en Bosch tvättmaskin håller vanligtvis mellan fem och tio år vid normal användning, även om detta varierar beroende på hur ofta maskinen används och om den regelbundet överbelastas. Om din maskin är mer än sju år gammal och har börjat vibrera mer än vanligt är slitna stötdämpare en trolig orsak och är en relativt enkel del att byta ut.",
+          "question": "Hur länge håller stötdämparna på en Bosch tvättmaskin vanligtvis?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T14:50:06.999093+00:00"
+    },
+    {
+      "id": 509,
+      "article_id": 323,
+      "locale": "en",
+      "slug": "drum-not-turning",
+      "title_tag": "Bosch Washing Machine Drum Not Turning – Fixes",
+      "meta_description": "Bosch washing machine drum not turning? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers error code E50.",
+      "h1": "Why Has My Bosch Washing Machine Drum Stopped Turning?",
+      "description": "The washing machine drum remains stationary during the wash or spin cycle instead of rotating as expected.",
+      "quick_fix": "Check and clear any overloading by removing half the laundry, then restart the cycle — an overloaded drum is the most common reason the motor cuts out and the drum stops turning (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When your Bosch washing machine drum stops turning, you will typically notice that the machine fills with water and hums, but the drum itself stays completely still or barely moves. In some cases the cycle timer continues to count down while nothing happens, and clothes come out soaking wet at the end. Your machine may also display error code E50, which Bosch uses to flag a motor or motor circuit fault.</p><p>The drum drive system on a Bosch washing machine involves several components working together: the drive belt, the motor, the motor control board, and the carbon brushes inside the motor itself. A failure in any one of these can bring the drum to a standstill. Because this fault sits at the more advanced end of the repair spectrum, it is worth working through the simpler checks first before assuming the worst.</p>",
+      "causes_json": [
+        {
+          "cause": "Broken or snapped drive belt",
+          "detail": "The drive belt connects the motor to the drum pulley. Over time it stretches, frays, and eventually snaps, leaving the motor spinning freely while the drum does nothing."
+        },
+        {
+          "cause": "Worn motor carbon brushes",
+          "detail": "Carbon brushes transfer electrical current to the motor's rotating armature. Once they wear down below about 5 mm, the motor loses power and the drum either turns weakly or not at all — this is one of the most frequent causes of error code E50."
+        },
+        {
+          "cause": "Overloaded drum",
+          "detail": "Packing too much laundry into the drum creates resistance the motor cannot overcome, triggering a thermal cut-out or motor protection circuit that halts rotation. The machine may resume once it cools down and the load is reduced."
+        },
+        {
+          "cause": "Faulty motor control module",
+          "detail": "The electronic module that governs motor speed and direction can fail due to power surges or age. When it does, it may send no signal to the motor at all, or an incorrect one that prevents rotation."
+        },
+        {
+          "cause": "Seized or damaged drum bearings",
+          "detail": "Worn drum bearings create excessive friction that the motor cannot overcome. You will usually hear a loud rumbling or grinding noise before the drum stops turning altogether."
+        },
+        {
+          "cause": "Foreign object jamming the drum",
+          "detail": "Coins, bra underwires, or small items of clothing can slip between the drum and the door seal, physically blocking rotation. The motor may hum under the strain before the protection circuit cuts it off."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reduce the load and restart",
+          "detail": "Open the door, remove roughly half the laundry, and run a short cycle. An overloaded machine is the simplest fix and costs nothing. If the drum turns normally with a smaller load, you have found your problem — stick to the maximum load stated in your model's manual going forward."
+        },
+        {
+          "step": 2,
+          "action": "Check for a jammed foreign object",
+          "detail": "Peel back the rubber door seal and inspect the gap between the seal and the drum rim. Use a torch to look for coins, wires, or fabric. Remove anything you find with long-nose pliers. Try rotating the drum by hand — it should turn smoothly with only light resistance."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the drive belt",
+          "detail": "Disconnect the machine from the mains and pull it away from the wall. Remove the rear panel (usually held by three or four screws). Locate the large rubber belt running around the drum pulley and motor spindle. If it is snapped, lying loose at the bottom of the cabinet, or visibly cracked, it needs replacing. Replacement belts for Bosch machines are widely available and fitting one is a manageable DIY task."
+        },
+        {
+          "step": 4,
+          "action": "Test and replace the carbon brushes",
+          "detail": "With the rear panel still off, locate the motor — it sits at the bottom of the machine. The carbon brushes are housed in small plastic holders on either side of the motor body. Slide them out and measure their length; anything under 5 mm means they are due for replacement. New brushes are inexpensive and simply push back into the holders. This repair resolves a large proportion of E50 faults."
+        },
+        {
+          "step": 5,
+          "action": "Check the motor wiring connections",
+          "detail": "While you have access to the motor, inspect all wiring connectors leading to it. A connector that has vibrated loose or corroded will interrupt the power supply. Press each connector firmly home and look for any burnt or discoloured wiring that might indicate a short circuit."
+        },
+        {
+          "step": 6,
+          "action": "Listen and feel for bearing failure",
+          "detail": "Rotate the drum slowly by hand with the belt removed. It should turn with minimal effort and no grinding sensation. A rough, gritty feel or a deep rumbling sound points to failed drum bearings. Bearing replacement is a significant strip-down job and is best assessed against the age and value of the machine before proceeding."
+        },
+        {
+          "step": 7,
+          "action": "Reset the machine and check for persistent error codes",
+          "detail": "After completing any repair, reconnect the power and run a short cotton cycle. If error code E50 reappears immediately without the drum turning, the motor control module is the likely remaining culprit. Note the code and contact a service technician with this information, as module diagnosis requires specialist test equipment."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>Call a service technician if the drum still does not turn after you have checked the belt, replaced the carbon brushes, and cleared any obstructions. A persistent E50 error code following those repairs usually points to a failed motor or a faulty motor control module — both of which require specialist diagnostic tools and safe handling of high-voltage components.</p><p>You should also seek professional help if you notice any burning smell coming from the machine, if the motor housing feels hot to the touch, or if you can see scorched wiring inside the cabinet. These signs indicate an electrical fault that carries a safety risk and should not be investigated further without proper training.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Bosch washing machine drum stops turning are the <strong>drive belt</strong>, the <strong>motor carbon brushes</strong>, and the <strong>motor control module</strong>. Keeping a drive belt and a set of carbon brushes on hand is sensible if your machine is more than five years old, as both are wear items that will eventually need attention. Always buy parts that match your exact model number, which you will find on the label inside the door frame.</p><p>To reduce wear on these components, avoid consistently washing at maximum load capacity, clean the door seal regularly to prevent debris working its way into the drum gap, and run a monthly drum-clean cycle to keep the interior free of residue that can unbalance the load.</p>\n<!-- SPARE_PARTS_FAULT:drum-not-turning -->",
+      "faq_json": [
+        {
+          "answer": "E50 indicates a fault in the motor circuit. It can be triggered by worn carbon brushes, a wiring fault between the control board and the motor, or a failed motor itself. Start by checking the carbon brushes, as they are the most common cause and the cheapest fix.",
+          "question": "What does error code E50 mean on a Bosch washing machine?"
+        },
+        {
+          "answer": "No. Running a cycle with a stationary drum will leave clothes unwashed and soaking in water, and continuing to run the motor under a stalled load can cause further damage or overheat the motor windings. Switch the machine off and investigate the fault before using it again.",
+          "question": "Can I use my Bosch washing machine if the drum is not turning?"
+        },
+        {
+          "answer": "A drive belt typically lasts between five and ten years depending on how heavily the machine is used and whether it is regularly overloaded. If you notice a burning rubber smell during a wash cycle, inspect the belt promptly — it may be slipping rather than fully broken.",
+          "question": "How long does a Bosch washing machine drive belt last?"
+        },
+        {
+          "answer": "Drum bearing replacement is labour-intensive and can cost a significant proportion of the machine's value. As a rough guide, if the repair cost exceeds half the price of a comparable new machine and the appliance is more than eight years old, replacement may be the more economical choice. A service technician can give you a firm quote to help you decide.",
+          "question": "Is it worth repairing a Bosch washing machine with a seized drum bearing?"
+        },
+        {
+          "answer": "If the drum rotates freely by hand but stays still when the machine runs, the problem is almost certainly electrical rather than mechanical. The motor, its carbon brushes, or the motor control module are the most likely culprits. Work through the carbon brush check first, as it is the easiest and least expensive place to start.",
+          "question": "The drum turns by hand but not during a cycle — what does that mean?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T14:57:46.364239+00:00"
+    },
+    {
+      "id": 510,
+      "article_id": 323,
+      "locale": "sv",
+      "slug": "trumman-snurrar-inte",
+      "title_tag": "Bosch tvättmaskin – trumman snurrar inte – lösningar",
+      "meta_description": "Snurrar inte trumman på din Bosch tvättmaskin? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkod E50",
+      "h1": "Varför har trumman på min Bosch tvättmaskin slutat snurra?",
+      "description": "Tvättmaskinens trumma står stilla under tvätt- eller centrifugeringscykeln istället för att rotera som förväntat.",
+      "quick_fix": "Kontrollera om maskinen är överfylld och ta ut ungefär hälften av tvätten, starta sedan om cykeln – en överfylld trumma är den vanligaste orsaken till att motorn stängs av och trumman slutar snurra (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När trumman på din Bosch tvättmaskin slutar snurra märker du vanligtvis att maskinen fylls med vatten och surrar, men att trumman själv står helt stilla eller knappt rör sig. I vissa fall fortsätter cykelns timer att räkna ned utan att något händer, och kläderna kommer ut genomblöta när cykeln är klar. Maskinen kan också visa felkod E50, vilket Bosch använder för att signalera ett fel på motorn eller motorkretsens komponenter.</p><p>Trummans drivsystem på en Bosch tvättmaskin består av flera komponenter som samverkar: drivremmen, motorn, motorstyrkortet och kolborstarna inuti motorn. Ett fel på någon av dessa kan få trumman att stanna helt. Eftersom det här felet befinner sig i den mer avancerade delen av reparationsskalan är det värt att gå igenom de enklare kontrollerna först innan man antar det värsta.</p>",
+      "causes_json": [
+        {
+          "cause": "Trasig eller av drivrem",
+          "detail": "Drivremmen förbinder motorn med trummans remskiva. Med tiden sträcks den ut, fransar och går slutligen av, vilket gör att motorn snurrar fritt medan trumman inte gör något."
+        },
+        {
+          "cause": "Slitna kolborstar i motorn",
+          "detail": "Kolborstar överför elektrisk ström till motorns roterande ankare. När de slits ned under ungefär 5 mm förlorar motorn kraft och trumman snurrar svagt eller inte alls – detta är en av de vanligaste orsakerna till felkod E50."
+        },
+        {
+          "cause": "Överfylld trumma",
+          "detail": "Att stoppa in för mycket tvätt i trumman skapar ett motstånd som motorn inte kan övervinna, vilket utlöser ett termiskt skydd eller ett motorskyddskrets som stoppar rotationen. Maskinen kan återuppta tvätten när den svalnat och lasten minskat."
+        },
+        {
+          "cause": "Defekt motorstyrmodul",
+          "detail": "Den elektroniska modulen som styr motorns hastighet och riktning kan sluta fungera på grund av spänningsstötar eller ålder. När det händer kan den skicka ingen signal alls till motorn, eller en felaktig signal som förhindrar rotation."
+        },
+        {
+          "cause": "Kärvande eller skadade trumlagrar",
+          "detail": "Slitna trumlagrar skapar ett överdrivet friktion som motorn inte kan övervinna. Du hör vanligtvis ett högt mullrande eller malande ljud innan trumman slutar snurra helt."
+        },
+        {
+          "cause": "Främmande föremål som blockerar trumman",
+          "detail": "Mynt, bysthållartrådar eller små plagg kan glida in mellan trumman och dörrtätningen och fysiskt blockera rotationen. Motorn kan surra under belastningen innan skyddskretsen stänger av den."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Minska lasten och starta om",
+          "detail": "Öppna luckan, ta ut ungefär hälften av tvätten och kör en kort cykel. En överfylld maskin är den enklaste lösningen och kostar ingenting. Om trumman snurrar normalt med en mindre last har du hittat problemet – håll dig till den maximala last som anges i din modells manual framöver."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera om ett främmande föremål fastnat",
+          "detail": "Vik tillbaka gummitätningen vid luckan och undersök springan mellan tätningen och trummans kant. Använd en ficklampa för att leta efter mynt, trådar eller tyg. Ta bort allt du hittar med spetsnåltång. Försök rotera trumman för hand – den ska snurra smidigt med bara lätt motstånd."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera drivremmen",
+          "detail": "Koppla bort maskinen från elnätet och dra ut den från väggen. Ta bort bakpanelen (vanligtvis fäst med tre eller fyra skruvar). Leta upp det stora gummiband som löper runt trummans remskiva och motoraxeln. Om den är av, ligger löst i botten av maskinen eller är synligt sprucken behöver den bytas. Ersättningsremmar till Bosch-maskiner finns lättillgängliga och att montera en är ett hanterbart gör-det-själv-arbete."
+        },
+        {
+          "step": 4,
+          "action": "Testa och byt kolborstarna",
+          "detail": "Med bakpanelen fortfarande borttagen, leta upp motorn – den sitter längst ned i maskinen. Kolborstarna sitter i små planthållare på vardera sidan av motorhuset. Dra ut dem och mät deras längd; allt under 5 mm innebär att de behöver bytas. Nya borstar är billiga och trycks enkelt tillbaka i hållarna. Den här reparationen löser en stor andel av E50-felen."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera motorns kabelanslutningar",
+          "detail": "Medan du har tillgång till motorn, inspektera alla kabelkontakter som leder till den. En kontakt som vibrerat loss eller korroderat avbryter strömförsörjningen. Tryck in varje kontakt ordentligt och leta efter brända eller missfärgade kablar som kan tyda på en kortslutning."
+        },
+        {
+          "step": 6,
+          "action": "Lyssna och känn efter lagerfel",
+          "detail": "Rotera trumman långsamt för hand med remmen borttagen. Den ska snurra med minimalt motstånd och utan malande känsla. En grov, grusig känsla eller ett djupt mullrande ljud tyder på defekta trumlagrar. Lagerbyte är ett omfattande demonteringsarbete och bör vägas mot maskinens ålder och värde innan man går vidare."
+        },
+        {
+          "step": 7,
+          "action": "Återställ maskinen och kontrollera kvarstående felkoder",
+          "detail": "Efter att ha utfört en reparation, återanslut strömmen och kör en kort bomullscykel. Om felkod E50 visas igen omedelbart utan att trumman snurrar är motorstyrmodulen troligtvis den kvarvarande boven. Notera koden och kontakta en servicetekniker med denna information, eftersom moduldiagnostik kräver specialiserad testutrustning."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om trumman fortfarande inte snurrar efter att du har kontrollerat remmen, bytt kolborstarna och avlägsnat eventuella hinder. En kvarstående E50-felkod efter dessa åtgärder pekar vanligtvis på en defekt motor eller en trasig motorstyrmodul – båda kräver specialiserade diagnostikverktyg och säker hantering av högspänningskomponenter.</p><p>Du bör också söka professionell hjälp om du märker en bränd lukt från maskinen, om motorhuset känns varmt vid beröring, eller om du kan se förkolnade kablar inuti maskinen. Dessa tecken tyder på ett elfel som innebär en säkerhetsrisk och bör inte undersökas vidare utan rätt utbildning.</p>",
+      "prevention_html": "<p>De delar som oftast byts när trumman på en Bosch tvättmaskin slutar snurra är <strong>drivremmen</strong>, <strong>motorns kolborstar</strong> och <strong>motorstyrmodulen</strong>. Att ha en drivrem och ett set kolborstar till hands är klokt om din maskin är mer än fem år gammal, eftersom båda är förslitningsdelar som förr eller senare behöver åtgärdas. Köp alltid delar som matchar ditt exakta modellnummer, vilket du hittar på etiketten inuti luckoramen.</p><p>För att minska slitaget på dessa komponenter bör du undvika att konsekvent tvätta med maximal lastkapacitet, rengöra dörrtätningen regelbundet för att förhindra att skräp tar sig in i trummans spalt, och köra en månatlig trumrengöringscykel för att hålla insidan fri från rester som kan orsaka obalans i lasten.</p>\n<!-- SPARE_PARTS_FAULT:drum-not-turning -->",
+      "faq_json": [
+        {
+          "answer": "E50 indikerar ett fel i motorkretsen. Det kan utlösas av slitna kolborstar, ett kabelfel mellan styrkortet och motorn, eller en defekt motor. Börja med att kontrollera kolborstarna, eftersom de är den vanligaste orsaken och den billigaste lösningen.",
+          "question": "Vad betyder felkod E50 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Nej. Att köra en cykel med en stillastående trumma lämnar kläderna otvättade och blötlagda i vatten, och att fortsätta köra motorn under en stoppad last kan orsaka ytterligare skador eller överhettas motorlindningarna. Stäng av maskinen och undersök felet innan du använder den igen.",
+          "question": "Kan jag använda min Bosch tvättmaskin om trumman inte snurrar?"
+        },
+        {
+          "answer": "En drivrem håller vanligtvis mellan fem och tio år beroende på hur hårt maskinen används och om den regelbundet överlastas. Om du märker en lukt av bränt gummi under en tvättcykel, inspektera remmen omgående – den kan slira snarare än att vara helt av.",
+          "question": "Hur länge håller drivremmen på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Byte av trumlagrar är arbetsintensivt och kan kosta en betydande andel av maskinens värde. Som en grov riktlinje: om reparationskostnaden överstiger hälften av priset för en jämförbar ny maskin och apparaten är mer än åtta år gammal kan ett byte vara det mer ekonomiska valet. En servicetekniker kan ge dig en fast offert som hjälper dig att bestämma.",
+          "question": "Är det värt att reparera en Bosch tvättmaskin med kärvande trumlagrar?"
+        },
+        {
+          "answer": "Om trumman roterar fritt för hand men står stilla när maskinen körs är problemet nästan säkert elektriskt snarare än mekaniskt. Motorn, dess kolborstar eller motorstyrmodulen är de mest troliga bovarna. Börja med att kontrollera kolborstarna, eftersom det är det enklaste och billigaste stället att börja.",
+          "question": "Trumman snurrar för hand men inte under en cykel – vad betyder det?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T14:58:59.026768+00:00"
+    },
+    {
+      "id": 511,
+      "article_id": 324,
+      "locale": "en",
+      "slug": "control-panel-unresponsive",
+      "title_tag": "Bosch Washing Machine Control Panel Unresponsive – Fixes",
+      "meta_description": "Bosch washing machine control panel not responding? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers E91, E92 errors.",
+      "h1": "Why Is My Bosch Washing Machine Control Panel Not Responding?",
+      "description": "The control panel on the washing machine does not respond to button presses or touch input, making it impossible to start or change a programme.",
+      "quick_fix": "Press and hold the Start/Pause button for 5 seconds to perform a soft reset — this clears temporary software faults and restores panel responsiveness in the majority of cases (takes about 2 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When your Bosch washing machine's control panel stops responding, the machine may appear completely dead, or it may power on but ignore every button press. In some cases the display lights up but no input registers; in others the panel is entirely blank. Related fault codes E91 and E92 can appear when communication between the control panel and the main control board breaks down, though these codes are not always visible if the display itself is affected.</p><p>This symptom points to one of several systems: the user interface board, the wiring harness connecting it to the main PCB, the main control board itself, or a software state that has locked the machine. Child lock activation is a surprisingly common culprit and is easy to rule out before investigating hardware. Because the control panel is the primary way you interact with the machine, any fault here effectively makes the appliance unusable until it is resolved.</p>",
+      "causes_json": [
+        {
+          "cause": "Child lock or demo mode is active",
+          "detail": "Bosch machines have a child lock feature that disables all panel inputs. If it was activated accidentally — often by pressing two buttons simultaneously — the panel will appear completely unresponsive even though the machine is otherwise healthy."
+        },
+        {
+          "cause": "Temporary software or firmware fault",
+          "detail": "The machine's onboard software can enter an unresponsive state after a power fluctuation, an interrupted cycle, or a corrupted programme selection. A full power reset usually clears this without any parts replacement."
+        },
+        {
+          "cause": "Faulty or damaged user interface (UI) board",
+          "detail": "The UI board sits behind the control panel fascia and processes all button and dial inputs. Moisture ingress, age-related component failure, or physical damage can cause it to stop sending signals, triggering E91 or E92 fault codes."
+        },
+        {
+          "cause": "Loose or damaged wiring harness",
+          "detail": "A ribbon cable or wiring loom connects the control panel to the main PCB. Vibration over time can loosen connectors, and a partial disconnection is enough to cause intermittent or total loss of panel response."
+        },
+        {
+          "cause": "Failed main control board (PCB)",
+          "detail": "If the main PCB cannot communicate with the UI board, the panel will appear dead. This is less common than a UI board fault but is more likely if the machine also fails to respond to a full power reset and shows E92 persistently."
+        },
+        {
+          "cause": "Power supply issue",
+          "detail": "A blown internal fuse, a faulty door interlock preventing power from reaching the control circuit, or a problem with the household supply can all prevent the panel from receiving the voltage it needs to operate."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check for child lock activation",
+          "detail": "Look for a key or padlock icon on the display. On most Bosch models, child lock is deactivated by pressing and holding the two buttons indicated in your model's manual for 3–5 seconds. If the icon disappears and the panel responds, no further action is needed."
+        },
+        {
+          "step": 2,
+          "action": "Perform a full power reset",
+          "detail": "Switch the machine off at the programme dial, then unplug it from the wall socket. Wait at least 5 minutes to allow capacitors on the control board to fully discharge. Plug back in, switch on, and test the panel. This resolves many software-related lockups."
+        },
+        {
+          "step": 3,
+          "action": "Check the household power supply",
+          "detail": "Confirm the socket is live by plugging in another appliance. Check your consumer unit for a tripped breaker or blown fuse on that circuit. A low or unstable supply voltage can cause the control board to behave erratically."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the door interlock",
+          "detail": "Some Bosch models will not power the control panel fully if the door lock is not registering as closed. Open and firmly close the door, listening for a click. If the door latch feels loose or the machine does not acknowledge the door closing, the interlock may need replacement."
+        },
+        {
+          "step": 5,
+          "action": "Check the wiring harness connections",
+          "detail": "With the machine unplugged, remove the top panel (usually two screws at the rear). Locate the ribbon cable or wiring loom running from the control panel fascia down to the main PCB. Press each connector firmly to reseat it. Look for any visible signs of burning, corrosion, or a broken wire."
+        },
+        {
+          "step": 6,
+          "action": "Test and replace the user interface board",
+          "detail": "If reseating the connectors makes no difference, the UI board itself is the most likely failed component. With the machine unplugged, the fascia panel can usually be unclipped to access the board. Compare the part number on the existing board with a replacement and swap it like-for-like. This resolves E91 faults in the majority of hardware cases."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the main control board",
+          "detail": "If a new UI board does not restore panel function, or if E92 persists, the main PCB may be at fault. Look for visibly burnt components or swollen capacitors on the board. Main PCB replacement is a more involved repair and, if you are not confident working with electronics, is best handed to a service technician."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If you have completed a full power reset, ruled out child lock, reseated all wiring connections, and replaced the UI board without restoring panel function, the fault is most likely within the main control board or a deeper wiring fault. These repairs require specialist diagnostic tools to confirm the failed component before spending money on parts.</p><p>You should also call a service technician if you notice any burning smell, scorch marks on the PCB or wiring, or signs of water damage inside the machine. Continuing to operate or probe a machine with electrical damage is a safety risk. A technician can also retrieve stored fault codes such as E91 or E92 using diagnostic software, which speeds up accurate diagnosis.</p>",
+      "prevention_html": "<p>The parts most commonly replaced for an unresponsive control panel on Bosch washing machines are the user interface (UI) board, the main control board (PCB), and the wiring harness or ribbon cable connecting the two. In many cases only the UI board is needed, which is significantly less expensive than the main PCB, so it is worth confirming which component has failed before ordering.</p><p>Use the part finder below to locate the correct UI board, main PCB, or wiring harness for your specific Bosch model. Always use genuine or OEM-equivalent parts to ensure compatibility and avoid repeat faults.</p>\n<!-- SPARE_PARTS_FAULT:control-panel-unresponsive -->",
+      "faq_json": [
+        {
+          "answer": "E91 and E92 both relate to a communication failure between the control panel (user interface board) and the main control board. E91 typically indicates the main PCB is not receiving signals from the UI board, while E92 points to a fault in the communication data itself. Both codes suggest a hardware or wiring issue rather than a simple software glitch.",
+          "question": "What do error codes E91 and E92 mean on a Bosch washing machine?"
+        },
+        {
+          "answer": "A blank display can be caused by the same UI board or PCB faults, but it can also indicate a power supply problem or a blown internal fuse. Start with the power reset steps above before assuming a board has failed. If the display was working and went blank suddenly mid-cycle, a power surge or failed PCB component is more likely.",
+          "question": "My Bosch washing machine display is completely blank — is it the same fault?"
+        },
+        {
+          "answer": "Bosch machines do not have a universal factory reset in the consumer sense, but many models support a programme reset by turning the dial to the off position and holding Start for 5 seconds. This clears the current cycle state. For a deeper reset, a full power-off at the wall for 5–10 minutes is the most effective option available without service tools.",
+          "question": "Can I reset a Bosch washing machine to factory settings to fix the panel?"
+        },
+        {
+          "answer": "If the machine powers on (drum light or display shows something) but buttons do not register, the UI board is the more likely culprit. If the machine is completely dead after confirming the power supply is fine, or if E92 persists after a UI board replacement, the main PCB is more likely at fault. A service technician with diagnostic software can confirm this quickly.",
+          "question": "How do I know if it is the UI board or the main PCB that has failed?"
+        },
+        {
+          "answer": "If the machine is mid-cycle and the panel has locked up, it is best to cut power at the wall rather than leave it running unattended. A machine that cannot be controlled cannot be stopped in an emergency. Do not use the appliance until the fault is resolved, particularly if there are any signs of electrical burning or the door cannot be opened.",
+          "question": "Is an unresponsive control panel on a Bosch washing machine safe to ignore temporarily?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T14:59:51.377966+00:00"
+    },
+    {
+      "id": 512,
+      "article_id": 324,
+      "locale": "sv",
+      "slug": "kontrollpanel-svarar-inte",
+      "title_tag": "Bosch tvättmaskin kontrollpanel svarar inte – Lösningar",
+      "meta_description": "Svarar inte kontrollpanelen på din Bosch tvättmaskin? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker fel",
+      "h1": "Varför svarar inte kontrollpanelen på min Bosch tvättmaskin?",
+      "description": "Kontrollpanelen på tvättmaskinen svarar inte på knapptryckningar eller pekskärmsinmatning, vilket gör det omöjligt att starta eller byta program.",
+      "quick_fix": "Håll inne Start/Paus-knappen i 5 sekunder för att utföra en mjuk återställning – detta rensar tillfälliga programvarufel och återställer panelens funktion i de flesta fall (tar ungefär 2 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När kontrollpanelen på din Bosch tvättmaskin slutar svara kan maskinen verka helt död, eller så startar den men ignorerar varje knapptryckning. I vissa fall lyser displayen upp men ingen inmatning registreras; i andra fall är panelen helt blank. Relaterade felkoder E91 och E92 kan visas när kommunikationen mellan kontrollpanelen och huvudkortet bryts, även om dessa koder inte alltid syns om displayen själv är påverkad.</p><p>Det här symptomet pekar på ett av flera system: användargränssnittskortet, kabelstammen som ansluter det till huvud-PCB:n, huvudkortet självt, eller ett programvarutillstånd som har låst maskinen. Aktivering av barnlåset är en förvånansvärt vanlig orsak och är enkel att utesluta innan man undersöker hårdvaran. Eftersom kontrollpanelen är det primära sättet du interagerar med maskinen gör ett fel här i praktiken maskinen oanvändbar tills det är åtgärdat.</p>",
+      "causes_json": [
+        {
+          "cause": "Barnlås eller demoläge är aktiverat",
+          "detail": "Bosch-maskiner har en barnlåsfunktion som inaktiverar alla panelinmatningar. Om den aktiverades av misstag – ofta genom att trycka på två knappar samtidigt – kommer panelen att verka helt oanvändbar även om maskinen i övrigt fungerar normalt."
+        },
+        {
+          "cause": "Tillfälligt program- eller firmwarefel",
+          "detail": "Maskinens inbyggda programvara kan hamna i ett icke-svarande tillstånd efter en strömfluktuering, ett avbrutet program eller ett skadat programval. En fullständig strömåterställning rensar vanligtvis detta utan att några delar behöver bytas."
+        },
+        {
+          "cause": "Defekt eller skadat användargränssnitts-kort (UI-kort)",
+          "detail": "UI-kortet sitter bakom kontrollpanelens front och bearbetar alla knapptryckningar och vredinmatningar. Fuktintrång, åldersrelaterade komponentfel eller fysisk skada kan göra att det slutar skicka signaler, vilket utlöser felkoderna E91 eller E92."
+        },
+        {
+          "cause": "Lös eller skadad kabelstam",
+          "detail": "En bandkabel eller kabelstam ansluter kontrollpanelen till huvud-PCB:n. Vibrationer över tid kan lossa kontakter, och en partiell frånkoppling räcker för att orsaka intermittent eller total förlust av panelrespons."
+        },
+        {
+          "cause": "Defekt huvudkort (PCB)",
+          "detail": "Om huvud-PCB:n inte kan kommunicera med UI-kortet kommer panelen att verka död. Detta är mindre vanligt än ett UI-kortsfel men mer troligt om maskinen också inte svarar på en fullständig strömåterställning och visar E92 ihållande."
+        },
+        {
+          "cause": "Problem med strömförsörjningen",
+          "detail": "En trasig intern säkring, ett defekt dörrlås som hindrar ström från att nå styrkretsen, eller ett problem med hushållets elförsörjning kan alla hindra panelen från att få den spänning den behöver för att fungera."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera om barnlåset är aktiverat",
+          "detail": "Leta efter en nyckel- eller hänglåsikon på displayen. På de flesta Bosch-modeller avaktiveras barnlåset genom att hålla inne de två knappar som anges i din modells manual i 3–5 sekunder. Om ikonen försvinner och panelen svarar behövs inga ytterligare åtgärder."
+        },
+        {
+          "step": 2,
+          "action": "Utför en fullständig strömåterställning",
+          "detail": "Stäng av maskinen med programvredet och dra sedan ur kontakten från vägguttaget. Vänta minst 5 minuter för att låta kondensatorerna på styrkortet laddas ur helt. Sätt i kontakten igen, slå på maskinen och testa panelen. Detta löser många programvarurelaterade låsningar."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera hushållets strömförsörjning",
+          "detail": "Bekräfta att uttaget är spänningsförande genom att ansluta en annan apparat. Kontrollera din elcentral för en utlöst säkring eller trasig proppssäkring på den kretsen. En låg eller instabil matningsspänning kan få styrkortet att bete sig oregelbundet."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera dörrlåset",
+          "detail": "Vissa Bosch-modeller ger inte kontrollpanelen full ström om dörrlåset inte registreras som stängt. Öppna och stäng dörren ordentligt och lyssna efter ett klick. Om dörrtullen känns lös eller maskinen inte bekräftar att dörren stängs kan dörrlåset behöva bytas."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera kabelstammens anslutningar",
+          "detail": "Med maskinen urkopplad, ta bort toppanelen (vanligtvis två skruvar baktill). Leta upp bandkabeln eller kabelstammen som löper från kontrollpanelens front ner till huvud-PCB:n. Tryck in varje kontakt ordentligt för att återansluta den. Leta efter synliga tecken på brännskador, korrosion eller trasiga ledningar."
+        },
+        {
+          "step": 6,
+          "action": "Testa och byt ut användargränssnittskortet",
+          "detail": "Om återanslutning av kontakterna inte gör någon skillnad är UI-kortet troligen den defekta komponenten. Med maskinen urkopplad kan frontpanelen vanligtvis klämmas loss för att komma åt kortet. Jämför artikelnumret på det befintliga kortet med ett ersättningskort och byt det likt-mot-likt. Detta löser E91-fel i de flesta hårdvarufall."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera huvudkortet",
+          "detail": "Om ett nytt UI-kort inte återställer panelens funktion, eller om E92 kvarstår, kan huvud-PCB:n vara defekt. Leta efter synligt brända komponenter eller uppsvällda kondensatorer på kortet. Byte av huvud-PCB är en mer komplicerad reparation och överlåts bäst till en servicetekniker om du inte är trygg med att arbeta med elektronik."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har utfört en fullständig strömåterställning, uteslutit barnlåset, återanslutit alla kabelanslutningar och bytt UI-kortet utan att panelens funktion återställts, beror felet troligen på huvudkortet eller ett djupare kabelfel. Dessa reparationer kräver specialiserade diagnostikverktyg för att bekräfta den defekta komponenten innan du lägger pengar på reservdelar.</p><p>Du bör också kontakta en servicetekniker om du märker någon bränndoft, svedmärken på PCB:n eller kablarna, eller tecken på vattenskada inuti maskinen. Att fortsätta använda eller undersöka en maskin med elektriska skador innebär en säkerhetsrisk. En tekniker kan också hämta lagrade felkoder som E91 eller E92 med hjälp av diagnostikprogramvara, vilket snabbar upp en korrekt diagnos.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid en ej svarande kontrollpanel på Bosch tvättmaskiner är användargränssnittskortet (UI-kortet), huvudkortet (PCB) och kabelstammen eller bandkabeln som förbinder de två. I många fall behövs bara UI-kortet, vilket är betydligt billigare än huvud-PCB:n, så det är värt att bekräfta vilken komponent som har gått sönder innan du beställer.</p><p>Använd reservdelssökaren nedan för att hitta rätt UI-kort, huvud-PCB eller kabelstam för din specifika Bosch-modell. Använd alltid äkta eller OEM-likvärdiga delar för att säkerställa kompatibilitet och undvika återkommande fel.</p>\n<!-- SPARE_PARTS_FAULT:control-panel-unresponsive -->",
+      "faq_json": [
+        {
+          "answer": "E91 och E92 avser båda ett kommunikationsfel mellan kontrollpanelen (användargränssnittskortet) och huvudkortet. E91 indikerar vanligtvis att huvud-PCB:n inte tar emot signaler från UI-kortet, medan E92 pekar på ett fel i kommunikationsdatan i sig. Båda koderna tyder på ett hårdvaru- eller kabelproblem snarare än ett enkelt programvarufel.",
+          "question": "Vad betyder felkoderna E91 och E92 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "En blank display kan orsakas av samma UI-korts- eller PCB-fel, men det kan också indikera ett strömförsörjningsproblem eller en trasig intern säkring. Börja med strömåterställningsstegen ovan innan du antar att ett kort har gått sönder. Om displayen fungerade och plötsligt slocknade mitt i ett program är en strömstöt eller en defekt PCB-komponent mer trolig.",
+          "question": "Displayen på min Bosch tvättmaskin är helt blank – är det samma fel?"
+        },
+        {
+          "answer": "Bosch-maskiner har ingen universell fabriksåterställning i konsumentmening, men många modeller stöder en programåterställning genom att vrida ratten till av-läget och hålla inne Start i 5 sekunder. Detta rensar det aktuella programtillståndet. För en djupare återställning är en fullständig strömavstängning vid väggen i 5–10 minuter det mest effektiva alternativet utan serviceverktyg.",
+          "question": "Kan jag återställa en Bosch tvättmaskin till fabriksinställningar för att åtgärda panelen?"
+        },
+        {
+          "answer": "Om maskinen startar (trumbelysning eller display visar något) men knappar inte registreras är UI-kortet den troligare orsaken. Om maskinen är helt död efter att ha bekräftat att strömförsörjningen fungerar, eller om E92 kvarstår efter ett UI-kortsbyte, är huvud-PCB:n troligare defekt. En servicetekniker med diagnostikprogramvara kan bekräfta detta snabbt.",
+          "question": "Hur vet jag om det är UI-kortet eller huvud-PCB:n som har gått sönder?"
+        },
+        {
+          "answer": "Om maskinen är mitt i ett program och panelen har låst sig är det bäst att bryta strömmen vid väggen snarare än att lämna den igång utan tillsyn. En maskin som inte kan styras kan inte stoppas i en nödsituation. Använd inte maskinen förrän felet är åtgärdat, särskilt om det finns tecken på elektrisk bränning eller om dörren inte kan öppnas.",
+          "question": "Är det säkert att tillfälligt ignorera en ej svarande kontrollpanel på en Bosch tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:01:03.284983+00:00"
+    }
+  ]
+}

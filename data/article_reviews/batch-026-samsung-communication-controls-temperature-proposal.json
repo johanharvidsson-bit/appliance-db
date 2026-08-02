@@ -1,0 +1,836 @@
+{
+  "batch": "026-samsung-communication-controls-temperature",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    36,
+    38,
+    39,
+    40,
+    41
+  ],
+  "sources": [
+    "https://www.samsung.com/latin_en/support/home-appliances/how-to-fix-the-washing-machine-with-ac6-error/",
+    "https://www.samsung.com/uk/support/home-appliances/what-do-the-codes-on-my-washing-machine-mean/",
+    "https://www.samsung.com/us/support/troubleshoot/TSG10000997/",
+    "https://image-us.samsung.com/SamsungUS/support/policy/Laundry_Combo_User_ManualD.pdf",
+    "https://www.samsung.com/de/support/home-appliances/waschmaschinen-fehlermeldungen/",
+    "https://www.samsung.com/au/support/home-appliances/samsung-washing-machine-error-codes/"
+  ],
+  "translations": {
+    "36": {
+      "code": "AC",
+      "preserve": {
+        "en_slug": "samsung-error-code-ac",
+        "sv_slug": "samsung-felkod-ac"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error AC: Safe Steps",
+        "meta_description": "Samsung washer showing AC? Read the verified meaning, safe external checks and when authorised service is required.",
+        "h1": "What Does AC Mean on a Samsung Washing Machine?",
+        "description": "Samsung groups AC with communication errors; the exact communicating units depend on the model.",
+        "quick_fix": "Switch the washer off and unplug it for one minute once; arrange Samsung service if the code returns (about 5–10 minutes).",
+        "intro_html": "<p>Samsung groups AC with communication errors; the exact communicating units depend on the model.</p><p>Switch the washer off and unplug it for one minute once; arrange Samsung service if the code returns. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Temporary communication interruption",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific communication link",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Connector or wiring fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Control-electronics fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete AC display and note the exact model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the safe external check",
+            "detail": "Switch the washer off and unplug it for one minute once; arrange Samsung service if the code returns. Clean an external control only while unplugged and let it dry fully."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart only once after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if AC remains or returns after the safe external check. Communication, sensor, heater, wiring and electronics work is not a user repair.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow the installation instructions for the exact model, keep controls dry and connect the cold inlet to the specified cold-water tap.</p><p>Record the complete code and model number. Internal communication, sensor and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing AC?",
+            "answer": "Switch the washer off and unplug it for one minute once; arrange Samsung service if the code returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset AC by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does AC identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod AC: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen AC? Läs verifierad betydelse, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder AC på en Samsung-tvättmaskin?",
+        "description": "Samsung grupperar AC med kommunikationsfel; exakt vilka enheter som kommunicerar beror på modellen.",
+        "quick_fix": "Stäng av tvättmaskinen och dra ur kontakten i en minut en gång; boka Samsung-service om koden återkommer (cirka 5–10 minuter).",
+        "intro_html": "<p>Samsung grupperar AC med kommunikationsfel; exakt vilka enheter som kommunicerar beror på modellen.</p><p>Stäng av tvättmaskinen och dra ur kontakten i en minut en gång; boka Samsung-service om koden återkommer. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Tillfälligt kommunikationsavbrott",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik kommunikationslänk",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i kontakt eller kablage",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i styrelektroniken",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman stannat och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela AC-visningen och anteckna exakt modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast säker yttre kontroll",
+            "detail": "Stäng av tvättmaskinen och dra ur kontakten i en minut en gång; boka Samsung-service om koden återkommer. Rengör ett yttre reglage endast när maskinen är urkopplad och låt det torka helt."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta om endast en gång efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om AC kvarstår eller återkommer efter den säkra yttre kontrollen. Kommunikation, givare, värmare, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ installationsanvisningen för exakt modell, håll reglagen torra och anslut kallvattenintaget till föreskriven kallvattenkran.</p><p>Notera hela koden och modellnumret. Interna kommunikations-, givar- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med AC?",
+            "answer": "Stäng av tvättmaskinen och dra ur kontakten i en minut en gång; boka Samsung-service om koden återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa AC genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar AC vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "38": {
+      "code": "AC3",
+      "preserve": {
+        "en_slug": "samsung-error-code-ac3",
+        "sv_slug": "samsung-felkod-ac3"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error AC3: Safe Steps",
+        "meta_description": "Samsung washer showing AC3? Read the verified meaning, safe external checks and when authorised service is required.",
+        "h1": "What Does AC3 Mean on a Samsung Washing Machine?",
+        "description": "Samsung groups AC3 with communication errors; the exact communicating units depend on the model.",
+        "quick_fix": "Switch the washer off and unplug it for one minute once; arrange Samsung service if the code returns (about 5–10 minutes).",
+        "intro_html": "<p>Samsung groups AC3 with communication errors; the exact communicating units depend on the model.</p><p>Switch the washer off and unplug it for one minute once; arrange Samsung service if the code returns. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Temporary communication interruption",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific communication link",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Connector or wiring fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Control-electronics fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete AC3 display and note the exact model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the safe external check",
+            "detail": "Switch the washer off and unplug it for one minute once; arrange Samsung service if the code returns. Clean an external control only while unplugged and let it dry fully."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart only once after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if AC3 remains or returns after the safe external check. Communication, sensor, heater, wiring and electronics work is not a user repair.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow the installation instructions for the exact model, keep controls dry and connect the cold inlet to the specified cold-water tap.</p><p>Record the complete code and model number. Internal communication, sensor and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing AC3?",
+            "answer": "Switch the washer off and unplug it for one minute once; arrange Samsung service if the code returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset AC3 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does AC3 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod AC3: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen AC3? Läs verifierad betydelse, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder AC3 på en Samsung-tvättmaskin?",
+        "description": "Samsung grupperar AC3 med kommunikationsfel; exakt vilka enheter som kommunicerar beror på modellen.",
+        "quick_fix": "Stäng av tvättmaskinen och dra ur kontakten i en minut en gång; boka Samsung-service om koden återkommer (cirka 5–10 minuter).",
+        "intro_html": "<p>Samsung grupperar AC3 med kommunikationsfel; exakt vilka enheter som kommunicerar beror på modellen.</p><p>Stäng av tvättmaskinen och dra ur kontakten i en minut en gång; boka Samsung-service om koden återkommer. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Tillfälligt kommunikationsavbrott",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik kommunikationslänk",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i kontakt eller kablage",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i styrelektroniken",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman stannat och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela AC3-visningen och anteckna exakt modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast säker yttre kontroll",
+            "detail": "Stäng av tvättmaskinen och dra ur kontakten i en minut en gång; boka Samsung-service om koden återkommer. Rengör ett yttre reglage endast när maskinen är urkopplad och låt det torka helt."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta om endast en gång efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om AC3 kvarstår eller återkommer efter den säkra yttre kontrollen. Kommunikation, givare, värmare, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ installationsanvisningen för exakt modell, håll reglagen torra och anslut kallvattenintaget till föreskriven kallvattenkran.</p><p>Notera hela koden och modellnumret. Interna kommunikations-, givar- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med AC3?",
+            "answer": "Stäng av tvättmaskinen och dra ur kontakten i en minut en gång; boka Samsung-service om koden återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa AC3 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar AC3 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "39": {
+      "code": "AC4",
+      "preserve": {
+        "en_slug": "samsung-error-code-ac4",
+        "sv_slug": "samsung-felkod-ac4"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error AC4: Safe Steps",
+        "meta_description": "Samsung washer showing AC4? Read the verified meaning, safe external checks and when authorised service is required.",
+        "h1": "What Does AC4 Mean on a Samsung Washing Machine?",
+        "description": "Samsung groups AC4 with communication errors; the exact communicating units depend on the model.",
+        "quick_fix": "Switch the washer off and unplug it for one minute once; arrange Samsung service if the code returns (about 5–10 minutes).",
+        "intro_html": "<p>Samsung groups AC4 with communication errors; the exact communicating units depend on the model.</p><p>Switch the washer off and unplug it for one minute once; arrange Samsung service if the code returns. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Temporary communication interruption",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific communication link",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Connector or wiring fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Control-electronics fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete AC4 display and note the exact model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the safe external check",
+            "detail": "Switch the washer off and unplug it for one minute once; arrange Samsung service if the code returns. Clean an external control only while unplugged and let it dry fully."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart only once after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if AC4 remains or returns after the safe external check. Communication, sensor, heater, wiring and electronics work is not a user repair.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow the installation instructions for the exact model, keep controls dry and connect the cold inlet to the specified cold-water tap.</p><p>Record the complete code and model number. Internal communication, sensor and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing AC4?",
+            "answer": "Switch the washer off and unplug it for one minute once; arrange Samsung service if the code returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset AC4 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does AC4 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod AC4: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen AC4? Läs verifierad betydelse, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder AC4 på en Samsung-tvättmaskin?",
+        "description": "Samsung grupperar AC4 med kommunikationsfel; exakt vilka enheter som kommunicerar beror på modellen.",
+        "quick_fix": "Stäng av tvättmaskinen och dra ur kontakten i en minut en gång; boka Samsung-service om koden återkommer (cirka 5–10 minuter).",
+        "intro_html": "<p>Samsung grupperar AC4 med kommunikationsfel; exakt vilka enheter som kommunicerar beror på modellen.</p><p>Stäng av tvättmaskinen och dra ur kontakten i en minut en gång; boka Samsung-service om koden återkommer. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Tillfälligt kommunikationsavbrott",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik kommunikationslänk",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i kontakt eller kablage",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i styrelektroniken",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman stannat och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela AC4-visningen och anteckna exakt modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast säker yttre kontroll",
+            "detail": "Stäng av tvättmaskinen och dra ur kontakten i en minut en gång; boka Samsung-service om koden återkommer. Rengör ett yttre reglage endast när maskinen är urkopplad och låt det torka helt."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta om endast en gång efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om AC4 kvarstår eller återkommer efter den säkra yttre kontrollen. Kommunikation, givare, värmare, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ installationsanvisningen för exakt modell, håll reglagen torra och anslut kallvattenintaget till föreskriven kallvattenkran.</p><p>Notera hela koden och modellnumret. Interna kommunikations-, givar- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med AC4?",
+            "answer": "Stäng av tvättmaskinen och dra ur kontakten i en minut en gång; boka Samsung-service om koden återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa AC4 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar AC4 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "40": {
+      "code": "BC2",
+      "preserve": {
+        "en_slug": "samsung-error-code-bc2",
+        "sv_slug": "samsung-felkod-bc2"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error BC2: Safe Steps",
+        "meta_description": "Samsung washer showing BC2? Read the verified meaning, safe external checks and when authorised service is required.",
+        "h1": "What Does BC2 Mean on a Samsung Washing Machine?",
+        "description": "Samsung uses bC2 or BC2 differently across washer models; some manuals identify a pressed-button condition, so the exact characters and model manual are required.",
+        "quick_fix": "Unplug the washer and inspect only the external buttons for one that is visibly stuck or damaged; contact Samsung with the exact model if the code remains (about 5–10 minutes).",
+        "intro_html": "<p>Samsung uses bC2 or BC2 differently across washer models; some manuals identify a pressed-button condition, so the exact characters and model manual are required.</p><p>Unplug the washer and inspect only the external buttons for one that is visibly stuck or damaged; contact Samsung with the exact model if the code remains. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "A button held or visibly stuck on some models",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Characters misread on the display",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "A model-specific sensor or control condition",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete BC2 display and note the exact model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the safe external check",
+            "detail": "Unplug the washer and inspect only the external buttons for one that is visibly stuck or damaged; contact Samsung with the exact model if the code remains. Clean an external control only while unplugged and let it dry fully."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart only once after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if BC2 remains or returns after the safe external check. Communication, sensor, heater, wiring and electronics work is not a user repair.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow the installation instructions for the exact model, keep controls dry and connect the cold inlet to the specified cold-water tap.</p><p>Record the complete code and model number. Internal communication, sensor and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing BC2?",
+            "answer": "Unplug the washer and inspect only the external buttons for one that is visibly stuck or damaged; contact Samsung with the exact model if the code remains. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset BC2 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does BC2 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod BC2: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen BC2? Läs verifierad betydelse, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder BC2 på en Samsung-tvättmaskin?",
+        "description": "Samsung använder bC2 eller BC2 olika mellan tvättmaskinsmodeller; vissa manualer anger ett intryckt reglage, så exakta tecken och modellmanual krävs.",
+        "quick_fix": "Dra ur kontakten och kontrollera endast de yttre knapparna efter en knapp som synligt fastnat eller skadats; kontakta Samsung med exakt modell om koden kvarstår (cirka 5–10 minuter).",
+        "intro_html": "<p>Samsung använder bC2 eller BC2 olika mellan tvättmaskinsmodeller; vissa manualer anger ett intryckt reglage, så exakta tecken och modellmanual krävs.</p><p>Dra ur kontakten och kontrollera endast de yttre knapparna efter en knapp som synligt fastnat eller skadats; kontakta Samsung med exakt modell om koden kvarstår. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "En knapp som hålls inne eller synligt fastnat på vissa modeller",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Feltolkade tecken på displayen",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Ett modellspecifikt sensor- eller styrtillstånd",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt styrfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman stannat och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela BC2-visningen och anteckna exakt modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast säker yttre kontroll",
+            "detail": "Dra ur kontakten och kontrollera endast de yttre knapparna efter en knapp som synligt fastnat eller skadats; kontakta Samsung med exakt modell om koden kvarstår. Rengör ett yttre reglage endast när maskinen är urkopplad och låt det torka helt."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta om endast en gång efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om BC2 kvarstår eller återkommer efter den säkra yttre kontrollen. Kommunikation, givare, värmare, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ installationsanvisningen för exakt modell, håll reglagen torra och anslut kallvattenintaget till föreskriven kallvattenkran.</p><p>Notera hela koden och modellnumret. Interna kommunikations-, givar- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med BC2?",
+            "answer": "Dra ur kontakten och kontrollera endast de yttre knapparna efter en knapp som synligt fastnat eller skadats; kontakta Samsung med exakt modell om koden kvarstår. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa BC2 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar BC2 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "41": {
+      "code": "CE",
+      "preserve": {
+        "en_slug": "samsung-error-code-ce",
+        "sv_slug": "samsung-felkod-ce"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error CE: Safe Steps",
+        "meta_description": "Samsung washer showing CE? Read the verified meaning, safe external checks and when authorised service is required.",
+        "h1": "What Does CE Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies CE as a water-temperature or supplied-water-temperature error on applicable washers.",
+        "quick_fix": "Turn off power and water, then verify that the cold inlet hose is connected to the cold tap and the supply is not abnormally hot (about 5–10 minutes).",
+        "intro_html": "<p>Samsung identifies CE as a water-temperature or supplied-water-temperature error on applicable washers.</p><p>Turn off power and water, then verify that the cold inlet hose is connected to the cold tap and the supply is not abnormally hot. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Cold inlet connected to an incorrect or hot supply",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Supplied water is abnormally hot",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific temperature sensing fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal heater or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete CE display and note the exact model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make only the safe external check",
+            "detail": "Turn off power and water, then verify that the cold inlet hose is connected to the cold tap and the supply is not abnormally hot. Clean an external control only while unplugged and let it dry fully."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart only once after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if CE remains or returns after the safe external check. Communication, sensor, heater, wiring and electronics work is not a user repair.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow the installation instructions for the exact model, keep controls dry and connect the cold inlet to the specified cold-water tap.</p><p>Record the complete code and model number. Internal communication, sensor and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing CE?",
+            "answer": "Turn off power and water, then verify that the cold inlet hose is connected to the cold tap and the supply is not abnormally hot. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset CE by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does CE identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod CE: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen CE? Läs verifierad betydelse, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder CE på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att CE är ett fel i vattentemperaturen eller det tillförda vattnets temperatur på berörda modeller.",
+        "quick_fix": "Stäng av ström och vatten och kontrollera sedan att kallvattenslangen är ansluten till kallvattenkranen och att tillförseln inte är onormalt varm (cirka 5–10 minuter).",
+        "intro_html": "<p>Samsung anger att CE är ett fel i vattentemperaturen eller det tillförda vattnets temperatur på berörda modeller.</p><p>Stäng av ström och vatten och kontrollera sedan att kallvattenslangen är ansluten till kallvattenkranen och att tillförseln inte är onormalt varm. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Kallvattenintaget anslutet till fel eller varm tillförsel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Tillfört vatten är onormalt varmt",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifikt fel i temperaturavkänningen",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt värmar- eller styrfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman stannat och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela CE-visningen och anteckna exakt modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast säker yttre kontroll",
+            "detail": "Stäng av ström och vatten och kontrollera sedan att kallvattenslangen är ansluten till kallvattenkranen och att tillförseln inte är onormalt varm. Rengör ett yttre reglage endast när maskinen är urkopplad och låt det torka helt."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta om endast en gång efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om CE kvarstår eller återkommer efter den säkra yttre kontrollen. Kommunikation, givare, värmare, kablage och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ installationsanvisningen för exakt modell, håll reglagen torra och anslut kallvattenintaget till föreskriven kallvattenkran.</p><p>Notera hela koden och modellnumret. Interna kommunikations-, givar- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med CE?",
+            "answer": "Stäng av ström och vatten och kontrollera sedan att kallvattenslangen är ansluten till kallvattenkranen och att tillförseln inte är onormalt varm. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa CE genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar CE vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

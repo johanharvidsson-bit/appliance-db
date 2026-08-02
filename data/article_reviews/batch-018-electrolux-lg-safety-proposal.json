@@ -1,0 +1,834 @@
+{
+  "batch": "018-electrolux-lg-safety",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    363,
+    366,
+    367,
+    86,
+    87
+  ],
+  "sources": [
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-stops-in-the-middle-of-a-cycle",
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-does-not-work-does-not-react",
+    "https://support.electrolux.co.uk/support-articles/article/washing-machine-emits-a-burning-smell",
+    "https://www.lg.com/us/support/help-library/lg-front-load-washer-error-code-list-CT10000010-20155069413456"
+  ],
+  "translations": {
+    "363": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "wont-complete-cycle",
+        "sv_slug": "slutfor-inte-programmet"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Won't Complete a Cycle: Act Safely",
+        "meta_description": "Washing Machine Won't Complete a Cycle? Read the verified meaning, immediate safety steps and when authorised service or an electrician is required.",
+        "h1": "Washing Machine Won't Complete a Cycle",
+        "description": "The washer stops or remains in one programme phase.",
+        "quick_fix": "Check the displayed code, load balance, water supply and drainage, then make one documented reset (about 1–20 minutes).",
+        "intro_html": "<p>The washer stops or remains in one programme phase.</p><p>Check the displayed code, load balance, water supply and drainage, then make one documented reset. Open no panels, make no electrical measurements and do not order a part from the symptom or code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Unbalanced or overloaded load",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Water-supply restriction",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Drainage restriction",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Internal appliance fault",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme. Do not restart after electrical tripping, a burning smell or leakage."
+          },
+          {
+            "step": 2,
+            "action": "Isolate hazards",
+            "detail": "Unplug before user-accessible checks and wait for the drum to stop."
+          },
+          {
+            "step": 3,
+            "action": "Check externally only",
+            "detail": "Check the displayed code, load balance, water supply and drainage, then make one documented reset."
+          },
+          {
+            "step": 4,
+            "action": "Record details",
+            "detail": "Photograph the complete symptom, note the PNC/model and what happened before the stop."
+          },
+          {
+            "step": 5,
+            "action": "Use a qualified professional",
+            "detail": "Arrange authorised service; use a qualified electrician if the outlet, protection or fixed supply is suspect."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service immediately for a burning smell, AE leakage indication, recurring CE or electrical tripping. Repeated cycle stops after external checks also require service.</p><p>Keep the washer unplugged for water near electricity, smoke, sparks, abnormal heat, a damaged cord or repeated tripping.</p>",
+        "prevention_html": "<p>Avoid overloading, dose correctly and regularly check visible hoses, cord and plug for damage without dismantling the washer.</p><p>Internal leakage, motor and electrical faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Check the displayed code, load balance, water supply and drainage, then make one documented reset. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskinen slutför inte programmet: agera säkert",
+        "meta_description": "Tvättmaskinen slutför inte programmet? Läs verifierad betydelse, omedelbara säkerhetssteg och när auktoriserad service eller elektriker krävs.",
+        "h1": "Tvättmaskinen slutför inte programmet",
+        "description": "Tvättmaskinen stannar eller blir kvar i en programfas.",
+        "quick_fix": "Kontrollera visad kod, lastbalans, vattentillförsel och tömning och gör sedan en dokumenterad återställning (cirka 1–20 minuter).",
+        "intro_html": "<p>Tvättmaskinen stannar eller blir kvar i en programfas.</p><p>Kontrollera visad kod, lastbalans, vattentillförsel och tömning och gör sedan en dokumenterad återställning. Öppna inga paneler, gör inga elmätningar och beställ inte en del från symptomet eller koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Obalanserad eller överlastad trumma",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Begränsad vattentillförsel",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Tömningshinder",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Internt maskinfel",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet. Vid elutlösning, bränd lukt eller läckage ska maskinen inte startas om."
+          },
+          {
+            "step": 2,
+            "action": "Bryt riskkällor",
+            "detail": "Koppla ur före användaråtkomlig kontroll och vänta tills trumman står stilla."
+          },
+          {
+            "step": 3,
+            "action": "Kontrollera endast utsidan",
+            "detail": "Kontrollera visad kod, lastbalans, vattentillförsel och tömning och gör sedan en dokumenterad återställning."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera",
+            "detail": "Fotografera hela symptomet, notera PNC-/modellnummer och vad som hände före stoppet."
+          },
+          {
+            "step": 5,
+            "action": "Anlita fackperson",
+            "detail": "Boka auktoriserad service; använd behörig elektriker om uttag, säkring eller fast installation misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service omedelbart vid bränd lukt, AE som visar läckage, återkommande CE eller om maskinen löser ut elskydd. Återkommande programstopp efter yttre kontroller kräver också service.</p><p>Håll maskinen urkopplad vid vatten nära el, rök, gnistor, onormal värme, skadad kabel eller upprepad elutlösning.</p>",
+        "prevention_html": "<p>Undvik överlast, dosera rätt och kontrollera regelbundet att synliga slangar, kabel och kontakt är oskadade utan att demontera maskinen.</p><p>Interna läckage-, motor- och elfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Kontrollera visad kod, lastbalans, vattentillförsel och tömning och gör sedan en dokumenterad återställning. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "366": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "trips-electrics",
+        "sv_slug": "löser-ut-säkringen"
+      },
+      "en": {
+        "title_tag": "Electrolux Washing Machine Trips the Electrics: Act Safely",
+        "meta_description": "Washing Machine Trips the Electrics? Read the verified meaning, immediate safety steps and when authorised service or an electrician is required.",
+        "h1": "Washing Machine Trips the Electrics",
+        "description": "The washer trips a breaker, fuse or residual-current device.",
+        "quick_fix": "Stop using the washer, unplug it if safe and have the electrical supply and appliance checked by qualified professionals (about 1–20 minutes).",
+        "intro_html": "<p>The washer trips a breaker, fuse or residual-current device.</p><p>Stop using the washer, unplug it if safe and have the electrical supply and appliance checked by qualified professionals. Open no panels, make no electrical measurements and do not order a part from the symptom or code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Fault in the appliance",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Damaged cord, plug or outlet",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Supply-circuit problem",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Moisture or leakage near electrics",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme. Do not restart after electrical tripping, a burning smell or leakage."
+          },
+          {
+            "step": 2,
+            "action": "Isolate hazards",
+            "detail": "Unplug with dry hands if safe and close the water taps."
+          },
+          {
+            "step": 3,
+            "action": "Check externally only",
+            "detail": "Stop using the washer, unplug it if safe and have the electrical supply and appliance checked by qualified professionals."
+          },
+          {
+            "step": 4,
+            "action": "Record details",
+            "detail": "Photograph the complete symptom, note the PNC/model and what happened before the stop."
+          },
+          {
+            "step": 5,
+            "action": "Use a qualified professional",
+            "detail": "Arrange authorised service; use a qualified electrician if the outlet, protection or fixed supply is suspect."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service immediately for a burning smell, AE leakage indication, recurring CE or electrical tripping. Repeated cycle stops after external checks also require service.</p><p>Keep the washer unplugged for water near electricity, smoke, sparks, abnormal heat, a damaged cord or repeated tripping.</p>",
+        "prevention_html": "<p>Avoid overloading, dose correctly and regularly check visible hoses, cord and plug for damage without dismantling the washer.</p><p>Internal leakage, motor and electrical faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Stop using the washer, unplug it if safe and have the electrical supply and appliance checked by qualified professionals. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux tvättmaskinen löser ut säkringen: agera säkert",
+        "meta_description": "Tvättmaskinen löser ut säkringen? Läs verifierad betydelse, omedelbara säkerhetssteg och när auktoriserad service eller elektriker krävs.",
+        "h1": "Tvättmaskinen löser ut säkringen",
+        "description": "Tvättmaskinen löser ut säkring, dvärgbrytare eller jordfelsbrytare.",
+        "quick_fix": "Sluta använda maskinen, koppla ur om det kan göras säkert och låt behöriga fackpersoner kontrollera elmatning och maskin (cirka 1–20 minuter).",
+        "intro_html": "<p>Tvättmaskinen löser ut säkring, dvärgbrytare eller jordfelsbrytare.</p><p>Sluta använda maskinen, koppla ur om det kan göras säkert och låt behöriga fackpersoner kontrollera elmatning och maskin. Öppna inga paneler, gör inga elmätningar och beställ inte en del från symptomet eller koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Fel i maskinen",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Skadad kabel, kontakt eller uttag",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Fel i matande elkrets",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Fukt eller läckage nära el",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet. Vid elutlösning, bränd lukt eller läckage ska maskinen inte startas om."
+          },
+          {
+            "step": 2,
+            "action": "Bryt riskkällor",
+            "detail": "Koppla ur med torra händer om det är säkert och stäng vattenkranarna."
+          },
+          {
+            "step": 3,
+            "action": "Kontrollera endast utsidan",
+            "detail": "Sluta använda maskinen, koppla ur om det kan göras säkert och låt behöriga fackpersoner kontrollera elmatning och maskin."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera",
+            "detail": "Fotografera hela symptomet, notera PNC-/modellnummer och vad som hände före stoppet."
+          },
+          {
+            "step": 5,
+            "action": "Anlita fackperson",
+            "detail": "Boka auktoriserad service; använd behörig elektriker om uttag, säkring eller fast installation misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service omedelbart vid bränd lukt, AE som visar läckage, återkommande CE eller om maskinen löser ut elskydd. Återkommande programstopp efter yttre kontroller kräver också service.</p><p>Håll maskinen urkopplad vid vatten nära el, rök, gnistor, onormal värme, skadad kabel eller upprepad elutlösning.</p>",
+        "prevention_html": "<p>Undvik överlast, dosera rätt och kontrollera regelbundet att synliga slangar, kabel och kontakt är oskadade utan att demontera maskinen.</p><p>Interna läckage-, motor- och elfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Sluta använda maskinen, koppla ur om det kan göras säkert och låt behöriga fackpersoner kontrollera elmatning och maskin. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "367": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "burning-smell",
+        "sv_slug": "branlukt"
+      },
+      "en": {
+        "title_tag": "Electrolux Burning Smell From Washing Machine: Act Safely",
+        "meta_description": "Burning Smell From Washing Machine? Read the verified meaning, immediate safety steps and when authorised service or an electrician is required.",
+        "h1": "Burning Smell From Washing Machine",
+        "description": "A burning smell is a safety warning rather than a cleaning issue.",
+        "quick_fix": "Stop the appliance, unplug it immediately if safe and contact an authorised service centre (about 1–20 minutes).",
+        "intro_html": "<p>A burning smell is a safety warning rather than a cleaning issue.</p><p>Stop the appliance, unplug it immediately if safe and contact an authorised service centre. Open no panels, make no electrical measurements and do not order a part from the symptom or code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Electrical overheating",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Motor or drive overheating",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Friction from a mechanical fault",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Damaged wiring or component",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme. Do not restart after electrical tripping, a burning smell or leakage."
+          },
+          {
+            "step": 2,
+            "action": "Isolate hazards",
+            "detail": "Unplug with dry hands if safe and close the water taps."
+          },
+          {
+            "step": 3,
+            "action": "Check externally only",
+            "detail": "Stop the appliance, unplug it immediately if safe and contact an authorised service centre."
+          },
+          {
+            "step": 4,
+            "action": "Record details",
+            "detail": "Photograph the complete symptom, note the PNC/model and what happened before the stop."
+          },
+          {
+            "step": 5,
+            "action": "Use a qualified professional",
+            "detail": "Arrange authorised service; use a qualified electrician if the outlet, protection or fixed supply is suspect."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service immediately for a burning smell, AE leakage indication, recurring CE or electrical tripping. Repeated cycle stops after external checks also require service.</p><p>Keep the washer unplugged for water near electricity, smoke, sparks, abnormal heat, a damaged cord or repeated tripping.</p>",
+        "prevention_html": "<p>Avoid overloading, dose correctly and regularly check visible hoses, cord and plug for damage without dismantling the washer.</p><p>Internal leakage, motor and electrical faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Stop the appliance, unplug it immediately if safe and contact an authorised service centre. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Electrolux bränd lukt från tvättmaskinen: agera säkert",
+        "meta_description": "Bränd lukt från tvättmaskinen? Läs verifierad betydelse, omedelbara säkerhetssteg och när auktoriserad service eller elektriker krävs.",
+        "h1": "Bränd lukt från tvättmaskinen",
+        "description": "Bränd lukt är en säkerhetsvarning och inte ett rengöringsproblem.",
+        "quick_fix": "Stoppa maskinen, koppla ur den omedelbart om det kan göras säkert och kontakta auktoriserad service (cirka 1–20 minuter).",
+        "intro_html": "<p>Bränd lukt är en säkerhetsvarning och inte ett rengöringsproblem.</p><p>Stoppa maskinen, koppla ur den omedelbart om det kan göras säkert och kontakta auktoriserad service. Öppna inga paneler, gör inga elmätningar och beställ inte en del från symptomet eller koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Elektrisk överhettning",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Överhettad motor eller drivning",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Friktion från mekaniskt fel",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Skadat kablage eller komponent",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet. Vid elutlösning, bränd lukt eller läckage ska maskinen inte startas om."
+          },
+          {
+            "step": 2,
+            "action": "Bryt riskkällor",
+            "detail": "Koppla ur med torra händer om det är säkert och stäng vattenkranarna."
+          },
+          {
+            "step": 3,
+            "action": "Kontrollera endast utsidan",
+            "detail": "Stoppa maskinen, koppla ur den omedelbart om det kan göras säkert och kontakta auktoriserad service."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera",
+            "detail": "Fotografera hela symptomet, notera PNC-/modellnummer och vad som hände före stoppet."
+          },
+          {
+            "step": 5,
+            "action": "Anlita fackperson",
+            "detail": "Boka auktoriserad service; använd behörig elektriker om uttag, säkring eller fast installation misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service omedelbart vid bränd lukt, AE som visar läckage, återkommande CE eller om maskinen löser ut elskydd. Återkommande programstopp efter yttre kontroller kräver också service.</p><p>Håll maskinen urkopplad vid vatten nära el, rök, gnistor, onormal värme, skadad kabel eller upprepad elutlösning.</p>",
+        "prevention_html": "<p>Undvik överlast, dosera rätt och kontrollera regelbundet att synliga slangar, kabel och kontakt är oskadade utan att demontera maskinen.</p><p>Interna läckage-, motor- och elfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Stoppa maskinen, koppla ur den omedelbart om det kan göras säkert och kontakta auktoriserad service. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "86": {
+      "code": "AE",
+      "preserve": {
+        "en_slug": "lg-error-code-ae",
+        "sv_slug": "lg-felkod-ae"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error Code AE: Meaning and Safe Steps",
+        "meta_description": "LG Washing Machine Error Code AE? Read the verified meaning, immediate safety steps and when authorised service or an electrician is required.",
+        "h1": "LG Washing Machine Error Code AE",
+        "description": "AE on the affected LG front-load washers indicates an internal leakage condition that activates flood protection.",
+        "quick_fix": "Stop the washer, close the water taps, unplug if the area is dry and inspect only visible inlet-hose connections and damage (about 1–20 minutes).",
+        "intro_html": "<p>AE on the affected LG front-load washers indicates an internal leakage condition that activates flood protection.</p><p>Stop the washer, close the water taps, unplug if the area is dry and inspect only visible inlet-hose connections and damage. Open no panels, make no electrical measurements and do not order a part from the symptom or code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Internal water leakage",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Loose or damaged inlet hose",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Leak at a visible connection",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Faulty leak-safety switch",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme. Do not restart after electrical tripping, a burning smell or leakage."
+          },
+          {
+            "step": 2,
+            "action": "Isolate hazards",
+            "detail": "Unplug with dry hands if safe and close the water taps."
+          },
+          {
+            "step": 3,
+            "action": "Check externally only",
+            "detail": "Stop the washer, close the water taps, unplug if the area is dry and inspect only visible inlet-hose connections and damage."
+          },
+          {
+            "step": 4,
+            "action": "Record details",
+            "detail": "Photograph the complete AE code, note the PNC/model and what happened before the stop."
+          },
+          {
+            "step": 5,
+            "action": "Use a qualified professional",
+            "detail": "Arrange authorised service; use a qualified electrician if the outlet, protection or fixed supply is suspect."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service immediately for a burning smell, AE leakage indication, recurring CE or electrical tripping. Repeated cycle stops after external checks also require service.</p><p>Keep the washer unplugged for water near electricity, smoke, sparks, abnormal heat, a damaged cord or repeated tripping.</p>",
+        "prevention_html": "<p>Avoid overloading, dose correctly and regularly check visible hoses, cord and plug for damage without dismantling the washer.</p><p>Internal leakage, motor and electrical faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing AE?",
+            "answer": "Stop the washer, close the water taps, unplug if the area is dry and inspect only visible inlet-hose connections and damage. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset AE by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does AE identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod AE: betydelse och säkra steg",
+        "meta_description": "LG-tvättmaskin felkod AE? Läs verifierad betydelse, omedelbara säkerhetssteg och när auktoriserad service eller elektriker krävs.",
+        "h1": "LG-tvättmaskin felkod AE",
+        "description": "Ae på berörda frontmatade lg-maskiner anger ett internt läckagetillstånd som aktiverar översvämningsskyddet.",
+        "quick_fix": "Stoppa maskinen, stäng vattenkranarna, koppla ur om området är torrt och kontrollera endast synliga tilloppsanslutningar och skador (cirka 1–20 minuter).",
+        "intro_html": "<p>Ae på berörda frontmatade lg-maskiner anger ett internt läckagetillstånd som aktiverar översvämningsskyddet.</p><p>Stoppa maskinen, stäng vattenkranarna, koppla ur om området är torrt och kontrollera endast synliga tilloppsanslutningar och skador. Öppna inga paneler, gör inga elmätningar och beställ inte en del från symptomet eller koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Internt vattenläckage",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Lös eller skadad tilloppsslang",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Läckage vid synlig anslutning",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Fel på läckageskyddets brytare",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet. Vid elutlösning, bränd lukt eller läckage ska maskinen inte startas om."
+          },
+          {
+            "step": 2,
+            "action": "Bryt riskkällor",
+            "detail": "Koppla ur med torra händer om det är säkert och stäng vattenkranarna."
+          },
+          {
+            "step": 3,
+            "action": "Kontrollera endast utsidan",
+            "detail": "Stoppa maskinen, stäng vattenkranarna, koppla ur om området är torrt och kontrollera endast synliga tilloppsanslutningar och skador."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera",
+            "detail": "Fotografera hela AE-koden, notera PNC-/modellnummer och vad som hände före stoppet."
+          },
+          {
+            "step": 5,
+            "action": "Anlita fackperson",
+            "detail": "Boka auktoriserad service; använd behörig elektriker om uttag, säkring eller fast installation misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service omedelbart vid bränd lukt, AE som visar läckage, återkommande CE eller om maskinen löser ut elskydd. Återkommande programstopp efter yttre kontroller kräver också service.</p><p>Håll maskinen urkopplad vid vatten nära el, rök, gnistor, onormal värme, skadad kabel eller upprepad elutlösning.</p>",
+        "prevention_html": "<p>Undvik överlast, dosera rätt och kontrollera regelbundet att synliga slangar, kabel och kontakt är oskadade utan att demontera maskinen.</p><p>Interna läckage-, motor- och elfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med AE?",
+            "answer": "Stoppa maskinen, stäng vattenkranarna, koppla ur om området är torrt och kontrollera endast synliga tilloppsanslutningar och skador. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa AE genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar AE vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "87": {
+      "code": "CE",
+      "preserve": {
+        "en_slug": "lg-error-code-ce",
+        "sv_slug": "lg-felkod-ce"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error Code CE: Meaning and Safe Steps",
+        "meta_description": "LG Washing Machine Error Code CE? Read the verified meaning, immediate safety steps and when authorised service or an electrician is required.",
+        "h1": "LG Washing Machine Error Code CE",
+        "description": "CE indicates over-current in the motor electrical circuit.",
+        "quick_fix": "Stop the washer, unplug for 10 seconds once and retry only if there is no leak, smell, heat, smoke or electrical damage (about 1–20 minutes).",
+        "intro_html": "<p>CE indicates over-current in the motor electrical circuit.</p><p>Stop the washer, unplug for 10 seconds once and retry only if there is no leak, smell, heat, smoke or electrical damage. Open no panels, make no electrical measurements and do not order a part from the symptom or code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor-circuit over-current",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Short circuit or ground fault",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Loose internal connection",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          },
+          {
+            "cause": "Power surge or internal component fault",
+            "detail": "This is a possible cause, not a confirmed parts diagnosis."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Cancel the programme. Do not restart after electrical tripping, a burning smell or leakage."
+          },
+          {
+            "step": 2,
+            "action": "Isolate hazards",
+            "detail": "Unplug with dry hands if safe and close the water taps."
+          },
+          {
+            "step": 3,
+            "action": "Check externally only",
+            "detail": "Stop the washer, unplug for 10 seconds once and retry only if there is no leak, smell, heat, smoke or electrical damage."
+          },
+          {
+            "step": 4,
+            "action": "Record details",
+            "detail": "Photograph the complete CE code, note the PNC/model and what happened before the stop."
+          },
+          {
+            "step": 5,
+            "action": "Use a qualified professional",
+            "detail": "Arrange authorised service; use a qualified electrician if the outlet, protection or fixed supply is suspect."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised service immediately for a burning smell, AE leakage indication, recurring CE or electrical tripping. Repeated cycle stops after external checks also require service.</p><p>Keep the washer unplugged for water near electricity, smoke, sparks, abnormal heat, a damaged cord or repeated tripping.</p>",
+        "prevention_html": "<p>Avoid overloading, dose correctly and regularly check visible hoses, cord and plug for damage without dismantling the washer.</p><p>Internal leakage, motor and electrical faults cannot be safely prevented or diagnosed through user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing CE?",
+            "answer": "Stop the washer, unplug for 10 seconds once and retry only if there is no leak, smell, heat, smoke or electrical damage. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset CE by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does CE identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod CE: betydelse och säkra steg",
+        "meta_description": "LG-tvättmaskin felkod CE? Läs verifierad betydelse, omedelbara säkerhetssteg och när auktoriserad service eller elektriker krävs.",
+        "h1": "LG-tvättmaskin felkod CE",
+        "description": "Ce anger överström i motorns elektriska krets.",
+        "quick_fix": "Stoppa maskinen, koppla ur i 10 sekunder en gång och prova endast om inget läckage, lukt, värme, rök eller elskada finns (cirka 1–20 minuter).",
+        "intro_html": "<p>Ce anger överström i motorns elektriska krets.</p><p>Stoppa maskinen, koppla ur i 10 sekunder en gång och prova endast om inget läckage, lukt, värme, rök eller elskada finns. Öppna inga paneler, gör inga elmätningar och beställ inte en del från symptomet eller koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Överström i motorkretsen",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Kortslutning eller jordfel",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Lös intern anslutning",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          },
+          {
+            "cause": "Spänningsstörning eller internt komponentfel",
+            "detail": "Detta är en möjlig orsak, inte en bekräftad reservdelsdiagnos."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Avbryt programmet. Vid elutlösning, bränd lukt eller läckage ska maskinen inte startas om."
+          },
+          {
+            "step": 2,
+            "action": "Bryt riskkällor",
+            "detail": "Koppla ur med torra händer om det är säkert och stäng vattenkranarna."
+          },
+          {
+            "step": 3,
+            "action": "Kontrollera endast utsidan",
+            "detail": "Stoppa maskinen, koppla ur i 10 sekunder en gång och prova endast om inget läckage, lukt, värme, rök eller elskada finns."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera",
+            "detail": "Fotografera hela CE-koden, notera PNC-/modellnummer och vad som hände före stoppet."
+          },
+          {
+            "step": 5,
+            "action": "Anlita fackperson",
+            "detail": "Boka auktoriserad service; använd behörig elektriker om uttag, säkring eller fast installation misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad service omedelbart vid bränd lukt, AE som visar läckage, återkommande CE eller om maskinen löser ut elskydd. Återkommande programstopp efter yttre kontroller kräver också service.</p><p>Håll maskinen urkopplad vid vatten nära el, rök, gnistor, onormal värme, skadad kabel eller upprepad elutlösning.</p>",
+        "prevention_html": "<p>Undvik överlast, dosera rätt och kontrollera regelbundet att synliga slangar, kabel och kontakt är oskadade utan att demontera maskinen.</p><p>Interna läckage-, motor- och elfel kan inte förebyggas eller diagnostiseras säkert genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med CE?",
+            "answer": "Stoppa maskinen, koppla ur i 10 sekunder en gång och prova endast om inget läckage, lukt, värme, rök eller elskada finns. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa CE genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar CE vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

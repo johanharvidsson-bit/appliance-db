@@ -1,0 +1,1085 @@
+{
+  "batch": "011-electrolux-e24-e35",
+  "article_ids": [
+    251,
+    252,
+    253,
+    254,
+    255
+  ],
+  "articles": [
+    {
+      "id": 251,
+      "error_code_id": 356,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 252,
+      "error_code_id": 357,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 253,
+      "error_code_id": 358,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 254,
+      "error_code_id": 359,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 255,
+      "error_code_id": 360,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    }
+  ],
+  "rows": [
+    {
+      "id": 431,
+      "article_id": 251,
+      "locale": "en",
+      "slug": "error-code-e24",
+      "title_tag": "Electrolux Washing Machine Error Code E24 | Fix It Now",
+      "meta_description": "Electrolux washing machine showing error E24? Learn what causes a drain pump triac fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E24 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E24 on an Electrolux washing machine indicates that the electronic control of the drain pump has failed due to a faulty drain pump triac on the main control board.",
+      "quick_fix": "Clean the drain pump filter — remove the access panel at the bottom front of the machine, unscrew the filter cap, clear any debris or blockage, and refit it firmly, then restart the cycle to see if E24 clears (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code E24 points to a fault in the electronic circuit that controls your washing machine's drain pump — specifically a component called a triac, which acts as an electronic switch on the main control board. When this triac fails or loses reliable contact, the machine can no longer properly command the drain pump to run.</p><p>When E24 appears, the wash cycle will typically stop mid-programme, often leaving water sitting in the drum. The machine may attempt to drain and fail, or it may halt before draining begins. You might also notice the drum is full of water when you open the door — or the machine simply refuses to progress past a certain point in the cycle.</p><p>While the fault description points firmly at the control board, it is worth ruling out simpler causes first — a blocked filter or a seized pump can place enough electrical stress on the triac circuit to trigger this error without the board itself being permanently damaged.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked or clogged drain pump filter",
+          "detail": "A heavily blocked filter forces the drain pump to work harder, drawing excess current through the triac circuit. Over time this electrical stress can cause the triac to trip or fail, triggering E24."
+        },
+        {
+          "cause": "Faulty or seized drain pump",
+          "detail": "If the drain pump motor has seized, is jammed by a foreign object (such as a coin or hair clip), or has failed internally, it will stall and overload the triac. The control board detects this abnormal load and logs E24."
+        },
+        {
+          "cause": "Failed triac on the main control board",
+          "detail": "The triac is a small electronic component soldered onto the PCB that switches power to the drain pump on and off. It can burn out due to age, power surges, or repeated overloading, and once failed it cannot be reset — the board will need repair or replacement."
+        },
+        {
+          "cause": "Wiring fault between control board and drain pump",
+          "detail": "Damaged, corroded, or loose wiring in the harness connecting the PCB to the drain pump can cause intermittent or absent signals, which the board may interpret as a triac fault. Vibration over time can loosen connectors at either end."
+        },
+        {
+          "cause": "Power surge or voltage spike",
+          "detail": "A sudden spike in mains voltage can damage sensitive components on the control board, including the drain pump triac. This type of fault often appears suddenly after a power cut or storm."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reset the machine",
+          "detail": "Switch the washing machine off at the mains socket and leave it unplugged for at least 5 minutes. This allows the control board to fully discharge and may clear a temporary fault. Plug back in, select a short programme, and check whether E24 returns."
+        },
+        {
+          "step": 2,
+          "action": "Clean the drain pump filter",
+          "detail": "Place a shallow tray and some towels on the floor in front of the machine. Open the small access panel at the bottom front, then slowly unscrew the filter cap anti-clockwise — water will flow out, so let it drain into the tray. Remove the filter completely, clear away any lint, coins, or debris, rinse it under a tap, and screw it back in firmly. Run a drain or spin cycle to test."
+        },
+        {
+          "step": 3,
+          "action": "Check the pump impeller for obstructions",
+          "detail": "With the filter removed, shine a torch into the pump housing and look for any foreign objects lodged in the impeller. Use long-nose pliers or tweezers to carefully remove anything you can see. Try turning the impeller by hand — it should spin freely with slight resistance. If it is completely stiff or will not move, the pump itself may be seized."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the drain hose",
+          "detail": "Pull the machine forward slightly and check the drain hose at the back for kinks, crushing, or blockages. Disconnect the hose from the standpipe and blow through it to confirm it is clear. A restricted hose can cause the pump to overwork and stress the triac circuit."
+        },
+        {
+          "step": 5,
+          "action": "Check wiring connections to the drain pump",
+          "detail": "With the machine unplugged, remove the back panel (usually held by a few screws). Locate the drain pump — typically at the bottom of the machine — and check that the wiring connector is firmly seated. Look for any signs of burning, corrosion, or broken wires. Reseat any loose connectors and retest."
+        },
+        {
+          "step": 6,
+          "action": "Test the drain pump directly",
+          "detail": "If you have a multimeter, disconnect the pump wiring connector and measure the resistance across the pump terminals. A healthy pump motor typically reads between 100 and 200 ohms — consult your model's service data if available. A reading of zero (short circuit) or infinite resistance (open circuit) confirms the pump has failed and needs replacing."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the main control board for visible damage",
+          "detail": "With the machine unplugged, access the control board (usually behind the top or rear panel depending on your model). Look closely at the board for any burnt components, scorch marks, or a visibly damaged triac. If you can see clear burn damage near the pump relay or triac area, the board will need professional repair or replacement — do not attempt to run the machine in this state."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have cleaned the filter, confirmed the pump impeller spins freely, checked all wiring connections, and the E24 error still returns every time you run a cycle, the fault almost certainly lies with the triac or another component on the main control board. This is not a repair that can be safely carried out without specialist electronics knowledge and equipment.</p><p>You should also call a service technician immediately if you notice any burning smell coming from the machine, if you can see scorch marks on the control board, or if the machine trips your household circuit breaker when it tries to drain. These are signs of an active electrical fault that could be a safety risk if the machine is used further.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when diagnosing and resolving an E24 fault are the drain pump itself, the main control board (PCB), and the pump wiring harness. In some cases a specialist electronics repairer can replace just the triac on the board rather than the whole PCB, which is a more cost-effective option worth asking about.</p><p>To reduce the risk of this fault recurring, clean the drain pump filter every one to two months, always check pockets before loading a wash, and use a surge-protected extension lead or socket to protect the control board from voltage spikes.</p>\n<!-- SPARE_PARTS:E24 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. When E24 is active, the machine cannot reliably control the drain pump, which means water may not drain properly and the cycle will not complete. Running the machine repeatedly in this state can cause further damage to the control board or pump, and in some cases may pose an electrical safety risk.",
+          "question": "Can I still use my Electrolux washing machine with an E24 error showing?"
+        },
+        {
+          "answer": "The error code specifically refers to the drain pump triac on the control board, but a blocked filter or seized pump can trigger the same code by overloading that circuit. Always start with the filter and pump checks before assuming the board is faulty — a significant number of E24 faults are resolved without touching the PCB at all.",
+          "question": "Is E24 always a control board fault, or can it be something simpler?"
+        },
+        {
+          "answer": "If the drain pump needs replacing, parts typically cost between £25 and £60 depending on the model, plus labour if a technician fits it. A full control board replacement is more expensive, often £80 to £180 for the part alone. Some electronics repair specialists can replace just the triac for considerably less, so it is worth getting a quote for board-level repair before committing to a full PCB replacement.",
+          "question": "How much does it cost to repair an Electrolux E24 fault?"
+        },
+        {
+          "answer": "A power reset may clear the error temporarily if the fault was caused by a one-off electrical spike or a momentary overload. However, if the underlying cause — such as a blocked filter, failed pump, or damaged triac — has not been addressed, the error will return as soon as the machine tries to drain again.",
+          "question": "Will unplugging the machine reset the E24 error permanently?"
+        },
+        {
+          "answer": "If the pump impeller is seized or a multimeter test shows the pump motor is open or short circuit, replace the pump first — it is the cheaper part and may have been the root cause of the triac failure. If the pump tests fine and spins freely but E24 persists, the fault is most likely on the control board itself and a service technician should assess it.",
+          "question": "How do I know if it is the pump or the control board that needs replacing?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T08:46:30.075173+00:00"
+    },
+    {
+      "id": 432,
+      "article_id": 251,
+      "locale": "sv",
+      "slug": "felkod-e24",
+      "title_tag": "Electrolux Tvättmaskin Felkod E24 | Åtgärda Det Nu",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E24? Lär dig vad som orsakar ett triacfel i dräneringspumpen, hur du åtgärdar det själv och när du bör kontakta en servicetek",
+      "h1": "Vad Betyder Felkod E24 på en Electrolux Tvättmaskin?",
+      "description": "Felkod E24 på en Electrolux tvättmaskin indikerar att den elektroniska styrningen av dräneringspumpen har slutat fungera på grund av en defekt triac för dräneringspumpen på huvudkortet.",
+      "quick_fix": "Rengör dräneringspumpens filter — ta bort åtkomstpanelen längst ned på maskinens framsida, skruva loss filterlocket, rensa bort eventuellt skräp eller blockeringar och sätt tillbaka det ordentligt. Starta sedan om programmet för att se om E24 försvinner (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod E24 pekar på ett fel i den elektroniska kretsen som styr tvättmaskinens dräneringspump — närmare bestämt en komponent som kallas triac, vilken fungerar som en elektronisk strömbrytare på huvudkortet. När denna triac slutar fungera eller förlorar tillförlitlig kontakt kan maskinen inte längre på ett korrekt sätt styra dräneringspumpen.</p><p>När E24 visas stannar tvättcykeln vanligtvis mitt i programmet, ofta med vatten kvar i trumman. Maskinen kan försöka tömma ut vattnet och misslyckas, eller stanna innan tömningen påbörjas. Du kan också märka att trumman är full med vatten när du öppnar luckan — eller att maskinen helt enkelt vägrar att fortsätta förbi en viss punkt i cykeln.</p><p>Även om felbeskrivningen tydligt pekar mot styrkortet är det värt att utesluta enklare orsaker först — ett igensatt filter eller en blockerad pump kan belasta triac-kretsen tillräckligt mycket för att utlösa detta fel utan att kortet i sig har tagit permanent skada.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt eller tilltäppt dräneringspumpsfilter",
+          "detail": "Ett kraftigt igensatt filter tvingar dräneringspumpen att arbeta hårdare och drar för hög ström genom triac-kretsen. Denna elektriska belastning kan med tiden göra att triacen löser ut eller går sönder och utlöser E24."
+        },
+        {
+          "cause": "Defekt eller blockerad dräneringspump",
+          "detail": "Om dräneringspumpens motor har låst sig, är blockerad av ett främmande föremål (till exempel ett mynt eller ett hårspänne) eller har gått sönder internt, kommer den att stanna och överbelasta triacen. Styrkortet registrerar denna onormala belastning och loggar E24."
+        },
+        {
+          "cause": "Defekt triac på huvudkortet",
+          "detail": "Triacen är en liten elektronisk komponent som är lödad på kretskortet och som kopplar strömmen till dräneringspumpen av och på. Den kan brinna ut på grund av ålder, spänningsöverspänningar eller upprepad överbelastning, och när den väl har gått sönder kan den inte återställas — kortet behöver repareras eller bytas ut."
+        },
+        {
+          "cause": "Kabelfel mellan styrkortet och dräneringspumpen",
+          "detail": "Skadade, korroderade eller lösa kablar i kabelstammen som förbinder kretskortet med dräneringspumpen kan orsaka intermittenta eller uteblivna signaler, vilket kortet kan tolka som ett triacfel. Vibrationer kan med tiden lossa kontaktdon i båda ändarna."
+        },
+        {
+          "cause": "Strömöverspänning eller spänningspik",
+          "detail": "En plötslig spänningspik i elnätet kan skada känsliga komponenter på styrkortet, inklusive dräneringspumpens triac. Denna typ av fel uppstår ofta plötsligt efter ett strömavbrott eller en storm."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Återställ maskinen",
+          "detail": "Stäng av tvättmaskinen vid vägguttaget och låt den stå urkopplad i minst 5 minuter. Detta gör att styrkortet kan laddas ur helt och kan rensa ett tillfälligt fel. Koppla in maskinen igen, välj ett kort program och kontrollera om E24 återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Rengör dräneringspumpens filter",
+          "detail": "Placera ett grunt fat och några handdukar på golvet framför maskinen. Öppna den lilla åtkomstpanelen längst ned på framsidan och skruva sedan långsamt loss filterlocket moturs — vatten kommer att rinna ut, så låt det rinna ner i fatet. Ta ut filtret helt, rensa bort ludd, mynt eller skräp, skölj det under kranen och skruva tillbaka det ordentligt. Kör ett tömnings- eller centrifugeringsprogram för att testa."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera pumpens impeller för blockeringar",
+          "detail": "Med filtret borttaget, lyser du med en ficklampa in i pumphuset och letar efter eventuella främmande föremål som fastnat i impellern. Använd spetsnåltång eller pincett för att försiktigt ta bort allt du kan se. Försök vrida impellern för hand — den ska snurra fritt med ett lätt motstånd. Om den är helt stel eller inte går att röra kan pumpen ha låst sig."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera avloppsslangen",
+          "detail": "Dra maskinen något framåt och kontrollera avloppsslangen på baksidan för att se om den är böjd, klämd eller blockerad. Koppla loss slangen från avloppsröret och blås igenom den för att bekräfta att den är fri. En begränsad slang kan göra att pumpen arbetar för hårt och belastar triac-kretsen."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera kabelanslutningarna till dräneringspumpen",
+          "detail": "Med maskinen urkopplad, ta bort bakpanelen (vanligtvis fäst med ett par skruvar). Lokalisera dräneringspumpen — vanligtvis längst ned i maskinen — och kontrollera att kabelkontakten sitter ordentligt. Leta efter tecken på brännskador, korrosion eller trasiga kablar. Sätt tillbaka eventuella lösa kontaktdon och testa igen."
+        },
+        {
+          "step": 6,
+          "action": "Testa dräneringspumpen direkt",
+          "detail": "Om du har en multimeter, koppla loss pumpens kabelkontakt och mät resistansen över pumpens anslutningar. En frisk pumpmotor läser vanligtvis mellan 100 och 200 ohm — kontrollera din modells servicedata om det finns tillgängligt. En avläsning på noll (kortslutning) eller oändligt motstånd (öppen krets) bekräftar att pumpen har gått sönder och behöver bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera huvudkortet för synliga skador",
+          "detail": "Med maskinen urkopplad, öppna styrkortet (vanligtvis bakom topp- eller bakpanelen beroende på din modell). Titta noga på kortet efter brända komponenter, svedmärken eller en synligt skadad triac. Om du kan se tydliga brännskador nära pumprelät eller triac-området behöver kortet professionell reparation eller utbyte — försök inte köra maskinen i detta tillstånd."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har rengjort filtret, bekräftat att pumpens impeller snurrar fritt, kontrollerat alla kabelanslutningar och E24-felet ändå återkommer varje gång du kör ett program, beror felet nästan säkert på triacen eller en annan komponent på huvudkortet. Detta är inte en reparation som kan utföras på ett säkert sätt utan specialiserade elektronikkunskaper och utrustning.</p><p>Du bör också omedelbart kontakta en servicetekniker om du märker en bränd lukt från maskinen, om du kan se svedmärken på styrkortet, eller om maskinen löser ut din husens säkring när den försöker tömma ut vattnet. Dessa är tecken på ett aktivt elfel som kan utgöra en säkerhetsrisk om maskinen används vidare.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid diagnostisering och åtgärdande av ett E24-fel är dräneringspumpen, huvudkortet (kretskortet) och pumpens kabelstam. I vissa fall kan en specialiserad elektronikreparatör byta ut enbart triacen på kortet istället för hela kretskortet, vilket är ett mer kostnadseffektivt alternativ som är värt att fråga om.</p><p>För att minska risken för att detta fel uppstår igen, rengör dräneringspumpens filter var en till två månader, kontrollera alltid fickorna innan du lägger in tvätt och använd ett överspänningsskyddat grenuttag eller vägguttag för att skydda styrkortet mot spänningspikar.</p>\n<!-- SPARE_PARTS:E24 -->",
+      "faq_json": [
+        {
+          "answer": "Det rekommenderas inte. När E24 är aktivt kan maskinen inte på ett tillförlitligt sätt styra dräneringspumpen, vilket innebär att vattnet kanske inte töms ordentligt och att cykeln inte slutförs. Att köra maskinen upprepade gånger i detta tillstånd kan orsaka ytterligare skador på styrkortet eller pumpen, och kan i vissa fall utgöra en elektrisk säkerhetsrisk.",
+          "question": "Kan jag fortfarande använda min Electrolux tvättmaskin när felkod E24 visas?"
+        },
+        {
+          "answer": "Felkoden hänvisar specifikt till dräneringspumpens triac på styrkortet, men ett igensatt filter eller en blockerad pump kan utlösa samma kod genom att överbelasta den kretsen. Börja alltid med att kontrollera filtret och pumpen innan du antar att kortet är defekt — ett betydande antal E24-fel löses utan att kretskortet behöver röras.",
+          "question": "Är E24 alltid ett styrkortsfel, eller kan det bero på något enklare?"
+        },
+        {
+          "answer": "Om dräneringspumpen behöver bytas ut kostar reservdelarna vanligtvis mellan 300 och 700 kronor beroende på modell, plus arbetskostnad om en tekniker monterar den. Ett fullständigt byte av styrkortet är dyrare, ofta 900 till 2 000 kronor enbart för delen. Vissa elektronikspecialister kan byta ut enbart triacen för betydligt mindre, så det är värt att begära offert på reparation på kortnivå innan du bestämmer dig för ett fullständigt kretskortsbyte.",
+          "question": "Hur mycket kostar det att reparera ett Electrolux E24-fel?"
+        },
+        {
+          "answer": "En strömåterställning kan tillfälligt rensa felet om det orsakades av en engångsspänningspik eller en momentan överbelastning. Men om den bakomliggande orsaken — till exempel ett igensatt filter, en defekt pump eller en skadad triac — inte har åtgärdats, kommer felet att återkomma så snart maskinen försöker tömma ut vattnet igen.",
+          "question": "Återställer det E24-felet permanent om jag kopplar ur maskinen?"
+        },
+        {
+          "answer": "Om pumpens impeller är blockerad eller ett multimetertest visar att pumpmotorn är öppen eller kortsluten, byt ut pumpen först — det är den billigare delen och kan ha varit den grundläggande orsaken till triacfelet. Om pumpen testar bra och snurrar fritt men E24 kvarstår, beror felet troligtvis på styrkortet och en servicetekniker bör bedöma det.",
+          "question": "Hur vet jag om det är pumpen eller styrkortet som behöver bytas ut?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T08:47:45.288547+00:00"
+    },
+    {
+      "id": 433,
+      "article_id": 252,
+      "locale": "en",
+      "slug": "error-code-e25",
+      "title_tag": "Electrolux Washing Machine Error Code E25 | Fix It Now",
+      "meta_description": "Electrolux washing machine showing error E25? Learn what causes a blocked drain pump, how to clean the filter, and when to call a service technician.",
+      "h1": "What Does Error Code E25 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E25 on an Electrolux washing machine indicates that the drain pump impeller is obstructed, preventing the machine from pumping water out effectively.",
+      "quick_fix": "Clean the drain filter by unscrewing the access cap at the bottom front of the machine, removing any debris blocking the pump impeller, and replacing the cap — this resolves the majority of E25 errors (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code E25 is your Electrolux washing machine's way of telling you that the drain pump is blocked. Specifically, the pump's impeller — the small rotating component that pushes water out of the drum — has encountered an obstruction it cannot clear on its own. When this happens, the machine cannot complete its drain cycle and will stop mid-programme.</p><p>You'll typically notice the drum still contains water when the error appears, and the machine may make a humming or straining noise as the pump tries to work against the blockage. In some cases the machine will attempt to drain several times before displaying E25 and locking out.</p><p>The good news is that this fault is almost always caused by a physical blockage rather than an electrical failure, which means most homeowners can resolve it without specialist tools or replacement parts.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked drain filter",
+          "detail": "The most common cause of E25 is a clogged coin filter (also called the pump filter) located behind the small access panel at the bottom front of the machine. Lint, coins, hair grips, and small garment items accumulate here over time and eventually restrict or jam the impeller."
+        },
+        {
+          "cause": "Foreign object lodged in the pump impeller",
+          "detail": "Small items that pass through the filter — such as a button, a piece of wire from a bra, or a fragment of fabric — can become wedged directly against the impeller blades. Even a small obstruction is enough to stall the pump and trigger E25."
+        },
+        {
+          "cause": "Kinked or blocked drain hose",
+          "detail": "If the drain hose running from the machine to the standpipe or sink is kinked, squashed behind the appliance, or partially blocked by debris, back-pressure can prevent the pump from draining efficiently. The machine interprets this as a pump fault."
+        },
+        {
+          "cause": "Blocked household standpipe or drain",
+          "detail": "Occasionally the blockage is not in the machine at all but in the external plumbing. A slow or blocked standpipe will cause water to back up, preventing the pump from clearing the drum and triggering the error."
+        },
+        {
+          "cause": "Faulty or seized drain pump",
+          "detail": "If the pump motor has seized due to age, corrosion, or a previous uncleared blockage, it will not spin even when the filter is clean. This is less common but does occur on older machines and requires pump replacement."
+        },
+        {
+          "cause": "Wiring or connection fault to the pump",
+          "detail": "A loose or corroded electrical connector on the pump wiring harness can interrupt the signal from the control board, causing the pump to fail to start. This is relatively rare and is usually only found after all mechanical causes have been ruled out."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Before doing anything else, turn the programme dial to off and unplug the washing machine from the mains socket. This is essential for safety before you open any access panels or handle water. If the drum is full of water, have a shallow tray and old towels ready."
+        },
+        {
+          "step": 2,
+          "action": "Locate and open the filter access panel",
+          "detail": "On most Electrolux washing machines the drain filter is behind a small rectangular flap at the bottom front of the appliance. Prise it open with a flat-head screwdriver or your fingernail. Inside you will see a large plastic cap and, on many models, a small emergency drain hose with its own stopper."
+        },
+        {
+          "step": 3,
+          "action": "Drain residual water using the emergency hose",
+          "detail": "Pull out the small emergency drain hose, place its end into your shallow tray, and remove the stopper to let the water drain out slowly. This prevents a flood when you unscrew the filter cap. Replace the stopper once the flow stops."
+        },
+        {
+          "step": 4,
+          "action": "Remove and clean the drain filter",
+          "detail": "Turn the large filter cap anti-clockwise and pull it out. Rinse it under a tap, removing all lint, hair, and debris. Use an old toothbrush to scrub the mesh if it is heavily clogged. Check inside the filter housing for any remaining objects and remove them by hand."
+        },
+        {
+          "step": 5,
+          "action": "Check and free the pump impeller",
+          "detail": "With the filter removed, shine a torch into the housing and look for the impeller — a small plastic fan visible at the back of the cavity. Try turning it gently with your finger. It should rotate freely with slight resistance. If it is stiff or completely stuck, carefully remove any visible obstruction with long-nose pliers or tweezers."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the drain hose for kinks or blockages",
+          "detail": "Pull the machine forward slightly and trace the drain hose from the back of the appliance to where it connects to the standpipe or sink. Straighten any kinks and check that the hose is not squashed against the wall. Disconnect it from the standpipe and pour a jug of water through it to confirm it is clear."
+        },
+        {
+          "step": 7,
+          "action": "Reassemble, run a short cycle, and check for the error",
+          "detail": "Refit the filter cap firmly by turning it clockwise until it seats, close the access panel, and plug the machine back in. Select a short spin or rinse-and-spin programme and watch the machine complete its drain. If E25 does not reappear, the fault is resolved."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have cleaned the filter thoroughly, confirmed the impeller spins freely, and checked the drain hose, but the machine still displays E25 and fails to drain, the pump motor itself is likely seized or has failed electrically. You may also hear a complete absence of any sound from the pump during the drain phase, which points to a motor or wiring fault rather than a blockage.</p><p>At this point the pump will need to be tested with a multimeter and, in most cases, replaced. A service technician can also check the wiring harness and control board connections to rule out a signal fault before fitting a new pump, saving you the cost of an unnecessary part.</p>",
+      "prevention_html": "<p>The most effective way to prevent E25 from returning is to clean the drain filter every one to three months, depending on how frequently you use the machine. Always check pockets before loading a wash — coins, hair grips, and tissues are the most common culprits. Using a laundry bag for delicate items with underwires or small embellishments also reduces the risk of fragments reaching the pump.</p><p>The parts most commonly replaced when dealing with a persistent E25 fault are the <strong>drain pump assembly</strong>, the <strong>drain filter and housing cap</strong>, and the <strong>pump wiring harness</strong>. You can find compatible parts for your specific Electrolux model using the search tool below.</p>\n<!-- SPARE_PARTS:E25 -->",
+      "faq_json": [
+        {
+          "answer": "No. When E25 is active the machine has stopped mid-cycle because it cannot drain. Running another programme without clearing the fault will not help and may leave you with a drum full of water again. Clear the blockage first, then resume normal use.",
+          "question": "Can I still use my Electrolux washing machine while it shows E25?"
+        },
+        {
+          "answer": "Use the small emergency drain hose located next to the filter cap inside the access panel. Place a shallow tray beneath it, pull out the stopper, and let the water drain gradually. It can take a few minutes if the drum is full, so be patient and empty the tray as needed.",
+          "question": "How do I get the water out of the drum before I can open the filter?"
+        },
+        {
+          "answer": "With the filter removed, check that the pump impeller inside the housing rotates freely. A small object like a button or wire can jam the impeller even when the filter itself appears clear. Also inspect the drain hose for kinks and test the standpipe by pouring water directly into it to confirm it drains freely.",
+          "question": "My filter looks clean but I still get E25 — what should I check next?"
+        },
+        {
+          "answer": "Electrolux generally recommends cleaning the drain filter every three months under normal use. If you wash frequently, have pets, or regularly wash items that shed fibres, cleaning it monthly is a sensible precaution. A quick clean takes less than ten minutes and significantly reduces the risk of E25 and other drain-related faults.",
+          "question": "How often should I clean the drain filter on my Electrolux washing machine?"
+        },
+        {
+          "answer": "They are related but different. E24 typically indicates that the machine has detected a drain fault through a sensor or timing issue, while E25 specifically points to a physical obstruction at the pump impeller. In practice, both errors often respond to the same first step — cleaning the drain filter — but E25 more directly suggests a blockage you can clear yourself.",
+          "question": "Is E25 the same as E24 on an Electrolux washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T08:48:37.546342+00:00"
+    },
+    {
+      "id": 434,
+      "article_id": 252,
+      "locale": "sv",
+      "slug": "felkod-e25",
+      "title_tag": "Electrolux Tvättmaskin Felkod E25 | Åtgärda Problemet Nu",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E25? Lär dig vad som orsakar en blockerad dräneringspump, hur du rengör filtret och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod E25 på en Electrolux Tvättmaskin?",
+      "description": "Felkod E25 på en Electrolux tvättmaskin indikerar att dräneringspumpens impeller är blockerad, vilket hindrar maskinen från att pumpa ut vatten effektivt.",
+      "quick_fix": "Rengör dräneringsfiltret genom att skruva loss åtkomstlocket längst ned på maskinens framsida, ta bort eventuellt skräp som blockerar pumpens impeller och sätt tillbaka locket — detta löser de flesta E25-fel (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod E25 är din Electrolux tvättmaskines sätt att tala om att dräneringspumpen är blockerad. Mer specifikt har pumpens impeller — den lilla roterande komponent som driver ut vatten ur trumman — stött på ett hinder som den inte kan rensa på egen hand. När detta inträffar kan maskinen inte slutföra sitt dräneringscykel och stannar mitt i programmet.</p><p>Du märker vanligtvis att trumman fortfarande innehåller vatten när felet visas, och maskinen kan avge ett surrande eller ansträngt ljud när pumpen försöker arbeta mot blockeringen. I vissa fall försöker maskinen dränera flera gånger innan E25 visas och maskinen låser sig.</p><p>Den goda nyheten är att detta fel nästan alltid orsakas av en fysisk blockering snarare än ett elektriskt fel, vilket innebär att de flesta hushållsägare kan lösa det utan specialverktyg eller reservdelar.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt dräneringsfilter",
+          "detail": "Den vanligaste orsaken till E25 är ett igensatt myntfilter (även kallat pumpfilter) som sitter bakom den lilla åtkomstluckan längst ned på maskinens framsida. Ludd, mynt, hårnålar och små plagg samlas här över tid och begränsar eller fastnar i impellern."
+        },
+        {
+          "cause": "Främmande föremål fastnat i pumpens impeller",
+          "detail": "Små föremål som passerar genom filtret — till exempel en knapp, en bit tråd från en bysthållare eller ett tygfragment — kan fastna direkt mot impellerbladen. Även ett litet hinder räcker för att stoppa pumpen och utlösa E25."
+        },
+        {
+          "cause": "Vikt eller blockerad dräneringsslang",
+          "detail": "Om dräneringsslangen som löper från maskinen till avloppsröret eller diskhon är vikt, klämd bakom maskinen eller delvis blockerad av skräp, kan mottrycket hindra pumpen från att dränera effektivt. Maskinen tolkar detta som ett pumpfel."
+        },
+        {
+          "cause": "Blockerat avloppsrör eller husavlopp",
+          "detail": "Ibland sitter blockeringen inte i maskinen alls utan i det externa rörsystemet. Ett långsamt eller blockerat avloppsrör gör att vatten samlas upp och hindrar pumpen från att tömma trumman, vilket utlöser felet."
+        },
+        {
+          "cause": "Defekt eller låst dräneringspump",
+          "detail": "Om pumpmotorn har låst sig på grund av ålder, korrosion eller en tidigare orensad blockering, snurrar den inte ens när filtret är rent. Detta är mindre vanligt men förekommer på äldre maskiner och kräver att pumpen byts ut."
+        },
+        {
+          "cause": "Kabelfel eller anslutningsfel till pumpen",
+          "detail": "En lös eller korroderad elektrisk kontakt på pumpens kabelstam kan avbryta signalen från styrkortet och göra att pumpen inte startar. Detta är relativt ovanligt och hittas vanligtvis först efter att alla mekaniska orsaker har uteslutits."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Innan du gör något annat, vrid programväljaren till av och koppla ur tvättmaskinen från eluttaget. Detta är nödvändigt av säkerhetsskäl innan du öppnar några åtkomstluckor eller hanterar vatten. Om trumman är full med vatten, ha ett grunt fat och gamla handdukar till hands."
+        },
+        {
+          "step": 2,
+          "action": "Hitta och öppna filteråtkomstluckan",
+          "detail": "På de flesta Electrolux tvättmaskiner sitter dräneringsfiltret bakom en liten rektangulär lucka längst ned på maskinens framsida. Bänd upp den med en platt skruvmejsel eller ditt nagel. Inuti ser du ett stort plastlock och, på många modeller, en liten nödtömningsslang med ett eget stopp."
+        },
+        {
+          "step": 3,
+          "action": "Töm kvarvarande vatten via nödtömningsslangen",
+          "detail": "Dra ut den lilla nödtömningsslangen, placera dess ände i ditt grunda fat och ta bort stoppet för att låta vattnet rinna ut långsamt. Detta förhindrar en översvämning när du skruvar loss filterlocket. Sätt tillbaka stoppet när flödet upphör."
+        },
+        {
+          "step": 4,
+          "action": "Ta ut och rengör dräneringsfiltret",
+          "detail": "Vrid det stora filterlocket moturs och dra ut det. Skölj det under kranen och ta bort allt ludd, hår och skräp. Använd en gammal tandborste för att skrubba nätet om det är kraftigt igensatt. Kontrollera insidan av filterhuset efter eventuella kvarvarande föremål och ta bort dem för hand."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera och frigör pumpens impeller",
+          "detail": "Med filtret borttaget, lyser du med en ficklampa in i huset och letar efter impellern — ett litet plastfläkt synligt längst in i utrymmet. Försök vrida den försiktigt med fingret. Den ska rotera fritt med ett lätt motstånd. Om den är stel eller helt fastlåst, ta försiktigt bort eventuella synliga hinder med spetsnåltång eller pincett."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera dräneringsslangen för veck eller blockeringar",
+          "detail": "Dra maskinen något framåt och följ dräneringsslangen från maskinens baksida till där den ansluter till avloppsröret eller diskhon. Räta ut eventuella veck och kontrollera att slangen inte är klämd mot väggen. Koppla loss den från avloppsröret och häll en kanna vatten genom den för att bekräfta att den är fri."
+        },
+        {
+          "step": 7,
+          "action": "Montera ihop, kör ett kort program och kontrollera om felet kvarstår",
+          "detail": "Sätt tillbaka filterlocket ordentligt genom att vrida det medurs tills det sitter fast, stäng åtkomstluckan och koppla in maskinen igen. Välj ett kort centrifugerings- eller sköljnings- och centrifugeringsprogram och se till att maskinen slutför sin dränering. Om E25 inte visas igen är felet åtgärdat."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har rengjort filtret noggrant, bekräftat att impellern snurrar fritt och kontrollerat dräneringsslangen, men maskinen fortfarande visar E25 och inte kan dränera, är pumpmotorn troligen låst eller har fått ett elektriskt fel. Du kan också märka att det är helt tyst från pumpen under dräneringsfasen, vilket tyder på ett motor- eller kabelfel snarare än en blockering.</p><p>I detta läge behöver pumpen testas med en multimeter och i de flesta fall bytas ut. En servicetekniker kan också kontrollera kabelstammen och styrkortsanslutningarna för att utesluta ett signalfelt innan en ny pump monteras, vilket kan spara dig kostnaden för en onödig reservdel.</p>",
+      "prevention_html": "<p>Det mest effektiva sättet att förhindra att E25 återkommer är att rengöra dräneringsfiltret var en till tre månader, beroende på hur ofta du använder maskinen. Kontrollera alltid fickorna innan du lägger i tvätten — mynt, hårnålar och pappersservetter är de vanligaste bovarna. Att använda en tvättnätpåse för känsliga plagg med byglar eller små dekorationer minskar också risken för att fragment når pumpen.</p><p>De delar som oftast byts ut vid ett ihållande E25-fel är <strong>dräneringspumpen</strong>, <strong>dräneringsfiltret med huskåpa</strong> och <strong>pumpens kabelstam</strong>. Du kan hitta kompatibla delar för din specifika Electrolux-modell med hjälp av sökverktyget nedan.</p>\n<!-- SPARE_PARTS:E25 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. När E25 är aktivt har maskinen stannat mitt i cykeln eftersom den inte kan dränera. Att starta ett nytt program utan att åtgärda felet hjälper inte och kan lämna dig med en trumma full av vatten igen. Rensa blockeringen först och återuppta sedan normal användning.",
+          "question": "Kan jag fortfarande använda min Electrolux tvättmaskin när den visar E25?"
+        },
+        {
+          "answer": "Använd den lilla nödtömningsslangen som sitter bredvid filterlocket inuti åtkomstluckan. Placera ett grunt fat under den, dra ut stoppet och låt vattnet rinna ut gradvis. Det kan ta några minuter om trumman är full, så ha tålamod och töm fatet vid behov.",
+          "question": "Hur får jag ut vattnet ur trumman innan jag kan öppna filtret?"
+        },
+        {
+          "answer": "Med filtret borttaget, kontrollera att pumpens impeller inuti huset roterar fritt. Ett litet föremål som en knapp eller tråd kan låsa impellern även när filtret i sig ser rent ut. Kontrollera också dräneringsslangen för veck och testa avloppsröret genom att hälla vatten direkt i det för att bekräfta att det rinner fritt.",
+          "question": "Mitt filter ser rent ut men jag får fortfarande E25 — vad ska jag kontrollera härnäst?"
+        },
+        {
+          "answer": "Electrolux rekommenderar generellt att dräneringsfiltret rengörs var tredje månad vid normal användning. Om du tvättar ofta, har husdjur eller regelbundet tvättar plagg som avger fibrer, är det klokt att rengöra det månadsvis. En snabb rengöring tar mindre än tio minuter och minskar avsevärt risken för E25 och andra dräneringsrelaterade fel.",
+          "question": "Hur ofta ska jag rengöra dräneringsfiltret på min Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "De är relaterade men olika. E24 indikerar vanligtvis att maskinen har upptäckt ett dräneringsfel via en sensor eller ett timingproblem, medan E25 specifikt pekar på en fysisk blockering vid pumpens impeller. I praktiken svarar båda felen ofta på samma första åtgärd — att rengöra dräneringsfiltret — men E25 tyder mer direkt på en blockering som du kan åtgärda själv.",
+          "question": "Är E25 samma sak som E24 på en Electrolux tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T08:49:48.290273+00:00"
+    },
+    {
+      "id": 435,
+      "article_id": 253,
+      "locale": "en",
+      "slug": "error-code-e30",
+      "title_tag": "Electrolux Washing Machine Error Code E30 | Fix It",
+      "meta_description": "Electrolux washing machine showing error E30? Learn what causes the pressure sensor fault and how to fix it yourself with this step-by-step guide.",
+      "h1": "What Does Error Code E30 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E30 on an Electrolux washing machine indicates a pressure sensor fault, meaning the water level sensor is not reading the water level in the drum correctly.",
+      "quick_fix": "Check the pressure sensor hose for kinks, blockages, or disconnection — straighten or reattach it and restart the machine to clear the error (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code E30 points to a problem with the pressure sensor, also called the water level sensor or pressure switch. This component monitors how much water is inside the drum and signals the control board when the correct level has been reached. When it stops reading accurately, the machine cannot safely continue a wash cycle.</p><p>When E30 appears, your Electrolux washing machine will typically pause mid-cycle or refuse to start filling with water at all. In some cases the machine may overfill slightly before stopping, or it may drain and halt without completing the programme. The display will show E30 and the cycle will not progress until the fault is resolved.</p><p>The good news is that this fault is often caused by something straightforward — a blocked or kinked hose connected to the sensor rather than a failed component — so it is worth working through the checks below before calling anyone out.</p>",
+      "causes_json": [
+        {
+          "cause": "Kinked or blocked pressure sensor hose",
+          "detail": "A small rubber or plastic hose connects the pressure sensor to the drum. If this hose becomes kinked, pinched, or partially blocked with detergent residue or debris, the sensor cannot read air pressure accurately and triggers E30."
+        },
+        {
+          "cause": "Disconnected pressure sensor hose",
+          "detail": "Vibration from normal use can cause the hose to work loose from either the sensor or the drum connection point. Even a partial disconnection is enough to cause a false or absent reading."
+        },
+        {
+          "cause": "Faulty or worn pressure sensor",
+          "detail": "Over time the pressure sensor itself can fail — the internal diaphragm may crack or the electrical contacts may corrode. When the sensor is no longer able to generate or transmit a signal, the control board logs E30."
+        },
+        {
+          "cause": "Wiring fault between sensor and control board",
+          "detail": "The wiring harness connecting the pressure sensor to the main control board can suffer from loose connectors, corrosion, or damaged insulation. A break or poor connection in this circuit produces the same error as a failed sensor."
+        },
+        {
+          "cause": "Main control board fault",
+          "detail": "If the control board cannot correctly interpret the signal from the pressure sensor — due to a component failure on the board itself — it will log E30 even when the sensor and hose are in good condition. This is the least common cause."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains and leave it unplugged for two minutes, then plug it back in and start a new cycle. Occasionally a temporary signal glitch causes E30 and a full power reset clears it without any further action needed."
+        },
+        {
+          "step": 2,
+          "action": "Locate and inspect the pressure sensor hose",
+          "detail": "Pull the machine away from the wall and remove the top panel (usually held by two or three screws at the rear). The pressure sensor is a small round component, typically mounted near the top of the machine, with a thin rubber or plastic hose running down to the drum. Trace the full length of the hose and look for kinks, cracks, or areas where it has been pinched against another component."
+        },
+        {
+          "step": 3,
+          "action": "Clear any blockage in the hose",
+          "detail": "Detach the hose from both ends by gently pulling or releasing any clips. Blow through it to check airflow is clear — if it feels restricted, flush it through with warm water. Detergent residue can build up inside the hose over time and restrict the air pressure signal the sensor relies on."
+        },
+        {
+          "step": 4,
+          "action": "Reattach the hose securely",
+          "detail": "Push the hose firmly back onto both connection points — the sensor and the drum stub — and check that any retaining clips are seated properly. A loose connection at either end is enough to cause a persistent E30 fault. Reassemble the panel and run a short cycle to see if the error clears."
+        },
+        {
+          "step": 5,
+          "action": "Check the wiring connections at the pressure sensor",
+          "detail": "With the machine unplugged, locate the electrical connector on the pressure sensor and unplug it. Check the terminals for corrosion, bent pins, or signs of heat damage. Plug it back in firmly and ensure it clicks into place. Repeat this check at the control board end of the same wiring harness if accessible."
+        },
+        {
+          "step": 6,
+          "action": "Test or replace the pressure sensor",
+          "detail": "If the hose and wiring are both in good condition, the sensor itself is likely faulty. You can test it with a multimeter by checking resistance across the terminals while gently blowing into the hose port — resistance should change as pressure is applied. If there is no change, the sensor needs replacing. Note the part number printed on the sensor body before ordering a replacement."
+        },
+        {
+          "step": 7,
+          "action": "Reassemble and run a full test cycle",
+          "detail": "Once any replacement part is fitted, reattach the top panel, push the machine back into position, and run a full cotton cycle at 40°C to confirm the error does not return. Monitor the machine during the fill phase to check that water stops at the correct level."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above — confirmed the hose is clear and connected, the wiring is intact, and you have fitted a new pressure sensor — but E30 continues to appear, the fault is most likely with the main control board. Diagnosing and replacing a control board requires specialist equipment and carries a risk of further damage if done incorrectly.</p><p>You should also contact a service technician if you notice any signs of water leaking from around the drum connection point where the pressure hose attaches, or if you see burn marks or smell burning near the control board area. These situations go beyond straightforward DIY repair.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E30 fault are the pressure sensor (pressure switch), the pressure sensor hose, and — in cases where the fault has been left unresolved for some time — the main control board. Having the correct model number to hand when ordering will ensure you get the right part, as sensor specifications vary between Electrolux washing machine ranges.</p><p>To reduce the chance of E30 recurring, run a drum-clean cycle monthly to limit detergent residue build-up inside the hose, and avoid overfilling the detergent drawer, which can contribute to blockages over time. Search for compatible spare parts for your model below.</p>\n<!-- SPARE_PARTS:E30 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. When E30 is active the machine cannot accurately monitor the water level, which means it may overfill or fail to fill correctly. Running a cycle in this state risks water spillage or damage to other components. Resolve the fault first before using the machine again.",
+          "question": "Can I still use my Electrolux washing machine while it shows E30?"
+        },
+        {
+          "answer": "On most Electrolux models the pressure sensor is reached by removing the top panel. Unscrew the two or three screws along the rear edge of the top panel, then slide it backwards and lift it off. The sensor is usually a small disc-shaped component mounted on the left or right side near the top, with a thin hose and an electrical connector attached.",
+          "question": "How do I access the pressure sensor on my Electrolux washing machine?"
+        },
+        {
+          "answer": "In most cases, once the underlying fault is corrected, the error will clear when you power cycle the machine and start a new programme. If the code persists after a confirmed repair, try switching the machine off at the mains for five minutes before restarting. Persistent codes after a repair may indicate a secondary fault.",
+          "question": "Will E30 clear itself after I fix the hose?"
+        },
+        {
+          "answer": "Pressure sensors for Electrolux washing machines are generally an affordable part, though the exact price depends on your specific model. It is worth checking the part number on your existing sensor before ordering to make sure you get a compatible replacement. A service technician call-out to fit the part will add to the overall cost.",
+          "question": "How much does a replacement pressure sensor cost?"
+        },
+        {
+          "answer": "A blocked pump filter is more commonly linked to drain-related error codes rather than E30. However, if the machine has been struggling to drain properly over time, excess water or debris could indirectly affect sensor readings. It is still good practice to clean the pump filter as part of your general checks, as it takes only a few minutes and rules out a contributing factor.",
+          "question": "Could a blocked filter cause the E30 error code?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T08:50:39.029503+00:00"
+    },
+    {
+      "id": 436,
+      "article_id": 253,
+      "locale": "sv",
+      "slug": "felkod-e30",
+      "title_tag": "Electrolux Tvättmaskin Felkod E30 | Åtgärda Det",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E30? Lär dig vad som orsakar trycksensorfel och hur du åtgärdar det själv med den här steg-för-steg-guiden.",
+      "h1": "Vad Betyder Felkod E30 på en Electrolux Tvättmaskin?",
+      "description": "Felkod E30 på en Electrolux tvättmaskin indikerar ett trycksensorfel, vilket innebär att vattenivåsensorn inte läser av vattenivån i trumman korrekt.",
+      "quick_fix": "Kontrollera trycksensorslangen efter böjar, blockeringar eller lossnade anslutningar — räta ut eller återanslut den och starta om maskinen för att rensa felet (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod E30 pekar på ett problem med trycksensorn, även kallad vattenivåsensorn eller tryckvakten. Den här komponenten övervakar hur mycket vatten som finns i trumman och signalerar till styrkortet när rätt nivå har uppnåtts. När den slutar läsa av korrekt kan maskinen inte fortsätta ett tvättprogram på ett säkert sätt.</p><p>När E30 visas pausar din Electrolux tvättmaskin vanligtvis mitt i ett program eller vägrar att börja fylla på vatten överhuvudtaget. I vissa fall kan maskinen fylla på något för mycket innan den stannar, eller så tömmer den och stannar utan att slutföra programmet. Displayen visar E30 och programmet fortsätter inte förrän felet är åtgärdat.</p><p>Den goda nyheten är att det här felet ofta orsakas av något enkelt — en blockerad eller böjd slang ansluten till sensorn snarare än en defekt komponent — så det är värt att gå igenom kontrollerna nedan innan du ringer någon.</p>",
+      "causes_json": [
+        {
+          "cause": "Böjd eller blockerad trycksensorslang",
+          "detail": "En liten gummi- eller plastslang förbinder trycksensorn med trumman. Om den här slangen böjs, kläms eller delvis blockeras av tvättmedelsrester eller smuts kan sensorn inte läsa av lufttrycket korrekt och utlöser E30."
+        },
+        {
+          "cause": "Lossnad trycksensorslang",
+          "detail": "Vibrationer från normal användning kan göra att slangen lossnar från antingen sensorn eller trummans anslutningspunkt. Även en delvis lossnad anslutning räcker för att orsaka ett felaktigt eller uteblivet avläsningsvärde."
+        },
+        {
+          "cause": "Defekt eller sliten trycksensor",
+          "detail": "Med tiden kan trycksensorn själv gå sönder — den interna membranen kan spricka eller de elektriska kontakterna kan korrodera. När sensorn inte längre kan generera eller sända en signal registrerar styrkortet E30."
+        },
+        {
+          "cause": "Kabelfel mellan sensor och styrkort",
+          "detail": "Kabelstammen som förbinder trycksensorn med huvudstyrkortet kan drabbas av lösa kontakter, korrosion eller skadad isolering. Ett brott eller en dålig anslutning i den här kretsen ger samma felkod som en defekt sensor."
+        },
+        {
+          "cause": "Fel på huvudstyrkortet",
+          "detail": "Om styrkortet inte kan tolka signalen från trycksensorn korrekt — på grund av ett komponentfel på kortet självt — registreras E30 även när sensorn och slangen är i gott skick. Det här är den minst vanliga orsaken."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid eluttaget och låt den vara urkopplad i två minuter, anslut den sedan igen och starta ett nytt program. Ibland orsakas E30 av en tillfällig signalstörning och en fullständig omstart rensar felet utan att några ytterligare åtgärder behövs."
+        },
+        {
+          "step": 2,
+          "action": "Lokalisera och inspektera trycksensorslangen",
+          "detail": "Dra ut maskinen från väggen och ta bort toppanelen (vanligtvis fäst med två eller tre skruvar baktill). Trycksensorn är en liten rund komponent, vanligtvis monterad nära toppen av maskinen, med en tunn gummi- eller plastslang som löper ner till trumman. Följ slangen längs hela dess längd och leta efter böjar, sprickor eller ställen där den har klämts mot en annan komponent."
+        },
+        {
+          "step": 3,
+          "action": "Rensa eventuell blockering i slangen",
+          "detail": "Lossa slangen från båda ändarna genom att försiktigt dra eller lossa eventuella klämmor. Blås igenom den för att kontrollera att luftflödet är fritt — om det känns begränsat, spola igenom den med varmt vatten. Tvättmedelsrester kan byggas upp inuti slangen med tiden och begränsa det lufttryckssignal som sensorn är beroende av."
+        },
+        {
+          "step": 4,
+          "action": "Återanslut slangen ordentligt",
+          "detail": "Tryck fast slangen ordentligt på båda anslutningspunkterna — sensorn och trummans anslutningsnippel — och kontrollera att eventuella hållklämmor sitter korrekt. En lös anslutning i endera änden räcker för att orsaka ett ihållande E30-fel. Montera ihop panelen och kör ett kort program för att se om felet försvinner."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera kabelanslutningarna vid trycksensorn",
+          "detail": "Med maskinen urkopplad, lokalisera elkontakten på trycksensorn och koppla loss den. Kontrollera terminalerna för korrosion, böjda stift eller tecken på värmeskador. Anslut den igen ordentligt och se till att den klickar på plats. Upprepa den här kontrollen vid styrkortsänden av samma kabelstam om den är åtkomlig."
+        },
+        {
+          "step": 6,
+          "action": "Testa eller byt ut trycksensorn",
+          "detail": "Om slangen och kablaget båda är i gott skick är sensorn troligtvis defekt. Du kan testa den med en multimeter genom att mäta motståndet över terminalerna medan du försiktigt blåser in i slangporten — motståndet bör förändras när tryck appliceras. Om det inte sker behöver sensorn bytas ut. Notera artikelnumret som är tryckt på sensorns hölje innan du beställer en ersättningsdel."
+        },
+        {
+          "step": 7,
+          "action": "Montera ihop och kör ett fullständigt testprogram",
+          "detail": "När en eventuell ersättningsdel är monterad, sätt tillbaka toppanelen, skjut in maskinen på plats och kör ett fullständigt bomullsprogram vid 40°C för att bekräfta att felet inte återkommer. Övervaka maskinen under påfyllningsfasen för att kontrollera att vattnet stannar på rätt nivå."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har gått igenom alla stegen ovan — bekräftat att slangen är fri och ansluten, att kablaget är intakt och att du har monterat en ny trycksensor — men E30 fortsätter att visas, beror felet troligtvis på huvudstyrkortet. Att diagnostisera och byta ut ett styrkort kräver specialutrustning och medför risk för ytterligare skador om det görs felaktigt.</p><p>Du bör också kontakta en servicetekniker om du märker några tecken på vattenläckage runt trummans anslutningspunkt där trycksensorslangen sitter, eller om du ser brännmärken eller känner bränndoft nära styrkortsområdet. Dessa situationer går utöver vanlig DIY-reparation.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E30-fel är trycksensorn (tryckvakten), trycksensorslangen och — i fall där felet har lämnats olöst under en längre tid — huvudstyrkortet. Ha rätt modellnummer till hands när du beställer för att säkerställa att du får rätt del, eftersom sensorspecifikationerna varierar mellan olika Electrolux tvättmaskinssortiment.</p><p>För att minska risken för att E30 återkommer, kör ett trumrengöringsprogram varje månad för att begränsa uppbyggnaden av tvättmedelsrester inuti slangen, och undvik att överfylla tvättmedelslådan, vilket kan bidra till blockeringar med tiden. Sök efter kompatibla reservdelar för din modell nedan.</p>\n<!-- SPARE_PARTS:E30 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte lämpligt. När E30 är aktivt kan maskinen inte övervaka vattenivån korrekt, vilket innebär att den kan fylla på för mycket eller misslyckas med att fylla på korrekt. Att köra ett program i det här tillståndet riskerar vattenspill eller skador på andra komponenter. Åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag fortfarande använda min Electrolux tvättmaskin när den visar E30?"
+        },
+        {
+          "answer": "På de flesta Electrolux-modeller nås trycksensorn genom att ta bort toppanelen. Skruva loss de två eller tre skruvarna längs bakkanten av toppanelen, skjut den sedan bakåt och lyft av den. Sensorn är vanligtvis en liten skivformad komponent monterad på vänster eller höger sida nära toppen, med en tunn slang och en elkontakt ansluten.",
+          "question": "Hur kommer jag åt trycksensorn på min Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "I de flesta fall försvinner felet när du startar om maskinen och startar ett nytt program, förutsatt att det underliggande felet är åtgärdat. Om koden kvarstår efter en bekräftad reparation, prova att stänga av maskinen vid eluttaget i fem minuter innan du startar om. Ihållande koder efter en reparation kan tyda på ett sekundärt fel.",
+          "question": "Försvinner E30 av sig självt efter att jag har åtgärdat slangen?"
+        },
+        {
+          "answer": "Trycksensorer till Electrolux tvättmaskiner är generellt sett en prisvärd del, även om det exakta priset beror på din specifika modell. Det är värt att kontrollera artikelnumret på din befintliga sensor innan du beställer för att säkerställa att du får en kompatibel ersättning. En serviceteknikers utryckning för att montera delen tillkommer till den totala kostnaden.",
+          "question": "Vad kostar en ersättningstrycksensor?"
+        },
+        {
+          "answer": "Ett igensatt pumpfilter är vanligare kopplat till avloppsrelaterade felkoder snarare än E30. Men om maskinen har haft svårt att tömma ordentligt under en längre tid kan överskottsvatten eller smuts indirekt påverka sensoravläsningarna. Det är ändå god praxis att rengöra pumpfiltret som en del av dina allmänna kontroller, eftersom det bara tar några minuter och utesluter en bidragande faktor.",
+          "question": "Kan ett igensatt filter orsaka felkod E30?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T08:51:49.268103+00:00"
+    },
+    {
+      "id": 437,
+      "article_id": 254,
+      "locale": "en",
+      "slug": "error-code-e31",
+      "title_tag": "Electrolux Washing Machine Error Code E31 | Fix It",
+      "meta_description": "Electrolux washing machine showing error E31? Learn what causes a pressure sensor calibration fault and how to fix it yourself step by step.",
+      "h1": "What Does Error Code E31 Mean on an Electrolux Washing Machine?",
+      "description": "Error E31 indicates that the pressure sensor (water level sensor) on your Electrolux washing machine is reading outside its expected calibration range, meaning the machine cannot accurately determine how much water is in the drum.",
+      "quick_fix": "Disconnect the washing machine from the mains power for 10 minutes, then plug it back in and restart the cycle — a full power reset clears temporary calibration drift in the pressure sensor and resolves the fault in many cases (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code E31 on an Electrolux washing machine points to a problem with the pressure sensor, also called the water level sensor or pressostat. This component monitors how much water is inside the drum by detecting air pressure changes in a small hose connected to the tub. When the sensor's readings fall outside the range the control board expects during its calibration check, it triggers E31 and halts the programme.</p><p>When this error appears, the machine will typically stop mid-cycle or refuse to start a new one. You may notice the drum sitting with water still inside, or the machine behaving erratically — filling too much, not filling at all, or stopping shortly after the cycle begins. In most cases the drum will be locked and the display will show E31 continuously.</p><p>The good news is that this fault is often caused by something straightforward: a blocked pressure hose, a loose connection, or a temporary electronic glitch. Working through the checks below in order will resolve the problem for the majority of homeowners without needing a service call.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary electronic calibration glitch",
+          "detail": "The pressure sensor performs a calibration check each time the machine powers up. A brief power fluctuation or software hiccup can cause the stored calibration values to fall out of range, triggering E31 even though the hardware is perfectly fine."
+        },
+        {
+          "cause": "Blocked or kinked pressure hose",
+          "detail": "A narrow rubber or plastic hose connects the bottom of the outer tub to the pressure sensor. If this hose becomes kinked, squashed, or partially blocked with detergent residue or debris, the sensor receives inaccurate pressure readings and cannot calibrate correctly."
+        },
+        {
+          "cause": "Loose or disconnected pressure hose",
+          "detail": "Vibration over time can cause the pressure hose to work loose at either end — where it attaches to the tub spigot or to the sensor itself. Even a small air leak in this connection is enough to throw the sensor readings outside the acceptable range."
+        },
+        {
+          "cause": "Faulty or degraded pressure sensor",
+          "detail": "The pressure sensor itself can fail due to age, moisture ingress, or a manufacturing defect. When the sensor's internal diaphragm or electronic components degrade, it produces readings that the control board cannot reconcile with any valid calibration point."
+        },
+        {
+          "cause": "Damaged or corroded wiring and connectors",
+          "detail": "The wiring loom between the pressure sensor and the main control board can suffer from corrosion, chafing, or a loose connector plug. Intermittent electrical contact causes the control board to receive erratic signals, which it interprets as a calibration failure."
+        },
+        {
+          "cause": "Faulty main control board",
+          "detail": "In a small number of cases the control board itself is unable to process the pressure sensor signal correctly, either due to a failed component on the board or corrupted firmware. This is the least common cause and is usually only confirmed after all other checks have been ruled out."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a full power reset",
+          "detail": "Switch the machine off at the control panel, then unplug it from the wall socket. Leave it disconnected for at least 10 minutes to allow the control board's capacitors to fully discharge and the calibration memory to reset. Plug back in, select a short cycle, and check whether E31 returns."
+        },
+        {
+          "step": 2,
+          "action": "Check the machine is level and the drum is empty",
+          "detail": "An unlevel machine can cause water to sit unevenly in the tub, affecting pressure readings. Use a spirit level on top of the machine and adjust the feet until it sits flat. Also confirm the drum is completely empty of laundry and water before restarting."
+        },
+        {
+          "step": 3,
+          "action": "Locate and inspect the pressure hose",
+          "detail": "Pull the machine away from the wall and remove the top panel (usually two screws at the rear). The pressure hose is a thin corrugated tube running from a spigot on the side of the outer tub up to the pressure sensor, which is typically mounted near the top of the cabinet. Run your fingers along the full length of the hose feeling for kinks, cracks, or soft collapsed sections."
+        },
+        {
+          "step": 4,
+          "action": "Reattach or clear the pressure hose",
+          "detail": "Gently pull the hose off both connection points and blow through it to confirm it is clear — you should feel free airflow. If you detect a blockage, flush the hose with warm water. Reattach both ends firmly, ensuring the clips or push-fit connectors are fully seated with no gaps. A loose fit here is a very common cause of E31."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the pressure sensor wiring connector",
+          "detail": "With the top panel still off, trace the wiring from the pressure sensor to its connector plug on the wiring loom. Unplug the connector, inspect the metal terminals for corrosion or bent pins, and press it firmly back into place. A can of electrical contact cleaner can help if you see any green or white residue on the terminals."
+        },
+        {
+          "step": 6,
+          "action": "Test the pressure sensor with a multimeter (optional)",
+          "detail": "If you have a multimeter, disconnect the sensor and check its resistance across the signal terminals — consult your model's service data for the expected range, typically a few kilohms. A reading of zero or infinite resistance confirms the sensor has failed and needs replacing. Replacement pressure sensors for Electrolux machines are widely available and clip or screw into place without specialist tools."
+        },
+        {
+          "step": 7,
+          "action": "Reassemble, run a test cycle, and monitor",
+          "detail": "Refit the top panel, push the machine back into position, and run a full cotton cycle while watching for the E31 code. If the cycle completes without error, the fault is resolved. If E31 returns after completing all the above steps, the fault most likely lies with the pressure sensor itself or the main control board, and a service technician should be called."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Contact a service technician if E31 persists after you have completed all the steps above — particularly if you have already replaced the pressure sensor and the error still appears. At this point the fault is likely within the main control board, which requires specialist diagnostic equipment and soldering skills to repair or replace safely.</p><p>You should also call a technician immediately if you notice any burning smell, scorch marks near the control board area, or signs of water leaking around the tub spigot where the pressure hose connects. These symptoms suggest a more serious underlying fault that could become a safety hazard if the machine continues to be used.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E31 fault are the pressure sensor (pressostat) itself, the pressure hose, and occasionally the main control board. Keeping the pressure hose free of kinks and ensuring it is firmly connected at both ends during routine maintenance checks will prevent the majority of recurrences. Running a monthly drum-clean cycle with a washing machine cleaner also reduces the detergent residue that can gradually block the hose over time.</p><p>If you need to order replacement parts for your Electrolux washing machine to fix error E31, use the parts finder below — enter your full model number for an exact match.</p>\n<!-- SPARE_PARTS:E31 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. When E31 is active the machine cannot reliably measure the water level in the drum, which means it could overfill and cause a flood, or run a cycle with too little water and damage your laundry or the drum bearings. Resolve the fault before running further cycles.",
+          "question": "Can I keep using my Electrolux washing machine while it shows E31?"
+        },
+        {
+          "answer": "On most Electrolux models the pressure sensor is reached by removing the two screws at the rear of the top panel and sliding it back. The sensor is a small round or rectangular component, usually grey or white, mounted near the top of the machine's inner cabinet with a thin hose attached to one port and a wiring connector on the other.",
+          "question": "How do I access the pressure sensor on my Electrolux washing machine?"
+        },
+        {
+          "answer": "E31 will not clear on its own while the underlying fault condition remains. Once you have fixed the root cause — whether that is reseating the hose, cleaning a blockage, or replacing the sensor — you need to perform a power reset by unplugging the machine for 10 minutes. The error should then clear when you restart.",
+          "question": "Will E31 clear itself, or do I need to manually reset it?"
+        },
+        {
+          "answer": "A replacement pressure sensor (pressostat) for an Electrolux washing machine typically costs between £10 and £30 for the part itself, depending on the model. If you fit it yourself the total cost is just the part. A service technician call-out to diagnose and replace the sensor would typically add a labour charge on top.",
+          "question": "How much does it cost to replace a pressure sensor on an Electrolux washing machine?"
+        },
+        {
+          "answer": "A blocked pump filter causes drain-related errors rather than E31 directly. However, if a blocked filter has caused the machine to retain water and that water has been sitting in the tub for some time, residue can migrate into the pressure hose and partially block it — which can then contribute to a calibration error. It is worth checking and cleaning the filter as part of your overall investigation.",
+          "question": "Could a blocked filter cause error E31?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T08:52:44.205573+00:00"
+    },
+    {
+      "id": 438,
+      "article_id": 254,
+      "locale": "sv",
+      "slug": "felkod-e31",
+      "title_tag": "Electrolux Tvättmaskin Felkod E31 | Åtgärda Det",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E31? Lär dig vad som orsakar ett kalibringsfel i trycksensorn och hur du åtgärdar det själv steg för steg.",
+      "h1": "Vad Betyder Felkod E31 på en Electrolux Tvättmaskin?",
+      "description": "Felkod E31 indikerar att trycksensorn (vattennivåsensorn) på din Electrolux tvättmaskin avläser värden utanför det förväntade kalibreringsintervallet, vilket innebär att maskinen inte kan avgöra hur mycket vatten som finns i trumman.",
+      "quick_fix": "Koppla bort tvättmaskinen från elnätet i 10 minuter, anslut den sedan igen och starta om programmet — en fullständig strömåterställning rensar tillfällig kalibreringsdrift i trycksensorn och löser felet i många fall (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod E31 på en Electrolux tvättmaskin pekar på ett problem med trycksensorn, även kallad vattennivåsensorn eller pressostaten. Denna komponent övervakar hur mycket vatten som finns i trumman genom att detektera lufttrycksförändringar i en liten slang ansluten till karet. När sensorns avläsningar faller utanför det intervall som styrkortet förväntar sig under kalibreringskontrollen utlöses E31 och programmet avbryts.</p><p>När detta fel uppstår stannar maskinen vanligtvis mitt i ett program eller vägrar att starta ett nytt. Du kan märka att trumman står kvar med vatten inuti, eller att maskinen beter sig oregelbundet — fyller på för mycket, fyller inte på alls, eller stannar kort efter att programmet börjat. I de flesta fall är trumman låst och displayen visar E31 kontinuerligt.</p><p>Den goda nyheten är att detta fel ofta orsakas av något enkelt: en blockerad tryckslangar, en lös anslutning eller ett tillfälligt elektroniskt fel. Att gå igenom kontrollerna nedan i ordning löser problemet för de flesta utan att behöva tillkalla en servicetekniker.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt elektroniskt kalibreringsfel",
+          "detail": "Trycksensorn utför en kalibreringskontroll varje gång maskinen startas. En kortvarig strömfluktuering eller ett programvarufel kan göra att de lagrade kalibreringsvärdena hamnar utanför intervallet och utlöser E31, även om hårdvaran fungerar perfekt."
+        },
+        {
+          "cause": "Blockerad eller böjd tryckslangar",
+          "detail": "En smal gummi- eller plastslang förbinder botten av det yttre karet med trycksensorn. Om denna slang böjs, kläms ihop eller delvis blockeras av tvättmedelsrester eller smuts får sensorn felaktiga trycksavläsningar och kan inte kalibrera korrekt."
+        },
+        {
+          "cause": "Lös eller frånkopplad tryckslangar",
+          "detail": "Vibrationer över tid kan göra att tryckslangen lossnar i någon av ändarna — där den ansluter till karets nippel eller till sensorn. Även ett litet luftläckage i denna anslutning räcker för att kasta sensoravläsningarna utanför det acceptabla intervallet."
+        },
+        {
+          "cause": "Defekt eller försämrad trycksensor",
+          "detail": "Trycksensorn kan själv gå sönder på grund av ålder, fuktinträngning eller ett tillverkningsfel. När sensorns interna membran eller elektroniska komponenter försämras producerar den avläsningar som styrkortet inte kan stämma av mot någon giltig kalibreringspunkt."
+        },
+        {
+          "cause": "Skadad eller korroderad kablage och kontakter",
+          "detail": "Kabelstammen mellan trycksensorn och huvudstyrkortet kan drabbas av korrosion, nötning eller en lös kontaktdon. Intermittent elektrisk kontakt gör att styrkortet tar emot oregelbundna signaler, vilket tolkas som ett kalibreringsfel."
+        },
+        {
+          "cause": "Defekt huvudstyrkort",
+          "detail": "I ett litet antal fall kan styrkortet inte bearbeta trycksensorsignalen korrekt, antingen på grund av en defekt komponent på kortet eller korrupt firmware. Detta är den minst vanliga orsaken och bekräftas vanligtvis först efter att alla andra kontroller har uteslutits."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en fullständig strömåterställning",
+          "detail": "Stäng av maskinen via kontrollpanelen och dra sedan ut stickkontakten ur vägguttaget. Låt den vara frånkopplad i minst 10 minuter så att styrkortet kondensatorer hinner laddas ur helt och kalibreringsminnet återställs. Anslut igen, välj ett kort program och kontrollera om E31 återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera att maskinen står plant och att trumman är tom",
+          "detail": "En ojämnt stående maskin kan göra att vatten samlas ojämnt i karet och påverkar trycksavläsningarna. Använd ett vattenpass på maskinens ovansida och justera fötterna tills den står plant. Bekräfta också att trumman är helt tom på tvätt och vatten innan du startar om."
+        },
+        {
+          "step": 3,
+          "action": "Lokalisera och inspektera tryckslangen",
+          "detail": "Dra ut maskinen från väggen och ta bort toppanelen (vanligtvis två skruvar baktill). Tryckslangen är ett tunt korrugerat rör som löper från en nippel på sidan av det yttre karet upp till trycksensorn, som vanligtvis är monterad nära toppen av maskinhöljet. Känn längs hela slangen med fingrarna och leta efter böjar, sprickor eller mjuka ihopfallna partier."
+        },
+        {
+          "step": 4,
+          "action": "Återanslut eller rensa tryckslangen",
+          "detail": "Dra försiktigt loss slangen från båda anslutningspunkterna och blås igenom den för att bekräfta att den är fri — du ska känna ett fritt luftflöde. Om du upptäcker en blockering, spola slangen med varmt vatten. Återanslut båda ändarna ordentligt och se till att klämmorna eller tryckkopplingarna sitter helt på plats utan glapp. En lös passning här är en mycket vanlig orsak till E31."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera trycksensorns kabelkontakt",
+          "detail": "Med toppanelen fortfarande borttagen, följ kabeln från trycksensorn till dess kontaktdon i kabelstammen. Koppla loss kontaktdonet, inspektera metallkontakterna för korrosion eller böjda stift och tryck sedan in det ordentligt igen. En burk elektrisk kontaktrengörare kan hjälpa om du ser gröna eller vita rester på kontakterna."
+        },
+        {
+          "step": 6,
+          "action": "Testa trycksensorn med en multimeter (valfritt)",
+          "detail": "Om du har en multimeter, koppla loss sensorn och mät motståndet över signalkontakterna — konsultera din modells servicedata för det förväntade intervallet, vanligtvis några kilohm. En avläsning på noll eller oändligt motstånd bekräftar att sensorn har gått sönder och behöver bytas. Ersättningssensorer för Electrolux-maskiner finns allmänt tillgängliga och klickas eller skruvas på plats utan specialverktyg."
+        },
+        {
+          "step": 7,
+          "action": "Montera ihop, kör ett testprogram och övervaka",
+          "detail": "Sätt tillbaka toppanelen, skjut in maskinen på plats och kör ett fullständigt bomullsprogram medan du håller utkik efter E31-koden. Om programmet slutförs utan fel är felet åtgärdat. Om E31 återkommer efter att ha genomfört alla ovanstående steg beror felet troligtvis på trycksensorn själv eller huvudstyrkortet, och en servicetekniker bör tillkallas."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om E31 kvarstår efter att du har genomfört alla stegen ovan — särskilt om du redan har bytt trycksensorn och felet fortfarande visas. Vid det här laget ligger felet troligtvis i huvudstyrkortet, vilket kräver specialiserad diagnostikutrustning och lödkunskaper för att reparera eller byta på ett säkert sätt.</p><p>Du bör också omedelbart ringa en tekniker om du märker någon bränd lukt, brännmärken nära styrkortsområdet eller tecken på vattenläckage runt karets nippel där tryckslangen ansluter. Dessa symptom tyder på ett allvarligare underliggande fel som kan bli en säkerhetsrisk om maskinen fortsätter att användas.</p>",
+      "prevention_html": "<p>De delar som oftast byts vid åtgärdande av ett E31-fel är trycksensorn (pressostaten) själv, tryckslangen och ibland huvudstyrkortet. Att hålla tryckslangen fri från böjar och se till att den sitter ordentligt fast i båda ändarna vid rutinmässiga underhållskontroller förhindrar de flesta återfall. Att köra ett månatligt trumrengöringsprogram med ett tvättmaskinrengöringsmedel minskar också de tvättmedelsrester som gradvis kan blockera slangen över tid.</p><p>Om du behöver beställa reservdelar till din Electrolux tvättmaskin för att åtgärda felkod E31, använd reservdelssökaren nedan — ange ditt fullständiga modellnummer för exakt matchning.</p>\n<!-- SPARE_PARTS:E31 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt. När E31 är aktivt kan maskinen inte på ett tillförlitligt sätt mäta vattennivån i trumman, vilket innebär att den kan överfyllas och orsaka en översvämning, eller köra ett program med för lite vatten och skada tvätten eller trummans lager. Åtgärda felet innan du kör fler program.",
+          "question": "Kan jag fortsätta använda min Electrolux tvättmaskin när den visar E31?"
+        },
+        {
+          "answer": "På de flesta Electrolux-modeller nås trycksensorn genom att ta bort de två skruvarna baktill på toppanelen och skjuta den bakåt. Sensorn är en liten rund eller rektangulär komponent, vanligtvis grå eller vit, monterad nära toppen av maskinens inre hölje med en tunn slang ansluten till en port och ett kabelkontaktdon på den andra sidan.",
+          "question": "Hur kommer jag åt trycksensorn på min Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "E31 försvinner inte av sig självt så länge det underliggande felvillkoret kvarstår. När du har åtgärdat grundorsaken — oavsett om det handlar om att återansluta slangen, rensa en blockering eller byta sensorn — måste du utföra en strömåterställning genom att koppla bort maskinen i 10 minuter. Felet bör sedan försvinna när du startar om.",
+          "question": "Försvinner E31 av sig självt, eller måste jag återställa det manuellt?"
+        },
+        {
+          "answer": "En ersättningstrycksensor (pressostat) för en Electrolux tvättmaskin kostar vanligtvis mellan 150 och 400 kronor för själva delen, beroende på modell. Om du monterar den själv är totalkostnaden bara delen. Ett servicebesök för att diagnostisera och byta sensorn tillkommer vanligtvis med en arbetskostnad utöver detta.",
+          "question": "Vad kostar det att byta trycksensor på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Ett igensatt pumpfilter orsakar avloppsrelaterade fel snarare än E31 direkt. Men om ett igensatt filter har gjort att maskinen behållit vatten och det vattnet har stått i karet en längre tid kan rester migrera in i tryckslangen och delvis blockera den — vilket sedan kan bidra till ett kalibreringsfel. Det är värt att kontrollera och rengöra filtret som en del av din övergripande felsökning.",
+          "question": "Kan ett igensatt filter orsaka felkod E31?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T08:54:01.376216+00:00"
+    },
+    {
+      "id": 439,
+      "article_id": 255,
+      "locale": "en",
+      "slug": "error-code-e35",
+      "title_tag": "Electrolux Washing Machine Error Code E35 | Fix It Now",
+      "meta_description": "Electrolux washing machine showing error E35? Learn what causes water overfill, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E35 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E35 on an Electrolux washing machine indicates that the water level inside the drum has exceeded the safe upper limit, triggering the overfill protection system.",
+      "quick_fix": "Turn off the machine at the mains, wait 10 minutes, then check and clean the pressure sensor hose for any blockages or kinks before restarting — a clear hose often resolves the fault immediately (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error E35 is your Electrolux washing machine's way of telling you that water has risen beyond the maximum safe level inside the drum. The machine's pressure sensor — sometimes called a water level sensor or pressostat — monitors the water height throughout every cycle, and when it detects an overfill condition, it triggers E35 to stop the programme and protect both the appliance and your home from flooding.</p><p>When this error occurs, the machine will typically halt mid-cycle, and in many cases it will attempt to drain the excess water automatically. You may notice water sitting unusually high in the drum, or the machine may refuse to start a new cycle until the fault is cleared. The door lock may also remain engaged as a safety precaution.</p><p>The fault can stem from a faulty inlet valve that won't close properly, a blocked or damaged pressure sensor system, or in some cases a control board issue. Most causes are straightforward to investigate at home before calling in a service technician.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked or kinked pressure sensor hose",
+          "detail": "The pressure sensor relies on a small rubber or plastic hose to measure air pressure inside the drum. If this hose is kinked, cracked, or blocked with detergent residue, the sensor receives an inaccurate reading and may falsely trigger E35 — or fail to detect a genuine overfill."
+        },
+        {
+          "cause": "Faulty water inlet valve",
+          "detail": "The inlet valve controls the flow of water into the drum and should close completely once the correct level is reached. If the valve's solenoid is worn or debris is lodged in the valve seat, it can stick open and allow water to keep entering, causing a genuine overfill."
+        },
+        {
+          "cause": "Defective pressure sensor (pressostat)",
+          "detail": "The pressure sensor itself can fail over time, sending incorrect signals to the control board even when the water level is normal. A faulty sensor may report an overfill condition that doesn't actually exist, triggering E35 as a false alarm."
+        },
+        {
+          "cause": "Siphoning effect from incorrect drain hose installation",
+          "detail": "If the drain hose is positioned too low or inserted too far into the standpipe, water can siphon back into the drum continuously during a fill cycle. This creates an apparent overfill that the machine cannot correct on its own."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "In less common cases, the main control board may misinterpret signals from the pressure sensor or fail to send the correct cut-off signal to the inlet valve. This is usually a last-resort diagnosis after all other components have been checked."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Turn the programme dial to off and unplug the machine from the mains socket. This resets the control board and removes any risk of electric shock before you begin inspecting components. Wait at least 10 minutes before proceeding."
+        },
+        {
+          "step": 2,
+          "action": "Check the drain hose position",
+          "detail": "Pull the machine out slightly and inspect where the drain hose connects to your standpipe or sink. The top of the hose loop should sit between 60 cm and 90 cm from the floor — if it's lower, water can siphon back in. Reposition the hose and secure it with a hose clip or cable tie if needed."
+        },
+        {
+          "step": 3,
+          "action": "Locate and inspect the pressure sensor hose",
+          "detail": "Remove the top panel of the machine (usually two screws at the rear) to access the pressure sensor, which is a small round component connected to a thin rubber hose. Trace the hose from the sensor down to the drum tub and check for kinks, cracks, or a loose connection at either end. Detach it, blow gently through it to confirm it's clear, and reattach it firmly."
+        },
+        {
+          "step": 4,
+          "action": "Test the pressure sensor",
+          "detail": "With the hose detached from the sensor, blow gently into the sensor's inlet port — you should hear a faint click as the internal diaphragm moves. No click suggests the sensor diaphragm has failed and the unit needs replacing. If you have a multimeter, you can also test the sensor's resistance across its terminals against the values in your model's service data."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the water inlet valve",
+          "detail": "Turn off the water supply tap behind the machine. Disconnect the inlet hose and check the small mesh filter inside the valve inlet for debris — rinse it under a tap if blocked. Reconnect everything, restore the water supply, and run a short cycle to see whether the machine still overfills. A valve that continues to let water in after the cycle ends needs to be replaced."
+        },
+        {
+          "step": 6,
+          "action": "Restart and run a test cycle",
+          "detail": "Plug the machine back in, select a short cotton cycle, and observe the machine during the fill phase. Watch for water rising above the door seal level or the machine failing to stop filling at the correct point. If E35 does not return, the fault is resolved. If it reappears, note exactly when in the cycle it triggers — this information will help a service technician diagnose the problem faster."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have checked the pressure sensor hose, confirmed the drain hose is correctly positioned, and replaced or tested the inlet valve, but E35 continues to appear, the fault is likely inside the control board or the pressure sensor wiring harness. These components require specialist diagnostic tools and are not straightforward to replace safely at home.</p><p>You should also call a service technician immediately if you notice water actively leaking onto the floor, if the drum remains full of water that won't drain, or if there is any sign of burning smell or visible damage to wiring near the inlet valve or sensor. Do not attempt to run the machine in any of these conditions.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E35 fault are the water inlet valve, the pressure sensor (pressostat), and the pressure sensor hose. Keeping the inlet valve filter clean — a quick rinse every six months — significantly reduces the risk of the valve sticking open. It is also worth checking the pressure sensor hose annually for signs of cracking or perishing, as rubber degrades over time and a small split is enough to cause false readings.</p><p>Using the correct amount of low-foaming detergent also helps, since excess foam can enter the pressure sensor hose and block it, leading to inaccurate water level readings over time.</p>\n<!-- SPARE_PARTS:E35 -->",
+      "faq_json": [
+        {
+          "answer": "No — you should not run the machine while E35 is active. The error indicates a potential overfill condition, and continuing to use the appliance risks water damage to your home and could cause further damage to the machine's electronics. Resolve the fault before running another cycle.",
+          "question": "Can I still use my Electrolux washing machine while it shows E35?"
+        },
+        {
+          "answer": "A power reset may temporarily clear the error code, but if the underlying cause — such as a faulty inlet valve or blocked pressure hose — is still present, E35 will return during the next fill cycle. A reset is a useful first step to confirm whether the fault is intermittent, but it is not a fix on its own.",
+          "question": "Will turning the machine off and on again clear the E35 error?"
+        },
+        {
+          "answer": "If cleaning the mesh filter inside the valve inlet does not stop water from continuing to enter the drum after the machine has reached the correct level, the valve's internal solenoid has likely failed. You can confirm this by unplugging the machine — if water still trickles into the drum with the power off, the valve is definitely stuck open and must be replaced.",
+          "question": "How do I know if my inlet valve needs replacing rather than just cleaning?"
+        },
+        {
+          "answer": "E35 specifically relates to the drum water level exceeding the safe limit as measured by the pressure sensor. Some Electrolux models also have a separate base tray flood sensor that triggers a different error code. If water has collected in the base tray beneath the machine, you may see a different code alongside or instead of E35.",
+          "question": "Is E35 the same as a flood protection error on Electrolux machines?"
+        },
+        {
+          "answer": "If the fix is a blocked pressure hose or a repositioned drain hose, the cost is effectively zero. A replacement inlet valve or pressure sensor typically costs between £15 and £40 for the part, and fitting it yourself takes around 30–60 minutes. If a service technician is needed for a control board fault, labour and parts combined can range from £80 to £180 depending on your location and the specific model.",
+          "question": "How much does it typically cost to fix an E35 fault?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T08:54:51.315164+00:00"
+    },
+    {
+      "id": 440,
+      "article_id": 255,
+      "locale": "sv",
+      "slug": "felkod-e35",
+      "title_tag": "Electrolux Tvättmaskin Felkod E35 | Åtgärda Det Nu",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E35? Lär dig vad som orsakar överfyllning av vatten, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E35 på en Electrolux tvättmaskin?",
+      "description": "Felkod E35 på en Electrolux tvättmaskin indikerar att vattennivån inuti trumman har överstigit den säkra övre gränsen, vilket utlöser överfyllningsskyddet.",
+      "quick_fix": "Stäng av maskinen vid eluttaget, vänta 10 minuter och kontrollera sedan trycksensorslangen för eventuella blockeringar eller veck innan du startar om — en ren slang löser ofta felet omedelbart (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Fel E35 är din Electrolux tvättmaskines sätt att tala om att vattnet har stigit över den maximalt tillåtna nivån inuti trumman. Maskinens trycksensor — ibland kallad vattennivåsensor eller pressostat — övervakar vattenhöjden under varje cykel, och när den upptäcker ett överfyllningstillstånd utlöser den E35 för att stoppa programmet och skydda både maskinen och ditt hem från översvämning.</p><p>När detta fel uppstår stannar maskinen vanligtvis mitt i cykeln, och i många fall försöker den automatiskt tömma ut det överskottsvattnet. Du kan märka att vattnet står ovanligt högt i trumman, eller att maskinen vägrar starta en ny cykel tills felet är åtgärdat. Dörrlåset kan också förbli aktiverat som en säkerhetsåtgärd.</p><p>Felet kan bero på ett defekt inloppsventil som inte stänger ordentligt, en blockerad eller skadad trycksensor, eller i vissa fall ett problem med styrkortet. De flesta orsaker är enkla att undersöka hemma innan du kontaktar en servicetekniker.</p>",
+      "causes_json": [
+        {
+          "cause": "Blockerad eller vecklad trycksensorslang",
+          "detail": "Trycksensorn är beroende av en liten gummi- eller plastslang för att mäta lufttrycket inuti trumman. Om denna slang är vecklad, sprucken eller blockerad av tvättmedelsrester får sensorn ett felaktigt värde och kan falskt utlösa E35 — eller misslyckas med att upptäcka en verklig överfyllning."
+        },
+        {
+          "cause": "Defekt vatteninloppsventil",
+          "detail": "Inloppsventilen styr vattenflödet in i trumman och ska stänga helt när rätt nivå har uppnåtts. Om ventilens solenoid är sliten eller om det sitter skräp i ventilsätet kan den fastna i öppet läge och låta vatten fortsätta att strömma in, vilket orsakar en verklig överfyllning."
+        },
+        {
+          "cause": "Defekt trycksensor (pressostat)",
+          "detail": "Trycksensorn kan med tiden sluta fungera och skicka felaktiga signaler till styrkortet även när vattennivån är normal. En defekt sensor kan rapportera ett överfyllningstillstånd som inte faktiskt existerar och utlösa E35 som ett falskt larm."
+        },
+        {
+          "cause": "Siffoneffekt på grund av felaktig installation av avloppsslangen",
+          "detail": "Om avloppsslangen sitter för lågt eller är förd för långt in i avloppsröret kan vatten siffonera tillbaka in i trumman kontinuerligt under fyllningscykeln. Detta skapar en skenbar överfyllning som maskinen inte kan korrigera på egen hand."
+        },
+        {
+          "cause": "Fel på styrkortet",
+          "detail": "I mindre vanliga fall kan huvudstyrkortet feltolka signaler från trycksensorn eller misslyckas med att skicka rätt avstängningssignal till inloppsventilen. Detta är vanligtvis en sista-utvägs-diagnos efter att alla andra komponenter har kontrollerats."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Vrid programväljaren till av och dra ur maskinen från eluttaget. Detta återställer styrkortet och eliminerar risken för elektrisk stöt innan du börjar inspektera komponenterna. Vänta minst 10 minuter innan du fortsätter."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera avloppsslangen position",
+          "detail": "Dra ut maskinen något och kontrollera var avloppsslangen ansluter till ditt avloppsrör eller din diskho. Toppen av slangbågen ska sitta mellan 60 cm och 90 cm från golvet — om den sitter lägre kan vatten siffonera tillbaka in. Flytta slangen och fäst den med en slangklämma eller kabelbindare om det behövs."
+        },
+        {
+          "step": 3,
+          "action": "Lokalisera och inspektera trycksensorslangen",
+          "detail": "Ta bort maskinens toppanel (vanligtvis två skruvar baktill) för att komma åt trycksensorn, som är en liten rund komponent ansluten till en tunn gummislang. Följ slangen från sensorn ner till trummans kar och kontrollera om det finns veck, sprickor eller lösa anslutningar i någon ände. Koppla loss den, blås försiktigt igenom den för att bekräfta att den är fri och återanslut den ordentligt."
+        },
+        {
+          "step": 4,
+          "action": "Testa trycksensorn",
+          "detail": "Med slangen lossad från sensorn, blås försiktigt in i sensorns inloppsöppning — du bör höra ett svagt klick när den interna membranen rör sig. Inget klick tyder på att sensormembranen har gått sönder och att enheten behöver bytas ut. Om du har en multimeter kan du också mäta sensorns resistans över dess anslutningar och jämföra med värdena i din modells servicedata."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera vatteninloppsventilen",
+          "detail": "Stäng av vattenkranen bakom maskinen. Koppla loss inloppsslangen och kontrollera det lilla nätfiltret inuti ventilens inlopp efter skräp — skölj det under kranen om det är blockerat. Återanslut allt, öppna vattentillförseln och kör en kort cykel för att se om maskinen fortfarande överfylls. En ventil som fortsätter att släppa in vatten efter att cykeln är avslutad behöver bytas ut."
+        },
+        {
+          "step": 6,
+          "action": "Starta om och kör en testcykel",
+          "detail": "Anslut maskinen till eluttaget, välj en kort bomullscykel och observera maskinen under fyllningsfasen. Håll utkik efter att vattnet stiger över dörrtätningens nivå eller att maskinen inte slutar fylla på vid rätt punkt. Om E35 inte återkommer är felet åtgärdat. Om det dyker upp igen, notera exakt när i cykeln det utlöses — den informationen hjälper en servicetekniker att diagnostisera problemet snabbare."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har kontrollerat trycksensorslangen, bekräftat att avloppsslangen sitter rätt och bytt ut eller testat inloppsventilen, men E35 fortsätter att visas, beror felet troligtvis på styrkortet eller trycksensorns kabelstam. Dessa komponenter kräver specialiserade diagnostikverktyg och är inte enkla att byta ut på ett säkert sätt hemma.</p><p>Du bör också omedelbart kontakta en servicetekniker om du märker att vatten aktivt läcker ut på golvet, om trumman är full av vatten som inte töms, eller om det finns tecken på bränd lukt eller synliga skador på kablar nära inloppsventilen eller sensorn. Försök inte köra maskinen under något av dessa förhållanden.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E35-fel är vatteninloppsventilen, trycksensorn (pressostaten) och trycksensorslangen. Att hålla inloppsventilens filter rent — en snabb sköljning var sjätte månad — minskar avsevärt risken för att ventilen fastnar i öppet läge. Det är också värt att kontrollera trycksensorslangen en gång om året för tecken på sprickor eller åldrande, eftersom gummi försämras med tiden och en liten spricka räcker för att orsaka felaktiga avläsningar.</p><p>Att använda rätt mängd lågskummande tvättmedel hjälper också, eftersom överskottsskum kan tränga in i trycksensorslangen och blockera den, vilket med tiden leder till felaktiga vattennivåavläsningar.</p>\n<!-- SPARE_PARTS:E35 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — du bör inte köra maskinen medan E35 är aktivt. Felet indikerar ett potentiellt överfyllningstillstånd, och att fortsätta använda maskinen riskerar vattenskador i ditt hem och kan orsaka ytterligare skador på maskinens elektronik. Åtgärda felet innan du kör en ny cykel.",
+          "question": "Kan jag fortfarande använda min Electrolux tvättmaskin när den visar E35?"
+        },
+        {
+          "answer": "En strömåterställning kan tillfälligt rensa felkoden, men om den bakomliggande orsaken — till exempel en defekt inloppsventil eller blockerad trycksensorslang — fortfarande finns kvar, kommer E35 att återkomma under nästa fyllningscykel. En återställning är ett användbart första steg för att bekräfta om felet är intermittent, men det är inte en lösning i sig.",
+          "question": "Försvinner felkoden E35 om jag stänger av och sätter på maskinen igen?"
+        },
+        {
+          "answer": "Om rengöring av nätfiltret inuti ventilens inlopp inte stoppar vatten från att fortsätta strömma in i trumman efter att maskinen har nått rätt nivå, har ventilens interna solenoid troligtvis gått sönder. Du kan bekräfta detta genom att koppla ur maskinen — om vatten fortfarande sipprar in i trumman med strömmen avstängd, är ventilen definitivt fastnad i öppet läge och måste bytas ut.",
+          "question": "Hur vet jag om min inloppsventil behöver bytas ut snarare än bara rengöras?"
+        },
+        {
+          "answer": "E35 avser specifikt att trummans vattennivå har överstigit den säkra gränsen enligt trycksensorn. Vissa Electrolux-modeller har också en separat översvämningssensor i bottenplattan som utlöser en annan felkod. Om vatten har samlats i bottenplattan under maskinen kan du se en annan kod tillsammans med eller istället för E35.",
+          "question": "Är E35 samma sak som ett översvämningsskyddsfel på Electrolux-maskiner?"
+        },
+        {
+          "answer": "Om lösningen är en blockerad trycksensorslang eller en omplacerad avloppsslang är kostnaden i praktiken noll. En ersättningsinloppsventil eller trycksensor kostar vanligtvis mellan 150 och 400 kronor för delen, och att montera den själv tar ungefär 30–60 minuter. Om en servicetekniker behövs för ett styrkortsfel kan arbetskostnad och delar tillsammans uppgå till mellan 900 och 2 000 kronor beroende på din plats och den specifika modellen.",
+          "question": "Vad kostar det vanligtvis att åtgärda ett E35-fel?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T08:56:02.633863+00:00"
+    }
+  ]
+}

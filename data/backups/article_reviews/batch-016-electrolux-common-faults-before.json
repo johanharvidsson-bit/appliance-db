@@ -1,0 +1,1119 @@
+{
+  "batch": "016-electrolux-common-faults",
+  "article_ids": [
+    349,
+    350,
+    353,
+    354,
+    355
+  ],
+  "articles": [
+    {
+      "id": 349,
+      "error_code_id": null,
+      "fault_id": 73,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 350,
+      "error_code_id": null,
+      "fault_id": 74,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 353,
+      "error_code_id": null,
+      "fault_id": 77,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 354,
+      "error_code_id": null,
+      "fault_id": 78,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 355,
+      "error_code_id": null,
+      "fault_id": 79,
+      "status": "published",
+      "article_type": "fault"
+    }
+  ],
+  "rows": [
+    {
+      "id": 560,
+      "article_id": 349,
+      "locale": "en",
+      "slug": "washing-machine-wont-drain",
+      "title_tag": "Electrolux Washing Machine Won't Drain – Fixes",
+      "meta_description": "Electrolux washing machine not draining? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers error codes E20–E25.",
+      "h1": "Why Won't My Electrolux Washing Machine Drain?",
+      "description": "The washing machine completes or pauses mid-cycle but fails to pump water out of the drum, leaving clothes sitting in standing water.",
+      "quick_fix": "Locate the small access panel at the bottom front of the machine, unscrew the drain pump filter, and clear any debris or blockage — this resolves the majority of no-drain faults and takes about 5 minutes.",
+      "meta_bar_json": null,
+      "intro_html": "<p>When an Electrolux washing machine won't drain, you'll typically find the drum still full of water at the end of a cycle, or the machine pausing and refusing to move on to the spin phase. On many models this triggers an error code on the display — E20, E21, E23, E24, or E25 are the most common, and all relate to a problem in the drain system rather than a single specific component.</p><p>The drain system on an Electrolux washing machine involves the pump filter, the drain pump motor, the drain hose, and the pressure switch that tells the machine when the water level is low enough to proceed. A fault anywhere in that chain can stop the machine from draining. The good news is that the most frequent cause — a blocked pump filter — is something most homeowners can clear themselves in a few minutes without any tools.</p><p>Before assuming the worst, it's worth working through the checks below in order. Most no-drain faults are resolved at step one or two.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked drain pump filter",
+          "detail": "Lint, coins, hair grips, and small items of clothing accumulate in the pump filter over time and restrict water flow. This is by far the most common reason an Electrolux washing machine stops draining."
+        },
+        {
+          "cause": "Kinked or blocked drain hose",
+          "detail": "If the drain hose behind the machine has been pushed too far into the standpipe, kinked during installation, or has a partial blockage inside, water cannot exit freely. Even a partial restriction can be enough to trigger an E20 or E21 fault."
+        },
+        {
+          "cause": "Faulty or seized drain pump",
+          "detail": "The pump impeller can seize if a foreign object gets past the filter, or the pump motor can fail electrically over time. When the pump doesn't run at all, the machine will sit with a full drum and display an error code."
+        },
+        {
+          "cause": "Blocked or frozen standpipe / household drain",
+          "detail": "If the property's waste pipe or standpipe is partially blocked, water drains slowly or not at all regardless of how well the machine itself is working. This is easy to overlook because the fault appears to be with the appliance."
+        },
+        {
+          "cause": "Faulty pressure switch or pressure hose",
+          "detail": "The pressure switch monitors water level inside the drum. If the small rubber hose connecting it to the drum is split, blocked with detergent residue, or the switch itself has failed, the machine may incorrectly believe the drum is still full and refuse to spin or drain."
+        },
+        {
+          "cause": "Wiring or control board fault",
+          "detail": "In a small number of cases, error codes E23, E24, or E25 point to an electrical fault — a broken wire to the pump, a failed relay on the control board, or a pump that is receiving no power signal. These faults are less common but do occur on older machines."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Clean the drain pump filter",
+          "detail": "Open the small rectangular access panel at the bottom front of the machine. Place a shallow tray and some towels underneath, then slowly unscrew the filter cap anti-clockwise — water will flow out, so go slowly. Pull the filter out completely, remove all debris, rinse it under a tap, and screw it firmly back in. Run a short spin cycle to test."
+        },
+        {
+          "step": 2,
+          "action": "Check the drain hose position and condition",
+          "detail": "Pull the machine forward slightly and inspect the grey corrugated hose at the back. It should loop up to at least 60 cm above floor level before dropping into the standpipe, and it should not be inserted more than 15 cm into the standpipe. Straighten any kinks and reposition if needed. Also feel along the hose for any hard blockages inside."
+        },
+        {
+          "step": 3,
+          "action": "Test the household standpipe",
+          "detail": "Pour a bucket of water directly into the standpipe and watch how quickly it drains. If it drains slowly or backs up, the blockage is in your household plumbing rather than the machine. Use a drain unblocker or contact a plumber before running the washing machine again."
+        },
+        {
+          "step": 4,
+          "action": "Run a drain-only or spin cycle",
+          "detail": "After completing steps 1–3, select a spin-only or drain programme and watch and listen. You should hear the pump motor hum and water moving through the hose within the first 30 seconds. If you hear nothing at all, the pump may not be receiving power or may have seized."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the pressure switch hose",
+          "detail": "With the machine unplugged, remove the top panel (usually two screws at the back). Locate the thin rubber hose running from the side of the drum up to a small round pressure switch. Disconnect it at both ends and blow through it — it should be completely clear. Wipe away any detergent residue inside and reattach securely."
+        },
+        {
+          "step": 6,
+          "action": "Check pump wiring connections",
+          "detail": "Still with the machine unplugged, access the pump from the front or bottom depending on your model. Check that the electrical connector on the pump is fully seated and that no wires are visibly burnt or broken. Reseat the connector firmly. If wiring looks damaged, this will need a service technician to repair safely."
+        },
+        {
+          "step": 7,
+          "action": "Reset the machine",
+          "detail": "Turn the machine off at the wall, wait 60 seconds, and power it back on. Select a short cotton cycle and monitor it through the drain and spin phase. If an error code reappears immediately, note the exact code (E20–E25) as this will help a service technician diagnose the fault faster."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If you have cleared the filter, confirmed the hose is unobstructed, and the machine still will not drain after a reset, it is time to call a service technician. Persistent error codes E23, E24, or E25 in particular suggest an electrical fault — either a failed pump motor, a damaged wiring loom, or a faulty control board — none of which are safe or practical to repair without the right test equipment.</p><p>You should also call a service technician if you find water pooling under the machine, if the pump makes a loud grinding noise, or if the drum is completely inaccessible because the door lock has also engaged. Attempting to force the door or dismantle the pump while the drum is full of water can cause injury or further damage to the appliance.</p>",
+      "prevention_html": "<p>Keeping the drain pump filter clean every one to three months is the single most effective way to prevent no-drain faults on an Electrolux washing machine. Always check pockets before loading a wash — coins, hair grips, and tissues are the most common culprits found in blocked filters. Using the correct amount of detergent also reduces the build-up of residue in the pressure switch hose.</p><p>The parts most commonly replaced when an Electrolux washing machine won't drain are the <strong>drain pump</strong>, the <strong>pump filter housing</strong>, and the <strong>pressure switch</strong>. Genuine Electrolux parts are recommended to ensure compatibility across the 5,000+ affected models. Use the parts finder below to search by your model number.</p>\n<!-- SPARE_PARTS_FAULT:wont-drain -->",
+      "faq_json": [
+        {
+          "answer": "E20 indicates that the machine has detected a drainage problem — it tried to pump water out but the water level did not drop within the expected time. Start by cleaning the pump filter, as this clears the fault in the majority of cases. If the code returns after cleaning the filter, check the drain hose and pump.",
+          "question": "What does error code E20 mean on an Electrolux washing machine?"
+        },
+        {
+          "answer": "It is best not to. Running further cycles with a drainage fault can put extra strain on the pump motor and may cause water to overflow inside the machine. Resolve the blockage first, then resume normal use.",
+          "question": "Can I use my washing machine if it won't drain?"
+        },
+        {
+          "answer": "Use the emergency drain tube if your model has one — it is a small capped hose stored behind the same access panel as the pump filter. Place a bowl underneath, remove the cap, and let the water drain out gradually. Once the drum is empty the door lock should release within a minute or two.",
+          "question": "How do I get the water out of the drum before I can open the door?"
+        },
+        {
+          "answer": "Every one to three months is a reasonable routine for a typical household. If you wash heavily soiled items, pet bedding, or items with lots of loose fibres, clean it monthly. A quick clean takes under five minutes and prevents the majority of drain faults.",
+          "question": "How often should I clean the pump filter on my Electrolux washing machine?"
+        },
+        {
+          "answer": "A genuine Electrolux drain pump is a moderately priced spare part, and it is one of the more straightforward components to replace on most models. If you are comfortable with basic appliance repair, it is a realistic DIY job. If you prefer, a service technician can usually replace it in a single visit.",
+          "question": "Is a drain pump expensive to replace on an Electrolux washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:54:20.81026+00:00"
+    },
+    {
+      "id": 561,
+      "article_id": 349,
+      "locale": "sv",
+      "slug": "tvattmaskin-tommer-inte",
+      "title_tag": "Electrolux Tvättmaskin Tömmer Inte – Lösningar",
+      "meta_description": "Electrolux tvättmaskin tömmer inte? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkoder E20–E25.",
+      "h1": "Varför Tömmer Inte Min Electrolux Tvättmaskin?",
+      "description": "Tvättmaskinen slutför eller pausar mitt i ett program men misslyckas med att pumpa ut vattnet ur trumman, vilket lämnar kläderna stående i vatten.",
+      "quick_fix": "Leta upp den lilla luckan längst ned på maskinens framsida, skruva loss pumpfiltret och rensa bort eventuellt skräp eller igensättning – detta löser de flesta tömningsproblem och tar ungefär 5 minuter.",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en Electrolux tvättmaskin inte tömmer hittar du vanligtvis trumman fortfarande full med vatten i slutet av ett program, eller så pausar maskinen och vägrar att gå vidare till centrifugeringsfasen. På många modeller utlöser detta en felkod på displayen – E20, E21, E23, E24 eller E25 är de vanligaste, och alla är kopplade till ett problem i tömningssystemet snarare än en enskild specifik komponent.</p><p>Tömningssystemet på en Electrolux tvättmaskin består av pumpfiltret, avloppspumpmotorn, avloppsslangen och pressostaten som talar om för maskinen när vattennivån är tillräckligt låg för att fortsätta. Ett fel var som helst i den kedjan kan hindra maskinen från att tömma. Den goda nyheten är att den vanligaste orsaken – ett igensatt pumpfilter – är något de flesta hushållsägare kan åtgärda själva på några minuter utan några verktyg.</p><p>Innan du antar det värsta är det värt att gå igenom kontrollerna nedan i ordning. De flesta tömningsproblem löses vid steg ett eller två.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt pumpfilter",
+          "detail": "Ludd, mynt, hårnålar och små plagg samlas i pumpfiltret med tiden och begränsar vattenflödet. Detta är den överlägset vanligaste anledningen till att en Electrolux tvättmaskin slutar tömma."
+        },
+        {
+          "cause": "Veckad eller igensatt avloppsslang",
+          "detail": "Om avloppsslangen bakom maskinen har tryckts för långt in i avloppsröret, veckats vid installationen eller har en partiell igensättning inuti, kan vattnet inte rinna ut fritt. Även en partiell begränsning kan räcka för att utlösa ett E20- eller E21-fel."
+        },
+        {
+          "cause": "Defekt eller låst avloppspump",
+          "detail": "Pumpens impeller kan låsa sig om ett främmande föremål tar sig förbi filtret, eller så kan pumpmotorn gå sönder elektriskt med tiden. När pumpen inte körs alls kommer maskinen att stå med en full trumma och visa en felkod."
+        },
+        {
+          "cause": "Igensatt eller fruset avloppsrör / husavlopp",
+          "detail": "Om fastighetens avloppsrör är delvis igensatt rinner vattnet långsamt eller inte alls, oavsett hur väl maskinen i sig fungerar. Detta är lätt att förbise eftersom felet verkar ligga hos maskinen."
+        },
+        {
+          "cause": "Defekt pressostat eller tryckslangar",
+          "detail": "Pressostaten övervakar vattennivån inuti trumman. Om den lilla gummislangen som förbinder den med trumman är sprucken, igensatt med tvättmedelsrester eller om pressostaten själv har gått sönder, kan maskinen felaktigt tro att trumman fortfarande är full och vägra att centrifugera eller tömma."
+        },
+        {
+          "cause": "Kabelfel eller styrkortsfel",
+          "detail": "I ett litet antal fall pekar felkoderna E23, E24 eller E25 på ett elektriskt fel – en trasig kabel till pumpen, ett defekt relä på styrkortet eller en pump som inte får någon strömförsörjning. Dessa fel är mindre vanliga men förekommer på äldre maskiner."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Rengör pumpfiltret",
+          "detail": "Öppna den lilla rektangulära luckan längst ned på maskinens framsida. Placera ett grunt fat och några handdukar undertill och skruva sedan långsamt loss filterlocket moturs – vatten kommer att rinna ut, så gå försiktigt fram. Dra ut filtret helt, ta bort allt skräp, skölj det under kranen och skruva tillbaka det ordentligt. Kör ett kort centrifugeringsprogram för att testa."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera avloppsslangen position och skick",
+          "detail": "Dra ut maskinen något och inspektera den grå korrugerade slangen på baksidan. Den ska löpa upp till minst 60 cm över golvnivå innan den sänks ned i avloppsröret, och den ska inte föras in mer än 15 cm i avloppsröret. Räta ut eventuella veck och justera vid behov. Känn också längs slangen efter eventuella hårda igensättningar inuti."
+        },
+        {
+          "step": 3,
+          "action": "Testa husavloppsröret",
+          "detail": "Häll en hink vatten direkt i avloppsröret och se hur snabbt det rinner undan. Om det rinner långsamt eller backar upp sitter igensättningen i din fastighets rörledning snarare än i maskinen. Använd ett avloppsrensningsmedel eller kontakta en rörmokare innan du kör tvättmaskinen igen."
+        },
+        {
+          "step": 4,
+          "action": "Kör ett tömnings- eller centrifugeringsprogram",
+          "detail": "Efter att ha slutfört steg 1–3, välj ett centrifugerings- eller tömningsprogram och lyssna noga. Du bör höra pumpmotorn surra och vatten röra sig genom slangen inom de första 30 sekunderna. Om du inte hör något alls kanske pumpen inte får ström eller kan ha låst sig."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera pressostatsslangen",
+          "detail": "Med maskinen urkopplad, ta bort toppanelen (vanligtvis två skruvar på baksidan). Leta upp den tunna gummislangen som löper från sidan av trumman upp till en liten rund pressostat. Koppla loss den i båda ändarna och blås igenom den – den ska vara helt fri. Torka bort eventuella tvättmedelsrester inuti och återanslut ordentligt."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera pumpens kabelanslutningar",
+          "detail": "Fortfarande med maskinen urkopplad, kom åt pumpen framifrån eller underifrån beroende på din modell. Kontrollera att den elektriska kontakten på pumpen sitter ordentligt och att inga kablar är synligt brända eller trasiga. Sätt i kontakten ordentligt igen. Om kablaget ser skadat ut behöver en servicetekniker reparera det på ett säkert sätt."
+        },
+        {
+          "step": 7,
+          "action": "Återställ maskinen",
+          "detail": "Stäng av maskinen vid vägguttaget, vänta 60 sekunder och slå på den igen. Välj ett kort bomullsprogram och följ det genom tömnings- och centrifugeringsfasen. Om en felkod visas omedelbart igen, notera den exakta koden (E20–E25) eftersom detta hjälper en servicetekniker att diagnostisera felet snabbare."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har rengjort filtret, bekräftat att slangen är fri och maskinen fortfarande inte tömmer efter en återställning är det dags att kontakta en servicetekniker. Ihållande felkoder E23, E24 eller E25 tyder i synnerhet på ett elektriskt fel – antingen en defekt pumpmotor, ett skadat kabelstamme eller ett defekt styrkort – inget av dessa är säkert eller praktiskt att reparera utan rätt testutrustning.</p><p>Du bör också kontakta en servicetekniker om du hittar vatten som samlas under maskinen, om pumpen ger ifrån sig ett högt slipljud, eller om trumman är helt otillgänglig eftersom dörrlåset också har aktiverats. Att försöka tvinga upp dörren eller ta isär pumpen medan trumman är full med vatten kan orsaka skada eller ytterligare skada på maskinen.</p>",
+      "prevention_html": "<p>Att hålla pumpfiltret rent var en till tre månader är det enskilt mest effektiva sättet att förebygga tömningsproblem på en Electrolux tvättmaskin. Kontrollera alltid fickorna innan du lägger i tvätten – mynt, hårnålar och pappersservetter är de vanligaste föremålen som hittas i igensatta filter. Att använda rätt mängd tvättmedel minskar också uppbyggnaden av rester i pressostatsslangen.</p><p>De delar som oftast byts ut när en Electrolux tvättmaskin inte tömmer är <strong>avloppspumpen</strong>, <strong>pumpfilterhuset</strong> och <strong>pressostaten</strong>. Genuina Electrolux-delar rekommenderas för att säkerställa kompatibilitet med de 5 000+ berörda modellerna. Använd reservdelsfindern nedan för att söka efter ditt modellnummer.</p>\n<!-- SPARE_PARTS_FAULT:wont-drain -->",
+      "faq_json": [
+        {
+          "answer": "E20 indikerar att maskinen har upptäckt ett tömningsproblem – den försökte pumpa ut vatten men vattennivån sjönk inte inom förväntad tid. Börja med att rengöra pumpfiltret, eftersom detta löser felet i de flesta fall. Om koden återkommer efter rengöring av filtret, kontrollera avloppsslangen och pumpen.",
+          "question": "Vad betyder felkod E20 på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Det är bäst att inte göra det. Att köra fler program med ett tömningsfel kan belasta pumpmotorn extra och kan orsaka att vatten svämmar över inuti maskinen. Åtgärda igensättningen först och återuppta sedan normal användning.",
+          "question": "Kan jag använda min tvättmaskin om den inte tömmer?"
+        },
+        {
+          "answer": "Använd nödtömningsslangen om din modell har en – det är en liten slang med lock som förvaras bakom samma lucka som pumpfiltret. Placera en skål undertill, ta bort locket och låt vattnet rinna ut gradvis. När trumman är tom bör dörrlåset lösas upp inom en minut eller två.",
+          "question": "Hur får jag ut vattnet ur trumman innan jag kan öppna dörren?"
+        },
+        {
+          "answer": "Var en till tre månader är en rimlig rutin för ett typiskt hushåll. Om du tvättar kraftigt smutsade plagg, husdjursbäddar eller plagg med många lösa fibrer, rengör det månadsvis. En snabb rengöring tar under fem minuter och förebygger de flesta tömningsproblem.",
+          "question": "Hur ofta ska jag rengöra pumpfiltret på min Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "En äkta Electrolux avloppspump är en måttligt prissatt reservdel och är en av de mer lättillgängliga komponenterna att byta på de flesta modeller. Om du är bekväm med grundläggande hushållsreparationer är det ett realistiskt gör-det-själv-jobb. Om du föredrar det kan en servicetekniker vanligtvis byta den under ett enda besök.",
+          "question": "Är det dyrt att byta avloppspump på en Electrolux tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:55:35.768274+00:00"
+    },
+    {
+      "id": 562,
+      "article_id": 350,
+      "locale": "en",
+      "slug": "wont-spin",
+      "title_tag": "Electrolux Washing Machine Won't Spin – Fixes",
+      "meta_description": "Electrolux washing machine not spinning? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers error codes E50, E52, E54, E",
+      "h1": "Why Has My Electrolux Washing Machine Stopped Spinning?",
+      "description": "The washing machine completes the wash cycle but the drum fails to spin, leaving clothes soaking wet at the end of the programme.",
+      "quick_fix": "Redistribute the laundry evenly inside the drum, then restart the spin cycle — an unbalanced load is the most common cause and resolving it typically gets the machine spinning again (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When an Electrolux washing machine won't spin, you'll usually find the cycle appears to finish normally but the clothes come out dripping wet. The drum may rotate slowly during the wash phase but never reaches the high speed needed to extract water. In some cases the machine stops mid-cycle, and you may see error codes E50, E52, E54, or E59 displayed on the control panel — all of which relate to the motor or motor control circuit.</p><p>The spin function relies on several components working together: the motor, the motor control board, the carbon brushes (on brush-type motors), the door interlock, and the load-sensing system. A fault in any one of these can prevent the drum from reaching spin speed. The good news is that a significant number of spin failures are caused by simple, user-correctable issues before any parts need replacing.</p>",
+      "causes_json": [
+        {
+          "cause": "Unbalanced or overloaded drum",
+          "detail": "If laundry bunches to one side or the load is too heavy, the machine's balance sensors deliberately prevent full spin speed to avoid excessive vibration. This is a built-in safety feature, not a mechanical fault."
+        },
+        {
+          "cause": "Worn or failed motor carbon brushes",
+          "detail": "Brush-type motors rely on carbon brushes to transfer current to the rotor. As the brushes wear down over time, the motor loses power and can no longer reach spin speed, often triggering error codes E50 or E52."
+        },
+        {
+          "cause": "Faulty motor control board (inverter board)",
+          "detail": "The motor control board regulates the speed and direction of the drum motor. If it develops a fault, the motor may receive incorrect signals or no signal at all, resulting in error codes E54 or E59 and a complete loss of spin."
+        },
+        {
+          "cause": "Door interlock not engaging",
+          "detail": "The machine will not spin if it cannot confirm the door is securely closed. A worn or broken door interlock switch prevents the spin programme from starting as a safety precaution."
+        },
+        {
+          "cause": "Blocked pump or drain issue",
+          "detail": "If the machine cannot drain water fully before the spin phase, it will either refuse to spin or spin very slowly. A blocked pump filter or kinked drain hose is a common underlying cause."
+        },
+        {
+          "cause": "Damaged or stretched drive belt",
+          "detail": "Some Electrolux models use a drive belt between the motor and drum pulley. If the belt has snapped or slipped off, the motor runs but the drum does not move at all during spin."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Redistribute the laundry and retry",
+          "detail": "Open the door and manually spread the laundry evenly around the drum. Remove a few items if the machine feels very full, then close the door and select a spin-only programme. If the machine completes the spin, an unbalanced load was the cause."
+        },
+        {
+          "step": 2,
+          "action": "Check and clean the pump filter",
+          "detail": "Locate the filter access panel at the bottom front of the machine. Place a shallow tray and towels underneath, then slowly unscrew the filter cap to release residual water. Remove any debris — coins, lint, or small garments — and refit the filter securely before running a spin cycle."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the drain hose",
+          "detail": "Pull the machine slightly away from the wall and check the drain hose for kinks, blockages, or incorrect positioning. The hose outlet should sit no higher than 100 cm from the floor. Straighten any kinks and ensure the hose end is not pushed too far into the standpipe, which can cause a siphoning effect that prevents proper draining."
+        },
+        {
+          "step": 4,
+          "action": "Test the door interlock",
+          "detail": "Close the door firmly and listen for a click confirming the latch has engaged. If the door feels loose, does not click, or the machine shows no response when you start a spin cycle, the door interlock is a likely culprit. Visually inspect the latch hook on the door and the catch inside the machine aperture for visible damage."
+        },
+        {
+          "step": 5,
+          "action": "Reset the machine",
+          "detail": "Switch the machine off at the wall socket and leave it unplugged for two minutes. Plug it back in and attempt a spin-only cycle. This clears temporary electronic faults that can cause the motor control board to lock out the spin function, and may clear stored error codes E54 or E59."
+        },
+        {
+          "step": 6,
+          "action": "Check the drive belt (where applicable)",
+          "detail": "If you are comfortable doing so, disconnect the machine from the mains and remove the rear panel. Inspect the drive belt around the drum pulley and motor spindle. A snapped belt will be visibly broken; a slipped belt will be lying loose inside the cabinet. Replacement belts are inexpensive and straightforward to fit on most Electrolux models."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the motor carbon brushes",
+          "detail": "With the machine unplugged and the rear panel removed, locate the motor and identify the two brush holders on either side. Slide out each brush — if either measures less than 5 mm in length, both brushes should be replaced as a pair. New brushes are a common, cost-effective repair that resolves E50 and E52 error codes in many cases."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and the machine still will not spin, or if error codes E54 or E59 return immediately after a reset, the motor control board is likely faulty. Diagnosing and replacing this component requires specialist test equipment and knowledge of mains-voltage circuits — this is not a safe DIY repair for most homeowners.</p><p>You should also contact a service technician if the motor itself shows signs of burning (a smell of scorched plastic or visible discolouration), if the drum is completely seized and will not turn by hand, or if the machine trips your household circuit breaker when a spin is attempted. These symptoms point to an electrical fault that needs professional assessment.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when an Electrolux washing machine won't spin are the motor carbon brushes, the door interlock assembly, and the drive belt. Keeping a note of your machine's model number (found on the label inside the door aperture) makes it straightforward to find the correct parts. Carbon brushes in particular are a wear item and are worth inspecting every few years on high-use machines.</p><p>To reduce the risk of spin faults developing, always follow the load guidance in your machine's manual, avoid washing single heavy items like duvets without a balancing item, and clean the pump filter every one to three months. Running a monthly maintenance wash at 60°C also helps prevent residue build-up that can strain the motor over time.</p>\n<!-- SPARE_PARTS_FAULT:wont-spin -->",
+      "faq_json": [
+        {
+          "answer": "All four codes relate to the motor circuit. E50 and E52 typically indicate a motor speed or tachometer fault, often caused by worn carbon brushes. E54 points to a motor relay problem on the control board, while E59 signals that the motor has not reached the expected speed within a set time. Checking the brushes first is a sensible starting point for E50 and E52; E54 and E59 more often require board-level diagnosis.",
+          "question": "What do error codes E50, E52, E54, and E59 mean on an Electrolux washing machine?"
+        },
+        {
+          "answer": "A humming motor with a stationary drum almost always points to a broken or slipped drive belt. The motor is receiving power and trying to run, but there is no mechanical connection to the drum. Checking and replacing the belt is usually a straightforward repair once the rear panel is removed.",
+          "question": "My Electrolux washing machine hums during spin but the drum doesn't move — what's wrong?"
+        },
+        {
+          "answer": "You can complete a wash cycle, but without spinning the clothes will be far too wet to dry efficiently and the excess water may cause mould or damage if left in the drum. It is best to resolve the spin fault promptly. As a short-term measure, you can transfer wet laundry to a spin dryer if you have one.",
+          "question": "Can I use my washing machine if it won't spin?"
+        },
+        {
+          "answer": "Carbon brushes typically last between five and ten years depending on how frequently the machine is used. Households that run the machine daily will see brushes wear faster than those using it two or three times a week. Replacing brushes is one of the most cost-effective repairs available for brush-motor Electrolux models.",
+          "question": "How long do carbon brushes last in an Electrolux washing machine?"
+        },
+        {
+          "answer": "Certain programmes — such as wool or delicates — use a much lower spin speed or no spin at all by design. Check that the spin speed setting has not been accidentally reduced or turned off on the control panel. If the machine spins on a cotton cycle but not on others, the programme settings are the most likely explanation rather than a mechanical fault.",
+          "question": "Why does my Electrolux washing machine spin on some cycles but not others?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:56:30.197679+00:00"
+    },
+    {
+      "id": 563,
+      "article_id": 350,
+      "locale": "sv",
+      "slug": "centrifugerar-inte",
+      "title_tag": "Electrolux Tvättmaskin Snurrar Inte – Lösningar",
+      "meta_description": "Electrolux tvättmaskin centrifugerar inte? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkoder E50, ",
+      "h1": "Varför har min Electrolux tvättmaskin slutat centrifugera?",
+      "description": "Tvättmaskinen slutför tvättcykeln men trumman centrifugerar inte, vilket lämnar kläderna genomblöta i slutet av programmet.",
+      "quick_fix": "Fördela tvätten jämnt i trumman och starta om centrifugeringscykeln – en obalanserad last är den vanligaste orsaken och att åtgärda detta brukar få maskinen att centrifugera igen (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en Electrolux tvättmaskin inte centrifugerar märker du vanligtvis att cykeln verkar avslutas normalt men att kläderna kommer ut genomblöta. Trumman kan rotera långsamt under tvättfasen men når aldrig den höga hastighet som krävs för att pressa ut vattnet. I vissa fall stannar maskinen mitt i cykeln och felkoderna E50, E52, E54 eller E59 kan visas på kontrollpanelen – samtliga relaterar till motorn eller motorns styrkrets.</p><p>Centrifugeringsfunktionen är beroende av att flera komponenter samverkar: motorn, motorns styrkort, kolborstarna (på motorer med kolborstar), dörrlåset och lastsensorsystemet. Ett fel i någon av dessa kan hindra trumman från att nå centrifugeringshastighet. Den goda nyheten är att ett betydande antal centrifugeringsfel orsakas av enkla problem som användaren själv kan åtgärda innan några delar behöver bytas.</p>",
+      "causes_json": [
+        {
+          "cause": "Obalanserad eller överlastad trumma",
+          "detail": "Om tvätten samlas på ena sidan eller lasten är för tung hindrar maskinens balansensorer avsiktligt full centrifugeringshastighet för att undvika kraftiga vibrationer. Detta är en inbyggd säkerhetsfunktion, inte ett mekaniskt fel."
+        },
+        {
+          "cause": "Slitna eller defekta motorkolborstar",
+          "detail": "Motorer med kolborstar är beroende av dessa för att överföra ström till rotorn. När borstarna slits ned med tiden tappar motorn kraft och kan inte längre nå centrifugeringshastighet, vilket ofta utlöser felkoderna E50 eller E52."
+        },
+        {
+          "cause": "Defekt motorstyrkortet (inverterkort)",
+          "detail": "Motorstyrkortet reglerar hastigheten och riktningen på trummotorn. Om det uppstår ett fel kan motorn ta emot felaktiga signaler eller inga signaler alls, vilket resulterar i felkoderna E54 eller E59 och ett fullständigt bortfall av centrifugering."
+        },
+        {
+          "cause": "Dörrlåset aktiveras inte",
+          "detail": "Maskinen centrifugerar inte om den inte kan bekräfta att dörren är ordentligt stängd. En sliten eller trasig dörrlåsbrytare hindrar centrifugeringsprogrammet från att starta som en säkerhetsåtgärd."
+        },
+        {
+          "cause": "Igensatt pump eller avloppsproblem",
+          "detail": "Om maskinen inte kan tömma ut vattnet helt innan centrifugeringsfasen vägrar den antingen att centrifugera eller centrifugerar mycket långsamt. Ett igensatt pumpfilter eller en vikt avloppsslang är en vanlig bakomliggande orsak."
+        },
+        {
+          "cause": "Skadad eller utsträckt drivrem",
+          "detail": "Vissa Electrolux-modeller använder en drivrem mellan motorn och trummans remskiva. Om remmen har gått av eller halkade av körs motorn men trumman rör sig inte alls under centrifugering."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Fördela om tvätten och försök igen",
+          "detail": "Öppna luckan och fördela tvätten jämnt för hand runt trumman. Ta ut några plagg om maskinen känns mycket full, stäng sedan luckan och välj ett centrifugeringsprogram. Om maskinen slutför centrifugeringen var en obalanserad last orsaken."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera och rengör pumpfiltret",
+          "detail": "Hitta filterluckan längst ned på maskinens framsida. Placera ett grunt kärl och handdukar undertill och skruva sedan långsamt loss filterlocket för att tömma ut kvarvarande vatten. Ta bort eventuellt skräp – mynt, ludd eller små plagg – och sätt tillbaka filtret ordentligt innan du kör en centrifugeringscykel."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera avloppsslangen",
+          "detail": "Dra ut maskinen något från väggen och kontrollera avloppsslangen för veck, blockeringar eller felaktig placering. Slangutloppet bör sitta högst 100 cm från golvet. Räta ut eventuella veck och se till att slangens ände inte är instucken för långt i avloppsröret, vilket kan orsaka en siffoneffekt som förhindrar korrekt avrinning."
+        },
+        {
+          "step": 4,
+          "action": "Testa dörrlåset",
+          "detail": "Stäng luckan ordentligt och lyssna efter ett klick som bekräftar att låset har hakat i. Om luckan känns lös, inte klickar eller om maskinen inte reagerar när du startar en centrifugeringscykel är dörrlåset troligen orsaken. Kontrollera visuellt låskroken på luckan och låsinfästningen i maskinöppningen för synliga skador."
+        },
+        {
+          "step": 5,
+          "action": "Återställ maskinen",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den stå urkopplad i två minuter. Koppla in den igen och försök med ett centrifugeringsprogram. Detta rensar tillfälliga elektronikfel som kan få motorstyrkortet att blockera centrifugeringsfunktionen och kan även rensa lagrade felkoder E54 eller E59."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera drivremmen (där tillämpligt)",
+          "detail": "Om du känner dig bekväm med det, koppla ur maskinen från elnätet och ta bort bakpanelen. Kontrollera drivremmen runt trummans remskiva och motoraxeln. En sprucken rem syns tydligt; en avhalkad rem ligger löst inuti maskinhöljet. Ersättningsremmar är billiga och enkla att montera på de flesta Electrolux-modeller."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera motorns kolborstar",
+          "detail": "Med maskinen urkopplad och bakpanelen borttagen, lokalisera motorn och identifiera de två borstfästena på vardera sidan. Dra ut varje borste – om någon mäter mindre än 5 mm i längd bör båda borstarna bytas ut som ett par. Nya kolborstar är en vanlig och kostnadseffektiv reparation som löser felkoderna E50 och E52 i många fall."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har gått igenom alla stegen ovan och maskinen fortfarande inte centrifugerar, eller om felkoderna E54 eller E59 återkommer omedelbart efter en återställning, är motorstyrkortet troligen defekt. Att diagnostisera och byta denna komponent kräver specialiserad testutrustning och kunskap om nätspänningskretsar – detta är inte en säker DIY-reparation för de flesta hushållare.</p><p>Du bör även kontakta en servicetekniker om motorn uppvisar tecken på överhettning (lukt av bränd plast eller synlig missfärgning), om trumman är helt låst och inte går att vrida för hand, eller om maskinen löser ut ditt hushålls jordfelsbrytare när centrifugering försöks. Dessa symptom tyder på ett elfel som kräver professionell bedömning.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Electrolux tvättmaskin inte centrifugerar är motorns kolborstar, dörrlåsenheten och drivremmen. Att notera maskinens modellnummer (finns på etiketten inuti lucköppningen) gör det enkelt att hitta rätt reservdelar. Kolborstar är särskilt en förslitningsdel och är värda att kontrollera vart par år på maskiner som används mycket.</p><p>För att minska risken för centrifugeringsfel, följ alltid lastanvisningarna i maskinens manual, undvik att tvätta enstaka tunga föremål som duntäcken utan ett balanserande plagg, och rengör pumpfiltret var en till tre månader. Att köra ett månatligt underhållsprogram vid 60 °C hjälper också till att förhindra avlagringarna som kan belasta motorn över tid.</p>\n<!-- SPARE_PARTS_FAULT:wont-spin -->",
+      "faq_json": [
+        {
+          "answer": "Alla fyra koder relaterar till motorkretsen. E50 och E52 indikerar vanligtvis ett fel på motorhastigheten eller tachometern, ofta orsakat av slitna kolborstar. E54 pekar på ett motorreléproblem på styrkortet, medan E59 signalerar att motorn inte nått förväntad hastighet inom en angiven tid. Att kontrollera borstarna först är en bra utgångspunkt för E50 och E52; E54 och E59 kräver oftare diagnostik på kortnivå.",
+          "question": "Vad betyder felkoderna E50, E52, E54 och E59 på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "En surrande motor med en stillastående trumma pekar nästan alltid på en trasig eller avhalkad drivrem. Motorn får ström och försöker köra, men det finns ingen mekanisk koppling till trumman. Att kontrollera och byta remmen är vanligtvis en enkel reparation när bakpanelen är borttagen.",
+          "question": "Min Electrolux tvättmaskin surrar under centrifugering men trumman rör sig inte – vad är fel?"
+        },
+        {
+          "answer": "Du kan slutföra en tvättcykel, men utan centrifugering blir kläderna alldeles för blöta för att torka effektivt och överskottsvattnet kan orsaka mögel eller skador om det lämnas i trumman. Det är bäst att åtgärda centrifugeringsfelet omgående. Som en kortsiktig åtgärd kan du flytta över blöt tvätt till en separat centrifug om du har en.",
+          "question": "Kan jag använda tvättmaskinen om den inte centrifugerar?"
+        },
+        {
+          "answer": "Kolborstar håller vanligtvis mellan fem och tio år beroende på hur ofta maskinen används. Hushåll som kör maskinen dagligen ser borstarna slitas snabbare än de som använder den två till tre gånger i veckan. Att byta kolborstar är en av de mest kostnadseffektiva reparationerna för Electrolux-modeller med borstmotor.",
+          "question": "Hur länge håller kolborstarna i en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Vissa program – som ull eller fintvätt – använder en mycket lägre centrifugeringshastighet eller ingen centrifugering alls av design. Kontrollera att centrifugeringshastigheten inte har sänkts eller stängts av av misstag på kontrollpanelen. Om maskinen centrifugerar på ett bomullsprogram men inte på andra är programinställningarna den troligaste förklaringen snarare än ett mekaniskt fel.",
+          "question": "Varför centrifugerar min Electrolux tvättmaskin på vissa program men inte på andra?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:57:42.906528+00:00"
+    },
+    {
+      "id": 568,
+      "article_id": 353,
+      "locale": "en",
+      "slug": "wont-fill",
+      "title_tag": "Electrolux Washing Machine Won't Fill With Water – Fixes",
+      "meta_description": "Electrolux washing machine not filling with water? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers E10 and E11 errors",
+      "h1": "Why Won't My Electrolux Washing Machine Fill With Water?",
+      "description": "The washing machine starts a cycle but little or no water enters the drum, leaving laundry unwashed.",
+      "quick_fix": "Check that both inlet hose tap valves behind the machine are fully open, then restart the cycle — this resolves the fault in the majority of cases (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When an Electrolux washing machine won't fill, you'll typically notice the drum sitting empty after the cycle begins, or the machine pausing shortly after starting and displaying an error code such as E10 or E11. These codes indicate the control board has detected that water hasn't reached the expected level within a set time window. The machine may beep, flash a warning, or simply stop progressing past the initial fill stage.</p><p>The water inlet system is almost always the place to start investigating. This system includes the external tap and hoses, an inlet valve inside the machine, a pressure sensor that monitors water level, and the wiring connecting them. A fault anywhere along this chain can prevent water from entering the drum. The good news is that the most common causes are straightforward to check yourself before calling anyone out.</p>",
+      "causes_json": [
+        {
+          "cause": "Inlet tap turned off or partially closed",
+          "detail": "The cold water tap (and hot tap on dual-inlet models) behind the machine must be fully open. Even a partially closed valve restricts flow enough to trigger an E10 or E11 fault."
+        },
+        {
+          "cause": "Kinked or blocked inlet hose",
+          "detail": "The rubber hose connecting the tap to the machine can become kinked if the machine has been pushed back against the wall. Mesh filters inside the hose connectors also collect sediment over time and can block flow almost completely."
+        },
+        {
+          "cause": "Faulty or clogged water inlet valve",
+          "detail": "The inlet valve is an electrically operated solenoid that opens when the machine calls for water. If the solenoid coil fails, or if mineral scale builds up inside the valve body, water cannot enter the drum."
+        },
+        {
+          "cause": "Defective pressure sensor (pressure switch)",
+          "detail": "The pressure sensor tells the control board how much water is in the drum. If it gives a false reading — often caused by a blocked or disconnected air hose — the board may think the drum is already full and never open the inlet valve."
+        },
+        {
+          "cause": "Low mains water pressure",
+          "detail": "Electrolux washing machines require a minimum dynamic water pressure, typically around 0.05 MPa (0.5 bar). Temporary low pressure from supply works or a partially closed stopcock can prevent the inlet valve from opening properly."
+        },
+        {
+          "cause": "Wiring or control board fault",
+          "detail": "If the wiring harness to the inlet valve is damaged or a connector has worked loose, the valve will not receive the signal to open. In rare cases the main control board itself fails to send that signal."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the water supply tap",
+          "detail": "Locate the cold water tap on the wall behind the machine and turn it fully anticlockwise to open it. On older installations there may also be a hot water tap — open that too. Restart the cycle and watch whether water begins to enter. This single check resolves the fault more often than any other."
+        },
+        {
+          "step": 2,
+          "action": "Inspect the inlet hose for kinks",
+          "detail": "Pull the machine gently away from the wall and run your hand along the full length of the inlet hose. Straighten any kinks and ensure the hose is not trapped under a machine foot. Once straightened, push the machine back carefully so the hose has a gentle curve rather than a sharp bend."
+        },
+        {
+          "step": 3,
+          "action": "Clean the inlet hose filter screens",
+          "detail": "Turn off the water tap, then unscrew the inlet hose from the back of the machine — have a towel ready for residual water. You will see a small mesh filter screen inside the machine's inlet port and possibly one inside the hose connector. Remove them with needle-nose pliers, rinse under a tap, and use an old toothbrush to clear any sediment. Refit and tighten by hand, then turn the water back on and check for leaks before running a cycle."
+        },
+        {
+          "step": 4,
+          "action": "Test your household water pressure",
+          "detail": "Fill a one-litre jug directly from the tap that feeds the machine. It should fill in roughly six seconds or less at adequate pressure. If it takes noticeably longer, check whether other taps in the house are also slow — if so, contact your water supplier. If only this tap is slow, the isolation valve behind the machine may not be fully open."
+        },
+        {
+          "step": 5,
+          "action": "Check and clear the pressure sensor air hose",
+          "detail": "Unplug the machine from the mains before proceeding. Remove the top panel (usually two screws at the rear). Locate the thin rubber air hose running from the bottom of the drum up to the pressure sensor — a small cylindrical component near the top of the cabinet. Check that the hose is firmly connected at both ends and has no cracks or blockages. Blow gently through it to confirm it is clear, then reconnect everything."
+        },
+        {
+          "step": 6,
+          "action": "Test the inlet valve solenoid",
+          "detail": "With the machine unplugged, disconnect the wiring connectors from the inlet valve solenoid coils. Use a multimeter set to resistance (ohms) and measure across each coil's terminals. A healthy solenoid typically reads between 200 and 500 ohms; an open-circuit reading (OL or infinite) means the coil has failed and the valve needs replacing. Replacement inlet valves are a common spare part for Electrolux machines and are straightforward to swap with basic tools."
+        },
+        {
+          "step": 7,
+          "action": "Reset the machine and check for error codes",
+          "detail": "After completing the checks above, restore power and run a short cotton cycle. If the display still shows E10 or E11, note the exact code and consult the model's user manual for any additional diagnostic steps. A persistent error after all mechanical checks have passed points toward a pressure sensor or control board fault that is best assessed by a service technician."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If you have confirmed the water supply is fully open, the hoses are clear, the filter screens are clean, and the inlet valve tests as faulty on a multimeter, replacing the valve is a manageable DIY repair. However, if a new inlet valve does not resolve the fault, or if the machine is showing E10/E11 alongside other unrelated errors, the pressure sensor or main control board is likely involved.</p><p>You should also contact a service technician if you find burnt or corroded wiring near the inlet valve, if the machine trips your household circuit breaker when it tries to fill, or if water leaks from the inlet connection even after you have tightened it correctly. These situations carry safety risks that go beyond routine DIY maintenance.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when an Electrolux washing machine won't fill are the water inlet valve (solenoid valve), the inlet hose complete with filter screens, and the pressure sensor (pressure switch). Keeping the filter screens clean every six to twelve months is the single most effective way to prevent a recurrence of this fault, particularly in hard-water areas where limescale builds up quickly.</p><p>If your machine is installed in a tight alcove, consider fitting a right-angle hose connector to reduce the risk of kinking. Using a washing machine cleaner or descaler monthly also helps protect the inlet valve seat from scale build-up over time.</p>\n<!-- SPARE_PARTS_FAULT:wont-fill -->",
+      "faq_json": [
+        {
+          "answer": "Both codes indicate a water inlet fault — the machine did not detect enough water entering the drum within the allowed time. E10 typically points to no water flow at all, while E11 can indicate insufficient flow or a pressure sensor issue. Start by checking the tap and hose before assuming a component has failed.",
+          "question": "What does error code E10 or E11 mean on an Electrolux washing machine?"
+        },
+        {
+          "answer": "A humming sound during the fill stage usually means the inlet valve solenoid is receiving power and trying to open, but water is not getting through. The most likely causes are a blocked filter screen inside the hose connector or a scale-blocked valve body. Clean the filters first; if that doesn't help, the valve itself may need replacing.",
+          "question": "My Electrolux machine hums when it tries to fill but no water comes in — what does that mean?"
+        },
+        {
+          "answer": "It is not advisable. Running a cycle with insufficient water can leave detergent residue on clothes, cause the drum to become unbalanced, and in some cases overheat the heating element. Resolve the fill fault before using the machine again to avoid secondary damage.",
+          "question": "Can I use my washing machine if it only partially fills with water?"
+        },
+        {
+          "answer": "Most Electrolux models complete the initial cold fill in two to four minutes under normal household water pressure. If the machine is still filling after five or six minutes, or if it pauses and shows an error, water pressure or a restricted inlet is the likely cause.",
+          "question": "How long does it normally take an Electrolux washing machine to fill?"
+        },
+        {
+          "answer": "For most Electrolux washing machine models, yes. The valve is accessed from the rear of the machine after removing a back panel, and it is held in place by one or two screws with push-fit hose connections and spade-terminal wiring connectors. Always unplug the machine and turn off the water supply before starting, and use the correct replacement part for your specific model number.",
+          "question": "Is a water inlet valve easy to replace yourself?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T16:02:52.371096+00:00"
+    },
+    {
+      "id": 569,
+      "article_id": 353,
+      "locale": "sv",
+      "slug": "fyller-inte-med-vatten",
+      "title_tag": "Electrolux Tvättmaskin Fyller Inte Med Vatten – Lösningar",
+      "meta_description": "Fyller inte din Electrolux tvättmaskin med vatten? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker E10 oc",
+      "h1": "Varför Fyller Inte Min Electrolux Tvättmaskin Med Vatten?",
+      "description": "Tvättmaskinen startar ett program men lite eller inget vatten kommer in i trumman, vilket lämnar tvätten otvättad.",
+      "quick_fix": "Kontrollera att båda inloppsslangskranarna bakom maskinen är helt öppna och starta sedan om programmet – detta löser felet i de flesta fall (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en Electrolux tvättmaskin inte fyller med vatten märker du vanligtvis att trumman är tom efter att programmet har startat, eller att maskinen pausar kort efter start och visar en felkod som E10 eller E11. Dessa koder indikerar att styrkortet har upptäckt att vattnet inte nått den förväntade nivån inom en angiven tidsram. Maskinen kan pipa, blinka en varning eller helt enkelt sluta gå vidare förbi det inledande fyllningsstadiet.</p><p>Vatteninloppssystemet är nästan alltid det bästa stället att börja undersöka. Detta system inkluderar den externa kranen och slangarna, en inloppsventil inuti maskinen, en trycksensor som övervakar vattennivån samt kablaget som förbinder dem. Ett fel var som helst i denna kedja kan förhindra att vatten kommer in i trumman. Den goda nyheten är att de vanligaste orsakerna är enkla att kontrollera själv innan du ringer någon.</p>",
+      "causes_json": [
+        {
+          "cause": "Inloppsventilkranen avstängd eller delvis stängd",
+          "detail": "Kallvattenkranen (och varmvattenkranen på modeller med dubbelt inlopp) bakom maskinen måste vara helt öppen. Även en delvis stängd ventil begränsar flödet tillräckligt för att utlösa ett E10- eller E11-fel."
+        },
+        {
+          "cause": "Veckad eller blockerad inloppsslang",
+          "detail": "Gummislangen som förbinder kranen med maskinen kan bli veckad om maskinen har skjutits tillbaka mot väggen. Nätfilter inuti slanganslutningarna samlar också upp sediment med tiden och kan blockera flödet nästan helt."
+        },
+        {
+          "cause": "Defekt eller igensatt vatteninloppsventil",
+          "detail": "Inloppsventilen är en elektriskt styrd magnetventil som öppnas när maskinen behöver vatten. Om magnetspolen går sönder, eller om kalkavlagringar byggs upp inuti ventilkroppen, kan vatten inte komma in i trumman."
+        },
+        {
+          "cause": "Defekt trycksensor (pressostaten)",
+          "detail": "Trycksensorn talar om för styrkortet hur mycket vatten som finns i trumman. Om den ger ett felaktigt värde – ofta orsakat av en blockerad eller frånkopplad luftslang – kan styrkortet tro att trumman redan är full och aldrig öppna inloppsventilen."
+        },
+        {
+          "cause": "Lågt vattentryck i ledningsnätet",
+          "detail": "Electrolux tvättmaskiner kräver ett minsta dynamiskt vattentryck, vanligtvis cirka 0,05 MPa (0,5 bar). Tillfälligt lågt tryck på grund av arbeten i vattenledningsnätet eller en delvis stängd avstängningsventil kan förhindra att inloppsventilen öppnas ordentligt."
+        },
+        {
+          "cause": "Kabelfel eller fel på styrkortet",
+          "detail": "Om kabelstammen till inloppsventilen är skadad eller om en kontakt har lossnat, kommer ventilen inte att ta emot signalen att öppna. I sällsynta fall misslyckas huvudstyrkortet med att skicka den signalen."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera vattentillförseln",
+          "detail": "Leta upp kallvattenkranen på väggen bakom maskinen och vrid den helt moturs för att öppna den. På äldre installationer kan det även finnas en varmvattenkran – öppna den också. Starta om programmet och se om vatten börjar komma in. Denna enkla kontroll löser felet oftare än någon annan åtgärd."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera inloppsslangen för veckning",
+          "detail": "Dra försiktigt ut maskinen från väggen och känn längs hela inloppsslangen. Räta ut eventuella veck och se till att slangen inte är fastklämd under ett maskinben. När slangen är uträtad, skjut försiktigt tillbaka maskinen så att slangen har en mjuk kurva snarare än en skarp böj."
+        },
+        {
+          "step": 3,
+          "action": "Rengör inloppsslangfiltrens nät",
+          "detail": "Stäng av vattenkranen och skruva sedan loss inloppsslangen från maskinens baksida – ha en handduk till hands för kvarvarande vatten. Du ser ett litet nätfilter inuti maskinens inloppsöppning och möjligen ett inuti slanganslutningen. Ta bort dem med spetsnåltång, skölj under kranen och använd en gammal tandborste för att rensa bort sediment. Sätt tillbaka och dra åt för hand, sätt sedan på vattnet igen och kontrollera att det inte läcker innan du kör ett program."
+        },
+        {
+          "step": 4,
+          "action": "Testa hushållets vattentryck",
+          "detail": "Fyll en enlitersmätare direkt från kranen som matar maskinen. Den bör fyllas på ungefär sex sekunder eller mindre vid tillräckligt tryck. Om det tar märkbart längre tid, kontrollera om andra kranar i huset också är långsamma – om så är fallet, kontakta ditt vattenbolag. Om bara denna kran är långsam kanske avstängningsventilen bakom maskinen inte är helt öppen."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera och rensa trycksensorns luftslang",
+          "detail": "Koppla ur maskinen från elnätet innan du fortsätter. Ta bort toppanelen (vanligtvis två skruvar baktill). Leta upp den tunna gummiluftslangen som löper från trummans botten upp till trycksensorn – en liten cylindrisk komponent nära kabinettoppen. Kontrollera att slangen sitter fast ordentligt i båda ändarna och att den inte har sprickor eller blockeringar. Blås försiktigt igenom den för att bekräfta att den är fri, och koppla sedan ihop allt igen."
+        },
+        {
+          "step": 6,
+          "action": "Testa inloppsventilens magnetspole",
+          "detail": "Med maskinen urkopplad, koppla loss kabelkontakterna från inloppsventilens magnetspolar. Använd en multimeter inställd på motstånd (ohm) och mät över varje spoles anslutningar. En frisk magnetspole läser vanligtvis mellan 200 och 500 ohm; ett avbrutet kretsvärde (OL eller oändligt) innebär att spolen har gått sönder och att ventilen behöver bytas. Ersättningsinloppsventiler är ett vanligt reservdelssortiment för Electrolux-maskiner och är enkla att byta med grundläggande verktyg."
+        },
+        {
+          "step": 7,
+          "action": "Återställ maskinen och kontrollera felkoder",
+          "detail": "När du har genomfört kontrollerna ovan, återställ strömmen och kör ett kort bomullsprogram. Om displayen fortfarande visar E10 eller E11, notera den exakta koden och konsultera modellens användarmanual för eventuella ytterligare diagnostiksteg. Ett kvarstående fel efter att alla mekaniska kontroller har genomförts pekar mot ett trycksensor- eller styrkortsfel som bäst bedöms av en servicetekniker."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har bekräftat att vattentillförseln är helt öppen, slangarna är fria, filternettet är rent och inloppsventilen visar fel vid multimetermätning, är det en hanterbar DIY-reparation att byta ventilen. Men om en ny inloppsventil inte löser felet, eller om maskinen visar E10/E11 tillsammans med andra orelaterade fel, är trycksensorn eller huvudstyrkortet troligen inblandade.</p><p>Du bör också kontakta en servicetekniker om du hittar bränt eller korroderat kablage nära inloppsventilen, om maskinen löser ut din hushållssäkring när den försöker fylla, eller om vatten läcker från inloppsanslutningen även efter att du har dragit åt den korrekt. Dessa situationer medför säkerhetsrisker som går utöver rutinmässigt DIY-underhåll.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Electrolux tvättmaskin inte fyller med vatten är vatteninloppsventilen (magnetventilen), inloppsslangen komplett med filternät samt trycksensorn (pressostaten). Att hålla filternettet rent var sjätte till tolfte månad är det enskilt mest effektiva sättet att förebygga återkommande fel, särskilt i områden med hårt vatten där kalkavlagringar byggs upp snabbt.</p><p>Om din maskin är installerad i ett trångt utrymme, överväg att montera en vinkelformad slanganslutning för att minska risken för veckning. Att använda ett tvättmaskinrengörings- eller avkalkningsmedel månadsvis hjälper också till att skydda inloppsventilsätet mot kalkuppbyggnad över tid.</p>\n<!-- SPARE_PARTS_FAULT:wont-fill -->",
+      "faq_json": [
+        {
+          "answer": "Båda koderna indikerar ett vatteninloppsfel – maskinen detekterade inte tillräckligt med vatten som kom in i trumman inom tillåten tid. E10 pekar vanligtvis på inget vattenflöde alls, medan E11 kan indikera otillräckligt flöde eller ett trycksensorproblem. Börja med att kontrollera kranen och slangen innan du antar att en komponent har gått sönder.",
+          "question": "Vad betyder felkod E10 eller E11 på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Ett surrande ljud under fyllningsfasen innebär vanligtvis att inloppsventilens magnetspole får ström och försöker öppna, men att vatten inte kommer igenom. De troligaste orsakerna är ett igensatt filternät inuti slanganslutningen eller en kalkblockerad ventilkropp. Rengör filtren först; om det inte hjälper kan ventilen behöva bytas.",
+          "question": "Min Electrolux-maskin surrar när den försöker fylla men inget vatten kommer in – vad betyder det?"
+        },
+        {
+          "answer": "Det rekommenderas inte. Att köra ett program med otillräckligt vatten kan lämna tvättmedelsrester på kläderna, orsaka att trumman blir obalanserad och i vissa fall överhettas värmeelement. Åtgärda fyllningsfelet innan du använder maskinen igen för att undvika sekundära skador.",
+          "question": "Kan jag använda min tvättmaskin om den bara delvis fyller med vatten?"
+        },
+        {
+          "answer": "De flesta Electrolux-modeller slutför den inledande kallvattenfyllningen på två till fyra minuter under normalt hushållsvattentryck. Om maskinen fortfarande fyller efter fem eller sex minuter, eller om den pausar och visar ett fel, är lågt vattentryck eller ett begränsat inlopp den troliga orsaken.",
+          "question": "Hur lång tid tar det normalt för en Electrolux tvättmaskin att fylla?"
+        },
+        {
+          "answer": "För de flesta Electrolux tvättmaskinmodeller, ja. Ventilen nås från maskinens baksida efter att en bakpanel har tagits bort, och den hålls på plats av en eller två skruvar med tryckanslutna slanganslutningar och spadeändade kabelkontakter. Koppla alltid ur maskinen och stäng av vattentillförseln innan du börjar, och använd rätt reservdel för ditt specifika modellnummer.",
+          "question": "Är det enkelt att byta en vatteninloppsventil själv?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T16:04:10.247643+00:00"
+    },
+    {
+      "id": 570,
+      "article_id": 354,
+      "locale": "en",
+      "slug": "door-wont-open",
+      "title_tag": "Electrolux Washing Machine Door Won't Open – Fixes",
+      "meta_description": "Electrolux washing machine door stuck? Learn the most common causes and step-by-step fixes to get your door open safely, including error codes E40–E45.",
+      "h1": "Why Won't My Electrolux Washing Machine Door Open?",
+      "description": "The washing machine door remains locked and will not open after the cycle has ended or when attempting to start a new wash.",
+      "quick_fix": "Wait 2–3 minutes after the cycle ends, then press and hold the Start/Pause button for 3 seconds to manually release the door lock — this resolves the issue in most cases (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When your Electrolux washing machine door refuses to open, it is almost always the door interlock system doing its job — or failing to release after it has done its job. The interlock is a safety device that keeps the door sealed while the drum is spinning or while hot water is present. Under normal conditions it releases within a minute or two of the cycle finishing.</p><p>If the door stays locked well after the cycle has ended, or if the machine displays an error code such as E40, E41, E42, E44, or E45, the interlock, its wiring, or the control board may not be communicating correctly. In some cases the drum still contains water, which will also keep the door locked as a safety measure.</p><p>The good news is that most door-lock faults on Electrolux machines are straightforward to diagnose at home, and a large proportion can be resolved without replacing any parts at all.</p>",
+      "causes_json": [
+        {
+          "cause": "Door interlock not releasing after cycle",
+          "detail": "The electronic door interlock has a small thermal or solenoid mechanism that can stick in the locked position, especially on older machines. This is the most frequent reason the door stays shut even though the wash programme has finished."
+        },
+        {
+          "cause": "Water remaining in the drum",
+          "detail": "If the machine has not drained fully, a pressure sensor tells the control board to keep the door locked as a safety precaution. You may notice water visible through the door glass or hear it sloshing when you tilt the machine slightly."
+        },
+        {
+          "cause": "Faulty or worn door interlock (E40, E41, E42, E44, E45)",
+          "detail": "Error codes E40 through E45 all relate to the door lock circuit. They indicate that the control board is either not receiving a confirmation signal from the interlock or is detecting an unexpected signal, pointing to a failing or failed interlock unit."
+        },
+        {
+          "cause": "Broken door handle or latch",
+          "detail": "The plastic latch tongue on the door or the catch inside the machine can crack or deform over time, preventing the mechanism from disengaging even when the interlock has released. You may hear a click but the door still will not pull open."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "If the main control board is not sending the release signal to the interlock, the door will stay locked regardless of the interlock's condition. This is less common but is worth considering if all other checks pass."
+        },
+        {
+          "cause": "Power interruption mid-cycle",
+          "detail": "A power cut or tripped circuit breaker during a wash can leave the interlock energised in the locked position. The machine may not complete its normal end-of-cycle release routine when power returns."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Wait and try again",
+          "detail": "After the cycle ends, wait at least 3 minutes before trying the door. The interlock needs time to cool and release. If the door still will not open, press and hold the Start/Pause button for 3 seconds — on many Electrolux models this triggers a manual unlock routine."
+        },
+        {
+          "step": 2,
+          "action": "Check for remaining water",
+          "detail": "Look through the door glass for standing water in the drum. If water is present, run a Drain or Spin programme to empty the machine. Once the drum is empty and the cycle completes, the door should release automatically within a couple of minutes."
+        },
+        {
+          "step": 3,
+          "action": "Reset the machine",
+          "detail": "Switch the machine off at the wall socket and leave it unpowered for 5 minutes. This clears any temporary error stored in the control board. Restore power, select a short programme, let it run for 30 seconds, then cancel it and wait for the door to release."
+        },
+        {
+          "step": 4,
+          "action": "Use the emergency door release cord",
+          "detail": "Most Electrolux front-loaders have a manual release cord located behind the small access panel at the bottom front of the machine. Open the panel, locate the brightly coloured (usually orange or red) pull tab or cord, and pull it firmly downward. This mechanically disengages the interlock and allows the door to open."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the door handle and latch",
+          "detail": "With the door open, examine the plastic latch tongue on the door and the catch housing on the machine body. Look for cracks, chips, or deformation. A broken latch tongue is a common and inexpensive repair — replacement handles are widely available and clip or screw into place without specialist tools."
+        },
+        {
+          "step": 6,
+          "action": "Test and replace the door interlock",
+          "detail": "If the door opens via the emergency cord but locks again immediately or shows an E40–E45 error, the interlock unit itself is likely faulty. Unplug the machine, remove the door seal retaining band, and unclip the interlock from the front panel. Use a multimeter to check for continuity across the interlock terminals according to your model's wiring diagram. A failed interlock should be replaced like-for-like."
+        },
+        {
+          "step": 7,
+          "action": "Check wiring connections to the interlock",
+          "detail": "Before assuming the interlock itself is dead, inspect the wiring harness connector that plugs into it. A loose or corroded connector can produce the same E40–E45 error codes as a failed interlock. Unplug the connector, check the terminals for corrosion or bent pins, and reseat it firmly before retesting."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above — including using the emergency release cord, resetting the machine, and inspecting the interlock and wiring — and the door still will not open or immediately re-locks, it is time to call a service technician. Persistent E40–E45 codes after an interlock replacement can indicate a wiring harness fault or a failing control board, both of which require diagnostic equipment to pinpoint safely.</p><p>You should also contact a service technician without attempting further DIY if the door glass is cracked, if you can smell burning near the door lock area, or if the machine trips your household circuit breaker when it tries to release the lock. These signs suggest an electrical fault that goes beyond a simple component swap.</p>",
+      "prevention_html": "<p>The parts most commonly replaced for a stuck door on Electrolux washing machines are the door interlock assembly, the door handle and latch kit, and — less frequently — the door hinge. Keeping the door seal clean and free of debris reduces strain on the latch mechanism, and avoiding slamming the door helps the handle and latch last significantly longer. It is also worth running a monthly drum-clean programme to prevent detergent build-up that can interfere with the drain system and indirectly cause the door to stay locked.</p><p>If you need to order any of these parts, use your full model number (printed on the label inside the door frame) to make sure you get the correct version for your machine.</p>\n<!-- SPARE_PARTS_FAULT:door-wont-open -->",
+      "faq_json": [
+        {
+          "answer": "No — forcing the door can crack the door glass, break the handle, or damage the interlock housing, turning a simple fix into a costly repair. Always use the emergency release cord at the bottom of the machine first. If that does not work, call a service technician rather than applying force to the door.",
+          "question": "Is it safe to force my Electrolux washing machine door open?"
+        },
+        {
+          "answer": "All of these codes relate to the door lock circuit. E40 is a general door lock fault, while E41–E45 indicate more specific signal errors between the interlock and the control board. In practice, they all point you toward inspecting the interlock unit, its wiring connector, and — if those are fine — the control board.",
+          "question": "What do error codes E40, E41, E42, E44, and E45 mean on an Electrolux washer?"
+        },
+        {
+          "answer": "This usually means the interlock is failing intermittently or the control board is not completing the release sequence correctly. It can also happen if a drain issue is causing residual water to trigger the lock again. Run a Drain programme, check for error codes, and test the interlock with a multimeter as described in the steps above.",
+          "question": "My Electrolux washing machine door opened once but now locks again immediately — why?"
+        },
+        {
+          "answer": "It is located behind the small rectangular access panel at the bottom front of the machine, next to or above the drain filter cap. Open the panel, and you will see a brightly coloured pull tab or cord — typically orange or red. Pull it firmly downward to mechanically release the door lock. Always unplug the machine before reaching inside the panel.",
+          "question": "Where is the emergency door release on an Electrolux washing machine?"
+        },
+        {
+          "answer": "For most Electrolux front-loader models, replacing the door interlock takes around 30–45 minutes with basic tools. You will need to peel back the door seal, unclip the old interlock from the front panel, disconnect the wiring, and fit the new unit in reverse order. Make sure the machine is unplugged throughout the repair.",
+          "question": "How long does it take to replace a door interlock on an Electrolux washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T16:05:03.893218+00:00"
+    },
+    {
+      "id": 571,
+      "article_id": 354,
+      "locale": "sv",
+      "slug": "dorren-oppnas-inte",
+      "title_tag": "Electrolux Tvättmaskin Dörren Öppnas Inte – Lösningar",
+      "meta_description": "Electrolux tvättmaskinsdörr fastnad? Lär dig de vanligaste orsakerna och steg-för-steg-lösningar för att öppna dörren på ett säkert sätt, inklusive felkoder E40–E45.",
+      "h1": "Varför Öppnas Inte Dörren på Min Electrolux Tvättmaskin?",
+      "description": "Tvättmaskinsdörren förblir låst och går inte att öppna efter att programmet avslutats eller när man försöker starta en ny tvätt.",
+      "quick_fix": "Vänta 2–3 minuter efter att programmet avslutats och håll sedan in Start/Paus-knappen i 3 sekunder för att manuellt frigöra dörrlåset – detta löser problemet i de flesta fall (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När dörren på din Electrolux tvättmaskin vägrar att öppnas beror det nästan alltid på att dörrens låssystem gör sitt jobb – eller inte lyckas frigöras efter att det gjort sitt jobb. Låset är en säkerhetsanordning som håller dörren stängd medan trumman snurrar eller medan varmt vatten finns kvar. Under normala förhållanden frigörs det inom en till två minuter efter att programmet avslutats.</p><p>Om dörren förblir låst långt efter att programmet avslutats, eller om maskinen visar en felkod som E40, E41, E42, E44 eller E45, kommunicerar låset, dess kabeldragning eller styrkortet eventuellt inte korrekt. I vissa fall finns det fortfarande vatten i trumman, vilket också håller dörren låst som en säkerhetsåtgärd.</p><p>Den goda nyheten är att de flesta dörrlåsfel på Electrolux-maskiner är enkla att diagnostisera hemma, och en stor andel kan åtgärdas utan att byta ut några delar alls.</p>",
+      "causes_json": [
+        {
+          "cause": "Dörrlåset frigörs inte efter programmet",
+          "detail": "Det elektroniska dörrlåset har en liten termisk eller solenoidmekanism som kan fastna i låst läge, särskilt på äldre maskiner. Detta är den vanligaste anledningen till att dörren förblir stängd även om tvättrogrammet har avslutats."
+        },
+        {
+          "cause": "Vatten kvar i trumman",
+          "detail": "Om maskinen inte har tömts helt skickar en trycksensor en signal till styrkortet om att hålla dörren låst som en säkerhetsåtgärd. Du kan se vatten genom dörrglaset eller höra det skvimpa när du lutar maskinen något."
+        },
+        {
+          "cause": "Defekt eller slitet dörrlås (E40, E41, E42, E44, E45)",
+          "detail": "Felkoderna E40 till E45 är alla kopplade till dörrlåskretsen. De indikerar att styrkortet antingen inte tar emot en bekräftelsesignal från låset eller att det detekterar en oväntad signal, vilket pekar på ett sviktande eller havererat låsenhet."
+        },
+        {
+          "cause": "Trasigt dörrhandtag eller hasp",
+          "detail": "Plasthaspen på dörren eller fångstmekanismen inuti maskinen kan spricka eller deformeras med tiden, vilket hindrar mekanismen från att lossna även när låset har frigjorts. Du kan höra ett klick men dörren går ändå inte att öppna."
+        },
+        {
+          "cause": "Fel på styrkortet",
+          "detail": "Om huvudstyrkortet inte skickar frigöringssignalen till dörrlåset förblir dörren låst oavsett låsets skick. Detta är mindre vanligt men värt att överväga om alla andra kontroller är godkända."
+        },
+        {
+          "cause": "Strömavbrott mitt i programmet",
+          "detail": "Ett strömavbrott eller en utlöst säkring under en tvätt kan lämna låset aktiverat i låst läge. Maskinen kanske inte slutför sin normala frigöringsrutin vid programslut när strömmen återkommer."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Vänta och försök igen",
+          "detail": "Efter att programmet avslutats, vänta minst 3 minuter innan du försöker öppna dörren. Låset behöver tid att svalna och frigöras. Om dörren fortfarande inte öppnas, håll in Start/Paus-knappen i 3 sekunder – på många Electrolux-modeller aktiverar detta en manuell upplåsningsrutin."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera om det finns vatten kvar",
+          "detail": "Titta genom dörrglaset efter stillastående vatten i trumman. Om vatten finns, kör ett Tömnings- eller Centrifugeringsprogram för att tömma maskinen. När trumman är tom och programmet avslutats bör dörren frigöras automatiskt inom ett par minuter."
+        },
+        {
+          "step": 3,
+          "action": "Återställ maskinen",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara strömlös i 5 minuter. Detta rensar eventuella tillfälliga fel lagrade i styrkortet. Återställ strömmen, välj ett kort program, låt det köra i 30 sekunder, avbryt det sedan och vänta på att dörren frigörs."
+        },
+        {
+          "step": 4,
+          "action": "Använd nödöppningskabeln för dörren",
+          "detail": "De flesta Electrolux frontmaskiner har en manuell frigöringskabel bakom den lilla åtkomstluckan längst ned på maskinens framsida. Öppna luckan, leta upp den klart färgade (vanligtvis orange eller röd) dragfliken eller kabeln och dra den bestämt nedåt. Detta kopplar mekaniskt loss låset och gör att dörren kan öppnas."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera dörrhandtaget och haspen",
+          "detail": "Med dörren öppen, undersök plasthaspen på dörren och fångstmekanismens hus på maskinkroppen. Leta efter sprickor, avslag eller deformation. En trasig hasp är en vanlig och billig reparation – ersättningshandtag finns allmänt tillgängliga och klickar eller skruvas på plats utan specialverktyg."
+        },
+        {
+          "step": 6,
+          "action": "Testa och byt dörrlåset",
+          "detail": "Om dörren öppnas via nödkabeln men låser sig igen omedelbart eller visar ett E40–E45-fel är låsenheten troligen defekt. Dra ur maskinen, ta bort dörrmanschetthållarringen och lossa låset från frontpanelen. Använd en multimeter för att kontrollera kontinuitet över låsets anslutningspunkter enligt din modells kopplingsschema. Ett havererat lås bör bytas mot ett likadant."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera kabelanslutningarna till dörrlåset",
+          "detail": "Innan du antar att låset självt är trasigt, inspektera kabelstammens kontakt som är ansluten till det. En lös eller korroderad kontakt kan ge samma E40–E45-felkoder som ett havererat lås. Koppla loss kontakten, kontrollera anslutningspunkterna för korrosion eller böjda stift och sätt i den ordentligt igen innan du testar på nytt."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har arbetat igenom alla stegen ovan – inklusive att använda nödöppningskabeln, återställa maskinen samt inspekterat låset och kabeldragningen – och dörren fortfarande inte öppnas eller låser sig igen omedelbart, är det dags att kontakta en servicetekniker. Ihållande E40–E45-koder efter ett låsbyte kan indikera ett fel på kabelstammen eller ett sviktande styrkort, som båda kräver diagnostikutrustning för att lokalisera på ett säkert sätt.</p><p>Du bör också kontakta en servicetekniker utan att försöka fler egna åtgärder om dörrglaset är sprucket, om du känner bränndoft nära dörrlåsområdet, eller om maskinen löser ut din hushållssäkring när den försöker frigöra låset. Dessa tecken tyder på ett elfel som går bortom ett enkelt komponentbyte.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid en fastnad dörr på Electrolux tvättmaskiner är dörrlåsenheten, dörrhandtaget och haspkitet samt – mer sällan – dörrgångjärnet. Att hålla dörrtätningen ren och fri från skräp minskar belastningen på låsmekanismen, och att undvika att slå igen dörren hjälper handtaget och haspen att hålla betydligt längre. Det är också värt att köra ett månatligt trumrengöringsprogram för att förhindra tvättmedelsuppbyggnad som kan störa avloppssystemet och indirekt orsaka att dörren förblir låst.</p><p>Om du behöver beställa någon av dessa delar, använd ditt fullständiga modellnummer (tryckt på etiketten inuti dörrkarmens ram) för att säkerställa att du får rätt version för din maskin.</p>\n<!-- SPARE_PARTS_FAULT:door-wont-open -->",
+      "faq_json": [
+        {
+          "answer": "Nej – att tvinga upp dörren kan spräcka dörrglaset, bryta handtaget eller skada låshuset, och förvandla en enkel åtgärd till en kostsam reparation. Använd alltid nödöppningskabeln längst ned på maskinen först. Om det inte fungerar, kontakta en servicetekniker istället för att använda kraft mot dörren.",
+          "question": "Är det säkert att tvinga upp dörren på min Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Alla dessa koder är kopplade till dörrlåskretsen. E40 är ett allmänt dörrlåsfel, medan E41–E45 indikerar mer specifika signalfel mellan låset och styrkortet. I praktiken pekar de alla mot att du bör inspektera låsenheten, dess kabelkontakt och – om dessa är i ordning – styrkortet.",
+          "question": "Vad betyder felkoderna E40, E41, E42, E44 och E45 på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Detta beror vanligtvis på att låset sviktar intermittent eller att styrkortet inte slutför frigöringssekvensen korrekt. Det kan också hända om ett avloppsproblem orsakar att kvarvarande vatten utlöser låset igen. Kör ett Tömningsprogram, kontrollera felkoderna och testa låset med en multimeter enligt stegen ovan.",
+          "question": "Dörren på min Electrolux tvättmaskin öppnades en gång men låser sig igen omedelbart – varför?"
+        },
+        {
+          "answer": "Den sitter bakom den lilla rektangulära åtkomstluckan längst ned på maskinens framsida, bredvid eller ovanför avloppsfilterhatten. Öppna luckan så ser du en klart färgad dragflik eller kabel – vanligtvis orange eller röd. Dra den bestämt nedåt för att mekaniskt frigöra dörrlåset. Dra alltid ur maskinen innan du sträcker in handen i luckan.",
+          "question": "Var sitter nödöppningen på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "För de flesta Electrolux frontmaskinmodeller tar det ungefär 30–45 minuter att byta dörrlåset med grundläggande verktyg. Du behöver dra tillbaka dörrtätningen, lossa det gamla låset från frontpanelen, koppla loss kabeldragningen och montera den nya enheten i omvänd ordning. Se till att maskinen är urkopplad under hela reparationen.",
+          "question": "Hur lång tid tar det att byta dörrlåset på en Electrolux tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T16:06:12.584765+00:00"
+    },
+    {
+      "id": 572,
+      "article_id": 355,
+      "locale": "en",
+      "slug": "making-loud-noise",
+      "title_tag": "Electrolux Washing Machine Making Loud Noise – Fixes",
+      "meta_description": "Is your Electrolux washing machine making a loud noise? Find the most common causes and step-by-step fixes to get it running quietly again.",
+      "h1": "Why Is My Electrolux Washing Machine Making a Loud Noise?",
+      "description": "The washing machine produces an unusually loud banging, grinding, or rumbling noise during the wash or spin cycle.",
+      "quick_fix": "Open the drum and check for coins, bra wires, or other small objects trapped between the drum and the door seal — removing them usually stops the noise immediately (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>A loud noise from your Electrolux washing machine is one of the most common complaints homeowners report, and it can range from a rhythmic banging during spin to a constant grinding or rumbling throughout the cycle. The noise often points to a mechanical issue inside the drum assembly, the motor system, or the machine's suspension — all of which take a beating over thousands of wash cycles.</p><p>In many cases the cause is straightforward: an unbalanced load, a foreign object caught in the drum, or worn drum bearings. The good news is that several of these issues can be identified and resolved without specialist tools. Working through the checks below in order will help you pinpoint the source quickly and decide whether it's a job you can handle yourself or one that needs a service technician.</p>",
+      "causes_json": [
+        {
+          "cause": "Foreign object trapped in the drum or pump",
+          "detail": "Coins, bra underwires, buttons, and small clips can slip through the drum holes and become lodged between the drum and the outer tub, or travel into the drain pump. This creates a rattling, scraping, or clicking noise that is often loudest during spin."
+        },
+        {
+          "cause": "Worn or failed drum bearings",
+          "detail": "The drum bearings allow the inner drum to spin smoothly inside the outer tub. When they wear out — usually after several years of use — they produce a loud rumbling or roaring sound that gets worse as the spin speed increases."
+        },
+        {
+          "cause": "Unbalanced or overloaded drum",
+          "detail": "A heavy, unevenly distributed load causes the drum to wobble violently during spin, producing a loud banging or thumping noise. Washing a single heavy item like a duvet on its own is a common trigger."
+        },
+        {
+          "cause": "Worn or damaged drive belt",
+          "detail": "The drive belt connects the motor to the drum. Over time it can stretch, crack, or partially slip off its pulley, causing a squealing or slapping noise during the wash and spin phases."
+        },
+        {
+          "cause": "Faulty or worn shock absorbers and suspension springs",
+          "detail": "Shock absorbers dampen drum movement during spin. When they wear out, the drum moves excessively and can knock against the cabinet, producing a loud banging noise particularly at high spin speeds."
+        },
+        {
+          "cause": "Loose or worn motor brushes",
+          "detail": "Electrolux washing machines with brushed motors can develop a harsh grinding or buzzing noise when the carbon motor brushes wear down. The noise typically appears during agitation and spin and may be accompanied by reduced spin performance."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check for foreign objects in the drum",
+          "detail": "Before running any cycle, reach inside the drum and feel around the rubber door seal, pressing it back gently to look for trapped objects. Rotate the drum slowly by hand and listen for scraping. Remove anything you find. Also check pockets before every wash to prevent recurrence."
+        },
+        {
+          "step": 2,
+          "action": "Redistribute or reduce the load",
+          "detail": "If the noise happens during spin, pause the cycle and open the door. Rearrange the laundry so it is spread evenly around the drum rather than bunched on one side. If the machine is overloaded, remove some items and run two smaller loads instead. Never wash a single heavy item alone — add a couple of towels to balance the weight."
+        },
+        {
+          "step": 3,
+          "action": "Check that the machine is level",
+          "detail": "Place a spirit level on top of the machine and check it front-to-back and side-to-side. If it is not level, adjust the feet by turning them clockwise to raise or anti-clockwise to lower. Tighten the lock nuts once the machine is stable. An unlevel machine will rock and bang during spin even with a balanced load."
+        },
+        {
+          "step": 4,
+          "action": "Inspect and clean the drain pump filter",
+          "detail": "A rattling noise that is loudest during draining often points to debris in the pump filter. Locate the filter access panel at the bottom front of the machine, place a towel and shallow tray underneath, then slowly unscrew the filter cap to drain residual water. Pull out the filter, remove any debris, rinse it under a tap, and refit it securely."
+        },
+        {
+          "step": 5,
+          "action": "Spin the drum by hand to test the bearings",
+          "detail": "With the machine empty and switched off, open the door and spin the drum by hand. A healthy drum spins freely and quietly. A rumbling, grinding, or rough feeling as it turns is a strong indicator of worn drum bearings. Also push the drum up and down — more than a few millimetres of movement suggests bearing wear."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the drive belt",
+          "detail": "Unplug the machine and carefully pull it away from the wall. Remove the back panel (usually held by several screws). Locate the drive belt running around the drum pulley and motor. Check for cracks, fraying, or signs that it has slipped. A worn belt should be replaced — search for your model number to find the correct part."
+        },
+        {
+          "step": 7,
+          "action": "Check the shock absorbers",
+          "detail": "With the back panel removed, locate the shock absorbers connecting the outer tub to the machine frame. Push the tub firmly and release it — it should return smoothly with minimal bounce. If it bounces several times or you can see oil leaking from the absorber body, the shock absorbers need replacing. This is a moderately straightforward DIY repair with the correct replacement parts."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If the drum feels rough or loose when you spin it by hand, or if you hear a deep, constant rumbling that worsens with spin speed, the drum bearings have most likely failed. Bearing replacement requires dismantling a significant portion of the machine and pressing out the old bearings — this is a job best left to a service technician to avoid damaging the outer tub or drum shaft.</p><p>You should also call a service technician if the machine vibrates so severely that it moves across the floor despite being level and properly loaded, if you notice burning smells alongside the noise, or if the drum has stopped turning altogether. These symptoms suggest motor or structural damage that goes beyond routine maintenance.</p>",
+      "prevention_html": "<p>The parts most commonly replaced on Electrolux washing machines presenting with loud noise are the <strong>drum bearing and seal kit</strong>, the <strong>drive belt</strong>, and the <strong>shock absorbers</strong>. Using genuine or quality-equivalent parts ensures the correct fit and helps the machine run quietly for longer. Always quote your full model number when ordering to make sure you get the right specification.</p><p>To reduce wear on these components, avoid overloading the drum, always check pockets before washing, and run a monthly drum-clean cycle to prevent debris build-up. Keeping the machine level and on a solid floor also significantly reduces stress on the bearings and suspension over time.</p>\n<!-- SPARE_PARTS_FAULT:making-loud-noise -->",
+      "faq_json": [
+        {
+          "answer": "Noise that appears specifically during spin is most often caused by worn drum bearings, failed shock absorbers, or an unbalanced load. The spin cycle puts the most mechanical stress on these components. Try redistributing the load first — if the noise persists with a balanced load, the bearings or shock absorbers are the likely culprit.",
+          "question": "Why does my Electrolux washing machine make a loud noise only during spin?"
+        },
+        {
+          "answer": "It depends on the cause. A minor rattle from a trapped coin is unlikely to cause further damage if dealt with quickly. However, continuing to run the machine with failed drum bearings can cause the drum shaft to damage the outer tub, turning a moderate repair into a much more expensive one. It is best to diagnose and fix the noise promptly.",
+          "question": "Is it safe to keep using my washing machine if it is making a loud noise?"
+        },
+        {
+          "answer": "Spin the empty drum by hand with the machine switched off. If you feel resistance, roughness, or hear a rumbling sound, the bearings are likely worn. You can also push the drum up and down — excessive play of more than a few millimetres is another clear sign. A loud roaring noise that increases with spin speed strongly supports a bearing diagnosis.",
+          "question": "How do I know if it is the drum bearings that are causing the noise?"
+        },
+        {
+          "answer": "Yes. If the transit bolts were not removed when the machine was first installed, the drum is locked in place and will make an extremely loud banging noise from the very first cycle. Check the back of the machine for any remaining transit bolts and remove them. Also ensure the machine is sitting level on a firm floor, as an uneven surface amplifies vibration significantly.",
+          "question": "Can a washing machine make a loud noise because of the installation?"
+        },
+        {
+          "answer": "The cost varies widely depending on the cause. Replacing a drive belt or shock absorbers is relatively affordable, with parts typically costing between £15 and £50 and the job being manageable as a DIY repair. Drum bearing replacement is more involved — parts and labour from a service technician can range from £100 to £200 or more depending on the model and your location.",
+          "question": "How much does it typically cost to fix a noisy Electrolux washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T16:07:06.091918+00:00"
+    },
+    {
+      "id": 573,
+      "article_id": 355,
+      "locale": "sv",
+      "slug": "låter-högt",
+      "title_tag": "Electrolux Tvättmaskin Låter Högt – Lösningar",
+      "meta_description": "Låter din Electrolux tvättmaskin högt? Hitta de vanligaste orsakerna och steg-för-steg-lösningar för att få den att gå tyst igen.",
+      "h1": "Varför låter min Electrolux tvättmaskin så högt?",
+      "description": "Tvättmaskinen producerar ett ovanligt högt bankande, malande eller dånande ljud under tvätt- eller centrifugeringscykeln.",
+      "quick_fix": "Öppna trumman och kontrollera om det finns mynt, bh-byglar eller andra små föremål som fastnat mellan trumman och dörrtätningen – att ta bort dem brukar stoppa ljudet omedelbart (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Ett högt ljud från din Electrolux tvättmaskin är ett av de vanligaste klagomålen som hushållsägare rapporterar, och det kan variera från ett rytmiskt bankande under centrifugering till ett konstant malande eller dånande ljud under hela cykeln. Ljudet pekar ofta på ett mekaniskt problem inuti trumenheten, motorsystemet eller maskinens upphängning – delar som utsätts för hårt slitage under tusentals tvättcykler.</p><p>I många fall är orsaken enkel: en obalanserad last, ett främmande föremål som fastnat i trumman eller slitna trumlagrar. Den goda nyheten är att flera av dessa problem kan identifieras och åtgärdas utan specialverktyg. Genom att gå igenom kontrollerna nedan i ordning kan du snabbt hitta källan och avgöra om det är ett jobb du kan hantera själv eller om det kräver en servicetekniker.</p>",
+      "causes_json": [
+        {
+          "cause": "Främmande föremål fastnat i trumman eller pumpen",
+          "detail": "Mynt, bh-byglar, knappar och små clips kan glida igenom trummans hål och fastna mellan trumman och yttertunnan, eller ta sig in i avloppspumpen. Detta skapar ett skramlande, skrapande eller klickande ljud som ofta är som högst under centrifugering."
+        },
+        {
+          "cause": "Slitna eller trasiga trumlagrar",
+          "detail": "Trumlagramen gör att innertrumman kan snurra smidigt inuti yttertunnan. När de slits ut – vanligtvis efter flera års användning – producerar de ett högt dånande eller brusande ljud som förvärras när centrifugeringshastigheten ökar."
+        },
+        {
+          "cause": "Obalanserad eller överlastad trumma",
+          "detail": "En tung, ojämnt fördelad last gör att trumman skakar våldsamt under centrifugering och producerar ett högt bankande eller dunkande ljud. Att tvätta ett enda tungt föremål som en duntäcke ensamt är en vanlig orsak."
+        },
+        {
+          "cause": "Sliten eller skadad drivrem",
+          "detail": "Drivremmen förbinder motorn med trumman. Med tiden kan den sträckas ut, spricka eller delvis glida av sitt drev, vilket orsakar ett gnisslande eller smällande ljud under tvätt- och centrifugeringsfaserna."
+        },
+        {
+          "cause": "Defekta eller slitna stötdämpare och upphängningsfäder",
+          "detail": "Stötdämparna dämpar trummans rörelser under centrifugering. När de slits ut rör sig trumman för mycket och kan slå mot kabinettet, vilket producerar ett högt bankande ljud särskilt vid höga centrifugeringshastigheter."
+        },
+        {
+          "cause": "Lösa eller slitna motorborstar",
+          "detail": "Electrolux tvättmaskiner med borstmotorer kan utveckla ett hårt malande eller surrande ljud när kolmotorborstarna slits ned. Ljudet uppträder vanligtvis under omrörning och centrifugering och kan åtföljas av försämrad centrifugeringsprestanda."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera om det finns främmande föremål i trumman",
+          "detail": "Innan du kör någon cykel, sträck in handen i trumman och känn längs gummidörrtätningen och tryck försiktigt tillbaka den för att leta efter fastnade föremål. Rotera trumman långsamt för hand och lyssna efter skrapljud. Ta bort allt du hittar. Kontrollera också fickor före varje tvätt för att förhindra upprepning."
+        },
+        {
+          "step": 2,
+          "action": "Omfördela eller minska lasten",
+          "detail": "Om ljudet uppstår under centrifugering, pausa cykeln och öppna luckan. Arrangera om tvätten så att den är jämnt fördelad runt trumman istället för hopbuntad på ena sidan. Om maskinen är överlastad, ta ut några plagg och kör två mindre laster istället. Tvätta aldrig ett enda tungt föremål ensamt – lägg till ett par handdukar för att balansera vikten."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera att maskinen står i våg",
+          "detail": "Placera ett vattenpass ovanpå maskinen och kontrollera det framifrån-bakåt och sida-till-sida. Om den inte är i våg, justera fötterna genom att vrida dem medurs för att höja eller moturs för att sänka. Dra åt låsmuttrarna när maskinen är stabil. En maskin som inte står i våg kommer att gunga och banka under centrifugering även med en balanserad last."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera och rengör avloppspumpens filter",
+          "detail": "Ett skramlande ljud som är som högst under avrinning pekar ofta på skräp i pumpfiltret. Hitta filteråtkomstluckan längst ned på maskinens framsida, placera en handduk och ett grunt fat undertill, och skruva sedan långsamt loss filterlocket för att tömma kvarvarande vatten. Dra ut filtret, ta bort eventuellt skräp, skölj det under kranen och sätt tillbaka det ordentligt."
+        },
+        {
+          "step": 5,
+          "action": "Snurra trumman för hand för att testa lagren",
+          "detail": "Med maskinen tom och avstängd, öppna luckan och snurra trumman för hand. En frisk trumma snurrar fritt och tyst. Ett dånande, malande eller ojämnt känsla när den snurrar är en stark indikation på slitna trumlagrar. Tryck också trumman upp och ned – mer än några millimeters rörelse tyder på lagerslitage."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera drivremmen",
+          "detail": "Koppla ur maskinen och dra försiktigt ut den från väggen. Ta bort bakpanelen (vanligtvis fäst med flera skruvar). Hitta drivremmen som löper runt trummans drev och motorn. Kontrollera om det finns sprickor, fransning eller tecken på att den har glidit av. En sliten rem bör bytas ut – sök efter ditt modellnummer för att hitta rätt reservdel."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera stötdämparna",
+          "detail": "Med bakpanelen borttagen, hitta stötdämparna som förbinder yttertunnan med maskinens ram. Tryck tunnan ordentligt och släpp den – den ska återgå smidigt med minimal studs. Om den studsar flera gånger eller om du kan se olja som läcker från dämparkroppen behöver stötdämparna bytas. Detta är en relativt enkel DIY-reparation med rätt reservdelar."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om trumman känns ojämn eller lös när du snurrar den för hand, eller om du hör ett djupt, konstant dånande som förvärras med centrifugeringshastigheten, har trumlagramen troligtvis gått sönder. Lagerbyte kräver att en betydande del av maskinen demonteras och att de gamla lagren pressas ut – detta är ett jobb som bäst överlåts till en servicetekniker för att undvika skador på yttertunnan eller trumaxeln.</p><p>Du bör också kontakta en servicetekniker om maskinen vibrerar så kraftigt att den förflyttar sig över golvet trots att den står i våg och är korrekt lastad, om du märker brännlukt tillsammans med ljudet, eller om trumman har slutat snurra helt. Dessa symptom tyder på motor- eller strukturskador som går utöver rutinunderhåll.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut på Electrolux tvättmaskiner med högt ljud är <strong>trumlagret och tätningssatsen</strong>, <strong>drivremmen</strong> och <strong>stötdämparna</strong>. Att använda äkta eller kvalitetsmässigt likvärdiga delar säkerställer rätt passform och hjälper maskinen att gå tyst längre. Ange alltid ditt fullständiga modellnummer när du beställer för att säkerställa att du får rätt specifikation.</p><p>För att minska slitaget på dessa komponenter, undvik att överlasta trumman, kontrollera alltid fickor före tvätt och kör en månatlig trumrengöringscykel för att förhindra ansamling av skräp. Att hålla maskinen i våg och på ett stabilt golv minskar också avsevärt belastningen på lagren och upphängningen över tid.</p>\n<!-- SPARE_PARTS_FAULT:making-loud-noise -->",
+      "faq_json": [
+        {
+          "answer": "Ljud som uppstår specifikt under centrifugering orsakas oftast av slitna trumlagrar, trasiga stötdämpare eller en obalanserad last. Centrifugeringscykeln utsätter dessa komponenter för störst mekanisk belastning. Försök att omfördela lasten först – om ljudet kvarstår med en balanserad last är lagren eller stötdämparna troligtvis orsaken.",
+          "question": "Varför låter min Electrolux tvättmaskin högt bara under centrifugering?"
+        },
+        {
+          "answer": "Det beror på orsaken. Ett litet skramlande från ett fastnat mynt är osannolikt att orsaka ytterligare skada om det åtgärdas snabbt. Att fortsätta köra maskinen med trasiga trumlagrar kan dock orsaka att trumaxeln skadar yttertunnan, vilket förvandlar en måttlig reparation till en betydligt dyrare. Det är bäst att diagnostisera och åtgärda ljudet omgående.",
+          "question": "Är det säkert att fortsätta använda tvättmaskinen om den låter högt?"
+        },
+        {
+          "answer": "Snurra den tomma trumman för hand med maskinen avstängd. Om du känner motstånd, ojämnhet eller hör ett dånande ljud är lagren troligtvis slitna. Du kan också trycka trumman upp och ned – överdrivet spel på mer än några millimeter är ett annat tydligt tecken. Ett högt brusande ljud som ökar med centrifugeringshastigheten stöder starkt en lagerdiagnos.",
+          "question": "Hur vet jag om det är trumlagramen som orsakar ljudet?"
+        },
+        {
+          "answer": "Ja. Om transportbultarna inte togs bort när maskinen installerades första gången är trumman låst på plats och kommer att producera ett extremt högt bankande ljud från allra första cykeln. Kontrollera maskinens baksida om det finns kvarvarande transportbultar och ta bort dem. Se också till att maskinen står i våg på ett stabilt golv, eftersom ett ojämnt underlag förstärker vibrationer avsevärt.",
+          "question": "Kan en tvättmaskin låta högt på grund av installationen?"
+        },
+        {
+          "answer": "Kostnaden varierar kraftigt beroende på orsaken. Att byta en drivrem eller stötdämpare är relativt prisvärt, med delar som vanligtvis kostar mellan 150 och 500 kronor och jobbet är hanterbart som en DIY-reparation. Trumlagerbyte är mer omfattande – delar och arbetskostnad från en servicetekniker kan variera från 1 000 till 2 000 kronor eller mer beroende på modell och din plats.",
+          "question": "Vad kostar det vanligtvis att laga en bullrig Electrolux tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T16:08:21.74288+00:00"
+    }
+  ]
+}

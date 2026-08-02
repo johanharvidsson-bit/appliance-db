@@ -1,0 +1,1037 @@
+{
+  "exported_at": "2026-07-30T21:13:10.565042+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    176,
+    177,
+    178,
+    180,
+    181
+  ],
+  "rows": [
+    {
+      "article_id": 176,
+      "locale": "en",
+      "slug": "error-code-e29",
+      "title_tag": "Bosch Washing Machine Error Code E29 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error E29? Learn what causes low water pressure faults, how to fix them yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E29 Mean on a Bosch Washing Machine?",
+      "description": "Error code E29 on a Bosch washing machine indicates that the appliance has detected insufficient water pressure or flow at the inlet, typically caused by a closed tap, kinked hose, or blocked inlet valve filter.",
+      "quick_fix": "Check that the cold water tap behind the machine is fully open and the inlet hose is not kinked — straightening the hose or opening the tap fully should clear the error and allow the cycle to resume within about 5 minutes.",
+      "intro_html": "<p>Error code E29 is a water supply fault. It means your Bosch washing machine started a cycle, attempted to fill with water, and either received no water at all or detected that the flow rate was too low to continue safely. The machine will pause or stop mid-cycle and display E29 on the control panel.</p><p>The fault sits within the water intake system — specifically the path from your household supply through the inlet hose and inlet valve into the drum. When the machine cannot confirm adequate pressure within a set time window, it triggers this code as a protective measure to prevent the motor and heating element from running dry.</p><p>In most cases this is a straightforward issue you can resolve without tools. A closed or partially closed tap, a kinked hose, or a clogged mesh filter inside the inlet valve connection are the most frequent culprits.</p>",
+      "causes_json": [
+        {
+          "cause": "Closed or partially closed water tap",
+          "detail": "The cold water supply tap behind the machine may have been accidentally knocked shut or left only partially open after a previous repair or move. Even a tap that is three-quarters open can restrict flow enough to trigger E29."
+        },
+        {
+          "cause": "Kinked or crushed inlet hose",
+          "detail": "If the machine has been pushed back against the wall, the inlet hose can become bent or flattened, severely reducing water flow. This is especially common after the appliance has been moved for cleaning or installation."
+        },
+        {
+          "cause": "Blocked inlet valve mesh filter",
+          "detail": "A small mesh filter sits inside the inlet valve connection point where the hose meets the machine. Over time, sediment and limescale from the water supply can clog this filter, reducing pressure to a trickle."
+        },
+        {
+          "cause": "Faulty or seized inlet valve",
+          "detail": "The solenoid-operated inlet valve controls water entry into the drum. If the valve coil fails electrically or the valve body becomes stuck due to limescale build-up, it will not open fully, starving the machine of water."
+        },
+        {
+          "cause": "Low household water pressure",
+          "detail": "A temporary drop in mains water pressure — caused by works in your street, a partially closed stopcock, or high demand in the building — can be enough to trigger E29. Checking other taps in the house will confirm whether this is a wider supply issue."
+        },
+        {
+          "cause": "Faulty pressure sensor or wiring",
+          "detail": "Less commonly, the water level pressure sensor or its connecting wiring harness can develop a fault, causing the machine to misread the fill level and report E29 even when water supply is normal."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the water supply tap",
+          "detail": "Locate the cold water tap on the wall behind the washing machine and make sure it is turned fully anti-clockwise (fully open). It sounds obvious, but this single check resolves the fault in a large proportion of E29 cases. Once open, restart the cycle and observe whether the machine begins to fill normally."
+        },
+        {
+          "step": 2,
+          "action": "Inspect the inlet hose for kinks",
+          "detail": "Gently pull the machine forward a few centimetres and run your hand along the full length of the inlet hose from the tap to the back of the machine. Straighten any bends or kinks you find. Ensure there is enough slack in the hose so it does not get crushed when the machine is pushed back into position."
+        },
+        {
+          "step": 3,
+          "action": "Clean the inlet valve mesh filter",
+          "detail": "Turn off the water tap and place a towel and small bowl under the hose connection at the back of the machine. Unscrew the inlet hose by hand — expect a small amount of residual water. Use a pair of needle-nose pliers or your fingers to carefully pull out the small mesh filter from inside the valve port. Rinse it under a running tap and use an old toothbrush to remove any sediment or limescale, then refit it and reconnect the hose securely before turning the tap back on."
+        },
+        {
+          "step": 4,
+          "action": "Check household water pressure",
+          "detail": "Turn on a cold tap elsewhere in your home — a kitchen sink or bathroom basin — and observe the flow. If pressure seems low throughout the house, the issue is with your mains supply rather than the machine. Contact your water supplier or check whether your property's main stopcock is fully open."
+        },
+        {
+          "step": 5,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains socket, wait 60 seconds, then switch it back on and select a new cycle. This clears any stored fault state and allows the machine to attempt a fresh fill sequence. If the water supply is now adequate, the cycle should proceed without the E29 code returning."
+        },
+        {
+          "step": 6,
+          "action": "Test the inlet valve",
+          "detail": "If the above steps have not resolved the fault, the inlet valve itself may be faulty. With the machine unplugged, disconnect the inlet hose and inspect the valve body for visible limescale damage or cracking. You can test the solenoid coils for continuity using a multimeter — a reading of open circuit (infinite resistance) confirms a failed coil. Replacement inlet valves for Bosch machines are widely available and are a straightforward part to swap out."
+        },
+        {
+          "step": 7,
+          "action": "Check the pressure sensor and wiring",
+          "detail": "If the inlet valve tests fine but E29 persists, inspect the wiring harness running from the inlet valve and pressure sensor to the main control board. Look for any loose connectors, pinched wires, or signs of corrosion. Reseat any connectors that appear loose. If wiring looks intact but the fault remains, the pressure sensor may need replacing — at this point professional diagnosis is advisable."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have confirmed the water tap is fully open, the hose is clear, and the mesh filter is clean, but the machine still displays E29 and fails to fill, the fault is likely internal. A seized or electrically failed inlet valve, a defective pressure sensor, or a fault on the main control board all require component-level testing that goes beyond basic DIY checks.</p><p>You should also call a service technician if you notice any water leaking from the inlet valve area, if the machine trips your household electrics when it attempts to fill, or if the wiring harness shows signs of burning or damage. These symptoms indicate a more serious fault that needs professional attention before the machine is used again.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch E29 fault are the <strong>inlet valve assembly</strong> (the solenoid valve that controls water entry), the <strong>inlet hose</strong> (which can degrade, kink, or develop internal blockages over time), and the <strong>water pressure sensor</strong> (also called the pressure switch or level sensor). Keeping a note of your machine's full model number — found on the label inside the door frame — will help you find the correct compatible parts quickly.</p><p>To reduce the chance of E29 recurring, clean the inlet valve mesh filter once a year as part of routine maintenance, and avoid pushing the machine hard against the wall in a way that stresses the hose. If you live in a hard water area, consider fitting an inline water softener or descaling the valve filter more frequently.</p>\n<!-- SPARE_PARTS:E29 -->",
+      "faq_json": [
+        {
+          "answer": "No — when E29 is active the machine has halted the cycle because it cannot confirm a safe water supply. Running the machine in this state risks damaging the pump, heating element, or drum bearings. Resolve the water supply issue first, then restart a cycle.",
+          "question": "Can I still use my Bosch washing machine while it shows E29?"
+        },
+        {
+          "answer": "In most cases, yes. Once the root cause is resolved — tap opened, hose straightened, or filter cleaned — switching the machine off at the mains for 60 seconds and restarting it will clear the error code. If E29 returns immediately on the next fill attempt, there is still a restriction or a component fault to address.",
+          "question": "Will E29 clear itself once I fix the water supply?"
+        },
+        {
+          "answer": "If cleaning the mesh filter makes no difference and the hose and tap are both fine, test the valve solenoid coils with a multimeter set to resistance. A healthy coil typically reads between 200 and 500 ohms depending on the model. An open circuit reading means the coil has failed and the valve needs replacing.",
+          "question": "How do I know if my inlet valve needs replacing rather than just cleaning?"
+        },
+        {
+          "answer": "Yes. In very cold weather, the external section of the inlet hose or the pipe leading to the tap can freeze, completely blocking water flow. If you suspect this, do not use a naked flame to thaw the pipe. Instead, apply warm (not boiling) water or a warm cloth to the affected section and allow it to thaw gradually.",
+          "question": "Could a frozen pipe cause error E29 in winter?"
+        },
+        {
+          "answer": "If household pressure is normal, the restriction is almost certainly local to the machine — most likely the mesh filter inside the inlet valve connection, a partially seized valve, or a faulty pressure sensor giving a false reading. Work through the cleaning and inspection steps above, and if the fault persists after checking the valve, contact a service technician for a diagnostic visit.",
+          "question": "My water pressure seems fine everywhere else in the house — why is the machine still showing E29?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T12:48:58.440654+00:00"
+    },
+    {
+      "article_id": 176,
+      "locale": "sv",
+      "slug": "felkod-e29",
+      "title_tag": "Bosch Tvättmaskin Felkod E29 | Åtgärda Det Nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E29? Lär dig vad som orsakar fel på lågt vattentryck, hur du åtgärdar dem själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod E29 på en Bosch Tvättmaskin?",
+      "description": "Felkod E29 på en Bosch tvättmaskin indikerar att maskinen har upptäckt otillräckligt vattentryck eller vattenflöde vid inloppet, vilket vanligtvis orsakas av en stängd kran, en böjd slang eller ett igensatt filter i inloppsventilen.",
+      "quick_fix": "Kontrollera att kallvattenkranen bakom maskinen är helt öppen och att inloppsslangen inte är böjd — att räta ut slangen eller öppna kranen helt bör rensa felet och låta programmet återupptas inom cirka 5 minuter.",
+      "intro_html": "<p>Felkod E29 är ett fel på vattenförsörjningen. Det innebär att din Bosch tvättmaskin startade ett program, försökte fylla på vatten och antingen inte fick något vatten alls eller upptäckte att flödeshastigheten var för låg för att fortsätta på ett säkert sätt. Maskinen pausar eller stannar mitt i programmet och visar E29 på kontrollpanelen.</p><p>Felet finns inom vattenintaget — specifikt vägen från ditt hushållsvatten genom inloppsslangen och inloppsventilen in i trumman. När maskinen inte kan bekräfta tillräckligt tryck inom en angiven tidsram utlöser den denna kod som en skyddsåtgärd för att förhindra att motorn och värmeelementen körs torra.</p><p>I de flesta fall är detta ett enkelt problem som du kan lösa utan verktyg. En stängd eller delvis stängd kran, en böjd slang eller ett igensatt nätfilter inuti inloppsventilens anslutning är de vanligaste orsakerna.</p>",
+      "causes_json": [
+        {
+          "cause": "Stängd eller delvis stängd vattenkran",
+          "detail": "Kallvattenkranen bakom maskinen kan ha råkat stängas av misstag eller lämnats bara delvis öppen efter en tidigare reparation eller flytt. Även en kran som är tre fjärdedelar öppen kan begränsa flödet tillräckligt för att utlösa E29."
+        },
+        {
+          "cause": "Böjd eller klämd inloppsslang",
+          "detail": "Om maskinen har skjutits tillbaka mot väggen kan inloppsslangen ha blivit böjd eller tillplattad, vilket kraftigt minskar vattenflödet. Detta är särskilt vanligt efter att maskinen har flyttats för rengöring eller installation."
+        },
+        {
+          "cause": "Igensatt nätfilter i inloppsventilen",
+          "detail": "Ett litet nätfilter sitter inuti inloppsventilens anslutningspunkt där slangen möter maskinen. Med tiden kan sediment och kalkavlagringar från vattenförsörjningen täppa till detta filter och minska trycket till ett rinnande."
+        },
+        {
+          "cause": "Defekt eller fastnad inloppsventil",
+          "detail": "Den solenoidstyrda inloppsventilen kontrollerar vatteninflödet till trumman. Om ventilspolen går sönder elektriskt eller om ventilkroppen fastnar på grund av kalkavlagringar öppnar den inte helt, vilket svälter maskinen på vatten."
+        },
+        {
+          "cause": "Lågt vattentryck i hushållet",
+          "detail": "Ett tillfälligt fall i huvudvattnets tryck — orsakat av arbeten på din gata, en delvis stängd huvudkran eller hög efterfrågan i byggnaden — kan räcka för att utlösa E29. Att kontrollera andra kranar i huset bekräftar om detta är ett bredare försörjningsproblem."
+        },
+        {
+          "cause": "Defekt trycksensor eller kablage",
+          "detail": "Mer sällan kan vattennivåns trycksensor eller dess anslutande kabelstam utveckla ett fel, vilket gör att maskinen feltolkar fyllningsnivån och rapporterar E29 även när vattenförsörjningen är normal."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera vattenförsörjningskranen",
+          "detail": "Leta upp kallvattenkranen på väggen bakom tvättmaskinen och se till att den är vriden helt moturs (helt öppen). Det låter självklart, men denna enkla kontroll löser felet i en stor andel av E29-fallen. När den är öppen, starta om programmet och observera om maskinen börjar fylla på normalt."
+        },
+        {
+          "step": 2,
+          "action": "Inspektera inloppsslangen för böjar",
+          "detail": "Dra försiktigt fram maskinen några centimeter och känn längs hela inloppsslangen från kranen till maskinens baksida. Räta ut eventuella böjar eller knickar du hittar. Se till att det finns tillräckligt med slack i slangen så att den inte kläms när maskinen skjuts tillbaka på plats."
+        },
+        {
+          "step": 3,
+          "action": "Rengör nätfiltret i inloppsventilen",
+          "detail": "Stäng av vattenkranen och placera en handduk och en liten skål under slanganslutningen på maskinens baksida. Skruva loss inloppsslangen för hand — förvänta dig en liten mängd kvarvarande vatten. Använd en tång med nålnäbb eller fingrarna för att försiktigt dra ut det lilla nätfiltret från insidan av ventilporten. Skölj det under rinnande vatten och använd en gammal tandborste för att ta bort sediment eller kalkavlagringar, sätt sedan tillbaka det och återanslut slangen ordentligt innan du öppnar kranen igen."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera hushållets vattentryck",
+          "detail": "Öppna en kallvattenkran någon annanstans i ditt hem — ett köksvask eller ett badrumshandfat — och observera flödet. Om trycket verkar lågt i hela huset är problemet med din huvudvattenförsörjning snarare än maskinen. Kontakta din vattenleverantör eller kontrollera om din fastighets huvudkran är helt öppen."
+        },
+        {
+          "step": 5,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid eluttaget, vänta 60 sekunder och slå sedan på den igen och välj ett nytt program. Detta rensar eventuellt lagrat feltillstånd och låter maskinen försöka med en ny fyllningssekvens. Om vattenförsörjningen nu är tillräcklig bör programmet fortsätta utan att E29-koden återkommer."
+        },
+        {
+          "step": 6,
+          "action": "Testa inloppsventilen",
+          "detail": "Om ovanstående steg inte har löst felet kan inloppsventilen i sig vara defekt. Med maskinen urkopplad, koppla loss inloppsslangen och inspektera ventilkroppen för synliga kalkskador eller sprickor. Du kan testa solenoidspolarnas kontinuitet med en multimeter — en avläsning av öppen krets (oändligt motstånd) bekräftar en trasig spole. Ersättningsinloppsventiler för Bosch-maskiner finns allmänt tillgängliga och är en enkel del att byta ut."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera trycksensorn och kablaget",
+          "detail": "Om inloppsventilen testar bra men E29 kvarstår, inspektera kabelstammen som löper från inloppsventilen och trycksensorn till huvudkortet. Leta efter lösa kontakter, klämda ledningar eller tecken på korrosion. Sätt tillbaka eventuella kontakter som verkar lösa. Om kablaget ser intakt ut men felet kvarstår kan trycksensorn behöva bytas — vid det här laget är professionell diagnos att rekommendera."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har bekräftat att vattenkranen är helt öppen, slangen är fri och nätfiltret är rent, men maskinen fortfarande visar E29 och inte fyller på, är felet troligtvis internt. En fastnad eller elektriskt defekt inloppsventil, en defekt trycksensor eller ett fel på huvudkortet kräver komponentnivåtestning som går bortom grundläggande gör-det-själv-kontroller.</p><p>Du bör också ringa en servicetekniker om du märker att vatten läcker från inloppsventilens område, om maskinen löser ut ditt hushålls elskydd när den försöker fylla på, eller om kabelstammen visar tecken på brännskador eller skador. Dessa symptom indikerar ett allvarligare fel som kräver professionell uppmärksamhet innan maskinen används igen.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid lösning av ett Bosch E29-fel är <strong>inloppsventilenheten</strong> (solenoidventilen som kontrollerar vatteninflödet), <strong>inloppsslangen</strong> (som kan försämras, böjas eller utveckla interna blockeringar över tid) och <strong>vattentrycksensorn</strong> (även kallad tryckvakt eller nivåsensor). Att notera maskinens fullständiga modellnummer — som finns på etiketten inuti dörrkarmens ram — hjälper dig att snabbt hitta rätt kompatibla delar.</p><p>För att minska risken för att E29 återkommer, rengör nätfiltret i inloppsventilen en gång om året som en del av rutinunderhållet, och undvik att skjuta maskinen hårt mot väggen på ett sätt som belastar slangen. Om du bor i ett område med hårt vatten, överväg att installera ett inline-vattenavhärdare eller avkalka ventilens filter oftare.</p>\n<!-- SPARE_PARTS:E29 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — när E29 är aktivt har maskinen stoppat programmet eftersom den inte kan bekräfta en säker vattenförsörjning. Att köra maskinen i detta tillstånd riskerar att skada pumpen, värmeelementen eller trumlagren. Lös vattenförsörjningsproblemet först och starta sedan om ett program.",
+          "question": "Kan jag fortfarande använda min Bosch tvättmaskin när den visar E29?"
+        },
+        {
+          "answer": "I de flesta fall, ja. När grundorsaken är löst — kran öppnad, slang rätad ut eller filter rengjort — kommer att stänga av maskinen vid eluttaget i 60 sekunder och starta om den att rensa felkoden. Om E29 återkommer omedelbart vid nästa fyllningsförsök finns det fortfarande en begränsning eller ett komponentfel att åtgärda.",
+          "question": "Försvinner E29 av sig självt när jag åtgärdar vattenförsörjningen?"
+        },
+        {
+          "answer": "Om rengöring av nätfiltret inte gör någon skillnad och slangen och kranen båda är i ordning, testa ventilens solenoidspolar med en multimeter inställd på motstånd. En frisk spole läser vanligtvis mellan 200 och 500 ohm beroende på modell. En avläsning av öppen krets innebär att spolen har gått sönder och ventilen behöver bytas.",
+          "question": "Hur vet jag om min inloppsventil behöver bytas ut snarare än bara rengöras?"
+        },
+        {
+          "answer": "Ja. I mycket kallt väder kan den yttre delen av inloppsslangen eller röret som leder till kranen frysa och helt blockera vattenflödet. Om du misstänker detta, använd inte öppen låga för att tina röret. Applicera istället varmt (inte kokande) vatten eller en varm trasa på det drabbade avsnittet och låt det tina gradvis.",
+          "question": "Kan ett fruset rör orsaka felkod E29 på vintern?"
+        },
+        {
+          "answer": "Om hushållets tryck är normalt är begränsningen nästan säkert lokal för maskinen — troligtvis nätfiltret inuti inloppsventilens anslutning, en delvis fastnad ventil eller en defekt trycksensor som ger en falsk avläsning. Arbeta igenom rengörings- och inspektionsstegen ovan, och om felet kvarstår efter kontroll av ventilen, kontakta en servicetekniker för ett diagnostikbesök.",
+          "question": "Mitt vattentryck verkar bra överallt annars i huset — varför visar maskinen fortfarande E29?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T12:50:17.227176+00:00"
+    },
+    {
+      "article_id": 177,
+      "locale": "en",
+      "slug": "error-code-e30",
+      "title_tag": "Bosch Washing Machine Error Code E30 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E30? Learn what causes an NTC sensor fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E30 Mean on a Bosch Washing Machine?",
+      "description": "Error code E30 on a Bosch washing machine indicates a fault with the NTC temperature sensor, which monitors water temperature during the wash cycle.",
+      "quick_fix": "Check that the wiring connector on the NTC sensor at the back of the drum heater is firmly seated — unplug the machine, reseat the connector, then restart the cycle to see if the error clears (takes about 10 minutes).",
+      "intro_html": "<p>Error code E30 points to a problem with the NTC (Negative Temperature Coefficient) sensor inside your Bosch washing machine. This small component sits close to the heating element and continuously reports the water temperature to the control board throughout the wash programme.</p><p>When the control board receives a reading that falls outside the expected range — or receives no signal at all — it triggers E30 and halts the cycle to prevent overheating or ineffective washing. You may notice the machine stopping mid-cycle, failing to heat the water, or refusing to start a programme altogether.</p><p>In many cases the sensor itself is not broken; a loose wire connection or a build-up of limescale around the heater assembly is enough to cause a false reading. Working through the checks below in order will help you identify whether this is a simple fix or a component replacement job.</p>",
+      "causes_json": [
+        {
+          "cause": "Loose or corroded NTC sensor connector",
+          "detail": "The wiring connector that links the NTC sensor to the main harness can work loose over time due to vibration. Corrosion on the terminals can also interrupt the signal, producing an intermittent or absent temperature reading."
+        },
+        {
+          "cause": "Defective NTC temperature sensor",
+          "detail": "The sensor itself can fail, either developing an open circuit or drifting out of its correct resistance range. When this happens the control board cannot get a reliable temperature reading and locks out the programme."
+        },
+        {
+          "cause": "Faulty or failed heating element",
+          "detail": "The NTC sensor is mounted directly on or very close to the heating element. If the element has burned out or shorted, it can affect the sensor's readings and trigger E30 alongside heating problems."
+        },
+        {
+          "cause": "Heavy limescale build-up on the heater assembly",
+          "detail": "In hard-water areas, limescale can coat the heating element and the sensor, insulating them from the water. This causes the sensor to report inaccurate temperatures and can eventually damage both components."
+        },
+        {
+          "cause": "Wiring harness damage",
+          "detail": "The wires running between the NTC sensor and the control board can become pinched, chafed, or broken, particularly if the machine has been moved recently. A break anywhere in the circuit will prevent the sensor signal from reaching the board."
+        },
+        {
+          "cause": "Main control board fault",
+          "detail": "Less commonly, the control board itself may be unable to process the sensor signal correctly due to a component failure on the board. This is usually only suspected after all other causes have been ruled out."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the programme dial, unplug it from the mains, and leave it for two minutes. Plug it back in and run a short cycle. Occasionally a temporary signal glitch triggers E30 and a full power reset is enough to clear it."
+        },
+        {
+          "step": 2,
+          "action": "Run a hot maintenance wash",
+          "detail": "Select a 90°C cotton cycle with no laundry and add a washing machine cleaner or a cup of white vinegar. This can dissolve light limescale deposits around the heater and sensor, restoring accurate temperature readings without any dismantling."
+        },
+        {
+          "step": 3,
+          "action": "Inspect and reseat the NTC sensor connector",
+          "detail": "Unplug the machine and remove the back panel (usually held by two or three screws). Locate the NTC sensor on the heater assembly at the base of the drum. Disconnect the wiring connector, check the terminals for corrosion or discolouration, and press it firmly back into place. Corroded terminals can be gently cleaned with fine sandpaper or electrical contact cleaner."
+        },
+        {
+          "step": 4,
+          "action": "Test the NTC sensor resistance",
+          "detail": "With the machine unplugged, disconnect the sensor and use a multimeter set to resistance (Ohms). At room temperature (around 20°C) a healthy NTC sensor typically reads between 4,000 and 6,000 Ohms — check your model's service data for the exact value. A reading of zero, infinity, or wildly outside the expected range confirms the sensor has failed and needs replacing."
+        },
+        {
+          "step": 5,
+          "action": "Check the heating element",
+          "detail": "While the back panel is off, test the heating element terminals with a multimeter set to continuity. A healthy element will show continuity; an open circuit reading means the element has failed. Also check for any visible burn marks or corrosion on the element body, which would confirm it needs replacing."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the wiring harness between sensor and control board",
+          "detail": "Trace the wires from the NTC sensor back towards the control board, looking for any pinched, melted, or broken sections. Gently flex the harness along its length — a break that only shows under movement can cause an intermittent fault. Damaged sections of wire should be repaired or the harness replaced."
+        },
+        {
+          "step": 7,
+          "action": "Replace the NTC sensor",
+          "detail": "If the sensor has tested faulty, fit a compatible replacement part for your specific Bosch model. The sensor usually unclips or unscrews from the heater assembly and the connector pulls off. Fit the new sensor, reconnect the wiring, reassemble the panel, and run a test cycle to confirm the error has cleared."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have replaced the NTC sensor and checked all wiring connections but E30 continues to appear, the fault may lie with the main control board or a deeper wiring issue that is difficult to diagnose without specialist equipment. Similarly, if you find the heating element has failed and you are not comfortable working around mains-voltage components, a service technician should carry out the replacement safely.</p><p>You should also contact a service technician if the machine shows signs of burning smells, scorch marks near the heater assembly, or if the drum is getting excessively hot — these symptoms suggest a more serious electrical fault that should not be left unattended.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch E30 fault are the NTC temperature sensor, the heating element, and in some cases the wiring harness connecting the sensor to the control board. Having the correct part number for your specific model before ordering will save time — check the rating plate inside the door seal for your full model number.</p><p>To reduce the risk of E30 recurring, run a hot maintenance wash at 90°C every one to two months, use a descaler regularly if you live in a hard-water area, and always use the correct amount of detergent to prevent residue build-up around the heater assembly.</p>\n<!-- SPARE_PARTS:E30 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. The machine has stopped the cycle because it cannot confirm the water temperature is safe and correct. Running it in this state risks either overheating the water or washing at the wrong temperature, and could cause further damage to the heating components.",
+          "question": "Can I still use my Bosch washing machine while it shows E30?"
+        },
+        {
+          "answer": "Test each component separately with a multimeter. The NTC sensor should show a resistance reading within the specified range for your model at room temperature. The heating element should show continuity. Whichever component gives an out-of-range or open-circuit reading is the faulty part.",
+          "question": "How do I know if it is the NTC sensor or the heating element that has failed?"
+        },
+        {
+          "answer": "Not necessarily — Bosch uses different error code formats across different model ranges and production years. E3 and E30 can refer to different faults depending on the machine. Always cross-reference the error code with your specific model's manual or the manufacturer's documentation to confirm the meaning.",
+          "question": "Is E30 the same as E3 on a Bosch washing machine?"
+        },
+        {
+          "answer": "The NTC sensor itself is generally an inexpensive part, typically costing between £10 and £25 depending on the model. If you are comfortable doing the replacement yourself following the steps above, it is one of the more affordable washing machine repairs. A service technician call-out will add labour costs on top of the part price.",
+          "question": "How much does it cost to replace a Bosch NTC sensor?"
+        },
+        {
+          "answer": "It can, particularly if the fault is intermittent and the machine is otherwise heating water. Heavy limescale insulates the sensor from the water and distorts its readings. Running a dedicated descaling cycle may restore normal sensor behaviour, but if the sensor has already been permanently damaged by scale build-up, replacement will still be needed.",
+          "question": "Will descaling the machine fix E30 if I live in a hard-water area?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T12:51:07.37537+00:00"
+    },
+    {
+      "article_id": 177,
+      "locale": "sv",
+      "slug": "felkod-e30",
+      "title_tag": "Bosch Tvättmaskin Felkod E30 | Åtgärda Det Nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E30? Lär dig vad som orsakar ett NTC-sensorfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod E30 på en Bosch Tvättmaskin?",
+      "description": "Felkod E30 på en Bosch tvättmaskin indikerar ett fel på NTC-temperatursensorn, som övervakar vattentemperaturen under tvättcykeln.",
+      "quick_fix": "Kontrollera att kabelkontakten på NTC-sensorn vid baksidan av trummans värmeelement sitter ordentligt — koppla ur maskinen, sätt i kontakten igen och starta sedan om cykeln för att se om felet försvinner (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod E30 pekar på ett problem med NTC-sensorn (Negative Temperature Coefficient) inuti din Bosch tvättmaskin. Denna lilla komponent sitter nära värmeelementet och rapporterar kontinuerligt vattentemperaturen till styrkortet under hela tvättcykeln.</p><p>När styrkortet tar emot ett värde som ligger utanför det förväntade intervallet — eller inte tar emot någon signal alls — utlöser det E30 och stoppar cykeln för att förhindra överhettning eller ineffektiv tvätt. Du kan märka att maskinen stannar mitt i cykeln, inte värmer vattnet eller vägrar att starta ett program överhuvudtaget.</p><p>I många fall är sensorn i sig inte trasig; en lös kabelanslutning eller en ansamling av kalkavlagringar runt värmeelementet kan räcka för att orsaka ett falskt värde. Genom att gå igenom kontrollerna nedan i ordning kan du avgöra om det rör sig om en enkel åtgärd eller ett komponentbyte.</p>",
+      "causes_json": [
+        {
+          "cause": "Lös eller korroderad NTC-sensorkontakt",
+          "detail": "Kabelkontakten som förbinder NTC-sensorn med huvudkabelhärvan kan lossna med tiden på grund av vibrationer. Korrosion på kontaktstiften kan också avbryta signalen och ge ett intermittent eller uteblivet temperaturvärde."
+        },
+        {
+          "cause": "Defekt NTC-temperatursensor",
+          "detail": "Sensorn i sig kan gå sönder, antingen genom att utveckla ett öppet kretsar eller genom att drifta utanför sitt korrekta motståndsvärde. När detta inträffar kan styrkortet inte få ett tillförlitligt temperaturvärde och låser programmet."
+        },
+        {
+          "cause": "Felaktigt eller trasigt värmeelement",
+          "detail": "NTC-sensorn är monterad direkt på eller mycket nära värmeelementet. Om elementet har bränt ut eller kortslutit kan det påverka sensorns värden och utlösa E30 tillsammans med uppvärmningsproblem."
+        },
+        {
+          "cause": "Kraftiga kalkavlagringar på värmeelementet",
+          "detail": "I områden med hårt vatten kan kalk belägga värmeelementet och sensorn och isolera dem från vattnet. Detta gör att sensorn rapporterar felaktiga temperaturer och kan i slutändan skada båda komponenterna."
+        },
+        {
+          "cause": "Skada på kabelhärvan",
+          "detail": "Kablarna som löper mellan NTC-sensorn och styrkortet kan bli klämda, nötta eller brutna, särskilt om maskinen nyligen har flyttats. Ett brott var som helst i kretsen förhindrar att sensorsignalen når kortet."
+        },
+        {
+          "cause": "Fel på huvudstyrkortet",
+          "detail": "Mer sällan kan styrkortet i sig vara oförmöget att behandla sensorsignalen korrekt på grund av ett komponentfel på kortet. Detta misstänks vanligtvis först efter att alla andra orsaker har uteslutits."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen med programvredet, koppla ur den från elnätet och låt den stå i två minuter. Koppla in den igen och kör en kort cykel. Ibland orsakar ett tillfälligt signalfel E30 och en fullständig omstart räcker för att rensa det."
+        },
+        {
+          "step": 2,
+          "action": "Kör en varm underhållstvätt",
+          "detail": "Välj ett bomullsprogram på 90°C utan tvätt och tillsätt ett tvättmaskinrengöringsmedel eller en kopp vitvinsvinäger. Detta kan lösa upp lätta kalkavlagringar runt värmeelementet och sensorn och återställa korrekta temperaturvärden utan att behöva demontera maskinen."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera och sätt tillbaka NTC-sensorkontakten",
+          "detail": "Koppla ur maskinen och ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar). Lokalisera NTC-sensorn på värmeelementet vid trummans botten. Koppla loss kabelkontakten, kontrollera stiften för korrosion eller missfärgning och tryck in den ordentligt igen. Korroderade stift kan försiktigt rengöras med fint sandpapper eller elektriskt kontaktspray."
+        },
+        {
+          "step": 4,
+          "action": "Testa NTC-sensorns motstånd",
+          "detail": "Med maskinen urkopplad, koppla loss sensorn och använd en multimeter inställd på motstånd (Ohm). Vid rumstemperatur (cirka 20°C) visar en frisk NTC-sensor vanligtvis mellan 4 000 och 6 000 Ohm — kontrollera din modells servicedata för det exakta värdet. Ett värde på noll, oändlighet eller långt utanför det förväntade intervallet bekräftar att sensorn har gått sönder och behöver bytas."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera värmeelementet",
+          "detail": "Medan bakpanelen är borttagen, testa värmeelementets anslutningsstift med en multimeter inställd på kontinuitet. Ett friskt element visar kontinuitet; ett öppet kretsar-värde innebär att elementet har gått sönder. Kontrollera också om det finns synliga brännmärken eller korrosion på elementet, vilket bekräftar att det behöver bytas."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera kabelhärvan mellan sensor och styrkort",
+          "detail": "Följ kablarna från NTC-sensorn tillbaka mot styrkortet och leta efter klämda, smälta eller brutna avsnitt. Böj försiktigt härvan längs hela dess längd — ett brott som bara syns under rörelse kan orsaka ett intermittent fel. Skadade kabelavsnitt bör repareras eller härvan bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut NTC-sensorn",
+          "detail": "Om sensorn har testats som defekt, montera en kompatibel reservdel för din specifika Bosch-modell. Sensorn lossnar vanligtvis genom att klämmas loss eller skruvas av från värmeelementet och kontakten dras av. Montera den nya sensorn, återanslut kablarna, sätt tillbaka panelen och kör en testcykel för att bekräfta att felet har försvunnit."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har bytt NTC-sensorn och kontrollerat alla kabelanslutningar men E30 fortsätter att visas, kan felet ligga hos huvudstyrkortet eller ett djupare kabelproblem som är svårt att diagnostisera utan specialutrustning. På samma sätt bör en servicetekniker utföra bytet på ett säkert sätt om du konstaterar att värmeelementet har gått sönder och du inte känner dig bekväm med att arbeta med nätspänningskomponenter.</p><p>Du bör också kontakta en servicetekniker om maskinen uppvisar tecken på bränndoft, brännmärken nära värmeelementet eller om trumman blir överdrivet het — dessa symptom tyder på ett allvarligare elfel som inte bör lämnas utan åtgärd.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett Bosch E30-fel är NTC-temperatursensorn, värmeelementet och i vissa fall kabelhärvan som förbinder sensorn med styrkortet. Att ha rätt artikelnummer för din specifika modell innan du beställer sparar tid — kontrollera typskylten inuti dörrtätningen för ditt fullständiga modellnummer.</p><p>För att minska risken för att E30 återkommer, kör en varm underhållstvätt på 90°C var en till två månader, använd avkalkningsmedel regelbundet om du bor i ett område med hårt vatten och använd alltid rätt mängd tvättmedel för att förhindra att rester ansamlas runt värmeelementet.</p>\n<!-- SPARE_PARTS:E30 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte rekommenderat. Maskinen har stoppat cykeln eftersom den inte kan bekräfta att vattentemperaturen är säker och korrekt. Att köra den i detta tillstånd riskerar antingen att överhetta vattnet eller tvätta vid fel temperatur, och kan orsaka ytterligare skador på värmekomponenterna.",
+          "question": "Kan jag fortfarande använda min Bosch tvättmaskin när den visar E30?"
+        },
+        {
+          "answer": "Testa varje komponent separat med en multimeter. NTC-sensorn ska visa ett motståndsvärde inom det angivna intervallet för din modell vid rumstemperatur. Värmeelementet ska visa kontinuitet. Den komponent som ger ett värde utanför intervallet eller ett öppet kretsar-värde är den defekta delen.",
+          "question": "Hur vet jag om det är NTC-sensorn eller värmeelementet som har gått sönder?"
+        },
+        {
+          "answer": "Inte nödvändigtvis — Bosch använder olika felkodsformat för olika modellserier och tillverkningsår. E3 och E30 kan hänvisa till olika fel beroende på maskinen. Kontrollera alltid felkoden mot din specifika modells manual eller tillverkarens dokumentation för att bekräfta innebörden.",
+          "question": "Är E30 detsamma som E3 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "NTC-sensorn i sig är generellt sett en billig del och kostar vanligtvis mellan 100 och 250 kronor beroende på modell. Om du känner dig bekväm med att utföra bytet själv enligt stegen ovan är det en av de mer prisvärda tvättmaskinreparationerna. En servicetekniker tillkommer med arbetskostnad utöver delspriset.",
+          "question": "Vad kostar det att byta en Bosch NTC-sensor?"
+        },
+        {
+          "answer": "Det kan det, särskilt om felet är intermittent och maskinen annars värmer vattnet. Kraftiga kalkavlagringar isolerar sensorn från vattnet och förvränger dess värden. Att köra ett dedikerat avkalkningsprogram kan återställa normalt sensorbeteende, men om sensorn redan har skadats permanent av kalkavlagringar kommer ett byte ändå att behövas.",
+          "question": "Kan avkalkning av maskinen åtgärda E30 om jag bor i ett område med hårt vatten?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T12:52:09.67051+00:00"
+    },
+    {
+      "article_id": 178,
+      "locale": "en",
+      "slug": "error-code-e32",
+      "title_tag": "Bosch Washing Machine Error Code E32 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error E32? Learn what causes load imbalance faults, how to fix them yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E32 Mean on a Bosch Washing Machine?",
+      "description": "Error code E32 on a Bosch washing machine indicates a load imbalance fault, meaning the drum contents are unevenly distributed or the machine is overloaded, preventing safe spin operation.",
+      "quick_fix": "Open the door, redistribute the laundry evenly around the drum by hand, remove any items if the load feels too heavy, then restart the spin cycle — the machine should proceed normally (takes about 5 minutes).",
+      "intro_html": "<p>Error code E32 is Bosch's way of telling you that the washing machine cannot safely spin because the load inside the drum is unbalanced. This is a protective measure built into the machine's control system: if the drum detects uneven weight distribution during the spin phase, it stops and displays E32 rather than risk damaging the bearings, suspension, or drum assembly through violent vibration.</p><p>When E32 appears, the machine will typically pause mid-cycle, often during the transition into a high-speed spin. You may notice the drum rocking noticeably, hear a loud thumping noise, or see the machine moving across the floor before it stops. The wash cycle itself is not affected — only the spin is interrupted.</p><p>In most cases this is not a mechanical fault at all, and you can resolve it yourself in a few minutes without any tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Uneven distribution of laundry in the drum",
+          "detail": "Heavy items like towels or jeans can clump together on one side of the drum during washing, creating a significant weight imbalance. The machine attempts to redistribute the load automatically by tumbling, but if it cannot correct the imbalance it triggers E32."
+        },
+        {
+          "cause": "Overloaded drum",
+          "detail": "Placing too much laundry in a single wash prevents items from moving freely, making it impossible for the machine to balance the load before spinning. Each Bosch model has a maximum load rating — consistently exceeding it will cause repeated E32 errors and can accelerate wear on the drum bearings."
+        },
+        {
+          "cause": "Single large or bulky item washed alone",
+          "detail": "Washing one heavy item — such as a duvet, a large bath mat, or a single pair of jeans — on its own is a very common trigger for E32. A single heavy item absorbs water and sits on one side of the drum with nothing to counterbalance it."
+        },
+        {
+          "cause": "Worn or damaged drum suspension springs or shock absorbers",
+          "detail": "The drum is held in place by suspension springs and shock absorbers that dampen movement during spin. If these components are worn or broken, even a reasonably balanced load can cause excessive drum movement, triggering the imbalance sensor and displaying E32."
+        },
+        {
+          "cause": "Faulty or misaligned drum balance ring",
+          "detail": "Bosch washing machines use a fluid-filled balance ring around the drum to counteract minor imbalances automatically. If this ring is cracked, leaking, or has shifted out of position, it loses its ability to compensate and E32 will appear more frequently."
+        },
+        {
+          "cause": "Worn drum bearings",
+          "detail": "Severely worn bearings allow the drum to wobble on its axis rather than spinning true. This wobble is detected as an imbalance even when the load is correctly distributed, and the machine will repeatedly stop with E32 as a result."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Pause the cycle and open the door",
+          "detail": "Press the pause or start/stop button to halt the programme. Wait for the door lock to release — this usually takes 1 to 2 minutes after the machine stops. If the door will not open, turn the programme dial to the drain or spin position to pump out any remaining water first."
+        },
+        {
+          "step": 2,
+          "action": "Redistribute the laundry by hand",
+          "detail": "Reach into the drum and separate any items that have clumped together. Spread the laundry as evenly as possible around the inside of the drum. Pay particular attention to heavy items like towels, denim, or knitwear — these are the most common culprits."
+        },
+        {
+          "step": 3,
+          "action": "Check and reduce the load size if necessary",
+          "detail": "If the drum feels tightly packed, remove some items and wash them in a separate load. As a rough guide, you should be able to fit your hand flat on top of the laundry when the drum is correctly loaded. Refer to your model's manual for the exact maximum load weight."
+        },
+        {
+          "step": 4,
+          "action": "Add a balancing item if washing a single bulky piece",
+          "detail": "If you are washing one large item such as a duvet or bath mat, add one or two similar-weight items — a couple of towels work well — to help the machine balance the load. Close the door and restart the spin cycle."
+        },
+        {
+          "step": 5,
+          "action": "Run a short spin-only cycle to test",
+          "detail": "Select a spin-only programme at a moderate speed (800–1000 rpm) and start the machine. Watch and listen during the first few minutes. If the machine completes the spin without displaying E32, the issue is resolved. If E32 returns immediately with a well-distributed load, move on to the next step."
+        },
+        {
+          "step": 6,
+          "action": "Check that the machine is level on the floor",
+          "detail": "An unlevel machine will rock during spin and can trigger false imbalance errors. Use a spirit level on top of the appliance and adjust the four feet by turning them clockwise or anticlockwise until the machine sits firmly and evenly. Lock the feet in place with the locking nuts if fitted."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the shock absorbers and suspension springs",
+          "detail": "If E32 persists with correctly loaded, well-distributed laundry and the machine is level, the suspension components may be worn. You can often hear a deep clunking or feel excessive drum movement by gently pushing the drum up and down with the door open. Worn shock absorbers or broken springs will need to be replaced — this is a straightforward repair but does require removing the back or front panel of the machine."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have redistributed the load, confirmed the machine is level, and reduced the wash load to well within the rated capacity, but E32 still appears on every spin cycle, the fault is likely mechanical. Worn shock absorbers, broken suspension springs, a damaged balance ring, or failing drum bearings will all cause persistent E32 errors that cannot be resolved by adjusting the laundry.</p><p>You should also call a service technician if you notice the drum wobbling visibly when you push it by hand, if you can hear a grinding or rumbling noise during spin, or if the machine is moving across the floor despite being level. These are signs of internal wear that will worsen if left unaddressed and could eventually cause more serious damage.</p>",
+      "prevention_html": "<p>The most commonly replaced parts for a recurring E32 fault are the shock absorbers (also called dampers), the drum suspension springs, and the drum balance ring. Shock absorbers are the most frequent replacement — they wear gradually over years of use and are often the first component to fail on older machines. Suspension springs can snap suddenly, especially if the machine has been regularly overloaded. The balance ring is less commonly replaced but worth inspecting if the other components appear intact.</p><p>To avoid E32 in the first place, always follow the load guidelines for your specific model, avoid washing single heavy items without a balancing load, and check periodically that the machine's feet are still level — vibration can cause them to shift over time.</p>\n<!-- SPARE_PARTS:E32 -->",
+      "faq_json": [
+        {
+          "answer": "You should not ignore E32 repeatedly. The error exists to protect the machine — if the drum is allowed to spin heavily out of balance, it puts serious stress on the bearings, shock absorbers, and drum shaft. Occasional E32 errors caused by an awkward load are normal, but if it appears on most washes you risk causing expensive mechanical damage over time.",
+          "question": "Can I ignore error code E32 and keep using the machine?"
+        },
+        {
+          "answer": "If E32 appears consistently with small, well-distributed loads, the most likely cause is worn shock absorbers or broken suspension springs. These components lose their ability to dampen drum movement as they age, so even a balanced load triggers the imbalance sensor. A service technician can confirm this with a quick inspection.",
+          "question": "Why does my Bosch washing machine keep getting E32 even with small loads?"
+        },
+        {
+          "answer": "Always check that the duvet's weight when dry falls within your machine's maximum load capacity — a wet duvet can be significantly heavier. Add one or two large towels to help balance the load, and select a programme designed for bulky items if your model has one. Use a low spin speed (600–800 rpm) to reduce the risk of imbalance.",
+          "question": "How do I wash a duvet in a Bosch washing machine without getting E32?"
+        },
+        {
+          "answer": "A reset will clear the error code from the display, but it will not fix the underlying cause. If the load is still unbalanced or a mechanical component is worn, E32 will return as soon as the machine attempts to spin again. Always address the root cause rather than relying on resets.",
+          "question": "Will a factory reset clear the E32 error on a Bosch washing machine?"
+        },
+        {
+          "answer": "Shock absorbers typically last between 5 and 10 years depending on how heavily the machine is used and whether it has been regularly overloaded. Machines used daily for large family washes will wear them faster than lightly used appliances. Replacing shock absorbers is a relatively affordable repair and can significantly extend the life of the machine.",
+          "question": "How long do Bosch washing machine shock absorbers last?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T12:53:03.666563+00:00"
+    },
+    {
+      "article_id": 178,
+      "locale": "sv",
+      "slug": "felkod-e32",
+      "title_tag": "Bosch tvättmaskin felkod E32 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E32? Lär dig vad som orsakar obalansfel, hur du åtgärdar dem själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E32 på en Bosch tvättmaskin?",
+      "description": "Felkod E32 på en Bosch tvättmaskin indikerar ett obalansfel, vilket innebär att innehållet i trumman är ojämnt fördelat eller att maskinen är överfylld, vilket förhindrar säker centrifugering.",
+      "quick_fix": "Öppna luckan, fördela tvätten jämnt runt trumman för hand, ta ut plagg om lasten känns för tung och starta sedan centrifugeringen igen – maskinen bör fungera normalt (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E32 är Boschs sätt att tala om att tvättmaskinen inte kan centrifugera säkert eftersom lasten i trumman är obalanserad. Detta är en skyddsfunktion inbyggd i maskinens styrsystem: om trumman registrerar ojämn viktfördelning under centrifugeringsfasen stannar den och visar E32 i stället för att riskera att skada lager, upphängning eller trummontering genom kraftiga vibrationer.</p><p>När E32 visas pausar maskinen vanligtvis mitt i programmet, ofta vid övergången till hög centrifugeringshastighet. Du kan märka att trumman gungar märkbart, höra ett högt dunkande ljud eller se att maskinen förflyttar sig över golvet innan den stannar. Själva tvättcykeln påverkas inte – det är bara centrifugeringen som avbryts.</p><p>I de flesta fall rör det sig inte om ett mekaniskt fel, och du kan lösa problemet själv på några minuter utan några verktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Ojämn fördelning av tvätt i trumman",
+          "detail": "Tunga plagg som handdukar eller jeans kan klumpa ihop sig på ena sidan av trumman under tvätten och skapa en betydande viktsobalans. Maskinen försöker automatiskt omfördela lasten genom att tumla, men om den inte kan korrigera obalansen utlöses E32."
+        },
+        {
+          "cause": "Överfylld trumma",
+          "detail": "Om för mycket tvätt läggs i en och samma tvätt kan plaggen inte röra sig fritt, vilket gör det omöjligt för maskinen att balansera lasten inför centrifugeringen. Varje Bosch-modell har en maximal lastkapacitet – om den regelbundet överskrids uppstår upprepade E32-fel och slitaget på trumlagret accelererar."
+        },
+        {
+          "cause": "Ett enstaka stort eller skrymmande plagg tvättas ensamt",
+          "detail": "Att tvätta ett tungt plagg ensamt – till exempel en duntäcke, en stor badmatta eller ett enstaka par jeans – är en mycket vanlig orsak till E32. Ett enstaka tungt plagg absorberar vatten och hamnar på ena sidan av trumman utan något som motverkar obalansen."
+        },
+        {
+          "cause": "Slitna eller skadade upphängningsfäder eller stötdämpare",
+          "detail": "Trumman hålls på plats av upphängningsfäder och stötdämpare som dämpar rörelserna under centrifugeringen. Om dessa komponenter är slitna eller trasiga kan även en rimligt balanserad last orsaka överdrivna trumrörelser, vilket utlöser obalanssensorn och visar E32."
+        },
+        {
+          "cause": "Defekt eller felplacerad balanseringsring på trumman",
+          "detail": "Bosch tvättmaskiner använder en vätskefylld balanseringsring runt trumman för att automatiskt motverka mindre obalanser. Om denna ring är sprucken, läcker eller har förskjutits ur läge förlorar den sin förmåga att kompensera och E32 visas allt oftare."
+        },
+        {
+          "cause": "Slitna trumlagre",
+          "detail": "Kraftigt slitna lager gör att trumman kan vicka på sin axel i stället för att snurra rakt. Denna rörelse uppfattas som en obalans även när lasten är korrekt fördelad, och maskinen stannar upprepade gånger med E32 som följd."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Pausa cykeln och öppna luckan",
+          "detail": "Tryck på paus- eller start/stopp-knappen för att avbryta programmet. Vänta tills lucklåset öppnas – detta tar vanligtvis 1 till 2 minuter efter att maskinen stannat. Om luckan inte öppnas, vrid programväljaren till tömnings- eller centrifugeringsläget för att pumpa ut eventuellt kvarvarande vatten först."
+        },
+        {
+          "step": 2,
+          "action": "Fördela tvätten för hand",
+          "detail": "Räck in i trumman och separera plagg som har klumpat ihop sig. Sprid tvätten så jämnt som möjligt runt insidan av trumman. Var särskilt uppmärksam på tunga plagg som handdukar, denim eller stickade plagg – dessa är de vanligaste bovarna."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera och minska laststorleken vid behov",
+          "detail": "Om trumman känns hårt packad, ta ut några plagg och tvätta dem i en separat omgång. Som en grov riktlinje ska du kunna lägga handen plant ovanpå tvätten när trumman är korrekt lastad. Se din modells manual för exakt maximal lastvikt."
+        },
+        {
+          "step": 4,
+          "action": "Lägg till ett balanserande plagg om du tvättar ett enstaka skrymmande föremål",
+          "detail": "Om du tvättar ett stort plagg ensamt, till exempel en duntäcke eller en badmatta, lägg till ett eller två plagg med liknande vikt – ett par handdukar fungerar bra – för att hjälpa maskinen att balansera lasten. Stäng luckan och starta centrifugeringen igen."
+        },
+        {
+          "step": 5,
+          "action": "Kör ett kort centrifugeringsprogram för att testa",
+          "detail": "Välj ett centrifugeringsprogram med måttlig hastighet (800–1000 rpm) och starta maskinen. Titta och lyssna under de första minuterna. Om maskinen slutför centrifugeringen utan att visa E32 är problemet löst. Om E32 återkommer omedelbart med en välfördelad last, gå vidare till nästa steg."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera att maskinen står plant på golvet",
+          "detail": "En ojämnt stående maskin gungar under centrifugeringen och kan utlösa falska obalansfel. Använd ett vattenpass ovanpå maskinen och justera de fyra fötterna genom att vrida dem medurs eller moturs tills maskinen står stadigt och jämnt. Lås fötterna med låsmuttrarna om sådana finns."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera stötdämpare och upphängningsfäder",
+          "detail": "Om E32 kvarstår med korrekt lastad och välfördelad tvätt och maskinen står plant, kan upphängningskomponenterna vara slitna. Du kan ofta höra ett djupt dunkande ljud eller känna överdrivna trumrörelser genom att försiktigt trycka trumman upp och ned med luckan öppen. Slitna stötdämpare eller trasiga fjädrar behöver bytas ut – detta är en enkel reparation men kräver att maskinens bak- eller frontpanel tas bort."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har omfördelat lasten, bekräftat att maskinen står plant och minskat tvättmängden till väl under den angivna kapaciteten, men E32 ändå visas vid varje centrifugering, är felet troligen mekaniskt. Slitna stötdämpare, trasiga upphängningsfäder, en skadad balanseringsring eller sviktande trumlagre orsakar alla ihållande E32-fel som inte kan åtgärdas genom att justera tvätten.</p><p>Du bör också kontakta en servicetekniker om du märker att trumman vickar synligt när du trycker på den för hand, om du hör ett malande eller mullrande ljud under centrifugeringen, eller om maskinen förflyttar sig över golvet trots att den står plant. Dessa är tecken på internt slitage som förvärras om det lämnas oåtgärdat och som i slutändan kan orsaka allvarligare skador.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid ett återkommande E32-fel är stötdämparna (även kallade dämpare), trummans upphängningsfäder och trummans balanseringsring. Stötdämpare är den vanligaste utbytesvaran – de slits gradvis under åren och är ofta den första komponenten som går sönder på äldre maskiner. Upphängningsfäder kan gå av plötsligt, särskilt om maskinen regelbundet har överfyllts. Balanseringsringen byts mer sällan men är värd att inspektera om övriga komponenter verkar intakta.</p><p>För att undvika E32 från första början, följ alltid lastanvisningarna för din specifika modell, undvik att tvätta enstaka tunga plagg utan en balanserande last och kontrollera regelbundet att maskinens fötter fortfarande står plant – vibrationer kan få dem att förskjutas med tiden.</p>\n<!-- SPARE_PARTS:E32 -->",
+      "faq_json": [
+        {
+          "answer": "Du bör inte ignorera E32 upprepade gånger. Felet finns för att skydda maskinen – om trumman tillåts centrifugera kraftigt ur balans utsätts lager, stötdämpare och trumaxel för allvarlig påfrestning. Enstaka E32-fel orsakade av en besvärlig last är normalt, men om det uppstår vid de flesta tvättar riskerar du att orsaka kostsamma mekaniska skador med tiden.",
+          "question": "Kan jag ignorera felkod E32 och fortsätta använda maskinen?"
+        },
+        {
+          "answer": "Om E32 uppstår konsekvent med små, välfördelade laster är den troligaste orsaken slitna stötdämpare eller trasiga upphängningsfäder. Dessa komponenter förlorar sin förmåga att dämpa trumrörelser med åldern, så även en balanserad last utlöser obalanssensorn. En servicetekniker kan bekräfta detta med en snabb inspektion.",
+          "question": "Varför får min Bosch tvättmaskin E32 även med små laster?"
+        },
+        {
+          "answer": "Kontrollera alltid att duntäckens torrvikt ryms inom maskinens maximala lastkapacitet – en blöt duntäcke kan vara betydligt tyngre. Lägg till en eller två stora handdukar för att hjälpa till att balansera lasten och välj ett program avsett för skrymmande plagg om din modell har ett sådant. Använd låg centrifugeringshastighet (600–800 rpm) för att minska risken för obalans.",
+          "question": "Hur tvättar jag en duntäcke i en Bosch tvättmaskin utan att få E32?"
+        },
+        {
+          "answer": "En återställning rensar felkoden från displayen, men åtgärdar inte den bakomliggande orsaken. Om lasten fortfarande är obalanserad eller en mekanisk komponent är sliten återkommer E32 så snart maskinen försöker centrifugera igen. Åtgärda alltid grundorsaken i stället för att förlita dig på återställningar.",
+          "question": "Rensar en fabriksåterställning E32-felet på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Stötdämpare håller vanligtvis mellan 5 och 10 år beroende på hur hårt maskinen används och om den regelbundet har överfyllts. Maskiner som används dagligen för stora familjestvätt sliter ut dem snabbare än lättutnyttjade maskiner. Att byta stötdämpare är en relativt prisvärd reparation och kan förlänga maskinens livslängd avsevärt.",
+          "question": "Hur länge håller stötdämparna i en Bosch tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T12:54:15.546189+00:00"
+    },
+    {
+      "article_id": 180,
+      "locale": "en",
+      "slug": "error-code-e37",
+      "title_tag": "Bosch Washing Machine Error Code E37 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error E37? Learn what causes overfilling, how to fix it yourself, and when to call a service technician. Clear, step-by-step guide.",
+      "h1": "What Does Error Code E37 Mean on a Bosch Washing Machine?",
+      "description": "Error E37 on a Bosch washing machine indicates that the machine has detected overfilling, caused by either a faulty pressure switch that cannot accurately sense the water level or a water inlet valve that has stuck open and is allowing water to enter uncontrolled.",
+      "quick_fix": "Turn off the machine at the mains, wait 10 minutes, then turn the water supply tap fully off before restarting — if the inlet valve was temporarily stuck, this allows it to reset and the drum to drain to a safe level (takes about 5 minutes).",
+      "intro_html": "<p>Error code E37 is Bosch's overfill warning. It means the machine's control board has received a signal — or failed to receive the correct signal — indicating that water inside the drum has risen beyond the safe maximum level. The two systems most likely responsible are the pressure switch, which monitors water level, and the water inlet valve, which controls how much water enters the machine.</p><p>When E37 triggers, the machine will typically halt mid-cycle, and in many cases it will attempt to drain the excess water before locking out further operation. You may notice the drum sitting unusually full, or water visible through the door glass higher than normal. The machine will not continue the wash programme until the fault is resolved.</p><p>In most cases this is a fixable problem at home, but it does require methodical checking of a few components. Work through the steps below before calling a service technician.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty or blocked pressure switch",
+          "detail": "The pressure switch (also called a water level sensor) uses air pressure through a small hose to detect how full the drum is. If the switch itself has failed, or the hose connecting it to the drum is kinked, blocked, or split, it can send incorrect readings to the control board, triggering an overfill error even when water levels are normal."
+        },
+        {
+          "cause": "Water inlet valve stuck open",
+          "detail": "The inlet valve is an electrically operated solenoid valve that opens to let water in and closes when the correct level is reached. If the valve's solenoid fails or debris holds it partially open, water continues to enter the drum even after the control board has stopped sending the open signal, causing genuine overfilling."
+        },
+        {
+          "cause": "Blocked or kinked pressure switch hose",
+          "detail": "Even if the pressure switch itself is working correctly, a hose that has become clogged with detergent residue or has developed a kink will prevent accurate pressure readings from reaching the switch. This can cause the machine to misread the water level and trigger E37."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "In less common cases, the main PCB may be sending incorrect signals to the inlet valve, failing to close it at the right time, or misinterpreting the pressure switch data. This is usually only suspected after all other components have been checked and found to be in good condition."
+        },
+        {
+          "cause": "Excessive detergent causing foam",
+          "detail": "Using too much detergent, or a non-HE detergent in a high-efficiency machine, can generate foam that the pressure switch interprets as excess water. The machine may trigger E37 as a precaution even though the actual water volume is within normal limits."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and isolate the machine",
+          "detail": "Turn the machine off at the control panel, then switch it off at the wall socket. Turn the water supply tap (usually behind or beneath the machine) to the fully closed position. This stops any further water entering and gives the inlet valve a chance to reset if it was temporarily stuck. Wait at least 10 minutes before proceeding."
+        },
+        {
+          "step": 2,
+          "action": "Drain any excess water",
+          "detail": "Place a shallow tray under the filter access panel at the bottom front of the machine. Open the small emergency drain hose (if fitted) or unscrew the filter cap slowly to allow water to drain out in a controlled way. Remove any visible debris from the filter while you have it open. This step is important before you start inspecting internal components."
+        },
+        {
+          "step": 3,
+          "action": "Check the detergent and run a test cycle",
+          "detail": "Make sure you are using the correct type and quantity of detergent for your machine — check the detergent drawer for any residue or foam build-up and clean it thoroughly. Reconnect the water supply, restart the machine on a short cotton cycle with no laundry and no detergent, and observe whether E37 returns. If it does not, excess foam was likely the cause."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the pressure switch hose",
+          "detail": "Pull the machine away from the wall and remove the top panel (usually two screws at the rear). Locate the thin rubber or plastic hose running from the bottom of the drum up to the pressure switch on the side of the cabinet. Check the full length of the hose for kinks, cracks, or blockages. Disconnect each end and blow through it gently — it should be completely clear. Reattach securely."
+        },
+        {
+          "step": 5,
+          "action": "Test the pressure switch",
+          "detail": "With the top panel still removed, locate the pressure switch — a small round component with a single hose connection and two or three electrical terminals. Disconnect the hose and blow gently into the hose port; you should hear a faint click as the switch activates. No click suggests the switch has failed and needs replacing. You can also use a multimeter to test continuity across the terminals as you blow."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the water inlet valve",
+          "detail": "The inlet valve is located at the back of the machine where the fill hose connects. With the machine fully isolated from power and water, disconnect the fill hose and check the mesh filter inside the valve inlet for debris — clean it with a soft brush under running water. If the valve body feels wet on the outside or shows signs of corrosion, it is likely leaking internally and should be replaced."
+        },
+        {
+          "step": 7,
+          "action": "Reset the machine and monitor",
+          "detail": "Reassemble all panels, reconnect water and power, and run a full cycle while staying nearby to observe. If E37 does not return and the machine fills and drains normally, the fault has been resolved. If the error reappears after completing all the above steps, the fault is likely with the inlet valve solenoid or the control board, and a service technician should be contacted."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have inspected the pressure switch hose, tested the pressure switch, and cleaned the inlet valve filter but E37 continues to appear, the inlet valve solenoid has most likely failed internally and is allowing water to pass through even when closed. Replacing a solenoid valve involves working with both the water supply and electrical connections, and if you are not confident doing this safely, a service technician should carry out the work.</p><p>You should also call a service technician if the machine is filling with water while switched off at the control panel — this is a clear sign of a valve that is no longer sealing, and it poses a flood risk. Similarly, if the control board is suspected, diagnosis requires specialist equipment and should not be attempted without experience.</p>",
+      "prevention_html": "<p>The components most commonly replaced when resolving a Bosch E37 fault are the pressure switch (water level sensor), the water inlet valve, and the pressure switch hose. The pressure switch and hose are relatively inexpensive and straightforward to fit. The inlet valve is a slightly larger job but is still within reach of a confident DIYer with the right part.</p><p>To reduce the risk of E37 recurring, use only the recommended amount of HE-compatible detergent, clean the detergent drawer monthly, and check the inlet valve filter screen every six to twelve months for sediment build-up — particularly if you live in a hard water area.</p>\n<!-- SPARE_PARTS:E37 -->",
+      "faq_json": [
+        {
+          "answer": "No — you should not attempt to run a wash cycle while E37 is active. The error indicates the machine cannot reliably control its water level, which means there is a risk of overfilling and potential water damage to your home. Isolate the water supply and work through the troubleshooting steps before using the machine again.",
+          "question": "Can I still use my Bosch washing machine while it shows E37?"
+        },
+        {
+          "answer": "A power reset may clear the error temporarily, but if the underlying fault — a failed pressure switch or a leaking inlet valve — has not been fixed, the code will return during the next fill cycle. Use the reset only as a first diagnostic step, not as a long-term solution.",
+          "question": "Will turning the machine off and on again clear E37 permanently?"
+        },
+        {
+          "answer": "A useful distinction is whether the drum is actually overfilling or not. If you can see the water level is genuinely too high, the inlet valve is the more likely culprit. If the water level looks normal but the error still appears, the pressure switch or its hose is probably sending a false reading. Testing the pressure switch with a gentle blow and listening for a click is a quick way to check it without tools.",
+          "question": "How do I know if it is the pressure switch or the inlet valve causing E37?"
+        },
+        {
+          "answer": "Pressure switches for Bosch washing machines typically cost between £15 and £40 for the part, depending on the model. If you fit it yourself the total cost is just the part price. A service technician call-out will add labour costs on top, so it is worth attempting the replacement yourself if you are comfortable removing the top panel and disconnecting a hose and two or three electrical connectors.",
+          "question": "How much does it cost to replace a Bosch washing machine pressure switch?"
+        },
+        {
+          "answer": "Hard water itself does not directly trigger E37, but limescale build-up over time can partially block the mesh filter inside the inlet valve, causing it to behave erratically. Limescale can also affect the pressure switch hose if residue accumulates inside it. Running a monthly maintenance wash at 60°C with a descaling agent helps keep these components clear and extends their working life.",
+          "question": "Could hard water cause the E37 error on my Bosch washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T12:57:18.884526+00:00"
+    },
+    {
+      "article_id": 180,
+      "locale": "sv",
+      "slug": "felkod-e37",
+      "title_tag": "Bosch Tvättmaskin Felkod E37 | Åtgärda Det Nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E37? Lär dig vad som orsakar överfyllning, hur du åtgärdar det själv och när du bör kontakta en servicetekniker. Tydlig steg-för-s",
+      "h1": "Vad Betyder Felkod E37 på en Bosch Tvättmaskin?",
+      "description": "Felkod E37 på en Bosch tvättmaskin indikerar att maskinen har upptäckt överfyllning, orsakad antingen av en defekt pressostatkontakt som inte kan avläsa vattennivån korrekt, eller av ett vatteninloppsventil som fastnat i öppet läge och släpper in vatten okontrollerat.",
+      "quick_fix": "Stäng av maskinen vid eluttaget, vänta 10 minuter och stäng sedan vattenkranen helt innan du startar om — om inloppsventilen tillfälligt fastnat ger detta den möjlighet att återställa sig och trumman att tömmas till en säker nivå (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E37 är Boschs varning för överfyllning. Det innebär att maskinens styrkort har tagit emot en signal — eller inte fått rätt signal — som indikerar att vattnet i trumman har stigit över den maximalt tillåtna nivån. De två system som troligast är ansvariga är pressostatkontakten, som övervakar vattennivån, och vatteninloppsventilen, som styr hur mycket vatten som kommer in i maskinen.</p><p>När E37 utlöses stannar maskinen vanligtvis mitt i ett program, och i många fall försöker den tömma ut överskottsvattnet innan den låser sig för vidare drift. Du kan märka att trumman verkar ovanligt full, eller att vattnet syns genom luckan högre än normalt. Maskinen fortsätter inte tvättcykeln förrän felet är åtgärdat.</p><p>I de flesta fall går det att lösa problemet hemma, men det kräver metodisk kontroll av ett par komponenter. Gå igenom stegen nedan innan du kontaktar en servicetekniker.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt eller igensatt pressostatkontakt",
+          "detail": "Pressostatkontakten (även kallad vattennivåsensor) använder lufttryck via en liten slang för att avläsa hur full trumman är. Om kontakten själv har gått sönder, eller om slangen som förbinder den med trumman är böjd, igensatt eller sprucken, kan den skicka felaktiga avläsningar till styrkortet och utlösa ett överfyllningsfel även när vattennivån är normal."
+        },
+        {
+          "cause": "Vatteninloppsventil fastnad i öppet läge",
+          "detail": "Inloppsventilen är en elektriskt styrd magnetventil som öppnas för att släppa in vatten och stängs när rätt nivå uppnåtts. Om ventilens solenoid går sönder eller om smuts håller den delvis öppen, fortsätter vatten att strömma in i trumman även efter att styrkortet slutat skicka öppningssignalen, vilket orsakar verklig överfyllning."
+        },
+        {
+          "cause": "Igensatt eller böjd pressostatkontaktslang",
+          "detail": "Även om pressostatkontakten i sig fungerar korrekt kan en slang som blivit igentäppt av tvättmedelsrester eller fått en böj förhindra att korrekta tryckmätningar når kontakten. Detta kan göra att maskinen läser av vattennivån fel och utlöser E37."
+        },
+        {
+          "cause": "Fel på styrkortet",
+          "detail": "I mindre vanliga fall kan huvud-PCB:n skicka felaktiga signaler till inloppsventilen, misslyckas med att stänga den i rätt tid, eller feltolka data från pressostatkontakten. Detta misstänks vanligtvis först efter att alla övriga komponenter kontrollerats och befunnits vara i gott skick."
+        },
+        {
+          "cause": "Överdoserat tvättmedel som orsakar skum",
+          "detail": "Att använda för mycket tvättmedel, eller ett tvättmedel som inte är HE-kompatibelt i en högeffektivitetsmaskin, kan generera skum som pressostatkontakten tolkar som överskottsvatten. Maskinen kan utlösa E37 som en försiktighetsåtgärd även om den faktiska vattenmängden är inom normala gränser."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och isolera maskinen",
+          "detail": "Stäng av maskinen via kontrollpanelen och dra sedan ur kontakten ur vägguttaget. Stäng vattenkranen (vanligtvis bakom eller under maskinen) helt. Detta stoppar ytterligare vatten från att komma in och ger inloppsventilen möjlighet att återställa sig om den tillfälligt fastnat. Vänta minst 10 minuter innan du fortsätter."
+        },
+        {
+          "step": 2,
+          "action": "Töm eventuellt överskottsvatten",
+          "detail": "Placera ett grunt kärl under filteråtkomstluckan längst ned på maskinens framsida. Öppna den lilla nödtömningsslangen (om sådan finns) eller skruva långsamt loss filterlocket för att låta vattnet rinna ut på ett kontrollerat sätt. Ta bort eventuellt synligt skräp från filtret medan du ändå har det öppet. Detta steg är viktigt innan du börjar inspektera interna komponenter."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera tvättmedlet och kör en testcykel",
+          "detail": "Kontrollera att du använder rätt typ och mängd tvättmedel för din maskin — undersök tvättmedelslådan efter rester eller skumuppbyggnad och rengör den noggrant. Återanslut vattentillförseln, starta om maskinen på ett kort bomullsprogram utan tvätt och utan tvättmedel, och observera om E37 återkommer. Om det inte gör det var överskottsskum troligtvis orsaken."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera pressostatkontaktslangen",
+          "detail": "Dra ut maskinen från väggen och ta bort toppanelen (vanligtvis två skruvar baktill). Leta upp den tunna gummi- eller plastslangen som löper från trummans undersida upp till pressostatkontakten på sidan av maskinhöljet. Kontrollera hela slangen efter böjar, sprickor eller igensättningar. Koppla loss varje ände och blås försiktigt igenom den — den ska vara helt fri. Återanslut ordentligt."
+        },
+        {
+          "step": 5,
+          "action": "Testa pressostatkontakten",
+          "detail": "Med toppanelen fortfarande borttagen, leta upp pressostatkontakten — en liten rund komponent med en slangangslutning och två eller tre elektriska anslutningar. Koppla loss slangen och blås försiktigt in i slangporten; du ska höra ett svagt klick när kontakten aktiveras. Inget klick tyder på att kontakten har gått sönder och behöver bytas. Du kan också använda en multimeter för att testa kontinuitet över anslutningarna medan du blåser."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera vatteninloppsventilen",
+          "detail": "Inloppsventilen sitter baktill på maskinen där påfyllningsslangen ansluts. Med maskinen helt frånskild från ström och vatten, koppla loss påfyllningsslangen och kontrollera nätfiltret inuti ventilens inlopp efter smuts — rengör det med en mjuk borste under rinnande vatten. Om ventilhuset känns fuktigt på utsidan eller visar tecken på korrosion läcker det troligtvis internt och bör bytas."
+        },
+        {
+          "step": 7,
+          "action": "Återställ maskinen och övervaka",
+          "detail": "Montera ihop alla paneler, återanslut vatten och ström, och kör ett fullständigt program medan du stannar i närheten och observerar. Om E37 inte återkommer och maskinen fyller och tömmer normalt har felet åtgärdats. Om felet återkommer efter att du genomfört alla ovanstående steg beror felet troligtvis på inloppsventilens solenoid eller styrkortet, och en servicetekniker bör kontaktas."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har inspekterat pressostatkontaktslangen, testat pressostatkontakten och rengjort inloppsventilens filter men E37 fortsätter att visas, har inloppsventilens solenoid med stor sannolikhet gått sönder internt och låter vatten passera även när den är stängd. Att byta en magnetventil innebär arbete med både vattentillförseln och elektriska anslutningar, och om du inte känner dig trygg med att göra detta på ett säkert sätt bör en servicetekniker utföra arbetet.</p><p>Du bör också kontakta en servicetekniker om maskinen fylls med vatten när den är avstängd via kontrollpanelen — detta är ett tydligt tecken på en ventil som inte längre tätar, och det innebär en risk för vattenskada. På liknande sätt kräver diagnos av styrkortet specialutrustning och bör inte försökas utan erfarenhet.</p>",
+      "prevention_html": "<p>De komponenter som oftast byts vid åtgärd av ett Bosch E37-fel är pressostatkontakten (vattennivåsensorn), vatteninloppsventilen och pressostatkontaktslangen. Pressostatkontakten och slangen är relativt billiga och enkla att montera. Inloppsventilen är ett något större arbete men är ändå inom räckhåll för en händig hemmafixare med rätt reservdel.</p><p>För att minska risken för att E37 återkommer, använd endast rekommenderad mängd HE-kompatibelt tvättmedel, rengör tvättmedelslådan månadsvis och kontrollera inloppsventilens nätfilter var sjätte till tolfte månad för sedimentuppbyggnad — särskilt om du bor i ett område med hårt vatten.</p>\n<!-- SPARE_PARTS:E37 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — du bör inte försöka köra ett tvättprogram medan E37 är aktivt. Felet indikerar att maskinen inte tillförlitligt kan kontrollera sin vattennivå, vilket innebär risk för överfyllning och potentiell vattenskada i hemmet. Stäng av vattentillförseln och gå igenom felsökningsstegen innan du använder maskinen igen.",
+          "question": "Kan jag fortfarande använda min Bosch tvättmaskin när den visar E37?"
+        },
+        {
+          "answer": "En strömåterställning kan tillfälligt rensa felet, men om det underliggande problemet — en defekt pressostatkontakt eller en läckande inloppsventil — inte har åtgärdats, kommer koden att återkomma under nästa fyllningscykel. Använd återställningen endast som ett första diagnostiksteg, inte som en långsiktig lösning.",
+          "question": "Kommer E37 att försvinna permanent om jag stänger av och sätter på maskinen igen?"
+        },
+        {
+          "answer": "En användbar distinktion är om trumman faktiskt överfylls eller inte. Om du kan se att vattennivån är genuint för hög är inloppsventilen den troligare orsaken. Om vattennivån ser normal ut men felet ändå visas skickar pressostatkontakten eller dess slang troligtvis en felaktig avläsning. Att testa pressostatkontakten genom att blåsa försiktigt och lyssna efter ett klick är ett snabbt sätt att kontrollera den utan verktyg.",
+          "question": "Hur vet jag om det är pressostatkontakten eller inloppsventilen som orsakar E37?"
+        },
+        {
+          "answer": "Pressostatkontakter till Bosch tvättmaskiner kostar vanligtvis mellan 150 och 400 kronor för reservdelen, beroende på modell. Om du monterar den själv är totalkostnaden bara reservdelspriset. En servicetekniker tillkommer med arbetskostnad utöver detta, så det är värt att försöka byta den själv om du känner dig bekväm med att ta bort toppanelen och koppla loss en slang och två eller tre elektriska kontakter.",
+          "question": "Vad kostar det att byta pressostatkontakten på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Hårt vatten i sig utlöser inte direkt E37, men kalkavlagringar kan med tiden delvis blockera nätfiltret inuti inloppsventilen och få den att fungera oregelbundet. Kalk kan också påverka pressostatkontaktslangen om rester ansamlas inuti den. Att köra ett månatligt underhållsprogram vid 60°C med ett avkalkningsmedel hjälper till att hålla dessa komponenter rena och förlänger deras livslängd.",
+          "question": "Kan hårt vatten orsaka E37-felet på min Bosch tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T12:58:38.216037+00:00"
+    },
+    {
+      "article_id": 181,
+      "locale": "en",
+      "slug": "error-code-e38",
+      "title_tag": "Bosch Washing Machine Error Code E38 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error E38? Learn what causes a blocked pressure chamber, how to clean it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E38 Mean on a Bosch Washing Machine?",
+      "description": "Error code E38 on a Bosch washing machine indicates that the pressure chamber is blocked, preventing the machine from accurately sensing the water level inside the drum.",
+      "quick_fix": "Locate the pressure chamber and its connecting hose at the base of the machine, detach the hose, blow gently through it to clear any blockage, and reattach it before restarting the cycle — this resolves the majority of E38 faults (takes about 15 minutes).",
+      "intro_html": "<p>Error code E38 means your Bosch washing machine has detected a problem with the pressure chamber — a small component that monitors how much water is in the drum. When this chamber or its connecting hose becomes blocked with detergent residue, limescale, or debris, the pressure sensor cannot read water levels correctly, and the machine halts the cycle to prevent overfilling or running dry.</p><p>When E38 appears, the wash cycle will typically stop mid-programme and the machine may refuse to start a new cycle until the fault is cleared. You may also notice the drum failing to fill or drain as expected. In most cases, this is a straightforward maintenance issue that does not require replacement parts — just a careful clean of the affected components.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked pressure chamber",
+          "detail": "Over time, soap scum, limescale, and fine debris accumulate inside the small plastic pressure chamber itself, restricting airflow. This is the most common cause of E38 and is resolved by manual cleaning."
+        },
+        {
+          "cause": "Kinked or clogged pressure hose",
+          "detail": "The narrow rubber or plastic hose connecting the pressure chamber to the pressure sensor can become kinked, pinched, or partially blocked with residue. Even a small obstruction is enough to cause a false reading and trigger E38."
+        },
+        {
+          "cause": "Detergent or limescale build-up in the drum sump area",
+          "detail": "Heavy detergent use or hard water can cause deposits to migrate into the lower parts of the machine, including the pressure system inlet. Using too much detergent consistently accelerates this build-up."
+        },
+        {
+          "cause": "Faulty or contaminated pressure sensor",
+          "detail": "If the pressure chamber and hose are both clear but E38 persists, the pressure sensor itself may be faulty or have residue on its membrane. This is less common but does occur on older machines."
+        },
+        {
+          "cause": "Damaged pressure chamber or hose",
+          "detail": "Physical cracks or splits in the pressure chamber body or connecting hose will cause air to escape, giving the sensor incorrect readings. Inspect both components carefully for any visible damage during cleaning."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Turn the programme dial to off and unplug the washing machine from the mains socket before doing anything else. This is essential for safety whenever you are accessing internal components. Wait at least two minutes before proceeding."
+        },
+        {
+          "step": 2,
+          "action": "Access the pressure chamber",
+          "detail": "The pressure chamber is typically located near the top or side of the outer drum, connected by a thin hose running up from the drum. On most Bosch models you will need to remove the top panel — unscrew the two or three screws at the rear of the top panel and slide it back to lift it off. Consult your model's service diagram if you are unsure of the exact location."
+        },
+        {
+          "step": 3,
+          "action": "Detach and inspect the pressure hose",
+          "detail": "Carefully pull the pressure hose free from both the chamber and the sensor connections — it usually clips or pushes on without any tools. Hold it up to the light and look through it for any visible blockage. Run warm water through it or use a thin, soft brush to clear any residue inside."
+        },
+        {
+          "step": 4,
+          "action": "Clean the pressure chamber",
+          "detail": "Remove the pressure chamber from its mounting — it is usually held by a single clip or screw. Rinse it thoroughly under warm running water, using a small brush to dislodge any compacted residue inside the chamber cavity. Blow gently through the inlet port to confirm airflow is completely clear before refitting."
+        },
+        {
+          "step": 5,
+          "action": "Check for kinks or cracks",
+          "detail": "With the hose and chamber removed, inspect both carefully for cracks, splits, or areas where the hose has been pinched against another component. A cracked chamber or split hose will need to be replaced rather than cleaned. Even a hairline crack can cause persistent E38 errors."
+        },
+        {
+          "step": 6,
+          "action": "Reassemble and run a test cycle",
+          "detail": "Reattach the hose securely to both the chamber and the sensor, refit the chamber in its mounting, and replace the top panel. Plug the machine back in and run a short cotton cycle or a drum-clean programme to confirm the error has cleared. Watch the first few minutes to ensure the machine fills and progresses normally."
+        },
+        {
+          "step": 7,
+          "action": "Run a maintenance wash if the error clears",
+          "detail": "Once the machine is working again, run a 60°C or 90°C empty cycle with a washing machine cleaner or a cup of white vinegar. This helps dissolve any remaining residue in the drum and pressure system, reducing the chance of E38 returning in the near future."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have cleaned the pressure chamber and hose thoroughly, confirmed there are no cracks or kinks, and the E38 error still returns after a test cycle, the pressure sensor itself is likely faulty. Replacing the pressure sensor involves disconnecting electrical connectors and working close to the control board, which carries a risk of further damage if you are not confident with appliance electrics.</p><p>You should also contact a service technician if you find the pressure chamber is cracked or the hose connection points are broken and you are not comfortable sourcing and fitting replacement parts yourself, or if the error is accompanied by water leaking from the lower section of the machine, which may indicate a more serious fault.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when dealing with a persistent E38 fault are the pressure chamber itself, the pressure hose, and the water level pressure sensor (also called the pressostat). In many cases only the chamber or hose needs replacing, so it is worth inspecting both carefully before ordering the sensor.</p><p>To reduce the likelihood of E38 recurring, use the correct amount of low-foaming detergent for your water hardness, run a hot maintenance wash at least once a month, and consider using a descaler every three months if you live in a hard water area. These habits keep the pressure system clear and extend the life of the sensor.</p>\n<!-- SPARE_PARTS:E38 -->",
+      "faq_json": [
+        {
+          "answer": "No — when E38 is active the machine will not complete a wash cycle because it cannot reliably monitor the water level. Running it in this state risks overfilling or running the drum without enough water, which can damage the drum bearings or heating element. Clear the fault before using the machine again.",
+          "question": "Can I still use my Bosch washing machine while it shows E38?"
+        },
+        {
+          "answer": "For most homeowners, removing the top panel, cleaning the chamber and hose, and reassembling takes around 15 to 30 minutes. Having a small bowl, a soft brush, and a towel to hand will make the job quicker and tidier.",
+          "question": "How long does it take to clean the pressure chamber on a Bosch washing machine?"
+        },
+        {
+          "answer": "If E38 returns repeatedly after cleaning, the most likely causes are a hairline crack in the pressure chamber that is hard to spot visually, a pressure sensor that is beginning to fail, or persistent heavy detergent use that is re-blocking the system quickly. Try replacing the pressure hose and chamber first, as these are inexpensive parts, before moving on to the sensor.",
+          "question": "Why does my Bosch washing machine keep getting E38 after I have already cleaned it?"
+        },
+        {
+          "answer": "They are related but distinct. E36 and E37 also involve the pressure sensing system but typically point to sensor signal faults or wiring issues rather than a physical blockage. E38 specifically indicates the pressure chamber is obstructed and requires manual cleaning as the first step.",
+          "question": "Is E38 the same fault as E36 or E37 on Bosch machines?"
+        },
+        {
+          "answer": "In most cases you only need a Torx or Phillips screwdriver to remove the top panel, and a small soft brush for cleaning. No specialist tools are required. Having a smartphone or tablet nearby to reference your model's layout diagram can be very helpful if you are unfamiliar with the internal layout.",
+          "question": "Do I need any special tools to fix a Bosch E38 error?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T12:59:26.466453+00:00"
+    },
+    {
+      "article_id": 181,
+      "locale": "sv",
+      "slug": "felkod-e38",
+      "title_tag": "Bosch tvättmaskin felkod E38 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E38? Lär dig vad som orsakar en blockerad tryckkammare, hur du rengör den själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E38 på en Bosch tvättmaskin?",
+      "description": "Felkod E38 på en Bosch tvättmaskin indikerar att tryckkammaren är blockerad, vilket hindrar maskinen från att korrekt avläsa vattennivån i trumman.",
+      "quick_fix": "Leta upp tryckkammaren och dess anslutningsslang i maskinens nedre del, lossa slangen, blås försiktigt igenom den för att rensa eventuell blockering och sätt sedan tillbaka den innan du startar om programmet — detta löser de flesta E38-fel (tar ungefär 15 minuter).",
+      "intro_html": "<p>Felkod E38 innebär att din Bosch tvättmaskin har upptäckt ett problem med tryckkammaren — en liten komponent som övervakar hur mycket vatten som finns i trumman. När denna kammare eller dess anslutningsslang blockeras av tvålrester, kalkavlagringar eller smuts kan trycksensorn inte avläsa vattennivåerna korrekt, och maskinen avbryter programmet för att förhindra överfyllning eller torrkörning.</p><p>När E38 visas stannar tvättcykeln vanligtvis mitt i programmet och maskinen kan vägra att starta ett nytt program tills felet är åtgärdat. Du kan också märka att trumman inte fylls eller tömmer sig som förväntat. I de flesta fall är detta ett enkelt underhållsproblem som inte kräver utbyte av delar — bara en noggrann rengöring av de berörda komponenterna.</p>",
+      "causes_json": [
+        {
+          "cause": "Blockerad tryckkammare",
+          "detail": "Med tiden ansamlas tvålrester, kalk och fint smuts inuti den lilla plastiska tryckkammaren, vilket begränsar luftflödet. Detta är den vanligaste orsaken till E38 och åtgärdas genom manuell rengöring."
+        },
+        {
+          "cause": "Veckad eller igentäppt trycksslang",
+          "detail": "Den smala gummi- eller plastslangen som förbinder tryckkammaren med trycksensorn kan bli veckad, klämd eller delvis blockerad av avlagringar. Även en liten blockering räcker för att orsaka en felaktig avläsning och utlösa E38."
+        },
+        {
+          "cause": "Tvättmedels- eller kalkavlagringar i trummans sumpområde",
+          "detail": "Hög tvättmedelsanvändning eller hårt vatten kan orsaka avlagringar som sprider sig till maskinens nedre delar, inklusive trycksystemets inlopp. Att konsekvent använda för mycket tvättmedel påskyndar dessa avlagringar."
+        },
+        {
+          "cause": "Defekt eller förorenad trycksensor",
+          "detail": "Om tryckkammaren och slangen båda är rena men E38 kvarstår kan trycksensorn själv vara defekt eller ha avlagringar på sin membran. Detta är mindre vanligt men förekommer på äldre maskiner."
+        },
+        {
+          "cause": "Skadad tryckkammare eller slang",
+          "detail": "Fysiska sprickor eller revor i tryckkammarens hölje eller anslutningsslangen gör att luft läcker ut, vilket ger sensorn felaktiga avläsningar. Inspektera båda komponenterna noggrant efter synliga skador under rengöringen."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Vrid programväljaren till av och dra ut tvättmaskinens stickkontakt ur vägguttaget innan du gör något annat. Detta är avgörande för säkerheten när du öppnar interna komponenter. Vänta minst två minuter innan du fortsätter."
+        },
+        {
+          "step": 2,
+          "action": "Kom åt tryckkammaren",
+          "detail": "Tryckkammaren sitter vanligtvis nära toppen eller sidan av yttertrumman och är ansluten via en tunn slang som löper upp från trumman. På de flesta Bosch-modeller behöver du ta bort toppanelen — skruva loss de två eller tre skruvarna baktill på toppanelen och skjut den bakåt för att lyfta av den. Konsultera din modells servicediagram om du är osäker på den exakta placeringen."
+        },
+        {
+          "step": 3,
+          "action": "Lossa och inspektera trycksslangen",
+          "detail": "Dra försiktigt loss trycksslangen från både kammaren och sensoranslutningarna — den sitter vanligtvis fast med clips eller trycks på utan verktyg. Håll upp den mot ljuset och titta igenom den efter synliga blockeringar. Spola varmt vatten igenom den eller använd en tunn, mjuk borste för att rensa bort eventuella avlagringar inuti."
+        },
+        {
+          "step": 4,
+          "action": "Rengör tryckkammaren",
+          "detail": "Ta bort tryckkammaren från dess fäste — den hålls vanligtvis fast av ett enda clips eller en skruv. Skölj den noggrant under varmt rinnande vatten och använd en liten borste för att lossa kompakterade avlagringar inuti kammarens hålighet. Blås försiktigt igenom inloppsporten för att bekräfta att luftflödet är helt fritt innan du sätter tillbaka den."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera efter veckor eller sprickor",
+          "detail": "Med slangen och kammaren borttagna, inspektera båda noggrant efter sprickor, revor eller ställen där slangen har klämts mot en annan komponent. En sprucken kammare eller en repad slang måste bytas ut snarare än rengöras. Även en hårfin spricka kan orsaka återkommande E38-fel."
+        },
+        {
+          "step": 6,
+          "action": "Montera ihop och kör ett testprogram",
+          "detail": "Sätt tillbaka slangen ordentligt på både kammaren och sensorn, montera kammaren i sitt fäste och sätt tillbaka toppanelen. Sätt i stickkontakten och kör ett kort bomullsprogram eller ett trumrengöringsprogram för att bekräfta att felet är åtgärdat. Följ de första minuterna för att säkerställa att maskinen fylls och fortskrider normalt."
+        },
+        {
+          "step": 7,
+          "action": "Kör ett underhållsprogram om felet försvinner",
+          "detail": "När maskinen fungerar igen, kör ett tomt program på 60°C eller 90°C med ett tvättmaskinrengöringsmedel eller en kopp vitvinsvinäger. Detta hjälper till att lösa upp eventuella kvarvarande avlagringar i trumman och trycksystemet, vilket minskar risken för att E38 återkommer inom den närmaste framtiden."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har rengjort tryckkammaren och slangen noggrant, bekräftat att det inte finns några sprickor eller veckar, och E38-felet ändå återkommer efter ett testprogram är trycksensorn troligtvis defekt. Att byta trycksensor innebär att koppla loss elektriska kontakter och arbeta nära styrkortet, vilket medför risk för ytterligare skador om du inte är trygg med hushållsapparaters elsystem.</p><p>Du bör också kontakta en servicetekniker om du upptäcker att tryckkammaren är sprucken eller att slangangslutningarna är trasiga och du inte känner dig bekväm med att hitta och montera reservdelar själv, eller om felet åtföljs av vattenläckage från maskinens nedre del, vilket kan tyda på ett allvarligare fel.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid ett ihållande E38-fel är tryckkammaren, trycksslangen och vattennivåtrycksensorn (även kallad pressostaten). I många fall behöver bara kammaren eller slangen bytas, så det är värt att inspektera båda noggrant innan du beställer sensorn.</p><p>För att minska risken för att E38 återkommer, använd rätt mängd lågskummande tvättmedel anpassat för din vattenhårdhet, kör ett varmt underhållsprogram minst en gång i månaden och överväg att använda avkalkningsmedel var tredje månad om du bor i ett område med hårt vatten. Dessa vanor håller trycksystemet rent och förlänger sensorns livslängd.</p>\n<!-- SPARE_PARTS:E38 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — när E38 är aktivt kommer maskinen inte att slutföra ett tvättprogram eftersom den inte kan övervaka vattennivån på ett tillförlitligt sätt. Att köra maskinen i detta tillstånd riskerar överfyllning eller att trumman körs utan tillräckligt med vatten, vilket kan skada trummans lager eller värmeelement. Åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag fortfarande använda min Bosch tvättmaskin när den visar E38?"
+        },
+        {
+          "answer": "För de flesta hushållare tar det ungefär 15 till 30 minuter att ta bort toppanelen, rengöra kammaren och slangen samt montera ihop allt igen. Att ha en liten skål, en mjuk borste och en handduk till hands gör arbetet snabbare och snyggare.",
+          "question": "Hur lång tid tar det att rengöra tryckkammaren på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Om E38 återkommer upprepade gånger efter rengöring är de troligaste orsakerna en hårfin spricka i tryckkammaren som är svår att se med blotta ögat, en trycksensor som börjar ge upp, eller ihållande hög tvättmedelsanvändning som snabbt blockerar systemet igen. Prova att byta trycksslangen och kammaren först, eftersom dessa är billiga delar, innan du går vidare till sensorn.",
+          "question": "Varför får min Bosch tvättmaskin E38 igen efter att jag redan har rengjort den?"
+        },
+        {
+          "answer": "De är relaterade men olika. E36 och E37 involverar också trycksensorsystemet men pekar vanligtvis på signalfel i sensorn eller kabelproblem snarare än en fysisk blockering. E38 indikerar specifikt att tryckkammaren är blockerad och kräver manuell rengöring som första åtgärd.",
+          "question": "Är E38 samma fel som E36 eller E37 på Bosch-maskiner?"
+        },
+        {
+          "answer": "I de flesta fall behöver du bara en Torx- eller Phillipsskruvmejsel för att ta bort toppanelen och en liten mjuk borste för rengöring. Inga specialverktyg krävs. Att ha en smartphone eller surfplatta till hands för att referera till din modells layoutdiagram kan vara mycket hjälpsamt om du inte är bekant med maskinens inre uppbyggnad.",
+          "question": "Behöver jag några specialverktyg för att åtgärda ett Bosch E38-fel?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:00:36.460047+00:00"
+    }
+  ]
+}

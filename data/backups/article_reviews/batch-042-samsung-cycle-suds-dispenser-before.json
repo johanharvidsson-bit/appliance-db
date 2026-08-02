@@ -1,0 +1,629 @@
+{
+  "exported_at": "2026-08-02T13:44:55.174687+00:00",
+  "source": "production-vps-read-only",
+  "article_ids": [
+    143,
+    144,
+    145
+  ],
+  "rows": [
+    {
+      "article_id": 143,
+      "locale": "en",
+      "slug": "samsung-wont-complete-cycle",
+      "title_tag": "Samsung Washing Machine Won't Complete a Cycle – Fixes",
+      "meta_description": "Samsung washing machine stopping mid-cycle? Learn the most common causes and step-by-step fixes to get your machine finishing its cycle again.",
+      "h1": "Why Does My Samsung Washing Machine Keep Stopping Before the Cycle Finishes?",
+      "description": "The washing machine starts a wash programme but stops, pauses, or gets stuck at a point in the cycle without completing it.",
+      "quick_fix": "Check and clean the drain pump filter — a blocked filter is the most common reason a Samsung washing machine stalls mid-cycle; clear any debris and restart the programme (takes about 10 minutes).",
+      "intro_html": "<p>When a Samsung washing machine refuses to complete a cycle, it usually stalls during the wash, rinse, or spin phase and either sits doing nothing, displays a blinking indicator, or locks the door with laundry still inside. The machine hasn't necessarily broken down — in many cases it has detected a condition it can't resolve on its own and has simply paused to protect itself or your laundry.</p><p>The fault can sit in several different systems: the drainage circuit, the water supply, the door locking mechanism, the motor, or the control board. Because the symptom covers a wide range of stopping points in the cycle, the underlying cause isn't always obvious at first glance. Working through the checks below in order will help you narrow it down without needing specialist tools.</p><p>This issue affects a large number of Samsung washing machine models and is one of the more frequently reported faults. In most cases it can be resolved at home with basic checks before calling a service technician.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked drain pump filter",
+          "detail": "A clogged filter prevents the machine from draining water at the end of the wash or rinse phase, causing it to stall. Samsung machines will not advance to the spin cycle if standing water is detected in the drum."
+        },
+        {
+          "cause": "Kinked or blocked drain hose",
+          "detail": "If the drain hose is bent, squashed behind the machine, or partially blocked, water cannot leave the drum efficiently. The machine detects the drainage failure and halts the programme."
+        },
+        {
+          "cause": "Faulty or slow water inlet",
+          "detail": "If the machine cannot fill to the correct level within a set time — due to a partially closed tap, a clogged inlet filter, or a failing inlet valve — it will pause and eventually stop the cycle. Low water pressure in the home can trigger the same behaviour."
+        },
+        {
+          "cause": "Door latch or interlock fault",
+          "detail": "The machine continuously monitors the door lock throughout a cycle. If the door interlock develops a fault or the latch doesn't engage firmly, the machine will stop mid-cycle as a safety measure."
+        },
+        {
+          "cause": "Overloaded drum or unbalanced load",
+          "detail": "An overloaded machine or a load that has shifted to one side will cause excessive vibration during the spin phase. Samsung machines are designed to detect this and will repeatedly try to redistribute the load before eventually stopping the cycle."
+        },
+        {
+          "cause": "Control board or programme fault",
+          "detail": "Less commonly, a glitch in the main control board or a corrupted programme cycle can cause the machine to freeze at a particular point. This can sometimes be resolved with a reset but may indicate a failing board if it recurs."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reset the machine",
+          "detail": "Turn the machine off at the power button, unplug it from the wall socket, and leave it for two to three minutes. Plug it back in and start a fresh cycle. A temporary software glitch or a minor sensor misread can cause the machine to stall, and a full power reset clears this in many cases."
+        },
+        {
+          "step": 2,
+          "action": "Check the load size and balance",
+          "detail": "Open the door if it will release and check whether the laundry has bunched to one side. Remove a few items if the drum is packed tightly, redistribute the remaining load evenly, and restart. Samsung recommends not exceeding the rated drum capacity, and bulky single items like duvets are particularly prone to causing imbalance."
+        },
+        {
+          "step": 3,
+          "action": "Clean the drain pump filter",
+          "detail": "Locate the small access panel at the bottom front of the machine. Place a shallow tray and some towels underneath, then slowly unscrew the filter cap to release residual water. Remove the filter completely, clear any fluff, coins, or debris, rinse it under a tap, and refit it securely. A blocked filter is the single most common cause of mid-cycle stalling on Samsung machines."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the drain hose",
+          "detail": "Pull the machine slightly away from the wall and trace the grey drain hose from the back of the machine to where it connects to the standpipe or sink. Check for kinks, tight bends, or any visible blockage. The end of the hose should sit no higher than 100 cm from the floor — if it is too high, the machine will struggle to pump water out."
+        },
+        {
+          "step": 5,
+          "action": "Check the water supply",
+          "detail": "Make sure the hot and cold tap valves behind the machine are fully open. Unscrew the inlet hoses from the back of the machine and check the small mesh filters inside the inlet valve ports — these can become clogged with limescale or sediment over time. Rinse the filters under running water and reattach the hoses, ensuring the connections are hand-tight."
+        },
+        {
+          "step": 6,
+          "action": "Examine the door latch",
+          "detail": "Close the door firmly and listen for a solid click from the latch. If the door feels loose or the machine starts a cycle but stops almost immediately, the door interlock may not be engaging correctly. Inspect the plastic latch on the door and the striker on the machine body for visible damage or wear. A broken latch hook is a straightforward part to replace."
+        },
+        {
+          "step": 7,
+          "action": "Run a drum clean or diagnostic cycle",
+          "detail": "Samsung machines include a self-clean or eco drum clean programme. Running this cycle can clear minor sensor issues and flush residue from the drum and pump. If your model supports it, you can also activate a diagnostic mode by holding the temperature and spin buttons simultaneously for three seconds — consult your model's manual for the exact combination, as it varies."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If the machine stops at exactly the same point in every cycle despite completing all the checks above, this points to a component failure rather than a simple blockage or imbalance. Specific faults that warrant a service technician visit include a motor that hums but doesn't turn, a drum that won't spin at all, a door that remains locked and won't release, or any sign of burning smell or visible scorch marks near the back of the machine.</p><p>A failing main control board or a defective motor control unit are also beyond straightforward DIY repair. If the machine is displaying unusual behaviour such as cycling through programmes on its own, failing to respond to button presses, or repeatedly stopping at the same stage after a reset, book a service technician to carry out a proper diagnostic check.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Samsung washing machine won't complete a cycle are the drain pump filter (or the pump itself if it has seized), the door interlock assembly, and the water inlet valve. Keeping the filter clean every one to three months is the single most effective maintenance step you can take to prevent mid-cycle stoppages.</p><p>If you need to replace any of these components, use the part finder below to locate the correct parts for your specific Samsung model number.</p>\n<!-- SPARE_PARTS_FAULT:wont-complete-cycle -->",
+      "faq_json": [
+        {
+          "answer": "The machine locks the door whenever water is detected in the drum above a safe level. If it has stalled with the door locked, it is most likely unable to drain. Clean the pump filter first, then check the drain hose for blockages. Once the water drains, the door should release after a minute or two.",
+          "question": "Why does my Samsung washing machine stop mid-cycle with the door locked?"
+        },
+        {
+          "answer": "Yes. Open the small access panel at the bottom front of the machine and place a shallow tray beneath it. Slowly unscrew the drain filter cap to allow water to flow out gradually. Have plenty of towels ready as there can be several litres of water in the drum. Once drained, the door lock should disengage.",
+          "question": "Can I manually drain my Samsung washing machine if it's stuck mid-cycle?"
+        },
+        {
+          "answer": "Getting stuck on spin is usually caused by an unbalanced load, a blocked drain filter preventing full drainage before spin, or a worn drum bearing. Try redistributing the laundry and cleaning the filter first. If the drum makes a loud rumbling or grinding noise during spin, the bearings may need replacing by a service technician.",
+          "question": "My Samsung washing machine gets stuck on the spin cycle — what's causing it?"
+        },
+        {
+          "answer": "A reset can resolve a cycle that has stalled due to a temporary software glitch, but it won't fix an underlying mechanical or component fault. To reset, unplug the machine for three minutes and restart. If the problem recurs consistently, work through the physical checks in the guide above.",
+          "question": "Will a factory reset fix a Samsung washing machine that won't finish a cycle?"
+        },
+        {
+          "answer": "Samsung recommends cleaning the pump filter every one to three months depending on how frequently you use the machine. If you wash pet bedding, heavily soiled items, or use the machine daily, clean it monthly. A quick clean takes around ten minutes and is the most effective way to prevent drainage-related mid-cycle stoppages.",
+          "question": "How often should I clean the pump filter on my Samsung washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:42.636662+00:00"
+    },
+    {
+      "article_id": 143,
+      "locale": "sv",
+      "slug": "samsung-slutfor-inte-programmet",
+      "title_tag": "Samsungs tvättmaskin slutför inte ett program – Lösningar",
+      "meta_description": "Stannar din Samsung tvättmaskin mitt i programmet? Lär dig de vanligaste orsakerna och steg-för-steg-lösningar för att få maskinen att slutföra sitt program igen.",
+      "h1": "Varför slutar min Samsung tvättmaskin innan programmet är klart?",
+      "description": "Tvättmaskinen startar ett tvättprogram men stannar, pausar eller fastnar vid en punkt i cykeln utan att slutföra den.",
+      "quick_fix": "Kontrollera och rengör avloppspumpens filter – ett igensatt filter är den vanligaste orsaken till att en Samsung tvättmaskin stannar mitt i programmet. Rensa bort skräp och starta om programmet (tar ungefär 10 minuter).",
+      "intro_html": "<p>När en Samsung tvättmaskin vägrar att slutföra ett program stannar den vanligtvis under tvätt-, sköljnings- eller centrifugeringsfasen och antingen gör ingenting, visar en blinkande indikator eller låser luckan med tvätten kvar inuti. Maskinen har inte nödvändigtvis gått sönder – i många fall har den upptäckt ett tillstånd den inte kan lösa på egen hand och har helt enkelt pausat för att skydda sig själv eller tvätten.</p><p>Felet kan finnas i flera olika system: avloppskretsen, vattenförsörjningen, lucklåsmekanismen, motorn eller styrkortet. Eftersom symptomet täcker ett brett spektrum av stoppunkter i programmet är den bakomliggande orsaken inte alltid uppenbar vid första anblicken. Att gå igenom kontrollerna nedan i ordning hjälper dig att begränsa problemet utan att behöva specialverktyg.</p><p>Det här problemet drabbar ett stort antal Samsung tvättmaskinmodeller och är ett av de mer frekvent rapporterade felen. I de flesta fall kan det lösas hemma med grundläggande kontroller innan du behöver ringa en servicetekniker.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt avloppspumpsfilter",
+          "detail": "Ett tilltäppt filter hindrar maskinen från att tömma vatten i slutet av tvätt- eller sköljningsfasen, vilket gör att den stannar. Samsung-maskiner går inte vidare till centrifugeringscykeln om stående vatten upptäcks i trumman."
+        },
+        {
+          "cause": "Vikt eller blockerad avloppsslang",
+          "detail": "Om avloppsslangen är böjd, klämd bakom maskinen eller delvis blockerad kan vatten inte lämna trumman effektivt. Maskinen upptäcker avloppsfel och stoppar programmet."
+        },
+        {
+          "cause": "Felaktigt eller långsamt vattenintag",
+          "detail": "Om maskinen inte kan fylla till rätt nivå inom en bestämd tid – på grund av en delvis stängd kran, ett igensatt intagsfilter eller en defekt intagsventil – pausar den och stoppar så småningom programmet. Lågt vattentryck i hemmet kan utlösa samma beteende."
+        },
+        {
+          "cause": "Fel på lucklås eller säkerhetsspärr",
+          "detail": "Maskinen övervakar kontinuerligt lucklåset under hela programmet. Om säkerhetsspärren utvecklar ett fel eller spärren inte hakar i ordentligt stannar maskinen mitt i programmet som en säkerhetsåtgärd."
+        },
+        {
+          "cause": "Överfylld trumma eller obalanserad last",
+          "detail": "En överfylld maskin eller en last som har förskjutits åt ena sidan orsakar kraftiga vibrationer under centrifugeringsfasen. Samsung-maskiner är konstruerade för att upptäcka detta och försöker upprepade gånger omfördela lasten innan de slutligen stoppar programmet."
+        },
+        {
+          "cause": "Fel på styrkort eller program",
+          "detail": "Mer sällan kan ett fel i huvudstyrkortet eller ett skadat programcykel orsaka att maskinen fryser vid en viss punkt. Detta kan ibland lösas med en återställning men kan indikera ett defekt kort om det återkommer."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Återställ maskinen",
+          "detail": "Stäng av maskinen med strömknappen, dra ur kontakten från vägguttaget och låt den stå i två till tre minuter. Sätt i kontakten igen och starta ett nytt program. Ett tillfälligt programvarufel eller en mindre sensoravläsning kan göra att maskinen stannar, och en fullständig strömåterställning löser detta i många fall."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera lastens storlek och balans",
+          "detail": "Öppna luckan om den går att öppna och kontrollera om tvätten har samlats på ena sidan. Ta ut några plagg om trumman är hårt packad, fördela om den kvarvarande lasten jämnt och starta om. Samsung rekommenderar att inte överskrida trummans nominella kapacitet, och skrymmande enstaka föremål som täcken är särskilt benägna att orsaka obalans."
+        },
+        {
+          "step": 3,
+          "action": "Rengör avloppspumpens filter",
+          "detail": "Hitta den lilla åtkomstluckan längst ned på maskinens framsida. Placera ett grunt fat och några handdukar undertill och skruva sedan långsamt loss filterlocket för att släppa ut kvarvarande vatten. Ta ut filtret helt, rensa bort ludd, mynt eller skräp, skölj det under kranen och sätt tillbaka det ordentligt. Ett igensatt filter är den enskilt vanligaste orsaken till att Samsung-maskiner stannar mitt i programmet."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera avloppsslangen",
+          "detail": "Dra maskinen något från väggen och följ den grå avloppsslangen från maskinens baksida till där den ansluter till avloppsröret eller diskhon. Kontrollera om det finns veck, skarpa böjar eller synliga blockeringar. Slangänden bör inte sitta högre än 100 cm från golvet – om den sitter för högt kommer maskinen att ha svårt att pumpa ut vatten."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera vattenförsörjningen",
+          "detail": "Se till att varm- och kallvattenkranarna bakom maskinen är helt öppna. Skruva loss intagsslangarna från maskinens baksida och kontrollera de små nätfiltrena inuti intagsventilportarna – dessa kan täppas igen av kalkavlagringar eller sediment med tiden. Skölj filtrena under rinnande vatten och återanslut slangarna, se till att anslutningarna är åtdragna för hand."
+        },
+        {
+          "step": 6,
+          "action": "Undersök lucklåset",
+          "detail": "Stäng luckan ordentligt och lyssna efter ett tydligt klick från låset. Om luckan känns lös eller maskinen startar ett program men stannar nästan omedelbart kanske säkerhetsspärren inte hakar i korrekt. Inspektera plastspärren på luckan och låsblecket på maskinkroppen för synliga skador eller slitage. En trasig spärrhake är en enkel del att byta ut."
+        },
+        {
+          "step": 7,
+          "action": "Kör ett trumrengörings- eller diagnostikprogram",
+          "detail": "Samsung-maskiner har ett program för självengöring eller eko-trumrengöring. Att köra detta program kan lösa mindre sensorproblem och spola bort rester från trumman och pumpen. Om din modell stöder det kan du även aktivera ett diagnostikläge genom att hålla temperatur- och centrifugeringsknapparna intryckta samtidigt i tre sekunder – se din modells manual för den exakta kombinationen, eftersom den varierar."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om maskinen stannar vid exakt samma punkt i varje program trots att du har genomfört alla kontroller ovan pekar detta på ett komponentfel snarare än en enkel blockering eller obalans. Specifika fel som motiverar ett besök av en servicetekniker inkluderar en motor som surrar men inte snurrar, en trumma som inte snurrar alls, en lucka som förblir låst och inte går att öppna, eller tecken på bränd lukt eller synliga brännmärken nära maskinens baksida.</p><p>Ett defekt huvudstyrkort eller en felaktig motorstyrningsenhet ligger också utanför enkel DIY-reparation. Om maskinen uppvisar ovanligt beteende som att byta program på egen hand, inte reagera på knapptryckningar eller upprepade gånger stanna vid samma fas efter en återställning, boka en servicetekniker för att utföra en ordentlig diagnostisk kontroll.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Samsung tvättmaskin inte slutför ett program är avloppspumpens filter (eller själva pumpen om den har fastnat), lucksäkerhetsspärrens enhet och vattenintagsventilen. Att hålla filtret rent var en till tre månader är den enskilt mest effektiva underhållsåtgärden du kan vidta för att förhindra stopp mitt i programmet.</p><p>Om du behöver byta ut någon av dessa komponenter, använd reservdelsfindern nedan för att hitta rätt delar till ditt specifika Samsung modellnummer.</p>\n<!-- SPARE_PARTS_FAULT:wont-complete-cycle -->",
+      "faq_json": [
+        {
+          "answer": "Maskinen låser luckan när vatten upptäcks i trumman över en säker nivå. Om den har stannat med luckan låst kan den troligtvis inte tömma vatten. Rengör pumpfiltret först och kontrollera sedan avloppsslangen för blockeringar. När vattnet har tömts ut bör luckan öppnas efter en minut eller två.",
+          "question": "Varför stannar min Samsung tvättmaskin mitt i programmet med luckan låst?"
+        },
+        {
+          "answer": "Ja. Öppna den lilla åtkomstluckan längst ned på maskinens framsida och placera ett grunt fat under den. Skruva långsamt loss avloppsfilterhatten för att låta vatten rinna ut gradvis. Ha gott om handdukar till hands eftersom det kan finnas flera liter vatten i trumman. När den är tömd bör lucklåset lossna.",
+          "question": "Kan jag tömma min Samsung tvättmaskin manuellt om den fastnat mitt i programmet?"
+        },
+        {
+          "answer": "Att fastna på centrifugering orsakas vanligtvis av en obalanserad last, ett igensatt avloppsfilter som förhindrar fullständig tömning före centrifugering, eller ett slitet trummlager. Försök att omfördela tvätten och rengöra filtret först. Om trumman ger ifrån sig ett högt mullrande eller skrapande ljud under centrifugering kan lagren behöva bytas av en servicetekniker.",
+          "question": "Min Samsung tvättmaskin fastnar på centrifugeringsprogrammet – vad orsakar det?"
+        },
+        {
+          "answer": "En återställning kan lösa ett program som har stannat på grund av ett tillfälligt programvarufel, men det åtgärdar inte ett underliggande mekaniskt fel eller komponentfel. För att återställa, dra ur maskinen i tre minuter och starta om. Om problemet återkommer konsekvent, gå igenom de fysiska kontrollerna i guiden ovan.",
+          "question": "Löser en fabriksåterställning problemet med en Samsung tvättmaskin som inte slutför ett program?"
+        },
+        {
+          "answer": "Samsung rekommenderar att rengöra pumpfiltret var en till tre månader beroende på hur ofta du använder maskinen. Om du tvättar husdjursbäddar, kraftigt smutsade föremål eller använder maskinen dagligen, rengör det månadsvis. En snabb rengöring tar ungefär tio minuter och är det mest effektiva sättet att förhindra avloppsrelaterade stopp mitt i programmet.",
+          "question": "Hur ofta bör jag rengöra pumpfiltret på min Samsung tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:42.715553+00:00"
+    },
+    {
+      "article_id": 144,
+      "locale": "en",
+      "slug": "samsung-too-much-foam",
+      "title_tag": "Samsung Washing Machine Producing Too Much Foam – Fixes",
+      "meta_description": "Samsung washing machine producing too much foam? Find out why it happens and how to fix it quickly with this practical step-by-step troubleshooting guide.",
+      "h1": "Why Is My Samsung Washing Machine Producing Too Much Foam?",
+      "description": "The washing machine generates an excessive amount of foam or suds during the wash or rinse cycle, which can spill from the door seal or cause the machine to pause.",
+      "quick_fix": "Run an empty drum clean cycle with no detergent to flush out residual soap buildup — the machine should complete the cycle foam-free (takes about 15 minutes).",
+      "intro_html": "<p>Excessive foam in a washing machine is one of the most common complaints Samsung owners report, and in the vast majority of cases the root cause is straightforward: too much detergent, or the wrong type of detergent for a front-loading or high-efficiency machine. When suds build up beyond a certain level, the machine's sensors detect the problem and may slow the drum, extend the rinse cycle, or pause the programme entirely to protect the motor and bearings.</p><p>You might notice foam visible through the door glass, suds seeping out around the door seal, or a wash cycle that seems to run much longer than usual. Samsung machines do not use a specific error code for excess foam, but the behaviour is unmistakable. The good news is that this fault is almost always resolved without any replacement parts or specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Using too much detergent",
+          "detail": "This is by far the most frequent cause. Homeowners often pour detergent by eye rather than following the dosing guide, and even a small excess creates a disproportionate amount of suds in a modern low-water machine."
+        },
+        {
+          "cause": "Using non-HE (high-efficiency) detergent",
+          "detail": "Samsung front-loaders and many top-loaders are high-efficiency machines that use significantly less water than older models. Standard detergents are formulated for higher water volumes and produce far too much foam when used in an HE machine."
+        },
+        {
+          "cause": "Residual detergent buildup in the drum or dispenser",
+          "detail": "Over time, undissolved detergent accumulates in the drum, door seal folds, and detergent drawer. Each subsequent wash reactivates this residue, generating foam even when you have dosed correctly for that cycle."
+        },
+        {
+          "cause": "Washing heavily soiled or greasy items",
+          "detail": "Fabrics saturated with body oils, cooking grease, or certain fabric softeners can react with detergent to produce extra suds. This is especially noticeable when washing items like gym wear or chef's clothing."
+        },
+        {
+          "cause": "Soft water supply",
+          "detail": "Detergent lathers far more readily in soft water than in hard water. If you live in a soft-water area and are using the same dose you used in a previous hard-water area, you will almost certainly be over-dosing."
+        },
+        {
+          "cause": "Faulty or blocked pressure sensor (rare)",
+          "detail": "In a small number of cases, a blocked or malfunctioning water-level pressure sensor can cause the machine to underfill, concentrating the detergent and producing excess foam. This is uncommon and only worth investigating after all other causes have been ruled out."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check your detergent type and dose",
+          "detail": "Look at your detergent packaging and confirm it carries an 'HE' symbol. If it does not, switch to an HE-rated detergent immediately. Even if it is HE-rated, measure the dose precisely using the cap or scoop provided — for a standard load in a Samsung machine, this is usually 35–50 ml of liquid or one level scoop of powder. Reduce the dose further if you have soft water."
+        },
+        {
+          "step": 2,
+          "action": "Run an empty drum clean cycle",
+          "detail": "Select the 'Drum Clean' or 'Self Clean' programme on your Samsung machine and run it with an empty drum and absolutely no detergent or cleaning products. This flushes residual soap from the drum, door seal, and internal hoses. If your model does not have a dedicated drum clean cycle, use the hottest cotton programme available (60°C or 90°C) on an empty drum."
+        },
+        {
+          "step": 3,
+          "action": "Clean the detergent dispenser drawer",
+          "detail": "Pull the drawer out fully — most Samsung drawers release when you press a small tab at the back of the softener compartment. Rinse all compartments under warm running water and use an old toothbrush to scrub away any caked-on detergent. Dry it before reinserting. A blocked drawer can cause detergent to pool and release unevenly during the wash."
+        },
+        {
+          "step": 4,
+          "action": "Wipe down the door seal",
+          "detail": "Peel back the rubber door gasket and wipe inside the folds with a damp cloth. Detergent residue and fabric softener collect here and contribute to ongoing foam problems. Pay particular attention to the bottom of the seal where water and soap tend to pool."
+        },
+        {
+          "step": 5,
+          "action": "Run two or three rinse-only cycles",
+          "detail": "If foam is still appearing after the drum clean, run two or three consecutive rinse and spin cycles with no detergent. This progressively dilutes and removes any remaining soap residue from the drum and internal components. You should see noticeably less foam with each cycle."
+        },
+        {
+          "step": 6,
+          "action": "Test with a correctly dosed wash",
+          "detail": "Once the drum is clear, run a normal wash with a small load using the correct HE detergent at the recommended dose. Observe the cycle through the door glass. A small amount of light foam is normal; thick, persistent suds that fill the drum indicate you still need to reduce your detergent dose further."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the pressure sensor hose if the problem persists",
+          "detail": "If excessive foam continues despite correct detergent use, locate the thin plastic hose that runs from the bottom of the drum to the pressure sensor (usually mounted on the side panel — consult your model's service diagram). Disconnect it and check for blockages or kinks. A blocked hose can be cleared with a thin wire or replaced inexpensively."
+        }
+      ],
+      "when_to_call_technician_html": "<p>In the rare situation where you have corrected your detergent type and dose, thoroughly cleaned the drum and dispenser, and the machine is still generating excessive foam on every cycle, there may be a fault with the water-level pressure sensor or the control board that is causing the machine to underfill. These components require diagnostic tools to test accurately and are not straightforward to replace without experience.</p><p>You should also contact a service technician if the machine is pausing mid-cycle repeatedly, displaying unusual behaviour on the control panel, or if you notice water leaking from the door seal during a foamy cycle — as continued operation in this state can cause water ingress into the motor or electronics.</p>",
+      "prevention_html": "<p>The most effective way to prevent excess foam is to use a good-quality HE detergent and measure every dose carefully rather than estimating. Running a monthly drum clean cycle — Samsung recommends this when the 'Drum Clean' reminder appears on the display — keeps internal surfaces free of soap residue. If you live in a soft-water area, use the minimum recommended dose and consider switching to a detergent tablet, which provides a pre-measured amount.</p><p>The parts most commonly replaced in connection with persistent foam-related faults are the <strong>water-level pressure sensor</strong>, the <strong>pressure sensor hose</strong>, and the <strong>detergent dispenser drawer assembly</strong>. You can search for genuine Samsung replacements using your model number below.</p>\n<!-- SPARE_PARTS_FAULT:too-much-foam -->",
+      "faq_json": [
+        {
+          "answer": "Yes, over time it can. Persistent excess foam forces the machine to run extended rinse cycles, putting extra strain on the pump and motor. In severe cases, suds can work their way into the motor housing or bearings and cause premature wear. Addressing the cause promptly protects the machine's lifespan.",
+          "question": "Can too much foam damage my Samsung washing machine?"
+        },
+        {
+          "answer": "A small handful of table salt sprinkled directly into the drum can help break down foam quickly in an emergency, and it will not harm the machine. White vinegar is sometimes suggested but should be used sparingly as it can degrade rubber door seals over time. Neither is a long-term solution — correcting your detergent dose is.",
+          "question": "Is it safe to add salt or vinegar to stop the foam mid-cycle?"
+        },
+        {
+          "answer": "Almost certainly yes. Samsung machines are designed to detect excess suds and automatically add extra rinse time to clear them. This is a protective feature, not a fault in itself. Once you resolve the foam issue by adjusting your detergent, the cycle times will return to normal.",
+          "question": "My machine shows no error code but keeps extending the rinse — is this related to foam?"
+        },
+        {
+          "answer": "Your local water supplier's website will usually publish a water hardness map or allow you to check by postcode. As a rough guide, areas in Scotland, Wales, and the south-west of England tend to have soft water, while the Midlands and south-east of England typically have hard water. Many detergent brands also include a dosing guide adjusted for water hardness on the packaging.",
+          "question": "How do I know if my water supply is soft or hard?"
+        },
+        {
+          "answer": "The most likely explanation is that there is still a significant amount of old detergent residue built up inside the drum, door seal, or dispenser drawer from previous washes. Run two or three empty drum clean cycles back to back to clear it fully. It can take several washes before the residue is completely flushed out, so be patient and keep your new doses small.",
+          "question": "I switched to HE detergent but still get foam — what am I missing?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:42.784505+00:00"
+    },
+    {
+      "article_id": 144,
+      "locale": "sv",
+      "slug": "samsung-for-mycket-skum",
+      "title_tag": "Samsung Tvättmaskin Producerar För Mycket Skum – Lösningar",
+      "meta_description": "Samsung tvättmaskin producerar för mycket skum? Ta reda på varför det händer och hur du åtgärdar det snabbt med den här praktiska felsökningsguiden steg för steg.",
+      "h1": "Varför Producerar Min Samsung Tvättmaskin För Mycket Skum?",
+      "description": "Tvättmaskinen genererar en alltför stor mängd skum under tvätt- eller sköljcykeln, vilket kan läcka ut genom dörrtätningen eller få maskinen att pausa.",
+      "quick_fix": "Kör ett tomt trumrengöringsprogram utan tvättmedel för att skölja bort kvarvarande tvålrester – maskinen bör slutföra cykeln utan skum (tar ungefär 15 minuter).",
+      "intro_html": "<p>Överdrivet skum i en tvättmaskin är ett av de vanligaste klagomålen som Samsung-ägare rapporterar, och i de allra flesta fall är grundorsaken enkel: för mycket tvättmedel, eller fel typ av tvättmedel för en frontmatad eller högeffektiv maskin. När skummet byggs upp över en viss nivå upptäcker maskinens sensorer problemet och kan sakta ner trumman, förlänga sköljcykeln eller pausa programmet helt för att skydda motor och lager.</p><p>Du kanske märker skum synligt genom dörrglaset, skum som sipprar ut runt dörrtätningen, eller en tvättcykel som verkar ta mycket längre tid än vanligt. Samsung-maskiner använder ingen specifik felkod för överdrivet skum, men beteendet är omöjligt att missa. Den goda nyheten är att detta fel nästan alltid löses utan utbytesdelar eller specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Användning av för mycket tvättmedel",
+          "detail": "Detta är överlägset den vanligaste orsaken. Hushållsmedlemmar häller ofta tvättmedel på fri hand snarare än att följa doseringsinstruktionerna, och redan ett litet överskott skapar en oproportionerligt stor mängd skum i en modern lågvattenmaskin."
+        },
+        {
+          "cause": "Användning av tvättmedel som inte är HE-märkt (högeffektivt)",
+          "detail": "Samsungs frontmatade maskiner och många toppmatar är högeffektiva maskiner som använder betydligt mindre vatten än äldre modeller. Vanliga tvättmedel är formulerade för större vattenmängder och producerar alldeles för mycket skum när de används i en HE-maskin."
+        },
+        {
+          "cause": "Kvarvarande tvättmedelsrester i trumman eller behållaren",
+          "detail": "Med tiden ansamlas olöst tvättmedel i trumman, dörrtätningens veck och tvättmedelslådan. Varje efterföljande tvätt återaktiverar dessa rester och genererar skum även när du har doserat korrekt för den aktuella cykeln."
+        },
+        {
+          "cause": "Tvätt av kraftigt smutsade eller fettiga plagg",
+          "detail": "Tyger mättade med hudoljor, matolja eller vissa sköljmedel kan reagera med tvättmedel och producera extra skum. Detta märks särskilt tydligt vid tvätt av exempelvis träningskläder eller kockrockar."
+        },
+        {
+          "cause": "Mjukt vatten i ledningsnätet",
+          "detail": "Tvättmedel skummar betydligt mer i mjukt vatten än i hårt vatten. Om du bor i ett område med mjukt vatten och använder samma dos som du använde i ett tidigare område med hårt vatten, överdoserar du nästan säkert."
+        },
+        {
+          "cause": "Defekt eller igensatt trycksensor (ovanligt)",
+          "detail": "I ett fåtal fall kan en igensatt eller felaktig vattennivåtrycksensor göra att maskinen fylls med för lite vatten, vilket koncentrerar tvättmedlet och producerar överdrivet skum. Detta är ovanligt och värt att undersöka först efter att alla andra orsaker har uteslutits."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera typ av tvättmedel och dosering",
+          "detail": "Titta på förpackningen och bekräfta att tvättmedlet bär ett 'HE'-märke. Om det inte gör det, byt omedelbart till ett HE-godkänt tvättmedel. Även om det är HE-märkt, mät dosen noggrant med den medföljande mätkoppen eller skopan – för en normalstor tvätt i en Samsung-maskin är detta vanligtvis 35–50 ml flytande medel eller en jämn skopa pulver. Minska dosen ytterligare om du har mjukt vatten."
+        },
+        {
+          "step": 2,
+          "action": "Kör ett tomt trumrengöringsprogram",
+          "detail": "Välj programmet 'Trumrengöring' eller 'Självrenande' på din Samsung-maskin och kör det med en tom trumma och absolut inget tvättmedel eller rengöringsmedel. Detta sköljer bort kvarvarande tvål från trumman, dörrtätningen och interna slangar. Om din modell saknar ett dedikerat trumrengöringsprogram, använd det varmaste bomullsprogrammet som finns tillgängligt (60°C eller 90°C) med en tom trumma."
+        },
+        {
+          "step": 3,
+          "action": "Rengör tvättmedelslådan",
+          "detail": "Dra ut lådan helt – de flesta Samsung-lådor lossnar när du trycker på en liten flik längst bak i sköljmedelsfacket. Skölj alla fack under varmt rinnande vatten och använd en gammal tandborste för att skrubba bort inbakat tvättmedel. Torka av den innan du sätter tillbaka den. En igensatt låda kan göra att tvättmedel samlas och frisätts ojämnt under tvätten."
+        },
+        {
+          "step": 4,
+          "action": "Torka av dörrtätningen",
+          "detail": "Vik tillbaka gummitätningen och torka inuti vecken med en fuktig trasa. Tvättmedelsrester och sköljmedel samlas här och bidrar till fortsatta skumproblem. Var extra noga med tätningens undersida där vatten och tvål tenderar att samlas."
+        },
+        {
+          "step": 5,
+          "action": "Kör två eller tre sköljningscykler",
+          "detail": "Om skum fortfarande uppstår efter trumrengöringen, kör två eller tre på varandra följande sköljnings- och centrifugeringscykler utan tvättmedel. Detta späder ut och avlägsnar progressivt eventuella kvarvarande tvålrester från trumman och interna komponenter. Du bör märka märkbart mindre skum för varje cykel."
+        },
+        {
+          "step": 6,
+          "action": "Testa med en korrekt doserad tvätt",
+          "detail": "När trumman är ren, kör en normal tvätt med en liten mängd tvätt och rätt HE-tvättmedel i rekommenderad dos. Observera cykeln genom dörrglaset. En liten mängd lätt skum är normalt; tjockt, ihållande skum som fyller trumman indikerar att du fortfarande behöver minska din tvättmedelsdos ytterligare."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera trycksensorslangen om problemet kvarstår",
+          "detail": "Om överdrivet skum fortsätter trots korrekt tvättmedelsanvändning, leta upp den tunna plastslangen som löper från trummans botten till trycksensorn (vanligtvis monterad på sidopanelen – se din modells servicediagram). Koppla loss den och kontrollera om det finns blockeringar eller knickar. En igensatt slang kan rensas med en tunn tråd eller bytas ut till låg kostnad."
+        }
+      ],
+      "when_to_call_technician_html": "<p>I det sällsynta fall där du har korrigerat typ av tvättmedel och dosering, noggrant rengjort trumman och tvättmedelslådan, och maskinen fortfarande genererar överdrivet skum vid varje cykel, kan det finnas ett fel på vattennivåtrycksensorn eller styrkortet som gör att maskinen fylls med för lite vatten. Dessa komponenter kräver diagnostikverktyg för att testas korrekt och är inte enkla att byta ut utan erfarenhet.</p><p>Du bör även kontakta en servicetekniker om maskinen upprepade gånger pausar mitt i cykeln, uppvisar ovanligt beteende på kontrollpanelen, eller om du märker att vatten läcker från dörrtätningen under en skumig cykel – eftersom fortsatt drift i detta tillstånd kan orsaka vattenintrång i motor eller elektronik.</p>",
+      "prevention_html": "<p>Det effektivaste sättet att förebygga överdrivet skum är att använda ett bra HE-tvättmedel och mäta varje dos noggrant snarare än att uppskatta. Att köra ett månatligt trumrengöringsprogram – Samsung rekommenderar detta när påminnelsen 'Trumrengöring' visas i displayen – håller inre ytor fria från tvålrester. Om du bor i ett område med mjukt vatten, använd den minsta rekommenderade dosen och överväg att byta till en tvättmedlestablett, som ger en förmätt mängd.</p><p>De delar som oftast byts ut i samband med ihållande skumrelaterade fel är <strong>vattennivåtrycksensorn</strong>, <strong>trycksensorslangen</strong> och <strong>tvättmedelslådans hållare</strong>. Du kan söka efter äkta Samsung-reservdelar med ditt modellnummer nedan.</p>\n<!-- SPARE_PARTS_FAULT:too-much-foam -->",
+      "faq_json": [
+        {
+          "answer": "Ja, med tiden kan det det. Ihållande överdrivet skum tvingar maskinen att köra förlängda sköljcykler, vilket belastar pump och motor extra. I allvarliga fall kan skum tränga in i motorhuset eller lagren och orsaka för tidig förslitning. Att åtgärda orsaken snabbt skyddar maskinens livslängd.",
+          "question": "Kan för mycket skum skada min Samsung tvättmaskin?"
+        },
+        {
+          "answer": "En liten handfull bordssalt strött direkt i trumman kan snabbt hjälpa till att bryta ner skum i en nödsituation, och det skadar inte maskinen. Vitvinsvinäger föreslås ibland men bör användas sparsamt eftersom det kan bryta ner gummitätningar med tiden. Ingen av dessa är en långsiktig lösning – att korrigera din tvättmedelsdos är det rätta.",
+          "question": "Är det säkert att tillsätta salt eller vinäger för att stoppa skummet mitt i cykeln?"
+        },
+        {
+          "answer": "Nästan säkert ja. Samsung-maskiner är konstruerade för att upptäcka överdrivet skum och automatiskt lägga till extra sköljningstid för att rensa det. Detta är en skyddsfunktion, inte ett fel i sig. När du löser skumproblemet genom att justera ditt tvättmedel återgår cykeltiderna till det normala.",
+          "question": "Min maskin visar ingen felkod men fortsätter att förlänga sköljningen – beror det på skum?"
+        },
+        {
+          "answer": "Din lokala vattenleverantörs webbplats publicerar vanligtvis en karta över vattenhårdheten eller låter dig kontrollera via postnummer. Som en grov vägledning tenderar områden i norra Sverige och längs västkusten att ha mjukare vatten, medan vissa delar av södra och mellersta Sverige kan ha hårdare vatten. Många tvättmedelsvarumärken inkluderar också en doseringsvägledning anpassad för vattenhårdheten på förpackningen.",
+          "question": "Hur vet jag om mitt vatten är mjukt eller hårt?"
+        },
+        {
+          "answer": "Den troligaste förklaringen är att det fortfarande finns en betydande mängd gammalt tvättmedel inbyggt inuti trumman, dörrtätningen eller tvättmedelslådan från tidigare tvättar. Kör två eller tre tomma trumrengöringscykler i rad för att rensa det ordentligt. Det kan ta flera tvättar innan resterna är helt bortsköljda, så ha tålamod och håll dina nya doser små.",
+          "question": "Jag bytte till HE-tvättmedel men får fortfarande skum – vad missar jag?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:42.853262+00:00"
+    },
+    {
+      "article_id": 145,
+      "locale": "en",
+      "slug": "samsung-detergent-not-dispensing",
+      "title_tag": "Samsung Washing Machine Detergent Not Dispensing Fix",
+      "meta_description": "Detergent staying in the drawer of your Samsung washing machine? Find out why it happens and how to fix it yourself in a few simple steps.",
+      "h1": "Why Is My Samsung Washing Machine Not Dispensing Detergent?",
+      "description": "The detergent remains in the drawer after a wash cycle instead of being flushed into the drum.",
+      "quick_fix": "Remove the detergent drawer, rinse it thoroughly under warm running water to clear any blocked siphon cap or clogged compartment, then refit it and run a short cycle to confirm detergent flushes through correctly (takes about 10 minutes).",
+      "intro_html": "<p>If you open your Samsung washing machine after a cycle and find the detergent drawer still full — or only partially empty — the detergent is not being flushed into the drum as it should be. This means your laundry may have been washed in plain water, leaving clothes under-cleaned or still carrying odours.</p><p>The dispensing system works by directing a controlled flow of water through the drawer at specific points in the cycle. When that flow is blocked or misdirected, detergent, fabric conditioner, or pre-wash product simply sits in the compartment untouched. The fault is almost always mechanical rather than electronic, and in the vast majority of cases it can be resolved without any tools or spare parts.</p><p>This issue affects a wide range of Samsung washing machine models and is one of the most commonly reported faults. The good news is that it is straightforward to diagnose and fix at home.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked or clogged detergent drawer",
+          "detail": "Residue from powder detergent, fabric conditioner, or hard water deposits builds up over time and physically blocks the compartments or the siphon cap. This is the most frequent cause and prevents water from flushing the product through into the drum."
+        },
+        {
+          "cause": "Faulty or missing siphon cap",
+          "detail": "The small plastic siphon cap in the fabric conditioner compartment creates the suction needed to draw conditioner out during the rinse cycle. If it is cracked, missing, or clogged with residue, the conditioner will not dispense correctly."
+        },
+        {
+          "cause": "Blocked water inlet jets in the drawer housing",
+          "detail": "Inside the housing where the drawer sits, there are small water jets that spray water into the drawer to flush out detergent. Limescale or debris can partially or fully block these jets, reducing the water flow needed to clear the compartments."
+        },
+        {
+          "cause": "Incorrect detergent type or overfilling",
+          "detail": "Using non-HE (high-efficiency) detergent in a modern Samsung machine, or filling the compartment above the MAX line, can cause thick foam or undissolved powder to block the drawer. Liquid detergent used in a powder compartment can also leave sticky residue that accumulates over time."
+        },
+        {
+          "cause": "Damaged or warped detergent drawer",
+          "detail": "Physical damage to the drawer — such as a cracked divider or warped plastic — can prevent it from sitting correctly in the housing, disrupting the water flow path. A drawer that does not slide fully home will also misalign with the inlet jets."
+        },
+        {
+          "cause": "Faulty water inlet valve or low water pressure",
+          "detail": "If the water pressure to the machine is too low, or the inlet valve is partially blocked, there may not be enough water flow to flush the drawer effectively. This is less common but worth checking if cleaning the drawer does not resolve the issue."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Remove and inspect the detergent drawer",
+          "detail": "Press the release tab (usually a small button or lever inside the fabric conditioner compartment) and pull the drawer fully out. Check all three compartments — pre-wash, main wash, and fabric conditioner — for visible residue, clumping, or blockages. Even a partial blockage is enough to prevent proper dispensing."
+        },
+        {
+          "step": 2,
+          "action": "Clean the drawer thoroughly",
+          "detail": "Soak the drawer in warm water for 10–15 minutes to loosen hardened detergent or conditioner. Use an old toothbrush or small brush to scrub all compartments, paying close attention to the narrow channels and the underside of the drawer. Rinse under running water until the water runs clear."
+        },
+        {
+          "step": 3,
+          "action": "Check and clean the siphon cap",
+          "detail": "The siphon cap is the small plastic insert in the fabric conditioner compartment — it usually pulls straight out. Rinse it under warm water and check it is not cracked or deformed. Refit it firmly; it should click or sit snugly in place. A missing or broken siphon cap will need to be replaced."
+        },
+        {
+          "step": 4,
+          "action": "Clean the drawer housing inside the machine",
+          "detail": "With the drawer removed, shine a torch into the housing and look for limescale or residue around the water inlet jets at the top of the cavity. Wipe the interior with a damp cloth and use a small brush or cotton bud to clear any blocked jet holes. This step is often overlooked but makes a significant difference."
+        },
+        {
+          "step": 5,
+          "action": "Refit the drawer and run a test cycle",
+          "detail": "Slide the drawer back in firmly until it clicks into place. Add a small amount of detergent and run a short 40°C cycle. After the cycle, check whether the drawer has been fully flushed. If it is empty, the cleaning has resolved the issue."
+        },
+        {
+          "step": 6,
+          "action": "Check water pressure and inlet hose",
+          "detail": "If the drawer is still not clearing, turn off the machine and check that the inlet hose is not kinked and that the tap behind the machine is fully open. Low water pressure — below 0.5 bar — can prevent adequate flushing. If you suspect low pressure, a plumber can confirm this quickly."
+        },
+        {
+          "step": 7,
+          "action": "Replace the detergent drawer or siphon cap if damaged",
+          "detail": "If the drawer is cracked, warped, or the siphon cap is broken, cleaning alone will not fix the problem. Replacement drawers and siphon caps are inexpensive Samsung spare parts and are straightforward to fit — simply slide the new drawer in until it clicks home."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have cleaned the drawer and housing thoroughly, confirmed the siphon cap is intact, and checked water pressure, but detergent is still not dispensing, the problem may lie with the water inlet valve or the machine's control board. A faulty inlet valve that is not opening the correct solenoid at the right point in the cycle will prevent water from reaching the drawer regardless of how clean it is.</p><p>You should also contact a service technician if you notice water leaking from around the drawer housing during a cycle, or if the drawer housing itself appears cracked or damaged inside the machine. These faults require internal access and are not suitable for DIY repair.</p>",
+      "prevention_html": "<p>The most effective way to prevent this fault recurring is to clean the detergent drawer once a month — simply remove it, rinse it under warm water, and wipe out the housing. Use only HE-compatible detergent in the recommended quantity and avoid overfilling any compartment. Running a monthly drum-clean cycle at 60°C or 90°C also helps flush residue from the drawer housing and internal pipes. If you live in a hard water area, a descaling tablet used every 1–2 months will significantly reduce limescale build-up around the inlet jets.</p><p>The parts most commonly replaced for this fault are the <strong>detergent drawer assembly</strong>, the <strong>siphon cap</strong> (fabric conditioner insert), and occasionally the <strong>water inlet valve</strong>. You can find genuine Samsung replacements using the widget below.</p>\n<!-- SPARE_PARTS_FAULT:detergent-not-dispensing -->",
+      "faq_json": [
+        {
+          "answer": "Yes, but use the correct compartment and do not exceed the MAX line. Liquid detergent can leave a sticky residue that builds up faster than powder, so clean the drawer more frequently if you use it regularly. Some Samsung models also support placing a detergent pod directly in the drum, which avoids the drawer entirely.",
+          "question": "Can I use liquid detergent in the drawer instead of powder?"
+        },
+        {
+          "answer": "This almost always points to the siphon cap in the conditioner compartment. It is either blocked with residue, cracked, or missing. Remove it, clean it thoroughly, and check it is seated correctly. If it is damaged, a replacement siphon cap costs very little and fits in seconds.",
+          "question": "Why is only the fabric conditioner not dispensing, but the detergent is fine?"
+        },
+        {
+          "answer": "Once a month is a good routine for most households. If you use powder detergent, live in a hard water area, or run the machine frequently, clean it every two to three weeks. Regular cleaning prevents the gradual build-up that causes blockages and keeps the dispensing system working reliably.",
+          "question": "How often should I clean the detergent drawer?"
+        },
+        {
+          "answer": "The machine itself is unlikely to be damaged, but your laundry will not be cleaned properly if detergent is not reaching the drum. Over time, heavy residue build-up in the drawer housing can also cause water to back up and leak around the drawer seal, which is a more involved repair.",
+          "question": "Will this fault damage my washing machine if I leave it?"
+        },
+        {
+          "answer": "If the drawer and housing are clean and the siphon cap is intact, check that the water supply tap is fully open and the inlet hose is not kinked. The next most likely cause is a partially blocked or faulty water inlet valve, which restricts the flow of water into the drawer. This is best diagnosed and replaced by a service technician.",
+          "question": "My drawer is clean but detergent still stays in it — what else could it be?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:42.923154+00:00"
+    },
+    {
+      "article_id": 145,
+      "locale": "sv",
+      "slug": "samsung-tvattmedel-dispenseras-inte",
+      "title_tag": "Samsung Tvättmaskin Tvättmedel Dispenseras Inte – Åtgärd",
+      "meta_description": "Ligger tvättmedlet kvar i lådan på din Samsung tvättmaskin? Ta reda på varför det händer och hur du åtgärdar det själv i några enkla steg.",
+      "h1": "Varför Dispenserar Min Samsung Tvättmaskin Inte Tvättmedlet?",
+      "description": "Tvättmedlet finns kvar i lådan efter ett tvättprogram istället för att spolas in i trumman.",
+      "quick_fix": "Ta ut tvättmedelslådan, skölj den noggrant under varmt rinnande vatten för att rensa eventuellt igensatt sifonglock eller tilltäppt fack, sätt sedan tillbaka den och kör ett kort program för att kontrollera att tvättmedlet spolas igenom korrekt (tar ungefär 10 minuter).",
+      "intro_html": "<p>Om du öppnar din Samsung tvättmaskin efter ett program och ser att tvättmedelslådan fortfarande är full – eller bara delvis tömd – spolas tvättmedlet inte in i trumman som det ska. Det innebär att tvätten kan ha tvättats i rent vatten, vilket lämnar kläderna otillräckligt rengjorda eller med kvarvarande lukter.</p><p>Dispensersystemet fungerar genom att leda ett kontrollerat vattenflöde genom lådan vid specifika tidpunkter under programmet. När detta flöde blockeras eller leds fel sitter tvättmedel, sköljmedel eller förtvättningsmedel helt enkelt kvar i facket orört. Felet är nästan alltid mekaniskt snarare än elektroniskt, och i de allra flesta fall kan det åtgärdas utan verktyg eller reservdelar.</p><p>Det här problemet drabbar ett brett utbud av Samsung tvättmaskinmodeller och är ett av de vanligast rapporterade felen. Den goda nyheten är att det är enkelt att diagnostisera och åtgärda hemma.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt eller tilltäppt tvättmedelslåda",
+          "detail": "Rester från tvättmedel i pulverform, sköljmedel eller hårda vattenavlagringar byggs upp över tid och blockerar fysiskt facken eller sifonglocket. Detta är den vanligaste orsaken och förhindrar att vatten spolar produkten vidare in i trumman."
+        },
+        {
+          "cause": "Defekt eller saknat sifonglock",
+          "detail": "Det lilla plastsifonglocket i sköljmedelsfacket skapar det sug som behövs för att dra ut sköljmedlet under sköljprogrammet. Om det är sprucket, saknas eller är igensatt med rester dispenseras sköljmedlet inte korrekt."
+        },
+        {
+          "cause": "Igensatta vatteninloppsmunstyckena i lådans hus",
+          "detail": "Inuti huset där lådan sitter finns det små vattenmunstyckena som sprutar vatten in i lådan för att spola ut tvättmedlet. Kalkavlagringar eller smuts kan delvis eller helt blockera dessa munstycken och minska det vattenflöde som behövs för att rensa facken."
+        },
+        {
+          "cause": "Fel typ av tvättmedel eller överfyllning",
+          "detail": "Att använda tvättmedel som inte är HE-kompatibelt (högeffektivt) i en modern Samsung-maskin, eller att fylla facket över MAX-linjen, kan orsaka tjockt skum eller olöst pulver som blockerar lådan. Flytande tvättmedel som används i ett pulverfack kan också lämna klibbiga rester som ansamlas över tid."
+        },
+        {
+          "cause": "Skadad eller deformerad tvättmedelslåda",
+          "detail": "Fysisk skada på lådan – som en sprucken avdelare eller deformerad plast – kan förhindra att den sitter korrekt i huset och störa vattenflödets väg. En låda som inte skjuts helt på plats kommer också att hamna i fel läge i förhållande till inloppsmunstyckena."
+        },
+        {
+          "cause": "Defekt vatteninloppsventil eller lågt vattentryck",
+          "detail": "Om vattentrycket till maskinen är för lågt, eller om inloppsventilen är delvis blockerad, kan det finnas otillräckligt vattenflöde för att spola lådan effektivt. Detta är mindre vanligt men värt att kontrollera om rengöring av lådan inte löser problemet."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Ta ut och inspektera tvättmedelslådan",
+          "detail": "Tryck på frigöringsfliken (vanligtvis en liten knapp eller spak inuti sköljmedelsfacket) och dra ut lådan helt. Kontrollera alla tre fack – förtvättning, huvudtvätt och sköljmedel – för synliga rester, klumpar eller blockeringar. Även en partiell blockering räcker för att förhindra korrekt dispensering."
+        },
+        {
+          "step": 2,
+          "action": "Rengör lådan noggrant",
+          "detail": "Blötlägg lådan i varmt vatten i 10–15 minuter för att lossa hårdnat tvättmedel eller sköljmedel. Använd en gammal tandborste eller liten borste för att skrubba alla fack, med extra uppmärksamhet på de smala kanalerna och undersidan av lådan. Skölj under rinnande vatten tills vattnet rinner klart."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera och rengör sifonglocket",
+          "detail": "Sifonglocket är den lilla plastinsatsen i sköljmedelsfacket – det dras vanligtvis rakt ut. Skölj det under varmt vatten och kontrollera att det inte är sprucket eller deformerat. Sätt tillbaka det ordentligt; det ska klicka eller sitta snävt på plats. Ett saknat eller trasigt sifonglock behöver bytas ut."
+        },
+        {
+          "step": 4,
+          "action": "Rengör lådans hus inuti maskinen",
+          "detail": "Med lådan uttagen, lyser du med en ficklampa in i huset och letar efter kalkavlagringar eller rester runt vatteninloppsmunstyckena längst upp i utrymmet. Torka av insidan med en fuktig trasa och använd en liten borste eller bomullspinne för att rensa eventuellt igensatta munstycken. Det här steget förbises ofta men gör en betydande skillnad."
+        },
+        {
+          "step": 5,
+          "action": "Sätt tillbaka lådan och kör ett testprogram",
+          "detail": "Skjut in lådan ordentligt tills den klickar på plats. Tillsätt en liten mängd tvättmedel och kör ett kort 40°C-program. Kontrollera efter programmet om lådan har spolats helt ren. Om den är tom har rengöringen löst problemet."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera vattentrycket och inloppsslangen",
+          "detail": "Om lådan fortfarande inte töms, stäng av maskinen och kontrollera att inloppsslangen inte är böjd och att kranen bakom maskinen är helt öppen. Lågt vattentryck – under 0,5 bar – kan förhindra tillräcklig spolning. Om du misstänker lågt tryck kan en rörmokare bekräfta detta snabbt."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut tvättmedelslådan eller sifonglocket om de är skadade",
+          "detail": "Om lådan är sprucken, deformerad eller sifonglocket är trasigt räcker inte rengöring ensam för att lösa problemet. Ersättningslådor och sifonglock är billiga Samsung-reservdelar och är enkla att montera – skjut helt enkelt in den nya lådan tills den klickar på plats."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har rengjort lådan och huset noggrant, bekräftat att sifonglocket är intakt och kontrollerat vattentrycket, men tvättmedlet fortfarande inte dispenseras, kan problemet ligga hos vatteninloppsventilen eller maskinens styrkort. En defekt inloppsventil som inte öppnar rätt magnetventil vid rätt tidpunkt i programmet förhindrar att vatten når lådan oavsett hur ren den är.</p><p>Du bör också kontakta en servicetekniker om du märker att vatten läcker runt lådans hus under ett program, eller om lådans hus verkar sprucket eller skadat inuti maskinen. Dessa fel kräver åtkomst till maskinens insida och lämpar sig inte för DIY-reparation.</p>",
+      "prevention_html": "<p>Det mest effektiva sättet att förhindra att det här felet återkommer är att rengöra tvättmedelslådan en gång i månaden – ta helt enkelt ut den, skölj den under varmt vatten och torka av huset. Använd endast HE-kompatibelt tvättmedel i rekommenderad mängd och undvik att överfylla något fack. Att köra ett månatligt trumrengöringsprogram vid 60°C eller 90°C hjälper också till att spola bort rester från lådans hus och interna rör. Om du bor i ett område med hårt vatten minskar en avkalkningsprodukt som används var 1–2 månad avsevärt kalkavlagringarna runt inloppsmunstyckena.</p><p>De delar som oftast byts ut vid det här felet är <strong>tvättmedelslådan komplett</strong>, <strong>sifonglocket</strong> (sköljmedelsinsatsen) och ibland <strong>vatteninloppsventilen</strong>. Du hittar äkta Samsung-reservdelar via widgeten nedan.</p>\n<!-- SPARE_PARTS_FAULT:detergent-not-dispensing -->",
+      "faq_json": [
+        {
+          "answer": "Ja, men använd rätt fack och överskrid inte MAX-linjen. Flytande tvättmedel kan lämna klibbiga rester som byggs upp snabbare än pulver, så rengör lådan oftare om du använder det regelbundet. Vissa Samsung-modeller stöder också att placera en tvättmedelskapsyl direkt i trumman, vilket undviker lådan helt.",
+          "question": "Kan jag använda flytande tvättmedel i lådan istället för pulver?"
+        },
+        {
+          "answer": "Det pekar nästan alltid på sifonglocket i sköljmedelsfacket. Det är antingen igensatt med rester, sprucket eller saknas. Ta ut det, rengör det noggrant och kontrollera att det sitter korrekt. Om det är skadat kostar ett ersättningssifonglock mycket lite och monteras på några sekunder.",
+          "question": "Varför dispenseras bara sköljmedlet inte, men tvättmedlet fungerar bra?"
+        },
+        {
+          "answer": "En gång i månaden är en bra rutin för de flesta hushåll. Om du använder pulvertvättmedel, bor i ett område med hårt vatten eller kör maskinen ofta, rengör den var två till tre vecka. Regelbunden rengöring förhindrar den gradvisa ansamling som orsakar blockeringar och håller dispensersystemet i gott skick.",
+          "question": "Hur ofta ska jag rengöra tvättmedelslådan?"
+        },
+        {
+          "answer": "Maskinen i sig riskerar troligtvis inte att skadas, men tvätten rengörs inte ordentligt om tvättmedlet inte når trumman. Med tiden kan kraftiga resteransamlingar i lådans hus också orsaka att vatten tränger tillbaka och läcker runt lådans tätning, vilket är en mer komplicerad reparation.",
+          "question": "Kan det här felet skada min tvättmaskin om jag låter det vara?"
+        },
+        {
+          "answer": "Om lådan och huset är rena och sifonglocket är intakt, kontrollera att vattenkranen är helt öppen och att inloppsslangen inte är böjd. Den näst troligaste orsaken är en delvis blockerad eller defekt vatteninloppsventil, som begränsar vattenflödet in i lådan. Detta diagnostiseras och byts bäst ut av en servicetekniker.",
+          "question": "Min låda är ren men tvättmedlet sitter ändå kvar – vad kan det annars vara?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:42.995096+00:00"
+    }
+  ]
+}

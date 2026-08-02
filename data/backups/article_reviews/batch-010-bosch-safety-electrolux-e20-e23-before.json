@@ -1,0 +1,1101 @@
+{
+  "batch": "010-bosch-safety-electrolux-e20-e23",
+  "article_ids": [
+    325,
+    328,
+    329,
+    248,
+    250
+  ],
+  "articles": [
+    {
+      "id": 248,
+      "error_code_id": 353,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 250,
+      "error_code_id": 355,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 325,
+      "error_code_id": null,
+      "fault_id": 49,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 328,
+      "error_code_id": null,
+      "fault_id": 52,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 329,
+      "error_code_id": null,
+      "fault_id": 53,
+      "status": "published",
+      "article_type": "fault"
+    }
+  ],
+  "rows": [
+    {
+      "id": 425,
+      "article_id": 248,
+      "locale": "en",
+      "slug": "error-code-e20",
+      "title_tag": "Electrolux Washing Machine Error Code E20 | Fix It",
+      "meta_description": "Electrolux washing machine showing E20? Learn what causes this drainage error, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E20 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E20 on an Electrolux washing machine indicates a drainage fault, meaning the machine has failed to pump water out within the expected time.",
+      "quick_fix": "Clean the drain filter located behind the small access panel at the bottom front of the machine — remove any debris or blockages, refit the filter firmly, and run a spin cycle to confirm the water drains correctly (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code E20 is Electrolux's drainage error. When the machine triggers this code, it means the control board has detected that water has not been pumped out of the drum within the programmed time limit. The washing cycle will stop, often leaving standing water inside the drum.</p><p>The fault sits within the drainage system, which includes the drain filter, the drain hose, and the drain pump itself. In most cases the machine will pause mid-cycle or at the end of a wash or rinse phase, and the door may remain locked because water is still present.</p><p>The good news is that the majority of E20 faults are caused by a blocked filter or kinked hose — both of which you can check and resolve at home without any specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked or clogged drain filter",
+          "detail": "The drain filter traps lint, coins, hair grips, and other small items before they reach the pump. Over time this debris builds up and restricts water flow enough to trigger E20."
+        },
+        {
+          "cause": "Kinked, crushed, or incorrectly routed drain hose",
+          "detail": "If the drain hose has been pushed too far back against a wall, bent sharply, or positioned too low, water cannot flow freely. Even a partial kink can slow drainage enough to exceed the time limit."
+        },
+        {
+          "cause": "Blocked or obstructed standpipe or sink drain",
+          "detail": "The problem is not always inside the machine — if the household drain the hose empties into is partially blocked, water backs up and the machine cannot clear the drum in time."
+        },
+        {
+          "cause": "Faulty or seized drain pump",
+          "detail": "The drain pump impeller can become jammed by a small foreign object such as a coin or button, or the pump motor can fail electrically. In either case the pump cannot move water regardless of how clear the filter and hose are."
+        },
+        {
+          "cause": "Damaged or disconnected pump wiring",
+          "detail": "The wiring harness connecting the drain pump to the control board can loosen or suffer damage over time, preventing the pump from receiving the signal to run."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "In rare cases the main PCB fails to send the correct output signal to the pump, or misreads the drainage status. This is the least common cause and should only be considered after all other possibilities have been ruled out."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Before doing anything else, turn the programme dial to off and unplug the machine from the wall socket. This is essential for safety, particularly before you open the filter access panel where water may spill out."
+        },
+        {
+          "step": 2,
+          "action": "Drain residual water manually",
+          "detail": "Open the small access flap at the bottom front of the machine. You will see a short rubber drain hose with a cap and the filter cap beside it. Place a shallow tray and some towels on the floor, then pull out the small rubber hose, remove its cap, and let the water drain into the tray. Empty the tray as needed until the flow stops."
+        },
+        {
+          "step": 3,
+          "action": "Clean the drain filter",
+          "detail": "Once the water has drained, unscrew the filter cap anticlockwise and pull it out. Remove any lint, coins, hair, or debris caught in the filter and the filter housing. Rinse the filter under a tap, check the housing cavity for any remaining objects, then refit the filter and tighten it firmly to prevent leaks."
+        },
+        {
+          "step": 4,
+          "action": "Check the drain hose for kinks or blockages",
+          "detail": "Pull the machine gently away from the wall and inspect the full length of the drain hose. Straighten any kinks and ensure the hose is not crushed behind the appliance. The hose should rise to between 60 cm and 100 cm before entering the standpipe or sink — check your model's manual for the exact recommended height."
+        },
+        {
+          "step": 5,
+          "action": "Check the household drain or standpipe",
+          "detail": "Pour a bucket of water slowly into the standpipe or sink drain the hose connects to. If it drains slowly or backs up, the blockage is in your household plumbing rather than the machine. Clear the household drain before testing the washing machine again."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the pump impeller for obstructions",
+          "detail": "With the filter removed, shine a torch into the filter housing and look for the pump impeller — a small plastic fan visible at the back of the cavity. Try turning it gently with your finger. It should rotate freely. If it is stiff or jammed, carefully remove the obstruction with long-nose pliers. Do not force the impeller."
+        },
+        {
+          "step": 7,
+          "action": "Plug in, run a short cycle, and check for the error",
+          "detail": "Refit everything securely, plug the machine back in, and run a short cotton or rinse-and-spin cycle. Watch and listen to confirm the machine drains at the end of the cycle. If E20 does not return, the fault is resolved. If it reappears, move on to calling a service technician."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have cleaned the filter, confirmed the hose is clear and correctly routed, and verified the household drain is unobstructed, but E20 continues to appear, the fault is most likely a failed drain pump or a wiring issue. You may also hear the pump attempting to run but producing a humming noise without moving water — this points to a seized impeller or a burned-out pump motor that needs replacing.</p><p>A control board fault is another possibility if the pump tests as electrically sound but still receives no signal. Both pump replacement and PCB diagnosis require a service technician with the correct test equipment and spare parts to carry out the work safely.</p>",
+      "prevention_html": "<p>The most effective way to prevent E20 from recurring is to clean the drain filter every one to three months, depending on how frequently you use the machine. Always check pockets before loading a wash — coins, hair grips, and small clips are the most common causes of pump jams. Use the correct amount of detergent to reduce excess lint and residue build-up in the filter housing.</p><p>The parts most commonly replaced when diagnosing an E20 fault are the drain pump, the drain filter and housing assembly, and the pump wiring harness. You can search for compatible parts for your specific Electrolux model using the tool below.</p>\n<!-- SPARE_PARTS:E20 -->",
+      "faq_json": [
+        {
+          "answer": "No — you should not run further cycles until the fault is resolved. The drum likely contains standing water, and running the machine again will not clear it. Leaving water sitting in the drum for an extended period can also lead to mould and unpleasant odours.",
+          "question": "Can I still use my Electrolux washing machine while it is showing E20?"
+        },
+        {
+          "answer": "Most Electrolux machines have a manual door release. Drain the water first using the small rubber hose in the filter access panel at the bottom front of the machine. Once the water level drops, the door interlock should release automatically. If it does not, consult your model's manual for the emergency door release procedure.",
+          "question": "How do I get the door open when E20 has locked it with water inside?"
+        },
+        {
+          "answer": "Every one to three months is a reasonable routine for most households. If you wash heavily soiled items, pet bedding, or large loads frequently, clean it monthly. Regular cleaning takes less than five minutes and is the single most effective way to prevent E20 and other drainage faults.",
+          "question": "How often should I clean the drain filter on my Electrolux washing machine?"
+        },
+        {
+          "answer": "Yes. If the drain hose is positioned too low, partially kinked, or the household standpipe drains slowly, the machine may not empty within its time limit even with a perfectly clean filter. Always check the hose routing and the external drain as part of your diagnosis.",
+          "question": "Could a slow drain cause E20 even if the filter is clean?"
+        },
+        {
+          "answer": "The pump part itself generally costs between £20 and £50 depending on the model. If you hire a service technician to fit it, expect to add a call-out and labour charge on top. Sourcing the correct part using your machine's model number will help ensure compatibility and keep costs down.",
+          "question": "How much does it typically cost to replace a drain pump on an Electrolux washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T08:40:37.234744+00:00"
+    },
+    {
+      "id": 426,
+      "article_id": 248,
+      "locale": "sv",
+      "slug": "felkod-e20",
+      "title_tag": "Electrolux Tvättmaskin Felkod E20 | Åtgärda Det",
+      "meta_description": "Visar din Electrolux tvättmaskin E20? Lär dig vad som orsakar detta avloppsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E20 på en Electrolux tvättmaskin?",
+      "description": "Felkod E20 på en Electrolux tvättmaskin indikerar ett avloppsfel, vilket innebär att maskinen inte har lyckats pumpa ut vattnet inom förväntad tid.",
+      "quick_fix": "Rengör avloppsfiltret som sitter bakom den lilla åtkomstluckan längst ned på maskinens framsida — ta bort eventuellt skräp eller blockeringar, sätt tillbaka filtret ordentligt och kör ett centrifugeringsprogram för att bekräfta att vattnet rinner ut korrekt (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod E20 är Electrolux avloppsfel. När maskinen utlöser denna kod innebär det att styrkortet har registrerat att vatten inte har pumpats ut ur trumman inom den programmerade tidsgränsen. Tvättcykeln stannar, och ofta blir stående vatten kvar inne i trumman.</p><p>Felet finns inom avloppssystemet, vilket inkluderar avloppsfiltret, avloppsslangen och avloppspumpen. I de flesta fall pausar maskinen mitt i cykeln eller i slutet av en tvätt- eller sköljfas, och luckan kan förbli låst eftersom vatten fortfarande finns kvar.</p><p>Den goda nyheten är att de flesta E20-fel orsakas av ett igensatt filter eller en böjd slang — båda kan du kontrollera och åtgärda hemma utan några specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt eller tilltäppt avloppsfilter",
+          "detail": "Avloppsfiltret fångar upp ludd, mynt, hårnålar och andra små föremål innan de når pumpen. Med tiden byggs detta skräp upp och begränsar vattenflödet tillräckligt för att utlösa E20."
+        },
+        {
+          "cause": "Böjd, klämd eller felaktigt dragen avloppsslang",
+          "detail": "Om avloppsslangen har tryckts för långt in mot en vägg, böjts skarpt eller placerats för lågt kan vattnet inte flöda fritt. Även en delvis böjning kan bromsa avloppet tillräckligt för att överskrida tidsgränsen."
+        },
+        {
+          "cause": "Igensatt eller blockerat avloppsrör eller diskhoavlopp",
+          "detail": "Problemet är inte alltid inne i maskinen — om hushållets avlopp som slangen mynnar ut i är delvis igensatt, backar vattnet upp och maskinen kan inte tömma trumman i tid."
+        },
+        {
+          "cause": "Defekt eller fastnad avloppspump",
+          "detail": "Avloppspumpens impeller kan fastna av ett litet främmande föremål, till exempel ett mynt eller en knapp, eller så kan pumpmotorn gå sönder elektriskt. I båda fallen kan pumpen inte flytta vatten oavsett hur fritt filtret och slangen är."
+        },
+        {
+          "cause": "Skadad eller lossad pumpkablage",
+          "detail": "Kabelstammen som ansluter avloppspumpen till styrkortet kan lossna eller skadas med tiden, vilket hindrar pumpen från att ta emot signalen att starta."
+        },
+        {
+          "cause": "Fel på styrkortet",
+          "detail": "I sällsynta fall skickar huvud-PCB:n inte rätt utsignal till pumpen, eller feltolkar avloppsstatusen. Detta är den minst vanliga orsaken och bör endast övervägas efter att alla andra möjligheter har uteslutits."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Innan du gör något annat, vrid programväljaren till av och dra ut maskinens stickkontakt ur vägguttaget. Detta är viktigt för säkerheten, särskilt innan du öppnar filteråtkomstluckan där vatten kan rinna ut."
+        },
+        {
+          "step": 2,
+          "action": "Töm kvarvarande vatten manuellt",
+          "detail": "Öppna den lilla åtkomstluckan längst ned på maskinens framsida. Du ser en kort gummislang med en kåpa och filterlocket bredvid. Placera ett grunt fat och några handdukar på golvet, dra sedan ut den lilla gummislangen, ta bort kåpan och låt vattnet rinna ut i fatet. Töm fatet vid behov tills flödet upphör."
+        },
+        {
+          "step": 3,
+          "action": "Rengör avloppsfiltret",
+          "detail": "När vattnet har runnit ut, skruva loss filterlocket moturs och dra ut det. Ta bort eventuellt ludd, mynt, hår eller skräp som fastnat i filtret och filterhuset. Skölj filtret under kranen, kontrollera huskaviteten efter eventuella kvarvarande föremål, sätt sedan tillbaka filtret och dra åt det ordentligt för att förhindra läckor."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera avloppsslangen för böjningar eller blockeringar",
+          "detail": "Dra försiktigt ut maskinen från väggen och inspektera avloppsslangen längs hela dess längd. Räta ut eventuella böjningar och se till att slangen inte är klämd bakom maskinen. Slangen bör stiga till mellan 60 cm och 100 cm innan den mynnar ut i avloppsröret eller diskhon — kontrollera din modells manual för exakt rekommenderad höjd."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera hushållets avlopp eller avloppsrör",
+          "detail": "Häll en hink vatten långsamt i avloppsröret eller diskhoavloppet som slangen är ansluten till. Om det rinner långsamt eller backar upp, finns blockeringen i ditt hushålls rörledningar snarare än i maskinen. Rensa hushållets avlopp innan du testar tvättmaskinen igen."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera pumpimpellern för hinder",
+          "detail": "Med filtret borttaget, lyser du med en ficklampa in i filterhuset och letar efter pumpimpellern — ett litet plastfläktshjul som syns längst in i kaviteten. Försök vrida det försiktigt med fingret. Det ska rotera fritt. Om det är styvt eller fastnat, ta försiktigt bort hindret med spetsnåltång. Tvinga inte impellern."
+        },
+        {
+          "step": 7,
+          "action": "Anslut, kör ett kort program och kontrollera om felet återkommer",
+          "detail": "Sätt tillbaka allt ordentligt, anslut maskinen och kör ett kort bomulls- eller sköljning-och-centrifugeringsprogram. Observera och lyssna för att bekräfta att maskinen tömmer sig i slutet av cykeln. Om E20 inte återkommer är felet åtgärdat. Om det dyker upp igen, kontakta en servicetekniker."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har rengjort filtret, bekräftat att slangen är fri och korrekt dragen, och kontrollerat att hushållets avlopp är fritt, men E20 fortsätter att visas, är felet troligtvis en defekt avloppspump eller ett kabelfel. Du kan också höra att pumpen försöker starta men avger ett surrande ljud utan att flytta vatten — detta tyder på en fastnad impeller eller en utbränd pumpmotor som behöver bytas.</p><p>Ett fel på styrkortet är en annan möjlighet om pumpen testar som elektriskt felfri men ändå inte tar emot någon signal. Både pumpbyte och PCB-diagnos kräver en servicetekniker med rätt testutrustning och reservdelar för att utföra arbetet på ett säkert sätt.</p>",
+      "prevention_html": "<p>Det mest effektiva sättet att förhindra att E20 återkommer är att rengöra avloppsfiltret var en till tre månader, beroende på hur ofta du använder maskinen. Kontrollera alltid fickorna innan du lägger i tvätten — mynt, hårnålar och små klämmor är de vanligaste orsakerna till pumpstopp. Använd rätt mängd tvättmedel för att minska överskott av ludd och avlagringar i filterhuset.</p><p>De delar som oftast byts ut vid diagnos av ett E20-fel är avloppspumpen, avloppsfilter- och husenheten samt pumpens kabelstam. Du kan söka efter kompatibla delar för din specifika Electrolux-modell med hjälp av verktyget nedan.</p>\n<!-- SPARE_PARTS:E20 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — du bör inte köra fler program förrän felet är åtgärdat. Trumman innehåller troligtvis stående vatten, och att köra maskinen igen kommer inte att tömma den. Att låta vatten stå kvar i trumman under en längre tid kan också leda till mögel och obehaglig lukt.",
+          "question": "Kan jag fortfarande använda min Electrolux tvättmaskin när den visar E20?"
+        },
+        {
+          "answer": "De flesta Electrolux-maskiner har en manuell lucköppning. Töm vattnet först med hjälp av den lilla gummislangen i filteråtkomstluckan längst ned på maskinens framsida. När vattennivån sjunker bör lucklåset frigöras automatiskt. Om det inte gör det, se din modells manual för nödöppningsproceduren.",
+          "question": "Hur öppnar jag luckan när E20 har låst den med vatten inuti?"
+        },
+        {
+          "answer": "Var en till tre månader är en rimlig rutin för de flesta hushåll. Om du ofta tvättar kraftigt smutsade plagg, husdjursbäddar eller stora tvättar, rengör det månadsvis. Regelbunden rengöring tar mindre än fem minuter och är det enskilt mest effektiva sättet att förhindra E20 och andra avloppsfel.",
+          "question": "Hur ofta bör jag rengöra avloppsfiltret på min Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Ja. Om avloppsslangen är placerad för lågt, delvis böjd, eller om hushållets avloppsrör rinner långsamt, kanske maskinen inte hinner tömmas inom sin tidsgräns även med ett helt rent filter. Kontrollera alltid slangens dragning och det externa avloppet som en del av din felsökning.",
+          "question": "Kan ett långsamt avlopp orsaka E20 även om filtret är rent?"
+        },
+        {
+          "answer": "Pumpdelen kostar i allmänhet mellan 250 och 650 kronor beroende på modell. Om du anlitar en servicetekniker för att montera den, tillkommer en utryckning och arbetskostnad. Att hitta rätt del med hjälp av maskinens modellnummer hjälper till att säkerställa kompatibilitet och hålla kostnaderna nere.",
+          "question": "Vad kostar det vanligtvis att byta avloppspump på en Electrolux tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T08:41:48.249807+00:00"
+    },
+    {
+      "id": 429,
+      "article_id": 250,
+      "locale": "en",
+      "slug": "error-code-e23",
+      "title_tag": "Electrolux Washing Machine Error Code E23 | Fix It Now",
+      "meta_description": "Electrolux washing machine showing error code E23? Learn what causes this drain pump electronic fault and how to fix it step by step.",
+      "h1": "What Does Error Code E23 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E23 on an Electrolux washing machine indicates an electronic fault within the drain pump's internal components, meaning the machine's control system has detected a failure in the pump's circuitry.",
+      "quick_fix": "Clean the drain pump filter to remove any blockage that may be overloading the pump's electronics — remove the filter cover at the front bottom of the machine, clear out any debris, refit the filter, and restart the cycle (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code E23 on an Electrolux washing machine points to an electronic fault within the drain pump. Unlike a simple blockage error, E23 specifically means the machine's control board has detected a problem with the pump's electronic components — this could be a failed motor winding, a short circuit inside the pump, or a wiring issue between the pump and the main board.</p><p>When E23 appears, the washing machine will typically stop mid-cycle, often leaving water sitting in the drum. The machine cannot complete the drain phase and will lock the door until the fault is resolved. In some cases the display will flash the code repeatedly, and the machine will not respond to further programme selections until the issue is cleared.</p><p>While the fault description points to electronics, it is worth ruling out mechanical causes first — a severely blocked filter or kinked drain hose can place enough strain on the pump to trigger an electronic fault code before any component actually burns out.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked or clogged drain pump filter",
+          "detail": "A heavily blocked filter forces the pump motor to work harder than it is designed to, causing it to overheat or draw excess current. This electrical stress can trigger the E23 fault code even if the pump itself is not yet permanently damaged."
+        },
+        {
+          "cause": "Failed drain pump motor or internal winding",
+          "detail": "Over time, the pump's internal motor windings can burn out or short circuit, causing the control board to detect an abnormal electrical signal. This is one of the most common reasons E23 appears on older machines or those that have run many cycles."
+        },
+        {
+          "cause": "Damaged or loose wiring between the pump and control board",
+          "detail": "The wiring harness connecting the drain pump to the main control board can become loose, corroded, or chafed over time. A poor connection will cause intermittent or incorrect signals that the board interprets as an electronic pump fault."
+        },
+        {
+          "cause": "Foreign object jammed in the pump impeller",
+          "detail": "Small items such as coins, hair clips, or buttons can pass through the filter and lodge in the pump impeller, preventing it from spinning freely. A seized impeller causes the pump motor to stall, which can register as an electronic fault."
+        },
+        {
+          "cause": "Faulty main control board",
+          "detail": "If the control board itself has developed a fault, it may misread signals from a perfectly functional pump and incorrectly display E23. This is less common but should be considered if the pump and wiring have both been checked and found to be in good condition."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the washing machine off at the mains and unplug it from the wall socket. Wait at least 5 minutes before plugging it back in and selecting a drain or spin programme. A temporary electronic glitch can sometimes cause E23 to appear, and a full power reset will clear it."
+        },
+        {
+          "step": 2,
+          "action": "Clean the drain pump filter",
+          "detail": "Locate the filter access panel at the bottom front of the machine — it usually pulls open or unscrews. Place a shallow tray and some towels underneath before opening the filter cap, as water will spill out. Remove the filter completely, rinse it under a tap, clear any debris from the filter housing, then refit it securely and run a drain cycle."
+        },
+        {
+          "step": 3,
+          "action": "Check the drain hose for kinks or blockages",
+          "detail": "Pull the machine slightly away from the wall and inspect the drain hose along its full length. A kinked or squashed hose restricts water flow and puts extra load on the pump. Straighten any kinks and ensure the hose end is not pushed too far into the standpipe, which can cause a siphoning effect."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the pump impeller for obstructions",
+          "detail": "With the machine unplugged, remove the filter again and use a torch to look into the pump housing. You should be able to see the impeller blades — try turning them gently with a finger or a small flat-head screwdriver. If the impeller is stiff or will not turn at all, there is likely a foreign object lodged inside that needs to be removed."
+        },
+        {
+          "step": 5,
+          "action": "Check the pump wiring connections",
+          "detail": "If you are comfortable doing so, carefully pull the machine out and remove the back or bottom panel to access the pump. Check that the wiring connector at the pump is firmly seated and that there are no visible signs of burning, corrosion, or broken wires. Reseat any loose connectors and inspect the harness for damage along its length."
+        },
+        {
+          "step": 6,
+          "action": "Test or replace the drain pump",
+          "detail": "If all the above steps have been completed and E23 persists, the pump itself is likely faulty. Drain pumps for Electrolux washing machines are a commonly available spare part. The pump is typically held in place by a clamp and two or three screws, making it a manageable replacement for a confident DIYer — ensure the machine is unplugged and fully drained before attempting this."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have cleaned the filter, checked the hose, cleared the impeller, and reseated all wiring connections but the E23 code returns as soon as you run a cycle, the pump motor has most likely failed internally and needs to be replaced. If you are not comfortable accessing internal components or removing panels, a service technician can do this safely and confirm whether the pump or the control board is at fault.</p><p>You should also contact a service technician if you notice any burning smell coming from the machine, if the pump makes a loud grinding or humming noise without draining, or if there are visible scorch marks near the pump or wiring. These signs suggest a more serious electrical fault that should not be ignored.</p>",
+      "prevention_html": "<p>The most effective way to prevent E23 from recurring is to clean the drain pump filter every one to three months, depending on how frequently you use the machine. Running a hot maintenance wash monthly also helps flush out lint and residue that can gradually build up and stress the pump. Checking pockets before loading laundry will reduce the risk of foreign objects reaching the pump impeller.</p><p>The parts most commonly replaced when dealing with an E23 fault are the drain pump assembly, the pump wiring harness, and in some cases the main control board. Genuine Electrolux-compatible parts are widely available and are the safest choice for a lasting repair.</p>\n<!-- SPARE_PARTS:E23 -->",
+      "faq_json": [
+        {
+          "answer": "No — when E23 is active, the machine will not complete a cycle and the door may remain locked. Attempting to force a cycle could cause further damage to the pump or control board. Resolve the fault before using the machine again.",
+          "question": "Can I still use my Electrolux washing machine with error code E23 showing?"
+        },
+        {
+          "answer": "Cleaning the filter fixes E23 in a significant number of cases, particularly if the code has appeared for the first time. However, if the pump motor has already burned out due to prolonged strain, cleaning the filter alone will not be enough and the pump will need to be replaced.",
+          "question": "Will clearing the filter always fix E23?"
+        },
+        {
+          "answer": "Most Electrolux machines have a small emergency drain hose tucked behind the filter access panel. Pull this hose out, remove its cap, and let the water drain into a bowl or tray. This allows you to safely open the filter without flooding the floor.",
+          "question": "How do I drain the water from the drum before I can access the filter?"
+        },
+        {
+          "answer": "A replacement drain pump for an Electrolux washing machine typically costs between £20 and £50 for the part, depending on the model. If you hire a service technician to fit it, expect to add a call-out and labour charge on top of the part cost.",
+          "question": "How much does it cost to replace a drain pump on an Electrolux washing machine?"
+        },
+        {
+          "answer": "Yes, in some cases a power surge or brief interruption to the electricity supply can cause the control board to log a false E23 code. A full power cycle — unplugging the machine for at least five minutes — will often clear a surge-related fault. If the code does not return after a reset and a full wash cycle, no further action is needed.",
+          "question": "Could E23 be caused by a power surge rather than a physical fault?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T08:44:34.127604+00:00"
+    },
+    {
+      "id": 430,
+      "article_id": 250,
+      "locale": "sv",
+      "slug": "felkod-e23",
+      "title_tag": "Electrolux Tvättmaskin Felkod E23 | Åtgärda Problemet Nu",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E23? Lär dig vad som orsakar detta elektroniska fel på avloppspumpen och hur du åtgärdar det steg för steg.",
+      "h1": "Vad Betyder Felkod E23 på en Electrolux Tvättmaskin?",
+      "description": "Felkod E23 på en Electrolux tvättmaskin indikerar ett elektroniskt fel i avloppspumpens interna komponenter, vilket innebär att maskinens styrsystem har upptäckt ett fel i pumpens kretsar.",
+      "quick_fix": "Rengör avloppspumpens filter för att ta bort eventuella blockeringar som kan överbelasta pumpens elektronik — ta bort filterlocket längst ned på maskinens framsida, rensa bort skräp, sätt tillbaka filtret och starta om programmet (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod E23 på en Electrolux tvättmaskin pekar på ett elektroniskt fel i avloppspumpen. Till skillnad från ett vanligt blockeringsfel innebär E23 specifikt att maskinens styrkort har upptäckt ett problem med pumpens elektroniska komponenter — det kan röra sig om en trasig motorlindning, en kortslutning inuti pumpen eller ett kabelfel mellan pumpen och styrkortet.</p><p>När E23 visas stannar tvättmaskinen vanligtvis mitt i ett program och lämnar ofta kvar vatten i trumman. Maskinen kan inte slutföra avloppsfasen och låser luckan tills felet är åtgärdat. I vissa fall blinkar koden upprepade gånger och maskinen svarar inte på ytterligare programval förrän problemet är löst.</p><p>Även om felbeskrivningen pekar på elektronik är det värt att utesluta mekaniska orsaker först — ett kraftigt igensatt filter eller en veckad avloppsslang kan belasta pumpen tillräckligt mycket för att utlösa en elektronisk felkod innan någon komponent faktiskt har gått sönder.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt eller tilltäppt avloppspumpsfilter",
+          "detail": "Ett kraftigt igensatt filter tvingar pumpmotorn att arbeta hårdare än vad den är konstruerad för, vilket kan leda till överhettning eller att den drar för mycket ström. Denna elektriska belastning kan utlösa felkod E23 även om pumpen i sig ännu inte är permanent skadad."
+        },
+        {
+          "cause": "Trasig avloppspumpsmotor eller intern lindning",
+          "detail": "Med tiden kan pumpens interna motorlindningar brännas ut eller kortsluta, vilket gör att styrkortet registrerar en onormal elektrisk signal. Detta är en av de vanligaste orsakerna till att E23 visas på äldre maskiner eller maskiner som har körts många cykler."
+        },
+        {
+          "cause": "Skadad eller lös kabelanslutning mellan pumpen och styrkortet",
+          "detail": "Kabelstammen som förbinder avloppspumpen med det huvudsakliga styrkortet kan lossna, korrodera eller nötas med tiden. En dålig anslutning ger intermittenta eller felaktiga signaler som styrkortet tolkar som ett elektroniskt pumpfel."
+        },
+        {
+          "cause": "Främmande föremål fastnat i pumpens impeller",
+          "detail": "Små föremål som mynt, hårspännen eller knappar kan passera genom filtret och fastna i pumpens impeller, vilket hindrar den från att snurra fritt. En blockerad impeller gör att pumpmotorn stannar, vilket kan registreras som ett elektroniskt fel."
+        },
+        {
+          "cause": "Defekt huvudstyrkort",
+          "detail": "Om styrkortet självt har utvecklat ett fel kan det feltolka signaler från en fullt fungerande pump och felaktigt visa E23. Detta är mindre vanligt men bör övervägas om pumpen och kablaget båda har kontrollerats och befunnits vara i gott skick."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av tvättmaskinen vid eluttaget och dra ur kontakten från vägguttaget. Vänta minst 5 minuter innan du sätter i kontakten igen och väljer ett avlopps- eller centrifugeringsprogram. Ett tillfälligt elektroniskt fel kan ibland orsaka att E23 visas, och en fullständig omstart kan rensa det."
+        },
+        {
+          "step": 2,
+          "action": "Rengör avloppspumpens filter",
+          "detail": "Hitta filterluckan längst ned på maskinens framsida — den öppnas vanligtvis genom att dras ut eller skruvas av. Placera en grund bricka och några handdukar under luckan innan du öppnar filterhatten, eftersom vatten kommer att rinna ut. Ta bort filtret helt, skölj det under kranen, rensa bort skräp från filterhuset, sätt sedan tillbaka det ordentligt och kör ett avloppsprogram."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera avloppsslangen för veck eller blockeringar",
+          "detail": "Dra ut maskinen något från väggen och inspektera avloppsslangen längs hela dess längd. En veckad eller ihoptryckt slang begränsar vattenflödet och belastar pumpen extra. Räta ut eventuella veck och se till att slangänden inte är instucken för långt i avloppsröret, vilket kan orsaka en siffoneffekt."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera pumpens impeller för hinder",
+          "detail": "Med maskinen urkopplad, ta bort filtret igen och använd en ficklampa för att titta in i pumphuset. Du bör kunna se impellerbladen — försök vrida dem försiktigt med ett finger eller en liten platt skruvmejsel. Om impellern är stel eller inte går att vrida alls finns det troligtvis ett främmande föremål inuti som behöver tas bort."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera pumpens kabelanslutningar",
+          "detail": "Om du känner dig bekväm med det, dra försiktigt ut maskinen och ta bort bak- eller bottenpanelen för att komma åt pumpen. Kontrollera att kabelkontakten vid pumpen sitter ordentligt och att det inte finns några synliga tecken på brännskador, korrosion eller trasiga kablar. Sätt tillbaka eventuella lösa kontakter och inspektera kabelstammen för skador längs hela dess längd."
+        },
+        {
+          "step": 6,
+          "action": "Testa eller byt ut avloppspumpen",
+          "detail": "Om alla ovanstående steg har genomförts och E23 kvarstår är pumpen troligtvis defekt. Avloppspumpar till Electrolux tvättmaskiner är ett vanligt tillgängligt reservdelssortiment. Pumpen hålls vanligtvis på plats av ett klämband och två eller tre skruvar, vilket gör det till ett hanterbart byte för en händig gör-det-självare — se till att maskinen är urkopplad och helt tömd innan du försöker byta den."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har rengjort filtret, kontrollerat slangen, rensat impellern och satt tillbaka alla kabelanslutningar men E23-koden återkommer så snart du kör ett program, har pumpmotorn med stor sannolikhet gått sönder internt och behöver bytas ut. Om du inte känner dig bekväm med att komma åt interna komponenter eller ta bort paneler kan en servicetekniker göra detta på ett säkert sätt och bekräfta om det är pumpen eller styrkortet som är felaktigt.</p><p>Du bör också kontakta en servicetekniker om du märker en bränd lukt från maskinen, om pumpen låter högt och maler eller surrar utan att tömma, eller om det finns synliga brännmärken nära pumpen eller kablaget. Dessa tecken tyder på ett allvarligare elektriskt fel som inte bör ignoreras.</p>",
+      "prevention_html": "<p>Det mest effektiva sättet att förhindra att E23 återkommer är att rengöra avloppspumpens filter var en till tre månader, beroende på hur ofta du använder maskinen. Att köra ett varmt underhållsprogram varje månad hjälper också till att spola bort ludd och rester som gradvis kan byggas upp och belasta pumpen. Att kontrollera fickor innan du lastar tvätten minskar risken för att främmande föremål når pumpens impeller.</p><p>De delar som oftast byts ut vid ett E23-fel är avloppspumpsenheten, pumpens kabelstam och i vissa fall det huvudsakliga styrkortet. Äkta Electrolux-kompatibla reservdelar finns allmänt tillgängliga och är det säkraste valet för en hållbar reparation.</p>\n<!-- SPARE_PARTS:E23 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — när E23 är aktiv kommer maskinen inte att slutföra ett program och luckan kan förbli låst. Att försöka tvinga igenom ett program kan orsaka ytterligare skador på pumpen eller styrkortet. Åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag fortfarande använda min Electrolux tvättmaskin när felkod E23 visas?"
+        },
+        {
+          "answer": "Rengöring av filtret åtgärdar E23 i ett betydande antal fall, särskilt om koden har dykt upp för första gången. Men om pumpmotorn redan har bränts ut på grund av långvarig belastning räcker det inte att enbart rengöra filtret — pumpen måste då bytas ut.",
+          "question": "Löser rengöring av filtret alltid E23?"
+        },
+        {
+          "answer": "De flesta Electrolux-maskiner har en liten nödavloppsslang som sitter bakom filterluckan. Dra ut denna slang, ta bort dess kåpa och låt vattnet rinna ut i en skål eller bricka. Detta gör att du kan öppna filtret på ett säkert sätt utan att översvämma golvet.",
+          "question": "Hur tömmer jag vattnet från trumman innan jag kan komma åt filtret?"
+        },
+        {
+          "answer": "En ersättningsavloppspump till en Electrolux tvättmaskin kostar vanligtvis mellan 250 och 600 kronor för reservdelen, beroende på modell. Om du anlitar en servicetekniker för att montera den tillkommer en utryckning och arbetskostnad utöver reservdelskostnaden.",
+          "question": "Hur mycket kostar det att byta avloppspump på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Ja, i vissa fall kan ett strömavbrott eller ett kortvarigt avbrott i elförsörjningen göra att styrkortet registrerar en falsk E23-kod. En fullständig omstart — att dra ur maskinen i minst fem minuter — rensar ofta ett fel orsakat av ett strömavbrott. Om koden inte återkommer efter en omstart och ett fullständigt tvättprogram behövs inga ytterligare åtgärder.",
+          "question": "Kan E23 orsakas av ett strömavbrott snarare än ett fysiskt fel?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T08:45:38.888033+00:00"
+    },
+    {
+      "id": 513,
+      "article_id": 325,
+      "locale": "en",
+      "slug": "wont-complete-cycle",
+      "title_tag": "Bosch Washing Machine Won't Complete a Cycle – Fixes",
+      "meta_description": "Is your Bosch washing machine stopping mid-cycle? Learn the most common causes and step-by-step fixes to get your machine finishing its cycle again.",
+      "h1": "Why Does My Bosch Washing Machine Keep Stopping Before the Cycle Ends?",
+      "description": "The washing machine starts a programme but stops or pauses before completing it, leaving laundry wet or the drum stationary mid-cycle.",
+      "quick_fix": "Check and clean the drain pump filter (located behind the small access panel at the bottom front of the machine) — a blocked filter is the most common reason a Bosch washer stalls mid-cycle, and clearing it typically gets the programme running again (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When a Bosch washing machine refuses to finish a cycle, it usually halts at a specific point — most often during the spin or drain phase — and simply sits there with the door locked and the programme light blinking. In some cases the machine may restart briefly before stopping again, or it may pause silently with no obvious indication of a problem. This behaviour affects a wide range of Bosch models and is rarely caused by a single dramatic failure.</p><p>The washing, rinsing, and draining stages are all managed by the machine's control system, which monitors water temperature, drum speed, water level, and drain progress. If any one of these readings falls outside expected limits, the machine pauses the programme to protect itself or your laundry. Understanding which stage the machine is stopping at — wash, rinse, or spin — is the most useful clue you can gather before starting any checks.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked drain pump filter",
+          "detail": "A clogged filter prevents water from draining efficiently, causing the machine to stall at the end of a wash or rinse stage. Fluff, coins, and small items of clothing are the most frequent culprits."
+        },
+        {
+          "cause": "Kinked or blocked drain hose",
+          "detail": "If the drain hose is bent sharply behind the machine or partially blocked, water cannot leave the drum at the required rate. The control board detects slow drainage and halts the cycle."
+        },
+        {
+          "cause": "Faulty door latch or interlock",
+          "detail": "The machine will not progress through a cycle if it cannot confirm the door is securely closed. A worn or damaged door interlock can cause the programme to pause or abort unexpectedly."
+        },
+        {
+          "cause": "Overloaded drum or unbalanced load",
+          "detail": "Bosch machines automatically pause or reduce spin speed when the load is too heavy or unevenly distributed. The machine may attempt to redistribute the laundry several times before giving up and stopping."
+        },
+        {
+          "cause": "Faulty pressure switch or water level sensor",
+          "detail": "The pressure switch tells the control board how much water is in the drum. If it sends an incorrect reading, the machine may think the drum is still full when it isn't, preventing it from moving to the next stage."
+        },
+        {
+          "cause": "Control board or programme selector fault",
+          "detail": "Less commonly, the main control board or the programme selector dial can develop a fault that causes the machine to lose its place in the cycle. This is more likely on older machines or after a power surge."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Note exactly where in the cycle the machine is stopping",
+          "detail": "Before touching anything, run a short programme and watch carefully. Does it stop during the wash, rinse, or spin phase? This narrows down the cause significantly. If the drum is full of water when it stops, drainage is almost certainly the issue."
+        },
+        {
+          "step": 2,
+          "action": "Clean the drain pump filter",
+          "detail": "Open the small access panel at the bottom front of the machine. Place a shallow tray and some towels underneath, then slowly unscrew the filter cap to let water drain out gradually. Remove the filter completely, rinse it under a tap, and check the pump housing for any debris. Refit the filter firmly before running a test cycle."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the drain hose",
+          "detail": "Pull the machine slightly away from the wall and trace the drain hose from the back of the machine to where it connects to the standpipe or sink. Straighten any kinks and ensure the hose is not pushed too far down into the standpipe, which can cause a siphoning effect. The hose end should sit no deeper than 15 cm into the standpipe."
+        },
+        {
+          "step": 4,
+          "action": "Reduce the load and redistribute laundry",
+          "detail": "If the machine is stopping during the spin phase, open the door (after selecting a drain or cancel programme to release the lock), remove a few items, and spread the remaining laundry evenly around the drum. Restart the spin cycle. Consistently overloading the machine will cause repeated stoppages and can damage the drum bearings over time."
+        },
+        {
+          "step": 5,
+          "action": "Check the door latch",
+          "detail": "Close the door firmly and listen for a clear click. Try gently pulling the door while the machine is running — it should feel completely secure. If the door feels loose, the catch or interlock may be worn. Visually inspect the plastic latch on the door and the striker on the machine body for cracks or deformation."
+        },
+        {
+          "step": 6,
+          "action": "Perform a reset",
+          "detail": "Turn the programme selector to the off position, then unplug the machine from the mains for two minutes. Plug it back in and select a fresh programme. This clears any temporary fault stored in the control board and can resolve unexplained mid-cycle stops caused by minor electronic glitches."
+        },
+        {
+          "step": 7,
+          "action": "Run a service wash and check for error codes",
+          "detail": "Select the hottest available cotton programme with no laundry and a small amount of washing machine cleaner. Watch the full cycle. If the machine stops again, note the exact point and check whether any indicator lights are flashing in a pattern — some Bosch models communicate fault codes through light sequences even without a digital display, and these can help a service technician diagnose the problem quickly."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If the machine stops consistently at the same point in the cycle despite cleaning the filter, checking the hose, and resetting the machine, there is likely a component failure that requires testing with specialist equipment. A faulty pressure switch, motor control board, or main PCB cannot be reliably diagnosed or replaced without the correct tools and knowledge.</p><p>You should also contact a service technician if the machine is making unusual grinding or burning smells when it stops, if the door remains locked and cannot be released using the manual release cord, or if the machine trips your household circuit breaker when it attempts to run. These signs point to an electrical or mechanical fault that is unsafe to investigate without professional help.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Bosch washing machine won't complete a cycle are the drain pump filter (or the pump itself if the impeller is damaged), the door interlock switch, and the pressure switch. Keeping the filter clean every one to three months is the single most effective maintenance step you can take, and it costs nothing. Using the correct amount of detergent also reduces the risk of excess foam confusing the water level sensor.</p><p>If you need to replace any of these components, use genuine or quality-compatible parts matched to your specific Bosch model number, which you'll find on the label inside the door frame. Search for available parts below.</p>\n<!-- SPARE_PARTS_FAULT:wont-complete-cycle -->",
+      "faq_json": [
+        {
+          "answer": "The door locks as a safety measure whenever water is detected in the drum or the machine is mid-programme. If it has stopped and won't unlock, select a drain or cancel programme and wait a few minutes for the machine to pump out any remaining water. Once the drum is empty, the door should release. If it doesn't, there is usually a manual release cord inside the filter access panel at the bottom of the machine.",
+          "question": "Why does my Bosch washing machine stop mid-cycle with the door locked?"
+        },
+        {
+          "answer": "Stopping consistently at the same stage strongly suggests a specific component is failing rather than a random glitch. For example, stopping at the end of the rinse almost always points to a drainage problem, while stopping at the start of the spin can indicate an unbalanced load detection issue or a motor fault. Note the programme stage and use it to guide your checks.",
+          "question": "My Bosch washer stops at the same point every time — what does that mean?"
+        },
+        {
+          "answer": "Yes. Most Bosch machines will pause and hold their position during a power interruption, but some models lose their programme memory and need to be restarted from the beginning. If power cuts are frequent in your area, consider using a surge-protected extension lead. After a power cut, simply turn the selector to off, wait a moment, and restart the programme.",
+          "question": "Can a power cut cause my Bosch washing machine to stop mid-cycle?"
+        },
+        {
+          "answer": "Intermittent stopping is worth investigating promptly rather than ignoring. While the machine may seem fine on some washes, an underlying fault — such as a partially blocked pump or a weakening door interlock — will typically worsen over time. Continuing to use the machine without addressing the cause can lead to water leaks or a complete breakdown.",
+          "question": "Is it safe to keep using the machine if it sometimes completes cycles and sometimes doesn't?"
+        },
+        {
+          "answer": "The model number (E-Nr) is printed on a sticker inside the door opening, usually on the front face of the appliance body. It typically starts with letters followed by a series of numbers and letters, for example WAN28281GB. Always use this full model number when searching for spare parts to ensure compatibility.",
+          "question": "How do I find my Bosch washing machine's model number to order the right parts?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:02:00.56498+00:00"
+    },
+    {
+      "id": 514,
+      "article_id": 325,
+      "locale": "sv",
+      "slug": "slutfor-inte-programmet",
+      "title_tag": "Bosch Tvättmaskin Slutför Inte ett Program – Lösningar",
+      "meta_description": "Stannar din Bosch tvättmaskin mitt i programmet? Lär dig de vanligaste orsakerna och steg-för-steg-lösningar för att få maskinen att slutföra sina program igen.",
+      "h1": "Varför Stannar Min Bosch Tvättmaskin Innan Programmet är Klart?",
+      "description": "Tvättmaskinen startar ett program men stannar eller pausar innan det är klart, vilket lämnar tvätten blöt eller trumman stilla mitt i programmet.",
+      "quick_fix": "Kontrollera och rengör avloppspumpens filter (placerat bakom den lilla luckan längst ned på maskinens framsida) — ett igensatt filter är den vanligaste orsaken till att en Bosch tvättmaskin stannar mitt i programmet, och att rensa det brukar få programmet att köra igen (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en Bosch tvättmaskin vägrar att slutföra ett program stannar den vanligtvis vid en specifik punkt — oftast under centrifugerings- eller avloppsfasen — och sitter bara där med dörren låst och programlampan blinkande. I vissa fall kan maskinen starta om kortvarigt innan den stannar igen, eller så pausar den tyst utan någon uppenbar indikation på ett problem. Detta beteende påverkar ett brett utbud av Bosch-modeller och orsakas sällan av ett enda dramatiskt fel.</p><p>Tvätt-, sköljnings- och avloppsfaserna styrs alla av maskinens styrsystem, som övervakar vattentemperatur, trumhastighet, vattennivå och avloppsförlopp. Om något av dessa värden faller utanför förväntade gränser pausar maskinen programmet för att skydda sig själv eller din tvätt. Att förstå i vilken fas maskinen stannar — tvätt, sköljning eller centrifugering — är den mest användbara ledtråden du kan samla in innan du börjar kontrollera något.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt avloppspumpsfilter",
+          "detail": "Ett tilltäppt filter förhindrar att vatten rinner ut effektivt, vilket gör att maskinen stannar i slutet av en tvätt- eller sköljningsfas. Ludd, mynt och små klädesplagg är de vanligaste bovarna."
+        },
+        {
+          "cause": "Veckad eller blockerad avloppsslang",
+          "detail": "Om avloppsslangen är hårt böjd bakom maskinen eller delvis blockerad kan vatten inte lämna trumman i tillräcklig takt. Styrkortet upptäcker långsamt avlopp och stoppar programmet."
+        },
+        {
+          "cause": "Defekt dörrlås eller dörrinterlås",
+          "detail": "Maskinen fortsätter inte genom ett program om den inte kan bekräfta att dörren är ordentligt stängd. Ett slitet eller skadat dörrinterlås kan göra att programmet pausar eller avbryts oväntat."
+        },
+        {
+          "cause": "Överfylld trumma eller obalanserad tvätt",
+          "detail": "Bosch-maskiner pausar automatiskt eller minskar centrifugeringshastigheten när lasten är för tung eller ojämnt fördelad. Maskinen kan försöka omfördela tvätten flera gånger innan den ger upp och stannar."
+        },
+        {
+          "cause": "Defekt pressostatkontakt eller vattennivåsensor",
+          "detail": "Pressostatkontakten talar om för styrkortet hur mycket vatten som finns i trumman. Om den skickar ett felaktigt värde kan maskinen tro att trumman fortfarande är full när den inte är det, vilket hindrar den från att gå vidare till nästa fas."
+        },
+        {
+          "cause": "Fel på styrkort eller programväljare",
+          "detail": "Mer sällan kan huvudstyrkortet eller programväljarratten utveckla ett fel som gör att maskinen tappar sin plats i programmet. Detta är vanligare på äldre maskiner eller efter ett strömöverspänning."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Notera exakt var i programmet maskinen stannar",
+          "detail": "Innan du rör något, kör ett kort program och titta noga. Stannar den under tvätt-, sköljnings- eller centrifugeringsfasen? Detta begränsar orsaken avsevärt. Om trumman är full med vatten när den stannar är avloppet nästan säkert problemet."
+        },
+        {
+          "step": 2,
+          "action": "Rengör avloppspumpsfiltret",
+          "detail": "Öppna den lilla luckan längst ned på maskinens framsida. Placera ett grunt fat och några handdukar undertill, skruva sedan långsamt loss filterlocket för att låta vatten rinna ut gradvis. Ta bort filtret helt, skölj det under kranen och kontrollera pumphuset efter skräp. Sätt tillbaka filtret ordentligt innan du kör ett testprogram."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera avloppsslangen",
+          "detail": "Dra maskinen något från väggen och följ avloppsslangen från maskinens baksida till där den ansluter till avloppsröret eller diskhon. Räta ut eventuella veck och se till att slangen inte är instucken för långt i avloppsröret, vilket kan orsaka en siffoneffekt. Slangänden bör sitta högst 15 cm ned i avloppsröret."
+        },
+        {
+          "step": 4,
+          "action": "Minska lasten och omfördela tvätten",
+          "detail": "Om maskinen stannar under centrifugeringsfasen, öppna dörren (efter att ha valt ett avlopps- eller avbrytningsprogram för att frigöra låset), ta ut några plagg och fördela den kvarvarande tvätten jämnt runt trumman. Starta om centrifugeringsprogrammet. Att konsekvent överfylla maskinen orsakar upprepade stopp och kan skada trumlagren med tiden."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera dörrlåset",
+          "detail": "Stäng dörren ordentligt och lyssna efter ett tydligt klick. Försök att försiktigt dra i dörren medan maskinen är igång — den ska kännas helt säker. Om dörren känns lös kan låset eller interlåset vara slitet. Inspektera visuellt det plastlås som sitter på dörren och låsbygeln på maskinkroppen för sprickor eller deformation."
+        },
+        {
+          "step": 6,
+          "action": "Utför en återställning",
+          "detail": "Vrid programväljaren till av-läget och dra sedan ur maskinen från elnätet i två minuter. Sätt i kontakten igen och välj ett nytt program. Detta rensar eventuella tillfälliga fel lagrade i styrkortet och kan lösa oförklarliga stopp mitt i programmet orsakade av mindre elektroniska störningar."
+        },
+        {
+          "step": 7,
+          "action": "Kör ett servicetvätt och kontrollera efter felkoder",
+          "detail": "Välj det varmaste tillgängliga bomullsprogrammet utan tvätt och en liten mängd tvättmaskinrengöringsmedel. Titta på hela programmet. Om maskinen stannar igen, notera den exakta punkten och kontrollera om några indikatorlampor blinkar i ett mönster — vissa Bosch-modeller kommunicerar felkoder via ljussekvenser även utan digital display, och dessa kan hjälpa en servicetekniker att snabbt diagnostisera problemet."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om maskinen konsekvent stannar vid samma punkt i programmet trots att du rengjort filtret, kontrollerat slangen och återställt maskinen, finns det troligen ett komponentfel som kräver testning med specialutrustning. En defekt pressostatkontakt, motorstyrningskort eller huvud-PCB kan inte tillförlitligt diagnostiseras eller bytas ut utan rätt verktyg och kunskap.</p><p>Du bör också kontakta en servicetekniker om maskinen avger ovanliga malande ljud eller bränndoft när den stannar, om dörren förblir låst och inte kan frigöras med den manuella frigöringslinen, eller om maskinen löser ut din hushållssäkring när den försöker köra. Dessa tecken pekar på ett elektriskt eller mekaniskt fel som är osäkert att undersöka utan professionell hjälp.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Bosch tvättmaskin inte slutför ett program är avloppspumpsfiltret (eller själva pumpen om impellern är skadad), dörrinterlåskontakten och pressostatkontakten. Att hålla filtret rent var en till tre månader är den enskilt mest effektiva underhållsåtgärden du kan vidta, och det kostar ingenting. Att använda rätt mängd tvättmedel minskar också risken för att överskottsskum förvirrar vattennivåsensorn.</p><p>Om du behöver byta ut någon av dessa komponenter, använd äkta eller kvalitetskompatibla delar matchade till ditt specifika Bosch-modellnummer, som du hittar på etiketten inuti dörröppningen. Sök efter tillgängliga delar nedan.</p>\n<!-- SPARE_PARTS_FAULT:wont-complete-cycle -->",
+      "faq_json": [
+        {
+          "answer": "Dörren låses som en säkerhetsåtgärd när vatten detekteras i trumman eller när maskinen är mitt i ett program. Om den har stannat och inte låser upp, välj ett avlopps- eller avbrytningsprogram och vänta några minuter på att maskinen pumpar ut eventuellt kvarvarande vatten. När trumman är tom bör dörren frigöras. Om den inte gör det finns det vanligtvis en manuell frigöringslina inuti filteråtkomstluckan längst ned på maskinen.",
+          "question": "Varför stannar min Bosch tvättmaskin mitt i programmet med dörren låst?"
+        },
+        {
+          "answer": "Att konsekvent stanna vid samma fas tyder starkt på att en specifik komponent håller på att gå sönder snarare än ett slumpmässigt fel. Till exempel pekar stopp i slutet av sköljningen nästan alltid på ett avloppsproblem, medan stopp i början av centrifugeringen kan indikera ett problem med obalansdetektering eller ett motorfel. Notera programfasen och använd den för att vägleda dina kontroller.",
+          "question": "Min Bosch tvättmaskin stannar vid samma punkt varje gång — vad betyder det?"
+        },
+        {
+          "answer": "Ja. De flesta Bosch-maskiner pausar och håller sin position under ett strömavbrott, men vissa modeller förlorar sitt programminne och behöver startas om från början. Om strömavbrott är vanliga i ditt område, överväg att använda en överspänningsskyddad förlängningssladd. Efter ett strömavbrott, vrid helt enkelt väljaren till av, vänta ett ögonblick och starta om programmet.",
+          "question": "Kan ett strömavbrott göra att min Bosch tvättmaskin stannar mitt i programmet?"
+        },
+        {
+          "answer": "Intermittenta stopp är värda att undersöka omgående snarare än att ignorera. Även om maskinen kan verka fungera bra vid vissa tvättar, kommer ett underliggande fel — som en delvis blockerad pump eller ett försvagat dörrinterlås — typiskt att förvärras med tiden. Att fortsätta använda maskinen utan att åtgärda orsaken kan leda till vattenläckor eller ett fullständigt haveri.",
+          "question": "Är det säkert att fortsätta använda maskinen om den ibland slutför program och ibland inte?"
+        },
+        {
+          "answer": "Modellnumret (E-Nr) är tryckt på en etikett inuti dörröppningen, vanligtvis på maskinkorpusens framsida. Det börjar vanligtvis med bokstäver följt av en serie siffror och bokstäver, till exempel WAN28281GB. Använd alltid detta fullständiga modellnummer när du söker efter reservdelar för att säkerställa kompatibilitet.",
+          "question": "Hur hittar jag min Bosch tvättmaskines modellnummer för att beställa rätt delar?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:03:13.204562+00:00"
+    },
+    {
+      "id": 519,
+      "article_id": 328,
+      "locale": "en",
+      "slug": "trips-electrics",
+      "title_tag": "Bosch Washing Machine Trips Electrics – Fixes",
+      "meta_description": "Bosch washing machine tripping your electrics? Learn the most common causes, step-by-step fixes, and when to call a service technician. Safe, practical advice.",
+      "h1": "Why Does My Bosch Washing Machine Keep Tripping the Electrics?",
+      "description": "The washing machine causes the household circuit breaker or RCD to trip when it is switched on or during a wash cycle.",
+      "quick_fix": "Unplug the machine, wait 60 seconds, then plug it into a different wall socket on a separate circuit to rule out a faulty socket or overloaded circuit — if the breaker holds, the original socket or circuit is the problem (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When a Bosch washing machine trips the electrics, it means the appliance is drawing current in a way that the residual current device (RCD) or circuit breaker considers unsafe. The RCD's job is to cut power the instant it detects a fault, so a trip is actually the safety system working correctly — but it does mean something needs attention before you run another cycle.</p><p>The trip can happen the moment you switch the machine on, when the drum starts to spin, or when the heating element activates partway through a wash. Each of these timing clues points toward a different component. Error code E68 can appear on some Bosch models alongside this fault, typically indicating a heating circuit issue, though the underlying electrical fault may be broader than the heater alone.</p><p>Because this symptom involves mains electricity, it sits in the advanced severity category. Some checks are straightforward and safe for a homeowner to carry out; others require a service technician with the right test equipment.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty heating element",
+          "detail": "The heating element is the most common cause of an RCD trip in a washing machine. Over time the element's insulation breaks down, allowing current to leak to the metal drum or casing and triggering the RCD — this is also the primary driver of error code E68."
+        },
+        {
+          "cause": "Damaged or degraded motor",
+          "detail": "The motor's windings can develop an earth fault as the insulation ages or if water has entered the motor housing. The trip typically occurs when the drum begins to rotate, which is a useful timing clue."
+        },
+        {
+          "cause": "Water ingress into electrical components",
+          "detail": "A leaking door seal, pump housing, or detergent drawer can allow water to drip onto the wiring loom, control board, or terminal block. Even a small amount of moisture on live connections is enough to cause an RCD trip."
+        },
+        {
+          "cause": "Faulty carbon brushes or brush holders",
+          "detail": "Worn carbon brushes can arc against the motor commutator, creating a momentary earth fault. This usually produces a burning smell and causes the trip to occur specifically during the spin phase."
+        },
+        {
+          "cause": "Damaged mains cable or plug wiring",
+          "detail": "A pinched, chafed, or incorrectly wired mains cable can cause an intermittent short to earth. Check the cable along its full length for any visible damage, kinks, or signs of heat discolouration near the plug."
+        },
+        {
+          "cause": "Faulty or overloaded household circuit",
+          "detail": "If multiple high-draw appliances share the same circuit, the combined load can trip a breaker even when the washing machine itself is fine. A weak or ageing RCD can also become overly sensitive and trip on normal leakage current."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reset the breaker and note exactly when the trip occurs",
+          "detail": "Before touching the machine, reset your consumer unit and make a note of the precise moment the trip happens — on power-on, when the drum turns, or mid-cycle when heating starts. This timing narrows the fault to a specific component and will be useful information if you need to call a service technician."
+        },
+        {
+          "step": 2,
+          "action": "Try a different socket on a separate circuit",
+          "detail": "Unplug the machine and plug it into a socket in another room that is on a different circuit. If the breaker no longer trips, the original socket, circuit, or RCD is the problem rather than the washing machine. Contact a qualified electrician to inspect the circuit."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the mains cable and plug",
+          "detail": "With the machine unplugged, run your hands along the full length of the mains cable feeling for kinks, cuts, or hard spots. Remove the plug cover and check that the wiring terminals are tight and correctly connected — brown to live, blue to neutral, green/yellow to earth. Replace the cable if you find any damage."
+        },
+        {
+          "step": 4,
+          "action": "Check for visible water leaks around electrical parts",
+          "detail": "Pull the machine forward and look underneath and behind for signs of water pooling or dried mineral deposits near the wiring loom or motor. Check the door seal for tears and the detergent drawer housing for blockages that could cause overflow. Dry any damp areas thoroughly and allow the machine to air for 24 hours before testing again."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the carbon brushes",
+          "detail": "On many Bosch models the motor brushes are accessible from the rear of the machine after removing the back panel. Brushes shorter than about 5 mm are worn and should be replaced as a pair. Worn brushes are a straightforward DIY replacement and can resolve trips that occur specifically during spinning."
+        },
+        {
+          "step": 6,
+          "action": "Test the heating element for an earth fault",
+          "detail": "Disconnect the machine from the mains. Access the element — usually behind the rear panel — and disconnect its wires. Use a multimeter set to resistance: measure between each element terminal and the machine's metal chassis. A reading of anything other than open circuit (OL) indicates the element is leaking to earth and must be replaced."
+        },
+        {
+          "step": 7,
+          "action": "Replace the faulty component and retest",
+          "detail": "Once you have identified the faulty part — element, brushes, or cable — fit the correct Bosch-compatible replacement and reassemble the machine. Run a short 30°C cycle while staying nearby to confirm the breaker no longer trips before returning the machine to normal use."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>Call a service technician if the trip occurs immediately when the machine is plugged in (before any button is pressed), if you can smell burning from inside the machine, or if you have carried out the steps above and cannot identify the faulty component. These signs suggest a fault in the wiring loom, control board, or motor that requires insulation resistance testing with professional equipment.</p><p>You should also seek professional help if the mains cable shows heat damage near the machine's terminal block, or if the RCD trips on multiple different circuits — this could indicate a more serious earth fault that is unsafe to operate around without proper diagnosis.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Bosch washing machine trips the electrics are the <strong>heating element</strong>, the <strong>motor carbon brushes</strong>, and the <strong>mains inlet cable</strong>. Keeping a note of your machine's model number (found on the label inside the door frame) makes it straightforward to order the correct parts first time. Fitting genuine or quality-equivalent parts ensures the insulation ratings match the original specification, which is important for electrical safety.</p><p>To reduce the risk of future faults, avoid overloading the drum — excess weight stresses the motor — and run a monthly drum-clean cycle to prevent detergent residue build-up that can trap moisture around electrical components. Check the door seal every few months for small tears that could allow water to track toward the wiring.</p>\n<!-- SPARE_PARTS_FAULT:trips-electrics -->",
+      "faq_json": [
+        {
+          "answer": "No. Every time the RCD trips it is detecting a genuine current leak to earth. Repeatedly resetting and running the machine risks electric shock, fire, or further damage to the appliance. Stop using it until the fault has been identified and fixed.",
+          "question": "Is it safe to keep resetting the breaker and using the machine?"
+        },
+        {
+          "answer": "E68 indicates that the control board has detected a fault in the heating circuit, most often caused by a heating element that has developed an earth leak. It does not always appear alongside a trip, but when it does, testing and replacing the element is the logical first step.",
+          "question": "What does error code E68 mean on a Bosch washing machine?"
+        },
+        {
+          "answer": "Yes, it is possible. An ageing or overly sensitive RCD can trip on the normal low-level leakage current that all appliances produce. Plugging the machine into a socket on a different circuit is a quick way to check. If it runs without tripping, ask an electrician to test your RCD.",
+          "question": "Could the problem be with my consumer unit rather than the washing machine?"
+        },
+        {
+          "answer": "A trip that occurs specifically during spinning usually points to the motor or carbon brushes rather than the heating element. As the motor ramps up to spin speed, a worn brush or failing winding creates an arc or earth fault large enough to trigger the RCD.",
+          "question": "Why does the machine only trip the electrics during the spin cycle?"
+        },
+        {
+          "answer": "On most Bosch washing machines, replacing the heating element takes between 45 minutes and 90 minutes with basic tools. It involves removing the back panel, disconnecting the element wires, and unbolting the element from the drum. If you are comfortable working on unplugged appliances and following a model-specific guide, it is a manageable DIY repair — but if you have any doubt, a service technician can complete it safely.",
+          "question": "How long does a heating element replacement take, and can I do it myself?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:08:24.435556+00:00"
+    },
+    {
+      "id": 520,
+      "article_id": 328,
+      "locale": "sv",
+      "slug": "löser-ut-säkringen",
+      "title_tag": "Bosch Tvättmaskin Löser Ut Säkringen – Lösningar",
+      "meta_description": "Löser din Bosch tvättmaskin ut säkringen? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Säkra, praktiska råd.",
+      "h1": "Varför Löser Min Bosch Tvättmaskin Ut Säkringen?",
+      "description": "Tvättmaskinen utlöser hushållets automatsäkring eller jordfelsbrytare när den slås på eller under ett tvättprogram.",
+      "quick_fix": "Dra ur maskinen, vänta 60 sekunder och anslut den sedan till ett annat vägguttag på en separat krets för att utesluta ett defekt uttag eller en överbelastad krets — om säkringen håller är det ursprungliga uttaget eller kretsen som är problemet (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en Bosch tvättmaskin löser ut säkringen innebär det att maskinen drar ström på ett sätt som jordfelsbrytaren (RCD) eller automatsäkringen bedömer som osäkert. Jordfelsbrytarens uppgift är att bryta strömmen omedelbart när den upptäcker ett fel, så ett utlösande är egentligen ett tecken på att säkerhetssystemet fungerar som det ska — men det betyder att något behöver åtgärdas innan du kör ett nytt program.</p><p>Utlösningen kan ske i samma ögonblick som du slår på maskinen, när trumman börjar snurra, eller när värmeelementen aktiveras mitt under ett tvättprogram. Dessa tidsmässiga ledtrådar pekar mot olika komponenter. Felkod E68 kan visas på vissa Bosch-modeller i samband med detta fel och indikerar vanligtvis ett problem med värmekretsen, även om det underliggande elektriska felet kan vara mer omfattande än enbart värmaren.</p><p>Eftersom detta symptom involverar nätspänning tillhör det kategorin avancerad svårighetsgrad. Vissa kontroller är enkla och säkra för en husägare att utföra; andra kräver en servicetekniker med rätt testutrustning.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt värmeelement",
+          "detail": "Värmeelementet är den vanligaste orsaken till att en jordfelsbrytare löser ut i en tvättmaskin. Med tiden bryts elementets isolering ned, vilket gör att ström kan läcka till metaltrumman eller höljet och utlösa jordfelsbrytaren — detta är också den primära orsaken till felkod E68."
+        },
+        {
+          "cause": "Skadad eller försämrad motor",
+          "detail": "Motorns lindningar kan utveckla ett jordfel när isoleringen åldras eller om vatten har trängt in i motorhuset. Utlösningen sker vanligtvis när trumman börjar rotera, vilket är en användbar tidsmässig ledtråd."
+        },
+        {
+          "cause": "Vattenintrång i elektriska komponenter",
+          "detail": "En läckande dörrtätning, pumphus eller tvättmedelslåda kan låta vatten droppa ned på kabelstammen, styrkortet eller plintblocket. Även en liten mängd fukt på spänningsförande anslutningar räcker för att utlösa jordfelsbrytaren."
+        },
+        {
+          "cause": "Defekta kolborstar eller borstfästen",
+          "detail": "Slitna kolborstar kan ge upphov till ljusbågar mot motorns kommutator och skapa ett tillfälligt jordfel. Detta ger vanligtvis en bränd lukt och gör att utlösningen sker specifikt under centrifugeringsfasen."
+        },
+        {
+          "cause": "Skadad nätkabel eller stickkontaktkoppling",
+          "detail": "En klämd, nött eller felaktigt kopplad nätkabel kan orsaka ett intermittent kortslutning mot jord. Kontrollera kabeln längs hela dess längd för synliga skador, knickar eller tecken på värmemissfärgning nära stickkontakten."
+        },
+        {
+          "cause": "Defekt eller överbelastad hushållskrets",
+          "detail": "Om flera apparater med hög strömförbrukning delar samma krets kan den sammanlagda belastningen lösa ut en säkring även när tvättmaskinen i sig är felfri. En svag eller åldrande jordfelsbrytare kan också bli överkänslig och lösa ut vid normal läckström."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Återställ säkringen och notera exakt när utlösningen sker",
+          "detail": "Innan du rör maskinen, återställ din elcentral och notera det exakta ögonblicket då utlösningen sker — vid påslagning, när trumman snurrar, eller mitt i programmet när uppvärmningen startar. Denna tidpunkt begränsar felet till en specifik komponent och är värdefull information om du behöver kontakta en servicetekniker."
+        },
+        {
+          "step": 2,
+          "action": "Prova ett annat uttag på en separat krets",
+          "detail": "Dra ur maskinen och anslut den till ett uttag i ett annat rum som är på en annan krets. Om säkringen inte längre löser ut är det ursprungliga uttaget, kretsen eller jordfelsbrytaren som är problemet snarare än tvättmaskinen. Kontakta en behörig elektriker för att kontrollera kretsen."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera nätkabeln och stickkontakten",
+          "detail": "Med maskinen urkopplad, känn längs hela nätkabelns längd efter knickar, skärningar eller hårda partier. Ta bort stickkontaktens lock och kontrollera att kopplingsplinterna är åtdragna och korrekt anslutna — brun till fas, blå till nolla, grön/gul till jord. Byt ut kabeln om du hittar några skador."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera om det finns synliga vattenläckor nära elektriska delar",
+          "detail": "Dra fram maskinen och titta under och bakom den efter tecken på vattenansamlingar eller torkade mineralavlagringar nära kabelstammen eller motorn. Kontrollera dörrtätningen för revor och tvättmedelslådans hus för igensättningar som kan orsaka översvämning. Torka noggrant av fuktiga områden och låt maskinen luftas i 24 timmar innan du testar igen."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera kolborstarna",
+          "detail": "På många Bosch-modeller är motorborstarna åtkomliga från maskinens baksida efter att bakpanelen tagits bort. Borstar kortare än ungefär 5 mm är slitna och bör bytas ut parvis. Slitna borstar är ett enkelt DIY-byte och kan lösa utlösningar som sker specifikt under centrifugering."
+        },
+        {
+          "step": 6,
+          "action": "Testa värmeelementet för jordfel",
+          "detail": "Koppla bort maskinen från nätspänningen. Kom åt elementet — vanligtvis bakom bakpanelen — och koppla loss dess kablar. Använd en multimeter inställd på resistans: mät mellan varje elementterminal och maskinens metallram. Ett värde som inte är öppen krets (OL) indikerar att elementet läcker till jord och måste bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut den defekta komponenten och testa igen",
+          "detail": "När du har identifierat den defekta delen — element, kolborstar eller kabel — montera rätt Bosch-kompatibel ersättningsdel och sätt ihop maskinen. Kör ett kort 30°C-program medan du stannar i närheten för att bekräfta att säkringen inte längre löser ut innan du återgår till normal användning."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om utlösningen sker omedelbart när maskinen kopplas in (innan någon knapp trycks), om du känner bränd lukt inifrån maskinen, eller om du har utfört stegen ovan utan att kunna identifiera den defekta komponenten. Dessa tecken tyder på ett fel i kabelstammen, styrkortet eller motorn som kräver isolationsresistansmätning med professionell utrustning.</p><p>Du bör också söka professionell hjälp om nätkabeln visar värmeskador nära maskinens plintblock, eller om jordfelsbrytaren löser ut på flera olika kretsar — detta kan tyda på ett allvarligare jordfel som är osäkert att använda utan korrekt diagnos.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Bosch tvättmaskin löser ut säkringen är <strong>värmeelementet</strong>, motorns <strong>kolborstar</strong> och <strong>nätkabeln</strong>. Att ha maskinens modellnummer till hands (finns på etiketten inuti dörrkarmens ram) gör det enkelt att beställa rätt delar direkt. Att montera äkta eller kvalitetsmässigt likvärdiga delar säkerställer att isoleringsklasserna matchar originalspecifikationen, vilket är viktigt för elsäkerheten.</p><p>För att minska risken för framtida fel, undvik att överlasta trumman — övervikt belastar motorn — och kör ett månatligt trumrengöringsprogram för att förhindra att tvättmedelsrester ansamlas och fångar fukt runt elektriska komponenter. Kontrollera dörrtätningen var tredje månad för små revor som kan låta vatten rinna mot kablaget.</p>\n<!-- SPARE_PARTS_FAULT:trips-electrics -->",
+      "faq_json": [
+        {
+          "answer": "Nej. Varje gång jordfelsbrytaren löser ut detekterar den en verklig strömläcka till jord. Att upprepade gånger återställa och köra maskinen riskerar elstöt, brand eller ytterligare skador på maskinen. Sluta använda den tills felet har identifierats och åtgärdats.",
+          "question": "Är det säkert att fortsätta återställa säkringen och använda maskinen?"
+        },
+        {
+          "answer": "E68 indikerar att styrkortet har detekterat ett fel i värmekretsen, oftast orsakat av ett värmeelement som har utvecklat en jordläcka. Den visas inte alltid tillsammans med en utlösning, men när den gör det är testning och byte av elementet det logiska första steget.",
+          "question": "Vad betyder felkod E68 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Ja, det är möjligt. En åldrande eller överkänslig jordfelsbrytare kan lösa ut vid den normala lågnivåläckström som alla apparater producerar. Att ansluta maskinen till ett uttag på en annan krets är ett snabbt sätt att kontrollera detta. Om den körs utan att lösa ut, be en elektriker testa din jordfelsbrytare.",
+          "question": "Kan problemet bero på min elcentral snarare än tvättmaskinen?"
+        },
+        {
+          "answer": "En utlösning som sker specifikt under centrifugering pekar vanligtvis på motorn eller kolborstarna snarare än värmeelementet. När motorn ökar hastigheten till centrifugeringsvarvtal skapar en sliten borste eller en sviktande lindning en ljusbåge eller ett jordfel som är tillräckligt stort för att utlösa jordfelsbrytaren.",
+          "question": "Varför löser maskinen bara ut säkringen under centrifugeringen?"
+        },
+        {
+          "answer": "På de flesta Bosch tvättmaskiner tar ett byte av värmeelementet mellan 45 minuter och 90 minuter med grundläggande verktyg. Det innebär att ta bort bakpanelen, koppla loss elementets kablar och skruva loss elementet från trumman. Om du känner dig bekväm med att arbeta på urkopplade maskiner och följa en modellspecifik guide är det en hanterbar DIY-reparation — men om du är det minsta osäker kan en servicetekniker utföra den på ett säkert sätt.",
+          "question": "Hur lång tid tar ett byte av värmeelement, och kan jag göra det själv?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:09:35.782557+00:00"
+    },
+    {
+      "id": 521,
+      "article_id": 329,
+      "locale": "en",
+      "slug": "burning-smell",
+      "title_tag": "Bosch Washing Machine Burning Smell – Causes & Fixes",
+      "meta_description": "Bosch washing machine giving off a burning smell? Find the most common causes, step-by-step fixes, and when to call a service technician for this fault.",
+      "h1": "Why Does My Bosch Washing Machine Smell Like It's Burning?",
+      "description": "A burning smell from a Bosch washing machine indicates that a component — most commonly the motor, drive belt, or pump — is overheating or experiencing friction during operation.",
+      "quick_fix": "Check and clear the drain pump filter of any debris or foreign objects, as a blocked filter forces the pump motor to overwork and overheat — this resolves the burning smell in many cases (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>A burning smell coming from your Bosch washing machine is one of those faults you should not ignore or run through another cycle hoping it will go away. The smell — which can range from a hot rubber or plastic odour to something closer to an electrical burning scent — tells you that something inside the machine is generating more heat than it should. Depending on where the smell is strongest and when it occurs, the affected system could be mechanical, electrical, or both.</p><p>The smell may appear at the start of a cycle, during the spin phase, or throughout the entire wash. Some owners notice it only on hotter wash programmes, while others find it happens regardless of temperature. In some cases the machine continues to run normally; in others it may stop mid-cycle or vibrate more than usual. Paying attention to exactly when the smell occurs will help you narrow down the cause before you start investigating.</p><p>Because this fault is rated as advanced severity, some of the underlying causes do require careful handling. Work through the steps below methodically, and always disconnect the machine from the mains before opening any panels or accessing internal components.</p>",
+      "causes_json": [
+        {
+          "cause": "Worn or slipping drive belt",
+          "detail": "The drive belt connects the motor to the drum. When it becomes worn, stretched, or misaligned, it slips against the pulleys and generates a strong hot-rubber smell, particularly during the spin cycle."
+        },
+        {
+          "cause": "Blocked or seized drain pump",
+          "detail": "Foreign objects such as coins, hair grips, or fabric fibres can jam the drain pump impeller. The pump motor then strains against the blockage, overheats, and produces a burning plastic or electrical smell."
+        },
+        {
+          "cause": "Failing or burnt-out motor",
+          "detail": "The main drive motor contains carbon brushes that wear down over time. As the brushes wear thin, they create excessive arcing and heat, producing a sharp electrical burning odour — often accompanied by reduced spin performance or the drum struggling to turn."
+        },
+        {
+          "cause": "Overloaded drum",
+          "detail": "Consistently overloading the machine forces the motor and belt to work beyond their design limits. This sustained strain can cause both components to run hot and emit a burning smell even if they are not yet mechanically damaged."
+        },
+        {
+          "cause": "Faulty heating element or wiring",
+          "detail": "A heating element that is partially failed, or wiring that has become loose or scorched, can produce a distinct electrical burning smell during wash programmes that use heat. This is less common but more serious than mechanical causes."
+        },
+        {
+          "cause": "Foreign object trapped near the drum or heater",
+          "detail": "Small items — a sock, a piece of packaging, or a plastic bag — can slip between the drum and the door seal or fall into the sump area and come into contact with the heating element or a moving part, burning on contact."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Disconnect the machine from the mains power supply",
+          "detail": "Before doing anything else, switch off and unplug the washing machine. A burning smell can indicate an electrical fault, and working on a live appliance is dangerous. Allow the machine to cool for at least 20 minutes before you touch any internal parts."
+        },
+        {
+          "step": 2,
+          "action": "Check the drum for trapped foreign objects",
+          "detail": "Open the door and inspect the rubber door seal carefully, pulling back the folds to look for small items caught inside. Rotate the drum by hand and listen or feel for any scraping. Check the drum paddles too — a melted plastic item is sometimes found here."
+        },
+        {
+          "step": 3,
+          "action": "Clean the drain pump filter",
+          "detail": "The pump filter is usually located behind a small panel at the bottom front of the machine. Place a towel and a shallow tray underneath, then unscrew the filter cap slowly to drain residual water. Remove the filter completely and clear out any debris, hair, or objects. Rinse the filter under a tap before refitting it securely."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the drive belt",
+          "detail": "To access the belt you will need to remove the rear panel of the machine (usually held by two or three screws). With the panel off, locate the belt running between the motor pulley and the large drum pulley. Look for cracking, fraying, glazing, or a belt that sits loosely off-centre. A belt in poor condition should be replaced — they are an inexpensive and widely available spare part for Bosch machines."
+        },
+        {
+          "step": 5,
+          "action": "Examine the motor brushes",
+          "detail": "The carbon brushes are located on either side of the motor body and are held in place by small plastic or metal holders. Remove each brush and measure its length — if either brush is shorter than approximately 15 mm, it is worn and needs replacing. Worn brushes are one of the most common causes of an electrical burning smell in Bosch washing machines."
+        },
+        {
+          "step": 6,
+          "action": "Check the heating element and surrounding wiring",
+          "detail": "The heating element sits at the bottom of the drum and is accessible from the rear or front depending on the model. Look for any visible scorching, melted insulation on nearby wires, or a wire that has come loose from its terminal. Do not attempt to repair scorched wiring yourself — this is a job for a service technician."
+        },
+        {
+          "step": 7,
+          "action": "Run a short test cycle and monitor closely",
+          "detail": "Once you have completed your checks and any straightforward repairs, reconnect the machine and run a short cool wash. Stay nearby and stop the cycle immediately if the burning smell returns. If it does, note exactly when in the cycle it occurs — this information will be useful if you need to call a service technician."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>You should contact a qualified service technician if the burning smell is accompanied by visible scorch marks, melted plastic, or discolouration on any component; if you can smell burning but cannot identify any obvious mechanical cause after working through the steps above; or if the machine trips your household circuit breaker when it runs. These signs point to an electrical fault that is not safe to diagnose or repair without specialist tools and training.</p><p>A service technician should also be called if the motor itself appears burnt or if the wiring harness shows signs of heat damage. Attempting to bypass or patch electrical faults in a washing machine carries a real risk of fire, so it is not worth attempting without professional support.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Bosch washing machine develops a burning smell are the drive belt, the motor carbon brushes, and the drain pump. The drive belt and brushes are relatively low-cost items that are straightforward to fit at home once you are comfortable removing the rear panel. Replacing them at the first sign of wear — rather than waiting for a complete failure — will protect the motor from secondary damage and prevent the burning smell from returning.</p><p>To reduce the risk of this fault occurring, avoid overloading the drum, clean the pump filter every one to three months, and check pockets before loading laundry to prevent foreign objects from reaching the pump or drum seal. Running a monthly maintenance wash at 60°C also helps keep internal components clear of residue build-up.</p>\n<!-- SPARE_PARTS_FAULT:burning-smell -->",
+      "faq_json": [
+        {
+          "answer": "No — you should stop using the machine until you have identified the cause. A burning smell can indicate an electrical fault or a component that is close to failing completely. Continuing to run the machine risks causing further damage or, in the worst case, a fire. Unplug it and work through the diagnostic steps before running another cycle.",
+          "question": "Is it safe to keep using my Bosch washing machine if it smells like burning?"
+        },
+        {
+          "answer": "A burning smell that appears specifically during spin is a strong indicator that the drive belt or motor is the source. The spin cycle places the highest mechanical load on both components, so a worn belt will slip and heat up most noticeably at this point. Inspect the belt and motor brushes as a priority.",
+          "question": "Why does my Bosch washing machine only smell of burning during the spin cycle?"
+        },
+        {
+          "answer": "Yes, a faint burning or plastic smell during the first one or two cycles is normal and is caused by manufacturing residues and protective coatings burning off internal components. This should disappear quickly. If the smell is strong, persistent, or smells electrical rather than plasticky, treat it as a fault and investigate further.",
+          "question": "Can a new washing machine smell of burning during its first few uses?"
+        },
+        {
+          "answer": "A replacement drive belt for a Bosch washing machine typically costs between £8 and £20 for the part itself. If you are comfortable doing the repair yourself, it is one of the more accessible DIY fixes — the rear panel removal and belt swap usually takes around 30 to 45 minutes. A service technician call-out will add labour costs on top of the part price.",
+          "question": "How much does it cost to replace the drive belt on a Bosch washing machine?"
+        },
+        {
+          "answer": "Absolutely — this is more common than many people expect. Tissues, paper, and small plastic items can survive the wash but come into contact with the heating element or get trapped near a moving part, producing a burning smell. Always check pockets before loading, and if you suspect something is trapped, inspect the door seal folds and the drum interior carefully before running another cycle.",
+          "question": "Could the burning smell be coming from something I left in a pocket?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:10:31.3292+00:00"
+    },
+    {
+      "id": 522,
+      "article_id": 329,
+      "locale": "sv",
+      "slug": "brannande-lukt",
+      "title_tag": "Bosch tvättmaskin bränner – orsaker och lösningar",
+      "meta_description": "Luktar det bränt från din Bosch tvättmaskin? Hitta de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker för detta fel.",
+      "h1": "Varför luktar min Bosch tvättmaskin bränt?",
+      "description": "En brännande lukt från en Bosch tvättmaskin indikerar att en komponent – oftast motorn, drivremmen eller pumpen – överhettas eller utsätts för friktion under drift.",
+      "quick_fix": "Kontrollera och rensa avloppspumpens filter från skräp och främmande föremål, eftersom ett igensatt filter tvingar pumpmotorn att arbeta för hårt och överhettas – detta löser den brännande lukten i många fall (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>En brännande lukt från din Bosch tvättmaskin är ett fel du inte bör ignorera eller köra ytterligare ett program med i hopp om att det ska försvinna. Lukten – som kan variera från en het gummi- eller plastdoft till något som liknar en elektrisk bränndoft – talar om att något inne i maskinen genererar mer värme än det borde. Beroende på var lukten är starkast och när den uppstår kan det drabbade systemet vara mekaniskt, elektriskt eller båda.</p><p>Lukten kan uppstå i början av ett program, under centrifugeringsfasen eller under hela tvätten. Vissa användare märker den bara vid varmare tvättprogram, medan andra upplever den oavsett temperatur. I vissa fall fortsätter maskinen att fungera normalt; i andra kan den stanna mitt i programmet eller vibrera mer än vanligt. Att noggrant observera exakt när lukten uppstår hjälper dig att begränsa orsaken innan du börjar undersöka.</p><p>Eftersom detta fel klassas som avancerat kan vissa underliggande orsaker kräva försiktig hantering. Arbeta igenom stegen nedan metodiskt och koppla alltid bort maskinen från elnätet innan du öppnar några paneler eller kommer åt interna komponenter.</p>",
+      "causes_json": [
+        {
+          "cause": "Sliten eller slirande drivrem",
+          "detail": "Drivremmen förbinder motorn med trumman. När den blir sliten, utsträckt eller felinriktad slira den mot remmskivorna och ger upphov till en stark het gummilukt, särskilt under centrifugeringen."
+        },
+        {
+          "cause": "Igensatt eller låst avloppspump",
+          "detail": "Främmande föremål som mynt, hårnålar eller tygfibrer kan fastna i avloppspumpens impeller. Pumpmotorn anstränger sig då mot blockeringen, överhettas och producerar en brännande plast- eller elektrisk lukt."
+        },
+        {
+          "cause": "Defekt eller utbränd motor",
+          "detail": "Huvuddrivmotorn innehåller kolborstar som slits ned med tiden. När borstarna slits tunna skapar de överdrivet gnistbildning och värme, vilket ger en skarp elektrisk bränndoft – ofta åtföljd av försämrad centrifugeringsprestanda eller att trumman har svårt att rotera."
+        },
+        {
+          "cause": "Överfylld trumma",
+          "detail": "Att konsekvent överfylla maskinen tvingar motorn och remmen att arbeta utöver sina konstruktionsgränser. Denna ihållande belastning kan få båda komponenterna att bli heta och avge en brännande lukt även om de ännu inte är mekaniskt skadade."
+        },
+        {
+          "cause": "Defekt värmeelement eller kablage",
+          "detail": "Ett delvis defekt värmeelement, eller kablage som har lossnat eller blivit skadat av värme, kan producera en tydlig elektrisk bränndoft under tvättprogram som använder värme. Detta är mindre vanligt men allvarligare än mekaniska orsaker."
+        },
+        {
+          "cause": "Främmande föremål fastnat nära trumman eller värmeelementet",
+          "detail": "Små föremål – en strumpa, ett förpackningsmaterial eller en plastpåse – kan glida in mellan trumman och dörrtätningen eller falla ned i sumpområdet och komma i kontakt med värmeelementet eller en rörlig del och börja brinna."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Koppla bort maskinen från elnätet",
+          "detail": "Innan du gör något annat, stäng av och dra ut kontakten på tvättmaskinen. En brännande lukt kan indikera ett elektriskt fel, och att arbeta på en ansluten apparat är farligt. Låt maskinen svalna i minst 20 minuter innan du rör vid några interna delar."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera trumman för fastnade främmande föremål",
+          "detail": "Öppna luckan och inspektera gummitätningen runt dörren noggrant, dra tillbaka vecken för att leta efter små föremål som fastnat inuti. Rotera trumman för hand och lyssna eller känn efter skrapljud. Kontrollera även trummans paddlar – ett smält plastföremål hittas ibland här."
+        },
+        {
+          "step": 3,
+          "action": "Rengör avloppspumpens filter",
+          "detail": "Pumpfiltret sitter vanligtvis bakom en liten lucka längst ned på maskinens framsida. Placera en handduk och ett grunt kärl undertill, skruva sedan långsamt loss filterlocket för att tömma kvarvarande vatten. Ta bort filtret helt och rensa bort skräp, hår eller föremål. Skölj filtret under kranen innan du sätter tillbaka det ordentligt."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera drivremmen",
+          "detail": "För att komma åt remmen behöver du ta bort maskinens bakpanel (vanligtvis fäst med två eller tre skruvar). Med panelen borttagen, lokalisera remmen som löper mellan motorns remmskiva och den stora trummans remmskiva. Leta efter sprickor, fransning, glansighet eller en rem som sitter löst och är felinriktad. En rem i dåligt skick bör bytas ut – de är billiga och lättillgängliga reservdelar för Bosch-maskiner."
+        },
+        {
+          "step": 5,
+          "action": "Undersök motorborstarna",
+          "detail": "Kolborstarna sitter på var sida om motorkroppen och hålls på plats av små plast- eller metallhållare. Ta bort varje borste och mät dess längd – om någon borste är kortare än ungefär 15 mm är den sliten och behöver bytas. Slitna borstar är en av de vanligaste orsakerna till elektrisk bränndoft i Bosch tvättmaskiner."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera värmeelementet och omgivande kablage",
+          "detail": "Värmeelementet sitter längst ned i trumman och är åtkomligt bakifrån eller framifrån beroende på modell. Leta efter synliga brännmärken, smält isolering på närliggande kablar eller en kabel som har lossnat från sin anslutning. Försök inte reparera skadat kablage själv – detta är ett arbete för en servicetekniker."
+        },
+        {
+          "step": 7,
+          "action": "Kör ett kort testprogram och övervaka noga",
+          "detail": "När du har slutfört dina kontroller och eventuella enkla reparationer, anslut maskinen igen och kör ett kort kalltvättprogram. Stanna i närheten och avbryt programmet omedelbart om den brännande lukten återkommer. Om det händer, notera exakt när i programmet det sker – denna information är användbar om du behöver kontakta en servicetekniker."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Du bör kontakta en kvalificerad servicetekniker om den brännande lukten åtföljs av synliga brännmärken, smält plast eller missfärgning på någon komponent; om du kan lukta bränt men inte kan identifiera någon uppenbar mekanisk orsak efter att ha arbetat igenom stegen ovan; eller om maskinen löser ut din hushållssäkring när den körs. Dessa tecken pekar på ett elektriskt fel som inte är säkert att diagnostisera eller reparera utan specialverktyg och utbildning.</p><p>En servicetekniker bör även kontaktas om motorn själv verkar utbränd eller om kabelstammen visar tecken på värmeskada. Att försöka kringgå eller laga elektriska fel i en tvättmaskin innebär en verklig brandrisk, så det är inte värt att försöka utan professionellt stöd.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Bosch tvättmaskin utvecklar en brännande lukt är drivremmen, motorns kolborstar och avloppspumpen. Drivremmen och borstarna är relativt billiga komponenter som är enkla att montera hemma när du är bekväm med att ta bort bakpanelen. Att byta dem vid de första tecknen på slitage – snarare än att vänta på ett fullständigt haveri – skyddar motorn från sekundärskador och förhindrar att den brännande lukten återkommer.</p><p>För att minska risken för att detta fel uppstår, undvik att överfylla trumman, rengör pumpfiltret var en till tre månader och kontrollera fickor innan du laddar tvätten för att förhindra att främmande föremål når pumpen eller trummans tätning. Att köra ett månatligt underhållsprogram vid 60°C hjälper också till att hålla interna komponenter fria från avlagringar.</p>\n<!-- SPARE_PARTS_FAULT:burning-smell -->",
+      "faq_json": [
+        {
+          "answer": "Nej – du bör sluta använda maskinen tills du har identifierat orsaken. En brännande lukt kan indikera ett elektriskt fel eller en komponent som är nära att haverera helt. Att fortsätta köra maskinen riskerar att orsaka ytterligare skador eller, i värsta fall, brand. Dra ut kontakten och arbeta igenom diagnostikstegen innan du kör ett nytt program.",
+          "question": "Är det säkert att fortsätta använda min Bosch tvättmaskin om den luktar bränt?"
+        },
+        {
+          "answer": "En brännande lukt som uppstår specifikt under centrifugeringen är en stark indikation på att drivremmen eller motorn är källan. Centrifugeringscykeln lägger den högsta mekaniska belastningen på båda komponenterna, så en sliten rem slira och hettas upp mest märkbart vid denna tidpunkt. Inspektera remmen och motorborstarna i första hand.",
+          "question": "Varför luktar min Bosch tvättmaskin bränt bara under centrifugeringen?"
+        },
+        {
+          "answer": "Ja, en svag brännande eller plastliknande lukt under de första en eller två programmen är normalt och orsakas av tillverkningsrester och skyddsbeläggningar som bränns av interna komponenter. Detta bör försvinna snabbt. Om lukten är stark, ihållande eller luktar elektriskt snarare än plastliknande, behandla det som ett fel och undersök vidare.",
+          "question": "Kan en ny tvättmaskin lukta bränt under de första användningarna?"
+        },
+        {
+          "answer": "En ersättningsdrivrem för en Bosch tvättmaskin kostar vanligtvis mellan 100 och 250 kronor för själva delen. Om du är bekväm med att utföra reparationen själv är det en av de mer tillgängliga gör-det-själv-åtgärderna – att ta bort bakpanelen och byta rem tar vanligtvis cirka 30 till 45 minuter. En servicetekniker tillkommer med arbetskostnad utöver delspriset.",
+          "question": "Hur mycket kostar det att byta drivrem på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Absolut – detta är vanligare än många förväntar sig. Papper, näsdukar och små plastföremål kan överleva tvätten men komma i kontakt med värmeelementet eller fastna nära en rörlig del och producera en brännande lukt. Kontrollera alltid fickor innan du laddar tvätten, och om du misstänker att något är fastnat, inspektera dörrtätningens veck och trummans insida noggrant innan du kör ett nytt program.",
+          "question": "Kan den brännande lukten komma från något jag lämnat i en ficka?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:11:51.088616+00:00"
+    }
+  ]
+}

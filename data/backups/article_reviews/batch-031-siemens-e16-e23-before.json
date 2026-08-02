@@ -1,0 +1,1027 @@
+{
+  "exported_at": "2026-07-30T22:18:03.133414+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    208,
+    210,
+    211,
+    212,
+    214
+  ],
+  "rows": [
+    {
+      "article_id": 208,
+      "locale": "en",
+      "slug": "error-code-e16",
+      "title_tag": "Siemens Washing Machine Error Code E16 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error code E16? Learn what causes a door lock fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E16 Mean on a Siemens Washing Machine?",
+      "description": "Error code E16 on a Siemens washing machine indicates that the door is not recognised as properly closed, either because it has not been shut fully or because the door lock mechanism is faulty.",
+      "quick_fix": "Firmly push the door until you hear a distinct click, then press Start — if the door latch was simply unlatched, the machine should clear the error and begin the cycle immediately (takes about 2 minutes).",
+      "intro_html": "<p>Error code E16 is the Siemens washing machine's way of telling you it cannot confirm the door is securely closed. Before any wash cycle can begin — or continue — the control board must receive a signal from the door lock assembly confirming the door is shut and locked. If that signal is absent or interrupted, the machine stops and displays E16 to prevent water from leaking out of an unsecured door.</p><p>When E16 appears, the drum will not rotate and the machine will not fill with water. In some cases the error shows mid-cycle, which can leave laundry sitting in water until the fault is resolved. The good news is that the most common cause is straightforward: the door simply was not pushed shut with enough force, or a small item of clothing is caught in the door seal.</p>",
+      "causes_json": [
+        {
+          "cause": "Door not fully closed",
+          "detail": "The most frequent reason for E16 is that the door was not pushed firmly enough to engage the latch. A small garment, sock, or piece of fabric caught between the door and the rubber seal can also prevent a proper seal."
+        },
+        {
+          "cause": "Worn or broken door latch",
+          "detail": "The plastic latch hook on the door itself can wear down or snap over time, meaning it no longer engages the lock mechanism even when the door appears closed. This is more common on machines that are several years old."
+        },
+        {
+          "cause": "Faulty door lock assembly (interlock)",
+          "detail": "The door lock assembly contains an electromechanical interlock that physically secures the door and sends a confirmation signal to the control board. If the interlock fails electrically or mechanically, the board never receives confirmation and E16 is triggered."
+        },
+        {
+          "cause": "Damaged or obstructed door hinge",
+          "detail": "A bent or loose door hinge can cause the door to sit slightly out of alignment, preventing the latch from reaching the lock correctly. Visible sagging of the door when open is a sign of a hinge problem."
+        },
+        {
+          "cause": "Wiring fault between door lock and control board",
+          "detail": "The wiring harness connecting the door lock assembly to the main control board can develop a loose connector or a broken wire, interrupting the signal even when the lock itself is functioning. This is less common but worth checking if the lock appears physically intact."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "In rare cases the main control board fails to correctly read the signal from a working door lock, causing a false E16 error. This is typically a last-resort diagnosis after all other causes have been ruled out."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check for trapped laundry in the door seal",
+          "detail": "Open the door and run your hand around the entire rubber door gasket, feeling for any fabric caught between the seal and the drum rim or the door glass. Even a thin sock can break the seal enough to prevent the latch from engaging. Remove any obstruction, then close the door firmly."
+        },
+        {
+          "step": 2,
+          "action": "Close the door with firm, deliberate pressure",
+          "detail": "Stand directly in front of the machine and push the door closed with the heel of your hand until you hear and feel a clear click. Avoid pushing only on the door handle or the edge — apply pressure to the centre of the door. Once closed, press Start to see if the error clears."
+        },
+        {
+          "step": 3,
+          "action": "Power cycle the machine",
+          "detail": "Turn the programme dial to the off position, switch the machine off at the wall socket, and wait 60 seconds before switching it back on. Select your programme and attempt to start a cycle. A brief power reset can clear a temporary control board glitch that caused a false E16 reading."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the door latch hook for damage",
+          "detail": "With the door open, examine the plastic latch hook on the door itself — it is the protruding tongue that slots into the lock on the machine body. Look for cracks, chips, or a rounded-off tip. If the hook looks worn or broken, it will need to be replaced; this is a relatively inexpensive part available for most Siemens models."
+        },
+        {
+          "step": 5,
+          "action": "Check the door hinge alignment",
+          "detail": "Open the door fully and observe whether it droops or sits unevenly compared to the machine body. Gently lift the door by its outer edge — if there is noticeable play or movement at the hinge, the hinge may be loose or bent. Tighten any accessible hinge screws with a Torx or Phillips screwdriver and retest."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the door lock assembly wiring",
+          "detail": "Unplug the machine from the mains before proceeding. Remove the door seal and the front panel trim to access the door lock assembly (consult your model's service diagram if needed). Check that the wiring connector is firmly seated on the lock. A loose connector can be reseated by hand; a visibly damaged wire will need professional repair."
+        },
+        {
+          "step": 7,
+          "action": "Test or replace the door lock assembly",
+          "detail": "If all previous steps have not resolved the fault, the door lock interlock itself is the most likely culprit. With the machine unplugged, remove the lock assembly and use a multimeter to test continuity across its terminals according to the expected values for your model. A failed interlock should be replaced with a compatible Siemens part."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above — confirmed no trapped laundry, checked the latch and hinge, reseated the wiring connector, and the error still appears — it is time to contact a service technician. A failed door lock interlock or a wiring fault deeper in the harness requires proper diagnostic tools and safe handling of electrical components.</p><p>You should also call a technician immediately if the door feels physically jammed and will not open at all, if you can see burn marks or smell burning near the door lock area, or if the machine is still under warranty and you do not want to risk voiding it by disassembling the front panel yourself.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Siemens E16 error are the door lock assembly (interlock), the door latch hook, and the door hinge. Keeping the door seal clean and free of detergent residue helps the door close cleanly and reduces wear on the latch over time. Avoid overloading the drum, as a packed load can press against the door and gradually stress the latch mechanism.</p><p>Search for compatible replacements for your specific Siemens model number using the part finder below.</p>\n<!-- SPARE_PARTS:E16 -->",
+      "faq_json": [
+        {
+          "answer": "No — the machine will not run a cycle while E16 is active because it cannot confirm the door is safely locked. Attempting to force a cycle is not possible and the machine is designed this way to prevent flooding. Resolve the door fault first before using the appliance.",
+          "question": "Can I still use my Siemens washing machine if it keeps showing E16?"
+        },
+        {
+          "answer": "First, turn the machine off and wait two to three minutes — the door lock has a thermal release that should disengage once power is removed. If the door still will not open, most Siemens machines have an emergency release cord located behind the kick panel at the bottom front of the machine. Pull it gently to manually release the lock.",
+          "question": "How do I open the door if E16 appeared mid-cycle and the door is locked?"
+        },
+        {
+          "answer": "A replacement door lock interlock for a Siemens washing machine typically costs between £15 and £40 for the part, depending on the model. If you are comfortable with basic appliance repair, fitting it yourself is straightforward. A service technician call-out will add labour costs on top of the part price.",
+          "question": "How much does a Siemens door lock assembly cost to replace?"
+        },
+        {
+          "answer": "Door lock interlocks can fail without warning as the internal components wear out over years of use. It is also possible that a small item of laundry became trapped in the seal for the first time, or that a wiring connector worked loose due to vibration over many cycles. Check the simple causes first before assuming a component has failed.",
+          "question": "Why did E16 appear suddenly when the machine was working fine before?"
+        },
+        {
+          "answer": "On most Siemens washing machine ranges, E16 and F16 refer to the same door lock fault — some display panels show an 'E' prefix while others show 'F', but the underlying meaning and the troubleshooting steps are identical. Check your model's manual if you are unsure which code applies to your specific machine.",
+          "question": "Is E16 the same as an F16 error on Siemens machines?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:54:48.290879+00:00"
+    },
+    {
+      "article_id": 208,
+      "locale": "sv",
+      "slug": "felkod-e16",
+      "title_tag": "Siemens Tvättmaskin Felkod E16 | Åtgärda Problemet Nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod E16? Lär dig vad som orsakar ett dörrlåsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod E16 på en Siemens Tvättmaskin?",
+      "description": "Felkod E16 på en Siemens tvättmaskin indikerar att dörren inte känns igen som ordentligt stängd, antingen för att den inte har stängts helt eller för att dörrlåsmekanismen är defekt.",
+      "quick_fix": "Tryck dörren ordentligt tills du hör ett tydligt klick och tryck sedan på Start — om dörrhaken helt enkelt inte var i lås bör maskinen rensa felet och påbörja programmet omedelbart (tar ungefär 2 minuter).",
+      "intro_html": "<p>Felkod E16 är Siemens tvättmaskines sätt att tala om att den inte kan bekräfta att dörren är säkert stängd. Innan något tvättprogram kan starta — eller fortsätta — måste styrkortet ta emot en signal från dörrlåsenheten som bekräftar att dörren är stängd och låst. Om den signalen saknas eller avbryts stannar maskinen och visar E16 för att förhindra att vatten läcker ut genom en osäkrad dörr.</p><p>När E16 visas roterar inte trumman och maskinen fylls inte med vatten. I vissa fall visas felet mitt under ett program, vilket kan lämna tvätten liggande i vatten tills felet är åtgärdat. Den goda nyheten är att den vanligaste orsaken är enkel: dörren trycktes helt enkelt inte stängd med tillräcklig kraft, eller så har ett litet plagg fastnat i dörrtätningen.</p>",
+      "causes_json": [
+        {
+          "cause": "Dörren inte helt stängd",
+          "detail": "Den vanligaste orsaken till E16 är att dörren inte trycktes tillräckligt hårt för att haken ska gå i lås. Ett litet plagg, en strumpa eller ett tygstycke som fastnat mellan dörren och gummitätningen kan också förhindra en ordentlig tätning."
+        },
+        {
+          "cause": "Sliten eller trasig dörrhake",
+          "detail": "Plasthaken på själva dörren kan slitas ned eller gå av med tiden, vilket innebär att den inte längre griper tag i låsmekanismen även när dörren verkar stängd. Detta är vanligare på maskiner som är flera år gamla."
+        },
+        {
+          "cause": "Defekt dörrlåsenhet (interlock)",
+          "detail": "Dörrlåsenheten innehåller ett elektromekaniskt lås som fysiskt säkrar dörren och skickar en bekräftelsesignal till styrkortet. Om interlocket havererar elektriskt eller mekaniskt tar styrkortet aldrig emot bekräftelsen och E16 utlöses."
+        },
+        {
+          "cause": "Skadat eller hindrat dörrgångjärn",
+          "detail": "Ett böjt eller löst gångjärn kan göra att dörren sitter något snett, vilket förhindrar att haken når låset korrekt. Synlig sänkning av dörren när den är öppen är ett tecken på ett gångjärnsproblem."
+        },
+        {
+          "cause": "Kabelfel mellan dörrlås och styrkort",
+          "detail": "Kabelstammen som förbinder dörrlåsenheten med huvudstyrkortet kan utveckla en lös kontakt eller en bruten ledare, vilket avbryter signalen även när låset i sig fungerar. Detta är mindre vanligt men värt att kontrollera om låset verkar fysiskt intakt."
+        },
+        {
+          "cause": "Styrkortsfel",
+          "detail": "I sällsynta fall misslyckas huvudstyrkortet med att korrekt läsa signalen från ett fungerande dörrlås, vilket orsakar ett falskt E16-fel. Detta är vanligtvis en sista-utvägs-diagnos efter att alla andra orsaker har uteslutits."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera om tvätt har fastnat i dörrtätningen",
+          "detail": "Öppna dörren och känn med handen runt hela gummitätningen och leta efter tyg som fastnat mellan tätningen och trumkanten eller dörrglaset. Även en tunn strumpa kan bryta tätningen tillräckligt för att förhindra att haken går i lås. Ta bort eventuellt hinder och stäng sedan dörren ordentligt."
+        },
+        {
+          "step": 2,
+          "action": "Stäng dörren med fast och bestämt tryck",
+          "detail": "Stå direkt framför maskinen och tryck igen dörren med handflatan tills du hör och känner ett tydligt klick. Undvik att trycka enbart på dörrhandtaget eller kanten — applicera trycket mot dörrens mitt. När dörren är stängd, tryck på Start för att se om felet försvinner."
+        },
+        {
+          "step": 3,
+          "action": "Starta om maskinen",
+          "detail": "Vrid programväljaren till av-läget, stäng av maskinen vid vägguttaget och vänta 60 sekunder innan du slår på den igen. Välj ditt program och försök starta ett tvättprogram. En kort omstart kan rensa ett tillfälligt styrkortsfel som orsakade en falsk E16-avläsning."
+        },
+        {
+          "step": 4,
+          "action": "Undersök dörrhaken för skador",
+          "detail": "Med dörren öppen, undersök plasthaken på själva dörren — det är den utskjutande tappen som glider in i låset på maskinkroppen. Leta efter sprickor, avslag eller en avrundad spets. Om haken ser sliten eller trasig ut måste den bytas; detta är en relativt billig del som finns tillgänglig för de flesta Siemens-modeller."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera dörrens gångjärnsinriktning",
+          "detail": "Öppna dörren helt och observera om den hänger ned eller sitter ojämnt i förhållande till maskinkroppen. Lyft försiktigt dörren vid dess ytterkant — om det finns märkbart spel eller rörelse vid gångjärnet kan gångjärnet vara löst eller böjt. Dra åt eventuella åtkomliga gångjärnsskruvar med en Torx- eller Phillipsskruvmejsel och testa igen."
+        },
+        {
+          "step": 6,
+          "action": "Undersök dörrlåsenhetens kablar",
+          "detail": "Koppla ur maskinen från elnätet innan du fortsätter. Ta bort dörrtätningen och den främre panelkanten för att komma åt dörrlåsenheten (konsultera din modells servicediagram vid behov). Kontrollera att kabelkontakten sitter ordentligt fast på låset. En lös kontakt kan återanslutas för hand; en synligt skadad ledare kräver professionell reparation."
+        },
+        {
+          "step": 7,
+          "action": "Testa eller byt dörrlåsenheten",
+          "detail": "Om alla tidigare steg inte har löst felet är dörrlåsets interlock troligtvis den skyldige. Med maskinen urkopplad, ta bort låsenheten och använd en multimeter för att testa kontinuitet över dess terminaler enligt de förväntade värdena för din modell. Ett havererat interlock bör bytas ut mot en kompatibel Siemens-del."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har arbetat igenom alla stegen ovan — bekräftat att ingen tvätt är fastnad, kontrollerat haken och gångjärnet, återanslutit kabelkontakten — och felet fortfarande visas, är det dags att kontakta en servicetekniker. Ett havererat dörrlåsinterlock eller ett kabelfel djupare i kabelstammen kräver rätt diagnostikverktyg och säker hantering av elektriska komponenter.</p><p>Du bör också omedelbart kontakta en tekniker om dörren känns fysiskt fastlåst och inte går att öppna alls, om du kan se brännmärken eller känner bränndoft nära dörrlåsområdet, eller om maskinen fortfarande är under garanti och du inte vill riskera att ogiltigförklara den genom att montera isär frontpanelen själv.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett Siemens E16-fel är dörrlåsenheten (interlock), dörrhaken och dörrgångjärnet. Att hålla dörrtätningen ren och fri från tvättmedelsrester hjälper dörren att stängas ordentligt och minskar slitaget på haken med tiden. Undvik att överfylla trumman, eftersom en packad tvätt kan trycka mot dörren och gradvis belasta hakmekanismen.</p><p>Sök efter kompatibla reservdelar för ditt specifika Siemens-modellnummer med hjälp av reservdelssökaren nedan.</p>\n<!-- SPARE_PARTS:E16 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — maskinen kör inte ett program medan E16 är aktivt eftersom den inte kan bekräfta att dörren är säkert låst. Det är inte möjligt att tvinga igång ett program och maskinen är konstruerad på detta sätt för att förhindra översvämning. Åtgärda dörr­felet innan du använder maskinen.",
+          "question": "Kan jag fortfarande använda min Siemens tvättmaskin om den fortsätter visa E16?"
+        },
+        {
+          "answer": "Stäng först av maskinen och vänta två till tre minuter — dörrlåset har en termisk utlösning som bör koppla ur när strömmen bryts. Om dörren fortfarande inte går att öppna har de flesta Siemens-maskiner ett nödutlösningssnöre placerat bakom sockelpanelen längst ned på maskinens framsida. Dra försiktigt i det för att manuellt frigöra låset.",
+          "question": "Hur öppnar jag dörren om E16 visades mitt under ett program och dörren är låst?"
+        },
+        {
+          "answer": "En ersättningsdörrlåsinterlock för en Siemens tvättmaskin kostar vanligtvis mellan 200 och 500 kronor för delen, beroende på modell. Om du är bekväm med grundläggande vitvaruservice är det enkelt att montera den själv. Ett servicebesök av en tekniker tillkommer med arbetskostnad utöver delspriset.",
+          "question": "Hur mycket kostar det att byta en Siemens dörrlåsenhet?"
+        },
+        {
+          "answer": "Dörrlåsinterlock kan haverera utan förvarning när de interna komponenterna slits ut efter många års användning. Det är också möjligt att ett litet tvättplagg fastnade i tätningen för första gången, eller att en kabelkontakt lossnade på grund av vibrationer under många program. Kontrollera de enkla orsakerna först innan du antar att en komponent har gått sönder.",
+          "question": "Varför dök E16 upp plötsligt när maskinen fungerade bra tidigare?"
+        },
+        {
+          "answer": "På de flesta Siemens tvättmaskinserier hänvisar E16 och F16 till samma dörrlåsfel — vissa displaypaneler visar prefixet 'E' medan andra visar 'F', men den underliggande innebörden och felsökningsstegen är identiska. Kontrollera din modells manual om du är osäker på vilken kod som gäller för just din maskin.",
+          "question": "Är E16 detsamma som ett F16-fel på Siemens-maskiner?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:55:57.582673+00:00"
+    },
+    {
+      "article_id": 210,
+      "locale": "en",
+      "slug": "error-code-e18",
+      "title_tag": "Siemens Washing Machine Error Code E18 | Fix It Now",
+      "meta_description": "Siemens washing machine showing E18? Learn what causes this drain fault, how to fix it yourself in minutes, and when to call a service technician.",
+      "h1": "What Does Error Code E18 Mean on a Siemens Washing Machine?",
+      "description": "Error code E18 on a Siemens washing machine indicates that the machine has failed to drain water within the expected time, typically due to a blocked filter, kinked drain hose, or a faulty drain pump.",
+      "quick_fix": "Clean the drain pump filter at the bottom-front of the machine by unscrewing the cap, removing any debris, and rinsing the filter under a tap, then restart the cycle to clear the error (takes about 10 minutes).",
+      "intro_html": "<p>Error code E18 is Siemens' way of telling you that water is not leaving the drum fast enough — or at all. The machine monitors how long it takes to empty after a wash or rinse cycle, and if that process stalls, it stops and displays E18 to prevent flooding or damage to internal components.</p><p>When this error appears, you will typically find the drum still full or partially full of water, and the door lock will remain engaged as a safety measure. The machine will not continue the programme until the fault is resolved.</p><p>The good news is that the most common causes are straightforward blockages that you can clear yourself without any specialist tools. Working through the steps below in order will resolve the fault in the majority of cases.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked drain pump filter",
+          "detail": "The pump filter traps lint, coins, hair grips, and other small items before they reach the pump. Over time this filter becomes clogged and restricts or completely stops water flow, which is the single most common trigger for E18."
+        },
+        {
+          "cause": "Kinked or obstructed drain hose",
+          "detail": "If the drain hose behind the machine has been pushed against a wall, twisted during installation, or partially crushed, water cannot flow freely to the standpipe or sink. Even a partial kink is enough to cause a drain timeout."
+        },
+        {
+          "cause": "Blocked household standpipe or sink drain",
+          "detail": "The blockage is not always inside the washing machine itself. If the standpipe or the sink it drains into is partially blocked, water backs up and the machine cannot empty. This is easy to overlook when diagnosing E18."
+        },
+        {
+          "cause": "Faulty drain pump",
+          "detail": "If the pump impeller is jammed by a foreign object, or the pump motor has failed electrically, the machine will be unable to drain regardless of how clear the filter and hose are. You may hear a humming noise with no water movement, or complete silence where the pump should be running."
+        },
+        {
+          "cause": "Faulty pressure sensor or wiring",
+          "detail": "The pressure sensor tells the control board when the drum is empty. If the sensor or its connecting hose is faulty, the board may believe water is still present even after successful draining, triggering a false E18 code."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Before doing anything else, turn the programme dial to off and unplug the machine from the wall socket. This is essential for safety before you open the filter access panel. Place a few old towels on the floor in front of the machine."
+        },
+        {
+          "step": 2,
+          "action": "Drain residual water manually",
+          "detail": "Open the small access flap at the bottom-front of the machine. You will find a short rubber drain hose with a cap on the end. Pull it out, hold it low over a shallow bowl or tray, and remove the cap to let the water drain out slowly. Refill the bowl as needed until no more water comes out."
+        },
+        {
+          "step": 3,
+          "action": "Clean the drain pump filter",
+          "detail": "Once the water is drained, unscrew the large circular filter cap anti-clockwise. Pull the filter out and remove any lint, coins, hair, or debris caught in it. Rinse the filter under a running tap, check the filter housing cavity for any remaining objects, then refit the filter firmly and replace the drain hose cap."
+        },
+        {
+          "step": 4,
+          "action": "Check the drain hose for kinks or blockages",
+          "detail": "Pull the machine gently away from the wall and inspect the full length of the grey corrugated drain hose. Straighten any kinks and make sure the hose is not compressed against the wall or cabinet. The hose should curve up to the standpipe entry point without sharp bends."
+        },
+        {
+          "step": 5,
+          "action": "Check the standpipe or sink drain",
+          "detail": "Pour a bucket of water directly into the standpipe or sink that the washing machine drains into. If it drains slowly or backs up, the household drain is the problem, not the machine. Clear the blockage with a drain cleaner or plunger before running the machine again."
+        },
+        {
+          "step": 6,
+          "action": "Restart the machine and run a short cycle",
+          "detail": "Plug the machine back in, select a short spin or rinse-and-spin programme, and watch and listen as it runs. You should hear the pump running clearly and see water leaving through the drain hose. If the cycle completes without E18 returning, the fault is resolved."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the pump impeller for obstructions",
+          "detail": "If E18 persists after the steps above, unplug the machine again, remove the filter, and use a torch to look into the pump housing. Reach in carefully and try to turn the impeller by hand — it should rotate freely. If it is jammed or will not turn, there is likely a foreign object lodged in the pump that will need to be removed, or the pump itself may need replacing."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have cleaned the filter, confirmed the hose and standpipe are clear, and checked that the pump impeller turns freely, but E18 continues to appear, the drain pump motor has most likely failed and will need to be replaced. This involves disconnecting electrical connectors and removing the pump from the machine base, which is straightforward for an experienced service technician but carries risk if you are unfamiliar with appliance wiring.</p><p>You should also contact a service technician if the machine shows E18 immediately after installation with no visible blockage, as this may point to a wiring fault, a defective pressure sensor, or a control board issue that requires diagnostic equipment to identify accurately.</p>",
+      "prevention_html": "<p>The most effective way to prevent E18 from recurring is to clean the drain pump filter every one to three months, depending on how frequently you use the machine. Running a monthly maintenance wash at 60°C with a washing machine cleaner also helps flush lint and residue through the system before it accumulates in the pump housing.</p><p>The parts most commonly replaced when diagnosing and repairing an E18 fault are the drain pump assembly, the drain hose, and the pressure sensor. Genuine Siemens-compatible versions of these parts are available to order below.</p>\n<!-- SPARE_PARTS:E18 -->",
+      "faq_json": [
+        {
+          "answer": "No. When E18 is active the machine has halted the programme because it cannot drain safely. Running further cycles without resolving the fault risks leaving standing water in the drum for extended periods, which can cause odours and may put additional strain on the pump motor.",
+          "question": "Can I still use my Siemens washing machine while it is showing E18?"
+        },
+        {
+          "answer": "Use the small emergency drain hose located behind the filter access flap at the bottom-front of the machine. Removing the cap from this hose and holding it over a low bowl will allow the water to drain by gravity. Once the drum is empty, the door lock should release after a minute or two.",
+          "question": "How do I get the water out of the drum before I can open the door?"
+        },
+        {
+          "answer": "Siemens recommends checking and cleaning the pump filter approximately every three months under normal use. If you wash items that shed a lot of lint, pet bedding, or heavily soiled workwear, cleaning it monthly is a sensible precaution.",
+          "question": "How often should I clean the pump filter on a Siemens washing machine?"
+        },
+        {
+          "answer": "In most cases, once the underlying fault is resolved, running a short rinse-and-spin cycle will clear the error automatically. If the code persists after a successful drain, try switching the machine off at the wall for two minutes and then restarting — this allows the control board to reset its fault memory.",
+          "question": "Will E18 clear itself after I fix the blockage, or do I need to reset the machine?"
+        },
+        {
+          "answer": "On most Siemens washing machine models the codes E18 and F18 refer to the same drain fault and are used interchangeably depending on the display type fitted to the machine. The diagnosis and repair steps are identical for both codes.",
+          "question": "Is E18 the same as error code F18 on Siemens machines?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:58:42.277926+00:00"
+    },
+    {
+      "article_id": 210,
+      "locale": "sv",
+      "slug": "felkod-e18",
+      "title_tag": "Siemens tvättmaskin felkod E18 | Åtgärda problemet nu",
+      "meta_description": "Visar din Siemens tvättmaskin E18? Lär dig vad som orsakar detta avloppfel, hur du åtgärdar det själv på några minuter och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E18 på en Siemens tvättmaskin?",
+      "description": "Felkod E18 på en Siemens tvättmaskin indikerar att maskinen inte har lyckats pumpa ut vattnet inom förväntad tid, vanligtvis på grund av ett igensatt filter, en vikt avloppsslang eller en defekt avloppspump.",
+      "quick_fix": "Rengör avloppspumpens filter längst ned på maskinens framsida genom att skruva loss locket, ta bort eventuellt skräp och skölja filtret under kranen. Starta sedan om programmet för att rensa felet (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod E18 är Siemens sätt att tala om för dig att vatten inte lämnar trumman tillräckligt snabbt – eller inte alls. Maskinen övervakar hur lång tid det tar att tömma efter ett tvätt- eller sköljprogram, och om den processen stannar upp stoppas maskinen och E18 visas för att förhindra översvämning eller skador på interna komponenter.</p><p>När detta fel uppstår är trumman vanligtvis fortfarande full eller delvis full med vatten, och dörrlåset förblir aktiverat som en säkerhetsåtgärd. Maskinen fortsätter inte programmet förrän felet är åtgärdat.</p><p>Den goda nyheten är att de vanligaste orsakerna är enkla igensättningar som du kan åtgärda själv utan några specialverktyg. Att arbeta igenom stegen nedan i ordning löser felet i de flesta fall.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt avloppspumpsfilter",
+          "detail": "Pumpfiltret fångar upp ludd, mynt, hårnålar och andra små föremål innan de når pumpen. Med tiden täpps filtret igen och begränsar eller stoppar helt vattenflödet, vilket är den vanligaste orsaken till E18."
+        },
+        {
+          "cause": "Vikt eller blockerad avloppsslang",
+          "detail": "Om avloppsslangen bakom maskinen har tryckts mot en vägg, vridits vid installation eller delvis kläms ihop kan vatten inte flöda fritt till avloppsröret eller diskhon. Även en delvis vikt slang räcker för att orsaka ett avloppstimeout."
+        },
+        {
+          "cause": "Igensatt avloppsrör eller diskho",
+          "detail": "Igensättningen finns inte alltid inne i tvättmaskinen. Om avloppsröret eller diskhon som maskinen tömmer i är delvis blockerad, backar vattnet upp och maskinen kan inte tömmas. Detta är lätt att förbise vid felsökning av E18."
+        },
+        {
+          "cause": "Defekt avloppspump",
+          "detail": "Om pumpens impeller är blockerad av ett främmande föremål, eller om pumpmotorn har gått sönder elektriskt, kan maskinen inte tömmas oavsett hur rent filtret och slangen är. Du kan höra ett surrande ljud utan vattenrörelse, eller fullständig tystnad där pumpen borde gå."
+        },
+        {
+          "cause": "Defekt trycksensor eller kablage",
+          "detail": "Trycksensorn talar om för styrkortet när trumman är tom. Om sensorn eller dess anslutningsslang är defekt kan kortet tro att vatten fortfarande finns kvar även efter att tömningen lyckats, vilket utlöser en falsk E18-kod."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Innan du gör något annat, vrid programväljaren till av och dra ut maskinens stickkontakt ur vägguttaget. Detta är nödvändigt av säkerhetsskäl innan du öppnar filterluckan. Lägg några gamla handdukar på golvet framför maskinen."
+        },
+        {
+          "step": 2,
+          "action": "Töm kvarvarande vatten manuellt",
+          "detail": "Öppna den lilla luckan längst ned på maskinens framsida. Där hittar du en kort gummislang med ett lock i änden. Dra ut den, håll den lågt över en grund skål eller bricka och ta bort locket för att låta vattnet rinna ut långsamt. Töm skålen vid behov tills inget mer vatten kommer ut."
+        },
+        {
+          "step": 3,
+          "action": "Rengör avloppspumpens filter",
+          "detail": "När vattnet är tömt, skruva loss det stora runda filterlocket moturs. Dra ut filtret och ta bort eventuellt ludd, mynt, hår eller skräp som fastnat i det. Skölj filtret under rinnande vatten, kontrollera filterhåligheten efter eventuella kvarvarande föremål, sätt sedan tillbaka filtret ordentligt och sätt tillbaka avloppsslangslocket."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera avloppsslangen för veck eller blockering",
+          "detail": "Dra försiktigt ut maskinen från väggen och inspektera hela längden på den grå korrugerade avloppsslangen. Räta ut eventuella veck och se till att slangen inte är klämd mot väggen eller skåpet. Slangen ska böja sig upp till avloppsrörets anslutningspunkt utan skarpa böjar."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera avloppsröret eller diskhoavloppet",
+          "detail": "Häll en hink vatten direkt i avloppsröret eller diskhon som tvättmaskinen tömmer i. Om det rinner långsamt eller backar upp är hushållets avlopp problemet, inte maskinen. Rensa igensättningen med avloppsrensare eller en sugkopp innan du kör maskinen igen."
+        },
+        {
+          "step": 6,
+          "action": "Starta om maskinen och kör ett kort program",
+          "detail": "Sätt i stickkontakten, välj ett kort centrifugerings- eller sköljnings- och centrifugeringsprogram och se och lyssna medan det körs. Du bör höra pumpen gå tydligt och se vatten lämna genom avloppsslangen. Om programmet slutförs utan att E18 återkommer är felet löst."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera pumpens impeller för hinder",
+          "detail": "Om E18 kvarstår efter stegen ovan, koppla ur maskinen igen, ta bort filtret och använd en ficklampa för att titta in i pumphuset. Sträck försiktigt in handen och försök vrida impellern för hand – den ska rotera fritt. Om den är blockerad eller inte går att vrida finns det troligen ett främmande föremål i pumpen som behöver tas bort, eller så kan pumpen behöva bytas ut."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har rengjort filtret, bekräftat att slangen och avloppsröret är fria och kontrollerat att pumpens impeller roterar fritt, men E18 fortsätter att visas, har avloppspumpmotorn troligen gått sönder och behöver bytas ut. Detta innebär att koppla loss elektriska kontakter och ta bort pumpen från maskinens bas, vilket är enkelt för en erfaren servicetekniker men medför risk om du inte är van vid vitvarukablage.</p><p>Du bör också kontakta en servicetekniker om maskinen visar E18 direkt efter installation utan synlig igensättning, eftersom detta kan tyda på ett kabelfel, en defekt trycksensor eller ett styrkortsfel som kräver diagnostikutrustning för att identifieras korrekt.</p>",
+      "prevention_html": "<p>Det mest effektiva sättet att förhindra att E18 återkommer är att rengöra avloppspumpens filter var en till tre månader, beroende på hur ofta du använder maskinen. Att köra ett månatligt underhållsprogram vid 60°C med ett tvättmaskinrengöringsmedel hjälper också till att spola igenom ludd och rester i systemet innan de ansamlas i pumphuset.</p><p>De delar som oftast byts ut vid felsökning och reparation av ett E18-fel är avloppspumpsenheten, avloppsslangen och trycksensorn. Äkta Siemens-kompatibla versioner av dessa delar finns att beställa nedan.</p>\n<!-- SPARE_PARTS:E18 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. När E18 är aktivt har maskinen avbrutit programmet eftersom den inte kan tömmas på ett säkert sätt. Att köra fler program utan att åtgärda felet riskerar att lämna stillastående vatten i trumman under längre perioder, vilket kan orsaka dålig lukt och kan belasta pumpmotorn ytterligare.",
+          "question": "Kan jag fortfarande använda min Siemens tvättmaskin när den visar E18?"
+        },
+        {
+          "answer": "Använd den lilla nödavloppsslangen som sitter bakom filterluckan längst ned på maskinens framsida. Genom att ta bort locket från denna slang och hålla den över en låg skål kan vattnet rinna ut med hjälp av tyngdkraften. När trumman är tom bör dörrlåset lossna efter en minut eller två.",
+          "question": "Hur får jag ut vattnet ur trumman innan jag kan öppna luckan?"
+        },
+        {
+          "answer": "Siemens rekommenderar att kontrollera och rengöra pumpfiltret ungefär var tredje månad vid normal användning. Om du tvättar plagg som avger mycket ludd, husdjursbäddar eller kraftigt smutsade arbetskläder är det klokt att rengöra det månadsvis.",
+          "question": "Hur ofta ska jag rengöra pumpfiltret på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "I de flesta fall räcker det att köra ett kort sköljnings- och centrifugeringsprogram för att rensa felet automatiskt när det underliggande problemet är löst. Om koden kvarstår efter en lyckad tömning, prova att stänga av maskinen vid vägguttaget i två minuter och starta sedan om – detta låter styrkortet återställa sitt felminne.",
+          "question": "Försvinner E18 av sig självt när jag åtgärdat igensättningen, eller behöver jag återställa maskinen?"
+        },
+        {
+          "answer": "På de flesta Siemens tvättmaskinmodeller hänvisar koderna E18 och F18 till samma avloppsfel och används omväxlande beroende på vilken typ av display som är monterad på maskinen. Felsöknings- och reparationsstegen är identiska för båda koderna.",
+          "question": "Är E18 samma sak som felkod F18 på Siemens-maskiner?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:59:50.174938+00:00"
+    },
+    {
+      "article_id": 211,
+      "locale": "en",
+      "slug": "error-code-e20",
+      "title_tag": "Siemens Washing Machine Error Code E20 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error E20? Learn what causes unexpected heating faults, how to fix them yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E20 Mean on a Siemens Washing Machine?",
+      "description": "Error code E20 on a Siemens washing machine indicates an unexpected heating fault, typically caused by a control board malfunction that has detected abnormal temperature behaviour during a wash cycle.",
+      "quick_fix": "Perform a hard reset by switching the machine off at the wall socket, waiting 10 minutes, then powering it back on and restarting the cycle — this clears temporary control board errors in the majority of E20 cases (takes about 5 minutes).",
+      "intro_html": "<p>Error code E20 signals that your Siemens washing machine has detected heating activity at a point in the cycle when no heating should be occurring, or that the control board has lost confidence in the heating system's behaviour. The machine's electronic controller continuously monitors water temperature throughout a wash programme, and when readings fall outside expected parameters, it triggers E20 and halts the cycle to prevent damage.</p><p>When this error appears, the drum will typically stop mid-cycle and the machine may lock the door until the fault is cleared. In some cases the display will flash E20 repeatedly, while on other models a combination of indicator lights will illuminate. The fault can be intermittent — appearing once and then not returning — or persistent, which points to a more serious underlying component failure.</p><p>The heating system on a washing machine involves several components working together: the heating element, the NTC temperature sensor, the wiring between them, and the control board itself. E20 can originate from any one of these, so a methodical approach to diagnosis will save time.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary control board glitch",
+          "detail": "The control board can occasionally misread sensor data due to a brief voltage fluctuation or software state error. This is the most common cause of a single, non-recurring E20 and is usually resolved by a full power reset."
+        },
+        {
+          "cause": "Faulty NTC temperature sensor",
+          "detail": "The NTC sensor monitors water temperature and feeds readings back to the control board. If the sensor has drifted out of calibration, developed a short circuit, or failed entirely, the board receives implausible temperature data and raises E20."
+        },
+        {
+          "cause": "Heating element fault",
+          "detail": "A heating element that is partially failed or has developed a partial short can activate at the wrong time or produce erratic resistance readings. This causes the control board to detect unexpected heating and stop the programme."
+        },
+        {
+          "cause": "Wiring or connector damage",
+          "detail": "Loose, corroded, or damaged wiring between the heating element, NTC sensor, and control board can cause intermittent signal errors that mimic a component failure. Vibration over time is a common cause of connector loosening."
+        },
+        {
+          "cause": "Control board failure",
+          "detail": "If the control board's relay responsible for switching the heater circuit has stuck in the closed position, the element may receive power when it should not. This is a less common but definitive cause of persistent E20 errors that do not respond to other fixes."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Hard reset the machine",
+          "detail": "Turn the machine off using the power button, then switch it off at the wall socket. Leave it unplugged for a full 10 minutes to allow the control board's capacitors to fully discharge. Plug back in, power on, and select a short wash cycle to see if E20 returns."
+        },
+        {
+          "step": 2,
+          "action": "Check the programme selection",
+          "detail": "Confirm you are not running a programme that conflicts with the machine's settings — for example, a cold wash selected alongside a temperature setting. Turn the dial fully to the off position, then reselect your programme from scratch to rule out a dial or selector error."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the wiring and connectors at the heating element",
+          "detail": "Disconnect the machine from the mains before doing this. Remove the rear panel (usually held by two or three screws) to access the heating element terminals at the bottom of the drum. Check that both spade connectors are firmly seated and show no signs of burning, corrosion, or melting. Reseat any loose connectors firmly by hand."
+        },
+        {
+          "step": 4,
+          "action": "Test the NTC temperature sensor",
+          "detail": "With the rear panel still removed, locate the NTC sensor — it is typically clipped into the heating element or mounted nearby on the drum casing. Disconnect it and use a multimeter set to resistance (Ohms) to test across its two terminals. At room temperature, a healthy NTC sensor typically reads between 10,000 and 20,000 Ohms; consult your model's service data if available. A reading of zero or infinite resistance indicates a failed sensor that needs replacing."
+        },
+        {
+          "step": 5,
+          "action": "Test the heating element",
+          "detail": "With the machine still unplugged, disconnect the wiring from the heating element terminals and test resistance across them with a multimeter. A working element typically reads between 20 and 50 Ohms; an open circuit (infinite resistance) or a very low reading close to zero both indicate a faulty element. Also test between each terminal and the machine's metal chassis — any reading other than infinite resistance here indicates the element has shorted to earth and must be replaced."
+        },
+        {
+          "step": 6,
+          "action": "Reassemble and run a test cycle",
+          "detail": "After any inspection or part replacement, refit the rear panel securely, reconnect the machine, and run a 40°C cotton cycle to completion. Monitor the machine during the first 15 minutes when the heater is most active. If E20 does not reappear, the fault is resolved."
+        },
+        {
+          "step": 7,
+          "action": "If E20 persists, consider the control board",
+          "detail": "If all components test within specification but E20 continues to appear, the control board itself is the likely culprit — specifically a stuck heater relay. At this point, further diagnosis requires specialist equipment and the fault should be handed to a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Contact a service technician if E20 returns immediately after a hard reset, or if your multimeter tests show the heating element and NTC sensor are both within normal specification. A stuck relay on the control board cannot be safely diagnosed or repaired without specialist tools, and attempting to bypass or repair the board without experience risks creating an electrical hazard.</p><p>You should also call a technician if you notice any signs of burning smell, scorch marks around the element terminals, or if the machine trips your household circuit breaker when it reaches the heating phase of a cycle. These symptoms suggest an active electrical fault that goes beyond routine DIY repair.</p>",
+      "prevention_html": "<p>The components most commonly replaced when resolving a Siemens E20 fault are the NTC temperature sensor, the heating element, and — in persistent cases — the main control board (PCB). The NTC sensor and heating element are relatively affordable and straightforward to fit yourself with basic tools; the control board is a more significant investment and is best fitted by a service technician to ensure correct programming.</p><p>To reduce the likelihood of heating faults developing over time, descale your machine every three to six months using a proprietary washing machine descaler, particularly if you live in a hard water area. Limescale build-up on the heating element forces it to work harder, shortening its lifespan and increasing the risk of partial failures that trigger control board errors.</p>\n<!-- SPARE_PARTS:E20 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to continue using the machine until the fault is diagnosed. An unexpected heating fault could mean the element is activating at the wrong time, which risks overheating a cold wash or causing damage to delicate fabrics. It also places unnecessary stress on the control board.",
+          "question": "Can I still use my Siemens washing machine while it shows E20?"
+        },
+        {
+          "answer": "Testing both with a multimeter is the most reliable way to tell them apart. The NTC sensor will show an out-of-range resistance reading if it has failed, while a faulty heating element will show either an open circuit or a short to earth. If both test correctly, the control board is the more likely source of the fault.",
+          "question": "How do I know if the NTC sensor or the heating element is the problem?"
+        },
+        {
+          "answer": "The E20 code consistently refers to an unexpected heating or control board fault across Siemens washing machine ranges, but the exact location of components and the steps to access them can vary between models. Always check your specific model's user manual or service documentation before opening the machine.",
+          "question": "Is E20 the same fault on all Siemens washing machine models?"
+        },
+        {
+          "answer": "If the fix is a simple power reset, there is no cost at all. Replacing an NTC sensor is generally inexpensive, and a heating element is a mid-range repair. A control board replacement is the most costly outcome, and you should weigh the repair cost against the age and overall condition of the machine before proceeding.",
+          "question": "How much does it typically cost to repair a Siemens E20 fault?"
+        },
+        {
+          "answer": "A single occurrence of E20 that does not return after a reset is most often caused by a brief voltage spike or a momentary sensor misread rather than a failed component. However, if it reappears — even weeks later — treat it as a developing fault and carry out the full diagnostic steps, as intermittent faults tend to become permanent over time.",
+          "question": "Why does E20 sometimes appear only once and then disappear?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T14:00:42.633282+00:00"
+    },
+    {
+      "article_id": 211,
+      "locale": "sv",
+      "slug": "felkod-e20",
+      "title_tag": "Siemens Tvättmaskin Felkod E20 | Åtgärda Det Nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod E20? Lär dig vad som orsakar oväntade uppvärmningsfel, hur du åtgärdar dem själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod E20 på en Siemens Tvättmaskin?",
+      "description": "Felkod E20 på en Siemens tvättmaskin indikerar ett oväntat uppvärmningsfel, vanligtvis orsakat av ett styrkortsfel där onormalt temperaturbeteende har upptäckts under ett tvättprogram.",
+      "quick_fix": "Utför en hård återställning genom att stänga av maskinen vid vägguttaget, vänta 10 minuter och sedan slå på den igen och starta om programmet — detta rensar tillfälliga styrkortsfel i de flesta E20-fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E20 signalerar att din Siemens tvättmaskin har upptäckt uppvärmningsaktivitet vid en punkt i programmet då ingen uppvärmning ska ske, eller att styrkortet har tappat förtroendet för uppvärmningssystemets beteende. Maskinens elektroniska styrenhet övervakar kontinuerligt vattentemperaturen under ett tvättprogram, och när avläsningarna faller utanför förväntade parametrar utlöses E20 och programmet avbryts för att förhindra skador.</p><p>När detta fel uppstår stannar trumman vanligtvis mitt i programmet och maskinen kan låsa luckan tills felet är åtgärdat. I vissa fall blinkar displayen E20 upprepade gånger, medan en kombination av indikatorlampor tänds på andra modeller. Felet kan vara intermittent — uppträda en gång och sedan inte återkomma — eller ihållande, vilket tyder på ett allvarligare underliggande komponentfel.</p><p>Uppvärmningssystemet på en tvättmaskin består av flera komponenter som samverkar: värmeelement, NTC-temperatursensor, kablaget mellan dem och styrkortet. E20 kan ha sitt ursprung i vilken som helst av dessa, så ett metodiskt tillvägagångssätt vid felsökning sparar tid.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt styrkortsfel",
+          "detail": "Styrkortet kan ibland feltolka sensordata på grund av en kortvarig spänningsfluktuering eller ett programvarufel. Detta är den vanligaste orsaken till ett enstaka, icke-återkommande E20-fel och löses vanligtvis med en fullständig strömåterställning."
+        },
+        {
+          "cause": "Defekt NTC-temperatursensor",
+          "detail": "NTC-sensorn övervakar vattentemperaturen och skickar avläsningar tillbaka till styrkortet. Om sensorn har driftat ur kalibrering, utvecklat ett kortslutning eller havererat helt, tar styrkortet emot orimliga temperaturdata och utlöser E20."
+        },
+        {
+          "cause": "Fel på värmeelement",
+          "detail": "Ett värmeelement som delvis havererat eller utvecklat en partiell kortslutning kan aktiveras vid fel tidpunkt eller ge oregelbundna motståndsavläsningar. Detta gör att styrkortet upptäcker oväntad uppvärmning och avbryter programmet."
+        },
+        {
+          "cause": "Skador på kablage eller kontakter",
+          "detail": "Lösa, korroderade eller skadade kablar mellan värmeelementet, NTC-sensorn och styrkortet kan orsaka intermittenta signalfel som liknar ett komponenthaveri. Vibrationer över tid är en vanlig orsak till att kontakter lossnar."
+        },
+        {
+          "cause": "Styrkortsfel",
+          "detail": "Om styrkortsreläet som ansvarar för att koppla värmekretsen har fastnat i slutet läge kan elementet få ström när det inte ska. Detta är en mindre vanlig men definitiv orsak till ihållande E20-fel som inte svarar på andra åtgärder."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Hård återställning av maskinen",
+          "detail": "Stäng av maskinen med strömknappen och stäng sedan av den vid vägguttaget. Låt den vara urkopplad i hela 10 minuter så att styrkortskapacitorerna hinner laddas ur helt. Koppla in igen, slå på strömmen och välj ett kort tvättprogram för att se om E20 återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera programvalet",
+          "detail": "Bekräfta att du inte kör ett program som är i konflikt med maskinens inställningar — till exempel en kalltvättning vald tillsammans med en temperaturinställning. Vrid ratten helt till av-läget och välj sedan om ditt program från grunden för att utesluta ett ratt- eller väljarfel."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera kablage och kontakter vid värmeelementet",
+          "detail": "Koppla bort maskinen från elnätet innan du gör detta. Ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar) för att komma åt värmeelementets anslutningar längst ned på trumman. Kontrollera att båda flatstiftsanslutningarna sitter ordentligt och inte visar tecken på brännskador, korrosion eller smältning. Sätt tillbaka eventuella lösa kontakter ordentligt för hand."
+        },
+        {
+          "step": 4,
+          "action": "Testa NTC-temperatursensorn",
+          "detail": "Med bakpanelen fortfarande borttagen, lokalisera NTC-sensorn — den sitter vanligtvis fastklämd i värmeelementet eller monterad i närheten på trumhöljet. Koppla loss den och använd en multimeter inställd på motstånd (Ohm) för att mäta över dess två anslutningar. Vid rumstemperatur läser en frisk NTC-sensor vanligtvis mellan 10 000 och 20 000 Ohm; konsultera din modells servicedata om tillgänglig. En avläsning på noll eller oändligt motstånd indikerar en defekt sensor som behöver bytas."
+        },
+        {
+          "step": 5,
+          "action": "Testa värmeelementet",
+          "detail": "Med maskinen fortfarande urkopplad, koppla loss kablaget från värmeelementets anslutningar och mät motståndet över dem med en multimeter. Ett fungerande element läser vanligtvis mellan 20 och 50 Ohm; ett öppet kretsar (oändligt motstånd) eller en mycket låg avläsning nära noll indikerar båda ett defekt element. Testa även mellan varje anslutning och maskinens metallram — en avläsning som inte är oändligt motstånd här indikerar att elementet har kortslutit mot jord och måste bytas."
+        },
+        {
+          "step": 6,
+          "action": "Montera ihop och kör ett testprogram",
+          "detail": "Efter inspektion eller byte av delar, montera tillbaka bakpanelen ordentligt, koppla in maskinen och kör ett 40°C bomullsprogram till slut. Övervaka maskinen under de första 15 minuterna när värmeelementet är som mest aktivt. Om E20 inte återkommer är felet åtgärdat."
+        },
+        {
+          "step": 7,
+          "action": "Om E20 kvarstår, överväg styrkortet",
+          "detail": "Om alla komponenter testar inom specifikation men E20 fortsätter att uppträda är styrkortet troligen den skyldige — specifikt ett fastnat värmereläe. Vid det här laget kräver ytterligare felsökning specialutrustning och felet bör överlämnas till en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om E20 återkommer omedelbart efter en hård återställning, eller om dina multimetermätningar visar att värmeelementet och NTC-sensorn båda är inom normal specifikation. Ett fastnat relä på styrkortet kan inte säkert diagnostiseras eller repareras utan specialverktyg, och försök att koppla förbi eller reparera kortet utan erfarenhet riskerar att skapa en elektrisk fara.</p><p>Du bör också ringa en tekniker om du märker tecken på bränd lukt, brännmärken runt elementanslutningarna, eller om maskinen löser ut ditt hushålls jordfelsbrytare när den når uppvärmningsfasen i ett program. Dessa symptom tyder på ett aktivt elfel som går bortom rutinmässig DIY-reparation.</p>",
+      "prevention_html": "<p>De komponenter som oftast byts vid åtgärdande av ett Siemens E20-fel är NTC-temperatursensorn, värmeelementet och — vid ihållande fall — huvudstyrkortet (PCB). NTC-sensorn och värmeelementet är relativt prisvärda och enkla att montera själv med grundläggande verktyg; styrkortet är en mer betydande investering och monteras bäst av en servicetekniker för att säkerställa korrekt programmering.</p><p>För att minska risken för uppvärmningsfel som uppstår över tid, avkalka din maskin var tredje till sjätte månad med ett specialanpassat tvättmaskinssavkalkningsmedel, särskilt om du bor i ett område med hårt vatten. Kalkavlagringar på värmeelementet tvingar det att arbeta hårdare, förkortar dess livslängd och ökar risken för partiella haverier som utlöser styrkortsfel.</p>\n<!-- SPARE_PARTS:E20 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt att fortsätta använda maskinen tills felet är diagnostiserat. Ett oväntat uppvärmningsfel kan innebära att elementet aktiveras vid fel tidpunkt, vilket riskerar att överhetta en kalltvättning eller orsaka skador på ömtåliga textilier. Det belastar också styrkortet i onödan.",
+          "question": "Kan jag fortfarande använda min Siemens tvättmaskin när den visar E20?"
+        },
+        {
+          "answer": "Att testa båda med en multimeter är det mest tillförlitliga sättet att skilja dem åt. NTC-sensorn visar en avläsning utanför normalområdet om den har havererat, medan ett defekt värmeelement visar antingen ett öppet kretsar eller en kortslutning mot jord. Om båda testar korrekt är styrkortet den mer troliga felkällan.",
+          "question": "Hur vet jag om det är NTC-sensorn eller värmeelementet som är problemet?"
+        },
+        {
+          "answer": "E20-koden hänvisar konsekvent till ett oväntat uppvärmnings- eller styrkortsfel i Siemens tvättmaskinssortiment, men den exakta placeringen av komponenter och stegen för att komma åt dem kan variera mellan modeller. Kontrollera alltid din specifika modells bruksanvisning eller servicedokumentation innan du öppnar maskinen.",
+          "question": "Är E20 samma fel på alla Siemens tvättmaskinmodeller?"
+        },
+        {
+          "answer": "Om åtgärden är en enkel strömåterställning kostar det ingenting alls. Att byta en NTC-sensor är generellt sett billigt, och ett värmeelement är en reparation i mellanprisklassen. Byte av styrkortet är det dyraste utfallet, och du bör väga reparationskostnaden mot maskinens ålder och allmänna skick innan du går vidare.",
+          "question": "Vad kostar det vanligtvis att reparera ett Siemens E20-fel?"
+        },
+        {
+          "answer": "Ett enstaka E20-fel som inte återkommer efter en återställning orsakas oftast av en kortvarig spänningspik eller en momentan sensorfelläsning snarare än en havererad komponent. Om det dock återkommer — även veckor senare — behandla det som ett tilltagande fel och genomför de fullständiga felsökningsstegen, eftersom intermittenta fel tenderar att bli permanenta med tiden.",
+          "question": "Varför uppträder E20 ibland bara en gång och försvinner sedan?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T14:01:52.302604+00:00"
+    },
+    {
+      "article_id": 212,
+      "locale": "en",
+      "slug": "error-code-e21",
+      "title_tag": "Siemens Washing Machine Error Code E21 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error E21? Learn what causes this motor fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E21 Mean on a Siemens Washing Machine?",
+      "description": "Error code E21 on a Siemens washing machine indicates a motor fault, which can be caused by a blocked or stiff drum, worn carbon brushes, or a failed motor.",
+      "quick_fix": "Reach into the drum and try rotating it by hand to check for obstructions — if it turns freely, power cycle the machine by unplugging it for 10 minutes and restarting the cycle to clear a temporary motor fault (takes about 15 minutes).",
+      "intro_html": "<p>Error code E21 signals that your Siemens washing machine has detected a problem with the motor or the drum's ability to rotate. The motor is responsible for spinning and tumbling the drum throughout the wash cycle, so when the machine's control board detects that the motor is not responding as expected, it stops the programme and displays E21 to prevent further damage.</p><p>When this error appears, the drum will typically stop mid-cycle or fail to start spinning at all. You may notice the machine making a humming noise without the drum actually turning, or it may go completely silent. In some cases the error appears after a heavy or unbalanced load has caused the drum to seize momentarily.</p><p>The good news is that several of the most common causes behind E21 are straightforward to investigate at home before calling a service technician.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked or jammed drum",
+          "detail": "A small item of clothing, a coin, or a foreign object can become lodged between the drum and the door seal or drum casing, preventing the drum from rotating freely. This is one of the most frequent triggers for E21 and is usually the first thing to check."
+        },
+        {
+          "cause": "Worn or failed carbon brushes",
+          "detail": "Carbon brushes transfer electrical current to the motor's rotating armature. Over time they wear down and lose contact, causing the motor to cut out or run intermittently. On machines with brush motors, this is a very common cause of E21 on older appliances."
+        },
+        {
+          "cause": "Overloaded drum",
+          "detail": "Packing the drum too tightly puts excessive strain on the motor, which can cause it to overheat and trigger a thermal cut-out. The machine may display E21 and refuse to restart until the motor has cooled down."
+        },
+        {
+          "cause": "Faulty motor winding or motor failure",
+          "detail": "If the motor's internal windings have burned out or shorted, the motor will not run regardless of other conditions. This is less common but will require a motor replacement and is not a DIY repair."
+        },
+        {
+          "cause": "Wiring or connection fault between motor and control board",
+          "detail": "Loose, corroded, or damaged wiring between the motor and the main control board can interrupt the signal and cause the board to log a motor error. Vibration over years of use can work connectors loose."
+        },
+        {
+          "cause": "Faulty main control board",
+          "detail": "In some cases the control board itself misreads the motor's feedback signal and generates a false E21 error. This is typically diagnosed only after all other causes have been ruled out."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the drum for obstructions",
+          "detail": "Open the door and inspect the gap between the drum and the rubber door seal carefully, feeling around the full circumference. Remove any coins, buttons, wire from a bra, or other objects you find. Try rotating the drum by hand — it should turn with moderate resistance but should not feel locked or gritty."
+        },
+        {
+          "step": 2,
+          "action": "Reduce the load and allow the motor to cool",
+          "detail": "If the drum was overloaded, remove roughly half the laundry and leave the machine unplugged for at least 30 minutes to allow the motor's thermal cut-out to reset. Overheating is a common cause of temporary E21 errors and the machine will often restart normally once cooled."
+        },
+        {
+          "step": 3,
+          "action": "Power cycle the machine",
+          "detail": "Unplug the washing machine from the mains socket and leave it disconnected for 10 minutes. This allows the control board to fully reset and can clear a transient motor error. Plug back in, select a short programme, and observe whether the drum begins to rotate."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the door seal and drum paddles",
+          "detail": "Peel back the door seal lip and look inside the gap for trapped fabric or debris that is not immediately visible. Also check the drum paddles (the plastic lifters inside the drum) — a cracked or detached paddle can catch on the drum casing and cause resistance."
+        },
+        {
+          "step": 5,
+          "action": "Check the carbon brushes",
+          "detail": "If you are comfortable with basic appliance disassembly, the carbon brushes are accessible by removing the back panel on most Siemens models. Each brush should be at least 15 mm long — if they are shorter than this or visibly crumbled, they need replacing. Carbon brushes are an inexpensive and commonly available spare part."
+        },
+        {
+          "step": 6,
+          "action": "Inspect motor wiring and connectors",
+          "detail": "With the machine unplugged, locate the motor at the base of the machine and check that all wiring connectors are firmly seated. Look for any signs of burning, melting, or corrosion on the connector pins. Reseat any loose connectors and retest the machine."
+        },
+        {
+          "step": 7,
+          "action": "Test on a different programme",
+          "detail": "If the error appeared during a spin cycle, try running a gentle wash programme to see whether the motor operates at lower speeds. If the drum turns on a slow wash but not on spin, this points strongly to worn carbon brushes or a motor struggling under load, and replacement parts should be sourced."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have checked for drum obstructions, replaced the carbon brushes, and confirmed all wiring connections are secure but the E21 error persists, the motor itself may have failed internally. A burned-out motor winding cannot be repaired at home and requires a service technician to test with specialist equipment and fit a replacement motor safely.</p><p>You should also call a service technician if you notice a burning smell coming from the machine, visible scorch marks near the motor or control board, or if the machine trips your household circuit breaker when it attempts to start. These symptoms suggest an electrical fault that goes beyond routine maintenance and should not be investigated without professional training.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E21 fault are the carbon brushes, which wear naturally over the machine's lifetime and are the single most frequent cause of motor errors on brush-type motors. The motor itself is the next most likely replacement if brushes are found to be in good condition. In cases where wiring damage is found, a motor wiring harness may also be needed.</p><p>Keeping loads within the machine's rated capacity and avoiding washing very heavy single items — such as a large duvet in a machine not rated for it — will significantly reduce strain on the motor and extend its working life.</p>\n<!-- SPARE_PARTS:E21 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to continue running the machine while E21 is active. The error means the motor is not operating correctly, and forcing further cycles could cause additional damage to the motor, wiring, or control board. Investigate and resolve the fault before using the machine again.",
+          "question": "Can I still use my Siemens washing machine with an E21 error?"
+        },
+        {
+          "answer": "Carbon brushes typically last between 5 and 10 years depending on how frequently the machine is used. Households that run the machine daily will see brushes wear faster than those using it a few times a week. Replacing brushes is a relatively low-cost repair that can restore years of service to an otherwise sound machine.",
+          "question": "How long do carbon brushes last on a Siemens washing machine?"
+        },
+        {
+          "answer": "Sometimes, yes — if the error was triggered by a temporary overload or a brief motor hesitation, a 10-minute power cycle can reset the control board and the machine will run normally. However, if the underlying cause is worn brushes or a mechanical blockage, the error will return quickly and the root cause must be addressed.",
+          "question": "Will the E21 error clear itself after a power cycle?"
+        },
+        {
+          "answer": "No. E18 and E20 relate to drainage faults, while E21 is specifically a motor fault. The troubleshooting steps are quite different — drainage errors point to the pump and filter, whereas E21 points to the motor, drum, and associated wiring. Always confirm the exact code displayed before starting any repair.",
+          "question": "Is E21 the same as an E18 or E20 error on Siemens machines?"
+        },
+        {
+          "answer": "If the fix is simply replacing carbon brushes, parts typically cost between £10 and £25 and the job is manageable for a confident DIYer. A full motor replacement carried out by a service technician will cost considerably more, often between £150 and £300 including labour, depending on the model and your location.",
+          "question": "How much does it typically cost to repair an E21 fault?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T14:02:42.899666+00:00"
+    },
+    {
+      "article_id": 212,
+      "locale": "sv",
+      "slug": "felkod-e21",
+      "title_tag": "Siemens Tvättmaskin Felkod E21 | Åtgärda Problemet Nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod E21? Lär dig vad som orsakar detta motorfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod E21 på en Siemens Tvättmaskin?",
+      "description": "Felkod E21 på en Siemens tvättmaskin indikerar ett motorfel, vilket kan orsakas av en blockerad eller stel trumma, slitna kolborstar eller en trasig motor.",
+      "quick_fix": "Räck in i trumman och försök rotera den för hand för att kontrollera om det finns hinder — om den snurrar fritt, starta om maskinen genom att dra ur kontakten i 10 minuter och starta sedan om programmet för att rensa ett tillfälligt motorfel (tar cirka 15 minuter).",
+      "intro_html": "<p>Felkod E21 signalerar att din Siemens tvättmaskin har upptäckt ett problem med motorn eller trummans förmåga att rotera. Motorn ansvarar för att snurra och tumla trumman under hela tvättcykeln, så när maskinens styrkort registrerar att motorn inte svarar som förväntat stoppar den programmet och visar E21 för att förhindra ytterligare skador.</p><p>När detta fel uppstår stannar trumman vanligtvis mitt i cykeln eller misslyckas med att börja snurra överhuvudtaget. Du kan märka att maskinen surrar utan att trumman faktiskt roterar, eller att den blir helt tyst. I vissa fall uppstår felet efter att en tung eller obalanserad last har fått trumman att tillfälligt låsa sig.</p><p>Den goda nyheten är att flera av de vanligaste orsakerna bakom E21 är enkla att undersöka hemma innan du kontaktar en servicetekniker.</p>",
+      "causes_json": [
+        {
+          "cause": "Blockerad eller fastklämd trumma",
+          "detail": "Ett litet plagg, ett mynt eller ett främmande föremål kan fastna mellan trumman och dörrtätningen eller trummans hölje, vilket hindrar trumman från att rotera fritt. Detta är en av de vanligaste orsakerna till E21 och är vanligtvis det första man bör kontrollera."
+        },
+        {
+          "cause": "Slitna eller trasiga kolborstar",
+          "detail": "Kolborstar överför elektrisk ström till motorns roterande ankare. Med tiden slits de ned och förlorar kontakt, vilket gör att motorn stängs av eller går oregelbundet. På maskiner med borstmotorer är detta en mycket vanlig orsak till E21 på äldre apparater."
+        },
+        {
+          "cause": "Överfylld trumma",
+          "detail": "Att packa trumman för hårt belastar motorn överdrivet, vilket kan orsaka överhettning och utlösa ett termiskt skydd. Maskinen kan visa E21 och vägra starta om förrän motorn har svalnat."
+        },
+        {
+          "cause": "Defekt motorlindning eller motorbortfall",
+          "detail": "Om motorns interna lindningar har bränt ut eller kortslutits kommer motorn inte att fungera oavsett andra förhållanden. Detta är mindre vanligt men kräver ett motorbyte och är inte en reparation för hemmabruk."
+        },
+        {
+          "cause": "Kabelfel eller anslutningsfel mellan motor och styrkort",
+          "detail": "Lösa, korroderade eller skadade kablar mellan motorn och huvudstyrkortet kan avbryta signalen och få styrkortet att logga ett motorfel. Vibrationer under många års användning kan lossa kontaktdon."
+        },
+        {
+          "cause": "Defekt huvudstyrkort",
+          "detail": "I vissa fall feltolkar styrkortet motorns återkopplingssignal och genererar ett falskt E21-fel. Detta diagnostiseras vanligtvis först efter att alla andra orsaker har uteslutits."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera trumman efter hinder",
+          "detail": "Öppna luckan och inspektera spalten mellan trumman och gummidörrtätningen noggrant, känn runt hela omkretsen. Ta bort eventuella mynt, knappar, bh-byglar eller andra föremål du hittar. Försök rotera trumman för hand — den ska snurra med måttligt motstånd men ska inte kännas låst eller gnistrande."
+        },
+        {
+          "step": 2,
+          "action": "Minska lasten och låt motorn svalna",
+          "detail": "Om trumman var överfylld, ta ut ungefär hälften av tvätten och lämna maskinen urkopplad i minst 30 minuter för att låta motorns termiska skydd återställas. Överhettning är en vanlig orsak till tillfälliga E21-fel och maskinen startar ofta om normalt när den har svalnat."
+        },
+        {
+          "step": 3,
+          "action": "Starta om maskinen",
+          "detail": "Dra ur tvättmaskinens kontakt ur vägguttaget och lämna den urkopplad i 10 minuter. Detta låter styrkortet återställas helt och kan rensa ett tillfälligt motorfel. Koppla in igen, välj ett kort program och observera om trumman börjar rotera."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera dörrtätningen och trummans lyftpaddlar",
+          "detail": "Vik tillbaka dörrtätningens läpp och titta in i spalten efter infångat tyg eller skräp som inte är omedelbart synligt. Kontrollera även trummans lyftpaddlar (de plastlister som sitter inuti trumman) — en sprucken eller lossnad paddel kan fastna i trummans hölje och orsaka motstånd."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera kolborstarna",
+          "detail": "Om du är bekväm med grundläggande demontering av hushållsapparater är kolborstarna åtkomliga genom att ta bort bakpanelen på de flesta Siemens-modeller. Varje borste bör vara minst 15 mm lång — om de är kortare än så eller synligt söndersmulande behöver de bytas. Kolborstar är en billig och lättillgänglig reservdel."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera motorns kablar och kontaktdon",
+          "detail": "Med maskinen urkopplad, lokalisera motorn i maskinens nedre del och kontrollera att alla kabelkontaktdon sitter ordentligt. Leta efter tecken på bränning, smältning eller korrosion på kontaktdonens stift. Sätt tillbaka eventuella lösa kontaktdon och testa maskinen igen."
+        },
+        {
+          "step": 7,
+          "action": "Testa med ett annat program",
+          "detail": "Om felet uppstod under ett centrifugeringsprogram, försök köra ett skonsamt tvättprogram för att se om motorn fungerar vid lägre hastigheter. Om trumman snurrar vid långsam tvätt men inte vid centrifugering pekar detta starkt på slitna kolborstar eller en motor som kämpar under belastning, och reservdelar bör anskaffas."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har kontrollerat trumman efter hinder, bytt kolborstar och bekräftat att alla kabelanslutningar är säkra men E21-felet kvarstår, kan motorn ha havererat internt. En utbränd motorlindning kan inte repareras hemma och kräver att en servicetekniker testar med specialutrustning och monterar en ersättningsmotor på ett säkert sätt.</p><p>Du bör också kontakta en servicetekniker om du märker en bränd lukt från maskinen, synliga brännmärken nära motorn eller styrkortet, eller om maskinen löser ut din hushållssäkring när den försöker starta. Dessa symptom tyder på ett elfel som går utöver rutinunderhåll och bör inte undersökas utan professionell utbildning.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E21-fel är kolborstarna, som slits naturligt under maskinens livstid och är den enskilt vanligaste orsaken till motorfel på maskiner med borstmotor. Motorn i sig är nästa troliga byte om borstarna visar sig vara i gott skick. I fall där kabelskador hittas kan även ett motorns kabelstamme behöva bytas.</p><p>Att hålla lasterna inom maskinens nominella kapacitet och undvika att tvätta mycket tunga enskilda föremål — som en stor duntäcke i en maskin som inte är avsedd för det — minskar belastningen på motorn avsevärt och förlänger dess livslängd.</p>\n<!-- SPARE_PARTS:E21 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt att fortsätta köra maskinen medan E21 är aktivt. Felet innebär att motorn inte fungerar korrekt, och att tvinga fram fler cykler kan orsaka ytterligare skador på motorn, kablarna eller styrkortet. Undersök och åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag fortfarande använda min Siemens tvättmaskin med ett E21-fel?"
+        },
+        {
+          "answer": "Kolborstar håller vanligtvis mellan 5 och 10 år beroende på hur ofta maskinen används. Hushåll som kör maskinen dagligen ser borstarna slitas snabbare än de som använder den några gånger i veckan. Att byta borstar är en relativt billig reparation som kan ge en i övrigt välmående maskin många fler år i tjänst.",
+          "question": "Hur länge håller kolborstarna på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Ibland, ja — om felet utlöstes av en tillfällig överbelastning eller en kortvarig motorhesitation kan en 10-minuters omstart återställa styrkortet och maskinen fungerar normalt. Men om den bakomliggande orsaken är slitna borstar eller en mekanisk blockering kommer felet att återkomma snabbt och grundorsaken måste åtgärdas.",
+          "question": "Försvinner E21-felet av sig självt efter en omstart?"
+        },
+        {
+          "answer": "Nej. E18 och E20 avser avloppsfel, medan E21 specifikt är ett motorfel. Felsökningsstegen är ganska olika — avloppsfel pekar på pumpen och filtret, medan E21 pekar på motorn, trumman och tillhörande kablar. Bekräfta alltid den exakta koden som visas innan du påbörjar någon reparation.",
+          "question": "Är E21 samma som ett E18- eller E20-fel på Siemens-maskiner?"
+        },
+        {
+          "answer": "Om åtgärden enbart innebär att byta kolborstar kostar reservdelarna vanligtvis mellan 100 och 250 kronor och arbetet är hanterbart för en händig hemmafixare. Ett fullständigt motorbyte utfört av en servicetekniker kostar betydligt mer, ofta mellan 1 500 och 3 000 kronor inklusive arbetskostnad, beroende på modell och din plats.",
+          "question": "Hur mycket kostar det vanligtvis att reparera ett E21-fel?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T14:03:47.925539+00:00"
+    },
+    {
+      "article_id": 214,
+      "locale": "en",
+      "slug": "error-code-e23",
+      "title_tag": "Siemens Washing Machine Error Code E23 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error E23? Learn what triggers the leak sensor, how to find the source, and when to call a service technician.",
+      "h1": "What Does Error Code E23 Mean on a Siemens Washing Machine?",
+      "description": "Error code E23 on a Siemens washing machine means the built-in leak sensor in the base of the machine has detected water, indicating a leak or flooding inside the appliance.",
+      "quick_fix": "Pull the machine forward, remove the lower front panel, and use dry towels or a wet-dry vacuum to soak up any standing water in the base tray — once the sensor dries out, the error will clear and the machine can restart (allow 1–2 hours drying time, or use a fan to speed this up).",
+      "intro_html": "<p>Error E23 is triggered by the Aqua-Stop or anti-flood sensor sitting in the drip tray at the bottom of your Siemens washing machine. When even a small amount of water collects in that tray, the sensor sends a signal to the control board, which immediately halts the programme and displays E23 to prevent further water damage to your home.</p><p>When this error appears, the machine will typically lock the door, stop the drum, and refuse to start a new cycle. In many cases the drum still contains water, so the machine may attempt a partial drain before shutting down completely. The error will not clear on its own until the water in the base tray is removed and the sensor is dry.</p><p>The leak itself can range from a minor drip caused by a loose hose clip to a more serious failure such as a cracked drum seal or a split pump housing. Identifying the exact source is the key first step before attempting any repair.</p>",
+      "causes_json": [
+        {
+          "cause": "Water pooled in the base tray from a previous minor leak",
+          "detail": "Even a small, one-off drip — perhaps from an overfilled detergent drawer or a briefly loose connection — can leave enough water in the base tray to trigger the sensor. The original leak may have already stopped, but the standing water keeps the error active."
+        },
+        {
+          "cause": "Leaking door seal (door gasket)",
+          "detail": "The rubber gasket around the door can develop cracks or tears over time, especially if sharp objects have passed through a cycle. Water escapes during the wash or spin phase and runs down into the base tray."
+        },
+        {
+          "cause": "Loose or split inlet or drain hose connection",
+          "detail": "The hoses connecting to the back of the machine can work loose due to vibration, or the hose itself can split or perish. A slow drip from a hose connection at the back of the machine will gradually fill the base tray."
+        },
+        {
+          "cause": "Faulty or blocked drain pump",
+          "detail": "If the drain pump housing cracks or its seal deteriorates, water can escape around the pump body during draining. A blocked pump that causes pressure to build up can also force water past seals that would otherwise hold."
+        },
+        {
+          "cause": "Detergent drawer or housing leak",
+          "detail": "A blocked or cracked detergent drawer housing can cause water to overflow internally rather than flowing into the drum. This water then drips down into the base tray and activates the sensor."
+        },
+        {
+          "cause": "Damaged tub or drum bearing seal",
+          "detail": "On older machines, the seal around the drum bearings can wear out, allowing water to seep out of the tub during a wash cycle. This is a more serious fault and usually comes with a rumbling noise during the spin."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Before doing anything else, turn the programme dial to off and unplug the machine from the wall socket. This is essential for safety when water is present near electrical components. Do not attempt to restart the machine until you have found and resolved the source of the leak."
+        },
+        {
+          "step": 2,
+          "action": "Remove standing water from the base tray",
+          "detail": "Pull the machine away from the wall and remove the lower front access panel — it usually unclips or is held by one or two screws. Use dry towels, a sponge, or a wet-dry vacuum to remove all visible water from the base tray. Allow the tray and sensor to dry fully before proceeding; a fan directed into the base speeds this up considerably."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the door seal for damage",
+          "detail": "Open the door and run your fingers around the entire rubber gasket, feeling for cracks, tears, or areas where the seal has pulled away from the drum rim. Pay particular attention to the bottom of the seal where debris tends to collect. If you find a tear, the gasket will need replacing."
+        },
+        {
+          "step": 4,
+          "action": "Check all hose connections at the back of the machine",
+          "detail": "Examine the cold water inlet hose and the drain hose where they connect to the machine and to the wall. Look for moisture, limescale deposits, or visible splits along the hose length. Tighten any loose jubilee clips by hand or with a screwdriver, and replace any hose that shows cracking or bulging."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the detergent drawer and housing",
+          "detail": "Pull the detergent drawer out fully and check the housing inside the machine for limescale build-up or cracks. Rinse the drawer under warm water and clean the housing with a damp cloth. A blocked housing can cause water to overflow internally, so ensure all channels are clear."
+        },
+        {
+          "step": 6,
+          "action": "Check the drain pump filter and housing",
+          "detail": "The pump filter is accessed behind the lower front panel, usually via a small cap on the right-hand side. Place a shallow tray and towels underneath before unscrewing it, as residual water will spill out. Inspect the filter housing for cracks and the filter itself for blockages, then refit securely."
+        },
+        {
+          "step": 7,
+          "action": "Run a short test cycle and monitor closely",
+          "detail": "Once everything is dry and reassembled, plug the machine back in and run a short 30-degree cotton cycle. Stay with the machine throughout and check underneath and behind it at regular intervals. If E23 returns or you see water escaping, stop the cycle immediately and call a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have dried out the base tray and run a test cycle but E23 returns within minutes, there is an active leak that you have not been able to locate. This is the point to stop and call a service technician. Similarly, if you can see water coming from the rear of the drum, from around the drum shaft, or from the pump body itself, these are internal components that require specialist tools and knowledge to replace safely.</p><p>A worn drum bearing seal in particular is a labour-intensive repair involving partial disassembly of the machine — attempting this without experience risks causing further damage. If the machine is more than eight to ten years old and the fault lies with the tub or bearings, a technician can also give you an honest assessment of whether repair is cost-effective compared with replacement.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E23 fault are the door gasket (door seal), the drain pump, and the water inlet or drain hoses. If your inspection revealed a cracked or torn door seal, replacing it promptly prevents water from reaching the base tray in future. A worn pump seal or cracked pump housing will also need a new pump assembly to stop the leak at source.</p><p>To reduce the risk of E23 occurring, clean the pump filter every three months, avoid overloading the drum (which stresses the door seal), and periodically check that hose connections at the back of the machine are still firm. Running a monthly maintenance wash at 60 degrees helps prevent detergent residue build-up in the drawer housing.</p>\n<!-- SPARE_PARTS:E23 -->",
+      "faq_json": [
+        {
+          "answer": "Unplugging the machine will clear the display temporarily, but E23 will return as soon as you run a cycle if there is still water in the base tray or an active leak. You need to dry out the base tray completely and fix the source of the water before the error will stay cleared.",
+          "question": "Can I reset the E23 error by just unplugging the machine?"
+        },
+        {
+          "answer": "At room temperature with good ventilation, the tray and sensor typically dry within one to two hours. Pointing a fan directly into the open base panel can reduce this to around 30–45 minutes. Avoid using a heat gun or hair dryer at close range, as this can damage plastic components.",
+          "question": "How long does the base tray take to dry out after I remove the water?"
+        },
+        {
+          "answer": "No. The machine locks itself out for a reason — running it with an active leak risks water damage to your floor and could create an electrical hazard. Do not attempt to override or ignore the error. Resolve the fault fully before using the machine again.",
+          "question": "Is it safe to use the machine while E23 is showing?"
+        },
+        {
+          "answer": "If the base tray appears dry, the sensor itself may be faulty or there may be a very small amount of moisture on the sensor contacts that is not visible. Try drying the sensor contacts gently with a dry cloth. If the error persists with no visible water, the leak sensor or its wiring may need to be tested by a service technician.",
+          "question": "My machine shows E23 but I cannot find any water in the base — what should I check?"
+        },
+        {
+          "answer": "If the fix is simply drying out the base tray after a one-off minor leak, there is no cost at all. Replacing a door seal is a moderate DIY repair if you are comfortable with appliance work, and the part itself usually costs between £20 and £50. A drain pump replacement or drum seal repair carried out by a service technician will typically cost more once parts and labour are included, and prices vary by region and model.",
+          "question": "How much does it typically cost to fix a Siemens E23 error?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T14:06:53.194562+00:00"
+    },
+    {
+      "article_id": 214,
+      "locale": "sv",
+      "slug": "felkod-e23",
+      "title_tag": "Siemens Tvättmaskin Felkod E23 | Åtgärda Problemet Nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod E23? Lär dig vad som utlöser läckagesensorn, hur du hittar källan och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod E23 på en Siemens Tvättmaskin?",
+      "description": "Felkod E23 på en Siemens tvättmaskin innebär att den inbyggda läckagesensorn i maskinens bas har detekterat vatten, vilket indikerar ett läckage eller översvämning inuti maskinen.",
+      "quick_fix": "Dra ut maskinen, ta bort den nedre frontpanelen och använd torra handdukar eller en våt-torr dammsugare för att suga upp eventuellt stående vatten i bottenplattan — när sensorn har torkat försvinner felet och maskinen kan startas om (låt det torka i 1–2 timmar, eller använd en fläkt för att påskynda processen).",
+      "intro_html": "<p>Fel E23 utlöses av Aqua-Stop- eller översvämningssensorn som sitter i droppbrickan längst ner i din Siemens tvättmaskin. När även en liten mängd vatten samlas i den brickan skickar sensorn en signal till styrkortet, som omedelbart avbryter programmet och visar E23 för att förhindra ytterligare vattenskador i ditt hem.</p><p>När detta fel uppstår låser maskinen vanligtvis dörren, stoppar trumman och vägrar starta ett nytt program. I många fall finns det fortfarande vatten i trumman, så maskinen kan försöka tömma delvis innan den stängs av helt. Felet försvinner inte av sig självt förrän vattnet i bottenplattan har avlägsnats och sensorn är torr.</p><p>Läckaget kan variera från ett litet dropp orsakat av ett löst slangklämma till ett allvarligare fel som en sprucken trumtätning eller ett sprucket pumphus. Att identifiera den exakta källan är det viktigaste första steget innan du försöker utföra någon reparation.</p>",
+      "causes_json": [
+        {
+          "cause": "Vatten samlat i bottenplattan från ett tidigare mindre läckage",
+          "detail": "Även ett litet, engångsdropp — kanske från en överfylld tvättmedelslåda eller en tillfälligt lös anslutning — kan lämna tillräckligt med vatten i bottenplattan för att utlösa sensorn. Det ursprungliga läckaget kan redan ha upphört, men det stående vattnet håller felet aktivt."
+        },
+        {
+          "cause": "Läckande dörrtätning (dörrgummi)",
+          "detail": "Gummitätningen runt dörren kan utveckla sprickor eller revor med tiden, särskilt om vassa föremål har följt med i ett program. Vatten läcker ut under tvätt- eller centrifugeringsfasen och rinner ner i bottenplattan."
+        },
+        {
+          "cause": "Lös eller sprucken inlopps- eller avloppsslangangslutning",
+          "detail": "Slangarna som ansluter till maskinens baksida kan lossna på grund av vibrationer, eller slangen kan spricka eller åldras. Ett långsamt dropp från en slangangslutning på maskinens baksida fyller gradvis bottenplattan."
+        },
+        {
+          "cause": "Defekt eller igensatt avloppspump",
+          "detail": "Om avloppspumpens hus spricker eller dess tätning försämras kan vatten läcka ut runt pumpen under tömning. En igensatt pump som orsakar tryckökning kan också tvinga vatten förbi tätningar som annars skulle hålla."
+        },
+        {
+          "cause": "Läckage från tvättmedelslåda eller hus",
+          "detail": "Ett igensatt eller sprucket tvättmedelslådehus kan orsaka att vatten svämmar över internt istället för att rinna ner i trumman. Detta vatten droppar sedan ner i bottenplattan och aktiverar sensorn."
+        },
+        {
+          "cause": "Skadad tub- eller trumlagertätning",
+          "detail": "På äldre maskiner kan tätningen runt trumlagren slitas ut, vilket gör att vatten kan sippra ut ur tuben under ett tvättprogram. Detta är ett allvarligare fel och åtföljs vanligtvis av ett mullrande ljud under centrifugeringen."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Innan du gör något annat, vrid programväljaren till av och koppla ur maskinen från vägguttaget. Detta är nödvändigt av säkerhetsskäl när vatten finns nära elektriska komponenter. Försök inte starta om maskinen förrän du har hittat och åtgärdat källan till läckaget."
+        },
+        {
+          "step": 2,
+          "action": "Ta bort stående vatten från bottenplattan",
+          "detail": "Dra ut maskinen från väggen och ta bort den nedre frontluckan — den lossnar vanligtvis med clips eller hålls fast av en eller två skruvar. Använd torra handdukar, en svamp eller en våt-torr dammsugare för att ta bort allt synligt vatten från bottenplattan. Låt brickan och sensorn torka helt innan du fortsätter; en fläkt riktad in mot basen påskyndar detta avsevärt."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera dörrtätningen för skador",
+          "detail": "Öppna dörren och känn med fingrarna runt hela gummitätningen och känn efter sprickor, revor eller områden där tätningen har lossnat från trumkanten. Var särskilt uppmärksam på tätningens undersida där skräp tenderar att samlas. Om du hittar en reva måste tätningen bytas."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera alla slangangslutningar på maskinens baksida",
+          "detail": "Undersök kallvatteninloppsslangen och avloppsslangen där de ansluter till maskinen och till väggen. Leta efter fukt, kalkavlagringar eller synliga sprickor längs slangen. Dra åt lösa slangklämmor för hand eller med en skruvmejsel, och byt ut alla slangar som visar sprickor eller utbuktningar."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera tvättmedelslådan och huset",
+          "detail": "Dra ut tvättmedelslådan helt och kontrollera huset inuti maskinen för kalkavlagringar eller sprickor. Skölj lådan under varmt vatten och rengör huset med en fuktig trasa. Ett igensatt hus kan orsaka att vatten svämmar över internt, så se till att alla kanaler är fria."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera avloppspumpens filter och hus",
+          "detail": "Pumpfiltret nås bakom den nedre frontpanelen, vanligtvis via en liten kåpa på höger sida. Placera en grund bricka och handdukar under innan du skruvar loss den, eftersom kvarvarande vatten kommer att rinna ut. Kontrollera filterhuset för sprickor och filtret för igensättningar, och sätt sedan tillbaka det ordentligt."
+        },
+        {
+          "step": 7,
+          "action": "Kör ett kort testprogram och övervaka noga",
+          "detail": "När allt är torrt och återmonterat, koppla in maskinen och kör ett kort bomullsprogram på 30 grader. Stanna hos maskinen under hela programmet och kontrollera under och bakom den med jämna mellanrum. Om E23 återkommer eller du ser vatten läcka ut, stoppa programmet omedelbart och kontakta en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har torkat ut bottenplattan och kört ett testprogram men E23 återkommer inom några minuter finns det ett aktivt läckage som du inte har kunnat lokalisera. Det är nu dags att sluta och kontakta en servicetekniker. På samma sätt, om du kan se vatten komma från trummans baksida, runt trumaxeln eller från pumphuset, är dessa interna komponenter som kräver specialverktyg och kunskap för att bytas ut på ett säkert sätt.</p><p>En sliten trumlagertätning är i synnerhet en arbetsintensiv reparation som innebär delvis isärtagning av maskinen — att försöka detta utan erfarenhet riskerar att orsaka ytterligare skador. Om maskinen är mer än åtta till tio år gammal och felet ligger hos tuben eller lagren kan en tekniker också ge dig en ärlig bedömning av om reparation är kostnadseffektivt jämfört med att köpa en ny maskin.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när ett E23-fel åtgärdas är dörrtätningen (dörrgummi), avloppspumpen samt vatten-inlopps- eller avloppsslangarna. Om din kontroll avslöjade en sprucken eller riven dörrtätning förhindrar ett snabbt byte att vatten når bottenplattan i framtiden. En sliten pumptätning eller ett sprucket pumphus kräver också ett nytt pumpaggregat för att stoppa läckaget vid källan.</p><p>För att minska risken för att E23 uppstår, rengör pumpfiltret var tredje månad, undvik att överlasta trumman (vilket belastar dörrtätningen) och kontrollera regelbundet att slangangslutningarna på maskinens baksida fortfarande sitter fast. Att köra ett månatligt underhållsprogram vid 60 grader hjälper till att förhindra att tvättmedelsrester byggs upp i lådhuset.</p>\n<!-- SPARE_PARTS:E23 -->",
+      "faq_json": [
+        {
+          "answer": "Att koppla ur maskinen rensar displayen tillfälligt, men E23 återkommer så snart du kör ett program om det fortfarande finns vatten i bottenplattan eller ett aktivt läckage. Du måste torka ut bottenplattan helt och åtgärda vattenkällan innan felet förblir borta.",
+          "question": "Kan jag återställa E23-felet genom att bara koppla ur maskinen?"
+        },
+        {
+          "answer": "Vid rumstemperatur med god ventilation torkar brickan och sensorn vanligtvis inom en till två timmar. Att rikta en fläkt direkt in i den öppna bottenpanelen kan minska detta till cirka 30–45 minuter. Undvik att använda en värmepistol eller hårtork på nära håll, eftersom detta kan skada plastkomponenter.",
+          "question": "Hur lång tid tar det för bottenplattan att torka efter att jag har tagit bort vattnet?"
+        },
+        {
+          "answer": "Nej. Maskinen låser sig av en anledning — att köra den med ett aktivt läckage riskerar vattenskador på ditt golv och kan skapa en elektrisk fara. Försök inte att kringgå eller ignorera felet. Åtgärda felet fullständigt innan du använder maskinen igen.",
+          "question": "Är det säkert att använda maskinen när E23 visas?"
+        },
+        {
+          "answer": "Om bottenplattan verkar torr kan sensorn själv vara defekt, eller så kan det finnas en mycket liten mängd fukt på sensorkontakterna som inte är synlig. Försök torka sensorkontakterna försiktigt med en torr trasa. Om felet kvarstår utan synligt vatten kan läckagesensorn eller dess kabeldragning behöva testas av en servicetekniker.",
+          "question": "Min maskin visar E23 men jag kan inte hitta något vatten i basen — vad ska jag kontrollera?"
+        },
+        {
+          "answer": "Om åtgärden enbart består av att torka ut bottenplattan efter ett engångsmässigt mindre läckage kostar det ingenting alls. Att byta en dörrtätning är en måttlig gör-det-själv-reparation om du är bekväm med vitvaruarbete, och själva delen kostar vanligtvis mellan 200 och 500 kronor. Ett byte av avloppspump eller trumtätningsreparation utförd av en servicetekniker kostar vanligtvis mer när delar och arbetstid räknas in, och priserna varierar beroende på region och modell.",
+          "question": "Hur mycket kostar det vanligtvis att åtgärda ett Siemens E23-fel?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T14:08:11.001321+00:00"
+    }
+  ]
+}

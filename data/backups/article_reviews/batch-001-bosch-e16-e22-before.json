@@ -1,0 +1,1038 @@
+{
+  "exported_at": "2026-07-30T21:06:58.736701+00:00",
+  "source": "production-vps",
+  "table": "article_translations",
+  "article_ids": [
+    164,
+    167,
+    168,
+    169,
+    170
+  ],
+  "rows": [
+    {
+      "article_id": 164,
+      "locale": "en",
+      "slug": "error-code-e16",
+      "title_tag": "Bosch Washing Machine Error Code E16 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E16? Learn what causes a door lock fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E16 Mean on a Bosch Washing Machine?",
+      "description": "Error code E16 on a Bosch washing machine indicates that the door is not recognised as properly closed, either because it has not been shut correctly or because the door lock mechanism is faulty.",
+      "quick_fix": "Firmly push the door until you hear a distinct click, then press Start — if the latch was not fully engaged, the machine should clear the error and begin the cycle within 30 seconds (takes about 1 minute).",
+      "intro_html": "<p>Error code E16 is Bosch's way of telling you that the control board cannot confirm the door is securely closed. The door interlock — a small electromechanical component built into the door frame — sends a signal to the machine's electronics once the door is properly latched. If that signal never arrives, or arrives as a fault, the machine refuses to run and displays E16 to protect you from water escaping during a cycle.</p><p>When this error appears, the drum will not rotate and the machine will not fill with water. You may notice the door feels loose, or conversely that it feels stuck but the error persists. In some cases the door closes perfectly well physically, yet the lock's internal switch has failed and cannot confirm closure electronically. Understanding which situation you are dealing with will guide you to the right fix.</p>",
+      "causes_json": [
+        {
+          "cause": "Door not fully pushed shut",
+          "detail": "The most common reason for E16 is simply that the door was not closed with enough force for the latch to engage the striker plate. Laundry caught in the door seal can also prevent a complete close."
+        },
+        {
+          "cause": "Faulty door interlock (door lock assembly)",
+          "detail": "The door interlock contains electrical contacts that confirm closure to the control board. Over time these contacts wear or burn out, causing the machine to report E16 even when the door is physically shut."
+        },
+        {
+          "cause": "Damaged or misaligned door latch or striker",
+          "detail": "The plastic latch on the door and the metal striker on the cabinet can crack, bend, or shift out of alignment after years of use. If they no longer connect cleanly, the interlock cannot engage."
+        },
+        {
+          "cause": "Wiring fault between door lock and control board",
+          "detail": "The wiring harness that runs from the door interlock to the main PCB can develop a loose connector or a broken wire, interrupting the signal even when the lock itself is working correctly."
+        },
+        {
+          "cause": "Worn or torn door seal obstructing closure",
+          "detail": "A door gasket that has swollen, torn, or partially detached can bulge into the door opening and physically prevent the door from closing far enough to trigger the latch."
+        },
+        {
+          "cause": "Main control board fault",
+          "detail": "In rare cases the PCB itself fails to read the door lock signal correctly, generating a false E16 even though the lock and wiring are both in good condition."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check for laundry trapped in the door",
+          "detail": "Open the door and inspect the rubber door seal all the way around. Pull out any clothing or fabric that is caught between the seal and the glass. Even a thin sock can prevent the door from latching fully. Close the door firmly and see if the error clears."
+        },
+        {
+          "step": 2,
+          "action": "Close the door with firm, deliberate pressure",
+          "detail": "Stand directly in front of the machine and push the door closed with the heel of your hand until you hear and feel a solid click. Avoid pushing only on the glass — apply pressure near the latch side. Once closed, press Start to see if E16 disappears."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the door seal for damage or swelling",
+          "detail": "Run your fingers around the entire circumference of the rubber gasket. Look for tears, areas that have pulled away from the drum rim, or sections that appear swollen or hardened. A damaged seal that protrudes into the door opening will need to be replaced before the door can close properly."
+        },
+        {
+          "step": 4,
+          "action": "Examine the door latch and striker plate",
+          "detail": "Look at the plastic hook on the door and the corresponding metal slot on the machine body. Check for visible cracks, chips, or any sign that the latch is sitting at an angle. Gently try to wiggle the striker plate — if it moves, the mounting screws may have loosened and can be tightened with a Torx or Phillips screwdriver."
+        },
+        {
+          "step": 5,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains socket and leave it unpowered for two minutes. This allows the control board to reset any temporary electronic glitch. Restore power, select a programme, close the door firmly, and press Start. If E16 returns immediately, the fault is not a transient software issue."
+        },
+        {
+          "step": 6,
+          "action": "Test the door interlock for continuity",
+          "detail": "If you are comfortable using a multimeter, disconnect the machine from the mains, remove the top panel or door seal to access the interlock, and test the lock's terminals for continuity when the door is closed. A reading of open circuit (OL) when the door is shut confirms the interlock has failed and needs replacing. If you are not confident working with internal components, move to calling a service technician."
+        },
+        {
+          "step": 7,
+          "action": "Check the wiring harness connector at the door lock",
+          "detail": "With the machine unplugged, locate the wiring connector that plugs into the back of the door interlock. Press the connector firmly to reseat it, and inspect the wires for any that appear pinched, corroded, or broken near the connector. A loose connector is a quick fix; a broken wire will need to be repaired or the harness replaced."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and E16 continues to appear, or if you found that the door interlock has no continuity and you are not comfortable replacing it yourself, it is time to book a service technician. Replacing a door interlock involves removing the door seal and working inside the cabinet, and an incorrect installation can create a safety hazard.</p><p>You should also call a technician straight away if the door feels physically jammed and will not open at all, if you can see burn marks or smell burning near the door area, or if the machine is still under warranty and you do not want to risk voiding it by opening the cabinet yourself.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch E16 fault are the door interlock assembly, the door latch (handle and hook mechanism), and the door seal (gasket). The interlock is the single most frequent replacement part for this error code. Having the correct part number for your specific model before ordering will save time — check the rating plate inside the door frame for your full model number.</p><p>To reduce the chance of E16 recurring, wipe the door seal dry after every wash to prevent rubber degradation, avoid overloading the drum so laundry cannot get trapped in the door, and give the door a firm push every time rather than letting it swing shut on its own.</p>\n<!-- SPARE_PARTS:E16 -->",
+      "faq_json": [
+        {
+          "answer": "No. The machine will not start a cycle while E16 is active because it cannot confirm the door is safely locked. Running a machine with an unconfirmed door lock would risk the door opening mid-cycle and causing a flood. Resolve the fault before using the appliance.",
+          "question": "Can I still use my Bosch washing machine while it shows E16?"
+        },
+        {
+          "answer": "Most Bosch washing machines have an emergency door release — a small plastic tab or cord located behind the kick panel at the bottom front of the machine. Remove the kick panel, locate the tab (usually orange or red), and pull it downward firmly. This mechanically releases the door lock. Make sure the machine is unplugged before you do this.",
+          "question": "How do I manually unlock the door if E16 has left it stuck shut?"
+        },
+        {
+          "answer": "A genuine Bosch door interlock part typically costs between £15 and £40 depending on the model. If you fit it yourself the part cost is your only expense. A service technician call-out will add a labour charge on top, so it is worth confirming the part is definitely faulty before booking.",
+          "question": "How much does a Bosch door interlock replacement cost?"
+        },
+        {
+          "answer": "Occasionally, yes. A sudden power interruption mid-cycle can leave the control board in a confused state where it reports E16 even though the door lock is fine. A two-minute power cycle at the mains socket is always worth trying first, as it costs nothing and takes very little time.",
+          "question": "Will a power cut or software glitch cause E16 on a Bosch machine?"
+        },
+        {
+          "answer": "They are related but distinct. E16 specifically means the door is not detected as closed, while E17 on some Bosch models relates to the door not opening at the end of a cycle. If your display shows E17, the troubleshooting steps differ slightly, so check your model's manual or a dedicated E17 guide.",
+          "question": "Is E16 the same fault as E17 on Bosch washing machines?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T12:24:35.285034+00:00"
+    },
+    {
+      "article_id": 164,
+      "locale": "sv",
+      "slug": "felkod-e16",
+      "title_tag": "Bosch tvättmaskin felkod E16 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E16? Lär dig vad som orsakar ett dörrlåsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E16 på en Bosch tvättmaskin?",
+      "description": "Felkod E16 på en Bosch tvättmaskin indikerar att dörren inte känns igen som ordentligt stängd, antingen för att den inte har stängts korrekt eller för att dörrlåsmekanismen är defekt.",
+      "quick_fix": "Tryck dörren ordentligt tills du hör ett tydligt klick och tryck sedan på Start — om låset inte var helt ingrepet bör maskinen rensa felet och påbörja programmet inom 30 sekunder (tar ungefär 1 minut).",
+      "intro_html": "<p>Felkod E16 är Bosch sätt att tala om för dig att styrkortet inte kan bekräfta att dörren är säkert stängd. Dörrlåset — ett litet elektromekaniskt komponenten inbyggt i dörrkarmens ram — skickar en signal till maskinens elektronik när dörren är ordentligt låst. Om den signalen aldrig anländer, eller anländer som ett fel, vägrar maskinen att starta och visar E16 för att skydda dig från att vatten läcker ut under ett program.</p><p>När detta fel uppstår roterar inte trumman och maskinen fylls inte med vatten. Du kanske märker att dörren känns lös, eller tvärtom att den känns fast men att felet kvarstår. I vissa fall stängs dörren fysiskt utan problem, men låsets interna kontakt har slutat fungera och kan inte bekräfta stängningen elektroniskt. Att förstå vilken situation du har att göra med leder dig till rätt åtgärd.</p>",
+      "causes_json": [
+        {
+          "cause": "Dörren inte helt intryckt",
+          "detail": "Den vanligaste orsaken till E16 är helt enkelt att dörren inte stängdes med tillräcklig kraft för att låset ska gripa tag i låsbygeln. Tvätt som fastnat i dörrtätningen kan också förhindra att dörren stängs helt."
+        },
+        {
+          "cause": "Defekt dörrlås (dörrlåsenhet)",
+          "detail": "Dörrlåset innehåller elektriska kontakter som bekräftar stängningen för styrkortet. Med tiden slits eller bränns dessa kontakter ut, vilket gör att maskinen rapporterar E16 även när dörren är fysiskt stängd."
+        },
+        {
+          "cause": "Skadat eller feljusterat dörrlås eller låsbygel",
+          "detail": "Det plastlås som sitter på dörren och den metallbygel som sitter på maskinkåpan kan spricka, böjas eller förskjutas efter många års användning. Om de inte längre kopplar ihop ordentligt kan dörrlåset inte aktiveras."
+        },
+        {
+          "cause": "Kabelfel mellan dörrlås och styrkort",
+          "detail": "Kabelstammen som löper från dörrlåset till huvud-PCB:n kan få en lös kontakt eller en bruten ledare, vilket avbryter signalen även när låset i sig fungerar korrekt."
+        },
+        {
+          "cause": "Sliten eller trasig dörrtätning som hindrar stängning",
+          "detail": "En dörrtätning som har svällt, rivits sönder eller delvis lossnat kan bukta in i dörröppningen och fysiskt förhindra att dörren stängs tillräckligt långt för att utlösa låset."
+        },
+        {
+          "cause": "Fel på huvudstyrkortet",
+          "detail": "I sällsynta fall misslyckas PCB:n med att läsa av dörrlåsets signal korrekt och genererar ett falskt E16-fel trots att både låset och kablaget är i gott skick."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera om tvätt fastnat i dörren",
+          "detail": "Öppna dörren och inspektera gummitätningen runt hela öppningen. Ta ut eventuella klädesplagg eller tyger som fastnat mellan tätningen och glaset. Även en tunn strumpa kan förhindra att dörren låser sig ordentligt. Stäng dörren ordentligt och se om felet försvinner."
+        },
+        {
+          "step": 2,
+          "action": "Stäng dörren med fast och bestämt tryck",
+          "detail": "Stå rakt framför maskinen och tryck igen dörren med handflatan tills du hör och känner ett tydligt klick. Undvik att trycka enbart på glaset — applicera trycket nära låssidan. När dörren är stängd, tryck på Start för att se om E16 försvinner."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera dörrtätningen för skador eller svällning",
+          "detail": "Känn med fingrarna runt hela gummitätningens omkrets. Leta efter revor, områden som lossnat från trummans kant eller partier som verkar svällda eller hårdnade. En skadad tätning som sticker in i dörröppningen måste bytas ut innan dörren kan stängas ordentligt."
+        },
+        {
+          "step": 4,
+          "action": "Undersök dörrlåset och låsbygeln",
+          "detail": "Titta på plasthaken på dörren och motsvarande metallspår på maskinkåpan. Kontrollera om det finns synliga sprickor, avslag eller tecken på att låset sitter i vinkel. Försök försiktigt att vicka på låsbygeln — om den rör sig kan monteringsskruvarna ha lossnat och kan dras åt med en Torx- eller Phillipsskruvmejsel."
+        },
+        {
+          "step": 5,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara strömlös i två minuter. Detta ger styrkortet möjlighet att återställa eventuella tillfälliga elektroniska störningar. Återställ strömmen, välj ett program, stäng dörren ordentligt och tryck på Start. Om E16 återkommer omedelbart är felet inte ett övergående programvaruproblem."
+        },
+        {
+          "step": 6,
+          "action": "Testa dörrlåsets kontinuitet",
+          "detail": "Om du känner dig bekväm med att använda en multimeter, koppla ur maskinen från elnätet, ta bort toppanelen eller dörrtätningen för att komma åt låset och testa låsets anslutningspunkter för kontinuitet när dörren är stängd. Ett avläst öppet krets-värde (OL) när dörren är stängd bekräftar att låset har gått sönder och behöver bytas. Om du inte känner dig trygg med att arbeta med interna komponenter, gå vidare till att kontakta en servicetekniker."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera kabelkontakten vid dörrlåset",
+          "detail": "Med maskinen urkopplad, leta upp kabelkontakten som sitter i baksidan av dörrlåset. Tryck in kontakten ordentligt för att säkerställa god kontakt och inspektera ledarna för att se om någon verkar inklämd, korroderad eller bruten nära kontakten. En lös kontakt är en enkel åtgärd; en bruten ledare måste repareras eller kabelstammen bytas ut."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har gått igenom alla stegen ovan och E16 fortsätter att visas, eller om du konstaterat att dörrlåset saknar kontinuitet och inte känner dig bekväm med att byta det själv, är det dags att boka en servicetekniker. Att byta ett dörrlås innebär att dörrtätningen måste tas bort och att man arbetar inuti maskinkåpan, och en felaktig installation kan utgöra en säkerhetsrisk.</p><p>Du bör också kontakta en tekniker omedelbart om dörren känns fysiskt fastlåst och inte går att öppna alls, om du ser brännmärken eller känner bränndoft nära dörren, eller om maskinen fortfarande är under garanti och du inte vill riskera att den upphävs genom att öppna maskinkåpan själv.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärd av ett Bosch E16-fel är dörrlåsenheten, dörrlåset (handtag och hakmekanism) samt dörrtätningen (packning). Låsenheten är den enskilt vanligaste reservdelen för denna felkod. Att ha rätt artikelnummer för din specifika modell innan du beställer sparar tid — kontrollera typskylten inuti dörrkarmens ram för ditt fullständiga modellnummer.</p><p>För att minska risken för att E16 återkommer, torka av dörrtätningen efter varje tvätt för att förhindra att gummit försämras, undvik att överfylla trumman så att tvätt inte kan fastna i dörren, och tryck alltid igen dörren ordentligt i stället för att låta den slå igen av sig själv.</p>\n<!-- SPARE_PARTS:E16 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. Maskinen startar inte ett program medan E16 är aktivt eftersom den inte kan bekräfta att dörren är säkert låst. Att köra en maskin med ett obekräftat dörrlås skulle riskera att dörren öppnas mitt under programmet och orsakar en översvämning. Åtgärda felet innan du använder maskinen.",
+          "question": "Kan jag fortfarande använda min Bosch tvättmaskin när den visar E16?"
+        },
+        {
+          "answer": "De flesta Bosch tvättmaskiner har en nödöppning för dörren — en liten plastflik eller ett snöre som sitter bakom sockelpanelen längst ned på maskinens framsida. Ta bort sockelpanelen, leta upp fliken (vanligtvis orange eller röd) och dra den bestämt nedåt. Detta frigör dörrlåset mekaniskt. Se till att maskinen är urkopplad innan du gör detta.",
+          "question": "Hur låser jag upp dörren manuellt om E16 har låst den stängd?"
+        },
+        {
+          "answer": "En äkta Bosch dörrlåsenhet kostar vanligtvis mellan 200 och 500 kronor beroende på modell. Om du monterar den själv är det bara delkostnaden du betalar. En servicetekniker tillkommer med en arbetskostnad utöver detta, så det är värt att bekräfta att delen verkligen är defekt innan du bokar.",
+          "question": "Vad kostar det att byta dörrlås på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Ibland, ja. Ett plötsligt strömavbrott mitt under ett program kan lämna styrkortet i ett förvirrat tillstånd där det rapporterar E16 trots att dörrlåset fungerar fint. En omstart på två minuter vid vägguttaget är alltid värd att prova först, eftersom det inte kostar något och tar mycket lite tid.",
+          "question": "Kan ett strömavbrott eller ett programvarufel orsaka E16 på en Bosch maskin?"
+        },
+        {
+          "answer": "De är besläktade men skilda fel. E16 innebär specifikt att dörren inte detekteras som stängd, medan E17 på vissa Bosch-modeller avser att dörren inte öppnas i slutet av ett program. Om din display visar E17 skiljer sig felsökningsstegen något, så kontrollera din modells manual eller en dedikerad E17-guide.",
+          "question": "Är E16 samma fel som E17 på Bosch tvättmaskiner?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T12:25:46.556272+00:00"
+    },
+    {
+      "article_id": 167,
+      "locale": "en",
+      "slug": "error-code-e19",
+      "title_tag": "Bosch Washing Machine Error Code E19 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E19? Learn what causes this heating fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E19 Mean on a Bosch Washing Machine?",
+      "description": "Error code E19 on a Bosch washing machine indicates that the water is taking too long to reach the target temperature, pointing to a fault with the heating element or temperature sensor.",
+      "quick_fix": "Clean the drum and check that the machine is not overloaded, then run a short hot cycle to see if the heating completes normally — an overloaded drum is the most overlooked cause of E19 and this check takes about 5 minutes.",
+      "intro_html": "<p>Error code E19 means your Bosch washing machine has detected that the water inside the drum is not reaching the required temperature within the expected time window. The machine monitors how long heating takes during a cycle, and when that window is exceeded, it stops the programme and displays E19 to protect the laundry and the appliance.</p><p>When this error appears, the wash cycle will typically pause or abort mid-programme. You may notice that the water feels cool or lukewarm when you open the door, or that the machine has been running far longer than usual before stopping. The drum may still contain water, so wait for any drain cycle to complete before opening the door.</p><p>The fault sits within the heating circuit — the component responsible for warming the water to the temperature you selected. In most cases the root cause is a failed heating element, a faulty NTC temperature sensor, or a wiring issue between these components and the main control board.</p>",
+      "causes_json": [
+        {
+          "cause": "Failed heating element",
+          "detail": "The heating element is the most common cause of E19. Over time, elements burn out or develop breaks in the coil, meaning they draw no power and produce no heat, so the water never warms up."
+        },
+        {
+          "cause": "Faulty NTC temperature sensor",
+          "detail": "The NTC sensor measures water temperature and reports it to the control board. If the sensor has drifted out of calibration or failed completely, the board may receive incorrect readings and conclude that heating is taking too long even when the element is working."
+        },
+        {
+          "cause": "Scale build-up on the heating element",
+          "detail": "In hard-water areas, limescale coats the surface of the heating element and acts as an insulator. This forces the element to work much harder and longer to heat the water, eventually triggering the E19 timeout."
+        },
+        {
+          "cause": "Wiring or connection fault",
+          "detail": "Loose, corroded, or damaged wiring between the heating element, the NTC sensor, and the control board can interrupt the circuit. The element may be physically intact but unable to receive power or send temperature data reliably."
+        },
+        {
+          "cause": "Overloaded drum",
+          "detail": "A heavily overloaded drum restricts water circulation around the heating element, slowing the rate at which the whole body of water warms. In borderline cases this can push heating time beyond the machine's threshold and trigger E19."
+        },
+        {
+          "cause": "Main control board fault",
+          "detail": "Less commonly, the control board itself may fail to send the correct voltage to the heating element or misinterpret sensor data. This is usually only suspected after the element and sensor have been tested and confirmed good."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the load size and redistribute laundry",
+          "detail": "Remove some items if the drum is packed tightly. A drum should be no more than three-quarters full for a standard wash. Restart the cycle and observe whether the machine completes the heating phase without displaying E19."
+        },
+        {
+          "step": 2,
+          "action": "Run a descaling cycle",
+          "detail": "Add a proprietary washing machine descaler to the drum — not the detergent drawer — and run the hottest cycle available, typically 90°C. Limescale on the element is a very common cause of slow heating in hard-water areas, and a descaling cycle can restore normal performance without any dismantling."
+        },
+        {
+          "step": 3,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the wall socket and leave it unplugged for at least two minutes. This clears any temporary error stored in the control board's memory. Plug back in, select a programme with a high wash temperature, and run it to see if the fault returns."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the wiring to the heating element and NTC sensor",
+          "detail": "Unplug the machine from the mains before doing anything inside. Pull the machine forward and remove the rear panel (usually held by two or three screws). Locate the heating element at the base of the drum and the NTC sensor clipped nearby. Check that all connectors are firmly seated and look for any signs of burning, corrosion, or broken wires. Reseat any loose connectors and replace any visibly damaged wiring."
+        },
+        {
+          "step": 5,
+          "action": "Test the heating element with a multimeter",
+          "detail": "With the machine unplugged, disconnect the two spade terminals from the heating element. Set a multimeter to resistance (Ohms) and place one probe on each terminal. A healthy Bosch heating element typically reads between 20 and 30 Ohms. A reading of zero (short circuit) or infinite resistance (open circuit) confirms the element has failed and needs replacing."
+        },
+        {
+          "step": 6,
+          "action": "Test the NTC temperature sensor",
+          "detail": "Disconnect the NTC sensor connector and measure its resistance at room temperature. Most Bosch NTC sensors read approximately 10,000–15,000 Ohms at 20°C. A reading far outside this range, or no reading at all, indicates a faulty sensor. NTC sensors are inexpensive and straightforward to swap out."
+        },
+        {
+          "step": 7,
+          "action": "Replace the faulty component",
+          "detail": "Once you have identified whether the heating element or NTC sensor has failed, source the correct replacement part using your machine's full model number (found on the label inside the door frame). Fit the new part, reassemble the machine, and run a full hot cycle to confirm the E19 error has cleared."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have tested both the heating element and the NTC sensor with a multimeter and both components read within normal ranges, the fault is likely in the wiring harness or the main control board — areas that require specialist diagnostic equipment and experience to assess safely. Attempting to repair or replace a control board without the correct knowledge risks further damage to the appliance.</p><p>You should also call a service technician if you are uncomfortable working inside the machine, if the wiring shows signs of burning or heat damage beyond a simple loose connector, or if the machine is still under warranty, as DIY repairs may void the cover.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch E19 fault are the heating element, the NTC temperature sensor, and — less frequently — the wiring harness that connects these components to the control board. Having the correct model number to hand before ordering ensures you receive a compatible part first time.</p><p>To reduce the risk of E19 recurring, run a dedicated descaling cycle every three to six months if you live in a hard-water area, always use the correct amount of detergent to minimise residue build-up, and avoid consistently overloading the drum. These habits extend the life of the heating element significantly.</p>\n<!-- SPARE_PARTS:E19 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. When E19 is active, the machine is not heating the water to the selected temperature, which means laundry will not be properly cleaned and hygiene cycles will not work as intended. Running repeated cycles in this state also puts additional strain on the heating circuit and could worsen the underlying fault.",
+          "question": "Can I still use my Bosch washing machine while it shows E19?"
+        },
+        {
+          "answer": "A replacement heating element for a Bosch washing machine typically costs between £20 and £50 for the part itself, depending on the model. If you fit it yourself the total cost stays low. A service technician call-out and fitting will add labour charges on top, so it is worth getting a quote before deciding whether to repair or replace an older machine.",
+          "question": "How much does it cost to replace a Bosch washing machine heating element?"
+        },
+        {
+          "answer": "Open the door and look for the rating label on the inner door frame or drum rim — it will show the full model number, usually starting with letters such as WAT, WAN, or WGB. Enter this number on a spare parts website to find the exact compatible element. Using the full model number rather than just the series name ensures you get the correct wattage and fitting.",
+          "question": "How do I find the right heating element for my specific Bosch model?"
+        },
+        {
+          "answer": "In rare cases, a sustained drop in mains voltage can reduce the power delivered to the heating element, causing it to heat more slowly than normal and potentially triggering the E19 timeout. If your neighbours are also experiencing electrical issues or you notice other appliances behaving unusually, contact your electricity supplier to check the supply voltage at your property.",
+          "question": "Could a low mains voltage cause the E19 error?"
+        },
+        {
+          "answer": "The error code will clear when you reset the machine by switching it off at the socket, but the underlying fault will remain. If the heating element or sensor is genuinely faulty, E19 will return as soon as you run another cycle that requires heating. A power cycle is useful for ruling out a temporary glitch, but a recurring E19 always needs investigation.",
+          "question": "Will E19 clear itself after the machine cools down?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T12:30:46.531543+00:00"
+    },
+    {
+      "article_id": 167,
+      "locale": "sv",
+      "slug": "felkod-e19",
+      "title_tag": "Bosch tvättmaskin felkod E19 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E19? Lär dig vad som orsakar detta uppvärmningsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E19 på en Bosch tvättmaskin?",
+      "description": "Felkod E19 på en Bosch tvättmaskin indikerar att vattnet tar för lång tid på sig att nå måltemperaturen, vilket pekar på ett fel med värmeelement eller temperaturgivare.",
+      "quick_fix": "Rengör trumman och kontrollera att maskinen inte är överfylld, kör sedan ett kort varmt program för att se om uppvärmningen slutförs normalt — en överfylld trumma är den mest förbisedda orsaken till E19 och den här kontrollen tar ungefär 5 minuter.",
+      "intro_html": "<p>Felkod E19 innebär att din Bosch tvättmaskin har upptäckt att vattnet i trumman inte når den erforderliga temperaturen inom den förväntade tidsramen. Maskinen övervakar hur lång tid uppvärmningen tar under ett program, och när den tiden överskrids avbryter den programmet och visar E19 för att skydda tvätten och maskinen.</p><p>När det här felet uppstår pausas eller avbryts tvättcykeln vanligtvis mitt i programmet. Du kan märka att vattnet känns kallt eller ljummet när du öppnar luckan, eller att maskinen har gått betydligt längre än normalt innan den stannade. Trumman kan fortfarande innehålla vatten, så vänta tills eventuell tömningscykel är klar innan du öppnar luckan.</p><p>Felet finns i uppvärmningskretsen — den komponent som ansvarar för att värma vattnet till den temperatur du valt. I de flesta fall är grundorsaken ett trasigt värmeelement, en defekt NTC-temperaturgivare eller ett kabelfel mellan dessa komponenter och huvudkortet.</p>",
+      "causes_json": [
+        {
+          "cause": "Trasigt värmeelement",
+          "detail": "Värmeelementet är den vanligaste orsaken till E19. Med tiden bränner element ut eller får brott i spolen, vilket innebär att de inte drar någon ström och inte producerar någon värme, så vattnet värms aldrig upp."
+        },
+        {
+          "cause": "Defekt NTC-temperaturgivare",
+          "detail": "NTC-givaren mäter vattentemperaturen och rapporterar den till styrkortet. Om givaren har driftat ur kalibrering eller slutat fungera helt kan kortet ta emot felaktiga avläsningar och dra slutsatsen att uppvärmningen tar för lång tid även när elementet fungerar."
+        },
+        {
+          "cause": "Kalkavlagringar på värmeelementet",
+          "detail": "I områden med hårt vatten belägger kalksten ytan på värmeelementet och fungerar som ett isoleringsmaterial. Detta tvingar elementet att arbeta mycket hårdare och längre för att värma vattnet, vilket till slut utlöser E19-tidsgränsen."
+        },
+        {
+          "cause": "Kabel- eller anslutningsfel",
+          "detail": "Lösa, korroderade eller skadade kablar mellan värmeelementet, NTC-givaren och styrkortet kan bryta kretsen. Elementet kan vara fysiskt intakt men oförmöget att ta emot ström eller skicka temperaturdata på ett tillförlitligt sätt."
+        },
+        {
+          "cause": "Överfylld trumma",
+          "detail": "En kraftigt överfylld trumma begränsar vattnets cirkulation runt värmeelementet, vilket saktar ner hastigheten med vilken hela vattenmängden värms upp. I gränsfall kan detta driva uppvärmningstiden bortom maskinens tröskel och utlösa E19."
+        },
+        {
+          "cause": "Fel på huvudkortet",
+          "detail": "Mer sällan kan styrkortet självt misslyckas med att skicka rätt spänning till värmeelementet eller feltolka givardata. Detta misstänks vanligtvis först efter att elementet och givaren har testats och bekräftats vara i gott skick."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera laststorleken och fördela om tvätten",
+          "detail": "Ta bort några plagg om trumman är hårt packad. En trumma bör vara högst tre fjärdedelar full för en standardtvätt. Starta om programmet och observera om maskinen slutför uppvärmningsfasen utan att visa E19."
+        },
+        {
+          "step": 2,
+          "action": "Kör ett avkalkningsprogram",
+          "detail": "Tillsätt ett avkalkningsmedel avsett för tvättmaskiner direkt i trumman — inte i tvättmedelsfacket — och kör det hetaste tillgängliga programmet, vanligtvis 90°C. Kalkavlagringar på elementet är en mycket vanlig orsak till långsam uppvärmning i hårvattensområden, och ett avkalkningsprogram kan återställa normal prestanda utan att maskinen behöver demonteras."
+        },
+        {
+          "step": 3,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara urkopplad i minst två minuter. Detta rensar eventuella tillfälliga fel som lagrats i styrkortet. Koppla in igen, välj ett program med hög tvätttemperatur och kör det för att se om felet återkommer."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera kablarna till värmeelementet och NTC-givaren",
+          "detail": "Koppla ur maskinen från elnätet innan du gör något inuti. Dra fram maskinen och ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar). Lokalisera värmeelementet vid trummans botten och NTC-givaren som sitter fastklämd i närheten. Kontrollera att alla kontakter sitter ordentligt och leta efter tecken på brännskador, korrosion eller trasiga kablar. Sätt tillbaka eventuella lösa kontakter och byt ut synligt skadade kablar."
+        },
+        {
+          "step": 5,
+          "action": "Testa värmeelementet med en multimeter",
+          "detail": "Med maskinen urkopplad, koppla loss de två flatstiftsanslutningarna från värmeelementet. Ställ in en multimeter på motstånd (Ohm) och placera en mätspets på varje anslutning. Ett friskt Bosch värmeelement läser vanligtvis mellan 20 och 30 Ohm. En avläsning på noll (kortslutning) eller oändligt motstånd (öppen krets) bekräftar att elementet har gått sönder och behöver bytas."
+        },
+        {
+          "step": 6,
+          "action": "Testa NTC-temperaturgivaren",
+          "detail": "Koppla loss NTC-givarens kontakt och mät dess motstånd vid rumstemperatur. De flesta Bosch NTC-givare läser ungefär 10 000–15 000 Ohm vid 20°C. En avläsning långt utanför detta intervall, eller ingen avläsning alls, indikerar en defekt givare. NTC-givare är billiga och enkla att byta ut."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut den defekta komponenten",
+          "detail": "När du har identifierat om värmeelementet eller NTC-givaren har gått sönder, beställ rätt reservdel med hjälp av maskinens fullständiga modellnummer (finns på etiketten inuti luckkanten). Montera den nya delen, sätt ihop maskinen och kör ett fullständigt varmt program för att bekräfta att E19-felet är åtgärdat."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har testat både värmeelementet och NTC-givaren med en multimeter och båda komponenterna visar värden inom normala intervall, beror felet troligtvis på kabelstammen eller huvudkortet — områden som kräver specialiserad diagnostikutrustning och erfarenhet för att bedömas på ett säkert sätt. Att försöka reparera eller byta ut ett styrkort utan rätt kunskaper riskerar att orsaka ytterligare skador på maskinen.</p><p>Du bör också kontakta en servicetekniker om du känner dig osäker på att arbeta inuti maskinen, om kablarna visar tecken på brännskador eller värmeskador utöver en enkel lös kontakt, eller om maskinen fortfarande är under garanti, eftersom DIY-reparationer kan ogiltigförklara garantin.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett Bosch E19-fel är värmeelementet, NTC-temperaturgivaren och — mer sällan — kabelstammen som förbinder dessa komponenter med styrkortet. Att ha rätt modellnummer till hands innan du beställer säkerställer att du får en kompatibel del direkt.</p><p>För att minska risken för att E19 återkommer, kör ett dedikerat avkalkningsprogram var tredje till sjätte månad om du bor i ett hårvattensområde, använd alltid rätt mängd tvättmedel för att minimera avlagringar och undvik att konsekvent överfylla trumman. Dessa vanor förlänger värmeelementets livslängd avsevärt.</p>\n<!-- SPARE_PARTS:E19 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte att rekommendera. När E19 är aktivt värmer maskinen inte vattnet till den valda temperaturen, vilket innebär att tvätten inte rengörs ordentligt och att hygienprogrammen inte fungerar som avsett. Att köra upprepade program i detta tillstånd belastar också uppvärmningskretsen ytterligare och kan förvärra det underliggande felet.",
+          "question": "Kan jag fortfarande använda min Bosch tvättmaskin när den visar E19?"
+        },
+        {
+          "answer": "Ett ersättningsvärmeelement till en Bosch tvättmaskin kostar vanligtvis mellan 250 och 600 kronor för själva delen, beroende på modell. Om du monterar det själv hålls totalkostnaden låg. En serviceteknikers utryckning och montering tillkommer med arbetskostnad, så det är värt att begära en offert innan du bestämmer dig för om du ska reparera eller byta ut en äldre maskin.",
+          "question": "Hur mycket kostar det att byta värmeelement i en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Öppna luckan och leta efter typskylten på den inre luckkanten eller trumkanten — den visar det fullständiga modellnumret, som vanligtvis börjar med bokstäver som WAT, WAN eller WGB. Ange detta nummer på en reservdelswebbplats för att hitta det exakt kompatibla elementet. Att använda det fullständiga modellnumret snarare än bara serienamnet säkerställer att du får rätt watttal och passform.",
+          "question": "Hur hittar jag rätt värmeelement för min specifika Bosch-modell?"
+        },
+        {
+          "answer": "I sällsynta fall kan ett ihållande spänningsfall minska den effekt som levereras till värmeelementet, vilket gör att det värmer långsammare än normalt och potentiellt utlöser E19-tidsgränsen. Om dina grannar också upplever elproblem eller om du märker att andra apparater beter sig ovanligt, kontakta din elleverantör för att kontrollera nätspänningen vid din fastighet.",
+          "question": "Kan låg nätspänning orsaka E19-felet?"
+        },
+        {
+          "answer": "Felkoden försvinner när du återställer maskinen genom att stänga av den vid uttaget, men det underliggande felet kvarstår. Om värmeelementet eller givaren verkligen är defekt återkommer E19 så snart du kör ett nytt program som kräver uppvärmning. En omstart är användbar för att utesluta ett tillfälligt fel, men ett återkommande E19 behöver alltid undersökas.",
+          "question": "Försvinner E19 av sig självt när maskinen svalnar?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T12:31:56.459932+00:00"
+    },
+    {
+      "article_id": 168,
+      "locale": "en",
+      "slug": "error-code-e20",
+      "title_tag": "Bosch Washing Machine Error Code E20 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E20? Learn what causes unexpected heating faults, how to fix them yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E20 Mean on a Bosch Washing Machine?",
+      "description": "Error code E20 on a Bosch washing machine indicates an unexpected heating fault, where the control board has detected that the heating element is activating at the wrong time or outside of normal parameters.",
+      "quick_fix": "Power cycle the machine by switching it off at the wall, waiting 5 minutes, then switching it back on and restarting the programme — this clears temporary control board errors and resolves the fault in many cases (takes about 5 minutes).",
+      "intro_html": "<p>Error code E20 signals that your Bosch washing machine's control board has detected heating activity when it shouldn't be occurring, or that the heating circuit is behaving in an unexpected way. This is classified as a control board fault because the board is responsible for monitoring and authorising when the heating element switches on and off during a wash cycle.</p><p>When E20 appears, the machine will typically pause mid-cycle or refuse to start a new programme. In some cases you may notice the drum filling with water but the cycle not progressing, or the machine stopping shortly after the wash phase begins. The display will show E20 and the machine will lock out further operation until the fault is addressed.</p><p>This fault can stem from a genuine electrical component failure, but it is also frequently triggered by a temporary software glitch in the control board — meaning a simple reset is always worth trying first before investigating further.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary control board software glitch",
+          "detail": "The control board can occasionally misread sensor data or lose its programme state, causing it to flag a heating fault incorrectly. A power cycle clears the board's memory and resolves this without any parts replacement."
+        },
+        {
+          "cause": "Faulty NTC temperature sensor",
+          "detail": "The NTC sensor monitors water temperature and feeds readings back to the control board. If the sensor is sending incorrect or erratic readings, the board may interpret this as unexpected heating and trigger E20."
+        },
+        {
+          "cause": "Heating element failure or short circuit",
+          "detail": "A heating element that has partially failed or developed an internal short can activate outside of its normal cycle window. The control board detects this irregular behaviour and raises the E20 fault to prevent overheating."
+        },
+        {
+          "cause": "Wiring harness damage between the heating circuit and control board",
+          "detail": "Loose, corroded, or damaged wiring connecting the heating element, NTC sensor, or relay to the control board can cause false signals. This can make the board believe heating is occurring when it is not, or vice versa."
+        },
+        {
+          "cause": "Faulty control board (PCB)",
+          "detail": "If the relay on the control board that switches the heating element on and off has failed in the closed position, the element may receive power continuously. This is a less common but serious cause that typically requires board replacement."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the washing machine",
+          "detail": "Turn the machine off using the power button, then switch it off at the wall socket. Leave it unplugged for at least 5 minutes to allow the control board to fully reset. Plug it back in, select a short programme such as a quick wash, and observe whether E20 returns."
+        },
+        {
+          "step": 2,
+          "action": "Check for any active error history and note the conditions",
+          "detail": "Before dismantling anything, note when E20 appeared — was it at the start of the cycle, during the wash phase, or during rinse? This helps narrow down whether the fault is heating-related or sensor-related. If the error only appears on hot wash programmes, the heating element or NTC sensor is more likely to be involved."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the wiring connections to the heating element and NTC sensor",
+          "detail": "Disconnect the machine from the mains before doing this. Remove the rear panel to access the heating element, which is located at the bottom of the drum. Check that all connectors are firmly seated and look for any signs of burning, corrosion, or broken wires. Reseat any loose connectors and replace any visibly damaged wiring."
+        },
+        {
+          "step": 4,
+          "action": "Test the NTC temperature sensor",
+          "detail": "Using a multimeter set to resistance (ohms), disconnect the NTC sensor connector and measure across its two terminals. At room temperature, a healthy NTC sensor typically reads between 10,000 and 20,000 ohms depending on the model. A reading of zero, infinity, or wildly outside this range indicates a faulty sensor that should be replaced."
+        },
+        {
+          "step": 5,
+          "action": "Test the heating element for continuity and insulation",
+          "detail": "With the machine unplugged, disconnect the heating element terminals and use a multimeter to check for continuity across the two main terminals — you should get a reading of roughly 20–30 ohms. Also check between each terminal and the machine's metal chassis; any continuity here indicates an earth fault and the element must be replaced."
+        },
+        {
+          "step": 6,
+          "action": "Replace the NTC sensor or heating element if faulty",
+          "detail": "Both parts are accessible from the rear of the machine. The NTC sensor clips into the heating element housing and is straightforward to swap out. The heating element requires draining the drum and removing the element retaining nut. Use only genuine Bosch-compatible parts to ensure correct resistance and temperature ratings."
+        },
+        {
+          "step": 7,
+          "action": "If the fault persists after replacing sensors and the element, suspect the control board",
+          "detail": "A control board with a stuck heating relay will continue to trigger E20 regardless of other repairs. At this stage, further diagnosis requires specialist equipment to test the relay and board circuits. This is the point at which calling a service technician is the most practical and cost-effective route."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have completed a power cycle, inspected the wiring, and tested or replaced the NTC sensor and heating element but E20 continues to appear, the fault is most likely within the control board itself. A failed relay or damaged PCB track cannot be reliably diagnosed or repaired without specialist tools and component-level knowledge.</p><p>You should also call a service technician immediately if you notice any burning smell, scorch marks around the heating element area, or signs of water leaking near electrical components. These symptoms indicate a risk of further damage or a safety hazard that goes beyond routine DIY repair.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch E20 fault are the NTC temperature sensor, the heating element, and in persistent cases, the main control board (PCB). Having the correct part reference for your specific model number will save time — the model number is printed on a label inside the door seal on most Bosch washing machines.</p><p>Search for compatible parts using your full model number to ensure the correct resistance rating and connector type. Fitting an incorrect heating element is a common cause of recurring faults on this error code.</p>\n<!-- SPARE_PARTS:E20 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to continue using the machine with an active E20 fault. The error indicates the heating circuit is behaving unexpectedly, which could mean the element is running continuously. This risks overheating the water, damaging laundry, or causing further electrical damage to the control board.",
+          "question": "Can I still use my Bosch washing machine while it shows E20?"
+        },
+        {
+          "answer": "The most reliable way to clear E20 is to switch the machine off at the wall for 5 minutes, then restart it. If the underlying fault has been resolved — whether by a reset, a sensor replacement, or an element swap — the code will not return. If it reappears immediately, the root cause has not yet been fixed.",
+          "question": "How do I clear the E20 error code on a Bosch washing machine?"
+        },
+        {
+          "answer": "If your machine is within its standard warranty period and the fault is due to a manufacturing defect rather than accidental damage or misuse, Bosch should cover the repair. Contact Bosch customer support directly with your model number and proof of purchase before attempting any DIY repairs, as self-repair may affect your warranty.",
+          "question": "Is the E20 fault covered under Bosch warranty?"
+        },
+        {
+          "answer": "If the fix is a power cycle or a new NTC sensor, costs are minimal — sensors typically cost between £10 and £25. A replacement heating element usually costs £20–£50 for the part. If the control board needs replacing, parts alone can range from £80 to £200 depending on the model, plus labour if a service technician carries out the work.",
+          "question": "How much does it typically cost to repair a Bosch E20 fault?"
+        },
+        {
+          "answer": "A blocked pump filter is not a direct cause of E20, which is specifically a heating circuit fault. However, a heavily restricted machine can sometimes cause the control board to behave erratically. It is still good practice to check and clean the pump filter as part of general maintenance, but it is unlikely to resolve an E20 fault on its own.",
+          "question": "Could a blocked filter cause the E20 error on a Bosch washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T12:32:45.624789+00:00"
+    },
+    {
+      "article_id": 168,
+      "locale": "sv",
+      "slug": "felkod-e20",
+      "title_tag": "Bosch tvättmaskin felkod E20 | Åtgärda felet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E20? Lär dig vad som orsakar oväntade uppvärmningsfel, hur du åtgärdar dem själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E20 på en Bosch tvättmaskin?",
+      "description": "Felkod E20 på en Bosch tvättmaskin indikerar ett oväntat uppvärmningsfel, där styrkortet har upptäckt att värmeelement aktiveras vid fel tidpunkt eller utanför normala parametrar.",
+      "quick_fix": "Starta om maskinen genom att stänga av den med strömknappen, koppla ur den från vägguttaget och vänta 5 minuter innan du kopplar in den igen och startar om programmet — detta rensar tillfälliga fel i styrkortet och löser felet i många fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E20 signalerar att Bosch tvättmaskinens styrkort har upptäckt uppvärmningsaktivitet när den inte borde förekomma, eller att uppvärmningskretsen beter sig på ett oväntat sätt. Detta klassificeras som ett styrkortsfel eftersom kortet ansvarar för att övervaka och godkänna när värmeelementet slås på och av under ett tvättprogram.</p><p>När E20 visas pausar maskinen vanligtvis mitt i ett program eller vägrar att starta ett nytt. I vissa fall kan du märka att trumman fylls med vatten men att programmet inte fortskrider, eller att maskinen stannar kort efter att tvättfasen har börjat. Displayen visar E20 och maskinen låser sig tills felet har åtgärdats.</p><p>Felet kan bero på ett verkligt elektriskt komponentfel, men det utlöses också ofta av en tillfällig programvarustörning i styrkortet — vilket innebär att en enkel återställning alltid är värd att prova innan du undersöker vidare.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfällig programvarustörning i styrkortet",
+          "detail": "Styrkortet kan ibland feltolka sensordata eller förlora sitt programtillstånd, vilket gör att det felaktigt flaggar ett uppvärmningsfel. En omstart rensar kortets minne och löser problemet utan att några delar behöver bytas."
+        },
+        {
+          "cause": "Defekt NTC-temperatursensor",
+          "detail": "NTC-sensorn övervakar vattentemperaturen och skickar avläsningar tillbaka till styrkortet. Om sensorn skickar felaktiga eller oregelbundna värden kan kortet tolka detta som oväntad uppvärmning och utlösa E20."
+        },
+        {
+          "cause": "Värmeelement som havererat eller kortslutit",
+          "detail": "Ett värmeelement som delvis havererat eller utvecklat en intern kortslutning kan aktiveras utanför sitt normala programfönster. Styrkortet upptäcker detta oregelbundna beteende och utlöser E20-felet för att förhindra överhettning."
+        },
+        {
+          "cause": "Skada på kabelstammen mellan uppvärmningskretsen och styrkortet",
+          "detail": "Lösa, korroderade eller skadade kablar som förbinder värmeelementet, NTC-sensorn eller reläet med styrkortet kan orsaka falska signaler. Detta kan få kortet att tro att uppvärmning sker när den inte gör det, eller tvärtom."
+        },
+        {
+          "cause": "Defekt styrkort (PCB)",
+          "detail": "Om reläet på styrkortet som slår värmeelementet på och av har fastnat i slutet läge kan elementet få ström kontinuerligt. Detta är en mindre vanlig men allvarlig orsak som vanligtvis kräver att kortet byts ut."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om tvättmaskinen",
+          "detail": "Stäng av maskinen med strömknappen och koppla sedan ur den från vägguttaget. Låt den vara urkopplad i minst 5 minuter så att styrkortet hinner återställas helt. Koppla in den igen, välj ett kort program som snabbtvättning och observera om E20 återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera eventuell felhistorik och notera omständigheterna",
+          "detail": "Innan du demonterar något, notera när E20 uppträdde — var det i början av programmet, under tvättfasen eller under sköljningen? Detta hjälper dig att avgöra om felet är uppvärmnings- eller sensorbaserat. Om felet bara uppträder vid program med varmtvätt är värmeelementet eller NTC-sensorn troligare inblandade."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera kabelanslutningarna till värmeelementet och NTC-sensorn",
+          "detail": "Koppla ur maskinen från elnätet innan du gör detta. Ta bort bakpanelen för att komma åt värmeelementet, som sitter längst ner i trumman. Kontrollera att alla kontakter sitter ordentligt och leta efter tecken på brännskador, korrosion eller trasiga kablar. Sätt tillbaka lösa kontakter och byt ut synligt skadade kablar."
+        },
+        {
+          "step": 4,
+          "action": "Testa NTC-temperatursensorn",
+          "detail": "Använd en multimeter inställd på motstånd (ohm), koppla loss NTC-sensorns kontakt och mät över dess två anslutningar. Vid rumstemperatur ger en felfri NTC-sensor vanligtvis ett värde mellan 10 000 och 20 000 ohm beroende på modell. Ett värde på noll, oändlighet eller långt utanför detta intervall indikerar en defekt sensor som bör bytas ut."
+        },
+        {
+          "step": 5,
+          "action": "Testa värmeelementet för kontinuitet och isolering",
+          "detail": "Med maskinen urkopplad, lossa värmeelementets anslutningar och använd en multimeter för att kontrollera kontinuiteten över de två huvudanslutningarna — du bör få ett värde på ungefär 20–30 ohm. Kontrollera också mellan varje anslutning och maskinens metallram; eventuell kontinuitet här indikerar ett jordfel och elementet måste bytas ut."
+        },
+        {
+          "step": 6,
+          "action": "Byt ut NTC-sensorn eller värmeelementet om de är defekta",
+          "detail": "Båda delarna är åtkomliga från maskinens baksida. NTC-sensorn clips fast i värmeelementets hus och är enkel att byta ut. Värmeelementet kräver att trumman töms och att elementets fästmutter tas bort. Använd endast Bosch-kompatibla originaldelar för att säkerställa korrekt motstånd och temperaturklassning."
+        },
+        {
+          "step": 7,
+          "action": "Om felet kvarstår efter att sensorer och element bytts ut, misstänk styrkortet",
+          "detail": "Ett styrkort med ett fastnat uppvärmningsrelä fortsätter att utlösa E20 oavsett andra reparationer. I detta skede krävs specialutrustning för att testa reläet och kortkretsar. Det är nu som det är mest praktiskt och kostnadseffektivt att kontakta en servicetekniker."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har genomfört en omstart, kontrollerat kablarna och testat eller bytt ut NTC-sensorn och värmeelementet men E20 fortsätter att visas, beror felet troligtvis på styrkortet. Ett havererat relä eller en skadad ledningsbana på kretskortet kan inte diagnostiseras eller repareras på ett tillförlitligt sätt utan specialverktyg och komponentnivåkunskap.</p><p>Du bör också omedelbart kontakta en servicetekniker om du märker bränd lukt, brännmärken runt värmeelementets område eller tecken på vattenläckage nära elektriska komponenter. Dessa symptom indikerar risk för ytterligare skador eller en säkerhetsrisk som går utöver vanlig DIY-reparation.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett Bosch E20-fel är NTC-temperatursensorn, värmeelementet och i ihållande fall det huvudsakliga styrkortet (PCB). Att ha rätt delnummer för din specifika modell sparar tid — modellnumret finns tryckt på en etikett inuti dörrtätningen på de flesta Bosch tvättmaskiner.</p><p>Sök efter kompatibla delar med ditt fullständiga modellnummer för att säkerställa korrekt motståndsvärde och kontakttyp. Att montera ett felaktigt värmeelement är en vanlig orsak till återkommande fel med denna felkod.</p>\n<!-- SPARE_PARTS:E20 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte lämpligt att fortsätta använda maskinen med ett aktivt E20-fel. Felet indikerar att uppvärmningskretsen beter sig oväntat, vilket kan innebära att elementet körs kontinuerligt. Detta riskerar att överhetta vattnet, skada tvätten eller orsaka ytterligare elektriska skador på styrkortet.",
+          "question": "Kan jag fortsätta använda min Bosch tvättmaskin när den visar E20?"
+        },
+        {
+          "answer": "Det mest tillförlitliga sättet att rensa E20 är att stänga av maskinen vid vägguttaget i 5 minuter och sedan starta om den. Om det underliggande felet har åtgärdats — oavsett om det skett via en återställning, ett sensorbyte eller ett elementbyte — kommer koden inte att återkomma. Om den dyker upp igen omedelbart har grundorsaken ännu inte åtgärdats.",
+          "question": "Hur rensar jag felkod E20 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Om din maskin är inom sin ordinarie garantiperiod och felet beror på ett tillverkningsfel snarare än olycksskada eller felaktig användning, bör Bosch täcka reparationen. Kontakta Bosch kundtjänst direkt med ditt modellnummer och inköpsbevis innan du försöker utföra några DIY-reparationer, eftersom egenreparation kan påverka din garanti.",
+          "question": "Täcks E20-felet av Bosch garanti?"
+        },
+        {
+          "answer": "Om lösningen är en omstart eller en ny NTC-sensor är kostnaderna minimala — sensorer kostar vanligtvis mellan 100 och 250 kronor. Ett ersättningsvärmeelement kostar vanligtvis 200–500 kronor för delen. Om styrkortet behöver bytas ut kan enbart delarna kosta mellan 800 och 2 000 kronor beroende på modell, plus arbetskostnad om en servicetekniker utför arbetet.",
+          "question": "Hur mycket kostar det vanligtvis att reparera ett Bosch E20-fel?"
+        },
+        {
+          "answer": "Ett igensatt pumpfilter är inte en direkt orsak till E20, som specifikt är ett uppvärmningskretsfel. Däremot kan en kraftigt belastad maskin ibland få styrkortet att bete sig oregelbundet. Det är ändå god praxis att kontrollera och rengöra pumpfiltret som en del av det allmänna underhållet, men det är osannolikt att det löser ett E20-fel på egen hand.",
+          "question": "Kan ett igensatt filter orsaka E20-felet på en Bosch tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T12:33:51.099772+00:00"
+    },
+    {
+      "article_id": 169,
+      "locale": "en",
+      "slug": "error-code-e21",
+      "title_tag": "Bosch Washing Machine Error Code E21 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E21? Learn what causes this motor fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E21 Mean on a Bosch Washing Machine?",
+      "description": "Error code E21 on a Bosch washing machine indicates a motor fault caused by a blocked drum, worn carbon brushes, or a failing motor.",
+      "quick_fix": "Turn the machine off, unplug it, and manually rotate the drum by hand through the door to check for obstructions — if it spins freely, plug back in and restart the cycle to clear the error (takes about 5 minutes).",
+      "intro_html": "<p>Error code E21 on a Bosch washing machine points to a problem with the motor drive system. The machine's control board has detected that the motor is not performing as expected — either it cannot turn the drum at all, is struggling under load, or has lost the ability to reach the correct speed during a wash or spin cycle.</p><p>When E21 appears, the machine will typically stop mid-cycle and refuse to continue. You may notice the drum has stalled, or the appliance may have halted before the spin phase even began. In some cases the display will flash the code repeatedly until the fault is addressed.</p><p>The good news is that not every E21 fault requires a new motor. A blocked drum or worn carbon brushes are common culprits that are straightforward to investigate at home before spending money on parts or a call-out.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked or jammed drum",
+          "detail": "A small item such as a coin, underwire, or button can become lodged between the drum and the door seal or drum casing, preventing the motor from turning freely. This is the most common trigger for E21 and the easiest to rule out."
+        },
+        {
+          "cause": "Worn or failed carbon brushes",
+          "detail": "Carbon brushes transfer electrical current to the motor's rotating armature. Over time they wear down and lose contact, causing the motor to cut out or run erratically. This is a very common wear part on older Bosch machines and is relatively inexpensive to replace."
+        },
+        {
+          "cause": "Faulty motor",
+          "detail": "If the brushes are in good condition but the motor still fails to run correctly, the motor windings or internal components may have failed. This is less common but does occur on machines with high mileage or after a power surge."
+        },
+        {
+          "cause": "Wiring or connection fault",
+          "detail": "The wiring harness between the control board and the motor can develop loose connections, chafing, or breaks — particularly where cables pass near moving parts. A poor connection can mimic a motor fault without the motor itself being at fault."
+        },
+        {
+          "cause": "Faulty motor control module or main PCB",
+          "detail": "The motor control board regulates speed and torque signals sent to the motor. If this module develops a fault, it can incorrectly report a motor error even when the motor is mechanically sound."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Before doing anything else, turn the programme dial to off and disconnect the machine from the mains. Wait at least two minutes to allow any residual charge in the control board to dissipate. This also gives the motor a chance to cool if it has been running under strain."
+        },
+        {
+          "step": 2,
+          "action": "Check the drum for obstructions",
+          "detail": "Open the door and reach around the inside of the drum seal, feeling for any foreign objects caught between the rubber gasket and the drum rim. Try rotating the drum by hand — it should turn with moderate resistance but should not feel locked or gritty. If you feel something solid, use a torch to locate and remove it."
+        },
+        {
+          "step": 3,
+          "action": "Check the filter for blockages",
+          "detail": "A severely blocked pump filter can place extra load on the motor during drain cycles. Locate the filter behind the small access panel at the bottom front of the machine, place a towel down, unscrew the cap slowly, and clear any debris. Rinse the filter under a tap before refitting."
+        },
+        {
+          "step": 4,
+          "action": "Restart the machine and run a short cycle",
+          "detail": "Plug the machine back in and select a short cotton cycle or a rinse and spin programme. Watch and listen during the first few minutes — a healthy motor will hum steadily as the drum builds speed. If E21 returns immediately, move on to inspecting the carbon brushes."
+        },
+        {
+          "step": 5,
+          "action": "Inspect and replace the carbon brushes",
+          "detail": "Pull the machine away from the wall and remove the back panel using a screwdriver. The motor is located at the bottom of the machine. The carbon brushes sit in holders on either side of the motor and can usually be released with a flat-head screwdriver. If the brushes are shorter than 10–12 mm or visibly crumbled, they need replacing. Fit new brushes, refit the panel, and test again."
+        },
+        {
+          "step": 6,
+          "action": "Check motor wiring connections",
+          "detail": "With the back panel still off, trace the wiring from the motor up to the control board. Look for any connectors that appear loose, corroded, or have visible damage to the insulation. Press each connector firmly home and check that no wires have rubbed through against the drum casing or chassis."
+        },
+        {
+          "step": 7,
+          "action": "Test the motor or motor control board",
+          "detail": "If all the above steps have been completed and E21 persists, the motor itself or the motor control module is likely faulty. Testing these components accurately requires a multimeter and knowledge of the expected resistance values for your specific model. At this point it is sensible to contact a service technician for a definitive diagnosis."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have cleared any drum obstruction, replaced the carbon brushes, and checked all wiring connections but the E21 code continues to appear, the fault is most likely inside the motor itself or within the motor control board. These components require specialist testing equipment to diagnose accurately, and fitting the wrong part can be costly.</p><p>You should also call a service technician if the machine produces a burning smell, makes a loud grinding noise during attempted operation, or if you are not comfortable working around electrical components with the back panel removed. A qualified technician can test motor resistance values and confirm whether the motor or PCB needs replacing.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch E21 fault are the carbon brushes, the motor itself, and the motor control module. Carbon brushes are a routine wear item and are worth keeping an eye on if your machine is more than five years old — replacing them proactively before they fail completely can prevent motor damage caused by arcing. The motor control module is worth inspecting if the machine has experienced a power surge or has a history of intermittent motor errors.</p><p>Search for compatible parts using your full model number, which is printed on a label inside the door frame. Genuine Bosch parts or quality aftermarket equivalents are both suitable options for these repairs.</p>\n<!-- SPARE_PARTS:E21 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to continue using the machine while E21 is active. The error means the motor is not operating correctly, and running further cycles could cause additional damage to the motor windings or control board. Address the fault first, then resume normal use.",
+          "question": "Can I still use my Bosch washing machine if it shows E21?"
+        },
+        {
+          "answer": "Carbon brushes typically last between five and ten years depending on how frequently the machine is used. Households that run the machine daily will see brushes wear faster than those using it a few times a week. Replacing them is a straightforward job and the parts are inexpensive.",
+          "question": "How long do carbon brushes last on a Bosch washing machine?"
+        },
+        {
+          "answer": "A power reset — unplugging for two minutes and restarting — may temporarily clear the code if the error was caused by a one-off motor overload or a brief obstruction. However, if the underlying cause such as worn brushes or a blocked drum is not resolved, the code will return within the next cycle.",
+          "question": "Will resetting the machine clear the E21 error code?"
+        },
+        {
+          "answer": "A replacement motor for a Bosch washing machine typically costs between £60 and £150 for the part, depending on the model. If a service technician fits it, labour charges will add to this. Carbon brushes, by comparison, usually cost under £15 and are worth trying first.",
+          "question": "How much does it cost to replace a Bosch washing machine motor?"
+        },
+        {
+          "answer": "No — E17 and E18 relate to water inlet and filling faults, while E21 is specific to the motor drive system. Each error code points to a different component group, so it is important to follow the correct troubleshooting steps for the code your machine is displaying.",
+          "question": "Is E21 the same as an E18 or E17 error on Bosch machines?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T12:34:39.885319+00:00"
+    },
+    {
+      "article_id": 169,
+      "locale": "sv",
+      "slug": "felkod-e21",
+      "title_tag": "Bosch tvättmaskin felkod E21 | Åtgärda felet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E21? Lär dig vad som orsakar detta motorfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E21 på en Bosch tvättmaskin?",
+      "description": "Felkod E21 på en Bosch tvättmaskin indikerar ett motorfel orsakat av en blockerad trumma, slitna kolborstar eller en defekt motor.",
+      "quick_fix": "Stäng av maskinen, dra ur kontakten och rotera trumman för hand genom luckan för att kontrollera om något blockerar den — om den snurrar fritt, sätt i kontakten igen och starta om programmet för att rensa felet (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E21 på en Bosch tvättmaskin pekar på ett problem med motorns drivsystem. Maskinens styrkort har registrerat att motorn inte fungerar som förväntat — antingen kan den inte rotera trumman alls, kämpar under belastning eller har förlorat förmågan att nå rätt hastighet under ett tvätt- eller centrifugeringsprogram.</p><p>När E21 visas stannar maskinen vanligtvis mitt i ett program och vägrar att fortsätta. Du kan märka att trumman har stannat, eller att maskinen har avbrutit programmet innan centrifugeringsfasen ens börjat. I vissa fall blinkar koden upprepade gånger tills felet åtgärdas.</p><p>Den goda nyheten är att inte varje E21-fel kräver en ny motor. En blockerad trumma eller slitna kolborstar är vanliga orsaker som är enkla att undersöka hemma innan du lägger pengar på reservdelar eller ett servicebesök.</p>",
+      "causes_json": [
+        {
+          "cause": "Blockerad eller fastklämd trumma",
+          "detail": "Ett litet föremål som ett mynt, en bysthållartråd eller en knapp kan fastna mellan trumman och dörrtätningen eller trummans hölje och hindra motorn från att rotera fritt. Detta är den vanligaste orsaken till E21 och den enklaste att utesluta."
+        },
+        {
+          "cause": "Slitna eller defekta kolborstar",
+          "detail": "Kolborstar överför elektrisk ström till motorns roterande ankare. Med tiden slits de ned och förlorar kontakten, vilket gör att motorn stängs av eller går oregelbundet. Detta är en mycket vanlig slitdel på äldre Bosch-maskiner och är relativt billig att byta ut."
+        },
+        {
+          "cause": "Defekt motor",
+          "detail": "Om borstarna är i gott skick men motorn ändå inte fungerar korrekt kan motorlindningarna eller interna komponenter ha gått sönder. Detta är mindre vanligt men förekommer på maskiner med hög användning eller efter ett strömöverspänning."
+        },
+        {
+          "cause": "Kabelfel eller anslutningsfel",
+          "detail": "Kabelstammen mellan styrkortet och motorn kan utveckla lösa anslutningar, nötning eller brott — särskilt där kablar passerar nära rörliga delar. En dålig anslutning kan efterlikna ett motorfel utan att motorn i sig är defekt."
+        },
+        {
+          "cause": "Defekt motorstyrmodul eller huvud-PCB",
+          "detail": "Motorstyrkortet reglerar hastighets- och vridmomentsignaler som skickas till motorn. Om denna modul får ett fel kan den felaktigt rapportera ett motorfel även när motorn är mekaniskt felfri."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och dra ur maskinen",
+          "detail": "Innan du gör något annat, vrid programväljaren till av och koppla bort maskinen från elnätet. Vänta minst två minuter för att låta eventuell kvarvarande laddning i styrkortet försvinna. Detta ger också motorn en chans att svalna om den har arbetat under belastning."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera trumman för hinder",
+          "detail": "Öppna luckan och känn längs insidan av trummans tätning efter eventuella främmande föremål som fastnat mellan gummitätningen och trummans kant. Försök rotera trumman för hand — den ska rotera med måttligt motstånd men ska inte kännas låst eller grusig. Om du känner något fast föremål, använd en ficklampa för att lokalisera och ta bort det."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera filtret för igensättning",
+          "detail": "Ett kraftigt igensatt pumpfilter kan belasta motorn extra under tömningscykler. Lokalisera filtret bakom den lilla åtkomstluckan längst ned på maskinens framsida, lägg en handduk under, skruva långsamt loss locket och rensa bort eventuellt skräp. Skölj filtret under kranen innan du sätter tillbaka det."
+        },
+        {
+          "step": 4,
+          "action": "Starta om maskinen och kör ett kort program",
+          "detail": "Sätt i kontakten igen och välj ett kort bomullsprogram eller ett sköljnings- och centrifugeringsprogram. Titta och lyssna under de första minuterna — en frisk motor surrar jämnt när trumman ökar hastigheten. Om E21 återkommer omedelbart, gå vidare till att inspektera kolborstarna."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera och byt kolborstar",
+          "detail": "Dra ut maskinen från väggen och ta bort bakpanelen med en skruvmejsel. Motorn sitter längst ned i maskinen. Kolborstarna sitter i hållare på vardera sidan av motorn och kan vanligtvis lossas med en platt skruvmejsel. Om borstarna är kortare än 10–12 mm eller synligt smulade behöver de bytas. Montera nya borstar, sätt tillbaka panelen och testa igen."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera motorns kabelanslutningar",
+          "detail": "Med bakpanelen fortfarande borttagen, följ kablarna från motorn upp till styrkortet. Leta efter anslutningar som verkar lösa, korroderade eller har synliga skador på isoleringen. Tryck in varje anslutning ordentligt och kontrollera att inga kablar har nötts igenom mot trummans hölje eller chassit."
+        },
+        {
+          "step": 7,
+          "action": "Testa motorn eller motorstyrkortet",
+          "detail": "Om alla ovanstående steg har genomförts och E21 kvarstår är det troligt att motorn själv eller motorstyrmodulen är defekt. Att testa dessa komponenter korrekt kräver en multimeter och kunskap om de förväntade resistansvärdena för din specifika modell. Vid det här laget är det klokt att kontakta en servicetekniker för en definitiv diagnos."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har åtgärdat eventuella hinder i trumman, bytt kolborstar och kontrollerat alla kabelanslutningar men E21-koden fortsätter att visas, är felet troligtvis inne i motorn själv eller i motorstyrkortet. Dessa komponenter kräver specialutrustning för att diagnostiseras korrekt, och att montera fel del kan bli kostsamt.</p><p>Du bör också kontakta en servicetekniker om maskinen avger en bränd lukt, ger ifrån sig ett högt slipljud vid försök till drift, eller om du inte känner dig bekväm med att arbeta nära elektriska komponenter med bakpanelen borttagen. En behörig tekniker kan mäta motorns resistansvärden och bekräfta om motorn eller PCB-kortet behöver bytas.</p>",
+      "prevention_html": "<p>De delar som oftast byts vid åtgärdande av ett Bosch E21-fel är kolborstarna, motorn och motorstyrmodulen. Kolborstar är en rutinmässig slitdel och är värda att hålla ett öga på om din maskin är mer än fem år gammal — att byta dem i förebyggande syfte innan de slutar fungera helt kan förhindra motorskador orsakade av ljusbågar. Motorstyrmodulen är värd att inspektera om maskinen har utsatts för ett strömöverspänning eller har en historia av intermittenta motorfel.</p><p>Sök efter kompatibla reservdelar med ditt fullständiga modellnummer, som finns tryckt på en etikett inuti lucköppningens ram. Genuina Bosch-delar eller kvalitativa eftermarknadsalternativ är båda lämpliga alternativ för dessa reparationer.</p>\n<!-- SPARE_PARTS:E21 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt att fortsätta använda maskinen medan E21 är aktivt. Felet innebär att motorn inte fungerar korrekt, och att köra fler program kan orsaka ytterligare skador på motorlindningarna eller styrkortet. Åtgärda felet först och återuppta sedan normal användning.",
+          "question": "Kan jag fortsätta använda min Bosch tvättmaskin om den visar E21?"
+        },
+        {
+          "answer": "Kolborstar håller vanligtvis mellan fem och tio år beroende på hur ofta maskinen används. Hushåll som kör maskinen dagligen ser borstarna slitas snabbare än de som använder den ett par gånger i veckan. Att byta dem är ett enkelt arbete och delarna är billiga.",
+          "question": "Hur länge håller kolborstar på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "En strömåterställning — att dra ur kontakten i två minuter och starta om — kan tillfälligt rensa koden om felet orsakades av en engångsöverbelastning av motorn eller ett kortvarigt hinder. Men om den underliggande orsaken, som slitna borstar eller en blockerad trumma, inte åtgärdas, kommer koden att återkomma inom nästa program.",
+          "question": "Rensar en återställning av maskinen felkod E21?"
+        },
+        {
+          "answer": "En ersättningsmotor till en Bosch tvättmaskin kostar vanligtvis mellan 700 och 1 800 kr för delen, beroende på modell. Om en servicetekniker monterar den tillkommer arbetskostnader. Kolborstar kostar däremot vanligtvis under 150 kr och är värda att prova först.",
+          "question": "Vad kostar det att byta motor på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Nej — E17 och E18 avser vatteninlopp och fyllningsfel, medan E21 är specifikt för motorns drivsystem. Varje felkod pekar på en annan komponentgrupp, så det är viktigt att följa rätt felsökningssteg för den kod din maskin visar.",
+          "question": "Är E21 samma sak som ett E18- eller E17-fel på Bosch-maskiner?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T12:35:42.63139+00:00"
+    },
+    {
+      "article_id": 170,
+      "locale": "en",
+      "slug": "error-code-e22",
+      "title_tag": "Bosch Washing Machine Error Code E22 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error E22? This guide explains what triggers the Aquastop leak alert and how to fix it safely at home.",
+      "h1": "What Does Error Code E22 Mean on a Bosch Washing Machine?",
+      "description": "Error code E22 on a Bosch washing machine indicates that the Aquastop flood protection system has been triggered by water detected in the base tray beneath the machine.",
+      "quick_fix": "Tilt the machine gently forward about 45 degrees to drain any water from the base tray, then stand it upright and leave it for 30 minutes to allow the float switch to reset before restarting the cycle (takes about 20 minutes).",
+      "intro_html": "<p>The E22 error code means your Bosch washing machine's Aquastop system has detected water sitting in the plastic base tray at the bottom of the appliance. Aquastop is a built-in flood protection feature — a small float switch sits in the base tray and, when water lifts it, the machine immediately cuts the water inlet and halts the programme to prevent further flooding.</p><p>When E22 appears, the machine will typically stop mid-cycle, lock the door, and refuse to start a new programme. You may or may not see visible water on the floor around the machine. The water causing the fault is often hidden inside the outer casing, pooled in the base rather than leaking externally.</p><p>The fault can be a one-off event caused by minor condensation or a small splash, or it can point to an ongoing leak from a hose, pump, or door seal that needs attention before the machine is used again.</p>",
+      "causes_json": [
+        {
+          "cause": "Water accumulated in the base tray from a minor internal leak",
+          "detail": "Even a slow drip from a hose connection, pump housing, or drum seal can gradually fill the base tray over several cycles. Once enough water lifts the float switch, E22 is triggered even though no external puddle is visible."
+        },
+        {
+          "cause": "Leaking door seal (door gasket)",
+          "detail": "A cracked, torn, or debris-damaged door gasket allows water to escape the drum during the wash or spin phase. This water runs down the front of the machine and collects in the base tray."
+        },
+        {
+          "cause": "Loose or split inlet or drain hose connection",
+          "detail": "Hose connections at the back of the machine can work loose over time due to vibration. A split or poorly seated hose will drip water into the base during filling or draining."
+        },
+        {
+          "cause": "Faulty or leaking drain pump",
+          "detail": "The drain pump sits low in the machine and its housing or seal can crack or degrade. A weeping pump seal may only leak under pressure during the drain cycle, making it difficult to spot without removing the front panel."
+        },
+        {
+          "cause": "Overfilling caused by a faulty pressure sensor or inlet valve",
+          "detail": "If the water level sensor or inlet valve fails, the machine may overfill the drum, causing water to overflow internally into the base tray. This is less common but will trigger E22 repeatedly until the faulty component is replaced."
+        },
+        {
+          "cause": "Condensation or residual water after a previous repair",
+          "detail": "Occasionally, water left inside the machine after a service visit or a very heavy load can settle in the base tray and trigger the float switch without there being an active leak. This is a one-off event and the machine should operate normally once the tray is dried out."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Before doing anything else, turn the programme dial to off and unplug the machine from the wall socket. Never work on or tilt a washing machine while it is connected to the mains. If the door is locked mid-cycle, wait a few minutes after unplugging — the door lock solenoid will release once power is removed."
+        },
+        {
+          "step": 2,
+          "action": "Drain the base tray by tilting the machine",
+          "detail": "With a second person to help, carefully tilt the machine forward at roughly 45 degrees and hold it there for 30–60 seconds. This allows water in the base tray to drain out through the rear or sides. Place old towels on the floor first. Once upright, leave the machine for at least 30 minutes so the float switch can drop back to its resting position."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the door seal for damage",
+          "detail": "Open the door and run your fingers around the full circumference of the rubber door gasket. Look for tears, cracks, or foreign objects such as coins or wire that may have punctured the rubber. Also check the fold of the gasket where water and debris collect — a blocked fold can cause water to spill inward rather than drain correctly."
+        },
+        {
+          "step": 4,
+          "action": "Check all visible hose connections",
+          "detail": "Pull the machine away from the wall and inspect the cold water inlet hose and the drain hose at the back. Feel along each hose for dampness and check that the connections are hand-tight and seated correctly. Look for any kinks, splits, or signs of mineral deposit around the fittings, which can indicate a slow weep."
+        },
+        {
+          "step": 5,
+          "action": "Clean and inspect the drain pump filter",
+          "detail": "The pump filter is located behind the small access panel at the bottom front of the machine. Place a shallow tray and towels underneath, then slowly unscrew the filter cap to release residual water. Remove the filter completely and check for debris, and inspect the filter housing for cracks or signs of leakage around the seal."
+        },
+        {
+          "step": 6,
+          "action": "Run a short test cycle and monitor closely",
+          "detail": "Once the base tray is dry and you have checked all accessible components, plug the machine back in and run a short 30-degree cotton cycle. Stay with the machine throughout and check underneath and behind it for any drips. If E22 returns during or after the test cycle, there is an active leak that requires further investigation."
+        },
+        {
+          "step": 7,
+          "action": "Remove the front panel to inspect the pump and internal hoses",
+          "detail": "If you are comfortable with basic appliance disassembly, the front panel on most Bosch models can be removed after unscrewing the lower access panel and the top panel. With the front removed, you can visually inspect the drain pump body, the pressure chamber hose, and the drum spider seal for signs of moisture or mineral staining that indicates a slow leak source."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Contact a service technician if the E22 error returns immediately after you have drained the base tray and dried it out, or if you can see an active drip from the pump, drum seal area, or any internal hose during the test cycle. These faults require component replacement and, in the case of the pump or drum seal, specialist tools to complete safely.</p><p>You should also call a technician if the machine repeatedly overfills — water rising above the door seal level — as this points to a failed pressure sensor or inlet valve that will continue to trigger E22 and could cause significant water damage if left unaddressed.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch E22 fault are the door gasket (door seal), the drain pump, and the water inlet valve. The door gasket is the most frequent culprit and is a straightforward DIY replacement on most Bosch models. The drain pump is the next most common part, particularly on machines over five years old. If the machine is overfilling, the inlet valve or pressure sensor will need to be sourced.</p><p>To reduce the risk of E22 occurring, clean the pump filter every three months, avoid overloading the drum, and inspect the door seal periodically for small tears or trapped debris. Running a monthly maintenance wash at 60 degrees helps prevent detergent residue build-up that can degrade the gasket over time.</p>\n<!-- SPARE_PARTS:E22 -->",
+      "faq_json": [
+        {
+          "answer": "No. You should not run the machine until you have identified and resolved the source of the water in the base tray. Running it again risks further water ingress, potential damage to electrical components in the base, and possible flooding. Always unplug the machine first and investigate before restarting.",
+          "question": "Is it safe to use my Bosch washing machine while the E22 error is showing?"
+        },
+        {
+          "answer": "Not necessarily. Draining the base tray clears the float switch and removes the error, but it does not fix the underlying leak. Run a supervised test cycle and check carefully for any drips. If E22 does not return and you find no evidence of a leak, it may have been a one-off event, but monitor the machine closely over the next few washes.",
+          "question": "The E22 error cleared after I tilted the machine — does that mean the problem is fixed?"
+        },
+        {
+          "answer": "There is no separate reset procedure for E22. Once the water in the base tray has drained and the float switch drops back to its resting position, the error will clear automatically when you next power on the machine. If the tray still contains water, the error will reappear regardless of any button combination you try.",
+          "question": "How do I reset the E22 error code on a Bosch washing machine?"
+        },
+        {
+          "answer": "Indirectly, yes. If the drain is severely blocked, water can back up and overflow internally, eventually reaching the base tray. However, a blocked drain will usually trigger a separate drain error first. If you see both a drain fault and E22, clear the pump filter and check the drain hose for blockages before investigating for a physical leak.",
+          "question": "Can a blocked drain cause the E22 error on a Bosch washing machine?"
+        },
+        {
+          "answer": "If the fix is simply draining the base tray and the leak was a one-off, there is no cost. A door gasket replacement typically costs between £20 and £50 for the part, plus labour if you use a service technician. A drain pump replacement is usually £30 to £70 for the part. A full service call-out with labour commonly ranges from £80 to £150 depending on your location and the parts required.",
+          "question": "How much does it typically cost to repair a Bosch washing machine showing E22?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T12:36:38.554765+00:00"
+    },
+    {
+      "article_id": 170,
+      "locale": "sv",
+      "slug": "felkod-e22",
+      "title_tag": "Bosch Tvättmaskin Felkod E22 | Åtgärda Det Nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E22? Den här guiden förklarar vad som utlöser Aquastop-läckagevarnaren och hur du åtgärdar det säkert hemma.",
+      "h1": "Vad Betyder Felkod E22 på en Bosch Tvättmaskin?",
+      "description": "Felkod E22 på en Bosch tvättmaskin indikerar att Aquastop-översvämningsskyddssystemet har utlösts av vatten som detekterats i bottenplattan under maskinen.",
+      "quick_fix": "Luta maskinen försiktigt framåt ungefär 45 grader för att tömma eventuellt vatten från bottenplattan, ställ sedan upp den igen och låt den stå i 30 minuter så att flödesbrytaren kan återställas innan du startar om programmet (tar ungefär 20 minuter).",
+      "intro_html": "<p>Felkoden E22 innebär att din Bosch tvättmaskines Aquastop-system har detekterat vatten i den plastbottenplatta som sitter längst ned i maskinen. Aquastop är en inbyggd översvämningsskyddsfunktion — en liten flödesbrytare sitter i bottenplattan och när vatten lyfter den stänger maskinen omedelbart av vattentillförseln och avbryter programmet för att förhindra ytterligare översvämning.</p><p>När E22 visas stannar maskinen vanligtvis mitt i ett program, låser luckan och vägrar starta ett nytt program. Du kanske ser synligt vatten på golvet runt maskinen, eller inte. Vattnet som orsakar felet är ofta dolt inuti höljet och har samlats i botten snarare än att läcka ut.</p><p>Felet kan vara en engångshändelse orsakad av mindre kondens eller ett litet stänk, eller så kan det peka på en pågående läcka från en slang, pump eller dörrtätning som behöver åtgärdas innan maskinen används igen.</p>",
+      "causes_json": [
+        {
+          "cause": "Vatten som ansamlats i bottenplattan från en mindre intern läcka",
+          "detail": "Även ett långsamt droppande från en slanganslutning, pumpkåpa eller trumtätning kan gradvis fylla bottenplattan under flera program. När tillräckligt med vatten lyfter flödesbrytaren utlöses E22 även om ingen yttre vattenpöl är synlig."
+        },
+        {
+          "cause": "Läckande dörrtätning (dörrgummi)",
+          "detail": "En sprucken, trasig eller skräpskadad dörrtätning låter vatten tränga ut ur trumman under tvätt- eller centrifugeringsfasen. Detta vatten rinner ned längs maskinens framsida och samlas i bottenplattan."
+        },
+        {
+          "cause": "Lös eller sprucken inlopps- eller avloppsslanganslutning",
+          "detail": "Slanganslutningar på maskinens baksida kan lossna med tiden på grund av vibrationer. En sprucken eller dåligt sittande slang droppar vatten in i botten under påfyllning eller tömning."
+        },
+        {
+          "cause": "Defekt eller läckande avloppspump",
+          "detail": "Avloppspumpen sitter lågt i maskinen och dess kåpa eller tätning kan spricka eller försämras. En läckande pumptätning kan bara läcka under tryck under tömningscykeln, vilket gör den svår att upptäcka utan att ta bort frontpanelen."
+        },
+        {
+          "cause": "Överfyllning orsakad av defekt trycksensor eller inloppsventil",
+          "detail": "Om vattennivåsensorn eller inloppsventilen går sönder kan maskinen överfylla trumman, vilket gör att vatten svämmar över internt in i bottenplattan. Detta är mindre vanligt men utlöser E22 upprepade gånger tills den defekta komponenten byts ut."
+        },
+        {
+          "cause": "Kondens eller kvarvarande vatten efter en tidigare reparation",
+          "detail": "Ibland kan vatten som lämnats kvar i maskinen efter ett servicebesök eller en mycket tung tvätt samlas i bottenplattan och utlösa flödesbrytaren utan att det finns en aktiv läcka. Detta är en engångshändelse och maskinen bör fungera normalt när plattan har torkats ut."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Innan du gör något annat, vrid programväljaren till av och dra ut maskinens stickkontakt ur vägguttaget. Arbeta aldrig på eller luta en tvättmaskin medan den är ansluten till elnätet. Om luckan är låst mitt i ett program, vänta några minuter efter att du kopplat ur — dörrlåsets solenoid frigörs när strömmen bryts."
+        },
+        {
+          "step": 2,
+          "action": "Töm bottenplattan genom att luta maskinen",
+          "detail": "Med hjälp av en annan person, luta försiktigt maskinen framåt ungefär 45 grader och håll den där i 30–60 sekunder. Detta gör att vatten i bottenplattan kan rinna ut genom baksidan eller sidorna. Lägg gamla handdukar på golvet först. Ställ sedan upp maskinen och låt den stå i minst 30 minuter så att flödesbrytaren kan sjunka tillbaka till sitt viloläge."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera dörrtätningen för skador",
+          "detail": "Öppna luckan och känn längs hela omkretsen av gummidörrtätningen. Leta efter revor, sprickor eller främmande föremål som mynt eller tråd som kan ha punkterat gummit. Kontrollera även viken på tätningen där vatten och skräp samlas — en blockerad vik kan göra att vatten spills inåt istället för att rinna av korrekt."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera alla synliga slanganslutningar",
+          "detail": "Dra ut maskinen från väggen och inspektera kallvatteninloppets slang och avloppsslangen på baksidan. Känn längs varje slang efter fukt och kontrollera att anslutningarna sitter ordentligt och är korrekt placerade. Leta efter knickar, sprickor eller tecken på mineralavlagringar runt kopplingarna, vilket kan tyda på en långsam läcka."
+        },
+        {
+          "step": 5,
+          "action": "Rengör och inspektera avloppspumpens filter",
+          "detail": "Pumpfiltret sitter bakom den lilla luckan längst ned på maskinens framsida. Placera ett grunt kärl och handdukar undertill och skruva sedan långsamt loss filterlocket för att släppa ut kvarvarande vatten. Ta ut filtret helt och kontrollera om det finns skräp, och inspektera filterhuset för sprickor eller läckagetecken runt tätningen."
+        },
+        {
+          "step": 6,
+          "action": "Kör ett kort testprogram och övervaka noga",
+          "detail": "När bottenplattan är torr och du har kontrollerat alla åtkomliga komponenter, anslut maskinen igen och kör ett kort bomullsprogram på 30 grader. Stanna vid maskinen under hela programmet och kontrollera under och bakom den efter eventuella droppar. Om E22 återkommer under eller efter testprogrammet finns det en aktiv läcka som kräver ytterligare undersökning."
+        },
+        {
+          "step": 7,
+          "action": "Ta bort frontpanelen för att inspektera pumpen och interna slangar",
+          "detail": "Om du är bekväm med grundläggande demontering av hushållsapparater kan frontpanelen på de flesta Bosch-modeller tas bort efter att den nedre åtkomstluckan och toppanelen skruvats loss. Med framsidan borttagen kan du visuellt inspektera avloppspumpens kropp, tryckkammarslangen och trumtätningen efter tecken på fukt eller mineralavlagringar som indikerar en långsam läckakälla."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om E22-felet återkommer omedelbart efter att du tömt och torkat bottenplattan, eller om du ser ett aktivt droppande från pumpen, trumtätningsområdet eller någon intern slang under testprogrammet. Dessa fel kräver komponentbyte och, i fallet med pumpen eller trumtätningen, specialverktyg för att utföras säkert.</p><p>Du bör också ringa en tekniker om maskinen upprepade gånger överfylls — vatten som stiger över dörrtätningsnivån — eftersom detta tyder på en defekt trycksensor eller inloppsventil som fortsätter att utlösa E22 och kan orsaka betydande vattenskador om det inte åtgärdas.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett Bosch E22-fel är dörrtätningen (dörrgummit), avloppspumpen och vatteninloppsventilen. Dörrtätningen är den vanligaste orsaken och är ett enkelt DIY-byte på de flesta Bosch-modeller. Avloppspumpen är den näst vanligaste delen, särskilt på maskiner som är äldre än fem år. Om maskinen överfylls behöver inloppsventilen eller trycksensorn anskaffas.</p><p>För att minska risken för att E22 uppstår, rengör pumpfiltret var tredje månad, undvik att överlasta trumman och inspektera dörrtätningen regelbundet efter små revor eller inneslutet skräp. Att köra ett månatligt underhållsprogram på 60 grader hjälper till att förhindra att tvättmedelsrester byggs upp och försämrar tätningen över tid.</p>\n<!-- SPARE_PARTS:E22 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. Du bör inte köra maskinen förrän du har identifierat och åtgärdat källan till vattnet i bottenplattan. Att köra den igen riskerar ytterligare vattenintrång, potentiell skada på elektriska komponenter i botten och möjlig översvämning. Koppla alltid ur maskinen först och undersök den innan du startar om.",
+          "question": "Är det säkert att använda min Bosch tvättmaskin medan E22-felet visas?"
+        },
+        {
+          "answer": "Inte nödvändigtvis. Att tömma bottenplattan återställer flödesbrytaren och tar bort felet, men det åtgärdar inte den underliggande läckan. Kör ett övervakat testprogram och kontrollera noga efter eventuella droppar. Om E22 inte återkommer och du inte hittar några tecken på läcka kan det ha varit en engångshändelse, men övervaka maskinen noga under de närmaste tvättarna.",
+          "question": "E22-felet försvann efter att jag lutade maskinen — betyder det att problemet är löst?"
+        },
+        {
+          "answer": "Det finns ingen separat återställningsprocedur för E22. När vattnet i bottenplattan har runnit av och flödesbrytaren sjunker tillbaka till sitt viloläge, försvinner felet automatiskt när du nästa gång slår på maskinen. Om plattan fortfarande innehåller vatten kommer felet att återuppstå oavsett vilken knapptryckning du försöker.",
+          "question": "Hur återställer jag felkod E22 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Indirekt, ja. Om avloppet är kraftigt blockerat kan vatten backa upp och svämma över internt och till slut nå bottenplattan. Ett blockerat avlopp utlöser dock vanligtvis ett separat avloppsfel först. Om du ser både ett avloppsfel och E22, rengör pumpfiltret och kontrollera avloppsslangen för blockeringar innan du undersöker om det finns en fysisk läcka.",
+          "question": "Kan ett blockerat avlopp orsaka E22-felet på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Om åtgärden enbart innebär att tömma bottenplattan och läckan var en engångshändelse kostar det ingenting. Ett byte av dörrtätning kostar vanligtvis mellan 200 och 500 kronor för delen, plus arbetskostnad om du anlitar en servicetekniker. Ett byte av avloppspump kostar vanligtvis 300 till 700 kronor för delen. Ett fullständigt servicebesök med arbetskostnad varierar vanligtvis mellan 800 och 1 500 kronor beroende på din plats och de delar som krävs.",
+          "question": "Hur mycket kostar det vanligtvis att reparera en Bosch tvättmaskin som visar E22?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T12:37:54.78207+00:00"
+    }
+  ]
+}

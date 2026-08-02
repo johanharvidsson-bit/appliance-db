@@ -1,0 +1,1016 @@
+{
+  "exported_at": "2026-07-30T21:22:28.093671+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    198,
+    199,
+    200,
+    201,
+    203
+  ],
+  "rows": [
+    {
+      "article_id": 198,
+      "locale": "en",
+      "slug": "error-code-e92",
+      "title_tag": "Bosch Washing Machine Error Code E92 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E92? Learn what causes this PCB communication fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code E92 Mean on a Bosch Washing Machine?",
+      "description": "Error code E92 on a Bosch washing machine indicates an internal PCB communication fault where the control board software has lost reliable contact between its components.",
+      "quick_fix": "Perform a full power cycle by switching the machine off at the wall socket, waiting 10 minutes, then switching it back on and restarting your programme — this clears temporary software glitches in the majority of E92 cases (takes about 5 minutes).",
+      "intro_html": "<p>Error code E92 points to a breakdown in communication between the internal software and the printed circuit board (PCB) inside your Bosch washing machine. The PCB acts as the brain of the appliance, coordinating everything from drum rotation to water temperature. When the software cannot reliably exchange data with the board — or between modules on the board itself — the machine raises E92 and halts the current programme to prevent further damage.</p><p>When this error appears, the machine will typically stop mid-cycle or refuse to start a new one. The display may flash E92 continuously or show it alongside a locked door light. In most cases the drum will not spin and no water will be pumped in or out until the fault is cleared. While the error sounds serious, a significant proportion of E92 faults are caused by temporary software glitches that a simple power reset will resolve.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary software glitch",
+          "detail": "A brief voltage fluctuation or power interruption during a cycle can corrupt the working memory of the control board, causing it to lose internal communication. This is the most common trigger and is usually resolved by a full power cycle."
+        },
+        {
+          "cause": "Faulty or failing main control board (PCB)",
+          "detail": "Over time, solder joints on the PCB can crack, capacitors can degrade, and onboard components can fail, all of which disrupt the communication pathways between modules. If the error returns repeatedly after resets, the board itself may need testing or replacement."
+        },
+        {
+          "cause": "Damaged or loose wiring harness",
+          "detail": "The ribbon cables and wiring looms that connect the main PCB to the motor control board, display module, and other components can work loose through vibration over years of use. A poor connection at any of these points can trigger an E92 fault."
+        },
+        {
+          "cause": "Corrupted or outdated firmware",
+          "detail": "In some Bosch models, the onboard firmware can become corrupted following a power surge or an interrupted update cycle. This can cause persistent communication errors that a standard reset will not fix."
+        },
+        {
+          "cause": "Secondary module failure (motor control board or display board)",
+          "detail": "The main PCB communicates with sub-modules including the motor inverter board and the user interface board. If one of these secondary boards develops a fault, the main board may report E92 because it cannot complete its communication handshake."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Turn the programme selector to the off position, then switch the machine off at the wall socket. Leave it unplugged for a full 10 minutes — not just 30 seconds — to allow the capacitors on the board to fully discharge and the software to reset. Plug back in, select a short programme, and observe whether E92 returns."
+        },
+        {
+          "step": 2,
+          "action": "Check the power supply for fluctuations",
+          "detail": "Plug the washing machine into a different socket or test the current socket with another appliance to confirm it is delivering a stable supply. Avoid using extension leads or multi-socket adaptors with washing machines, as these can cause the voltage irregularities that trigger software faults."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the door and programme selector",
+          "detail": "A faulty door latch or a worn programme selector can sometimes generate spurious signals that the PCB misinterprets as a communication error. Make sure the door clicks firmly shut and that the selector dial moves cleanly between positions without feeling loose or gritty."
+        },
+        {
+          "step": 4,
+          "action": "Check accessible wiring connections",
+          "detail": "With the machine unplugged, remove the top panel (usually secured by two screws at the rear). Locate the main PCB and gently press each wiring connector firmly onto its socket — vibration can cause these to work slightly loose over time. Do not disconnect and reconnect any ribbon cables unless you are confident doing so, as they can be fragile."
+        },
+        {
+          "step": 5,
+          "action": "Perform a factory reset if your model supports it",
+          "detail": "Some Bosch washing machine models allow a deeper software reset by holding the Start button for 5 seconds while the machine is in standby, or by turning the selector through a specific sequence — check your model's user manual for the exact procedure. A factory reset clears stored error logs and reinitialises the software, which can resolve persistent E92 faults caused by corrupted settings."
+        },
+        {
+          "step": 6,
+          "action": "Note the pattern of the fault before calling for help",
+          "detail": "If E92 keeps returning, record when it appears — at the start of a cycle, mid-wash, or during spin — and whether it happens on every programme or only specific ones. This information will help a service technician diagnose whether the fault lies with the main PCB, a secondary module, or the wiring between them, potentially saving diagnostic time and cost."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If E92 returns every time you run the machine despite completing all the steps above, or if the machine shows additional symptoms such as burning smell, visible scorch marks near the PCB area, or completely unresponsive controls, stop using the appliance and contact a qualified service technician. These signs suggest the control board has suffered physical damage that cannot be resolved through resets or simple adjustments.</p><p>You should also call a service technician if the error appears alongside other fault codes, particularly those relating to the motor or drive system, as this may indicate a secondary module has failed and is pulling the main board into a fault state. Attempting to diagnose or replace PCB components without the correct tools and training risks further damage to the machine.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a persistent E92 fault are the main control PCB, the motor control (inverter) board, and the wiring harness that connects these two modules. In some cases only the wiring loom needs replacing rather than the boards themselves, so it is worth having a service technician test each component individually before ordering parts. Using a surge-protected socket for your washing machine is a low-cost step that can significantly reduce the risk of voltage spikes damaging the PCB in future.</p><p>Search for compatible replacement parts for your specific Bosch model using the part finder below — always use your full model number (found on the label inside the door frame) to ensure compatibility.</p>\n<!-- SPARE_PARTS:E92 -->",
+      "faq_json": [
+        {
+          "answer": "A power reset fixes E92 in many cases, particularly when the fault is caused by a temporary software glitch following a power fluctuation. However, if the underlying cause is a failing PCB, damaged wiring, or a faulty secondary module, the error will return after the reset. If E92 comes back more than twice, further investigation is needed.",
+          "question": "Will a power reset always fix error code E92 on a Bosch washing machine?"
+        },
+        {
+          "answer": "It is not advisable to continue running the machine while E92 is active. The machine will usually lock itself out to prevent damage, but repeatedly forcing it through cycles with an unresolved PCB communication fault can cause additional stress to the control board and connected components. Resolve the fault first before resuming normal use.",
+          "question": "Is it safe to keep using my Bosch washing machine while it shows E92?"
+        },
+        {
+          "answer": "Main control PCBs for Bosch washing machines typically cost between £80 and £200 for the part alone, depending on the model. Labour charges from a service technician will add to this. It is worth getting a diagnostic visit first, as the fault may lie with a cheaper component such as the wiring harness rather than the board itself.",
+          "question": "How much does it cost to replace a Bosch washing machine PCB?"
+        },
+        {
+          "answer": "In some cases, yes. If the E92 fault is linked to corrupted or outdated firmware, a service technician can reflash or update the software on the control board using specialist equipment. This is not something a homeowner can do independently, but it can be a cost-effective fix compared to replacing the entire PCB.",
+          "question": "Can a software update fix error E92 on a Bosch washing machine?"
+        },
+        {
+          "answer": "E92 is reported across a range of Bosch washing machine models rather than being specific to one series. The exact behaviour and the sub-components involved can vary slightly between models, which is why it is important to have your full model number to hand when ordering parts or speaking to a service technician.",
+          "question": "Does error E92 appear on all Bosch washing machine models?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:34:20.343762+00:00"
+    },
+    {
+      "article_id": 198,
+      "locale": "sv",
+      "slug": "felkod-e92",
+      "title_tag": "Bosch Tvättmaskin Felkod E92 | Åtgärda Det Nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E92? Lär dig vad som orsakar detta PCB-kommunikationsfel och hur du åtgärdar det själv innan du kontaktar en servicetekniker.",
+      "h1": "Vad Betyder Felkod E92 på en Bosch Tvättmaskin?",
+      "description": "Felkod E92 på en Bosch tvättmaskin indikerar ett internt PCB-kommunikationsfel där styrkortsmaskinvaran har förlorat tillförlitlig kontakt mellan sina komponenter.",
+      "quick_fix": "Utför en fullständig strömcykel genom att stänga av maskinen vid vägguttaget, vänta 10 minuter och sedan slå på den igen och starta om ditt program — detta rensar tillfälliga programvarufel i majoriteten av E92-fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E92 pekar på ett kommunikationsavbrott mellan den interna programvaran och det tryckta kretskortet (PCB) i din Bosch tvättmaskin. PCB:n fungerar som maskinens hjärna och samordnar allt från trumrotation till vattentemperatur. När programvaran inte tillförlitligt kan utbyta data med kortet — eller mellan moduler på kortet självt — utlöser maskinen E92 och avbryter det pågående programmet för att förhindra ytterligare skador.</p><p>När detta fel uppstår stannar maskinen vanligtvis mitt i ett program eller vägrar att starta ett nytt. Displayen kan blinka E92 kontinuerligt eller visa det tillsammans med en låst dörrlampan. I de flesta fall snurrar inte trumman och inget vatten pumpas in eller ut förrän felet är åtgärdat. Även om felet låter allvarligt orsakas en betydande andel av E92-fel av tillfälliga programvarufel som en enkel strömåterställning löser.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt programvarufel",
+          "detail": "En kortvarig spänningsfluktuering eller strömavbrott under ett program kan skada arbetsminnet på styrkortet och få det att förlora intern kommunikation. Detta är den vanligaste orsaken och löses vanligtvis med en fullständig strömcykel."
+        },
+        {
+          "cause": "Defekt eller sviktande huvudstyrkort (PCB)",
+          "detail": "Med tiden kan lödfogarna på PCB:n spricka, kondensatorer kan försämras och inbyggda komponenter kan gå sönder, vilket stör kommunikationsvägarna mellan modulerna. Om felet återkommer upprepade gånger efter återställningar kan kortet självt behöva testas eller bytas ut."
+        },
+        {
+          "cause": "Skadat eller löst kabelstamme",
+          "detail": "Bandkablarna och kabelstammarna som ansluter huvud-PCB:n till motorkontrollkortet, displaymodulen och andra komponenter kan lossna på grund av vibrationer under många års användning. En dålig anslutning vid någon av dessa punkter kan utlösa ett E92-fel."
+        },
+        {
+          "cause": "Korrupt eller föråldrad firmware",
+          "detail": "I vissa Bosch-modeller kan den inbyggda firmware bli korrupt efter ett strömöverspänning eller ett avbrutet uppdateringscykel. Detta kan orsaka ihållande kommunikationsfel som en vanlig återställning inte åtgärdar."
+        },
+        {
+          "cause": "Sekundär modulfel (motorkontrollkort eller displaykort)",
+          "detail": "Huvud-PCB:n kommunicerar med undermoduler inklusive motorinverterkortet och användargränssnittskortet. Om ett av dessa sekundära kort utvecklar ett fel kan huvudkortet rapportera E92 eftersom det inte kan slutföra sin kommunikationshandskakning."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Strömcykla maskinen",
+          "detail": "Vrid programväljaren till av-läget och stäng sedan av maskinen vid vägguttaget. Låt den vara urkopplad i hela 10 minuter — inte bara 30 sekunder — för att låta kondensatorerna på kortet laddas ur helt och programvaran återställas. Koppla in igen, välj ett kort program och observera om E92 återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera strömförsörjningen för fluktuationer",
+          "detail": "Koppla tvättmaskinen till ett annat uttag eller testa det nuvarande uttaget med en annan apparat för att bekräfta att det levererar en stabil ström. Undvik att använda förlängningssladdar eller grenuttag med tvättmaskiner, eftersom dessa kan orsaka spänningsoregelbundenheter som utlöser programvarufel."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera dörren och programväljaren",
+          "detail": "En defekt dörrlås eller en sliten programväljare kan ibland generera falska signaler som PCB:n feltolkar som ett kommunikationsfel. Se till att dörren klickar ordentligt stängd och att väljarratten rör sig smidigt mellan positionerna utan att kännas lös eller grov."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera åtkomliga kabelanslutningar",
+          "detail": "Med maskinen urkopplad, ta bort toppanelen (vanligtvis fäst med två skruvar baktill). Lokalisera huvud-PCB:n och tryck försiktigt varje kabelkontakt ordentligt på sin sockel — vibrationer kan få dessa att lossna något med tiden. Koppla inte loss och återanslut bandkablar om du inte är säker på hur du gör det, eftersom de kan vara ömtåliga."
+        },
+        {
+          "step": 5,
+          "action": "Utför en fabriksåterställning om din modell stöder det",
+          "detail": "Vissa Bosch tvättmaskinmodeller tillåter en djupare programvaruåterställning genom att hålla in Start-knappen i 5 sekunder medan maskinen är i standby-läge, eller genom att vrida väljaren i en specifik sekvens — kontrollera din modells användarmanual för det exakta förfarandet. En fabriksåterställning rensar lagrade felloggar och återinitierar programvaran, vilket kan lösa ihållande E92-fel orsakade av korrupta inställningar."
+        },
+        {
+          "step": 6,
+          "action": "Notera felmönstret innan du ringer efter hjälp",
+          "detail": "Om E92 fortsätter att återkomma, registrera när det uppstår — i början av ett program, mitt i tvätten eller under centrifugering — och om det händer vid varje program eller bara specifika. Denna information hjälper en servicetekniker att diagnostisera om felet ligger hos huvud-PCB:n, en sekundär modul eller kablaget mellan dem, vilket potentiellt sparar diagnostiktid och kostnad."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om E92 återkommer varje gång du kör maskinen trots att du har genomfört alla stegen ovan, eller om maskinen visar ytterligare symptom såsom bränd lukt, synliga brännmärken nära PCB-området eller helt okänsliga kontroller, sluta använda apparaten och kontakta en kvalificerad servicetekniker. Dessa tecken tyder på att styrkortet har lidit fysisk skada som inte kan åtgärdas genom återställningar eller enkla justeringar.</p><p>Du bör också kontakta en servicetekniker om felet uppstår tillsammans med andra felkoder, särskilt de som rör motorn eller drivningssystemet, eftersom detta kan indikera att en sekundär modul har gått sönder och drar huvudkortet in i ett feltillstånd. Att försöka diagnostisera eller byta ut PCB-komponenter utan rätt verktyg och utbildning riskerar ytterligare skador på maskinen.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid lösning av ett ihållande E92-fel är huvud-PCB:n, motorkontroll-(inverter-)kortet och kabelstammen som ansluter dessa två moduler. I vissa fall behöver bara kabelstammen bytas ut snarare än korten själva, så det är värt att låta en servicetekniker testa varje komponent individuellt innan delar beställs. Att använda ett överspänningsskyddat uttag för din tvättmaskin är en billig åtgärd som avsevärt kan minska risken för att spänningspikar skadar PCB:n i framtiden.</p><p>Sök efter kompatibla reservdelar för din specifika Bosch-modell med hjälp av reservdelssökaren nedan — använd alltid ditt fullständiga modellnummer (finns på etiketten inuti dörrkarmens ram) för att säkerställa kompatibilitet.</p>\n<!-- SPARE_PARTS:E92 -->",
+      "faq_json": [
+        {
+          "answer": "En strömåterställning löser E92 i många fall, särskilt när felet orsakas av ett tillfälligt programvarufel efter en strömfluktuering. Men om den underliggande orsaken är ett sviktande PCB, skadat kablage eller en defekt sekundär modul, kommer felet att återkomma efter återställningen. Om E92 återkommer mer än två gånger krävs ytterligare undersökning.",
+          "question": "Löser en strömåterställning alltid felkod E92 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Det är inte tillrådligt att fortsätta köra maskinen medan E92 är aktiv. Maskinen låser vanligtvis sig själv för att förhindra skador, men att upprepade gånger tvinga den genom program med ett olöst PCB-kommunikationsfel kan orsaka ytterligare belastning på styrkortet och anslutna komponenter. Åtgärda felet först innan du återupptar normal användning.",
+          "question": "Är det säkert att fortsätta använda min Bosch tvättmaskin medan den visar E92?"
+        },
+        {
+          "answer": "Huvud-PCB:er för Bosch tvättmaskiner kostar vanligtvis mellan 900 och 2 200 kronor för enbart delen, beroende på modell. Arbetskostnader från en servicetekniker tillkommer. Det är värt att få ett diagnostikbesök först, eftersom felet kan ligga hos en billigare komponent som kabelstammen snarare än kortet självt.",
+          "question": "Hur mycket kostar det att byta ett Bosch tvättmaskins PCB?"
+        },
+        {
+          "answer": "I vissa fall, ja. Om E92-felet är kopplat till korrupt eller föråldrad firmware kan en servicetekniker flasha om eller uppdatera programvaran på styrkortet med specialutrustning. Detta är inget en husägare kan göra självständigt, men det kan vara en kostnadseffektiv lösning jämfört med att byta ut hela PCB:n.",
+          "question": "Kan en programvaruuppdatering åtgärda fel E92 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "E92 rapporteras på ett antal Bosch tvättmaskinmodeller snarare än att vara specifikt för en serie. Det exakta beteendet och de inblandade underkomponenterna kan variera något mellan modeller, vilket är varför det är viktigt att ha ditt fullständiga modellnummer till hands när du beställer delar eller talar med en servicetekniker.",
+          "question": "Förekommer fel E92 på alla Bosch tvättmaskinmodeller?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:35:22.618133+00:00"
+    },
+    {
+      "article_id": 199,
+      "locale": "en",
+      "slug": "error-code-end",
+      "title_tag": "Bosch Washing Machine Error Code END | Fix It Now",
+      "meta_description": "Bosch washing machine showing END error code? Learn what it means, why it appears, and how to fix a drain or cycle issue yourself in minutes.",
+      "h1": "What Does the END Error Code Mean on a Bosch Washing Machine?",
+      "description": "The END code on a Bosch washing machine indicates that the programme has finished or that the machine has halted due to a drain cycle that did not complete successfully.",
+      "quick_fix": "Clean the drain pump filter — located behind the small access panel at the bottom front of the machine — removing any debris or blockages, then restart the cycle to confirm water drains freely (takes about 10 minutes).",
+      "intro_html": "<p>When your Bosch washing machine displays END at the end of a cycle, it can mean one of two things: the programme completed normally and the display is simply confirming this, or the machine detected a problem during the drain phase and stopped before finishing. In the second scenario, you may notice water still sitting in the drum.</p><p>The drain system is the most common culprit. If the machine cannot pump water out within a set time, it flags the issue and halts the cycle to prevent flooding or motor damage. This is a protective measure, not a catastrophic failure.</p><p>Before calling anyone, it is worth checking a few straightforward things yourself. Most END drain faults are caused by a blocked filter or a kinked hose — both of which you can inspect and resolve at home without any specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked drain pump filter",
+          "detail": "The pump filter traps lint, coins, hair grips, and other small items over time. A heavily clogged filter restricts water flow enough to prevent the drain cycle from completing."
+        },
+        {
+          "cause": "Kinked or obstructed drain hose",
+          "detail": "If the drain hose has been pushed too far into the standpipe, bent sharply behind the machine, or is partially blocked, water cannot exit at the required rate. This is a common cause after the machine has been moved or reinstalled."
+        },
+        {
+          "cause": "Blocked household standpipe or sink drain",
+          "detail": "The fault is not always inside the machine. If the external drain point — a standpipe, sink, or utility drain — is partially blocked, back pressure can prevent the pump from clearing the drum."
+        },
+        {
+          "cause": "Faulty or obstructed drain pump",
+          "detail": "Small objects such as a coin or button can pass through the filter and jam the pump impeller. A jammed impeller means the pump motor runs but cannot move water, triggering the END fault."
+        },
+        {
+          "cause": "Pressure sensor or wiring fault",
+          "detail": "The pressure sensor (also called the pressure switch) tells the control board when the drum is empty. If the sensor, its connecting hose, or the associated wiring is faulty, the machine may incorrectly believe water remains in the drum and stop the cycle."
+        },
+        {
+          "cause": "Control board issue",
+          "detail": "In less common cases, the main PCB may misread signals from the drain system and display END prematurely. This is usually only suspected after all mechanical causes have been ruled out."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check whether the cycle actually completed",
+          "detail": "Open the door carefully — if the drum is empty and the laundry feels spun, the programme finished normally and END is simply the confirmation message. Press the Start/Pause button or turn the dial to reset the display. No further action is needed."
+        },
+        {
+          "step": 2,
+          "action": "Run a Drain or Spin programme",
+          "detail": "If water is still in the drum, select the Drain or Spin-only programme and press Start. Watch and listen — you should hear the pump running and water flowing into the standpipe within 30 seconds. If the cycle completes and the drum empties, the original fault may have been a one-off. If it fails again, continue to the next steps."
+        },
+        {
+          "step": 3,
+          "action": "Clean the drain pump filter",
+          "detail": "Turn off and unplug the machine. Open the small access flap at the bottom front of the appliance. Place a shallow tray and some towels underneath, then slowly unscrew the filter cap — water will flow out. Remove the filter completely, rinse it under a tap, and clear any debris from the filter housing. Check the impeller inside the housing for obstructions and turn it by hand to confirm it spins freely. Refit the filter firmly before plugging the machine back in."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the drain hose",
+          "detail": "Pull the machine forward slightly and trace the drain hose from the back of the appliance to where it enters the standpipe or connects to the sink. Straighten any kinks and ensure the hose is not inserted more than 15 cm into the standpipe — too deep creates a siphon effect that can prevent proper draining. Confirm the hose end is not submerged in standing water."
+        },
+        {
+          "step": 5,
+          "action": "Check the household drain point",
+          "detail": "Pour a bucket of water directly into the standpipe or sink drain to confirm it clears quickly. If it drains slowly, the blockage is in your household plumbing rather than the machine. Use a drain cleaner or plunger to clear it before running the washing machine again."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the pressure sensor hose",
+          "detail": "With the machine unplugged, remove the top panel (usually two screws at the rear). Locate the small corrugated hose running from the side of the drum up to the pressure sensor — a small round component mounted on the side of the cabinet. Detach the hose, blow through it gently to confirm it is clear, and check that both ends are firmly connected. A blocked or disconnected pressure hose can cause false END readings."
+        },
+        {
+          "step": 7,
+          "action": "Reset the machine and test",
+          "detail": "After completing any of the above checks, plug the machine back in, select a short cotton cycle, and stay nearby for the first 15 minutes to observe whether the machine drains correctly at the end of the wash phase. If END reappears and water remains in the drum, the fault is likely a failed pump or control board issue requiring a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have cleaned the filter, confirmed the hose is clear, and checked the household drain — but the machine still fails to empty and displays END — the drain pump itself may have failed electrically or the impeller may be broken rather than simply jammed. A service technician can test the pump motor with a multimeter and replace it safely.</p><p>You should also contact a service technician if the END code appears on cycles that do not involve draining, if the machine trips your household electrics when it attempts to drain, or if you notice burning smells during operation. These symptoms point to an electrical fault that should not be investigated without proper training.</p>",
+      "prevention_html": "<p>The most effective way to prevent drain-related END faults is to clean the pump filter every one to three months, depending on how frequently you use the machine. Running a monthly maintenance wash at 60°C with a washing machine cleaner also helps keep the pump housing and hose free of detergent residue and limescale. Avoid overloading the drum, as excess lint and fabric fibres accelerate filter blockages.</p><p>The parts most commonly replaced when diagnosing a persistent END drain fault are the drain pump assembly, the pressure sensor (pressure switch), and the pressure sensor hose. Genuine Bosch-compatible versions of these parts are available below.</p>\n<!-- SPARE_PARTS:END -->",
+      "faq_json": [
+        {
+          "answer": "Not always. On many Bosch models, END simply means the programme has finished — it is a normal status message. The distinction is whether water remains in the drum. If the drum is empty and the laundry is spun, the cycle completed successfully and you can ignore the display.",
+          "question": "Is END always a fault on a Bosch washing machine?"
+        },
+        {
+          "answer": "Use the manual drain via the pump filter. Place a shallow tray under the filter access panel at the bottom front of the machine, then slowly unscrew the filter cap to let the water drain out in a controlled flow. Have plenty of towels ready — a full drum can hold 15 to 20 litres of water.",
+          "question": "How do I get the water out of the drum if the machine has stopped mid-cycle?"
+        },
+        {
+          "answer": "Bosch recommends cleaning the pump filter roughly every three months under normal use. If you wash heavily soiled items, pet bedding, or large loads frequently, clean it monthly. A quick clean takes less than five minutes and is the single most effective way to prevent drain faults.",
+          "question": "How often should I clean the Bosch washing machine pump filter?"
+        },
+        {
+          "answer": "An overloaded drum can contribute to drain issues because excess laundry produces more lint, which blocks the filter faster. It can also cause the machine to struggle during the spin phase, leaving more water in the load than the pump can handle efficiently. Stick to the recommended load capacity shown in your model's manual.",
+          "question": "Can a full load cause the END drain error?"
+        },
+        {
+          "answer": "Yes, in most cases. Once you have cleared the filter or hose and the machine successfully completes a drain or spin cycle, the END code will reset automatically. You do not need to enter a service mode or use any special reset procedure — simply run a short programme to confirm normal operation.",
+          "question": "Will the END error clear itself after I fix the blockage?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:36:14.747283+00:00"
+    },
+    {
+      "article_id": 199,
+      "locale": "sv",
+      "slug": "felkod-end",
+      "title_tag": "Bosch Tvättmaskin Felkod END | Åtgärda Det Nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkoden END? Lär dig vad det betyder, varför det uppstår och hur du själv åtgärdar ett avlopps- eller cykelproblem på några minuter.",
+      "h1": "Vad Betyder Felkoden END på en Bosch Tvättmaskin?",
+      "description": "Koden END på en Bosch tvättmaskin indikerar att programmet har avslutats eller att maskinen har stannat på grund av att avloppscykeln inte slutfördes korrekt.",
+      "quick_fix": "Rengör avloppspumpens filter — som sitter bakom den lilla luckan längst ned på maskinens framsida — ta bort eventuellt skräp eller blockeringar och starta sedan om cykeln för att bekräfta att vattnet rinner ut fritt (tar ungefär 10 minuter).",
+      "intro_html": "<p>När din Bosch tvättmaskin visar END i slutet av en cykel kan det betyda en av två saker: programmet slutfördes normalt och displayen bekräftar helt enkelt detta, eller så upptäckte maskinen ett problem under avloppsfasen och stannade innan den var klar. I det andra scenariot kan du märka att vatten fortfarande finns kvar i trumman.</p><p>Avloppssystemet är den vanligaste orsaken. Om maskinen inte kan pumpa ut vatten inom en angiven tid flaggar den för problemet och stoppar cykeln för att förhindra översvämning eller motorskada. Detta är en skyddsåtgärd, inte ett katastrofalt fel.</p><p>Innan du ringer någon är det värt att kontrollera några enkla saker själv. De flesta END-avloppsfel orsakas av ett igensatt filter eller en veckad slang — båda kan du undersöka och åtgärda hemma utan några specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt avloppspumpsfilter",
+          "detail": "Pumpfiltret fångar upp ludd, mynt, hårnålar och andra små föremål med tiden. Ett kraftigt igensatt filter begränsar vattenflödet tillräckligt för att förhindra att avloppscykeln slutförs."
+        },
+        {
+          "cause": "Veckad eller blockerad avloppsslang",
+          "detail": "Om avloppsslangen har tryckts för långt in i avloppsröret, böjts skarpt bakom maskinen eller är delvis blockerad kan vatten inte rinna ut i erforderlig takt. Detta är en vanlig orsak efter att maskinen har flyttats eller återinstallerades."
+        },
+        {
+          "cause": "Blockerat hushållsavloppsrör eller diskhoavlopp",
+          "detail": "Felet är inte alltid inne i maskinen. Om den externa avloppspunkten — ett avloppsrör, diskho eller golvbrunn — är delvis blockerad kan mottrycket förhindra att pumpen tömmer trumman."
+        },
+        {
+          "cause": "Defekt eller blockerad avloppspump",
+          "detail": "Små föremål som ett mynt eller en knapp kan passera genom filtret och fastna i pumpens impeller. En fastklämd impeller innebär att pumpmotorn går men inte kan flytta vatten, vilket utlöser END-felet."
+        },
+        {
+          "cause": "Fel på trycksensor eller kablage",
+          "detail": "Trycksensorn (även kallad pressostaten) talar om för styrkortet när trumman är tom. Om sensorn, dess anslutningsslang eller tillhörande kablage är defekt kan maskinen felaktigt tro att vatten finns kvar i trumman och stoppa cykeln."
+        },
+        {
+          "cause": "Problem med styrkortet",
+          "detail": "I mindre vanliga fall kan huvud-PCB:n feltolka signaler från avloppssystemet och visa END i förtid. Detta misstänks vanligtvis först efter att alla mekaniska orsaker har uteslutits."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera om cykeln faktiskt slutfördes",
+          "detail": "Öppna luckan försiktigt — om trumman är tom och tvätten känns centrifugerad slutfördes programmet normalt och END är helt enkelt ett bekräftelsemeddelande. Tryck på Start/Paus-knappen eller vrid ratten för att återställa displayen. Ingen ytterligare åtgärd behövs."
+        },
+        {
+          "step": 2,
+          "action": "Kör ett avlopps- eller centrifugeringsprogram",
+          "detail": "Om vatten fortfarande finns i trumman, välj programmet Avlopp eller Centrifugering och tryck på Start. Titta och lyssna — du bör höra pumpen gå och vatten rinna ut i avloppsröret inom 30 sekunder. Om cykeln slutförs och trumman töms kan det ursprungliga felet ha varit ett engångsfall. Om det misslyckas igen, fortsätt till nästa steg."
+        },
+        {
+          "step": 3,
+          "action": "Rengör avloppspumpens filter",
+          "detail": "Stäng av och koppla ur maskinen. Öppna den lilla luckan längst ned på maskinens framsida. Placera ett grunt kärl och några handdukar undertill och skruva sedan långsamt loss filterlocket — vatten kommer att rinna ut. Ta bort filtret helt, skölj det under kranen och rensa bort eventuellt skräp från filterhuset. Kontrollera impellern inuti huset för hinder och vrid den för hand för att bekräfta att den snurrar fritt. Sätt tillbaka filtret ordentligt innan du kopplar in maskinen igen."
+        },
+        {
+          "step": 4,
+          "action": "Undersök avloppsslangen",
+          "detail": "Dra ut maskinen något och följ avloppsslangen från maskinens baksida till där den går in i avloppsröret eller ansluter till diskhoet. Räta ut eventuella veck och se till att slangen inte är instucken mer än 15 cm i avloppsröret — för djupt skapar en siffoneffekt som kan förhindra korrekt avrinning. Kontrollera att slangänden inte är nedsänkt i stående vatten."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera hushållets avloppspunkt",
+          "detail": "Häll en hink vatten direkt i avloppsröret eller diskhoavloppet för att bekräfta att det rinner undan snabbt. Om det rinner långsamt finns blockeringen i ditt hushållsavlopp snarare än i maskinen. Använd ett avloppsmedel eller en vaskrensare för att rensa det innan du kör tvättmaskinen igen."
+        },
+        {
+          "step": 6,
+          "action": "Undersök trycksensorns slang",
+          "detail": "Med maskinen urkopplad, ta bort toppanelen (vanligtvis två skruvar baktill). Leta upp den lilla korrugerade slangen som löper från sidan av trumman upp till trycksensorn — en liten rund komponent monterad på sidan av kabinettet. Lossa slangen, blås försiktigt igenom den för att bekräfta att den är fri och kontrollera att båda ändarna sitter fast ordentligt. En blockerad eller lossad trycksensorslang kan orsaka falska END-avläsningar."
+        },
+        {
+          "step": 7,
+          "action": "Återställ maskinen och testa",
+          "detail": "Efter att ha utfört någon av ovanstående kontroller, koppla in maskinen igen, välj ett kort bomullsprogram och stanna i närheten under de första 15 minuterna för att observera om maskinen tömmer korrekt i slutet av tvättfasen. Om END visas igen och vatten finns kvar i trumman är felet troligen en defekt pump eller ett styrkortsfel som kräver en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har rengjort filtret, bekräftat att slangen är fri och kontrollerat hushållsavloppet — men maskinen fortfarande inte tömmer och visar END — kan avloppspumpen själv ha gått sönder elektriskt eller impellern kan vara trasig snarare än bara fastklämd. En servicetekniker kan testa pumpmotorn med en multimeter och byta ut den på ett säkert sätt.</p><p>Du bör också kontakta en servicetekniker om END-koden visas under cykler som inte involverar avlopp, om maskinen löser ut din hushållssäkring när den försöker tömma, eller om du märker brännlukt under drift. Dessa symptom tyder på ett elfel som inte bör undersökas utan rätt utbildning.</p>",
+      "prevention_html": "<p>Det mest effektiva sättet att förebygga avloppsrelaterade END-fel är att rengöra pumpfiltret var en till tre månader, beroende på hur ofta du använder maskinen. Att köra en månatlig underhållstvätt vid 60°C med ett tvättmaskinrengöringsmedel hjälper också till att hålla pumphuset och slangen fria från tvättmedelsrester och kalkavlagringar. Undvik att överlasta trumman, eftersom överdrivet ludd och tygfibrer påskyndar filterblockering.</p><p>De delar som oftast byts ut vid diagnos av ett ihållande END-avloppsfel är avloppspumpsenheten, trycksensorn (pressostaten) och trycksensorslangen. Äkta Bosch-kompatibla versioner av dessa delar finns tillgängliga nedan.</p>\n<!-- SPARE_PARTS:END -->",
+      "faq_json": [
+        {
+          "answer": "Inte alltid. På många Bosch-modeller betyder END helt enkelt att programmet har avslutats — det är ett normalt statusmeddelande. Skillnaden är om vatten finns kvar i trumman. Om trumman är tom och tvätten är centrifugerad slutfördes cykeln framgångsrikt och du kan bortse från displayen.",
+          "question": "Är END alltid ett fel på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Använd manuell tömning via pumpfiltret. Placera ett grunt kärl under filteråtkomstluckan längst ned på maskinens framsida och skruva sedan långsamt loss filterlocket för att låta vattnet rinna ut i ett kontrollerat flöde. Ha gott om handdukar till hands — en full trumma kan hålla 15 till 20 liter vatten.",
+          "detail": "Använd manuell tömning via pumpfiltret. Placera ett grunt kärl under filteråtkomstluckan längst ned på maskinens framsida och skruva sedan långsamt loss filterlocket för att låta vattnet rinna ut i ett kontrollerat flöde. Ha gott om handdukar till hands — en full trumma kan hålla 15 till 20 liter vatten.",
+          "question": "Hur får jag ut vattnet ur trumman om maskinen har stannat mitt i en cykel?"
+        },
+        {
+          "answer": "Bosch rekommenderar att rengöra pumpfiltret ungefär var tredje månad vid normal användning. Om du ofta tvättar kraftigt smutsade plagg, husdjursbäddar eller stora laster, rengör det månadsvis. En snabb rengöring tar mindre än fem minuter och är det enskilt mest effektiva sättet att förebygga avloppsfel.",
+          "question": "Hur ofta ska jag rengöra Bosch tvättmaskinens pumpfilter?"
+        },
+        {
+          "answer": "En överfull trumma kan bidra till avloppsproblem eftersom överdrivet mycket tvätt producerar mer ludd, vilket blockerar filtret snabbare. Det kan också göra att maskinen kämpar under centrifugeringsfasen och lämnar mer vatten i lasten än vad pumpen kan hantera effektivt. Håll dig till den rekommenderade lastkapaciteten som anges i din modells manual.",
+          "question": "Kan en full last orsaka END-avloppsfelet?"
+        },
+        {
+          "answer": "Ja, i de flesta fall. När du har rensat filtret eller slangen och maskinen framgångsrikt slutför en avlopps- eller centrifugeringscykel återställs END-koden automatiskt. Du behöver inte gå in i ett serviceläge eller använda någon speciell återställningsprocedur — kör helt enkelt ett kort program för att bekräfta normal drift.",
+          "question": "Försvinner END-felet av sig självt efter att jag åtgärdat blockeringen?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:37:28.471921+00:00"
+    },
+    {
+      "article_id": 200,
+      "locale": "en",
+      "slug": "error-code-f16",
+      "title_tag": "Bosch Washing Machine Error Code F16 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code F16? Learn what causes a door fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code F16 Mean on a Bosch Washing Machine?",
+      "description": "Error code F16 on a Bosch washing machine indicates that the door is not properly closed or the machine cannot confirm the door is securely locked before starting a cycle.",
+      "quick_fix": "Firmly push the door shut until you hear a distinct click, then press Start — the machine should clear the F16 error and begin the cycle within 30 seconds (takes about 2 minutes).",
+      "intro_html": "<p>Error code F16 is a door interlock fault. When your Bosch washing machine displays F16, it means the control board has not received confirmation that the door is fully closed and locked. As a safety measure, the machine will refuse to start or will pause mid-cycle to prevent water from leaking out of an unsecured door.</p><p>In most cases the drum will remain stationary, the display will show F16, and no water will enter the machine. Occasionally the error appears partway through a wash if the door latch loses contact during operation. The fault can be as simple as a piece of laundry caught in the door seal, or it may point to a worn latch or a faulty door interlock switch.</p><p>The good news is that the majority of F16 errors are resolved without any tools or replacement parts.</p>",
+      "causes_json": [
+        {
+          "cause": "Door not fully closed",
+          "detail": "The most common reason for F16 is that the door has not been pushed firmly enough to engage the latch. Overloaded drums or a garment hanging over the door seal can prevent a proper close."
+        },
+        {
+          "cause": "Laundry or debris caught in the door seal",
+          "detail": "A sock, sleeve, or small item trapped between the rubber door gasket and the drum rim can stop the door from seating correctly. Even a thin layer of detergent residue built up on the seal can reduce the contact needed to trigger the lock."
+        },
+        {
+          "cause": "Worn or broken door latch",
+          "detail": "The plastic latch hook on the door itself can crack or wear down over time, meaning it no longer engages the strike plate inside the machine body. This is more common on machines that are several years old or used heavily."
+        },
+        {
+          "cause": "Faulty door interlock switch",
+          "detail": "The door interlock is an electrical component inside the machine body that physically locks the door and sends a signal to the control board confirming it is secure. If the interlock fails mechanically or electrically, the board never receives that confirmation and F16 is triggered."
+        },
+        {
+          "cause": "Damaged door hinge or misaligned door",
+          "detail": "A sagging or bent door hinge can cause the door to sit slightly out of alignment, so the latch hook misses the strike plate. This is often visible as a small gap around the door edge when closed."
+        },
+        {
+          "cause": "Wiring fault between the interlock and control board",
+          "detail": "The wiring harness connecting the door interlock to the main control board can develop a loose connector or a broken wire, particularly near the hinge where the cable flexes repeatedly. This causes an intermittent or permanent F16 even when the door closes normally."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check for laundry caught in the door",
+          "detail": "Open the door fully and inspect the rubber door seal all the way around. Remove any clothing, small items, or debris that may be sitting between the seal and the drum rim. Wipe the seal with a damp cloth to remove any detergent build-up that could be reducing contact."
+        },
+        {
+          "step": 2,
+          "action": "Close the door firmly and restart",
+          "detail": "Push the door closed with a firm, deliberate push until you hear or feel a clear click from the latch. Do not slam it. Once closed, press the Start/Pause button to see if the machine clears the F16 error and begins operating normally."
+        },
+        {
+          "step": 3,
+          "action": "Reduce the load and try again",
+          "detail": "If the drum is packed tightly, items near the door opening can press against the glass and prevent a proper seal. Remove two or three items, redistribute the remaining laundry evenly, and attempt to close the door again."
+        },
+        {
+          "step": 4,
+          "action": "Perform a power reset",
+          "detail": "Switch the machine off at the wall socket and leave it unplugged for two minutes. This clears any temporary error stored in the control board's memory. Plug back in, select your programme, and try starting the machine again."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the door latch and strike plate",
+          "detail": "Look at the plastic hook on the door edge and the corresponding strike plate on the machine body. Check for visible cracks, chips, or deformation. If the hook looks worn or broken, the latch assembly will need to be replaced — this is a straightforward spare part available for most Bosch models."
+        },
+        {
+          "step": 6,
+          "action": "Check the door alignment",
+          "detail": "With the door open, look at the hinge at the bottom of the door. If the door droops noticeably or the latch hook visibly misses the strike plate when you close it slowly, the hinge may be bent or loose. Tighten any accessible hinge screws with a Torx or Phillips screwdriver and test again."
+        },
+        {
+          "step": 7,
+          "action": "Test the door interlock",
+          "detail": "If all physical checks pass but F16 persists, the door interlock switch is the most likely culprit. You can access it by removing the door seal and the front panel trim. A multimeter set to continuity mode can confirm whether the interlock is passing a signal when the door is closed. If there is no continuity, the interlock needs replacing."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Contact a service technician if the door latch and interlock both appear intact but F16 continues after a power reset, or if you find the wiring harness near the door hinge is visibly damaged, burnt, or has a broken connector. These repairs involve working inside the machine cabinet and require correct component identification to avoid further damage.</p><p>You should also seek professional help if the door itself is physically misaligned due to a bent hinge that cannot be corrected by tightening screws, or if the error code appears alongside other fault codes, which may suggest a control board issue rather than a straightforward door fault.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a persistent F16 error are the door interlock switch, the door latch assembly (including the hook and handle mechanism), and in some cases the door hinge. Keeping the door seal clean and free of detergent residue, and avoiding overloading the drum, will significantly reduce wear on the latch over time. Always close the door gently but firmly rather than forcing it shut.</p><p>If you need to order replacement parts for your Bosch washing machine to fix an F16 fault, the components listed below are compatible with a wide range of affected models:</p>\n<!-- SPARE_PARTS:F16 -->",
+      "faq_json": [
+        {
+          "answer": "No. The machine will not start or will pause a running cycle when F16 is active because it cannot confirm the door is safely locked. Running the machine with an unsecured door risks water leaking onto the floor. Resolve the door fault before attempting to run a cycle.",
+          "question": "Can I use my Bosch washing machine while it shows F16?"
+        },
+        {
+          "answer": "In most cases, yes. Once the door is firmly closed and the interlock engages, pressing Start should clear the error automatically. If the code remains on the display after a proper close, try a power reset by unplugging the machine for two minutes before restarting.",
+          "question": "Will F16 clear itself once I close the door properly?"
+        },
+        {
+          "answer": "A door interlock typically lasts between five and ten years under normal household use. Frequent heavy loads, slamming the door, or leaving the door open between washes (which can cause the seal to stiffen) can shorten its lifespan. Replacing it is a relatively low-cost repair.",
+          "question": "How long does a door interlock last on a Bosch washing machine?"
+        },
+        {
+          "answer": "F16 is the standard door fault code across a wide range of Bosch washing machines, but some older or entry-level models may display the fault differently, such as a flashing indicator light rather than a numeric code. Always cross-reference your model's manual if you are unsure.",
+          "question": "Is F16 the same as a door lock error on all Bosch models?"
+        },
+        {
+          "answer": "Yes, occasionally. A power fluctuation can cause the control board to log a false door fault. A two-minute power reset — unplugging the machine completely — is usually enough to clear a spurious F16 caused by an electrical glitch. If the code returns immediately after the reset with the door properly closed, the fault is mechanical or electrical rather than a software glitch.",
+          "question": "Could a power surge cause F16 to appear even if the door is fine?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:38:21.476175+00:00"
+    },
+    {
+      "article_id": 200,
+      "locale": "sv",
+      "slug": "felkod-f16",
+      "title_tag": "Bosch tvättmaskin felkod F16 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod F16? Lär dig vad som orsakar ett dörrlås-fel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod F16 på en Bosch tvättmaskin?",
+      "description": "Felkod F16 på en Bosch tvättmaskin indikerar att dörren inte är ordentligt stängd eller att maskinen inte kan bekräfta att dörren är säkert låst innan ett program startas.",
+      "quick_fix": "Tryck dörren ordentligt stängd tills du hör ett tydligt klick och tryck sedan på Start — maskinen bör rensa F16-felet och börja programmet inom 30 sekunder (tar ungefär 2 minuter).",
+      "intro_html": "<p>Felkod F16 är ett fel på dörrlåset. När din Bosch tvättmaskin visar F16 innebär det att styrkortet inte har fått bekräftelse på att dörren är helt stängd och låst. Som en säkerhetsåtgärd vägrar maskinen att starta eller pausar mitt i ett program för att förhindra att vatten läcker ut genom en osäkrad dörr.</p><p>I de flesta fall förblir trumman stillastående, displayen visar F16 och inget vatten fyller på i maskinen. Ibland uppstår felet mitt under ett tvättprogram om dörrlåset tappar kontakt under drift. Felet kan vara så enkelt som ett plagg som fastnat i dörrtätningen, eller så kan det tyda på ett slitet lås eller en defekt dörrlåsbrytare.</p><p>Den goda nyheten är att de flesta F16-fel löses utan verktyg eller reservdelar.</p>",
+      "causes_json": [
+        {
+          "cause": "Dörren är inte helt stängd",
+          "detail": "Den vanligaste orsaken till F16 är att dörren inte har tryckts tillräckligt hårt för att låset ska haka i. En överfylld trumma eller ett plagg som hänger över dörrtätningen kan förhindra att dörren stängs ordentligt."
+        },
+        {
+          "cause": "Tvätt eller skräp fastnat i dörrtätningen",
+          "detail": "En strumpa, ett ärm eller ett litet föremål som fastnat mellan gummitätningen och trumkanten kan hindra dörren från att sluta tätt. Även ett tunt lager tvättmedelsrester som byggts upp på tätningen kan minska den kontakt som krävs för att utlösa låset."
+        },
+        {
+          "cause": "Slitet eller trasigt dörrlås",
+          "detail": "Plastkroken på dörren kan spricka eller slitas ned med tiden, vilket innebär att den inte längre hakar i låsplattan inne i maskinkroppen. Detta är vanligare på maskiner som är flera år gamla eller används intensivt."
+        },
+        {
+          "cause": "Defekt dörrlåsbrytare",
+          "detail": "Dörrlåsbrytaren är en elektrisk komponent inne i maskinkroppen som fysiskt låser dörren och skickar en signal till styrkortet som bekräftar att den är säkrad. Om låsbrytaren havererar mekaniskt eller elektriskt får styrkortet aldrig den bekräftelsen och F16 utlöses."
+        },
+        {
+          "cause": "Skadad dörrgångjärn eller felinriktad dörr",
+          "detail": "Ett sjunkande eller böjt gångjärn kan göra att dörren sitter något snett, så att låskroken missar låsplattan. Detta syns ofta som ett litet glapp runt dörrkanten när den är stängd."
+        },
+        {
+          "cause": "Kabelfel mellan låsbrytaren och styrkortet",
+          "detail": "Kabelstammen som förbinder dörrlåsbrytaren med huvudstyrkortet kan få en lös kontakt eller en bruten ledare, särskilt nära gångjärnet där kabeln böjs upprepade gånger. Detta orsakar ett intermittent eller permanent F16 även när dörren stängs normalt."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera om tvätt fastnat i dörren",
+          "detail": "Öppna dörren helt och inspektera gummitätningen runt hela omkretsen. Ta bort eventuella klädesplagg, små föremål eller skräp som kan sitta mellan tätningen och trumkanten. Torka av tätningen med en fuktig trasa för att ta bort eventuella tvättmedelsrester som kan minska kontakten."
+        },
+        {
+          "step": 2,
+          "action": "Stäng dörren ordentligt och starta om",
+          "detail": "Tryck dörren stängd med ett fast och bestämt tryck tills du hör eller känner ett tydligt klick från låset. Slå inte igen den. När den är stängd, tryck på Start/Paus-knappen för att se om maskinen rensar F16-felet och börjar fungera normalt."
+        },
+        {
+          "step": 3,
+          "action": "Minska lasten och försök igen",
+          "detail": "Om trumman är hårt packad kan plagg nära dörröppningen trycka mot glaset och förhindra en ordentlig tätning. Ta ut två eller tre plagg, fördela resterande tvätt jämnt och försök stänga dörren igen."
+        },
+        {
+          "step": 4,
+          "action": "Utför en strömåterställning",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara urkopplad i två minuter. Detta rensar eventuella tillfälliga fel som lagrats i styrkortet. Koppla in igen, välj ditt program och försök starta maskinen igen."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera dörrlåset och låsplattan",
+          "detail": "Titta på plastkroken på dörrkanten och motsvarande låsplatta på maskinkroppen. Kontrollera om det finns synliga sprickor, avslag eller deformationer. Om kroken ser sliten eller trasig ut behöver låsenheten bytas — detta är en enkel reservdel som finns tillgänglig för de flesta Bosch-modeller."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera dörrinriktningen",
+          "detail": "Med dörren öppen, titta på gångjärnet längst ned på dörren. Om dörren hänger märkbart eller låskroken tydligt missar låsplattan när du stänger den långsamt, kan gångjärnet vara böjt eller löst. Dra åt eventuella åtkomliga gångjärnsskruvar med en Torx- eller Phillips-skruvmejsel och testa igen."
+        },
+        {
+          "step": 7,
+          "action": "Testa dörrlåsbrytaren",
+          "detail": "Om alla fysiska kontroller är godkända men F16 kvarstår är dörrlåsbrytaren den troligaste boven. Du kan komma åt den genom att ta bort dörrtätningen och den främre panelkanten. En multimeter inställd på kontinuitetsläge kan bekräfta om låsbrytaren skickar en signal när dörren är stängd. Om det inte finns kontinuitet behöver låsbrytaren bytas."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om dörrlåset och låsbrytaren båda verkar intakta men F16 fortsätter efter en strömåterställning, eller om du upptäcker att kabelstammen nära dörrgångjärnet är synligt skadad, bränd eller har en trasig kontakt. Dessa reparationer innebär arbete inne i maskinkabinetten och kräver korrekt komponentidentifiering för att undvika ytterligare skador.</p><p>Du bör också söka professionell hjälp om dörren är fysiskt felinriktad på grund av ett böjt gångjärn som inte kan korrigeras genom att dra åt skruvar, eller om felkoden visas tillsammans med andra felkoder, vilket kan tyda på ett styrkortsfel snarare än ett enkelt dörrfel.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid ett ihållande F16-fel är dörrlåsbrytaren, dörrlåsenheten (inklusive krok- och handtagsmekanism) och i vissa fall dörrgångjärnet. Att hålla dörrtätningen ren och fri från tvättmedelsrester, samt att undvika överfyllning av trumman, minskar slitaget på låset avsevärt över tid. Stäng alltid dörren försiktigt men bestämt i stället för att tvinga igen den.</p><p>Om du behöver beställa reservdelar till din Bosch tvättmaskin för att åtgärda ett F16-fel är komponenterna nedan kompatibla med ett brett urval av berörda modeller:</p>\n<!-- SPARE_PARTS:F16 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. Maskinen startar inte eller pausar ett pågående program när F16 är aktivt eftersom den inte kan bekräfta att dörren är säkert låst. Att köra maskinen med en osäkrad dörr riskerar att vatten läcker ut på golvet. Åtgärda dörr-felet innan du försöker köra ett program.",
+          "question": "Kan jag använda min Bosch tvättmaskin när den visar F16?"
+        },
+        {
+          "answer": "I de flesta fall, ja. När dörren är ordentligt stängd och låsbrytaren aktiveras bör ett tryck på Start rensa felet automatiskt. Om koden kvarstår på displayen efter en ordentlig stängning, prova en strömåterställning genom att koppla ur maskinen i två minuter innan du startar om.",
+          "question": "Försvinner F16 av sig självt när jag stänger dörren ordentligt?"
+        },
+        {
+          "answer": "En dörrlåsbrytare håller vanligtvis mellan fem och tio år vid normalt hushållsbruk. Frekventa tunga laster, att slå igen dörren eller att lämna dörren öppen mellan tvättar (vilket kan göra att tätningen stelnar) kan förkorta livslängden. Att byta den är en relativt billig reparation.",
+          "question": "Hur länge håller en dörrlåsbrytare på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "F16 är standardfelkoden för dörr-fel på ett brett urval av Bosch tvättmaskiner, men vissa äldre eller enklare modeller kan visa felet på ett annat sätt, till exempel som ett blinkande indikatorljus i stället för en numerisk kod. Kontrollera alltid din modells manual om du är osäker.",
+          "question": "Är F16 samma som ett dörrlåsfel på alla Bosch-modeller?"
+        },
+        {
+          "answer": "Ja, ibland. En strömfluktuering kan få styrkortet att registrera ett falskt dörrfel. En tvåminuters strömåterställning — att koppla ur maskinen helt — räcker vanligtvis för att rensa ett falskt F16 som orsakats av ett elektriskt störningsmoment. Om koden återkommer omedelbart efter återställningen med dörren ordentligt stängd är felet mekaniskt eller elektriskt snarare än ett programvarufel.",
+          "question": "Kan ett strömavbrott orsaka F16 även om dörren är i ordning?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:39:25.052086+00:00"
+    },
+    {
+      "article_id": 201,
+      "locale": "en",
+      "slug": "error-code-f17",
+      "title_tag": "Bosch Washing Machine Error Code F17 | Fix It Now",
+      "meta_description": "Bosch washing machine showing F17? Learn what causes this water inlet fault, how to fix it yourself step by step, and when to call a service technician.",
+      "h1": "What Does Error Code F17 Mean on a Bosch Washing Machine?",
+      "description": "Error code F17 on a Bosch washing machine indicates that the machine is not receiving enough water, or no water at all, within the expected fill time.",
+      "quick_fix": "Check that the cold water tap behind the machine is fully open, then restart the cycle — if the tap was closed or partially shut, the machine should fill normally and the error will clear (takes about 5 minutes).",
+      "intro_html": "<p>Error code F17 means your Bosch washing machine started a cycle but could not detect sufficient water entering the drum within the time it expects. The machine monitors water intake through a pressure sensor, and when the water level fails to rise as it should, the cycle is halted and F17 is displayed on the control panel.</p><p>When this error occurs, the machine will typically pause mid-fill or at the very start of a cycle. You may hear the inlet valve clicking or buzzing as it attempts to draw water, or you may notice the drum is completely dry when you open the door. The machine is protecting itself from running without water, which could damage the pump and heating element.</p><p>In the majority of cases, F17 is caused by something simple — a closed tap, a kinked hose, or a blocked inlet filter — and can be resolved without any tools or specialist knowledge.</p>",
+      "causes_json": [
+        {
+          "cause": "Water supply tap turned off or partially closed",
+          "detail": "The most common reason for F17 is that the cold water tap supplying the machine has been turned off, perhaps after maintenance or by accident. Even a partially closed tap can restrict flow enough to trigger the error."
+        },
+        {
+          "cause": "Blocked or clogged inlet filter",
+          "detail": "A fine mesh filter sits inside the inlet hose connection at the back of the machine. Over time, limescale and debris from the water supply build up in this filter, reducing water flow to a trickle. This is a very common cause in hard water areas."
+        },
+        {
+          "cause": "Kinked or crushed supply hose",
+          "detail": "If the machine has been pushed back against the wall, the inlet hose can become kinked or flattened, blocking water flow. Even a partial kink is enough to prevent the drum from filling at the correct rate."
+        },
+        {
+          "cause": "Faulty or seized water inlet solenoid valve",
+          "detail": "The inlet solenoid valve opens electrically to allow water in. If the valve coil has failed or the valve body is stuck with limescale, it will not open fully or at all, starving the machine of water."
+        },
+        {
+          "cause": "Faulty water pressure sensor (pressure box)",
+          "detail": "The pressure sensor monitors the water level inside the drum by detecting air pressure in a small chamber. If the sensor itself is faulty, or the small rubber hose connecting it to the drum is split or blocked, the machine may incorrectly report that no water has entered."
+        },
+        {
+          "cause": "Low mains water pressure",
+          "detail": "If there is a temporary drop in mains water pressure — due to local supply works or a problem with your home's stopcock — the machine may not fill quickly enough and will time out with F17."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the water supply tap",
+          "detail": "Locate the cold water tap on the wall or pipe behind the washing machine. Make sure it is turned fully anticlockwise (open). If it was closed or only partially open, open it fully, then press Start to retry the cycle. This single check resolves the majority of F17 errors."
+        },
+        {
+          "step": 2,
+          "action": "Inspect the inlet hose for kinks",
+          "detail": "Pull the machine gently away from the wall and visually inspect the full length of the blue or grey inlet hose. Straighten out any kinks or bends. Make sure the hose is not being pinched by the machine's feet or trapped under the appliance. Push the machine back carefully, keeping the hose clear."
+        },
+        {
+          "step": 3,
+          "action": "Clean the inlet filter",
+          "detail": "Turn off the water supply tap, then unscrew the inlet hose from the back of the machine by hand. Inside the threaded connection on the machine you will see a small mesh filter. Pull it out carefully with pliers or your fingers, rinse it under the tap, and use an old toothbrush to remove any limescale or grit. Refit the filter, reconnect the hose, and turn the tap back on. Check for leaks before restarting."
+        },
+        {
+          "step": 4,
+          "action": "Check the hose connection at the tap end",
+          "detail": "There is also a filter washer at the tap end of the inlet hose. Unscrew this end too and inspect the washer and any mesh present. Rinse and refit. While the hose is disconnected, hold it over a bucket and briefly open the tap to confirm water is flowing freely from the supply side."
+        },
+        {
+          "step": 5,
+          "action": "Test the water pressure",
+          "detail": "Run a cold tap elsewhere in your home — a kitchen sink or bathroom basin. If the flow seems unusually weak, you may have a temporary low-pressure issue from your water supplier, or your home's main stopcock may be partially closed. Check the stopcock (usually under the kitchen sink or where the supply enters the house) and open it fully."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the pressure sensor hose",
+          "detail": "With the machine unplugged, remove the top panel (usually two screws at the rear). Locate the small rubber or plastic tube running from the side of the drum up to the pressure sensor — a small round component on the side wall of the cabinet. Check the tube for cracks, splits, or blockages. A blocked tube can be cleared by blowing gently through it. Replace it if it is cracked."
+        },
+        {
+          "step": 7,
+          "action": "Test the inlet solenoid valve",
+          "detail": "If all the above steps check out and F17 persists, the inlet solenoid valve is the likely culprit. With the machine unplugged, the valve is accessible from the back panel. You can test the coil resistance with a multimeter — a reading outside the 200–500 ohm range typically indicates a failed coil. Replacement valves are widely available and are a straightforward swap for a confident DIYer."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above — confirmed the tap is open, cleaned the inlet filter, checked the hose, and inspected the pressure sensor tube — and the machine still displays F17, the fault is likely inside the appliance. A failed inlet solenoid valve that does not respond to electrical testing, a faulty pressure sensor, or a wiring fault between the control board and the valve will all require component-level diagnosis.</p><p>You should also call a service technician if you are uncomfortable removing the back panel, if the machine is still under warranty (DIY repairs may void it), or if you notice any signs of water leakage from the inlet valve area, which could indicate a cracked valve body that needs immediate attention.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a persistent F17 fault are the <strong>water inlet solenoid valve</strong>, the <strong>inlet filter mesh</strong> (or complete inlet hose with integrated filter), and the <strong>water pressure sensor</strong> (also called the pressure switch or pressure box). Keeping a spare inlet filter on hand is a low-cost precaution, especially in hard water areas where annual cleaning is advisable.</p><p>To reduce the likelihood of F17 recurring, clean the inlet filter every six to twelve months, avoid pushing the machine hard against the wall, and consider fitting an inline water softener or scale reducer if you live in a hard water area. Turning the supply tap off when the machine is not in use for extended periods is good practice, but always remember to reopen it before starting a wash.</p>\n<!-- SPARE_PARTS:F17 -->",
+      "faq_json": [
+        {
+          "answer": "No. When F17 is active, the machine has halted the cycle because it cannot confirm water is present in the drum. Running the motor or heater without water can cause serious damage. Resolve the water supply issue before attempting to restart.",
+          "question": "Can I still use my Bosch washing machine while it is showing F17?"
+        },
+        {
+          "answer": "Once you have fixed the underlying cause — for example, opening the tap or cleaning the filter — the error should clear automatically when you restart the cycle. If the code reappears immediately, the root cause has not been resolved and you should continue working through the diagnostic steps.",
+          "question": "How do I reset the F17 error code on a Bosch washing machine?"
+        },
+        {
+          "answer": "The inlet filter is a small mesh screen located inside the threaded inlet port on the back of the machine, where the water supply hose connects. Turn off the tap, unscrew the hose by hand, and you will see the filter sitting just inside the connection. It can be pulled out with your fingers or a pair of pliers.",
+          "question": "Where is the inlet filter on a Bosch washing machine?"
+        },
+        {
+          "answer": "It is possible but uncommon. The control board sends the signal to open the inlet valve and receives feedback from the pressure sensor. If the board is faulty, it may fail to open the valve or misread the sensor signal. However, control board faults are rare compared to blocked filters or closed taps, so always rule out the simpler causes first before suspecting the board.",
+          "question": "Could F17 be caused by a problem with the washing machine's control board?"
+        },
+        {
+          "answer": "Some programmes require a faster or larger initial fill than others. If your water pressure is borderline low, or the inlet filter is partially blocked, the machine may manage to fill slowly enough for shorter programmes but time out on programmes that demand a quicker fill. Cleaning the inlet filter and checking the tap position should resolve this intermittent behaviour.",
+          "question": "My Bosch washing machine shows F17 only on certain programmes — why?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:40:22.930144+00:00"
+    },
+    {
+      "article_id": 201,
+      "locale": "sv",
+      "slug": "felkod-f17",
+      "title_tag": "Bosch tvättmaskin felkod F17 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin F17? Lär dig vad som orsakar detta vattenintagsfel, hur du åtgärdar det steg för steg och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod F17 på en Bosch tvättmaskin?",
+      "description": "Felkod F17 på en Bosch tvättmaskin indikerar att maskinen inte får tillräckligt med vatten, eller inget vatten alls, inom den förväntade fyllningstiden.",
+      "quick_fix": "Kontrollera att kallvattenkranen bakom maskinen är helt öppen och starta sedan om programmet — om kranen var stängd eller delvis stängd bör maskinen fylla på normalt och felet försvinner (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod F17 innebär att din Bosch tvättmaskin startade ett program men inte kunde registrera att tillräckligt med vatten kom in i trumman inom den förväntade tiden. Maskinen övervakar vattenintaget via en trycksensor, och när vattennivån inte stiger som den ska avbryts programmet och F17 visas på kontrollpanelen.</p><p>När detta fel uppstår pausar maskinen vanligtvis mitt under fyllningen eller i början av ett program. Du kan höra att inloppsventilen klickar eller surrar när den försöker ta in vatten, eller så märker du att trumman är helt torr när du öppnar luckan. Maskinen skyddar sig själv från att köra utan vatten, vilket kan skada pumpen och värmeelement.</p><p>I de flesta fall orsakas F17 av något enkelt — en stängd kran, en veckad slang eller ett igensatt inloppsfilter — och kan åtgärdas utan verktyg eller specialkunskaper.</p>",
+      "causes_json": [
+        {
+          "cause": "Vattenkranen avstängd eller delvis stängd",
+          "detail": "Den vanligaste orsaken till F17 är att kallvattenkranen som försörjer maskinen har stängts av, kanske efter underhåll eller av misstag. Även en delvis stängd kran kan begränsa flödet tillräckligt för att utlösa felet."
+        },
+        {
+          "cause": "Igensatt eller tilltäppt inloppsfilter",
+          "detail": "Ett finmaskigt filter sitter inuti inloppsslangskopplingen på maskinens baksida. Med tiden ansamlas kalkavlagringar och smuts från vattenförsörjningen i detta filter, vilket minskar vattenflödet till ett rinnande. Detta är en mycket vanlig orsak i områden med hårt vatten."
+        },
+        {
+          "cause": "Veckad eller klämd tilloppsslang",
+          "detail": "Om maskinen har skjutits tillbaka mot väggen kan inloppsslangen bli veckad eller tillplattad, vilket blockerar vattenflödet. Även en delvis veckning räcker för att förhindra att trumman fylls i rätt takt."
+        },
+        {
+          "cause": "Defekt eller fastnad magnetventil för vattenintag",
+          "detail": "Magnetventilen för inloppet öppnas elektriskt för att släppa in vatten. Om ventilspolen har gått sönder eller ventilkroppen sitter fast på grund av kalkavlagringar öppnar den inte fullt ut eller alls, vilket gör att maskinen inte får vatten."
+        },
+        {
+          "cause": "Defekt vattentrycksensor (tryckkammare)",
+          "detail": "Trycksensorn övervakar vattennivån inuti trumman genom att registrera lufttrycket i en liten kammare. Om sensorn själv är defekt, eller om den lilla gummislangen som förbinder den med trumman är sprucken eller igensatt, kan maskinen felaktigt rapportera att inget vatten har kommit in."
+        },
+        {
+          "cause": "Lågt vattentryck i ledningsnätet",
+          "detail": "Om det uppstår ett tillfälligt tryckfall i ledningsnätet — på grund av lokala arbeten eller ett problem med huvudkranen i ditt hem — kan maskinen inte fyllas tillräckligt snabbt och avbryts med F17."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera vattenkranen",
+          "detail": "Leta upp kallvattenkranen på väggen eller röret bakom tvättmaskinen. Se till att den är vriden helt moturs (öppen). Om den var stängd eller bara delvis öppen, öppna den helt och tryck sedan på Start för att försöka igen. Denna enkla kontroll löser de flesta F17-fel."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera inloppsslangen för veckning",
+          "detail": "Dra försiktigt ut maskinen från väggen och inspektera hela längden på den blå eller grå inloppsslangen. Räta ut eventuella veckor eller böjar. Se till att slangen inte kläms av maskinens fötter eller fastnar under apparaten. Skjut tillbaka maskinen försiktigt och håll slangen fri."
+        },
+        {
+          "step": 3,
+          "action": "Rengör inloppsfiltret",
+          "detail": "Stäng av vattenkranen och skruva sedan loss inloppsslangen från maskinens baksida för hand. Inuti gängkopplingen på maskinen ser du ett litet nätfilter. Dra försiktigt ut det med en tång eller fingrarna, skölj det under kranen och använd en gammal tandborste för att ta bort kalkavlagringar eller grus. Sätt tillbaka filtret, anslut slangen igen och öppna kranen. Kontrollera att det inte läcker innan du startar om."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera slangkopplingen vid kranänden",
+          "detail": "Det finns även en filterbricka vid kranänden av inloppsslangen. Skruva loss även denna ände och inspektera brickan och eventuellt nät. Skölj och sätt tillbaka. Medan slangen är lossad, håll den över en hink och öppna kranen kortvarigt för att bekräfta att vatten flödar fritt från försörjningssidan."
+        },
+        {
+          "step": 5,
+          "action": "Testa vattentrycket",
+          "detail": "Öppna en kallvattenkran på annan plats i hemmet — ett köksvask eller ett handfat i badrummet. Om flödet verkar ovanligt svagt kan du ha ett tillfälligt lågtrycksproblem från din vattenleverantör, eller så kan huvudkranen i ditt hem vara delvis stängd. Kontrollera huvudkranen (vanligtvis under diskbänken eller där ledningen kommer in i huset) och öppna den helt."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera trycksensorns slang",
+          "detail": "Med maskinen urkopplad, ta bort toppanelen (vanligtvis två skruvar baktill). Leta upp den lilla gummi- eller plastslangen som löper från sidan av trumman upp till trycksensorn — en liten rund komponent på kabinettväggen. Kontrollera slangen för sprickor, revor eller igensättningar. En igensatt slang kan rensas genom att blåsa försiktigt igenom den. Byt ut den om den är sprucken."
+        },
+        {
+          "step": 7,
+          "action": "Testa magnetventilen för vattenintag",
+          "detail": "Om alla ovanstående steg är kontrollerade och F17 kvarstår är magnetventilen för inloppet troligen orsaken. Med maskinen urkopplad är ventilen åtkomlig från bakpanelen. Du kan testa spolens resistans med en multimeter — ett värde utanför intervallet 200–500 ohm indikerar vanligtvis en defekt spole. Ersättningsventiler finns allmänt tillgängliga och är ett enkelt byte för en händig gör-det-självare."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har arbetat igenom alla stegen ovan — bekräftat att kranen är öppen, rengjort inloppsfiltret, kontrollerat slangen och inspekterat trycksensorns slang — och maskinen fortfarande visar F17, är felet troligen inne i apparaten. En defekt magnetventil som inte svarar på elektrisk testning, en defekt trycksensor eller ett kabelfel mellan styrkortet och ventilen kräver alla diagnos på komponentnivå.</p><p>Du bör också kontakta en servicetekniker om du är obekväm med att ta bort bakpanelen, om maskinen fortfarande är under garanti (egna reparationer kan ogiltigförklara den), eller om du märker tecken på vattenläckage från inloppsventilens område, vilket kan indikera en sprucken ventilkropp som kräver omedelbar åtgärd.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid ett ihållande F17-fel är <strong>magnetventilen för vattenintag</strong>, <strong>inloppsfilternätet</strong> (eller komplett inloppsslang med integrerat filter) och <strong>vattentrycksensorn</strong> (även kallad tryckvakt eller tryckkammare). Att ha ett reservinloppsfilter till hands är en billig försiktighetsåtgärd, särskilt i områden med hårt vatten där rengöring en gång om året rekommenderas.</p><p>För att minska risken för att F17 återkommer, rengör inloppsfiltret var sjätte till tolfte månad, undvik att skjuta maskinen hårt mot väggen och överväg att installera ett inbyggt vattenavhärdare eller kalkreducerare om du bor i ett område med hårt vatten. Att stänga av vattenkranen när maskinen inte används under längre perioder är god praxis, men kom alltid ihåg att öppna den igen innan du startar en tvätt.</p>\n<!-- SPARE_PARTS:F17 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. När F17 är aktivt har maskinen avbrutit programmet eftersom den inte kan bekräfta att vatten finns i trumman. Att köra motorn eller värmeelement utan vatten kan orsaka allvarliga skador. Åtgärda vattenförsörjningsproblemet innan du försöker starta om.",
+          "question": "Kan jag fortfarande använda min Bosch tvättmaskin när den visar F17?"
+        },
+        {
+          "answer": "När du har åtgärdat den bakomliggande orsaken — till exempel öppnat kranen eller rengjort filtret — bör felet försvinna automatiskt när du startar om programmet. Om koden dyker upp igen omedelbart har grundorsaken inte åtgärdats och du bör fortsätta arbeta igenom felsökningsstegen.",
+          "question": "Hur återställer jag felkod F17 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Inloppsfiltret är ett litet nätfilter som sitter inuti den gängade inloppsporten på maskinens baksida, där vattenförsörjningsslangen ansluts. Stäng av kranen, skruva loss slangen för hand och du ser filtret precis inuti kopplingen. Det kan dras ut med fingrarna eller en tång.",
+          "question": "Var sitter inloppsfiltret på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Det är möjligt men ovanligt. Styrkortet skickar signalen för att öppna inloppsventilen och tar emot återkoppling från trycksensorn. Om kortet är defekt kan det misslyckas med att öppna ventilen eller feltolka sensorsignalen. Styrkortsfel är dock sällsynta jämfört med igensatta filter eller stängda kranar, så uteslut alltid de enklare orsakerna först innan du misstänker kortet.",
+          "question": "Kan F17 orsakas av ett problem med tvättmaskinens styrkort?"
+        },
+        {
+          "answer": "Vissa program kräver en snabbare eller större initial fyllning än andra. Om ditt vattentryck är gränsvärde lågt, eller om inloppsfiltret är delvis igensatt, kan maskinen klara av att fylla tillräckligt långsamt för kortare program men avbrytas på program som kräver en snabbare fyllning. Rengöring av inloppsfiltret och kontroll av kranens läge bör lösa detta intermittenta beteende.",
+          "question": "Min Bosch tvättmaskin visar F17 bara på vissa program — varför?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:41:37.117181+00:00"
+    },
+    {
+      "article_id": 203,
+      "locale": "en",
+      "slug": "error-code-f21",
+      "title_tag": "Bosch Washing Machine Error Code F21 | Motor Fault Fix",
+      "meta_description": "Bosch washing machine showing error code F21? Learn what causes this motor fault, what you can fix yourself, and when to call a service technician.",
+      "h1": "What Does Error Code F21 Mean on a Bosch Washing Machine?",
+      "description": "Error code F21 on a Bosch washing machine indicates a motor fault, meaning the machine has detected a problem with the drive motor or its associated components.",
+      "quick_fix": "Power cycle the machine by switching it off at the wall, waiting 5 minutes, then switching it back on and restarting the programme — this clears temporary motor control errors and restores normal operation in many cases (takes about 5 minutes).",
+      "intro_html": "<p>Error code F21 is Bosch's way of telling you that something has gone wrong with the washing machine's drive motor system. The motor is responsible for rotating the drum during washing, rinsing, and spinning cycles, so when a fault is detected here, the machine will typically stop mid-cycle or refuse to start a new one altogether.</p><p>When F21 appears, the control board has received a signal — either from the motor itself or from the motor control module — that falls outside expected parameters. This could be anything from a brief electrical glitch to a more serious mechanical or electronic failure.</p><p>Before assuming the worst, it is worth working through a few straightforward checks. A significant number of F21 errors are caused by temporary faults that clear themselves once the machine is reset, or by issues with the motor brushes or wiring that a careful homeowner can inspect safely.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary motor control glitch",
+          "detail": "The motor control electronics can occasionally produce a false fault signal due to a power surge or brief interruption. A simple reset often clears this without any physical fault being present."
+        },
+        {
+          "cause": "Worn or depleted motor brushes",
+          "detail": "Many Bosch washing machine motors use carbon brushes to transfer current to the rotating armature. Over time these brushes wear down, causing intermittent or complete loss of motor function and triggering F21."
+        },
+        {
+          "cause": "Faulty motor control module (MCU)",
+          "detail": "The motor control unit regulates power delivery to the motor. If this module develops a fault — due to age, heat damage, or a power spike — it can misread motor performance and generate an F21 error."
+        },
+        {
+          "cause": "Damaged or loose motor wiring",
+          "detail": "The wiring harness connecting the motor to the control board can become loose, chafed, or corroded over time, particularly with the vibration of regular use. A poor connection here will cause the motor to behave erratically or not at all."
+        },
+        {
+          "cause": "Seized or obstructed drum bearing",
+          "detail": "If the drum bearings have worn out or seized, the motor has to work much harder to turn the drum and may overheat or stall. The control board detects this abnormal load and raises the F21 fault."
+        },
+        {
+          "cause": "Failed drive motor",
+          "detail": "In some cases the motor itself has reached the end of its service life or has suffered internal damage such as a burnt winding. This is less common but does occur on older machines or those used very heavily."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reset the machine",
+          "detail": "Turn the washing machine off at the wall socket and leave it unplugged for at least 5 minutes. This allows the control board to fully discharge and clear any stored fault state. Plug it back in, select a short programme, and observe whether F21 returns."
+        },
+        {
+          "step": 2,
+          "action": "Check the drum for obstructions",
+          "detail": "Open the door and try turning the drum by hand. It should rotate smoothly with only light resistance. If it feels stiff, grinds, or will not turn at all, there may be a foreign object trapped between the drum and the tub, or the bearings may be failing."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the motor wiring connections",
+          "detail": "Switch off and unplug the machine, then carefully pull it away from the wall. Remove the back panel (usually held by two or three screws). Locate the motor at the base of the machine and check that all wiring connectors are firmly seated. Gently press each connector home and look for any visibly burnt, frayed, or corroded wires."
+        },
+        {
+          "step": 4,
+          "action": "Examine the carbon brushes",
+          "detail": "With the back panel still removed, locate the motor brushes — they sit in plastic or metal holders on either side of the motor body and can usually be removed by unscrewing or unclipping them. A new brush is typically around 18–20 mm long; if yours are worn down to 5 mm or less, they need replacing. Replacement brushes are an inexpensive and straightforward DIY repair."
+        },
+        {
+          "step": 5,
+          "action": "Listen and observe during a test cycle",
+          "detail": "After reassembling, run a short cotton cycle and listen carefully. A healthy motor runs with a steady hum. Loud buzzing, intermittent cutting out, or a burning smell all point to a motor or motor control issue that needs further investigation or professional attention."
+        },
+        {
+          "step": 6,
+          "action": "Check for error code recurrence",
+          "detail": "If F21 returns after completing the steps above, note exactly when in the cycle it appears — during agitation, spin, or immediately on start-up. This information is very useful for a service technician and can help narrow down whether the fault lies with the motor itself or the motor control module."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If the drum will not turn by hand, if you can smell burning from the motor area, or if F21 returns immediately after every reset attempt, these are signs that the fault is beyond basic DIY repair. A failed motor control module or a burnt-out motor winding requires specialist diagnostic equipment and safe handling of high-voltage components.</p><p>You should also call a service technician if you have replaced the motor brushes and the error persists, or if you notice any scorching or melted plastic around the motor or its wiring. Continuing to run the machine in this condition risks further damage to the control board and could create a safety hazard.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an F21 fault are the motor carbon brushes, the motor control module (MCU), and the drive motor itself. Carbon brushes are the most frequent cause of this error on machines that are several years old and are an affordable first replacement to try. If the brushes are in good condition, attention should turn to the motor control module before considering a full motor replacement.</p><p>Keeping the machine balanced on a level surface reduces vibration stress on motor components, and avoiding consistently overloaded drums will extend motor life considerably. Check the brushes every few years as part of routine maintenance if your machine is used daily.</p>\n<!-- SPARE_PARTS:F21 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to keep running the machine once F21 appears. The error indicates the motor is not operating correctly, and continuing to use it could cause further damage to the motor, the control board, or both. Try the reset first, and if the fault clears and the machine completes a full cycle without issue, it is safe to continue using it while monitoring for recurrence.",
+          "question": "Can I still use my Bosch washing machine with an F21 error?"
+        },
+        {
+          "answer": "If the fix is simply replacing the carbon brushes, parts typically cost between £10 and £20 and the job is straightforward for a confident DIYer. A motor control module replacement will usually cost £60–£120 for the part alone, plus labour if fitted by a service technician. A full motor replacement is the most expensive outcome, with parts and labour potentially reaching £150–£300 depending on the model.",
+          "question": "How much does it cost to fix a Bosch F21 motor fault?"
+        },
+        {
+          "answer": "Worn brushes usually cause the drum to turn slowly or intermittently before stopping, and the machine may work fine on some cycles but not others. A completely failed motor will typically mean the drum does not move at all from the start of the cycle. Inspecting the brushes visually is the quickest way to rule them out before suspecting the motor itself.",
+          "question": "How do I know if it is the brushes or the motor that has failed?"
+        },
+        {
+          "answer": "The motor works hardest during the spin cycle when it needs to reach high speeds. If the motor or its brushes are partially worn, they may cope with the slower agitation phase but fail under the higher load of spinning. An F21 that appears consistently at the same point in the cycle is a strong clue that the motor is struggling under load rather than having a wiring or control board issue.",
+          "question": "Why does F21 appear mid-cycle rather than at the start?"
+        },
+        {
+          "answer": "The F21 code consistently refers to a motor fault across the Bosch washing machine range, though the exact component at fault can vary between models. Some older models use brush motors while newer ones use brushless inverter motors, which changes which parts are most likely to fail. Always check your specific model's service documentation or consult a service technician if you are unsure which motor type your machine uses.",
+          "question": "Is F21 the same fault on all Bosch washing machine models?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:44:33.315727+00:00"
+    },
+    {
+      "article_id": 203,
+      "locale": "sv",
+      "slug": "felkod-f21",
+      "title_tag": "Bosch Tvättmaskin Felkod F21 | Motorfel – Åtgärda Felet",
+      "meta_description": "Visar din Bosch tvättmaskin felkod F21? Lär dig vad som orsakar detta motorfel, vad du kan åtgärda själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod F21 på en Bosch Tvättmaskin?",
+      "description": "Felkod F21 på en Bosch tvättmaskin indikerar ett motorfel, vilket innebär att maskinen har upptäckt ett problem med drivmotorn eller tillhörande komponenter.",
+      "quick_fix": "Starta om maskinen genom att stänga av den vid vägguttaget, vänta 5 minuter och sedan slå på den igen och starta om programmet – detta rensar tillfälliga motorstyrningsfel och återställer normal drift i många fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod F21 är Boschs sätt att meddela dig att något har gått fel med tvättmaskinens drivmotorsystem. Motorn ansvarar för att rotera trumman under tvätt-, sköljnings- och centrifugeringscykler, så när ett fel upptäcks här kommer maskinen vanligtvis att stanna mitt i ett program eller vägra att starta ett nytt.</p><p>När F21 visas har styrkortet tagit emot en signal – antingen från motorn själv eller från motorstyrningsmodulen – som ligger utanför förväntade parametrar. Det kan röra sig om allt från en kortvarig elektrisk störning till ett allvarligare mekaniskt eller elektroniskt fel.</p><p>Innan du drar förhastade slutsatser är det värt att gå igenom några enkla kontroller. En betydande andel av F21-felen orsakas av tillfälliga störningar som försvinner när maskinen återställs, eller av problem med motorborstar eller kablage som en noggrann hemmafixare kan inspektera på ett säkert sätt.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfällig störning i motorstyrningen",
+          "detail": "Motorstyrningselektroniken kan ibland generera en falsk felsignal på grund av ett spänningsöverskott eller ett kortvarigt avbrott. En enkel återställning rensar ofta detta utan att något fysiskt fel föreligger."
+        },
+        {
+          "cause": "Slitna eller uttjänta motorborstar",
+          "detail": "Många Bosch tvättmaskinsmotorer använder kolborstar för att överföra ström till den roterande ankaret. Med tiden slits dessa borstar ned, vilket orsakar intermittent eller fullständig förlust av motorfunktion och utlöser F21."
+        },
+        {
+          "cause": "Defekt motorstyrningsmodul (MCU)",
+          "detail": "Motorstyrningsenheten reglerar strömtillförseln till motorn. Om denna modul utvecklar ett fel – på grund av ålder, värmeskada eller ett spänningsöverskott – kan den feltolka motorns prestanda och generera ett F21-fel."
+        },
+        {
+          "cause": "Skadat eller löst motorkablage",
+          "detail": "Kabelstammen som förbinder motorn med styrkortet kan lossna, nötas eller korrodera med tiden, särskilt på grund av vibrationer vid regelbunden användning. En dålig anslutning här gör att motorn beter sig oregelbundet eller inte fungerar alls."
+        },
+        {
+          "cause": "Fastnat eller blockerat trummlager",
+          "detail": "Om trumlagren har slitits ut eller fastnat måste motorn arbeta mycket hårdare för att rotera trumman och kan överhettas eller stanna. Styrkortet upptäcker denna onormala belastning och utlöser F21-felet."
+        },
+        {
+          "cause": "Defekt drivmotor",
+          "detail": "I vissa fall har motorn nått slutet av sin livslängd eller lidit intern skada, till exempel en bränd lindning. Detta är mindre vanligt men förekommer på äldre maskiner eller sådana som används mycket intensivt."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Återställ maskinen",
+          "detail": "Stäng av tvättmaskinen vid vägguttaget och låt den vara urkopplad i minst 5 minuter. Detta ger styrkortet tid att ladda ur helt och rensa eventuellt lagrat feltillstånd. Koppla in den igen, välj ett kort program och observera om F21 återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera trumman för hinder",
+          "detail": "Öppna luckan och försök rotera trumman för hand. Den ska rotera mjukt med endast lätt motstånd. Om den känns stel, gnisslar eller inte går att rotera alls kan det finnas ett främmande föremål fastnat mellan trumman och karet, eller så kan lagren vara på väg att ge upp."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera motorkablagets anslutningar",
+          "detail": "Stäng av och koppla ur maskinen, dra sedan försiktigt ut den från väggen. Ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar). Lokalisera motorn längst ned i maskinen och kontrollera att alla kabelkontakter sitter ordentligt. Tryck försiktigt in varje kontakt och leta efter synligt brända, fransiga eller korroderade kablar."
+        },
+        {
+          "step": 4,
+          "action": "Undersök kolborstarna",
+          "detail": "Med bakpanelen fortfarande borttagen, lokalisera motorborstarna – de sitter i plast- eller metallhållare på vardera sidan av motorhuset och kan vanligtvis tas bort genom att skruvas loss eller klämmas loss. En ny borste är typiskt sett ungefär 18–20 mm lång; om dina är nednötta till 5 mm eller mindre behöver de bytas. Ersättningsborstar är en billig och enkel reparation för hemmafixaren."
+        },
+        {
+          "step": 5,
+          "action": "Lyssna och observera under ett testprogram",
+          "detail": "Efter återmontering, kör ett kort bomullsprogram och lyssna noga. En frisk motor går med ett jämnt surrande. Högt brummande, intermittenta avbrott eller bränd lukt pekar alla på ett motor- eller motorstyrningsproblem som kräver ytterligare undersökning eller professionell hjälp."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera om felkoden återkommer",
+          "detail": "Om F21 återkommer efter att ha genomfört stegen ovan, notera exakt när i programmet det inträffar – under tvätt, centrifugering eller direkt vid start. Denna information är mycket värdefull för en servicetekniker och kan hjälpa till att avgöra om felet ligger hos motorn själv eller motorstyrningsmodulen."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om trumman inte går att rotera för hand, om du kan känna bränd lukt från motorområdet, eller om F21 återkommer omedelbart efter varje återställningsförsök, är dessa tecken på att felet ligger bortom grundläggande hemmafixning. En defekt motorstyrningsmodul eller en bränd motorlindning kräver specialiserad diagnostikutrustning och säker hantering av högspänningskomponenter.</p><p>Du bör också kontakta en servicetekniker om du har bytt motorborstarna och felet kvarstår, eller om du märker förkolning eller smält plast runt motorn eller dess kablage. Att fortsätta använda maskinen i detta tillstånd riskerar ytterligare skador på styrkortet och kan utgöra en säkerhetsrisk.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett F21-fel är motorns kolborstar, motorstyrningsmodulen (MCU) och drivmotorn. Kolborstar är den vanligaste orsaken till detta fel på maskiner som är flera år gamla och är ett prisvärt första utbyte att prova. Om borstarna är i gott skick bör uppmärksamheten riktas mot motorstyrningsmodulen innan man överväger ett fullständigt motorbyte.</p><p>Att hålla maskinen i balans på ett plant underlag minskar vibrationspåfrestningen på motorkomponenterna, och att undvika konsekvent överfyllda trummor förlänger motorns livslängd avsevärt. Kontrollera borstarna vart par år som en del av rutinunderhållet om din maskin används dagligen.</p>\n<!-- SPARE_PARTS:F21 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt att fortsätta köra maskinen när F21 visas. Felet indikerar att motorn inte fungerar korrekt, och att fortsätta använda den kan orsaka ytterligare skador på motorn, styrkortet eller båda. Prova återställningen först, och om felet försvinner och maskinen slutför ett helt program utan problem är det säkert att fortsätta använda den medan du håller utkik efter återkommande fel.",
+          "question": "Kan jag fortsätta använda min Bosch tvättmaskin med ett F21-fel?"
+        },
+        {
+          "answer": "Om åtgärden enbart innebär att byta kolborstar kostar reservdelarna vanligtvis mellan 100 och 200 kr och arbetet är enkelt för en händig hemmafixare. Ett byte av motorstyrningsmodulen kostar vanligtvis 600–1 200 kr för delen ensam, plus arbetskostnad om den monteras av en servicetekniker. Ett fullständigt motorbyte är det dyraste utfallet, med delar och arbete som potentiellt kan uppgå till 1 500–3 000 kr beroende på modell.",
+          "question": "Hur mycket kostar det att åtgärda ett Bosch F21-motorfel?"
+        },
+        {
+          "answer": "Slitna borstar gör vanligtvis att trumman roterar långsamt eller intermittent innan den stannar, och maskinen kan fungera bra på vissa program men inte på andra. En helt defekt motor innebär vanligtvis att trumman inte rör sig alls från programmets start. Att inspektera borstarna visuellt är det snabbaste sättet att utesluta dem innan man misstänker motorn.",
+          "question": "Hur vet jag om det är borstarna eller motorn som har gett upp?"
+        },
+        {
+          "answer": "Motorn arbetar hårdast under centrifugeringscykeln när den behöver nå höga varvtal. Om motorn eller dess borstar är delvis slitna kan de klara den långsammare tvättfasen men misslyckas under den högre belastningen vid centrifugering. Ett F21-fel som konsekvent uppträder vid samma punkt i programmet är en stark indikation på att motorn kämpar under belastning snarare än att det rör sig om ett kablage- eller styrkortsfel.",
+          "question": "Varför visas F21 mitt i programmet snarare än vid starten?"
+        },
+        {
+          "answer": "Koden F21 hänvisar konsekvent till ett motorfel i hela Boschs tvättmaskinssortiment, även om den exakta felkomponenten kan variera mellan modeller. Vissa äldre modeller använder borstmotorer medan nyare använder borstlösa invertermotorer, vilket påverkar vilka delar som är mest benägna att gå sönder. Kontrollera alltid din specifika modells servicedokumentation eller rådfråga en servicetekniker om du är osäker på vilken motortyp din maskin använder.",
+          "question": "Är F21 samma fel på alla Bosch tvättmaskinmodeller?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:45:40.498606+00:00"
+    }
+  ]
+}

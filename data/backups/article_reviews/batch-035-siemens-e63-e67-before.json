@@ -1,0 +1,1011 @@
+{
+  "exported_at": "2026-07-30T22:24:30.403860+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    232,
+    233,
+    234,
+    235,
+    236
+  ],
+  "rows": [
+    {
+      "article_id": 232,
+      "locale": "en",
+      "slug": "error-code-e63",
+      "title_tag": "Siemens Washing Machine Error Code E63 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error E63? Learn what causes this heating circuit fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E63 Mean on a Siemens Washing Machine?",
+      "description": "Error code E63 on a Siemens washing machine indicates a fault in the heating circuit, typically involving the heating element or a temperature sensor that is not functioning within the expected range.",
+      "quick_fix": "Check that the machine is not overloaded and run a short 30°C cycle to see if the heating fault clears — if the NTC temperature sensor has given a temporary false reading, this reset can resolve it without further action (takes about 10 minutes).",
+      "intro_html": "<p>Error code E63 points to a problem in your Siemens washing machine's heating circuit. This circuit is responsible for warming the water to the temperature you select, and when the machine's control board detects a reading that falls outside the expected range — either from the heating element itself or from the NTC temperature sensor that monitors water temperature — it stops the programme and displays E63 to prevent damage or unsafe operation.</p><p>When this error appears, the wash cycle will typically pause or fail to progress past the heating phase. You may notice that the water stays cold, or the machine simply stops mid-cycle. In some cases the drum will continue to turn but no heat is produced, and the programme will eventually time out.</p><p>The fault can be intermittent or permanent depending on the underlying cause. It is worth working through the checks below before assuming a major component has failed, as a faulty sensor or a loose connection is often the culprit.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty NTC temperature sensor",
+          "detail": "The NTC sensor monitors water temperature and feeds readings back to the control board. If it has drifted out of calibration, developed a short circuit, or failed entirely, the board will log E63 even if the heating element itself is fine."
+        },
+        {
+          "cause": "Failed or burnt-out heating element",
+          "detail": "Over time, limescale build-up and normal wear can cause the heating element to burn out or develop an open circuit. When the element cannot draw current, the water temperature never rises and the fault is triggered."
+        },
+        {
+          "cause": "Wiring or connector fault",
+          "detail": "The wiring harness connecting the heating element and NTC sensor to the control board can suffer from loose terminals, corrosion, or chafing. A poor connection produces erratic resistance readings that the board interprets as a heating circuit fault."
+        },
+        {
+          "cause": "Heavy limescale deposits",
+          "detail": "In hard-water areas, limescale can coat the heating element thickly enough to cause it to overheat and fail prematurely, or to insulate the NTC sensor so it cannot read water temperature accurately."
+        },
+        {
+          "cause": "Control board (PCB) fault",
+          "detail": "If the main PCB has suffered a power surge or component failure, it may misread signals from the heating circuit or fail to supply the correct voltage to the element. This is the least common cause but should be considered if all other components test correctly."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains socket and leave it unplugged for at least 5 minutes. This allows the control board to fully reset. Plug back in, select a 30°C or 40°C programme, and observe whether the error returns. Occasionally a temporary sensor spike causes a false E63 that clears on its own."
+        },
+        {
+          "step": 2,
+          "action": "Check the load size and redistribute laundry",
+          "detail": "An overloaded drum can restrict water circulation around the heating element, causing localised overheating. Remove some items, redistribute the remaining load evenly, and restart the cycle. This takes only a couple of minutes and rules out a simple operational cause."
+        },
+        {
+          "step": 3,
+          "action": "Run a descaling cycle",
+          "detail": "If you live in a hard-water area and have not descaled the machine recently, run a hot maintenance wash (60°C or 90°C) with a proprietary washing machine descaler. Heavy limescale on the element can cause it to overheat and trigger E63. Repeat monthly if your water is particularly hard."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the wiring to the heating element and NTC sensor",
+          "detail": "Disconnect the machine from the mains before doing this. Remove the rear panel (usually held by two or three screws) to access the heating element at the bottom of the drum. Check that all connectors are firmly seated, look for signs of burning or corrosion on the terminals, and reseat any loose plugs. Reconnect and test."
+        },
+        {
+          "step": 5,
+          "action": "Test the NTC temperature sensor with a multimeter",
+          "detail": "With the machine unplugged, disconnect the NTC sensor (a small two-wire probe clipped to the heating element or sump area). At room temperature (around 20°C) a healthy NTC sensor typically reads between 4,000 and 6,000 ohms — check your model's service data for the exact value. A reading of zero or infinity indicates a failed sensor that needs replacing."
+        },
+        {
+          "step": 6,
+          "action": "Test the heating element with a multimeter",
+          "detail": "With the machine unplugged and the element terminals exposed, set your multimeter to resistance mode. A working element on a standard domestic machine typically reads between 20 and 30 ohms. A reading of infinity (open circuit) confirms the element has failed and must be replaced. Also check for continuity between each terminal and the machine's metal casing — any reading here indicates an earth fault."
+        },
+        {
+          "step": 7,
+          "action": "Replace the faulty component",
+          "detail": "If testing has identified a failed NTC sensor or heating element, source the correct replacement part for your specific Siemens model number (found on the rating plate inside the door frame). Both parts are generally straightforward to swap with basic tools, but if you are not confident working with electrical components inside the machine, book a service technician at this stage."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested both the NTC sensor and the heating element and both measure within normal ranges, yet the E63 error persists after a power cycle, the fault is likely inside the main control board (PCB). PCB diagnosis and replacement requires specialist equipment and knowledge of the board's circuit layout — this is not a DIY repair for most homeowners.</p><p>You should also call a service technician if you find any signs of burning, melted plastic, or a strong electrical smell near the heating circuit, or if the machine trips your household circuit breaker when it attempts to heat. These symptoms suggest an active electrical fault that could be a safety risk if the machine continues to be used.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E63 fault are the NTC temperature sensor, the heating element, and — less frequently — the wiring harness or heating circuit connectors. Keeping on top of descaling every one to three months (depending on your local water hardness) is the single most effective way to extend the life of the heating element and avoid this fault recurring.</p><p>Using the correct amount of detergent and running a monthly hot maintenance wash also helps prevent residue build-up around the element and sensor, keeping readings accurate and the heating circuit working efficiently.</p>\n<!-- SPARE_PARTS:E63 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to continue using the machine with an active E63 fault. The machine will not heat the water properly, meaning laundry will not be hygienically cleaned. More importantly, if the fault is caused by an electrical issue with the element, continued use could pose a safety risk or cause further damage to the control board.",
+          "question": "Can I still use my Siemens washing machine while it shows E63?"
+        },
+        {
+          "answer": "On most Siemens models the NTC sensor is a small probe attached directly to the heating element at the base of the drum, accessible from the rear panel. On some models it is located on the sump hose near the bottom of the machine. Your model's service manual or a parts diagram (searchable by model number) will show the exact location.",
+          "question": "How do I find the NTC sensor on my Siemens washing machine?"
+        },
+        {
+          "answer": "If the fault is a failed NTC sensor, the part itself is usually inexpensive — often under £20. A replacement heating element typically costs between £20 and £50 depending on the model. If a service technician is needed, add a call-out and labour charge on top of the part cost. A PCB replacement is significantly more expensive and may not be economical on an older machine.",
+          "question": "How much does it cost to fix a Siemens E63 error?"
+        },
+        {
+          "answer": "Occasionally, if the error was triggered by a temporary overheating event rather than a component failure, it may clear after the machine has cooled and been power cycled. However, if the underlying cause is a failing sensor or element, the error will return as soon as the machine attempts to heat water again. A one-off clearance is worth trying, but do not rely on it as a long-term solution.",
+          "question": "Will E63 clear itself after the machine cools down?"
+        },
+        {
+          "answer": "The E63 code consistently relates to the heating circuit across Siemens washing machine ranges, but the exact component at fault and the resistance values you should expect when testing can vary between models. Always cross-reference with the specific service data for your model number, which you can find on the rating plate inside the door opening.",
+          "question": "Is E63 the same fault on all Siemens washing machine models?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T14:43:36.257831+00:00"
+    },
+    {
+      "article_id": 232,
+      "locale": "sv",
+      "slug": "felkod-e63",
+      "title_tag": "Siemens tvättmaskin felkod E63 | Åtgärda felet nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod E63? Lär dig vad som orsakar detta fel i värmekretsen, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E63 på en Siemens tvättmaskin?",
+      "description": "Felkod E63 på en Siemens tvättmaskin indikerar ett fel i värmekretsen, vanligtvis kopplat till värmeelement eller en temperatursensor som inte fungerar inom förväntat område.",
+      "quick_fix": "Kontrollera att maskinen inte är överfylld och kör ett kort 30°C-program för att se om värmefelet försvinner — om NTC-temperatursensorn har gett ett tillfälligt felaktigt värde kan denna återställning lösa problemet utan ytterligare åtgärd (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod E63 pekar på ett problem i din Siemens tvättmaskines värmekrets. Denna krets ansvarar för att värma vattnet till den temperatur du väljer, och när maskinens styrkort registrerar ett värde som faller utanför det förväntade området — antingen från värmeelementet självt eller från NTC-temperatursensorn som övervakar vattentemperaturen — avbryter den programmet och visar E63 för att förhindra skada eller osäker drift.</p><p>När detta fel uppstår pausar tvättcykeln vanligtvis eller misslyckas med att komma förbi uppvärmningsfasen. Du kan märka att vattnet förblir kallt, eller att maskinen helt enkelt stannar mitt i cykeln. I vissa fall fortsätter trumman att rotera men ingen värme produceras, och programmet avbryts till slut på grund av timeout.</p><p>Felet kan vara intermittent eller permanent beroende på den bakomliggande orsaken. Det är värt att gå igenom kontrollerna nedan innan du antar att en större komponent har gått sönder, eftersom en defekt sensor eller en lös anslutning ofta är boven i dramat.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt NTC-temperatursensor",
+          "detail": "NTC-sensorn övervakar vattentemperaturen och skickar avläsningar tillbaka till styrkortet. Om den har driftat ur kalibrering, utvecklat en kortslutning eller slutat fungera helt, kommer kortet att logga E63 även om värmeelementet i sig fungerar fint."
+        },
+        {
+          "cause": "Trasigt eller utbränt värmeelement",
+          "detail": "Med tiden kan kalkavlagringar och normalt slitage orsaka att värmeelementet bränns ut eller utvecklar ett öppet kretsar. När elementet inte kan dra ström stiger aldrig vattentemperaturen och felet utlöses."
+        },
+        {
+          "cause": "Fel på kablage eller kontakter",
+          "detail": "Kabelstammen som förbinder värmeelementet och NTC-sensorn med styrkortet kan drabbas av lösa terminaler, korrosion eller nötning. En dålig anslutning ger oregelbundna motståndsavläsningar som kortet tolkar som ett fel i värmekretsen."
+        },
+        {
+          "cause": "Kraftiga kalkavlagringar",
+          "detail": "I områden med hårt vatten kan kalk belägga värmeelementet tillräckligt tjockt för att orsaka överhettning och för tidig haveri, eller isolera NTC-sensorn så att den inte kan avläsa vattentemperaturen korrekt."
+        },
+        {
+          "cause": "Fel på styrkortet (PCB)",
+          "detail": "Om huvud-PCB:n har drabbats av ett spänningsöverskott eller komponentfel kan den feltolka signaler från värmekretsen eller misslyckas med att leverera rätt spänning till elementet. Detta är den minst vanliga orsaken men bör övervägas om alla andra komponenter testar korrekt."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara urkopplad i minst 5 minuter. Detta låter styrkortet återställas helt. Koppla in igen, välj ett 30°C- eller 40°C-program och observera om felet återkommer. Ibland orsakar en tillfällig sensortopik ett falskt E63 som försvinner av sig självt."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera lastmängden och fördela tvätten",
+          "detail": "En överfylld trumma kan begränsa vattencirkulationen runt värmeelementet och orsaka lokal överhettning. Ta ut några plagg, fördela resterande tvätt jämnt och starta om cykeln. Detta tar bara ett par minuter och utesluter en enkel driftsorsak."
+        },
+        {
+          "step": 3,
+          "action": "Kör ett avkalkningsprogram",
+          "detail": "Om du bor i ett område med hårt vatten och inte har avkalkat maskinen nyligen, kör en varm underhållstvätt (60°C eller 90°C) med ett lämpligt avkalkningsmedel för tvättmaskiner. Kraftiga kalkavlagringar på elementet kan orsaka överhettning och utlösa E63. Upprepa månadsvis om ditt vatten är särskilt hårt."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera kablaget till värmeelementet och NTC-sensorn",
+          "detail": "Koppla bort maskinen från elnätet innan du gör detta. Ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar) för att komma åt värmeelementet längst ner på trumman. Kontrollera att alla kontakter sitter ordentligt, leta efter tecken på brännskador eller korrosion på terminalerna och sätt tillbaka eventuella lösa kontakter. Återanslut och testa."
+        },
+        {
+          "step": 5,
+          "action": "Testa NTC-temperatursensorn med en multimeter",
+          "detail": "Med maskinen urkopplad, koppla loss NTC-sensorn (en liten tvåtrådssond fäst vid värmeelementet eller sumpområdet). Vid rumstemperatur (cirka 20°C) läser en frisk NTC-sensor vanligtvis mellan 4 000 och 6 000 ohm — kontrollera din modells servicedata för det exakta värdet. En avläsning på noll eller oändlighet indikerar en defekt sensor som behöver bytas."
+        },
+        {
+          "step": 6,
+          "action": "Testa värmeelementet med en multimeter",
+          "detail": "Med maskinen urkopplad och elementets terminaler exponerade, ställ in multimetern på motståndsläge. Ett fungerande element i en vanlig hushållsmaskin läser vanligtvis mellan 20 och 30 ohm. En avläsning på oändlighet (öppen krets) bekräftar att elementet har gått sönder och måste bytas. Kontrollera också kontinuitet mellan varje terminal och maskinens metallhölje — en avläsning här indikerar ett jordfel."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut den defekta komponenten",
+          "detail": "Om testningen har identifierat en defekt NTC-sensor eller ett trasigt värmeelement, skaffa rätt reservdel för ditt specifika Siemens-modellnummer (finns på typskylten inuti dörröppningen). Båda delarna är i allmänhet enkla att byta med grundläggande verktyg, men om du inte känner dig trygg med att arbeta med elektriska komponenter inuti maskinen, boka en servicetekniker i detta skede."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat både NTC-sensorn och värmeelementet och båda mäter inom normala intervall, men E63-felet kvarstår efter en omstart, är felet troligtvis inne i huvud-styrkortet (PCB). PCB-diagnostik och -byte kräver specialutrustning och kunskap om kortets kretsschema — detta är inte en gör-det-själv-reparation för de flesta hushåll.</p><p>Du bör också kontakta en servicetekniker om du hittar tecken på brännskador, smält plast eller en stark elektrisk lukt nära värmekretsen, eller om maskinen löser ut ditt hushålls jordfelsbrytare när den försöker värma. Dessa symptom tyder på ett aktivt elfel som kan utgöra en säkerhetsrisk om maskinen fortsätter att användas.</p>",
+      "prevention_html": "<p>De delar som oftast byts vid åtgärdande av ett E63-fel är NTC-temperatursensorn, värmeelementet och — mer sällan — kabelstammen eller värmekretskontakterna. Att hålla koll på avkalkning var en till tre månader (beroende på din lokala vattenhårdhet) är det enskilt mest effektiva sättet att förlänga värmeelementets livslängd och undvika att detta fel återkommer.</p><p>Att använda rätt mängd tvättmedel och köra en månatlig varm underhållstvätt hjälper också till att förhindra att rester byggs upp runt elementet och sensorn, vilket håller avläsningarna korrekta och värmekretsen i effektiv drift.</p>\n<!-- SPARE_PARTS:E63 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt att fortsätta använda maskinen med ett aktivt E63-fel. Maskinen värmer inte vattnet ordentligt, vilket innebär att tvätten inte rengörs hygieniskt. Viktigare är att om felet orsakas av ett elektriskt problem med elementet kan fortsatt användning utgöra en säkerhetsrisk eller orsaka ytterligare skada på styrkortet.",
+          "question": "Kan jag fortsätta använda min Siemens tvättmaskin när den visar E63?"
+        },
+        {
+          "answer": "På de flesta Siemens-modeller är NTC-sensorn en liten sond fäst direkt på värmeelementet vid trummans bas, åtkomlig från bakpanelen. På vissa modeller sitter den på sumpslangen nära maskinens botten. Din modells servicemanual eller ett reservdelsdiagram (sökbart med modellnummer) visar den exakta platsen.",
+          "question": "Hur hittar jag NTC-sensorn på min Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Om felet beror på en defekt NTC-sensor är själva delen vanligtvis billig — ofta under 200 kr. Ett ersättningsvärmeelement kostar typiskt mellan 200 och 500 kr beroende på modell. Om en servicetekniker behövs tillkommer en utryckning och arbetskostnad utöver delkostnaden. Ett PCB-byte är betydligt dyrare och kan vara olönsamt på en äldre maskin.",
+          "question": "Hur mycket kostar det att åtgärda ett Siemens E63-fel?"
+        },
+        {
+          "answer": "Ibland, om felet utlöstes av en tillfällig överhettningshändelse snarare än ett komponentfel, kan det försvinna efter att maskinen har svalnat och startats om. Men om den bakomliggande orsaken är en sviktande sensor eller ett trasigt element, återkommer felet så snart maskinen försöker värma vatten igen. Det är värt att försöka med en engångsåterställning, men förlita dig inte på det som en långsiktig lösning.",
+          "question": "Försvinner E63 av sig självt när maskinen svalnar?"
+        },
+        {
+          "answer": "E63-koden relaterar konsekvent till värmekretsen i Siemens tvättmaskinssortiment, men den exakta defekta komponenten och de motståndsvärdena du bör förvänta dig vid testning kan variera mellan modeller. Kontrollera alltid mot den specifika servicedatan för ditt modellnummer, som du hittar på typskylten inuti dörröppningen.",
+          "question": "Är E63 samma fel på alla Siemens tvättmaskinmodeller?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T14:44:45.628936+00:00"
+    },
+    {
+      "article_id": 233,
+      "locale": "en",
+      "slug": "error-code-e64",
+      "title_tag": "Siemens Washing Machine Error Code E64 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error code E64? Learn what causes this heating circuit fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code E64 Mean on a Siemens Washing Machine?",
+      "description": "Error code E64 on a Siemens washing machine indicates a fault in the heating circuit, typically involving the heating element or a temperature sensor that monitors wash water temperature.",
+      "quick_fix": "Check and clean the filter at the bottom front of the machine to rule out restricted water flow affecting the heating circuit, then run a short 40°C cycle to see if E64 clears (takes about 10 minutes).",
+      "intro_html": "<p>Error code E64 points to a problem in your Siemens washing machine's heating circuit. This circuit is responsible for warming the water to the temperature you select on the dial or display. When the machine's control board detects that the water is not reaching the expected temperature — or that a sensor reading is outside the normal range — it stops the programme and displays E64 to prevent damage to your laundry or the appliance itself.</p><p>When this error appears, the wash cycle will typically pause or stop mid-programme, often during the main wash phase when heating is required. The drum may continue to turn briefly, but the machine will not progress until the fault is resolved. In some Siemens models the error may appear immediately at the start of a heated cycle, while in others it surfaces after several minutes once the control board has had time to assess the heating performance.</p><p>The fault can stem from a failed heating element, a faulty NTC temperature sensor, wiring issues, or in some cases a problem with the main control board. Most of these causes are identifiable with basic checks before you consider calling a service technician.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty heating element",
+          "detail": "The heating element is the most common cause of E64. Over time, elements can burn out or develop an internal break, meaning they draw no current and the water stays cold, triggering the fault."
+        },
+        {
+          "cause": "Failed NTC temperature sensor",
+          "detail": "The NTC (negative temperature coefficient) sensor monitors water temperature and reports back to the control board. If it fails or drifts out of calibration, the board receives an implausible reading and raises E64 even if the element itself is working."
+        },
+        {
+          "cause": "Damaged or loose wiring to the heating circuit",
+          "detail": "The wiring harness connecting the heating element and sensor to the control board can suffer from vibration, heat, or moisture over time. A loose connector or corroded terminal can interrupt the circuit and produce the same error as a component failure."
+        },
+        {
+          "cause": "Limescale build-up on the heating element",
+          "detail": "In hard water areas, limescale deposits coat the element and insulate it, reducing its ability to heat water efficiently. Severe build-up can cause the element to overheat locally and fail, or cause the sensor to record erratic temperatures."
+        },
+        {
+          "cause": "Faulty main control board (PCB)",
+          "detail": "If the PCB cannot correctly send power to the heating element or interpret the sensor signal, it may log E64 as a precaution. This is less common but should be considered if all other components test as healthy."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains socket and leave it unplugged for two minutes. Plug it back in, select a 40°C or 60°C programme, and start it. Occasionally a temporary voltage spike can trigger E64, and a full power reset clears it. If the error does not return, no further action is needed."
+        },
+        {
+          "step": 2,
+          "action": "Clean the pump filter",
+          "detail": "Locate the small access panel at the bottom front of the machine. Place a towel and a shallow tray underneath, then unscrew the filter cap slowly to drain residual water. Remove any debris — fluff, coins, or grit — from the filter and housing. A blocked filter can restrict water circulation and indirectly affect heating performance."
+        },
+        {
+          "step": 3,
+          "action": "Run a drum-clean or maintenance wash",
+          "detail": "Add a proprietary washing machine descaler or a cup of white vinegar to the drum and run the hottest cycle available with no laundry inside. This helps dissolve limescale from the heating element. In hard water areas, do this every one to three months as routine maintenance."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the wiring connections to the heating element and sensor",
+          "detail": "Unplug the machine and pull it away from the wall. Remove the rear panel (usually held by two or three screws). Locate the heating element at the bottom of the drum and the NTC sensor clipped nearby. Check that all connectors are firmly seated and look for any signs of burning, corrosion, or melted insulation. Reseat any loose connectors and replace any visibly damaged wiring."
+        },
+        {
+          "step": 5,
+          "action": "Test the NTC temperature sensor with a multimeter",
+          "detail": "Disconnect the sensor's two-pin connector and set your multimeter to resistance (Ohms). At room temperature, a healthy NTC sensor typically reads between 20,000 and 30,000 Ohms — check your model's service data if available. A reading of zero or infinite resistance indicates a failed sensor that needs replacing."
+        },
+        {
+          "step": 6,
+          "action": "Test the heating element with a multimeter",
+          "detail": "With the machine still unplugged and the rear panel removed, disconnect the two spade terminals from the heating element. Set your multimeter to resistance and touch the probes to the two terminals. A working element typically reads between 20 and 50 Ohms. A reading of infinite resistance (open circuit) confirms the element has failed and must be replaced."
+        },
+        {
+          "step": 7,
+          "action": "Replace the faulty component",
+          "detail": "If your tests have identified a failed element or sensor, source the correct replacement part using your machine's full model number (found on the label inside the door frame). Both parts are generally accessible from the rear of the machine and can be replaced with basic tools. If both components test as healthy, the fault is likely in the control board and a service technician should be consulted."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested both the heating element and the NTC sensor with a multimeter and both return readings within the expected range, the fault most likely lies with the main control board (PCB). PCB diagnosis and replacement requires specialist equipment and knowledge of the machine's wiring diagram, and attempting it without experience risks further damage to the appliance.</p><p>You should also contact a service technician if you find burnt or melted wiring inside the machine, if the machine trips your household circuit breaker when a heated programme is selected, or if E64 returns immediately after you have already replaced the heating element or sensor. These symptoms suggest a deeper electrical fault that needs professional assessment.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving E64 are the heating element, the NTC temperature sensor, and occasionally the wiring harness or connector block that links them to the control board. Having the correct model number to hand when ordering is essential, as element dimensions and sensor specifications vary between Siemens models even within the same product range.</p><p>To reduce the risk of E64 recurring, run a descaling cycle every one to three months if you live in a hard water area, and use the correct amount of detergent to minimise residue build-up around the element. Fitting an inline water softener or using a water softening tablet with each wash can significantly extend the life of the heating element.</p>\n<!-- SPARE_PARTS:E64 -->",
+      "faq_json": [
+        {
+          "answer": "You can run a cold wash (30°C or a programme labelled 'cold') as this bypasses the heating element entirely. However, you should resolve the fault before using heated programmes, as a failing element can draw excessive current and place strain on other electrical components over time.",
+          "question": "Can I still use my Siemens washing machine while it shows E64?"
+        },
+        {
+          "answer": "Replacement heating elements for Siemens washing machines typically cost between £20 and £50 for the part alone, depending on the model. If you fit it yourself the total cost stays low. A service technician call-out and labour will add to this, so it is worth attempting the replacement yourself if you are comfortable working with basic tools and the machine is unplugged.",
+          "question": "How much does it cost to replace a Siemens washing machine heating element?"
+        },
+        {
+          "answer": "The model number is printed on a sticker inside the door frame — open the door and look around the inner rim of the drum opening. It usually starts with letters such as WM or WG followed by a string of numbers. You will need this number to order the correct heating element or NTC sensor, as parts are not universal across the Siemens range.",
+          "question": "How do I find the model number on my Siemens washing machine?"
+        },
+        {
+          "answer": "Yes, a brief power surge or interruption during a heated cycle can cause the control board to log E64 as a precaution. A full power cycle — unplugging the machine for two minutes — is always worth trying first. If the error does not return on the next heated wash, no component has actually failed.",
+          "question": "Could a power surge cause E64 to appear?"
+        },
+        {
+          "answer": "E64 consistently relates to the heating circuit across Siemens washing machine models, but the exact component that triggers it can vary slightly. On some models it is more closely associated with the NTC sensor, while on others the heating element is the primary suspect. Always cross-reference with your model's manual or the label inside the door for model-specific guidance.",
+          "question": "Is E64 the same fault on all Siemens washing machine models?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T14:45:38.171299+00:00"
+    },
+    {
+      "article_id": 233,
+      "locale": "sv",
+      "slug": "felkod-e64",
+      "title_tag": "Siemens tvättmaskin felkod E64 | Åtgärda problemet nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod E64? Lär dig vad som orsakar detta fel i värmekretsen och hur du åtgärdar det själv innan du kontaktar en servicetekniker.",
+      "h1": "Vad betyder felkod E64 på en Siemens tvättmaskin?",
+      "description": "Felkod E64 på en Siemens tvättmaskin indikerar ett fel i värmekretsen, vanligtvis kopplat till värmeelement eller en temperatursensor som övervakar tvättvattnet.",
+      "quick_fix": "Kontrollera och rengör filtret längst ned på maskinens framsida för att utesluta begränsat vattenflöde som påverkar värmekretsen, kör sedan ett kort 40°C-program för att se om E64 försvinner (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod E64 pekar på ett problem i din Siemens tvättmaskines värmekrets. Denna krets ansvarar för att värma vattnet till den temperatur du väljer på ratten eller displayen. När maskinens styrkort registrerar att vattnet inte når förväntad temperatur – eller att ett sensorvärde ligger utanför normalområdet – avbryter den programmet och visar E64 för att förhindra skador på tvätten eller maskinen.</p><p>När detta fel uppstår pausar eller stannar tvättcykeln vanligtvis mitt i programmet, ofta under huvudtvättfasen när uppvärmning krävs. Trumman kan fortsätta rotera en kort stund, men maskinen fortsätter inte förrän felet är åtgärdat. På vissa Siemens-modeller kan felet visas direkt vid start av ett uppvärmt program, medan det på andra dyker upp efter några minuter när styrkortet har haft tid att bedöma värmeprestandan.</p><p>Felet kan bero på ett trasigt värmeelement, en defekt NTC-temperatursensor, kabelproblem eller i vissa fall ett problem med huvudstyrkortet. De flesta av dessa orsaker kan identifieras med enkla kontroller innan du överväger att kontakta en servicetekniker.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt värmeelement",
+          "detail": "Värmeelementet är den vanligaste orsaken till E64. Med tiden kan element brinna ut eller få ett internt brott, vilket innebär att de inte drar någon ström och att vattnet förblir kallt, vilket utlöser felet."
+        },
+        {
+          "cause": "Trasig NTC-temperatursensor",
+          "detail": "NTC-sensorn (negativ temperaturkoefficient) övervakar vattentemperaturen och rapporterar till styrkortet. Om den slutar fungera eller tappar kalibreringen får styrkortet ett orimligt värde och genererar E64 även om elementet i sig fungerar."
+        },
+        {
+          "cause": "Skadad eller lös kabelanslutning till värmekretsen",
+          "detail": "Kabelstammen som förbinder värmeelementet och sensorn med styrkortet kan ta skada av vibrationer, värme eller fukt över tid. En lös kontakt eller korroderad terminal kan bryta kretsen och ge samma fel som ett komponenthaveri."
+        },
+        {
+          "cause": "Kalkavlagringar på värmeelementet",
+          "detail": "I områden med hårt vatten belägger kalkavlagringar elementet och isolerar det, vilket minskar dess förmåga att värma vattnet effektivt. Kraftiga avlagringar kan orsaka lokal överhettning och haverier, eller få sensorn att registrera oregelbundna temperaturer."
+        },
+        {
+          "cause": "Defekt huvudstyrkort (PCB)",
+          "detail": "Om styrkortet inte korrekt kan skicka ström till värmeelementet eller tolka sensorsignalen kan det logga E64 som en försiktighetsåtgärd. Detta är mindre vanligt men bör övervägas om alla övriga komponenter testar som friska."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara urkopplad i två minuter. Koppla in den igen, välj ett 40°C- eller 60°C-program och starta det. Ibland kan en tillfällig spänningspik utlösa E64, och en fullständig omstart rensar felet. Om felet inte återkommer behövs inga ytterligare åtgärder."
+        },
+        {
+          "step": 2,
+          "action": "Rengör pumpfiltret",
+          "detail": "Hitta den lilla luckan längst ned på maskinens framsida. Lägg en handduk och ett grunt kärl under, skruva sedan långsamt loss filterlocket för att tömma ut kvarvarande vatten. Ta bort eventuellt skräp – ludd, mynt eller grus – från filtret och huset. Ett igensatt filter kan begränsa vattencirkulationen och indirekt påverka värmeprestandan."
+        },
+        {
+          "step": 3,
+          "action": "Kör ett trumrengörings- eller underhållsprogram",
+          "detail": "Tillsätt ett avkalkningsmedel för tvättmaskiner eller en kopp vitvinsvinäger i trumman och kör det varmaste tillgängliga programmet utan tvätt. Detta hjälper till att lösa upp kalk från värmeelementet. I områden med hårt vatten bör detta göras var en till tre månader som rutinunderhåll."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera kabelanslutningarna till värmeelementet och sensorn",
+          "detail": "Koppla ur maskinen och dra ut den från väggen. Ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar). Lokalisera värmeelementet längst ned i trumman och NTC-sensorn som sitter i närheten. Kontrollera att alla kontakter sitter ordentligt och leta efter tecken på brännskador, korrosion eller smält isolering. Sätt tillbaka lösa kontakter och byt ut synligt skadade kablar."
+        },
+        {
+          "step": 5,
+          "action": "Testa NTC-temperatursensorn med en multimeter",
+          "detail": "Koppla loss sensorns tvåstiftskontakt och ställ in multimetern på motstånd (Ohm). Vid rumstemperatur läser en frisk NTC-sensor vanligtvis mellan 20 000 och 30 000 Ohm – kontrollera din modells servicedata om det finns tillgängligt. Ett värde på noll eller oändligt motstånd indikerar en defekt sensor som behöver bytas."
+        },
+        {
+          "step": 6,
+          "action": "Testa värmeelementet med en multimeter",
+          "detail": "Med maskinen fortfarande urkopplad och bakpanelen borttagen, koppla loss de två spettkontakterna från värmeelementet. Ställ in multimetern på motstånd och håll mätspetsarna mot de två terminalerna. Ett fungerande element läser vanligtvis mellan 20 och 50 Ohm. Ett oändligt motstånd (öppen krets) bekräftar att elementet har havererat och måste bytas."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut den defekta komponenten",
+          "detail": "Om dina tester har identifierat ett havererat element eller en defekt sensor, beställ rätt reservdel med hjälp av maskinens fullständiga modellnummer (finns på etiketten inuti dörrkarmens ram). Båda delarna är i allmänhet åtkomliga från maskinens baksida och kan bytas med grundläggande verktyg. Om båda komponenterna testar som friska ligger felet troligtvis i styrkortet och en servicetekniker bör kontaktas."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat både värmeelementet och NTC-sensorn med en multimeter och båda ger värden inom förväntat område, ligger felet troligtvis i huvudstyrkortet (PCB). Diagnos och byte av styrkort kräver specialutrustning och kunskap om maskinens kopplingsschema, och att försöka utan erfarenhet riskerar att orsaka ytterligare skador på maskinen.</p><p>Du bör även kontakta en servicetekniker om du hittar brända eller smälta kablar inuti maskinen, om maskinen löser ut din husinstallations säkring när ett uppvärmt program väljs, eller om E64 återkommer omedelbart efter att du redan har bytt värmeelementet eller sensorn. Dessa symptom tyder på ett djupare elfel som kräver professionell bedömning.</p>",
+      "prevention_html": "<p>De delar som oftast byts vid åtgärdande av E64 är värmeelementet, NTC-temperatursensorn och ibland kabelstammen eller kontaktblocket som förbinder dem med styrkortet. Det är viktigt att ha rätt modellnummer till hands vid beställning, eftersom elementdimensioner och sensorspecifikationer varierar mellan Siemens-modeller även inom samma produktserie.</p><p>För att minska risken för att E64 återkommer, kör ett avkalkningsprogram var en till tre månader om du bor i ett område med hårt vatten, och använd rätt mängd tvättmedel för att minimera avlagringar runt elementet. Att installera ett inline-vattenavhärdningsfilter eller använda ett avhärdningstablett vid varje tvätt kan avsevärt förlänga värmeelementets livslängd.</p>\n<!-- SPARE_PARTS:E64 -->",
+      "faq_json": [
+        {
+          "answer": "Du kan köra en kalltvättning (30°C eller ett program märkt 'kall') eftersom detta kringgår värmeelementet helt. Du bör dock åtgärda felet innan du använder uppvärmda program, eftersom ett havererat element kan dra för mycket ström och belasta andra elektriska komponenter över tid.",
+          "question": "Kan jag fortfarande använda min Siemens tvättmaskin när den visar E64?"
+        },
+        {
+          "answer": "Ersättningsvärmeelement till Siemens tvättmaskiner kostar vanligtvis mellan 250 och 600 kronor för enbart delen, beroende på modell. Om du monterar det själv hålls totalkostnaden låg. En serviceteknikers utryckning och arbetstid tillkommer, så det är värt att försöka byta det själv om du känner dig bekväm med att arbeta med grundläggande verktyg och maskinen är urkopplad.",
+          "question": "Vad kostar det att byta värmeelement i en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Modellnumret finns tryckt på en etikett inuti dörrkarmens ram – öppna luckan och titta runt den inre kanten av trumöppningen. Det börjar vanligtvis med bokstäver som WM eller WG följt av en sifferserie. Du behöver detta nummer för att beställa rätt värmeelement eller NTC-sensor, eftersom delar inte är universella inom Siemens-sortimentet.",
+          "question": "Hur hittar jag modellnumret på min Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Ja, en kortvarig spänningspik eller ett strömavbrott under ett uppvärmt program kan få styrkortet att logga E64 som en försiktighetsåtgärd. En fullständig omstart – att koppla ur maskinen i två minuter – är alltid värt att prova först. Om felet inte återkommer vid nästa uppvärmda tvätt har ingen komponent faktiskt havererat.",
+          "question": "Kan ett strömavbrott orsaka att E64 visas?"
+        },
+        {
+          "answer": "E64 är konsekvent kopplat till värmekretsen på Siemens tvättmaskiner, men den exakta komponenten som utlöser det kan variera något. På vissa modeller är det mer förknippat med NTC-sensorn, medan värmeelementet är den primära misstänkta på andra. Kontrollera alltid din modells manual eller etiketten inuti luckan för modellspecifik vägledning.",
+          "question": "Är E64 samma fel på alla Siemens tvättmaskinmodeller?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T14:46:45.795366+00:00"
+    },
+    {
+      "article_id": 234,
+      "locale": "en",
+      "slug": "error-code-e65",
+      "title_tag": "Siemens Washing Machine Error Code E65 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error code E65? Learn what causes this heating circuit fault and how to fix it yourself step by step.",
+      "h1": "What Does Error Code E65 Mean on a Siemens Washing Machine?",
+      "description": "Error code E65 on a Siemens washing machine indicates a fault in the heating circuit, typically involving the heating element, temperature sensor (NTC), or the wiring connecting them.",
+      "quick_fix": "Check and clean the filter, then run a short 60°C cotton cycle to confirm the machine heats correctly — if E65 clears, a blocked filter was restricting water flow to the heater (takes about 10 minutes).",
+      "intro_html": "<p>Error code E65 points to a problem in your Siemens washing machine's heating circuit. This circuit is responsible for raising the water temperature to the level you select on the dial or display. When the machine's control board detects that the water is not reaching the expected temperature within a set time — or that sensor readings are outside a safe range — it stops the programme and displays E65 to prevent damage.</p><p>When this error appears, the wash cycle will typically pause or abort mid-programme, often during the main wash phase when heating is most active. You may notice that clothes come out cold or that the machine stops shortly after filling with water. The drum may still turn, but no heating takes place.</p><p>The fault can stem from a failed heating element, a faulty NTC temperature sensor, damaged wiring, or in some cases a problem with the control board itself. Most of these causes are diagnosable at home, and several can be resolved without specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty NTC temperature sensor",
+          "detail": "The NTC (Negative Temperature Coefficient) sensor monitors water temperature and feeds readings back to the control board. If it fails or drifts out of calibration, the board cannot confirm that heating is occurring and triggers E65."
+        },
+        {
+          "cause": "Failed or burnt-out heating element",
+          "detail": "The heating element is the component that physically warms the water. Over time, limescale build-up or electrical stress can cause it to fail, meaning the water never reaches the target temperature and the fault is logged."
+        },
+        {
+          "cause": "Limescale build-up on the heating element",
+          "detail": "In hard water areas, calcium deposits coat the heating element and reduce its efficiency significantly. The element may still function but heat so slowly that the control board times out and raises E65 before the target temperature is reached."
+        },
+        {
+          "cause": "Wiring or connector fault",
+          "detail": "The wires and connectors linking the heating element and NTC sensor to the control board can corrode, loosen, or chafe over time. A poor connection produces intermittent or incorrect signals that the board interprets as a heating circuit failure."
+        },
+        {
+          "cause": "Blocked pump filter restricting water level",
+          "detail": "If the filter is heavily blocked, water may not fill to the correct level around the heating element. The element can then overheat or fail to register a temperature rise, contributing to an E65 fault."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "In a small number of cases, the main PCB itself is unable to correctly drive the heating circuit or read sensor data. This is usually only confirmed after all other components have been tested and found to be in good condition."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Clean the pump filter",
+          "detail": "Locate the filter access panel at the bottom front of the machine. Place a towel and shallow tray underneath, then unscrew the filter cap slowly to drain residual water. Remove any debris, rinse the filter under a tap, and refit it securely. Run a short hot cycle to see if E65 clears."
+        },
+        {
+          "step": 2,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains socket and leave it unplugged for at least 5 minutes. This allows the control board to fully reset. Plug back in, select a 60°C programme, and observe whether the machine heats normally and completes the cycle without displaying E65."
+        },
+        {
+          "step": 3,
+          "action": "Run a descaling cycle",
+          "detail": "If you live in a hard water area and have not descaled the machine recently, add a proprietary washing machine descaler to the drum (following the product instructions) and run a hot empty cycle at 90°C. Limescale on the element is a very common cause of slow or failed heating, and a descale can restore normal performance."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the wiring to the heating element and NTC sensor",
+          "detail": "Disconnect the machine from the mains before doing this. Pull the machine forward and remove the rear panel (usually held by two or three screws). Locate the heating element at the base of the drum and the NTC sensor clipped nearby. Check that all connectors are firmly seated, look for signs of burning, corrosion, or chafing on the wires, and reseat any loose connectors. Refit the panel and test."
+        },
+        {
+          "step": 5,
+          "action": "Test the NTC temperature sensor with a multimeter",
+          "detail": "With the machine unplugged and the rear panel removed, disconnect the NTC sensor's connector and measure its resistance with a multimeter. At room temperature (around 20°C) a healthy NTC sensor typically reads between 4,000 and 6,000 ohms. A reading of zero or infinity indicates a failed sensor that needs replacing."
+        },
+        {
+          "step": 6,
+          "action": "Test the heating element for continuity",
+          "detail": "With the machine still unplugged, disconnect the two spade connectors from the heating element terminals. Set your multimeter to the resistance (ohms) setting and touch the probes to the two terminals. A working element typically reads between 20 and 50 ohms. A reading of infinity (open circuit) confirms the element has failed and must be replaced. Also test between each terminal and the machine's metal body — any reading here indicates an earth fault."
+        },
+        {
+          "step": 7,
+          "action": "Replace the faulty component",
+          "detail": "If your testing has identified a failed NTC sensor or heating element, source the correct replacement part using your machine's full model number (found on the label inside the door frame). Both parts are generally straightforward to swap with basic tools. After fitting, run a full 60°C cycle to confirm the fault has cleared before returning the machine to normal use."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested both the NTC sensor and the heating element and both measure within normal ranges, but E65 continues to appear, the fault is likely within the control board itself. PCB diagnosis and replacement requires specialist equipment and knowledge of board-level electronics — this is not a safe DIY repair.</p><p>You should also contact a service technician if you find burnt wiring, a visibly damaged element, or any sign of water ingress near electrical components. Attempting to repair burnt or water-damaged wiring without proper training carries a real risk of electric shock or fire.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E65 fault are the NTC temperature sensor, the heating element, and the wiring harness connecting them to the control board. Keeping a note of your machine's full model number makes ordering the correct parts straightforward.</p><p>To reduce the likelihood of E65 recurring, run a hot empty cycle with a descaler every three to six months, particularly in hard water areas. Clean the pump filter every two to three months and avoid consistently washing at low temperatures, as this encourages limescale and detergent residue to accumulate on the element.</p>\n<!-- SPARE_PARTS:E65 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. When E65 is active, the machine is not heating the water, which means laundry will not be properly cleaned or hygienically washed. Running repeated cycles without heat also puts unnecessary strain on the motor and pump. Resolve the fault before returning the machine to regular use.",
+          "question": "Can I still use my Siemens washing machine while it shows E65?"
+        },
+        {
+          "answer": "Testing both with a multimeter is the most reliable way to tell them apart. The NTC sensor should show a resistance reading in the thousands of ohms at room temperature; the heating element should show a low resistance of 20–50 ohms. A reading of infinity on either component confirms it has failed. If both test correctly, the wiring or control board is the more likely culprit.",
+          "question": "How do I know if it is the heating element or the NTC sensor that has failed?"
+        },
+        {
+          "answer": "On Siemens machines, E65 is specifically associated with the heating circuit, so the fault will always relate to heating, temperature sensing, or the electrical connections between those components and the control board. It is not triggered by drum, door, or drain faults, which have their own separate error codes.",
+          "question": "Is E65 always a heating fault, or could it be something else?"
+        },
+        {
+          "answer": "If you replace the NTC sensor yourself, parts usually cost between £10 and £25. A replacement heating element typically costs £20–£50 depending on the model. If you call a service technician, expect to pay a call-out fee plus labour on top of the part cost. Control board replacement is the most expensive outcome and may not be economical on older machines.",
+          "question": "How much does it typically cost to fix an E65 error?"
+        },
+        {
+          "answer": "It can, particularly if the machine has been used in a hard water area for several years without descaling. Heavy limescale insulates the element and slows heating to the point where the control board times out and logs E65. A thorough descale at 90°C can restore the element's efficiency and clear the fault, though a severely scaled element may need replacing regardless.",
+          "question": "Will descaling really fix an E65 error?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T14:47:38.395826+00:00"
+    },
+    {
+      "article_id": 234,
+      "locale": "sv",
+      "slug": "felkod-e65",
+      "title_tag": "Siemens Tvättmaskin Felkod E65 | Åtgärda Det Nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod E65? Lär dig vad som orsakar detta fel i värmekretsen och hur du åtgärdar det själv steg för steg.",
+      "h1": "Vad Betyder Felkod E65 på en Siemens Tvättmaskin?",
+      "description": "Felkod E65 på en Siemens tvättmaskin indikerar ett fel i värmekretsen, vanligtvis relaterat till värmeelement, temperaturgivare (NTC) eller kablaget som förbinder dem.",
+      "quick_fix": "Kontrollera och rengör filtret, kör sedan ett kort bomullsprogram vid 60°C för att bekräfta att maskinen värmer korrekt — om E65 försvinner var ett igensatt filter orsaken som begränsade vattenflödet till värmeelementet (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod E65 pekar på ett problem i din Siemens tvättmaskines värmekrets. Denna krets ansvarar för att höja vattentemperaturen till den nivå du väljer på ratten eller displayen. När maskinens styrkort upptäcker att vattnet inte når förväntad temperatur inom en viss tid — eller att givarens avläsningar ligger utanför ett säkert intervall — avbryter den programmet och visar E65 för att förhindra skador.</p><p>När detta fel uppstår pausar eller avbryter tvättcykeln vanligtvis mitt i programmet, ofta under huvudtvättfasen när uppvärmningen är som mest aktiv. Du kan märka att kläderna kommer ut kalla eller att maskinen stannar strax efter att den fyllts med vatten. Trumman kan fortfarande rotera, men ingen uppvärmning sker.</p><p>Felet kan bero på ett defekt värmeelement, en felaktig NTC-temperaturgivare, skadat kablage eller i vissa fall ett problem med styrkortet. De flesta av dessa orsaker kan diagnostiseras hemma, och flera kan åtgärdas utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt NTC-temperaturgivare",
+          "detail": "NTC-givaren (Negative Temperature Coefficient) övervakar vattentemperaturen och skickar avläsningar tillbaka till styrkortet. Om den slutar fungera eller tappar kalibrering kan kortet inte bekräfta att uppvärmning sker och utlöser E65."
+        },
+        {
+          "cause": "Trasigt eller utbränt värmeelement",
+          "detail": "Värmeelementet är den komponent som fysiskt värmer vattnet. Med tiden kan kalkavlagringar eller elektrisk belastning orsaka att det slutar fungera, vilket innebär att vattnet aldrig når måltemperaturen och felet loggas."
+        },
+        {
+          "cause": "Kalkavlagringar på värmeelementet",
+          "detail": "I områden med hårt vatten täcks värmeelementet av kalciumavlagringar som avsevärt minskar dess effektivitet. Elementet kan fortfarande fungera men värma så långsamt att styrkortet tajmar ut och utlöser E65 innan måltemperaturen nås."
+        },
+        {
+          "cause": "Fel på kablage eller kontakter",
+          "detail": "Kablar och kontakter som förbinder värmeelementet och NTC-givaren med styrkortet kan korrodera, lossna eller nötas med tiden. En dålig anslutning ger intermittenta eller felaktiga signaler som kortet tolkar som ett fel i värmekretsen."
+        },
+        {
+          "cause": "Igensatt pumpfilter som begränsar vattennivån",
+          "detail": "Om filtret är kraftigt igensatt kan vattnet kanske inte fylla till rätt nivå runt värmeelementet. Elementet kan då överhettas eller misslyckas med att registrera en temperaturökning, vilket bidrar till ett E65-fel."
+        },
+        {
+          "cause": "Fel på styrkortet",
+          "detail": "I ett litet antal fall kan huvud-PCB:n inte korrekt driva värmekretsen eller läsa givardata. Detta bekräftas vanligtvis först efter att alla andra komponenter har testats och befunnits vara i gott skick."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Rengör pumpfiltret",
+          "detail": "Hitta filterluckan längst ned på maskinens framsida. Lägg en handduk och ett grunt kärl undertill, skruva sedan långsamt loss filterlocket för att tömma ut kvarvarande vatten. Ta bort eventuellt skräp, skölj filtret under kranen och sätt tillbaka det ordentligt. Kör ett kort varmt program för att se om E65 försvinner."
+        },
+        {
+          "step": 2,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara urkopplad i minst 5 minuter. Detta låter styrkortet återställas helt. Koppla in igen, välj ett 60°C-program och observera om maskinen värmer normalt och slutför cykeln utan att visa E65."
+        },
+        {
+          "step": 3,
+          "action": "Kör ett avkalkningsprogram",
+          "detail": "Om du bor i ett område med hårt vatten och inte har avkalkat maskinen nyligen, tillsätt ett avkalkningsmedel för tvättmaskiner i trumman (följ produktens anvisningar) och kör ett varmt tomt program vid 90°C. Kalk på elementet är en mycket vanlig orsak till långsam eller utebliven uppvärmning, och avkalkning kan återställa normal prestanda."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera kablaget till värmeelementet och NTC-givaren",
+          "detail": "Koppla bort maskinen från elnätet innan du gör detta. Dra ut maskinen och ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar). Hitta värmeelementet vid trummans botten och NTC-givaren som sitter fastklämd i närheten. Kontrollera att alla kontakter sitter ordentligt, leta efter tecken på brännskador, korrosion eller nötning på kablarna och sätt tillbaka eventuellt lösa kontakter. Sätt tillbaka panelen och testa."
+        },
+        {
+          "step": 5,
+          "action": "Testa NTC-temperaturgivaren med en multimeter",
+          "detail": "Med maskinen urkopplad och bakpanelen borttagen, koppla loss NTC-givarens kontakt och mät dess resistans med en multimeter. Vid rumstemperatur (cirka 20°C) läser en frisk NTC-givare vanligtvis mellan 4 000 och 6 000 ohm. En avläsning på noll eller oändlighet indikerar en defekt givare som behöver bytas."
+        },
+        {
+          "step": 6,
+          "action": "Testa värmeelementet för kontinuitet",
+          "detail": "Med maskinen fortfarande urkopplad, koppla loss de två spadelanslutningarna från värmeelementets terminaler. Ställ in multimetern på resistans (ohm) och håll proberna mot de två terminalerna. Ett fungerande element läser vanligtvis mellan 20 och 50 ohm. En avläsning på oändlighet (öppen krets) bekräftar att elementet har gått sönder och måste bytas. Testa även mellan varje terminal och maskinens metallkropp — en avläsning här indikerar ett jordfel."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut den defekta komponenten",
+          "detail": "Om dina tester har identifierat en defekt NTC-givare eller ett defekt värmeelement, beställ rätt reservdel med hjälp av maskinens fullständiga modellnummer (finns på etiketten inuti dörrkanten). Båda delarna är generellt sett enkla att byta med grundläggande verktyg. Kör ett fullständigt 60°C-program efter montering för att bekräfta att felet är åtgärdat innan maskinen återgår till normal användning."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat både NTC-givaren och värmeelementet och båda mäter inom normala intervall, men E65 fortsätter att visas, beror felet troligtvis på styrkortet. PCB-diagnostik och -byte kräver specialutrustning och kunskap om elektronik på kortnivå — detta är inte en säker gör-det-själv-reparation.</p><p>Du bör också kontakta en servicetekniker om du hittar bränt kablage, ett synligt skadat element eller tecken på vatteninträngning nära elektriska komponenter. Att försöka reparera bränt eller vattenskadat kablage utan rätt utbildning innebär en verklig risk för elstöt eller brand.</p>",
+      "prevention_html": "<p>De delar som oftast byts vid åtgärdande av ett E65-fel är NTC-temperaturgivaren, värmeelementet och kabelstammen som förbinder dem med styrkortet. Att notera maskinens fullständiga modellnummer gör det enkelt att beställa rätt reservdelar.</p><p>För att minska risken för att E65 återkommer, kör ett varmt tomt program med avkalkningsmedel var tredje till sjätte månad, särskilt i områden med hårt vatten. Rengör pumpfiltret varannan till var tredje månad och undvik att konsekvent tvätta vid låga temperaturer, eftersom detta uppmuntrar kalk och tvättmedelsrester att ansamlas på elementet.</p>\n<!-- SPARE_PARTS:E65 -->",
+      "faq_json": [
+        {
+          "answer": "Det rekommenderas inte. När E65 är aktivt värmer maskinen inte vattnet, vilket innebär att tvätten inte rengörs ordentligt eller tvättas hygieniskt. Att köra upprepade cykler utan värme belastar också motorn och pumpen i onödan. Åtgärda felet innan maskinen återgår till regelbunden användning.",
+          "question": "Kan jag fortfarande använda min Siemens tvättmaskin när den visar E65?"
+        },
+        {
+          "answer": "Att testa båda med en multimeter är det mest tillförlitliga sättet att skilja dem åt. NTC-givaren bör visa ett resistansvärde i tusental ohm vid rumstemperatur; värmeelementet bör visa en låg resistans på 20–50 ohm. En avläsning på oändlighet på någon av komponenterna bekräftar att den har gått sönder. Om båda testar korrekt är kablaget eller styrkortet den mer troliga orsaken.",
+          "question": "Hur vet jag om det är värmeelementet eller NTC-givaren som har gått sönder?"
+        },
+        {
+          "answer": "På Siemens-maskiner är E65 specifikt kopplat till värmekretsen, så felet kommer alltid att relatera till uppvärmning, temperaturavkänning eller de elektriska anslutningarna mellan dessa komponenter och styrkortet. Det utlöses inte av fel på trumma, dörr eller avlopp, som har sina egna separata felkoder.",
+          "question": "Är E65 alltid ett värmefel, eller kan det vara något annat?"
+        },
+        {
+          "answer": "Om du byter NTC-givaren själv kostar delarna vanligtvis mellan 100 och 250 kronor. Ett ersättningsvärmeelement kostar vanligtvis 200–500 kronor beroende på modell. Om du anlitar en servicetekniker, räkna med en utryckningsavgift plus arbetstid utöver delkostnaden. Byte av styrkort är det dyraste utfallet och kan vara olönsamt på äldre maskiner.",
+          "question": "Hur mycket kostar det vanligtvis att åtgärda ett E65-fel?"
+        },
+        {
+          "answer": "Det kan det, särskilt om maskinen har använts i ett område med hårt vatten under flera år utan avkalkning. Kraftiga kalkavlagringar isolerar elementet och bromsar uppvärmningen till den punkt där styrkortet tajmar ut och loggar E65. En grundlig avkalkning vid 90°C kan återställa elementets effektivitet och rensa felet, även om ett kraftigt kalkat element kan behöva bytas ut oavsett.",
+          "question": "Kan avkalkning verkligen åtgärda ett E65-fel?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T14:48:52.199505+00:00"
+    },
+    {
+      "article_id": 235,
+      "locale": "en",
+      "slug": "error-code-e66",
+      "title_tag": "Siemens Washing Machine Error Code E66 | Fix It Now",
+      "meta_description": "Siemens washing machine showing E66? Learn what causes this heating circuit fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E66 Mean on a Siemens Washing Machine?",
+      "description": "Error code E66 on a Siemens washing machine indicates a fault in the heating circuit, typically involving the heating element, temperature sensor (NTC), or the wiring connecting these components.",
+      "quick_fix": "Check and clean the filter, then run a short 60°C cycle to confirm the heating element is working — if E66 clears, a partial blockage was causing thermal stress on the circuit (takes about 10 minutes).",
+      "intro_html": "<p>Error code E66 signals that your Siemens washing machine has detected a problem within its heating circuit. This circuit is responsible for raising the water temperature to the level you select, and when the machine's control board cannot confirm that heating is happening correctly, it stops the programme and displays E66 to prevent damage.</p><p>When this error appears, the wash cycle will typically pause or fail to progress past the heating phase. You may notice that clothes come out cold even after a full cycle, or the machine may stop mid-wash and display the code on the display panel. In some models the drum continues to turn but no heat is produced.</p><p>The fault can originate from several components — the heating element itself, the NTC temperature sensor that monitors water temperature, or the wiring and connections between these parts and the main control board. Working through the causes methodically will help you identify the problem without unnecessary part replacements.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty or failed heating element",
+          "detail": "The heating element is the most common cause of E66. Over time, elements can burn out or develop an internal break, meaning the machine draws no heat even though the circuit is energised."
+        },
+        {
+          "cause": "Defective NTC temperature sensor",
+          "detail": "The NTC sensor monitors water temperature and feeds readings back to the control board. If it fails or drifts out of range, the board cannot verify that heating is occurring and triggers E66."
+        },
+        {
+          "cause": "Loose or corroded wiring connections",
+          "detail": "Vibration over years of use can loosen the spade connectors on the heating element or sensor. Corrosion from moisture can also cause high resistance in the circuit, mimicking a component failure."
+        },
+        {
+          "cause": "Scale build-up on the heating element",
+          "detail": "In hard water areas, limescale accumulates on the element surface, reducing its efficiency and causing it to overheat locally. This can eventually cause the element to fail or trip a thermal cut-out."
+        },
+        {
+          "cause": "Faulty main control board (PCB)",
+          "detail": "If the PCB cannot correctly send power to the heating circuit or read the sensor signal, it may generate a false E66. This is less common but should be considered if all other components test correctly."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reset the machine",
+          "detail": "Switch the washing machine off at the mains socket and leave it unplugged for at least 5 minutes. Plug it back in and run a short hot cycle (60°C) to see if the error returns. Occasionally a temporary voltage fluctuation can trigger E66, and a reset clears it."
+        },
+        {
+          "step": 2,
+          "action": "Clean the pump filter",
+          "detail": "A blocked filter can cause the machine to struggle with water management, indirectly stressing the heating circuit. Locate the filter behind the small panel at the bottom front of the machine, place a towel underneath, unscrew the cap slowly, and clear any debris. Refit securely and test again."
+        },
+        {
+          "step": 3,
+          "action": "Run a descaling cycle",
+          "detail": "If you live in a hard water area and have not descaled recently, add a proprietary washing machine descaler to the drum and run the hottest cycle available. Heavy limescale on the element can cause thermal faults that trigger E66. Repeat if the machine has not been descaled in over a year."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the wiring to the heating element and NTC sensor",
+          "detail": "Disconnect the machine from the mains before doing this. Remove the back panel (usually held by two or three screws). Locate the heating element at the base of the drum and the NTC sensor clipped nearby. Check that all spade connectors are firmly seated and show no signs of burning or corrosion. Reseat any loose connectors and retest."
+        },
+        {
+          "step": 5,
+          "action": "Test the NTC temperature sensor with a multimeter",
+          "detail": "Disconnect the NTC sensor's two-pin connector and measure resistance across its terminals. At room temperature (around 20°C) a healthy NTC sensor typically reads between 4,000 and 6,000 ohms. A reading of zero or infinity indicates a failed sensor that needs replacing. Replacement NTC sensors are inexpensive and straightforward to fit."
+        },
+        {
+          "step": 6,
+          "action": "Test the heating element with a multimeter",
+          "detail": "With the machine unplugged, disconnect the wires from the element terminals and set your multimeter to resistance (ohms). A working element typically reads between 20 and 30 ohms. A reading of zero (short circuit) or open circuit (no reading) confirms the element has failed and must be replaced. Also check for continuity between each terminal and the machine's metal casing — any reading here indicates the element is earthing and is unsafe."
+        },
+        {
+          "step": 7,
+          "action": "Replace the faulty component",
+          "detail": "Once you have identified whether the element or NTC sensor has failed, source the correct replacement part using your machine's full model number (found on the door frame label). Fit the new part, reconnect all wiring carefully, refit the back panel, and run a full 60°C cycle to confirm the E66 error has cleared."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested both the heating element and the NTC sensor and both measure within normal ranges, but E66 continues to appear, the fault is likely within the main control board (PCB). PCB diagnosis and replacement requires specialist equipment and knowledge of board-level electronics — this is not a safe DIY repair for most homeowners.</p><p>You should also contact a service technician if you find burnt wiring, melted connectors, or any sign of arcing around the heating circuit. These indicate a more serious electrical fault that could pose a fire or shock risk if the machine is used further before repair.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E66 fault are the heating element, the NTC temperature sensor, and occasionally the wiring harness connecting these components to the control board. Having the correct model number to hand when ordering ensures you receive the right part first time.</p><p>To reduce the risk of E66 recurring, run a dedicated descaling cycle every three to six months if you live in a hard water area, and use a monthly maintenance wash at 60°C or above to keep the element free of residue. Avoid consistently washing at very low temperatures, as this allows detergent and limescale to accumulate on the element over time.</p>\n<!-- SPARE_PARTS:E66 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. When E66 is active, the machine is not heating water correctly, which means laundry will not be properly cleaned or sanitised. More importantly, a failing heating element can in some cases pose an electrical risk, so it is best to leave the machine unused until the fault is resolved.",
+          "question": "Can I still use my Siemens washing machine while it shows E66?"
+        },
+        {
+          "answer": "A replacement heating element for a Siemens washing machine typically costs between £20 and £50 for the part, depending on the model. If you fit it yourself the total cost stays low. A service technician call-out will add labour costs on top, usually bringing the total to £100–£180 depending on your location.",
+          "question": "How much does it cost to replace a heating element on a Siemens washing machine?"
+        },
+        {
+          "answer": "Open the washing machine door and look at the inner door frame — there should be a sticker showing the full model number (E-Nr) and sometimes a production number (FD). Enter this model number on a spare parts website to find components confirmed as compatible with your specific machine.",
+          "question": "How do I find the correct NTC sensor or heating element for my model?"
+        },
+        {
+          "answer": "Occasionally, yes. A weak or intermittent mains supply can cause the control board to misread the heating circuit and trigger E66. Try plugging the machine into a different socket on a different circuit if possible, and check that the socket is delivering a stable supply. If the error only appears occasionally and clears on reset, an intermittent supply issue is worth investigating before replacing parts.",
+          "question": "Could E66 be caused by a power supply problem rather than a faulty part?"
+        },
+        {
+          "answer": "The E66 code consistently points to the heating circuit across Siemens washing machine ranges, but the exact component most likely to be at fault can vary slightly between older and newer models. Always cross-reference the error code with your specific model's user manual or technical documentation to confirm the diagnosis before ordering parts.",
+          "question": "Is E66 the same fault on all Siemens washing machine models?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T14:49:42.640288+00:00"
+    },
+    {
+      "article_id": 235,
+      "locale": "sv",
+      "slug": "felkod-e66",
+      "title_tag": "Siemens tvättmaskin felkod E66 | Åtgärda problemet nu",
+      "meta_description": "Visar din Siemens tvättmaskin E66? Lär dig vad som orsakar detta fel i värmekretsen, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E66 på en Siemens tvättmaskin?",
+      "description": "Felkod E66 på en Siemens tvättmaskin indikerar ett fel i värmekretsen, vanligtvis kopplat till värmeelement, temperaturgivare (NTC) eller kablaget som förbinder dessa komponenter.",
+      "quick_fix": "Kontrollera och rengör filtret och kör sedan ett kort 60°C-program för att bekräfta att värmeelementet fungerar — om E66 försvinner orsakade en partiell igensättning termisk belastning på kretsen (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod E66 signalerar att din Siemens tvättmaskin har upptäckt ett problem i värmekretsen. Denna krets ansvarar för att höja vattentemperaturen till den nivå du väljer, och när maskinens styrkort inte kan bekräfta att uppvärmningen sker korrekt avbryter den programmet och visar E66 för att förhindra skador.</p><p>När detta fel uppstår pausar tvättcykeln vanligtvis eller misslyckas med att komma förbi uppvärmningsfasen. Du kan märka att kläderna kommer ut kalla även efter ett fullständigt program, eller att maskinen stannar mitt i tvätten och visar koden i displayen. På vissa modeller fortsätter trumman att rotera men ingen värme produceras.</p><p>Felet kan uppstå från flera komponenter — värmeelementet självt, NTC-temperaturgivaren som övervakar vattentemperaturen, eller kablaget och anslutningarna mellan dessa delar och huvudstyrkortet. Att systematiskt gå igenom orsakerna hjälper dig att identifiera problemet utan onödiga reservdelsbyten.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt eller trasigt värmeelement",
+          "detail": "Värmeelementet är den vanligaste orsaken till E66. Med tiden kan element brinna ut eller utveckla ett internt brott, vilket innebär att maskinen inte producerar någon värme trots att kretsen är spänningssatt."
+        },
+        {
+          "cause": "Defekt NTC-temperaturgivare",
+          "detail": "NTC-givaren övervakar vattentemperaturen och skickar avläsningar tillbaka till styrkortet. Om den slutar fungera eller driftar utanför sitt område kan styrkortet inte verifiera att uppvärmning sker och utlöser E66."
+        },
+        {
+          "cause": "Lösa eller korroderade kabelanslutningar",
+          "detail": "Vibrationer under många års användning kan lossa flatstiftsanslutningarna på värmeelementet eller givaren. Korrosion från fukt kan också orsaka hög resistans i kretsen, vilket efterliknar ett komponentfel."
+        },
+        {
+          "cause": "Kalkavlagringar på värmeelementet",
+          "detail": "I områden med hårt vatten ansamlas kalksten på elementsytan, vilket minskar dess effektivitet och får det att överhettas lokalt. Detta kan till slut orsaka att elementet havererar eller att en termisk säkring löser ut."
+        },
+        {
+          "cause": "Defekt huvudstyrkort (PCB)",
+          "detail": "Om styrkortet inte korrekt kan skicka ström till värmekretsen eller läsa givarens signal kan det generera ett falskt E66-fel. Detta är mindre vanligt men bör övervägas om alla andra komponenter testar korrekt."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Återställ maskinen",
+          "detail": "Stäng av tvättmaskinen vid vägguttaget och låt den vara urkopplad i minst 5 minuter. Koppla in den igen och kör ett kort varmt program (60°C) för att se om felet återkommer. Ibland kan en tillfällig spänningsfluktuering utlösa E66, och en återställning rensar det."
+        },
+        {
+          "step": 2,
+          "action": "Rengör pumpfiltret",
+          "detail": "Ett igensatt filter kan göra att maskinen får problem med vattenhanteringen, vilket indirekt belastar värmekretsen. Hitta filtret bakom den lilla luckan längst ned på maskinens framsida, lägg en handduk under, skruva långsamt loss locket och rensa bort eventuellt skräp. Sätt tillbaka det ordentligt och testa igen."
+        },
+        {
+          "step": 3,
+          "action": "Kör ett avkalkningsprogram",
+          "detail": "Om du bor i ett område med hårt vatten och inte har avkalkat på länge, tillsätt ett avkalkningsmedel avsett för tvättmaskiner i trumman och kör det varmaste tillgängliga programmet. Kraftiga kalkavlagringar på elementet kan orsaka termiska fel som utlöser E66. Upprepa om maskinen inte har avkalkats på över ett år."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera kablaget till värmeelementet och NTC-givaren",
+          "detail": "Koppla bort maskinen från elnätet innan du gör detta. Ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar). Lokalisera värmeelementet vid trummans botten och NTC-givaren som sitter fastklämd i närheten. Kontrollera att alla flatstiftsanslutningar sitter ordentligt och inte visar tecken på brännskador eller korrosion. Sätt tillbaka eventuella lösa anslutningar och testa igen."
+        },
+        {
+          "step": 5,
+          "action": "Testa NTC-temperaturgivaren med en multimeter",
+          "detail": "Koppla loss NTC-givarens tvåpoliga kontakt och mät resistansen över dess terminaler. Vid rumstemperatur (cirka 20°C) läser en frisk NTC-givare vanligtvis mellan 4 000 och 6 000 ohm. En avläsning på noll eller oändlighet indikerar en defekt givare som behöver bytas. Ersättnings-NTC-givare är billiga och enkla att montera."
+        },
+        {
+          "step": 6,
+          "action": "Testa värmeelementet med en multimeter",
+          "detail": "Med maskinen urkopplad, koppla loss ledningarna från elementets terminaler och ställ in din multimeter på resistans (ohm). Ett fungerande element läser vanligtvis mellan 20 och 30 ohm. En avläsning på noll (kortslutning) eller öppen krets (ingen avläsning) bekräftar att elementet har havererat och måste bytas. Kontrollera också kontinuitet mellan varje terminal och maskinens metallhölje — en avläsning här indikerar att elementet jordar och är osäkert."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut den defekta komponenten",
+          "detail": "När du har identifierat om elementet eller NTC-givaren har havererat, skaffa rätt reservdel med hjälp av maskinens fullständiga modellnummer (finns på etiketten på dörrkarmens insida). Montera den nya delen, anslut allt kablage noggrant, sätt tillbaka bakpanelen och kör ett fullständigt 60°C-program för att bekräfta att E66-felet har försvunnit."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat både värmeelementet och NTC-givaren och båda mäter inom normala intervall, men E66 fortsätter att visas, beror felet troligtvis på huvudstyrkortet (PCB). Diagnos och byte av PCB kräver specialutrustning och kunskap om elektronik på kortnivå — detta är inte en säker DIY-reparation för de flesta hushållare.</p><p>Du bör också kontakta en servicetekniker om du hittar bränt kablage, smälta kontakter eller några tecken på ljusbågar runt värmekretsen. Dessa indikerar ett allvarligare elfel som kan utgöra en brand- eller stötrisk om maskinen används ytterligare innan reparation.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E66-fel är värmeelementet, NTC-temperaturgivaren och ibland kabelstammen som förbinder dessa komponenter med styrkortet. Att ha rätt modellnummer till hands vid beställning säkerställer att du får rätt del direkt.</p><p>För att minska risken för att E66 återkommer, kör ett dedikerat avkalkningsprogram var tredje till sjätte månad om du bor i ett område med hårt vatten, och använd ett månatligt underhållsprogram vid 60°C eller högre för att hålla elementet fritt från avlagringar. Undvik att konsekvent tvätta vid mycket låga temperaturer, eftersom detta tillåter tvättmedel och kalk att ansamlas på elementet över tid.</p>\n<!-- SPARE_PARTS:E66 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt. När E66 är aktivt värmer maskinen inte vattnet korrekt, vilket innebär att tvätten inte rengörs eller saneras ordentligt. Viktigare är att ett havererat värmeelement i vissa fall kan utgöra en elektrisk risk, så det är bäst att låta maskinen stå oanvänd tills felet är åtgärdat.",
+          "question": "Kan jag fortfarande använda min Siemens tvättmaskin när den visar E66?"
+        },
+        {
+          "answer": "Ett ersättningsvärmeelement för en Siemens tvättmaskin kostar vanligtvis mellan 250 och 650 kronor för delen, beroende på modell. Om du monterar det själv hålls totalkostnaden låg. Ett servicebesök tillkommer med arbetskostnad, vilket vanligtvis ger en totalkostnad på 1 200–2 200 kronor beroende på din plats.",
+          "question": "Hur mycket kostar det att byta värmeelement på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Öppna tvättmaskinsluckan och titta på den inre dörrkarmens insida — där bör det finnas en etikett med det fullständiga modellnumret (E-Nr) och ibland ett produktionsnummer (FD). Ange detta modellnummer på en reservdelswebbplats för att hitta komponenter som bekräftats vara kompatibla med din specifika maskin.",
+          "question": "Hur hittar jag rätt NTC-givare eller värmeelement för min modell?"
+        },
+        {
+          "answer": "Ibland, ja. En svag eller intermittent nätspänning kan få styrkortet att feltolka värmekretsen och utlösa E66. Försök att koppla in maskinen i ett annat uttag på en annan krets om möjligt, och kontrollera att uttaget levererar en stabil spänning. Om felet bara uppstår ibland och försvinner vid återställning är ett intermittent strömförsörjningsproblem värt att undersöka innan du byter delar.",
+          "question": "Kan E66 orsakas av ett strömförsörjningsproblem snarare än en defekt del?"
+        },
+        {
+          "answer": "E66-koden pekar konsekvent på värmekretsen i Siemens tvättmaskinssortiment, men vilken specifik komponent som troligast är defekt kan variera något mellan äldre och nyare modeller. Kontrollera alltid felkoden mot din specifika modells användarmanual eller teknisk dokumentation för att bekräfta diagnosen innan du beställer delar.",
+          "question": "Är E66 samma fel på alla Siemens tvättmaskinmodeller?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T14:50:49.555867+00:00"
+    },
+    {
+      "article_id": 236,
+      "locale": "en",
+      "slug": "error-code-e67",
+      "title_tag": "Siemens Washing Machine Error Code E67 | Fix It Now",
+      "meta_description": "Siemens washing machine showing error code E67? Learn what causes this heating circuit fault and how to fix it yourself step by step.",
+      "h1": "What Does Error Code E67 Mean on a Siemens Washing Machine?",
+      "description": "Error code E67 on a Siemens washing machine indicates a fault in the heating circuit, typically involving the heating element, NTC temperature sensor, or the wiring connecting them to the control board.",
+      "quick_fix": "Check and clean the filter, then inspect the heating element connections at the back of the drum — if the wiring harness has worked loose, reseat it firmly and restart the cycle to clear the error (takes about 10 minutes).",
+      "intro_html": "<p>Error code E67 signals that your Siemens washing machine has detected a problem within its heating circuit. This circuit is responsible for raising the water temperature to the level you select on the dial or display. When the machine cannot confirm that heating is working correctly — either because it cannot reach the target temperature or because sensor readings are inconsistent — it stops the cycle and displays E67 to protect your laundry and the appliance itself.</p><p>When this error appears, the wash drum typically stops mid-cycle, often during the main wash phase when heating is most active. The machine may lock the door and refuse to continue until the fault is resolved. In some Siemens models the error can also appear at the start of a cycle before any heating has taken place, which usually points to a sensor or wiring issue rather than a failed element.</p><p>The good news is that several of the most common causes behind E67 are straightforward to investigate at home without specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Loose or corroded wiring connections",
+          "detail": "Vibration over time can cause the wiring harness connecting the heating element or NTC sensor to the control board to work loose. Corroded terminals can also interrupt the signal, causing the board to log a heating circuit fault even if the element itself is fine."
+        },
+        {
+          "cause": "Faulty NTC temperature sensor",
+          "detail": "The NTC sensor monitors water temperature and reports back to the control board. If it fails or drifts out of its calibrated range, the board cannot verify that heating is occurring and triggers E67."
+        },
+        {
+          "cause": "Failed or degraded heating element",
+          "detail": "The heating element can burn out or develop a partial break in the coil, preventing it from generating heat. Scale build-up from hard water accelerates this process and is one of the most common reasons elements fail prematurely."
+        },
+        {
+          "cause": "Limescale build-up on the heating element",
+          "detail": "Heavy limescale deposits act as insulation around the element, reducing its efficiency and causing it to overheat internally. The control board may detect abnormal temperature behaviour and raise E67 as a precaution."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "In less common cases, the main PCB itself may have a damaged relay or component responsible for switching power to the heating circuit. This is usually only suspected after all other causes have been ruled out."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains and unplug it. Wait at least two minutes before plugging back in and restarting. Occasionally a temporary sensor glitch can trigger E67, and a full power reset clears it without any further action needed."
+        },
+        {
+          "step": 2,
+          "action": "Run a service wash or descaling cycle",
+          "detail": "If you live in a hard water area and have not descaled the machine recently, run an empty 90°C cycle with a proprietary washing machine descaler or two tablespoons of citric acid. Heavy limescale on the element can cause erratic temperature readings that trigger E67. Do this monthly as a preventive measure going forward."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the wiring harness at the heating element",
+          "detail": "Unplug the machine and pull it away from the wall. Remove the rear panel (usually held by two or three screws). Locate the heating element at the bottom of the drum and check that both spade connectors are seated firmly on the terminals. If they look corroded or discoloured, gently clean them with fine sandpaper and reseat them. Refit the panel and test."
+        },
+        {
+          "step": 4,
+          "action": "Test the NTC temperature sensor",
+          "detail": "With the rear panel removed, locate the NTC sensor — it is usually clipped into the heating element housing or mounted nearby on the drum casing. Disconnect it and use a multimeter set to resistance (Ohms). At room temperature, a healthy NTC sensor typically reads between 10,000 and 15,000 Ohms. A reading of zero or infinity indicates a failed sensor that needs replacing."
+        },
+        {
+          "step": 5,
+          "action": "Test the heating element for continuity",
+          "detail": "With the machine still unplugged and the rear panel off, disconnect both wires from the heating element terminals. Set your multimeter to continuity or resistance mode and touch the probes to the two terminals. A working element typically reads between 20 and 50 Ohms. No continuity at all means the element has failed and must be replaced."
+        },
+        {
+          "step": 6,
+          "action": "Check for earth leakage on the element",
+          "detail": "While the element is disconnected, place one multimeter probe on a terminal and the other on the metal casing of the element. There should be no continuity between them. If there is, the element has broken down internally and is unsafe — replace it before using the machine again."
+        },
+        {
+          "step": 7,
+          "action": "Replace the faulty component and retest",
+          "detail": "Once you have identified the failed part — sensor, element, or wiring — fit the correct replacement part for your specific Siemens model number. Reconnect all wiring, refit the rear panel, and run a short warm wash cycle to confirm the E67 error has cleared and the machine heats correctly."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested both the NTC sensor and the heating element with a multimeter and both return readings within the normal range, the fault is likely inside the main control board. A damaged relay or failed triac on the PCB requires component-level diagnosis and soldering skills that go beyond typical DIY repair. Attempting to repair a PCB without the right equipment can cause further damage.</p><p>You should also contact a service technician if you find evidence of burning, melted plastic, or a strong electrical smell near the element or wiring. These signs suggest the fault has progressed beyond a simple component swap and the machine should not be used until it has been professionally assessed.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E67 fault are the NTC temperature sensor, the heating element, and occasionally the wiring harness or connector block that links them to the control board. Having the correct model number to hand when ordering parts is essential, as element dimensions and sensor specifications vary between Siemens models.</p><p>To reduce the risk of E67 recurring, run a descaling cycle every one to three months depending on your local water hardness, and use the correct amount of detergent to prevent residue build-up around the element housing.</p>\n<!-- SPARE_PARTS:E67 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. When E67 is active, the machine is not heating water reliably, which means your laundry will not be washed hygienically at the temperature you selected. Running the machine repeatedly in a fault state can also put additional stress on the control board. Resolve the fault first, then resume normal use.",
+          "question": "Can I still use my Siemens washing machine while it shows E67?"
+        },
+        {
+          "answer": "A replacement heating element for a Siemens washing machine typically costs between £20 and £50 for the part alone, depending on the model. If you fit it yourself the total cost stays low. A service technician call-out and labour will add to this, but the repair is usually still worthwhile compared to replacing the machine.",
+          "question": "How much does it cost to replace a Siemens washing machine heating element?"
+        },
+        {
+          "answer": "Occasionally, yes — if the error was caused by a temporary sensor glitch or a brief voltage fluctuation, a full power cycle can clear it. However, if the underlying cause is a failed element or sensor, the code will return as soon as the machine attempts to heat water again. Always investigate the root cause rather than relying on resets.",
+          "question": "Will E67 clear itself after a power reset?"
+        },
+        {
+          "answer": "The model number is printed on a label inside the door frame — open the door and look around the inner rim of the door seal. It is also sometimes on the back panel. You will need the full model number (for example, WM14T491GB) to order the correct heating element or NTC sensor, as parts are not universal across the Siemens range.",
+          "question": "How do I find the model number on my Siemens washing machine?"
+        },
+        {
+          "answer": "No. E17 and E18 relate to water inlet and fill issues, while E67 is specifically a heating circuit fault. They share some symptoms — a stopped cycle, a locked door — but the affected components are completely different. Always confirm the exact code on the display before ordering parts or starting any repair work.",
+          "question": "Is E67 the same fault as E17 or E18 on Siemens machines?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T14:51:41.323108+00:00"
+    },
+    {
+      "article_id": 236,
+      "locale": "sv",
+      "slug": "felkod-e67",
+      "title_tag": "Siemens Tvättmaskin Felkod E67 | Åtgärda Det Nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod E67? Lär dig vad som orsakar detta fel i värmekretsen och hur du åtgärdar det själv steg för steg.",
+      "h1": "Vad Betyder Felkod E67 på en Siemens Tvättmaskin?",
+      "description": "Felkod E67 på en Siemens tvättmaskin indikerar ett fel i värmekretsen, vanligtvis relaterat till värmeelement, NTC-temperatursensor eller kablaget som förbinder dem med styrkortet.",
+      "quick_fix": "Kontrollera och rengör filtret, inspektera sedan värmeelement­anslutningarna på trummans baksida — om kabelstammen har lossnat, sätt tillbaka den ordentligt och starta om programmet för att rensa felet (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod E67 signalerar att din Siemens tvättmaskin har upptäckt ett problem i värmekretsen. Denna krets ansvarar för att höja vattentemperaturen till den nivå du väljer på ratten eller displayen. När maskinen inte kan bekräfta att uppvärmningen fungerar korrekt — antingen för att den inte når måltemperaturen eller för att sensoravläsningarna är inkonsekventa — stoppar den programmet och visar E67 för att skydda din tvätt och maskinen.</p><p>När detta fel uppstår stannar tvätttrumman vanligtvis mitt i programmet, ofta under huvudtvättfasen när uppvärmningen är som mest aktiv. Maskinen kan låsa luckan och vägra att fortsätta tills felet är åtgärdat. På vissa Siemens-modeller kan felet även visas i början av ett program innan någon uppvärmning har skett, vilket vanligtvis pekar på ett sensor- eller kablageproblem snarare än ett defekt element.</p><p>Den goda nyheten är att flera av de vanligaste orsakerna bakom E67 är enkla att undersöka hemma utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Lösa eller korroderade kabelanslutningar",
+          "detail": "Vibrationer över tid kan göra att kabelstammen som förbinder värmeelementet eller NTC-sensorn med styrkortet lossnar. Korroderade kontakter kan också avbryta signalen och få kortet att registrera ett värmekretsel även om elementet i sig fungerar."
+        },
+        {
+          "cause": "Defekt NTC-temperatursensor",
+          "detail": "NTC-sensorn övervakar vattentemperaturen och rapporterar tillbaka till styrkortet. Om den slutar fungera eller avviker från sitt kalibrerade område kan kortet inte verifiera att uppvärmning sker och utlöser E67."
+        },
+        {
+          "cause": "Trasigt eller nedbrutet värmeelement",
+          "detail": "Värmeelementet kan brinna ut eller få ett partiellt brott i spolen, vilket hindrar det från att generera värme. Kalkavlagringar från hårt vatten påskyndar denna process och är en av de vanligaste orsakerna till att element går sönder i förtid."
+        },
+        {
+          "cause": "Kalkavlagringar på värmeelementet",
+          "detail": "Kraftiga kalkavlagringar fungerar som isolering runt elementet, minskar dess effektivitet och får det att överhettas internt. Styrkortet kan upptäcka onormalt temperaturbeteende och utlösa E67 som en försiktighetsåtgärd."
+        },
+        {
+          "cause": "Fel på styrkortet",
+          "detail": "I mindre vanliga fall kan huvudkortet (PCB) ha ett skadat relä eller en komponent som ansvarar för att koppla ström till värmekretsen. Detta misstänks vanligtvis först efter att alla andra orsaker har uteslutits."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid eluttaget och dra ur kontakten. Vänta minst två minuter innan du sätter i kontakten igen och startar om. Ibland kan ett tillfälligt sensorfel utlösa E67, och en fullständig omstart rensar det utan att några ytterligare åtgärder behövs."
+        },
+        {
+          "step": 2,
+          "action": "Kör ett servicetvätt- eller avkalkningsprogram",
+          "detail": "Om du bor i ett område med hårt vatten och inte har avkalkat maskinen nyligen, kör ett tomt 90°C-program med ett specialmedel för avkalkning av tvättmaskiner eller två matskedar citronsyra. Kraftiga kalkavlagringar på elementet kan orsaka oregelbundna temperaturavläsningar som utlöser E67. Gör detta månadsvis som en förebyggande åtgärd framöver."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera kabelstammen vid värmeelementet",
+          "detail": "Dra ur maskinens kontakt och dra ut den från väggen. Ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar). Lokalisera värmeelementet längst ner på trumman och kontrollera att båda flatstiftsanslutningarna sitter ordentligt på kontakterna. Om de ser korroderade eller missfärgade ut, rengör dem försiktigt med fint sandpapper och sätt tillbaka dem. Montera panelen och testa."
+        },
+        {
+          "step": 4,
+          "action": "Testa NTC-temperatursensorn",
+          "detail": "Med bakpanelen borttagen, lokalisera NTC-sensorn — den sitter vanligtvis fastklämd i värmeelementets hölje eller monterad i närheten på trumhöljet. Koppla loss den och använd en multimeter inställd på motstånd (Ohm). Vid rumstemperatur läser en frisk NTC-sensor vanligtvis mellan 10 000 och 15 000 Ohm. En avläsning på noll eller oändlighet indikerar en defekt sensor som behöver bytas."
+        },
+        {
+          "step": 5,
+          "action": "Testa värmeelementet för kontinuitet",
+          "detail": "Med maskinen fortfarande urkopplad och bakpanelen borttagen, koppla loss båda ledningarna från värmeelementets kontakter. Ställ in multimetern på kontinuitets- eller motståndsläge och placera mätsonderna på de två kontakterna. Ett fungerande element läser vanligtvis mellan 20 och 50 Ohm. Ingen kontinuitet alls innebär att elementet har gått sönder och måste bytas."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera för jordläckage på elementet",
+          "detail": "Medan elementet är frånkopplat, placera en multimetersond på en kontakt och den andra på elementets metallhölje. Det ska inte finnas någon kontinuitet mellan dem. Om det finns det har elementet brutit ned internt och är osäkert — byt ut det innan du använder maskinen igen."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut den defekta komponenten och testa igen",
+          "detail": "När du har identifierat den trasiga delen — sensor, element eller kablage — montera rätt reservdel för ditt specifika Siemens-modellnummer. Återanslut allt kablage, montera bakpanelen och kör ett kort varmtvättprogram för att bekräfta att E67-felet har rensats och att maskinen värmer korrekt."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat både NTC-sensorn och värmeelementet med en multimeter och båda ger avläsningar inom normalområdet, är felet troligtvis inne i huvudstyrkortet. Ett skadat relä eller en defekt triac på kretskortet kräver komponentnivådiagnos och lödkunskaper som går utöver vanlig DIY-reparation. Att försöka reparera ett kretskort utan rätt utrustning kan orsaka ytterligare skador.</p><p>Du bör också kontakta en servicetekniker om du hittar tecken på brännskador, smält plast eller en stark elektrisk lukt nära elementet eller kablaget. Dessa tecken tyder på att felet har utvecklats bortom ett enkelt komponentbyte och maskinen bör inte användas förrän den har bedömts professionellt.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E67-fel är NTC-temperatursensorn, värmeelementet och ibland kabelstammen eller kontaktblocket som förbinder dem med styrkortet. Det är viktigt att ha rätt modellnummer till hands när du beställer delar, eftersom elementdimensioner och sensorspecifikationer varierar mellan Siemens-modeller.</p><p>För att minska risken för att E67 återkommer, kör ett avkalkningsprogram var en till tre månader beroende på din lokala vattenhårdhet, och använd rätt mängd tvättmedel för att förhindra att rester samlas runt elementhöljet.</p>\n<!-- SPARE_PARTS:E67 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte rekommenderat. När E67 är aktivt värmer maskinen inte vattnet tillförlitligt, vilket innebär att din tvätt inte tvättas hygieniskt vid den temperatur du valt. Att köra maskinen upprepade gånger i ett feltillstånd kan också belasta styrkortet ytterligare. Åtgärda felet först och återuppta sedan normal användning.",
+          "question": "Kan jag fortfarande använda min Siemens tvättmaskin när den visar E67?"
+        },
+        {
+          "answer": "Ett ersättningsvärmeelement för en Siemens tvättmaskin kostar vanligtvis mellan 250 och 600 kronor för enbart delen, beroende på modell. Om du monterar det själv hålls totalkostnaden låg. En servicetekniker med utryckning och arbetstid tillkommer, men reparationen är vanligtvis fortfarande lönsam jämfört med att byta ut maskinen.",
+          "question": "Hur mycket kostar det att byta värmeelement på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Ibland, ja — om felet orsakades av ett tillfälligt sensorfel eller en kortvarig spänningsfluktuering kan en fullständig omstart rensa det. Men om den bakomliggande orsaken är ett defekt element eller en defekt sensor kommer koden att återkomma så snart maskinen försöker värma vatten igen. Undersök alltid grundorsaken istället för att förlita dig på omstarter.",
+          "question": "Försvinner E67 av sig självt efter en omstart?"
+        },
+        {
+          "answer": "Modellnumret finns tryckt på en etikett inuti luckoramen — öppna luckan och titta runt den inre kanten av lucktätningen. Det finns ibland även på bakpanelen. Du behöver det fullständiga modellnumret (till exempel WM14T491GB) för att beställa rätt värmeelement eller NTC-sensor, eftersom delar inte är universella inom Siemens-sortimentet.",
+          "question": "Hur hittar jag modellnumret på min Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Nej. E17 och E18 rör problem med vatteninlopp och påfyllning, medan E67 specifikt är ett värmekretsel. De delar vissa symptom — ett stoppat program, en låst lucka — men de berörda komponenterna är helt olika. Bekräfta alltid den exakta koden på displayen innan du beställer delar eller påbörjar något reparationsarbete.",
+          "question": "Är E67 samma fel som E17 eller E18 på Siemens-maskiner?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T14:52:50.231836+00:00"
+    }
+  ]
+}

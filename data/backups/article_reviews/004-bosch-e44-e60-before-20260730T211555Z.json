@@ -1,0 +1,1011 @@
+{
+  "exported_at": "2026-07-30T21:15:55.281397+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    183,
+    184,
+    185,
+    186,
+    187
+  ],
+  "rows": [
+    {
+      "article_id": 183,
+      "locale": "en",
+      "slug": "error-code-e44",
+      "title_tag": "Bosch Washing Machine Error Code E44 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E44? Learn what causes a door fault mid-cycle and how to fix it safely at home. Step-by-step guide included.",
+      "h1": "What Does Error Code E44 Mean on a Bosch Washing Machine?",
+      "description": "Error code E44 on a Bosch washing machine indicates that the machine has detected the door opening — or believes it has opened — during an active wash cycle, triggering an automatic safety override to stop operation.",
+      "quick_fix": "Firmly push the door shut until you hear a distinct click, then press Start/Pause to resume the cycle — if the door latch has simply not engaged fully, this will clear the error immediately (takes about 2 minutes).",
+      "intro_html": "<p>Error code E44 appears when your Bosch washing machine's control board receives a signal that the door is no longer securely closed while a cycle is running. As a safety measure, the machine halts all drum movement and water activity immediately to prevent flooding or injury.</p><p>The fault does not always mean the door has physically opened. In many cases the door interlock — the component that both locks the door and reports its status to the control board — has failed electrically, sending a false 'door open' signal even when the door is physically shut.</p><p>You may notice the cycle stops mid-wash, the drum becomes stationary, and the E44 code appears on the display. Water may remain inside the drum depending on how far through the cycle the fault occurred.</p>",
+      "causes_json": [
+        {
+          "cause": "Door not fully latched",
+          "detail": "The most common trigger is simply that the door was not pushed firmly enough to engage the latch mechanism. A partial latch can fool the interlock sensor into registering an open door."
+        },
+        {
+          "cause": "Faulty door interlock (door lock assembly)",
+          "detail": "The door interlock contains a bi-metal or electronic switch that confirms the door is locked. If this component wears out or fails, it can send an intermittent or permanent 'door open' signal to the PCB even when the door is physically closed."
+        },
+        {
+          "cause": "Damaged or misaligned door latch striker",
+          "detail": "The plastic striker on the door itself hooks into the interlock body. If it is cracked, bent, or has shifted out of alignment, it may not depress the interlock switch fully, causing the machine to register an open door."
+        },
+        {
+          "cause": "Wiring fault between door interlock and control board",
+          "detail": "The wiring harness connecting the door interlock to the main PCB can develop loose connections, chafing, or breaks over time. A poor connection here produces exactly the same error as a failed interlock."
+        },
+        {
+          "cause": "Main control board (PCB) fault",
+          "detail": "In less common cases, the PCB itself misreads the signal from a perfectly functional interlock. This is usually a diagnosis of exclusion after the interlock and wiring have been checked and found to be in good condition."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Turn the machine off at the dial, unplug it from the wall socket, and wait 60 seconds before plugging back in and restarting. This clears any temporary software glitch that may have triggered a false E44 reading. If the error does not return, no further action is needed."
+        },
+        {
+          "step": 2,
+          "action": "Check and firmly re-close the door",
+          "detail": "Open the door fully, check that no clothing is caught in the door seal or obstructing the latch area, then push the door closed with a firm, deliberate push until you hear a clear click. Try restarting the cycle. Even a small obstruction in the seal can prevent full engagement."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the door latch striker",
+          "detail": "Look at the plastic hook or peg on the door that inserts into the interlock. Check for cracks, chips, or any visible deformation. Wiggle it gently — it should be completely rigid. A damaged striker is inexpensive to replace and is a straightforward DIY job requiring only a screwdriver."
+        },
+        {
+          "step": 4,
+          "action": "Test the door interlock",
+          "detail": "With the machine unplugged, locate the interlock behind the front panel near the door opening — you can usually access it by peeling back the door seal and removing two or three screws. Disconnect the wiring plug and use a multimeter set to continuity mode to test the switch terminals according to your model's wiring diagram. No continuity when the latch is engaged indicates a failed interlock."
+        },
+        {
+          "step": 5,
+          "action": "Check the wiring harness connections",
+          "detail": "While you have access to the interlock, trace the wiring harness back toward the control board. Look for any wires that appear pinched, chafed against the drum casing, or have connectors that feel loose when gently tugged. Re-seat any loose connectors firmly. Repair or replace any visibly damaged sections of wire."
+        },
+        {
+          "step": 6,
+          "action": "Replace the door interlock assembly",
+          "detail": "If the interlock fails the continuity test and the wiring is sound, replace the interlock with a part matched to your specific Bosch model number (found on the label inside the door frame). Fit the new interlock, reconnect the wiring, refit the door seal, and run a short test cycle to confirm the error has cleared."
+        },
+        {
+          "step": 7,
+          "action": "Run a diagnostic test cycle",
+          "detail": "Many Bosch washing machines have a built-in service mode that can be accessed by holding specific button combinations — consult your model's service manual or the Bosch support site for the exact sequence. A diagnostic cycle will confirm whether the door circuit is reading correctly before you commit to further investigation of the PCB."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have replaced the door interlock and checked the wiring harness thoroughly but the E44 error persists, the fault is likely within the main control board. PCB diagnosis and replacement requires specialist equipment and carries a risk of further damage if handled incorrectly — this is the point to contact a qualified service technician.</p><p>You should also call a service technician if you notice any burn marks, melted plastic, or a burning smell near the door lock area or at the back of the machine, as these indicate an electrical fault that goes beyond a simple component swap and must be assessed professionally before the machine is used again.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E44 fault are the <strong>door interlock assembly</strong>, the <strong>door latch striker</strong>, and in wiring-related cases, the <strong>door interlock wiring harness</strong>. Keeping the door seal clean and free of debris reduces wear on the striker and interlock over time, and avoiding slamming the door helps the latch mechanism last longer.</p><p>Use the search tool below to find genuine Bosch-compatible spare parts for your specific model. Always match parts to your full model number, which is printed on the label inside the door aperture.</p>\n<!-- SPARE_PARTS:E44 -->",
+      "faq_json": [
+        {
+          "answer": "Yes. Select the Drain or Spin programme on the dial and press Start — most Bosch machines will run a drain cycle even when a door fault is active, provided the door is physically closed. If the machine refuses to respond at all, you can drain manually via the small emergency drain hose located behind the filter cover at the bottom front of the machine.",
+          "question": "Can I still drain the water from the drum when E44 is showing?"
+        },
+        {
+          "answer": "The E44 code means the machine has already stopped as a safety precaution, so the drum is not moving. However, if the cycle was interrupted mid-wash, the drum may still contain hot water. Wait a few minutes for the water to cool before attempting to open the door. Never force the door open if you can hear water sloshing inside.",
+          "question": "Is E44 dangerous — can I open the door while it is showing?"
+        },
+        {
+          "answer": "A door interlock typically lasts between five and ten years under normal use, though this varies with how frequently the machine is used and how firmly the door is closed each time. Machines used multiple times daily will wear the interlock faster than those used a few times a week.",
+          "question": "How long does a door interlock last on a Bosch washing machine?"
+        },
+        {
+          "answer": "E44 will not clear on its own while the underlying fault remains. Once you have addressed the cause — whether that is re-latching the door, replacing the striker, or fitting a new interlock — you need to power cycle the machine to reset the error code. Simply turning the programme dial to Off and back on, or unplugging for 60 seconds, is usually sufficient.",
+          "question": "Will E44 clear itself, or do I need to manually reset it?"
+        },
+        {
+          "answer": "An intermittent E44 fault almost always points to a door interlock that is beginning to fail rather than one that has failed completely, or to a loose connection in the wiring harness. Intermittent faults tend to worsen over time, so it is worth inspecting the interlock and wiring sooner rather than waiting for the fault to become permanent.",
+          "question": "My Bosch washing machine shows E44 only occasionally — what does that mean?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:03:35.259532+00:00"
+    },
+    {
+      "article_id": 183,
+      "locale": "sv",
+      "slug": "felkod-e44",
+      "title_tag": "Bosch Tvättmaskin Felkod E44 | Åtgärda Det Nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E44? Lär dig vad som orsakar ett dörrluckefel mitt i ett program och hur du åtgärdar det säkert hemma. Steg-för-steg-guide ingår.",
+      "h1": "Vad Betyder Felkod E44 på en Bosch Tvättmaskin?",
+      "description": "Felkod E44 på en Bosch tvättmaskin indikerar att maskinen har registrerat att dörrluckan öppnats — eller tror att den har öppnats — under ett pågående tvättprogram, vilket utlöser ett automatiskt säkerhetsstopp.",
+      "quick_fix": "Tryck dörrluckan ordentligt stängd tills du hör ett tydligt klick och tryck sedan på Start/Paus för att återuppta programmet — om dörrlåset helt enkelt inte hakat i ordentligt kommer detta att rensa felet omedelbart (tar ungefär 2 minuter).",
+      "intro_html": "<p>Felkod E44 visas när Bosch tvättmaskinens styrkort tar emot en signal om att dörrluckan inte längre är ordentligt stängd medan ett program körs. Som en säkerhetsåtgärd stoppar maskinen omedelbart all trumrörelse och vattenaktivitet för att förhindra översvämning eller skada.</p><p>Felet innebär inte alltid att dörrluckan fysiskt har öppnats. I många fall har dörrlåset — den komponent som både låser dörrluckan och rapporterar dess status till styrkortet — fått ett elektriskt fel och skickar en falsk signal om att dörren är öppen, även när dörrluckan fysiskt är stängd.</p><p>Du kan märka att programmet stannar mitt i tvätten, att trumman blir stillastående och att E44-koden visas på displayen. Vatten kan finnas kvar i trumman beroende på hur långt in i programmet felet inträffade.</p>",
+      "causes_json": [
+        {
+          "cause": "Dörrluckan inte helt stängd",
+          "detail": "Den vanligaste orsaken är helt enkelt att dörrluckan inte trycktes tillräckligt hårt för att låsmekanismen skulle haka i. Ett ofullständigt lås kan lura låssensorn att registrera en öppen dörrlucka."
+        },
+        {
+          "cause": "Defekt dörrlås (dörrlåsenhet)",
+          "detail": "Dörrlåset innehåller en bimetall- eller elektronisk kontakt som bekräftar att dörrluckan är låst. Om denna komponent slits ut eller går sönder kan den skicka en intermittent eller permanent signal om att dörren är öppen till styrkortet, även när dörrluckan fysiskt är stängd."
+        },
+        {
+          "cause": "Skadad eller feljusterad dörrhake",
+          "detail": "Den plastiga haken på dörrluckan hakar i låskroppen. Om den är sprucken, böjd eller har förskjutits ur läge kanske den inte trycks in låsmekanismens kontakt tillräckligt, vilket gör att maskinen registrerar en öppen dörrlucka."
+        },
+        {
+          "cause": "Kabelfel mellan dörrlås och styrkort",
+          "detail": "Kabelstammen som förbinder dörrlåset med huvud-PCB:n kan med tiden utveckla lösa anslutningar, nötning eller brott. En dålig anslutning ger exakt samma fel som ett defekt dörrlås."
+        },
+        {
+          "cause": "Fel på huvud-styrkortet (PCB)",
+          "detail": "I mindre vanliga fall feltolkar PCB:n signalen från ett fullt fungerande dörrlås. Detta är vanligtvis en uteslutningsdiagnos efter att dörrlåset och kablaget har kontrollerats och befunnits vara i gott skick."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen med programvredet, dra ur kontakten från vägguttaget och vänta 60 sekunder innan du sätter i kontakten igen och startar om. Detta rensar eventuella tillfälliga programvarufel som kan ha utlöst en falsk E44-avläsning. Om felet inte återkommer behövs inga ytterligare åtgärder."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera och stäng dörrluckan ordentligt",
+          "detail": "Öppna dörrluckan helt, kontrollera att inga klädesplagg fastnat i dörrtätningen eller blockerar låsområdet, och tryck sedan dörrluckan stängd med ett fast, bestämt tryck tills du hör ett tydligt klick. Försök starta om programmet. Även ett litet hinder i tätningen kan förhindra att låset hakar i helt."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera dörrhaken",
+          "detail": "Titta på den plastiga haken eller tappen på dörrluckan som förs in i låset. Kontrollera om det finns sprickor, avslag eller synlig deformation. Vicka försiktigt på den — den ska vara helt stel. En skadad dörrhake är billig att byta ut och är ett enkelt gör-det-själv-jobb som bara kräver en skruvmejsel."
+        },
+        {
+          "step": 4,
+          "action": "Testa dörrlåset",
+          "detail": "Med maskinen urkopplad, lokalisera dörrlåset bakom frontpanelen nära dörröppningen — du kan vanligtvis komma åt det genom att dra tillbaka dörrtätningen och ta bort två eller tre skruvar. Koppla loss kabelkontakten och använd en multimeter inställd på kontinuitetsläge för att testa kontaktterminalerna enligt din modells kopplingsschema. Ingen kontinuitet när låset är aktiverat indikerar ett defekt dörrlås."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera kabelstammens anslutningar",
+          "detail": "Medan du har tillgång till dörrlåset, följ kabelstammen tillbaka mot styrkortet. Leta efter kablar som verkar klämda, nötta mot trumhöljet eller har kontakter som känns lösa när du försiktigt drar i dem. Sätt tillbaka eventuella lösa kontakter ordentligt. Reparera eller byt ut synligt skadade kabelavsnitt."
+        },
+        {
+          "step": 6,
+          "action": "Byt ut dörrlåsenheten",
+          "detail": "Om dörrlåset inte klarar kontinuitetstestet och kablaget är i gott skick, byt ut dörrlåset mot en reservdel som matchar ditt specifika Bosch-modellnummer (finns på etiketten inuti dörröppningen). Montera det nya dörrlåset, återanslut kablaget, montera tillbaka dörrtätningen och kör ett kort testprogram för att bekräfta att felet har rensats."
+        },
+        {
+          "step": 7,
+          "action": "Kör ett diagnostikprogram",
+          "detail": "Många Bosch tvättmaskiner har ett inbyggt serviceläge som kan aktiveras genom att hålla in specifika knappar — konsultera din modells servicemanual eller Bosch supportwebbplats för den exakta sekvensen. Ett diagnostikprogram bekräftar om dörrkretsen läser av korrekt innan du fortsätter med ytterligare undersökning av PCB:n."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har bytt ut dörrlåset och noggrant kontrollerat kabelstammen men E44-felet kvarstår, beror felet troligtvis på huvud-styrkortet. PCB-diagnostik och -byte kräver specialutrustning och medför risk för ytterligare skador om det hanteras felaktigt — det är nu dags att kontakta en behörig servicetekniker.</p><p>Du bör också kontakta en servicetekniker om du märker brännmärken, smält plast eller en bränd lukt nära dörrlåsområdet eller på maskinens baksida, eftersom detta indikerar ett elektriskt fel som går utöver ett enkelt komponentbyte och måste bedömas professionellt innan maskinen används igen.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E44-fel är <strong>dörrlåsenheten</strong>, <strong>dörrhaken</strong> och vid kabelrelaterade fall, <strong>dörrlåsets kabelstam</strong>. Att hålla dörrtätningen ren och fri från smuts minskar slitaget på dörrhaken och dörrlåset med tiden, och att undvika att slå igen dörrluckan hjälper låsmekanismen att hålla längre.</p><p>Använd sökverktyget nedan för att hitta äkta Bosch-kompatibla reservdelar för din specifika modell. Matcha alltid delar mot ditt fullständiga modellnummer, som finns tryckt på etiketten inuti dörröppningen.</p>\n<!-- SPARE_PARTS:E44 -->",
+      "faq_json": [
+        {
+          "answer": "Ja. Välj programmet Tömning eller Centrifugering på vredet och tryck på Start — de flesta Bosch-maskiner kör ett tömningsprogram även när ett dörrluckefel är aktivt, förutsatt att dörrluckan är fysiskt stängd. Om maskinen inte svarar alls kan du tömma manuellt via den lilla nödtömningsslangen som sitter bakom filterlocket längst ned på maskinens framsida.",
+          "question": "Kan jag fortfarande tömma vattnet från trumman när E44 visas?"
+        },
+        {
+          "answer": "E44-koden innebär att maskinen redan har stannat som en säkerhetsåtgärd, så trumman rör sig inte. Men om programmet avbröts mitt i tvätten kan trumman fortfarande innehålla varmt vatten. Vänta några minuter tills vattnet svalnat innan du försöker öppna dörrluckan. Tvinga aldrig upp dörrluckan om du hör vatten skvimpa inuti.",
+          "question": "Är E44 farligt — kan jag öppna dörrluckan när det visas?"
+        },
+        {
+          "answer": "Ett dörrlås håller vanligtvis mellan fem och tio år vid normal användning, men detta varierar beroende på hur ofta maskinen används och hur hårt dörrluckan stängs varje gång. Maskiner som används flera gånger dagligen sliter ut dörrlåset snabbare än de som används några gånger i veckan.",
+          "question": "Hur länge håller ett dörrlås på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "E44 försvinner inte av sig självt så länge det underliggande felet kvarstår. När du har åtgärdat orsaken — oavsett om det handlar om att stänga dörrluckan ordentligt, byta dörrhaken eller montera ett nytt dörrlås — måste du starta om maskinen för att återställa felkoden. Det räcker vanligtvis att vrida programvredet till Av och tillbaka, eller att dra ur kontakten i 60 sekunder.",
+          "question": "Försvinner E44 av sig självt, eller måste jag återställa det manuellt?"
+        },
+        {
+          "answer": "Ett intermittent E44-fel pekar nästan alltid på ett dörrlås som börjar ge upp snarare än ett som har slutat fungera helt, eller på en lös anslutning i kabelstammen. Intermittenta fel tenderar att förvärras med tiden, så det är värt att inspektera dörrlåset och kablaget snarare än att vänta tills felet blir permanent.",
+          "question": "Min Bosch tvättmaskin visar E44 bara ibland — vad innebär det?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:04:44.911608+00:00"
+    },
+    {
+      "article_id": 184,
+      "locale": "en",
+      "slug": "error-code-e45",
+      "title_tag": "Bosch Washing Machine Error Code E45 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E45? Learn what causes this control module communication fault and how to fix it step by step.",
+      "h1": "What Does Error Code E45 Mean on a Bosch Washing Machine?",
+      "description": "Error code E45 on a Bosch washing machine indicates a communication fault between the main control module and other electronic components in the machine.",
+      "quick_fix": "Power cycle the machine by switching it off at the wall socket, waiting 5 minutes, then switching it back on and starting a new programme — this clears temporary communication errors in the control module and restores normal operation in many cases (takes about 5 minutes).",
+      "intro_html": "<p>Error code E45 points to a breakdown in communication within your Bosch washing machine's electronic control system. The control module — sometimes called the PCB or main board — is responsible for coordinating every part of the machine, from the motor and drum to the door lock and water valves. When it loses reliable contact with one or more of these components, it logs E45 and halts the programme to prevent further damage.</p><p>When this error appears, the machine will typically stop mid-cycle or refuse to start a new one. The display shows E45 and the drum will not rotate. In some cases the door may remain locked. The fault can be a one-off electronic glitch, but it can also point to a wiring problem or a failing component that will need closer inspection.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary control module glitch",
+          "detail": "A brief power fluctuation or software hiccup can cause the control module to lose communication with other components. This is the most common cause and often clears itself after a full power reset."
+        },
+        {
+          "cause": "Loose or damaged wiring harness",
+          "detail": "The wiring loom connecting the control module to the motor, door lock, or other sub-components can work loose over time due to vibration. A damaged or corroded connector will interrupt the data signal and trigger E45."
+        },
+        {
+          "cause": "Faulty door lock assembly",
+          "detail": "The door interlock sends a signal back to the control module confirming the door is secure before a cycle begins. If the lock mechanism is worn or its wiring is damaged, the module may register a communication failure."
+        },
+        {
+          "cause": "Failing motor control board",
+          "detail": "Some Bosch models use a separate motor control board that communicates with the main PCB. If this secondary board develops a fault, the main module cannot receive motor feedback and will display E45."
+        },
+        {
+          "cause": "Defective main control module (PCB)",
+          "detail": "If the main PCB itself has suffered component failure — often caused by a power surge or moisture ingress — it may be unable to maintain communication with the rest of the machine. This is less common but requires board replacement or professional repair."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Turn the washing machine off using the programme dial, then switch it off at the wall socket. Leave it unplugged for at least 5 minutes to allow the control module to fully discharge and reset. Plug it back in, select a short programme, and see if the error returns."
+        },
+        {
+          "step": 2,
+          "action": "Check the door is fully closed and latching",
+          "detail": "Open and firmly close the door, making sure you hear a clear click from the lock. A door that appears closed but has not engaged the latch properly can prevent the control module from receiving the door-locked signal. Try starting the machine again after re-closing the door."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the door lock wiring",
+          "detail": "With the machine unplugged, carefully remove the door seal lip and the front panel trim to access the door lock assembly. Check that the wiring connector is firmly seated on the lock and that no wires are visibly pinched, burnt, or corroded. Reseat any loose connectors and reassemble before testing."
+        },
+        {
+          "step": 4,
+          "action": "Check the wiring harness connections at the control module",
+          "detail": "The main PCB is usually located behind the top panel or the rear panel depending on your model. With the machine unplugged, remove the relevant panel and locate the control board. Gently press each wiring connector firmly into its socket — vibration from normal use can cause them to work loose over months or years."
+        },
+        {
+          "step": 5,
+          "action": "Inspect wiring for visible damage",
+          "detail": "While you have access to the internal wiring, run your eye along the main harness looking for chafed insulation, burn marks, or broken wires. Pay particular attention to areas where the harness passes near the drum or motor, as these are high-vibration zones. Any damaged section of wiring will need to be repaired or the harness replaced."
+        },
+        {
+          "step": 6,
+          "action": "Test the door lock assembly",
+          "detail": "If you have a multimeter, you can test the door lock for continuity across its terminals — consult your model's wiring diagram for the correct values. A lock that shows no continuity when engaged is faulty and should be replaced. Replacement door locks for Bosch machines are widely available and are a straightforward swap."
+        },
+        {
+          "step": 7,
+          "action": "Consider the motor control board or main PCB",
+          "detail": "If all wiring and components check out but E45 persists, the fault likely lies with the motor control board or the main PCB itself. At this stage, further diagnosis requires specialist equipment and knowledge of electronic components, so this is the point to contact a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If the error code returns immediately after a power reset, and you have already checked all accessible wiring connections without finding anything loose or damaged, the fault is likely inside the control module or motor control board itself. These components require specialist diagnostic tools to test properly and are not straightforward to replace without experience.</p><p>You should also call a service technician if you notice any burn marks, a smell of burning plastic, or signs of moisture around the PCB area. These are signs of more serious electrical damage that should not be investigated further without professional training.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch E45 fault are the door lock assembly, the main control module (PCB), and the motor control board. In many cases, replacing the door lock alone resolves the communication error, making it a sensible first part to investigate before committing to a more expensive board replacement.</p><p>If you need to order any of these parts, use your full model number — found on the label inside the door frame — to make sure you get the correct version for your specific machine.</p>\n<!-- SPARE_PARTS:E45 -->",
+      "faq_json": [
+        {
+          "answer": "No — when E45 is active the machine will not complete a cycle and may not start at all. Attempting to force it through a programme is unlikely to work and could mask a wiring fault that gets worse over time. Resolve the error before using the machine again.",
+          "question": "Can I still use my Bosch washing machine while it shows E45?"
+        },
+        {
+          "answer": "A power reset fixes E45 when the cause is a temporary software glitch or a minor voltage fluctuation. If the error comes back after the reset, there is an underlying hardware fault — a loose connector, a faulty door lock, or a failing board — that needs to be investigated further.",
+          "question": "Will a power reset always fix error code E45?"
+        },
+        {
+          "answer": "Main control boards for Bosch washing machines typically cost between £60 and £180 for the part alone, depending on the model. Labour from a service technician will add to this. It is worth getting a quote before committing, as on older machines the repair cost can approach the value of the appliance.",
+          "question": "How much does it cost to replace a Bosch washing machine PCB?"
+        },
+        {
+          "answer": "Bosch uses several communication-related error codes, and E45 specifically relates to a fault in the control module's communication with other components. Other codes such as E44 or E46 point to different aspects of the control system. Always check the exact code displayed before starting any diagnosis.",
+          "question": "Is E45 the same as other communication error codes on Bosch machines?"
+        },
+        {
+          "answer": "The model number is printed on a sticker inside the door frame — open the door and look around the inner rim. It usually starts with letters such as WAT, WAN, or WGB followed by a string of numbers. You will need this number to order the correct replacement parts for your machine.",
+          "question": "How do I find my Bosch washing machine model number?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:05:31.887375+00:00"
+    },
+    {
+      "article_id": 184,
+      "locale": "sv",
+      "slug": "felkod-e45",
+      "title_tag": "Bosch Tvättmaskin Felkod E45 | Åtgärda Nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E45? Lär dig vad som orsakar detta kommunikationsfel i styrmodulen och hur du åtgärdar det steg för steg.",
+      "h1": "Vad Betyder Felkod E45 på en Bosch Tvättmaskin?",
+      "description": "Felkod E45 på en Bosch tvättmaskin indikerar ett kommunikationsfel mellan huvudstyrmodulen och andra elektroniska komponenter i maskinen.",
+      "quick_fix": "Starta om maskinen genom att stänga av den vid vägguttaget, vänta 5 minuter och sedan slå på den igen och starta ett nytt program — detta rensar tillfälliga kommunikationsfel i styrmodulen och återställer normal drift i många fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E45 pekar på ett kommunikationsavbrott i din Bosch tvättmaskines elektroniska styrsystem. Styrmodulen — ibland kallad PCB eller huvudkort — ansvarar för att samordna varje del av maskinen, från motor och trumma till dörrlås och vattenventiler. När den förlorar tillförlitlig kontakt med en eller flera av dessa komponenter loggar den E45 och avbryter programmet för att förhindra ytterligare skador.</p><p>När detta fel uppstår stannar maskinen vanligtvis mitt i ett program eller vägrar att starta ett nytt. Displayen visar E45 och trumman roterar inte. I vissa fall kan dörren förbli låst. Felet kan vara ett engångsfel i elektroniken, men det kan också peka på ett kabelproblem eller en defekt komponent som behöver noggrannare undersökning.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt fel i styrmodulen",
+          "detail": "En kortvarig spänningsfluktuering eller programvarufel kan göra att styrmodulen förlorar kommunikationen med andra komponenter. Detta är den vanligaste orsaken och försvinner ofta efter en fullständig omstart av strömmen."
+        },
+        {
+          "cause": "Löst eller skadat kabelstamme",
+          "detail": "Kabelstammen som förbinder styrmodulen med motorn, dörrlåset eller andra delkomponenter kan lossna med tiden på grund av vibrationer. En skadad eller korroderad kontakt avbryter datasignalen och utlöser E45."
+        },
+        {
+          "cause": "Defekt dörrlåsenhet",
+          "detail": "Dörrlåset skickar en signal tillbaka till styrmodulen som bekräftar att dörren är säkert stängd innan ett program startar. Om låsmekanismen är sliten eller dess kablage är skadat kan modulen registrera ett kommunikationsfel."
+        },
+        {
+          "cause": "Defekt motorstyrningskort",
+          "detail": "Vissa Bosch-modeller använder ett separat motorstyrningskort som kommunicerar med huvud-PCB:n. Om detta sekundära kort utvecklar ett fel kan huvudmodulen inte ta emot motoråterkoppling och visar E45."
+        },
+        {
+          "cause": "Defekt huvudstyrmodul (PCB)",
+          "detail": "Om huvud-PCB:n själv har drabbats av komponentfel — ofta orsakat av ett spänningsöverskott eller fuktintrång — kan den vara oförmögen att upprätthålla kommunikation med resten av maskinen. Detta är mindre vanligt men kräver kortbyte eller professionell reparation."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av tvättmaskinen med programvredet och stäng sedan av den vid vägguttaget. Låt den vara urkopplad i minst 5 minuter så att styrmodulen hinner ladda ur och återställas helt. Koppla in den igen, välj ett kort program och se om felet återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera att dörren är helt stängd och låst",
+          "detail": "Öppna och stäng dörren ordentligt och se till att du hör ett tydligt klick från låset. En dörr som verkar stängd men inte har hakat i låset ordentligt kan hindra styrmodulen från att ta emot signalen om att dörren är låst. Försök starta maskinen igen efter att ha stängt dörren på nytt."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera dörrlåsets kablage",
+          "detail": "Med maskinen urkopplad, ta försiktigt bort dörrmanschettens kant och frontpanelens list för att komma åt dörrlåsenheten. Kontrollera att kabelkontakten sitter ordentligt på låset och att inga kablar är synligt klämda, brända eller korroderade. Sätt tillbaka lösa kontakter och montera ihop maskinen innan du testar."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera kabelstammens anslutningar vid styrmodulen",
+          "detail": "Huvud-PCB:n sitter vanligtvis bakom toppanelen eller bakpanelen beroende på din modell. Med maskinen urkopplad, ta bort relevant panel och lokalisera styrkortet. Tryck försiktigt in varje kabelkontakt ordentligt i sitt uttag — vibrationer från normal användning kan göra att de lossnar under månader eller år."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera kablaget efter synliga skador",
+          "detail": "Medan du har tillgång till det interna kablaget, låt blicken löpa längs huvudstammen och leta efter nött isolering, brännmärken eller trasiga kablar. Var särskilt uppmärksam på områden där stammen passerar nära trumman eller motorn, eftersom dessa är zoner med hög vibration. Alla skadade kabelavsnitt måste repareras eller stammen bytas ut."
+        },
+        {
+          "step": 6,
+          "action": "Testa dörrlåsenheten",
+          "detail": "Om du har en multimeter kan du testa dörrlåset för kontinuitet över dess terminaler — konsultera din modells kopplingsschema för korrekta värden. Ett lås som inte visar kontinuitet när det är aktiverat är defekt och bör bytas ut. Ersättningsdörrlås för Bosch-maskiner finns allmänt tillgängliga och är ett enkelt byte."
+        },
+        {
+          "step": 7,
+          "action": "Överväg motorstyrningskortet eller huvud-PCB:n",
+          "detail": "Om allt kablage och alla komponenter ser bra ut men E45 kvarstår, ligger felet troligen i motorstyrningskortet eller huvud-PCB:n. I detta skede kräver ytterligare diagnos specialutrustning och kunskap om elektroniska komponenter, så det är dags att kontakta en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om felkoden återkommer omedelbart efter en omstart av strömmen, och du redan har kontrollerat alla åtkomliga kabelanslutningar utan att hitta något löst eller skadat, ligger felet troligen inuti styrmodulen eller motorstyrningskortet. Dessa komponenter kräver specialiserade diagnostikverktyg för att testas ordentligt och är inte enkla att byta ut utan erfarenhet.</p><p>Du bör också ringa en servicetekniker om du märker brännmärken, luktar bränd plast eller ser tecken på fukt runt PCB-området. Dessa är tecken på allvarligare elektriska skador som inte bör undersökas vidare utan professionell utbildning.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när ett Bosch E45-fel åtgärdas är dörrlåsenheten, huvudstyrmodulen (PCB) och motorstyrningskortet. I många fall löser ett byte av dörrlåset ensamt kommunikationsfelet, vilket gör det till en vettig första del att undersöka innan man förbinder sig till ett dyrare kortreparation.</p><p>Om du behöver beställa någon av dessa delar, använd ditt fullständiga modellnummer — som finns på etiketten inuti dörrkarmen — för att säkerställa att du får rätt version för just din maskin.</p>\n<!-- SPARE_PARTS:E45 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — när E45 är aktivt slutför maskinen inte ett program och kanske inte startar alls. Att försöka tvinga den genom ett program är osannolikt att fungera och kan dölja ett kabelfel som förvärras med tiden. Åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag fortfarande använda min Bosch tvättmaskin när den visar E45?"
+        },
+        {
+          "answer": "En omstart löser E45 när orsaken är ett tillfälligt programvarufel eller en mindre spänningsfluktuering. Om felet återkommer efter omstarten finns det ett underliggande hårdvarufel — en lös kontakt, ett defekt dörrlås eller ett sviktande kort — som behöver undersökas vidare.",
+          "question": "Löser en omstart alltid felkod E45?"
+        },
+        {
+          "answer": "Huvudstyrningskort för Bosch tvättmaskiner kostar vanligtvis mellan 700 och 2 000 kr för enbart delen, beroende på modell. Arbetskostnad från en servicetekniker tillkommer. Det är värt att begära en offert innan du bestämmer dig, eftersom reparationskostnaden på äldre maskiner kan närma sig maskinens värde.",
+          "question": "Hur mycket kostar det att byta PCB på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Bosch använder flera kommunikationsrelaterade felkoder, och E45 avser specifikt ett fel i styrmodulens kommunikation med andra komponenter. Andra koder som E44 eller E46 pekar på olika aspekter av styrsystemet. Kontrollera alltid den exakta koden som visas innan du påbörjar någon diagnos.",
+          "question": "Är E45 samma som andra kommunikationsfelkoder på Bosch-maskiner?"
+        },
+        {
+          "answer": "Modellnumret finns tryckt på en etikett inuti dörrkarmen — öppna dörren och titta runt den inre kanten. Det börjar vanligtvis med bokstäver som WAT, WAN eller WGB följt av en sifferserie. Du behöver detta nummer för att beställa rätt reservdelar till din maskin.",
+          "question": "Hur hittar jag modellnumret på min Bosch tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:06:31.071937+00:00"
+    },
+    {
+      "article_id": 185,
+      "locale": "en",
+      "slug": "error-code-e47",
+      "title_tag": "Bosch Washing Machine Error Code E47 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E47? Learn what causes this door lock electronics fault and how to fix it yourself step by step.",
+      "h1": "What Does Error Code E47 Mean on a Bosch Washing Machine?",
+      "description": "Error code E47 on a Bosch washing machine indicates a hardware failure in the door lock electronics, meaning the control board cannot correctly read or communicate with the door lock circuit.",
+      "quick_fix": "Unplug the washing machine from the mains, wait 5 minutes, then plug it back in and attempt to start a cycle — a power reset clears temporary electronic faults in the lock circuit and restores normal operation in many cases (takes about 5 minutes).",
+      "intro_html": "<p>Error code E47 points to a fault within the door lock electronics on your Bosch washing machine. Unlike a simple mechanical jam, this is a hardware-level issue — the machine's control board is detecting an abnormal signal from the door lock circuit, which prevents it from confirming the door is safely closed.</p><p>When E47 appears, the machine will typically refuse to start a wash programme or will stop mid-cycle and lock the drum. The door may feel physically closed and latched, yet the machine still throws the error because the electronic signal from the lock assembly is not behaving as expected.</p><p>This fault affects the interlock system — a critical safety mechanism that ensures the drum cannot spin while the door is open. Because of this, the machine is designed to halt completely until the issue is resolved.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty door lock assembly (interlock)",
+          "detail": "The most common cause of E47 is a failed door lock unit itself. The internal microswitch or electronic components within the lock can wear out or burn out over time, sending an incorrect signal to the control board."
+        },
+        {
+          "cause": "Damaged or loose wiring to the door lock",
+          "detail": "The wiring harness connecting the door lock to the main control board can develop loose connections, chafing, or breaks — especially around the door hinge area where the cable flexes repeatedly. A poor connection here disrupts the lock circuit signal."
+        },
+        {
+          "cause": "Temporary electronic glitch in the control board",
+          "detail": "A brief power surge or software hiccup can cause the control board to misread the lock circuit status. This type of fault is often resolved with a simple power reset and does not indicate permanent damage."
+        },
+        {
+          "cause": "Moisture or corrosion on the lock connector",
+          "detail": "Water ingress around the door seal area can reach the lock connector over time, causing corrosion on the terminals. Corroded contacts increase resistance in the circuit and produce unreliable signals."
+        },
+        {
+          "cause": "Failed main control board (PCB)",
+          "detail": "If the lock assembly and wiring both test as healthy, the fault may lie with the main PCB itself. A damaged circuit on the board responsible for reading the lock signal can produce a persistent E47 code."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a power reset",
+          "detail": "Switch the machine off at the programme dial, then unplug it from the wall socket. Leave it unplugged for at least 5 minutes to allow the control board to fully discharge. Plug it back in, select a programme, and check whether the error has cleared."
+        },
+        {
+          "step": 2,
+          "action": "Check the door is fully closing",
+          "detail": "Open and firmly close the door, making sure it clicks into the latch. Inspect the door catch on the machine body and the hook on the door itself for any visible damage or misalignment. A door that is slightly out of alignment can prevent the lock from engaging properly."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the door lock wiring connector",
+          "detail": "Unplug the machine before doing this. Remove the door seal and the front panel or top panel depending on your model to access the door lock. Locate the wiring connector on the back of the lock unit and check it is firmly seated. Disconnect and reconnect it to ensure a clean contact."
+        },
+        {
+          "step": 4,
+          "action": "Look for visible wiring damage",
+          "detail": "With the lock area accessible, trace the wiring harness from the lock back towards the control board. Look for any signs of chafing, pinching, or melted insulation — particularly near the door hinge. Damaged wiring will need to be repaired or the harness replaced."
+        },
+        {
+          "step": 5,
+          "action": "Clean the lock connector terminals",
+          "detail": "If the connector terminals look discoloured or corroded, use a dry cotton swab or a small amount of electrical contact cleaner to clean them. Allow the connector to dry completely before reconnecting. Corrosion on the terminals is a common cause of intermittent E47 faults."
+        },
+        {
+          "step": 6,
+          "action": "Test the door lock assembly with a multimeter",
+          "detail": "If you have a multimeter, disconnect the lock and test the resistance across the lock terminals according to your model's wiring diagram (typically found in the service manual). A reading outside the expected range confirms the lock unit has failed and needs replacing."
+        },
+        {
+          "step": 7,
+          "action": "Replace the door lock assembly",
+          "detail": "If the lock tests as faulty, fit a compatible replacement interlock unit for your specific Bosch model. Reconnect the wiring, reassemble the machine, and run a short test cycle to confirm the error has gone. Make sure the machine is unplugged throughout the replacement process."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have replaced the door lock assembly and checked all wiring connections but the E47 error continues to appear, the fault is likely within the main control board. PCB diagnosis and replacement requires specialist equipment and knowledge of board-level electronics — this is not a safe DIY repair for most homeowners.</p><p>You should also contact a service technician if you find burnt or melted wiring near the lock circuit, if the machine trips your household fuse board when switched on, or if the door physically will not release after the cycle ends. These symptoms suggest a more serious electrical fault that needs professional assessment.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E47 fault are the door lock assembly (interlock unit), the door lock wiring harness, and in persistent cases, the main control board (PCB). Having the correct part reference for your specific Bosch model before ordering will save time — check the model number on the label inside the door frame.</p><p>To reduce the risk of door lock faults developing, avoid slamming the door and periodically wipe around the door seal to prevent moisture build-up near the lock area. Check the door catch for wear every year or so, as a worn catch puts extra strain on the lock mechanism over time.</p>\n<!-- SPARE_PARTS:E47 -->",
+      "faq_json": [
+        {
+          "answer": "No. The E47 error causes the machine to stop as a safety measure because it cannot confirm the door is securely locked. Running the machine in this state is not possible — it will refuse to start or will halt mid-cycle. The fault needs to be resolved before normal use can resume.",
+          "question": "Can I still use my Bosch washing machine while it shows E47?"
+        },
+        {
+          "answer": "First, unplug the machine and wait a few minutes. Many Bosch models have an emergency door release — a small pull tab or cord located behind the kick panel at the bottom front of the machine. Pulling this manually releases the door latch. Check your model's user manual for the exact location.",
+          "question": "How do I open the door when E47 is showing and the door is stuck?"
+        },
+        {
+          "answer": "They are related but distinct. E46 typically indicates a door lock activation fault — the lock is not engaging — while E47 specifically points to a hardware failure in the lock electronics circuit. Both involve the door lock system, but E47 suggests a deeper electrical fault rather than a simple engagement problem.",
+          "question": "Is E47 the same as E46 on a Bosch washing machine?"
+        },
+        {
+          "answer": "A replacement door lock assembly for a Bosch washing machine typically costs between £15 and £45 for the part, depending on the model. If you fit it yourself, that is your only cost. A service technician call-out will add labour charges on top, usually bringing the total to £80–£150 depending on your location.",
+          "question": "How much does it cost to replace a Bosch washing machine door lock?"
+        },
+        {
+          "answer": "Not always. A power reset is worth trying first because it resolves temporary electronic glitches quickly and at no cost. However, if the underlying cause is a physically failed lock unit, damaged wiring, or a faulty PCB, the error will return after the reset. In those cases, the faulty component needs to be identified and replaced.",
+          "question": "Will a power reset always fix error code E47?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:07:18.257692+00:00"
+    },
+    {
+      "article_id": 185,
+      "locale": "sv",
+      "slug": "felkod-e47",
+      "title_tag": "Bosch tvättmaskin felkod E47 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E47? Lär dig vad som orsakar detta fel i dörrlåsets elektronik och hur du åtgärdar det steg för steg.",
+      "h1": "Vad betyder felkod E47 på en Bosch tvättmaskin?",
+      "description": "Felkod E47 på en Bosch tvättmaskin indikerar ett hårdvarufel i dörrlåsets elektronik, vilket innebär att styrkortet inte kan läsa av eller kommunicera korrekt med dörrlåsets krets.",
+      "quick_fix": "Koppla ur tvättmaskinen från eluttaget, vänta 5 minuter och anslut den sedan igen och försök starta ett program — en strömåterställning rensar tillfälliga elektroniska fel i låskretsen och återställer normal drift i många fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E47 pekar på ett fel i dörrlåsets elektronik på din Bosch tvättmaskin. Till skillnad från ett enkelt mekaniskt stopp är detta ett hårdvaruproblem — maskinens styrkort detekterar en onormal signal från dörrlåsets krets, vilket hindrar det från att bekräfta att dörren är säkert stängd.</p><p>När E47 visas vägrar maskinen vanligtvis att starta ett tvättprogram eller stannar mitt i cykeln och låser trumman. Dörren kan kännas fysiskt stängd och låst, men maskinen visar ändå felet eftersom den elektroniska signalen från låsenheten inte beter sig som förväntat.</p><p>Detta fel påverkar låssystemet — en kritisk säkerhetsmekanism som säkerställer att trumman inte kan snurra när dörren är öppen. På grund av detta är maskinen konstruerad att stanna helt tills problemet är löst.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt dörrlåsenhet (interlock)",
+          "detail": "Den vanligaste orsaken till E47 är en trasig dörrlåsenhet. Den interna mikrokontakten eller de elektroniska komponenterna i låset kan slitas ut eller brännas ut med tiden och skickar då en felaktig signal till styrkortet."
+        },
+        {
+          "cause": "Skadad eller lös kablage till dörrlåset",
+          "detail": "Kabelstammen som ansluter dörrlåset till huvudstyrkortet kan utveckla lösa anslutningar, nötning eller brott — särskilt runt gångjärnsområdet där kabeln böjs upprepade gånger. En dålig anslutning här stör låskretsens signal."
+        },
+        {
+          "cause": "Tillfälligt elektroniskt fel i styrkortet",
+          "detail": "En kortvarig spänningsstöt eller programvarufel kan få styrkortet att feltolka låskretsens status. Denna typ av fel löses ofta med en enkel strömåterställning och indikerar inte permanent skada."
+        },
+        {
+          "cause": "Fukt eller korrosion på låsanslutningen",
+          "detail": "Vatteninträngning runt dörrtätningsområdet kan med tiden nå låsanslutningen och orsaka korrosion på kontakterna. Korroderade kontakter ökar motståndet i kretsen och ger opålitliga signaler."
+        },
+        {
+          "cause": "Defekt huvudstyrkort (PCB)",
+          "detail": "Om låsenheten och kablaget båda testar som felfria kan felet ligga i själva huvud-PCB:n. En skadad krets på kortet som ansvarar för att läsa låssignalen kan ge en ihållande E47-kod."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en strömåterställning",
+          "detail": "Stäng av maskinen med programvredet och koppla sedan ur den från vägguttaget. Låt den vara urkopplad i minst 5 minuter så att styrkortet hinner ladda ur helt. Anslut den igen, välj ett program och kontrollera om felet har försvunnit."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera att dörren stängs ordentligt",
+          "detail": "Öppna och stäng dörren ordentligt och se till att den klickar i låset. Inspektera dörrhaket på maskinkroppen och kroken på dörren för eventuella synliga skador eller felinriktning. En dörr som är något felinriktad kan hindra låset från att greppa ordentligt."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera dörrlåsets kabelanslutning",
+          "detail": "Koppla ur maskinen innan du gör detta. Ta bort dörrtätningen och frontpanelen eller toppanelen beroende på din modell för att komma åt dörrlåset. Leta upp kabelanslutningen på baksidan av låsenheten och kontrollera att den sitter ordentligt. Koppla loss och återanslut den för att säkerställa god kontakt."
+        },
+        {
+          "step": 4,
+          "action": "Leta efter synliga kabelskador",
+          "detail": "Med låsområdet tillgängligt, följ kabelstammen från låset tillbaka mot styrkortet. Leta efter tecken på nötning, klämning eller smält isolering — särskilt nära dörrgångjärnet. Skadade kablar måste repareras eller kabelstammen bytas ut."
+        },
+        {
+          "step": 5,
+          "action": "Rengör låsanslutningens kontakter",
+          "detail": "Om anslutningens kontakter ser missfärgade eller korroderade ut, använd en torr bomullspinne eller en liten mängd elektrisk kontaktrengörare för att rengöra dem. Låt anslutningen torka helt innan du återansluter. Korrosion på kontakterna är en vanlig orsak till intermittenta E47-fel."
+        },
+        {
+          "step": 6,
+          "action": "Testa dörrlåsenheten med en multimeter",
+          "detail": "Om du har en multimeter, koppla loss låset och mät motståndet över låsets kontakter enligt din modells kopplingsschema (finns vanligtvis i servicemanualen). Ett värde utanför det förväntade intervallet bekräftar att låsenheten har gått sönder och behöver bytas."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut dörrlåsenheten",
+          "detail": "Om låset testar som defekt, montera en kompatibel ersättningslåsenhet för din specifika Bosch-modell. Återanslut kablaget, montera ihop maskinen och kör ett kort testprogram för att bekräfta att felet är borta. Se till att maskinen är urkopplad under hela bytesprocessen."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har bytt ut dörrlåsenheten och kontrollerat alla kabelanslutningar men E47-felet fortsätter att visas, ligger felet troligen i huvudstyrkortet. PCB-diagnostik och -byte kräver specialutrustning och kunskap om elektronik på kortnivå — detta är inte en säker DIY-reparation för de flesta hushållare.</p><p>Du bör också kontakta en servicetekniker om du hittar brända eller smälta kablar nära låskretsen, om maskinen löser ut din hushållssäkring när den slås på, eller om dörren fysiskt inte öppnas efter att cykeln är klar. Dessa symptom tyder på ett allvarligare elfel som kräver professionell bedömning.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E47-fel är dörrlåsenheten (interlock-enheten), dörrlåsets kabelstam och i ihållande fall huvudstyrkortet (PCB). Att ha rätt delnummer för din specifika Bosch-modell innan du beställer sparar tid — kontrollera modellnumret på etiketten inuti dörrkarmen.</p><p>För att minska risken för att dörrlåsfel uppstår, undvik att slå igen dörren och torka regelbundet runt dörrtätningen för att förhindra fuktansamling nära låsområdet. Kontrollera dörrhaket för slitage en gång om året eller så, eftersom ett slitet hak belastar låsmekanismen extra med tiden.</p>\n<!-- SPARE_PARTS:E47 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. E47-felet gör att maskinen stannar som en säkerhetsåtgärd eftersom den inte kan bekräfta att dörren är säkert låst. Det är inte möjligt att köra maskinen i detta tillstånd — den vägrar att starta eller stannar mitt i cykeln. Felet måste åtgärdas innan normal användning kan återupptas.",
+          "question": "Kan jag fortfarande använda min Bosch tvättmaskin när den visar E47?"
+        },
+        {
+          "answer": "Koppla först ur maskinen och vänta några minuter. Många Bosch-modeller har en nödöppning för dörren — en liten dragflik eller ett snöre som sitter bakom sockelpanelen längst ned på maskinens framsida. Genom att dra i denna frigörs dörrlåset manuellt. Kontrollera din modells bruksanvisning för exakt placering.",
+          "question": "Hur öppnar jag dörren när E47 visas och dörren sitter fast?"
+        },
+        {
+          "answer": "De är relaterade men olika. E46 indikerar vanligtvis ett aktiveringsfel för dörrlåset — låset aktiveras inte — medan E47 specifikt pekar på ett hårdvarufel i låsets elektronikkrets. Båda involverar dörrlåssystemet, men E47 tyder på ett djupare elfel snarare än ett enkelt aktivitetsproblem.",
+          "question": "Är E47 samma sak som E46 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "En ersättningsdörrlåsenhet till en Bosch tvättmaskin kostar vanligtvis mellan 200 och 600 kronor för delen, beroende på modell. Om du monterar den själv är det din enda kostnad. Ett servicebesök tillkommer med arbetskostnad, vilket vanligtvis ger en totalkostnad på 1 000–2 000 kronor beroende på var du bor.",
+          "question": "Vad kostar det att byta dörrlås på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Inte alltid. En strömåterställning är värd att prova först eftersom den snabbt och kostnadsfritt löser tillfälliga elektroniska fel. Men om den bakomliggande orsaken är en fysiskt trasig låsenhet, skadade kablar eller ett defekt styrkort kommer felet att återkomma efter återställningen. I sådana fall måste den defekta komponenten identifieras och bytas ut.",
+          "question": "Löser en strömåterställning alltid felkod E47?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:08:17.325597+00:00"
+    },
+    {
+      "article_id": 186,
+      "locale": "en",
+      "slug": "error-code-e50",
+      "title_tag": "Bosch Washing Machine Error Code E50 | Motor Fault Fix",
+      "meta_description": "Bosch washing machine showing error E50? Learn what causes this motor fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E50 Mean on a Bosch Washing Machine?",
+      "description": "Error code E50 on a Bosch washing machine indicates a motor fault, specifically a problem with the tachogenerator or motor driver circuit that prevents the drum from spinning correctly.",
+      "quick_fix": "Power off the machine at the wall, wait 5 minutes, then restart a spin cycle — this resets the motor driver and clears temporary faults in the majority of E50 cases (takes about 5 minutes).",
+      "intro_html": "<p>Error code E50 points to a fault in the motor system of your Bosch washing machine. The tachogenerator is a small sensor attached to the motor that monitors drum speed and feeds that information back to the control board. The motor driver is the electronic circuit responsible for delivering power to the motor in a controlled way. When either of these components fails or sends an unexpected signal, the machine raises the E50 error.</p><p>When this error occurs, you will typically notice the drum slowing down, failing to reach the correct spin speed, or stopping mid-cycle altogether. The machine may pause, display E50, and refuse to continue until the fault is resolved. In some cases the drum will not move at all from the start of the cycle.</p><p>The good news is that E50 is not always caused by a failed motor. Loose connections, a worn carbon brush set, or a temporary control board glitch can all trigger the same code, and several of these are straightforward to check yourself before calling anyone out.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary motor driver glitch",
+          "detail": "A brief power fluctuation or software hiccup in the control board can cause the motor driver to report a fault incorrectly. A full power reset often clears this without any physical repair needed."
+        },
+        {
+          "cause": "Worn or damaged carbon brushes",
+          "detail": "Carbon brushes transfer electrical current to the motor's rotating armature. As they wear down over years of use, contact becomes intermittent, causing the motor to stall or run erratically and triggering the E50 code."
+        },
+        {
+          "cause": "Faulty or disconnected tachogenerator",
+          "detail": "The tachogenerator sits on the back of the motor and measures drum rotation speed. If its wiring connector has worked loose, or the sensor itself has failed, the control board receives no speed signal and shuts the motor down."
+        },
+        {
+          "cause": "Wiring harness fault between motor and control board",
+          "detail": "The cables running from the motor to the main PCB can chafe, corrode, or develop a broken wire over time. A damaged harness interrupts the signal and power supply to the motor, producing the same E50 error."
+        },
+        {
+          "cause": "Failed motor driver module or main PCB",
+          "detail": "If the motor driver circuitry on the main control board has burned out or a component has failed, the board cannot regulate motor power correctly. This is less common but will require board repair or replacement."
+        },
+        {
+          "cause": "Seized or mechanically overloaded motor",
+          "detail": "A foreign object lodged between the drum and the tub, or a failed drum bearing putting excessive load on the motor, can cause the motor to stall repeatedly until the E50 fault is logged."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a full power reset",
+          "detail": "Switch the machine off at the wall socket and unplug it completely. Leave it unpowered for at least 5 minutes to allow the motor driver capacitors to discharge and the control board to reset. Plug back in, select a spin-only cycle, and observe whether the drum starts and runs normally."
+        },
+        {
+          "step": 2,
+          "action": "Check the drum for obstructions",
+          "detail": "Before opening any panels, try turning the drum by hand through the door. It should rotate smoothly with only light resistance. If it feels stiff, grinds, or will not turn at all, something may be jammed between the drum and the tub — a coin, underwire, or similar object. Remove any obstruction you can reach through the door seal."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the motor wiring connectors",
+          "detail": "Unplug the machine and remove the rear panel (usually held by two or three screws along the top edge). Locate the motor at the bottom of the machine and check that all wiring connectors are firmly seated. Press each connector in until it clicks. Look for any wires that appear burned, corroded, or have pulled out of their terminals."
+        },
+        {
+          "step": 4,
+          "action": "Check the tachogenerator connection",
+          "detail": "The tachogenerator is a small plastic sensor clipped to the rear of the motor body, usually with a two-wire connector. Disconnect and firmly reconnect this connector. Inspect the wires for damage. If you have a multimeter, the tachogenerator coil should show a resistance of roughly 100–200 ohms across its two terminals — a reading of zero or infinite resistance indicates a failed sensor."
+        },
+        {
+          "step": 5,
+          "action": "Inspect and replace the carbon brushes",
+          "detail": "Carbon brushes are located on either side of the motor body and are held in place by small plastic or metal holders that unclip or unscrew. Slide each brush out and measure its length — brushes worn down to less than 5 mm (roughly the length of a fingernail) need replacing. New brushes are inexpensive and model-specific; fit them as a pair and ensure they slide freely in their holders before reassembling."
+        },
+        {
+          "step": 6,
+          "action": "Run a test cycle and monitor",
+          "detail": "Reassemble the rear panel, plug the machine back in, and run a full wash cycle while staying nearby. Listen for any unusual grinding, humming, or stuttering from the motor area. If the cycle completes without the E50 code returning, the fault is resolved. If the error reappears, note exactly which part of the cycle triggers it, as this information will help a service technician diagnose the fault faster."
+        },
+        {
+          "step": 7,
+          "action": "Test or replace the motor",
+          "detail": "If all the above checks pass but E50 persists, the motor itself or the motor driver on the main PCB is likely at fault. Replacing a washing machine motor is within the capability of a confident DIYer, but testing the motor driver circuit requires electronic diagnostic equipment. At this point it is reasonable to call a service technician unless you are comfortable with appliance electronics."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Contact a service technician if the drum will not turn at all by hand, which suggests a seized bearing or a mechanically failed motor that needs specialist tools to replace safely. You should also call a technician if you have replaced the carbon brushes and confirmed the tachogenerator and wiring are sound, but the E50 code continues to appear — this pattern strongly points to a failed motor driver circuit on the main PCB, which requires electronic diagnosis and board-level repair or replacement.</p><p>Additionally, if you notice a burning smell, scorch marks near the motor or control board, or the machine trips your household circuit breaker when it tries to spin, stop using the appliance immediately and arrange a professional inspection before running it again.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E50 fault are the carbon brush set, the tachogenerator sensor, and — in more serious cases — the main PCB or motor itself. Keeping a note of your machine's model number (found on the label inside the door frame) will help you order the correct parts quickly. Carbon brushes in particular are a routine wear item and are worth inspecting every few years on machines that run frequent heavy loads.</p><p>To reduce the risk of motor faults developing, avoid consistently overloading the drum, as excess weight forces the motor to work harder and accelerates brush wear. Cleaning the filter every three months also prevents drainage issues that can cause the drum to sit in standing water and add unnecessary load to the motor during spin.</p>\n<!-- SPARE_PARTS:E50 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to keep running the machine with an active E50 fault. If the motor is struggling or stalling, continuing to use it can cause further damage to the motor windings, carbon brushes, or control board. Resolve the fault first, then resume normal use.",
+          "question": "Can I still use my Bosch washing machine while it shows E50?"
+        },
+        {
+          "answer": "Carbon brushes typically last between 5 and 10 years depending on how frequently the machine is used and how heavy the loads are. Machines running daily on high-spin cycles will wear brushes faster than those used a few times a week. Inspecting them every 4–5 years is a sensible precaution.",
+          "question": "How long do carbon brushes last on a Bosch washing machine?"
+        },
+        {
+          "answer": "Not exactly. Some older Bosch models display a shortened version of error codes, so E5 and E50 can refer to the same motor fault category depending on the display type. Check your model's manual to confirm, but the diagnosis and repair steps are generally the same.",
+          "question": "Is E50 the same as an E5 error on Bosch machines?"
+        },
+        {
+          "answer": "If the fix is a power reset or a new set of carbon brushes, costs are minimal — brushes typically cost £10–£20. A replacement tachogenerator is usually £15–£40. A new motor or main PCB, including labour from a service technician, can range from £150 to £300 or more depending on the model and your location.",
+          "question": "How much does it cost to fix a Bosch washing machine E50 error?"
+        },
+        {
+          "answer": "A recurring E50 after a reset means the underlying hardware fault has not been addressed. The most common culprits for a persistent error are worn carbon brushes making intermittent contact, a failing tachogenerator, or a deteriorating motor driver circuit on the PCB. Work through the step-by-step checks above to identify which component is at fault.",
+          "question": "Why does E50 keep coming back after I reset the machine?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:09:11.832599+00:00"
+    },
+    {
+      "article_id": 186,
+      "locale": "sv",
+      "slug": "felkod-e50",
+      "title_tag": "Bosch Tvättmaskin Felkod E50 | Åtgärda Motorfel",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E50? Lär dig vad som orsakar detta motorfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E50 på en Bosch tvättmaskin?",
+      "description": "Felkod E50 på en Bosch tvättmaskin indikerar ett motorfel, specifikt ett problem med tachogeneratorn eller motordrivkretsen som hindrar trumman från att snurra korrekt.",
+      "quick_fix": "Stäng av maskinen vid vägguttaget, vänta 5 minuter och starta sedan ett centrifugeringsprogram – detta återställer motordrivaren och rensar tillfälliga fel i de flesta E50-fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E50 pekar på ett fel i motorsystemet på din Bosch tvättmaskin. Tachogeneratorn är en liten sensor som sitter på motorn och övervakar trummans hastighet och skickar den informationen tillbaka till styrkortet. Motordrivaren är den elektroniska krets som ansvarar för att leverera ström till motorn på ett kontrollerat sätt. När någon av dessa komponenter slutar fungera eller skickar en oväntad signal utlöser maskinen E50-felet.</p><p>När detta fel uppstår märker du vanligtvis att trumman saktar ner, inte når rätt centrifugeringshastighet eller stannar mitt i programmet. Maskinen kan pausa, visa E50 och vägra att fortsätta tills felet är åtgärdat. I vissa fall rör sig trumman inte alls från programmets start.</p><p>Det goda nyheten är att E50 inte alltid orsakas av en trasig motor. Lösa anslutningar, ett slitet kolborstset eller ett tillfälligt fel på styrkortet kan alla utlösa samma kod, och flera av dessa är enkla att kontrollera själv innan du ringer någon.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt fel i motordrivaren",
+          "detail": "En kortvarig spänningsfluktuering eller programvarufel i styrkortet kan göra att motordrivaren rapporterar ett fel felaktigt. En fullständig strömåterställning rensar ofta detta utan att någon fysisk reparation behövs."
+        },
+        {
+          "cause": "Slitna eller skadade kolborstar",
+          "detail": "Kolborstar överför elektrisk ström till motorns roterande ankare. När de slits ner efter många års användning blir kontakten intermittent, vilket gör att motorn stannar eller går oregelbundet och utlöser E50-koden."
+        },
+        {
+          "cause": "Defekt eller frånkopplad tachogenerator",
+          "detail": "Tachogeneratorn sitter på baksidan av motorn och mäter trummans rotationshastighet. Om dess kabelkontakt har lossnat, eller om sensorn själv har gått sönder, får styrkortet ingen hastighetssignal och stänger av motorn."
+        },
+        {
+          "cause": "Fel i kabelstammen mellan motor och styrkort",
+          "detail": "Kablarna som löper från motorn till huvud-PCB:n kan nötas, korrodera eller få ett brutet ledare med tiden. En skadad kabelstam avbryter signal- och strömförsörjningen till motorn och ger samma E50-fel."
+        },
+        {
+          "cause": "Defekt motordrivarmodul eller huvud-PCB",
+          "detail": "Om motordrivarkretsen på huvudstyrkortet har bränt ut eller en komponent har gått sönder kan kortet inte reglera motorströmmen korrekt. Detta är mindre vanligt men kräver reparation eller byte av kortet."
+        },
+        {
+          "cause": "Låst eller mekaniskt överbelastad motor",
+          "detail": "Ett främmande föremål som fastnat mellan trumman och karet, eller ett trasigt trummlager som lägger för stor belastning på motorn, kan göra att motorn stannar upprepade gånger tills E50-felet registreras."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en fullständig strömåterställning",
+          "detail": "Stäng av maskinen vid vägguttaget och dra ur kontakten helt. Låt den vara strömlös i minst 5 minuter så att motordrivarens kondensatorer hinner ladda ur och styrkortet återställs. Anslut igen, välj ett centrifugeringsprogram och observera om trumman startar och går normalt."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera trumman för hinder",
+          "detail": "Innan du öppnar några luckor, försök vrida trumman för hand genom lucköppningen. Den ska rotera mjukt med endast lätt motstånd. Om den känns stel, gnisslar eller inte går att vrida alls kan något ha fastnat mellan trumman och karet – ett mynt, ett bysthållarbåge eller liknande föremål. Ta bort eventuella hinder du kan nå genom dörrtätningen."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera motorns kabelkontakter",
+          "detail": "Dra ur maskinen och ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar längs överkanten). Lokalisera motorn längst ner i maskinen och kontrollera att alla kabelkontakter sitter ordentligt. Tryck in varje kontakt tills den klickar på plats. Leta efter kablar som ser brända, korroderade ut eller har dragits ur sina anslutningar."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera tachogeneratorns anslutning",
+          "detail": "Tachogeneratorn är en liten plastsensor som sitter på baksidan av motorhuset, vanligtvis med en tvåtrådskontakt. Koppla loss och återanslut denna kontakt ordentligt. Kontrollera kablarna för skador. Om du har en multimeter bör tachogeneratorns spole visa ett motstånd på ungefär 100–200 ohm mellan sina två anslutningar – ett värde på noll eller oändligt motstånd indikerar en defekt sensor."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera och byt kolborstar",
+          "detail": "Kolborstarna sitter på var sida om motorhuset och hålls på plats av små plast- eller metallhållare som lossnar eller skruvas av. Dra ut varje borste och mät dess längd – borstar som slitits ner till mindre än 5 mm (ungefär en nagels längd) behöver bytas. Nya borstar är billiga och modellspecifika; montera dem parvis och se till att de glider fritt i sina hållare innan du sätter ihop maskinen igen."
+        },
+        {
+          "step": 6,
+          "action": "Kör ett testprogram och övervaka",
+          "detail": "Sätt tillbaka bakpanelen, anslut maskinen och kör ett fullständigt tvättprogram medan du stannar i närheten. Lyssna efter ovanliga slipljud, surranden eller hackningar från motorområdet. Om programmet slutförs utan att E50-koden återkommer är felet åtgärdat. Om felet återkommer, notera exakt vilken del av programmet som utlöser det, eftersom denna information hjälper en servicetekniker att diagnostisera felet snabbare."
+        },
+        {
+          "step": 7,
+          "action": "Testa eller byt motorn",
+          "detail": "Om alla ovanstående kontroller godkänns men E50 kvarstår är troligen motorn själv eller motordrivaren på huvud-PCB:n defekt. Att byta en tvättmaskinmotor ligger inom räckhåll för en händig hemmafixare, men att testa motordrivarkretsen kräver elektronisk diagnosutrustning. Vid det här laget är det rimligt att kontakta en servicetekniker om du inte är bekväm med hushållselektronik."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om trumman inte går att vrida för hand alls, vilket tyder på ett låst lager eller en mekaniskt defekt motor som kräver specialverktyg för att bytas ut på ett säkert sätt. Du bör också ringa en tekniker om du har bytt kolborstarna och bekräftat att tachogeneratorn och kablarna är i gott skick, men E50-koden fortsätter att visas – detta mönster pekar starkt på en defekt motordrivarkrets på huvud-PCB:n, vilket kräver elektronisk diagnostik och reparation eller byte på kortnivå.</p><p>Om du dessutom märker en bränd lukt, brännmärken nära motorn eller styrkortet, eller om maskinen löser ut din husbyggnads säkring när den försöker centrifugera, sluta använda maskinen omedelbart och boka en professionell inspektion innan du kör den igen.</p>",
+      "prevention_html": "<p>De delar som oftast byts vid åtgärdande av ett E50-fel är kolborstsettet, tachogeneratorsensorn och – i allvarligare fall – huvud-PCB:n eller motorn. Att notera maskinens modellnummer (finns på etiketten inuti dörrkarmens ram) hjälper dig att beställa rätt reservdelar snabbt. Kolborstar i synnerhet är en rutinmässig förslitningsdel och är värda att inspektera vart par år på maskiner som kör frekventa tunga tvättprogramm.</p><p>För att minska risken för motorfel, undvik att konsekvent överlasta trumman, eftersom övervikt tvingar motorn att arbeta hårdare och accelererar borstslitaget. Att rengöra filtret var tredje månad förhindrar också dräneringsproblem som kan göra att trumman står i stillastående vatten och lägger onödig belastning på motorn under centrifugering.</p>\n<!-- SPARE_PARTS:E50 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt att fortsätta köra maskinen med ett aktivt E50-fel. Om motorn kämpar eller stannar kan fortsatt användning orsaka ytterligare skador på motorlindningarna, kolborstarna eller styrkortet. Åtgärda felet först och återuppta sedan normal användning.",
+          "question": "Kan jag fortsätta använda min Bosch tvättmaskin när den visar E50?"
+        },
+        {
+          "answer": "Kolborstar håller vanligtvis mellan 5 och 10 år beroende på hur ofta maskinen används och hur tunga tvättprogrammen är. Maskiner som körs dagligen med höga centrifugeringshastigheter sliter ut borstar snabbare än de som används några gånger i veckan. Att inspektera dem vart 4–5 år är en förnuftig försiktighetsåtgärd.",
+          "question": "Hur länge håller kolborstarna på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Inte exakt. Vissa äldre Bosch-modeller visar en förkortad version av felkoder, så E5 och E50 kan hänvisa till samma motorfelskatagori beroende på displaytyp. Kontrollera din modells manual för att bekräfta, men diagnos- och reparationsstegen är i allmänhet desamma.",
+          "question": "Är E50 samma sak som ett E5-fel på Bosch-maskiner?"
+        },
+        {
+          "answer": "Om åtgärden är en strömåterställning eller ett nytt kolborstset är kostnaderna minimala – borstar kostar vanligtvis 100–200 kr. En ersättningstachogenerator kostar vanligtvis 150–400 kr. En ny motor eller huvud-PCB, inklusive arbetskostnad från en servicetekniker, kan variera från 1 500 till 3 000 kr eller mer beroende på modell och plats.",
+          "question": "Vad kostar det att åtgärda ett E50-fel på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Ett återkommande E50 efter en återställning innebär att det underliggande hårdvarufelet inte har åtgärdats. De vanligaste orsakerna till ett ihållande fel är slitna kolborstar som gör intermittent kontakt, en sviktande tachogenerator eller en försämrad motordrivarkrets på PCB:n. Arbeta igenom de stegvisa kontrollerna ovan för att identifiera vilken komponent som är defekt.",
+          "question": "Varför återkommer E50 efter att jag har återställt maskinen?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:10:29.569668+00:00"
+    },
+    {
+      "article_id": 187,
+      "locale": "en",
+      "slug": "error-code-e60",
+      "title_tag": "Bosch Washing Machine Error Code E60 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E60? Learn what causes this heating fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E60 Mean on a Bosch Washing Machine?",
+      "description": "Error code E60 on a Bosch washing machine indicates a fault in the heating circuit, typically involving the heating element, NTC temperature sensor, or the wiring connecting them.",
+      "quick_fix": "Check and clean the filter, then inspect the heating element connections — unplug the machine, remove the back or front panel to access the heater wiring, reseat any loose connectors, and restart a wash cycle to see if E60 clears (takes about 15–20 minutes).",
+      "intro_html": "<p>Error code E60 on a Bosch washing machine points to a problem within the heating circuit. This circuit is responsible for raising the water temperature to the level you select on the dial or display. When the machine's control board detects that the water is not reaching the expected temperature — or that the heating system is behaving outside normal parameters — it stops the programme and displays E60 to prevent damage or unsafe operation.</p><p>When this error appears, the wash cycle will typically pause or fail to progress past the heating phase. You may notice the drum has stopped rotating, or the programme timer appears frozen. The machine is not broken beyond use, but it will not complete a heated wash until the underlying fault is resolved.</p><p>The good news is that several of the most common causes behind E60 are accessible to a careful homeowner with basic tools. Working through the steps below in order will help you identify whether this is a simple wiring issue or something that needs a replacement part.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty or failed heating element",
+          "detail": "The heating element is the most common cause of E60. Over time, elements can burn out or develop an internal break, meaning they draw no current and cannot heat the water at all."
+        },
+        {
+          "cause": "Defective NTC temperature sensor",
+          "detail": "The NTC (Negative Temperature Coefficient) sensor monitors water temperature and reports back to the control board. If it fails or drifts out of calibration, the board may incorrectly conclude the heating circuit has a fault even if the element itself is fine."
+        },
+        {
+          "cause": "Loose or corroded wiring connections",
+          "detail": "The connectors linking the heating element and NTC sensor to the main wiring loom can work loose over time due to vibration, or corrode in the damp environment inside the machine. A poor connection can mimic a component failure."
+        },
+        {
+          "cause": "Tripped or failed thermal cut-out",
+          "detail": "Many Bosch heating elements include a thermal cut-out — a safety device that trips if the element overheats. Once tripped, it breaks the circuit permanently and the element assembly will need replacing."
+        },
+        {
+          "cause": "Control board (PCB) fault",
+          "detail": "In less common cases, the main PCB itself may be misreading signals from the heating circuit or failing to send the correct voltage to the element. This is usually only suspected after all other components have been tested and found to be in good condition."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains and unplug it. Wait at least two minutes before plugging back in and selecting a new programme. Occasionally a transient electrical spike can trigger E60 without a genuine component fault, and a full power reset clears it."
+        },
+        {
+          "step": 2,
+          "action": "Check the selected wash temperature",
+          "detail": "Run a cold wash (30°C or a 'cold' setting) to see if the machine completes the cycle without error. If it does, the fault is specifically triggered under heating load, which confirms the heating circuit rather than a general electronics issue."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the wiring connections at the heating element",
+          "detail": "Unplug the machine and remove the rear panel (or front lower panel on some models) using a Torx or Phillips screwdriver. Locate the heating element at the base of the drum and check that all spade connectors are firmly seated and free from corrosion. Reseat any that feel loose and look for any signs of burning or melted plastic around the terminals."
+        },
+        {
+          "step": 4,
+          "action": "Test the heating element with a multimeter",
+          "detail": "With the machine still unplugged, disconnect the element terminals and set your multimeter to resistance (Ohms). A healthy Bosch heating element typically reads between 20 and 50 ohms. A reading of zero (short circuit) or infinite resistance (open circuit) confirms the element has failed and needs replacing."
+        },
+        {
+          "step": 5,
+          "action": "Test the NTC temperature sensor",
+          "detail": "The NTC sensor is usually clipped onto or near the heating element. Disconnect its two-pin connector and measure resistance across the terminals at room temperature — a typical NTC reads around 10,000–15,000 ohms at 20°C. A reading far outside this range, or an open circuit, means the sensor needs replacing. NTC sensors are inexpensive and straightforward to swap out."
+        },
+        {
+          "step": 6,
+          "action": "Check for a tripped thermal cut-out",
+          "detail": "Some Bosch element assemblies have a small thermal cut-out device attached to the element body. Test continuity across its terminals with your multimeter — it should show near-zero resistance. If it shows open circuit, the cut-out has tripped and the entire element assembly will need to be replaced, as the cut-out is not separately resettable on most models."
+        },
+        {
+          "step": 7,
+          "action": "Reassemble, run a test cycle and monitor",
+          "detail": "After replacing any faulty component, refit the panel securely, plug the machine back in, and run a full 60°C wash cycle to confirm the error has cleared. If E60 returns after replacing both the element and NTC sensor, the fault is likely within the control board and a service technician should be consulted."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested and replaced both the heating element and the NTC temperature sensor and the E60 error still returns, the fault most likely lies within the main control board (PCB). PCB diagnosis requires specialist equipment and knowledge of circuit-level testing — it is not a practical DIY repair for most homeowners, and an incorrect replacement can be costly.</p><p>You should also call a service technician if you find any signs of burning, scorching, or melted wiring inside the machine, or if you are not comfortable working around electrical components. A qualified technician can carry out a full heating circuit test safely and advise whether repair or replacement is the more economical route.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch E60 error are the heating element assembly, the NTC temperature sensor, and occasionally the thermal cut-out (which is usually integrated into the element assembly on Bosch models). Using genuine or quality-equivalent parts helps ensure the correct resistance and temperature ratings are met, which protects the control board from repeat faults.</p><p>To reduce the risk of heating element failure over time, avoid consistently running very short or low-temperature cycles without occasionally running a maintenance wash at 60°C or 90°C — this helps prevent limescale build-up on the element, which is a leading cause of overheating and premature failure. Using a descaler every three to six months is also recommended in hard water areas.</p>\n<!-- SPARE_PARTS:E60 -->",
+      "faq_json": [
+        {
+          "answer": "You can run cold wash cycles (where no heating is required) and the machine should complete them normally. However, any programme that requires heated water will stall at the heating phase. It is best to resolve the fault before relying on the machine for regular use, as an open-circuit element can occasionally cause control board issues if left unaddressed.",
+          "question": "Can I still use my Bosch washing machine while it shows E60?"
+        },
+        {
+          "answer": "A replacement heating element for a Bosch washing machine typically costs between £20 and £50 for the part, depending on the model. If you fit it yourself the total cost is just the part. A service technician call-out and fitting will add labour costs on top, usually bringing the total to £80–£150 depending on your location.",
+          "question": "How much does it cost to replace a Bosch washing machine heating element?"
+        },
+        {
+          "answer": "E60 consistently refers to a heating circuit fault across Bosch washing machine ranges, but the exact component that has failed can vary by model. On some models the NTC sensor is the more common culprit, while on others the element itself fails first. Always cross-reference your model number when ordering replacement parts to ensure compatibility.",
+          "question": "Is E60 the same fault on all Bosch washing machine models?"
+        },
+        {
+          "answer": "On most Bosch front-loading washing machines, the heating element is located at the lower rear of the drum and is accessed by removing the back panel. On a small number of models it is accessed from the front by removing the lower kick plate and front panel. Check your model's service diagram or search your model number online to confirm the correct access route before starting.",
+          "question": "How do I find the heating element on my Bosch washing machine?"
+        },
+        {
+          "answer": "Yes, indirectly. Heavy limescale deposits on the heating element act as insulation, causing the element to overheat in order to transfer heat to the water. This can trigger the thermal cut-out or cause the element to burn out prematurely, both of which result in E60. Running regular maintenance washes and using a washing machine descaler every few months significantly reduces this risk.",
+          "question": "Could limescale cause the E60 error code?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:11:21.883728+00:00"
+    },
+    {
+      "article_id": 187,
+      "locale": "sv",
+      "slug": "felkod-e60",
+      "title_tag": "Bosch tvättmaskin felkod E60 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E60? Lär dig vad som orsakar detta värmningsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E60 på en Bosch tvättmaskin?",
+      "description": "Felkod E60 på en Bosch tvättmaskin indikerar ett fel i värmekretsen, vanligtvis relaterat till värmeelement, NTC-temperatursensor eller kablaget som förbinder dem.",
+      "quick_fix": "Kontrollera och rengör filtret, inspektera sedan anslutningarna till värmeelementet — koppla ur maskinen, ta bort bak- eller frontpanelen för att komma åt värmekablaget, sätt tillbaka eventuellt lösa kontakter och starta ett tvättprogram för att se om E60 försvinner (tar ungefär 15–20 minuter).",
+      "intro_html": "<p>Felkod E60 på en Bosch tvättmaskin pekar på ett problem i värmekretsen. Denna krets ansvarar för att höja vattentemperaturen till den nivå du väljer på ratten eller displayen. När maskinens styrkort registrerar att vattnet inte når förväntad temperatur — eller att värmesystemet beter sig utanför normala parametrar — avbryter den programmet och visar E60 för att förhindra skador eller osäker drift.</p><p>När detta fel uppstår pausar tvättcykeln vanligtvis eller misslyckas med att komma förbi uppvärmningsfasen. Du kan märka att trumman har slutat rotera eller att programtimern verkar fryst. Maskinen är inte trasig bortom användning, men den kommer inte att slutföra en uppvärmd tvätt förrän det underliggande felet är åtgärdat.</p><p>Den goda nyheten är att flera av de vanligaste orsakerna bakom E60 är tillgängliga för en noggrann hemmafixare med grundläggande verktyg. Att arbeta igenom stegen nedan i ordning hjälper dig att avgöra om detta är ett enkelt kablageproblem eller något som kräver en reservdel.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt eller trasigt värmeelement",
+          "detail": "Värmeelementet är den vanligaste orsaken till E60. Med tiden kan element brinna ut eller utveckla ett internt brott, vilket innebär att de inte drar någon ström och inte kan värma vattnet alls."
+        },
+        {
+          "cause": "Defekt NTC-temperatursensor",
+          "detail": "NTC-sensorn (Negative Temperature Coefficient) övervakar vattentemperaturen och rapporterar tillbaka till styrkortet. Om den slutar fungera eller driftar ur kalibrering kan kortet felaktigt dra slutsatsen att värmekretsen har ett fel, även om elementet i sig fungerar bra."
+        },
+        {
+          "cause": "Lösa eller korroderade kabelanslutningar",
+          "detail": "Kontakterna som förbinder värmeelementet och NTC-sensorn med det huvudsakliga kablaget kan lossna med tiden på grund av vibrationer, eller korrodera i den fuktiga miljön inuti maskinen. En dålig anslutning kan efterlikna ett komponentfel."
+        },
+        {
+          "cause": "Utlöst eller defekt termisk säkring",
+          "detail": "Många Bosch-värmeelement inkluderar en termisk säkring — en säkerhetsanordning som löser ut om elementet överhettas. När den väl löst ut bryter den kretsen permanent och elementenheten måste bytas ut."
+        },
+        {
+          "cause": "Fel på styrkortet (PCB)",
+          "detail": "I mindre vanliga fall kan huvud-PCB:n feltolka signaler från värmekretsen eller misslyckas med att skicka rätt spänning till elementet. Detta misstänks vanligtvis först efter att alla andra komponenter har testats och befunnits vara i gott skick."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid eluttaget och koppla ur den. Vänta minst två minuter innan du kopplar in den igen och väljer ett nytt program. Ibland kan en tillfällig elektrisk spik utlösa E60 utan ett verkligt komponentfel, och en fullständig omstart rensar det."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera vald tvätttemperatur",
+          "detail": "Kör en kall tvätt (30°C eller en 'kall' inställning) för att se om maskinen slutför cykeln utan fel. Om den gör det utlöses felet specifikt under värmningsbelastning, vilket bekräftar att det rör sig om värmekretsen snarare än ett allmänt elektronikproblem."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera kabelanslutningarna vid värmeelementet",
+          "detail": "Koppla ur maskinen och ta bort bakpanelen (eller den nedre frontpanelen på vissa modeller) med en Torx- eller Phillipsskruvmejsel. Leta upp värmeelementet vid trummans bas och kontrollera att alla spadekontatker sitter ordentligt och är fria från korrosion. Sätt tillbaka eventuellt lösa kontakter och leta efter tecken på brännskador eller smält plast runt anslutningarna."
+        },
+        {
+          "step": 4,
+          "action": "Testa värmeelementet med en multimeter",
+          "detail": "Med maskinen fortfarande urkopplad, koppla loss elementets anslutningar och ställ in din multimeter på motstånd (Ohm). Ett friskt Bosch-värmeelement läser vanligtvis mellan 20 och 50 ohm. En avläsning på noll (kortslutning) eller oändligt motstånd (öppen krets) bekräftar att elementet har gått sönder och behöver bytas ut."
+        },
+        {
+          "step": 5,
+          "action": "Testa NTC-temperatursensorn",
+          "detail": "NTC-sensorn sitter vanligtvis fastklämd på eller nära värmeelementet. Koppla loss dess tvåstiftskontakt och mät motståndet över anslutningarna vid rumstemperatur — en typisk NTC läser ungefär 10 000–15 000 ohm vid 20°C. En avläsning långt utanför detta intervall, eller en öppen krets, innebär att sensorn behöver bytas ut. NTC-sensorer är billiga och enkla att byta."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera om den termiska säkringen har löst ut",
+          "detail": "Vissa Bosch-elementenheter har en liten termisk säkring fäst på elementkroppen. Testa kontinuitet över dess anslutningar med din multimeter — den ska visa nära noll motstånd. Om den visar öppen krets har säkringen löst ut och hela elementenheten måste bytas ut, eftersom säkringen inte kan återställas separat på de flesta modeller."
+        },
+        {
+          "step": 7,
+          "action": "Montera ihop, kör en testcykel och övervaka",
+          "detail": "Efter att ha bytt ut eventuell defekt komponent, montera tillbaka panelen ordentligt, koppla in maskinen och kör en fullständig 60°C-tvättcykel för att bekräfta att felet har försvunnit. Om E60 återkommer efter att ha bytt ut både elementet och NTC-sensorn ligger felet troligtvis i styrkortet och en servicetekniker bör kontaktas."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat och bytt ut både värmeelementet och NTC-temperatursensorn och E60-felet fortfarande återkommer, ligger felet troligtvis i huvud-styrkortet (PCB). PCB-diagnostik kräver specialutrustning och kunskap om testning på kretsnivå — det är inte en praktisk gör-det-själv-reparation för de flesta hemmafixare, och ett felaktigt utbyte kan bli kostsamt.</p><p>Du bör också kontakta en servicetekniker om du hittar tecken på brännskador, svedda märken eller smält kablage inuti maskinen, eller om du inte känner dig bekväm med att arbeta med elektriska komponenter. En behörig tekniker kan utföra ett fullständigt test av värmekretsen på ett säkert sätt och råda dig om huruvida reparation eller utbyte är det mer ekonomiska alternativet.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett Bosch E60-fel är värmeelementsenheten, NTC-temperatursensorn och ibland den termiska säkringen (som vanligtvis är integrerad i elementenheten på Bosch-modeller). Att använda äkta eller kvalitetsmässigt likvärdiga delar hjälper till att säkerställa att rätt motstånd och temperaturvärden uppfylls, vilket skyddar styrkortet från återkommande fel.</p><p>För att minska risken för värmeelementsfel över tid bör du undvika att konsekvent köra mycket korta eller lågtemperaturprogram utan att då och då köra ett underhållsprogram vid 60°C eller 90°C — detta hjälper till att förhindra kalkavlagringar på elementet, vilket är en ledande orsak till överhettning och för tidigt haveri. Att använda avkalkningsmedel var tredje till sjätte månad rekommenderas också i områden med hårt vatten.</p>\n<!-- SPARE_PARTS:E60 -->",
+      "faq_json": [
+        {
+          "answer": "Du kan köra kalla tvättprogram (där ingen uppvärmning krävs) och maskinen bör slutföra dem normalt. Däremot kommer alla program som kräver uppvärmt vatten att stanna i uppvärmningsfasen. Det är bäst att åtgärda felet innan du förlitar dig på maskinen för regelbunden användning, eftersom ett element med öppen krets ibland kan orsaka problem med styrkortet om det lämnas oåtgärdat.",
+          "question": "Kan jag fortfarande använda min Bosch tvättmaskin när den visar E60?"
+        },
+        {
+          "answer": "Ett ersättningsvärmeelement till en Bosch tvättmaskin kostar vanligtvis mellan 250 och 600 kronor för delen, beroende på modell. Om du monterar det själv är den totala kostnaden bara delen. En servicetekniker med utryckning och montering tillkommer arbetskostnader utöver detta, vilket vanligtvis ger en totalkostnad på 900–1 800 kronor beroende på din plats.",
+          "question": "Hur mycket kostar det att byta värmeelement i en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "E60 hänvisar konsekvent till ett värmekretsel fel i Bosch tvättmaskiners sortiment, men den exakta komponenten som har gått sönder kan variera beroende på modell. På vissa modeller är NTC-sensorn den vanligare boven, medan elementet självt går sönder först på andra. Kontrollera alltid ditt modellnummer när du beställer reservdelar för att säkerställa kompatibilitet.",
+          "question": "Är E60 samma fel på alla Bosch tvättmaskinmodeller?"
+        },
+        {
+          "answer": "På de flesta Bosch frontmatade tvättmaskiner är värmeelementet placerat längst ner bak på trumman och nås genom att ta bort bakpanelen. På ett litet antal modeller nås det framifrån genom att ta bort den nedre sockelpanelen och frontpanelen. Kontrollera din modells servicediagram eller sök på ditt modellnummer online för att bekräfta rätt åtkomstväg innan du börjar.",
+          "question": "Hur hittar jag värmeelementet på min Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Ja, indirekt. Kraftiga kalkavlagringar på värmeelementet fungerar som isolering och gör att elementet överhettas för att kunna överföra värme till vattnet. Detta kan utlösa den termiska säkringen eller orsaka att elementet bränner ut i förtid, vilket båda resulterar i E60. Att köra regelbundna underhållsprogram och använda avkalkningsmedel för tvättmaskinen var tredje till sjätte månad minskar denna risk avsevärt.",
+          "question": "Kan kalkavlagringar orsaka felkod E60?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:12:36.277133+00:00"
+    }
+  ]
+}

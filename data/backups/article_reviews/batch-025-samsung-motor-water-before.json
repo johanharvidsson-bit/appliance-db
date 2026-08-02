@@ -1,0 +1,3613 @@
+{
+  "batch": "025-samsung-motor-water",
+  "article_ids": [
+    30,
+    31,
+    32,
+    33,
+    35
+  ],
+  "articles": [
+    {
+      "id": 30,
+      "error_code_id": 52,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 31,
+      "error_code_id": 104,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 32,
+      "error_code_id": 9,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 33,
+      "error_code_id": 114,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 35,
+      "error_code_id": 1,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    }
+  ],
+  "rows": [
+    {
+      "id": 46,
+      "article_id": 30,
+      "locale": "en",
+      "slug": "samsung-error-code-3e4",
+      "title_tag": "Samsung Washing Machine Error Code 3E4 | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code 3E4? Learn what causes this motor fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code 3E4 Mean on a Samsung Washing Machine?",
+      "description": "Error code 3E4 on a Samsung washing machine indicates a motor or tachometer sensor fault that is preventing the drum from spinning correctly.",
+      "quick_fix": "Unplug the washing machine from the wall socket, wait 30 seconds, then plug it back in and restart the cycle — a temporary control board glitch is the most common trigger and a reset clears it in most cases (takes about 2 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code 3E4 points to a problem with the drive motor system — specifically the motor itself, the hall sensor (also called a tachometer sensor), or the wiring that connects these components to the main control board. The hall sensor is a small device that monitors the speed and position of the motor; when the control board loses a reliable signal from it, the machine cannot regulate drum rotation safely and throws the 3E4 fault.</p><p>When this error appears, the drum will typically stop mid-cycle or refuse to spin at all. The machine may pause, display the code on screen, and lock the door until the fault is cleared. In some cases you may notice the drum attempting to turn and then stopping abruptly, or hear an unusual humming from the motor area without any drum movement following.</p><p>The fault affects the wash, rinse, and spin phases equally because all of them depend on a functioning drive motor. Affected models include a wide range of Samsung front-loaders and top-loaders, so the steps below apply broadly across the product range.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary control board communication glitch",
+          "detail": "A brief power fluctuation or software hiccup can cause the control board to misread the motor sensor signal and trigger 3E4 without any underlying hardware fault. A simple power reset is often enough to clear this and restore normal operation."
+        },
+        {
+          "cause": "Faulty or worn hall sensor (tachometer sensor)",
+          "detail": "The hall sensor monitors motor speed and feeds that data back to the control board. If the sensor degrades, becomes contaminated with moisture, or fails outright, the board receives no usable signal and stops the drum as a safety measure."
+        },
+        {
+          "cause": "Loose or damaged wiring harness connections",
+          "detail": "The connectors linking the motor, hall sensor, and control board can work loose over time due to vibration during spin cycles. A partially disconnected or corroded connector produces an intermittent or absent signal that triggers the fault."
+        },
+        {
+          "cause": "Worn or failing drive motor",
+          "detail": "Brushes inside older motor types wear down with use, and motor windings can develop faults that reduce performance or cause complete failure. When the motor cannot respond correctly to control board commands, the 3E4 code is generated."
+        },
+        {
+          "cause": "Damaged motor control board or main PCB",
+          "detail": "The motor control circuitry on the PCB can be damaged by power surges or component aging. If the board cannot send or receive the correct signals to drive the motor, the error will persist even when the motor and sensor are in good condition."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reset the machine with a power cycle",
+          "detail": "Switch the washing machine off at the control panel, then unplug it from the wall socket. Wait a full 30 seconds to allow the control board capacitors to discharge completely, then plug back in and run a short test cycle. This clears temporary faults and takes only a couple of minutes."
+        },
+        {
+          "step": 2,
+          "action": "Check for an overloaded or unbalanced drum",
+          "detail": "Remove all laundry from the drum and run an empty rinse-and-spin cycle. An excessively heavy or unbalanced load can strain the motor enough to trigger sensor errors. If the machine completes the empty cycle without fault, redistribute your laundry into smaller loads going forward."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the wiring harness at the motor and sensor",
+          "detail": "Disconnect the machine from power before opening the back or bottom access panel. Locate the wiring connectors at the drive motor and hall sensor, and press each one firmly to ensure it is fully seated. Look for any wires that are pinched, frayed, or show signs of heat damage, and replace any damaged sections before reassembling."
+        },
+        {
+          "step": 4,
+          "action": "Examine the hall sensor for visible damage",
+          "detail": "The hall sensor is typically mounted on or near the motor and connected by a small multi-pin plug. With the machine unplugged, unplug the sensor connector and inspect the sensor body and its pins for corrosion, cracks, or burn marks. A visibly damaged sensor should be replaced with a compatible part for your model."
+        },
+        {
+          "step": 5,
+          "action": "Test the motor brushes if applicable",
+          "detail": "Some Samsung motor types use carbon brushes that wear down over time. With the machine unplugged and the motor accessible, remove the brushes and measure their length — brushes shorter than around 5 mm typically need replacing. New brushes are inexpensive and can restore motor function without a full motor replacement."
+        },
+        {
+          "step": 6,
+          "action": "Check the drive motor for continuity",
+          "detail": "Using a multimeter set to resistance mode, test the motor windings for continuity according to the values specified in your model's service documentation. A reading of zero or infinite resistance on any winding indicates an internal motor fault. If the motor fails this test, it will need to be replaced."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the main control board for visible damage",
+          "detail": "If all previous steps have been completed without finding a fault, examine the main PCB for burnt components, swollen capacitors, or scorch marks around the motor driver section. Board-level faults are difficult to repair at home and usually require a full board replacement or professional diagnosis."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have completed the reset, checked all wiring connections, and replaced the hall sensor or motor brushes but the 3E4 error continues to appear, the fault is likely inside the drive motor itself or on the main control board. These components require specialist tools to test accurately and carry a risk of electric shock if handled incorrectly.</p><p>You should also contact a service technician if you notice burning smells, scorch marks near the motor or PCB, or if the drum makes grinding or scraping noises during attempted operation. These symptoms suggest mechanical or electrical damage that goes beyond straightforward part replacement and needs professional assessment before the machine is used again.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a 3E4 fault are the hall sensor (tachometer sensor), the motor carbon brushes, and the drive motor itself. In persistent cases where the motor and sensor test as healthy, the motor control section of the main PCB may also need to be replaced. Sourcing genuine Samsung-compatible parts ensures the correct resistance and connector specifications for your model.</p><p>To reduce the likelihood of motor-related faults recurring, avoid consistently overloading the drum, as excess weight accelerates wear on both the motor and its sensor. Running a monthly drum-clean cycle also helps prevent moisture and detergent residue from reaching motor components over time.</p>\n<!-- SPARE_PARTS:3E4 -->",
+      "faq_json": [
+        {
+          "answer": "No — when 3E4 is active the drum cannot rotate reliably, which means laundry will not be washed or rinsed properly. Continuing to run the machine with a motor fault can also cause further damage to the motor windings or control board, so it is best to resolve the fault before using the appliance again.",
+          "question": "Can I still use my Samsung washing machine while it shows error code 3E4?"
+        },
+        {
+          "answer": "For most Samsung front-loader models, replacing the hall sensor takes between 30 and 60 minutes if you are comfortable removing the back panel and working with electrical connectors. The sensor itself is usually held in place by one or two screws and a single wiring plug, making it one of the more straightforward motor-related repairs.",
+          "question": "How long does it take to replace a hall sensor on a Samsung washing machine?"
+        },
+        {
+          "answer": "If the root cause is a temporary software glitch or a brief power fluctuation, a reset will clear the code permanently and it will not return. However, if there is an underlying hardware fault — such as a worn sensor, damaged wiring, or a failing motor — the code will reappear once the machine attempts to spin again.",
+          "question": "Will error code 3E4 clear itself after a reset, or does it always come back?"
+        },
+        {
+          "answer": "All of the 3E series codes relate to motor or motor sensor faults, but each sub-code points to a slightly different aspect of the motor system. The 3E4 code specifically relates to the tachometer sensor signal, whereas other variants may indicate motor overload or BLDC motor communication issues. The diagnostic steps overlap significantly, but it is worth noting the exact code displayed.",
+          "question": "Is error code 3E4 the same as 3E, 3E1, 3E2, or 3E3 on Samsung machines?"
+        },
+        {
+          "answer": "If the fix is a simple reset or a wiring reconnection, there is no parts cost at all. A replacement hall sensor typically costs between £15 and £40 depending on the model. Motor brushes are usually under £15. A full drive motor replacement is more expensive, ranging from £80 to £180 for the part alone, with additional labour costs if a service technician carries out the work.",
+          "question": "How much does it typically cost to repair a Samsung washing machine with error code 3E4?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:34.071913+00:00"
+    },
+    {
+      "id": 47,
+      "article_id": 30,
+      "locale": "sv",
+      "slug": "samsung-felkod-3e4",
+      "title_tag": "Samsung Tvättmaskin Felkod 3E4 | Åtgärda Det Nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod 3E4? Lär dig vad som orsakar detta motorfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod 3E4 på en Samsung Tvättmaskin?",
+      "description": "Felkod 3E4 på en Samsung tvättmaskin indikerar ett fel på motorn eller tachometersensorn som hindrar trumman från att snurra korrekt.",
+      "quick_fix": "Koppla ur tvättmaskinen från vägguttaget, vänta 30 sekunder, anslut den sedan igen och starta om programmet — ett tillfälligt fel på styrkortet är den vanligaste orsaken och en återställning löser det i de flesta fall (tar ungefär 2 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod 3E4 pekar på ett problem med drivmotorsystemet — specifikt motorn själv, hallsensorn (även kallad tachometersensor), eller kablaget som förbinder dessa komponenter med huvudstyrkortet. Hallsensorn är en liten enhet som övervakar motorns hastighet och position; när styrkortet förlorar en tillförlitlig signal från den kan maskinen inte reglera trummans rotation på ett säkert sätt och genererar felet 3E4.</p><p>När detta fel uppstår stannar trumman vanligtvis mitt i ett program eller vägrar att snurra alls. Maskinen kan pausa, visa koden på displayen och låsa luckan tills felet är åtgärdat. I vissa fall kan du märka att trumman försöker rotera och sedan stannar abrupt, eller höra ett ovanligt brummande från motorområdet utan att någon trumrörelse följer.</p><p>Felet påverkar tvätt-, sköljnings- och centrifugeringsfaserna lika mycket eftersom alla är beroende av en fungerande drivmotor. Berörda modeller inkluderar ett brett utbud av Samsung frontmatade och toppmonterade tvättmaskiner, så stegen nedan gäller generellt för hela produktsortimentet.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt kommunikationsfel på styrkortet",
+          "detail": "En kortvarig strömfluktuering eller programvarufel kan få styrkortet att feltolka motorsensorns signal och utlösa 3E4 utan något underliggande hårdvarufel. En enkel strömåterställning räcker ofta för att rensa detta och återställa normal drift."
+        },
+        {
+          "cause": "Defekt eller sliten hallsensor (tachometersensor)",
+          "detail": "Hallsensorn övervakar motorhastigheten och skickar tillbaka den informationen till styrkortet. Om sensorn försämras, kontamineras av fukt eller slutar fungera helt, tar styrkortet emot ingen användbar signal och stoppar trumman som en säkerhetsåtgärd."
+        },
+        {
+          "cause": "Lösa eller skadade kabelanslutningar",
+          "detail": "Kontakterna som förbinder motorn, hallsensorn och styrkortet kan lossna med tiden på grund av vibrationer under centrifugeringscykler. En delvis urkopplad eller korroderad kontakt ger en intermittent eller utebliven signal som utlöser felet."
+        },
+        {
+          "cause": "Sliten eller defekt drivmotor",
+          "detail": "Kolborstar i äldre motortyper slits ned med användning, och motorlindningar kan utveckla fel som minskar prestandan eller orsakar fullständigt haveri. När motorn inte kan svara korrekt på styrkortets kommandon genereras felkod 3E4."
+        },
+        {
+          "cause": "Skadat motorstyrningskort eller huvud-PCB",
+          "detail": "Motorstyrningskretsen på PCB:n kan skadas av strömtoppar eller komponentåldrande. Om kortet inte kan skicka eller ta emot korrekta signaler för att driva motorn, kvarstår felet även när motorn och sensorn är i gott skick."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Återställ maskinen med en strömcykel",
+          "detail": "Stäng av tvättmaskinen via kontrollpanelen och koppla sedan ur den från vägguttaget. Vänta hela 30 sekunder så att styrkortets kondensatorer hinner urladdas helt, anslut sedan igen och kör ett kort testprogram. Detta rensar tillfälliga fel och tar bara ett par minuter."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera om trumman är överfylld eller obalanserad",
+          "detail": "Ta ut all tvätt ur trumman och kör ett tomt sköljnings- och centrifugeringsprogram. En alltför tung eller obalanserad last kan belasta motorn tillräckligt för att utlösa sensorfel. Om maskinen slutför det tomma programmet utan fel, fördela framöver tvätten i mindre laster."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera kabelkopplingarna vid motorn och sensorn",
+          "detail": "Koppla ur maskinen från strömmen innan du öppnar bakre eller nedre åtkomstpanelen. Leta upp kabelkontakterna vid drivmotorn och hallsensorn och tryck in var och en ordentligt för att säkerställa att de sitter fast. Titta efter kablar som är inklämd, fransiga eller visar tecken på värmeskador, och byt ut eventuella skadade delar innan du sätter ihop maskinen igen."
+        },
+        {
+          "step": 4,
+          "action": "Undersök hallsensorn efter synliga skador",
+          "detail": "Hallsensorn är vanligtvis monterad på eller nära motorn och ansluten via ett litet flerstiftskontakt. Med maskinen urkopplad, koppla ur sensorkontakten och inspektera sensorns kropp och stift för korrosion, sprickor eller brännmärken. En synligt skadad sensor bör bytas ut mot en kompatibel del för din modell."
+        },
+        {
+          "step": 5,
+          "action": "Testa motorborstarna om tillämpligt",
+          "detail": "Vissa Samsung-motortyper använder kolborstar som slits ned med tiden. Med maskinen urkopplad och motorn åtkomlig, ta ut borstarna och mät deras längd — borstar kortare än ungefär 5 mm behöver vanligtvis bytas. Nya borstar är billiga och kan återställa motorfunktionen utan att byta hela motorn."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera drivmotorn för kontinuitet",
+          "detail": "Använd en multimeter inställd på resistansläge och testa motorlindningarna för kontinuitet enligt de värden som anges i din modells servicedokumentation. En avläsning av noll eller oändligt motstånd på någon lindning indikerar ett internt motorfel. Om motorn inte klarar detta test måste den bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera huvudstyrkortet efter synliga skador",
+          "detail": "Om alla tidigare steg har genomförts utan att ett fel hittats, undersök huvud-PCB:n efter brända komponenter, uppsvällda kondensatorer eller brännmärken runt motorstyrningssektionen. Fel på kortnivå är svåra att reparera hemma och kräver vanligtvis ett fullständigt kortbyte eller professionell diagnos."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har genomfört återställningen, kontrollerat alla kabelanslutningar och bytt hallsensorn eller motorborstarna men felkod 3E4 fortsätter att visas, är felet troligtvis inne i drivmotorn själv eller på huvudstyrkortet. Dessa komponenter kräver specialverktyg för att testas korrekt och medför risk för elektrisk stöt om de hanteras felaktigt.</p><p>Du bör också kontakta en servicetekniker om du märker brännlukt, brännmärken nära motorn eller PCB:n, eller om trumman ger ifrån sig malande eller skrapande ljud under försök till drift. Dessa symptom tyder på mekanisk eller elektrisk skada som går utöver enkel delreparation och behöver professionell bedömning innan maskinen används igen.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett 3E4-fel är hallsensorn (tachometersensorn), motorns kolborstar och drivmotorn själv. I ihållande fall där motorn och sensorn testar som felfria kan även motorstyrningssektionen på huvud-PCB:n behöva bytas ut. Att använda genuina Samsung-kompatibla delar säkerställer korrekt resistans och kontaktspecifikationer för din modell.</p><p>För att minska risken för att motorrelaterade fel återkommer, undvik att konsekvent överfylla trumman, eftersom övervikt accelererar slitaget på både motorn och dess sensor. Att köra ett månatligt trumrengöringsprogram hjälper också till att förhindra att fukt och tvättmedelsrester når motorkomponenterna med tiden.</p>\n<!-- SPARE_PARTS:3E4 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — när 3E4 är aktiv kan trumman inte rotera tillförlitligt, vilket innebär att tvätten inte tvättas eller sköljs ordentligt. Att fortsätta köra maskinen med ett motorfel kan också orsaka ytterligare skador på motorlindningarna eller styrkortet, så det är bäst att åtgärda felet innan maskinen används igen.",
+          "question": "Kan jag fortfarande använda min Samsung tvättmaskin när den visar felkod 3E4?"
+        },
+        {
+          "answer": "För de flesta Samsung frontmatade modeller tar det mellan 30 och 60 minuter att byta hallsensorn om du är bekväm med att ta bort bakpanelen och arbeta med elektriska kontakter. Sensorn sitter vanligtvis fast med en eller två skruvar och ett enda kabelkontakt, vilket gör det till en av de mer okomplicerade motorrelaterade reparationerna.",
+          "question": "Hur lång tid tar det att byta hallsensor på en Samsung tvättmaskin?"
+        },
+        {
+          "answer": "Om grundorsaken är ett tillfälligt programvarufel eller en kortvarig strömfluktuering, rensar en återställning koden permanent och den återkommer inte. Om det däremot finns ett underliggande hårdvarufel — som en sliten sensor, skadat kablage eller en defekt motor — kommer koden att återkomma när maskinen försöker centrifugera igen.",
+          "question": "Försvinner felkod 3E4 efter en återställning, eller kommer den alltid tillbaka?"
+        },
+        {
+          "answer": "Alla 3E-seriens koder relaterar till motor- eller motorsensorfel, men varje delkod pekar på en något annorlunda aspekt av motorsystemet. Koden 3E4 relaterar specifikt till tachometersensorns signal, medan andra varianter kan indikera motoröverbelastning eller kommunikationsproblem med BLDC-motorn. Diagnostikstegen överlappar avsevärt, men det är värt att notera den exakta koden som visas.",
+          "question": "Är felkod 3E4 samma som 3E, 3E1, 3E2 eller 3E3 på Samsung-maskiner?"
+        },
+        {
+          "answer": "Om åtgärden är en enkel återställning eller återanslutning av kablage tillkommer inga delkostnader alls. En ersättningshallsensor kostar vanligtvis mellan 150 och 400 kronor beroende på modell. Motorborstar kostar vanligtvis under 150 kronor. Ett fullständigt byte av drivmotorn är dyrare och kostar mellan 800 och 1 800 kronor för delen ensam, med ytterligare arbetskostnader om en servicetekniker utför arbetet.",
+          "question": "Hur mycket kostar det vanligtvis att reparera en Samsung tvättmaskin med felkod 3E4?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:34.21205+00:00"
+    },
+    {
+      "id": 48,
+      "article_id": 31,
+      "locale": "en",
+      "slug": "samsung-error-code-4c",
+      "title_tag": "Samsung Washing Machine Error Code 4C | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code 4C? Learn what causes this water supply fault and how to fix it yourself in a few simple steps.",
+      "h1": "What Does Error Code 4C Mean on a Samsung Washing Machine?",
+      "description": "Error code 4C on a Samsung washing machine indicates that the appliance is not receiving sufficient water pressure or flow to fill the drum correctly.",
+      "quick_fix": "Turn off the machine, disconnect both water inlet hoses, and clean the mesh filter screens at the hose connection points on the back of the machine using a small brush under running water, then reconnect and restart the cycle (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code 4C is a water supply fault. When your Samsung washing machine displays 4C, it means the machine started a fill cycle but detected that water was not entering the drum at the expected rate or pressure. The wash cycle will pause or stop entirely until the issue is resolved.</p><p>This error affects the water intake system — specifically the path water takes from your household supply, through the inlet hoses, past the filter screens, and into the drum via the inlet valves. Any restriction or failure along that path can trigger the code.</p><p>The good news is that the most common causes are straightforward to check and fix without specialist tools. Working through the steps below in order will resolve the fault in the majority of cases.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked inlet hose filter screens",
+          "detail": "Small mesh filters sit inside the hose connections at the back of the machine and catch sediment from the water supply. Over time these screens become clogged with mineral deposits or debris, restricting flow enough to trigger the 4C error."
+        },
+        {
+          "cause": "Kinked or pinched water inlet hose",
+          "detail": "If the machine has been pushed back against a wall, the rubber inlet hoses can become kinked, partially or fully blocking water flow. Even a slight bend under sustained pressure can reduce flow below the level the machine requires."
+        },
+        {
+          "cause": "Tap not fully open",
+          "detail": "The hot and cold water supply taps behind or beneath the machine must be fully open. A tap that has been accidentally knocked to a partially closed position will reduce pressure and trigger this fault."
+        },
+        {
+          "cause": "Low household water pressure",
+          "detail": "Samsung washing machines require a minimum water pressure — typically around 0.5 bar — to fill correctly. If your home's supply pressure is temporarily low, for example during peak demand periods or due to a local supply issue, the machine may display 4C."
+        },
+        {
+          "cause": "Faulty or seized water inlet valve",
+          "detail": "The inlet valve is an electrically operated solenoid that opens to allow water into the machine. If the valve coil has failed or the valve body is blocked with scale, it will not open fully and water flow will be insufficient."
+        },
+        {
+          "cause": "Damaged or split inlet hose",
+          "detail": "A hose that has cracked or split may not hold enough pressure to deliver adequate flow, and can also cause a slow leak behind the machine. Inspect the full length of both hoses for visible damage."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check that the water supply taps are fully open",
+          "detail": "Locate the hot and cold water taps where the inlet hoses connect to your household supply — usually on the wall behind the machine. Turn each tap fully anticlockwise to ensure it is completely open. This takes under a minute and is the simplest possible cause to rule out first."
+        },
+        {
+          "step": 2,
+          "action": "Inspect the inlet hoses for kinks",
+          "detail": "Gently pull the machine away from the wall and run your hand along both inlet hoses from the tap connection to the back of the machine. Straighten any kinks or bends you find. If a hose has been kinked repeatedly it may have a permanent crease inside — replace it if in doubt."
+        },
+        {
+          "step": 3,
+          "action": "Clean the inlet hose filter screens",
+          "detail": "Turn off both water supply taps, then unscrew the inlet hoses from the back of the machine. Inside each connection port you will see a small mesh filter screen. Use a pair of needle-nose pliers to carefully pull the screens out, then rinse them under a running tap and scrub gently with an old toothbrush. Refit the screens, reconnect the hoses, and tighten by hand plus a quarter turn."
+        },
+        {
+          "step": 4,
+          "action": "Check your household water pressure",
+          "detail": "Turn on a cold tap elsewhere in your home and observe the flow. If pressure seems unusually low throughout the house, the issue is with your supply rather than the machine — contact your water provider. If pressure is normal everywhere else, the fault is isolated to the machine's water intake path."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the inlet hoses for damage",
+          "detail": "With the hoses disconnected, hold each one up to the light and flex it gently along its length. Look for cracks, splits, or bulges in the rubber. A damaged hose should be replaced before reconnecting — a split hose under mains pressure can cause significant water damage."
+        },
+        {
+          "step": 6,
+          "action": "Test the water inlet valve",
+          "detail": "With the machine unplugged, remove the rear panel to access the inlet valve assembly. Check the valve body for visible scale build-up or cracks. You can test each solenoid coil for continuity using a multimeter — a reading outside the manufacturer's specified resistance range (typically 200–500 ohms) indicates a failed coil. A faulty valve will need to be replaced."
+        },
+        {
+          "step": 7,
+          "action": "Reset the machine and run a test cycle",
+          "detail": "Once you have completed your checks and any repairs, plug the machine back in, turn on the water supply taps, and select a short wash cycle such as a quick wash or rinse. Monitor the machine during the initial fill phase to confirm water is entering the drum normally and the 4C code does not reappear."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have cleaned the filter screens, confirmed the hoses are undamaged and kink-free, verified your household water pressure is adequate, and the 4C error still appears, the inlet valve is the most likely remaining cause. Replacing an inlet valve involves working inside the machine's cabinet and disconnecting electrical connectors — if you are not comfortable doing this safely, a service technician should carry out the repair.</p><p>You should also call a service technician if the machine is displaying 4C alongside other error codes, if there is visible water leaking from the rear of the machine, or if the machine is still under warranty and you do not want to risk voiding it by opening the cabinet yourself.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a 4C fault are the water inlet valve assembly, the inlet hose filter screens (or the hoses themselves if damaged), and occasionally the pressure switch if a secondary fault has developed alongside the water supply issue. Keeping a spare set of filter screens on hand is a low-cost way to resolve future blockages quickly.</p><p>To reduce the likelihood of 4C recurring, clean the inlet filter screens every six to twelve months as part of routine maintenance, and avoid pushing the machine hard against the wall in a way that stresses the hoses. If you live in a hard water area, a whole-house or appliance-level water softener will significantly reduce the rate at which scale builds up on the valve and screens.</p>\n<!-- SPARE_PARTS:4C -->",
+      "faq_json": [
+        {
+          "answer": "No — when 4C is displayed the machine has halted the cycle because it cannot fill with water. Running a cycle without adequate water supply can put unnecessary strain on the pump and drum components. Resolve the fault before attempting to use the machine again.",
+          "question": "Can I still use my washing machine while it is showing error code 4C?"
+        },
+        {
+          "answer": "In most cases, yes. Once you have resolved the underlying cause — cleaned the filters, straightened a hose, or replaced a faulty valve — simply restart the machine and select a new cycle. The error code should not reappear if the fault has been fully resolved. If it does return, there may be a secondary cause still to address.",
+          "question": "Will the 4C error clear itself once I fix the water supply issue?"
+        },
+        {
+          "answer": "Normal pressure at other taps does not always rule out a flow restriction specific to the washing machine. The inlet filter screens can be partially blocked enough to restrict flow to the machine while having no noticeable effect elsewhere. Clean the filter screens as described in step 3 even if your general water pressure appears normal.",
+          "question": "My water pressure seems fine — why is my Samsung machine still showing 4C?"
+        },
+        {
+          "answer": "If cleaning the filter screens and checking the hoses does not resolve the fault, test the inlet valve solenoid coils with a multimeter for continuity. A coil with no continuity or a resistance reading outside the specified range has failed and the valve assembly will need to be replaced. Scale build-up inside the valve body can sometimes be cleared, but a failed solenoid coil cannot be repaired.",
+          "question": "How do I know if my water inlet valve needs replacing rather than just cleaning?"
+        },
+        {
+          "answer": "Yes — 4C and 4E refer to the same water supply fault. Samsung uses both codes depending on the model and display type; older models with a numeric display tend to show 4E, while newer models with a letter-and-number display show 4C. The diagnosis and repair steps are identical for both codes.",
+          "question": "Does error code 4C mean the same thing as error code 4E on Samsung washing machines?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:34.140801+00:00"
+    },
+    {
+      "id": 49,
+      "article_id": 31,
+      "locale": "sv",
+      "slug": "samsung-felkod-4c",
+      "title_tag": "Samsung tvättmaskin felkod 4C | Åtgärda problemet nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod 4C? Lär dig vad som orsakar detta vattenförsörjningsfel och hur du åtgärdar det själv i några enkla steg.",
+      "h1": "Vad betyder felkod 4C på en Samsung tvättmaskin?",
+      "description": "Felkod 4C på en Samsung tvättmaskin indikerar att maskinen inte får tillräckligt vattentryck eller vattenflöde för att fylla trumman korrekt.",
+      "quick_fix": "Stäng av maskinen, koppla loss båda vatteninloppsslangarna och rengör nätfilterinsatserna vid slanganslutningarna på maskinens baksida med en liten borste under rinnande vatten. Återanslut sedan slangarna och starta om programmet (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod 4C är ett vattenförsörjningsfel. När din Samsung tvättmaskin visar 4C innebär det att maskinen startade ett fyllningsprogram men registrerade att vatten inte strömmade in i trumman med förväntat flöde eller tryck. Tvättcykeln pausar eller stannar helt tills problemet är åtgärdat.</p><p>Det här felet påverkar vattenintagssystemet — specifikt den väg vattnet tar från ditt hushållsnät, genom inloppsslangarna, förbi filterinsatserna och in i trumman via inloppsventilerna. Varje begränsning eller fel längs den vägen kan utlösa koden.</p><p>Den goda nyheten är att de vanligaste orsakerna är enkla att kontrollera och åtgärda utan specialverktyg. Att gå igenom stegen nedan i ordning löser felet i de flesta fall.</p>",
+      "causes_json": [
+        {
+          "cause": "Igentäppta filterinsatser i inloppsslangarna",
+          "detail": "Små nätfilter sitter inuti slanganslutningarna på maskinens baksida och fångar upp sediment från vattenförsörjningen. Med tiden täpps dessa filter igen av mineralavlagringar eller smuts, vilket begränsar flödet tillräckligt för att utlösa felkod 4C."
+        },
+        {
+          "cause": "Veckad eller klämd vatteninloppslang",
+          "detail": "Om maskinen har skjutits tillbaka mot en vägg kan gummislangarna för vatteninloppet vecklas och delvis eller helt blockera vattenflödet. Även en liten böj under konstant tryck kan minska flödet under den nivå maskinen kräver."
+        },
+        {
+          "cause": "Kran som inte är helt öppen",
+          "detail": "Kranarna för varm- och kallvattenförsörjningen bakom eller under maskinen måste vara helt öppna. En kran som av misstag har stängts till ett delvis stängt läge minskar trycket och utlöser det här felet."
+        },
+        {
+          "cause": "Lågt vattentryck i hushållet",
+          "detail": "Samsung tvättmaskiner kräver ett minsta vattentryck — vanligtvis cirka 0,5 bar — för att fylla korrekt. Om hemmets vattentryck tillfälligt är lågt, till exempel under perioder med hög belastning eller på grund av ett lokalt leveransproblem, kan maskinen visa 4C."
+        },
+        {
+          "cause": "Defekt eller igensatt vatteninloppsventil",
+          "detail": "Inloppsventilen är en elektriskt styrd magnetventil som öppnas för att släppa in vatten i maskinen. Om ventilspolen har gått sönder eller ventilkroppen är blockerad av kalkavlagringar öppnas den inte fullt ut och vattenflödet blir otillräckligt."
+        },
+        {
+          "cause": "Skadad eller sprucken inloppslang",
+          "detail": "En slang som har spruckit eller fått en spricka kanske inte håller tillräckligt tryck för att leverera adekvat flöde, och kan även orsaka en långsam läcka bakom maskinen. Inspektera hela längden på båda slangarna för synliga skador."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera att vattenkranarna är helt öppna",
+          "detail": "Leta upp varm- och kallvattenkranarna där inloppsslangarna ansluts till hushållsvattenförsörjningen — vanligtvis på väggen bakom maskinen. Vrid varje kran helt moturs för att säkerställa att den är helt öppen. Det tar under en minut och är den enklaste möjliga orsaken att utesluta först."
+        },
+        {
+          "step": 2,
+          "action": "Inspektera inloppsslangarna för veck",
+          "detail": "Dra försiktigt ut maskinen från väggen och känn längs båda inloppsslangarna från krananslutningen till maskinens baksida. Räta ut eventuella veck eller böjar du hittar. Om en slang har veckats upprepade gånger kan den ha en permanent veck inuti — byt ut den om du är osäker."
+        },
+        {
+          "step": 3,
+          "action": "Rengör filterinsatserna i inloppsslangarna",
+          "detail": "Stäng av båda vattenkranarna och skruva sedan loss inloppsslangarna från maskinens baksida. Inuti varje anslutningsport finns en liten nätfilterinsats. Använd en spetsnåltång för att försiktigt dra ut filtren, skölj dem sedan under rinnande vatten och skrubba försiktigt med en gammal tandborste. Sätt tillbaka filtren, återanslut slangarna och dra åt för hand plus ett kvarts varv."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera vattentrycket i hushållet",
+          "detail": "Öppna en kallvattenkran på annan plats i hemmet och observera flödet. Om trycket verkar ovanligt lågt i hela huset är problemet med din vattenförsörjning snarare än med maskinen — kontakta din vattenleverantör. Om trycket är normalt överallt annars är felet isolerat till maskinens vattenintag."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera inloppsslangarna för skador",
+          "detail": "Med slangarna bortkopplade, håll upp varje slang mot ljuset och böj den försiktigt längs hela längden. Leta efter sprickor, revor eller utbuktningar i gummit. En skadad slang bör bytas ut innan den återansluts — en sprucken slang under normalt vattentryck kan orsaka betydande vattenskador."
+        },
+        {
+          "step": 6,
+          "action": "Testa vatteninloppsventilen",
+          "detail": "Med maskinen urkopplad från elnätet, ta bort bakpanelen för att komma åt inloppsventilenheten. Kontrollera ventilkroppen för synliga kalkavlagringar eller sprickor. Du kan testa varje magnetventilspole för kontinuitet med en multimeter — ett värde utanför tillverkarens angivna motståndsvärde (vanligtvis 200–500 ohm) indikerar en defekt spole. En defekt ventil måste bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Återställ maskinen och kör ett testprogram",
+          "detail": "När du har slutfört dina kontroller och eventuella reparationer, anslut maskinen till elnätet igen, öppna vattenkranarna och välj ett kort tvättprogram, till exempel snabbtvätt eller sköljning. Övervaka maskinen under den inledande fyllningsfasen för att bekräfta att vatten strömmar in i trumman normalt och att felkod 4C inte visas igen."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har rengjort filterinsatserna, bekräftat att slangarna är oskadade och fria från veck, kontrollerat att hushållets vattentryck är tillräckligt och felkod 4C fortfarande visas, är inloppsventilen den troligaste kvarvarande orsaken. Att byta en inloppsventil innebär att arbeta inuti maskinens kåpa och koppla loss elektriska kontakter — om du inte känner dig bekväm med att göra detta på ett säkert sätt bör en servicetekniker utföra reparationen.</p><p>Du bör också kontakta en servicetekniker om maskinen visar 4C tillsammans med andra felkoder, om det syns vatten som läcker från maskinens baksida, eller om maskinen fortfarande är under garanti och du inte vill riskera att ogiltigförklara den genom att öppna kåpan själv.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärd av ett 4C-fel är vatteninloppsventilenheten, filterinsatserna i inloppsslangarna (eller slangarna själva om de är skadade) och ibland tryckvakten om ett sekundärt fel har uppstått parallellt med vattenförsörjningsproblemet. Att ha ett reservset av filterinsatser till hands är ett billigt sätt att snabbt lösa framtida igensättningar.</p><p>För att minska risken för att 4C återkommer, rengör inloppsfilterinsatserna var sjätte till tolfte månad som en del av rutinunderhållet och undvik att skjuta maskinen hårt mot väggen på ett sätt som belastar slangarna. Om du bor i ett område med hårt vatten kommer ett vattenavhärdningssystem för hela huset eller för enskilda apparater att avsevärt minska hastigheten med vilken kalk ansamlas på ventilen och filtren.</p>\n<!-- SPARE_PARTS:4C -->",
+      "faq_json": [
+        {
+          "answer": "Nej — när 4C visas har maskinen avbrutit programmet eftersom den inte kan fylla med vatten. Att köra ett program utan tillräcklig vattenförsörjning kan belasta pump och trumkomponenter i onödan. Åtgärda felet innan du försöker använda maskinen igen.",
+          "question": "Kan jag fortfarande använda tvättmaskinen när den visar felkod 4C?"
+        },
+        {
+          "answer": "I de flesta fall, ja. När du har åtgärdat den underliggande orsaken — rengjort filtren, rätat ut en slang eller bytt en defekt ventil — startar du helt enkelt om maskinen och väljer ett nytt program. Felkoden bör inte visas igen om felet är helt åtgärdat. Om den återkommer kan det finnas en sekundär orsak som fortfarande behöver åtgärdas.",
+          "question": "Försvinner felkod 4C av sig själv när jag åtgärdar vattenförsörjningsproblemet?"
+        },
+        {
+          "answer": "Normalt tryck vid andra kranar utesluter inte alltid en flödesbegränsning specifik för tvättmaskinen. Inloppsfilterinsatserna kan vara delvis igentäppta tillräckligt för att begränsa flödet till maskinen utan att ha någon märkbar effekt på andra ställen. Rengör filterinsatserna enligt beskrivningen i steg 3 även om ditt allmänna vattentryck verkar normalt.",
+          "question": "Mitt vattentryck verkar normalt — varför visar min Samsung-maskin fortfarande 4C?"
+        },
+        {
+          "answer": "Om rengöring av filterinsatserna och kontroll av slangarna inte löser felet, testa inloppsventilens magnetventilspoler med en multimeter för kontinuitet. En spole utan kontinuitet eller med ett motståndsvärde utanför det angivna intervallet har gått sönder och ventilenheten måste bytas ut. Kalkavlagringar inuti ventilkroppen kan ibland rensas bort, men en defekt magnetventilspole kan inte repareras.",
+          "question": "Hur vet jag om min vatteninloppsventil behöver bytas ut snarare än bara rengöras?"
+        },
+        {
+          "answer": "Ja — 4C och 4E avser samma vattenförsörjningsfel. Samsung använder båda koderna beroende på modell och displaytyp; äldre modeller med numerisk display tenderar att visa 4E, medan nyare modeller med bokstavs- och sifferdisplay visar 4C. Diagnos- och reparationsstegen är identiska för båda koderna.",
+          "question": "Betyder felkod 4C samma sak som felkod 4E på Samsung tvättmaskiner?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:34.27987+00:00"
+    },
+    {
+      "id": 50,
+      "article_id": 32,
+      "locale": "en",
+      "slug": "samsung-error-code-4e",
+      "title_tag": "Samsung Washing Machine Error Code 4E | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code 4E? Learn what causes this water supply fault and how to fix it yourself in a few simple steps.",
+      "h1": "What Does Error Code 4E Mean on a Samsung Washing Machine?",
+      "description": "Error code 4E on a Samsung washing machine indicates that the appliance is not detecting water entering the drum when it should, pointing to a water supply problem.",
+      "quick_fix": "Check that both hot and cold water faucets behind the machine are fully open, then inspect the inlet hoses for kinks or blockages and straighten or clear them as needed — the machine should fill normally on the next cycle (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code 4E means your Samsung washing machine started a cycle but failed to detect water entering the drum within the expected time. The machine monitors water intake through a pressure sensor, and when that sensor does not register a rise in water level, it stops the cycle and displays 4E to protect the drum and motor from running dry.</p><p>When this error appears, the machine will typically pause mid-fill or at the very start of a cycle. You may hear the inlet valve clicking or buzzing briefly before the display shows the fault. The drum will remain empty or only partially filled.</p><p>In the majority of cases, the cause is something straightforward — a closed tap, a kinked hose, or a clogged inlet filter — and you can resolve it without any tools or specialist knowledge. This guide walks you through every likely cause and how to address each one.</p>",
+      "causes_json": [
+        {
+          "cause": "Water faucet not fully open",
+          "detail": "If either the hot or cold water supply tap behind the machine is partially or fully closed, the machine cannot draw enough water to trigger the pressure sensor. This is the single most common reason for a 4E error and takes seconds to check."
+        },
+        {
+          "cause": "Kinked or blocked inlet hose",
+          "detail": "The rubber hoses connecting the machine to the water supply can become kinked if the machine has been pushed too close to the wall, or blocked internally with sediment over time. A restricted hose dramatically reduces water flow even when the tap is fully open."
+        },
+        {
+          "cause": "Clogged inlet filter mesh",
+          "detail": "At the point where each inlet hose connects to the back of the machine, there is a small mesh filter designed to catch debris from the water supply. These filters can become blocked with limescale or grit, reducing flow to a trickle."
+        },
+        {
+          "cause": "Flood-safe hose activated or faulty",
+          "detail": "Some Samsung models are supplied with flood-safe hoses that contain an internal shut-off mechanism. If the machine has experienced a sudden pressure change or the hose has aged, this mechanism can trigger and cut off the water supply entirely."
+        },
+        {
+          "cause": "Faulty water inlet valve",
+          "detail": "The inlet valve is the electrically operated component that opens to allow water into the drum. If the valve solenoid has failed or the valve body is blocked, water will not enter even when the supply is fully open and the hoses are clear."
+        },
+        {
+          "cause": "Faulty pressure sensor or wiring",
+          "detail": "In less common cases, the water level pressure sensor itself may be defective, or the wiring connecting it to the control board may be damaged. The machine may actually be filling correctly but still display 4E because it cannot detect the water level rising."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the water supply taps",
+          "detail": "Locate the hot and cold water taps on the wall behind the washing machine. Turn each one fully anticlockwise to make sure they are completely open. It is surprisingly easy for these taps to be knocked partially closed when moving the machine or accessing the area behind it."
+        },
+        {
+          "step": 2,
+          "action": "Inspect the inlet hoses for kinks",
+          "detail": "Pull the machine gently away from the wall and examine both inlet hoses along their full length. If you find a kink, straighten the hose carefully and reposition the machine so there is at least 10 cm of clearance at the back to prevent the hose from bending again."
+        },
+        {
+          "step": 3,
+          "action": "Clean the inlet filter meshes",
+          "detail": "Turn off both water supply taps, then unscrew the inlet hoses from the back of the machine — have a towel ready as some water will spill. At each connection point on the machine, you will see a small plastic mesh filter. Use a pair of needle-nose pliers to pull the filter out, rinse it under a tap, and use an old toothbrush to remove any limescale or grit. Refit the filters, reconnect the hoses, and tighten them firmly by hand."
+        },
+        {
+          "step": 4,
+          "action": "Check and replace flood-safe hoses if fitted",
+          "detail": "If your machine came with flood-safe hoses — identifiable by a thicker plastic casing around the hose body — try temporarily replacing them with standard inlet hoses to test whether the flood-safe mechanism has triggered. If the error clears with standard hoses, the flood-safe hose needs to be replaced."
+        },
+        {
+          "step": 5,
+          "action": "Run a test cycle and reset the error",
+          "detail": "Once you have completed the checks above, turn the water supply back on, select a short wash cycle such as a quick 30-minute programme, and start the machine. Watch the first few minutes to confirm water is entering the drum. If the machine fills normally, the fault is resolved."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the inlet valve for faults",
+          "detail": "If the machine still shows 4E after the steps above, the inlet valve may be at fault. With the machine unplugged, remove the back panel and locate the valve where the hoses connect internally. Check that the wiring connectors are firmly seated on the valve solenoids. If the valve body appears corroded, cracked, or the solenoid does not click when power is briefly applied, the valve needs to be replaced."
+        },
+        {
+          "step": 7,
+          "action": "Check the pressure sensor and its hose",
+          "detail": "The pressure sensor is usually located inside the top panel of the machine and is connected to the drum by a thin rubber or plastic tube. Check that this tube is not cracked, disconnected, or blocked with residue. A blocked pressure sensor tube can prevent the sensor from reading the water level correctly, causing a false 4E error even when water is present."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above — confirmed the taps are open, cleaned the filters, straightened the hoses, and checked the inlet valve connections — and the machine still displays 4E, the fault is likely internal. A failed inlet valve solenoid, a defective pressure sensor, or a wiring fault between these components and the main control board all require proper diagnosis with a multimeter and access to internal components.</p><p>You should also call a service technician if you notice water leaking from the inlet valve area, if the machine is still under warranty, or if you are not comfortable removing the back panel of the appliance. Attempting repairs on live electrical components without experience carries a real risk of injury or further damage to the machine.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a 4E fault are the water inlet valve assembly, the inlet filter meshes, and the flood-safe inlet hoses. The inlet valve is the most frequent component-level replacement once hose and filter checks have been ruled out. Keeping a spare set of inlet filter meshes on hand is a low-cost way to deal quickly with future blockages, particularly in hard water areas where limescale builds up faster.</p><p>To reduce the likelihood of a 4E error recurring, clean the inlet filter meshes every six to twelve months as part of routine maintenance, and avoid pushing the machine flush against the wall where hoses can kink. If your home has very hard water, consider fitting an inline water softener or descaling the filters more frequently.</p>\n<!-- SPARE_PARTS:4E -->",
+      "faq_json": [
+        {
+          "answer": "No. When 4E is displayed, the machine has stopped the cycle because it cannot confirm water is entering the drum. Running the motor without water present can cause damage to the drum bearings and heating element. Resolve the fault before starting another cycle.",
+          "question": "Can I still use my washing machine while it shows error code 4E?"
+        },
+        {
+          "answer": "An intermittent 4E error often points to a partially blocked inlet filter or a flood-safe hose that is beginning to fail. Low water pressure from the mains supply at peak usage times can also trigger the error occasionally. Cleaning the inlet filters is the best first step for an intermittent fault.",
+          "question": "Why does my Samsung washer show 4E only sometimes and not every wash?"
+        },
+        {
+          "answer": "On most Samsung washing machines, the error will clear automatically once the underlying fault is resolved and you start a new cycle. If the code persists after the fix, try pressing and holding the Start/Pause button for five seconds, or switch the machine off at the wall for one minute and then back on.",
+          "question": "How do I clear the 4E error code after fixing the problem?"
+        },
+        {
+          "answer": "Yes, on many Samsung models these two codes refer to the same water supply fault. The display format can vary depending on the model and the age of the control board software, but the diagnosis and repair steps are identical for both.",
+          "question": "Is error code 4E the same as error code E4 on Samsung washers?"
+        },
+        {
+          "answer": "A replacement inlet valve for a Samsung washing machine typically costs between £20 and £50 for the part, depending on the model. If you are fitting it yourself, that is the total cost. A service technician call-out to supply and fit the valve will usually add a labour charge on top of the part price.",
+          "question": "How much does it cost to replace a Samsung washing machine inlet valve?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:34.352056+00:00"
+    },
+    {
+      "id": 51,
+      "article_id": 32,
+      "locale": "sv",
+      "slug": "samsung-felkod-4e",
+      "title_tag": "Samsung tvättmaskin felkod 4E | Åtgärda det nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod 4E? Lär dig vad som orsakar detta vattenförsörjningsfel och hur du åtgärdar det själv i några enkla steg.",
+      "h1": "Vad betyder felkod 4E på en Samsung tvättmaskin?",
+      "description": "Felkod 4E på en Samsung tvättmaskin indikerar att maskinen inte registrerar att vatten fyller trumman när det borde, vilket pekar på ett problem med vattenförsörjningen.",
+      "quick_fix": "Kontrollera att både varm- och kallvattenkranarna bakom maskinen är helt öppna, inspektera sedan inloppsslangarna efter böjar eller blockeringar och räta ut eller rensa dem vid behov — maskinen bör fylla på normalt vid nästa cykel (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod 4E innebär att din Samsung tvättmaskin startade ett program men inte lyckades registrera att vatten fyllde trumman inom förväntad tid. Maskinen övervakar vattenintaget via en trycksensor, och när den sensorn inte registrerar en stigande vattennivå avbryter den cykeln och visar 4E för att skydda trumman och motorn från att gå torr.</p><p>När detta fel uppstår pausar maskinen vanligtvis mitt under påfyllningen eller i början av ett program. Du kan höra inloppsventilen klicka eller surra kort innan displayen visar felet. Trumman förblir tom eller bara delvis fylld.</p><p>I de flesta fall är orsaken något enkelt — en stängd kran, en böjd slang eller ett igensatt inloppsfilter — och du kan lösa det utan verktyg eller specialkunskaper. Den här guiden går igenom varje trolig orsak och hur du åtgärdar var och en.</p>",
+      "causes_json": [
+        {
+          "cause": "Vattenkranen är inte helt öppen",
+          "detail": "Om antingen varm- eller kallvattenventilen bakom maskinen är delvis eller helt stängd kan maskinen inte ta in tillräckligt med vatten för att utlösa trycksensorn. Detta är den vanligaste orsaken till ett 4E-fel och tar bara sekunder att kontrollera."
+        },
+        {
+          "cause": "Böjd eller blockerad inloppsslang",
+          "detail": "Gummislangarna som ansluter maskinen till vattenförsörjningen kan böjas om maskinen har skjutits för nära väggen, eller blockeras invändigt av sediment över tid. En begränsad slang minskar vattenflödet dramatiskt även när kranen är helt öppen."
+        },
+        {
+          "cause": "Igensatt inloppsfilternät",
+          "detail": "Vid den punkt där varje inloppsslang ansluter till maskinens baksida finns ett litet nätfilter utformat för att fånga upp smuts från vattenförsörjningen. Dessa filter kan täppas igen med kalkavlagringar eller grus och reducera flödet till ett rinnande."
+        },
+        {
+          "cause": "Översvämningsskyddad slang aktiverad eller defekt",
+          "detail": "Vissa Samsung-modeller levereras med översvämningsskyddade slangar som innehåller en intern avstängningsmekanik. Om maskinen har upplevt en plötslig tryckökning eller slangen har åldrats kan denna mekanism utlösas och stänga av vattenförsörjningen helt."
+        },
+        {
+          "cause": "Defekt vatteninloppsventil",
+          "detail": "Inloppsventilen är den elektriskt styrda komponenten som öppnas för att släppa in vatten i trumman. Om ventilens solenoid har gått sönder eller ventilkroppen är blockerad kommer inget vatten att komma in även när försörjningen är helt öppen och slangarna är fria."
+        },
+        {
+          "cause": "Defekt trycksensor eller kablage",
+          "detail": "I mindre vanliga fall kan vattennivåns trycksensor själv vara defekt, eller kablagen som ansluter den till styrkortet kan vara skadat. Maskinen kanske faktiskt fyller på korrekt men visar ändå 4E eftersom den inte kan registrera att vattennivån stiger."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera vattenförsörjningskranarna",
+          "detail": "Leta upp varm- och kallvattenkranarna på väggen bakom tvättmaskinen. Vrid var och en helt moturs för att säkerställa att de är helt öppna. Det är förvånansvärt lätt att dessa kranar råkar stängas delvis när man flyttar maskinen eller kommer åt utrymmet bakom den."
+        },
+        {
+          "step": 2,
+          "action": "Inspektera inloppsslangarna efter böjar",
+          "detail": "Dra försiktigt ut maskinen från väggen och undersök båda inloppsslangarna längs hela deras längd. Om du hittar en böj, räta ut slangen försiktigt och placera om maskinen så att det finns minst 10 cm fritt utrymme baktill för att förhindra att slangen böjs igen."
+        },
+        {
+          "step": 3,
+          "action": "Rengör inloppsfilternäten",
+          "detail": "Stäng av båda vattenförsörjningskranarna och skruva sedan loss inloppsslangarna från maskinens baksida — ha en handduk till hands eftersom lite vatten kommer att rinna ut. Vid varje anslutningspunkt på maskinen ser du ett litet plastfilternät. Använd en spetsnåltång för att dra ut filtret, skölj det under kranen och använd en gammal tandborste för att ta bort kalkavlagringar eller grus. Sätt tillbaka filtren, återanslut slangarna och dra åt dem ordentligt för hand."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera och byt ut översvämningsskyddade slangar om sådana finns",
+          "detail": "Om din maskin levererades med översvämningsskyddade slangar — igenkännliga på ett tjockare plastskydd runt slangkroppen — prova att tillfälligt ersätta dem med vanliga inloppsslanger för att testa om den översvämningsskyddade mekaniken har utlösts. Om felet försvinner med vanliga slangar behöver den översvämningsskyddade slangen bytas ut."
+        },
+        {
+          "step": 5,
+          "action": "Kör ett testprogram och återställ felet",
+          "detail": "När du har slutfört kontrollerna ovan, slå på vattenförsörjningen igen, välj ett kort tvättprogram som ett snabbprogram på 30 minuter och starta maskinen. Titta de första minuterna för att bekräfta att vatten fyller trumman. Om maskinen fyller på normalt är felet åtgärdat."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera inloppsventilen efter fel",
+          "detail": "Om maskinen fortfarande visar 4E efter stegen ovan kan inloppsventilen vara felaktig. Med maskinen urkopplad, ta bort bakpanelen och leta upp ventilen där slangarna ansluts invändigt. Kontrollera att kabelkontakterna sitter ordentligt på ventilsolenoiderna. Om ventilkroppen ser korroderad eller sprucken ut, eller om solenoiden inte klickar när ström kortvarigt appliceras, behöver ventilen bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera trycksensorn och dess slang",
+          "detail": "Trycksensorn sitter vanligtvis inuti maskinens toppanel och är ansluten till trumman via ett tunt gummi- eller plaströr. Kontrollera att detta rör inte är sprucket, lossat eller blockerat med avlagringar. Ett blockerat trycksensorrör kan hindra sensorn från att läsa av vattennivån korrekt och orsaka ett falskt 4E-fel även när vatten finns i trumman."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har gått igenom alla stegen ovan — bekräftat att kranarna är öppna, rengjort filtren, rätat ut slangarna och kontrollerat inloppsventilens anslutningar — och maskinen fortfarande visar 4E, är felet troligen internt. En trasig inloppsventilsolenoid, en defekt trycksensor eller ett kabelfel mellan dessa komponenter och huvudstyrkortet kräver korrekt diagnos med en multimeter och tillgång till interna komponenter.</p><p>Du bör också kontakta en servicetekniker om du märker att vatten läcker från inloppsventilområdet, om maskinen fortfarande är under garanti, eller om du inte känner dig bekväm med att ta bort maskinens bakpanel. Att försöka reparera strömförande elektriska komponenter utan erfarenhet innebär en verklig risk för skada eller ytterligare skador på maskinen.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett 4E-fel är vatteninloppsventilenheten, inloppsfilternäten och de översvämningsskyddade inloppsslangarna. Inloppsventilen är den vanligaste komponentnivåersättningen när slang- och filterkontroller har uteslutits. Att ha en reservuppsättning inloppsfilternät till hands är ett billigt sätt att snabbt hantera framtida blockeringar, särskilt i områden med hårt vatten där kalkavlagringar bildas snabbare.</p><p>För att minska risken för att ett 4E-fel upprepas, rengör inloppsfilternäten var sjätte till tolfte månad som en del av rutinunderhållet och undvik att skjuta maskinen tätt mot väggen där slangarna kan böjas. Om ditt hem har mycket hårt vatten, överväg att installera ett inline-vattenavhärdare eller avkalka filtren oftare.</p>\n<!-- SPARE_PARTS:4E -->",
+      "faq_json": [
+        {
+          "answer": "Nej. När 4E visas har maskinen avbrutit programmet eftersom den inte kan bekräfta att vatten fyller trumman. Att köra motorn utan vatten kan orsaka skador på trumlagren och värmeelementen. Åtgärda felet innan du startar ett nytt program.",
+          "question": "Kan jag fortfarande använda min tvättmaskin när den visar felkod 4E?"
+        },
+        {
+          "answer": "Ett intermittent 4E-fel pekar ofta på ett delvis igensatt inloppsfilter eller en översvämningsskyddad slang som börjar ge vika. Lågt vattentryck från huvudledningen vid högtrafiktider kan också utlösa felet ibland. Att rengöra inloppsfilterna är det bästa första steget vid ett intermittent fel.",
+          "question": "Varför visar min Samsung tvättmaskin 4E bara ibland och inte vid varje tvätt?"
+        },
+        {
+          "answer": "På de flesta Samsung tvättmaskiner försvinner felet automatiskt när det underliggande problemet är löst och du startar ett nytt program. Om koden kvarstår efter åtgärden, prova att hålla in Start/Paus-knappen i fem sekunder, eller stäng av maskinen vid vägguttaget i en minut och slå sedan på den igen.",
+          "question": "Hur återställer jag felkod 4E efter att ha åtgärdat problemet?"
+        },
+        {
+          "answer": "Ja, på många Samsung-modeller hänvisar dessa två koder till samma vattenförsörjningsfel. Displayformatet kan variera beroende på modell och styrkortsoftwarans ålder, men diagnos- och reparationsstegen är identiska för båda.",
+          "question": "Är felkod 4E samma som felkod E4 på Samsung tvättmaskiner?"
+        },
+        {
+          "answer": "En ersättningsinloppsventil till en Samsung tvättmaskin kostar vanligtvis mellan 250 och 600 kronor för delen, beroende på modell. Om du monterar den själv är det den totala kostnaden. En servicetekniker som levererar och monterar ventilen tillkommer vanligtvis med en arbetskostnad utöver delspriset.",
+          "question": "Hur mycket kostar det att byta ut en Samsung tvättmaskins inloppsventil?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:35.281865+00:00"
+    },
+    {
+      "id": 52,
+      "article_id": 33,
+      "locale": "en",
+      "slug": "samsung-error-code-5a",
+      "title_tag": "Samsung Washing Machine Error Code 5A | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code 5A? Learn what causes this drain fault and how to fix it yourself in a few simple steps.",
+      "h1": "What Does Error Code 5A Mean on a Samsung Washing Machine?",
+      "description": "Error code 5A on a Samsung washing machine indicates that the appliance has detected a drainage failure and cannot pump water out of the drum.",
+      "quick_fix": "Remove and clean the pump filter at the bottom front of the machine — a blocked filter is the most common cause of the 5A error, and clearing it should restore normal draining within about 10 minutes.",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code 5A is Samsung's way of telling you that water is not draining from the drum as expected. When the machine attempts to drain — typically at the end of a wash or rinse cycle — it monitors how quickly the water level drops. If the level doesn't fall within a set time, the 5A code is triggered and the cycle is paused or cancelled.</p><p>When this error appears, you'll usually find the drum still full or partially full of water, and the machine will stop mid-cycle. In some cases the display may flash the code repeatedly. The fault sits entirely within the drainage system, so the motor, drum bearings, and electronics are not the concern here.</p><p>The good news is that the majority of 5A errors are caused by simple blockages that you can clear yourself without any specialist tools or knowledge.</p>",
+      "causes_json": [
+        {
+          "cause": "Clogged pump filter",
+          "detail": "Lint, coins, hair grips, and other small items collect in the pump filter over time and restrict water flow. This is by far the most frequent cause of the 5A error and is straightforward to fix at home."
+        },
+        {
+          "cause": "Kinked or blocked drain hose",
+          "detail": "If the drain hose has been bent sharply behind the machine or has accumulated debris inside, water cannot pass through freely. Even a partial kink is enough to trigger the error."
+        },
+        {
+          "cause": "Drain hose installed at the wrong height",
+          "detail": "Samsung recommends the drain hose end sits 6–8 inches (15–20 cm) inside the standpipe or wall outlet. If it is inserted too deeply, a siphoning effect can prevent proper drainage and cause the error to appear repeatedly."
+        },
+        {
+          "cause": "Faulty or obstructed drain pump",
+          "detail": "Small objects such as buttons or broken zip pulls can pass through the filter and jam the pump impeller. A jammed impeller means the pump motor runs but cannot move water, triggering the 5A code."
+        },
+        {
+          "cause": "Blocked household standpipe or waste pipe",
+          "detail": "If the blockage is further down the plumbing — in the standpipe or the shared waste pipe — the washing machine cannot drain regardless of its own condition. Other appliances or sinks draining slowly nearby can confirm this."
+        },
+        {
+          "cause": "Defective drain pump",
+          "detail": "If the pump motor itself has failed electrically or mechanically, it will not activate when the machine calls for drainage. This is less common than a blockage but does occur on older machines."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Before doing anything else, turn the washing machine off at the programme dial and unplug it from the wall socket. If the drum is full of water, have a shallow tray and old towels ready before you open the filter cap, as water will spill out."
+        },
+        {
+          "step": 2,
+          "action": "Clean the pump filter",
+          "detail": "The pump filter is located behind a small access panel at the bottom front of the machine. Open the panel, place your tray underneath, and slowly unscrew the filter cap anti-clockwise. Allow the water to drain into the tray, then pull the filter out completely. Remove all lint, debris, and foreign objects, rinse the filter under a tap, and screw it firmly back in before closing the panel."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the drain hose for kinks and blockages",
+          "detail": "Pull the machine gently away from the wall and trace the drain hose from the back of the machine to where it enters the standpipe or wall outlet. Straighten any kinks and check that the hose is not crushed under the machine's feet. If you suspect an internal blockage, disconnect the hose and flush it through with water from a tap."
+        },
+        {
+          "step": 4,
+          "action": "Check the drain hose insertion depth",
+          "detail": "The end of the drain hose should sit no more than 6–8 inches (15–20 cm) inside the standpipe. If it is pushed in further, pull it back to the correct depth and use the hose guide clip (supplied with the machine) to hold it in place. Also confirm the standpipe opening is not sealed airtight around the hose, as the machine needs an air gap to drain correctly."
+        },
+        {
+          "step": 5,
+          "action": "Check for a blockage in the household waste pipe",
+          "detail": "Run water in a nearby sink or basin and watch how quickly it drains. Slow drainage elsewhere in the same waste run suggests a household plumbing blockage rather than a machine fault. In this case, use a drain unblocker or contact a plumber before running the washing machine again."
+        },
+        {
+          "step": 6,
+          "action": "Check the pump impeller for obstructions",
+          "detail": "With the filter removed, shine a torch into the filter housing and look for the impeller — a small plastic fan. Try turning it gently with your finger. It should rotate freely with slight resistance. If it is completely stuck, there is likely a foreign object lodged behind it. Use long-nose pliers to carefully retrieve any visible debris."
+        },
+        {
+          "step": 7,
+          "action": "Restore power and run a drain or spin cycle",
+          "detail": "Once you have completed the checks above, plug the machine back in and select a Spin or Drain programme. Watch and listen — the pump should activate within the first minute and water should flow out of the drain hose. If the machine completes the cycle without displaying 5A, the fault is resolved."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have cleaned the filter, straightened the hose, confirmed the correct insertion depth, and verified that household drainage is clear, but the 5A error still appears, the drain pump itself is the most likely culprit. A pump that hums but does not move water, or one that is completely silent when the machine should be draining, will need to be tested with a multimeter and replaced if faulty — this is work best left to a service technician.</p><p>You should also call a service technician if you find water pooling under the machine, notice a burning smell near the pump area, or if the filter housing is cracked or damaged. These signs point to a more serious fault that DIY steps will not resolve safely.</p>",
+      "prevention_html": "<p>Keeping the pump filter clean is the single most effective way to prevent the 5A error from returning. Samsung recommends cleaning the filter every month if you do frequent washes, or at least every three months under normal use. Always check pockets before loading — coins, hair grips, and tissues are the most common culprits found in blocked filters.</p><p>The parts most commonly replaced when fault code 5A cannot be resolved by cleaning are the <strong>drain pump assembly</strong>, the <strong>drain hose</strong>, and the <strong>pump filter cap and housing</strong>. Genuine Samsung parts are recommended to ensure a correct fit on the models listed above.</p>\n<!-- SPARE_PARTS:5A -->",
+      "faq_json": [
+        {
+          "answer": "No — you should not run a wash cycle while the 5A error is active. The machine cannot drain, so running a cycle will leave your laundry sitting in dirty water and may put unnecessary strain on the pump motor. Resolve the drainage fault first, then resume normal use.",
+          "question": "Can I still use my washing machine while it is showing error code 5A?"
+        },
+        {
+          "answer": "Samsung recommends cleaning the pump filter at least once every three months. If you wash frequently, have pets, or regularly wash heavily soiled items, cleaning it monthly is a sensible habit. A quick clean takes less than ten minutes and prevents the majority of 5A errors.",
+          "question": "How often should I clean the pump filter on my Samsung washing machine?"
+        },
+        {
+          "answer": "If the error returns quickly after cleaning, check the drain hose insertion depth first — a hose pushed too far into the standpipe causes repeated siphoning issues that mimic a blockage. If the depth is correct, the pump impeller may be partially damaged or a small object may be lodged behind it, which would require the pump to be inspected or replaced.",
+          "question": "Why does the 5A error keep coming back after I have already cleaned the filter?"
+        },
+        {
+          "answer": "Yes, these codes all refer to the same drainage fault. Samsung uses different code formats across different model ranges and production years — 5A, 5C, and OE all indicate that the machine has failed to drain within the expected time. The diagnosis and repair steps are identical for all three codes.",
+          "question": "Is error code 5A the same as error code 5C or OE on Samsung machines?"
+        },
+        {
+          "answer": "A genuine Samsung drain pump typically costs between £25 and £55 for the part alone, depending on the model. If you are comfortable with basic appliance repairs, fitting it yourself is achievable with standard tools and can save on labour costs. If you prefer to have a service technician carry out the replacement, expect to pay an additional call-out and labour fee on top of the part price.",
+          "question": "How much does it cost to replace a drain pump on a Samsung washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:34.426295+00:00"
+    },
+    {
+      "id": 53,
+      "article_id": 33,
+      "locale": "sv",
+      "slug": "samsung-felkod-5a",
+      "title_tag": "Samsung Tvättmaskin Felkod 5A | Åtgärda Det Nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod 5A? Lär dig vad som orsakar detta avloppsfel och hur du åtgärdar det själv i några enkla steg.",
+      "h1": "Vad Betyder Felkod 5A på en Samsung Tvättmaskin?",
+      "description": "Felkod 5A på en Samsung tvättmaskin indikerar att maskinen har upptäckt ett avloppsfel och inte kan pumpa ut vatten ur trumman.",
+      "quick_fix": "Ta bort och rengör pumpfiltret längst ned på maskinens framsida — ett igensatt filter är den vanligaste orsaken till 5A-felet, och att rensa det bör återställa normalt avlopp inom cirka 10 minuter.",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod 5A är Samsungs sätt att tala om för dig att vatten inte rinner ut ur trumman som förväntat. När maskinen försöker tömma sig — vanligtvis i slutet av ett tvätt- eller sköljprogram — övervakar den hur snabbt vattennivån sjunker. Om nivån inte sjunker inom en bestämd tid utlöses 5A-koden och programmet pausas eller avbryts.</p><p>När detta fel uppstår är trumman vanligtvis fortfarande helt eller delvis fylld med vatten, och maskinen stannar mitt i programmet. I vissa fall kan displayen blinka koden upprepade gånger. Felet är helt kopplat till avloppssystemet, så motor, trumlagring och elektronik berörs inte här.</p><p>Den goda nyheten är att de flesta 5A-fel orsakas av enkla igensättningar som du kan åtgärda själv utan specialverktyg eller fackkunskaper.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt pumpfilter",
+          "detail": "Ludd, mynt, hårnålar och andra småföremål samlas i pumpfiltret med tiden och begränsar vattenflödet. Detta är den överlägset vanligaste orsaken till 5A-felet och är enkelt att åtgärda hemma."
+        },
+        {
+          "cause": "Veckad eller blockerad avloppsslang",
+          "detail": "Om avloppsslangen har böjts skarpt bakom maskinen eller har ansamlat smuts inuti kan vatten inte passera fritt. Även en delvis veckning räcker för att utlösa felet."
+        },
+        {
+          "cause": "Avloppsslangen installerad på fel höjd",
+          "detail": "Samsung rekommenderar att avloppsslangen sitter 15–20 cm inne i avloppsröret eller vägguttaget. Om den är instucken för djupt kan en siffoneffekt förhindra korrekt avlopp och orsaka att felet uppstår upprepade gånger."
+        },
+        {
+          "cause": "Defekt eller blockerad avloppspump",
+          "detail": "Små föremål som knappar eller trasiga dragkedjor kan passera genom filtret och fastna i pumpens impeller. En fastkilad impeller innebär att pumpmotorn går men inte kan flytta vatten, vilket utlöser 5A-koden."
+        },
+        {
+          "cause": "Blockerat avloppsrör i huset",
+          "detail": "Om blockeringen sitter längre ned i rörsystemet — i avloppsröret eller det gemensamma avloppsröret — kan tvättmaskinen inte tömma sig oavsett sitt eget skick. Att andra apparater eller handfat i närheten rinner långsamt kan bekräfta detta."
+        },
+        {
+          "cause": "Defekt avloppspump",
+          "detail": "Om pumpmotorn själv har havererat elektriskt eller mekaniskt aktiveras den inte när maskinen behöver tömma sig. Detta är mindre vanligt än en igensättning men förekommer på äldre maskiner."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Innan du gör något annat, stäng av tvättmaskinen med programväljaren och dra ut kontakten ur vägguttaget. Om trumman är full med vatten, ha ett grunt fat och gamla handdukar redo innan du öppnar filterlocket, eftersom vatten kommer att rinna ut."
+        },
+        {
+          "step": 2,
+          "action": "Rengör pumpfiltret",
+          "detail": "Pumpfiltret sitter bakom en liten lucka längst ned på maskinens framsida. Öppna luckan, placera fatet under och skruva långsamt loss filterlocket moturs. Låt vattnet rinna ut i fatet, dra sedan ut filtret helt. Ta bort allt ludd, skräp och främmande föremål, skölj filtret under kranen och skruva tillbaka det ordentligt innan du stänger luckan."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera avloppsslangen för veck och blockeringar",
+          "detail": "Dra försiktigt ut maskinen från väggen och följ avloppsslangen från maskinens baksida till där den går in i avloppsröret eller vägguttaget. Räta ut eventuella veck och kontrollera att slangen inte är klämd under maskinens fötter. Om du misstänker en intern blockering, koppla loss slangen och spola igenom den med vatten från kranen."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera avloppsslangen instickningsdjup",
+          "detail": "Änden av avloppsslangen bör sitta högst 15–20 cm inne i avloppsröret. Om den är instucken djupare, dra tillbaka den till rätt djup och använd slangklämman (medföljer maskinen) för att hålla den på plats. Kontrollera också att avloppsrörets öppning inte är lufttätt förseglad runt slangen, eftersom maskinen behöver ett luftgap för att tömma sig korrekt."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera om det finns en blockering i husets avloppsrör",
+          "detail": "Låt vatten rinna i ett närliggande handfat eller tvättställ och se hur snabbt det rinner undan. Långsamt avlopp på andra ställen i samma avloppssystem tyder på en blockering i husets rör snarare än ett maskinfel. I så fall, använd ett avloppsmedel eller kontakta en rörmokare innan du kör tvättmaskinen igen."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera pumpens impeller för hinder",
+          "detail": "Med filtret borttaget, lyser du med en ficklampa in i filterhuset och letar efter impellern — ett litet plastfläktshjul. Försök vrida det försiktigt med fingret. Det ska rotera fritt med ett lätt motstånd. Om det sitter helt fast finns det troligen ett främmande föremål fastkilat bakom det. Använd spetsnåltång för att försiktigt ta bort eventuellt synligt skräp."
+        },
+        {
+          "step": 7,
+          "action": "Återställ strömmen och kör ett centrifugerings- eller tömningsprogram",
+          "detail": "När du har genomfört kontrollerna ovan, sätt i kontakten och välj ett centrifugerings- eller tömningsprogram. Titta och lyssna — pumpen bör aktiveras inom den första minuten och vatten bör flöda ut ur avloppsslangen. Om maskinen slutför programmet utan att visa 5A är felet åtgärdat."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har rengjort filtret, rätat ut slangen, bekräftat korrekt instickningsdjup och kontrollerat att husets avlopp är fritt, men 5A-felet fortfarande visas, är avloppspumpen själv den troligaste boven. En pump som surrar men inte flyttar vatten, eller en som är helt tyst när maskinen borde tömma sig, behöver testas med en multimeter och bytas ut om den är defekt — detta arbete lämnas bäst till en servicetekniker.</p><p>Du bör också kontakta en servicetekniker om du hittar vatten som samlas under maskinen, märker en bränd lukt nära pumpområdet, eller om filterhuset är sprucket eller skadat. Dessa tecken tyder på ett allvarligare fel som DIY-åtgärder inte kan lösa på ett säkert sätt.</p>",
+      "prevention_html": "<p>Att hålla pumpfiltret rent är det enskilt mest effektiva sättet att förhindra att 5A-felet återkommer. Samsung rekommenderar att rengöra filtret varje månad om du tvättar ofta, eller minst var tredje månad vid normal användning. Kontrollera alltid fickorna innan du lastar maskinen — mynt, hårnålar och pappersservetter är de vanligaste föremålen som hittas i igensatta filter.</p><p>De delar som oftast byts ut när felkod 5A inte kan åtgärdas genom rengöring är <strong>avloppspumpsenheten</strong>, <strong>avloppsslangen</strong> och <strong>pumpfilterlocket med hus</strong>. Genuina Samsung-delar rekommenderas för att säkerställa korrekt passform på de modeller som anges ovan.</p>\n<!-- SPARE_PARTS:5A -->",
+      "faq_json": [
+        {
+          "answer": "Nej — du bör inte köra ett tvättprogram medan 5A-felet är aktivt. Maskinen kan inte tömma sig, så att köra ett program kommer att lämna din tvätt liggande i smutsigt vatten och kan belasta pumpmotorn i onödan. Åtgärda avloppsfelet först och återuppta sedan normal användning.",
+          "question": "Kan jag fortfarande använda min tvättmaskin medan den visar felkod 5A?"
+        },
+        {
+          "answer": "Samsung rekommenderar att rengöra pumpfiltret minst en gång var tredje månad. Om du tvättar ofta, har husdjur eller regelbundet tvättar kraftigt smutsade plagg är det en bra vana att rengöra det månadsvis. En snabb rengöring tar mindre än tio minuter och förebygger de flesta 5A-fel.",
+          "question": "Hur ofta bör jag rengöra pumpfiltret på min Samsung tvättmaskin?"
+        },
+        {
+          "answer": "Om felet återkommer snabbt efter rengöring, kontrollera först avloppsslangen instickningsdjup — en slang som är instucken för djupt i avloppsröret orsakar upprepade siffonproblem som liknar en igensättning. Om djupet är korrekt kan pumpens impeller vara delvis skadad eller ett litet föremål kan sitta fastkilat bakom den, vilket kräver att pumpen inspekteras eller byts ut.",
+          "question": "Varför återkommer 5A-felet efter att jag redan har rengjort filtret?"
+        },
+        {
+          "answer": "Ja, dessa koder hänvisar alla till samma avloppsfel. Samsung använder olika kodformat för olika modellserier och tillverkningsår — 5A, 5C och OE indikerar alla att maskinen inte har lyckats tömma sig inom förväntad tid. Diagnos och åtgärdssteg är identiska för alla tre koderna.",
+          "question": "Är felkod 5A samma som felkod 5C eller OE på Samsung-maskiner?"
+        },
+        {
+          "answer": "En äkta Samsung avloppspump kostar vanligtvis mellan 300 och 650 kronor för enbart delen, beroende på modell. Om du är bekväm med grundläggande vitvarurepationer är det möjligt att montera den själv med standardverktyg och kan spara på arbetskostnaderna. Om du föredrar att låta en servicetekniker utföra bytet, räkna med en tillkommande utryckning och arbetsavgift utöver delspriset.",
+          "question": "Hur mycket kostar det att byta avloppspump på en Samsung tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:34.568335+00:00"
+    },
+    {
+      "id": 56,
+      "article_id": 35,
+      "locale": "en",
+      "slug": "samsung-error-code-5e",
+      "title_tag": "Samsung Washing Machine Error Code 5E | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code 5E? Learn what causes this drainage fault and how to fix it yourself in a few simple steps.",
+      "h1": "What Does Error Code 5E Mean on a Samsung Washing Machine?",
+      "description": "The 5E error code indicates that your Samsung washing machine has failed to drain water within the expected time, halting the cycle before it can complete.",
+      "quick_fix": "Clean the drain pump filter at the bottom front of the machine — remove the access panel, unscrew the filter cap, clear any debris, and refit it securely, then restart the cycle (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When your Samsung washing machine displays the 5E error code, it means the machine attempted to drain but could not empty the drum within the allotted time. The washer's control board monitors how long the drain pump runs, and if water remains in the drum after that window closes, it stops the cycle and raises the fault code to protect the motor and drum bearings from damage.</p><p>You will typically notice the drum still contains water, the machine has paused mid-cycle, and the display is showing 5E (sometimes written as SE on older displays). The spin phase cannot begin until the drum is empty, so the laundry will remain wet until the fault is resolved.</p><p>The good news is that the majority of 5E faults are caused by a blocked pump filter or a kinked drain hose — both of which you can check and fix at home without any specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked drain pump filter",
+          "detail": "The pump filter traps lint, coins, hair grips, and other small items before they reach the pump impeller. Over time this debris builds up and restricts water flow enough to trigger the 5E code."
+        },
+        {
+          "cause": "Kinked or blocked drain hose",
+          "detail": "If the drain hose has been pushed too far into the standpipe, is bent sharply behind the machine, or has a partial blockage inside it, water cannot flow freely to the drain. Even a partial restriction can be enough to cause a timeout fault."
+        },
+        {
+          "cause": "Blocked household standpipe or sink drain",
+          "detail": "The fault is not always inside the washing machine itself. If the standpipe or the sink it drains into is partially blocked, water backs up and the machine cannot empty. You may notice slow drainage elsewhere in the same area."
+        },
+        {
+          "cause": "Faulty drain pump",
+          "detail": "If the pump impeller is jammed by a foreign object or the pump motor has failed electrically, it will not move water regardless of how clear the filter and hose are. A failed pump often produces a humming noise without any water movement."
+        },
+        {
+          "cause": "Wiring or connection fault between pump and control board",
+          "detail": "Loose or corroded wiring connectors on the drain pump harness can interrupt the signal from the control board, causing the pump to run intermittently or not at all. This is less common but worth checking if the pump itself tests as healthy."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Cancel the cycle and prepare the machine",
+          "detail": "Press and hold the Start/Pause button to cancel the active programme. Place a shallow tray and some old towels on the floor directly in front of the machine — when you open the filter, residual water will spill out. Turn the machine off at the wall socket before you begin."
+        },
+        {
+          "step": 2,
+          "action": "Clean the drain pump filter",
+          "detail": "Open the small access panel at the bottom front of the machine. You will see a short emergency drain hose with a cap and, next to it, the round filter cap. Pull out the emergency hose, remove its cap, and let the water drain into your tray. Once empty, turn the filter cap anticlockwise and pull it out. Remove all lint, coins, and debris, rinse the filter under a tap, then refit it firmly and replace the hose cap."
+        },
+        {
+          "step": 3,
+          "action": "Check the drain hose position and condition",
+          "detail": "Pull the machine forward slightly and inspect the drain hose at the back. It should enter the standpipe no more than 15–20 cm (6–8 inches) and must not be kinked or crushed against the wall. If the hose is inserted too deeply, water can siphon back into the drum. Straighten any kinks and secure the hose at the correct depth using the plastic guide clip supplied with the machine."
+        },
+        {
+          "step": 4,
+          "action": "Test the standpipe and household drain",
+          "detail": "Pour a bucket of water slowly into the standpipe and watch whether it drains away freely. If it drains slowly or backs up, the blockage is in your household plumbing rather than the machine. Use a standard drain cleaner or a plumber's snake to clear the standpipe before running the washer again."
+        },
+        {
+          "step": 5,
+          "action": "Run a short test cycle",
+          "detail": "Refit the filter, close the access panel, and push the machine back into position. Turn the power on and select a quick rinse-and-spin programme. Watch and listen — the pump should run audibly and the drum should be empty within a few minutes. If the 5E code clears and the cycle completes, the fault is resolved."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the pump for a jammed impeller",
+          "detail": "If the code returns and you can hear the pump humming but no water moves, a foreign object may be jamming the impeller. With the machine unplugged, remove the filter again and use a torch to look into the pump housing. You can carefully insert a finger or thin implement to feel for and remove any obstruction. Do not force the impeller — if it will not turn freely, the pump likely needs replacing."
+        },
+        {
+          "step": 7,
+          "action": "Power cycle the machine as a final reset",
+          "detail": "Once you have addressed any physical blockages, switch the machine off at the wall, wait two minutes, then switch it back on. This clears any stored fault state in the control board. If the 5E code reappears immediately on a new cycle without any obvious blockage, the pump or its wiring should be assessed by a service technician."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have cleaned the filter, confirmed the drain hose is correctly positioned, and verified the household drain is clear, but the 5E code continues to appear, the drain pump itself has likely failed or there is a wiring fault in the pump circuit. A service technician can test the pump motor with a multimeter, check the wiring harness for continuity, and replace the pump if necessary — this is not a straightforward DIY repair as it involves partially dismantling the machine.</p><p>You should also call a technician if water is leaking from the filter housing after you have refitted it, if the machine makes a loud grinding noise during the drain phase, or if the drum will not empty at all even after the emergency drain hose has been used.</p>",
+      "prevention_html": "<p>The most effective way to prevent the 5E fault from returning is to clean the drain pump filter every one to three months, depending on how frequently you use the machine. Always check pockets before loading a wash — coins, hair grips, and small clips are the most common causes of filter blockages and pump damage. Running a monthly drum-clean cycle at 60°C also helps flush lint and detergent residue through the system before it accumulates.</p><p>The parts most commonly replaced when resolving a persistent 5E fault are the <strong>drain pump assembly</strong>, the <strong>drain hose</strong>, and the <strong>pump filter housing</strong> (if the cap or seal has cracked and is causing a leak). You can search for genuine Samsung replacements using your full model number.</p>\n<!-- SPARE_PARTS:5E -->",
+      "faq_json": [
+        {
+          "answer": "Yes, they refer to the same fault. Older Samsung washing machine displays use a seven-segment screen that can make the digit 5 look like the letter S, so SE and 5E are identical drain error codes. The fix is the same for both.",
+          "question": "Is the 5E error code the same as the SE error code on Samsung washers?"
+        },
+        {
+          "answer": "You should not continue running cycles while the fault is active. If the machine cannot drain, water will sit in the drum and can cause unpleasant odours, mould growth, and additional strain on the pump motor. Resolve the blockage first, then resume normal use.",
+          "question": "Can I still use my washing machine if it keeps showing 5E?"
+        },
+        {
+          "answer": "Samsung recommends cleaning the filter approximately every month if you do frequent washes, or at least every three months for lighter use. If you regularly wash items that shed a lot of lint or pet hair, monthly cleaning is advisable to prevent the 5E fault from recurring.",
+          "question": "How often should I clean the drain pump filter on my Samsung washing machine?"
+        },
+        {
+          "answer": "If the fault returns quickly after cleaning, the most likely causes are a partially blocked drain hose, a slow household standpipe, or a drain pump whose impeller is worn or damaged and can no longer move water efficiently. Check the hose routing and the standpipe first, and if both are clear, the pump may need to be replaced.",
+          "question": "Why does the 5E error keep coming back even after I clean the filter?"
+        },
+        {
+          "answer": "The error will not clear on its own — the machine will remain paused until the underlying drainage problem is fixed. Once you have resolved the blockage, you can reset the display by turning the machine off at the wall for two minutes and then restarting it. The code should not reappear if the fault has been fully resolved.",
+          "question": "Will a 5E fault clear itself, or do I need to manually reset the machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:34.646063+00:00"
+    },
+    {
+      "id": 57,
+      "article_id": 35,
+      "locale": "sv",
+      "slug": "samsung-felkod-5e",
+      "title_tag": "Samsung Tvättmaskin Felkod 5E | Åtgärda Det Nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod 5E? Lär dig vad som orsakar detta avloppsfel och hur du åtgärdar det själv i några enkla steg.",
+      "h1": "Vad Betyder Felkod 5E på en Samsung Tvättmaskin?",
+      "description": "Felkod 5E indikerar att din Samsung tvättmaskin inte lyckats tömma vatten inom förväntad tid, vilket stoppar programmet innan det kan slutföras.",
+      "quick_fix": "Rengör avloppspumpens filter längst ned på maskinens framsida — ta bort åtkomstluckan, skruva loss filterlocket, rensa bort skräp och sätt tillbaka det ordentligt, starta sedan om programmet (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När din Samsung tvättmaskin visar felkod 5E betyder det att maskinen försökt tömma vatten men inte kunnat tömma trumman inom den tillåtna tiden. Maskinens styrkort övervakar hur länge avloppspumpen körs, och om vatten finns kvar i trumman efter att den tiden löpt ut stoppas programmet och felkoden visas för att skydda motorn och trummans lager från skada.</p><p>Du märker vanligtvis att trumman fortfarande innehåller vatten, att maskinen har pausat mitt i programmet och att displayen visar 5E (ibland skrivet som SE på äldre displayer). Centrifugeringsfasen kan inte börja förrän trumman är tom, så tvätten förblir blöt tills felet är åtgärdat.</p><p>Den goda nyheten är att de flesta 5E-fel orsakas av ett igensatt pumpfilter eller en veckad avloppsslang — båda kan du kontrollera och åtgärda hemma utan några specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt avloppspumpfilter",
+          "detail": "Pumpfiltret fångar upp ludd, mynt, hårnålar och andra små föremål innan de når pumpens impeller. Med tiden byggs detta skräp upp och begränsar vattenflödet tillräckligt för att utlösa felkod 5E."
+        },
+        {
+          "cause": "Veckad eller igensatt avloppsslang",
+          "detail": "Om avloppsslangen har skjutits för långt in i avloppsröret, är kraftigt böjd bakom maskinen eller har en partiell blockering inuti, kan vatten inte flöda fritt till avloppet. Även en partiell begränsning kan räcka för att orsaka ett timeoutfel."
+        },
+        {
+          "cause": "Igensatt avloppsrör eller diskhoavlopp i hemmet",
+          "detail": "Felet finns inte alltid inne i tvättmaskinen själv. Om avloppsröret eller diskhon det leder till är delvis igensatt, backar vattnet upp och maskinen kan inte tömmas. Du kan märka långsamt avlopp på andra ställen i samma område."
+        },
+        {
+          "cause": "Defekt avloppspump",
+          "detail": "Om pumpens impeller är blockerad av ett främmande föremål eller om pumpmotorn har gått sönder elektriskt, kommer den inte att flytta vatten oavsett hur rent filtret och slangen är. En trasig pump ger ofta ett surrande ljud utan någon vattenrörelse."
+        },
+        {
+          "cause": "Kabelfel eller anslutningsfel mellan pump och styrkort",
+          "detail": "Lösa eller korroderade kabelkontakter på avloppspumpens kabelstam kan avbryta signalen från styrkortet, vilket gör att pumpen körs intermittent eller inte alls. Detta är mindre vanligt men värt att kontrollera om pumpen i sig testar som felfri."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Avbryt programmet och förbered maskinen",
+          "detail": "Håll inne Start/Paus-knappen för att avbryta det aktiva programmet. Placera ett grunt fat och några gamla handdukar på golvet direkt framför maskinen — när du öppnar filtret kommer kvarvarande vatten att rinna ut. Stäng av maskinen vid vägguttaget innan du börjar."
+        },
+        {
+          "step": 2,
+          "action": "Rengör avloppspumpfiltret",
+          "detail": "Öppna den lilla åtkomstluckan längst ned på maskinens framsida. Du ser en kort nödavloppsslang med ett lock och, bredvid den, det runda filterlocket. Dra ut nödavloppsslangen, ta bort dess lock och låt vattnet rinna ut i ditt fat. När det är tomt, vrid filterlocket moturs och dra ut det. Ta bort allt ludd, mynt och skräp, skölj filtret under kranen, sätt sedan tillbaka det ordentligt och sätt tillbaka slanglocken."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera avloppsslangen position och skick",
+          "detail": "Dra ut maskinen något och inspektera avloppsslangen på baksidan. Den ska föras in i avloppsröret högst 15–20 cm och får inte vara veckad eller klämd mot väggen. Om slangen är för djupt insatt kan vatten sifona tillbaka in i trumman. Räta ut eventuella veck och fäst slangen på rätt djup med den plastklämma som medföljer maskinen."
+        },
+        {
+          "step": 4,
+          "action": "Testa avloppsröret och hushållets avlopp",
+          "detail": "Häll en hink vatten långsamt i avloppsröret och se om det rinner undan fritt. Om det rinner långsamt eller backar upp finns blockeringen i ditt hushållsavlopp snarare än i maskinen. Använd ett vanligt avloppsmedel eller en avloppsspiral för att rensa avloppsröret innan du kör tvättmaskinen igen."
+        },
+        {
+          "step": 5,
+          "action": "Kör ett kort testprogram",
+          "detail": "Sätt tillbaka filtret, stäng åtkomstluckan och skjut tillbaka maskinen på plats. Slå på strömmen och välj ett snabbt sköljnings- och centrifugeringsprogram. Titta och lyssna — pumpen ska höras tydligt och trumman ska vara tom inom några minuter. Om felkod 5E försvinner och programmet slutförs är felet löst."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera pumpen för en blockerad impeller",
+          "detail": "Om koden återkommer och du hör att pumpen surrar men inget vatten rör sig, kan ett främmande föremål blockera impellern. Med maskinen urkopplad, ta bort filtret igen och använd en ficklampa för att titta in i pumphuset. Du kan försiktigt sticka in ett finger eller ett tunt redskap för att känna efter och ta bort eventuella hinder. Tvinga inte impellern — om den inte snurrar fritt behöver pumpen troligen bytas."
+        },
+        {
+          "step": 7,
+          "action": "Starta om maskinen som en slutlig återställning",
+          "detail": "När du har åtgärdat eventuella fysiska blockeringar, stäng av maskinen vid väggen, vänta två minuter och slå sedan på den igen. Detta rensar eventuellt lagrat felläge i styrkortet. Om felkod 5E återkommer omedelbart vid ett nytt program utan någon uppenbar blockering bör pumpen eller dess kablage bedömas av en servicetekniker."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har rengjort filtret, bekräftat att avloppsslangen är korrekt placerad och kontrollerat att hushållets avlopp är fritt, men felkod 5E fortsätter att visas, har avloppspumpen troligen gått sönder eller så finns det ett kabelfel i pumpkretsen. En servicetekniker kan testa pumpmotorn med en multimeter, kontrollera kabelstammen för kontinuitet och byta pumpen om det behövs — detta är inte en enkel gör-det-själv-reparation eftersom det innebär att maskinen delvis måste demonteras.</p><p>Du bör också kontakta en tekniker om vatten läcker från filterhuset efter att du satt tillbaka det, om maskinen ger ett högt skrapande ljud under avloppsfasen, eller om trumman inte tömmer sig alls även efter att nödavloppsslangen har använts.</p>",
+      "prevention_html": "<p>Det mest effektiva sättet att förhindra att felkod 5E återkommer är att rengöra avloppspumpfiltret var en till tre månader, beroende på hur ofta du använder maskinen. Kontrollera alltid fickor innan du lägger in tvätt — mynt, hårnålar och små klämmor är de vanligaste orsakerna till filterblockering och pumpskador. Att köra ett månatligt trumrengöringsprogram vid 60°C hjälper också till att spola igenom ludd och tvättmedelsrester innan de ansamlas.</p><p>De delar som oftast byts ut vid ett ihållande 5E-fel är <strong>avloppspumpsenheten</strong>, <strong>avloppsslangen</strong> och <strong>pumpfilterhuset</strong> (om locket eller tätningen har spruckit och orsakar läckage). Du kan söka efter äkta Samsung-reservdelar med ditt fullständiga modellnummer.</p>\n<!-- SPARE_PARTS:5E -->",
+      "faq_json": [
+        {
+          "answer": "Ja, de avser samma fel. Äldre Samsung tvättmaskinsdisplayer använder en sjusegmentsskärm som kan göra att siffran 5 ser ut som bokstaven S, så SE och 5E är identiska avloppsfelkoder. Åtgärden är densamma för båda.",
+          "question": "Är felkod 5E samma som felkod SE på Samsung tvättmaskiner?"
+        },
+        {
+          "answer": "Du bör inte fortsätta köra program medan felet är aktivt. Om maskinen inte kan tömma vatten kommer vatten att stå kvar i trumman och kan orsaka obehaglig lukt, mögelväxt och extra belastning på pumpmotorn. Åtgärda blockeringen först och återuppta sedan normal användning.",
+          "question": "Kan jag fortfarande använda min tvättmaskin om den fortsätter visa 5E?"
+        },
+        {
+          "answer": "Samsung rekommenderar att rengöra filtret ungefär en gång i månaden om du tvättar ofta, eller minst var tredje månad vid lättare användning. Om du regelbundet tvättar plagg som avger mycket ludd eller husdjurshår är månatlig rengöring lämplig för att förhindra att felkod 5E återkommer.",
+          "question": "Hur ofta ska jag rengöra avloppspumpfiltret på min Samsung tvättmaskin?"
+        },
+        {
+          "answer": "Om felet återkommer snabbt efter rengöring är de troligaste orsakerna en delvis igensatt avloppsslang, ett långsamt hushållsavloppsrör, eller en avloppspump vars impeller är sliten eller skadad och inte längre kan flytta vatten effektivt. Kontrollera slangdragningen och avloppsröret först, och om båda är fria kan pumpen behöva bytas.",
+          "question": "Varför återkommer felkod 5E även efter att jag rengjort filtret?"
+        },
+        {
+          "answer": "Felet försvinner inte av sig självt — maskinen förblir pausad tills det underliggande avloppsproblemet är åtgärdat. När du har löst blockeringen kan du återställa displayen genom att stänga av maskinen vid väggen i två minuter och sedan starta om den. Koden ska inte återkomma om felet är helt löst.",
+          "question": "Försvinner ett 5E-fel av sig självt, eller måste jag återställa maskinen manuellt?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:34.856936+00:00"
+    }
+  ]
+}

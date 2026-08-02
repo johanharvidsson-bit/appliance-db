@@ -1,0 +1,1043 @@
+{
+  "exported_at": "2026-07-30T21:46:55.816750+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    356,
+    357,
+    360,
+    361,
+    362
+  ],
+  "rows": [
+    {
+      "article_id": 356,
+      "locale": "en",
+      "slug": "not-heating-water",
+      "title_tag": "Electrolux Washing Machine Not Heating Water – Fixes",
+      "meta_description": "Electrolux washing machine not heating water? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers error codes E60–E71.",
+      "h1": "Why Is My Electrolux Washing Machine Not Heating the Water?",
+      "description": "The washing machine completes cycles but the water remains cold, meaning clothes are not being washed at the selected temperature.",
+      "quick_fix": "Run a 60°C cotton cycle and place your hand on the door glass after 10 minutes — if the glass is not warm, check and reset the circuit breaker for the washing machine circuit, as a partial power fault can disable the heater while leaving the motor running (takes about 5 minutes).",
+      "intro_html": "<p>When an Electrolux washing machine fails to heat water, the drum still fills, agitates, and drains as normal — so the fault can go unnoticed until you pull out clothes that smell musty or feel under-washed. The heating system is a separate electrical circuit inside the machine, which is why everything else can appear to work perfectly while the water stays cold throughout the entire programme.</p><p>The fault is most commonly linked to the heating element itself, the NTC temperature sensor, or the control board that manages the heating cycle. Electrolux machines may display error codes E60, E61, E62, E68, or E71 when a heating fault is detected, though some models will simply complete the cycle silently without triggering any visible alert.</p><p>Because this fault involves high-voltage components, some steps require a multimeter and basic electrical confidence. Work through the checks below in order before deciding whether a repair is within your comfort level.</p>",
+      "causes_json": [
+        {
+          "cause": "Failed heating element",
+          "detail": "The heating element is a resistive coil submerged in the drum sump. Over time it burns out or develops a break in the coil, preventing it from generating heat entirely. This is the single most common cause of a cold-wash fault and is associated with error codes E60 and E61."
+        },
+        {
+          "cause": "Faulty NTC temperature sensor",
+          "detail": "The NTC (negative temperature coefficient) sensor monitors water temperature and reports it to the control board. If the sensor drifts out of calibration or fails open-circuit, the board either never activates the heater or cuts it off prematurely. Error codes E71 and E62 are commonly linked to sensor faults."
+        },
+        {
+          "cause": "Defective control board or relay",
+          "detail": "The main PCB contains a relay that switches power to the heating element. If this relay burns out or the board develops a fault, the heating circuit receives no power even though the element itself is intact. Error code E68 can point to a board-level heating fault."
+        },
+        {
+          "cause": "Wiring harness damage or loose connector",
+          "detail": "The wiring loom connecting the element and sensor to the control board can suffer from heat stress, vibration, or rodent damage. A loose spade connector on the element terminals is a surprisingly frequent cause that is easy to overlook."
+        },
+        {
+          "cause": "Heavy limescale build-up on the element",
+          "detail": "In hard-water areas, calcium deposits coat the element surface, insulating it and causing it to overheat and fail prematurely. A scaled element may still show continuity on a multimeter but will not heat efficiently and will eventually trip the thermal cut-out."
+        },
+        {
+          "cause": "Tripped thermal cut-out (thermostat)",
+          "detail": "Some Electrolux models include a thermal safety cut-out that trips if the element overheats. Unlike a fuse, some versions can be manually reset, but a repeated trip indicates an underlying problem with the element or sensor that must be addressed."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Confirm the fault and check for error codes",
+          "detail": "Select a 60°C or 90°C programme and start the machine. After 10–15 minutes, carefully feel the door glass — it should be noticeably warm. If it is cold, the heater is not working. Check the display for any stored error codes (E60, E61, E62, E68, E71) by consulting your model's diagnostic mode, usually accessed by holding two buttons simultaneously as described in the user manual."
+        },
+        {
+          "step": 2,
+          "action": "Check the power supply and circuit breaker",
+          "detail": "A partial electrical fault — such as a tripped breaker or a blown fuse on the heating circuit — can leave the motor running while cutting power to the element. Go to your consumer unit and check that the breaker for the washing machine circuit is fully on. Reset it if it has tripped, then retest. Also confirm the machine is plugged directly into a wall socket, not an extension lead."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the heating element with a multimeter",
+          "detail": "Disconnect the machine from the mains. Remove the rear panel to access the element, which sits at the bottom of the drum. Disconnect the wiring connectors and set your multimeter to resistance (Ω). A healthy element typically reads between 20–30 Ω; an open-circuit reading (OL or infinite) confirms the element has failed and needs replacing. Also check that the spade connectors are firmly seated and show no signs of burning."
+        },
+        {
+          "step": 4,
+          "action": "Test the NTC temperature sensor",
+          "detail": "With the machine still unplugged, locate the NTC sensor — it is usually clipped into the element housing or mounted nearby on the drum sump. Disconnect it and measure resistance across its two terminals. At room temperature (around 20°C) a typical NTC sensor reads approximately 10,000–12,000 Ω. A reading of zero or infinite resistance indicates a failed sensor. Replacement sensors are inexpensive and straightforward to fit."
+        },
+        {
+          "step": 5,
+          "action": "Check the wiring harness and connectors",
+          "detail": "Trace the wiring from the element and sensor back toward the control board. Look for any wires that are pinched, chafed, or have melted insulation. Gently tug each connector to confirm it is fully seated. A connector that pulls off with minimal force needs to be re-crimped or replaced. Repair any damaged insulation with heat-shrink tubing before reassembling."
+        },
+        {
+          "step": 6,
+          "action": "Inspect and reset the thermal cut-out if present",
+          "detail": "Some Electrolux models have a resettable thermal cut-out mounted on or near the element. It is a small disc-shaped component with a reset button in the centre. Press the button firmly with a pen tip — you should feel a click. If it trips again on the next cycle, the underlying cause (usually a failing element or sensor) must be resolved before the machine is safe to use."
+        },
+        {
+          "step": 7,
+          "action": "Replace the heating element",
+          "detail": "If the element has failed continuity testing, source a genuine Electrolux replacement element matched to your model number (found on the label inside the door frame). Fit the new element into the drum sump, ensuring the rubber seal seats correctly to prevent leaks. Reconnect all wiring, refit the rear panel, and run a 60°C test cycle to confirm the repair. The door glass should feel warm within 15 minutes."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have replaced the heating element and NTC sensor but the machine still does not heat, the fault is most likely on the main control board. Board-level diagnosis and replacement require specialist equipment and an understanding of PCB circuits — this is not a straightforward DIY repair, and an incorrect replacement can cause further damage to the machine.</p><p>You should also contact a service technician immediately if you notice any burning smell, scorch marks around the element terminals, or signs of water leaking from the drum sump area. These indicate a safety risk that should not be operated until inspected by a qualified professional.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when an Electrolux washing machine stops heating are the <strong>heating element</strong>, the <strong>NTC temperature sensor</strong>, and occasionally the <strong>main control board relay</strong>. Using genuine Electrolux parts ensures correct resistance ratings and a proper fit, which reduces the risk of the fault recurring. In hard-water areas, using a monthly drum-clean cycle with a descaling tablet significantly extends element life by preventing the calcium build-up that causes premature burnout.</p><p>Search for compatible parts for your specific model using the tool below — enter your full model number from the label inside the door frame for accurate results.</p>\n<!-- SPARE_PARTS_FAULT:not-heating-water -->",
+      "faq_json": [
+        {
+          "answer": "You can run cold-water cycles safely in the short term, but washing at cold temperatures will not effectively remove bacteria, grease, or heavy soiling. Avoid using the machine on hot programmes until the fault is fixed, as a failing element can occasionally cause electrical issues. It is best to resolve the fault promptly.",
+          "question": "Can I still use my Electrolux washing machine if it is not heating?"
+        },
+        {
+          "answer": "Error code E61 indicates that the control board is not detecting a rise in water temperature during the heating phase. This usually points to a failed heating element, but a faulty NTC sensor giving a false temperature reading can produce the same code. Work through the element and sensor checks in the guide above to identify which component has failed.",
+          "question": "What does error code E61 mean on an Electrolux washing machine?"
+        },
+        {
+          "answer": "In average use, a heating element typically lasts 5–10 years. Elements in hard-water areas tend to fail sooner due to limescale build-up. Using a water softener or monthly descaling tablets can meaningfully extend element life. If your machine is older than 8 years and the element has failed, it is worth comparing the repair cost against the cost of a replacement appliance.",
+          "question": "How long does a washing machine heating element last?"
+        },
+        {
+          "answer": "For someone comfortable with basic electrical work and using a multimeter, replacing a heating element is a manageable DIY repair. The main risks are failing to disconnect the power before starting and not seating the rubber seal correctly, which can cause a leak. If you are unsure at any point, it is safer to call a service technician rather than risk water or electrical damage.",
+          "question": "Is replacing a washing machine heating element a DIY job?"
+        },
+        {
+          "answer": "Some Electrolux models only display heating error codes if the temperature sensor is also reporting a fault. If the sensor has failed in a way that makes the board think the water is already hot, the machine will skip the heating phase without raising an alert. Testing the NTC sensor with a multimeter as described in Step 4 will confirm whether this is the case.",
+          "question": "Why does my Electrolux washing machine show no error code but still not heat?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T16:09:19.683311+00:00"
+    },
+    {
+      "article_id": 356,
+      "locale": "sv",
+      "slug": "värmer-inte-vatten",
+      "title_tag": "Electrolux Tvättmaskin Värmer Inte Vatten – Lösningar",
+      "meta_description": "Electrolux tvättmaskin värmer inte vatten? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkoder E60–E",
+      "h1": "Varför Värmer Min Electrolux Tvättmaskin Inte Vattnet?",
+      "description": "Tvättmaskinen slutför programmen men vattnet förblir kallt, vilket innebär att kläderna inte tvättas vid den valda temperaturen.",
+      "quick_fix": "Kör ett bomullsprogram på 60°C och känn på luckan efter 10 minuter — om glaset inte är varmt, kontrollera och återställ säkringen för tvättmaskinens krets, eftersom ett partiellt strömfel kan slå ut värmaren medan motorn fortsätter att fungera (tar ungefär 5 minuter).",
+      "intro_html": "<p>När en Electrolux tvättmaskin inte värmer vattnet fortsätter trumman att fyllas, tvätta och tömma som normalt — vilket gör att felet kan gå obemärkt förbi tills du tar ut kläder som luktar unket eller känns otillräckligt rengjorda. Värmesystemet är en separat elektrisk krets inuti maskinen, vilket är anledningen till att allt annat kan verka fungera perfekt medan vattnet förblir kallt under hela programmet.</p><p>Felet beror oftast på själva värmeelementet, NTC-temperatursensorn eller styrkortet som hanterar värmecykeln. Electrolux-maskiner kan visa felkoderna E60, E61, E62, E68 eller E71 när ett värmefel upptäcks, men vissa modeller slutför helt enkelt programmet utan att utlösa någon synlig varning.</p><p>Eftersom detta fel involverar högspänningskomponenter kräver vissa steg en multimeter och grundläggande elektrisk kunskap. Gå igenom kontrollerna nedan i ordning innan du avgör om reparationen ligger inom din kompetensnivå.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt värmeelement",
+          "detail": "Värmeelementet är en resistiv spole nedsänkt i trummans sump. Med tiden bränner det ut eller får ett brott i spolen, vilket helt förhindrar värmeutveckling. Detta är den i särklass vanligaste orsaken till ett kalltvättfel och är kopplat till felkoderna E60 och E61."
+        },
+        {
+          "cause": "Felaktig NTC-temperatursensor",
+          "detail": "NTC-sensorn (negativ temperaturkoefficient) övervakar vattentemperaturen och rapporterar den till styrkortet. Om sensorn tappar kalibrering eller går sönder i öppet läge aktiverar kortet antingen aldrig värmeelementet eller stänger av det i förtid. Felkoderna E71 och E62 är vanligtvis kopplade till sensorfel."
+        },
+        {
+          "cause": "Defekt styrkort eller relä",
+          "detail": "Huvud-PCB:n innehåller ett relä som kopplar ström till värmeelementet. Om detta relä bränner ut eller kortet utvecklar ett fel får värmekretsen ingen ström trots att elementet i sig är intakt. Felkod E68 kan peka på ett värmefel på kortnivå."
+        },
+        {
+          "cause": "Skada på kabelstam eller löst kontaktdon",
+          "detail": "Kabelstammen som förbinder elementet och sensorn med styrkortet kan drabbas av värmestress, vibrationer eller gnagskador. Ett löst spadedon på elementets anslutningar är en förvånansvärt vanlig orsak som lätt förbises."
+        },
+        {
+          "cause": "Kraftig kalkavlagring på elementet",
+          "detail": "I områden med hårt vatten täcker kalciumavlagringar elementsytan, isolerar det och gör att det överhettas och går sönder i förtid. Ett kalkat element kan fortfarande visa kontinuitet på en multimeter men värmer inte effektivt och kommer till slut att utlösa det termiska skyddet."
+        },
+        {
+          "cause": "Utlöst termiskt skydd (termostat)",
+          "detail": "Vissa Electrolux-modeller har ett termiskt säkerhetsskydd som löser ut om elementet överhettas. Till skillnad från en säkring kan vissa versioner återställas manuellt, men ett upprepat utlösande indikerar ett underliggande problem med elementet eller sensorn som måste åtgärdas."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Bekräfta felet och kontrollera felkoder",
+          "detail": "Välj ett program på 60°C eller 90°C och starta maskinen. Efter 10–15 minuter, känn försiktigt på luckan — den bör vara märkbart varm. Om den är kall fungerar inte värmeelementet. Kontrollera displayen efter lagrade felkoder (E60, E61, E62, E68, E71) genom att konsultera din modells diagnostikläge, som vanligtvis aktiveras genom att hålla in två knappar samtidigt enligt bruksanvisningen."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera strömförsörjningen och säkringen",
+          "detail": "Ett partiellt elfel — till exempel en utlöst säkring eller en trasig säkring på värmekretsen — kan låta motorn fortsätta att gå medan strömmen till elementet bryts. Gå till din elcentral och kontrollera att säkringen för tvättmaskinens krets är helt påslagen. Återställ den om den har löst ut och testa sedan igen. Kontrollera också att maskinen är direktansluten till ett vägguttag och inte till en förlängningssladd."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera värmeelementet med en multimeter",
+          "detail": "Koppla bort maskinen från elnätet. Ta bort bakpanelen för att komma åt elementet, som sitter längst ner i trumman. Koppla loss kabelkontakterna och ställ in multimetern på motstånd (Ω). Ett friskt element läser vanligtvis mellan 20–30 Ω; ett öppet kretsvärde (OL eller oändligt) bekräftar att elementet har gått sönder och behöver bytas. Kontrollera också att spadedonerna sitter ordentligt och inte visar tecken på brännskador."
+        },
+        {
+          "step": 4,
+          "action": "Testa NTC-temperatursensorn",
+          "detail": "Med maskinen fortfarande urkopplad, lokalisera NTC-sensorn — den sitter vanligtvis fastklämd i elementhuset eller monterad i närheten på trummans sump. Koppla loss den och mät motståndet över dess två anslutningar. Vid rumstemperatur (cirka 20°C) läser en typisk NTC-sensor ungefär 10 000–12 000 Ω. Ett värde på noll eller oändligt motstånd indikerar en defekt sensor. Ersättningssensorer är billiga och enkla att montera."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera kabelstam och kontaktdon",
+          "detail": "Följ kablarna från elementet och sensorn tillbaka mot styrkortet. Leta efter kablar som är inklämd, nötta eller har smält isolering. Dra försiktigt i varje kontaktdon för att bekräfta att det sitter ordentligt. Ett kontaktdon som lossnar med minimal kraft behöver krimpas om eller bytas. Reparera eventuellt skadad isolering med krympslang innan du monterar ihop maskinen."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera och återställ det termiska skyddet om det finns",
+          "detail": "Vissa Electrolux-modeller har ett återställningsbart termiskt skydd monterat på eller nära elementet. Det är en liten skivformad komponent med en återställningsknapp i mitten. Tryck in knappen ordentligt med en pennspets — du bör känna ett klick. Om det löser ut igen vid nästa program måste den underliggande orsaken (vanligtvis ett defekt element eller sensor) åtgärdas innan maskinen är säker att använda."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut värmeelementet",
+          "detail": "Om elementet har misslyckats kontinuitetstestet, skaffa ett äkta Electrolux-ersättningselement som matchar ditt modellnummer (finns på etiketten inuti lucköppningen). Montera det nya elementet i trummans sump och se till att gummitätningen sitter korrekt för att förhindra läckor. Återanslut all kablage, montera tillbaka bakpanelen och kör ett testprogram på 60°C för att bekräfta reparationen. Luckan bör kännas varm inom 15 minuter."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har bytt ut värmeelementet och NTC-sensorn men maskinen fortfarande inte värmer, beror felet troligtvis på huvudstyrkortet. Diagnos och byte på kortnivå kräver specialutrustning och förståelse för kretskort — detta är inte en enkel gör-det-själv-reparation, och ett felaktigt byte kan orsaka ytterligare skador på maskinen.</p><p>Du bör också kontakta en servicetekniker omedelbart om du märker bränd lukt, brännmärken runt elementets anslutningar eller tecken på vattenläckage från trummans sumpområde. Dessa indikerar en säkerhetsrisk och maskinen bör inte användas förrän den har inspekterats av en behörig fackman.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Electrolux tvättmaskin slutar värma är <strong>värmeelementet</strong>, <strong>NTC-temperatursensorn</strong> och ibland <strong>huvudstyrkortets relä</strong>. Att använda äkta Electrolux-delar säkerställer korrekta motståndsvärden och rätt passform, vilket minskar risken för att felet återkommer. I områden med hårt vatten förlänger ett månatligt trumrengöringsprogram med en avkalkningsprodukt elementets livslängd avsevärt genom att förhindra den kalciumavlagring som orsakar för tidig utbränning.</p><p>Sök efter kompatibla delar för din specifika modell med verktyget nedan — ange ditt fullständiga modellnummer från etiketten inuti lucköppningen för exakta resultat.</p>\n<!-- SPARE_PARTS_FAULT:not-heating-water -->",
+      "faq_json": [
+        {
+          "answer": "Du kan köra kallvatttenprogram säkert på kort sikt, men tvätt i kallt vatten tar inte effektivt bort bakterier, fett eller kraftig smuts. Undvik att använda maskinen på varma program tills felet är åtgärdat, eftersom ett defekt element ibland kan orsaka elektriska problem. Det är bäst att lösa felet så snart som möjligt.",
+          "question": "Kan jag fortfarande använda min Electrolux tvättmaskin om den inte värmer?"
+        },
+        {
+          "answer": "Felkod E61 indikerar att styrkortet inte registrerar någon temperaturökning i vattnet under uppvärmningsfasen. Detta pekar vanligtvis på ett defekt värmeelement, men en felaktig NTC-sensor som ger en falsk temperaturavläsning kan ge samma kod. Gå igenom kontrollerna av elementet och sensorn i guiden ovan för att identifiera vilken komponent som har gått sönder.",
+          "question": "Vad betyder felkod E61 på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Vid normalt bruk håller ett värmeelement vanligtvis 5–10 år. Element i områden med hårt vatten tenderar att gå sönder tidigare på grund av kalkavlagringar. Att använda ett vattenavhärdningsmedel eller månatliga avkalkningsprodukter kan märkbart förlänga elementets livslängd. Om din maskin är äldre än 8 år och elementet har gått sönder är det värt att jämföra reparationskostnaden med kostnaden för en ny maskin.",
+          "question": "Hur länge håller ett värmeelement i en tvättmaskin?"
+        },
+        {
+          "answer": "För någon som är bekväm med grundläggande elarbete och att använda en multimeter är byte av värmeelement en hanterbar gör-det-själv-reparation. De främsta riskerna är att glömma att koppla bort strömmen innan man börjar och att inte montera gummitätningen korrekt, vilket kan orsaka läckage. Om du är osäker vid något tillfälle är det säkrare att kontakta en servicetekniker än att riskera vatten- eller elskador.",
+          "question": "Är det ett gör-det-själv-jobb att byta värmeelement i en tvättmaskin?"
+        },
+        {
+          "answer": "Vissa Electrolux-modeller visar bara värmefelkoder om temperatursensorn också rapporterar ett fel. Om sensorn har gått sönder på ett sätt som får kortet att tro att vattnet redan är varmt, hoppar maskinen över uppvärmningsfasen utan att utlösa någon varning. Att testa NTC-sensorn med en multimeter enligt beskrivningen i steg 4 bekräftar om detta är fallet.",
+          "question": "Varför visar min Electrolux tvättmaskin ingen felkod men värmer ändå inte?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T16:10:39.052152+00:00"
+    },
+    {
+      "article_id": 357,
+      "locale": "en",
+      "slug": "vibrating-excessively",
+      "title_tag": "Electrolux Washing Machine Vibrating Excessively – Fixes",
+      "meta_description": "Is your Electrolux washing machine shaking violently during a cycle? Learn the most common causes and how to fix excessive vibration yourself at home.",
+      "h1": "Why Is My Electrolux Washing Machine Vibrating So Much?",
+      "description": "The washing machine shakes, rattles, or moves across the floor during the spin cycle, more than would be considered normal operation.",
+      "quick_fix": "Check that all four transit bolts have been removed from the back of the machine — leaving even one in place causes severe vibration during spin, and removing them takes about 5 minutes.",
+      "intro_html": "<p>Excessive vibration during a wash cycle — particularly during the spin phase — is one of the most common complaints reported across Electrolux washing machines. The machine may rock back and forth, produce a loud banging noise, or even walk across the floor. While alarming, this symptom is very often caused by something straightforward that you can resolve yourself without any specialist tools.</p><p>The spin cycle is the most demanding phase of any wash program, and it places significant mechanical stress on the drum, suspension, and feet of the machine. When something is out of balance — whether that's the load inside the drum, the machine's position on the floor, or a worn mechanical component — that stress becomes visible as shaking or vibration.</p><p>Working through the checks below in order will help you identify the root cause quickly. Most cases are resolved at step one or two.</p>",
+      "causes_json": [
+        {
+          "cause": "Transit bolts not removed",
+          "detail": "Electrolux washing machines are shipped with metal transit bolts fitted to the rear panel to lock the drum in place during transport. If these are not removed before first use, the drum cannot move freely and the machine will vibrate violently on every spin cycle."
+        },
+        {
+          "cause": "Uneven or unstable floor surface",
+          "detail": "A machine sitting on an uneven floor, a soft surface like thick carpet, or a surface that flexes under load will rock during spin. Even a small amount of unevenness can amplify vibration significantly at high spin speeds."
+        },
+        {
+          "cause": "Adjustable feet not levelled correctly",
+          "detail": "All four feet need to be in firm, even contact with the floor. If one or more feet are not properly adjusted or have worked loose over time, the machine will tip and rock rather than sitting stable."
+        },
+        {
+          "cause": "Unbalanced laundry load",
+          "detail": "A single heavy item — such as a duvet, jeans, or a towel — can clump to one side of the drum during spin, creating an off-centre load. The machine's balance system will attempt to compensate, but severe imbalance causes heavy vibration and sometimes an automatic speed reduction."
+        },
+        {
+          "cause": "Worn or damaged drum bearings",
+          "detail": "Over time, the drum bearings that allow the inner drum to spin smoothly can wear out. This typically produces a loud rumbling or grinding noise alongside vibration, and tends to worsen gradually over several months."
+        },
+        {
+          "cause": "Faulty or broken suspension springs or shock absorbers",
+          "detail": "The drum is held in place by a set of springs and shock absorbers designed to dampen movement during spin. If one of these components breaks or loses its damping ability, the drum will move excessively and cause the whole machine to shake."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Remove the transit bolts",
+          "detail": "Look at the back panel of your Electrolux washing machine for three or four large plastic-capped bolts. These are the transit bolts and must be removed before the machine is used. Use a spanner to unscrew them, then keep them somewhere safe in case you need to move the machine in future. Once removed, the drum should swing freely when you push it by hand."
+        },
+        {
+          "step": 2,
+          "action": "Level the machine using the adjustable feet",
+          "detail": "Place a spirit level on top of the machine and check it in both directions. Each foot can be screwed up or down by hand or with a spanner — turn anticlockwise to lower, clockwise to raise. Once all four feet are in firm contact with the floor and the machine is level, tighten the locking nut on each foot up against the base of the machine to stop them moving again."
+        },
+        {
+          "step": 3,
+          "action": "Move the machine onto a hard, flat floor if possible",
+          "detail": "If your machine sits on thick carpet or a wooden floor that flexes, try repositioning it on a solid tile or concrete surface. If moving it is not practical, a purpose-made anti-vibration mat placed under all four feet can significantly reduce movement and noise by increasing grip and stability."
+        },
+        {
+          "step": 4,
+          "action": "Redistribute or reduce the laundry load",
+          "detail": "Open the door and rearrange the laundry so items are spread evenly around the drum. Avoid washing a single large heavy item on its own — add a couple of towels to balance the load. As a general rule, the drum should be no more than three-quarters full, and items should not be packed in tightly."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the shock absorbers for visible damage",
+          "detail": "With the machine unplugged, remove the front or rear panel (depending on your model — check your user manual). Locate the two shock absorbers connecting the drum to the outer casing. Push and pull the drum by hand; it should move smoothly with resistance. If a shock absorber looks bent, leaking, or offers no resistance at all, it needs to be replaced."
+        },
+        {
+          "step": 6,
+          "action": "Check the suspension springs",
+          "detail": "While the panel is off, look at the springs that hang the drum from the top of the cabinet. Each spring should be intact and hooked securely at both ends. A broken or detached spring will allow the drum to hang unevenly, causing severe vibration. Replacement springs are inexpensive and clip into place without specialist tools."
+        },
+        {
+          "step": 7,
+          "action": "Listen for bearing noise during a short spin",
+          "detail": "Run a short spin-only cycle and listen carefully. A deep rumbling or grinding sound that gets louder as the spin speed increases points to worn drum bearings. This is distinct from the banging of an unbalanced load. If you suspect bearing wear, note the sound and contact a service technician, as bearing replacement requires significant disassembly."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and the machine is still vibrating excessively, or if you can hear a persistent grinding or rumbling noise during spin that suggests worn drum bearings, it is time to call a service technician. Bearing replacement involves removing the drum from the machine and is not a practical DIY repair for most homeowners.</p><p>You should also seek professional help if you notice the drum is visibly dropping lower on one side when the machine is empty, if the machine has suffered a hard knock or been moved roughly, or if any of the internal components you inspect look cracked or severely corroded. Continuing to run the machine in this condition can cause further damage.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when dealing with excessive vibration on Electrolux washing machines are the shock absorbers, the drum suspension springs, and the drum bearing kit (which typically includes the bearing, seal, and sometimes the rear drum half). Keeping an eye on these components during any routine inspection can help you catch wear before it becomes a serious problem.</p><p>To reduce the risk of vibration developing over time, always load the machine evenly, avoid consistently running very small or very large loads, and check the levelling feet every six months or so — they can work loose gradually through normal use.</p>\n<!-- SPARE_PARTS_FAULT:vibrating-excessively -->",
+      "faq_json": [
+        {
+          "answer": "It depends on the cause. If the vibration is due to an unbalanced load or unlevel feet, running the machine briefly while you investigate is unlikely to cause harm. However, if the vibration is caused by a broken shock absorber, damaged spring, or worn bearings, continued use can cause further internal damage and should be avoided until the fault is fixed.",
+          "question": "Is it safe to keep using my Electrolux washing machine if it's vibrating badly?"
+        },
+        {
+          "answer": "Some increase in vibration at higher spin speeds is normal, but the machine should not shake violently or move across the floor. If reducing the spin speed in your program settings stops the problem, try levelling the machine and checking the load balance first. Persistent vibration even at moderate spin speeds points to a mechanical fault.",
+          "question": "My machine only vibrates on high spin speeds — is that normal?"
+        },
+        {
+          "answer": "Look at the back panel of the machine for three or four large bolts, usually covered with coloured plastic caps or plugs. Your user manual will show their exact location and how to remove them. If the machine is brand new or has recently been moved, this is the first thing to check.",
+          "question": "How do I know if my Electrolux washing machine still has transit bolts fitted?"
+        },
+        {
+          "answer": "Yes, particularly on hard floors where the machine can slide, or on slightly uneven surfaces. A good quality anti-vibration mat increases grip, absorbs some of the drum movement, and can noticeably reduce both vibration and noise. It is not a substitute for proper levelling, but it works well alongside it.",
+          "question": "Can an anti-vibration mat really make a difference?"
+        },
+        {
+          "answer": "On a machine used regularly — say, five to seven cycles per week — shock absorbers typically last between five and ten years. Consistently overloading the machine or running it on an uneven surface can shorten their lifespan. If your machine is more than seven years old and vibration has gradually worsened, worn shock absorbers are a likely cause.",
+          "question": "How long do washing machine shock absorbers typically last?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T16:11:31.152936+00:00"
+    },
+    {
+      "article_id": 357,
+      "locale": "sv",
+      "slug": "vibrerar-för-mycket",
+      "title_tag": "Electrolux Tvättmaskin Vibrerar För Mycket – Lösningar",
+      "meta_description": "Skakar din Electrolux tvättmaskin våldsamt under ett program? Lär dig de vanligaste orsakerna och hur du själv åtgärdar kraftiga vibrationer hemma.",
+      "h1": "Varför Vibrerar Min Electrolux Tvättmaskin Så Mycket?",
+      "description": "Tvättmaskinen skakar, skramlar eller vandrar över golvet under centrifugeringen, mer än vad som kan anses vara normal drift.",
+      "quick_fix": "Kontrollera att alla fyra transportbultarna har tagits bort från maskinens baksida – även om bara en sitter kvar orsakar det kraftiga vibrationer under centrifugering, och att ta bort dem tar ungefär 5 minuter.",
+      "intro_html": "<p>Kraftiga vibrationer under ett tvättprogram – särskilt under centrifugeringsfasen – är ett av de vanligaste problemen som rapporteras för Electrolux tvättmaskiner. Maskinen kan gunga fram och tillbaka, producera ett högt bankande ljud eller till och med vandra över golvet. Även om det kan verka alarmerande beror symptomet mycket ofta på något enkelt som du kan åtgärda själv utan specialverktyg.</p><p>Centrifugeringen är den mest krävande fasen i vilket tvättprogram som helst och utsätter trumman, upphängningen och maskinens fötter för betydande mekanisk belastning. När något är i obalans – oavsett om det gäller lasten i trumman, maskinens placering på golvet eller en sliten mekanisk komponent – blir den belastningen synlig som skakningar eller vibrationer.</p><p>Att gå igenom kontrollerna nedan i ordning hjälper dig att snabbt identifiera grundorsaken. De flesta fall löses vid steg ett eller två.</p>",
+      "causes_json": [
+        {
+          "cause": "Transportbultar inte borttagna",
+          "detail": "Electrolux tvättmaskiner levereras med metallbultar monterade på bakpanelen för att låsa trumman på plats under transport. Om dessa inte tas bort innan första användning kan trumman inte röra sig fritt och maskinen kommer att vibrera kraftigt vid varje centrifugering."
+        },
+        {
+          "cause": "Ojämnt eller instabilt underlag",
+          "detail": "En maskin som står på ett ojämnt golv, ett mjukt underlag som tjock matta, eller ett underlag som böjer sig under belastning kommer att gunga under centrifugeringen. Även en liten ojämnhet kan förstärka vibrationerna avsevärt vid höga centrifugeringshastigheter."
+        },
+        {
+          "cause": "Justerbara fötter inte korrekt inställda",
+          "detail": "Alla fyra fötter måste ha fast och jämn kontakt med golvet. Om en eller flera fötter inte är korrekt justerade eller har lossnat med tiden kommer maskinen att tippa och gunga i stället för att stå stabilt."
+        },
+        {
+          "cause": "Obalanserad tvätt",
+          "detail": "Ett enda tungt plagg – till exempel en täcke, ett par jeans eller en handduk – kan klumpa ihop sig på ena sidan av trumman under centrifugeringen och skapa en excentrisk last. Maskinens balanssystem försöker kompensera, men kraftig obalans orsakar starka vibrationer och ibland en automatisk hastighetsminskning."
+        },
+        {
+          "cause": "Slitna eller skadade trumlagrar",
+          "detail": "Med tiden kan trumlagren som gör att innertrumman snurrar smidigt slitas ut. Detta ger vanligtvis ett högt mullrande eller malande ljud tillsammans med vibrationer, och tenderar att förvärras gradvis under flera månader."
+        },
+        {
+          "cause": "Defekta eller trasiga upphängningsfäder eller stötdämpare",
+          "detail": "Trumman hålls på plats av ett antal fjädrar och stötdämpare som är utformade för att dämpa rörelser under centrifugeringen. Om någon av dessa komponenter går sönder eller förlorar sin dämpningsförmåga kommer trumman att röra sig för mycket och få hela maskinen att skaka."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Ta bort transportbultarna",
+          "detail": "Titta på bakpanelen på din Electrolux tvättmaskin efter tre eller fyra stora bultar med plastlock. Det är transportbultarna och de måste tas bort innan maskinen används. Använd en skiftnyckel för att skruva loss dem och förvara dem på ett säkert ställe ifall du behöver flytta maskinen i framtiden. När de är borttagna ska trumman svänga fritt när du trycker på den med handen."
+        },
+        {
+          "step": 2,
+          "action": "Nivellera maskinen med de justerbara fötterna",
+          "detail": "Placera ett vattenpass ovanpå maskinen och kontrollera i båda riktningarna. Varje fot kan skruvas upp eller ned för hand eller med en skiftnyckel – vrid moturs för att sänka, medurs för att höja. När alla fyra fötter har fast kontakt med golvet och maskinen är i våg, dra åt låsmuttern på varje fot mot maskinens undersida så att de inte rör sig igen."
+        },
+        {
+          "step": 3,
+          "action": "Flytta maskinen till ett hårt, plant golv om möjligt",
+          "detail": "Om maskinen står på tjock matta eller ett trägolv som böjer sig, försök att flytta den till ett fast kakel- eller betongunderlag. Om det inte är praktiskt möjligt att flytta den kan en specialtillverkad antivibrationsmat placerad under alla fyra fötter avsevärt minska rörelse och ljud genom att öka greppet och stabiliteten."
+        },
+        {
+          "step": 4,
+          "action": "Fördela om eller minska tvättlasten",
+          "detail": "Öppna luckan och fördela om tvätten så att plaggen är jämnt fördelade runt trumman. Undvik att tvätta ett enda stort tungt plagg ensamt – lägg i ett par handdukar för att balansera lasten. Som en allmän regel bör trumman inte vara mer än tre fjärdedelar full och plaggen ska inte packas in tätt."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera stötdämparna för synliga skador",
+          "detail": "Med maskinen urkopplad, ta bort fram- eller bakpanelen (beroende på modell – se bruksanvisningen). Leta upp de två stötdämparna som förbinder trumman med ytterhöljet. Tryck och dra i trumman för hand; den ska röra sig mjukt med motstånd. Om en stötdämpare ser böjd ut, läcker eller inte ger något motstånd alls behöver den bytas."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera upphängningsfjädrarna",
+          "detail": "Medan panelen är borttagen, titta på fjädrarna som hänger upp trumman från skåpets ovansida. Varje fjäder ska vara hel och säkert hakad i båda ändarna. En trasig eller lossad fjäder gör att trumman hänger ojämnt och orsakar kraftiga vibrationer. Ersättningsfjädrar är billiga och klickar på plats utan specialverktyg."
+        },
+        {
+          "step": 7,
+          "action": "Lyssna efter lagerljud under en kort centrifugering",
+          "detail": "Kör ett kort centrifugeringsprogram och lyssna noga. Ett djupt mullrande eller malande ljud som blir högre när centrifugeringshastigheten ökar tyder på slitna trumlagrar. Detta skiljer sig från bankandet från en obalanserad last. Om du misstänker lagerslitage, notera ljudet och kontakta en servicetekniker, eftersom lagerbyte kräver omfattande isärtagning."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har gått igenom alla stegen ovan och maskinen fortfarande vibrerar kraftigt, eller om du hör ett ihållande malande eller mullrande ljud under centrifugeringen som tyder på slitna trumlagrar, är det dags att kontakta en servicetekniker. Lagerbyte innebär att trumman måste tas ut ur maskinen och är inte en praktisk DIY-reparation för de flesta hushåll.</p><p>Du bör också söka professionell hjälp om du märker att trumman synligt sjunker lägre på ena sidan när maskinen är tom, om maskinen har utsatts för ett hårt slag eller flyttats ovarsamt, eller om några av de interna komponenter du inspekterar ser spruckna eller kraftigt korroderade ut. Att fortsätta använda maskinen i detta skick kan orsaka ytterligare skador.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid kraftiga vibrationer på Electrolux tvättmaskiner är stötdämparna, trummans upphängningsfjädrar och trumlagersatsen (som vanligtvis inkluderar lagret, tätningen och ibland den bakre trumhalvan). Att hålla ett öga på dessa komponenter vid rutinmässig inspektion kan hjälpa dig att upptäcka slitage innan det blir ett allvarligt problem.</p><p>För att minska risken för att vibrationer uppstår med tiden, ladda alltid maskinen jämnt, undvik att konsekvent köra mycket små eller mycket stora laster och kontrollera nivelleringsfötterna var sjätte månad eller så – de kan lossna gradvis genom normal användning.</p>\n<!-- SPARE_PARTS_FAULT:vibrating-excessively -->",
+      "faq_json": [
+        {
+          "answer": "Det beror på orsaken. Om vibrationerna beror på en obalanserad last eller ojämna fötter är det troligtvis ofarligt att köra maskinen kortvarigt medan du undersöker problemet. Om vibrationerna däremot orsakas av en trasig stötdämpare, skadad fjäder eller slitna lager kan fortsatt användning orsaka ytterligare interna skador och bör undvikas tills felet är åtgärdat.",
+          "question": "Är det säkert att fortsätta använda min Electrolux tvättmaskin om den vibrerar kraftigt?"
+        },
+        {
+          "answer": "En viss ökning av vibrationerna vid högre centrifugeringshastigheter är normalt, men maskinen ska inte skaka våldsamt eller vandra över golvet. Om det hjälper att sänka centrifugeringshastigheten i programinställningarna, försök först att nivellera maskinen och kontrollera lastbalansen. Ihållande vibrationer även vid måttliga centrifugeringshastigheter tyder på ett mekaniskt fel.",
+          "question": "Min maskin vibrerar bara vid höga centrifugeringshastigheter – är det normalt?"
+        },
+        {
+          "answer": "Titta på maskinens bakpanel efter tre eller fyra stora bultar, vanligtvis täckta med färgade plastlock eller pluggar. Din bruksanvisning visar deras exakta placering och hur du tar bort dem. Om maskinen är helt ny eller nyligen har flyttats är detta det första du bör kontrollera.",
+          "question": "Hur vet jag om min Electrolux tvättmaskin fortfarande har transportbultar monterade?"
+        },
+        {
+          "answer": "Ja, särskilt på hårda golv där maskinen kan glida, eller på något ojämna underlag. En antivibrationsmat av god kvalitet ökar greppet, absorberar en del av trummans rörelser och kan märkbart minska både vibrationer och ljud. Den ersätter inte korrekt nivellering, men fungerar bra som komplement.",
+          "question": "Kan en antivibrationsmat verkligen göra skillnad?"
+        },
+        {
+          "answer": "På en maskin som används regelbundet – säg fem till sju program per vecka – håller stötdämparna vanligtvis mellan fem och tio år. Att konsekvent överlasta maskinen eller köra den på ett ojämnt underlag kan förkorta deras livslängd. Om din maskin är mer än sju år gammal och vibrationerna gradvis har förvärrats är slitna stötdämpare en trolig orsak.",
+          "question": "Hur länge håller tvättmaskinens stötdämpare vanligtvis?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T16:12:44.112749+00:00"
+    },
+    {
+      "article_id": 360,
+      "locale": "en",
+      "slug": "door-seal-damaged",
+      "title_tag": "Electrolux Washing Machine Door Seal Damaged or Mouldy",
+      "meta_description": "Door seal cracked, torn or covered in mould on your Electrolux washing machine? Find out why it happens and how to fix or replace the gasket yourself.",
+      "h1": "Why Is My Electrolux Washing Machine Door Seal Damaged or Mouldy?",
+      "description": "The rubber door seal (gasket) on the washing machine drum opening shows visible cracks, tears, holes, or black mould growth that may cause leaks or unpleasant odours.",
+      "quick_fix": "Run a 90°C empty drum clean cycle with a washing machine cleaner tablet to kill surface mould on the seal, then wipe the gasket folds thoroughly with a diluted white vinegar solution — if mould is only superficial this often resolves the smell and appearance within about 20 minutes.",
+      "intro_html": "<p>The door seal, also called the door gasket or boot seal, is the flexible rubber ring that sits between the drum opening and the door glass on your Electrolux washing machine. It creates a watertight barrier every time the door closes, and it flexes thousands of times over the machine's lifetime. When it becomes damaged — cracked, torn, or perforated — water can escape onto your floor during a wash cycle. When it becomes mouldy, it produces a musty smell that transfers to your laundry.</p><p>Mould and physical damage are two distinct problems, though they often appear together. Mould thrives in the damp, warm folds of the gasket, especially if the door is kept closed between washes. Physical damage — splits, tears, or holes — is usually caused by sharp objects caught in the seal, age-related rubber degradation, or incorrect loading habits. Both issues affect the same part and, depending on severity, may require either a thorough clean or a full seal replacement.</p><p>This fault is recorded across more than 5,400 Electrolux washing machine models, making it one of the most common maintenance issues owners encounter. The good news is that in many cases it is straightforward to address at home.</p>",
+      "causes_json": [
+        {
+          "cause": "Mould and mildew build-up",
+          "detail": "Residual moisture trapped in the gasket folds after each wash creates ideal conditions for black mould. Keeping the door closed between cycles and using low-temperature washes frequently accelerates this growth significantly."
+        },
+        {
+          "cause": "Sharp objects caught in the seal",
+          "detail": "Coins, underwire from bras, hair clips, and zip teeth can lodge between the drum and the gasket during a spin cycle. These objects cut or puncture the rubber, creating small tears that worsen over time and eventually allow water to leak."
+        },
+        {
+          "cause": "Age-related rubber degradation",
+          "detail": "Over several years, the rubber compound in the gasket hardens, loses elasticity, and develops surface cracks. This is a natural ageing process that is accelerated by frequent high-temperature washes and harsh detergents."
+        },
+        {
+          "cause": "Detergent and fabric softener residue",
+          "detail": "Excess detergent or softener that does not fully rinse away accumulates in the gasket folds, creating a sticky film that feeds mould and can chemically degrade the rubber surface over time."
+        },
+        {
+          "cause": "Overloading the drum",
+          "detail": "Consistently overloading the machine forces laundry hard against the door seal during the spin cycle. Repeated mechanical stress stretches and weakens the rubber, eventually causing splits near the drum lip."
+        },
+        {
+          "cause": "Incorrect installation of a previous seal",
+          "detail": "If the gasket was replaced previously and not seated correctly in its retaining groove, it can roll or pinch during operation, leading to premature tearing at the edges."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Inspect the seal carefully in good light",
+          "detail": "Open the door and pull back the gasket folds all the way around the drum opening. Use a torch to look for cuts, holes, tears, or embedded objects. Distinguish between surface mould — which appears as black or grey spots — and physical damage such as splits or perforations, as this determines whether cleaning or replacement is needed."
+        },
+        {
+          "step": 2,
+          "action": "Remove any trapped objects",
+          "detail": "If you find a coin, wire, or clip lodged in the seal, carefully remove it with your fingers or blunt-nosed pliers. Check whether the object has caused a cut. A small nick under 5 mm may not leak immediately, but monitor it closely over the next few washes."
+        },
+        {
+          "step": 3,
+          "action": "Clean surface mould from the gasket",
+          "detail": "Mix equal parts white vinegar and warm water, or use a proprietary washing machine cleaner. Apply the solution to the gasket folds with an old toothbrush, scrubbing firmly into all the creases. Wipe away residue with a dry cloth. For heavy mould, a paste of bicarbonate of soda and water left for 10 minutes before scrubbing can be more effective."
+        },
+        {
+          "step": 4,
+          "action": "Run a hot maintenance wash",
+          "detail": "After cleaning, run a 90°C empty cycle — or use your machine's dedicated drum-clean programme if it has one — with a washing machine cleaning tablet or 250 ml of white vinegar in the drum. This kills remaining mould spores deep in the rubber and flushes residue from the drum and pipes."
+        },
+        {
+          "step": 5,
+          "action": "Assess whether the seal needs replacing",
+          "detail": "After cleaning, re-examine the gasket. If tears, holes, or deep cracks are present, or if mould has penetrated the rubber so deeply that it cannot be scrubbed away, the seal must be replaced. A damaged seal will not form a reliable watertight barrier and will continue to leak or harbour mould regardless of how often it is cleaned."
+        },
+        {
+          "step": 6,
+          "action": "Replace the door seal",
+          "detail": "Disconnect the machine from the mains power supply. Remove the detergent drawer, unscrew the door trim panel, and release the retaining spring band that holds the gasket in place — a flat-head screwdriver works well for this. Pull the old seal free, fit the new gasket by aligning the drain hole at the bottom, and press the retaining band firmly back into its groove all the way around. Reassemble the trim and run a short cycle to check for leaks before returning the machine to normal use."
+        },
+        {
+          "step": 7,
+          "action": "Test for leaks after replacement",
+          "detail": "Run a full 40°C wash cycle and observe the door area throughout. Check the floor around the machine and the inside of the door trim for any sign of moisture. If water escapes, the retaining band is likely not fully seated — switch off, unplug, and re-press the band into the groove before testing again."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Contact a service technician if the door seal has torn away from the drum housing and the retaining groove itself appears cracked or deformed, as this indicates a structural issue beyond a simple gasket swap. You should also seek professional help if water is leaking from behind the drum rather than from the door area, since this points to a separate internal fault — such as a damaged drum bearing seal or sump hose — that requires specialist diagnosis.</p><p>If you are uncomfortable removing the door trim panel or working around the retaining spring band, a technician can complete the seal replacement safely and quickly, typically within a single visit. Attempting the job without confidence risks damaging the door trim clips or misaligning the new seal, which will cause immediate leaking.</p>",
+      "prevention_html": "<p>The most effective way to prevent mould on the door seal is to leave the washing machine door ajar after every wash, allowing the drum and gasket to dry out fully. Wipe the gasket folds dry with a cloth after each cycle if possible, and run a 90°C maintenance wash at least once a month. Use only the recommended quantity of detergent — excess detergent is one of the leading contributors to residue build-up and mould growth. Avoid washing items with exposed metal components, such as underwired bras or clothing with broken zips, without placing them in a laundry bag first.</p><p>When a replacement is needed, the parts most commonly required for this fault are the <strong>door seal gasket</strong> itself, the <strong>door seal retaining spring band</strong> (which can stretch or snap during removal), and occasionally the <strong>door trim panel</strong> if clips are broken during disassembly. Use the part finder below to locate the correct components for your specific Electrolux model.</p>\n<!-- SPARE_PARTS_FAULT:door-seal-damaged -->",
+      "faq_json": [
+        {
+          "answer": "A small tear may not leak immediately, but it will worsen with every wash cycle and will eventually allow water to escape onto your floor. It is best to replace the seal as soon as you notice physical damage rather than waiting for a leak to develop. Continuing to use the machine also risks water reaching the motor or electrical components beneath the drum.",
+          "question": "Can I still use my washing machine if the door seal is slightly torn?"
+        },
+        {
+          "answer": "If scrubbing with vinegar or a dedicated cleaner removes the visible mould and the rubber underneath looks intact and flexible, cleaning has been successful. If the mould has stained the rubber permanently, returns within a few washes despite regular cleaning, or the rubber feels soft and spongy in affected areas, the seal has been degraded and should be replaced.",
+          "question": "How do I know if the mould on my door seal is too bad to clean?"
+        },
+        {
+          "answer": "Most homeowners with basic DIY confidence can complete the job in 45 to 90 minutes. The majority of that time is spent removing and refitting the door trim panel and working the retaining spring band back into position. Having the correct replacement part to hand before you start makes the process considerably smoother.",
+          "question": "How long does it take to replace an Electrolux washing machine door seal?"
+        },
+        {
+          "answer": "Mould and bacteria can also accumulate in the detergent drawer, the drawer housing, the drum itself, and the drain filter. If the smell persists after cleaning the gasket, remove and clean the detergent drawer thoroughly, check and empty the drain filter at the front bottom of the machine, and run another 90°C empty cycle. Persistent odours after all of these steps may indicate a blocked or slow-draining pump.",
+          "question": "Why does my washing machine smell even after I have cleaned the door seal?"
+        },
+        {
+          "answer": "Mould damage is generally considered a maintenance issue and is not covered under standard manufacturer warranties, as it results from usage habits rather than a manufacturing defect. Physical damage caused by a foreign object is similarly unlikely to be covered. If your machine is relatively new and the seal has cracked or split without any obvious cause, it is worth contacting Electrolux customer support to discuss whether a goodwill repair or replacement might apply.",
+          "question": "Is a door seal replacement covered under warranty?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T16:18:16.038512+00:00"
+    },
+    {
+      "article_id": 360,
+      "locale": "sv",
+      "slug": "dorrtätning-skadad",
+      "title_tag": "Electrolux Tvättmaskin Dörrtätning Skadad eller Möglig",
+      "meta_description": "Är dörrtätningen sprucken, trasig eller täckt av mögel på din Electrolux tvättmaskin? Ta reda på varför det händer och hur du lagar eller byter packningen själv.",
+      "h1": "Varför är dörrtätningen på min Electrolux tvättmaskin skadad eller möglig?",
+      "description": "Gummitätningen (packningen) vid trummans öppning visar synliga sprickor, revor, hål eller svart mögelväxt som kan orsaka läckor eller obehagliga lukter.",
+      "quick_fix": "Kör ett tomt trumrengöringsprogram vid 90°C med en rengöringstablett för tvättmaskiner för att döda ytligt mögel på tätningen, torka sedan av packningens veck noggrant med en utspädd lösning av vitvinsvinäger — om möglet bara är ytligt löser detta ofta lukten och utseendet inom ungefär 20 minuter.",
+      "intro_html": "<p>Dörrtätningen, även kallad dörrpackning eller manschetttätning, är den flexibla gummiringen som sitter mellan trummans öppning och dörrglaset på din Electrolux tvättmaskin. Den skapar en vattentät barriär varje gång dörren stängs och böjs tusentals gånger under maskinens livstid. När den skadas — spricker, rivs eller perforeras — kan vatten läcka ut på golvet under ett tvättprogram. När den blir möglig ger den ifrån sig en unken lukt som överförs till tvätten.</p><p>Mögel och fysisk skada är två skilda problem, även om de ofta uppträder tillsammans. Mögel trivs i de fuktiga, varma vecken på packningen, särskilt om dörren hålls stängd mellan tvättarna. Fysisk skada — sprickor, revor eller hål — orsakas vanligtvis av vassa föremål som fastnat i tätningen, åldersrelaterad gummidegradation eller felaktiga lastningsvanor. Båda problemen påverkar samma del och kan, beroende på allvarlighetsgrad, kräva antingen en grundlig rengöring eller ett fullständigt byte av tätningen.</p><p>Det här felet är registrerat på mer än 5 400 Electrolux tvättmaskinmodeller, vilket gör det till ett av de vanligaste underhållsproblemen som ägare stöter på. Den goda nyheten är att det i många fall är enkelt att åtgärda hemma.</p>",
+      "causes_json": [
+        {
+          "cause": "Uppbyggnad av mögel och mildew",
+          "detail": "Kvarvarande fukt som fastnar i packningens veck efter varje tvätt skapar idealiska förhållanden för svart mögel. Att hålla dörren stängd mellan programmen och ofta använda lågtemperaturtvättar påskyndar denna tillväxt avsevärt."
+        },
+        {
+          "cause": "Vassa föremål fastnade i tätningen",
+          "detail": "Mynt, byglar från behåar, hårspännen och dragkedjetänder kan fastna mellan trumman och packningen under ett centrifugeringsprogram. Dessa föremål skär eller punkterar gummit och skapar små revor som förvärras med tiden och till slut låter vatten läcka ut."
+        },
+        {
+          "cause": "Åldersrelaterad gummidegradation",
+          "detail": "Under flera år hårdnar gummisammansättningen i packningen, förlorar elasticitet och utvecklar ytsprickor. Detta är en naturlig åldrandeprocess som påskyndas av frekventa högtemperaturtvättar och aggressiva tvättmedel."
+        },
+        {
+          "cause": "Rester av tvättmedel och sköljmedel",
+          "detail": "Överskott av tvättmedel eller sköljmedel som inte sköljs bort fullständigt ansamlas i packningens veck och skapar en klibbig film som gynnar mögelväxt och kemiskt kan bryta ned gummiytan med tiden."
+        },
+        {
+          "cause": "Överfyllning av trumman",
+          "detail": "Att konsekvent överfylla maskinen pressar tvätten hårt mot dörrtätningen under centrifugeringen. Upprepad mekanisk belastning sträcker ut och försvagar gummit och orsakar till slut sprickor nära trumkanten."
+        },
+        {
+          "cause": "Felaktig montering av en tidigare tätning",
+          "detail": "Om packningen tidigare bytts ut och inte placerats korrekt i sitt hållspår kan den rulla eller nypa under drift, vilket leder till för tidig rivning vid kanterna."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Undersök tätningen noggrant i bra ljus",
+          "detail": "Öppna dörren och vik tillbaka packningens veck hela vägen runt trummans öppning. Använd en ficklampa för att leta efter skärningar, hål, revor eller inbäddade föremål. Skilj mellan ytligt mögel — som syns som svarta eller grå fläckar — och fysisk skada såsom sprickor eller perforeringar, eftersom detta avgör om rengöring eller byte behövs."
+        },
+        {
+          "step": 2,
+          "action": "Ta bort eventuella fastnade föremål",
+          "detail": "Om du hittar ett mynt, en tråd eller ett spänne som fastnat i tätningen, ta försiktigt bort det med fingrarna eller trubbiga näbbplatta tänger. Kontrollera om föremålet har orsakat ett snitt. En liten skåra under 5 mm kanske inte läcker omedelbart, men övervaka den noga under de närmaste tvättarna."
+        },
+        {
+          "step": 3,
+          "action": "Rengör ytligt mögel från packningen",
+          "detail": "Blanda lika delar vitvinsvinäger och varmt vatten, eller använd ett specialrengöringsmedel för tvättmaskiner. Applicera lösningen på packningens veck med en gammal tandborste och skrubba ordentligt i alla veck. Torka bort rester med en torr trasa. Vid kraftigt mögel kan en pasta av bikarbonat och vatten som får verka i 10 minuter innan skrubbning vara mer effektiv."
+        },
+        {
+          "step": 4,
+          "action": "Kör ett varmt underhållsprogram",
+          "detail": "Efter rengöringen, kör ett tomt program vid 90°C — eller använd maskinens dedikerade trumrengöringsprogram om det finns — med en rengöringstablett för tvättmaskiner eller 250 ml vitvinsvinäger i trumman. Detta dödar kvarvarande mögelsporer djupt i gummit och spolar bort rester från trumman och rören."
+        },
+        {
+          "step": 5,
+          "action": "Bedöm om tätningen behöver bytas",
+          "detail": "Efter rengöringen, undersök packningen igen. Om revor, hål eller djupa sprickor finns, eller om möglet har trängt så djupt in i gummit att det inte kan skrubbas bort, måste tätningen bytas. En skadad tätning bildar inte en tillförlitlig vattentät barriär och kommer att fortsätta läcka eller hysa mögel oavsett hur ofta den rengörs."
+        },
+        {
+          "step": 6,
+          "action": "Byt dörrtätningen",
+          "detail": "Koppla bort maskinen från elnätet. Ta bort tvättmedelslådan, skruva loss dörrens kantlist och lossa hållfjäderbandet som håller packningen på plats — en platt skruvmejsel fungerar bra för detta. Dra loss den gamla tätningen, montera den nya packningen genom att rikta in avloppsöppningen längst ned och tryck hållfjäderbandet ordentligt tillbaka i sitt spår hela vägen runt. Montera ihop kantlisten och kör ett kort program för att kontrollera om det läcker innan maskinen återgår till normal användning."
+        },
+        {
+          "step": 7,
+          "action": "Testa om det läcker efter bytet",
+          "detail": "Kör ett fullständigt tvättprogram vid 40°C och observera dörrområdet under hela programmet. Kontrollera golvet runt maskinen och insidan av dörrens kantlist för tecken på fukt. Om vatten läcker ut sitter hållfjäderbandet troligen inte helt på plats — stäng av, dra ur kontakten och tryck tillbaka bandet i spåret innan du testar igen."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om dörrtätningen har rivits loss från trumhuset och hållspåret självt verkar sprucket eller deformerat, eftersom detta indikerar ett strukturellt problem som går utöver ett enkelt packningsbyte. Du bör också söka professionell hjälp om vatten läcker från bakom trumman snarare än från dörrområdet, eftersom detta pekar på ett separat internt fel — såsom en skadad trumlagertätning eller sugslang — som kräver specialistdiagnos.</p><p>Om du känner dig osäker på att ta bort dörrens kantlist eller arbeta med hållfjäderbandet kan en tekniker utföra tätningsbytet säkert och snabbt, vanligtvis under ett enda besök. Att försöka utföra arbetet utan tillräcklig säkerhet riskerar att skada dörrens kantlistklämmor eller feljustera den nya tätningen, vilket omedelbart orsakar läckage.</p>",
+      "prevention_html": "<p>Det mest effektiva sättet att förhindra mögel på dörrtätningen är att lämna tvättmaskinens dörr på glänt efter varje tvätt, så att trumman och packningen kan torka ut helt. Torka packningens veck torra med en trasa efter varje program om möjligt, och kör ett underhållsprogram vid 90°C minst en gång i månaden. Använd endast rekommenderad mängd tvättmedel — överskott av tvättmedel är en av de främsta orsakerna till restuppbyggnad och mögelväxt. Undvik att tvätta plagg med exponerade metalldelar, såsom behåar med byglar eller kläder med trasiga dragkedjor, utan att först lägga dem i en tvättnätspåse.</p><p>När ett byte behövs är de delar som oftast krävs för detta fel själva <strong>dörrtätningspackingen</strong>, <strong>dörrtätningens hållfjäderband</strong> (som kan sträckas ut eller gå av vid borttagning) och ibland <strong>dörrens kantlist</strong> om klämmor går sönder vid demonteringen. Använd reservdelsguiden nedan för att hitta rätt komponenter för din specifika Electrolux-modell.</p>\n<!-- SPARE_PARTS_FAULT:door-seal-damaged -->",
+      "faq_json": [
+        {
+          "answer": "En liten repa kanske inte läcker omedelbart, men den förvärras för varje tvättprogram och kommer till slut att låta vatten rinna ut på golvet. Det är bäst att byta tätningen så snart du märker fysisk skada snarare än att vänta på att en läcka ska uppstå. Att fortsätta använda maskinen riskerar också att vatten når motorn eller de elektriska komponenterna under trumman.",
+          "question": "Kan jag fortfarande använda tvättmaskinen om dörrtätningen är något trasig?"
+        },
+        {
+          "answer": "Om skrubbning med vinäger eller ett dedikerat rengöringsmedel tar bort det synliga möglet och gummit under ser intakt och flexibelt ut har rengöringen lyckats. Om möglet har missfärgat gummit permanent, återkommer inom några tvättar trots regelbunden rengöring, eller om gummit känns mjukt och svampigt i drabbade områden, har tätningen degraderats och bör bytas.",
+          "question": "Hur vet jag om möglet på min dörrtätning är för allvarligt för att rengöras?"
+        },
+        {
+          "answer": "De flesta hemmafixare med grundläggande hantverksvana kan slutföra arbetet på 45 till 90 minuter. Större delen av tiden ägnas åt att ta bort och montera tillbaka dörrens kantlist samt att arbeta tillbaka hållfjäderbandet på plats. Att ha rätt reservdel till hands innan du börjar gör processen betydligt smidigare.",
+          "question": "Hur lång tid tar det att byta dörrtätningen på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Mögel och bakterier kan också ansamlas i tvättmedelslådan, lådans hus, trumman och avloppsfilter. Om lukten kvarstår efter rengöring av packningen, ta bort och rengör tvättmedelslådan noggrant, kontrollera och töm avlopp filtret längst ned på maskinens framsida, och kör ytterligare ett tomt program vid 90°C. Ihållande lukter efter alla dessa åtgärder kan tyda på en igensatt eller långsamt dränerande pump.",
+          "question": "Varför luktar min tvättmaskin illa även efter att jag har rengjort dörrtätningen?"
+        },
+        {
+          "answer": "Mögelskador betraktas i allmänhet som ett underhållsproblem och täcks inte av standardtillverkargarantier, eftersom det beror på användningsvanor snarare än ett tillverkningsfel. Fysisk skada orsakad av ett främmande föremål är på liknande sätt osannolikt att täckas. Om din maskin är relativt ny och tätningen har spruckit eller rivits utan någon uppenbar orsak är det värt att kontakta Electrolux kundtjänst för att diskutera om en reparation eller ett byte av välvilja kan vara aktuellt.",
+          "question": "Täcker garantin ett byte av dörrtätningen?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T16:19:47.039452+00:00"
+    },
+    {
+      "article_id": 361,
+      "locale": "en",
+      "slug": "drum-not-turning",
+      "title_tag": "Electrolux Washing Machine Drum Not Turning – Fixes",
+      "meta_description": "Electrolux washing machine drum not turning? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers error codes E50–E54.",
+      "h1": "Why Has My Electrolux Washing Machine Drum Stopped Turning?",
+      "description": "The washing machine drum remains stationary during the wash or spin cycle instead of rotating as expected.",
+      "quick_fix": "Check and replace the drive belt — open the back panel, locate the belt around the drum pulley and motor, and fit a new one if it is snapped or has slipped off; this resolves the fault in the majority of cases (takes about 30 minutes).",
+      "intro_html": "<p>When your Electrolux washing machine fills with water and hums but the drum stays completely still, or the drum moves sluggishly and then stops, the machine is telling you something has failed in the drive system. You may also notice the cycle stalling partway through, clothes coming out soaking wet, or the machine displaying error codes E50, E51, E52, or E54 — all of which relate to motor or motor-control faults.</p><p>The drive system on most Electrolux washing machines consists of a motor, a drive belt, a pulley on the drum, and an electronic motor control board. A failure anywhere in this chain will prevent the drum from turning. In some cases the machine will attempt to restart the drum several times before locking out and showing an error code.</p><p>This is classed as an advanced fault because some causes require disassembly and electrical testing. However, the most common cause — a broken drive belt — is something many homeowners can tackle themselves with basic tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Broken or slipped drive belt",
+          "detail": "The rubber drive belt connects the motor to the drum pulley. Over time it stretches, cracks, or snaps entirely, leaving the motor spinning freely while the drum stays still. This is the single most frequent cause of a non-turning drum."
+        },
+        {
+          "cause": "Faulty or seized motor",
+          "detail": "The motor itself can burn out, seize due to a failed bearing, or trip its internal thermal overload protector after overheating. When the motor fails, error codes E51 or E52 are commonly logged by the machine's control system."
+        },
+        {
+          "cause": "Motor control board (inverter board) failure",
+          "detail": "Electrolux machines use an electronic board to regulate motor speed and direction. If this board develops a fault — often due to a power surge or moisture ingress — the drum will not turn and codes E50 or E54 may appear."
+        },
+        {
+          "cause": "Worn or damaged drum bearings",
+          "detail": "Seized drum bearings create so much resistance that the motor cannot turn the drum, even if the belt and motor are intact. You will usually hear a loud grinding or rumbling noise before the drum stops turning altogether."
+        },
+        {
+          "cause": "Carbon brush wear on the motor",
+          "detail": "Brushed motors rely on carbon brushes to transfer current to the rotor. Once the brushes wear down below a usable length, the motor loses power and the drum turns intermittently or not at all."
+        },
+        {
+          "cause": "Overloaded drum or foreign object obstruction",
+          "detail": "An excessively heavy load or a foreign object — such as a coin or underwire — jammed between the drum and the door seal can physically prevent rotation. The motor may hum under the strain before the machine cuts out."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Remove the load and run a short empty cycle",
+          "detail": "Take all laundry out of the drum and run a quick 30-degree cotton cycle with nothing inside. This rules out an overloaded drum or an unbalanced load as the cause. If the drum turns freely when empty, reduce your load size and try again."
+        },
+        {
+          "step": 2,
+          "action": "Check for a foreign object between the drum and door seal",
+          "detail": "Peel back the rubber door seal and inspect the gap between the seal and the drum rim. Use a torch to look for coins, bra underwires, or small items of clothing. Remove anything you find with long-nose pliers, then test the machine again."
+        },
+        {
+          "step": 3,
+          "action": "Inspect and replace the drive belt",
+          "detail": "Unplug the machine and pull it away from the wall. Remove the rear panel (usually held by three or four screws). Locate the belt running around the large drum pulley and the smaller motor pulley. If the belt is snapped, lying loose at the bottom of the cabinet, or visibly cracked, fit a replacement belt of the correct part number for your model. Loop it around the motor pulley first, then stretch it onto the drum pulley while rotating the drum by hand."
+        },
+        {
+          "step": 4,
+          "action": "Test and replace the carbon brushes",
+          "detail": "With the rear panel still off, disconnect the motor and locate the two carbon brush holders on either side of the motor body. Slide each brush out and measure its length — if either is shorter than 15 mm (roughly the width of a thumbnail), both brushes should be replaced as a pair. Refit the motor connectors securely before testing."
+        },
+        {
+          "step": 5,
+          "action": "Check the motor for continuity and visible damage",
+          "detail": "With the motor disconnected, use a multimeter set to resistance (Ω) to test continuity across the motor windings — refer to your model's wiring diagram for expected values. Look for scorch marks, a burning smell, or seized rotation when you try to turn the motor shaft by hand. A motor that fails these checks needs to be replaced."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the drum bearings",
+          "detail": "Spin the drum by hand with the belt removed. It should rotate smoothly and quietly. If you feel heavy resistance, hear grinding, or the drum wobbles noticeably, the drum bearings have failed. Bearing replacement is a significant strip-down job and may be more economical to hand over to a service technician depending on the machine's age."
+        },
+        {
+          "step": 7,
+          "action": "Reset or replace the motor control board",
+          "detail": "If the belt, brushes, and motor all check out, the motor control board is the likely culprit — especially if error codes E50 or E54 are displayed. Try a hard reset first: unplug the machine for 10 minutes, then power it back on. If the fault returns immediately, the board will need to be replaced with the correct part for your model."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Call a service technician if you have replaced the drive belt and carbon brushes but the drum still does not turn, or if your multimeter readings indicate a failed motor or motor control board. Replacing these components involves working with mains-voltage wiring and, in the case of the motor control board, sensitive electronics — mistakes can cause further damage or create a safety hazard.</p><p>You should also seek professional help if the drum is difficult to turn by hand even with the belt removed, as this points to seized bearings. A full bearing replacement requires near-complete disassembly of the machine and specialist tools, and is not a practical DIY repair for most homeowners.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when an Electrolux washing machine drum stops turning are the <strong>drive belt</strong>, the <strong>motor carbon brushes</strong>, and the <strong>motor control board</strong>. Keeping a drive belt and a set of carbon brushes on hand is worthwhile if your machine is more than five years old, as these are wear items that will eventually need attention. Avoid overloading the drum — consistently washing above the rated capacity accelerates belt wear and puts excessive strain on the motor bearings.</p><p>Use the search tool below to find the correct spare parts for your specific Electrolux model number.</p>\n<!-- SPARE_PARTS_FAULT:drum-not-turning -->",
+      "faq_json": [
+        {
+          "answer": "These codes all relate to the motor circuit. E50 and E54 typically indicate a communication or control fault on the motor control board, while E51 and E52 point to a motor current fault — often a seized or burned-out motor. Use the code as a starting point, but always inspect the belt and brushes first since they are cheaper and easier to replace.",
+          "question": "What do error codes E50, E51, E52, and E54 mean on an Electrolux washing machine?"
+        },
+        {
+          "answer": "No. Running the machine with a non-turning drum will not clean your clothes and could cause further damage — for example, a motor that is already overheating will deteriorate faster if it continues to run. Switch the machine off and unplug it until the fault is resolved.",
+          "question": "Can I use my Electrolux washing machine if the drum is not turning?"
+        },
+        {
+          "answer": "A drive belt typically lasts between five and ten years depending on how heavily the machine is used and whether it is regularly overloaded. If you notice the drum turning slowly or intermittently before it stops altogether, inspect the belt promptly — a worn belt is much cheaper to replace than a motor damaged by a snapped belt wrapping around it.",
+          "question": "How long does a drive belt last on an Electrolux washing machine?"
+        },
+        {
+          "answer": "If the drum rotates freely when you push it manually but won't move under power, the fault is almost certainly electrical rather than mechanical. The most likely causes are worn carbon brushes, a failed motor, or a faulty motor control board. Start by checking the brushes, as they are the least expensive component to replace.",
+          "question": "The drum turns by hand but not during a cycle — what does that mean?"
+        },
+        {
+          "answer": "It depends on the age and model of the machine. Bearing replacement is labour-intensive and parts can be costly, so get a quote from a service technician before committing. As a rough guide, if the repair cost exceeds half the price of a comparable new machine, replacement is often the more practical choice.",
+          "question": "Is it worth repairing an Electrolux washing machine with a seized drum bearing?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T16:20:40.879144+00:00"
+    },
+    {
+      "article_id": 361,
+      "locale": "sv",
+      "slug": "trumma-snurrar-inte",
+      "title_tag": "Electrolux Tvättmaskin Trumma Snurrar Inte – Lösningar",
+      "meta_description": "Snurrar inte trumman på din Electrolux tvättmaskin? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felko",
+      "h1": "Varför har trumman på min Electrolux tvättmaskin slutat snurra?",
+      "description": "Tvättmaskinens trumma står stilla under tvätt- eller centrifugeringscykeln istället för att rotera som förväntat.",
+      "quick_fix": "Kontrollera och byt drivremmen – öppna bakpanelen, lokalisera remmen runt trummans remskiva och motorn, och montera en ny om den har gått av eller hoppat av. Detta löser felet i de flesta fall (tar ungefär 30 minuter).",
+      "intro_html": "<p>När din Electrolux tvättmaskin fylls med vatten och surrar men trumman står helt stilla, eller trumman rör sig trögt och sedan stannar, signalerar maskinen att något har gått fel i drivsystemet. Du kan också märka att cykeln stannar halvvägs, att kläderna kommer ut genomblöta, eller att maskinen visar felkoder E50, E51, E52 eller E54 – vilka alla är kopplade till motor- eller motorstyrningsfel.</p><p>Drivsystemet på de flesta Electrolux tvättmaskiner består av en motor, en drivrem, en remskiva på trumman och ett elektroniskt motorstyrningskort. Ett fel var som helst i denna kedja hindrar trumman från att snurra. I vissa fall försöker maskinen starta om trumman flera gånger innan den låser sig och visar en felkod.</p><p>Detta klassas som ett avancerat fel eftersom vissa orsaker kräver isärtagning och elektrisk testning. Den vanligaste orsaken – en trasig drivrem – är dock något som många hushållsägare kan åtgärda själva med grundläggande verktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Trasig eller avhoppad drivrem",
+          "detail": "Gummidrivremmen förbinder motorn med trummans remskiva. Med tiden sträcks den ut, spricker eller går av helt, vilket gör att motorn snurrar fritt medan trumman står stilla. Detta är den i särklass vanligaste orsaken till att trumman inte snurrar."
+        },
+        {
+          "cause": "Defekt eller låst motor",
+          "detail": "Motorn kan brännas ut, låsa sig på grund av ett havererat lager, eller lösa ut sitt interna termiska överhettningsskydd efter överhettning. När motorn havererar loggar maskinens styrsystem ofta felkoderna E51 eller E52."
+        },
+        {
+          "cause": "Fel på motorstyrningskortet (inverterkortet)",
+          "detail": "Electrolux-maskiner använder ett elektroniskt kort för att reglera motorns hastighet och riktning. Om detta kort får ett fel – ofta på grund av ett spänningsöverskott eller fuktinträngning – snurrar inte trumman och koderna E50 eller E54 kan visas."
+        },
+        {
+          "cause": "Slitna eller skadade trumlagrar",
+          "detail": "Låsta trumlagrar skapar så stort motstånd att motorn inte kan snurra trumman, även om remmen och motorn är intakta. Du hör vanligtvis ett högt malande eller mullrande ljud innan trumman slutar snurra helt."
+        },
+        {
+          "cause": "Slitna kolborstar på motorn",
+          "detail": "Motorer med kolborstar är beroende av kolborstar för att överföra ström till rotorn. När borstarna slits ned under en användbar längd tappar motorn kraft och trumman snurrar oregelbundet eller inte alls."
+        },
+        {
+          "cause": "Överfylld trumma eller hinder från främmande föremål",
+          "detail": "En alltför tung last eller ett främmande föremål – till exempel ett mynt eller ett bysthållarbygel – som fastnat mellan trumman och dörrtätningen kan fysiskt förhindra rotation. Motorn kan surra under belastningen innan maskinen stänger av sig."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Ta ut tvätten och kör en kort tom cykel",
+          "detail": "Ta ut all tvätt ur trumman och kör en snabb bomullscykel på 30 grader utan något i maskinen. Detta utesluter en överfylld trumma eller en obalanserad last som orsak. Om trumman snurrar fritt när den är tom, minska laststorleken och försök igen."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera om det finns ett främmande föremål mellan trumman och dörrtätningen",
+          "detail": "Vik tillbaka gummidörrtätningen och undersök springan mellan tätningen och trummans kant. Använd en ficklampa för att leta efter mynt, bysthållarbyglar eller små plagg. Ta bort allt du hittar med spetsnåltång och testa sedan maskinen igen."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera och byt drivremmen",
+          "detail": "Dra ur maskinens stickkontakt och dra ut den från väggen. Ta bort bakpanelen (vanligtvis fäst med tre eller fyra skruvar). Lokalisera remmen som löper runt den stora trummans remskiva och den mindre motorremskivan. Om remmen har gått av, ligger löst i botten av maskinhöljet eller är synligt sprucken, montera en ersättningsrem med rätt artikelnummer för din modell. Trä den runt motorremskivan först och sträck sedan upp den på trummans remskiva medan du roterar trumman för hand."
+        },
+        {
+          "step": 4,
+          "action": "Testa och byt kolborstarna",
+          "detail": "Med bakpanelen fortfarande borttagen, koppla loss motorn och lokalisera de två kolborstehållarna på vardera sidan av motorkroppen. Dra ut varje borste och mät dess längd – om någon är kortare än 15 mm (ungefär bredden av en tumnagelrot), bör båda borstarna bytas som ett par. Återanslut motorns kontakter ordentligt innan du testar."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera motorn för kontinuitet och synliga skador",
+          "detail": "Med motorn urkopplad, använd en multimeter inställd på motstånd (Ω) för att testa kontinuitet över motorlindningarna – se din modells kopplingsschema för förväntade värden. Leta efter brännmärken, bränd lukt eller låst rotation när du försöker vrida motoraxeln för hand. En motor som inte klarar dessa kontroller behöver bytas."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera trumlagren",
+          "detail": "Snurra trumman för hand med remmen borttagen. Den ska rotera mjukt och tyst. Om du känner stort motstånd, hör malande ljud eller om trumman märkbart vinglar, har trumlagren havererat. Lagerbyte är ett omfattande demonteringsarbete och kan vara mer ekonomiskt att överlåta till en servicetekniker beroende på maskinens ålder."
+        },
+        {
+          "step": 7,
+          "action": "Återställ eller byt motorstyrningskortet",
+          "detail": "Om remmen, borstarna och motorn alla är i ordning är motorstyrningskortet troligen boven – särskilt om felkoderna E50 eller E54 visas. Prova en hård återställning först: dra ur maskinen i 10 minuter och slå sedan på den igen. Om felet omedelbart återkommer måste kortet bytas mot rätt reservdel för din modell."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om du har bytt drivremmen och kolborstarna men trumman fortfarande inte snurrar, eller om dina multimetermätningar indikerar en defekt motor eller ett defekt motorstyrningskort. Att byta dessa komponenter innebär arbete med nätspänningskablar och, när det gäller motorstyrningskortet, känslig elektronik – misstag kan orsaka ytterligare skador eller utgöra en säkerhetsrisk.</p><p>Du bör också söka professionell hjälp om trumman är svår att snurra för hand även med remmen borttagen, eftersom detta tyder på låsta lager. Ett fullständigt lagerbyte kräver nästan fullständig isärtagning av maskinen och specialverktyg, och är inte en praktisk gör-det-själv-reparation för de flesta hushållsägare.</p>",
+      "prevention_html": "<p>De delar som oftast byts när trumman på en Electrolux tvättmaskin slutar snurra är <strong>drivremmen</strong>, <strong>motorns kolborstar</strong> och <strong>motorstyrningskortet</strong>. Det är värt att ha en drivrem och ett set kolborstar till hands om din maskin är mer än fem år gammal, eftersom dessa är förbrukningsdelar som så småningom behöver åtgärdas. Undvik att överfylla trumman – att regelbundet tvätta över den nominella kapaciteten accelererar remslitage och belastar motorlagren onödigt.</p><p>Använd sökverktyget nedan för att hitta rätt reservdelar för ditt specifika Electrolux modellnummer.</p>\n<!-- SPARE_PARTS_FAULT:drum-not-turning -->",
+      "faq_json": [
+        {
+          "answer": "Dessa koder är alla kopplade till motorkretsen. E50 och E54 indikerar vanligtvis ett kommunikations- eller styrningsfel på motorstyrningskortet, medan E51 och E52 pekar på ett motorströmfel – ofta en låst eller utbränd motor. Använd koden som utgångspunkt, men inspektera alltid remmen och borstarna först eftersom de är billigare och enklare att byta.",
+          "question": "Vad betyder felkoderna E50, E51, E52 och E54 på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Nej. Att köra maskinen med en stillastående trumma rensar inte kläderna och kan orsaka ytterligare skador – till exempel försämras en motor som redan överhettas snabbare om den fortsätter att gå. Stäng av maskinen och dra ur kontakten tills felet är åtgärdat.",
+          "question": "Kan jag använda min Electrolux tvättmaskin om trumman inte snurrar?"
+        },
+        {
+          "answer": "En drivrem håller vanligtvis mellan fem och tio år beroende på hur hårt maskinen används och om den regelbundet överfylls. Om du märker att trumman snurrar långsamt eller oregelbundet innan den stannar helt, inspektera remmen omgående – en sliten rem är mycket billigare att byta än en motor som skadats av en avhoppad rem som lindats runt den.",
+          "question": "Hur länge håller en drivrem på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Om trumman roterar fritt när du knuffar den manuellt men inte rör sig under drift är felet nästan säkert elektriskt snarare än mekaniskt. De mest troliga orsakerna är slitna kolborstar, en defekt motor eller ett felaktigt motorstyrningskort. Börja med att kontrollera borstarna, eftersom de är den minst kostsamma komponenten att byta.",
+          "question": "Trumman snurrar för hand men inte under en cykel – vad innebär det?"
+        },
+        {
+          "answer": "Det beror på maskinens ålder och modell. Lagerbyte är arbetsintensivt och delar kan vara kostsamma, så begär en offert från en servicetekniker innan du bestämmer dig. Som en grov riktlinje: om reparationskostnaden överstiger hälften av priset för en jämförbar ny maskin är ett utbyte ofta det mer praktiska valet.",
+          "question": "Är det värt att reparera en Electrolux tvättmaskin med låsta trumlagrar?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T16:21:54.42035+00:00"
+    },
+    {
+      "article_id": 362,
+      "locale": "en",
+      "slug": "control-panel-unresponsive",
+      "title_tag": "Electrolux Washing Machine Control Panel Unresponsive",
+      "meta_description": "Electrolux washing machine control panel not responding? Learn the most common causes, step-by-step fixes, and when to call a service technician.",
+      "h1": "Why Is My Electrolux Washing Machine Control Panel Not Responding?",
+      "description": "The control panel on the Electrolux washing machine does not respond to button presses or touch input, making it impossible to start or change a programme.",
+      "quick_fix": "Press and hold the Start/Pause button for 5 seconds to perform a soft reset — this clears temporary control board errors and restores panel response in most cases (takes about 2 minutes).",
+      "intro_html": "<p>When the control panel on your Electrolux washing machine stops responding, you are left with a machine that either sits completely dark and silent or displays lights without reacting to any button input. This is a frustrating fault because it prevents you from starting, pausing, or changing any programme at all. In some cases the display may show error codes E91, E92, or E94, which all relate to communication problems between the control panel and the main control board.</p><p>The fault can stem from something as simple as a temporary software glitch or a child-lock being active, right through to a failed user interface board or a wiring fault. Because the control panel is the primary way you interact with the machine, even a minor disruption to its power supply or data connection can make the entire appliance appear dead. Working through the causes methodically will help you identify whether this is a quick fix or a job for a service technician.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary software or firmware glitch",
+          "detail": "The control board can occasionally freeze due to a power fluctuation or an interrupted cycle, leaving the panel locked and unresponsive. A soft reset usually clears this without any parts being needed."
+        },
+        {
+          "cause": "Child lock or demo mode is active",
+          "detail": "Electrolux machines have a child-lock function that disables all panel buttons to prevent accidental operation. If activated — sometimes unintentionally — the panel will appear completely unresponsive until the lock is deactivated."
+        },
+        {
+          "cause": "Faulty or damaged user interface (UI) board",
+          "detail": "The UI board sits directly behind the control panel and processes every button press or touch input. If this board has failed due to moisture ingress, a power surge, or component wear, it will stop sending signals regardless of what you press."
+        },
+        {
+          "cause": "Loose or corroded wiring harness connection",
+          "detail": "The ribbon cable or wiring harness connecting the control panel to the main PCB can work loose over time, especially after vibration from heavy loads. A poor connection interrupts the communication signal and triggers E91 or E92 error codes."
+        },
+        {
+          "cause": "Failed main control board (PCB)",
+          "detail": "The main PCB manages all machine functions and communicates with the control panel. If it has suffered a component failure or burn damage, it may stop responding to panel input entirely, often alongside error code E94."
+        },
+        {
+          "cause": "Inadequate or interrupted power supply",
+          "detail": "A faulty power outlet, a tripped circuit breaker, or a damaged power cord can deprive the control board of the stable voltage it needs to operate. The panel may appear completely dead even though the machine itself is undamaged."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the power supply",
+          "detail": "Unplug the washing machine and plug a different appliance into the same socket to confirm the outlet is working. Check your consumer unit for a tripped breaker and reset it if needed. A machine with no stable power will always show a dead panel."
+        },
+        {
+          "step": 2,
+          "action": "Perform a hard reset",
+          "detail": "Switch the machine off at the socket and leave it unplugged for at least 5 minutes. This allows capacitors on the control board to fully discharge and clears any frozen software state. Plug back in and try the panel again before moving on."
+        },
+        {
+          "step": 3,
+          "action": "Deactivate the child lock",
+          "detail": "On most Electrolux models, the child lock is released by pressing and holding two specific buttons simultaneously for 3 seconds — check your model's user manual for the exact combination, as it varies. A padlock icon on the display or a steady indicator light usually confirms the lock is active."
+        },
+        {
+          "step": 4,
+          "action": "Clean the control panel surface",
+          "detail": "On touch-sensitive panels, moisture, detergent residue, or grease can interfere with capacitive sensing and cause buttons to stop registering. Wipe the panel firmly with a dry microfibre cloth, then try again. Avoid abrasive cleaners that can damage the panel coating."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the wiring harness connections",
+          "detail": "With the machine unplugged, remove the top panel (usually two screws at the rear) to access the wiring harness that runs from the control panel to the main PCB. Gently press each connector firmly into its socket and look for signs of corrosion or burn marks. Refit the panel and test — this step addresses the E91 and E92 communication errors."
+        },
+        {
+          "step": 6,
+          "action": "Test or replace the user interface board",
+          "detail": "If all connections are secure and the panel is still unresponsive, the UI board itself is the most likely culprit. The board is usually clipped or screwed to the inside of the door frame or top panel. Compare the board visually for burnt components or damaged tracks before ordering a replacement part matched to your model number."
+        },
+        {
+          "step": 7,
+          "action": "Check the main PCB for visible damage",
+          "detail": "If replacing the UI board does not resolve the fault, the main control board may have failed — this is commonly associated with error code E94. Look for burnt or bulging components on the board surface. Main PCB replacement is a more involved repair and requires careful handling of multiple wiring connectors; if you are not confident, this is the point to contact a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have completed a hard reset, confirmed the power supply is stable, deactivated the child lock, and reseated all wiring connections but the panel remains completely unresponsive, the fault is most likely an internal component failure. A persistently displayed E94 code, visible burn marks on the PCB, or a panel that flickers erratically rather than responding normally all indicate a level of fault that requires specialist diagnostic equipment to confirm safely.</p><p>Main PCB replacement on Electrolux washing machines involves handling multiple high-voltage connections and programming considerations — mistakes can cause further damage or create a safety hazard. At this stage, booking a qualified service technician is the most cost-effective and safest course of action.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an unresponsive control panel on Electrolux washing machines are the user interface (UI) board, the main control PCB, and the wiring harness or ribbon cable connecting the two. Having your model number ready before searching for parts ensures you order the correct version, as board designs vary significantly across the 5,000+ affected models. Genuine or manufacturer-approved parts are strongly recommended for control electronics, as non-compatible boards can introduce new faults.</p><p>Use the parts finder below to locate the correct components for your specific Electrolux model.</p>\n<!-- SPARE_PARTS_FAULT:control-panel-unresponsive -->",
+      "faq_json": [
+        {
+          "answer": "These codes all relate to communication failures within the machine's control system. E91 and E92 indicate that the main PCB and the user interface board have lost contact with each other, often due to a loose wiring connection. E94 points to a more serious internal fault with the main control board itself.",
+          "question": "What do error codes E91, E92, and E94 mean on an Electrolux washing machine?"
+        },
+        {
+          "answer": "Yes. A sudden voltage spike can damage sensitive components on both the UI board and the main PCB, sometimes causing an immediate failure and sometimes a delayed one. Using a surge-protected extension lead is a simple precaution that can protect the electronics long-term.",
+          "question": "Can a power surge cause the control panel to stop working?"
+        },
+        {
+          "answer": "A lit display with unresponsive buttons is the classic sign of an active child lock. Check your user manual for the button combination to release it — on many Electrolux models it involves holding the Temperature and Spin buttons together for 3 seconds. If deactivating the child lock has no effect, the UI board may be at fault.",
+          "question": "My Electrolux washing machine display is lit but no buttons work — is that the child lock?"
+        },
+        {
+          "answer": "For someone comfortable with basic appliance repair, swapping a UI board typically takes 30 to 60 minutes. The main tasks are removing the top or front panel, disconnecting the ribbon cable, and fitting the new board. Always unplug the machine before starting and photograph all connections before removing them.",
+          "question": "How long does it take to replace a user interface board on an Electrolux washing machine?"
+        },
+        {
+          "answer": "This depends on the age and overall condition of the machine. If the appliance is under 8 years old and otherwise in good working order, a PCB replacement is usually cost-effective. For older machines or those with multiple faults, a service technician can give you an honest assessment of repair versus replacement value before you commit to parts costs.",
+          "question": "Is it worth repairing an Electrolux washing machine with a failed main PCB, or should I replace the machine?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T16:22:44.924241+00:00"
+    },
+    {
+      "article_id": 362,
+      "locale": "sv",
+      "slug": "kontrollpanel-svarar-inte",
+      "title_tag": "Electrolux Tvättmaskin Kontrollpanel Svarar Inte",
+      "meta_description": "Electrolux tvättmaskins kontrollpanel svarar inte? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker.",
+      "h1": "Varför Svarar Inte Kontrollpanelen på Min Electrolux Tvättmaskin?",
+      "description": "Kontrollpanelen på Electrolux tvättmaskinen svarar inte på knapptryckningar eller pekskärmsinmatning, vilket gör det omöjligt att starta eller byta program.",
+      "quick_fix": "Håll inne Start/Paus-knappen i 5 sekunder för att utföra en mjuk återställning — detta rensar tillfälliga fel i styrkortet och återställer panelens funktion i de flesta fall (tar ungefär 2 minuter).",
+      "intro_html": "<p>När kontrollpanelen på din Electrolux tvättmaskin slutar svara står du med en maskin som antingen är helt mörk och tyst, eller visar lampor utan att reagera på någon knapptryckning. Det är ett frustrerande fel eftersom det hindrar dig från att starta, pausa eller byta program överhuvudtaget. I vissa fall kan displayen visa felkoderna E91, E92 eller E94, vilka alla är kopplade till kommunikationsproblem mellan kontrollpanelen och huvudstyrkortet.</p><p>Felet kan bero på något så enkelt som en tillfällig programvarubugg eller ett aktiverat barnlås, men kan också orsakas av ett defekt användargränssnittskort eller ett kabelfel. Eftersom kontrollpanelen är det primära sättet du interagerar med maskinen kan även en mindre störning i strömförsörjningen eller dataanslutningen få hela maskinen att verka helt död. Genom att systematiskt gå igenom orsakerna kan du avgöra om det rör sig om en snabb åtgärd eller ett jobb för en servicetekniker.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfällig programvaru- eller firmwarebugg",
+          "detail": "Styrkortet kan ibland frysa på grund av en strömfluktuering eller ett avbrutet program, vilket låser panelen och gör den oanvändbar. En mjuk återställning löser vanligtvis detta utan att några delar behöver bytas."
+        },
+        {
+          "cause": "Barnlås eller demoläge är aktiverat",
+          "detail": "Electrolux-maskiner har en barnlåsfunktion som inaktiverar alla panelknappar för att förhindra oavsiktlig användning. Om den är aktiverad — ibland av misstag — verkar panelen helt oanvändbar tills låset inaktiveras."
+        },
+        {
+          "cause": "Defekt eller skadat användargränssnittskort (UI-kort)",
+          "detail": "UI-kortet sitter direkt bakom kontrollpanelen och bearbetar varje knapptryckning eller pekskärmsinmatning. Om detta kort har slutat fungera på grund av fuktintrång, ett strömöverspänning eller komponentslitage slutar det skicka signaler oavsett vad du trycker på."
+        },
+        {
+          "cause": "Lös eller korroderad kabelanslutning",
+          "detail": "Bandkabeln eller kabelstammen som förbinder kontrollpanelen med huvud-PCB:n kan lossna med tiden, särskilt efter vibrationer från tunga tvättpåfyllningar. En dålig anslutning avbryter kommunikationssignalen och utlöser felkoderna E91 eller E92."
+        },
+        {
+          "cause": "Defekt huvudstyrkort (PCB)",
+          "detail": "Huvud-PCB:n hanterar alla maskinfunktioner och kommunicerar med kontrollpanelen. Om den har drabbats av ett komponentfel eller brännskada kan den sluta svara på panelinmatning helt och hållet, ofta tillsammans med felkod E94."
+        },
+        {
+          "cause": "Otillräcklig eller avbruten strömförsörjning",
+          "detail": "Ett defekt eluttag, en utlöst säkring eller en skadad nätkabel kan beröva styrkortet den stabila spänning det behöver för att fungera. Panelen kan verka helt död även om maskinen i sig är oskadad."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera strömförsörjningen",
+          "detail": "Koppla ur tvättmaskinen och anslut en annan apparat till samma uttag för att bekräfta att uttaget fungerar. Kontrollera din elcentral efter en utlöst säkring och återställ den vid behov. En maskin utan stabil strömförsörjning visar alltid en död panel."
+        },
+        {
+          "step": 2,
+          "action": "Utför en hård återställning",
+          "detail": "Stäng av maskinen vid uttaget och låt den vara urkopplad i minst 5 minuter. Detta låter kondensatorerna på styrkortet laddas ur helt och rensar eventuellt fruset programvarutillstånd. Anslut igen och prova panelen innan du går vidare."
+        },
+        {
+          "step": 3,
+          "action": "Inaktivera barnlåset",
+          "detail": "På de flesta Electrolux-modeller frigörs barnlåset genom att hålla inne två specifika knappar samtidigt i 3 sekunder — kontrollera din modells bruksanvisning för den exakta kombinationen, eftersom den varierar. En hänglåsikon på displayen eller en stadig indikatorlampa bekräftar vanligtvis att låset är aktivt."
+        },
+        {
+          "step": 4,
+          "action": "Rengör kontrollpanelens yta",
+          "detail": "På pekskärmspaneler kan fukt, tvättrester eller fett störa den kapacitiva avkänningen och göra att knappar slutar registreras. Torka av panelen ordentligt med en torr mikrofiberduk och försök igen. Undvik slipande rengöringsmedel som kan skada panelens ytskikt."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera kabelanslutningarna",
+          "detail": "Med maskinen urkopplad, ta bort toppanelen (vanligtvis två skruvar baktill) för att komma åt kabelstammen som löper från kontrollpanelen till huvud-PCB:n. Tryck försiktigt in varje kontakt ordentligt i sitt uttag och leta efter tecken på korrosion eller brännskador. Sätt tillbaka panelen och testa — detta steg åtgärdar kommunikationsfelen E91 och E92."
+        },
+        {
+          "step": 6,
+          "action": "Testa eller byt ut användargränssnittskortet",
+          "detail": "Om alla anslutningar är säkra och panelen fortfarande inte svarar är UI-kortet troligtvis den skyldige. Kortet är vanligtvis clips- eller skruvmonterat på insidan av dörrkarmens ram eller toppanelen. Undersök kortet visuellt efter brända komponenter eller skadade ledningsbanor innan du beställer en ersättningsdel som matchar ditt modellnummer."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera huvud-PCB:n för synliga skador",
+          "detail": "Om byte av UI-kortet inte löser felet kan huvudstyrkortet ha slutat fungera — detta är vanligtvis kopplat till felkod E94. Leta efter brända eller uppsvällda komponenter på kortets yta. Byte av huvud-PCB är en mer komplicerad reparation och kräver noggrann hantering av flera kabelanslutningar; om du inte känner dig trygg är det dags att kontakta en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har utfört en hård återställning, bekräftat att strömförsörjningen är stabil, inaktiverat barnlåset och återanslutit alla kabelanslutningar men panelen fortfarande inte svarar, beror felet troligtvis på ett internt komponentfel. En ihållande E94-kod, synliga brännskador på PCB:n eller en panel som flimrar oregelbundet istället för att svara normalt indikerar alla ett fel som kräver specialiserad diagnostikutrustning för att bekräftas på ett säkert sätt.</p><p>Byte av huvud-PCB på Electrolux tvättmaskiner innebär hantering av flera högspänningsanslutningar och programmeringsöverväganden — misstag kan orsaka ytterligare skador eller skapa en säkerhetsrisk. I detta skede är det mest kostnadseffektiva och säkraste alternativet att boka en kvalificerad servicetekniker.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid reparation av en oanvändbar kontrollpanel på Electrolux tvättmaskiner är användargränssnittskortet (UI-kortet), huvud-PCB:n samt kabelstammen eller bandkabeln som förbinder de två. Att ha ditt modellnummer till hands innan du söker efter delar säkerställer att du beställer rätt version, eftersom kortdesignerna varierar avsevärt mellan de 5 000+ berörda modellerna. Äkta eller tillverkargodkända delar rekommenderas starkt för styrelektronik, eftersom inkompatibla kort kan introducera nya fel.</p><p>Använd reservdelsverktyget nedan för att hitta rätt komponenter för din specifika Electrolux-modell.</p>\n<!-- SPARE_PARTS_FAULT:control-panel-unresponsive -->",
+      "faq_json": [
+        {
+          "answer": "Dessa koder är alla kopplade till kommunikationsfel i maskinens styrsystem. E91 och E92 indikerar att huvud-PCB:n och användargränssnittskortet har förlorat kontakten med varandra, ofta på grund av en lös kabelanslutning. E94 pekar på ett allvarligare internt fel med huvudstyrkortet.",
+          "question": "Vad betyder felkoderna E91, E92 och E94 på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Ja. En plötslig spänningspik kan skada känsliga komponenter på både UI-kortet och huvud-PCB:n, ibland med omedelbart fel och ibland med fördröjt fel. Att använda en överspänningsskyddad grenuttag är en enkel försiktighetsåtgärd som kan skydda elektroniken på lång sikt.",
+          "question": "Kan ett strömöverspänning göra att kontrollpanelen slutar fungera?"
+        },
+        {
+          "answer": "En upplyst display med oanvändbara knappar är det klassiska tecknet på ett aktivt barnlås. Kontrollera din bruksanvisning för knappkombinationen för att frigöra det — på många Electrolux-modeller innebär det att hålla inne Temperatur- och Centrifugknapparna samtidigt i 3 sekunder. Om inaktivering av barnlåset inte har någon effekt kan UI-kortet vara defekt.",
+          "question": "Min Electrolux tvättmaskins display lyser men inga knappar fungerar — är det barnlåset?"
+        },
+        {
+          "answer": "För någon som är bekväm med grundläggande vitvaruservice tar ett UI-kortsbyte vanligtvis 30 till 60 minuter. Huvuduppgifterna är att ta bort topp- eller frontpanelen, koppla loss bandkabeln och montera det nya kortet. Koppla alltid ur maskinen innan du börjar och fotografera alla anslutningar innan du tar bort dem.",
+          "question": "Hur lång tid tar det att byta ett användargränssnittskort på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Det beror på maskinens ålder och allmänna skick. Om maskinen är under 8 år gammal och i övrigt i gott skick är ett PCB-byte vanligtvis kostnadseffektivt. För äldre maskiner eller de med flera fel kan en servicetekniker ge dig en ärlig bedömning av reparations- kontra ersättningsvärde innan du förbinder dig till delkostnader.",
+          "question": "Är det värt att reparera en Electrolux tvättmaskin med ett defekt huvud-PCB, eller bör jag byta ut maskinen?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T16:23:53.527677+00:00"
+    }
+  ]
+}

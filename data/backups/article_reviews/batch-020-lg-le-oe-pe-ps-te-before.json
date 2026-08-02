@@ -1,0 +1,1705 @@
+{
+  "batch": "020-lg-le-oe-pe-ps-te",
+  "article_ids": [
+    96,
+    97,
+    98,
+    100,
+    102
+  ],
+  "articles": [
+    {
+      "id": 96,
+      "error_code_id": 126,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 97,
+      "error_code_id": 122,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 98,
+      "error_code_id": 125,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 100,
+      "error_code_id": 137,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 102,
+      "error_code_id": 131,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    }
+  ],
+  "rows": [
+    {
+      "id": 124,
+      "article_id": 96,
+      "locale": "en",
+      "slug": "lg-error-code-le",
+      "title_tag": "LG Washing Machine Error Code LE | Motor Locked Fix",
+      "meta_description": "LG washing machine showing error code LE? Learn what causes a motor locked error, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code LE Mean on an LG Washing Machine?",
+      "description": "Error code LE on an LG washing machine indicates a motor locked error, meaning the motor has stalled and is unable to rotate the drum.",
+      "quick_fix": "Unplug the washing machine, remove any items from the drum to reduce load weight, then plug it back in and restart the cycle — an overloaded drum is the most common trigger for LE, and this takes about 5 minutes to resolve.",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code LE signals that your LG washing machine's motor has stalled or become locked and cannot turn the drum. The machine's control board monitors motor rotation continuously, and when it detects that the motor has stopped responding or is drawing too much current without moving, it shuts the cycle down and displays LE to prevent further damage.</p><p>When this error appears, the wash cycle will halt mid-programme and the drum will stop spinning. In some cases the machine may attempt to restart the motor a few times before locking out completely. You may also notice an unusual humming sound just before the error appears, which is the motor straining under load.</p><p>This fault affects a range of LG direct-drive models including the F1056, F1068, F1073, F1091, and F1096 series. The good news is that the most common causes are straightforward to address at home without specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Overloaded drum",
+          "detail": "Packing too many items into the drum places excessive mechanical strain on the motor, causing it to stall. LG direct-drive motors are sensitive to overloading, and even a single heavy item like a soaking wet duvet can trigger LE."
+        },
+        {
+          "cause": "Laundry tangled or jammed",
+          "detail": "A single large item such as a bedsheet or towel can wrap tightly around the drum paddles, physically preventing rotation. This creates the same locked-motor signal as an electrical fault, even though the motor itself is fine."
+        },
+        {
+          "cause": "Foreign object lodged between drum and tub",
+          "detail": "Small items — coins, bra underwires, buttons — can slip through the drum holes and become wedged between the inner drum and the outer tub. This creates a physical obstruction that stops the drum from turning freely."
+        },
+        {
+          "cause": "Faulty or worn hall sensor",
+          "detail": "The hall sensor monitors the motor's rotor position and speed. If it fails or sends incorrect signals, the control board may incorrectly conclude the motor is locked even when it is rotating normally. This is a component-level fault requiring replacement."
+        },
+        {
+          "cause": "Damaged or degraded motor stator or rotor",
+          "detail": "On LG direct-drive machines the motor is mounted directly to the drum shaft. If the stator windings are damaged or the rotor magnets have deteriorated, the motor will lose torque and stall under normal load conditions."
+        },
+        {
+          "cause": "Main control board fault",
+          "detail": "In less common cases the PCB itself may be sending incorrect power signals to the motor or misreading feedback from the motor circuit. This typically produces LE alongside other intermittent errors and is usually a last-resort diagnosis."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reduce the load and restart",
+          "detail": "Switch the machine off and unplug it from the wall. Open the door, remove roughly half the laundry, and redistribute what remains evenly around the drum. Plug back in, select a short cycle, and observe whether the drum begins to rotate normally. If the error clears, you have found the cause — stick to the maximum load rating shown in your model's manual going forward."
+        },
+        {
+          "step": 2,
+          "action": "Check for tangled laundry",
+          "detail": "With the machine unplugged, reach into the drum and try to rotate it by hand. It should turn with moderate resistance but should not feel locked solid. If a sheet or large garment has balled up tightly, untangle it fully before restarting. Washing large items individually rather than together helps prevent this recurring."
+        },
+        {
+          "step": 3,
+          "action": "Inspect for foreign objects",
+          "detail": "Rotate the drum slowly by hand and listen for any scraping, clicking, or grinding sounds. Shine a torch through the drum holes to look for anything caught between the drum and the tub. If you can see an object but cannot retrieve it through the drum, you will need to remove the back panel to access the area around the drum — switch off and unplug the machine before doing so."
+        },
+        {
+          "step": 4,
+          "action": "Perform a power reset",
+          "detail": "Unplug the machine from the mains socket and leave it disconnected for at least 10 minutes. This allows the motor's thermal protection to reset if it has tripped due to overheating. Plug back in and run a short spin-only cycle to test. A thermal trip is common after the motor has been straining for several minutes."
+        },
+        {
+          "step": 5,
+          "action": "Check the motor and hall sensor connections",
+          "detail": "If you are comfortable removing the back panel, inspect the wiring harness connectors at the motor and hall sensor for any loose, corroded, or burnt contacts. Disconnect and firmly reseat each connector. A loose hall sensor connector is a surprisingly common cause of LE on LG direct-drive models and takes only a few minutes to check."
+        },
+        {
+          "step": 6,
+          "action": "Test the hall sensor",
+          "detail": "The hall sensor is a small component clipped to the motor stator. If you have a multimeter, you can test it for continuity according to the resistance values in your model's service data. A reading outside the expected range confirms the sensor has failed and needs replacing. Hall sensors for LG direct-drive motors are widely available and relatively inexpensive."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the motor rotor and stator",
+          "detail": "Remove the back panel and then the motor rotor by unscrewing the central bolt — it is reverse-threaded on most LG models, so turn clockwise to loosen. Inspect the rotor magnets for cracks or missing sections, and check the stator windings for any signs of burning or damage. If either component is visibly damaged, replacement is necessary and this is a good point to contact a service technician if you are not confident proceeding."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have reduced the load, cleared any obstructions, reset the machine, and reseated all connectors but the LE error returns consistently within the same cycle, the fault is most likely a failed hall sensor, damaged motor stator, or faulty rotor. These parts require correct diagnosis with test equipment before replacement, and fitting the wrong component can cause further damage.</p><p>You should also contact a service technician if you noticed burning smells, scorch marks on the motor or wiring, or if the drum is completely immovable by hand even with an empty drum — these symptoms suggest a seized motor bearing or serious electrical fault that is not safe to investigate without proper training.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an LG LE error are the hall sensor, the motor rotor assembly, and the motor stator. The hall sensor is the most frequent single-component fix and is worth checking first. The rotor and stator are typically replaced as a pair if the motor has suffered electrical damage.</p><p>To reduce the risk of LE recurring, always follow the maximum load guidelines for your model, wash large items such as duvets individually, and empty pockets before loading to prevent foreign objects entering the drum. Running a monthly drum-clean cycle also helps keep the drum rotating freely.</p>\n<!-- SPARE_PARTS:LE -->",
+      "faq_json": [
+        {
+          "answer": "In many cases, yes. The most common causes — overloading, tangled laundry, and loose wiring connectors — are straightforward to address without specialist tools. If the fault points to a failed hall sensor, that part is also DIY-replaceable for a confident homeowner. Motor stator or rotor replacement is more involved and may be better left to a service technician.",
+          "question": "Can I fix LG error code LE myself?"
+        },
+        {
+          "answer": "The motor works hardest during high-speed spin, so a marginal fault that doesn't trigger LE during a slow wash may become apparent at full spin speed. This pattern often points to a weakening hall sensor, a partially damaged rotor magnet, or a load that is just within tolerance during washing but too heavy for spin. Try reducing the spin speed setting as a temporary workaround while you investigate.",
+          "question": "Why does my LG washing machine show LE only on fast spin cycles?"
+        },
+        {
+          "answer": "If the drum rotates freely by hand, the machine is not overloaded, and there are no foreign objects present, but LE still appears consistently, the hall sensor is the most likely culprit. You can confirm this with a multimeter test or by temporarily substituting a known-good sensor. A service technician can also read fault history data from the control board, which often flags sensor errors specifically.",
+          "question": "How do I know if the hall sensor is the problem?"
+        },
+        {
+          "answer": "They are related but not identical. LE refers to the motor locked condition, while LE1 on some LG models indicates a motor overload or locked rotor detected at a different point in the cycle. The diagnostic steps are largely the same, but if your display shows LE1 it is worth checking your specific model's manual to confirm the exact definition, as terminology can vary slightly across model ranges.",
+          "question": "Is error code LE the same as error code LE1 on LG machines?"
+        },
+        {
+          "answer": "For someone who has removed an appliance back panel before, replacing the hall sensor typically takes 30 to 45 minutes. The sensor clips onto the motor stator and connects via a small wiring harness. The most time-consuming part is usually accessing the motor by removing the back panel and, on some models, the counterweight. Always unplug the machine before starting any repair.",
+          "question": "How long does it take to replace an LG washing machine hall sensor?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:38.234746+00:00"
+    },
+    {
+      "id": 125,
+      "article_id": 96,
+      "locale": "sv",
+      "slug": "lg-felkod-le",
+      "title_tag": "LG Tvättmaskin Felkod LE | Åtgärda Låst Motor",
+      "meta_description": "Visar din LG-tvättmaskin felkod LE? Lär dig vad som orsakar ett motorlåsningsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod LE på en LG-tvättmaskin?",
+      "description": "Felkod LE på en LG-tvättmaskin indikerar ett motorlåsningsfel, vilket innebär att motorn har stannat och inte kan rotera trumman.",
+      "quick_fix": "Koppla ur tvättmaskinen, ta ut kläderna ur trumman för att minska vikten, anslut sedan igen och starta om programmet – en överfylld trumma är den vanligaste orsaken till LE och detta tar ungefär 5 minuter att åtgärda.",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod LE signalerar att din LG-tvättmaskines motor har stannat eller låst sig och inte kan rotera trumman. Maskinens styrkort övervakar motorns rotation kontinuerligt, och när det upptäcker att motorn har slutat svara eller drar för mycket ström utan att röra sig, avbryter det programmet och visar LE för att förhindra ytterligare skador.</p><p>När detta fel uppstår avbryts tvättcykeln mitt i programmet och trumman slutar snurra. I vissa fall kan maskinen försöka starta om motorn ett par gånger innan den låser sig helt. Du kan också märka ett ovanligt brummande ljud strax innan felet visas, vilket är motorn som anstränger sig under belastning.</p><p>Detta fel påverkar ett antal LG-modeller med direktdrift, inklusive serierna F1056, F1068, F1073, F1091 och F1096. Den goda nyheten är att de vanligaste orsakerna är enkla att åtgärda hemma utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Överfylld trumma",
+          "detail": "Att packa för många plagg i trumman belastar motorn mekaniskt och får den att stanna. LG:s direktdriftsmotorer är känsliga för överlastning, och till och med ett enda tungt plagg som en blöt duntäcke kan utlösa LE."
+        },
+        {
+          "cause": "Tvätt tilltrasslad eller fastkilad",
+          "detail": "Ett enda stort plagg, till exempel ett lakan eller en handduk, kan linda sig tätt runt trummans paddlar och fysiskt förhindra rotation. Detta ger samma motorlåsningssignal som ett elektriskt fel, även om motorn i sig är felfri."
+        },
+        {
+          "cause": "Främmande föremål fastkilat mellan trumma och kar",
+          "detail": "Små föremål – mynt, bh-byglar, knappar – kan glida igenom trummans hål och fastna mellan innertrumman och det yttre karet. Detta skapar ett fysiskt hinder som hindrar trumman från att rotera fritt."
+        },
+        {
+          "cause": "Defekt eller sliten hallsensor",
+          "detail": "Hallsensorn övervakar motorrotorns position och hastighet. Om den slutar fungera eller skickar felaktiga signaler kan styrkortet felaktigt dra slutsatsen att motorn är låst, även när den roterar normalt. Detta är ett komponentfel som kräver byte."
+        },
+        {
+          "cause": "Skadad eller försämrad motorstator eller rotor",
+          "detail": "På LG-maskiner med direktdrift är motorn monterad direkt på trummans axel. Om statorlindningarna är skadade eller rotormagneterna har försämrats förlorar motorn vridmoment och stannar under normala belastningsförhållanden."
+        },
+        {
+          "cause": "Fel på huvudstyrkortet",
+          "detail": "I mindre vanliga fall kan kretskortet självt skicka felaktiga effektsignaler till motorn eller feltolka återkoppling från motorkretsen. Detta ger vanligtvis LE tillsammans med andra intermittenta fel och är normalt en sista-utvägs-diagnos."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Minska lasten och starta om",
+          "detail": "Stäng av maskinen och koppla ur den från vägguttaget. Öppna luckan, ta ut ungefär hälften av tvätten och fördela det som är kvar jämnt runt trumman. Anslut igen, välj ett kort program och observera om trumman börjar rotera normalt. Om felet försvinner har du hittat orsaken – håll dig till den maximala lastkapacitet som anges i din modells manual framöver."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera om tvätten har trasslar sig",
+          "detail": "Med maskinen urkopplad, räck in i trumman och försök rotera den för hand. Den ska gå att vrida med måttligt motstånd men ska inte kännas helt låst. Om ett lakan eller ett stort plagg har buntat ihop sig tätt, reda ut det helt innan du startar om. Att tvätta stora plagg separat istället för tillsammans hjälper till att förhindra att detta upprepas."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera om det finns främmande föremål",
+          "detail": "Rotera trumman långsamt för hand och lyssna efter skrapande, klickande eller malande ljud. Lysa med en ficklampa genom trummans hål för att leta efter något som fastnat mellan trumman och karet. Om du kan se ett föremål men inte kan nå det genom trumman behöver du ta bort bakpanelen för att komma åt området runt trumman – stäng av och koppla ur maskinen innan du gör detta."
+        },
+        {
+          "step": 4,
+          "action": "Utför en strömåterställning",
+          "detail": "Koppla ur maskinen från vägguttaget och låt den vara urkopplad i minst 10 minuter. Detta ger motorns termiska skydd möjlighet att återställas om det har löst ut på grund av överhettning. Anslut igen och kör ett kort centrifugeringsprogram för att testa. En termisk utlösning är vanlig efter att motorn har ansträngt sig i flera minuter."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera motor- och hallsensoranslutningarna",
+          "detail": "Om du känner dig bekväm med att ta bort bakpanelen, inspektera kabelstammens kontakter vid motorn och hallsensorn för att se om det finns lösa, korroderade eller brända kontakter. Koppla loss och sätt i varje kontakt ordentligt igen. En lös hallsensorkontakt är en förvånansvärt vanlig orsak till LE på LG-maskiner med direktdrift och tar bara några minuter att kontrollera."
+        },
+        {
+          "step": 6,
+          "action": "Testa hallsensorn",
+          "detail": "Hallsensorn är en liten komponent som är fäst på motorstatorn. Om du har en multimeter kan du testa den för kontinuitet enligt de resistansvärden som anges i din modells servicedata. Ett värde utanför det förväntade intervallet bekräftar att sensorn har gått sönder och behöver bytas. Hallsensorer för LG-motorer med direktdrift finns allmänt tillgängliga och är relativt billiga."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera motorrotorn och statorn",
+          "detail": "Ta bort bakpanelen och sedan motorrotorn genom att skruva loss mittbulten – den har vänstergänga på de flesta LG-modeller, så vrid medurs för att lossa. Inspektera rotormagneterna för sprickor eller saknade delar och kontrollera statorlindningarna för tecken på brännskador eller skador. Om någon av komponenterna är synligt skadad är byte nödvändigt, och detta är ett bra tillfälle att kontakta en servicetekniker om du inte känner dig trygg med att fortsätta."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har minskat lasten, röjt undan hinder, återställt maskinen och satt i alla kontakter ordentligt men LE-felet återkommer konsekvent inom samma program, är felet troligtvis en defekt hallsensor, skadad motorstator eller felaktig rotor. Dessa delar kräver korrekt diagnos med testutrustning innan byte, och att montera fel komponent kan orsaka ytterligare skador.</p><p>Du bör också kontakta en servicetekniker om du märkt bränd lukt, brännmärken på motorn eller kablaget, eller om trumman är helt orörlig för hand även med en tom trumma – dessa symptom tyder på ett fastnat motorlager eller ett allvarligt elektriskt fel som inte är säkert att undersöka utan rätt utbildning.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när ett LG LE-fel åtgärdas är hallsensorn, motorrotorenheten och motorstatorn. Hallsensorn är den vanligaste enskilda komponentlösningen och är värd att kontrollera först. Rotorn och statorn byts vanligtvis ut som ett par om motorn har drabbats av elektriska skador.</p><p>För att minska risken för att LE återkommer, följ alltid de maximala lastanvisningarna för din modell, tvätta stora plagg som duntäcken separat och töm fickorna innan du laddar maskinen för att förhindra att främmande föremål kommer in i trumman. Att köra ett månatligt trumrengöringsprogram hjälper också till att hålla trumman roterande fritt.</p>\n<!-- SPARE_PARTS:LE -->",
+      "faq_json": [
+        {
+          "answer": "I många fall ja. De vanligaste orsakerna – överlastning, tilltrasslad tvätt och lösa kabelkontakter – är enkla att åtgärda utan specialverktyg. Om felet pekar på en defekt hallsensor är den delen också möjlig att byta ut själv för en hemmafixare med viss erfarenhet. Byte av motorstator eller rotor är mer avancerat och kan vara bättre att överlåta till en servicetekniker.",
+          "question": "Kan jag åtgärda LG felkod LE själv?"
+        },
+        {
+          "answer": "Motorn arbetar hårdast vid hög centrifugeringshastighet, så ett marginellt fel som inte utlöser LE under en långsam tvätt kan bli tydligt vid full centrifugeringshastighet. Detta mönster pekar ofta på en försvagad hallsensor, en delvis skadad rotormagnet eller en last som precis klarar sig under tvätt men är för tung för centrifugering. Prova att sänka centrifugeringshastigheten som en tillfällig lösning medan du undersöker problemet.",
+          "question": "Varför visar min LG-tvättmaskin LE bara vid snabb centrifugering?"
+        },
+        {
+          "answer": "Om trumman roterar fritt för hand, maskinen inte är överfylld och det inte finns några främmande föremål, men LE ändå visas konsekvent, är hallsensorn den troligaste boven. Du kan bekräfta detta med ett multimetertest eller genom att tillfälligt byta mot en känd fungerande sensor. En servicetekniker kan också läsa felhistorik från styrkortet, vilket ofta flaggar sensorfel specifikt.",
+          "question": "Hur vet jag om hallsensorn är problemet?"
+        },
+        {
+          "answer": "De är besläktade men inte identiska. LE avser motorlåsningsläget, medan LE1 på vissa LG-modeller indikerar motoröverbelastning eller låst rotor som detekteras vid en annan punkt i cykeln. Diagnosstegen är i stort sett desamma, men om din display visar LE1 är det värt att kontrollera din specifika modells manual för att bekräfta den exakta definitionen, eftersom terminologin kan variera något mellan modellserier.",
+          "question": "Är felkod LE samma som felkod LE1 på LG-maskiner?"
+        },
+        {
+          "answer": "För någon som tidigare har tagit bort en bakpanel på en hushållsapparat tar byte av hallsensorn vanligtvis 30 till 45 minuter. Sensorn klickas fast på motorstatorn och ansluts via en liten kabelstam. Den mest tidskrävande delen är vanligtvis att komma åt motorn genom att ta bort bakpanelen och, på vissa modeller, motvikten. Koppla alltid ur maskinen innan du påbörjar någon reparation.",
+          "question": "Hur lång tid tar det att byta hallsensor på en LG-tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:39.876797+00:00"
+    },
+    {
+      "id": 158,
+      "article_id": 97,
+      "locale": "en",
+      "slug": "lg-error-code-oe",
+      "title_tag": "LG Washing Machine Error Code OE | Fix Drain Fault",
+      "meta_description": "LG washing machine showing OE error? Learn what causes this drain fault, how to fix it yourself step by step, and when to call a service technician.",
+      "h1": "What Does Error Code OE Mean on an LG Washing Machine?",
+      "description": "Error code OE on an LG washing machine indicates that the machine has failed to drain the water within the expected time during a wash or spin cycle.",
+      "quick_fix": "Clean the pump filter located behind the small access panel at the bottom front of the machine — a blocked filter is the most common cause of OE, and clearing it typically resolves the fault immediately (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When your LG washing machine displays the OE error code, it means the appliance has detected that water is not draining away as it should. The machine monitors how long the drain cycle takes, and if water remains in the drum beyond the set time limit, it stops the programme and shows OE to alert you to the problem.</p><p>You may notice the drum is still full or partially full of water when the error appears. The machine will pause and refuse to continue until the issue is resolved. In some cases the pump may be audible — running but struggling — or completely silent, depending on the cause.</p><p>The good news is that OE is one of the more straightforward error codes to diagnose at home. The majority of cases come down to a blockage somewhere in the drain system, which you can usually clear yourself without specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked pump filter",
+          "detail": "The pump filter traps lint, coins, hair grips, and other small debris before they reach the drain pump. Over time this filter becomes clogged and restricts or completely blocks water flow, which is the single most common cause of OE on LG machines."
+        },
+        {
+          "cause": "Kinked or blocked drain hose",
+          "detail": "The drain hose runs from the back of the machine to your standpipe or sink. If it has become kinked, squashed behind the appliance, or blocked with accumulated residue, water cannot exit the drum efficiently."
+        },
+        {
+          "cause": "Blocked or incorrectly positioned standpipe",
+          "detail": "If the standpipe or sink drain that the hose empties into is itself blocked, water has nowhere to go. Similarly, if the drain hose is pushed too far down into the standpipe, it can create a siphoning effect that prevents proper drainage."
+        },
+        {
+          "cause": "Faulty or seized drain pump",
+          "detail": "The drain pump is the component that actively forces water out of the machine. If a foreign object such as a coin or button has jammed the pump impeller, or if the pump motor has failed electrically, the machine will not drain regardless of how clear the hose is."
+        },
+        {
+          "cause": "Faulty pressure sensor or wiring",
+          "detail": "The pressure sensor tells the control board when the drum is empty. If the sensor, its connecting hose, or the associated wiring is faulty, the board may incorrectly believe water is still present and trigger OE even when the drum has drained."
+        },
+        {
+          "cause": "Main control board fault",
+          "detail": "In a small number of cases the control board itself fails to send the correct signal to operate the drain pump. This is relatively rare and is usually only suspected after all other causes have been ruled out."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Before doing anything else, turn the programme dial to off and unplug the washing machine from the mains socket. If the drum is full of water you will need to drain it manually before you can access the filter safely — place towels on the floor first."
+        },
+        {
+          "step": 2,
+          "action": "Drain residual water and clean the pump filter",
+          "detail": "Open the small access panel at the bottom front of the machine. You will see a short rubber drain hose with a cap and a larger circular filter cap. Pull out the small hose, remove its cap over a bowl, and let the water drain. Once empty, unscrew the filter cap anticlockwise and pull the filter out. Rinse it under a tap, remove all debris, wipe inside the housing, then refit the filter firmly and replace the cap on the small hose."
+        },
+        {
+          "step": 3,
+          "action": "Check the drain hose for kinks or blockages",
+          "detail": "Carefully pull the machine away from the wall and inspect the full length of the drain hose. Straighten any kinks and ensure the hose is not being crushed. If you suspect an internal blockage, disconnect the hose from the standpipe and flush water through it from a tap to confirm it is clear."
+        },
+        {
+          "step": 4,
+          "action": "Check the standpipe or sink drain",
+          "detail": "Pour a bucket of water directly into the standpipe or sink that the drain hose empties into. If it drains slowly or backs up, the household drain is blocked and needs clearing independently of the washing machine. Also confirm the drain hose is inserted no more than 15 cm into the standpipe to prevent siphoning."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the pump impeller for obstructions",
+          "detail": "With the machine unplugged, reach into the filter housing with your fingers and try to turn the pump impeller — the small plastic fan visible at the back of the cavity. It should rotate freely. If it is stiff or jammed, there is likely a foreign object lodged in the pump. Remove the obstruction carefully with long-nose pliers."
+        },
+        {
+          "step": 6,
+          "action": "Run a short drain or spin cycle to test",
+          "detail": "Plug the machine back in and select a Spin or Drain programme. Watch and listen — you should hear the pump running and water exiting through the hose within the first minute or two. If the machine completes the cycle without showing OE, the fault is resolved."
+        },
+        {
+          "step": 7,
+          "action": "Check the pressure sensor hose for blockages or damage",
+          "detail": "If OE persists after the steps above, locate the thin rubber hose connecting the pressure sensor to the drum (usually visible once the top panel is removed). Disconnect it at both ends and blow through it to confirm it is clear. A blocked or split pressure hose can cause false drain errors and may need replacing."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have cleaned the filter, confirmed the drain hose and standpipe are clear, and checked that the pump impeller turns freely, but the machine still displays OE, the drain pump itself has most likely failed electrically and will need to be replaced. This involves disconnecting wiring and hose connections inside the machine and is best handled by a service technician.</p><p>You should also contact a service technician if the machine makes a loud grinding or burning smell during the drain phase, if you find the pump impeller is cracked or broken, or if the error code returns repeatedly within a short period after cleaning — this can point to a failing pressure sensor or a control board fault that requires diagnostic equipment to confirm.</p>",
+      "prevention_html": "<p>The most effective way to prevent OE from recurring is to clean the pump filter every one to three months, depending on how frequently you use the machine. Running a monthly maintenance wash at 60°C with a washing machine cleaner helps reduce the build-up of lint and detergent residue in the pump and hose. Always check pockets before loading — coins, hair grips, and tissues are the most common causes of pump blockages on LG machines.</p><p>The parts most commonly replaced when resolving an OE fault are the <strong>drain pump</strong>, the <strong>pump filter assembly</strong>, and the <strong>pressure sensor</strong> (also called the water level sensor). If you need to order any of these parts for your specific LG model, use the finder below.</p>\n<!-- SPARE_PARTS:OE -->",
+      "faq_json": [
+        {
+          "answer": "No — when OE is displayed the machine has stopped mid-cycle and will not continue. You should resolve the drain fault before running another wash. Leaving standing water in the drum for an extended period can also lead to unpleasant odours and mould growth.",
+          "question": "Can I still use my LG washing machine while it shows OE?"
+        },
+        {
+          "answer": "Use the small emergency drain hose located behind the access panel at the bottom front of the machine. Place a shallow bowl or tray underneath, remove the cap from the hose, and let the water flow out gradually. You may need to empty the bowl several times depending on how full the drum is.",
+          "question": "How do I get the water out of the drum when the machine won't drain?"
+        },
+        {
+          "answer": "A humming sound during the drain phase usually means the pump motor is receiving power and trying to run, but the impeller is jammed by a foreign object. Clean the filter and check the impeller for obstructions as described in the steps above. If the impeller is clear but the hum continues without any water movement, the pump motor itself may have failed.",
+          "question": "My LG washing machine is making a humming noise but not draining — what does that mean?"
+        },
+        {
+          "answer": "LG recommends cleaning the pump filter approximately once a month under normal use. If you wash heavily soiled items, pet bedding, or large loads frequently, clean it every two to three weeks. Regular cleaning takes less than ten minutes and is the single most effective way to prevent OE errors.",
+          "question": "How often should I clean the pump filter on my LG washing machine?"
+        },
+        {
+          "answer": "Once you have resolved the underlying blockage or fault and the machine successfully completes a drain or spin cycle, the OE code will clear automatically. You do not need to enter a reset sequence — simply fixing the cause and running the machine is sufficient to clear the error on LG models affected by this fault.",
+          "question": "Will the OE error clear itself once the machine drains?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:39.94449+00:00"
+    },
+    {
+      "id": 159,
+      "article_id": 97,
+      "locale": "sv",
+      "slug": "lg-felkod-oe",
+      "title_tag": "LG Tvättmaskin Felkod OE | Åtgärda Avloppsfel",
+      "meta_description": "Visar din LG-tvättmaskin felkod OE? Lär dig vad som orsakar detta avloppsfel, hur du åtgärdar det steg för steg och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod OE på en LG-tvättmaskin?",
+      "description": "Felkod OE på en LG-tvättmaskin indikerar att maskinen inte har lyckats pumpa ut vattnet inom förväntad tid under ett tvätt- eller centrifugeringsprogram.",
+      "quick_fix": "Rengör pumpfiltret som sitter bakom den lilla luckan längst ned på maskinens framsida — ett igensatt filter är den vanligaste orsaken till OE, och att rensa det löser vanligtvis felet omedelbart (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När din LG-tvättmaskin visar felkoden OE betyder det att maskinen har upptäckt att vattnet inte rinner ut som det ska. Maskinen övervakar hur lång tid avloppscykeln tar, och om vatten finns kvar i trumman efter den inställda tidsgränsen avbryter den programmet och visar OE för att varna dig om problemet.</p><p>Du kan märka att trumman fortfarande är helt eller delvis fylld med vatten när felet visas. Maskinen pausar och vägrar att fortsätta tills problemet är åtgärdat. I vissa fall kan pumpen höras — den går men kämpar — eller vara helt tyst, beroende på orsaken.</p><p>Den goda nyheten är att OE är en av de mer lättdiagnostiserade felkoderna att undersöka hemma. De flesta fall beror på en blockering någonstans i avloppssystemet, vilket du vanligtvis kan åtgärda själv utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt pumpfilter",
+          "detail": "Pumpfiltret fångar upp ludd, mynt, hårnålar och annat smått skräp innan det når avloppspumpen. Med tiden täpps filtret igen och begränsar eller blockerar helt vattenflödet, vilket är den absolut vanligaste orsaken till OE på LG-maskiner."
+        },
+        {
+          "cause": "Veckad eller blockerad avloppsslang",
+          "detail": "Avloppsslangen löper från maskinens baksida till ditt avloppsrör eller din diskho. Om den har blivit veckad, klämd bakom maskinen eller blockerad av ansamlat avlagringar kan vattnet inte lämna trumman effektivt."
+        },
+        {
+          "cause": "Blockerat eller felaktigt placerat avloppsrör",
+          "detail": "Om avloppsröret eller diskhoavloppet som slangen mynnar ut i självt är blockerat har vattnet ingenstans att ta vägen. På samma sätt kan avloppsslangen skapa en siffoneffekt som förhindrar korrekt avrinning om den trycks för långt ned i avloppsröret."
+        },
+        {
+          "cause": "Defekt eller fastnad avloppspump",
+          "detail": "Avloppspumpen är den komponent som aktivt pumpar ut vattnet ur maskinen. Om ett främmande föremål som ett mynt eller en knapp har fastnat i pumpens impeller, eller om pumpmotorn har gått sönder elektriskt, kommer maskinen inte att tömmas oavsett hur fri slangen är."
+        },
+        {
+          "cause": "Defekt trycksensor eller kablage",
+          "detail": "Trycksensorn talar om för styrkortet när trumman är tom. Om sensorn, dess anslutningsslang eller tillhörande kablage är defekt kan kortet felaktigt tro att vatten fortfarande finns kvar och utlösa OE även när trumman har tömts."
+        },
+        {
+          "cause": "Fel på huvudstyrkortet",
+          "detail": "I ett litet antal fall misslyckas styrkortet med att skicka rätt signal för att aktivera avloppspumpen. Detta är relativt ovanligt och misstänks vanligtvis först efter att alla andra orsaker har uteslutits."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Innan du gör något annat, vrid programväljaren till av och dra ut tvättmaskinens stickkontakt ur vägguttaget. Om trumman är full med vatten måste du tömma den manuellt innan du kan komma åt filtret på ett säkert sätt — lägg handdukar på golvet först."
+        },
+        {
+          "step": 2,
+          "action": "Töm kvarvarande vatten och rengör pumpfiltret",
+          "detail": "Öppna den lilla luckan längst ned på maskinens framsida. Du ser en kort gummislang med en kåpa och ett större runt filterlocket. Dra ut den lilla slangen, ta bort kåpan över en skål och låt vattnet rinna ut. När det är tomt, skruva loss filterlocket moturs och dra ut filtret. Skölj det under kranen, ta bort allt skräp, torka av insidan av huset och sätt sedan tillbaka filtret ordentligt och sätt tillbaka kåpan på den lilla slangen."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera avloppsslangen för veck eller blockeringar",
+          "detail": "Dra försiktigt ut maskinen från väggen och inspektera avloppsslangen längs hela dess längd. Räta ut eventuella veck och se till att slangen inte kläms. Om du misstänker en intern blockering, koppla loss slangen från avloppsröret och spola vatten genom den från en kran för att bekräfta att den är fri."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera avloppsröret eller diskhoavloppet",
+          "detail": "Häll en hink vatten direkt i avloppsröret eller diskhoavloppet som avloppsslangen mynnar ut i. Om det rinner långsamt eller backar upp är hushållets avlopp blockerat och behöver rensas oberoende av tvättmaskinen. Bekräfta också att avloppsslangen inte är instucken mer än 15 cm i avloppsröret för att förhindra siffoneffekt."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera pumpens impeller för hinder",
+          "detail": "Med maskinen urkopplad, stick in fingrarna i filterhuset och försök vrida pumpens impeller — det lilla plastfläktet som syns längst in i utrymmet. Det ska rotera fritt. Om det är styvt eller fastnat finns det troligen ett främmande föremål i pumpen. Ta bort hindret försiktigt med spetsnåltång."
+        },
+        {
+          "step": 6,
+          "action": "Kör ett kort avlopps- eller centrifugeringsprogram för att testa",
+          "detail": "Sätt i stickkontakten och välj ett Centrifugerings- eller Avloppsprogram. Titta och lyssna — du bör höra pumpen gå och vatten som lämnar maskinen genom slangen inom de första minuterna. Om maskinen slutför cykeln utan att visa OE är felet åtgärdat."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera trycksensorns slang för blockeringar eller skador",
+          "detail": "Om OE kvarstår efter stegen ovan, leta upp den tunna gummislangen som förbinder trycksensorn med trumman (vanligtvis synlig när toppanelen är borttagen). Koppla loss den i båda ändarna och blås igenom den för att bekräfta att den är fri. En blockerad eller sprucken trycksensorslang kan orsaka falska avloppsfel och kan behöva bytas ut."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har rengjort filtret, bekräftat att avloppsslangen och avloppsröret är fria och kontrollerat att pumpens impeller roterar fritt, men maskinen fortfarande visar OE, har avloppspumpen troligen gått sönder elektriskt och behöver bytas ut. Detta innebär att koppla loss kablage och slanganslutningar inuti maskinen och hanteras bäst av en servicetekniker.</p><p>Du bör också kontakta en servicetekniker om maskinen avger ett högt slipljud eller bränndoft under avloppsfasen, om du upptäcker att pumpens impeller är sprucken eller trasig, eller om felkoden återkommer upprepade gånger inom kort tid efter rengöring — detta kan tyda på en defekt trycksensor eller ett styrkortsfel som kräver diagnostikutrustning för att bekräftas.</p>",
+      "prevention_html": "<p>Det effektivaste sättet att förhindra att OE återkommer är att rengöra pumpfiltret var en till tre månader, beroende på hur ofta du använder maskinen. Att köra ett månatligt underhållsprogram vid 60°C med ett tvättmaskinrengöringsmedel hjälper till att minska ansamlingen av ludd och tvättmedelsrester i pumpen och slangen. Kontrollera alltid fickorna innan du lastar maskinen — mynt, hårnålar och näsdukar är de vanligaste orsakerna till pumpstopp på LG-maskiner.</p><p>De delar som oftast byts ut vid åtgärdande av ett OE-fel är <strong>avloppspumpen</strong>, <strong>pumpfilterenheten</strong> och <strong>trycksensorn</strong> (kallas även vattennivåsensor). Om du behöver beställa någon av dessa delar för din specifika LG-modell, använd sökverktyget nedan.</p>\n<!-- SPARE_PARTS:OE -->",
+      "faq_json": [
+        {
+          "answer": "Nej — när OE visas har maskinen stannat mitt i cykeln och kommer inte att fortsätta. Du bör åtgärda avloppsfelet innan du kör en ny tvätt. Att låta stillastående vatten stå kvar i trumman under en längre tid kan också leda till obehaglig lukt och mögelbildning.",
+          "question": "Kan jag fortfarande använda min LG-tvättmaskin när den visar OE?"
+        },
+        {
+          "answer": "Använd den lilla nödavloppsslangen som sitter bakom luckan längst ned på maskinens framsida. Placera en grund skål eller bricka undertill, ta bort kåpan från slangen och låt vattnet rinna ut gradvis. Du kan behöva tömma skålen flera gånger beroende på hur full trumman är.",
+          "question": "Hur får jag ut vattnet ur trumman när maskinen inte tömmer sig?"
+        },
+        {
+          "answer": "Ett surrande ljud under avloppsfasen betyder vanligtvis att pumpmotorn får ström och försöker gå, men att impellern är blockerad av ett främmande föremål. Rengör filtret och kontrollera impellern för hinder enligt stegen ovan. Om impellern är fri men surret fortsätter utan att något vatten rör sig kan pumpmotorn själv ha gått sönder.",
+          "question": "Min LG-tvättmaskin surrar men tömmer sig inte — vad betyder det?"
+        },
+        {
+          "answer": "LG rekommenderar att rengöra pumpfiltret ungefär en gång i månaden vid normal användning. Om du ofta tvättar kraftigt smutsade plagg, husdjursbäddar eller stora tvättar, rengör det var två till tre veckor. Regelbunden rengöring tar mindre än tio minuter och är det enskilt mest effektiva sättet att förebygga OE-fel.",
+          "question": "Hur ofta ska jag rengöra pumpfiltret på min LG-tvättmaskin?"
+        },
+        {
+          "answer": "När du har åtgärdat den underliggande blockeringen eller felet och maskinen framgångsrikt slutför ett avlopps- eller centrifugeringsprogram, försvinner OE-koden automatiskt. Du behöver inte utföra någon återställningssekvens — det räcker att åtgärda orsaken och köra maskinen för att rensa felet på LG-modeller som påverkas av detta fel.",
+          "question": "Försvinner OE-felet av sig självt när maskinen har tömts?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:40.009335+00:00"
+    },
+    {
+      "id": 127,
+      "article_id": 98,
+      "locale": "en",
+      "slug": "lg-error-code-pe",
+      "title_tag": "LG Washing Machine Error Code PE | Fix It Now",
+      "meta_description": "LG washing machine showing error code PE? Learn what causes a water level sensor fault and how to fix it yourself in a few simple steps.",
+      "h1": "What Does Error Code PE Mean on an LG Washing Machine?",
+      "description": "Error code PE on an LG washing machine indicates that the pressure sensor (water level sensor) is not functioning correctly and the machine cannot accurately detect the water level inside the drum.",
+      "quick_fix": "Check the pressure sensor hose for kinks, blockages, or disconnection — straighten or reattach it and restart the cycle to clear the error (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code PE appears on your LG washing machine when the pressure sensor — also called the water level sensor — fails to send a reliable signal to the main control board. This sensor is responsible for telling the machine how much water is in the drum at any given point during a wash cycle.</p><p>When the PE error triggers, the machine will typically pause mid-cycle or refuse to start, because it cannot safely control water intake without knowing the current water level. Running without this information risks overfilling the drum or running the heater dry, so the machine shuts down as a precaution.</p><p>The fault can stem from something as simple as a loose hose connection or a blocked air chamber, through to a failed sensor or a fault on the main PCB. Working through the causes in order will help you identify the problem without unnecessary part replacements.</p>",
+      "causes_json": [
+        {
+          "cause": "Kinked or disconnected pressure sensor hose",
+          "detail": "A small rubber or plastic hose connects the pressure sensor to the drum's air chamber. If this hose becomes kinked, split, or pulls free from either end, the sensor receives no air pressure signal and triggers PE."
+        },
+        {
+          "cause": "Blocked air chamber or pressure port",
+          "detail": "Detergent residue, limescale, or debris can clog the small port at the base of the drum where the hose connects. A blocked port prevents pressure changes from reaching the sensor, giving a false or absent reading."
+        },
+        {
+          "cause": "Faulty pressure sensor",
+          "detail": "The pressure sensor itself can fail electrically or mechanically over time. When the sensor's internal diaphragm or circuitry deteriorates, it sends incorrect or no signal to the control board, triggering the PE error."
+        },
+        {
+          "cause": "Damaged or corroded wiring harness",
+          "detail": "The wiring loom connecting the pressure sensor to the main PCB can suffer from corrosion, chafing, or loose connector pins. Even a partial break in continuity is enough to cause an intermittent or permanent PE fault."
+        },
+        {
+          "cause": "Main PCB fault",
+          "detail": "If the control board's input circuit for the pressure sensor signal has failed, it will misread or ignore the sensor output entirely. This is less common but should be considered if all other components test correctly."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains and unplug it. Wait two full minutes, then plug back in and restart the cycle. Occasionally a temporary signal glitch causes a false PE error, and a full power reset clears it without any further action needed."
+        },
+        {
+          "step": 2,
+          "action": "Locate and inspect the pressure sensor hose",
+          "detail": "Remove the top panel of the washing machine (usually two screws at the rear). The pressure sensor is a small round component, typically mounted near the top of the machine, with a thin hose running down to the drum. Trace the full length of the hose and look for kinks, cracks, or disconnected ends. Reattach any loose ends firmly and straighten any kinks before reassembling."
+        },
+        {
+          "step": 3,
+          "action": "Clear the air chamber port",
+          "detail": "Detach the hose from the drum end and inspect the small port it connects to. Use a thin piece of wire or a toothpick to gently clear any visible debris or limescale buildup from the port opening. Blow gently through the hose to confirm airflow is unobstructed before reconnecting it."
+        },
+        {
+          "step": 4,
+          "action": "Check the wiring harness and connector",
+          "detail": "With the machine still unplugged, locate the electrical connector on the pressure sensor. Unplug it, inspect the pins for corrosion or bent contacts, and press it firmly back into place. Follow the wiring loom toward the PCB and look for any visible chafing or damage along the route."
+        },
+        {
+          "step": 5,
+          "action": "Test the pressure sensor with a multimeter",
+          "detail": "Disconnect the sensor's electrical connector and use a multimeter set to measure resistance across the sensor terminals. Consult your model's service data for the expected resistance range — a reading of zero or infinity typically confirms a failed sensor. If the reading is out of range, the sensor needs replacing."
+        },
+        {
+          "step": 6,
+          "action": "Replace the pressure sensor",
+          "detail": "Order a replacement pressure sensor compatible with your specific LG model number. Fitting is straightforward — disconnect the hose and wiring connector, unclip or unscrew the old sensor, and fit the new one in reverse order. Run a short test cycle to confirm the PE error has cleared."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the main PCB if the fault persists",
+          "detail": "If a new sensor does not resolve the error and all wiring checks out, the fault likely lies with the main control board's sensor input circuit. Visual inspection may reveal burnt components or damaged tracks, but PCB diagnosis and replacement is best handled by a service technician."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have replaced the pressure sensor and confirmed the hose and wiring are in good condition but the PE error continues to appear, the main PCB is the most likely remaining cause. Diagnosing and replacing a control board requires specialist tools and carries a risk of further damage if handled incorrectly, so this is the point at which calling a qualified service technician is the sensible choice.</p><p>You should also seek professional help if you find burnt wiring, signs of water ingress near the PCB, or if the machine is displaying multiple unrelated error codes alongside PE — these symptoms suggest a more serious underlying electrical fault that goes beyond straightforward component replacement.</p>",
+      "prevention_html": "<p>The PE error is most commonly resolved by replacing the pressure sensor itself, the pressure sensor hose, or — in wiring-related cases — the wiring harness connector between the sensor and the PCB. Keeping a note of your exact model number before ordering ensures you receive the correct part, as sensor specifications vary across the LG range listed above.</p><p>To reduce the risk of the PE fault recurring, run a monthly drum-clean cycle to limit detergent and limescale buildup around the air chamber port, and avoid overfilling the detergent drawer, which can contribute to residue accumulation in the drum and hose connections over time.</p>\n<!-- SPARE_PARTS:PE -->",
+      "faq_json": [
+        {
+          "answer": "No — when the PE error is active, the machine will not complete a wash cycle because it cannot safely monitor the water level. Attempting to force a cycle risks overfilling the drum or running the heating element without sufficient water, which can cause further damage. It is best to resolve the fault before using the machine again.",
+          "question": "Can I still use my LG washing machine with a PE error showing?"
+        },
+        {
+          "answer": "Remove the top panel and visually trace the hose from the sensor down to the drum. A split, kink, or disconnected end is usually easy to spot. You can also detach the hose and blow gently through it — if air passes freely and the hose is intact, the hose itself is likely fine and you should move on to testing the sensor.",
+          "question": "How do I know if the pressure sensor hose is the problem?"
+        },
+        {
+          "answer": "No — PE specifically relates to the pressure sensor that measures water level, not the inlet valve that controls water flow. A water inlet fault would typically show a different error code on LG machines. If your machine is also struggling to fill with water, there may be a separate issue alongside the PE fault.",
+          "question": "Is the PE error the same as a water inlet fault?"
+        },
+        {
+          "answer": "Replacement pressure sensors for LG washing machines are generally an affordable part, typically ranging from around £10 to £30 depending on the model. Fitting it yourself keeps the total cost low. If you also need a service technician call-out, factor in the labour charge on top of the part cost.",
+          "question": "How much does a replacement LG pressure sensor cost?"
+        },
+        {
+          "answer": "In most cases, once the underlying fault is resolved, the error will clear automatically when you restart the machine. If the code persists after a confirmed repair, try switching the machine off at the mains for two minutes before restarting. A code that returns immediately after a repair suggests the root cause has not yet been fully addressed.",
+          "question": "Will the PE error clear itself after I fix the problem?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:38.306108+00:00"
+    },
+    {
+      "id": 128,
+      "article_id": 98,
+      "locale": "sv",
+      "slug": "lg-felkod-pe",
+      "title_tag": "LG Tvättmaskin Felkod PE | Åtgärda Det Nu",
+      "meta_description": "Visar din LG-tvättmaskin felkod PE? Lär dig vad som orsakar ett fel på vattennivåsensorn och hur du åtgärdar det själv i några enkla steg.",
+      "h1": "Vad Betyder Felkod PE på en LG Tvättmaskin?",
+      "description": "Felkod PE på en LG-tvättmaskin indikerar att trycksensorn (vattenivåsensorn) inte fungerar korrekt och att maskinen inte kan avläsa vattenivån i trumman på ett tillförlitligt sätt.",
+      "quick_fix": "Kontrollera trycksensorns slang efter böjningar, blockeringar eller lossnade anslutningar — räta ut eller återanslut den och starta om programmet för att rensa felet (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod PE visas på din LG-tvättmaskin när trycksensorn — även kallad vattenivåsensorn — inte skickar en tillförlitlig signal till huvudkortet. Denna sensor ansvarar för att tala om för maskinen hur mycket vatten som finns i trumman vid varje given tidpunkt under ett tvättprogram.</p><p>När PE-felet utlöses kommer maskinen vanligtvis att pausa mitt i programmet eller vägra att starta, eftersom den inte kan styra vattenintaget på ett säkert sätt utan att känna till den aktuella vattenivån. Att köra utan denna information riskerar att trumman fylls för mycket eller att värmaren körs torr, varför maskinen stänger av sig som en försiktighetsåtgärd.</p><p>Felet kan bero på något så enkelt som en lossnad slangangslutning eller en blockerad luftkammare, men också på en defekt sensor eller ett fel på huvudkortet. Att gå igenom orsakerna i ordning hjälper dig att identifiera problemet utan onödiga reservdelsbyten.</p>",
+      "causes_json": [
+        {
+          "cause": "Böjd eller lossnad trycksensorslang",
+          "detail": "En liten gummi- eller plastslang förbinder trycksensorn med trummans luftkammare. Om denna slang böjs, spricker eller lossnar från någon av ändarna får sensorn ingen lufttryckssignal och utlöser PE."
+        },
+        {
+          "cause": "Blockerad luftkammare eller trycköppning",
+          "detail": "Tvättmedelsrester, kalkavlagringar eller smuts kan täppa till den lilla öppningen vid trummans botten där slangen ansluter. En blockerad öppning förhindrar att tryckvariationer når sensorn, vilket ger ett felaktigt eller uteblivet avläsningsvärde."
+        },
+        {
+          "cause": "Defekt trycksensor",
+          "detail": "Trycksensorn kan med tiden haverera elektriskt eller mekaniskt. När sensorns interna membran eller kretsar försämras skickar den felaktiga eller inga signaler till styrkortet, vilket utlöser PE-felet."
+        },
+        {
+          "cause": "Skadad eller korroderad kabelstam",
+          "detail": "Kabelstammen som förbinder trycksensorn med huvudkortet kan drabbas av korrosion, nötning eller lösa kontaktstift. Även ett partiellt avbrott i kontinuiteten räcker för att orsaka ett intermittent eller permanent PE-fel."
+        },
+        {
+          "cause": "Fel på huvudkortet",
+          "detail": "Om styrkortet ingångskrets för trycksensorsignalen har havererat kommer den att feltolka eller helt ignorera sensorns utsignal. Detta är mindre vanligt men bör övervägas om alla övriga komponenter testar korrekt."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid eluttaget och dra ur kontakten. Vänta två hela minuter, anslut sedan igen och starta om programmet. Ibland orsakar en tillfällig signalstörning ett falskt PE-fel, och en fullständig omstart rensar det utan att några ytterligare åtgärder behövs."
+        },
+        {
+          "step": 2,
+          "action": "Lokalisera och inspektera trycksensorslangen",
+          "detail": "Ta bort tvättmaskinens toppanel (vanligtvis två skruvar baktill). Trycksensorn är en liten rund komponent, vanligtvis monterad nära maskinens topp, med en tunn slang som löper ner till trumman. Följ slangen längs hela dess längd och leta efter böjningar, sprickor eller lossnade ändar. Återanslut eventuella lösa ändar ordentligt och räta ut böjningar innan du sätter ihop maskinen igen."
+        },
+        {
+          "step": 3,
+          "action": "Rensa luftkammaröppningen",
+          "detail": "Lossa slangen från trumänden och inspektera den lilla öppning den ansluter till. Använd en tunn bit tråd eller en tandpetare för att försiktigt rensa bort synliga smuts- eller kalkavlagringar från öppningen. Blås försiktigt genom slangen för att bekräfta att luftflödet är fritt innan du återansluter den."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera kabelstam och kontakt",
+          "detail": "Med maskinen fortfarande urkopplad, lokalisera den elektriska kontakten på trycksensorn. Koppla loss den, inspektera stiften för korrosion eller böjda kontakter och tryck sedan in den ordentligt igen. Följ kabelstammen mot kortet och leta efter synlig nötning eller skador längs vägen."
+        },
+        {
+          "step": 5,
+          "action": "Testa trycksensorn med en multimeter",
+          "detail": "Koppla loss sensorns elektriska kontakt och använd en multimeter inställd på att mäta resistans över sensorns anslutningsstift. Konsultera din modells servicedata för det förväntade resistansintervallet — ett avläsningsvärde på noll eller oändlighet bekräftar vanligtvis en defekt sensor. Om avläsningen är utanför intervallet behöver sensorn bytas."
+        },
+        {
+          "step": 6,
+          "action": "Byt trycksensorn",
+          "detail": "Beställ en ersättningstrycksensor som är kompatibel med ditt specifika LG-modellnummer. Monteringen är enkel — koppla loss slangen och kabelkontakten, lossa eller skruva loss den gamla sensorn och montera den nya i omvänd ordning. Kör ett kort testprogram för att bekräfta att PE-felet har försvunnit."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera huvudkortet om felet kvarstår",
+          "detail": "Om en ny sensor inte löser felet och all kabelkontroll är godkänd, beror felet troligtvis på huvudkortets sensoringångskrets. Visuell inspektion kan avslöja brända komponenter eller skadade ledningsbanor, men diagnostik och byte av kretskort hanteras bäst av en servicetekniker."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har bytt trycksensorn och bekräftat att slangen och kablaget är i gott skick men PE-felet fortsätter att visas, är huvudkortet den mest sannolika återstående orsaken. Att diagnostisera och byta ett styrkort kräver specialverktyg och medför risk för ytterligare skador om det hanteras felaktigt, varför det vid det här laget är ett klokt val att kontakta en behörig servicetekniker.</p><p>Du bör också söka professionell hjälp om du hittar brända kablar, tecken på vatteninträngning nära kortet, eller om maskinen visar flera orelaterade felkoder tillsammans med PE — dessa symptom tyder på ett allvarligare underliggande elfel som går bortom ett enkelt komponentbyte.</p>",
+      "prevention_html": "<p>PE-felet löses oftast genom att byta trycksensorn, trycksensorslangen eller — i kabelrelaterade fall — kabelstamskontakten mellan sensorn och kortet. Att notera ditt exakta modellnummer innan du beställer säkerställer att du får rätt del, eftersom sensorspecifikationerna varierar inom LG-sortimentet som anges ovan.</p><p>För att minska risken för att PE-felet återkommer, kör ett månatligt trumrengöringsprogram för att begränsa ansamling av tvättmedel och kalk runt luftkammaröppningen, och undvik att överfylla tvättmedelsfacket, vilket kan bidra till ansamling av rester i trumman och slangangslutningarna över tid.</p>\n<!-- SPARE_PARTS:PE -->",
+      "faq_json": [
+        {
+          "answer": "Nej — när PE-felet är aktivt kommer maskinen inte att slutföra ett tvättprogram eftersom den inte kan övervaka vattenivån på ett säkert sätt. Att försöka tvinga igenom ett program riskerar att trumman fylls för mycket eller att värmaren körs utan tillräckligt med vatten, vilket kan orsaka ytterligare skador. Det är bäst att åtgärda felet innan maskinen används igen.",
+          "question": "Kan jag fortfarande använda min LG-tvättmaskin när PE-felet visas?"
+        },
+        {
+          "answer": "Ta bort toppanelen och följ slangen visuellt från sensorn ner till trumman. En spricka, böjning eller lossnad ände är vanligtvis lätt att se. Du kan också lossa slangen och blåsa försiktigt genom den — om luft passerar fritt och slangen är hel är slangen troligtvis i ordning och du bör gå vidare till att testa sensorn.",
+          "question": "Hur vet jag om trycksensorslangen är problemet?"
+        },
+        {
+          "answer": "Nej — PE avser specifikt trycksensorn som mäter vattenivån, inte inloppsventilen som styr vattenflödet. Ett fel på vatteninloppet skulle vanligtvis visa en annan felkod på LG-maskiner. Om din maskin också har svårt att fylla på vatten kan det finnas ett separat problem vid sidan av PE-felet.",
+          "question": "Är PE-felet detsamma som ett fel på vatteninloppet?"
+        },
+        {
+          "answer": "Ersättningstrycksensorer för LG-tvättmaskiner är generellt sett en prisvärd del, vanligtvis i intervallet cirka 100 till 300 kronor beroende på modell. Att montera den själv håller den totala kostnaden låg. Om du även behöver ett servicetekniker-besök, räkna med arbetskostnaden utöver delkostnaden.",
+          "question": "Vad kostar en ersättningstrycksensor till LG?"
+        },
+        {
+          "answer": "I de flesta fall rensas felet automatiskt när du startar om maskinen efter att det underliggande felet har åtgärdats. Om koden kvarstår efter en bekräftad reparation, prova att stänga av maskinen vid eluttaget i två minuter innan du startar om. En kod som omedelbart återkommer efter en reparation tyder på att grundorsaken ännu inte har åtgärdats fullt ut.",
+          "question": "Försvinner PE-felet av sig självt efter att jag har åtgärdat problemet?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:38.449604+00:00"
+    },
+    {
+      "id": 131,
+      "article_id": 100,
+      "locale": "en",
+      "slug": "lg-error-code-ps",
+      "title_tag": "LG Washing Machine Error Code PS | Power Surge Fix",
+      "meta_description": "LG washing machine showing error code PS? Learn what causes this power surge fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code PS Mean on an LG Washing Machine?",
+      "description": "Error code PS on an LG washing machine indicates that an abnormal voltage level has been detected in the motor circuit, triggering a power surge protection shutdown.",
+      "quick_fix": "Unplug the washing machine from the wall socket, wait 10 minutes to allow residual voltage to fully dissipate, then plug it back in and restart the cycle — this clears a transient voltage spike in the majority of PS error cases (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code PS is LG's power surge protection alert. When the machine's control board detects that the voltage reaching the motor circuit has moved outside safe operating limits — either a sudden spike or an unexpected drop — it immediately halts the programme and displays PS to prevent damage to the motor and electronics.</p><p>You may notice the drum stops mid-cycle, the display freezes on PS, and the machine becomes unresponsive to button presses. In some cases the error appears at the very start of a cycle before the drum has even begun to turn. The machine is not broken at this point; it has done exactly what it is designed to do by cutting power to the motor.</p><p>The fault can originate from your home's electricity supply, from the machine's internal wiring, or from components in the motor circuit itself. Working through the checks below in order will help you identify which applies.</p>",
+      "causes_json": [
+        {
+          "cause": "Transient voltage spike from the mains supply",
+          "detail": "A brief surge on your household electricity supply — caused by a nearby appliance switching on, a storm, or a grid fluctuation — can trigger the PS error even though nothing is physically wrong with the machine. This is the most common cause and usually clears after a power cycle."
+        },
+        {
+          "cause": "Faulty or inadequate extension lead or socket",
+          "detail": "Washing machines draw high current during motor operation. Plugging into an overloaded extension lead, a worn socket, or a circuit shared with other high-draw appliances can cause the voltage at the machine to fluctuate enough to trigger PS."
+        },
+        {
+          "cause": "Damaged or loose motor wiring harness",
+          "detail": "The wiring loom connecting the main control board to the motor can develop loose connectors or chafed insulation over time, particularly on machines with high spin speeds. Intermittent contact in this harness produces irregular voltage readings that the board interprets as a surge."
+        },
+        {
+          "cause": "Failing motor or motor capacitor",
+          "detail": "A brushless DC motor that is beginning to fail, or a capacitor within the motor circuit that has degraded, can generate back-EMF spikes that the control board registers as abnormal voltage. This tends to produce a PS error consistently rather than intermittently."
+        },
+        {
+          "cause": "Faulty main control board (PCB)",
+          "detail": "If the PCB's voltage-sensing circuitry develops a fault, it may report a surge error even when the supply and motor are both healthy. This is less common but should be considered if all other components check out correctly."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a full power reset",
+          "detail": "Switch the machine off at the programme dial, then unplug it completely from the wall socket. Leave it unplugged for at least 10 minutes — not just 30 seconds — to allow the capacitors on the control board to fully discharge. Plug back in, select a short cycle, and observe whether PS returns immediately or allows the drum to begin turning."
+        },
+        {
+          "step": 2,
+          "action": "Check the wall socket and plug directly",
+          "detail": "Plug the machine directly into a dedicated wall socket rather than an extension lead or multi-socket adaptor. Inspect the plug's fuse — for a washing machine this should be a 13 A fuse — and replace it if it looks discoloured or blown. Try the machine on a different socket on a separate circuit if one is available."
+        },
+        {
+          "step": 3,
+          "action": "Check for other high-draw appliances on the same circuit",
+          "detail": "Identify which other sockets share the same circuit breaker as your washing machine. If a tumble dryer, electric oven, or immersion heater is on the same ring, try running the washing machine with those appliances switched off. Voltage sag caused by shared load is a straightforward fix — your electrician can advise on dedicated circuit options if this is a recurring issue."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the motor wiring harness connectors",
+          "detail": "Disconnect the machine from the mains before doing this. Remove the rear panel (usually four screws) to access the motor. Locate the wiring harness connectors at both the motor end and the control board end, and press each connector firmly until it clicks. Look for any wires with cracked or melted insulation and note their position. Refit the panel, reconnect power, and test."
+        },
+        {
+          "step": 5,
+          "action": "Run a diagnostic cycle",
+          "detail": "LG washing machines on these model series support a service diagnostic mode. With the machine powered on and the door closed, press and hold the Spin Speed and Soil Level buttons simultaneously for three seconds to enter the test programme. The machine will run through each function in sequence; if PS appears only during the motor spin phase, this points to the motor or its wiring rather than the supply."
+        },
+        {
+          "step": 6,
+          "action": "Test the motor and motor capacitor",
+          "detail": "With the machine unplugged, disconnect the motor wiring harness and use a multimeter set to resistance (Ω) to test continuity across the motor terminals — refer to your model's wiring diagram for expected values. A reading of zero or infinite resistance where a mid-range value is expected indicates a motor fault. Capacitor testing requires a capacitance-capable meter; a capacitor that reads significantly below its rated value (printed on its casing) should be replaced."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the main control board for visible damage",
+          "detail": "With the machine unplugged, access the PCB (usually behind the top or front panel depending on your model). Look for burnt or discoloured areas, swollen capacitors, or corroded tracks. Any visible damage to the board means it will need to be replaced rather than repaired. If the board looks physically intact but PS persists after all other checks, the board's voltage-sensing circuit may have failed internally."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Contact a service technician if the PS error returns immediately every time you power the machine on, if you can see burn marks or smell burning from the motor area or control board, or if your multimeter tests indicate a failed motor. These symptoms point to a component fault that requires specialist tools and replacement parts to resolve safely.</p><p>You should also call a technician if the error only appears on this machine and you have already confirmed the socket and supply are healthy — this pattern strongly suggests an internal electrical fault rather than a supply issue, and continued attempts to run the machine risk causing further damage to the PCB or motor windings.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a persistent PS error on these LG models are the <strong>motor assembly</strong>, the <strong>motor wiring harness</strong>, and the <strong>main control board (PCB)</strong>. In some cases only the motor capacitor needs replacing rather than the full motor, which is a lower-cost repair worth exploring first if motor continuity tests are otherwise normal.</p><p>Using a plug-in surge protector rated for appliance use (look for a clamping voltage of 400 V or lower) can help protect the machine's electronics from future mains spikes, particularly in areas prone to electrical storms or unstable supply.</p>\n<!-- SPARE_PARTS:PS -->",
+      "faq_json": [
+        {
+          "answer": "You should not continue running the machine until you have identified the cause. If the error was triggered by a one-off mains spike and clears after a power reset, it is generally safe to resume use. However, if PS appears repeatedly or is accompanied by burning smells or unusual noises, stop using the machine until it has been inspected — repeated voltage irregularities can damage the motor windings and PCB.",
+          "question": "Is it safe to keep using my LG washing machine after a PS error?"
+        },
+        {
+          "answer": "The motor draws its highest current during fast spin cycles. If a component in the motor circuit — such as the capacitor, a winding, or a connector — is marginal rather than fully failed, it may only produce abnormal voltage readings under this peak load. This pattern is a useful diagnostic clue pointing toward the motor or its immediate wiring rather than the mains supply.",
+          "question": "Why does my LG washing machine show PS only on high spin speeds?"
+        },
+        {
+          "answer": "Yes. When mains power is restored after a cut, there is often a brief voltage spike as the supply stabilises. If the machine was mid-cycle when power was lost, this spike can trigger PS when power returns. A 10-minute power reset after a power cut is usually enough to clear it and allow the cycle to restart.",
+          "question": "Can a power cut cause the PS error on an LG washing machine?"
+        },
+        {
+          "answer": "If the fault clears with a power reset or a fuse replacement, the cost is negligible. A replacement motor wiring harness typically costs between £15 and £40 for parts. A new motor assembly for these LG models generally ranges from £80 to £150 for the part alone, with labour on top if fitted by a service technician. A replacement PCB is usually the most expensive option, often £100–£200 for the part.",
+          "question": "How much does it cost to fix an LG washing machine PS error?"
+        },
+        {
+          "answer": "The PS error code is specific to LG models that include motor circuit voltage monitoring, which covers the F-series direct drive models listed on this page. Other LG washing machines may display different codes for motor or electrical faults. Always cross-reference the error code with your specific model number to confirm the diagnosis.",
+          "question": "Does the PS error affect all LG washing machine models or just certain ones?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:38.371819+00:00"
+    },
+    {
+      "id": 132,
+      "article_id": 100,
+      "locale": "sv",
+      "slug": "lg-felkod-ps",
+      "title_tag": "LG Tvättmaskin Felkod PS | Åtgärda Spänningsstöt",
+      "meta_description": "Visar din LG-tvättmaskin felkod PS? Lär dig vad som orsakar detta spänningsskyddsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod PS på en LG-tvättmaskin?",
+      "description": "Felkod PS på en LG-tvättmaskin indikerar att en onormal spänningsnivå har detekterats i motorkretsen, vilket utlöser ett skyddsavstängning mot spänningsstötar.",
+      "quick_fix": "Dra ut tvättmaskinens stickkontakt ur vägguttaget, vänta 10 minuter så att restspänningen hinner laddas ur helt, sätt sedan i kontakten igen och starta om programmet — detta rensar en tillfällig spänningsstöt i de flesta PS-felfall (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod PS är LG:s varning för spänningsskydd. När maskinens styrkort upptäcker att spänningen som når motorkretsen har gått utanför säkra driftsgränser — antingen en plötslig spänningsstöt eller ett oväntat spänningsfall — avbryter den omedelbart programmet och visar PS för att skydda motorn och elektroniken från skador.</p><p>Du kan märka att trumman stannar mitt i ett program, att displayen fryser på PS och att maskinen inte svarar på knapptryckningar. I vissa fall visas felet redan i början av ett program innan trumman ens har börjat rotera. Maskinen är inte trasig vid det här laget; den har gjort exakt vad den är konstruerad för att göra genom att bryta strömmen till motorn.</p><p>Felet kan ha sitt ursprung i hemmets elförsörjning, i maskinens interna kablage eller i komponenter i motorkretsen. Genom att gå igenom kontrollerna nedan i ordning kan du identifiera vilken som gäller.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfällig spänningsstöt från elnätet",
+          "detail": "En kortvarig spänningsstöt i hushållets elförsörjning — orsakad av att en närliggande apparat slås på, ett åskväder eller en fluktuation i elnätet — kan utlösa PS-felet även om ingenting är fysiskt fel med maskinen. Detta är den vanligaste orsaken och brukar försvinna efter en omstart av strömmen."
+        },
+        {
+          "cause": "Felaktig eller otillräcklig förlängningssladd eller uttag",
+          "detail": "Tvättmaskiner drar hög ström under motordrift. Att ansluta till en överbelastad förlängningssladd, ett slitet uttag eller en krets som delas med andra apparater med hög strömförbrukning kan göra att spänningen vid maskinen fluktuerar tillräckligt för att utlösa PS."
+        },
+        {
+          "cause": "Skadat eller löst kabelstamkoppling till motorn",
+          "detail": "Kabelstammen som förbinder huvudstyrkortet med motorn kan utveckla lösa kontakter eller nött isolering med tiden, särskilt på maskiner med höga centrifugeringshastigheter. Intermittent kontakt i denna kabelstam ger oregelbundna spänningsavläsningar som styrkortet tolkar som en spänningsstöt."
+        },
+        {
+          "cause": "Defekt motor eller motorkondensator",
+          "detail": "En borstlös DC-motor som börjar gå sönder, eller en kondensator i motorkretsen som har försämrats, kan generera back-EMF-stötar som styrkortet registrerar som onormal spänning. Detta tenderar att ge ett PS-fel konsekvent snarare än intermittent."
+        },
+        {
+          "cause": "Defekt huvudstyrkort (PCB)",
+          "detail": "Om PCB:ns spänningsavkänningskrets utvecklar ett fel kan den rapportera ett spänningsstötsfel även när både elförsörjningen och motorn fungerar korrekt. Detta är mindre vanligt men bör övervägas om alla andra komponenter visar sig vara i ordning."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en fullständig strömåterställning",
+          "detail": "Stäng av maskinen med programvredet och dra sedan ut stickkontakten helt ur vägguttaget. Låt den vara urkopplad i minst 10 minuter — inte bara 30 sekunder — så att kondensatorerna på styrkortet hinner laddas ur helt. Sätt i kontakten igen, välj ett kort program och observera om PS återkommer omedelbart eller om trumman tillåts börja rotera."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera vägguttaget och stickkontakten direkt",
+          "detail": "Anslut maskinen direkt till ett dedikerat vägguttag i stället för en förlängningssladd eller grenuttag. Kontrollera stickkontaktens säkring — för en tvättmaskin ska detta vara en 13 A-säkring — och byt ut den om den ser missfärgad ut eller har gått. Prova maskinen i ett annat uttag på en separat krets om ett sådant finns tillgängligt."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera om det finns andra apparater med hög strömförbrukning på samma krets",
+          "detail": "Identifiera vilka andra uttag som delar samma kretsbrytare som din tvättmaskin. Om en torktumlare, elektrisk ugn eller varmvattenberedare finns på samma ring, prova att köra tvättmaskinen med dessa apparater avstängda. Spänningsfall orsakat av delad belastning är en enkel åtgärd — din elektriker kan ge råd om alternativ med dedikerad krets om detta är ett återkommande problem."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera kabelstamkontakterna till motorn",
+          "detail": "Koppla bort maskinen från elnätet innan du gör detta. Ta bort bakpanelen (vanligtvis fyra skruvar) för att komma åt motorn. Lokalisera kabelstamkontakterna vid både motoränden och styrkortsänden och tryck in varje kontakt ordentligt tills den klickar på plats. Leta efter kablar med sprucken eller smält isolering och notera deras position. Sätt tillbaka panelen, anslut strömmen igen och testa."
+        },
+        {
+          "step": 5,
+          "action": "Kör ett diagnostikprogram",
+          "detail": "LG-tvättmaskiner i dessa modellserier stöder ett servicediagnostikläge. Med maskinen påslagen och luckan stängd, håll in knapparna för Centrifugeringshastighet och Smutsgrad samtidigt i tre sekunder för att starta testprogrammet. Maskinen kör igenom varje funktion i sekvens; om PS endast visas under motorcentrifugeringsfasen pekar detta på motorn eller dess kablage snarare än elförsörjningen."
+        },
+        {
+          "step": 6,
+          "action": "Testa motorn och motorkondensatorn",
+          "detail": "Med maskinen urkopplad, koppla loss motorns kabelstam och använd en multimeter inställd på resistans (Ω) för att testa kontinuitet över motorterminalerna — se din modells kopplingsschema för förväntade värden. En avläsning av noll eller oändligt motstånd där ett mellanvärde förväntas indikerar ett motorfel. Kondensatortestning kräver en mätare med kapacitansfunktion; en kondensator som läser betydligt under sitt märkvärde (tryckt på höljet) bör bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera huvudstyrkortet för synliga skador",
+          "detail": "Med maskinen urkopplad, öppna åtkomsten till PCB:n (vanligtvis bakom topp- eller frontpanelen beroende på din modell). Leta efter brända eller missfärgade områden, uppsvällda kondensatorer eller korroderade ledningsbanor. Evenliga synliga skador på kortet innebär att det måste bytas ut snarare än repareras. Om kortet ser fysiskt intakt ut men PS kvarstår efter alla andra kontroller kan kortets spänningsavkänningskrets ha gått sönder internt."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om PS-felet återkommer omedelbart varje gång du slår på maskinen, om du kan se brännmärken eller känner bränndoft från motorområdet eller styrkortet, eller om dina multimetermätningar indikerar en defekt motor. Dessa symptom pekar på ett komponentfel som kräver specialverktyg och reservdelar för att åtgärdas på ett säkert sätt.</p><p>Du bör också ringa en tekniker om felet endast uppträder på denna maskin och du redan har bekräftat att uttaget och elförsörjningen fungerar korrekt — detta mönster tyder starkt på ett internt elfel snarare än ett försörjningsproblem, och fortsatta försök att köra maskinen riskerar att orsaka ytterligare skador på PCB:n eller motorlindningarna.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett ihållande PS-fel på dessa LG-modeller är <strong>motorenheten</strong>, <strong>motorns kabelstam</strong> och <strong>huvudstyrkortet (PCB)</strong>. I vissa fall behöver endast motorkondensatorn bytas ut snarare än hela motorn, vilket är en billigare reparation som är värd att undersöka först om motorns kontinuitetstester i övrigt är normala.</p><p>Att använda ett inkopplingsbart överspänningsskydd avsett för hushållsapparater (leta efter en klampningsspänning på 400 V eller lägre) kan hjälpa till att skydda maskinens elektronik mot framtida nätspänningsstötar, särskilt i områden som är utsatta för åskväder eller instabil elförsörjning.</p>\n<!-- SPARE_PARTS:PS -->",
+      "faq_json": [
+        {
+          "answer": "Du bör inte fortsätta köra maskinen förrän du har identifierat orsaken. Om felet utlöstes av en engångsspänningsstöt från elnätet och försvinner efter en strömåterställning är det i allmänhet säkert att återuppta användningen. Om PS däremot uppträder upprepade gånger eller åtföljs av bränndoft eller ovanliga ljud, sluta använda maskinen tills den har inspekterats — upprepade spänningsavvikelser kan skada motorlindningarna och PCB:n.",
+          "question": "Är det säkert att fortsätta använda min LG-tvättmaskin efter ett PS-fel?"
+        },
+        {
+          "answer": "Motorn drar sin högsta ström under snabba centrifugeringscykler. Om en komponent i motorkretsen — såsom kondensatorn, en lindning eller en kontakt — är marginell snarare än helt defekt kan den bara producera onormala spänningsavläsningar under denna toppbelastning. Detta mönster är ett användbart diagnostiskt tecken som pekar mot motorn eller dess närmaste kablage snarare än elförsörjningen.",
+          "question": "Varför visar min LG-tvättmaskin PS endast vid höga centrifugeringshastigheter?"
+        },
+        {
+          "answer": "Ja. När nätströmmen återställs efter ett avbrott uppstår ofta en kortvarig spänningsstöt när försörjningen stabiliseras. Om maskinen var mitt i ett program när strömmen försvann kan denna stöt utlösa PS när strömmen återkommer. En 10-minuters strömåterställning efter ett strömavbrott räcker vanligtvis för att rensa felet och tillåta att programmet startas om.",
+          "question": "Kan ett strömavbrott orsaka PS-felet på en LG-tvättmaskin?"
+        },
+        {
+          "answer": "Om felet försvinner med en strömåterställning eller ett säkringsbyte är kostnaden försumbar. En ersättningskabelstam till motorn kostar vanligtvis mellan 150 och 400 kronor för reservdelen. En ny motorenhet för dessa LG-modeller kostar i allmänhet mellan 800 och 1 500 kronor för reservdelen, med arbetstid utöver det om den monteras av en servicetekniker. Ett ersättnings-PCB är vanligtvis det dyraste alternativet, ofta 1 000–2 000 kronor för reservdelen.",
+          "question": "Hur mycket kostar det att åtgärda ett PS-fel på en LG-tvättmaskin?"
+        },
+        {
+          "answer": "PS-felkoden är specifik för LG-modeller som inkluderar spänningsövervakning av motorkretsen, vilket omfattar de F-seriens direktdrivna modeller som listas på denna sida. Andra LG-tvättmaskiner kan visa andra koder för motor- eller elfel. Kontrollera alltid felkoden mot ditt specifika modellnummer för att bekräfta diagnosen.",
+          "question": "Påverkar PS-felet alla LG-tvättmaskinsmodeller eller bara vissa?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:40.156848+00:00"
+    },
+    {
+      "id": 164,
+      "article_id": 102,
+      "locale": "en",
+      "slug": "lg-error-code-te",
+      "title_tag": "LG Washing Machine Error Code tE | Thermistor Fix",
+      "meta_description": "LG washing machine showing error code tE? Learn what causes a heater sensor fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code tE Mean on an LG Washing Machine?",
+      "description": "Error code tE on an LG washing machine indicates a heater sensor (thermistor) fault, meaning the machine cannot accurately read the water temperature during a wash cycle.",
+      "quick_fix": "Check that the washing machine is not overloaded and run a short rinse-and-spin cycle to reset the error — if the thermistor connection has worked loose due to vibration, this reset process often clears the fault (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When your LG washing machine displays the tE error code, it means the control board has lost confidence in the temperature reading coming from the thermistor — a small sensor attached to or near the heating element. The machine relies on this sensor to monitor water temperature throughout the wash programme, and if the reading falls outside the expected range, the cycle is interrupted to prevent overheating or ineffective washing.</p><p>In practice, you will usually notice the drum stopping mid-cycle, often during the heating phase of a programme. The display will show tE and the machine will not continue until the fault is resolved. In some cases the error appears at the start of a heated wash but not on a cold cycle, which is a useful clue that the heating circuit is involved.</p><p>The good news is that this fault is not always caused by a failed part. Loose wiring, a temporary sensor glitch, or a build-up of limescale on the heating element can all trigger the same code and are straightforward to investigate before spending money on replacement components.</p>",
+      "causes_json": [
+        {
+          "cause": "Loose or corroded thermistor wiring connector",
+          "detail": "Vibration from regular use can gradually work the wiring connector loose from the thermistor or the control board. A poor connection produces an erratic or absent signal, which the machine interprets as a sensor fault."
+        },
+        {
+          "cause": "Faulty or failed thermistor",
+          "detail": "The thermistor itself can fail over time, particularly in hard-water areas where mineral deposits accelerate wear. A failed thermistor will send a reading that is either out of range or completely absent, triggering the tE code consistently."
+        },
+        {
+          "cause": "Heavily scaled or failed heating element",
+          "detail": "Severe limescale build-up on the heating element can cause it to overheat locally, producing temperature spikes that confuse the thermistor. In some cases the element fails entirely, and the water never reaches the target temperature."
+        },
+        {
+          "cause": "Control board (PCB) fault",
+          "detail": "If the main PCB cannot correctly process the signal from the thermistor — due to a damaged input circuit or a software glitch — it will log a tE error even when the sensor itself is working correctly. This is less common but worth considering if all other checks pass."
+        },
+        {
+          "cause": "Wiring harness damage between thermistor and PCB",
+          "detail": "The wiring loom running from the thermistor to the control board can be pinched, chafed, or damaged by heat over time. A break or short in this section of wiring will interrupt the temperature signal."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains and leave it unplugged for at least 5 minutes. This allows the control board to fully discharge and can clear a temporary sensor glitch. Plug back in, select a heated programme, and observe whether the tE code returns."
+        },
+        {
+          "step": 2,
+          "action": "Run a cold wash to isolate the heating circuit",
+          "detail": "Select a cold-water programme (30°C or lower, or a dedicated cold cycle). If the machine completes this without error, the fault is specifically linked to the heating phase, pointing toward the thermistor, element, or their wiring rather than the control board."
+        },
+        {
+          "step": 3,
+          "action": "Inspect and reseat the thermistor wiring connector",
+          "detail": "Disconnect the machine from the mains. Remove the rear panel (usually held by two or three screws along the top edge). Locate the thermistor — it sits on or very close to the heating element at the base of the drum. Unplug the connector, check for corrosion or bent pins, and push it firmly back into place. Restore power and test."
+        },
+        {
+          "step": 4,
+          "action": "Test the thermistor resistance with a multimeter",
+          "detail": "With the machine unplugged, disconnect the thermistor and set your multimeter to the resistance (Ohms) setting. At room temperature, a healthy LG thermistor typically reads between 4,000 and 6,000 ohms. A reading of zero, infinity, or wildly outside this range confirms the thermistor needs replacing."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the heating element for limescale and continuity",
+          "detail": "While the rear panel is off, visually inspect the heating element for heavy white deposits. Test continuity across the element terminals with your multimeter — you should see a resistance reading (typically 20–30 ohms); an open circuit means the element has failed. Descaling tablets used on a maintenance wash can help with mild build-up, but a heavily scaled element usually needs replacement."
+        },
+        {
+          "step": 6,
+          "action": "Check the wiring harness for visible damage",
+          "detail": "Trace the wiring from the thermistor up to the control board, looking for any sections that appear pinched, melted, or chafed against the drum or cabinet. Gently flex the loom while watching your multimeter for continuity changes, which can reveal an intermittent break inside the insulation."
+        },
+        {
+          "step": 7,
+          "action": "Replace the thermistor",
+          "detail": "If testing confirms the thermistor is out of specification, fit a replacement part matched to your specific model number. The thermistor clips or screws onto the heating element and the connector is a simple push-fit. This is one of the more affordable repairs on this fault and resolves the tE code in the majority of cases where wiring checks out fine."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have replaced the thermistor and confirmed the wiring harness is intact, but the tE error continues to appear, the fault is likely within the main control board (PCB). PCB diagnosis and replacement requires specialist equipment and carries a risk of further damage if handled incorrectly — this is the point to book a service technician rather than continue with DIY investigation.</p><p>You should also call a service technician if you find any signs of burning, scorching, or melted plastic around the heating element or wiring, or if the machine trips your household circuit breaker when it attempts to heat. These symptoms suggest an electrical fault that goes beyond a simple sensor replacement and must be assessed professionally.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an LG tE error are the thermistor (temperature sensor), the heating element, and — less frequently — the wiring harness connecting the two. Using genuine LG-compatible parts ensures the resistance values match what the control board expects, which reduces the risk of the error returning shortly after a repair.</p><p>To reduce the likelihood of this fault recurring, run a monthly maintenance wash at 60°C using a washing machine cleaner or descaler, particularly if you live in a hard-water area. This keeps limescale from building up on the element and helps the thermistor maintain accurate readings over time. Avoid consistently washing at very low temperatures, as this accelerates scale accumulation inside the drum and on the heating components.</p>\n<!-- SPARE_PARTS:tE -->",
+      "faq_json": [
+        {
+          "answer": "You can run cold-water programmes without the heating element being active, and these will often complete without triggering the tE code. However, you should avoid relying on this as a long-term workaround — a faulty thermistor means the machine cannot regulate temperature safely, and continued use on heated cycles risks damaging the element or control board.",
+          "question": "Can I still use my LG washing machine while it shows the tE error?"
+        },
+        {
+          "answer": "If the thermistor is the only failed component, the part itself is relatively inexpensive — typically between £10 and £30 depending on the model. If the heating element also needs replacing, budget an additional £20–£50 for the part. A service technician call-out will add labour costs on top, so it is worth attempting the wiring and thermistor checks yourself first.",
+          "question": "How much does it cost to fix an LG tE error?"
+        },
+        {
+          "answer": "Occasionally, yes — if the fault was caused by a temporary sensor glitch or a connector that was slightly loose, a full power cycle can clear the code. However, if the underlying cause is a failed thermistor or damaged wiring, the error will return as soon as the machine attempts a heated wash cycle.",
+          "question": "Will the tE error clear itself after a power cycle?"
+        },
+        {
+          "answer": "The tE error can appear on a wide range of LG front-loader models, including the F0712WS, F0812WS, F1056MD, F1056ND, F1056QD series, F1056QP, F1068LD series, F1068QD series, F1073TD, F1091TD series, F1096Q/TDW1, and F1096QDA series, among others. The diagnostic and repair steps are the same across all affected models.",
+          "question": "Which LG washing machine models are affected by the tE error?"
+        },
+        {
+          "answer": "No — they are separate components, though they work closely together. The heating element generates heat, while the thermistor is a small sensor that monitors the water temperature and reports it back to the control board. On most LG models the thermistor is clipped directly onto the heating element, which is why both parts are often inspected together when diagnosing a tE fault.",
+          "question": "Is the thermistor the same part as the heating element on an LG washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:40.223312+00:00"
+    },
+    {
+      "id": 165,
+      "article_id": 102,
+      "locale": "sv",
+      "slug": "lg-felkod-te",
+      "title_tag": "LG Tvättmaskin Felkod tE | Åtgärda Termistorfel",
+      "meta_description": "Visar din LG-tvättmaskin felkod tE? Lär dig vad som orsakar ett värmesensorfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod tE på en LG Tvättmaskin?",
+      "description": "Felkod tE på en LG-tvättmaskin indikerar ett fel på värmesensorn (termistorn), vilket innebär att maskinen inte kan avläsa vattentemperaturen korrekt under ett tvättprogram.",
+      "quick_fix": "Kontrollera att tvättmaskinen inte är överfylld och kör ett kort sköljnings- och centrifugeringsprogram för att återställa felet — om termistorns anslutning har lossnat på grund av vibrationer kan denna återställningsprocess ofta rensa felet (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När din LG-tvättmaskin visar felkoden tE innebär det att styrkortet har tappat förtroendet för temperaturavläsningen från termistorn — en liten sensor som sitter på eller i närheten av värmeelement. Maskinen förlitar sig på denna sensor för att övervaka vattentemperaturen under hela tvättcykeln, och om avläsningen faller utanför det förväntade intervallet avbryts cykeln för att förhindra överhettning eller ineffektiv tvätt.</p><p>I praktiken märker du vanligtvis att trumman stannar mitt i cykeln, ofta under uppvärmningsfasen i ett program. Displayen visar tE och maskinen fortsätter inte förrän felet är åtgärdat. I vissa fall uppstår felet i början av ett uppvärmt tvättprogram men inte vid ett kalltvättprogram, vilket är en användbar ledtråd om att uppvärmningskretsen är inblandad.</p><p>Den goda nyheten är att detta fel inte alltid orsakas av en trasig del. Lösa kablar, ett tillfälligt sensorfel eller en ansamling av kalkavlagringar på värmeelementet kan alla utlösa samma kod och är enkla att undersöka innan du lägger pengar på reservdelar.</p>",
+      "causes_json": [
+        {
+          "cause": "Lös eller korroderad kabelkontakt till termistorn",
+          "detail": "Vibrationer från regelbunden användning kan gradvis lossa kabelkontakten från termistorn eller styrkortet. En dålig anslutning ger en oregelbunden eller utebliven signal, vilket maskinen tolkar som ett sensorfel."
+        },
+        {
+          "cause": "Defekt eller trasig termistor",
+          "detail": "Termistorn kan sluta fungera med tiden, särskilt i områden med hårt vatten där mineralavlagringar påskyndar slitaget. En trasig termistor skickar en avläsning som antingen är utanför intervallet eller helt utebliven, vilket konsekvent utlöser tE-koden."
+        },
+        {
+          "cause": "Kraftigt kalkbelagt eller trasigt värmeelement",
+          "detail": "Kraftiga kalkavlagringar på värmeelementet kan orsaka lokal överhettning och temperaturstoppar som förvirrar termistorn. I vissa fall slutar elementet fungera helt och vattnet når aldrig måltemperaturen."
+        },
+        {
+          "cause": "Fel på styrkortet (PCB)",
+          "detail": "Om huvud-PCB:n inte kan behandla signalen från termistorn korrekt — på grund av en skadad ingångskrets eller ett programvarufel — registreras ett tE-fel även när sensorn fungerar korrekt. Detta är mindre vanligt men värt att överväga om alla andra kontroller är godkända."
+        },
+        {
+          "cause": "Skada på kabelstammen mellan termistorn och PCB:n",
+          "detail": "Kabelstammen som löper från termistorn till styrkortet kan bli klämd, nött eller skadad av värme med tiden. Ett brott eller kortslutning i denna del av kabeldragningen avbryter temperatursignalen."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid eluttaget och låt den vara urkopplad i minst 5 minuter. Detta låter styrkortet ladda ur helt och kan rensa ett tillfälligt sensorfel. Koppla in igen, välj ett uppvärmt program och observera om tE-koden återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kör ett kalltvättprogram för att isolera uppvärmningskretsen",
+          "detail": "Välj ett kallvattenprogram (30°C eller lägre, eller ett dedikerat kalltvättprogram). Om maskinen slutför detta utan fel är felet specifikt kopplat till uppvärmningsfasen, vilket pekar mot termistorn, elementet eller deras kabeldragning snarare än styrkortet."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera och återanslut termistorns kabelkontakt",
+          "detail": "Koppla ur maskinen från eluttaget. Ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar längs överkanten). Lokalisera termistorn — den sitter på eller mycket nära värmeelementet vid trummans botten. Koppla ur kontakten, kontrollera om det finns korrosion eller böjda stift och tryck in den ordentligt igen. Återställ strömmen och testa."
+        },
+        {
+          "step": 4,
+          "action": "Testa termistorns resistans med en multimeter",
+          "detail": "Med maskinen urkopplad, koppla loss termistorn och ställ in multimetern på resistansinställningen (Ohm). Vid rumstemperatur läser en frisk LG-termistor vanligtvis mellan 4 000 och 6 000 ohm. En avläsning på noll, oändlighet eller långt utanför detta intervall bekräftar att termistorn behöver bytas."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera värmeelementet för kalkavlagringar och kontinuitet",
+          "detail": "Medan bakpanelen är borttagen, inspektera värmeelementet visuellt för kraftiga vita avlagringar. Testa kontinuiteten över elementets anslutningar med multimetern — du bör se ett resistansvärde (vanligtvis 20–30 ohm); en öppen krets innebär att elementet har gått sönder. Avkalkningsmedel som används vid ett underhållsprogram kan hjälpa vid mild beläggning, men ett kraftigt kalkbelagt element behöver vanligtvis bytas."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera kabelstammen för synliga skador",
+          "detail": "Följ kabeldragningen från termistorn upp till styrkortet och leta efter delar som verkar klämda, smälta eller nötta mot trumman eller höljet. Böj försiktigt kabelstammen medan du håller ögonen på multimeterns kontinuitetsmätning, vilket kan avslöja ett intermittent brott inuti isoleringen."
+        },
+        {
+          "step": 7,
+          "action": "Byt termistorn",
+          "detail": "Om testningen bekräftar att termistorn är utanför specifikation, montera en ersättningsdel anpassad till ditt specifika modellnummer. Termistorn clips eller skruvas fast på värmeelementet och kontakten är ett enkelt tryckkoppling. Detta är en av de mer prisvärda reparationerna för detta fel och löser tE-koden i de flesta fall där kabeldragningen är i ordning."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har bytt termistorn och bekräftat att kabelstammen är intakt, men tE-felet fortsätter att visas, är felet troligtvis i huvud-styrkortet (PCB). PCB-diagnostik och -byte kräver specialutrustning och medför risk för ytterligare skador om det hanteras felaktigt — det är nu dags att boka en servicetekniker snarare än att fortsätta med DIY-undersökning.</p><p>Du bör också kontakta en servicetekniker om du hittar tecken på brännskador, förkolning eller smält plast runt värmeelementet eller kabeldragningen, eller om maskinen löser ut din hushållssäkring när den försöker värma. Dessa symptom tyder på ett elfel som går bortom ett enkelt sensorbyte och måste bedömas professionellt.</p>",
+      "prevention_html": "<p>De delar som oftast byts vid åtgärdande av ett LG tE-fel är termistorn (temperatursensorn), värmeelementet och — mer sällan — kabelstammen som förbinder de två. Att använda äkta LG-kompatibla delar säkerställer att resistansvärdena matchar vad styrkortet förväntar sig, vilket minskar risken för att felet återkommer kort efter en reparation.</p><p>För att minska risken för att detta fel återkommer, kör ett månatligt underhållsprogram vid 60°C med ett tvättmaskinrengörings- eller avkalkningsmedel, särskilt om du bor i ett område med hårt vatten. Detta förhindrar att kalk byggs upp på elementet och hjälper termistorn att bibehålla noggranna avläsningar över tid. Undvik att konsekvent tvätta vid mycket låga temperaturer, eftersom detta påskyndar kalkuppbyggnad inuti trumman och på uppvärmningskomponenterna.</p>\n<!-- SPARE_PARTS:tE -->",
+      "faq_json": [
+        {
+          "answer": "Du kan köra kallvattenprogram utan att värmeelementet är aktivt, och dessa slutförs ofta utan att tE-koden utlöses. Du bör dock undvika att förlita dig på detta som en långsiktig lösning — en defekt termistor innebär att maskinen inte kan reglera temperaturen på ett säkert sätt, och fortsatt användning med uppvärmda program riskerar att skada elementet eller styrkortet.",
+          "question": "Kan jag fortfarande använda min LG-tvättmaskin när den visar tE-felet?"
+        },
+        {
+          "answer": "Om termistorn är den enda defekta komponenten är själva delen relativt billig — vanligtvis mellan 150 och 400 kronor beroende på modell. Om värmeelementet också behöver bytas, räkna med ytterligare 250–650 kronor för delen. En serviceteknikers utryckning tillkommer med arbetskostnad utöver detta, så det är värt att försöka med kabel- och termistorkontrollerna själv först.",
+          "question": "Hur mycket kostar det att åtgärda ett LG tE-fel?"
+        },
+        {
+          "answer": "Ibland, ja — om felet orsakades av ett tillfälligt sensorfel eller en kontakt som satt lite löst kan en fullständig omstart rensa koden. Men om den bakomliggande orsaken är en trasig termistor eller skadad kabeldragning återkommer felet så snart maskinen försöker köra ett uppvärmt tvättprogram.",
+          "question": "Försvinner tE-felet av sig självt efter en omstart?"
+        },
+        {
+          "answer": "tE-felet kan uppstå på ett brett utbud av LG frontmatade modeller, inklusive F0712WS, F0812WS, F1056MD, F1056ND, F1056QD-serien, F1056QP, F1068LD-serien, F1068QD-serien, F1073TD, F1091TD-serien, F1096Q/TDW1 och F1096QDA-serien, bland andra. Diagnostik- och reparationsstegen är desamma för alla berörda modeller.",
+          "question": "Vilka LG-tvättmaskinmodeller påverkas av tE-felet?"
+        },
+        {
+          "answer": "Nej — de är separata komponenter, även om de arbetar nära tillsammans. Värmeelementet genererar värme, medan termistorn är en liten sensor som övervakar vattentemperaturen och rapporterar den tillbaka till styrkortet. På de flesta LG-modeller är termistorn clips direkt på värmeelementet, vilket är anledningen till att båda delarna ofta inspekteras tillsammans vid diagnostisering av ett tE-fel.",
+          "question": "Är termistorn samma del som värmeelementet på en LG-tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:40.290994+00:00"
+    }
+  ]
+}

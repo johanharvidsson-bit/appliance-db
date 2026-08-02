@@ -1,0 +1,1119 @@
+{
+  "batch": "022-lg-common-faults",
+  "article_ids": [
+    149,
+    152,
+    154,
+    155,
+    156
+  ],
+  "articles": [
+    {
+      "id": 149,
+      "error_code_id": null,
+      "fault_id": 17,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 152,
+      "error_code_id": null,
+      "fault_id": 20,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 154,
+      "error_code_id": null,
+      "fault_id": 22,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 155,
+      "error_code_id": null,
+      "fault_id": 23,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 156,
+      "error_code_id": null,
+      "fault_id": 24,
+      "status": "published",
+      "article_type": "fault"
+    }
+  ],
+  "rows": [
+    {
+      "id": 212,
+      "article_id": 149,
+      "locale": "en",
+      "slug": "lg-wont-spin",
+      "title_tag": "LG Washing Machine Won't Spin – Causes & Fixes",
+      "meta_description": "LG washing machine not spinning? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers UE error code and 977 models.",
+      "h1": "Why Won't My LG Washing Machine Spin?",
+      "description": "The washing machine completes the wash cycle but fails to spin, leaving clothes soaking wet at the end of the programme.",
+      "quick_fix": "Redistribute the laundry evenly inside the drum by hand, then restart the spin cycle — an unbalanced load is the most common cause and resolves the issue in most cases (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When an LG washing machine refuses to spin, the drum either sits completely still during the spin phase or rotates very slowly without building up speed. You may notice the cycle timer stalling near the end, or the machine draining but never reaching full spin speed. Clothes come out dripping wet rather than damp.</p><p>The spin function relies on several systems working together: the motor, the control board, the door latch, the drain pump, and the suspension. A fault in any one of these can prevent the drum from spinning. LG machines will often display a <strong>UE error code</strong> when an unbalanced load is detected, which is the most frequent trigger for a failed spin.</p><p>The good news is that many spin faults have straightforward causes you can investigate and resolve at home before considering a repair call.</p>",
+      "causes_json": [
+        {
+          "cause": "Unbalanced or overloaded drum",
+          "detail": "If laundry bunches to one side — common with single heavy items like a duvet or jeans — the machine detects the imbalance and stops spinning to protect itself. LG machines flag this with the UE error code and may attempt to redistribute the load by tumbling slowly before giving up."
+        },
+        {
+          "cause": "Drain pump blockage or filter clog",
+          "detail": "The machine must drain fully before it can spin at high speed. A blocked pump filter or foreign object in the drain hose prevents proper drainage, so the spin cycle either never starts or cuts out early."
+        },
+        {
+          "cause": "Faulty or misaligned door latch",
+          "detail": "LG washing machines will not spin unless the door is confirmed as locked by the door latch assembly. A worn or broken latch means the control board never receives the 'door closed' signal, so the spin is suppressed as a safety measure."
+        },
+        {
+          "cause": "Worn or broken drive belt",
+          "detail": "The drive belt transfers power from the motor to the drum. Over time belts stretch, slip, or snap entirely. If the belt has failed, the motor runs but the drum does not move — you may hear the motor humming without any drum rotation."
+        },
+        {
+          "cause": "Faulty motor or motor brushes",
+          "detail": "Brushed motors wear down their carbon brushes over years of use. When the brushes are too short to maintain contact, the motor loses torque and cannot reach spin speed. You may notice a burning smell or intermittent spinning as an early sign."
+        },
+        {
+          "cause": "Control board or sensor fault",
+          "detail": "The main control board coordinates the spin cycle based on signals from the speed sensor (hall sensor) and other components. If the board or hall sensor is faulty, the machine may abort the spin without displaying an obvious error, or it may show a UE code even when the load is balanced."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Rebalance the load and retry",
+          "detail": "Open the door and manually spread the laundry evenly around the drum. Remove very heavy single items and wash them separately if possible. Close the door and select a spin-only cycle to test. This resolves the UE error in the majority of cases and takes only a few minutes."
+        },
+        {
+          "step": 2,
+          "action": "Check and clean the pump filter",
+          "detail": "Locate the small access panel at the bottom front of the machine. Place a shallow tray and towels underneath, then slowly unscrew the filter cap to release residual water. Remove the filter completely and clear any fluff, coins, or debris. Refit the filter firmly and run a short spin cycle to check."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the drain hose for kinks or blockages",
+          "detail": "Pull the machine forward slightly and trace the drain hose from the back of the machine to the standpipe or sink. Straighten any kinks and check the hose end is not pushed too far into the standpipe, which can cause a siphoning effect that prevents proper drainage and spin."
+        },
+        {
+          "step": 4,
+          "action": "Test the door latch",
+          "detail": "Close the door firmly and listen for a solid click. If the door feels loose or the machine does not lock, inspect the latch hook on the door and the strike plate inside the door frame for visible damage or wear. A faulty latch will need to be replaced before the machine will spin again."
+        },
+        {
+          "step": 5,
+          "action": "Check for error codes and reset the machine",
+          "detail": "Note any error codes shown on the display — UE points to balance, while other codes may indicate motor or sensor issues. To reset, turn the machine off at the power socket, wait 60 seconds, then power back on. This clears temporary control board faults and is worth trying before investigating further."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the drive belt",
+          "detail": "Unplug the machine and carefully pull it away from the wall. Remove the rear panel (usually held by several screws). Look at the belt running around the drum pulley and motor. A snapped belt will be visibly broken; a worn belt may look glazed or frayed. Replacement belts are inexpensive and available for most LG models."
+        },
+        {
+          "step": 7,
+          "action": "Check motor brush condition",
+          "detail": "With the rear panel still removed, locate the motor and identify the carbon brush holders on either side. Brushes shorter than approximately 5 mm are worn out and need replacing. This is a moderately straightforward DIY task if you are comfortable working with appliance components, but if you are unsure, contact a service technician at this stage."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and the drum still will not spin, the fault is likely internal — a failed control board, a damaged hall sensor, or a seized motor bearing. These components require specialist diagnostic tools and safe handling of electrical parts. Attempting to replace a control board without the correct knowledge can cause further damage to the machine.</p><p>You should also call a service technician immediately if you notice burning smells, scorch marks near the motor or wiring, or if the machine trips your household circuit breaker when it attempts to spin. These are signs of an electrical fault that should not be investigated without professional training.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when an LG washing machine won't spin are the <strong>drive belt</strong>, the <strong>door latch assembly</strong>, and the <strong>carbon motor brushes</strong>. In some cases the <strong>drain pump</strong> also needs replacing if a blockage has caused internal damage. Fitting genuine LG parts ensures compatibility across the 977 affected models and helps avoid repeat failures.</p><p>To reduce the risk of spin faults developing, always load the drum evenly, avoid washing single heavy items alone, and clean the pump filter every one to three months. Check pockets before loading to prevent coins or clips from reaching the pump.</p>\n<!-- SPARE_PARTS_FAULT:wont-spin -->",
+      "faq_json": [
+        {
+          "answer": "UE stands for Unbalanced Error. It means the machine has detected that the laundry is unevenly distributed in the drum and has stopped the spin to prevent excessive vibration or damage. Redistributing the load by hand and restarting the spin cycle usually clears it immediately.",
+          "question": "What does the UE error code mean on my LG washing machine?"
+        },
+        {
+          "answer": "If the machine drains successfully but the drum stays still, the most likely causes are a faulty door latch, a worn drive belt, or a motor brush issue. Start by confirming the door clicks shut firmly, then check the belt via the rear panel. If both look fine, motor brushes are the next thing to inspect.",
+          "question": "My LG washing machine drains but won't spin — what should I check first?"
+        },
+        {
+          "answer": "You can run wash cycles, but without spinning the clothes will be saturated and too heavy to handle easily. Repeatedly running the machine in this state can also put extra strain on the pump and motor. It is best to diagnose and fix the spin fault before continuing regular use.",
+          "question": "Can I use my LG washing machine if it won't spin?"
+        },
+        {
+          "answer": "Motor brushes typically last between 5 and 10 years depending on how frequently the machine is used and at what spin speeds. Heavy daily use at high spin speeds wears them faster. Replacing brushes is one of the most cost-effective repairs you can make to restore full spin performance.",
+          "question": "How long do LG washing machine motor brushes last?"
+        },
+        {
+          "answer": "In most cases, yes. The majority of spin faults — unbalanced loads, clogged filters, worn belts, or brushes — are inexpensive to fix and well within the economic life of the machine. A service technician can give you a repair estimate; as a general rule, if the repair costs less than half the price of a replacement machine, repair is usually the sensible choice.",
+          "question": "Is a washing machine that won't spin worth repairing?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:43.420356+00:00"
+    },
+    {
+      "id": 213,
+      "article_id": 149,
+      "locale": "sv",
+      "slug": "lg-centrifugerar-inte",
+      "title_tag": "LG Tvättmaskin Snurrar Inte – Orsaker & Lösningar",
+      "meta_description": "Snurrar inte din LG-tvättmaskin? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker UE-felkod och 977 modell",
+      "h1": "Varför Snurrar Inte Min LG-Tvättmaskin?",
+      "description": "Tvättmaskinen slutför tvättcykeln men centrifugerar inte, vilket lämnar kläderna genomblöta i slutet av programmet.",
+      "quick_fix": "Fördela tvätten jämnt för hand inuti trumman och starta sedan centrifugeringscykeln igen – en obalanserad last är den vanligaste orsaken och löser problemet i de flesta fall (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en LG-tvättmaskin vägrar centrifugera står trumman antingen helt stilla under centrifugeringsfasen eller roterar mycket långsamt utan att bygga upp hastighet. Du kan märka att cykelns tidräkning stannar mot slutet, eller att maskinen tömmer vatten men aldrig når full centrifugeringshastighet. Kläderna kommer ut genomblöta snarare än fuktiga.</p><p>Centrifugeringsfunktionen är beroende av att flera system samverkar: motorn, styrkortet, dörrlåset, avloppspumpen och fjädringen. Ett fel i något av dessa kan hindra trumman från att snurra. LG-maskiner visar ofta en <strong>UE-felkod</strong> när en obalanserad last upptäcks, vilket är den vanligaste orsaken till ett misslyckat centrifugeringsprogram.</p><p>Den goda nyheten är att många centrifugeringsfel har enkla orsaker som du kan undersöka och åtgärda hemma innan du överväger att ringa en reparatör.</p>",
+      "causes_json": [
+        {
+          "cause": "Obalanserad eller överfylld trumma",
+          "detail": "Om tvätten samlas på ena sidan – vanligt med enstaka tunga plagg som en duntäcke eller jeans – upptäcker maskinen obalansen och slutar centrifugera för att skydda sig själv. LG-maskiner signalerar detta med UE-felkoden och kan försöka omfördela lasten genom att tumla långsamt innan den ger upp."
+        },
+        {
+          "cause": "Igensatt avloppspump eller filter",
+          "detail": "Maskinen måste tömma ut vattnet helt innan den kan centrifugera på hög hastighet. Ett igensatt pumpfilter eller ett främmande föremål i avloppsslangen förhindrar korrekt dränering, vilket gör att centrifugeringscykeln antingen aldrig startar eller avbryts i förtid."
+        },
+        {
+          "cause": "Defekt eller feljusterat dörrlås",
+          "detail": "LG-tvättmaskiner centrifugerar inte om inte dörren bekräftas som låst av dörrlåsenheten. Ett slitet eller trasigt lås innebär att styrkortet aldrig tar emot signalen 'dörr stängd', varför centrifugeringen blockeras som en säkerhetsåtgärd."
+        },
+        {
+          "cause": "Slitet eller trasigt drivrem",
+          "detail": "Drivremmen överför kraft från motorn till trumman. Med tiden sträcks, slirar eller brister remmar helt. Om remmen har gått sönder körs motorn men trumman rör sig inte – du kan höra motorn surra utan att trumman roterar."
+        },
+        {
+          "cause": "Defekt motor eller motorborstar",
+          "detail": "Borstmotorer sliter ner sina kolborstar under åren. När borstarna är för korta för att hålla kontakt förlorar motorn vridmoment och kan inte nå centrifugeringshastighet. Du kan märka en bränd lukt eller intermittent centrifugering som ett tidigt tecken."
+        },
+        {
+          "cause": "Fel på styrkort eller sensor",
+          "detail": "Huvudstyrkortet samordnar centrifugeringscykeln baserat på signaler från hastighetssensorn (hallsensorn) och andra komponenter. Om styrkortet eller hallsensorn är defekt kan maskinen avbryta centrifugeringen utan att visa ett tydligt fel, eller visa UE-kod även när lasten är balanserad."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Balansera om lasten och försök igen",
+          "detail": "Öppna luckan och fördela tvätten jämnt för hand runt trumman. Ta ut mycket tunga enstaka plagg och tvätta dem separat om möjligt. Stäng luckan och välj ett centrifugeringsprogram för att testa. Detta löser UE-felet i de flesta fall och tar bara några minuter."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera och rengör pumpfiltret",
+          "detail": "Hitta den lilla luckan längst ned på maskinens framsida. Placera en grund bricka och handdukar undertill och skruva sedan långsamt loss filterlocket för att släppa ut kvarvarande vatten. Ta ut filtret helt och rensa bort ludd, mynt eller skräp. Sätt tillbaka filtret ordentligt och kör ett kort centrifugeringsprogram för att kontrollera."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera avloppsslangen för böjar eller blockeringar",
+          "detail": "Dra ut maskinen något och följ avloppsslangen från maskinens baksida till avloppsröret eller vasken. Räta ut eventuella böjar och kontrollera att slangens ände inte är instucken för långt i avloppsröret, vilket kan orsaka en siffoneffekt som förhindrar korrekt dränering och centrifugering."
+        },
+        {
+          "step": 4,
+          "action": "Testa dörrlåset",
+          "detail": "Stäng luckan ordentligt och lyssna efter ett tydligt klick. Om luckan känns lös eller maskinen inte låser, undersök låskroken på luckan och låsbygeln inuti lucköppningen för synliga skador eller slitage. Ett defekt lås måste bytas ut innan maskinen centrifugerar igen."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera felkoder och återställ maskinen",
+          "detail": "Notera eventuella felkoder som visas på displayen – UE pekar på balans, medan andra koder kan indikera motor- eller sensorproblem. För att återställa, stäng av maskinen vid eluttaget, vänta 60 sekunder och slå sedan på strömmen igen. Detta rensar tillfälliga fel på styrkortet och är värt att prova innan du undersöker vidare."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera drivremmen",
+          "detail": "Koppla ur maskinen och dra försiktigt ut den från väggen. Ta bort bakpanelen (vanligtvis fäst med flera skruvar). Titta på remmen som löper runt trummans remskiva och motorn. En bruten rem syns tydligt; en sliten rem kan se blank eller fransig ut. Ersättningsremmar är billiga och finns tillgängliga för de flesta LG-modeller."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera motorborstarna",
+          "detail": "Med bakpanelen fortfarande borttagen, lokalisera motorn och identifiera kolborsthållarna på vardera sidan. Borstar kortare än ungefär 5 mm är utslitna och behöver bytas. Detta är en relativt enkel gör-det-själv-uppgift om du är bekväm med att arbeta med vitvarukomponenter, men om du är osäker, kontakta en servicetekniker i detta skede."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har arbetat igenom alla stegen ovan och trumman fortfarande inte centrifugerar är felet troligen internt – ett defekt styrkort, en skadad hallsensor eller ett skadat motorlager. Dessa komponenter kräver specialiserade diagnostikverktyg och säker hantering av elektriska delar. Att försöka byta ett styrkort utan rätt kunskap kan orsaka ytterligare skador på maskinen.</p><p>Du bör också omedelbart kontakta en servicetekniker om du märker brända lukter, brännmärken nära motorn eller kablaget, eller om maskinen löser ut din säkring när den försöker centrifugera. Dessa är tecken på ett elfel som inte bör undersökas utan professionell utbildning.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en LG-tvättmaskin inte centrifugerar är <strong>drivremmen</strong>, <strong>dörrlåsenheten</strong> och <strong>kolmotorborstarna</strong>. I vissa fall behöver även <strong>avloppspumpen</strong> bytas om en blockering har orsakat intern skada. Att montera äkta LG-delar säkerställer kompatibilitet med de 977 berörda modellerna och hjälper till att undvika återkommande fel.</p><p>För att minska risken för centrifugeringsfel, ladda alltid trumman jämnt, undvik att tvätta enstaka tunga plagg ensamma och rengör pumpfiltret var en till tre månader. Kontrollera fickor innan du laddar maskinen för att förhindra att mynt eller klämmor når pumpen.</p>\n<!-- SPARE_PARTS_FAULT:wont-spin -->",
+      "faq_json": [
+        {
+          "answer": "UE står för Unbalanced Error (obalansfel). Det betyder att maskinen har upptäckt att tvätten är ojämnt fördelad i trumman och har stoppat centrifugeringen för att förhindra kraftiga vibrationer eller skador. Att omfördela lasten för hand och starta om centrifugeringscykeln brukar lösa det omedelbart.",
+          "question": "Vad betyder UE-felkoden på min LG-tvättmaskin?"
+        },
+        {
+          "answer": "Om maskinen tömmer ut vattnet men trumman står stilla är de troligaste orsakerna ett defekt dörrlås, en sliten drivrem eller ett problem med motorborstarna. Börja med att kontrollera att luckan klickar ordentligt igen, kontrollera sedan remmen via bakpanelen. Om båda ser bra ut är motorborstarna nästa sak att undersöka.",
+          "question": "Min LG-tvättmaskin tömmer vatten men centrifugerar inte – vad ska jag kontrollera först?"
+        },
+        {
+          "answer": "Du kan köra tvättprogram, men utan centrifugering blir kläderna genomblöta och för tunga att hantera. Att köra maskinen upprepade gånger i detta tillstånd kan också belasta pumpen och motorn extra. Det är bäst att diagnostisera och åtgärda centrifugeringsfelet innan du fortsätter med normal användning.",
+          "question": "Kan jag använda min LG-tvättmaskin om den inte centrifugerar?"
+        },
+        {
+          "answer": "Motorborstar håller vanligtvis mellan 5 och 10 år beroende på hur ofta maskinen används och vid vilka centrifugeringshastigheter. Intensiv daglig användning vid höga centrifugeringshastigheter sliter ut dem snabbare. Att byta borstar är en av de mest kostnadseffektiva reparationerna du kan göra för att återställa full centrifugeringsprestanda.",
+          "question": "Hur länge håller motorborstarna i en LG-tvättmaskin?"
+        },
+        {
+          "answer": "I de flesta fall ja. De flesta centrifugeringsfel – obalanserade laster, igensatta filter, slitna remmar eller borstar – är billiga att åtgärda och väl inom maskinens ekonomiska livslängd. En servicetekniker kan ge dig en reparationsuppskattning; som en allmän regel, om reparationen kostar mindre än hälften av priset för en ny maskin, är reparation vanligtvis det kloka valet.",
+          "question": "Är det värt att reparera en tvättmaskin som inte centrifugerar?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:44.840206+00:00"
+    },
+    {
+      "id": 218,
+      "article_id": 152,
+      "locale": "en",
+      "slug": "lg-wont-fill",
+      "title_tag": "LG Washing Machine Won't Fill With Water – Fixes",
+      "meta_description": "LG washing machine not filling with water? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers IE error code.",
+      "h1": "Why Won't My LG Washing Machine Fill With Water?",
+      "description": "The washing machine starts a cycle but little or no water enters the drum, often triggering an IE error code on the display.",
+      "quick_fix": "Check that both inlet hose tap valves behind the machine are fully open, then restart the cycle — this resolves the fault in the majority of cases (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When an LG washing machine fails to fill, the drum stays dry or barely wet after the cycle begins. You may hear the machine humming as it attempts to draw water, and after a few minutes the display will often show the <strong>IE error code</strong> (Inlet Error), pausing the programme entirely. In some cases the machine will make repeated clicking sounds as the water inlet valve opens and closes without success.</p><p>The filling system relies on a chain of components working together: the household water supply, inlet hoses, filter screens, the electronic inlet valve, and the pressure sensor that tells the control board when enough water has entered. A failure at any point in that chain produces the same visible symptom — a drum that won't fill. Because most causes are straightforward to check, it's worth working through them methodically before assuming a part needs replacing.</p>",
+      "causes_json": [
+        {
+          "cause": "Tap valve closed or partially closed",
+          "detail": "The hot and cold tap valves behind the machine must be fully open. A valve that was turned off for maintenance and not fully reopened is the single most common reason an LG machine won't fill."
+        },
+        {
+          "cause": "Blocked inlet hose filter screens",
+          "detail": "Small mesh filters sit inside the hose connections at the back of the machine. Sediment and limescale build up over time and restrict water flow enough to trigger the IE code, even when pressure seems adequate."
+        },
+        {
+          "cause": "Low household water pressure",
+          "detail": "LG washing machines require a minimum dynamic water pressure of around 0.5 bar to open the inlet valve properly. Pressure that drops during peak usage times — early morning or evening — can cause intermittent filling faults."
+        },
+        {
+          "cause": "Faulty water inlet valve",
+          "detail": "The solenoid-operated inlet valve opens electronically when the control board signals it. If the solenoid coil burns out or the valve body becomes clogged internally, water cannot enter regardless of supply pressure."
+        },
+        {
+          "cause": "Defective pressure sensor or blocked pressure hose",
+          "detail": "The pressure sensor monitors water level inside the drum. If its small rubber hose is kinked, blocked, or the sensor itself has failed, the control board may incorrectly believe the drum is already full and never open the inlet valve."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "In a small number of cases the main PCB fails to send the correct signal to the inlet valve. This is usually only suspected after all other components have been checked and confirmed to be working correctly."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the water supply tap valves",
+          "detail": "Locate the hot and cold tap valves on the wall or floor behind the machine. Turn each one fully anticlockwise to confirm they are completely open. Also check that no other appliance on the same supply line is running simultaneously, which can temporarily reduce pressure."
+        },
+        {
+          "step": 2,
+          "action": "Inspect and clean the inlet hose filter screens",
+          "detail": "Turn off the tap valves, then unscrew the inlet hoses from the back of the machine. Use needle-nose pliers to carefully pull out the small mesh filter screens from the hose ports. Rinse them under a tap and use an old toothbrush to remove any limescale or debris before reinserting them."
+        },
+        {
+          "step": 3,
+          "action": "Check the inlet hoses for kinks or damage",
+          "detail": "Pull the machine forward slightly and inspect the full length of both hoses. A kinked hose can restrict flow just as effectively as a blocked filter. Straighten any kinks and ensure the hoses are not pinched behind the machine when you push it back into position."
+        },
+        {
+          "step": 4,
+          "action": "Test your household water pressure",
+          "detail": "Fill a one-litre jug directly from the tap that feeds the machine. It should fill in roughly six seconds or less, indicating adequate pressure. If it takes noticeably longer, contact your water supplier — low mains pressure is a supply issue, not a machine fault."
+        },
+        {
+          "step": 5,
+          "action": "Perform a power reset on the machine",
+          "detail": "Unplug the washing machine from the mains socket and leave it disconnected for two full minutes. This clears any temporary control board errors that may be holding the inlet valve closed. Plug back in, select a short wash cycle, and observe whether water now enters the drum."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the pressure sensor hose",
+          "detail": "With the machine unplugged, remove the top panel (usually two screws at the rear). Locate the thin rubber hose running from the side of the drum up to the pressure sensor on the control panel area. Check it for kinks, cracks, or blockages by blowing gently through it. Reattach any loose connections securely."
+        },
+        {
+          "step": 7,
+          "action": "Test the water inlet valve",
+          "detail": "With the machine unplugged, disconnect the wiring connectors from the inlet valve solenoids and use a multimeter set to resistance mode. A healthy solenoid coil typically reads between 200 and 500 ohms. A reading of zero or infinity indicates a failed coil and the valve assembly will need replacing."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If you have confirmed the water supply is fully open, the filter screens are clean, pressure is adequate, and a power reset has not resolved the IE error, the fault is likely inside the machine. A failed inlet valve, faulty pressure sensor, or damaged control board all require component-level diagnosis with a multimeter and access to wiring diagrams specific to your model.</p><p>You should also call a service technician if you notice any water leaking from the hose connections after reassembly, if the machine trips your household circuit breaker when it attempts to fill, or if the IE code returns immediately after every reset. These signs point to an electrical or component fault that is not safe to investigate without proper training.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when an LG washing machine won't fill are the <strong>water inlet valve assembly</strong>, the <strong>inlet hose filter screens</strong>, and the <strong>water pressure sensor</strong>. Cleaning the filter screens every six to twelve months is the single most effective maintenance step you can take, particularly in hard-water areas where limescale accumulates quickly. Replacing the inlet hoses every five years is also recommended, as rubber degrades and can restrict flow internally even when the outside looks undamaged.</p><p>Search for genuine LG replacement parts using your full model number, which is printed on a label inside the door rim. Using manufacturer-approved parts ensures correct valve pressure ratings and connector compatibility.</p>\n<!-- SPARE_PARTS_FAULT:wont-fill -->",
+      "faq_json": [
+        {
+          "answer": "IE stands for Inlet Error. It means the machine attempted to fill with water but did not detect the expected water level within a set time limit. It is a symptom code rather than a diagnosis — it tells you filling failed, but not specifically why. Working through the steps above will identify the underlying cause.",
+          "question": "What does the IE error code mean on an LG washing machine?"
+        },
+        {
+          "answer": "Yes, slow filling is usually an early stage of the same fault. Partially blocked filter screens or slightly low water pressure will allow some water in but not enough to satisfy the machine's timing threshold. Left unaddressed, slow filling typically progresses to a full IE error. Cleaning the filter screens is the first thing to check.",
+          "question": "My LG machine fills very slowly but doesn't show an error — is this the same problem?"
+        },
+        {
+          "answer": "It is a moderately straightforward repair for a confident DIYer. The valve is usually accessible after removing the top or rear panel, and it connects with push-fit wiring connectors and standard hose fittings. Always unplug the machine and turn off the water supply before starting. If you are uncomfortable working near electrical components, book a service technician instead.",
+          "question": "Can I replace the water inlet valve myself?"
+        },
+        {
+          "answer": "Intermittent filling faults are most often caused by fluctuating mains water pressure, which can drop during high-demand periods in your area. A partially blocked filter screen can also cause intermittent faults — enough water gets through sometimes, but not always. A failing inlet valve solenoid that works when warm but not when cold is another possibility worth investigating.",
+          "question": "Why does my LG washing machine only fail to fill sometimes?"
+        },
+        {
+          "answer": "The machine's control board is designed to stop the cycle and display the IE code rather than run dry, so repeated attempts are unlikely to cause additional damage in most cases. However, if the drum motor runs without water present for extended periods, unnecessary wear can occur. It is best to resolve the fault before running further cycles.",
+          "question": "Does a no-fill fault damage the washing machine if I keep trying to run it?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:43.69861+00:00"
+    },
+    {
+      "id": 219,
+      "article_id": 152,
+      "locale": "sv",
+      "slug": "lg-fyller-inte",
+      "title_tag": "LG Tvättmaskin Fyller Inte Med Vatten – Lösningar",
+      "meta_description": "Fyller inte din LG-tvättmaskin med vatten? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkod IE.",
+      "h1": "Varför Fyller Inte Min LG-Tvättmaskin Med Vatten?",
+      "description": "Tvättmaskinen startar ett program men lite eller inget vatten kommer in i trumman, vilket ofta utlöser felkod IE på displayen.",
+      "quick_fix": "Kontrollera att båda kranventilerna till inloppsslangarna bakom maskinen är helt öppna och starta sedan om programmet – detta löser felet i de flesta fall (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en LG-tvättmaskin inte fyller på vatten förblir trumman torr eller knappt fuktig efter att programmet startat. Du kan höra att maskinen surrar när den försöker dra in vatten, och efter några minuter visar displayen ofta <strong>felkod IE</strong> (Inlet Error), vilket pausar programmet helt. I vissa fall gör maskinen upprepade klickljud när vatteninloppsventilen öppnar och stänger sig utan resultat.</p><p>Påfyllningssystemet är beroende av att en kedja av komponenter fungerar tillsammans: hushållets vattenförsörjning, inloppsslangarna, filtersilar, den elektroniska inloppsventilen och trycksensorn som talar om för styrkortet när tillräckligt med vatten har kommit in. Ett fel var som helst i den kedjan ger samma synliga symptom – en trumma som inte fylls. Eftersom de flesta orsaker är enkla att kontrollera är det värt att gå igenom dem metodiskt innan man antar att en del behöver bytas.</p>",
+      "causes_json": [
+        {
+          "cause": "Kranventil stängd eller delvis stängd",
+          "detail": "De varma och kalla kranventilerna bakom maskinen måste vara helt öppna. En ventil som stängdes av för underhåll och inte öppnades helt igen är den enskilt vanligaste orsaken till att en LG-maskin inte fyller på vatten."
+        },
+        {
+          "cause": "Igentäppta filtersilar i inloppsslangarna",
+          "detail": "Små nätfiltersilar sitter inuti slanganslutningarna på maskinens baksida. Sediment och kalkavlagringar byggs upp med tiden och begränsar vattenflödet tillräckligt för att utlösa IE-koden, även när trycket verkar tillräckligt."
+        },
+        {
+          "cause": "Lågt vattentryck i hushållet",
+          "detail": "LG-tvättmaskiner kräver ett minsta dynamiskt vattentryck på cirka 0,5 bar för att öppna inloppsventilen korrekt. Tryck som sjunker under högtrafiktider – tidig morgon eller kväll – kan orsaka intermittenta påfyllningsfel."
+        },
+        {
+          "cause": "Defekt vatteninloppsventil",
+          "detail": "Den solenoidstyrda inloppsventilen öppnas elektroniskt när styrkortet ger signal. Om solenoidspolen bränns ut eller ventilhuset blir igentäppt invändigt kan vatten inte komma in oavsett försörjningstryck."
+        },
+        {
+          "cause": "Defekt trycksensor eller igentäppt trycksensorslang",
+          "detail": "Trycksensorn övervakar vattennivån inuti trumman. Om dess lilla gummislang är böjd, igentäppt eller om sensorn själv har gått sönder kan styrkortet felaktigt tro att trumman redan är full och aldrig öppna inloppsventilen."
+        },
+        {
+          "cause": "Fel på styrkortet",
+          "detail": "I ett litet antal fall skickar huvud-PCB:n inte rätt signal till inloppsventilen. Detta misstänks vanligtvis först efter att alla andra komponenter har kontrollerats och bekräftats fungera korrekt."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera kranventilerna till vattenförsörjningen",
+          "detail": "Leta upp de varma och kalla kranventilerna på väggen eller golvet bakom maskinen. Vrid var och en helt moturs för att bekräfta att de är helt öppna. Kontrollera också att inget annat hushållsapparat på samma försörjningsledning används samtidigt, vilket tillfälligt kan minska trycket."
+        },
+        {
+          "step": 2,
+          "action": "Inspektera och rengör filtersilarna i inloppsslangarna",
+          "detail": "Stäng av kranventilerna och skruva sedan loss inloppsslangarna från maskinens baksida. Använd spetsnåltång för att försiktigt dra ut de små nätfiltersilarna från slanganslutningarna. Skölj dem under kranen och använd en gammal tandborste för att ta bort kalkavlagringar eller smuts innan du sätter tillbaka dem."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera inloppsslangarna för böjar eller skador",
+          "detail": "Dra ut maskinen något och inspektera hela längden på båda slangarna. En böjd slang kan begränsa flödet lika effektivt som ett igentäppt filter. Räta ut eventuella böjar och se till att slangarna inte kläms bakom maskinen när du skjuter tillbaka den på plats."
+        },
+        {
+          "step": 4,
+          "action": "Testa hushållets vattentryck",
+          "detail": "Fyll en enlitersmätkanna direkt från kranen som försörjer maskinen. Den bör fyllas på ungefär sex sekunder eller mindre, vilket indikerar tillräckligt tryck. Om det tar märkbart längre tid, kontakta ditt vattenbolag – lågt ledningsvattentryck är ett försörjningsproblem, inte ett maskinfel."
+        },
+        {
+          "step": 5,
+          "action": "Utför en strömåterställning av maskinen",
+          "detail": "Koppla ur tvättmaskinen från eluttaget och låt den vara urkopplad i två hela minuter. Detta rensar eventuella tillfälliga styrkortsfel som kan hålla inloppsventilen stängd. Koppla in igen, välj ett kort tvättprogram och observera om vatten nu kommer in i trumman."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera trycksensorslangen",
+          "detail": "Med maskinen urkopplad, ta bort toppanelen (vanligtvis två skruvar baktill). Leta upp den tunna gummislangen som löper från sidan av trumman upp till trycksensorn vid styrpanelen. Kontrollera den för böjar, sprickor eller igentäppningar genom att blåsa försiktigt igenom den. Återanslut eventuella lösa anslutningar ordentligt."
+        },
+        {
+          "step": 7,
+          "action": "Testa vatteninloppsventilen",
+          "detail": "Med maskinen urkopplad, koppla loss kabelkontakterna från inloppsventilens solenoider och använd en multimeter inställd på resistansläge. En frisk solenoidspole läser vanligtvis mellan 200 och 500 ohm. Ett värde på noll eller oändlighet indikerar en defekt spole och ventilenheten behöver bytas."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har bekräftat att vattenförsörjningen är helt öppen, filtersilarna är rena, trycket är tillräckligt och en strömåterställning inte har löst IE-felet, är felet troligtvis inne i maskinen. En defekt inloppsventil, felaktig trycksensor eller skadat styrkort kräver komponentnivådiagnos med en multimeter och tillgång till kopplingsscheman specifika för din modell.</p><p>Du bör också kontakta en servicetekniker om du märker att vatten läcker från slanganslutningarna efter återmontering, om maskinen löser ut din hushållssäkring när den försöker fylla på vatten, eller om IE-koden återkommer omedelbart efter varje återställning. Dessa tecken pekar på ett elektriskt fel eller komponentfel som inte är säkert att undersöka utan rätt utbildning.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en LG-tvättmaskin inte fyller på vatten är <strong>vatteninloppsventilenheten</strong>, <strong>filtersilarna i inloppsslangarna</strong> och <strong>vattentrycksensorn</strong>. Att rengöra filtersilarna var sjätte till tolfte månad är den enskilt mest effektiva underhållsåtgärden du kan vidta, särskilt i områden med hårt vatten där kalkavlagringar byggs upp snabbt. Det rekommenderas också att byta inloppsslangarna vart femte år, eftersom gummi försämras och kan begränsa flödet invändigt även när utsidan ser oskadad ut.</p><p>Sök efter äkta LG-reservdelar med ditt fullständiga modellnummer, som finns tryckt på en etikett inuti dörrens kant. Att använda tillverkarens godkända delar säkerställer korrekta ventiltryckvärden och kontaktkompatibilitet.</p>\n<!-- SPARE_PARTS_FAULT:wont-fill -->",
+      "faq_json": [
+        {
+          "answer": "IE står för Inlet Error (inloppsfel). Det betyder att maskinen försökte fylla på vatten men inte detekterade den förväntade vattennivån inom en angiven tidsgräns. Det är en symptomkod snarare än en diagnos – den talar om att påfyllningen misslyckades, men inte specifikt varför. Att arbeta igenom stegen ovan kommer att identifiera den underliggande orsaken.",
+          "question": "Vad betyder felkod IE på en LG-tvättmaskin?"
+        },
+        {
+          "answer": "Ja, långsam påfyllning är vanligtvis ett tidigt stadium av samma fel. Delvis igentäppta filtersilar eller något lågt vattentryck tillåter visst vatten att komma in men inte tillräckligt för att uppfylla maskinens tidsgräns. Om det lämnas oåtgärdat leder långsam påfyllning vanligtvis till ett fullständigt IE-fel. Att rengöra filtersilarna är det första man bör kontrollera.",
+          "question": "Min LG-maskin fyller på mycket långsamt men visar inget fel – är det samma problem?"
+        },
+        {
+          "answer": "Det är en relativt enkel reparation för en händig hemmafixare. Ventilen är vanligtvis åtkomlig efter att topp- eller bakpanelen tagits bort, och den ansluts med tryckkontakter och standardslanganslutningar. Koppla alltid ur maskinen och stäng av vattenförsörjningen innan du börjar. Om du är obekväm med att arbeta nära elektriska komponenter, boka en servicetekniker istället.",
+          "question": "Kan jag byta vatteninloppsventilen själv?"
+        },
+        {
+          "answer": "Intermittenta påfyllningsfel orsakas oftast av fluktuerande ledningsvattentryck, som kan sjunka under perioder med hög efterfrågan i ditt område. En delvis igentäppt filtersil kan också orsaka intermittenta fel – tillräckligt med vatten kommer igenom ibland, men inte alltid. En defekt inloppsventilsolenoid som fungerar när den är varm men inte när den är kall är en annan möjlighet värd att undersöka.",
+          "question": "Varför fyller min LG-tvättmaskin inte på vatten bara ibland?"
+        },
+        {
+          "answer": "Maskinens styrkort är utformat för att stoppa programmet och visa IE-koden snarare än att köra torrt, så upprepade försök är osannolikt att orsaka ytterligare skada i de flesta fall. Men om trummotorn körs utan vatten under längre perioder kan onödigt slitage uppstå. Det är bäst att lösa felet innan ytterligare program körs.",
+          "question": "Skadar ett påfyllningsfel tvättmaskinen om jag fortsätter försöka köra den?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:43.838579+00:00"
+    },
+    {
+      "id": 222,
+      "article_id": 154,
+      "locale": "en",
+      "slug": "lg-making-loud-noise",
+      "title_tag": "LG Washing Machine Making Loud Noise – Fixes & Causes",
+      "meta_description": "Is your LG washing machine making a loud noise during a cycle? Learn the most common causes and step-by-step fixes you can try at home before calling a technician.",
+      "h1": "Why Is My LG Washing Machine Making a Loud Noise?",
+      "description": "The washing machine produces an unusually loud banging, grinding, rattling, or rumbling noise during one or more stages of the wash cycle.",
+      "quick_fix": "Open the door, redistribute the laundry evenly around the drum, and restart the spin cycle — an unbalanced load is the most common cause of loud noise and rebalancing it typically resolves the problem immediately (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>A loud noise from your LG washing machine can range from a rhythmic banging during spin to a constant grinding or rattling throughout the cycle. The type of noise often points to where the problem lies — a thumping sound usually suggests a mechanical or load-balance issue, while grinding or scraping tends to indicate worn components inside the drum assembly.</p><p>LG washing machines are designed to operate quietly, so any significant increase in noise is worth investigating promptly. Left unaddressed, some causes — particularly worn drum bearings or a failing motor — can worsen quickly and lead to more expensive repairs. Other causes, such as an unbalanced load or a foreign object trapped in the drum, are completely harmless and easy to fix yourself.</p><p>This guide walks you through the most likely causes and practical steps to diagnose and resolve the noise, starting with the simplest checks first.</p>",
+      "causes_json": [
+        {
+          "cause": "Unbalanced or overloaded drum",
+          "detail": "When laundry bunches to one side — common with heavy items like duvets or jeans — the drum spins off-centre and creates a loud banging or thumping noise, especially during the spin cycle. Overloading the machine has the same effect and puts extra strain on the suspension system."
+        },
+        {
+          "cause": "Foreign object trapped in the drum or pump",
+          "detail": "Coins, bra underwires, buttons, or small items left in pockets can slip through the drum holes and become lodged in the pump filter or between the drum and the door seal. This typically produces a rattling or clattering sound that is present throughout the wash."
+        },
+        {
+          "cause": "Worn drum bearings",
+          "detail": "The drum bearings allow the inner drum to spin smoothly inside the outer tub. When they wear out — usually after several years of use — they produce a loud rumbling or grinding noise that gets worse as the spin speed increases. This is one of the more serious causes and generally requires a parts replacement."
+        },
+        {
+          "cause": "Damaged or worn drive belt",
+          "detail": "On belt-driven LG models, a worn, stretched, or partially snapped drive belt can cause a squealing or slapping noise during agitation and spin. The belt may also cause the drum to turn unevenly, adding to the noise."
+        },
+        {
+          "cause": "Worn or faulty shock absorbers or suspension springs",
+          "detail": "Shock absorbers and suspension springs dampen drum movement during the spin cycle. When they weaken or break, the drum moves excessively and strikes the cabinet walls, producing a loud banging noise particularly at high spin speeds."
+        },
+        {
+          "cause": "Loose or worn motor brushes",
+          "detail": "On brushed motor models, the carbon brushes that make contact with the motor can wear down over time, causing a grinding or intermittent scraping sound. The machine may still complete cycles but the noise will gradually worsen."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Redistribute the laundry load",
+          "detail": "Pause the cycle and open the door. Remove some items if the drum is packed tightly, then spread the remaining laundry evenly around the drum by hand. Restart the cycle and listen — if the banging stops, an unbalanced load was the cause. Avoid washing single heavy items alone; add a couple of towels to balance the load."
+        },
+        {
+          "step": 2,
+          "action": "Check that the machine is level",
+          "detail": "Place a spirit level on top of the machine and check it front-to-back and side-to-side. All four feet should be in firm contact with the floor. Adjust the levelling feet by turning them clockwise to raise or anti-clockwise to lower, then tighten the lock nuts. A machine that rocks even slightly will amplify noise dramatically during spin."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the drum and door seal for foreign objects",
+          "detail": "With the machine empty and unplugged, rotate the drum slowly by hand and listen for rattling or scraping. Run your fingers around the inside of the door seal, feeling for coins, wires, or debris caught in the folds. Remove anything you find with pliers if necessary, taking care not to tear the seal."
+        },
+        {
+          "step": 4,
+          "action": "Clean the pump filter",
+          "detail": "The pump filter is usually located behind a small panel at the bottom front of the machine. Place a shallow tray and towels underneath, then unscrew the filter cap slowly to drain residual water. Remove the filter completely and clear out any debris — coins and small items frequently collect here and cause rattling or humming noises from the pump."
+        },
+        {
+          "step": 5,
+          "action": "Run an empty spin cycle and listen carefully",
+          "detail": "With the drum empty, run a short spin cycle at a high speed (1000 rpm or above). This helps you isolate whether the noise is load-related or mechanical. A grinding or rumbling noise on an empty drum strongly suggests worn bearings or a motor issue rather than a simple load problem."
+        },
+        {
+          "step": 6,
+          "action": "Check for drum bearing wear",
+          "detail": "Open the door and grab the front edge of the inner drum with both hands. Try to move it up and down — there should be very little play. If you feel noticeable movement or hear a rough, gravelly sensation when you spin the drum by hand, the bearings are likely worn. This is a strong indicator that professional repair is needed."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the shock absorbers and suspension springs",
+          "detail": "If you are comfortable removing the back or front panel of the machine (always unplug it first), visually inspect the shock absorbers for signs of oil leakage or physical damage, and check that the suspension springs are intact and properly seated. A broken spring or collapsed absorber will be visually obvious and will need replacing before the machine is used again."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If the loud noise persists on an empty drum, particularly as a deep rumbling or grinding sound that worsens at higher spin speeds, this is a strong sign of worn drum bearings. Bearing replacement on an LG washing machine is a labour-intensive job that involves dismantling the outer tub, and it is best handled by a service technician to avoid causing further damage.</p><p>You should also contact a service technician if you notice the drum has excessive movement when pushed by hand, if the machine vibrates violently and moves across the floor despite being level, or if you can see physical damage to internal components such as broken springs or leaking shock absorbers. Continuing to run the machine in these conditions risks damaging the outer tub or motor.</p>",
+      "prevention_html": "<p>The parts most commonly replaced on LG washing machines presenting with loud noise are the <strong>drum bearings and bearing seal</strong>, the <strong>shock absorbers</strong>, and the <strong>door seal (boot gasket)</strong> — the latter particularly when a foreign object has caused a tear that allows items to escape into the pump area. If you have identified one of these as the cause, sourcing a genuine LG replacement part will give the best long-term result.</p><p>To reduce the risk of noise faults developing, always check pockets before loading, avoid consistently running the machine at maximum capacity, and use the correct amount of detergent to prevent excessive vibration from foam build-up. Running a monthly drum-clean cycle also helps keep internal components free from residue that can accelerate wear.</p>\n<!-- SPARE_PARTS_FAULT:making-loud-noise -->",
+      "faq_json": [
+        {
+          "answer": "Noise that appears specifically during spin is most often caused by an unbalanced load, worn shock absorbers, or failing drum bearings — all of which are put under the greatest stress at high spin speeds. Start by redistributing the laundry and checking the machine is level. If the noise continues on an empty spin, the bearings or suspension components are the likely culprit.",
+          "question": "Why does my LG washing machine make a loud noise only during the spin cycle?"
+        },
+        {
+          "answer": "It depends on the cause. If the noise is due to an unbalanced load or a small foreign object, it is generally safe to continue using the machine once you have resolved the issue. However, if the noise is a grinding or rumbling from worn bearings, continued use can cause the drum to seize or damage the outer tub, turning a moderate repair into a much more costly one.",
+          "question": "Is it safe to keep using my LG washing machine if it is making a loud noise?"
+        },
+        {
+          "answer": "A rattling noise is almost always caused by a foreign object such as a coin, button, or underwire that has escaped from a pocket or garment. Check the drum interior, the door seal folds, and the pump filter. Clearing the filter is a quick job and often resolves the rattle immediately.",
+          "question": "My LG washing machine makes a rattling noise — what is causing it?"
+        },
+        {
+          "answer": "The clearest signs are a loud rumbling or grinding noise during spin that gets worse over time, and noticeable up-and-down movement in the drum when you push it by hand with the door open. You may also hear a rough, gravelly feeling when spinning the drum manually. A service technician can confirm the diagnosis and advise on repair costs.",
+          "question": "How do I know if my LG washing machine drum bearings need replacing?"
+        },
+        {
+          "answer": "Yes. A machine placed on an uneven, soft, or hollow floor can vibrate significantly more than one on a solid, level surface. Ensure all four feet are adjusted to make firm contact with the floor and consider placing an anti-vibration mat underneath the machine. This simple step can make a noticeable difference to noise levels, particularly during high-speed spin.",
+          "question": "Can an LG washing machine make a loud noise because of the installation surface?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:43.90373+00:00"
+    },
+    {
+      "id": 223,
+      "article_id": 154,
+      "locale": "sv",
+      "slug": "lg-låter-högt",
+      "title_tag": "LG Tvättmaskin Låter Högt – Lösningar & Orsaker",
+      "meta_description": "Låter din LG tvättmaskin högt under ett program? Lär dig de vanligaste orsakerna och steg-för-steg-lösningar du kan prova hemma innan du ringer en tekniker.",
+      "h1": "Varför låter min LG tvättmaskin så högt?",
+      "description": "Tvättmaskinen producerar ett ovanligt högt bankande, malande, skramlande eller dånande ljud under ett eller flera steg i tvättcykeln.",
+      "quick_fix": "Öppna luckan, fördela tvätten jämnt runt trumman och starta centrifugeringen igen – en obalanserad last är den vanligaste orsaken till högt ljud och att balansera om den löser vanligtvis problemet omedelbart (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Ett högt ljud från din LG tvättmaskin kan variera från ett rytmiskt bankande under centrifugering till ett konstant malande eller skramlande under hela cykeln. Typen av ljud pekar ofta på var problemet finns – ett dunkande ljud tyder vanligtvis på ett mekaniskt problem eller obalans i lasten, medan malande eller skrapande ljud tenderar att indikera slitna komponenter inuti trumenheten.</p><p>LG tvättmaskiner är konstruerade för att arbeta tyst, så varje betydande ökning av ljudnivån är värd att undersöka omgående. Om det lämnas oåtgärdat kan vissa orsaker – särskilt slitna trumlagrar eller en sviktande motor – snabbt förvärras och leda till dyrare reparationer. Andra orsaker, som en obalanserad last eller ett främmande föremål som fastnat i trumman, är helt ofarliga och enkla att åtgärda själv.</p><p>Den här guiden leder dig genom de mest sannolika orsakerna och praktiska steg för att diagnostisera och lösa ljudet, med start från de enklaste kontrollerna.</p>",
+      "causes_json": [
+        {
+          "cause": "Obalanserad eller överlastad trumma",
+          "detail": "När tvätten samlas på ena sidan – vanligt med tunga plagg som täcken eller jeans – snurrar trumman ur centrum och skapar ett högt bankande eller dunkande ljud, särskilt under centrifugeringen. Att överlasta maskinen har samma effekt och belastar upphängningssystemet extra."
+        },
+        {
+          "cause": "Främmande föremål fastnat i trumman eller pumpen",
+          "detail": "Mynt, bh-byglar, knappar eller små föremål som lämnats i fickor kan glida igenom trummans hål och fastna i pumpfiltret eller mellan trumman och lucktätningen. Detta ger vanligtvis ett skramlande eller skallrande ljud som hörs under hela tvätten."
+        },
+        {
+          "cause": "Slitna trumlagrar",
+          "detail": "Trumlagramen gör att innertrumman kan snurra smidigt inuti yttertrumman. När de slits ut – vanligtvis efter flera års användning – producerar de ett högt dånande eller malande ljud som förvärras när centrifugeringshastigheten ökar. Detta är en av de allvarligare orsakerna och kräver i regel byte av delar."
+        },
+        {
+          "cause": "Skadat eller slitet drivrem",
+          "detail": "På remstyrda LG-modeller kan ett slitet, utsträckt eller delvis avslitet drivrem orsaka ett gnisslande eller smällande ljud under tvätt och centrifugering. Remmen kan också göra att trumman roterar ojämnt, vilket förstärker ljudet."
+        },
+        {
+          "cause": "Slitna eller defekta stötdämpare eller upphängningsfäder",
+          "detail": "Stötdämpare och upphängningsfäder dämpar trummans rörelser under centrifugeringen. När de försvagas eller går sönder rör sig trumman överdrivet och slår mot maskinens väggar, vilket ger ett högt bankande ljud särskilt vid höga centrifugeringshastigheter."
+        },
+        {
+          "cause": "Lösa eller slitna motorborstar",
+          "detail": "På modeller med borstmotor kan de kolborstar som är i kontakt med motorn slitas ned med tiden, vilket orsakar ett malande eller intermittent skrapande ljud. Maskinen kan fortfarande slutföra cykler men ljudet kommer gradvis att förvärras."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Fördela om tvätten",
+          "detail": "Pausa cykeln och öppna luckan. Ta ut några plagg om trumman är hårt packad och fördela sedan resterande tvätt jämnt runt trumman för hand. Starta om cykeln och lyssna – om bankandet upphör var en obalanserad last orsaken. Undvik att tvätta enstaka tunga plagg ensamma; lägg till ett par handdukar för att balansera lasten."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera att maskinen står i vater",
+          "detail": "Placera ett vattenpass ovanpå maskinen och kontrollera det framifrån bakåt och från sida till sida. Alla fyra fötter ska ha fast kontakt med golvet. Justera nivåfötterna genom att vrida dem medurs för att höja eller moturs för att sänka, och dra sedan åt låsmuttrarna. En maskin som gungar även lite kommer att förstärka ljudet dramatiskt under centrifugering."
+        },
+        {
+          "step": 3,
+          "action": "Undersök trumman och lucktätningen efter främmande föremål",
+          "detail": "Med maskinen tom och urkopplad, rotera trumman långsamt för hand och lyssna efter skramlande eller skrapande ljud. Känn med fingrarna längs insidan av lucktätningen och känn efter mynt, trådar eller skräp som fastnat i vecken. Ta bort allt du hittar med en tång om det behövs, och var försiktig så att du inte river sönder tätningen."
+        },
+        {
+          "step": 4,
+          "action": "Rengör pumpfiltret",
+          "detail": "Pumpfiltret sitter vanligtvis bakom en liten lucka längst ned på maskinens framsida. Placera ett grunt fat och handdukar undertill och skruva sedan långsamt loss filterlocket för att tömma ut kvarvarande vatten. Ta ut filtret helt och rensa bort allt skräp – mynt och små föremål samlas ofta här och orsakar skramlande eller surrande ljud från pumpen."
+        },
+        {
+          "step": 5,
+          "action": "Kör en tom centrifugering och lyssna noga",
+          "detail": "Med trumman tom, kör en kort centrifugering vid hög hastighet (1000 varv/min eller mer). Detta hjälper dig att avgöra om ljudet beror på lasten eller är mekaniskt. Ett malande eller dånande ljud med en tom trumma tyder starkt på slitna lager eller ett motorproblem snarare än ett enkelt lastproblem."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera trumlagrens skick",
+          "detail": "Öppna luckan och ta tag i framkanten av innertrumman med båda händerna. Försök att röra den upp och ned – det ska vara mycket litet spel. Om du känner ett märkbart glapp eller hör ett grovt, grusigt ljud när du snurrar trumman för hand är lagren troligtvis slitna. Detta är ett tydligt tecken på att professionell reparation behövs."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera stötdämpare och upphängningsfäder",
+          "detail": "Om du känner dig bekväm med att ta bort maskinens bak- eller frontpanel (koppla alltid ur den först), inspektera stötdämparna visuellt efter tecken på oljeläckage eller fysisk skada, och kontrollera att upphängningsfädrarna är intakta och korrekt placerade. En bruten fjäder eller kollapsad dämpare är visuellt uppenbar och måste bytas ut innan maskinen används igen."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om det höga ljudet kvarstår med en tom trumma, särskilt som ett djupt dånande eller malande ljud som förvärras vid högre centrifugeringshastigheter, är detta ett tydligt tecken på slitna trumlagrar. Lagerbyte på en LG tvättmaskin är ett arbetskrävande jobb som innebär att yttertrumman måste demonteras, och det hanteras bäst av en servicetekniker för att undvika ytterligare skador.</p><p>Du bör också kontakta en servicetekniker om du märker att trumman rör sig överdrivet när du trycker på den för hand, om maskinen vibrerar våldsamt och förflyttar sig över golvet trots att den står i vater, eller om du kan se fysisk skada på interna komponenter som brutna fjädrar eller läckande stötdämpare. Att fortsätta använda maskinen under dessa förhållanden riskerar att skada yttertrumman eller motorn.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut på LG tvättmaskiner med högt ljud är <strong>trumlagren och lagertätningen</strong>, <strong>stötdämparna</strong> och <strong>lucktätningen (bälgtätningen)</strong> – den sistnämnda särskilt när ett främmande föremål har orsakat en repa som låter föremål ta sig in i pumpområdet. Om du har identifierat en av dessa som orsaken ger ett äkta LG-reservdel det bästa långsiktiga resultatet.</p><p>För att minska risken för ljudfel, kontrollera alltid fickor innan du lastar maskinen, undvik att konsekvent köra maskinen vid maximal kapacitet och använd rätt mängd tvättmedel för att förhindra överdrivna vibrationer från skumuppbyggnad. Att köra ett månatligt trumrengöringsprogram hjälper också till att hålla interna komponenter fria från avlagringar som kan påskynda slitage.</p>\n<!-- SPARE_PARTS_FAULT:making-loud-noise -->",
+      "faq_json": [
+        {
+          "answer": "Ljud som uppträder specifikt under centrifugering orsakas oftast av en obalanserad last, slitna stötdämpare eller sviktande trumlagrar – alla utsätts för störst belastning vid höga centrifugeringshastigheter. Börja med att fördela om tvätten och kontrollera att maskinen står i vater. Om ljudet fortsätter med en tom centrifugering är lagren eller upphängningskomponenterna troligtvis orsaken.",
+          "question": "Varför låter min LG tvättmaskin högt bara under centrifugeringen?"
+        },
+        {
+          "answer": "Det beror på orsaken. Om ljudet beror på en obalanserad last eller ett litet främmande föremål är det i allmänhet säkert att fortsätta använda maskinen när du har löst problemet. Men om ljudet är ett malande eller dånande från slitna lager kan fortsatt användning göra att trumman kärvar eller skadar yttertrumman, vilket förvandlar en måttlig reparation till en betydligt dyrare.",
+          "question": "Är det säkert att fortsätta använda min LG tvättmaskin om den låter högt?"
+        },
+        {
+          "answer": "Ett skramlande ljud orsakas nästan alltid av ett främmande föremål, som ett mynt, en knapp eller en bh-bygel, som har hamnat utanför en ficka eller ett plagg. Kontrollera trummans insida, lucktätningens veck och pumpfiltret. Att rengöra filtret är ett snabbt jobb och löser ofta skramlandet omedelbart.",
+          "question": "Min LG tvättmaskin skramlar – vad orsakar det?"
+        },
+        {
+          "answer": "De tydligaste tecknen är ett högt dånande eller malande ljud under centrifugering som förvärras med tiden, och ett märkbart upp-och-ned-glapp i trumman när du trycker på den för hand med luckan öppen. Du kan också känna ett grovt, grusigt motstånd när du snurrar trumman manuellt. En servicetekniker kan bekräfta diagnosen och ge råd om reparationskostnader.",
+          "question": "Hur vet jag om trumlagren på min LG tvättmaskin behöver bytas?"
+        },
+        {
+          "answer": "Ja. En maskin som placeras på ett ojämnt, mjukt eller ihåligt golv kan vibrera betydligt mer än en som står på ett fast, plant underlag. Se till att alla fyra fötter är justerade för att ha fast kontakt med golvet och överväg att placera en antivibrationsmat under maskinen. Detta enkla steg kan göra en märkbar skillnad på ljudnivån, särskilt under höghastighetscentrifugering.",
+          "question": "Kan en LG tvättmaskin låta högt på grund av underlaget den står på?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:45.126448+00:00"
+    },
+    {
+      "id": 224,
+      "article_id": 155,
+      "locale": "en",
+      "slug": "lg-not-heating-water",
+      "title_tag": "LG Washing Machine Not Heating Water – Fixes",
+      "meta_description": "LG washing machine not heating water? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers tE, tE1, tE2, tE3 errors.",
+      "h1": "Why Is My LG Washing Machine Not Heating the Water?",
+      "description": "The washing machine fills and runs a cycle but fails to heat the water to the selected temperature, leaving laundry washed in cold water regardless of the programme chosen.",
+      "quick_fix": "Run a short 60°C cotton cycle and check whether the drum feels warm to the touch after 10 minutes — if it does not, unplug the machine, locate the heating element behind the drum, and use a multimeter to test it for continuity; a failed element is the cause in the majority of cases and replacing it typically resolves the fault (takes about 30 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When an LG washing machine stops heating water, clothes come out of the drum smelling stale, detergent residue is left on fabrics, and greasy stains are not properly removed. The machine will usually complete its cycle without interruption, giving no obvious sign that anything is wrong — until you notice the results. In some cases, the control panel will display an error code such as tE, tE1, tE2, or tE3, which all point to a fault in the temperature sensing or heating circuit.</p><p>The heating system in an LG washing machine involves three main components working together: the heating element itself, the NTC thermistor (temperature sensor), and the main control board that interprets sensor readings and switches the element on and off. A failure in any one of these parts — or in the wiring that connects them — can prevent the water from reaching the correct temperature. Because this fault sits in the electrical system, it is rated as an advanced repair.</p>",
+      "causes_json": [
+        {
+          "cause": "Failed heating element",
+          "detail": "The heating element is a resistive coil submerged in the drum sump that directly heats the water. Over time it burns out or develops a break in the coil, causing it to draw no current and produce no heat."
+        },
+        {
+          "cause": "Faulty NTC thermistor (temperature sensor)",
+          "detail": "The NTC thermistor monitors water temperature and sends a resistance reading to the control board. If it drifts out of calibration or fails completely, the board either never activates the element or shuts it off too early, triggering tE-series error codes."
+        },
+        {
+          "cause": "Defective main control board",
+          "detail": "The control board contains the relay that switches power to the heating element. A burnt relay contact or failed component on the board means the element never receives power, even if the element and thermistor are both in good condition."
+        },
+        {
+          "cause": "Damaged or corroded wiring harness",
+          "detail": "The wires connecting the heating element and thermistor to the control board can corrode, chafe against the drum, or work loose at their connectors. An intermittent or open-circuit connection produces the same symptoms as a component failure."
+        },
+        {
+          "cause": "Limescale build-up on the heating element",
+          "detail": "In hard-water areas, calcium deposits coat the element and act as an insulating layer, dramatically reducing heating efficiency. The element may still be electrically intact but unable to transfer heat effectively to the water."
+        },
+        {
+          "cause": "Tripped thermal cut-out",
+          "detail": "LG machines include a thermal cut-out fuse as a safety device that permanently opens the circuit if the element overheats. Once tripped it cannot reset itself and must be replaced before heating will work again."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Confirm the fault and check for error codes",
+          "detail": "Select a 60°C or 90°C cotton programme and start the machine. After 10–15 minutes, carefully feel the door glass — it should be noticeably warm. If it remains cold, note any error code on the display (tE, tE1, tE2, or tE3 all indicate a heating or temperature-sensing fault). Write down the code before proceeding."
+        },
+        {
+          "step": 2,
+          "action": "Disconnect power and access the heating element",
+          "detail": "Unplug the machine from the mains and turn off the water supply. On most LG front-loaders the heating element is accessed from the rear panel. Remove the screws securing the back panel, locate the element at the bottom of the drum, and photograph the wiring before disconnecting anything."
+        },
+        {
+          "step": 3,
+          "action": "Test the heating element with a multimeter",
+          "detail": "Disconnect the two spade connectors from the element terminals. Set your multimeter to the resistance (Ω) setting and probe both terminals. A healthy LG element typically reads between 20 and 50 ohms. A reading of zero (short circuit) or infinite resistance (open circuit) confirms the element has failed and needs replacing."
+        },
+        {
+          "step": 4,
+          "action": "Test the NTC thermistor",
+          "detail": "The thermistor is usually clipped into the centre of the heating element or mounted nearby. Disconnect its two-pin connector and measure resistance across its terminals at room temperature — most LG NTC sensors read approximately 10,000–15,000 ohms at 20°C. A reading far outside this range, or an open circuit, means the thermistor is faulty."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the wiring harness and connectors",
+          "detail": "With the rear panel still off, trace the wiring from the element and thermistor back towards the control board. Look for melted insulation, corrosion on connector pins, or terminals that pull free with light pressure. Reseat any loose connectors firmly and repair or replace any damaged sections of wire before reassembling."
+        },
+        {
+          "step": 6,
+          "action": "Check for limescale and clean the element",
+          "detail": "If the element tests electrically sound but heating is poor, heavy limescale may be the cause. You can carefully descale the element in situ using a proprietary washing machine descaler run on a hot empty cycle, or remove the element and soak it in a diluted citric acid solution for several hours before refitting."
+        },
+        {
+          "step": 7,
+          "action": "Replace the faulty component and test",
+          "detail": "Fit the replacement element, thermistor, or thermal cut-out using the correct LG spare part for your model number. Reconnect all wiring, refit the rear panel, and run a 60°C test cycle. Confirm the door glass becomes warm within 15 minutes and that no tE error code reappears."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If you have replaced both the heating element and the NTC thermistor and the machine still fails to heat — or continues to display a tE-series error code — the fault most likely lies with the main control board. Diagnosing and replacing a control board requires reading circuit diagrams, identifying failed components, and handling mains-voltage connections, which goes beyond a straightforward DIY repair.</p><p>You should also contact a service technician if you find burnt or melted wiring near the element, if the machine trips your household circuit breaker when it attempts to heat, or if you are not confident working safely with the electrical components inside the appliance. These signs can indicate a more serious underlying fault that needs professional assessment.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when an LG washing machine stops heating are the <strong>heating element</strong>, the <strong>NTC thermistor</strong>, and the <strong>thermal cut-out fuse</strong>. Using genuine LG-specification parts ensures the correct resistance and temperature ratings for your model. If you live in a hard-water area, running a monthly descale cycle with a washing machine cleaner will significantly extend the life of the heating element by preventing the calcium build-up that causes premature failure.</p><p>Search for compatible parts for your specific LG model using the widget below — enter your full model number for an exact match.</p>\n<!-- SPARE_PARTS_FAULT:not-heating-water -->",
+      "faq_json": [
+        {
+          "answer": "All four codes relate to the heating and temperature-sensing circuit. tE and tE1 typically indicate that the control board is not receiving a valid signal from the NTC thermistor, while tE2 and tE3 can point to the thermistor reading an out-of-range temperature or a fault in the heating element circuit itself. In practice, all four codes warrant testing both the thermistor and the element.",
+          "question": "What do the tE, tE1, tE2, and tE3 error codes mean on an LG washing machine?"
+        },
+        {
+          "answer": "The machine will usually complete cycles normally, so it is not dangerous to use in the short term. However, cold-water washing will not effectively remove grease, kill bacteria, or dissolve detergent properly, so hygiene and cleaning performance will be significantly reduced. It is best to diagnose and fix the fault as soon as possible.",
+          "question": "Can I still use my LG washing machine if it is not heating the water?"
+        },
+        {
+          "answer": "A multimeter is the most reliable way to tell them apart. Test the element first — a reading outside the 20–50 ohm range confirms it has failed. If the element is fine, test the thermistor; a reading far from 10,000–15,000 ohms at room temperature points to a faulty sensor. Replacing the correct component avoids unnecessary expense.",
+          "question": "How do I know if it is the element or the thermistor that has failed?"
+        },
+        {
+          "answer": "Replacing the heating element on most LG front-load washing machines is a manageable DIY task if you are comfortable working with basic hand tools and a multimeter. The key requirements are disconnecting power before starting, photographing wiring before removal, and sourcing the correct part for your model number. If you are unsure at any stage, calling a service technician is the safer choice.",
+          "question": "Is a heating element replacement something a homeowner can do, or does it need a professional?"
+        },
+        {
+          "answer": "Some LG programmes — including many quick-wash and delicate cycles — are designed to run at low temperatures or cold water only, so the element not activating on those cycles is normal. If heating is inconsistent on programmes that should be hot, a failing thermistor or an intermittent wiring connection is the most likely cause, as these can produce erratic behaviour rather than a complete failure.",
+          "question": "Why does my LG washing machine heat on some cycles but not others?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:43.976846+00:00"
+    },
+    {
+      "id": 225,
+      "article_id": 155,
+      "locale": "sv",
+      "slug": "lg-värmer-inte-vatten",
+      "title_tag": "LG Tvättmaskin Värmer Inte Vatten – Lösningar",
+      "meta_description": "LG tvättmaskin värmer inte vatten? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felen tE, tE1, tE2, tE",
+      "h1": "Varför Värmer Min LG Tvättmaskin Inte Vattnet?",
+      "description": "Tvättmaskinen fyller på och kör ett program men misslyckas med att värma vattnet till vald temperatur, vilket lämnar tvätten tvättad i kallt vatten oavsett vilket program som valts.",
+      "quick_fix": "Kör ett kort bomullsprogram på 60°C och känn om trumman känns varm efter 10 minuter — om den inte gör det, dra ur maskinen, lokalisera värmeelement bakom trumman och använd en multimeter för att testa kontinuiteten; ett defekt element är orsaken i de flesta fall och att byta det löser vanligtvis felet (tar ungefär 30 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en LG tvättmaskin slutar värma vatten kommer kläderna ut ur trumman med unken lukt, tvättmedelsrester lämnas på tyger och fettfläckar avlägsnas inte ordentligt. Maskinen slutför vanligtvis sitt program utan avbrott och ger inget uppenbart tecken på att något är fel — tills du märker resultaten. I vissa fall visar kontrollpanelen en felkod som tE, tE1, tE2 eller tE3, vilka alla pekar på ett fel i temperaturavkännings- eller värmekretsen.</p><p>Värmesystemet i en LG tvättmaskin består av tre huvudkomponenter som samverkar: värmeelementet självt, NTC-termistorn (temperatursensorn) och huvudkortet som tolkar sensoravläsningar och slår på och av elementet. Ett fel i någon av dessa delar — eller i kablaget som förbinder dem — kan förhindra att vattnet når rätt temperatur. Eftersom detta fel finns i elsystemet klassas det som en avancerad reparation.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt värmeelement",
+          "detail": "Värmeelementet är en resistiv spole nedsänkt i trummans sump som direkt värmer vattnet. Med tiden bränner det ut eller får ett brott i spolen, vilket gör att det inte drar någon ström och inte producerar någon värme."
+        },
+        {
+          "cause": "Felaktig NTC-termistor (temperatursensor)",
+          "detail": "NTC-termistorn övervakar vattentemperaturen och skickar ett resistansvärde till styrkortet. Om den tappar kalibreringen eller slutar fungera helt aktiverar kortet antingen aldrig elementet eller stänger av det för tidigt, vilket utlöser tE-seriens felkoder."
+        },
+        {
+          "cause": "Defekt huvudkort",
+          "detail": "Styrkortet innehåller reläet som kopplar ström till värmeelementet. En bränd reläkontakt eller en defekt komponent på kortet innebär att elementet aldrig får ström, även om elementet och termistorn är i gott skick."
+        },
+        {
+          "cause": "Skadat eller korroderat kabelstamme",
+          "detail": "Kablarna som förbinder värmeelementet och termistorn med styrkortet kan korrodera, nötas mot trumman eller lossna vid sina kontakter. En intermittent eller bruten förbindelse ger samma symptom som ett komponentfel."
+        },
+        {
+          "cause": "Kalkavlagringar på värmeelementet",
+          "detail": "I områden med hårt vatten täcker kalciumavlagringar elementet och fungerar som ett isolerande lager, vilket dramatiskt minskar värmeeffektiviteten. Elementet kan fortfarande vara elektriskt intakt men oförmöget att effektivt överföra värme till vattnet."
+        },
+        {
+          "cause": "Utlöst termisk säkring",
+          "detail": "LG-maskiner inkluderar en termisk säkring som en skyddsanordning som permanent bryter kretsen om elementet överhettas. När den väl löst ut kan den inte återställa sig själv och måste bytas ut innan uppvärmningen fungerar igen."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Bekräfta felet och kontrollera felkoder",
+          "detail": "Välj ett bomullsprogram på 60°C eller 90°C och starta maskinen. Efter 10–15 minuter, känn försiktigt på luckan — den bör vara märkbart varm. Om den förblir kall, notera eventuell felkod på displayen (tE, tE1, tE2 eller tE3 indikerar alla ett värme- eller temperaturavkänningsfel). Skriv ned koden innan du fortsätter."
+        },
+        {
+          "step": 2,
+          "action": "Koppla bort strömmen och kom åt värmeelementet",
+          "detail": "Dra ur maskinen från elnätet och stäng av vattentillförseln. På de flesta LG frontmatade maskiner nås värmeelementet via bakpanelen. Ta bort skruvarna som håller bakpanelen, lokalisera elementet längst ned på trumman och fotografera kablaget innan du kopplar bort något."
+        },
+        {
+          "step": 3,
+          "action": "Testa värmeelementet med en multimeter",
+          "detail": "Koppla bort de två spadelanslutningarna från elementets terminaler. Ställ in multimetern på resistans (Ω) och mät båda terminalerna. Ett friskt LG-element läser vanligtvis mellan 20 och 50 ohm. En avläsning på noll (kortslutning) eller oändlig resistans (öppen krets) bekräftar att elementet har gått sönder och behöver bytas."
+        },
+        {
+          "step": 4,
+          "action": "Testa NTC-termistorn",
+          "detail": "Termistorn sitter vanligtvis fastklämd i mitten av värmeelementet eller monterad i närheten. Koppla bort dess tvåstiftskontakt och mät resistansen över terminalerna vid rumstemperatur — de flesta LG NTC-sensorer läser ungefär 10 000–15 000 ohm vid 20°C. En avläsning långt utanför detta intervall, eller en öppen krets, innebär att termistorn är defekt."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera kabelstammen och kontakterna",
+          "detail": "Med bakpanelen fortfarande borttagen, följ kablaget från elementet och termistorn tillbaka mot styrkortet. Leta efter smält isolering, korrosion på kontaktstift eller terminaler som lossnar med lätt tryck. Sätt tillbaka lösa kontakter ordentligt och reparera eller byt ut skadade kabelavsnitt innan du monterar ihop maskinen."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera kalkavlagringar och rengör elementet",
+          "detail": "Om elementet testar elektriskt korrekt men uppvärmningen är dålig kan kraftiga kalkavlagringar vara orsaken. Du kan försiktigt avkalka elementet på plats med ett specialmedel för tvättmaskiner som körs på ett varmt tomt program, eller ta bort elementet och blötlägga det i en utspädd citronsyralösning i flera timmar innan det monteras tillbaka."
+        },
+        {
+          "step": 7,
+          "action": "Byt den defekta komponenten och testa",
+          "detail": "Montera det nya elementet, termistorn eller den termiska säkringen med rätt LG-reservdel för ditt modellnummer. Återanslut allt kablage, montera tillbaka bakpanelen och kör ett testprogram på 60°C. Bekräfta att luckan blir varm inom 15 minuter och att ingen tE-felkod visas igen."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har bytt både värmeelementet och NTC-termistorn och maskinen fortfarande inte värmer — eller fortsätter att visa en tE-seriens felkod — ligger felet troligtvis i huvudkortet. Att diagnostisera och byta ett styrkort kräver att man läser kretsscheman, identifierar defekta komponenter och hanterar nätspänningsanslutningar, vilket går bortom en enkel gör-det-själv-reparation.</p><p>Du bör också kontakta en servicetekniker om du hittar bränt eller smält kablage nära elementet, om maskinen löser ut ditt hushålls jordfelsbrytare när den försöker värma, eller om du inte känner dig trygg med att arbeta säkert med de elektriska komponenterna inuti apparaten. Dessa tecken kan indikera ett allvarligare underliggande fel som behöver professionell bedömning.</p>",
+      "prevention_html": "<p>De delar som oftast byts när en LG tvättmaskin slutar värma är <strong>värmeelementet</strong>, <strong>NTC-termistorn</strong> och <strong>den termiska säkringen</strong>. Att använda äkta LG-specifikationsdelar säkerställer rätt resistans- och temperaturvärden för din modell. Om du bor i ett område med hårt vatten kommer ett månatligt avkalkningsprogram med ett tvättmaskinrengöringsmedel att avsevärt förlänga värmeelementets livslängd genom att förhindra den kalciumuppbyggnad som orsakar för tidig defekt.</p><p>Sök efter kompatibla delar för din specifika LG-modell med widgeten nedan — ange ditt fullständiga modellnummer för en exakt matchning.</p>\n<!-- SPARE_PARTS_FAULT:not-heating-water -->",
+      "faq_json": [
+        {
+          "answer": "Alla fyra koder relaterar till värme- och temperaturavkänningskretsen. tE och tE1 indikerar vanligtvis att styrkortet inte tar emot en giltig signal från NTC-termistorn, medan tE2 och tE3 kan peka på att termistorn läser en temperatur utanför intervallet eller ett fel i värmeelementkretsen. I praktiken motiverar alla fyra koder att man testar både termistorn och elementet.",
+          "question": "Vad betyder felkoderna tE, tE1, tE2 och tE3 på en LG tvättmaskin?"
+        },
+        {
+          "answer": "Maskinen slutför vanligtvis program normalt, så det är inte farligt att använda den på kort sikt. Tvätt i kallt vatten avlägsnar dock inte fett effektivt, dödar inte bakterier eller löser inte upp tvättmedel ordentligt, så hygien och rengöringsprestanda försämras avsevärt. Det är bäst att diagnostisera och åtgärda felet så snart som möjligt.",
+          "question": "Kan jag fortfarande använda min LG tvättmaskin om den inte värmer vattnet?"
+        },
+        {
+          "answer": "En multimeter är det mest tillförlitliga sättet att skilja dem åt. Testa elementet först — en avläsning utanför intervallet 20–50 ohm bekräftar att det har gått sönder. Om elementet är bra, testa termistorn; en avläsning långt från 10 000–15 000 ohm vid rumstemperatur pekar på en defekt sensor. Att byta rätt komponent undviker onödiga kostnader.",
+          "question": "Hur vet jag om det är elementet eller termistorn som har gått sönder?"
+        },
+        {
+          "answer": "Att byta värmeelementet på de flesta LG frontmatade tvättmaskiner är en hanterbar gör-det-själv-uppgift om du är bekväm med att arbeta med grundläggande handverktyg och en multimeter. De viktigaste kraven är att koppla bort strömmen innan du börjar, fotografera kablaget innan demontering och skaffa rätt del för ditt modellnummer. Om du är osäker i något skede är det säkrare att ringa en servicetekniker.",
+          "question": "Är byte av värmeelement något en hemmafixare kan göra, eller krävs det en fackman?"
+        },
+        {
+          "answer": "Vissa LG-program — inklusive många snabbtvätt- och skonsamma program — är utformade för att köras vid låga temperaturer eller enbart med kallt vatten, så att elementet inte aktiveras på dessa program är normalt. Om uppvärmningen är inkonsekvent på program som borde vara varma är en sviktande termistor eller en intermittent kabelanslutning den troligaste orsaken, eftersom dessa kan ge oregelbundet beteende snarare än ett fullständigt fel.",
+          "question": "Varför värmer min LG tvättmaskin på vissa program men inte på andra?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:45.196352+00:00"
+    },
+    {
+      "id": 226,
+      "article_id": 156,
+      "locale": "en",
+      "slug": "lg-vibrating-excessively",
+      "title_tag": "LG Washing Machine Vibrating Excessively – Fixes",
+      "meta_description": "Is your LG washing machine shaking violently during the spin cycle? Learn the most common causes and how to fix excessive vibration yourself at home.",
+      "h1": "Why Is My LG Washing Machine Vibrating So Much?",
+      "description": "The washing machine shakes, rattles, or moves across the floor during operation, particularly during the spin cycle.",
+      "quick_fix": "Check that all four levelling feet are firmly in contact with the floor and tighten the locking nuts — a machine that is even slightly uneven will vibrate badly at spin speed (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Excessive vibration in an LG washing machine is one of the most common complaints owners report, and in the vast majority of cases it has a straightforward mechanical cause rather than an internal fault. You may notice the machine rocking, 'walking' across the floor, producing a loud thumping noise, or shaking so severely that items fall off nearby surfaces — most noticeably during the spin cycle when drum speed is at its highest.</p><p>The washing machine's drum, motor, and suspension system are all designed to absorb movement, but they can only do so when the machine is correctly set up and the load inside is balanced. When something disrupts that balance — whether it's an uneven floor, a worn shock absorber, or a single heavy item tangled on one side of the drum — the vibration that would normally be dampened gets transferred directly to the cabinet and the floor.</p><p>Working through the checks below in order will resolve the problem for most households without needing any specialist tools or replacement parts.</p>",
+      "causes_json": [
+        {
+          "cause": "Machine not level",
+          "detail": "If one or more of the four adjustable feet are not making firm, even contact with the floor, the machine will rock during the spin cycle and amplify vibration dramatically. This is the single most common cause and the first thing to check."
+        },
+        {
+          "cause": "Unbalanced or overloaded drum",
+          "detail": "A single heavy item like a duvet or a pair of jeans can clump to one side of the drum, creating an off-centre load that causes severe shaking at high spin speeds. Overloading the drum has a similar effect, as the laundry cannot redistribute itself properly."
+        },
+        {
+          "cause": "Transit bolts not removed",
+          "detail": "LG washing machines are shipped with transit bolts fitted at the rear to lock the drum in place during transport. If these were never removed during installation, the machine will vibrate violently on every wash. Check the rear panel for any remaining bolts or plastic spacers."
+        },
+        {
+          "cause": "Worn or failed shock absorbers",
+          "detail": "The drum is held in place by shock absorbers (also called dampers) that cushion its movement during the spin cycle. Over time these wear out and lose their ability to dampen vibration, causing the drum to knock against the cabinet."
+        },
+        {
+          "cause": "Worn drum bearings",
+          "detail": "Drum bearings allow the drum to spin smoothly on its shaft. When they begin to fail, you will typically hear a loud rumbling or grinding noise alongside the vibration, and the drum may feel rough when turned by hand."
+        },
+        {
+          "cause": "Unsuitable flooring or surface",
+          "detail": "A machine placed on a thick rubber mat, an uneven wooden floor, or a raised platform can vibrate more than one sitting on solid, level concrete or tile. The surface itself can amplify rather than absorb movement."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Remove any remaining transit bolts",
+          "detail": "Look at the back of the machine for three or four large bolts, usually with coloured plastic spacers, running through the rear panel. If they are still fitted, unscrew them by hand or with a spanner and keep them somewhere safe. The machine cannot operate correctly with these in place, and removing them takes only a couple of minutes."
+        },
+        {
+          "step": 2,
+          "action": "Level the machine using the adjustable feet",
+          "detail": "Place a spirit level on top of the machine and check it in both directions. Each foot can be screwed in or out by hand or with a spanner to raise or lower that corner. Once all four feet sit flat on the floor and the bubble is centred, tighten the locking nut on each foot up against the base of the machine to stop them moving again."
+        },
+        {
+          "step": 3,
+          "action": "Redistribute or reduce the load",
+          "detail": "Open the door and check whether the laundry has clumped together on one side. Spread items evenly around the drum and remove any single very heavy items — wash these separately or add smaller items to balance the load. Never fill the drum more than three-quarters full."
+        },
+        {
+          "step": 4,
+          "action": "Run a short spin cycle and observe",
+          "detail": "After completing steps 1–3, run a short spin-only cycle and watch the machine from a safe distance. If the vibration has reduced significantly, the issue was postural or load-related. If it continues, move on to the next steps."
+        },
+        {
+          "step": 5,
+          "action": "Check the floor surface",
+          "detail": "If the machine sits on a wooden suspended floor, try placing a solid anti-vibration mat (a dense rubber pad, not a foam one) under all four feet. This can significantly reduce transmitted vibration. Avoid placing the machine on any surface that flexes noticeably when you press on it."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the shock absorbers",
+          "detail": "With the machine unplugged, remove the back or front panel (refer to your model's service diagram) to access the shock absorbers connecting the drum to the cabinet frame. Push and pull the drum gently — it should move smoothly with firm resistance. If a damper feels loose, leaks oil, or offers no resistance at all, it needs replacing."
+        },
+        {
+          "step": 7,
+          "action": "Check the drum bearings",
+          "detail": "With the machine unplugged, open the door and try rotating the drum slowly by hand. A healthy drum turns smoothly and quietly. A rumbling, grinding, or rough sensation when turning indicates worn bearings. Also check for any side-to-side play in the drum shaft, which is another sign of bearing failure."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If the vibration is accompanied by a loud grinding or rumbling noise that gets worse over time, the drum bearings are likely failing. Bearing replacement on an LG washing machine requires significant disassembly and specialist tools, and attempting it without experience can cause further damage — this is a job for a service technician.</p><p>You should also call a service technician if you have replaced the shock absorbers and the machine still vibrates excessively, or if you notice the drum has visible side-to-side movement when pushed by hand. These symptoms suggest structural wear that goes beyond straightforward DIY repair.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when dealing with excessive vibration on LG washing machines are the <strong>shock absorbers (dampers)</strong>, the <strong>drum bearings</strong>, and the <strong>anti-vibration feet or foot locking nuts</strong>. Shock absorbers typically last five to ten years depending on usage, and replacing them in pairs is recommended so both sides wear evenly. Drum bearings last longer but will eventually need attention on any high-use machine.</p><p>To find the correct parts for your specific LG model, use the spare parts search below — enter your full model number (found on the label inside the door frame) to see compatible components.</p>\n<!-- SPARE_PARTS_FAULT:vibrating-excessively -->",
+      "faq_json": [
+        {
+          "answer": "A small amount of movement is normal, particularly at high spin speeds. However, the machine should not rock noticeably, move across the floor, or produce loud banging sounds. If it does any of these things, there is an underlying issue worth investigating.",
+          "question": "Is it normal for an LG washing machine to vibrate a little during the spin cycle?"
+        },
+        {
+          "answer": "Vibration that only occurs at high spin speeds is usually caused by an unbalanced load or levelling issue, since these problems are amplified as the drum spins faster. If it happens consistently regardless of load, worn shock absorbers or bearings are more likely to blame.",
+          "question": "My LG washing machine only vibrates on certain cycles — why?"
+        },
+        {
+          "answer": "An anti-vibration mat can reduce the noise and movement transmitted to the floor, but it will not fix the underlying cause. If the machine is unlevel or has worn internal components, a mat will only mask the symptom. Always address the root cause first.",
+          "question": "Can I use an anti-vibration mat to fix the problem?"
+        },
+        {
+          "answer": "Look at the back panel of the machine for three or four large bolts, usually 10–17mm in diameter, with coloured plastic spacers or caps around them. They are typically positioned in a row across the upper half of the rear panel. Your machine's installation guide will show their exact location.",
+          "question": "How do I know if my LG washing machine still has transit bolts fitted?"
+        },
+        {
+          "answer": "On average, shock absorbers last between five and ten years, though this depends heavily on how often the machine is used and whether it is regularly overloaded. If your machine is more than seven years old and has started vibrating more than it used to, the dampers are a sensible first replacement to consider.",
+          "question": "How long do shock absorbers last on an LG washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:44.135073+00:00"
+    },
+    {
+      "id": 227,
+      "article_id": 156,
+      "locale": "sv",
+      "slug": "lg-vibrerar-för-mycket",
+      "title_tag": "LG Tvättmaskin Vibrerar För Mycket – Lösningar",
+      "meta_description": "Skakar din LG-tvättmaskin våldsamt under centrifugeringen? Lär dig de vanligaste orsakerna och hur du åtgärdar kraftiga vibrationer själv hemma.",
+      "h1": "Varför Vibrerar Min LG-Tvättmaskin Så Mycket?",
+      "description": "Tvättmaskinen skakar, skramlar eller förflyttar sig över golvet under drift, särskilt under centrifugeringen.",
+      "quick_fix": "Kontrollera att alla fyra nivåfötter har fast kontakt med golvet och dra åt låsmuttrarna – en maskin som är även lätt sned kommer att vibrera kraftigt vid centrifugeringshastighet (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Kraftiga vibrationer i en LG-tvättmaskin är ett av de vanligaste problemen som ägare rapporterar, och i de allra flesta fall beror det på en enkel mekanisk orsak snarare än ett internt fel. Du kanske märker att maskinen gungar, \"vandrar\" över golvet, producerar ett högt dunkande ljud eller skakar så kraftigt att föremål faller ner från närliggande ytor – mest märkbart under centrifugeringen när trummans hastighet är som högst.</p><p>Tvättmaskinens trumma, motor och fjädringssystem är alla utformade för att absorbera rörelser, men de kan bara göra det när maskinen är korrekt inställd och lasten inuti är balanserad. När något stör den balansen – oavsett om det är ett ojämnt golv, en sliten stötdämpare eller ett enda tungt plagg som trasslar ihop sig på ena sidan av trumman – överförs de vibrationer som normalt dämpas direkt till höljet och golvet.</p><p>Att gå igenom kontrollerna nedan i ordning löser problemet för de flesta hushåll utan att behöva specialverktyg eller reservdelar.</p>",
+      "causes_json": [
+        {
+          "cause": "Maskinen står inte i våg",
+          "detail": "Om en eller flera av de fyra justerbara fötterna inte har fast, jämn kontakt med golvet kommer maskinen att gunga under centrifugeringen och förstärka vibrationerna dramatiskt. Detta är den vanligaste orsaken och det första du bör kontrollera."
+        },
+        {
+          "cause": "Obalanserad eller överlastad trumma",
+          "detail": "Ett enda tungt plagg, som ett täcke eller ett par jeans, kan klumpa ihop sig på ena sidan av trumman och skapa en ocentrerad last som orsakar kraftiga skakningar vid höga centrifugeringshastigheter. Att överlasta trumman har en liknande effekt, eftersom tvätten inte kan omfördela sig ordentligt."
+        },
+        {
+          "cause": "Transportbultar inte borttagna",
+          "detail": "LG-tvättmaskiner levereras med transportbultar monterade på baksidan för att låsa trumman på plats under transport. Om dessa aldrig togs bort vid installationen kommer maskinen att vibrera kraftigt vid varje tvätt. Kontrollera bakpanelen efter eventuella kvarvarande bultar eller plastmellanlägg."
+        },
+        {
+          "cause": "Slitna eller defekta stötdämpare",
+          "detail": "Trumman hålls på plats av stötdämpare som dämpar dess rörelser under centrifugeringen. Med tiden slits dessa ut och förlorar sin förmåga att dämpa vibrationer, vilket gör att trumman slår mot höljet."
+        },
+        {
+          "cause": "Slitna trumlagrar",
+          "detail": "Trumlagren gör att trumman kan snurra smidigt på sin axel. När de börjar ge vika hör du vanligtvis ett högt mullrande eller malande ljud tillsammans med vibrationerna, och trumman kan kännas ojämn när du vrider den för hand."
+        },
+        {
+          "cause": "Olämpligt golv eller underlag",
+          "detail": "En maskin som placeras på en tjock gummimatta, ett ojämnt trägolv eller en upphöjd plattform kan vibrera mer än en som står på ett fast, plant betong- eller kakelgolv. Underlaget i sig kan förstärka snarare än absorbera rörelserna."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Ta bort eventuella kvarvarande transportbultar",
+          "detail": "Titta på maskinens baksida efter tre eller fyra stora bultar, vanligtvis med färgade plastmellanlägg, som går igenom bakpanelen. Om de fortfarande sitter på plats, skruva loss dem för hand eller med en skiftnyckel och förvara dem på ett säkert ställe. Maskinen kan inte fungera korrekt med dessa på plats, och det tar bara ett par minuter att ta bort dem."
+        },
+        {
+          "step": 2,
+          "action": "Ställ maskinen i våg med hjälp av de justerbara fötterna",
+          "detail": "Placera ett vattenpass ovanpå maskinen och kontrollera i båda riktningarna. Varje fot kan skruvas in eller ut för hand eller med en skiftnyckel för att höja eller sänka det hörnet. När alla fyra fötter ligger plant mot golvet och bubblan är centrerad, dra åt låsmuttern på varje fot mot maskinens bas för att förhindra att de rör sig igen."
+        },
+        {
+          "step": 3,
+          "action": "Omfördela eller minska lasten",
+          "detail": "Öppna luckan och kontrollera om tvätten har klumpat ihop sig på ena sidan. Fördela plaggen jämnt runt trumman och ta bort eventuella enstaka mycket tunga plagg – tvätta dessa separat eller lägg till mindre plagg för att balansera lasten. Fyll aldrig trumman mer än tre fjärdedelar."
+        },
+        {
+          "step": 4,
+          "action": "Kör ett kort centrifugeringsprogram och observera",
+          "detail": "När du har slutfört steg 1–3, kör ett kort centrifugeringsprogram och titta på maskinen från säkert avstånd. Om vibrationerna har minskat avsevärt berodde problemet på inställning eller last. Om det fortsätter, gå vidare till nästa steg."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera golvunderlaget",
+          "detail": "Om maskinen står på ett upphängt trägolv, prova att placera en solid antivibrationsmat (en tät gummidyna, inte en skummad) under alla fyra fötter. Detta kan avsevärt minska de överförda vibrationerna. Undvik att placera maskinen på ett underlag som märkbart fjädrar när du trycker på det."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera stötdämparna",
+          "detail": "Med maskinen urkopplad, ta bort bak- eller frontpanelen (se din modells servicediagram) för att komma åt stötdämparna som förbinder trumman med höljet. Tryck och dra försiktigt i trumman – den ska röra sig smidigt med fast motstånd. Om en dämpare känns lös, läcker olja eller inte ger något motstånd alls behöver den bytas."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera trumlagren",
+          "detail": "Med maskinen urkopplad, öppna luckan och försök rotera trumman långsamt för hand. En frisk trumma snurrar smidigt och tyst. Ett mullrande, malande eller ojämnt motstånd vid vridning tyder på slitna lager. Kontrollera också om det finns sidorörelser i trumaxeln, vilket är ytterligare ett tecken på lagerhaveri."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om vibrationerna åtföljs av ett högt malande eller mullrande ljud som förvärras med tiden är det troligt att trumlagren håller på att ge vika. Lagerbyte på en LG-tvättmaskin kräver omfattande isärtagning och specialverktyg, och att försöka utföra det utan erfarenhet kan orsaka ytterligare skador – detta är ett jobb för en servicetekniker.</p><p>Du bör också kontakta en servicetekniker om du har bytt stötdämparna och maskinen fortfarande vibrerar kraftigt, eller om du märker att trumman har synlig sidorörelse när du trycker på den för hand. Dessa symptom tyder på strukturellt slitage som går utöver enkel DIY-reparation.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid kraftiga vibrationer på LG-tvättmaskiner är <strong>stötdämparna</strong>, <strong>trumlagren</strong> och <strong>antivibrationsföttterna eller föternas låsmuttrar</strong>. Stötdämpare håller vanligtvis fem till tio år beroende på användning, och det rekommenderas att byta dem parvis så att båda sidor slits jämnt. Trumlager håller längre men behöver till slut uppmärksammas på alla maskiner med hög användning.</p><p>För att hitta rätt reservdelar till din specifika LG-modell, använd reservdelssökningen nedan – ange ditt fullständiga modellnummer (som finns på etiketten inuti lucköppningen) för att se kompatibla komponenter.</p>\n<!-- SPARE_PARTS_FAULT:vibrating-excessively -->",
+      "faq_json": [
+        {
+          "answer": "En liten mängd rörelse är normal, särskilt vid höga centrifugeringshastigheter. Maskinen ska dock inte gunga märkbart, förflytta sig över golvet eller producera höga dunkande ljud. Om den gör något av detta finns det ett underliggande problem som är värt att undersöka.",
+          "question": "Är det normalt att en LG-tvättmaskin vibrerar lite under centrifugeringen?"
+        },
+        {
+          "answer": "Vibrationer som bara uppstår vid höga centrifugeringshastigheter orsakas vanligtvis av en obalanserad last eller ett nivåproblem, eftersom dessa problem förstärks när trumman snurrar snabbare. Om det sker konsekvent oavsett last är slitna stötdämpare eller lager mer troliga orsaker.",
+          "question": "Min LG-tvättmaskin vibrerar bara under vissa program – varför?"
+        },
+        {
+          "answer": "En antivibrationsmat kan minska det ljud och den rörelse som överförs till golvet, men den åtgärdar inte den underliggande orsaken. Om maskinen inte står i våg eller har slitna interna komponenter kommer mattan bara att dölja symptomet. Åtgärda alltid grundorsaken först.",
+          "question": "Kan jag använda en antivibrationsmat för att lösa problemet?"
+        },
+        {
+          "answer": "Titta på maskinens bakpanel efter tre eller fyra stora bultar, vanligtvis 10–17 mm i diameter, med färgade plastmellanlägg eller kåpor runt dem. De sitter vanligtvis i en rad över den övre halvan av bakpanelen. Maskinens installationsguide visar deras exakta placering.",
+          "question": "Hur vet jag om min LG-tvättmaskin fortfarande har transportbultar monterade?"
+        },
+        {
+          "answer": "I genomsnitt håller stötdämpare mellan fem och tio år, men detta beror i hög grad på hur ofta maskinen används och om den regelbundet överlastas. Om din maskin är mer än sju år gammal och har börjat vibrera mer än tidigare är dämparna ett rimligt första byte att överväga.",
+          "question": "Hur länge håller stötdämparna på en LG-tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:44.271806+00:00"
+    }
+  ]
+}

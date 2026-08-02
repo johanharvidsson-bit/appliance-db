@@ -1,0 +1,1027 @@
+{
+  "exported_at": "2026-07-30T21:18:55.568239+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    193,
+    194,
+    195,
+    196,
+    197
+  ],
+  "rows": [
+    {
+      "article_id": 193,
+      "locale": "en",
+      "slug": "error-code-e66",
+      "title_tag": "Bosch Washing Machine Error Code E66 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E66? Learn what causes this heating circuit fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code E66 Mean on a Bosch Washing Machine?",
+      "description": "Error code E66 on a Bosch washing machine indicates a fault in the heating circuit, typically involving the heating element, temperature sensor (NTC), or the wiring connecting these components.",
+      "quick_fix": "Check and clean the filter, then inspect the heating element connections — unplug the machine, remove the back or front panel to access the heater wiring, reseat any loose connectors, and restart a wash cycle to see if E66 clears (takes about 15 minutes).",
+      "intro_html": "<p>Error code E66 points to a problem in your Bosch washing machine's heating circuit. This is the system responsible for warming the water to the temperature you select on the dial or display. When the machine's control board detects that the water is not reaching the expected temperature — or that the heating circuit is drawing an abnormal current — it stops the programme and displays E66 to prevent further damage.</p><p>When this error occurs, you will typically notice the wash cycle pausing or failing to progress past the heating phase. The drum may continue to turn, but the water stays cold. On some models the error appears immediately at the start of a cycle; on others it only triggers once the machine has been trying to heat for several minutes without success.</p><p>The fault can stem from a failed heating element, a faulty NTC temperature sensor, damaged wiring, or in less common cases a problem with the main control board. Most of these causes are diagnosable at home with basic tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty heating element",
+          "detail": "The heating element is the most common cause of E66. Over time, elements can burn out or develop an internal short, causing the control board to detect an abnormal resistance reading and shut down the heating circuit."
+        },
+        {
+          "cause": "Failed NTC temperature sensor",
+          "detail": "The NTC (Negative Temperature Coefficient) sensor monitors water temperature and feeds that data back to the control board. If the sensor drifts out of range or fails completely, the board cannot confirm that heating is occurring and triggers E66."
+        },
+        {
+          "cause": "Loose or corroded wiring connections",
+          "detail": "The connectors linking the heating element and NTC sensor to the control board can work loose over time due to vibration, or corrode in the damp environment inside the machine. A poor connection mimics a component failure and produces the same error."
+        },
+        {
+          "cause": "Limescale build-up on the heating element",
+          "detail": "In hard water areas, limescale deposits coat the heating element and insulate it, forcing it to work harder and eventually overheat or fail. Heavy scaling can also cause the element to draw excessive current, which the control board interprets as a fault."
+        },
+        {
+          "cause": "Tripped or damaged wiring harness",
+          "detail": "Physical damage to the wiring harness — from a previous repair, a foreign object inside the drum cavity, or simple wear — can interrupt the signal between the heater circuit and the PCB, generating a false or genuine E66 fault."
+        },
+        {
+          "cause": "Main control board (PCB) fault",
+          "detail": "If all heating components and wiring test as healthy, the control board itself may be misreading signals or have a failed relay that controls the heating circuit. This is the least common cause but should be considered after ruling out everything else."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains and leave it unplugged for at least 5 minutes. This allows the control board to fully reset. Plug back in, select a programme with a heating element (e.g. a 40°C cotton cycle), and observe whether E66 returns. If it does not, the fault may have been a temporary sensor glitch."
+        },
+        {
+          "step": 2,
+          "action": "Check the water inlet and drum temperature",
+          "detail": "Make sure the machine is actually filling with water. If the drum is empty or only partially filled, the heating element can overheat and trigger a protective fault. Confirm the inlet hoses are connected, the tap is open, and the filter on the inlet valve is not blocked."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the heating element wiring connections",
+          "detail": "Unplug the machine from the mains. Depending on your model, remove the rear panel or the front lower panel to access the heating element, which sits at the bottom of the drum. Check that all spade connectors on the element terminals are firmly seated and show no signs of burning or corrosion. Reseat any loose connectors and restart the machine."
+        },
+        {
+          "step": 4,
+          "action": "Test the heating element with a multimeter",
+          "detail": "With the machine unplugged, disconnect the wires from the heating element terminals. Set your multimeter to resistance (Ohms) and place the probes on the two main terminals. A healthy Bosch heating element typically reads between 20 and 30 Ohms. A reading of zero (short circuit) or infinite resistance (open circuit) confirms the element has failed and needs replacing."
+        },
+        {
+          "step": 5,
+          "action": "Test the NTC temperature sensor",
+          "detail": "Locate the NTC sensor, which is usually clipped into the heating element housing or mounted nearby on the drum casing. Disconnect its plug and measure resistance across its two terminals. At room temperature (around 20°C), a standard NTC sensor should read approximately 6,000–10,000 Ohms. A reading far outside this range indicates a faulty sensor that should be replaced."
+        },
+        {
+          "step": 6,
+          "action": "Descale the heating element if limescale is visible",
+          "detail": "If the element is intact but heavily coated in white or grey limescale, run a dedicated washing machine descaler according to the product instructions — typically on a hot empty cycle. In severe cases the element may need to be removed and soaked in a descaling solution before reinstalling. Always rinse thoroughly before running a normal wash."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the wiring harness for damage",
+          "detail": "Trace the wiring from the heating element and NTC sensor back towards the control board, looking for any pinched, chafed, or melted sections of cable. Pay particular attention to areas where the harness passes through metal panels. Repair any damaged sections with appropriate heat-resistant wire or replace the harness section if damage is extensive."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested both the heating element and the NTC sensor with a multimeter and both components read within their normal ranges, yet E66 continues to appear, the fault is likely inside the main control board. PCB diagnosis and replacement requires specialist equipment and knowledge of board-level electronics — this is not a safe DIY repair for most homeowners.</p><p>You should also contact a service technician if you find burnt or melted wiring near the heating circuit, if the machine trips your household circuit breaker when it attempts to heat, or if you are not comfortable working around the internal components of the appliance. These symptoms suggest an electrical fault that carries a safety risk if handled incorrectly.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch E66 fault are the heating element, the NTC temperature sensor, and occasionally the wiring harness or connector block that links these components to the control board. Using genuine Bosch-compatible parts ensures the correct resistance and temperature ratings for your specific model.</p><p>To reduce the risk of E66 recurring, run a monthly maintenance wash at 60°C or 90°C using a washing machine cleaner or descaler, particularly if you live in a hard water area. This keeps limescale from building up on the element and extends its working life considerably.</p>\n<!-- SPARE_PARTS:E66 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. When E66 is active, the heating circuit is not functioning correctly, which means your laundry will wash in cold water and may not be properly cleaned or sanitised. More importantly, a shorted heating element can pose an electrical risk, so it is best to diagnose and resolve the fault before continuing to use the machine.",
+          "question": "Can I still use my Bosch washing machine while it shows E66?"
+        },
+        {
+          "answer": "A replacement heating element for a Bosch washing machine typically costs between £15 and £45 for the part, depending on the model. If you fit it yourself the total cost is just the part. A service technician call-out and fitting will add labour costs on top, usually bringing the total to £80–£150 depending on your location and the technician's rates.",
+          "question": "How much does it cost to replace a Bosch washing machine heating element?"
+        },
+        {
+          "answer": "Occasionally a temporary sensor misread can cause E66 to appear and then disappear after a power cycle. However, if the error returns consistently on the same part of the cycle, the fault is genuine and will not resolve on its own. Continuing to run the machine without investigating the cause risks further damage to the control board or wiring.",
+          "question": "Will E66 clear itself after the machine cools down?"
+        },
+        {
+          "answer": "The most reliable way is to test both components with a multimeter as described in the step-by-step guide above. A heating element with infinite or zero resistance has failed. An NTC sensor reading far outside the 6,000–10,000 Ohm range at room temperature is faulty. Testing both takes around 20 minutes and will pinpoint which part needs replacing.",
+          "question": "How do I know if it is the heating element or the NTC sensor causing E66?"
+        },
+        {
+          "answer": "The E66 code consistently relates to the heating circuit across Bosch washing machine ranges, but the exact component that triggers it and its precise location can vary between models. Always cross-reference your specific model number against the technical documentation or a parts diagram before ordering replacement components, as element sizes and sensor types differ.",
+          "question": "Is E66 the same fault on all Bosch washing machine models?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:24:04.14968+00:00"
+    },
+    {
+      "article_id": 193,
+      "locale": "sv",
+      "slug": "felkod-e66",
+      "title_tag": "Bosch tvättmaskin felkod E66 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E66? Lär dig vad som orsakar detta fel i värmekretsen och hur du åtgärdar det själv innan du kontaktar en servicetekniker.",
+      "h1": "Vad betyder felkod E66 på en Bosch tvättmaskin?",
+      "description": "Felkod E66 på en Bosch tvättmaskin indikerar ett fel i värmekretsen, vanligtvis relaterat till värmeelement, temperaturgivare (NTC) eller kablaget som förbinder dessa komponenter.",
+      "quick_fix": "Kontrollera och rengör filtret, inspektera sedan anslutningarna till värmeelementet — koppla ur maskinen, ta bort bak- eller frontpanelen för att komma åt värmekablaget, sätt tillbaka eventuellt lösa kontakter och starta ett tvättprogram för att se om E66 försvinner (tar ungefär 15 minuter).",
+      "intro_html": "<p>Felkod E66 pekar på ett problem i din Bosch tvättmaskines värmekrets. Det är det system som ansvarar för att värma vattnet till den temperatur du väljer på ratten eller displayen. När maskinens styrkort upptäcker att vattnet inte når förväntad temperatur — eller att värmekretsen drar ett onormalt högt ström — avbryter den programmet och visar E66 för att förhindra ytterligare skador.</p><p>När detta fel uppstår märker du vanligtvis att tvättcykeln pausar eller inte kan fortsätta förbi uppvärmningsfasen. Trumman kan fortsätta att rotera, men vattnet förblir kallt. På vissa modeller visas felet omedelbart vid cykelstart; på andra utlöses det först efter att maskinen försökt värma i flera minuter utan framgång.</p><p>Felet kan bero på ett defekt värmeelement, en felaktig NTC-temperaturgivare, skadat kablage eller i mer sällsynta fall ett problem med huvudstyrkortet. De flesta av dessa orsaker kan diagnostiseras hemma med grundläggande verktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt värmeelement",
+          "detail": "Värmeelementet är den vanligaste orsaken till E66. Med tiden kan element brinna ut eller utveckla en intern kortslutning, vilket gör att styrkortet upptäcker ett onormalt motståndsvärde och stänger av värmekretsen."
+        },
+        {
+          "cause": "Defekt NTC-temperaturgivare",
+          "detail": "NTC-givaren (Negative Temperature Coefficient) övervakar vattentemperaturen och skickar denna information till styrkortet. Om givaren avviker från sitt normalvärde eller slutar fungera helt kan kortet inte bekräfta att uppvärmning sker och utlöser E66."
+        },
+        {
+          "cause": "Lösa eller korroderade kabelanslutningar",
+          "detail": "Kontakterna som förbinder värmeelementet och NTC-givaren med styrkortet kan lossna med tiden på grund av vibrationer, eller korrodera i den fuktiga miljön inuti maskinen. En dålig anslutning efterliknar ett komponentfel och ger samma felkod."
+        },
+        {
+          "cause": "Kalkavlagringar på värmeelementet",
+          "detail": "I områden med hårt vatten täcks värmeelementet av kalkavlagringar som isolerar det, tvingar det att arbeta hårdare och till slut överhettas eller havererar. Kraftiga kalkbeläggningar kan också göra att elementet drar för hög ström, vilket styrkortet tolkar som ett fel."
+        },
+        {
+          "cause": "Skadat kabelstamme",
+          "detail": "Fysisk skada på kabelstammen — från en tidigare reparation, ett främmande föremål i trumman eller vanligt slitage — kan avbryta signalen mellan värmekretsen och styrkortet och generera ett falskt eller äkta E66-fel."
+        },
+        {
+          "cause": "Fel på huvudstyrkortet (PCB)",
+          "detail": "Om alla värmekomponenter och kablar testar normalt kan styrkortet självt feltolka signaler eller ha ett defekt relä som styr värmekretsen. Detta är den minst vanliga orsaken men bör övervägas efter att allt annat uteslutits."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid eluttaget och låt den vara urkopplad i minst 5 minuter. Detta låter styrkortet återställa sig helt. Koppla in igen, välj ett program med uppvärmning (t.ex. ett bomullsprogram vid 40°C) och observera om E66 återkommer. Om det inte gör det kan felet ha berott på en tillfällig givarfelläsning."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera vattentillflödet och trummans temperatur",
+          "detail": "Kontrollera att maskinen faktiskt fylls med vatten. Om trumman är tom eller bara delvis fylld kan värmeelementet överhettas och utlösa ett skyddsfel. Bekräfta att inloppsslangarna är anslutna, att kranen är öppen och att filtret på inloppsventilen inte är igensatt."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera kabelanslutningarna till värmeelementet",
+          "detail": "Koppla ur maskinen från eluttaget. Beroende på din modell, ta bort bakpanelen eller den nedre frontpanelen för att komma åt värmeelementet, som sitter längst ner i trumman. Kontrollera att alla spadelanslutningar på elementets terminaler sitter ordentligt och inte visar tecken på brännskador eller korrosion. Sätt tillbaka eventuellt lösa kontakter och starta om maskinen."
+        },
+        {
+          "step": 4,
+          "action": "Testa värmeelementet med en multimeter",
+          "detail": "Med maskinen urkopplad, koppla loss kablarna från värmeelementets terminaler. Ställ in multimetern på motstånd (Ohm) och placera mätsonderna på de två huvudterminalerna. Ett friskt Bosch-värmeelement läser vanligtvis mellan 20 och 30 Ohm. Ett värde på noll (kortslutning) eller oändligt motstånd (öppen krets) bekräftar att elementet är defekt och behöver bytas."
+        },
+        {
+          "step": 5,
+          "action": "Testa NTC-temperaturgivaren",
+          "detail": "Lokalisera NTC-givaren, som vanligtvis är fäst i värmeelementets hus eller monterad i närheten på trumhöljet. Koppla loss kontakten och mät motståndet över dess två terminaler. Vid rumstemperatur (cirka 20°C) bör en standard NTC-givare läsa ungefär 6 000–10 000 Ohm. Ett värde långt utanför detta intervall indikerar en defekt givare som bör bytas."
+        },
+        {
+          "step": 6,
+          "action": "Avkalka värmeelementet om kalkavlagringar är synliga",
+          "detail": "Om elementet är intakt men kraftigt belagt med vit eller grå kalk, kör ett dedikerat avkalkningsmedel för tvättmaskiner enligt produktanvisningarna — vanligtvis på ett varmt tomt program. I allvarliga fall kan elementet behöva tas bort och blötläggas i en avkalkningslösning innan det monteras tillbaka. Skölj alltid noggrant innan du kör ett normalt tvättprogram."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera kabelstammen efter skador",
+          "detail": "Följ kablaget från värmeelementet och NTC-givaren tillbaka mot styrkortet och leta efter eventuella klämda, nötta eller smälta kabelavsnitt. Var extra uppmärksam på områden där kabelstammen passerar genom metallpaneler. Reparera skadade avsnitt med lämplig värmetålig kabel eller byt ut kabelavsnittet om skadan är omfattande."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat både värmeelementet och NTC-givaren med en multimeter och båda komponenterna visar normala värden, men E66 fortsätter att visas, är felet troligtvis inne i huvudstyrkortet. Diagnos och byte av kretskort kräver specialutrustning och kunskaper om elektronik på kortnivå — detta är inte en säker gör-det-själv-reparation för de flesta hushåll.</p><p>Du bör också kontakta en servicetekniker om du hittar bränt eller smält kablage nära värmekretsen, om maskinen löser ut din hushållssäkring när den försöker värma, eller om du inte känner dig bekväm med att arbeta med maskinens inre komponenter. Dessa symptom tyder på ett elfel som innebär en säkerhetsrisk om det hanteras felaktigt.</p>",
+      "prevention_html": "<p>De delar som oftast byts vid åtgärdande av ett Bosch E66-fel är värmeelementet, NTC-temperaturgivaren och ibland kabelstammen eller kontaktblocket som förbinder dessa komponenter med styrkortet. Att använda äkta Bosch-kompatibla delar säkerställer korrekt motstånd och temperaturklassning för din specifika modell.</p><p>För att minska risken för att E66 återkommer, kör ett månatligt underhållsprogram vid 60°C eller 90°C med ett tvättmaskinrengörings- eller avkalkningsmedel, särskilt om du bor i ett område med hårt vatten. Detta förhindrar kalkavlagringar på elementet och förlänger dess livslängd avsevärt.</p>\n<!-- SPARE_PARTS:E66 -->",
+      "faq_json": [
+        {
+          "answer": "Det rekommenderas inte. När E66 är aktiv fungerar inte värmekretsen korrekt, vilket innebär att tvätten tvättas i kallt vatten och kanske inte rengörs eller desinficeras ordentligt. Viktigare är att ett kortslutande värmeelement kan utgöra en elektrisk risk, så det är bäst att diagnostisera och åtgärda felet innan du fortsätter använda maskinen.",
+          "question": "Kan jag fortsätta använda min Bosch tvättmaskin när den visar E66?"
+        },
+        {
+          "answer": "Ett ersättningsvärmeelement till en Bosch tvättmaskin kostar vanligtvis mellan 150 och 450 kronor för delen, beroende på modell. Om du monterar det själv är totalkostnaden bara delen. En servicetekniker tillkommer med utryckning och montering, vilket vanligtvis ger en totalkostnad på 800–1 500 kronor beroende på din plats och teknikerns priser.",
+          "question": "Hur mycket kostar det att byta värmeelement i en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Ibland kan en tillfällig givarfelläsning orsaka att E66 visas och sedan försvinner efter en omstart. Men om felet återkommer konsekvent vid samma del av cykeln är felet äkta och löser sig inte av sig självt. Att fortsätta köra maskinen utan att undersöka orsaken riskerar ytterligare skador på styrkortet eller kablaget.",
+          "question": "Försvinner E66 av sig självt när maskinen svalnar?"
+        },
+        {
+          "answer": "Det mest tillförlitliga sättet är att testa båda komponenterna med en multimeter enligt den stegvisa guiden ovan. Ett värmeelement med oändligt eller noll motstånd är defekt. En NTC-givare som läser långt utanför intervallet 6 000–10 000 Ohm vid rumstemperatur är felaktig. Att testa båda tar ungefär 20 minuter och pekar ut vilken del som behöver bytas.",
+          "question": "Hur vet jag om det är värmeelementet eller NTC-givaren som orsakar E66?"
+        },
+        {
+          "answer": "E66-koden relaterar konsekvent till värmekretsen i Boschs tvättmaskinssortiment, men den exakta komponenten som utlöser den och dess exakta placering kan variera mellan modeller. Kontrollera alltid din specifika modellbeteckning mot teknisk dokumentation eller en reservdelsritning innan du beställer ersättningskomponenter, eftersom elementstorlekarna och givartyper skiljer sig åt.",
+          "question": "Är E66 samma fel på alla Bosch tvättmaskinmodeller?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:25:18.017072+00:00"
+    },
+    {
+      "article_id": 194,
+      "locale": "en",
+      "slug": "error-code-e67",
+      "title_tag": "Bosch Washing Machine Error Code E67 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E67? Learn what causes this heating circuit fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code E67 Mean on a Bosch Washing Machine?",
+      "description": "Error code E67 on a Bosch washing machine indicates a fault in the heating circuit, typically involving the heating element, NTC temperature sensor, or the wiring connecting them to the control board.",
+      "quick_fix": "Check and clean the filter, then inspect the heating element connections — unplug the machine, remove the back or front panel to access the heater wiring, reseat any loose connectors, and restart a wash cycle to see if E67 clears (takes about 15–20 minutes).",
+      "intro_html": "<p>Error code E67 on a Bosch washing machine points to a problem within the heating circuit. This circuit is responsible for raising the water temperature to the level you select on the dial or display. When the machine's control board detects that the heating system is not behaving as expected — whether the water isn't warming up, the temperature reading is implausible, or the heater is drawing the wrong amount of current — it logs E67 and typically halts the programme.</p><p>In practice, you may notice the machine pausing mid-cycle, refusing to progress past the wash phase, or completing a cycle but leaving clothes washed in cold water. Some models will display E67 immediately at the start of a heated programme, while others only trigger it after several minutes once the control board has had time to assess the heater's performance.</p><p>The fault can originate from the heating element itself, the NTC temperature sensor that monitors water temperature, the wiring between these components, or in less common cases, the main control board. Most of these causes are diagnosable at home with basic tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty or failed heating element",
+          "detail": "The heating element is the most common root cause of E67. Over time, elements can burn out, develop internal breaks, or short to the drum casing, causing the control board to detect an abnormal circuit reading and shut down heating."
+        },
+        {
+          "cause": "Defective NTC temperature sensor",
+          "detail": "The NTC (negative temperature coefficient) sensor monitors water temperature and feeds that data to the control board. If the sensor fails or drifts out of its calibrated range, the board cannot confirm that heating is working correctly and raises E67."
+        },
+        {
+          "cause": "Loose or corroded wiring connections",
+          "detail": "The connectors linking the heating element and NTC sensor to the control board can work loose through vibration over time, or corrode in the damp environment inside the machine. A poor connection produces erratic resistance readings that trigger the fault."
+        },
+        {
+          "cause": "Limescale build-up on the heating element",
+          "detail": "In hard-water areas, limescale deposits coat the heating element, reducing its efficiency and causing it to overheat locally. This can lead to premature element failure or cause the control board to detect abnormal heating behaviour."
+        },
+        {
+          "cause": "Wiring harness damage",
+          "detail": "The wiring harness running between the heater assembly and the PCB can be pinched, chafed, or damaged during a previous repair. Even a partial break in a wire can cause intermittent E67 faults that are difficult to reproduce consistently."
+        },
+        {
+          "cause": "Main control board (PCB) fault",
+          "detail": "If all heating components and wiring test correctly, the control board itself may be misreading signals from the heating circuit. PCB faults are the least common cause of E67 but should be considered once all other components have been ruled out."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains and leave it unplugged for at least 5 minutes. This allows the control board to fully reset. Plug back in, select a programme with a heated wash (e.g. 40°C cotton), and observe whether E67 returns. If the fault clears and does not come back, it may have been a temporary control board glitch."
+        },
+        {
+          "step": 2,
+          "action": "Check the drum for cold water after a heated cycle",
+          "detail": "Run a short 40°C or 60°C programme and carefully feel the door glass partway through the wash phase — it should become noticeably warm within 10–15 minutes. If the glass stays cold, the heating element is almost certainly not activating, which confirms the fault is real rather than a sensor misread."
+        },
+        {
+          "step": 3,
+          "action": "Inspect and reseat the heater wiring connectors",
+          "detail": "Unplug the machine from the mains. Remove the back panel (usually held by two or three screws at the top and sides). Locate the heating element — it sits at the bottom of the drum, identifiable by its two or three spade connectors. Disconnect each connector, check for corrosion or burn marks, and firmly push them back on. Also check the smaller connector for the NTC sensor, which is usually clipped to the element body."
+        },
+        {
+          "step": 4,
+          "action": "Test the NTC temperature sensor with a multimeter",
+          "detail": "With the machine unplugged, disconnect the NTC sensor connector and set your multimeter to resistance (Ohms). At room temperature (around 20°C), a healthy NTC sensor typically reads between 4,000 and 6,000 Ohms — check your model's service data if available. A reading of zero, infinity, or wildly outside this range indicates a faulty sensor that needs replacing."
+        },
+        {
+          "step": 5,
+          "action": "Test the heating element with a multimeter",
+          "detail": "With the machine still unplugged, disconnect both spade connectors from the heating element terminals. Set your multimeter to resistance and place the probes on the two main terminals. A working element typically reads between 20 and 30 Ohms. A reading of infinity (open circuit) means the element has failed. Also test between each terminal and the machine's metal chassis — any reading other than infinity here indicates the element is shorting to earth and must be replaced."
+        },
+        {
+          "step": 6,
+          "action": "Descale the heating element if limescale is visible",
+          "detail": "If the element tests within range but shows heavy white or grey deposits, run a dedicated washing machine descaler product according to its instructions — typically on a hot empty cycle. In severe cases, the element may need to be removed and soaked in a diluted citric acid solution. Avoid using vinegar directly in the drum as it can damage rubber seals over time."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the wiring harness for damage",
+          "detail": "Trace the wiring from the heater assembly back towards the control board, looking for any sections where the insulation is chafed, pinched against the drum, or shows signs of heat damage. Repair any damaged sections with appropriate heat-resistant electrical tape or replace the affected section of harness. If the harness appears intact and all components test correctly, the control board should be assessed by a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested both the heating element and the NTC sensor with a multimeter and both return readings within the expected range, yet E67 continues to appear, the fault is likely within the main control board or a section of the wiring harness that is difficult to access safely. PCB diagnosis and replacement require specialist equipment and knowledge of live circuit testing that goes beyond safe DIY territory.</p><p>You should also call a service technician if you find that the heating element is shorting to earth, as this presents a genuine electrical safety risk. Similarly, if you notice burn marks, melted plastic, or a burning smell near the heater assembly, stop using the machine immediately and arrange a professional inspection before running it again.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch E67 fault are the heating element, the NTC temperature sensor, and — less frequently — the main control board (PCB). Having the correct part reference for your specific model before ordering is important, as element dimensions and sensor specifications vary across the Bosch washing machine range. Check the model number on the door frame label before searching.</p><p>To reduce the likelihood of E67 recurring, use a washing machine descaler every three to six months if you live in a hard-water area, and always use the correct amount of detergent to prevent residue build-up around the heater. Running a monthly maintenance wash at 60°C or 90°C also helps keep the heating circuit working efficiently.</p>\n<!-- SPARE_PARTS:E67 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to continue using the machine normally. When E67 is active, the heating circuit is not functioning correctly, which means your laundry will be washed in cold water regardless of the temperature you select. More importantly, a shorted heating element can pose an electrical safety risk, so it is best to diagnose and resolve the fault before running further cycles.",
+          "question": "Can I still use my Bosch washing machine while it shows E67?"
+        },
+        {
+          "answer": "A replacement heating element for a Bosch washing machine typically costs between £20 and £50 for the part, depending on the model. If you are comfortable doing the replacement yourself, that is the only cost involved. A service technician call-out and fitting will add labour charges on top, which vary by region but commonly range from £60 to £120.",
+          "question": "How much does it cost to replace a Bosch washing machine heating element?"
+        },
+        {
+          "answer": "A power surge can occasionally cause the control board to log a spurious fault code, including E67. This is why a full power cycle — unplugging for at least 5 minutes — is always the first step. If E67 disappears after a reset and does not return, a transient electrical event was likely the cause rather than a failed component.",
+          "question": "Could a power surge cause error code E67?"
+        },
+        {
+          "answer": "The model number on a Bosch washing machine is printed on a label inside the door frame — open the door and look around the inner rim of the appliance body. The label shows the model number (E-Nr) and serial number (FD). You will need the E-Nr to order the correct replacement heating element or NTC sensor for your specific machine.",
+          "question": "How do I find the model number on my Bosch washing machine?"
+        },
+        {
+          "answer": "No — these are distinct fault codes. E17 and E18 on Bosch washing machines relate to water intake and filling issues, whereas E67 is specifically a heating circuit fault. The troubleshooting steps and replacement parts involved are different for each code, so it is important to confirm which code your machine is displaying before beginning any diagnosis.",
+          "question": "Is E67 the same fault as E17 or E18 on Bosch machines?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:26:14.948606+00:00"
+    },
+    {
+      "article_id": 194,
+      "locale": "sv",
+      "slug": "felkod-e67",
+      "title_tag": "Bosch tvättmaskin felkod E67 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E67? Lär dig vad som orsakar detta fel i värmekretsen och hur du åtgärdar det själv innan du kontaktar en servicetekniker.",
+      "h1": "Vad betyder felkod E67 på en Bosch tvättmaskin?",
+      "description": "Felkod E67 på en Bosch tvättmaskin indikerar ett fel i värmekretsen, vanligtvis kopplat till värmeelement, NTC-temperatursensor eller kablaget som förbinder dessa med styrkortet.",
+      "quick_fix": "Kontrollera och rengör filtret, inspektera sedan anslutningarna till värmeelementet — koppla ur maskinen, ta bort bak- eller frontpanelen för att komma åt kablaget till värmaren, sätt tillbaka lösa kontakter och starta ett tvättprogram för att se om E67 försvinner (tar ungefär 15–20 minuter).",
+      "intro_html": "<p>Felkod E67 på en Bosch tvättmaskin pekar på ett problem i värmekretsen. Denna krets ansvarar för att höja vattentemperaturen till den nivå du väljer på ratten eller displayen. När maskinens styrkort upptäcker att värmesystemet inte fungerar som förväntat — oavsett om vattnet inte värms upp, temperaturavläsningen är orimlig eller värmaren drar fel mängd ström — registreras E67 och programmet avbryts vanligtvis.</p><p>I praktiken kan du märka att maskinen pausar mitt i ett program, vägrar att gå vidare från tvättfasen, eller slutför ett program men lämnar kläderna tvättade i kallt vatten. Vissa modeller visar E67 omedelbart vid start av ett uppvärmt program, medan andra triggar det först efter några minuter när styrkortet har haft tid att bedöma värmarens prestanda.</p><p>Felet kan uppstå från själva värmeelementet, NTC-temperatursensorn som övervakar vattentemperaturen, kablaget mellan dessa komponenter, eller i mindre vanliga fall, huvudstyrkortet. De flesta av dessa orsaker kan diagnostiseras hemma med grundläggande verktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt eller trasigt värmeelement",
+          "detail": "Värmeelementet är den vanligaste grundorsaken till E67. Med tiden kan element brinna ut, utveckla interna brott eller kortsluta mot trumhöljet, vilket gör att styrkortet upptäcker en onormal kretsavläsning och stänger av uppvärmningen."
+        },
+        {
+          "cause": "Defekt NTC-temperatursensor",
+          "detail": "NTC-sensorn (negativ temperaturkoefficient) övervakar vattentemperaturen och skickar dessa data till styrkortet. Om sensorn slutar fungera eller avviker från sitt kalibrerade område kan kortet inte bekräfta att uppvärmningen fungerar korrekt och genererar E67."
+        },
+        {
+          "cause": "Lösa eller korroderade kabelanslutningar",
+          "detail": "Kontakterna som förbinder värmeelementet och NTC-sensorn med styrkortet kan lossna på grund av vibrationer över tid, eller korrodera i den fuktiga miljön inuti maskinen. En dålig anslutning ger oregelbundna motståndsavläsningar som utlöser felet."
+        },
+        {
+          "cause": "Kalkavlagringar på värmeelementet",
+          "detail": "I områden med hårt vatten täcks värmeelementet av kalkavlagringar, vilket minskar dess effektivitet och orsakar lokal överhettning. Detta kan leda till för tidig elementhaveri eller göra att styrkortet upptäcker onormalt värmebeteende."
+        },
+        {
+          "cause": "Skada på kabelstammen",
+          "detail": "Kabelstammen som löper mellan värmarenhetens och kretskortet kan ha blivit klämd, nött eller skadad vid en tidigare reparation. Även ett partiellt brott i en kabel kan orsaka intermittenta E67-fel som är svåra att reproducera konsekvent."
+        },
+        {
+          "cause": "Fel på huvudstyrkortet (PCB)",
+          "detail": "Om alla värmekomponenter och kablar testar korrekt kan styrkortet självt feltolka signaler från värmekretsen. PCB-fel är den minst vanliga orsaken till E67 men bör övervägas när alla andra komponenter har uteslutits."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid eluttaget och låt den vara urkopplad i minst 5 minuter. Detta gör att styrkortet kan återställas helt. Anslut igen, välj ett program med uppvärmd tvätt (t.ex. 40°C bomull) och observera om E67 återkommer. Om felet försvinner och inte återkommer kan det ha varit ett tillfälligt styrkortsproblem."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera om trumman innehåller kallt vatten efter ett uppvärmt program",
+          "detail": "Kör ett kort 40°C- eller 60°C-program och känn försiktigt på dörrglasset under tvättfasen — det bör bli märkbart varmt inom 10–15 minuter. Om glaset förblir kallt aktiveras värmeelementet nästan säkert inte, vilket bekräftar att felet är verkligt snarare än en felaktig sensoravläsning."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera och sätt tillbaka kabelkontakterna till värmaren",
+          "detail": "Koppla ur maskinen från eluttaget. Ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar upptill och på sidorna). Lokalisera värmeelementet — det sitter längst ner på trumman och känns igen på sina två eller tre flatstiftskontakter. Koppla loss varje kontakt, kontrollera om det finns korrosion eller brännmärken och tryck sedan tillbaka dem ordentligt. Kontrollera även den mindre kontakten för NTC-sensorn, som vanligtvis är klippt fast på elementkroppen."
+        },
+        {
+          "step": 4,
+          "action": "Testa NTC-temperatursensorn med en multimeter",
+          "detail": "Med maskinen urkopplad, koppla loss NTC-sensorkontakten och ställ in multimetern på motstånd (Ohm). Vid rumstemperatur (cirka 20°C) läser en frisk NTC-sensor vanligtvis mellan 4 000 och 6 000 Ohm — kontrollera din modells servicedata om tillgänglig. En avläsning på noll, oändlighet eller långt utanför detta intervall indikerar en defekt sensor som behöver bytas."
+        },
+        {
+          "step": 5,
+          "action": "Testa värmeelementet med en multimeter",
+          "detail": "Med maskinen fortfarande urkopplad, koppla loss båda flatstiftskontakterna från värmeelementets terminaler. Ställ in multimetern på motstånd och placera proberna på de två huvudterminalerna. Ett fungerande element läser vanligtvis mellan 20 och 30 Ohm. En avläsning på oändlighet (öppen krets) innebär att elementet har gått sönder. Testa även mellan varje terminal och maskinens metallram — en avläsning som inte är oändlighet här indikerar att elementet kortsluter mot jord och måste bytas."
+        },
+        {
+          "step": 6,
+          "action": "Avkalka värmeelementet om kalkavlagringar är synliga",
+          "detail": "Om elementet testar inom rätt intervall men visar kraftiga vita eller grå avlagringar, kör ett dedikerat avkalkningsmedel för tvättmaskiner enligt dess instruktioner — vanligtvis på ett varmt tomt program. I allvarliga fall kan elementet behöva tas bort och blötläggas i en utspädd citronsyralösning. Undvik att använda vinäger direkt i trumman eftersom det kan skada gummitätningarna över tid."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera kabelstammen för skador",
+          "detail": "Följ kablaget från värmarenheten tillbaka mot styrkortet och leta efter avsnitt där isoleringen är nött, klämd mot trumman eller visar tecken på värmeskada. Reparera skadade avsnitt med lämplig värmebeständig eltejp eller byt ut det berörda avsnittet av kabelstammen. Om kabelstammen verkar intakt och alla komponenter testar korrekt bör styrkortet bedömas av en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat både värmeelementet och NTC-sensorn med en multimeter och båda ger avläsningar inom det förväntade intervallet, men E67 fortsätter att visas, är felet troligen i huvudstyrkortet eller i ett avsnitt av kabelstammen som är svårt att komma åt på ett säkert sätt. PCB-diagnostik och -byte kräver specialutrustning och kunskap om spänningssatt kretsprovning som går utöver säker DIY-nivå.</p><p>Du bör också kontakta en servicetekniker om du upptäcker att värmeelementet kortsluter mot jord, eftersom detta utgör en verklig elektrisk säkerhetsrisk. På samma sätt, om du märker brännmärken, smält plast eller en bränd lukt nära värmarenheten, sluta använda maskinen omedelbart och boka en professionell inspektion innan du kör den igen.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett Bosch E67-fel är värmeelementet, NTC-temperatursensorn och — mer sällan — huvudstyrkortet (PCB). Det är viktigt att ha rätt delnummer för din specifika modell innan du beställer, eftersom elementdimensioner och sensorspecifikationer varierar inom Bosch tvättmaskinssortimentet. Kontrollera modellnumret på etiketten i dörrkanten innan du söker.</p><p>För att minska risken för att E67 återkommer, använd ett avkalkningsmedel för tvättmaskiner var tredje till sjätte månad om du bor i ett område med hårt vatten, och använd alltid rätt mängd tvättmedel för att förhindra att rester samlas runt värmaren. Att köra ett månatligt underhållsprogram vid 60°C eller 90°C hjälper också till att hålla värmekretsen i effektivt skick.</p>\n<!-- SPARE_PARTS:E67 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt att fortsätta använda maskinen normalt. När E67 är aktivt fungerar inte värmekretsen korrekt, vilket innebär att din tvätt tvättas i kallt vatten oavsett vilken temperatur du väljer. Viktigare är att ett kortslutande värmeelement kan utgöra en elektrisk säkerhetsrisk, så det är bäst att diagnostisera och åtgärda felet innan du kör fler program.",
+          "question": "Kan jag fortsätta använda min Bosch tvättmaskin när den visar E67?"
+        },
+        {
+          "answer": "Ett ersättningsvärmeelement till en Bosch tvättmaskin kostar vanligtvis mellan 200 och 500 kronor för delen, beroende på modell. Om du är bekväm med att göra bytet själv är det den enda kostnaden. En servicetekniker med utryckning och montering tillkommer med arbetskostnader utöver detta, vilket varierar beroende på region men vanligtvis ligger mellan 600 och 1 200 kronor.",
+          "question": "Hur mycket kostar det att byta värmeelement i en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Ett strömavbrott kan ibland göra att styrkortet registrerar en tillfällig felkod, inklusive E67. Det är därför en fullständig omstart — att koppla ur maskinen i minst 5 minuter — alltid är det första steget. Om E67 försvinner efter en återställning och inte återkommer var troligen en tillfällig elektrisk händelse orsaken snarare än en defekt komponent.",
+          "question": "Kan ett strömavbrott orsaka felkod E67?"
+        },
+        {
+          "answer": "Modellnumret på en Bosch tvättmaskin finns tryckt på en etikett inuti dörrkanten — öppna luckan och titta runt den inre kanten på maskinkroppen. Etiketten visar modellnumret (E-Nr) och serienumret (FD). Du behöver E-Nr för att beställa rätt ersättningsvärmeelement eller NTC-sensor till din specifika maskin.",
+          "question": "Hur hittar jag modellnumret på min Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Nej — dessa är distinkta felkoder. E17 och E18 på Bosch tvättmaskiner är relaterade till vattenintag och fyllningsproblem, medan E67 specifikt är ett värmekretsproblem. Felsökningsstegen och de berörda reservdelarna skiljer sig åt för varje kod, så det är viktigt att bekräfta vilken kod din maskin visar innan du påbörjar någon diagnostik.",
+          "question": "Är E67 samma fel som E17 eller E18 på Bosch-maskiner?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:27:30.468216+00:00"
+    },
+    {
+      "article_id": 195,
+      "locale": "en",
+      "slug": "error-code-e68",
+      "title_tag": "Bosch Washing Machine Error Code E68 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E68? Learn what causes this heating fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E68 Mean on a Bosch Washing Machine?",
+      "description": "Error code E68 on a Bosch washing machine indicates a fault in the heating circuit, typically involving the heating element, temperature sensor (NTC), or the wiring connecting these components.",
+      "quick_fix": "Check and clean the filter, then inspect the heating element connections — unplug the machine, remove the back panel, and reseat any loose wiring connectors on the heating element and NTC sensor; this resolves a significant proportion of E68 faults (takes about 15 minutes).",
+      "intro_html": "<p>Error code E68 points to a problem in your Bosch washing machine's heating circuit. This circuit is responsible for raising the water temperature to the level you've selected on the programme dial. When the machine detects that heating is not behaving as expected — whether the water isn't reaching the right temperature or the sensor is sending back an out-of-range reading — it stops the cycle and displays E68.</p><p>When this error appears, the wash cycle will typically pause or fail to complete, and the machine may lock the door until the fault is cleared. You might also notice that your laundry comes out cold even on a hot wash setting, or that the cycle runs for an unusually long time before stopping.</p><p>The good news is that several of the most common causes behind E68 are accessible to a careful homeowner with basic tools. Working through the steps below in order will help you identify whether this is a simple fix or something that needs professional attention.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty or loose wiring connections to the heating element",
+          "detail": "Vibration from regular use can loosen the electrical connectors that attach to the heating element terminals. A poor connection causes the heating circuit to behave erratically, triggering E68."
+        },
+        {
+          "cause": "Failed or degraded heating element",
+          "detail": "Over time, the heating element can burn out or develop a partial fault where it no longer heats efficiently. This is one of the most common hardware failures in washing machines and will prevent the water from reaching the set temperature."
+        },
+        {
+          "cause": "Defective NTC temperature sensor",
+          "detail": "The NTC (Negative Temperature Coefficient) sensor monitors water temperature and reports back to the control board. If it fails or drifts out of calibration, the machine receives incorrect temperature readings and raises the E68 fault."
+        },
+        {
+          "cause": "Damaged wiring harness between the control board and heating components",
+          "detail": "The wiring loom running from the main PCB to the heating element and sensor can suffer from chafing, heat damage, or corrosion. Even a single broken wire in this harness is enough to trigger a heating circuit fault."
+        },
+        {
+          "cause": "Main control board (PCB) fault",
+          "detail": "In less common cases, the PCB itself may be misreading signals from the heating circuit or failing to send the correct voltage to the element. This is usually only suspected after all other components have been checked and found to be in good condition."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains and unplug it. Wait at least 10 minutes to allow any residual charge to dissipate, then plug it back in and run a short hot wash cycle. Occasionally a transient electrical spike can trigger E68, and a full power reset clears it without any further action needed."
+        },
+        {
+          "step": 2,
+          "action": "Check the selected wash programme",
+          "detail": "Make sure you haven't accidentally selected a cold wash or a delicate programme that limits heating. Some Bosch models will flag a heating-related code if the programme settings conflict with internal parameters. Select a standard 40°C or 60°C cotton cycle and try again."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the heating element wiring connections",
+          "detail": "Unplug the machine and pull it away from the wall. Remove the rear panel (usually held by two or three screws). Locate the heating element at the bottom of the drum — it has two or more spade connectors attached to it. Press each connector firmly onto its terminal to ensure a solid contact. Refit the panel, plug in, and test."
+        },
+        {
+          "step": 4,
+          "action": "Test the NTC temperature sensor",
+          "detail": "With the machine unplugged and the rear panel removed, locate the NTC sensor — it is typically clipped into the heating element body or mounted nearby on the drum casing. Disconnect its plug and use a multimeter set to resistance (Ohms) to test it. At room temperature, a healthy NTC sensor typically reads between 4,000 and 10,000 Ohms depending on the model. A reading of zero or infinity suggests the sensor has failed and needs replacing."
+        },
+        {
+          "step": 5,
+          "action": "Test the heating element for continuity",
+          "detail": "With the machine still unplugged and the rear panel off, disconnect both spade connectors from the heating element. Set your multimeter to continuity or resistance mode and touch the probes to the two terminals. A working element typically reads between 20 and 50 Ohms. No continuity (open circuit) means the element has burned out and must be replaced. Also test between each terminal and the metal casing — any reading here indicates an earth fault."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the wiring harness for visible damage",
+          "detail": "Trace the wiring from the heating element and NTC sensor back towards the control board. Look for any wires that are pinched, melted, corroded, or have cracked insulation. Pay particular attention to areas where the harness passes through metal panels, as chafing is common here. Damaged sections of wire should be repaired or the harness replaced."
+        },
+        {
+          "step": 7,
+          "action": "Reset the error and run a test cycle",
+          "detail": "After completing any repairs or replacements, refit all panels, plug the machine back in, and run a full 60°C cotton cycle to confirm the fault has cleared. If E68 returns after replacing both the element and the NTC sensor, the fault is likely within the control board itself."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested and replaced both the heating element and the NTC temperature sensor and the E68 code continues to appear, the fault most likely lies within the main control board (PCB). PCB diagnosis and replacement requires specialist equipment and a good understanding of circuit behaviour — this is not a straightforward DIY repair and carries a risk of further damage if handled incorrectly.</p><p>You should also contact a service technician if you find burnt or melted wiring inside the machine, if you detect any burning smell during operation, or if the machine trips your household circuit breaker when it attempts to heat. These symptoms suggest an electrical fault that needs professional assessment before the machine is used again.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a Bosch E68 fault are the heating element, the NTC temperature sensor, and — less frequently — the wiring harness or control board. Keeping a note of your machine's model number (found on the label inside the door frame) will help you find the correct compatible parts quickly.</p><p>To reduce the likelihood of heating faults recurring, descale your machine every three to six months using a proprietary washing machine descaler, particularly if you live in a hard water area. Limescale builds up on the heating element over time, causing it to overheat and fail prematurely. Running a monthly maintenance wash at 60°C or 90°C also helps keep the heating circuit working efficiently.</p>\n<!-- SPARE_PARTS:E68 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to continue using the machine with an active E68 fault. If the heating element has developed an earth fault, running the machine could pose an electrical safety risk. It is best to investigate and resolve the fault before using the appliance again.",
+          "question": "Can I still use my Bosch washing machine while it shows E68?"
+        },
+        {
+          "answer": "On most Bosch models, the error code clears automatically once the underlying fault is resolved and the machine completes a successful cycle. If the code persists after your repair, try switching the machine off at the mains for 10 minutes and then running a fresh cycle. Consult your model's manual if the code remains, as some models require a specific reset sequence.",
+          "question": "How do I clear the E68 error code after fixing the fault?"
+        },
+        {
+          "answer": "A replacement heating element for a Bosch washing machine typically costs between £20 and £50 for the part itself, depending on the model. If you are comfortable doing the replacement yourself, that is the only cost. A service technician call-out to supply and fit the part will usually add £60 to £120 in labour, varying by region.",
+          "question": "How much does it typically cost to replace a Bosch washing machine heating element?"
+        },
+        {
+          "answer": "A blocked pump filter does not directly cause E68, which is specific to the heating circuit. However, a heavily soiled machine with restricted water flow can indirectly stress heating components over time. It is still good practice to clean the filter every few months as part of general maintenance.",
+          "question": "Could a blocked filter cause an E68 error?"
+        },
+        {
+          "answer": "The E68 code consistently relates to the heating circuit across Bosch washing machine ranges, but the exact component at fault and the location of parts can vary between models. Always cross-reference your specific model number when ordering replacement parts, and check your machine's manual or the Bosch support website for model-specific wiring diagrams if needed.",
+          "question": "Is E68 the same fault on all Bosch washing machine models?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:28:24.550969+00:00"
+    },
+    {
+      "article_id": 195,
+      "locale": "sv",
+      "slug": "felkod-e68",
+      "title_tag": "Bosch Tvättmaskin Felkod E68 | Åtgärda Det Nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E68? Lär dig vad som orsakar detta värmningsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod E68 på en Bosch Tvättmaskin?",
+      "description": "Felkod E68 på en Bosch tvättmaskin indikerar ett fel i värmekretsen, vanligtvis relaterat till värmeelement, temperaturgivare (NTC) eller kablaget som förbinder dessa komponenter.",
+      "quick_fix": "Kontrollera och rengör filtret, inspektera sedan anslutningarna till värmeelementet — koppla ur maskinen, ta bort bakpanelen och återanslut eventuellt lösa kabelkontakter på värmeelementet och NTC-givaren. Detta löser en betydande andel av E68-fel (tar ungefär 15 minuter).",
+      "intro_html": "<p>Felkod E68 pekar på ett problem i din Bosch tvättmaskines värmekrets. Denna krets ansvarar för att höja vattentemperaturen till den nivå du har valt på programvredet. När maskinen upptäcker att uppvärmningen inte fungerar som förväntat — antingen når vattnet inte rätt temperatur eller så skickar givaren ett värde utanför det tillåtna intervallet — avbryter den cykeln och visar E68.</p><p>När detta fel uppstår pausar tvättcykeln vanligtvis eller slutförs inte, och maskinen kan låsa luckan tills felet är åtgärdat. Du kanske också märker att tvätten kommer ut kall även vid ett varmt tvättprogram, eller att cykeln pågår ovanligt länge innan den stannar.</p><p>Den goda nyheten är att flera av de vanligaste orsakerna bakom E68 är tillgängliga för en noggrann hemmafixare med grundläggande verktyg. Genom att arbeta igenom stegen nedan i ordning kan du avgöra om detta är en enkel åtgärd eller något som kräver professionell hjälp.</p>",
+      "causes_json": [
+        {
+          "cause": "Felaktiga eller lösa kabelanslutningar till värmeelementet",
+          "detail": "Vibrationer från regelbunden användning kan lossa de elektriska kontakterna som sitter på värmeelementets anslutningsstift. En dålig anslutning gör att värmekretsen beter sig oregelbundet och utlöser E68."
+        },
+        {
+          "cause": "Defekt eller nedslitet värmeelement",
+          "detail": "Med tiden kan värmeelementet brinna ut eller utveckla ett partiellt fel där det inte längre värmer effektivt. Detta är ett av de vanligaste hårdvarufelen i tvättmaskiner och förhindrar att vattnet når den inställda temperaturen."
+        },
+        {
+          "cause": "Defekt NTC-temperaturgivare",
+          "detail": "NTC-givaren (Negative Temperature Coefficient) övervakar vattentemperaturen och rapporterar tillbaka till styrkortet. Om den slutar fungera eller driftar ur kalibrering tar maskinen emot felaktiga temperaturavläsningar och utlöser E68-felet."
+        },
+        {
+          "cause": "Skadat kabelstamme mellan styrkortet och värmekomponenterna",
+          "detail": "Kabelstammen som löper från huvud-PCB:n till värmeelementet och givaren kan skadas av nötning, värmeskador eller korrosion. Även en enda bruten ledare i detta knippe räcker för att utlösa ett värmekretslarm."
+        },
+        {
+          "cause": "Fel på huvudstyrkortet (PCB)",
+          "detail": "I mindre vanliga fall kan PCB:n själv feltolka signaler från värmekretsen eller misslyckas med att skicka rätt spänning till elementet. Detta misstänks vanligtvis först efter att alla andra komponenter har kontrollerats och befunnits vara i gott skick."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid eluttaget och dra ur kontakten. Vänta minst 10 minuter så att eventuell kvarvarande laddning kan laddas ur, anslut sedan igen och kör ett kort varmt tvättprogram. Ibland kan en tillfällig elektrisk spik utlösa E68, och en fullständig omstart rensar felet utan att ytterligare åtgärder behövs."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera det valda tvättprogram",
+          "detail": "Kontrollera att du inte av misstag har valt ett kalltvättprogram eller ett skonsamt program som begränsar uppvärmningen. Vissa Bosch-modeller visar ett värmerelaterat felkod om programinställningarna strider mot interna parametrar. Välj ett standard bomullsprogram på 40°C eller 60°C och försök igen."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera kabelanslutningarna till värmeelementet",
+          "detail": "Koppla ur maskinen och dra den från väggen. Ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar). Lokalisera värmeelementet längst ner på trumman — det har två eller fler spadeliknande kontakter anslutna till det. Tryck in varje kontakt ordentligt på sitt stift för att säkerställa god kontakt. Sätt tillbaka panelen, anslut och testa."
+        },
+        {
+          "step": 4,
+          "action": "Testa NTC-temperaturgivaren",
+          "detail": "Med maskinen urkopplad och bakpanelen borttagen, lokalisera NTC-givaren — den sitter vanligtvis fastklämd i värmeelementkroppen eller monterad i närheten på trumhöljet. Koppla loss kontakten och använd en multimeter inställd på motstånd (Ohm) för att testa den. Vid rumstemperatur läser en frisk NTC-givare vanligtvis mellan 4 000 och 10 000 Ohm beroende på modell. Ett värde på noll eller oändlighet tyder på att givaren har gått sönder och behöver bytas."
+        },
+        {
+          "step": 5,
+          "action": "Testa värmeelementet för kontinuitet",
+          "detail": "Med maskinen fortfarande urkopplad och bakpanelen borttagen, koppla loss båda spadeliknande kontakterna från värmeelementet. Ställ in multimetern på kontinuitet eller motstånd och håll mätsonderna mot de två stiften. Ett fungerande element läser vanligtvis mellan 20 och 50 Ohm. Ingen kontinuitet (öppen krets) innebär att elementet har brunnit ut och måste bytas. Testa även mellan varje stift och metallhöljet — ett utslag här indikerar ett jordfel."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera kabelstammen för synliga skador",
+          "detail": "Följ kablaget från värmeelementet och NTC-givaren tillbaka mot styrkortet. Leta efter ledningar som är klämda, smälta, korroderade eller har sprucken isolering. Var särskilt uppmärksam på ställen där kabelstammen passerar genom metallpaneler, eftersom nötning är vanligt där. Skadade kabelavsnitt bör repareras eller kabelstammen bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Återställ felet och kör ett testprogram",
+          "detail": "Efter att ha utfört eventuella reparationer eller byten, sätt tillbaka alla paneler, anslut maskinen och kör ett fullständigt bomullsprogram på 60°C för att bekräfta att felet är åtgärdat. Om E68 återkommer efter att både elementet och NTC-givaren har bytts ut, ligger felet troligtvis i styrkortet."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat och bytt ut både värmeelementet och NTC-temperaturgivaren och E68-koden fortsätter att visas, ligger felet troligtvis i huvudstyrkortet (PCB). Diagnos och byte av PCB kräver specialutrustning och god förståelse för kretsarnas beteende — detta är inte en enkel hemmareparation och medför risk för ytterligare skador om det hanteras felaktigt.</p><p>Du bör också kontakta en servicetekniker om du hittar brända eller smälta kablar inuti maskinen, om du känner en bränd lukt under drift, eller om maskinen löser ut din hushållssäkring när den försöker värma. Dessa symptom tyder på ett elfel som behöver professionell bedömning innan maskinen används igen.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett Bosch E68-fel är värmeelementet, NTC-temperaturgivaren och — mer sällan — kabelstammen eller styrkortet. Att notera maskinens modellnummer (finns på etiketten inuti lucköppningen) hjälper dig att snabbt hitta rätt kompatibla reservdelar.</p><p>För att minska risken för att värmeproblem återkommer, avkalka maskinen var tredje till sjätte månad med ett lämpligt avkalkningsmedel för tvättmaskiner, särskilt om du bor i ett område med hårt vatten. Kalkavlagringar byggs upp på värmeelementet över tid och gör att det överhettas och går sönder i förtid. Att köra ett månatligt underhållsprogram på 60°C eller 90°C hjälper också till att hålla värmekretsen i gott skick.</p>\n<!-- SPARE_PARTS:E68 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte lämpligt att fortsätta använda maskinen med ett aktivt E68-fel. Om värmeelementet har utvecklat ett jordfel kan det innebära en elektrisk säkerhetsrisk att köra maskinen. Det är bäst att undersöka och åtgärda felet innan apparaten används igen.",
+          "question": "Kan jag fortsätta använda min Bosch tvättmaskin när den visar E68?"
+        },
+        {
+          "answer": "På de flesta Bosch-modeller rensas felkoden automatiskt när det underliggande felet är löst och maskinen slutför en lyckad cykel. Om koden kvarstår efter din reparation, prova att stänga av maskinen vid eluttaget i 10 minuter och sedan köra ett nytt program. Konsultera din modells manual om koden kvarstår, eftersom vissa modeller kräver en specifik återställningssekvens.",
+          "question": "Hur rensar jag E68-felkoden efter att ha åtgärdat felet?"
+        },
+        {
+          "answer": "Ett ersättningsvärmeelement till en Bosch tvättmaskin kostar vanligtvis mellan 250 och 600 kronor för själva delen, beroende på modell. Om du är bekväm med att utföra bytet själv är det den enda kostnaden. En servicetekniker som levererar och monterar delen tillkommer vanligtvis med 700 till 1 400 kronor i arbetskostnad, beroende på region.",
+          "question": "Vad kostar det vanligtvis att byta värmeelement i en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Ett igensatt pumpfilter orsakar inte direkt E68, som är specifikt för värmekretsen. Däremot kan en kraftigt smutsig maskin med begränsat vattenflöde indirekt belasta värmekomponenterna över tid. Det är ändå god praxis att rengöra filtret var tredje månad som en del av det allmänna underhållet.",
+          "question": "Kan ett igensatt filter orsaka ett E68-fel?"
+        },
+        {
+          "answer": "E68-koden avser konsekvent värmekretsen i Bosch tvättmaskiners sortiment, men den exakta felkomponenten och placeringen av delar kan variera mellan modeller. Kontrollera alltid ditt specifika modellnummer när du beställer reservdelar, och kontrollera maskinens manual eller Bosch supportwebbplats för modellspecifika kopplingsscheman vid behov.",
+          "question": "Är E68 samma fel på alla Bosch tvättmaskinmodeller?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:29:34.678168+00:00"
+    },
+    {
+      "article_id": 196,
+      "locale": "en",
+      "slug": "error-code-e69",
+      "title_tag": "Bosch Washing Machine Error Code E69 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E69? Learn what causes this heating circuit fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code E69 Mean on a Bosch Washing Machine?",
+      "description": "Error code E69 on a Bosch washing machine indicates a fault in the heating circuit, typically involving the heating element, NTC temperature sensor, or the wiring connecting these components.",
+      "quick_fix": "Check that the machine is not overloaded and run a short 30°C cycle to see if the error clears — if the drum was packed too tightly, reduced water circulation can trigger a false heating fault (takes about 10 minutes).",
+      "intro_html": "<p>Error code E69 points to a problem in your Bosch washing machine's heating circuit. This circuit is responsible for warming the water to the temperature you select, and when the machine's control board detects an abnormal reading — either too high, too low, or no signal at all — it stops the programme and displays E69 to prevent damage or a safety hazard.</p><p>When this error appears, the wash cycle will typically pause or fail to progress past the heating phase. You may notice the water stays cold, or the machine simply stops mid-cycle. In some cases the drum continues to turn but no heat is produced, and the programme eventually times out.</p><p>The fault can stem from a failed heating element, a faulty NTC temperature sensor, damaged wiring, or in less common cases, a problem with the main control board. Many of these causes are straightforward to investigate before involving a service technician.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty NTC temperature sensor",
+          "detail": "The NTC (Negative Temperature Coefficient) sensor monitors water temperature and feeds readings back to the control board. If it fails or drifts out of range, the board interprets this as a heating circuit fault and triggers E69."
+        },
+        {
+          "cause": "Failed or burnt-out heating element",
+          "detail": "The heating element is the component that physically heats the water. Over time, limescale build-up or electrical stress can cause it to fail, resulting in no heat being produced and the control board logging an E69 fault."
+        },
+        {
+          "cause": "Limescale build-up on the heating element",
+          "detail": "In hard water areas, limescale can coat the heating element heavily enough to impair its efficiency or cause it to overheat and cut out. This is one of the more gradual causes and often develops over several years of use."
+        },
+        {
+          "cause": "Damaged or loose wiring to the heating circuit",
+          "detail": "The wiring harness connecting the heating element and sensor to the control board can develop loose connections, corrosion, or breaks — particularly after years of vibration during spin cycles. A poor connection can mimic a component failure."
+        },
+        {
+          "cause": "Overloaded drum restricting water circulation",
+          "detail": "An excessively full drum can prevent water from circulating properly around the heating element, causing localised overheating or an inaccurate temperature reading. This can trigger a temporary E69 fault that clears once the load is reduced."
+        },
+        {
+          "cause": "Main control board fault",
+          "detail": "If the control board itself is unable to correctly send or receive signals to the heating circuit, it may log E69 even when the element and sensor are in good condition. This is the least common cause and is usually only confirmed after other components have been ruled out."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reset the machine",
+          "detail": "Switch the washing machine off at the mains and leave it unplugged for at least 5 minutes. This allows the control board to fully discharge and can clear a temporary or spurious fault code. Plug back in, select a 30°C or 40°C programme, and observe whether E69 returns."
+        },
+        {
+          "step": 2,
+          "action": "Reduce the load and retest",
+          "detail": "Remove some laundry so the drum is no more than three-quarters full. Restart the cycle and monitor whether the machine progresses through the heating phase. An overloaded drum is a quick and easy thing to rule out before investigating internal components."
+        },
+        {
+          "step": 3,
+          "action": "Run a descaling cycle",
+          "detail": "If you live in a hard water area and have not descaled the machine recently, run an empty hot cycle (60°C or above) with a proprietary washing machine descaler. Heavy limescale on the heating element can cause it to overheat and trigger E69. Allow the machine to cool fully before retesting."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the wiring connections to the heating element and sensor",
+          "detail": "With the machine unplugged and the back panel removed (refer to your model's service diagram), visually inspect the wiring connectors at the heating element and NTC sensor. Look for burnt, corroded, or loose terminals. Gently press each connector firmly back into place and retest. Do not proceed with this step if you are not comfortable working inside the appliance."
+        },
+        {
+          "step": 5,
+          "action": "Test the NTC temperature sensor",
+          "detail": "Using a multimeter set to resistance (Ohms), disconnect the NTC sensor and measure its resistance at room temperature. A healthy NTC sensor on most Bosch machines reads approximately 10,000–12,000 Ohms at 20°C. A reading significantly outside this range, or an open circuit, confirms the sensor needs replacing."
+        },
+        {
+          "step": 6,
+          "action": "Test the heating element for continuity",
+          "detail": "With the machine unplugged, disconnect the heating element terminals and use a multimeter to check for continuity across the element. A healthy element should show a resistance of roughly 20–30 Ohms. An open circuit (no continuity) or a reading close to zero (short circuit) means the element has failed and needs to be replaced."
+        },
+        {
+          "step": 7,
+          "action": "Replace the faulty component and retest",
+          "detail": "Once you have identified the failed part — most commonly the NTC sensor or heating element — fit the correct replacement part for your specific Bosch model. Reassemble the machine, restore power, and run a full 40°C cycle to confirm the E69 error has cleared and the machine heats correctly."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have tested both the NTC sensor and the heating element with a multimeter and both components appear to be within normal range, the fault may lie with the main control board or a deeper wiring issue that is not visible on inspection. These are not straightforward DIY repairs and require specialist diagnostic equipment to confirm.</p><p>You should also contact a service technician if you notice any signs of burning, melted plastic, or a burning smell near the heating circuit, or if the machine trips your household circuit breaker when it attempts to heat. These symptoms suggest an electrical fault that should not be investigated without professional training.</p>",
+      "prevention_html": "<p>The components most commonly replaced when resolving an E69 fault are the NTC temperature sensor, the heating element, and the wiring harness or individual connectors to the heating circuit. Using genuine Bosch-compatible parts ensures the correct resistance and temperature ratings for your specific model, which matters for both performance and safety.</p><p>To reduce the likelihood of E69 recurring, descale your machine every 3–6 months if you live in a hard water area, avoid consistently overloading the drum, and use the correct amount of detergent to prevent residue build-up around the element. These habits significantly extend the life of the heating components.</p>\n<!-- SPARE_PARTS:E69 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to continue using the machine with an active E69 fault. Without a functioning heating circuit, your laundry will not be washed at the correct temperature, and in some cases the machine may stop mid-cycle and leave clothes sitting in water. Continuing to run the machine could also put additional stress on the control board.",
+          "question": "Can I still use my Bosch washing machine while it shows E69?"
+        },
+        {
+          "answer": "The most reliable way is to test both components with a multimeter. The NTC sensor should show a resistance of around 10,000–12,000 Ohms at room temperature, while the heating element should show continuity with a resistance of roughly 20–30 Ohms. Whichever component falls outside its expected range is the likely culprit.",
+          "question": "How do I know if it's the sensor or the heating element that has failed?"
+        },
+        {
+          "answer": "On Bosch washing machines, E69 is specifically associated with the heating circuit. However, the root cause can vary — it may be the element, the sensor, the wiring, or in rare cases the control board. It is worth working through the diagnostic steps systematically rather than assuming the most expensive component has failed.",
+          "question": "Is E69 always a heating fault, or could it be something else?"
+        },
+        {
+          "answer": "If you replace the NTC sensor yourself, parts typically cost between £10 and £25. A replacement heating element usually costs between £20 and £50 depending on the model. If a service technician is needed, labour charges will add to this, so it is worth attempting the simpler checks first.",
+          "question": "How much does it typically cost to fix an E69 fault?"
+        },
+        {
+          "answer": "Yes. In hard water areas, limescale accumulates on the heating element over time and can cause it to overheat, reduce efficiency, or eventually fail. Descaling the machine regularly — every 3 to 6 months — and using a water softener or descaling tablet with each wash can significantly reduce the risk of repeat heating faults.",
+          "question": "Could hard water cause E69 to keep coming back?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:30:23.764533+00:00"
+    },
+    {
+      "article_id": 196,
+      "locale": "sv",
+      "slug": "felkod-e69",
+      "title_tag": "Bosch tvättmaskin felkod E69 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E69? Lär dig vad som orsakar detta fel i värmekretsen och hur du åtgärdar det själv innan du kontaktar en servicetekniker.",
+      "h1": "Vad betyder felkod E69 på en Bosch tvättmaskin?",
+      "description": "Felkod E69 på en Bosch tvättmaskin indikerar ett fel i värmekretsen, vanligtvis relaterat till värmeelement, NTC-temperatursensor eller kablaget som förbinder dessa komponenter.",
+      "quick_fix": "Kontrollera att maskinen inte är överfylld och kör ett kort 30°C-program för att se om felet försvinner — om trumman var för hårt packad kan otillräcklig vattencirkulation utlösa ett falskt värmefel (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod E69 pekar på ett problem i din Bosch tvättmaskines värmekrets. Denna krets ansvarar för att värma vattnet till den temperatur du väljer, och när maskinens styrkort upptäcker ett onormalt värde — antingen för högt, för lågt eller ingen signal alls — avbryter den programmet och visar E69 för att förhindra skada eller en säkerhetsrisk.</p><p>När detta fel uppstår pausar tvättcykeln vanligtvis eller misslyckas med att komma förbi uppvärmningsfasen. Du kan märka att vattnet förblir kallt, eller att maskinen helt enkelt stannar mitt i cykeln. I vissa fall fortsätter trumman att rotera men ingen värme produceras, och programmet tar till slut slut på tid.</p><p>Felet kan bero på ett defekt värmeelement, en felaktig NTC-temperatursensor, skadat kablage eller, i mer sällsynta fall, ett problem med huvudstyrkortet. Många av dessa orsaker är enkla att undersöka innan du kontaktar en servicetekniker.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt NTC-temperatursensor",
+          "detail": "NTC-sensorn (Negative Temperature Coefficient) övervakar vattentemperaturen och skickar avläsningar tillbaka till styrkortet. Om den slutar fungera eller driftar utanför sitt område tolkar styrkortet detta som ett fel i värmekretsen och utlöser E69."
+        },
+        {
+          "cause": "Trasigt eller utbränt värmeelement",
+          "detail": "Värmeelementet är den komponent som fysiskt värmer vattnet. Med tiden kan kalkavlagringar eller elektrisk belastning orsaka att det slutar fungera, vilket resulterar i att ingen värme produceras och att styrkortet registrerar ett E69-fel."
+        },
+        {
+          "cause": "Kalkavlagringar på värmeelementet",
+          "detail": "I områden med hårt vatten kan kalk belägga värmeelementet i sådan utsträckning att dess effektivitet försämras eller att det överhettas och slår ifrån. Detta är en av de mer gradvisa orsakerna och utvecklas ofta under flera års användning."
+        },
+        {
+          "cause": "Skadat eller löst kablage till värmekretsen",
+          "detail": "Kabelstammen som förbinder värmeelementet och sensorn med styrkortet kan utveckla lösa anslutningar, korrosion eller brott — särskilt efter många år av vibrationer under centrifugering. En dålig anslutning kan efterlikna ett komponentfel."
+        },
+        {
+          "cause": "Överfylld trumma som begränsar vattencirkulationen",
+          "detail": "En alltför full trumma kan hindra vattnet från att cirkulera ordentligt runt värmeelementet, vilket orsakar lokal överhettning eller en felaktig temperaturavläsning. Detta kan utlösa ett tillfälligt E69-fel som försvinner när lasten minskas."
+        },
+        {
+          "cause": "Fel på huvudstyrkortet",
+          "detail": "Om styrkortet inte kan skicka eller ta emot signaler till värmekretsen korrekt kan det registrera E69 även när elementet och sensorn är i gott skick. Detta är den minst vanliga orsaken och bekräftas vanligtvis först efter att övriga komponenter har uteslutits."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Återställ maskinen",
+          "detail": "Stäng av tvättmaskinen vid eluttaget och låt den stå urkopplad i minst 5 minuter. Detta låter styrkortet ladda ur helt och kan rensa ett tillfälligt eller falskt felkod. Koppla in igen, välj ett 30°C- eller 40°C-program och observera om E69 återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Minska lasten och testa igen",
+          "detail": "Ta ut en del tvätt så att trumman är högst tre fjärdedelar full. Starta om cykeln och kontrollera om maskinen tar sig igenom uppvärmningsfasen. En överfylld trumma är enkel att utesluta innan du undersöker interna komponenter."
+        },
+        {
+          "step": 3,
+          "action": "Kör ett avkalkningsprogram",
+          "detail": "Om du bor i ett område med hårt vatten och inte har avkalkat maskinen på ett tag, kör ett tomt varmt program (60°C eller högre) med ett avkalkningsmedel avsett för tvättmaskiner. Kraftiga kalkavlagringar på värmeelementet kan orsaka överhettning och utlösa E69. Låt maskinen svalna helt innan du testar igen."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera kabelanslutningarna till värmeelementet och sensorn",
+          "detail": "Med maskinen urkopplad och bakpanelen borttagen (se din modells servicediagram) inspekterar du visuellt kabelkontakterna vid värmeelementet och NTC-sensorn. Leta efter brända, korroderade eller lösa anslutningar. Tryck försiktigt in varje kontakt ordentligt och testa igen. Utför inte detta steg om du inte känner dig bekväm med att arbeta inuti apparaten."
+        },
+        {
+          "step": 5,
+          "action": "Testa NTC-temperatursensorn",
+          "detail": "Använd en multimeter inställd på motstånd (Ohm), koppla loss NTC-sensorn och mät dess motstånd vid rumstemperatur. En frisk NTC-sensor på de flesta Bosch-maskiner visar ungefär 10 000–12 000 Ohm vid 20°C. Ett värde som avviker markant från detta intervall, eller ett öppet kretsvärde, bekräftar att sensorn behöver bytas."
+        },
+        {
+          "step": 6,
+          "action": "Testa värmeelementet för kontinuitet",
+          "detail": "Med maskinen urkopplad kopplar du loss värmeelementets anslutningar och använder en multimeter för att kontrollera kontinuiteten i elementet. Ett friskt element bör visa ett motstånd på ungefär 20–30 Ohm. En öppen krets (ingen kontinuitet) eller ett värde nära noll (kortslutning) innebär att elementet har gått sönder och behöver bytas."
+        },
+        {
+          "step": 7,
+          "action": "Byt den defekta komponenten och testa igen",
+          "detail": "När du har identifierat den trasiga delen — oftast NTC-sensorn eller värmeelementet — monterar du rätt reservdel för din specifika Bosch-modell. Montera ihop maskinen, återställ strömmen och kör ett fullständigt 40°C-program för att bekräfta att E69-felet är borta och att maskinen värmer korrekt."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har testat både NTC-sensorn och värmeelementet med en multimeter och båda komponenterna verkar vara inom normalt intervall kan felet ligga hos huvudstyrkortet eller ett djupare kabelfel som inte är synligt vid inspektion. Dessa är inte enkla gör-det-själv-reparationer och kräver specialiserad diagnostikutrustning för att bekräftas.</p><p>Du bör också kontakta en servicetekniker om du märker tecken på brännskador, smält plast eller bränd lukt nära värmekretsen, eller om maskinen löser ut din hushållssäkring när den försöker värma. Dessa symptom tyder på ett elfel som inte bör undersökas utan professionell utbildning.</p>",
+      "prevention_html": "<p>De komponenter som oftast byts vid åtgärdande av ett E69-fel är NTC-temperatursensorn, värmeelementet och kabelstammen eller enskilda kontakter till värmekretsen. Att använda genuina Bosch-kompatibla delar säkerställer korrekt motstånd och temperaturklassning för din specifika modell, vilket är viktigt för både prestanda och säkerhet.</p><p>För att minska risken för att E69 återkommer bör du avkalka maskinen var 3–6 månad om du bor i ett område med hårt vatten, undvika att konsekvent överfylla trumman och använda rätt mängd tvättmedel för att förhindra avlagringar runt elementet. Dessa vanor förlänger avsevärt livslängden på värmekomponenterna.</p>\n<!-- SPARE_PARTS:E69 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte lämpligt att fortsätta använda maskinen med ett aktivt E69-fel. Utan en fungerande värmekrets tvättas inte tvätten vid rätt temperatur, och i vissa fall kan maskinen stanna mitt i cykeln och lämna kläderna liggande i vatten. Att fortsätta köra maskinen kan också utsätta styrkortet för ytterligare belastning.",
+          "question": "Kan jag fortsätta använda min Bosch tvättmaskin när den visar E69?"
+        },
+        {
+          "answer": "Det mest tillförlitliga sättet är att testa båda komponenterna med en multimeter. NTC-sensorn bör visa ett motstånd på ungefär 10 000–12 000 Ohm vid rumstemperatur, medan värmeelementet bör visa kontinuitet med ett motstånd på ungefär 20–30 Ohm. Den komponent som faller utanför sitt förväntade intervall är troligtvis den felaktiga.",
+          "question": "Hur vet jag om det är sensorn eller värmeelementet som har gått sönder?"
+        },
+        {
+          "answer": "På Bosch tvättmaskiner är E69 specifikt kopplat till värmekretsen. Grundorsaken kan dock variera — det kan vara elementet, sensorn, kablaget eller i sällsynta fall styrkortet. Det är värt att systematiskt gå igenom diagnostikstegen snarare än att anta att den dyraste komponenten har gått sönder.",
+          "question": "Är E69 alltid ett värmefel, eller kan det vara något annat?"
+        },
+        {
+          "answer": "Om du byter NTC-sensorn själv kostar reservdelarna vanligtvis mellan 100 och 250 kronor. Ett ersättningsvärmeelement kostar vanligtvis mellan 200 och 500 kronor beroende på modell. Om en servicetekniker behövs tillkommer arbetskostnader, så det är värt att försöka med de enklare kontrollerna först.",
+          "question": "Hur mycket kostar det vanligtvis att åtgärda ett E69-fel?"
+        },
+        {
+          "answer": "Ja. I områden med hårt vatten ansamlas kalk på värmeelementet över tid och kan orsaka överhettning, minskad effektivitet eller att det slutligen går sönder. Att avkalka maskinen regelbundet — var 3 till 6 månad — och använda ett avhärdningsmedel eller avkalkningstablett vid varje tvätt kan avsevärt minska risken för återkommande värmefel.",
+          "question": "Kan hårt vatten göra att E69 återkommer?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:31:27.456271+00:00"
+    },
+    {
+      "article_id": 197,
+      "locale": "en",
+      "slug": "error-code-e91",
+      "title_tag": "Bosch Washing Machine Error Code E91 | Fix It Now",
+      "meta_description": "Bosch washing machine showing error code E91? Learn what causes this PCB communication fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code E91 Mean on a Bosch Washing Machine?",
+      "description": "Error code E91 on a Bosch washing machine indicates an internal PCB communication fault, meaning the control board and one or more electronic components have lost the ability to exchange data correctly.",
+      "quick_fix": "Power cycle the machine by switching it off at the wall socket, waiting 5 minutes, then switching it back on and restarting the programme — this clears temporary communication errors in the majority of E91 cases (takes about 5 minutes).",
+      "intro_html": "<p>Error code E91 points to a breakdown in communication between the main printed circuit board (PCB) and another electronic module inside your Bosch washing machine. Think of it as the machine's internal network dropping its connection — the control board sends a signal and receives no valid response back.</p><p>When E91 appears, the machine will typically pause mid-cycle or refuse to start a new programme altogether. You may notice the display freezing, buttons becoming unresponsive, or the drum stopping without completing the wash. The machine is not necessarily broken beyond repair; in many cases the fault is temporary and caused by a software glitch or a loose wiring connection rather than a failed component.</p><p>This fault can affect a wide range of Bosch washing machine models, as the underlying communication architecture is shared across several product generations.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary software or firmware glitch",
+          "detail": "A brief power fluctuation or an interrupted cycle can cause the PCB's software to enter an inconsistent state, triggering a false E91 code. This is the most common cause and is usually resolved by a full power cycle."
+        },
+        {
+          "cause": "Loose or corroded wiring harness connector",
+          "detail": "The ribbon cables and plug connectors linking the main PCB to the display board or motor module can work loose over time due to vibration. Corrosion on the connector pins can also interrupt the data signal without visibly damaging the wire."
+        },
+        {
+          "cause": "Faulty or damaged main control PCB",
+          "detail": "If the main board itself has suffered a component failure — such as a blown capacitor or damaged communication chip — it will be unable to maintain a stable data link. This typically produces a persistent E91 that returns immediately after a power cycle."
+        },
+        {
+          "cause": "Faulty user interface or display board",
+          "detail": "The display module contains its own microprocessor that communicates with the main PCB. A failure on this secondary board can look identical to a main PCB fault from the machine's perspective, generating the same E91 code."
+        },
+        {
+          "cause": "Moisture or water ingress on the PCB",
+          "detail": "A slow leak from the detergent drawer, door seal, or internal hoses can allow moisture to reach the control electronics. Even a small amount of condensation on the board can cause intermittent communication errors."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Turn the machine off using the power button, then switch it off at the wall socket. Leave it unplugged for at least 5 minutes to allow the capacitors on the PCB to fully discharge. Plug it back in, switch on at the wall, and attempt to start a fresh programme. This clears the majority of temporary E91 faults."
+        },
+        {
+          "step": 2,
+          "action": "Check for recent power supply issues",
+          "detail": "Consider whether there has been a power cut, a tripped circuit breaker, or a surge in your home recently. Try plugging the machine into a different wall socket if possible, or test the socket with another appliance to confirm it is delivering a stable supply. An unstable power supply can repeatedly trigger communication errors."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the area around the control panel for moisture",
+          "detail": "Look for any signs of water staining, damp patches, or residue around the detergent drawer and the top of the door seal. If the drawer housing is leaking, water can track along the cabinet and reach the electronics. Dry the area thoroughly and run a short cycle to see if the error returns."
+        },
+        {
+          "step": 4,
+          "action": "Check the door latch and door seal",
+          "detail": "A door that is not closing fully can sometimes prevent the machine from completing its start-up communication sequence. Press the door firmly shut and listen for a clear click from the latch. Inspect the rubber door seal for any debris or damage that might be preventing a proper close."
+        },
+        {
+          "step": 5,
+          "action": "Access and inspect the wiring harness connectors",
+          "detail": "Switch off and unplug the machine before proceeding. Remove the top panel (usually secured by two screws at the rear) to access the main PCB area. Carefully press each wiring harness connector firmly into its socket to reseat any that have worked loose. Do not pull on the wires themselves — grip the plastic connector body. Refit the panel, restore power, and test."
+        },
+        {
+          "step": 6,
+          "action": "Check for visible damage on the PCB",
+          "detail": "With the top panel removed and the machine unplugged, visually inspect the main PCB for any obvious signs of burning, scorch marks, swollen capacitors, or corrosion. If you can see physical damage, the board will need to be replaced — do not attempt to power the machine on again until the board has been assessed by a service technician."
+        },
+        {
+          "step": 7,
+          "action": "Reset the machine using the programme selector",
+          "detail": "Some Bosch models allow a manual reset by turning the programme dial to the off position, holding the start button for 3 seconds, and then selecting a new programme. Consult your model's user manual for the specific reset sequence, as this varies between product generations. If the E91 code clears but returns within the next wash cycle, a component fault is likely."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If the E91 error returns immediately every time you power the machine on, or if it reappears within one or two wash cycles despite reseating the wiring connectors, the fault is unlikely to be a simple software glitch. At this point, the main PCB or the display board almost certainly needs to be tested with diagnostic equipment and replaced if faulty — this is not a repair that can be completed safely without specialist tools.</p><p>You should also contact a service technician if you found visible burn marks, swollen capacitors, or corrosion on the PCB during your inspection, or if there is any evidence of water having reached the control electronics. Continuing to run the machine in this condition risks further damage to other components.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a persistent E91 fault are the main control PCB, the user interface and display board, and the wiring harness that connects them. In some cases only the display board is at fault, which is a less expensive repair than replacing the main board, so it is worth having a service technician confirm which component has failed before ordering parts.</p><p>To reduce the risk of future communication faults, keep the area around the detergent drawer clean and free of detergent build-up that could cause leaks, and avoid interrupting wash cycles by cutting power at the wall mid-programme. Using a surge-protected extension lead can also protect the PCB from voltage spikes.</p>\n<!-- SPARE_PARTS:E91 -->",
+      "faq_json": [
+        {
+          "answer": "A power cycle fixes E91 in a significant number of cases because the fault is often a temporary software state rather than a hardware failure. However, if the error returns after the machine has completed one or two cycles, or comes back immediately on power-up, a physical component fault is the more likely cause and a power cycle alone will not resolve it.",
+          "question": "Will a power cycle always fix error code E91 on a Bosch washing machine?"
+        },
+        {
+          "answer": "It is not advisable to continue running the machine while E91 is active. The error means the control board cannot communicate reliably with other modules, which could cause the machine to behave unpredictably — for example, failing to stop filling with water or not spinning correctly. Resolve the fault before running further cycles.",
+          "question": "Is it safe to keep using my Bosch washing machine when E91 is showing?"
+        },
+        {
+          "answer": "Main PCB prices for Bosch washing machines typically range from around £60 to £180 for the part alone, depending on the model. Add labour costs if a service technician is fitting it. A display board is usually less expensive, often between £30 and £80. Getting a confirmed diagnosis before ordering parts will save you money if only one board needs replacing.",
+          "question": "How much does it cost to replace a Bosch washing machine PCB?"
+        },
+        {
+          "answer": "Bosch washing machines do not generally support user-initiated firmware updates in the way that smartphones do. If a software fault is suspected, a service technician can run a diagnostic reset using specialist equipment, which can sometimes resolve persistent communication errors without replacing any hardware.",
+          "question": "Can a software update fix the E91 error on a Bosch washing machine?"
+        },
+        {
+          "answer": "Error code E91 is used across a wide range of Bosch washing machine models that share the same control architecture, including many Serie 4, Serie 6, and Serie 8 machines. The underlying fault — an internal PCB communication error — is the same across all affected models, though the specific component that has failed may differ between machines.",
+          "question": "Does E91 appear on all Bosch washing machine models?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T13:32:20.261505+00:00"
+    },
+    {
+      "article_id": 197,
+      "locale": "sv",
+      "slug": "felkod-e91",
+      "title_tag": "Bosch tvättmaskin felkod E91 | Åtgärda problemet nu",
+      "meta_description": "Visar din Bosch tvättmaskin felkod E91? Lär dig vad som orsakar detta PCB-kommunikationsfel och hur du åtgärdar det själv innan du kontaktar en servicetekniker.",
+      "h1": "Vad betyder felkod E91 på en Bosch tvättmaskin?",
+      "description": "Felkod E91 på en Bosch tvättmaskin indikerar ett internt kommunikationsfel i kretskortet (PCB), vilket innebär att styrkortet och en eller flera elektroniska komponenter har förlorat förmågan att utbyta data korrekt.",
+      "quick_fix": "Starta om maskinen genom att stänga av den vid vägguttaget, vänta 5 minuter och sedan slå på den igen och starta om programmet — detta åtgärdar tillfälliga kommunikationsfel i majoriteten av E91-fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E91 pekar på ett kommunikationsavbrott mellan det huvudsakliga kretskortet (PCB) och en annan elektronisk modul i din Bosch tvättmaskin. Tänk på det som att maskinens interna nätverk tappar sin anslutning — styrkortet skickar en signal men får inget giltigt svar tillbaka.</p><p>När E91 visas pausar maskinen vanligtvis mitt i ett program eller vägrar att starta ett nytt program överhuvudtaget. Du kan märka att displayen fryser, att knapparna slutar svara eller att trumman stannar utan att tvätten är klar. Maskinen är inte nödvändigtvis obrukbar; i många fall är felet tillfälligt och orsakas av en programvaruglitch eller en lös kabelanslutning snarare än en defekt komponent.</p><p>Detta fel kan drabba ett brett utbud av Bosch tvättmaskinmodeller, eftersom den underliggande kommunikationsarkitekturen delas mellan flera produktgenerationer.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfällig programvaru- eller firmwareglitch",
+          "detail": "En kortvarig spänningsfluktuering eller ett avbrutet program kan göra att PCB:ns programvara hamnar i ett inkonsekvent tillstånd och utlöser en falsk E91-kod. Detta är den vanligaste orsaken och löses vanligtvis med en fullständig omstart av strömmen."
+        },
+        {
+          "cause": "Lös eller korroderad kabelkontakt",
+          "detail": "Bandkablarna och kontakterna som förbinder huvud-PCB:n med displaykortet eller motormodulen kan lossna med tiden på grund av vibrationer. Korrosion på kontaktstiften kan också avbryta datasignalen utan att kabeln syns vara skadad."
+        },
+        {
+          "cause": "Defekt eller skadat huvud-PCB",
+          "detail": "Om huvudkortet självt har drabbats av ett komponentfel — till exempel en trasig kondensator eller ett skadat kommunikationschip — kan det inte upprätthålla en stabil datalänk. Detta ger vanligtvis ett ihållande E91-fel som återkommer omedelbart efter en omstart av strömmen."
+        },
+        {
+          "cause": "Defekt användargränssnitt eller displaykort",
+          "detail": "Displaymodulen innehåller sin egen mikroprocessor som kommunicerar med huvud-PCB:n. Ett fel på detta sekundära kort kan se identiskt ut som ett huvud-PCB-fel ur maskinens perspektiv och generera samma E91-kod."
+        },
+        {
+          "cause": "Fukt eller vattenintrång på PCB:n",
+          "detail": "En långsam läcka från tvättmedelslådan, dörrtätningen eller interna slangar kan låta fukt nå styrelektroniken. Även en liten mängd kondens på kortet kan orsaka intermittenta kommunikationsfel."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen med strömknappen och stäng sedan av den vid vägguttaget. Låt den vara urkopplad i minst 5 minuter så att kondensatorerna på PCB:n hinner laddas ur helt. Koppla in den igen, slå på strömmen vid väggen och försök starta ett nytt program. Detta åtgärdar de flesta tillfälliga E91-fel."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera om det nyligen förekommit strömavbrott",
+          "detail": "Fundera på om det har förekommit ett strömavbrott, en utlöst säkring eller en spänningsstöt i hemmet nyligen. Prova att koppla maskinen till ett annat vägguttag om möjligt, eller testa uttaget med en annan apparat för att bekräfta att det levererar stabil ström. En instabil strömförsörjning kan upprepade gånger utlösa kommunikationsfel."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera området runt kontrollpanelen för fukt",
+          "detail": "Leta efter tecken på vattenfläckar, fuktiga partier eller rester runt tvättmedelslådan och toppen av dörrtätningen. Om lådhuset läcker kan vatten rinna längs maskinkåpan och nå elektroniken. Torka området noggrant och kör ett kort program för att se om felet återkommer."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera dörrlåset och dörrtätningen",
+          "detail": "En dörr som inte stängs helt kan ibland hindra maskinen från att slutföra sin uppstartskommunikationssekvens. Tryck dörren ordentligt stängd och lyssna efter ett tydligt klick från låset. Inspektera gummidörrtätningen för eventuellt skräp eller skador som kan förhindra att dörren stängs ordentligt."
+        },
+        {
+          "step": 5,
+          "action": "Öppna maskinen och inspektera kabelkontakterna",
+          "detail": "Stäng av och koppla ur maskinen innan du fortsätter. Ta bort toppanelen (vanligtvis fäst med två skruvar baktill) för att komma åt huvud-PCB-området. Tryck försiktigt in varje kabelkontakt ordentligt i sitt uttag för att återansluta eventuellt lösa kontakter. Dra inte i kablarna själva — håll i den plastade kontaktkroppen. Sätt tillbaka panelen, återställ strömmen och testa."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera PCB:n för synliga skador",
+          "detail": "Med toppanelen borttagen och maskinen urkopplad, inspektera visuellt huvud-PCB:n för uppenbara tecken på brännskador, sotmärken, svullna kondensatorer eller korrosion. Om du ser fysiska skador måste kortet bytas ut — försök inte slå på maskinen igen förrän kortet har bedömts av en servicetekniker."
+        },
+        {
+          "step": 7,
+          "action": "Återställ maskinen med programväljaren",
+          "detail": "Vissa Bosch-modeller tillåter en manuell återställning genom att vrida programvredet till av-läget, hålla in startknappen i 3 sekunder och sedan välja ett nytt program. Konsultera din modells användarmanual för den specifika återställningssekvensen, eftersom denna varierar mellan produktgenerationer. Om E91-koden försvinner men återkommer inom nästa tvättcykel är ett komponentfel troligt."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om E91-felet återkommer omedelbart varje gång du slår på maskinen, eller om det återkommer inom en eller två tvättcykler trots att du återanslutit kabelkontakterna, är felet troligen inte en enkel programvaruglitch. I detta läge behöver huvud-PCB:n eller displaykortet med stor sannolikhet testas med diagnostikutrustning och bytas ut om det är defekt — detta är inte en reparation som kan utföras säkert utan specialverktyg.</p><p>Du bör också kontakta en servicetekniker om du hittade synliga brännskador, svullna kondensatorer eller korrosion på PCB:n under din inspektion, eller om det finns tecken på att vatten har nått styrelektroniken. Att fortsätta använda maskinen i detta skick riskerar att orsaka ytterligare skador på andra komponenter.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid ett ihållande E91-fel är huvud-PCB:n, användargränssnittet och displaykortet samt kabelstammen som förbinder dem. I vissa fall är det bara displaykortet som är defekt, vilket är en billigare reparation än att byta ut huvudkortet, så det är värt att låta en servicetekniker bekräfta vilken komponent som har gått sönder innan du beställer delar.</p><p>För att minska risken för framtida kommunikationsfel, håll området runt tvättmedelslådan rent och fritt från tvättmedelsrester som kan orsaka läckor, och undvik att avbryta tvättprogram genom att stänga av strömmen vid väggen mitt i ett program. Att använda en överspänningsskyddad grenuttag kan också skydda PCB:n mot spänningsstötar.</p>\n<!-- SPARE_PARTS:E91 -->",
+      "faq_json": [
+        {
+          "answer": "En omstart löser E91 i ett betydande antal fall eftersom felet ofta är ett tillfälligt programvarutillstånd snarare än ett hårdvarufel. Om felet dock återkommer efter att maskinen har slutfört en eller två cykler, eller kommer tillbaka omedelbart vid uppstart, är ett fysiskt komponentfel den troligare orsaken och en omstart ensam löser inte problemet.",
+          "question": "Löser en omstart alltid felkod E91 på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Det är inte tillrådligt att fortsätta köra maskinen medan E91 är aktiv. Felet innebär att styrkortet inte kan kommunicera tillförlitligt med andra moduler, vilket kan få maskinen att bete sig oförutsägbart — till exempel att den inte slutar fylla på vatten eller inte centrifugerar korrekt. Åtgärda felet innan du kör fler program.",
+          "question": "Är det säkert att fortsätta använda min Bosch tvättmaskin när E91 visas?"
+        },
+        {
+          "answer": "Priset på huvud-PCB för Bosch tvättmaskiner varierar vanligtvis mellan cirka 700 och 2 000 kronor för enbart delen, beroende på modell. Tillkommer arbetskostnad om en servicetekniker monterar den. Ett displaykort är vanligtvis billigare, ofta mellan 350 och 900 kronor. Att få en bekräftad diagnos innan du beställer delar sparar pengar om bara ett kort behöver bytas.",
+          "question": "Hur mycket kostar det att byta PCB på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Bosch tvättmaskiner stöder i allmänhet inte användarinitierade firmwareuppdateringar på samma sätt som smartphones. Om ett programvarufel misstänks kan en servicetekniker utföra en diagnostisk återställning med specialutrustning, vilket ibland kan lösa ihållande kommunikationsfel utan att någon hårdvara behöver bytas.",
+          "question": "Kan en programuppdatering åtgärda E91-felet på en Bosch tvättmaskin?"
+        },
+        {
+          "answer": "Felkod E91 används i ett brett utbud av Bosch tvättmaskinmodeller som delar samma styrarkitektur, inklusive många Serie 4-, Serie 6- och Serie 8-maskiner. Det underliggande felet — ett internt PCB-kommunikationsfel — är detsamma för alla berörda modeller, även om den specifika komponenten som har gått sönder kan skilja sig åt mellan maskiner.",
+          "question": "Förekommer E91 på alla Bosch tvättmaskinmodeller?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T13:33:29.23858+00:00"
+    }
+  ]
+}

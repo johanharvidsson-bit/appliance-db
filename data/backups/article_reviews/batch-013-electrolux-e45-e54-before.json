@@ -1,0 +1,1087 @@
+{
+  "batch": "013-electrolux-e45-e54",
+  "article_ids": [
+    261,
+    262,
+    263,
+    264,
+    265
+  ],
+  "articles": [
+    {
+      "id": 261,
+      "error_code_id": 366,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 262,
+      "error_code_id": 367,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 263,
+      "error_code_id": 368,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 264,
+      "error_code_id": 369,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 265,
+      "error_code_id": 370,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    }
+  ],
+  "rows": [
+    {
+      "id": 451,
+      "article_id": 261,
+      "locale": "en",
+      "slug": "error-code-e45",
+      "title_tag": "Electrolux Washing Machine Error Code E45 | Fix It Now",
+      "meta_description": "Electrolux washing machine showing error code E45? Learn what causes a door lock relay fault and how to fix it safely at home, step by step.",
+      "h1": "What Does Error Code E45 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E45 on an Electrolux washing machine indicates that the electronic relay or triac controlling the door lock has failed or become stuck on the main control board.",
+      "quick_fix": "Power off the machine at the wall socket, wait 10 minutes, then switch it back on and attempt to restart the cycle — this resets the control board and clears a temporary relay fault in many cases (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code E45 points to a fault in the electronic component — specifically a relay or triac — that controls the door lock mechanism on your Electrolux washing machine. This is a control board-level fault rather than a simple door latch problem, meaning the board is either sending the wrong signal to the lock or failing to release it correctly.</p><p>When E45 appears, the machine will typically stop mid-cycle or refuse to start, and the door may remain locked even after the programme ends. The display shows E45 and the machine will not respond to further commands until the fault is cleared.</p><p>In some cases this is a temporary electronic glitch that a power reset will resolve. In others, the relay or triac on the main PCB has physically failed and will need to be replaced. Working through the steps below will help you identify which situation you are dealing with.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary control board glitch",
+          "detail": "A power surge or brief voltage fluctuation can cause the relay or triac to latch in the wrong state. A full power reset often clears this without any parts being needed."
+        },
+        {
+          "cause": "Failed relay or triac on the main PCB",
+          "detail": "The relay or triac that switches power to the door lock solenoid can burn out or become stuck. This is a component-level failure on the main control board and is the most common hardware cause of E45."
+        },
+        {
+          "cause": "Faulty door lock assembly",
+          "detail": "If the door lock unit itself has an internal short or is drawing excessive current, it can cause the relay on the PCB to fail or trip. The lock and the board should both be checked when this error appears."
+        },
+        {
+          "cause": "Damaged wiring between PCB and door lock",
+          "detail": "Worn, pinched, or corroded wiring in the harness connecting the control board to the door lock can cause incorrect signals and trigger E45. This is more common on older machines or those that have been moved recently."
+        },
+        {
+          "cause": "Water or moisture damage to the control board",
+          "detail": "A slow leak from the detergent drawer or drum seal can allow moisture to reach the PCB over time, causing relay or triac failure. Visible corrosion or burn marks on the board are signs of this."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a full power reset",
+          "detail": "Switch the machine off at the wall socket — not just the appliance button — and leave it unplugged for at least 10 minutes. This allows the control board capacitors to fully discharge and can clear a temporary relay fault. Plug back in, select a short programme, and check whether E45 returns."
+        },
+        {
+          "step": 2,
+          "action": "Check the door is fully closed and latching",
+          "detail": "Open and firmly close the door, making sure you hear a clear click from the latch. A door that is not fully engaging can confuse the lock circuit. Inspect the door catch and the strike on the machine body for any visible damage or debris preventing a solid close."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the door lock wiring harness",
+          "detail": "With the machine unplugged, remove the door seal and the front panel or top panel depending on your model to access the door lock. Check the wiring connector at the lock for corrosion, loose pins, or visible damage. Reseat the connector firmly and check the wire run back towards the control board for any pinching or chafing."
+        },
+        {
+          "step": 4,
+          "action": "Test the door lock assembly",
+          "detail": "Using a multimeter set to resistance, test the door lock solenoid terminals — a healthy interlock typically reads between 100 and 200 ohms depending on the model. An open circuit (OL) or very low reading suggests the lock itself has failed and should be replaced before assuming the PCB is at fault."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the main control board for visible damage",
+          "detail": "With the machine unplugged, locate the main PCB — usually behind the top or rear panel. Look closely at the relay and surrounding components for burn marks, swollen capacitors, or corrosion. If you can identify a visibly damaged relay or triac, a qualified service technician can replace that component or the full board."
+        },
+        {
+          "step": 6,
+          "action": "Replace the door lock assembly",
+          "detail": "If the lock tests faulty, fit a compatible replacement door lock for your Electrolux model. Disconnect the old unit, transfer the wiring connector to the new lock, and secure it in place. Run a test cycle to confirm E45 has cleared before reassembling the panels."
+        },
+        {
+          "step": 7,
+          "action": "Replace or repair the main control board",
+          "detail": "If the door lock tests healthy but E45 persists, the relay or triac on the PCB has most likely failed. A direct board replacement is the most reliable fix for a non-technical homeowner. Ensure you source a board matched to your exact model number, as PCBs are not interchangeable between models."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have replaced the door lock and the error code E45 still appears after a power reset, the fault almost certainly lies within the main control board itself. Relay and triac replacement at component level requires soldering skills and specialist equipment — this is not a practical DIY repair for most homeowners, and an incorrect repair can create a safety hazard.</p><p>You should also call a service technician if you find burn marks, melted plastic, or a smell of burning near the control board, or if the door remains locked and you cannot safely retrieve laundry. A technician can confirm whether the board needs repair or full replacement and carry out the work safely.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when diagnosing and resolving error code E45 are the door lock assembly (also called the door interlock), the main control board (PCB), and the door lock wiring harness. Sourcing genuine Electrolux parts or quality compatible alternatives ensures the repair lasts and does not introduce further faults.</p><p>To reduce the risk of control board faults in future, consider fitting a surge-protection plug to protect the machine from voltage spikes, and check the door seal periodically for cracks that could allow water to track towards the electronics.</p>\n<!-- SPARE_PARTS:E45 -->",
+      "faq_json": [
+        {
+          "answer": "No. E45 indicates a fault in the electronic component controlling the door lock, which means the machine cannot guarantee the door will stay locked during a spin cycle. You should not run the machine until the fault has been diagnosed and resolved.",
+          "question": "Is it safe to use the washing machine while it shows E45?"
+        },
+        {
+          "answer": "Most Electrolux washing machines have a manual door release. Check behind the kick panel at the bottom front of the machine for a small pull tab or cord — pulling this releases the door lock manually. Consult your model's user manual for the exact location if you cannot find it.",
+          "question": "My door is stuck locked after E45 appeared — how do I open it?"
+        },
+        {
+          "answer": "Yes. A sudden power cut or voltage spike can cause the relay or triac to latch incorrectly, triggering E45 when power is restored. A 10-minute power reset resolves this in many cases. If the error returns after the reset, a hardware fault is more likely.",
+          "question": "Can E45 be caused by a power cut?"
+        },
+        {
+          "answer": "A replacement door lock assembly typically costs between £20 and £50 for parts. A new main control board is more expensive, usually £80 to £180 depending on the model. If you call a service technician, add labour costs on top of the parts price.",
+          "question": "How much does it cost to fix an E45 error on an Electrolux washing machine?"
+        },
+        {
+          "answer": "A power reset will permanently fix E45 only if the cause was a temporary electronic glitch. If the relay, triac, or door lock has physically failed, the error will return as soon as you run another cycle. Persistent E45 after a reset always points to a hardware fault that needs attention.",
+          "question": "Will resetting the machine permanently fix E45?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T09:06:34.665586+00:00"
+    },
+    {
+      "id": 452,
+      "article_id": 261,
+      "locale": "sv",
+      "slug": "felkod-e45",
+      "title_tag": "Electrolux Tvättmaskin Felkod E45 | Åtgärda Det Nu",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E45? Lär dig vad som orsakar ett reläfel på dörrlåset och hur du åtgärdar det säkert hemma, steg för steg.",
+      "h1": "Vad Betyder Felkod E45 på en Electrolux Tvättmaskin?",
+      "description": "Felkod E45 på en Electrolux tvättmaskin indikerar att det elektroniska reläet eller triacen som styr dörrlåset har slutat fungera eller fastnat på huvudkortet.",
+      "quick_fix": "Stäng av maskinen vid vägguttaget — inte bara med maskinens knapp — vänta 10 minuter och slå sedan på den igen och försök starta programmet på nytt — detta återställer styrkortet och rensar ett tillfälligt reläfel i många fall (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod E45 pekar på ett fel i den elektroniska komponenten — specifikt ett relä eller en triac — som styr dörrlåsmekanismen på din Electrolux tvättmaskin. Detta är ett fel på styrkortsnivå snarare än ett enkelt problem med dörrhaken, vilket innebär att kortet antingen skickar fel signal till låset eller inte lyckas frigöra det korrekt.</p><p>När E45 visas stannar maskinen vanligtvis mitt i ett program eller vägrar att starta, och dörren kan förbli låst även efter att programmet är avslutat. Displayen visar E45 och maskinen svarar inte på ytterligare kommandon förrän felet är åtgärdat.</p><p>I vissa fall är detta ett tillfälligt elektroniskt fel som en strömåterställning löser. I andra fall har reläet eller triacen på huvudkortet fysiskt gått sönder och behöver bytas ut. Genom att följa stegen nedan kan du avgöra vilken situation du befinner dig i.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt fel på styrkortet",
+          "detail": "En strömstöt eller kortvarig spänningsfluktuering kan göra att reläet eller triacen fastnar i fel läge. En fullständig strömåterställning löser ofta detta utan att några delar behöver bytas."
+        },
+        {
+          "cause": "Defekt relä eller triac på huvudkortet",
+          "detail": "Reläet eller triacen som kopplar ström till dörrlåsets solenoid kan brinna ut eller fastna. Detta är ett komponentfel på huvudkortet och är den vanligaste hårdvaruorsaken till E45."
+        },
+        {
+          "cause": "Defekt dörrlåsenhet",
+          "detail": "Om dörrlåsenheten i sig har en intern kortslutning eller drar för hög ström kan det orsaka att reläet på kortet går sönder eller löser ut. Både låset och kortet bör kontrolleras när detta fel uppstår."
+        },
+        {
+          "cause": "Skadad kablage mellan styrkortet och dörrlåset",
+          "detail": "Slitet, klämt eller korroderat kablage i kabelhärvan som förbinder styrkortet med dörrlåset kan orsaka felaktiga signaler och utlösa E45. Detta är vanligare på äldre maskiner eller maskiner som nyligen har flyttats."
+        },
+        {
+          "cause": "Vatten- eller fuktskada på styrkortet",
+          "detail": "En långsam läcka från tvättmedelslådan eller trumtätningen kan med tiden låta fukt nå styrkortet och orsaka relä- eller triacfel. Synlig korrosion eller brännmärken på kortet är tecken på detta."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en fullständig strömåterställning",
+          "detail": "Stäng av maskinen vid vägguttaget — inte bara med maskinens knapp — och låt den vara urkopplad i minst 10 minuter. Detta låter styrkortets kondensatorer laddas ur helt och kan rensa ett tillfälligt reläfel. Koppla in igen, välj ett kort program och kontrollera om E45 återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera att dörren är ordentligt stängd och hakar i",
+          "detail": "Öppna och stäng dörren ordentligt och se till att du hör ett tydligt klick från låset. En dörr som inte hakar i ordentligt kan förvirra låskretsen. Inspektera dörrhaken och låsbygeln på maskinkroppen för synliga skador eller smuts som hindrar ett ordentligt stängande."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera dörrlåsets kabelhärva",
+          "detail": "Med maskinen urkopplad, ta bort dörrtätningen och front- eller toppanelen beroende på din modell för att komma åt dörrlåset. Kontrollera kabelkontakten vid låset för korrosion, lösa stift eller synliga skador. Sätt i kontakten ordentligt igen och kontrollera kabeldragningen tillbaka mot styrkortet för eventuell klämning eller nötning."
+        },
+        {
+          "step": 4,
+          "action": "Testa dörrlåsenheten",
+          "detail": "Använd en multimeter inställd på motstånd och testa dörrlåsets solenoidanslutningar — ett friskt lås läser vanligtvis mellan 100 och 200 ohm beroende på modell. En öppen krets (OL) eller ett mycket lågt värde tyder på att låset i sig har gått sönder och bör bytas ut innan man antar att styrkortet är felaktigt."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera huvudkortet för synliga skador",
+          "detail": "Med maskinen urkopplad, lokalisera huvudkortet — vanligtvis bakom topp- eller bakpanelen. Titta noga på reläet och omgivande komponenter efter brännmärken, uppsvällda kondensatorer eller korrosion. Om du kan identifiera ett synligt skadat relä eller triac kan en kvalificerad servicetekniker byta ut den komponenten eller hela kortet."
+        },
+        {
+          "step": 6,
+          "action": "Byt ut dörrlåsenheten",
+          "detail": "Om låset visar sig vara defekt, montera ett kompatibelt ersättningsdörrlås för din Electrolux-modell. Koppla loss den gamla enheten, flytta kabelkontakten till det nya låset och fäst det på plats. Kör ett testprogram för att bekräfta att E45 är åtgärdat innan du sätter tillbaka panelerna."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut eller reparera huvudkortet",
+          "detail": "Om dörrlåset testar felfritt men E45 kvarstår har reläet eller triacen på styrkortet med stor sannolikhet gått sönder. Ett direkt kortsutbyte är den mest tillförlitliga lösningen för en icke-teknisk hemmafixare. Se till att du skaffar ett kort som matchar ditt exakta modellnummer, eftersom styrkortet inte är utbytbart mellan modeller."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har bytt dörrlåset och felkod E45 fortfarande visas efter en strömåterställning ligger felet med stor sannolikhet i själva huvudkortet. Byte av relä och triac på komponentnivå kräver lödkunskaper och specialutrustning — detta är inte en praktisk gör-det-själv-reparation för de flesta hemmafixare, och en felaktig reparation kan utgöra en säkerhetsrisk.</p><p>Du bör också kontakta en servicetekniker om du hittar brännmärken, smält plast eller luktar bränt nära styrkortet, eller om dörren förblir låst och du inte kan hämta ut tvätten på ett säkert sätt. En tekniker kan bekräfta om kortet behöver repareras eller bytas ut helt och utföra arbetet på ett säkert sätt.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid felsökning och åtgärdande av felkod E45 är dörrlåsenheten (även kallad dörrlåset), huvudkortet (styrkortet) och dörrlåsets kabelhärva. Att använda äkta Electrolux-delar eller kvalitativa kompatibla alternativ säkerställer att reparationen håller och inte introducerar ytterligare fel.</p><p>För att minska risken för styrkortsproblem i framtiden kan du överväga att installera ett överspänningsskydd för att skydda maskinen mot spänningsstötar, och kontrollera dörrtätningen regelbundet för sprickor som kan låta vatten rinna mot elektroniken.</p>\n<!-- SPARE_PARTS:E45 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. E45 indikerar ett fel i den elektroniska komponenten som styr dörrlåset, vilket innebär att maskinen inte kan garantera att dörren förblir låst under centrifugering. Du bör inte köra maskinen förrän felet har diagnostiserats och åtgärdats.",
+          "question": "Är det säkert att använda tvättmaskinen när den visar E45?"
+        },
+        {
+          "answer": "De flesta Electrolux tvättmaskiner har en manuell dörröppning. Kontrollera bakom sockelpanelen längst ned på maskinens framsida efter en liten dragflik eller ett snöre — att dra i detta frigör dörrlåset manuellt. Konsultera din modells bruksanvisning för den exakta platsen om du inte hittar den.",
+          "question": "Min dörr sitter fast låst efter att E45 visades — hur öppnar jag den?"
+        },
+        {
+          "answer": "Ja. Ett plötsligt strömavbrott eller en spänningsstöt kan göra att reläet eller triacen fastnar i fel läge och utlösa E45 när strömmen återkommer. En 10-minuters strömåterställning löser detta i många fall. Om felet återkommer efter återställningen är ett hårdvarufel mer troligt.",
+          "question": "Kan E45 orsakas av ett strömavbrott?"
+        },
+        {
+          "answer": "En ersättningsdörrlåsenhet kostar vanligtvis mellan 250 och 600 kronor för delar. Ett nytt huvudkort är dyrare, vanligtvis 1 000 till 2 200 kronor beroende på modell. Om du anlitar en servicetekniker tillkommer arbetskostnader utöver delspriset.",
+          "question": "Hur mycket kostar det att åtgärda ett E45-fel på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "En strömåterställning löser E45 permanent endast om orsaken var ett tillfälligt elektroniskt fel. Om reläet, triacen eller dörrlåset fysiskt har gått sönder återkommer felet så snart du kör ett nytt program. Kvarstående E45 efter en återställning pekar alltid på ett hårdvarufel som behöver åtgärdas.",
+          "question": "Löser en återställning av maskinen E45 permanent?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T09:07:34.711805+00:00"
+    },
+    {
+      "id": 453,
+      "article_id": 262,
+      "locale": "en",
+      "slug": "error-code-e50",
+      "title_tag": "Electrolux Washing Machine Error Code E50 | Fix It Now",
+      "meta_description": "Electrolux washing machine showing error E50? Learn what causes this motor fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E50 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E50 on an Electrolux washing machine indicates a general motor fault, triggered when the machine detects a problem with the motor's operation or an obstruction preventing the drum from turning freely.",
+      "quick_fix": "Check the drum for any trapped items — open the door, rotate the drum by hand to feel for resistance, remove any obstruction, then restart the cycle (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code E50 is Electrolux's way of telling you that something has gone wrong with the motor system. The motor is responsible for spinning and tumbling the drum throughout every wash cycle, so when the machine's control board detects an abnormal signal from the motor — or can't get the drum moving at all — it stops the programme and displays E50 to prevent further damage.</p><p>When this error appears, the wash cycle will pause or fail to start, and the drum may be completely still or moving erratically. In some cases you may hear a humming or buzzing sound as the motor attempts to run but cannot. The machine will not continue until the underlying issue is resolved.</p><p>The good news is that a significant number of E50 faults are caused by simple mechanical obstructions rather than a failed motor, so it's always worth working through the basic checks before assuming the worst.</p>",
+      "causes_json": [
+        {
+          "cause": "Drum obstruction",
+          "detail": "A small item such as a coin, underwire, or button lodged between the drum and the door seal can physically prevent the drum from rotating. This is the most common trigger for E50 and is usually the easiest to resolve."
+        },
+        {
+          "cause": "Overloaded drum",
+          "detail": "Packing the drum too tightly puts excessive strain on the motor, causing it to draw too much current and triggering the fault. Heavy items like duvets or towels bunched together are frequent culprits."
+        },
+        {
+          "cause": "Worn or broken drive belt",
+          "detail": "The drive belt connects the motor to the drum pulley. If it has snapped, stretched, or slipped off, the motor will spin freely but the drum won't move, and the control board will register a motor fault."
+        },
+        {
+          "cause": "Faulty motor brushes",
+          "detail": "Many Electrolux washing machines use a brushed motor. The carbon brushes wear down over time and eventually lose contact with the motor's commutator, causing intermittent or complete loss of motor function."
+        },
+        {
+          "cause": "Motor wiring or connection fault",
+          "detail": "Vibration over years of use can loosen the electrical connectors between the motor and the control board. A poor connection can mimic a motor failure even when the motor itself is in good condition."
+        },
+        {
+          "cause": "Failed motor or motor control module",
+          "detail": "In less common cases, the motor windings themselves may have burned out, or the motor control board (sometimes called the inverter board on brushless models) may have developed a fault that prevents correct motor operation."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power off and check for trapped items",
+          "detail": "Switch the machine off at the wall and unplug it. Open the door and carefully run your hand around the rubber door seal, feeling for any small objects caught between the seal and the drum. Rotate the drum slowly by hand — it should turn with moderate resistance but no grinding or hard stops."
+        },
+        {
+          "step": 2,
+          "action": "Reduce the load and restart",
+          "detail": "If the drum was very full, remove roughly half the laundry and try the cycle again. An overloaded machine will repeatedly trigger E50 until the load is within the machine's rated capacity. Check your model's manual for the maximum load weight."
+        },
+        {
+          "step": 3,
+          "action": "Perform a power reset",
+          "detail": "Unplug the machine from the wall socket and leave it unplugged for at least 5 minutes. This allows the control board to fully discharge and reset. Plug back in and run a short cycle to see if the error clears."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the drive belt",
+          "detail": "You will need to remove the back panel of the machine to access the belt — unplug the machine first. Look at the large drum pulley at the rear; the belt should sit firmly in the groove around it and connect down to the motor pulley. If the belt is snapped, loose, or has slipped off, it will need to be replaced or reseated."
+        },
+        {
+          "step": 5,
+          "action": "Check motor brush condition",
+          "detail": "With the back panel removed and the machine unplugged, locate the motor at the base of the machine. The carbon brushes are housed in small plastic holders on either side of the motor body. Slide them out and measure their length — if they are shorter than approximately 10–12 mm, they are worn and should be replaced as a pair."
+        },
+        {
+          "step": 6,
+          "action": "Inspect motor wiring connections",
+          "detail": "While you have access to the motor, check that all wiring connectors are firmly seated. Gently press each connector home and look for any signs of burning, corrosion, or damaged insulation on the wires. A loose connector can often be reseated without replacing any parts."
+        },
+        {
+          "step": 7,
+          "action": "Clear the error and test",
+          "detail": "After completing any repair, plug the machine back in and run a short cotton cycle at 40°C with a small load. Monitor the machine through the first spin phase. If E50 does not reappear, the fault has been resolved. If it returns, the motor or motor control board likely needs professional assessment."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above — cleared any obstruction, replaced worn brushes, reseated wiring connections, and confirmed the belt is intact — and the E50 error still returns, the fault is likely inside the motor itself or within the motor control board. These components require specialist diagnostic equipment to test accurately and are not straightforward to replace without experience.</p><p>You should also call a service technician if you notice a burning smell coming from the machine, if the motor housing feels very hot to the touch, or if you can see any scorched wiring or components. These are signs of electrical damage that should not be ignored.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E50 fault are the motor carbon brushes, the drive belt, and — in more serious cases — the motor itself or the motor control module. Brushes and belts are relatively affordable and are considered routine wear items on machines that have been in use for several years.</p><p>If you want to source these parts before starting your repair, the components listed below are compatible with the affected Electrolux models. Always confirm your full model number (found on the label inside the door frame) before ordering.</p>\n<!-- SPARE_PARTS:E50 -->",
+      "faq_json": [
+        {
+          "answer": "No — when E50 is active, the machine has stopped the cycle to protect the motor from further damage. Running it repeatedly in this state could worsen the fault. Work through the troubleshooting steps first, and only resume normal use once the error has cleared and a full test cycle has completed without issue.",
+          "question": "Can I still use my Electrolux washing machine while it shows E50?"
+        },
+        {
+          "answer": "Motor brushes typically last between 5 and 10 years depending on how frequently the machine is used and what programmes are run most often. High-spin cycles put more demand on the motor. If your machine is over 5 years old and showing E50, worn brushes are a very likely cause and are worth inspecting first.",
+          "question": "How long do motor brushes last on an Electrolux washing machine?"
+        },
+        {
+          "answer": "Not exactly. E50 is a general motor fault code, while E51, E52, and E53 point to more specific motor-related issues such as overcurrent, speed sensor problems, or communication errors between the motor and control board. The diagnostic steps overlap, but if you are seeing a different code in the E5x range, check your model's manual for the precise definition.",
+          "question": "Is error E50 the same as E51, E52, or E53 on Electrolux machines?"
+        },
+        {
+          "answer": "A pair of carbon brushes typically costs between £5 and £20 depending on the motor type. If you are comfortable doing the job yourself, it is one of the more cost-effective washing machine repairs. A service technician call-out to replace brushes will add labour costs on top, but the total repair is still usually well below the cost of a new machine.",
+          "question": "How much does it cost to replace motor brushes on an Electrolux washing machine?"
+        },
+        {
+          "answer": "Intermittent E50 faults are often caused by worn motor brushes that still make contact most of the time but lose connection under load or when hot. A loose wiring connector can also cause the same pattern. If the error comes and goes, inspect the brushes and all motor connections — consistent faults that appear every cycle are more likely to indicate a belt or mechanical obstruction issue.",
+          "question": "Why does E50 appear only sometimes and not every cycle?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T09:08:26.0092+00:00"
+    },
+    {
+      "id": 454,
+      "article_id": 262,
+      "locale": "sv",
+      "slug": "felkod-e50",
+      "title_tag": "Electrolux Tvättmaskin Felkod E50 | Åtgärda Problemet Nu",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E50? Lär dig vad som orsakar detta motorfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod E50 på en Electrolux Tvättmaskin?",
+      "description": "Felkod E50 på en Electrolux tvättmaskin indikerar ett allmänt motorfel som utlöses när maskinen upptäcker ett problem med motorns funktion eller en blockering som hindrar trumman från att rotera fritt.",
+      "quick_fix": "Kontrollera trumman efter fastklämt föremål — öppna luckan, rotera trumman för hand för att känna efter motstånd, ta bort eventuell blockering och starta sedan om programmet (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod E50 är Electrolux sätt att tala om att något har gått fel med motorsystemet. Motorn ansvarar för att snurra och tumla trumman under varje tvättprogram, så när maskinens styrkort registrerar en onormal signal från motorn — eller inte kan få trumman att röra sig alls — avbryter den programmet och visar E50 för att förhindra ytterligare skador.</p><p>När detta fel uppstår pausar tvättcykeln eller misslyckas med att starta, och trumman kan vara helt stilla eller röra sig oregelbundet. I vissa fall kan du höra ett surrande eller brummande ljud när motorn försöker starta men inte lyckas. Maskinen fortsätter inte förrän det underliggande problemet är åtgärdat.</p><p>Den goda nyheten är att ett betydande antal E50-fel orsakas av enkla mekaniska blockeringar snarare än en trasig motor, så det är alltid värt att gå igenom de grundläggande kontrollerna innan du drar förhastade slutsatser.</p>",
+      "causes_json": [
+        {
+          "cause": "Blockering i trumman",
+          "detail": "Ett litet föremål, till exempel ett mynt, en bysthållarbygel eller en knapp som fastnat mellan trumman och dörrtätningen, kan fysiskt hindra trumman från att rotera. Detta är den vanligaste orsaken till E50 och är vanligtvis den enklaste att åtgärda."
+        },
+        {
+          "cause": "Överfylld trumma",
+          "detail": "Att packa trumman för hårt belastar motorn överdrivet, vilket gör att den drar för mycket ström och utlöser felet. Tunga föremål som duntäcken eller handdukar ihopbuntade är vanliga brottslingar."
+        },
+        {
+          "cause": "Sliten eller trasig drivrem",
+          "detail": "Drivremmen förbinder motorn med trummans remskiva. Om den har gått av, sträckts ut eller hoppat av snurrar motorn fritt men trumman rör sig inte, och styrkortet registrerar ett motorfel."
+        },
+        {
+          "cause": "Defekta motorborstar",
+          "detail": "Många Electrolux tvättmaskiner använder en borstmotor. Kolborstarna slits ned med tiden och förlorar till slut kontakten med motorns kommutator, vilket orsakar intermittent eller fullständig förlust av motorfunktion."
+        },
+        {
+          "cause": "Fel på motorns kablage eller anslutningar",
+          "detail": "Vibrationer under många års användning kan lossa de elektriska kontakterna mellan motorn och styrkortet. En dålig anslutning kan efterlikna ett motorhaveri även när motorn i sig är i gott skick."
+        },
+        {
+          "cause": "Defekt motor eller motorstyrmodul",
+          "detail": "I mindre vanliga fall kan motorns lindningar ha bränt ut, eller motorstyrkortet (ibland kallat inverterkortet på borstlösa modeller) kan ha utvecklat ett fel som förhindrar korrekt motordrift."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av strömmen och kontrollera efter fastklämt föremål",
+          "detail": "Stäng av maskinen vid vägguttaget och dra ur kontakten. Öppna luckan och känn försiktigt runt gummitätningen efter små föremål som fastnat mellan tätningen och trumman. Rotera trumman långsamt för hand — den ska rotera med måttligt motstånd men utan skrapljud eller hårda stopp."
+        },
+        {
+          "step": 2,
+          "action": "Minska tvätten och starta om",
+          "detail": "Om trumman var mycket full, ta ut ungefär hälften av tvätten och försök köra programmet igen. En överfylld maskin utlöser upprepade gånger E50 tills lasten är inom maskinens angivna kapacitet. Kontrollera din modells manual för maximal lastvikt."
+        },
+        {
+          "step": 3,
+          "action": "Utför en strömåterställning",
+          "detail": "Dra ur maskinens kontakt från vägguttaget och låt den vara urkopplad i minst 5 minuter. Detta låter styrkortet ladda ur helt och återställas. Anslut igen och kör ett kort program för att se om felet försvinner."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera drivremmen",
+          "detail": "Du behöver ta bort maskinens bakpanel för att komma åt remmen — koppla ur maskinen först. Titta på den stora trummans remskiva på baksidan; remmen ska sitta ordentligt i spåret runt den och ansluta ned till motorns remskiva. Om remmen är av, lös eller har hoppat av måste den bytas ut eller sättas tillbaka på plats."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera motorborstarna",
+          "detail": "Med bakpanelen borttagen och maskinen urkopplad, lokalisera motorn vid maskinens botten. Kolborstarna sitter i små planthållare på vardera sidan av motorhuset. Dra ut dem och mät deras längd — om de är kortare än ungefär 10–12 mm är de slitna och bör bytas ut parvis."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera motorns kabelanslutningar",
+          "detail": "Medan du har tillgång till motorn, kontrollera att alla kabelkontakter sitter ordentligt. Tryck försiktigt in varje kontakt och leta efter tecken på brännskador, korrosion eller skadad isolering på kablarna. En lös kontakt kan ofta sättas tillbaka utan att några delar behöver bytas."
+        },
+        {
+          "step": 7,
+          "action": "Rensa felet och testa",
+          "detail": "Efter att ha utfört en reparation, anslut maskinen och kör ett kort bomullsprogram vid 40°C med en liten tvätt. Övervaka maskinen under den första centrifugeringsfasen. Om E50 inte återkommer har felet åtgärdats. Om det återkommer behöver motorn eller motorstyrkortet troligen professionell bedömning."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har gått igenom alla stegen ovan — rensat bort eventuell blockering, bytt ut slitna borstar, satt tillbaka kabelanslutningar och bekräftat att remmen är hel — och E50-felet fortfarande återkommer, är felet troligen inne i själva motorn eller i motorstyrkortet. Dessa komponenter kräver specialiserad diagnostikutrustning för att testas korrekt och är inte enkla att byta ut utan erfarenhet.</p><p>Du bör också kontakta en servicetekniker om du märker en bränd lukt från maskinen, om motorhuset känns mycket varmt vid beröring, eller om du kan se förkolnat kablage eller förkolnade komponenter. Dessa är tecken på elektriska skador som inte bör ignoreras.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E50-fel är motorns kolborstar, drivremmen och — i allvarligare fall — motorn själv eller motorstyrmodulen. Borstar och remmar är relativt prisvärda och betraktas som rutinmässiga slitdelar på maskiner som har använts i flera år.</p><p>Om du vill beställa dessa delar innan du påbörjar din reparation är komponenterna nedan kompatibla med de berörda Electrolux-modellerna. Bekräfta alltid ditt fullständiga modellnummer (som finns på etiketten inuti lucköppningen) innan du beställer.</p>\n<!-- SPARE_PARTS:E50 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — när E50 är aktivt har maskinen stoppat cykeln för att skydda motorn från ytterligare skador. Att köra den upprepade gånger i detta tillstånd kan förvärra felet. Gå igenom felsökningsstegen först och återuppta normal användning först när felet har försvunnit och en fullständig testcykel har slutförts utan problem.",
+          "question": "Kan jag fortfarande använda min Electrolux tvättmaskin när den visar E50?"
+        },
+        {
+          "answer": "Motorborstar håller vanligtvis mellan 5 och 10 år beroende på hur ofta maskinen används och vilka program som körs mest. Höghastighetscentrifugering belastar motorn mer. Om din maskin är äldre än 5 år och visar E50 är slitna borstar en mycket trolig orsak och är värda att inspektera först.",
+          "question": "Hur länge håller motorborstarna på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Inte exakt. E50 är en allmän motorfelkod, medan E51, E52 och E53 pekar på mer specifika motorrelaterade problem såsom överström, problem med varvtalssensorn eller kommunikationsfel mellan motorn och styrkortet. Felsökningsstegen överlappar, men om du ser en annan kod i E5x-serien, kontrollera din modells manual för den exakta definitionen.",
+          "question": "Är felkod E50 detsamma som E51, E52 eller E53 på Electrolux-maskiner?"
+        },
+        {
+          "answer": "Ett par kolborstar kostar vanligtvis mellan 50 och 200 kronor beroende på motortyp. Om du är bekväm med att utföra arbetet själv är det en av de mer kostnadseffektiva tvättmaskinreparationerna. Att anlita en servicetekniker för att byta borstar tillkommer arbetskostnad, men den totala reparationen är ändå vanligtvis långt under kostnaden för en ny maskin.",
+          "question": "Vad kostar det att byta motorborstar på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Intermittenta E50-fel orsakas ofta av slitna motorborstar som fortfarande har kontakt för det mesta men tappar förbindelsen under belastning eller när de är varma. En lös kabelkontakt kan också orsaka samma mönster. Om felet kommer och går, inspektera borstarna och alla motoranslutningar — konsekventa fel som uppstår varje cykel är mer sannolikt ett tecken på ett rem- eller mekaniskt blockeringsproblem.",
+          "question": "Varför uppstår E50 bara ibland och inte varje cykel?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T09:09:30.452981+00:00"
+    },
+    {
+      "id": 455,
+      "article_id": 263,
+      "locale": "en",
+      "slug": "error-code-e51",
+      "title_tag": "Electrolux Washing Machine Error Code E51 | Fix It Now",
+      "meta_description": "Electrolux washing machine showing error E51? Learn what causes a motor triac short circuit, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E51 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E51 on an Electrolux washing machine indicates a motor triac short circuit — an electronic fault in the component that controls power delivery to the motor.",
+      "quick_fix": "Power off the machine at the wall, leave it unplugged for 10 minutes to allow the control board to fully reset, then restart a short cycle to see if the error clears (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code E51 points to a short circuit in the motor triac — the electronic switch on the control board responsible for regulating the flow of electrical power to the drum motor. When this component fails or is disrupted, the machine's electronics detect an abnormal current condition and shut down to prevent further damage.</p><p>When E51 appears, the washing machine will typically stop mid-cycle or refuse to start a new one. The drum will not spin, and the error code will remain displayed until the underlying fault is resolved. In some cases the machine may attempt to restart and immediately throw the code again.</p><p>This is primarily an electronic fault rather than a mechanical one, though a seized or heavily overloaded motor can sometimes trigger the same code by placing excessive stress on the triac itself.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty or damaged motor triac on the control board",
+          "detail": "The triac is a semiconductor component soldered onto the main PCB. It can fail due to age, power surges, or overheating, causing a permanent short circuit that triggers E51 every time the machine is powered on."
+        },
+        {
+          "cause": "Damaged or shorted motor wiring harness",
+          "detail": "The wiring loom running between the control board and the motor can develop chafed insulation or loose connectors over time. A short in this wiring mimics a triac fault and will produce the same E51 code."
+        },
+        {
+          "cause": "Faulty or seized drum motor",
+          "detail": "If the motor itself has developed an internal short or its bearings have seized, it draws far more current than normal. This excess load can blow the triac or cause the board to register a short-circuit condition."
+        },
+        {
+          "cause": "Overloaded drum causing motor stress",
+          "detail": "Consistently overloading the machine forces the motor to work beyond its rated capacity. Over time this thermal and electrical stress can degrade the triac and eventually cause it to fail."
+        },
+        {
+          "cause": "Power surge or voltage spike",
+          "detail": "A sudden spike in the mains supply can instantly damage sensitive semiconductor components like the motor triac. If E51 appeared immediately after a power outage or storm, a surge is a likely cause."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a hard reset",
+          "detail": "Switch the machine off at the wall socket and unplug it completely. Leave it disconnected for at least 10 minutes to allow residual charge to dissipate from the control board. Plug it back in, select a short spin or rinse cycle, and observe whether E51 returns."
+        },
+        {
+          "step": 2,
+          "action": "Check and reduce the drum load",
+          "detail": "Remove all laundry from the drum and try running an empty rinse cycle. If the machine completes the cycle without the error, overloading was likely stressing the motor. Going forward, keep loads within the machine's rated capacity shown on the rating plate."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the motor wiring connectors",
+          "detail": "Unplug the machine before doing this. Remove the back panel (usually held by two or three screws) to access the motor. Check that the wiring connector at the motor is firmly seated and shows no signs of burning, corrosion, or melted plastic. Reseat any loose connectors firmly by hand."
+        },
+        {
+          "step": 4,
+          "action": "Examine the wiring harness for damage",
+          "detail": "Trace the wiring loom from the motor up to the control board, looking for any sections where the outer insulation is worn, pinched, or melted. Pay particular attention to areas where the harness passes near sharp metal edges or moving parts. Damaged wiring should be replaced rather than taped over."
+        },
+        {
+          "step": 5,
+          "action": "Check the motor for visible damage or seizure",
+          "detail": "With the machine unplugged, try turning the motor pulley by hand. It should rotate with moderate resistance. If it is completely locked or makes a grinding noise, the motor bearings may have failed. Also look for any burn marks or a smell of scorched insulation around the motor body."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the control board for a burnt triac",
+          "detail": "Access the control board — usually located behind the top or front panel depending on your model. Look for any component that shows visible burn marks, discolouration, or a cracked casing near the motor output section of the board. A visibly damaged triac confirms the board needs repair or replacement."
+        },
+        {
+          "step": 7,
+          "action": "Replace the control board or motor as required",
+          "detail": "If the triac on the PCB is confirmed faulty, the board will need to be replaced or sent for professional component-level repair. If the motor is seized or internally shorted, fit a compatible replacement motor. Always use parts matched to your specific model number, found on the rating plate inside the door frame."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have completed all the steps above and E51 continues to appear on every cycle, the fault almost certainly lies with the motor triac on the main control board or with the motor itself — both of which require component testing with a multimeter and specialist knowledge to diagnose accurately. Attempting to replace a PCB without confirming the root cause can result in a second board being damaged if a shorted motor is still connected.</p><p>You should also call a service technician immediately if you notice any burning smell coming from the machine, scorch marks around the motor or control board area, or if the machine trips your household circuit breaker when switched on. These are signs of an active electrical fault that should not be operated until inspected.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E51 fault are the main control board (PCB), the drum motor, and the motor wiring harness. The control board is the most frequent replacement since the triac is soldered directly onto it and is not always available as a standalone component. The motor is the next most likely replacement, particularly on machines with high mileage or a history of heavy loads.</p><p>To find the correct parts for your specific Electrolux model, use the model number from the rating plate — located on the inner door frame — when searching. Compatible parts for E51 faults are listed below.</p>\n<!-- SPARE_PARTS:E51 -->",
+      "faq_json": [
+        {
+          "answer": "No. E51 indicates an active electrical fault in the motor power circuit, and running the machine in this state risks causing further damage to the control board or motor. It may also trip your household electrics. Leave the machine unplugged until the fault has been diagnosed and resolved.",
+          "question": "Can I still use my Electrolux washing machine while it shows E51?"
+        },
+        {
+          "answer": "A power cycle or reset can clear E51 if it was caused by a temporary voltage spike or a one-off software glitch. However, if the triac or motor has physically failed, no amount of resetting will resolve it. If the error returns immediately after a reset, a hardware fault is present.",
+          "question": "Will a factory reset fix error E51?"
+        },
+        {
+          "answer": "If only the control board needs replacing, parts typically cost between £60 and £150 depending on the model, plus a service technician's labour charge. A replacement motor can add a similar amount. It is worth getting a quote and comparing it against the age and value of the machine before committing to a repair.",
+          "question": "How much does it typically cost to repair an E51 fault?"
+        },
+        {
+          "answer": "Yes, a mains voltage spike is a recognised cause of triac failure. If E51 appeared immediately after a power cut, storm, or the machine being on during an electrical disturbance, a surge is a strong possibility. Using a surge-protected extension lead can help protect the machine's electronics going forward.",
+          "question": "Could a power surge have caused my E51 error?"
+        },
+        {
+          "answer": "They are related but distinct. E51 specifically indicates a motor triac short circuit, while E52 and E53 relate to other aspects of motor speed and tachometer signal faults. The diagnostic steps overlap in places, but the root cause and the parts most likely to need replacement can differ between these codes.",
+          "question": "Is E51 the same fault as E52 or E53 on Electrolux machines?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T09:10:20.456038+00:00"
+    },
+    {
+      "id": 456,
+      "article_id": 263,
+      "locale": "sv",
+      "slug": "felkod-e51",
+      "title_tag": "Electrolux Tvättmaskin Felkod E51 | Åtgärda Det Nu",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E51? Lär dig vad som orsakar en kortslutning i motortriac, hur du åtgärdar det själv och när du bör kontakta en serviceteknik",
+      "h1": "Vad betyder felkod E51 på en Electrolux tvättmaskin?",
+      "description": "Felkod E51 på en Electrolux tvättmaskin indikerar en kortslutning i motortriacen — ett elektroniskt fel i den komponent som styr strömtillförseln till motorn.",
+      "quick_fix": "Stäng av maskinen vid vägguttaget, låt den vara urkopplad i 10 minuter så att styrkortet hinner återställas helt, starta sedan ett kort program för att se om felet försvinner (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod E51 pekar på en kortslutning i motortriacen — den elektroniska brytaren på styrkortet som ansvarar för att reglera strömflödet till trummotorn. När denna komponent slutar fungera eller störs registrerar maskinens elektronik ett onormalt strömtillstånd och stänger av sig för att förhindra ytterligare skador.</p><p>När E51 visas stannar tvättmaskinen vanligtvis mitt i ett program eller vägrar att starta ett nytt. Trumman snurrar inte och felkoden visas tills det underliggande felet har åtgärdats. I vissa fall kan maskinen försöka starta om och omedelbart visa koden igen.</p><p>Detta är i första hand ett elektroniskt fel snarare än ett mekaniskt, även om en blockerad eller kraftigt överbelastad motor ibland kan utlösa samma kod genom att belasta triacen alltför hårt.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt eller skadad motortriac på styrkortet",
+          "detail": "Triacen är en halvledarkomponent som är lödad på moderkortet. Den kan sluta fungera på grund av ålder, spänningsöverspänningar eller överhettning, vilket orsakar en permanent kortslutning som utlöser E51 varje gång maskinen slås på."
+        },
+        {
+          "cause": "Skadad eller kortsluten kabelstam till motorn",
+          "detail": "Kabelstammen som löper mellan styrkortet och motorn kan med tiden få nött isolering eller lösa kontakter. En kortslutning i denna kablage efterliknar ett triacfel och ger samma felkod E51."
+        },
+        {
+          "cause": "Defekt eller blockerad trummotor",
+          "detail": "Om motorn själv har utvecklat en intern kortslutning eller om dess lager har låst sig drar den betydligt mer ström än normalt. Denna överlast kan förstöra triacen eller få styrkortet att registrera ett kortslutningsläge."
+        },
+        {
+          "cause": "Överbelastad trumma som stressar motorn",
+          "detail": "Att konsekvent överlasta maskinen tvingar motorn att arbeta utöver sin märkkapacitet. Över tid kan denna termiska och elektriska belastning försämra triacen och till slut orsaka att den slutar fungera."
+        },
+        {
+          "cause": "Strömöverspänning eller spänningspik",
+          "detail": "En plötslig spänningspik i elnätet kan omedelbart skada känsliga halvledarkomponenter som motortriacen. Om E51 uppträdde direkt efter ett strömavbrott eller en storm är en överspänning en trolig orsak."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en fullständig återställning",
+          "detail": "Stäng av maskinen vid vägguttaget och dra ur kontakten helt. Låt den vara urkopplad i minst 10 minuter så att restladdningen i styrkortet hinner laddas ur. Anslut den igen, välj ett kort centrifugerings- eller sköljprogram och kontrollera om E51 återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera och minska trummans last",
+          "detail": "Ta ut all tvätt ur trumman och försök köra ett tomt sköljprogram. Om maskinen slutför programmet utan felkod var det troligen överbelastning som stressade motorn. Håll framöver lasterna inom maskinens märkkapacitet som anges på typskylten."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera motorns kabelkontakter",
+          "detail": "Dra ur maskinen innan du gör detta. Ta bort bakpanelen (vanligtvis fäst med två eller tre skruvar) för att komma åt motorn. Kontrollera att kabelkontakten vid motorn sitter ordentligt och inte visar tecken på brännskador, korrosion eller smält plast. Sätt tillbaka eventuellt lösa kontakter ordentligt för hand."
+        },
+        {
+          "step": 4,
+          "action": "Undersök kabelstammen efter skador",
+          "detail": "Följ kabelstammen från motorn upp till styrkortet och leta efter avsnitt där den yttre isoleringen är nött, klämd eller smält. Var extra uppmärksam på områden där kabelstammen passerar nära vassa metallkanter eller rörliga delar. Skadad kablage bör bytas ut snarare än tejpas över."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera motorn efter synliga skador eller blockering",
+          "detail": "Med maskinen urkopplad, försök vrida motorns remskiva för hand. Den ska rotera med måttligt motstånd. Om den är helt låst eller ger ifrån sig ett slipljud kan motorlagren ha gått sönder. Leta också efter brännskador eller lukt av bränd isolering runt motorn."
+        },
+        {
+          "step": 6,
+          "action": "Undersök styrkortet efter en bränd triac",
+          "detail": "Ta åtkomst till styrkortet — vanligtvis placerat bakom topp- eller frontpanelen beroende på modell. Leta efter komponenter som visar synliga brännskador, missfärgning eller ett sprucket hölje nära kortets motorutgångssektion. En synligt skadad triac bekräftar att kortet behöver repareras eller bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut styrkortet eller motorn vid behov",
+          "detail": "Om triacen på moderkortet bekräftas vara defekt måste kortet bytas ut eller skickas för professionell komponentnivåreparation. Om motorn är blockerad eller internt kortsluten, montera en kompatibel ersättningsmotor. Använd alltid delar som matchar ditt specifika modellnummer, som finns på typskylten inuti dörrkarmens ram."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har genomfört alla stegen ovan och E51 fortsätter att visas vid varje program ligger felet nästan säkert hos motortriacen på huvudstyrkortet eller hos motorn själv — båda kräver komponenttestning med en multimeter och specialistkunskap för att diagnostiseras korrekt. Att försöka byta ett styrkort utan att bekräfta grundorsaken kan resultera i att ett andra kort skadas om en kortsluten motor fortfarande är ansluten.</p><p>Du bör också omedelbart kontakta en servicetekniker om du märker bränndoft från maskinen, brännskador runt motorn eller styrkortsområdet, eller om maskinen löser ut din hushållssäkring när den slås på. Dessa är tecken på ett aktivt elfel och maskinen bör inte användas förrän den har inspekterats.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E51-fel är huvudstyrkortet (PCB), trummotorn och motorns kabelstam. Styrkortet är den vanligaste utbytesvaran eftersom triacen är lödad direkt på det och inte alltid finns tillgänglig som en separat komponent. Motorn är nästa troliga utbytesdel, särskilt på maskiner med hög drifttid eller en historia av tunga laster.</p><p>För att hitta rätt delar till din specifika Electrolux-modell, använd modellnumret från typskylten — som sitter på den inre dörrkarmens ram — när du söker. Kompatibla delar för E51-fel listas nedan.</p>\n<!-- SPARE_PARTS:E51 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. E51 indikerar ett aktivt elfel i motorns strömkrets, och att köra maskinen i detta tillstånd riskerar att orsaka ytterligare skador på styrkortet eller motorn. Det kan också lösa ut din hushållssäkring. Låt maskinen vara urkopplad tills felet har diagnostiserats och åtgärdats.",
+          "question": "Kan jag fortsätta använda min Electrolux tvättmaskin när den visar E51?"
+        },
+        {
+          "answer": "En strömcykel eller återställning kan rensa E51 om det orsakades av en tillfällig spänningspik eller ett engångsfel i programvaran. Men om triacen eller motorn fysiskt har gått sönder hjälper ingen mängd återställningar. Om felet återkommer omedelbart efter en återställning föreligger ett hårdvarufel.",
+          "question": "Kan en fabriksåterställning åtgärda felkod E51?"
+        },
+        {
+          "answer": "Om bara styrkortet behöver bytas ut kostar delar vanligtvis mellan 700 och 1 800 kronor beroende på modell, plus en serviceteknikers arbetskostnad. En ersättningsmotor kan tillkomma med ett liknande belopp. Det är värt att begära en offert och jämföra den med maskinens ålder och värde innan du bestämmer dig för en reparation.",
+          "question": "Vad kostar det vanligtvis att reparera ett E51-fel?"
+        },
+        {
+          "answer": "Ja, en spänningspik i elnätet är en erkänd orsak till triacfel. Om E51 uppträdde direkt efter ett strömavbrott, en storm eller att maskinen var igång under en elektrisk störning är en överspänning en stark möjlighet. Att använda en överspänningsskyddad grenuttag kan hjälpa till att skydda maskinens elektronik framöver.",
+          "question": "Kan en strömöverspänning ha orsakat mitt E51-fel?"
+        },
+        {
+          "answer": "De är relaterade men distinkta. E51 indikerar specifikt en kortslutning i motortriacen, medan E52 och E53 rör andra aspekter av motorhastighet och tachometersignalfel. Diagnostikstegen överlappar delvis, men grundorsaken och de delar som troligen behöver bytas ut kan skilja sig åt mellan dessa koder.",
+          "question": "Är E51 samma fel som E52 eller E53 på Electrolux-maskiner?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T09:11:22.544544+00:00"
+    },
+    {
+      "id": 457,
+      "article_id": 264,
+      "locale": "en",
+      "slug": "error-code-e52",
+      "title_tag": "Electrolux Washing Machine Error Code E52 | Fix It Now",
+      "meta_description": "Electrolux washing machine showing error E52? Learn what causes the motor speed signal fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code E52 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E52 on an Electrolux washing machine indicates that the motor control board is not receiving a speed signal from the tachogenerator, meaning the machine cannot monitor or regulate drum rotation.",
+      "quick_fix": "Power off the machine at the wall, wait 10 minutes, then restart a short cycle to reset the motor control board and clear any temporary signal fault (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code E52 means your Electrolux washing machine has lost communication with the tachogenerator — the small sensor attached to the motor that measures how fast the drum is spinning. Without this signal, the machine's control board has no way to regulate drum speed, so it stops the cycle and displays E52 as a safety measure.</p><p>When this error appears, the drum will typically stop mid-cycle or fail to start spinning at all. You may notice the machine pausing during the wash or spin phase, or it may refuse to progress past a certain point in the programme. In some cases the drum moves briefly then halts as the board detects the missing signal.</p><p>The fault can stem from a simple electrical connection issue or point to a worn component inside the motor assembly. Working through the checks below in order will help you identify whether this is something you can resolve at home.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty or worn tachogenerator",
+          "detail": "The tachogenerator is a small coil and magnet assembly mounted on the motor shaft. Over time the coil winding can break down or the magnet can weaken, causing it to stop producing a reliable speed signal."
+        },
+        {
+          "cause": "Loose or damaged wiring between the tachogenerator and control board",
+          "detail": "The wiring harness connecting the tachogenerator to the motor control board can work loose due to vibration, or individual wires can chafe and break. Even a partial disconnection is enough to interrupt the signal completely."
+        },
+        {
+          "cause": "Worn motor brushes",
+          "detail": "Many Electrolux washing machine motors use carbon brushes to transfer current to the rotor. When these brushes wear down, the motor runs erratically or not at all, which can prevent the tachogenerator from generating any signal."
+        },
+        {
+          "cause": "Failed motor control board (TRIAC or module)",
+          "detail": "The motor control board processes the tachogenerator signal and drives the motor. If a component on the board — such as a TRIAC — has failed, the board may be unable to read the signal even if the tachogenerator itself is working correctly."
+        },
+        {
+          "cause": "Seized or mechanically obstructed drum",
+          "detail": "If the drum cannot rotate freely due to a foreign object trapped between the drum and the tub, or a failed drum bearing, the motor stalls and the tachogenerator produces no signal, triggering E52."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reset the machine",
+          "detail": "Switch the machine off at the wall socket and leave it unplugged for at least 10 minutes. This allows the motor control board to fully discharge and can clear a temporary signal glitch. Plug back in, select a short cotton cycle, and observe whether E52 returns."
+        },
+        {
+          "step": 2,
+          "action": "Check the drum rotates freely by hand",
+          "detail": "With the machine unplugged, open the door and try turning the drum slowly by hand. It should rotate with moderate resistance but no grinding, scraping, or hard stops. If you feel or hear anything unusual, check for coins, bra wires, or other objects trapped between the drum and the door seal or tub."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the tachogenerator wiring connections",
+          "detail": "Remove the back panel of the machine (usually held by three or four screws). Locate the motor — it sits at the bottom of the machine connected to the drum by a drive belt. The tachogenerator is the small component clipped to the rear of the motor with two thin wires. Check that the connector is fully seated and that neither wire is broken, burnt, or corroded. Reseat the connector firmly."
+        },
+        {
+          "step": 4,
+          "action": "Test the tachogenerator with a multimeter",
+          "detail": "Disconnect the tachogenerator connector and set your multimeter to resistance (ohms). Place the probes on the two tachogenerator terminals. A healthy tachogenerator typically reads between 80 and 170 ohms depending on the model — check your model's service data if available. A reading of zero (short circuit) or open line (OL) indicates the tachogenerator has failed and needs replacing."
+        },
+        {
+          "step": 5,
+          "action": "Inspect and measure the motor brushes",
+          "detail": "The carbon brushes are usually accessible from the sides of the motor body and are held in place by plastic or metal holders. Remove each brush and measure its length — brushes shorter than approximately 5 mm are considered worn and should be replaced as a pair. Worn brushes are a very common cause of E52 on older machines and are an inexpensive fix."
+        },
+        {
+          "step": 6,
+          "action": "Check the drive belt",
+          "detail": "While the back panel is off, inspect the drive belt that connects the motor pulley to the drum pulley. A snapped, stretched, or slipped belt means the drum cannot turn even if the motor runs, which will prevent any tachogenerator signal. Replace the belt if it shows cracking, fraying, or excessive slack."
+        },
+        {
+          "step": 7,
+          "action": "Examine the motor control board",
+          "detail": "With the machine unplugged, locate the motor control board (often mounted near the motor or on the rear panel). Look for any visibly burnt components, scorch marks, or swollen capacitors. If you find obvious damage, the board will need to be replaced. Board testing beyond visual inspection requires specialist equipment and is best left to a service technician."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have replaced the tachogenerator and motor brushes, confirmed all wiring connections are secure, and the E52 error still returns, the fault is most likely inside the motor itself or on the motor control board. Both components require specialist diagnostic tools to test accurately, and incorrect board replacement can cause further damage to the machine.</p><p>You should also call a service technician if the motor produces a burning smell, makes loud grinding noises, or if you notice any scorching around the motor control board. These signs suggest an electrical fault that carries a safety risk and should not be investigated further without professional equipment.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E52 fault are the tachogenerator, the motor carbon brushes, and the drive belt. Brushes in particular are a wear item that should be checked every few years on machines used daily — replacing them before they wear completely can prevent motor damage and avoid the E52 error appearing in the first place. Keeping the machine level and avoiding overloading also reduces the vibration that can loosen wiring connectors over time.</p><p>Use the parts finder below to locate compatible components for your specific Electrolux model.</p>\n<!-- SPARE_PARTS:E52 -->",
+      "faq_json": [
+        {
+          "answer": "No. When E52 is active the machine has stopped the cycle because it cannot control drum speed safely. Running it in this state risks damaging the motor or control board further. Resolve the fault before using the machine again.",
+          "question": "Can I still use my washing machine while it shows E52?"
+        },
+        {
+          "answer": "A replacement tachogenerator typically costs between £10 and £30 for the part. If you fit it yourself the total cost is just the part. A service technician call-out will add a labour charge on top, usually bringing the total to £80–£150 depending on your location.",
+          "question": "How much does it cost to replace a tachogenerator on an Electrolux washing machine?"
+        },
+        {
+          "answer": "Test the tachogenerator with a multimeter first — it's the quickest check. If the resistance reading is within the normal range, move on to inspecting the brushes. Worn brushes often produce a burning smell or visible carbon dust around the motor body, which is a strong indicator they are the cause.",
+          "question": "How do I know if it's the brushes or the tachogenerator causing E52?"
+        },
+        {
+          "answer": "A reset will only fix E52 permanently if the fault was caused by a one-off electrical glitch. If the error returns after the reset, there is an underlying mechanical or electrical fault that needs to be identified and repaired. Repeated resets without fixing the root cause can mask a worsening problem.",
+          "question": "Will resetting the machine permanently fix E52?"
+        },
+        {
+          "answer": "They are related but different. E51 typically indicates a motor control board fault or a short circuit in the motor circuit, while E52 specifically points to the absence of a tachogenerator speed signal. The diagnostic steps overlap — particularly checking wiring and the motor — but E52 directs you to focus on the tachogenerator first.",
+          "question": "Is E52 the same as E51 on Electrolux machines?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T09:12:13.469793+00:00"
+    },
+    {
+      "id": 458,
+      "article_id": 264,
+      "locale": "sv",
+      "slug": "felkod-e52",
+      "title_tag": "Electrolux Tvättmaskin Felkod E52 | Åtgärda Det Nu",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E52? Lär dig vad som orsakar felet med motorvarvtalssignalen och hur du åtgärdar det själv innan du kontaktar en servicetekni",
+      "h1": "Vad Betyder Felkod E52 på en Electrolux Tvättmaskin?",
+      "description": "Felkod E52 på en Electrolux tvättmaskin indikerar att motorstyrkortet inte tar emot en varvtalssignal från tachogeneratorn, vilket innebär att maskinen inte kan övervaka eller reglera trummans rotation.",
+      "quick_fix": "Stäng av maskinen vid vägguttaget, vänta 10 minuter och starta sedan ett kort program för att återställa motorstyrkortet och rensa eventuellt tillfälligt signalfel (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod E52 betyder att din Electrolux tvättmaskin har förlorat kommunikationen med tachogeneratorn — den lilla sensorn som sitter monterad på motorn och mäter hur snabbt trumman snurrar. Utan denna signal har maskinens styrkort inget sätt att reglera trummans hastighet, och den stoppar därför programmet och visar E52 som en säkerhetsåtgärd.</p><p>När detta fel uppstår stannar trumman vanligtvis mitt i programmet eller misslyckas med att börja snurra överhuvudtaget. Du kan märka att maskinen pausar under tvätt- eller centrifugeringsfasen, eller att den vägrar att fortsätta förbi en viss punkt i programmet. I vissa fall rör sig trumman kort och stannar sedan när styrkortet upptäcker den saknade signalen.</p><p>Felet kan bero på ett enkelt elektriskt anslutningsproblem eller peka på en sliten komponent inuti motorenheten. Genom att gå igenom kontrollerna nedan i ordning kan du avgöra om detta är något du kan lösa hemma.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt eller sliten tachogenerator",
+          "detail": "Tachogeneratorn är en liten spole- och magnetenhet monterad på motoraxeln. Med tiden kan spollindningen brytas ned eller magneten försvagas, vilket gör att den slutar producera en tillförlitlig varvtalssignal."
+        },
+        {
+          "cause": "Lös eller skadad kabelstam mellan tachogeneratorn och styrkortet",
+          "detail": "Kabelstammen som förbinder tachogeneratorn med motorstyrkortet kan lossna på grund av vibrationer, eller enskilda kablar kan nötas och gå av. Även en partiell frånkoppling räcker för att helt avbryta signalen."
+        },
+        {
+          "cause": "Slitna motorborstar",
+          "detail": "Många Electrolux tvättmaskinsmotorer använder kolborstar för att överföra ström till rotorn. När dessa borstar slits ned fungerar motorn oregelbundet eller inte alls, vilket kan hindra tachogeneratorn från att generera någon signal."
+        },
+        {
+          "cause": "Defekt motorstyrkortet (TRIAC eller modul)",
+          "detail": "Motorstyrkortet bearbetar tachogeneratorsignalen och driver motorn. Om en komponent på kortet — till exempel en TRIAC — har gått sönder kan kortet vara oförmöget att läsa signalen även om tachogeneratorn i sig fungerar korrekt."
+        },
+        {
+          "cause": "Blockerad eller mekaniskt hindrad trumma",
+          "detail": "Om trumman inte kan rotera fritt på grund av ett främmande föremål som fastnat mellan trumman och karet, eller ett defekt trummlager, stannar motorn och tachogeneratorn producerar ingen signal, vilket utlöser E52."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Återställ maskinen",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den stå urkopplad i minst 10 minuter. Detta låter motorstyrkortet laddas ur helt och kan rensa ett tillfälligt signalfel. Koppla in igen, välj ett kort bomullsprogram och observera om E52 återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera att trumman roterar fritt för hand",
+          "detail": "Med maskinen urkopplad, öppna luckan och försök vrida trumman långsamt för hand. Den ska rotera med måttligt motstånd men utan slipljud, skrapljud eller hårda stopp. Om du känner eller hör något ovanligt, kontrollera om mynt, bh-byglar eller andra föremål har fastnat mellan trumman och lucktätningen eller karet."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera tachogeneratorns kabelanslutningar",
+          "detail": "Ta bort maskinens bakpanel (vanligtvis fäst med tre eller fyra skruvar). Lokalisera motorn — den sitter längst ned i maskinen och är ansluten till trumman via ett drivrem. Tachogeneratorn är den lilla komponenten som är fäst på motorns baksida med två tunna kablar. Kontrollera att kontakten sitter ordentligt och att ingen kabel är bruten, bränd eller korroderad. Sätt i kontakten ordentligt igen."
+        },
+        {
+          "step": 4,
+          "action": "Testa tachogeneratorn med en multimeter",
+          "detail": "Koppla loss tachogeneratorns kontakt och ställ in multimetern på motstånd (ohm). Placera mätsonderna på tachogeneratorns två anslutningar. En felfri tachogenerator ger vanligtvis ett värde mellan 80 och 170 ohm beroende på modell — kontrollera din modells servicedata om det finns tillgängligt. Ett värde på noll (kortslutning) eller öppen krets (OL) indikerar att tachogeneratorn har gått sönder och behöver bytas."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera och mät motorborstarna",
+          "detail": "Kolborstarna är vanligtvis åtkomliga från motorns sidor och hålls på plats av plast- eller metallhållare. Ta ut varje borste och mät dess längd — borstar kortare än ungefär 5 mm anses slitna och bör bytas ut som ett par. Slitna borstar är en mycket vanlig orsak till E52 på äldre maskiner och är en billig åtgärd."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera drivremmen",
+          "detail": "Medan bakpanelen är borttagen, inspektera drivremmen som förbinder motorns remskiva med trummans remskiva. En trasig, utsträckt eller urspårad rem innebär att trumman inte kan rotera även om motorn går, vilket förhindrar all tachogeneratorsignal. Byt remmen om den visar sprickor, fransar eller för stort glapp."
+        },
+        {
+          "step": 7,
+          "action": "Undersök motorstyrkortet",
+          "detail": "Med maskinen urkopplad, lokalisera motorstyrkortet (ofta monterat nära motorn eller på bakpanelen). Leta efter synligt brända komponenter, brännmärken eller uppsvällda kondensatorer. Om du hittar uppenbara skador måste kortet bytas ut. Korttestning utöver visuell inspektion kräver specialutrustning och bör överlåtas till en servicetekniker."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har bytt tachogeneratorn och motorborstarna, bekräftat att alla kabelanslutningar sitter säkert och E52-felet ändå återkommer, beror felet troligtvis på motorn i sig eller på motorstyrkortet. Båda komponenterna kräver specialiserade diagnostikverktyg för att testas korrekt, och felaktigt kortbyte kan orsaka ytterligare skador på maskinen.</p><p>Du bör också kontakta en servicetekniker om motorn avger en bränd lukt, ger ifrån sig höga slipljud, eller om du märker förkolning runt motorstyrkortet. Dessa tecken tyder på ett elektriskt fel som innebär en säkerhetsrisk och bör inte undersökas vidare utan professionell utrustning.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E52-fel är tachogeneratorn, motorns kolborstar och drivremmen. Borstar är i synnerhet en förslitningsdel som bör kontrolleras vart par år på maskiner som används dagligen — att byta dem innan de slits helt kan förhindra motorskador och undvika att E52-felet uppstår överhuvudtaget. Att hålla maskinen i vågrätt läge och undvika överlastning minskar också de vibrationer som kan lossa kabelkontakter med tiden.</p><p>Använd reservdelsverktyget nedan för att hitta kompatibla komponenter till din specifika Electrolux-modell.</p>\n<!-- SPARE_PARTS:E52 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. När E52 är aktivt har maskinen stoppat programmet eftersom den inte kan styra trummans hastighet på ett säkert sätt. Att köra den i detta tillstånd riskerar att skada motorn eller styrkortet ytterligare. Åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag fortfarande använda min tvättmaskin när den visar E52?"
+        },
+        {
+          "answer": "En ersättningstachogenerator kostar vanligtvis mellan 150 och 350 kronor för delen. Om du monterar den själv är totalkostnaden bara delen. En servicetekniker tillkommer med ett utryckningsarvode utöver detta, vilket vanligtvis ger en totalkostnad på 900–1 700 kronor beroende på var du bor.",
+          "question": "Hur mycket kostar det att byta tachogenerator på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Testa tachogeneratorn med en multimeter först — det är den snabbaste kontrollen. Om motståndet ligger inom normalvärdet, gå vidare och inspektera borstarna. Slitna borstar ger ofta en bränd lukt eller synligt kolstoft runt motorkroppen, vilket är ett tydligt tecken på att de är orsaken.",
+          "question": "Hur vet jag om det är borstarna eller tachogeneratorn som orsakar E52?"
+        },
+        {
+          "answer": "En återställning åtgärdar E52 permanent endast om felet orsakades av ett engångsfel i elektroniken. Om felet återkommer efter återställningen finns det ett underliggande mekaniskt eller elektriskt fel som behöver identifieras och åtgärdas. Upprepade återställningar utan att åtgärda grundorsaken kan dölja ett förvärrat problem.",
+          "question": "Kommer en återställning av maskinen att åtgärda E52 permanent?"
+        },
+        {
+          "answer": "De är relaterade men olika. E51 indikerar vanligtvis ett fel på motorstyrkortet eller en kortslutning i motorcirkeln, medan E52 specifikt pekar på avsaknaden av en tachogeneratorvarvtalssignal. Diagnostikstegen överlappar — särskilt kontroll av kablar och motor — men E52 leder dig till att fokusera på tachogeneratorn först.",
+          "question": "Är E52 detsamma som E51 på Electrolux-maskiner?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T09:13:17.752105+00:00"
+    },
+    {
+      "id": 459,
+      "article_id": 265,
+      "locale": "en",
+      "slug": "error-code-e54",
+      "title_tag": "Electrolux Washing Machine Error Code E54 | Fix It Now",
+      "meta_description": "Electrolux washing machine showing error code E54? Learn what causes a motor relay fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E54 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E54 on an Electrolux washing machine indicates a motor relay malfunction, meaning the relay responsible for controlling the motor has failed or is not operating correctly.",
+      "quick_fix": "Power off the washing machine at the wall socket, wait 10 minutes to allow the control board to fully reset, then switch it back on and restart the cycle — if the relay tripped due to a temporary voltage spike, this can clear the fault (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code E54 points to a problem with the motor relay — a small but critical electrical component on the control board that switches power to the drum motor on and off. When this relay fails or sends an unexpected signal, the machine's control system detects the fault and halts the cycle to prevent further damage.</p><p>When E54 appears, the washing machine will typically stop mid-cycle or refuse to start a new one. The drum will not spin, and the display will hold the error code until the fault is resolved. In some cases the machine may attempt to restart and fail repeatedly before locking out entirely.</p><p>This is primarily an electrical fault rather than a mechanical one, so there are no unusual noises or leaks to look for. The issue lies in the communication between the control board and the motor drive circuit.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty or burnt motor relay on the control board",
+          "detail": "The relay itself can fail due to age, overheating, or electrical stress. A burnt or welded relay contact is the most common root cause of E54 and usually requires board repair or replacement."
+        },
+        {
+          "cause": "Voltage spike or power surge",
+          "detail": "A sudden surge from the mains supply can cause the relay to trip or the control board to register a false fault. This is often a one-off event and may clear after a full power reset."
+        },
+        {
+          "cause": "Damaged wiring or loose connector between the control board and motor",
+          "detail": "Vibration over time can loosen the wiring harness connectors that link the control board to the motor. A poor connection can mimic a relay fault and trigger E54."
+        },
+        {
+          "cause": "Failing or seized drum motor",
+          "detail": "If the motor is drawing excessive current due to worn brushes or a mechanical seizure, the relay may cut out as a protective response. The relay itself may be functioning correctly but responding to an overloaded motor."
+        },
+        {
+          "cause": "Defective main control board (PCB)",
+          "detail": "Beyond the relay component itself, broader PCB failure — such as a cracked solder joint or failed capacitor — can cause incorrect relay signals. In this case the entire board may need to be replaced."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a full power reset",
+          "detail": "Switch the machine off at the wall socket — not just the appliance power button — and leave it unplugged for at least 10 minutes. This allows the control board capacitors to discharge fully. Plug back in, select a short cycle, and check whether E54 returns."
+        },
+        {
+          "step": 2,
+          "action": "Check the mains supply and socket",
+          "detail": "Plug the machine into a different socket if possible, or test the original socket with another appliance. An unstable or low-voltage supply can cause relay faults. If you have a surge-protected extension lead, remove it — some machines react poorly to the resistance these introduce."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the drum for mechanical resistance",
+          "detail": "Open the door and try turning the drum by hand. It should rotate smoothly with only light resistance. If it feels stiff, grinds, or won't turn at all, there may be a foreign object caught in the drum or a bearing problem that is overloading the motor and triggering the relay fault."
+        },
+        {
+          "step": 4,
+          "action": "Check for items caught between the drum and door seal",
+          "detail": "Small items such as coins, bra wires, or buttons can become lodged between the drum and the outer tub, causing the motor to strain. Peel back the door seal carefully and look around the full circumference for any trapped objects."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the wiring harness connectors",
+          "detail": "If you are comfortable working inside the machine after disconnecting it from the mains, remove the back panel and locate the wiring connectors running from the control board to the motor. Press each connector firmly to reseat it. Look for any wires that appear scorched, pinched, or have pulled free from their terminals."
+        },
+        {
+          "step": 6,
+          "action": "Check the motor brushes (brush motor models only)",
+          "detail": "On models fitted with a brushed motor, worn carbon brushes can cause the motor to draw high current and stress the relay. The brushes are accessible from the rear of the motor and should be at least 15 mm long. If they are worn down to a stub, replace them — brush kits are widely available and straightforward to fit."
+        },
+        {
+          "step": 7,
+          "action": "Arrange a control board inspection",
+          "detail": "If all the above steps fail to resolve E54, the fault is most likely a failed relay or broader PCB damage. At this point the control board needs to be inspected with a multimeter by someone with electronics experience, or replaced. Note the full model number from the rating plate inside the door frame before ordering parts."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If E54 returns immediately after a power reset, or if you can see visible burn marks, a smell of scorched plastic, or melted components anywhere near the control board or motor wiring, stop using the machine and contact a service technician. These signs indicate electrical damage that is not safe to ignore or attempt to repair without proper training and equipment.</p><p>You should also call a service technician if the drum is completely seized and will not turn by hand, or if replacing the motor brushes does not resolve the fault. A technician can test the relay directly with a multimeter, assess whether the PCB can be repaired or must be replaced, and check the motor windings for damage.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when diagnosing and fixing error code E54 are the main control board (PCB), the motor carbon brushes, and the motor wiring harness. In some cases only the relay component on the PCB is replaced rather than the whole board, though this requires soldering skills. Having the correct model number to hand will ensure you order the right part first time.</p><p>To reduce the risk of relay faults recurring, avoid overloading the drum, which puts sustained strain on the motor and the relay that controls it. Using a mains surge protector can also help protect the control board from voltage spikes, particularly in areas prone to unstable power supply.</p>\n<!-- SPARE_PARTS:E54 -->",
+      "faq_json": [
+        {
+          "answer": "No — you should not continue running the machine with an active E54 fault. The motor relay is not functioning correctly, which means the motor may not be receiving safe, controlled power. Continuing to use it risks further damage to the control board or motor, and in rare cases could pose an electrical safety risk.",
+          "question": "Can I still use my Electrolux washing machine while it shows E54?"
+        },
+        {
+          "answer": "A power reset (unplugging from the wall for 10 minutes) can clear E54 if the fault was caused by a temporary voltage spike rather than a physical component failure. However, if the relay or control board is genuinely faulty, the code will return as soon as the machine tries to run the motor again. A reset is always worth trying first, but it is not a permanent fix for a hardware fault.",
+          "question": "Will a factory reset clear error code E54?"
+        },
+        {
+          "answer": "If the fix is simply replacing the motor brushes, parts typically cost between £10 and £25 and you can do it yourself. A replacement control board is more expensive, usually £60 to £150 for the part alone, plus a service technician's labour if you are not fitting it yourself. It is worth getting a quote before committing, particularly on older machines.",
+          "question": "How much does it cost to fix an E54 error on an Electrolux washing machine?"
+        },
+        {
+          "answer": "Not exactly. E54 specifically relates to the relay that controls the motor, rather than the motor itself. However, a failing motor can cause the relay to cut out as a protective measure, so the two faults are sometimes connected. A service technician will test both the relay and the motor to identify which component is the root cause.",
+          "question": "Is E54 the same as a motor fault on Electrolux machines?"
+        },
+        {
+          "answer": "For a service technician with the correct part already sourced, replacing a control board on an Electrolux washing machine typically takes one to two hours. The main time variable is sourcing the correct board for your specific model, which can take a few days if it needs to be ordered. Always provide the full model number from the rating plate to avoid delays.",
+          "question": "How long does a control board replacement take?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T09:14:17.806518+00:00"
+    },
+    {
+      "id": 460,
+      "article_id": 265,
+      "locale": "sv",
+      "slug": "felkod-e54",
+      "title_tag": "Electrolux Tvättmaskin Felkod E54 | Åtgärda Det Nu",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E54? Lär dig vad som orsakar ett motorreläfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod E54 på en Electrolux Tvättmaskin?",
+      "description": "Felkod E54 på en Electrolux tvättmaskin indikerar ett fel på motorrelät, vilket innebär att reläet som styr motorn har gått sönder eller inte fungerar korrekt.",
+      "quick_fix": "Stäng av tvättmaskinen vid vägguttaget, vänta 10 minuter så att styrkortet hinner återställas helt, sätt sedan på strömmen igen och starta om programmet — om reläet löste ut på grund av en tillfällig spänningspik kan detta rensa felet (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod E54 pekar på ett problem med motorrelät — en liten men kritisk elektrisk komponent på styrkortet som kopplar in och ur strömmen till trummmotorn. När detta relä går sönder eller skickar en oväntad signal upptäcker maskinens styrsystem felet och stoppar programmet för att förhindra ytterligare skador.</p><p>När E54 visas stannar tvättmaskinen vanligtvis mitt i ett program eller vägrar att starta ett nytt. Trumman snurrar inte och displayen visar felkoden tills felet är åtgärdat. I vissa fall kan maskinen försöka starta om och misslyckas upprepade gånger innan den låser sig helt.</p><p>Detta är i första hand ett elektriskt fel snarare än ett mekaniskt, så det finns inga ovanliga ljud eller läckor att leta efter. Problemet ligger i kommunikationen mellan styrkortet och motorns drivkrets.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt eller bränt motorrelä på styrkortet",
+          "detail": "Reläet i sig kan gå sönder på grund av ålder, överhettning eller elektrisk belastning. En bränd eller sammansvetsad reläkontakt är den vanligaste grundorsaken till E54 och kräver vanligtvis reparation eller byte av kortet."
+        },
+        {
+          "cause": "Spänningspik eller strömstöt",
+          "detail": "En plötslig spänningspik från elnätet kan få reläet att lösa ut eller styrkortet att registrera ett falskt fel. Detta är ofta en engångshändelse och kan försvinna efter en fullständig återställning av strömmen."
+        },
+        {
+          "cause": "Skadad kablage eller lös kontakt mellan styrkortet och motorn",
+          "detail": "Vibrationer över tid kan lossa kabelstammens kontakter som förbinder styrkortet med motorn. En dålig anslutning kan efterlikna ett reläfel och utlösa E54."
+        },
+        {
+          "cause": "Defekt eller låst trummotor",
+          "detail": "Om motorn drar för hög ström på grund av slitna kolborstar eller en mekanisk låsning kan reläet lösa ut som ett skydd. Reläet i sig kan fungera korrekt men reagerar på en överbelastad motor."
+        },
+        {
+          "cause": "Defekt huvudstyrkort (PCB)",
+          "detail": "Utöver reläkomponenten i sig kan ett bredare PCB-fel — som en sprucken lödfog eller en defekt kondensator — orsaka felaktiga relästyrningssignaler. I detta fall kan hela kortet behöva bytas ut."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en fullständig återställning av strömmen",
+          "detail": "Stäng av maskinen vid vägguttaget — inte bara med apparatens strömknapp — och låt den vara urkopplad i minst 10 minuter. Detta gör att styrkortet kondensatorer hinner ladda ur helt. Koppla in igen, välj ett kort program och kontrollera om E54 återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera elnätet och uttaget",
+          "detail": "Koppla maskinen till ett annat uttag om möjligt, eller testa det ursprungliga uttaget med en annan apparat. En instabil eller låg spänning kan orsaka reläfel. Om du använder en överspänningsskyddad grenuttag, ta bort den — vissa maskiner reagerar negativt på det motstånd dessa introducerar."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera trumman för mekaniskt motstånd",
+          "detail": "Öppna luckan och försök vrida trumman för hand. Den ska rotera mjukt med endast lätt motstånd. Om den känns stel, gnisslar eller inte går att vrida alls kan det finnas ett främmande föremål fastnat i trumman eller ett lagerproblem som överbelastar motorn och utlöser reläfelet."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera om föremål fastnat mellan trumman och dörrtätningen",
+          "detail": "Små föremål som mynt, bh-byglar eller knappar kan fastna mellan trumman och det yttre karet, vilket gör att motorn ansträngs. Vik försiktigt tillbaka dörrtätningen och titta runt hela omkretsen efter eventuella fastnade föremål."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera kabelstammens kontakter",
+          "detail": "Om du känner dig bekväm med att arbeta inuti maskinen efter att ha kopplat bort den från elnätet, ta bort bakpanelen och lokalisera kabelkontakterna som löper från styrkortet till motorn. Tryck in varje kontakt ordentligt för att sätta tillbaka den. Leta efter kablar som ser brända ut, är inklämd eller har lossnat från sina anslutningar."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera motorkolborstarna (endast modeller med kolborstmotor)",
+          "detail": "På modeller utrustade med en kolborstmotor kan slitna kolborstar få motorn att dra hög ström och belasta reläet. Kolborstarna är åtkomliga från motorns baksida och bör vara minst 15 mm långa. Om de är nednötta till en stubbe, byt ut dem — borstkit finns allmänt tillgängliga och är enkla att montera."
+        },
+        {
+          "step": 7,
+          "action": "Boka en inspektion av styrkortet",
+          "detail": "Om alla ovanstående steg inte löser E54 är felet troligtvis ett defekt relä eller bredare PCB-skada. Vid det här laget behöver styrkortet inspekteras med en multimeter av någon med elektronikerfarenhet, eller bytas ut. Notera det fullständiga modellnumret från typskylten inuti lucköppningen innan du beställer reservdelar."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om E54 återkommer omedelbart efter en återställning av strömmen, eller om du kan se synliga brännmärken, luktar bränd plast eller ser smälta komponenter någonstans nära styrkortet eller motorns kablage, sluta använda maskinen och kontakta en servicetekniker. Dessa tecken indikerar elektriska skador som inte är säkra att ignorera eller försöka reparera utan rätt utbildning och utrustning.</p><p>Du bör också kontakta en servicetekniker om trumman är helt låst och inte går att vrida för hand, eller om byte av motorkolborstarna inte löser felet. En tekniker kan testa reläet direkt med en multimeter, bedöma om PCB:n kan repareras eller måste bytas ut, och kontrollera motorlindningarna för skador.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid diagnostisering och åtgärdande av felkod E54 är huvudstyrkortet (PCB), motorns kolborstar och motorns kabelstam. I vissa fall byts bara reläkomponenten på PCB:n ut snarare än hela kortet, men detta kräver lödkunskaper. Att ha rätt modellnummer till hands säkerställer att du beställer rätt del på första försöket.</p><p>För att minska risken för att reläfel återkommer, undvik att överlasta trumman, vilket utsätter motorn och det relä som styr den för ihållande belastning. Att använda ett överspänningsskydd kan också hjälpa till att skydda styrkortet mot spänningspikar, särskilt i områden med instabil strömförsörjning.</p>\n<!-- SPARE_PARTS:E54 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — du bör inte fortsätta köra maskinen med ett aktivt E54-fel. Motorrelät fungerar inte korrekt, vilket innebär att motorn kanske inte får säker, kontrollerad ström. Att fortsätta använda den riskerar ytterligare skador på styrkortet eller motorn, och i sällsynta fall kan det utgöra en elektrisk säkerhetsrisk.",
+          "question": "Kan jag fortsätta använda min Electrolux tvättmaskin när den visar E54?"
+        },
+        {
+          "answer": "En återställning av strömmen (koppla ur från vägguttaget i 10 minuter) kan rensa E54 om felet orsakades av en tillfällig spänningspik snarare än ett fysiskt komponentfel. Om reläet eller styrkortet däremot är genuint defekt kommer koden att återkomma så snart maskinen försöker köra motorn igen. En återställning är alltid värd att prova först, men det är ingen permanent lösning på ett hårdvarufel.",
+          "question": "Kan en fabriksåterställning rensa felkod E54?"
+        },
+        {
+          "answer": "Om lösningen enbart innebär att byta motorkolborstar kostar reservdelarna vanligtvis mellan 100 och 250 kronor och du kan göra det själv. Ett ersättningsstyrkort är dyrare, vanligtvis 600 till 1 500 kronor för delen ensam, plus en serviceteknikers arbetskostnad om du inte monterar det själv. Det är värt att begära en offert innan du bestämmer dig, särskilt på äldre maskiner.",
+          "question": "Hur mycket kostar det att åtgärda ett E54-fel på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Inte exakt. E54 avser specifikt det relä som styr motorn, snarare än motorn i sig. En defekt motor kan dock få reläet att lösa ut som ett skydd, så de två felen är ibland sammankopplade. En servicetekniker testar både reläet och motorn för att identifiera vilken komponent som är grundorsaken.",
+          "question": "Är E54 detsamma som ett motorfel på Electrolux-maskiner?"
+        },
+        {
+          "answer": "För en servicetekniker med rätt del redan anskaffad tar ett byte av styrkortet på en Electrolux tvättmaskin vanligtvis en till två timmar. Den huvudsakliga tidsvariabeln är att anskaffa rätt kort för din specifika modell, vilket kan ta några dagar om det behöver beställas. Uppge alltid det fullständiga modellnumret från typskylten för att undvika förseningar.",
+          "question": "Hur lång tid tar ett byte av styrkortet?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T09:15:22.155451+00:00"
+    }
+  ]
+}

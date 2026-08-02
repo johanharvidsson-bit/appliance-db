@@ -1,0 +1,1101 @@
+{
+  "batch": "023-lg-samsung-transition",
+  "article_ids": [
+    157,
+    161,
+    7,
+    8,
+    9
+  ],
+  "articles": [
+    {
+      "id": 7,
+      "error_code_id": 44,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 8,
+      "error_code_id": 46,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 9,
+      "error_code_id": 102,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 157,
+      "error_code_id": null,
+      "fault_id": 25,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 161,
+      "error_code_id": null,
+      "fault_id": 29,
+      "status": "published",
+      "article_type": "fault"
+    }
+  ],
+  "rows": [
+    {
+      "id": 20,
+      "article_id": 7,
+      "locale": "en",
+      "slug": "samsung-error-code-15c",
+      "title_tag": "Samsung Washing Machine Error Code 15C | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code 15C? Learn what causes this drain fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code 15C Mean on a Samsung Washing Machine?",
+      "description": "Error code 15C on a Samsung washing machine indicates a drain fault, specifically that the control board has detected an abnormal resistance reading from the drain pump motor.",
+      "quick_fix": "Clean out the drain pump filter — located behind the small access panel at the bottom front of the machine — removing any debris or blockages, then restart the cycle to clear the error (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code 15C appears when your Samsung washing machine's control board measures an unexpected resistance level from the drain pump. This tells the machine that the pump is either struggling to operate or not responding correctly — so as a safety measure, the wash cycle is halted and the error is displayed on the control panel.</p><p>In practical terms, you may notice that the drum has stopped mid-cycle with water still sitting inside, or that the machine refuses to start a new cycle at all. The drain pump is responsible for removing water from the drum at the end of each wash and spin phase, so when it fails or is obstructed, water cannot exit and the machine protects itself by stopping.</p><p>The good news is that the most common causes of 15C are straightforward to investigate at home without specialist tools, and many cases are resolved simply by clearing a blockage from the pump filter.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked or clogged drain pump filter",
+          "detail": "Lint, coins, hair clips, and small items of clothing can accumulate in the pump filter over time, restricting water flow and placing extra load on the pump motor. This increased resistance is detected by the control board and triggers the 15C error."
+        },
+        {
+          "cause": "Kinked or blocked drain hose",
+          "detail": "If the drain hose running from the back of the machine to the standpipe or sink is kinked, squashed, or partially blocked, water cannot exit freely. The pump then works harder than normal, which can cause resistance readings to fall outside the expected range."
+        },
+        {
+          "cause": "Faulty or worn drain pump motor",
+          "detail": "Over time, the pump motor windings can degrade, causing the electrical resistance to shift outside the tolerance the control board expects. A pump that hums but does not move water, or one that is completely silent, is a strong indicator of motor failure."
+        },
+        {
+          "cause": "Foreign object lodged inside the pump impeller",
+          "detail": "Even after cleaning the filter, a small object such as a coin or button can pass through and jam the pump impeller. A jammed impeller prevents the pump from spinning, which the control board reads as an abnormal resistance condition."
+        },
+        {
+          "cause": "Wiring or connector fault between pump and control board",
+          "detail": "Loose, corroded, or damaged wiring between the drain pump and the main PCB can cause intermittent or incorrect resistance readings. This type of fault often produces an error that appears and disappears without an obvious pattern."
+        },
+        {
+          "cause": "Faulty main control board (PCB)",
+          "detail": "In less common cases, the control board itself may be misreading the pump's resistance due to a component failure on the board. This is usually only suspected after the pump and wiring have been checked and found to be in good condition."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Before doing anything else, turn the washing machine off at the control panel and unplug it from the wall socket. If there is water in the drum, wait a few minutes — some water may drain by gravity once the machine is off. Have a shallow tray and some old towels ready before you open the filter."
+        },
+        {
+          "step": 2,
+          "action": "Clean the drain pump filter",
+          "detail": "Open the small rectangular access panel at the bottom front of the machine. You will see a short emergency drain hose and a round filter cap. Pull out the drain hose, remove its stopper, and let any remaining water drain into your tray. Once empty, unscrew the filter cap anticlockwise and pull it out. Remove all debris — lint, coins, hair, and any other objects — rinse the filter under a tap, then refit it firmly."
+        },
+        {
+          "step": 3,
+          "action": "Check the drain hose for kinks or blockages",
+          "detail": "Pull the machine slightly away from the wall and inspect the full length of the drain hose. Straighten any kinks and make sure the hose is not squashed behind the machine or bent sharply at the standpipe connection. Also check that the end of the hose is not pushed too far down into the standpipe, which can create a siphoning effect that interferes with drainage."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the pump impeller for obstructions",
+          "detail": "With the filter removed, shine a torch into the pump housing and look for any object lodged in the impeller blades. Try turning the impeller gently with your finger — it should rotate freely with only slight resistance. If it is stiff or completely locked, there is likely a foreign object jammed inside that will need to be carefully extracted."
+        },
+        {
+          "step": 5,
+          "action": "Restart the machine and run a short cycle",
+          "detail": "Refit the filter cap securely, close the access panel, and plug the machine back in. Select a short cotton cycle or a drain-only programme and observe whether the machine drains normally and the error clears. If the 15C code does not return, the blockage was the cause and no further action is needed."
+        },
+        {
+          "step": 6,
+          "action": "Check the pump wiring connections",
+          "detail": "If the error persists, unplug the machine again and carefully pull it away from the wall to access the back panel or tilt it to reach the pump underneath. Locate the wiring connector on the pump body and check that it is fully seated and free from corrosion or visible damage. Disconnect and firmly reconnect the connector, then retest."
+        },
+        {
+          "step": 7,
+          "action": "Test or replace the drain pump",
+          "detail": "If all the above steps have been completed without resolving the fault, the pump motor itself is likely defective. You can use a multimeter set to the resistance (ohms) setting to test the pump terminals — consult your model's service documentation for the expected resistance value. A reading that is open circuit or significantly outside the specified range confirms the pump needs replacing."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have cleaned the filter, cleared the hose, confirmed the impeller turns freely, and reseated the wiring connector — but the 15C error still appears — the fault is most likely inside the pump motor itself or on the main control board. Replacing a drain pump is a manageable DIY task for a confident homeowner, but if you are uncomfortable working around electrical components or accessing the pump requires significant disassembly, it is sensible to stop and book a visit.</p><p>You should also call a service technician if the machine is still under warranty, if you notice any burning smell near the pump area, or if the error code returns shortly after a new pump has been fitted — as this may point to a PCB fault that requires specialist diagnosis and equipment to confirm.</p>",
+      "prevention_html": "<p>The most commonly replaced parts when resolving a Samsung 15C error are the <strong>drain pump assembly</strong>, the <strong>pump filter housing</strong> (if cracked or damaged during cleaning), and the <strong>drain hose</strong> if it has developed a split or permanent kink. In a smaller number of cases, the <strong>pump wiring harness</strong> also needs replacement where corrosion or chafing has caused an intermittent connection.</p><p>To reduce the risk of 15C recurring, clean the pump filter every one to three months depending on how frequently you use the machine. Always check pockets before loading a wash — coins and small clips are the most common cause of impeller jams. Using the correct amount of detergent also helps, as excess suds can leave residue that builds up in the pump over time.</p>\n<!-- SPARE_PARTS:15C -->",
+      "faq_json": [
+        {
+          "answer": "No — when 15C is active, the machine has halted the cycle because it cannot drain safely. Running it in this state risks leaving standing water in the drum for extended periods, which can cause odours and potential damage to internal components. Resolve the fault before using the machine again.",
+          "question": "Can I still use my Samsung washing machine while it shows error code 15C?"
+        },
+        {
+          "answer": "Samsung generally recommends cleaning the pump filter every one to three months for a typical household. If you wash heavily soiled items, pet bedding, or items that shed a lot of lint, clean it monthly. A quick clean takes less than ten minutes and is the single most effective way to prevent drain-related errors.",
+          "question": "How often should I clean the drain pump filter on my Samsung washing machine?"
+        },
+        {
+          "answer": "In most cases, yes — once the underlying fault is resolved and you restart the machine, the error will clear automatically when the control board detects that the pump is operating within its normal resistance range. If the code reappears immediately after restarting, the fault has not been fully resolved and further investigation is needed.",
+          "question": "Will the 15C error clear itself after I fix the blockage?"
+        },
+        {
+          "answer": "They are related but not identical. Codes 5C and SC on older Samsung models indicate a general drain failure — the machine cannot drain water. Code 15C is more specific and refers to an abnormal resistance reading from the drain pump motor itself. The diagnostic steps overlap significantly, but 15C more directly points to the pump's electrical condition.",
+          "question": "Is error code 15C the same as error code 5C or SC on Samsung machines?"
+        },
+        {
+          "answer": "A replacement drain pump for a Samsung washing machine typically costs between £20 and £50 for the part, depending on the model. If you fit it yourself, that is your total cost. A service technician call-out to supply and fit the pump will usually bring the total to somewhere between £80 and £150, varying by region and the specific model involved.",
+          "question": "How much does it typically cost to replace a Samsung washing machine drain pump?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:33.004963+00:00"
+    },
+    {
+      "id": 25,
+      "article_id": 7,
+      "locale": "sv",
+      "slug": "samsung-felkod-15c",
+      "title_tag": "Samsung Tvättmaskin Felkod 15C | Åtgärda Det Nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod 15C? Lär dig vad som orsakar detta avloppsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod 15C på en Samsung Tvättmaskin?",
+      "description": "Felkod 15C på en Samsung tvättmaskin indikerar ett avloppsfel – mer specifikt att styrkortet har detekterat ett onormalt motståndsvärde från avloppspumpens motor.",
+      "quick_fix": "Rengör avloppspumpens filter – som sitter bakom den lilla luckan längst ned på maskinens framsida – ta bort eventuellt skräp och blockeringar och starta sedan om programmet för att rensa felet (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod 15C visas när Samsung tvättmaskinens styrkort mäter en oväntad motståndsnivå från avloppspumpen. Detta signalerar att pumpen antingen har svårt att arbeta eller inte svarar korrekt – som en säkerhetsåtgärd avbryts därför tvättcykeln och felet visas på kontrollpanelen.</p><p>I praktiken kan du märka att trumman har stannat mitt i ett program med vatten kvar inuti, eller att maskinen vägrar starta ett nytt program. Avloppspumpen ansvarar för att tömma trumman på vatten i slutet av varje tvätt- och centrifugeringsfas, och när den slutar fungera eller blockeras kan vattnet inte rinna ut – maskinen skyddar sig själv genom att stanna.</p><p>Den goda nyheten är att de vanligaste orsakerna till 15C är enkla att undersöka hemma utan specialverktyg, och i många fall löser sig problemet bara genom att rensa en blockering i pumpfiltret.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt eller tilltäppt avloppspumpfilter",
+          "detail": "Ludd, mynt, hårspännen och små plagg kan ansamlas i pumpfiltret över tid, vilket begränsar vattenflödet och belastar pumpmotorn extra. Detta ökade motstånd detekteras av styrkortet och utlöser felkod 15C."
+        },
+        {
+          "cause": "Vikt eller blockerad avloppsslang",
+          "detail": "Om avloppsslangen som löper från maskinens baksida till avloppsröret eller diskhon är vikt, klämd eller delvis blockerad kan vattnet inte rinna ut fritt. Pumpen arbetar då hårdare än normalt, vilket kan göra att motståndsvärdet hamnar utanför det förväntade intervallet."
+        },
+        {
+          "cause": "Defekt eller sliten avloppspumpsmotor",
+          "detail": "Med tiden kan pumpens motorlindningar försämras, vilket gör att det elektriska motståndet förskjuts utanför den tolerans som styrkortet förväntar sig. En pump som surrar men inte transporterar vatten, eller som är helt tyst, är ett tydligt tecken på motorfel."
+        },
+        {
+          "cause": "Främmande föremål fastnat i pumpens impeller",
+          "detail": "Även efter rengöring av filtret kan ett litet föremål som ett mynt eller en knapp ta sig igenom och fastna i pumpens impeller. En låst impeller hindrar pumpen från att snurra, vilket styrkortet tolkar som ett onormalt motståndstillstånd."
+        },
+        {
+          "cause": "Kabelfel eller kontaktfel mellan pump och styrkort",
+          "detail": "Lösa, korroderade eller skadade kablar mellan avloppspumpen och huvud-PCB:n kan orsaka intermittenta eller felaktiga motståndsvärden. Den här typen av fel ger ofta en felkod som dyker upp och försvinner utan något uppenbart mönster."
+        },
+        {
+          "cause": "Defekt huvud-styrkort (PCB)",
+          "detail": "I mindre vanliga fall kan styrkortet självt felloläsa pumpens motstånd på grund av ett komponentfel på kortet. Detta misstänks vanligtvis först efter att pumpen och kablarna har kontrollerats och befunnits vara i gott skick."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Innan du gör något annat, stäng av tvättmaskinen via kontrollpanelen och dra ur kontakten från vägguttaget. Om det finns vatten i trumman, vänta några minuter – en del vatten kan rinna ut med hjälp av tyngdkraften när maskinen är avstängd. Ha ett grunt fat och några gamla handdukar redo innan du öppnar filtret."
+        },
+        {
+          "step": 2,
+          "action": "Rengör avloppspumpens filter",
+          "detail": "Öppna den lilla rektangulära luckan längst ned på maskinens framsida. Där hittar du en kort nödavloppsslang och ett runt filterlock. Dra ut avloppsslangen, ta bort dess propp och låt eventuellt kvarvarande vatten rinna ut i fatet. När det är tomt, skruva loss filterlocket moturs och dra ut det. Ta bort allt skräp – ludl, mynt, hår och andra föremål – skölj filtret under kranen och sätt sedan tillbaka det ordentligt."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera avloppsslangen för veck eller blockeringar",
+          "detail": "Dra maskinen något från väggen och inspektera avloppsslangen längs hela dess längd. Räta ut eventuella veck och se till att slangen inte är klämd bakom maskinen eller böjd skarpt vid anslutningen till avloppsröret. Kontrollera också att slangänden inte är instoppad för långt ner i avloppsröret, vilket kan skapa en siffoneffekt som stör avrinningen."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera pumpens impeller för hinder",
+          "detail": "Med filtret borttaget, lyser du med en ficklampa in i pumphuset och letar efter föremål som fastnat i impellerbladen. Försök att försiktigt vrida impellern med fingret – den ska rotera fritt med bara ett lätt motstånd. Om den är stel eller helt låst finns det troligen ett främmande föremål fastnat inuti som behöver tas bort försiktigt."
+        },
+        {
+          "step": 5,
+          "action": "Starta om maskinen och kör ett kort program",
+          "detail": "Sätt tillbaka filterlocket ordentligt, stäng luckan och koppla in maskinen igen. Välj ett kort bomullsprogram eller ett avloppsprogram och observera om maskinen tömmer normalt och om felet försvinner. Om felkod 15C inte återkommer var blockeringen orsaken och inga ytterligare åtgärder behövs."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera pumpens kabelanslutningar",
+          "detail": "Om felet kvarstår, koppla ur maskinen igen och dra försiktigt ut den från väggen för att komma åt bakpanelen, eller luta den för att nå pumpen undertill. Leta upp kabelkontakten på pumphuset och kontrollera att den sitter ordentligt och är fri från korrosion eller synliga skador. Koppla loss och återanslut kontakten ordentligt och testa sedan igen."
+        },
+        {
+          "step": 7,
+          "action": "Testa eller byt ut avloppspumpen",
+          "detail": "Om alla ovanstående steg har genomförts utan att felet lösts är pumpmotorn troligen defekt. Du kan använda en multimeter inställd på motstånd (ohm) för att testa pumpens anslutningar – se din modells servicedokumentation för det förväntade motståndet. Ett värde som visar öppen krets eller som avviker markant från det angivna intervallet bekräftar att pumpen behöver bytas."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har rengjort filtret, rensat slangen, bekräftat att impellern roterar fritt och återanslutit kabelkontakten – men felkod 15C fortfarande visas – beror felet troligen på pumpmotorn själv eller på huvud-styrkortet. Att byta en avloppspump är en hanterbar gör-det-själv-uppgift för en van hemmafixare, men om du känner dig osäker på att arbeta med elektriska komponenter eller om åtkomst till pumpen kräver omfattande demontering är det klokt att avbryta och boka ett servicebesök.</p><p>Du bör också kontakta en servicetekniker om maskinen fortfarande är under garanti, om du märker en bränd lukt nära pumpen, eller om felkoden återkommer kort efter att en ny pump har monterats – detta kan tyda på ett PCB-fel som kräver specialistdiagnos och utrustning för att bekräftas.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärd av ett Samsung 15C-fel är <strong>avloppspumpsenheten</strong>, <strong>pumpfilterhuset</strong> (om det spruckit eller skadats vid rengöring) och <strong>avloppsslangen</strong> om den har fått en spricka eller ett permanent veck. I ett mindre antal fall behöver även <strong>pumpens kabelstam</strong> bytas ut när korrosion eller nötning har orsakat en intermittent anslutning.</p><p>För att minska risken för att 15C återkommer, rengör pumpfiltret var en till tre månader beroende på hur ofta du använder maskinen. Kontrollera alltid fickorna innan du lägger i tvätten – mynt och små klämmor är den vanligaste orsaken till att impellern fastnar. Att använda rätt mängd tvättmedel hjälper också, eftersom överdrivna mängder skum kan lämna rester som ansamlas i pumpen över tid.</p>\n<!-- SPARE_PARTS:15C -->",
+      "faq_json": [
+        {
+          "answer": "Nej – när 15C är aktiv har maskinen avbrutit programmet eftersom den inte kan tömma på ett säkert sätt. Att köra maskinen i detta tillstånd riskerar att lämna stillastående vatten i trumman under längre tid, vilket kan orsaka dålig lukt och potentiella skador på interna komponenter. Åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag fortfarande använda min Samsung tvättmaskin när den visar felkod 15C?"
+        },
+        {
+          "answer": "Samsung rekommenderar generellt att rengöra pumpfiltret var en till tre månader för ett typiskt hushåll. Om du tvättar kraftigt smutsade plagg, husdjursbäddar eller plagg som avger mycket ludl, rengör det månadsvis. En snabb rengöring tar mindre än tio minuter och är det enskilt mest effektiva sättet att förebygga avloppsrelaterade fel.",
+          "question": "Hur ofta bör jag rengöra avloppspumpens filter på min Samsung tvättmaskin?"
+        },
+        {
+          "answer": "I de flesta fall ja – när det underliggande felet är löst och du startar om maskinen försvinner felet automatiskt när styrkortet detekterar att pumpen arbetar inom sitt normala motståndsvärde. Om koden återkommer omedelbart efter omstart har felet inte lösts helt och ytterligare undersökning krävs.",
+          "question": "Försvinner felkod 15C av sig självt när jag åtgärdat blockeringen?"
+        },
+        {
+          "answer": "De är besläktade men inte identiska. Koderna 5C och SC på äldre Samsung-modeller indikerar ett generellt avloppsfel – maskinen kan inte tömma vatten. Kod 15C är mer specifik och hänvisar till ett onormalt motståndsvärde från avloppspumpens motor. Felsökningsstegen överlappar i hög grad, men 15C pekar mer direkt på pumpens elektriska tillstånd.",
+          "question": "Är felkod 15C samma sak som felkod 5C eller SC på Samsung-maskiner?"
+        },
+        {
+          "answer": "En ersättningspump till en Samsung tvättmaskin kostar vanligtvis mellan 200 och 500 kronor för reservdelen, beroende på modell. Om du monterar den själv är det din totala kostnad. Om du anlitar en servicetekniker för att leverera och montera pumpen brukar totalkostnaden hamna någonstans mellan 800 och 1 500 kronor, beroende på region och aktuell modell.",
+          "question": "Hur mycket kostar det vanligtvis att byta avloppspump på en Samsung tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:34.789595+00:00"
+    },
+    {
+      "id": 21,
+      "article_id": 8,
+      "locale": "en",
+      "slug": "samsung-error-code-1ac",
+      "title_tag": "Samsung Washing Machine Error Code 1AC | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code 1AC? Learn what causes this PCB communication fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code 1AC Mean on a Samsung Washing Machine?",
+      "description": "Error code 1AC indicates a communication failure between the main PCB and sub PCB, caused by a solenoid connector that is not seated correctly.",
+      "quick_fix": "Power off the washing machine at the wall socket, wait 60 seconds, then switch it back on and restart the cycle — a simple reset clears the fault in many cases where the error was triggered by a temporary signal dropout (takes about 2 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code 1AC points to a breakdown in communication between two of the most important circuit boards inside your Samsung washing machine — the main PCB and the sub PCB. These two boards work together constantly to coordinate every stage of a wash cycle, and they talk to each other through a solenoid connector. When that connection is interrupted or lost, the machine detects the fault and stops to protect itself.</p><p>When 1AC appears, the machine will typically halt mid-cycle or refuse to start at all. You may notice the display freezing, buttons becoming unresponsive, or the drum simply not moving despite the machine appearing to be powered on. The fault is electronic rather than mechanical, so there are usually no unusual noises or leaks accompanying it.</p><p>The good news is that this error is sometimes caused by nothing more than a loose connector or a temporary signal glitch, both of which can be resolved without specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary signal dropout or software glitch",
+          "detail": "A brief power fluctuation or software hiccup can cause the two PCBs to lose sync momentarily. This is the most common trigger and is usually resolved by a full power cycle."
+        },
+        {
+          "cause": "Loose or unseated solenoid connector",
+          "detail": "The solenoid connector linking the sub PCB to the main PCB can work itself loose over time due to vibration during spin cycles. Even a slightly unseated connector is enough to break the communication signal."
+        },
+        {
+          "cause": "Damaged or corroded wiring harness",
+          "detail": "The wiring harness that runs between the two boards can suffer from wear, pinching, or moisture-related corrosion. A damaged wire in this harness will interrupt the data signal even if the connector itself appears secure."
+        },
+        {
+          "cause": "Faulty sub PCB",
+          "detail": "If the sub PCB has developed an internal fault — due to a power surge, component failure, or age — it may no longer be able to send or receive signals correctly. In this case, the board itself will need to be replaced."
+        },
+        {
+          "cause": "Faulty main PCB",
+          "detail": "Less commonly, the main PCB is the source of the problem. If it cannot interpret signals from the sub PCB, the communication error will still be logged even if all connectors and wiring are intact."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the washing machine off at the wall socket and unplug it completely. Leave it unplugged for at least 60 seconds to allow the control boards to fully discharge, then plug back in and power on. Attempt to start a new cycle and check whether the 1AC code returns."
+        },
+        {
+          "step": 2,
+          "action": "Check the door and drum for obstructions",
+          "detail": "Before opening any panels, make sure the door is fully closed and latched, and that no laundry is caught in the door seal. An incomplete door closure can sometimes cause the sub PCB to register a fault state. Remove any obstruction and try again."
+        },
+        {
+          "step": 3,
+          "action": "Access and inspect the solenoid connector",
+          "detail": "Disconnect the machine from the mains supply before proceeding. Remove the top panel of the machine (usually secured by two or three screws at the rear) to gain access to the PCB area. Locate the solenoid connector between the main and sub PCBs — it is typically a small multi-pin plug — and press it firmly until you feel or hear it click into place."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the wiring harness between the two boards",
+          "detail": "With the top panel removed, trace the wiring harness that connects the sub PCB to the main PCB. Look for any wires that appear pinched, frayed, burnt, or corroded at the terminals. If you find a damaged section, the harness will need to be replaced rather than repaired with tape."
+        },
+        {
+          "step": 5,
+          "action": "Reseat all connectors on both PCBs",
+          "detail": "While you have access to the boards, gently press each connector on both the main and sub PCBs to ensure none have worked loose. Vibration over time can cause multiple connectors to shift slightly. Do not force any connector — if it does not seat easily, check you have the correct orientation."
+        },
+        {
+          "step": 6,
+          "action": "Reassemble and run a test cycle",
+          "detail": "Replace the top panel, reconnect the machine to the mains, and run a short test cycle such as a quick wash or rinse-and-spin. Monitor the display throughout. If the 1AC code does not reappear, the fault has been resolved. If it returns immediately, the issue is likely a faulty PCB."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If the 1AC error code returns immediately after every reset attempt, and you have already reseated the solenoid connector and inspected the wiring harness without finding any obvious damage, the fault is most likely an internal failure of either the sub PCB or the main PCB. Diagnosing which board is at fault requires specialist test equipment, and replacing a PCB involves handling components that can be damaged by static electricity if not handled correctly.</p><p>You should also contact a service technician if you notice any signs of burning, melted plastic, or a burning smell near the PCB area, or if the machine has recently been exposed to a power surge. These situations go beyond straightforward connector checks and require professional assessment.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a 1AC fault are the sub PCB, the main PCB, and the wiring harness that connects them. In many cases only the sub PCB is needed, but it is worth confirming the exact fault before ordering parts. Always use the full model number printed on the label inside the door frame to ensure compatibility.</p><p>To reduce the risk of connector faults developing over time, avoid overloading the drum — excessive vibration during unbalanced spin cycles is one of the main reasons connectors work loose inside the machine.</p>\n<!-- SPARE_PARTS:1AC -->",
+      "faq_json": [
+        {
+          "answer": "No. When the 1AC error is active, the machine will not complete a cycle and may not start at all. Attempting to force it to run while the PCB communication is broken could cause further damage to the control boards. It is best to resolve the fault before using the machine again.",
+          "question": "Can I keep using my Samsung washing machine while it shows error code 1AC?"
+        },
+        {
+          "answer": "A factory reset can clear the error if it was caused by a temporary software glitch, but it will not fix a physical problem such as a loose connector or a damaged wiring harness. Try a standard power cycle first — unplug for 60 seconds — before attempting a full reset, as the result is usually the same for this type of fault.",
+          "question": "Will a factory reset fix the 1AC error code?"
+        },
+        {
+          "answer": "The cost of a Samsung sub PCB or main PCB varies depending on the model, but parts typically range from £40 to £150 each. Labour charges from a service technician will add to this. It is worth getting a quote before committing to a repair, particularly on older machines.",
+          "question": "How much does it cost to replace a Samsung washing machine PCB?"
+        },
+        {
+          "answer": "If your machine is within its standard manufacturer warranty period, a PCB communication fault would normally be covered provided the damage was not caused by misuse or an external power surge. Contact Samsung support directly with your model number and proof of purchase to check your eligibility before arranging any paid repair.",
+          "question": "Is error code 1AC covered under Samsung's warranty?"
+        },
+        {
+          "answer": "The full model number is printed on a sticker inside the door frame or on the back of the machine. Use this number — not just the series name — when searching for a replacement part, as PCBs are often model-specific and an incorrect board will not work. Cross-reference the part number on the existing board if possible before ordering.",
+          "question": "How do I find the right sub PCB for my Samsung washing machine model?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:33.081616+00:00"
+    },
+    {
+      "id": 22,
+      "article_id": 8,
+      "locale": "sv",
+      "slug": "samsung-felkod-1ac",
+      "title_tag": "Samsung tvättmaskin felkod 1AC | Åtgärda problemet nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod 1AC? Lär dig vad som orsakar detta kommunikationsfel i kretskortet och hur du åtgärdar det själv innan du ringer en servicetekni",
+      "h1": "Vad betyder felkod 1AC på en Samsung tvättmaskin?",
+      "description": "Felkod 1AC indikerar ett kommunikationsfel mellan huvud-PCB och sub-PCB, orsakat av en solenoidkontakt som inte sitter korrekt.",
+      "quick_fix": "Stäng av tvättmaskinen vid vägguttaget, vänta 60 sekunder och slå sedan på den igen och starta om programmet — en enkel återställning löser felet i många fall där det utlöstes av ett tillfälligt signalbortfall (tar ungefär 2 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod 1AC pekar på ett kommunikationsavbrott mellan två av de viktigaste kretskorten i din Samsung tvättmaskin — huvud-PCB och sub-PCB. Dessa två kort samarbetar ständigt för att koordinera varje steg i ett tvättprogram, och de kommunicerar med varandra via en solenoidkontakt. När den anslutningen avbryts eller försvinner upptäcker maskinen felet och stannar för att skydda sig själv.</p><p>När 1AC visas stannar maskinen vanligtvis mitt i ett program eller vägrar att starta överhuvudtaget. Du kan märka att displayen fryser, att knapparna slutar svara eller att trumman helt enkelt inte rör sig trots att maskinen verkar vara påslagen. Felet är elektroniskt snarare än mekaniskt, så det brukar inte förekomma ovanliga ljud eller läckor i samband med det.</p><p>Den goda nyheten är att detta fel ibland orsakas av ingenting mer än en lös kontakt eller ett tillfälligt signalstörning, som båda kan åtgärdas utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt signalbortfall eller programvarufel",
+          "detail": "En kortvarig strömfluktuering eller ett programvaruproblem kan göra att de två kretskorten tillfälligt tappar synkroniseringen. Detta är den vanligaste orsaken och löses vanligtvis med en fullständig strömcykel."
+        },
+        {
+          "cause": "Lös eller felplacerad solenoidkontakt",
+          "detail": "Solenoidkontakten som förbinder sub-PCB med huvud-PCB kan lossna med tiden på grund av vibrationer under centrifugeringsprogrammen. Även en något felplacerad kontakt räcker för att bryta kommunikationssignalen."
+        },
+        {
+          "cause": "Skadad eller korroderad kabelstam",
+          "detail": "Kabelstammen som löper mellan de två korten kan drabbas av slitage, klämning eller fuktrelaterad korrosion. En skadad ledning i denna kabelstam avbryter datasignalen även om kontakten i sig verkar vara säker."
+        },
+        {
+          "cause": "Defekt sub-PCB",
+          "detail": "Om sub-PCB har utvecklat ett internt fel — på grund av ett strömöverspänning, komponentfel eller ålder — kan det hända att den inte längre kan skicka eller ta emot signaler korrekt. I detta fall måste kortet bytas ut."
+        },
+        {
+          "cause": "Defekt huvud-PCB",
+          "detail": "Mer sällan är huvud-PCB källan till problemet. Om den inte kan tolka signaler från sub-PCB kommer kommunikationsfelet fortfarande att registreras även om alla kontakter och ledningar är intakta."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en strömcykel på maskinen",
+          "detail": "Stäng av tvättmaskinen vid vägguttaget och dra ur kontakten helt. Låt den vara urkopplad i minst 60 sekunder så att styrkorten hinner ladda ur helt, anslut sedan igen och slå på strömmen. Försök starta ett nytt program och kontrollera om 1AC-koden återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera luckan och trumman efter hinder",
+          "detail": "Innan du öppnar några paneler, se till att luckan är helt stängd och låst, och att ingen tvätt fastnat i lucktätningen. En ofullständigt stängd lucka kan ibland få sub-PCB att registrera ett feltillstånd. Ta bort eventuella hinder och försök igen."
+        },
+        {
+          "step": 3,
+          "action": "Öppna maskinen och inspektera solenoidkontakten",
+          "detail": "Koppla bort maskinen från elnätet innan du fortsätter. Ta bort toppanelen på maskinen (vanligtvis fäst med två eller tre skruvar baktill) för att komma åt kretskortsområdet. Leta upp solenoidkontakten mellan huvud-PCB och sub-PCB — det är vanligtvis ett litet flerstiftigt uttag — och tryck in det ordentligt tills du känner eller hör att det klickar på plats."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera kabelstammen mellan de två korten",
+          "detail": "Med toppanelen borttagen, följ kabelstammen som förbinder sub-PCB med huvud-PCB. Leta efter ledningar som verkar klämda, fransiga, brända eller korroderade vid anslutningarna. Om du hittar en skadad del måste kabelstammen bytas ut snarare än lagas med tejp."
+        },
+        {
+          "step": 5,
+          "action": "Sätt tillbaka alla kontakter på båda kretskorten",
+          "detail": "Medan du har tillgång till korten, tryck försiktigt in varje kontakt på både huvud-PCB och sub-PCB för att säkerställa att ingen har lossnat. Vibrationer över tid kan få flera kontakter att förskjutas något. Tvinga inte någon kontakt — om den inte sitter lätt på plats, kontrollera att du har rätt orientering."
+        },
+        {
+          "step": 6,
+          "action": "Montera ihop maskinen och kör ett testprogram",
+          "detail": "Sätt tillbaka toppanelen, anslut maskinen till elnätet och kör ett kort testprogram, till exempel snabbtvätt eller sköljning och centrifugering. Övervaka displayen under hela programmet. Om 1AC-koden inte återkommer har felet åtgärdats. Om den omedelbart återkommer är problemet troligtvis ett defekt kretskort."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om felkod 1AC återkommer omedelbart efter varje återställningsförsök, och du redan har satt tillbaka solenoidkontakten och inspekterat kabelstammen utan att hitta några uppenbara skador, är felet troligtvis ett internt fel på antingen sub-PCB eller huvud-PCB. Att diagnostisera vilket kort som är felaktigt kräver specialiserad testutrustning, och att byta ett kretskort innebär hantering av komponenter som kan skadas av statisk elektricitet om de inte hanteras korrekt.</p><p>Du bör också kontakta en servicetekniker om du märker några tecken på brännskador, smält plast eller bränd lukt nära kretskortsområdet, eller om maskinen nyligen utsatts för ett strömöverspänning. Dessa situationer går bortom enkla kontaktkontroller och kräver professionell bedömning.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när ett 1AC-fel åtgärdas är sub-PCB, huvud-PCB och kabelstammen som förbinder dem. I många fall behövs bara sub-PCB, men det är värt att bekräfta det exakta felet innan du beställer delar. Använd alltid det fullständiga modellnumret som finns på etiketten inuti luckkanten för att säkerställa kompatibilitet.</p><p>För att minska risken för att kontaktfel uppstår med tiden, undvik att överlasta trumman — kraftiga vibrationer under obalanserade centrifugeringsprogram är en av de främsta anledningarna till att kontakter lossnar inuti maskinen.</p>\n<!-- SPARE_PARTS:1AC -->",
+      "faq_json": [
+        {
+          "answer": "Nej. När 1AC-felet är aktivt kommer maskinen inte att slutföra ett program och kanske inte starta alls. Att försöka tvinga den att köra medan PCB-kommunikationen är bruten kan orsaka ytterligare skador på styrkorten. Det är bäst att åtgärda felet innan maskinen används igen.",
+          "question": "Kan jag fortsätta använda min Samsung tvättmaskin när den visar felkod 1AC?"
+        },
+        {
+          "answer": "En fabriksåterställning kan rensa felet om det orsakades av ett tillfälligt programvarufel, men det löser inte ett fysiskt problem som en lös kontakt eller en skadad kabelstam. Prova en vanlig strömcykel först — dra ur kontakten i 60 sekunder — innan du försöker med en fullständig återställning, eftersom resultatet vanligtvis är detsamma för den här typen av fel.",
+          "question": "Löser en fabriksåterställning felkod 1AC?"
+        },
+        {
+          "answer": "Kostnaden för en Samsung sub-PCB eller huvud-PCB varierar beroende på modell, men delar kostar vanligtvis mellan 500 och 1 800 kronor styck. Arbetskostnader från en servicetekniker tillkommer. Det är värt att begära en offert innan du bestämmer dig för en reparation, särskilt på äldre maskiner.",
+          "question": "Hur mycket kostar det att byta kretskort på en Samsung tvättmaskin?"
+        },
+        {
+          "answer": "Om din maskin är inom sin ordinarie tillverkningsgaranti skulle ett PCB-kommunikationsfel normalt sett täckas, förutsatt att skadan inte orsakades av felaktig användning eller ett externt strömöverspänning. Kontakta Samsungs support direkt med ditt modellnummer och inköpsbevis för att kontrollera din rätt till garanti innan du bokar någon betald reparation.",
+          "question": "Täcks felkod 1AC av Samsungs garanti?"
+        },
+        {
+          "answer": "Det fullständiga modellnumret finns på en etikett inuti luckkanten eller på maskinens baksida. Använd detta nummer — inte bara serienamnet — när du söker efter en reservdel, eftersom kretskort ofta är modellspecifika och ett felaktigt kort inte fungerar. Kontrollera om möjligt delnumret på det befintliga kortet innan du beställer.",
+          "question": "Hur hittar jag rätt sub-PCB för min Samsung tvättmaskinmodell?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:33.364942+00:00"
+    },
+    {
+      "id": 23,
+      "article_id": 9,
+      "locale": "en",
+      "slug": "samsung-error-code-1c",
+      "title_tag": "Samsung Washing Machine Error Code 1C | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code 1C? Learn what causes this water level sensor fault and how to fix it yourself in a few simple steps.",
+      "h1": "What Does Error Code 1C Mean on a Samsung Washing Machine?",
+      "description": "Error code 1C on a Samsung washing machine indicates a fault with the water level sensor system, caused by a damaged, punctured, or blocked pressure hose that connects to the sensor.",
+      "quick_fix": "Locate the pressure hose running from the drum to the water level sensor, check it for kinks, blockages, or visible damage, and clear or reseat it — if the hose was simply kinked or loose, the error should clear on the next wash cycle (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code 1C appears on Samsung washing machines when the appliance cannot get a reliable reading from the water level sensor, also known as the pressure sensor or pressure switch. This sensor monitors how much water is inside the drum at any given point during a cycle, and the machine depends on it to know when to stop filling, when to drain, and when it is safe to spin.</p><p>When the 1C code triggers, the machine typically pauses mid-cycle or refuses to start a new one. You may notice the drum filling too much, not filling at all, or the cycle stopping unexpectedly. The root cause is almost always in the pressure hose — the small rubber or plastic tube that runs between the drum and the sensor — rather than the sensor itself.</p><p>In most cases this is a fault you can investigate and resolve at home without specialist tools. The steps below walk you through the most common causes and how to address each one systematically.</p>",
+      "causes_json": [
+        {
+          "cause": "Kinked or pinched pressure hose",
+          "detail": "The pressure hose can become kinked if the machine has been moved or if items have shifted behind the drum. A kink blocks the air pressure signal from reaching the sensor, causing the 1C error even though the hose itself is undamaged."
+        },
+        {
+          "cause": "Blocked or clogged pressure hose",
+          "detail": "Detergent residue, limescale, or debris can build up inside the narrow pressure hose over time and restrict airflow. When the air signal cannot travel freely to the sensor, the machine loses its ability to measure water level accurately."
+        },
+        {
+          "cause": "Punctured or cracked pressure hose",
+          "detail": "Physical damage to the hose — from age, heat, or contact with sharp edges inside the cabinet — allows air to escape before it reaches the sensor. Even a small hole is enough to cause a false or absent reading."
+        },
+        {
+          "cause": "Loose or disconnected hose connection",
+          "detail": "The hose connects to both the drum chamber and the sensor with push-fit or clip fittings. Vibration over time can loosen these connections, breaking the airtight seal the sensor relies on."
+        },
+        {
+          "cause": "Faulty water level sensor",
+          "detail": "If the hose is in good condition and properly connected, the pressure sensor itself may have failed. Sensors can wear out or develop internal faults, particularly on older machines or those used heavily."
+        },
+        {
+          "cause": "Wiring fault between sensor and control board",
+          "detail": "Damaged, corroded, or loose wiring in the harness connecting the water level sensor to the main control board can interrupt the signal and trigger a 1C code even when the hose and sensor are both intact."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power off and unplug the machine",
+          "detail": "Switch the machine off at the control panel and unplug it from the wall socket before doing anything else. Wait at least two minutes to allow any residual electrical charge to dissipate. Never work on the machine while it is connected to power."
+        },
+        {
+          "step": 2,
+          "action": "Locate the pressure hose",
+          "detail": "The pressure hose is a thin rubber or plastic tube, usually 10–15 mm in diameter, that runs from a small port on the side or bottom of the drum up to the water level sensor, which is typically mounted on the upper side panel inside the cabinet. On most Samsung front-loaders you can access it by removing the top panel — usually held by two or three screws at the rear."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the hose for kinks and damage",
+          "detail": "Run your fingers along the full length of the hose, feeling for kinks, sharp bends, or soft spots that suggest a puncture. Look for cracks, splits, or any point where the hose has rubbed against a hard surface. If you find a kink, straighten it carefully and reseat the hose away from any obstructions."
+        },
+        {
+          "step": 4,
+          "action": "Check both hose connections",
+          "detail": "Detach the hose at both ends — at the drum port and at the sensor — and check that the fittings are clean and undamaged. Push each connection firmly back into place and, where clips are present, ensure they are fully engaged. A loose connection at either end will break the airtight seal."
+        },
+        {
+          "step": 5,
+          "action": "Clear any blockage inside the hose",
+          "detail": "With the hose detached, blow gently through it to check for airflow. If you feel resistance, the hose is partially or fully blocked. Rinse it through with warm water and use a thin flexible brush or a blast of compressed air to dislodge any limescale or detergent buildup. Reattach once clear."
+        },
+        {
+          "step": 6,
+          "action": "Test the water level sensor",
+          "detail": "With the hose detached from the sensor, blow gently into the sensor port — you should hear a faint click as the internal diaphragm moves. No click suggests the sensor diaphragm has failed. If you have a multimeter, you can test the sensor's resistance across its terminals; consult your model's service data for the expected values."
+        },
+        {
+          "step": 7,
+          "action": "Reassemble, restore power, and run a test cycle",
+          "detail": "Refit the top panel, plug the machine back in, and run a short cotton or quick-wash cycle. Watch the machine through the filling stage to confirm it fills to the correct level and the 1C code does not return. If the error reappears, the sensor or wiring will need further investigation."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>If you have inspected the pressure hose, confirmed it is clear and undamaged, reseated all connections, and the 1C error still returns, the fault is likely inside the water level sensor itself or in the wiring harness between the sensor and the main control board. These components require testing with a multimeter and, in the case of the control board, specialist diagnostic equipment.</p><p>You should also call a service technician if you find the hose is punctured or cracked and are not confident replacing it yourself, or if the machine is still under warranty — attempting internal repairs yourself may void the warranty. A technician can source the correct replacement part and confirm no secondary fault is present.</p>",
+      "prevention_html": "<p>The most commonly replaced parts for a 1C fault are the <strong>pressure hose</strong> (also listed as the air trap hose or sensor hose), the <strong>water level pressure sensor</strong> (pressure switch), and occasionally the <strong>wiring harness</strong> connecting the sensor to the control board. Replacing the hose is straightforward and inexpensive; the sensor is a moderate DIY repair. Always use parts matched to your specific Samsung model number, which you will find on the rating plate inside the door frame.</p><p>To reduce the chance of a recurrence, run a drum-clean cycle monthly to limit detergent and limescale buildup, and avoid overloading the machine, which increases vibration and can loosen hose connections over time.</p>\n<!-- SPARE_PARTS:1C -->",
+      "faq_json": [
+        {
+          "answer": "A power cycle will sometimes clear the code temporarily if the fault was caused by a one-off sensor misread, but it will return as soon as the machine tries to fill again if the underlying problem — a blocked or damaged hose — has not been fixed. It is worth trying a reset, but treat it as a diagnostic step rather than a solution.",
+          "question": "Can I reset the 1C error code by turning the machine off and on?"
+        },
+        {
+          "answer": "Detach the hose at both ends and submerge it in a bowl of water. Block one end with your thumb and blow into the other end. If you see bubbles rising from anywhere along the hose, it has a hole. A kinked hose will show no bubbles but will feel stiff or show a visible crease at the bend point.",
+          "question": "How do I know if the pressure hose is punctured rather than just kinked?"
+        },
+        {
+          "answer": "Yes, on many Samsung models 1C and 1E refer to the same water level sensor fault. The code displayed can vary depending on the model's display type — older seven-segment displays show 1E, while newer dot-matrix displays show 1C. The diagnosis and repair steps are identical for both.",
+          "question": "Is error code 1C the same as error code 1E on Samsung washing machines?"
+        },
+        {
+          "answer": "The pressure sensor itself typically costs between £15 and £40 for the part, depending on the model. If you are comfortable doing the repair yourself it is a relatively straightforward job. A service technician call-out will add labour costs on top, so it is worth attempting the hose inspection first since that resolves the majority of 1C faults.",
+          "question": "How much does it cost to replace the water level sensor on a Samsung washing machine?"
+        },
+        {
+          "answer": "An intermittent 1C error usually points to a partial blockage in the pressure hose or a connection that is loose but not fully detached. As the machine vibrates during a cycle, the connection may shift just enough to break the seal. Cleaning the hose thoroughly and pressing all fittings firmly back into place will typically resolve intermittent faults.",
+          "question": "Why does the 1C error only appear sometimes and not every cycle?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:33.150219+00:00"
+    },
+    {
+      "id": 24,
+      "article_id": 9,
+      "locale": "sv",
+      "slug": "samsung-felkod-1c",
+      "title_tag": "Samsung Tvättmaskin Felkod 1C | Åtgärda Det Nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod 1C? Lär dig vad som orsakar detta fel på vattenivåsensorn och hur du åtgärdar det själv i några enkla steg.",
+      "h1": "Vad Betyder Felkod 1C på en Samsung Tvättmaskin?",
+      "description": "Felkod 1C på en Samsung tvättmaskin indikerar ett fel i vattenivåsensorsystemet, orsakat av en skadad, punkterad eller blockerad trycksslang som är ansluten till sensorn.",
+      "quick_fix": "Leta upp trycksslangen som löper från trumman till vattenivåsensorn, kontrollera den för knickar, blockeringar eller synliga skador och rensa eller sätt tillbaka den — om slangen bara var knickad eller lös bör felet försvinna vid nästa tvättcykel (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod 1C visas på Samsung tvättmaskiner när maskinen inte kan få ett tillförlitligt avläsningsvärde från vattenivåsensorn, även känd som trycksensorn eller tryckvakten. Denna sensor övervakar hur mycket vatten som finns inuti trumman vid varje given tidpunkt under ett program, och maskinen är beroende av den för att veta när den ska sluta fylla på, när den ska tömma och när det är säkert att centrifugera.</p><p>När 1C-koden utlöses pausar maskinen vanligtvis mitt i ett program eller vägrar att starta ett nytt. Du kan märka att trumman fylls för mycket, inte fylls alls, eller att programmet stannar oväntat. Grundorsaken finns nästan alltid i trycksslangen — det lilla gummi- eller plaströret som löper mellan trumman och sensorn — snarare än i sensorn själv.</p><p>I de flesta fall är detta ett fel som du kan undersöka och åtgärda hemma utan specialverktyg. Stegen nedan guidar dig genom de vanligaste orsakerna och hur du hanterar var och en av dem systematiskt.</p>",
+      "causes_json": [
+        {
+          "cause": "Knickad eller ihopklämd trycksslang",
+          "detail": "Trycksslangen kan bli knickad om maskinen har flyttats eller om föremål har förskjutits bakom trumman. En knickning blockerar lufttryckssignalen från att nå sensorn och orsakar 1C-felet även om slangen i sig är oskadad."
+        },
+        {
+          "cause": "Blockerad eller igentäppt trycksslang",
+          "detail": "Tvättmedelsrester, kalkavlagringar eller smuts kan byggas upp inuti den smala trycksslangen över tid och begränsa luftflödet. När luftsignalen inte kan röra sig fritt till sensorn förlorar maskinen sin förmåga att mäta vattenivån korrekt."
+        },
+        {
+          "cause": "Punkterad eller sprucken trycksslang",
+          "detail": "Fysisk skada på slangen — från ålder, värme eller kontakt med vassa kanter inuti höljet — gör att luft kan läcka ut innan den når sensorn. Även ett litet hål räcker för att orsaka ett falskt eller uteblivet avläsningsvärde."
+        },
+        {
+          "cause": "Lös eller frånkopplad slanganslutning",
+          "detail": "Slangen ansluts till både trumkammaren och sensorn med tryckanslutningar eller klämfästen. Vibrationer över tid kan lossa dessa anslutningar och bryta den lufttäta tätning som sensorn är beroende av."
+        },
+        {
+          "cause": "Defekt vattenivåsensor",
+          "detail": "Om slangen är i gott skick och korrekt ansluten kan trycksensorn själv ha gått sönder. Sensorer kan slitas ut eller utveckla interna fel, särskilt på äldre maskiner eller de som används intensivt."
+        },
+        {
+          "cause": "Kablagebrist mellan sensor och styrkortet",
+          "detail": "Skadade, korroderade eller lösa kablar i kabelstammen som förbinder vattenivåsensorn med huvudstyrkortet kan avbryta signalen och utlösa en 1C-kod även när slangen och sensorn båda är intakta."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Stäng av maskinen via kontrollpanelen och dra ur kontakten från vägguttaget innan du gör något annat. Vänta minst två minuter för att låta eventuell kvarvarande elektrisk laddning avledas. Arbeta aldrig på maskinen medan den är ansluten till elnätet."
+        },
+        {
+          "step": 2,
+          "action": "Leta upp trycksslangen",
+          "detail": "Trycksslangen är ett tunt gummi- eller plaströr, vanligtvis 10–15 mm i diameter, som löper från en liten port på sidan eller botten av trumman upp till vattenivåsensorn, som vanligtvis är monterad på den övre sidopanelen inuti höljet. På de flesta Samsung frontmaskiner kan du komma åt den genom att ta bort toppanelen — vanligtvis hållen av två eller tre skruvar baktill."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera slangen för knickar och skador",
+          "detail": "Känn längs hela slangen med fingrarna och känn efter knickar, skarpa böjar eller mjuka partier som tyder på en punktering. Leta efter sprickor, revor eller ställen där slangen har gnuggats mot en hård yta. Om du hittar en knickning, räta ut den försiktigt och placera om slangen bort från eventuella hinder."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera båda slanganslutningarna",
+          "detail": "Lossa slangen i båda ändarna — vid trumporten och vid sensorn — och kontrollera att anslutningarna är rena och oskadade. Tryck in varje anslutning ordentligt igen och se till att klämfästena, där sådana finns, är helt låsta. En lös anslutning i endera änden bryter den lufttäta tätningen."
+        },
+        {
+          "step": 5,
+          "action": "Rensa eventuell blockering inuti slangen",
+          "detail": "Med slangen lossad, blås försiktigt igenom den för att kontrollera luftflödet. Om du känner motstånd är slangen delvis eller helt blockerad. Skölj igenom den med varmt vatten och använd en tunn flexibel borste eller ett tryckluftspuff för att lossa eventuella kalk- eller tvättmedelsavlagringar. Återanslut när den är ren."
+        },
+        {
+          "step": 6,
+          "action": "Testa vattenivåsensorn",
+          "detail": "Med slangen lossad från sensorn, blås försiktigt in i sensorporten — du bör höra ett svagt klick när den interna membranen rör sig. Inget klick tyder på att sensormembranen har gått sönder. Om du har en multimeter kan du testa sensorns resistans över dess anslutningspunkter; konsultera din modells servicedata för de förväntade värdena."
+        },
+        {
+          "step": 7,
+          "action": "Montera ihop, återställ strömmen och kör ett testprogram",
+          "detail": "Sätt tillbaka toppanelen, anslut maskinen till elnätet och kör ett kort bomulls- eller snabbtvättprogram. Observera maskinen under fyllningsfasen för att bekräfta att den fyller till rätt nivå och att 1C-koden inte återkommer. Om felet återkommer behöver sensorn eller kablaget undersökas ytterligare."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har inspekterat trycksslangen, bekräftat att den är ren och oskadad, satt tillbaka alla anslutningar och 1C-felet fortfarande återkommer, beror felet troligen på vattenivåsensorn själv eller på kabelstammen mellan sensorn och huvudstyrkortet. Dessa komponenter kräver testning med en multimeter och, när det gäller styrkortet, specialiserad diagnostikutrustning.</p><p>Du bör också kontakta en servicetekniker om du upptäcker att slangen är punkterad eller sprucken och inte känner dig trygg med att byta den själv, eller om maskinen fortfarande är under garanti — att försöka utföra interna reparationer själv kan ogiltigförklara garantin. En tekniker kan anskaffa rätt reservdel och bekräfta att inget sekundärt fel föreligger.</p>",
+      "prevention_html": "<p>De mest utbytta delarna vid ett 1C-fel är <strong>trycksslangen</strong> (även listad som luftfällsslang eller sensorslang), <strong>vattenivåtrycksensorn</strong> (tryckvakt) och ibland <strong>kabelstammen</strong> som förbinder sensorn med styrkortet. Att byta slangen är enkelt och billigt; sensorn är en måttlig gör-det-själv-reparation. Använd alltid delar som matchar ditt specifika Samsung modellnummer, vilket du hittar på typskylten inuti dörrkarmens ram.</p><p>För att minska risken för återfall, kör ett trumrengöringsprogram månadsvis för att begränsa tvättmedels- och kalkavlagringar, och undvik att överlasta maskinen, vilket ökar vibrationer och kan lossa slanganslutningar över tid.</p>\n<!-- SPARE_PARTS:1C -->",
+      "faq_json": [
+        {
+          "answer": "En omstart kan ibland rensa koden tillfälligt om felet orsakades av en engångsavläsning från sensorn, men den återkommer så snart maskinen försöker fylla på igen om det underliggande problemet — en blockerad eller skadad slang — inte har åtgärdats. Det är värt att prova en återställning, men betrakta det som ett diagnostiksteg snarare än en lösning.",
+          "question": "Kan jag återställa 1C-felkoden genom att stänga av och sätta på maskinen?"
+        },
+        {
+          "answer": "Lossa slangen i båda ändarna och sänk ner den i en skål med vatten. Täpp till ena änden med tummen och blås in i den andra änden. Om du ser bubblor stiga upp från någonstans längs slangen har den ett hål. En knickad slang visar inga bubblor men känns stel eller visar ett synligt veck vid böjpunkten.",
+          "question": "Hur vet jag om trycksslangen är punkterad snarare än bara knickad?"
+        },
+        {
+          "answer": "Ja, på många Samsung-modeller hänvisar 1C och 1E till samma fel på vattenivåsensorn. Koden som visas kan variera beroende på modellens displaytyp — äldre sjusegmentsdisplayer visar 1E, medan nyare punktmatrissdisplayer visar 1C. Diagnos- och reparationsstegen är identiska för båda.",
+          "question": "Är felkod 1C samma som felkod 1E på Samsung tvättmaskiner?"
+        },
+        {
+          "answer": "Trycksensorn kostar vanligtvis mellan 200 och 500 kronor för reservdelen, beroende på modell. Om du känner dig bekväm med att utföra reparationen själv är det ett relativt enkelt arbete. Ett servicebesök av en tekniker tillkommer med arbetskostnad utöver detta, så det är värt att börja med att inspektera slangen eftersom det löser majoriteten av 1C-fel.",
+          "question": "Hur mycket kostar det att byta vattenivåsensorn på en Samsung tvättmaskin?"
+        },
+        {
+          "answer": "Ett intermittent 1C-fel pekar vanligtvis på en partiell blockering i trycksslangen eller en anslutning som är lös men inte helt frånkopplad. När maskinen vibrerar under ett program kan anslutningen förskjutas precis tillräckligt för att bryta tätningen. Att rengöra slangen noggrant och trycka in alla anslutningar ordentligt löser vanligtvis intermittenta fel.",
+          "question": "Varför visas 1C-felet bara ibland och inte varje program?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:33.219808+00:00"
+    },
+    {
+      "id": 228,
+      "article_id": 157,
+      "locale": "en",
+      "slug": "lg-drum-not-turning",
+      "title_tag": "LG Washing Machine Drum Not Turning – Fixes & Causes",
+      "meta_description": "LG washing machine drum not turning? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers LE and CE error codes.",
+      "h1": "Why Has My LG Washing Machine Drum Stopped Turning?",
+      "description": "The washing machine drum fails to rotate during the wash or spin cycle, leaving laundry sitting in stationary water or stopping the cycle entirely.",
+      "quick_fix": "Check and clear any overloaded or tangled laundry from the drum, then restart the cycle on a low-spin setting — an unbalanced load is the most common trigger and resolving it typically restores normal operation (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When an LG washing machine drum stops turning, the appliance may pause mid-cycle, display an LE or CE error code on the control panel, or simply hum without any drum movement. The LE code points to a motor error, while CE indicates a current error — both are the machine's way of reporting that the motor or its drive system is under abnormal stress or has stopped responding altogether.</p><p>The drum is driven by a direct-drive motor in most LG models, meaning there is no belt between the motor and drum. While this design is generally reliable, it also means that faults in the motor, rotor, stator, or hall sensor tend to show up quickly and prevent rotation entirely rather than causing a gradual slowdown.</p><p>This fault affects a wide range of LG front-load and top-load machines. Before assuming a major component has failed, it is worth working through the simpler checks first — many cases are resolved without replacing any parts at all.</p>",
+      "causes_json": [
+        {
+          "cause": "Overloaded or unbalanced drum",
+          "detail": "Packing too many items into the drum, or a single heavy item like a duvet bunching to one side, puts excessive torque demand on the motor. The machine's control board detects the strain and halts rotation to protect the motor, often triggering an LE code."
+        },
+        {
+          "cause": "Faulty or loose hall sensor",
+          "detail": "The hall sensor monitors rotor position and feeds rotation data back to the control board. If the sensor is damaged, displaced, or has a loose wiring connector, the board receives no signal and cuts power to the motor, stopping the drum."
+        },
+        {
+          "cause": "Worn or damaged rotor magnet assembly",
+          "detail": "LG direct-drive motors use a rotor fitted with permanent magnets that sit around the stator. If magnets crack or detach — sometimes caused by a foreign object entering the drum — the motor loses the magnetic field it needs to generate torque."
+        },
+        {
+          "cause": "Stator winding failure",
+          "detail": "The stator contains copper windings that create the rotating magnetic field. A short circuit or open circuit in the windings, often caused by age or moisture ingress, prevents the motor from operating and typically triggers a CE error code."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "The main PCB controls the motor drive circuit. A failed IGBT transistor or burnt motor-drive component on the board can cut power to the motor entirely, even when the motor itself is in good condition."
+        },
+        {
+          "cause": "Foreign object jamming the drum",
+          "detail": "Coins, underwire from bras, or small clothing items can slip between the drum and the door seal or tub, physically blocking rotation. This is more common than many owners expect and is one of the easiest faults to rule out."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reduce the load and rebalance the laundry",
+          "detail": "Open the door and remove roughly half the laundry if the drum is full. Redistribute the remaining items evenly around the drum rather than leaving them bunched together. Close the door and restart the cycle — if the drum turns normally, overloading was the cause."
+        },
+        {
+          "step": 2,
+          "action": "Check for a foreign object jamming the drum",
+          "detail": "Rotate the drum slowly by hand with the machine unplugged. If you feel resistance or hear scraping, shine a torch around the gap between the drum and the door seal. Use long-nose pliers to retrieve any visible object. Check pockets before every wash to prevent recurrence."
+        },
+        {
+          "step": 3,
+          "action": "Power-cycle the machine to clear a temporary error",
+          "detail": "Switch the machine off at the wall socket and leave it unplugged for two full minutes. This allows the control board to reset and clear any stored fault state. Plug back in, select a short cotton cycle, and observe whether the drum begins to rotate."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the hall sensor connector",
+          "detail": "Unplug the machine and remove the rear panel to access the motor area. Locate the small hall sensor mounted on the stator — it has a three-wire connector. Press the connector firmly home to ensure it is fully seated. A loose connector here is a surprisingly frequent cause of LE errors and is a free fix."
+        },
+        {
+          "step": 5,
+          "action": "Examine the rotor for damaged magnets",
+          "detail": "With the rear panel removed, unscrew the single central bolt holding the rotor and pull it straight off the stator. Inspect the ring of magnets around the inside of the rotor for cracks, chips, or missing sections. If any magnet is damaged, the rotor assembly needs to be replaced as a unit."
+        },
+        {
+          "step": 6,
+          "action": "Test the stator windings with a multimeter",
+          "detail": "With the rotor removed, disconnect the stator wiring harness and set your multimeter to resistance (Ohms). Measure resistance between each pair of the three motor terminals — readings should be consistent and typically between 4 and 8 Ohms depending on the model. A reading of zero (short) or infinite (open circuit) confirms a failed stator."
+        },
+        {
+          "step": 7,
+          "action": "Check the motor drive section of the control board",
+          "detail": "If the motor, rotor, stator, and hall sensor all test as serviceable, the fault is likely on the main PCB. Look for visibly burnt components or a burnt smell near the board's motor-drive circuit. Board-level repair requires specialist equipment, so at this stage it is advisable to contact a service technician."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and the drum still does not turn, or if you find burnt components on the control board, a failed stator, or a rotor with broken magnets, the repair has moved beyond straightforward DIY territory. Replacing a stator or control board on an LG direct-drive machine requires confident handling of electrical components and correct torque settings on the rotor bolt — an incorrectly fitted rotor can cause further damage.</p><p>You should also call a service technician immediately if the machine trips your household circuit breaker when it tries to start, if you can smell burning during operation, or if the drum is completely seized and cannot be turned by hand even with the machine unplugged. These signs point to a serious electrical or mechanical failure that needs professional diagnosis.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when an LG washing machine drum stops turning are the hall sensor, the rotor assembly (including its magnet ring), and the stator. In some cases the main control board's motor-drive circuit is at fault. Keeping the drum load within the machine's rated capacity and always checking pockets before loading will significantly reduce stress on the motor and extend its service life.</p><p>If you need to order replacement components, the parts listed below are matched to this specific fault. Always use your full model number — printed on the label inside the door frame — to confirm compatibility before purchasing.</p>\n<!-- SPARE_PARTS_FAULT:drum-not-turning -->",
+      "faq_json": [
+        {
+          "answer": "LE stands for motor error and indicates that the control board is not receiving the expected feedback from the motor or hall sensor. It can be triggered by an overloaded drum, a loose hall sensor connector, or a failed motor component. Clearing the load and power-cycling the machine resolves it in many cases.",
+          "question": "What does the LE error code mean on an LG washing machine?"
+        },
+        {
+          "answer": "No — running a cycle with a non-rotating drum will leave laundry unwashed and sitting in water, and repeated attempts can overheat the motor windings or damage the control board further. Switch the machine off and work through the diagnostic steps before using it again.",
+          "question": "Can I still use my LG washing machine if the drum won't turn?"
+        },
+        {
+          "answer": "If the rotor magnets are intact, the hall sensor connector is secure, and the stator winding resistance tests outside the normal range (or reads zero or infinite), the motor components need replacing. On LG direct-drive machines the stator and rotor are usually sold separately, so you may only need to replace the failed part rather than the entire motor.",
+          "question": "How do I know if my LG washing machine motor needs replacing?"
+        },
+        {
+          "answer": "Not always. A drum that turns slowly but does not reach full spin speed is more often related to a drainage issue, a worn suspension, or a speed-control fault on the board. A drum that does not turn at all — especially with an LE or CE code — points more directly to the motor drive system or a physical obstruction.",
+          "question": "Is the drum not turning the same problem as the drum turning slowly?"
+        },
+        {
+          "answer": "For someone comfortable with basic appliance repair, replacing the hall sensor typically takes 30 to 45 minutes. The main tasks are removing the rear panel, unbolting the rotor, unplugging the old sensor, and fitting the new one. The hall sensor is one of the least expensive motor components and is worth trying before replacing the stator or rotor.",
+          "question": "How long does it take to replace a hall sensor on an LG washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:44.203657+00:00"
+    },
+    {
+      "id": 229,
+      "article_id": 157,
+      "locale": "sv",
+      "slug": "lg-trumma-snurrar-inte",
+      "title_tag": "LG Tvättmaskin Trumma Snurrar Inte – Lösningar & Orsaker",
+      "meta_description": "Snurrar inte trumman på din LG tvättmaskin? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkoderna LE",
+      "h1": "Varför har trumman på min LG tvättmaskin slutat snurra?",
+      "description": "Tvättmaskinens trumma roterar inte under tvätt- eller centrifugeringscykeln, vilket lämnar tvätten stående i stillastående vatten eller avbryter cykeln helt.",
+      "quick_fix": "Kontrollera och åtgärda eventuell överfylld eller trasslig tvätt i trumman och starta sedan om cykeln på ett lågt centrifugeringsprogram – en obalanserad last är den vanligaste orsaken och att åtgärda detta återställer normalt driften (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När trumman på en LG tvättmaskin slutar snurra kan maskinen pausa mitt i cykeln, visa felkoden LE eller CE på kontrollpanelen, eller helt enkelt surra utan att trumman rör sig. LE-koden indikerar ett motorfel, medan CE indikerar ett strömfel – båda är maskinens sätt att rapportera att motorn eller dess drivsystem är utsatt för onormal belastning eller har slutat svara helt.</p><p>Trumman drivs av en direktdriven motor i de flesta LG-modeller, vilket innebär att det inte finns något drivrem mellan motorn och trumman. Även om denna konstruktion generellt sett är tillförlitlig, innebär det också att fel på motorn, rotorn, statorn eller hallsensorn tenderar att uppstå snabbt och förhindrar rotation helt snarare än att orsaka en gradvis avmattning.</p><p>Detta fel drabbar ett brett utbud av LG frontmatade och toppmonterade maskiner. Innan du antar att en viktig komponent har gått sönder är det värt att gå igenom de enklare kontrollerna först – många fall löses utan att byta ut några delar alls.</p>",
+      "causes_json": [
+        {
+          "cause": "Överfylld eller obalanserad trumma",
+          "detail": "Att packa för många plagg i trumman, eller att ett enda tungt föremål som en duntäcke buntar ihop sig på ena sidan, ställer för höga krav på motorns vridmoment. Maskinens styrkort registrerar belastningen och stoppar rotationen för att skydda motorn, vilket ofta utlöser en LE-kod."
+        },
+        {
+          "cause": "Defekt eller lös hallsensor",
+          "detail": "Hallsensorn övervakar rotorns position och skickar rotationsdata tillbaka till styrkortet. Om sensorn är skadad, förskjuten eller har en lös kabelkontakt tar styrkortet inte emot något signal och bryter strömmen till motorn, vilket stoppar trumman."
+        },
+        {
+          "cause": "Sliten eller skadad rotormagnetmontering",
+          "detail": "LG:s direktdrivna motorer använder en rotor utrustad med permanentmagneter som sitter runt statorn. Om magneter spricker eller lossnar – ibland orsakat av ett främmande föremål som hamnat i trumman – förlorar motorn det magnetfält den behöver för att generera vridmoment."
+        },
+        {
+          "cause": "Fel på statorlindning",
+          "detail": "Statorn innehåller kopparlindningar som skapar det roterande magnetfältet. En kortslutning eller ett avbrott i lindningarna, ofta orsakat av ålder eller fuktinträngning, förhindrar att motorn fungerar och utlöser vanligtvis en CE-felkod."
+        },
+        {
+          "cause": "Fel på styrkortet",
+          "detail": "Huvud-PCB:n styr motorns drivkrets. En defekt IGBT-transistor eller en bränd motordrivkomponent på kortet kan bryta strömmen till motorn helt, även när motorn i sig är i gott skick."
+        },
+        {
+          "cause": "Främmande föremål blockerar trumman",
+          "detail": "Mynt, bysthållartrådar eller små klädesplagg kan glida in mellan trumman och dörrtätningen eller karet och fysiskt blockera rotationen. Detta är vanligare än många ägare förväntar sig och är ett av de enklaste felen att utesluta."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Minska lasten och balansera om tvätten",
+          "detail": "Öppna luckan och ta ut ungefär hälften av tvätten om trumman är full. Fördela de kvarvarande plaggen jämnt runt trumman istället för att låta dem ligga ihopbuntade. Stäng luckan och starta om cykeln – om trumman snurrar normalt var överfyllning orsaken."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera om ett främmande föremål blockerar trumman",
+          "detail": "Rotera trumman långsamt för hand med maskinen urkopplad. Om du känner motstånd eller hör ett skrapljud, lyser du med en ficklampa runt springan mellan trumman och dörrtätningen. Använd spetsnåltång för att plocka ut eventuella synliga föremål. Kontrollera fickor inför varje tvätt för att förhindra upprepning."
+        },
+        {
+          "step": 3,
+          "action": "Starta om maskinen för att rensa ett tillfälligt fel",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara urkopplad i två hela minuter. Detta låter styrkortet återställa sig och rensa eventuellt lagrat feltillstånd. Koppla in igen, välj ett kort bomullsprogram och observera om trumman börjar rotera."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera hallsensorns kontakt",
+          "detail": "Koppla ur maskinen och ta bort bakpanelen för att komma åt motorområdet. Leta upp den lilla hallsensorn monterad på statorn – den har en trekabelskontakt. Tryck in kontakten ordentligt för att säkerställa att den sitter helt på plats. En lös kontakt här är en förvånansvärt vanlig orsak till LE-fel och är en kostnadsfri åtgärd."
+        },
+        {
+          "step": 5,
+          "action": "Undersök rotorn för skadade magneter",
+          "detail": "Med bakpanelen borttagen, skruva loss den enda centrala bulten som håller rotorn och dra den rakt av statorn. Inspektera magnetringen på insidan av rotorn för sprickor, avslag eller saknade delar. Om någon magnet är skadad måste rotorenheten bytas ut som en helhet."
+        },
+        {
+          "step": 6,
+          "action": "Testa statorlindningarna med en multimeter",
+          "detail": "Med rotorn borttagen, koppla loss statorns kabelstam och ställ in multimetern på motstånd (Ohm). Mät motståndet mellan varje par av de tre motorterminalerna – avläsningarna bör vara konsekventa och vanligtvis mellan 4 och 8 Ohm beroende på modell. En avläsning på noll (kortslutning) eller oändlighet (avbrott) bekräftar en defekt stator."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera motordrivdelen på styrkortet",
+          "detail": "Om motorn, rotorn, statorn och hallsensorn alla testar som funktionsdugliga, är felet troligtvis på huvud-PCB:n. Leta efter synligt brända komponenter eller en bränd lukt nära kortets motordrivkrets. Reparation på kortnivå kräver specialutrustning, så i detta skede är det lämpligt att kontakta en servicetekniker."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om du har gått igenom alla stegen ovan och trumman fortfarande inte snurrar, eller om du hittar brända komponenter på styrkortet, en defekt stator eller en rotor med trasiga magneter, har reparationen gått bortom enkel DIY-nivå. Att byta ut en stator eller ett styrkort på en LG direktdriven maskin kräver säker hantering av elektriska komponenter och korrekta åtdragningsmoment på rotorns bult – en felaktigt monterad rotor kan orsaka ytterligare skador.</p><p>Du bör också omedelbart kontakta en servicetekniker om maskinen löser ut ditt hushålls jordfelsbrytare när den försöker starta, om du känner en bränd lukt under drift, eller om trumman är helt låst och inte kan vridas för hand ens med maskinen urkopplad. Dessa tecken pekar på ett allvarligt elektriskt eller mekaniskt fel som kräver professionell diagnos.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en LG tvättmaskins trumma slutar snurra är hallsensorn, rotorenheten (inklusive dess magnetring) och statorn. I vissa fall är det huvud-styrkortets motordrivkrets som är felaktig. Att hålla trumlasten inom maskinens nominella kapacitet och alltid kontrollera fickor innan lastning minskar avsevärt belastningen på motorn och förlänger dess livslängd.</p><p>Om du behöver beställa reservdelar är de delar som listas nedan matchade till just detta fel. Använd alltid ditt fullständiga modellnummer – tryckt på etiketten inuti dörrkarmens ram – för att bekräfta kompatibilitet innan köp.</p>\n<!-- SPARE_PARTS_FAULT:drum-not-turning -->",
+      "faq_json": [
+        {
+          "answer": "LE står för motorfel och indikerar att styrkortet inte tar emot den förväntade återkopplingen från motorn eller hallsensorn. Det kan utlösas av en överfylld trumma, en lös hallsensorkontakt eller en defekt motorkomponent. Att tömma lasten och starta om maskinen löser det i många fall.",
+          "question": "Vad betyder felkoden LE på en LG tvättmaskin?"
+        },
+        {
+          "answer": "Nej – att köra ett program med en icke-roterande trumma lämnar tvätten otvättad och stående i vatten, och upprepade försök kan överhettas motorlindningarna eller skada styrkortet ytterligare. Stäng av maskinen och gå igenom diagnostikstegen innan du använder den igen.",
+          "question": "Kan jag fortfarande använda min LG tvättmaskin om trumman inte snurrar?"
+        },
+        {
+          "answer": "Om rotormagneterna är intakta, hallsensorkontakten sitter säkert och statorlindningens motstånd testar utanför normalområdet (eller visar noll eller oändlighet), behöver motorkomponenterna bytas. På LG direktdrivna maskiner säljs statorn och rotorn vanligtvis separat, så du kanske bara behöver byta den defekta delen snarare än hela motorn.",
+          "question": "Hur vet jag om motorn på min LG tvättmaskin behöver bytas?"
+        },
+        {
+          "answer": "Inte alltid. En trumma som snurrar långsamt men inte når full centrifugeringshastighet är oftare relaterad till ett dräneringsproblem, slitna upphängningar eller ett hastighetsstyrningsfel på kortet. En trumma som inte snurrar alls – särskilt med en LE- eller CE-kod – pekar mer direkt på motorns drivsystem eller en fysisk blockering.",
+          "question": "Är det samma problem att trumman inte snurrar som att trumman snurrar långsamt?"
+        },
+        {
+          "answer": "För någon som är bekväm med grundläggande vitvaruservice tar det vanligtvis 30 till 45 minuter att byta hallsensorn. De viktigaste momenten är att ta bort bakpanelen, skruva loss rotorn, koppla loss den gamla sensorn och montera den nya. Hallsensorn är en av de minst kostsamma motorkomponenterna och är värd att prova innan man byter statorn eller rotorn.",
+          "question": "Hur lång tid tar det att byta hallsensor på en LG tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:44.341098+00:00"
+    },
+    {
+      "id": 235,
+      "article_id": 161,
+      "locale": "en",
+      "slug": "lg-error-code-on-display",
+      "title_tag": "LG Washing Machine Error Code Showing – Fix Guide",
+      "meta_description": "LG washing machine showing an error code on the display? Learn what PE, EE, PS and AE codes mean and how to fix them with this step-by-step guide.",
+      "h1": "What Does an Error Code on My LG Washing Machine Display Mean?",
+      "description": "An error code is appearing on the LG washing machine's display panel, indicating that the machine's control system has detected a fault and interrupted or prevented normal operation.",
+      "quick_fix": "Press and hold the Power button for 5 seconds to fully reset the machine, then restart a cycle — this clears temporary electronic faults and resolves the error code in many cases (takes about 3 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When your LG washing machine shows an error code on its display, it means the onboard control system has detected something outside its normal operating range and is alerting you before the problem gets worse. The machine may stop mid-cycle, refuse to start, or complete a partial cycle and then pause. This is a protective feature, not a malfunction in itself — the code is the machine's way of pointing you toward the underlying issue.</p><p>Common codes on LG washing machines include PE (pressure sensor error), EE (EEPROM memory error), PS (door lock or power supply issue), and AE (communication error between the control boards). Each code relates to a specific system, but the starting point for diagnosis is almost always the same: identify the code, rule out simple causes first, and work methodically from there. Many of these faults can be resolved at home without specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary electronic glitch in the control board",
+          "detail": "A brief power fluctuation or software hiccup can cause the control board to log a fault code even when no physical component has failed. This is one of the most common reasons an error code appears, and a reset often clears it immediately."
+        },
+        {
+          "cause": "Faulty or blocked pressure sensor (PE code)",
+          "detail": "The pressure sensor monitors the water level inside the drum. If the small plastic hose connecting the sensor to the drum becomes kinked, blocked with detergent residue, or the sensor itself fails, the machine cannot accurately read the water level and displays a PE error."
+        },
+        {
+          "cause": "Door lock or latch failure (PS code)",
+          "detail": "The PS code typically points to a problem with the door interlock mechanism — either the latch isn't engaging fully, or the lock assembly has failed electrically. The machine will not run a cycle if it cannot confirm the door is securely closed."
+        },
+        {
+          "cause": "Communication fault between control boards (AE code)",
+          "detail": "LG washing machines use two or more circuit boards that communicate with each other. A wiring harness that has worked loose, corroded connector pins, or a failing secondary board can break this communication and trigger an AE error."
+        },
+        {
+          "cause": "EEPROM memory error (EE code)",
+          "detail": "The EEPROM chip on the main control board stores the machine's settings and cycle data. If this memory becomes corrupted — often after a power surge — the machine displays an EE code and may refuse to operate until the board is replaced or reprogrammed."
+        },
+        {
+          "cause": "Damaged or disconnected wiring harness",
+          "detail": "Vibration over time can loosen wire connectors throughout the machine. A loose connection to the pressure sensor, door lock, or control board can mimic a component failure and trigger any of the above error codes."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Note the exact error code displayed",
+          "detail": "Before doing anything else, write down the code shown on the display. If the machine is mid-cycle and the code has appeared, do not open the door until the drum has stopped rotating. Knowing the exact code — PE, EE, PS, AE, or another — will help you target the right component and avoid unnecessary checks."
+        },
+        {
+          "step": 2,
+          "action": "Perform a hard reset",
+          "detail": "Switch the machine off at the power button, then unplug it from the wall socket. Wait a full 5 minutes — this allows the capacitors on the control board to discharge completely. Plug back in, power on, and attempt a new cycle. A significant proportion of error codes are caused by temporary electronic faults and will not return after a proper reset."
+        },
+        {
+          "step": 3,
+          "action": "Check the door and door latch (relevant to PS code)",
+          "detail": "Open and firmly close the door, making sure no clothing is caught in the seal. Inspect the plastic latch on the door and the strike plate on the machine body for visible cracks or misalignment. If the door feels loose or the latch does not click positively into place, the interlock assembly likely needs replacing."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the pressure sensor hose (relevant to PE code)",
+          "detail": "The pressure sensor is usually located at the top of the machine and connected to the drum by a thin rubber or plastic hose. Unplug the machine, remove the top panel (typically two screws at the rear), and trace the hose from the sensor down to the drum. Look for kinks, cracks, or a build-up of soapy residue blocking the tube. Gently blow through the hose to confirm it is clear."
+        },
+        {
+          "step": 5,
+          "action": "Check all visible wiring connectors",
+          "detail": "With the machine unplugged and the top or rear panel removed, visually inspect the wiring harnesses connected to the control board, door lock, and pressure sensor. Press each connector firmly to reseat it. Look for any wires that appear burnt, corroded, or have pulled free from their terminals. Reattach any loose connectors and replace the panel before testing."
+        },
+        {
+          "step": 6,
+          "action": "Run a diagnostic cycle",
+          "detail": "LG washing machines have a built-in diagnostic mode. On most models, you can enter it by pressing and holding the Spin Speed and Soil Level buttons simultaneously for 3 seconds with the machine powered on. The machine will cycle through its components and display any active fault codes. Refer to your model's user manual for the exact button combination, as this varies between series."
+        },
+        {
+          "step": 7,
+          "action": "Test or replace the identified component",
+          "detail": "If the diagnostic mode confirms a specific component — such as the pressure sensor, door lock assembly, or a control board — source the correct replacement part using your machine's model number (found on the label inside the door frame). Pressure sensors and door locks are straightforward to swap at home. Control board replacement is more involved but still achievable with basic tools and the correct part."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If the error code returns immediately after a full reset, or if the machine shows an EE code that persists after power cycling, the main control board's EEPROM may be corrupted or the board itself may have failed. Replacing a control board requires careful handling of static-sensitive components and precise connector routing — if you are not confident working inside the machine, this is the point to contact a service technician.</p><p>You should also call a service technician if you notice any burning smell, scorch marks on the wiring or board, or if the machine trips your household circuit breaker when switched on. These signs indicate an electrical fault that goes beyond a simple component swap and could pose a safety risk if left unaddressed.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving LG washing machine error codes are the pressure sensor (PE code), the door lock interlock assembly (PS code), and the main control board (EE and AE codes). Having the correct model number to hand when ordering parts ensures compatibility — you will find it on a sticker inside the door aperture. Using a surge-protected extension lead can also help protect the control board from future power fluctuation damage.</p><p>To reduce the likelihood of error codes appearing over time, clean the detergent drawer and drum monthly to prevent residue build-up in the pressure sensor hose, and avoid overloading the drum, which puts stress on the door latch and motor circuits.</p>\n<!-- SPARE_PARTS_FAULT:error-code-on-display -->",
+      "faq_json": [
+        {
+          "answer": "Yes, unplugging the machine for at least 5 minutes performs a hard reset that clears temporary fault codes stored in the control board's memory. However, if the underlying cause — such as a faulty sensor or broken door lock — has not been fixed, the code will return once you run another cycle.",
+          "question": "Will unplugging my LG washing machine reset the error code?"
+        },
+        {
+          "answer": "PE stands for Pressure sensor Error. It means the machine cannot accurately detect the water level inside the drum. The most common causes are a kinked or blocked pressure sensor hose, or a failed pressure sensor. Clearing the hose or replacing the sensor usually resolves it.",
+          "question": "What does the PE error code mean on an LG washing machine?"
+        },
+        {
+          "answer": "Generally, no. Error codes are designed to stop the machine from operating in a potentially damaging or unsafe condition. Running the machine while ignoring a fault code can worsen the underlying problem and may cause water leaks, electrical issues, or damage to the drum and motor.",
+          "question": "Is it safe to keep using my LG washing machine when an error code is showing?"
+        },
+        {
+          "answer": "The model number is printed on a label inside the door aperture — open the door and look around the inner rim of the machine body. It typically starts with letters such as F, WM, or FH followed by a string of numbers and letters. You will need this number to order the correct replacement parts.",
+          "question": "How do I find the model number on my LG washing machine?"
+        },
+        {
+          "answer": "Yes. A sudden power cut or voltage spike can corrupt the temporary memory on the control board and trigger codes such as EE or AE. In most cases a full reset — unplugging for 5 minutes — will clear the code. If the EE code persists after multiple resets, the EEPROM chip or control board may need to be replaced.",
+          "question": "Can a power cut cause an error code to appear on my LG washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:44.552038+00:00"
+    },
+    {
+      "id": 236,
+      "article_id": 161,
+      "locale": "sv",
+      "slug": "lg-felkod-pa-display",
+      "title_tag": "LG Tvättmaskin Felkod Visas – Felsökningsguide",
+      "meta_description": "Visar din LG tvättmaskin en felkod på displayen? Lär dig vad PE, EE, PS och AE-koder betyder och hur du åtgärdar dem med den här steg-för-steg-guiden.",
+      "h1": "Vad Betyder en Felkod på Min LG Tvättmaskins Display?",
+      "description": "En felkod visas på LG tvättmaskinens displaypanel, vilket indikerar att maskinens styrsystem har upptäckt ett fel och avbrutit eller förhindrat normal drift.",
+      "quick_fix": "Håll in strömknappen i 5 sekunder för att återställa maskinen helt, starta sedan ett nytt program – detta rensar tillfälliga elektroniska fel och löser felkoden i många fall (tar ungefär 3 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När din LG tvättmaskin visar en felkod på displayen betyder det att det inbyggda styrsystemet har upptäckt något utanför sitt normala driftsområde och varnar dig innan problemet förvärras. Maskinen kan stanna mitt i ett program, vägra att starta, eller slutföra ett delprogram och sedan pausa. Detta är en skyddsfunktion, inte ett fel i sig – koden är maskinens sätt att peka dig mot det underliggande problemet.</p><p>Vanliga koder på LG tvättmaskiner inkluderar PE (trycksensorfel), EE (EEPROM-minnesfel), PS (dörrlås- eller strömförsörjningsproblem) och AE (kommunikationsfel mellan styrkorten). Varje kod är kopplad till ett specifikt system, men utgångspunkten för felsökning är nästan alltid densamma: identifiera koden, uteslut enkla orsaker först och arbeta metodiskt därifrån. Många av dessa fel kan åtgärdas hemma utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt elektroniskt fel i styrkortet",
+          "detail": "En kortvarig strömfluktuering eller programvarufel kan få styrkortet att logga en felkod även när ingen fysisk komponent har gått sönder. Detta är en av de vanligaste orsakerna till att en felkod visas, och en återställning rensar den ofta omedelbart."
+        },
+        {
+          "cause": "Defekt eller blockerad trycksensor (PE-kod)",
+          "detail": "Trycksensorn övervakar vattennivån inuti trumman. Om den lilla plastslangen som förbinder sensorn med trumman böjs, blockeras av tvättmedelsrester, eller om sensorn själv går sönder, kan maskinen inte läsa av vattennivån korrekt och visar ett PE-fel."
+        },
+        {
+          "cause": "Dörrlås- eller låsmekanismfel (PS-kod)",
+          "detail": "PS-koden pekar vanligtvis på ett problem med dörrlåsmekanismen – antingen hakar låset inte i ordentligt, eller så har låsenheten fått ett elektriskt fel. Maskinen startar inte ett program om den inte kan bekräfta att dörren är ordentligt stängd."
+        },
+        {
+          "cause": "Kommunikationsfel mellan styrkort (AE-kod)",
+          "detail": "LG tvättmaskiner använder två eller fler kretskort som kommunicerar med varandra. En kabelstam som lossnat, korroderade kontaktstift eller ett sviktande sekundärkort kan bryta denna kommunikation och utlösa ett AE-fel."
+        },
+        {
+          "cause": "EEPROM-minnesfel (EE-kod)",
+          "detail": "EEPROM-chippet på huvudstyrkortet lagrar maskinens inställningar och programdata. Om detta minne skadas – ofta efter ett strömöverspänning – visar maskinen en EE-kod och kan vägra att fungera tills kortet byts ut eller omprogrammeras."
+        },
+        {
+          "cause": "Skadad eller frånkopplad kabelstam",
+          "detail": "Vibrationer över tid kan lossa kabelkontakter i hela maskinen. En lös anslutning till trycksensorn, dörrlåset eller styrkortet kan efterlikna ett komponentfel och utlösa någon av ovanstående felkoder."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Notera den exakta felkoden som visas",
+          "detail": "Innan du gör något annat, skriv ned koden som visas på displayen. Om maskinen är mitt i ett program och koden har dykt upp, öppna inte luckan förrän trumman har slutat rotera. Att känna till den exakta koden – PE, EE, PS, AE eller en annan – hjälper dig att rikta in dig på rätt komponent och undvika onödiga kontroller."
+        },
+        {
+          "step": 2,
+          "action": "Utför en fullständig återställning",
+          "detail": "Stäng av maskinen med strömknappen och dra sedan ut kontakten ur vägguttaget. Vänta i hela 5 minuter – detta låter kondensatorerna på styrkortet ladda ur helt. Sätt i kontakten igen, slå på strömmen och försök starta ett nytt program. En betydande andel felkoder orsakas av tillfälliga elektroniska fel och återkommer inte efter en ordentlig återställning."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera luckan och dörrlåset (relevant för PS-kod)",
+          "detail": "Öppna och stäng luckan ordentligt och se till att inga klädesplagg fastnat i tätningen. Undersök plastlåset på luckan och låsbygeln på maskinkroppen för synliga sprickor eller felinriktning. Om luckan känns lös eller låset inte klickar ordentligt på plats behöver låsenheten troligtvis bytas ut."
+        },
+        {
+          "step": 4,
+          "action": "Undersök trycksensorslangen (relevant för PE-kod)",
+          "detail": "Trycksensorn sitter vanligtvis högst upp i maskinen och är ansluten till trumman via en tunn gummi- eller plastslang. Dra ut kontakten, ta bort toppanelen (vanligtvis två skruvar baktill) och följ slangen från sensorn ned till trumman. Leta efter böjningar, sprickor eller en ansamling av tvålrester som blockerar slangen. Blås försiktigt genom slangen för att bekräfta att den är fri."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera alla synliga kabelkontakter",
+          "detail": "Med maskinen urkopplad och topp- eller bakpanelen borttagen, inspektera visuellt kabelstammarna anslutna till styrkortet, dörrlåset och trycksensorn. Tryck in varje kontakt ordentligt för att återansluta den. Leta efter kablar som verkar brända, korroderade eller har lossnat från sina anslutningspunkter. Återanslut lösa kontakter och sätt tillbaka panelen innan du testar."
+        },
+        {
+          "step": 6,
+          "action": "Kör ett diagnostikprogram",
+          "detail": "LG tvättmaskiner har ett inbyggt diagnostikläge. På de flesta modeller kan du aktivera det genom att hålla in knapparna för centrifugeringshastighet och smutsgrad samtidigt i 3 sekunder när maskinen är påslagen. Maskinen går igenom sina komponenter och visar aktiva felkoder. Se din modells bruksanvisning för den exakta knappkombinationen, eftersom denna varierar mellan serier."
+        },
+        {
+          "step": 7,
+          "action": "Testa eller byt ut den identifierade komponenten",
+          "detail": "Om diagnostikläget bekräftar en specifik komponent – såsom trycksensorn, dörrlåsenheten eller ett styrkort – beställ rätt reservdel med hjälp av maskinens modellnummer (finns på etiketten inuti lucköppningen). Trycksensorer och dörrlås är enkla att byta hemma. Byte av styrkort är mer avancerat men fortfarande möjligt med grundläggande verktyg och rätt del."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om felkoden återkommer omedelbart efter en fullständig återställning, eller om maskinen visar en EE-kod som kvarstår efter att strömmen kopplats från, kan huvudstyrkortets EEPROM vara skadat eller kortet självt kan ha gått sönder. Byte av ett styrkort kräver försiktig hantering av statikkänsliga komponenter och exakt kabelledning – om du inte känner dig trygg med att arbeta inuti maskinen är det dags att kontakta en servicetekniker.</p><p>Du bör också kontakta en servicetekniker om du märker bränd lukt, brännmärken på kablar eller kort, eller om maskinen löser ut din hushållssäkring när den slås på. Dessa tecken indikerar ett elektriskt fel som går bortom ett enkelt komponentbyte och kan utgöra en säkerhetsrisk om det lämnas oåtgärdat.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av LG tvättmaskiners felkoder är trycksensorn (PE-kod), dörrlåsenheten (PS-kod) och huvudstyrkortet (EE- och AE-koder). Att ha rätt modellnummer till hands när du beställer delar säkerställer kompatibilitet – du hittar det på en etikett inuti lucköppningen. Att använda ett överspänningsskyddat grenuttag kan också hjälpa till att skydda styrkortet mot framtida skador från strömfluktuationer.</p><p>För att minska risken för att felkoder uppstår med tiden, rengör tvättmedelslådan och trumman månadsvis för att förhindra att rester ansamlas i trycksensorslangen, och undvik att överlasta trumman, vilket belastar dörrlåset och motorcirklarna.</p>\n<!-- SPARE_PARTS_FAULT:error-code-on-display -->",
+      "faq_json": [
+        {
+          "answer": "Ja, att dra ut kontakten i minst 5 minuter utför en fullständig återställning som rensar tillfälliga felkoder lagrade i styrkortet. Men om den underliggande orsaken – såsom en defekt sensor eller trasigt dörrlås – inte har åtgärdats, kommer koden att återkomma när du kör ett nytt program.",
+          "question": "Återställer felkoden om jag drar ut kontakten på min LG tvättmaskin?"
+        },
+        {
+          "answer": "PE står för trycksensorfel (Pressure sensor Error). Det betyder att maskinen inte kan avläsa vattennivån inuti trumman korrekt. De vanligaste orsakerna är en böjd eller blockerad trycksensorslang, eller en defekt trycksensor. Att rensa slangen eller byta ut sensorn löser vanligtvis problemet.",
+          "question": "Vad betyder PE-felkoden på en LG tvättmaskin?"
+        },
+        {
+          "answer": "I allmänhet nej. Felkoder är utformade för att stoppa maskinen från att köras under potentiellt skadliga eller osäkra förhållanden. Att köra maskinen medan man ignorerar en felkod kan förvärra det underliggande problemet och kan orsaka vattenläckor, elektriska problem eller skador på trumman och motorn.",
+          "question": "Är det säkert att fortsätta använda min LG tvättmaskin när en felkod visas?"
+        },
+        {
+          "answer": "Modellnumret finns tryckt på en etikett inuti lucköppningen – öppna luckan och titta runt den inre kanten på maskinkroppen. Det börjar vanligtvis med bokstäver som F, WM eller FH följt av en serie siffror och bokstäver. Du behöver detta nummer för att beställa rätt reservdelar.",
+          "question": "Hur hittar jag modellnumret på min LG tvättmaskin?"
+        },
+        {
+          "answer": "Ja. Ett plötsligt strömavbrott eller spänningspik kan skada det tillfälliga minnet på styrkortet och utlösa koder som EE eller AE. I de flesta fall rensar en fullständig återställning – att dra ut kontakten i 5 minuter – koden. Om EE-koden kvarstår efter flera återställningar kan EEPROM-chippet eller styrkortet behöva bytas ut.",
+          "question": "Kan ett strömavbrott orsaka att en felkod visas på min LG tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:45.408378+00:00"
+    }
+  ]
+}

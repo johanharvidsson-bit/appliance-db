@@ -1,0 +1,1711 @@
+{
+  "batch": "019-lg-de-e6-ee",
+  "article_ids": [
+    89,
+    90,
+    91,
+    92,
+    93
+  ],
+  "articles": [
+    {
+      "id": 89,
+      "error_code_id": 128,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 90,
+      "error_code_id": 129,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 91,
+      "error_code_id": 130,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 92,
+      "error_code_id": 140,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 93,
+      "error_code_id": 135,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    }
+  ],
+  "rows": [
+    {
+      "id": 147,
+      "article_id": 89,
+      "locale": "en",
+      "slug": "lg-error-code-de",
+      "title_tag": "LG Washing Machine Error Code dE | Door Fix Guide",
+      "meta_description": "LG washing machine showing error code dE? Learn what causes the door open error, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code dE Mean on an LG Washing Machine?",
+      "description": "Error code dE on an LG washing machine indicates that the appliance cannot confirm the door is properly closed or that the door lock mechanism has failed.",
+      "quick_fix": "Firmly push the door shut until you hear a click, then press Start — if the latch was not fully engaged, the machine should resume its cycle immediately (takes about 2 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When your LG washing machine displays error code dE, it has detected a problem with the door circuit. The machine cannot verify that the door is securely closed, so it refuses to start or pauses mid-cycle as a safety measure to prevent water from leaking out during operation.</p><p>The fault can originate from something as simple as laundry caught in the door seal, or from a more mechanical issue such as a worn door latch or a failed door lock assembly. In some cases the wiring connecting the door lock to the main control board is the root cause.</p><p>Affected models include the F0712WS, F0812WS, F1056MD, F1056ND, F1056QD Series, F1056QP, F1068LD Series, F1068QD Series, F1073TD, F1091TD Series, F1096Q/TDW1, and F1096QDA Series. The steps below apply to all of these machines.</p>",
+      "causes_json": [
+        {
+          "cause": "Door not fully latched",
+          "detail": "The most common reason for a dE error is simply that the door has not been pushed firmly enough to engage the latch. Overloading the drum or a garment hanging over the door seal can prevent a proper close."
+        },
+        {
+          "cause": "Obstruction in the door seal or hinge",
+          "detail": "Small items such as socks, bra underwires, or debris can lodge in the rubber door gasket and physically stop the door from seating correctly. Even a slight gap is enough to trigger the error."
+        },
+        {
+          "cause": "Worn or broken door latch",
+          "detail": "The plastic latch hook on the door itself can crack or wear down over time, meaning it no longer engages the strike plate inside the machine. The door may feel closed but the lock cannot confirm it."
+        },
+        {
+          "cause": "Faulty door lock assembly (interlock)",
+          "detail": "The door lock assembly contains an electrical switch that signals to the control board when the door is secure. If this component fails internally, the signal is never sent even when the door is physically shut."
+        },
+        {
+          "cause": "Damaged or loose wiring",
+          "detail": "The wiring harness running from the door lock to the main PCB can become loose at a connector or develop a break, interrupting the door-closed signal. This is more common on machines that have been moved or serviced previously."
+        },
+        {
+          "cause": "Main control board fault",
+          "detail": "In rare cases the PCB itself fails to read the door lock signal correctly even though the lock and wiring are functioning normally. This is the least likely cause and should only be considered after all other possibilities have been ruled out."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check for laundry or debris in the door opening",
+          "detail": "Open the door fully and inspect the rubber door gasket all the way around. Remove any clothing, small items, or lint that may be sitting in the seal or across the door rim. Run your finger around the inside of the gasket to feel for hidden obstructions such as underwires or coins."
+        },
+        {
+          "step": 2,
+          "action": "Close the door firmly and restart the machine",
+          "detail": "Push the door closed with a firm, deliberate push until you hear or feel a distinct click from the latch. Press the Start/Pause button to clear the error and attempt to restart the cycle. If the machine starts normally, the door simply was not fully engaged."
+        },
+        {
+          "step": 3,
+          "action": "Power cycle the washing machine",
+          "detail": "Switch the machine off at the power button, then unplug it from the wall socket. Wait 60 seconds to allow the control board to fully reset, then plug back in and power on. This can clear a temporary electronic glitch that caused a false dE reading."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the door latch hook for damage",
+          "detail": "Look closely at the plastic latch hook on the door itself — it should be intact, straight, and free of cracks. If it appears chipped, bent, or worn smooth, it will not engage the strike plate reliably. A damaged latch hook requires replacement of the door handle or latch assembly."
+        },
+        {
+          "step": 5,
+          "action": "Check the door strike plate inside the machine",
+          "detail": "With the door open, examine the strike plate (the slot the latch hook clicks into) on the front of the machine body. Make sure it is not cracked, loose, or misaligned. A loose strike plate can sometimes be tightened with a screwdriver, but a cracked one will need replacing."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the door lock wiring connector",
+          "detail": "If you are comfortable doing so, unplug the machine and carefully remove the door lock assembly cover (usually held by two or three screws behind the door seal). Check that the wiring connector is firmly seated on the lock assembly. A loose connector can be reseated by hand. Do not attempt this step if you are unsure — call a service technician instead."
+        },
+        {
+          "step": 7,
+          "action": "Test or replace the door lock assembly",
+          "detail": "If all previous steps have been completed and the dE error persists, the door lock assembly itself is the most likely remaining cause. This part can be tested with a multimeter for continuity, or simply replaced. Replacement door lock assemblies for LG machines are widely available — see the spare parts section below."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have checked for obstructions, confirmed the latch and strike plate are undamaged, reseated the wiring connector, and the dE error still appears every time you try to run a cycle, the fault is likely internal to the door lock assembly or the main control board. These components require proper diagnosis before parts are ordered.</p><p>You should also contact a service technician if the door feels loose or misaligned on its hinges, if you can see visible burn marks or smell burning near the door lock area, or if the machine is still under warranty and you do not want to risk voiding it by opening the casing yourself.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a dE error on LG washing machines are the door lock assembly (interlock), the door latch hook or handle assembly, and in some cases the door strike plate. If your machine is a few years old and the latch feels loose or the door requires extra force to close, replacing the latch and lock together at the same time is good practice and avoids a repeat fault shortly after.</p><p>Always check the door seal regularly for trapped items, and avoid slamming the door — consistent firm but controlled closing extends the life of both the latch and the lock mechanism significantly.</p>\n<!-- SPARE_PARTS:dE -->",
+      "faq_json": [
+        {
+          "answer": "No — you should not run the machine while the dE error is active. The machine locks out to prevent the drum spinning with an unsecured door, which could cause water to leak or the door to open during a spin cycle. Resolve the fault before using the appliance again.",
+          "question": "Can I use my LG washing machine if the dE error keeps coming back?"
+        },
+        {
+          "answer": "In most cases, yes. Once the door is properly closed and the lock engages correctly, the error clears automatically when you press Start. If the error code remains on the display after a successful close, try switching the machine off and on again to reset the control board.",
+          "question": "Will the dE error clear itself after I fix the door?"
+        },
+        {
+          "answer": "For someone with basic DIY confidence, replacing the door lock assembly on an LG front-loader typically takes 30 to 45 minutes. The main tasks are peeling back the door seal, removing a few screws, and swapping the connector across to the new part. A service technician can usually complete it in under 30 minutes.",
+          "question": "How long does a door lock assembly replacement take?"
+        },
+        {
+          "answer": "They are related but not identical. The dE error is a general door open or lock failure signal. dE1 and dE2 are more specific sub-codes that appear on some LG models to indicate whether the fault is with the door lock switch or the door latch sensor separately. The diagnostic steps are similar, but dE1 and dE2 may point more directly to the lock assembly.",
+          "question": "Is the dE error the same as the dE1 or dE2 error on LG machines?"
+        },
+        {
+          "answer": "If the door feels physically secure but the error persists, the most likely cause is a failed door lock assembly that is not sending the confirmation signal to the control board, or a loose wiring connector between the lock and the PCB. The door being mechanically shut and the machine electronically confirming it is shut are two separate things — the electrical side needs to be checked.",
+          "question": "My LG washing machine door closes fine but still shows dE — why?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:39.31687+00:00"
+    },
+    {
+      "id": 148,
+      "article_id": 89,
+      "locale": "sv",
+      "slug": "lg-felkod-de",
+      "title_tag": "LG Tvättmaskin Felkod dE | Guide för Dörrreparation",
+      "meta_description": "Visar din LG-tvättmaskin felkod dE? Lär dig vad som orsakar felet med öppen dörr, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod dE på en LG Tvättmaskin?",
+      "description": "Felkod dE på en LG-tvättmaskin indikerar att maskinen inte kan bekräfta att dörren är ordentligt stängd eller att dörrlåsmekanismen har slutat fungera.",
+      "quick_fix": "Tryck dörren ordentligt stängd tills du hör ett klick och tryck sedan på Start — om låset inte var helt aktiverat bör maskinen återuppta sitt program omedelbart (tar ungefär 2 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När din LG-tvättmaskin visar felkod dE har den upptäckt ett problem med dörrkretsen. Maskinen kan inte verifiera att dörren är ordentligt stängd och vägrar därför att starta eller pausar mitt i ett program som en säkerhetsåtgärd för att förhindra att vatten läcker ut under drift.</p><p>Felet kan ha sin grund i något så enkelt som tvätt som fastnat i dörrtätningen, eller i ett mer mekaniskt problem såsom ett slitet dörrlås eller ett trasigt dörrlåsaggregat. I vissa fall är det kabeldragningen som förbinder dörrlåset med huvudkortet som är grundorsaken.</p><p>Berörda modeller inkluderar F0712WS, F0812WS, F1056MD, F1056ND, F1056QD-serien, F1056QP, F1068LD-serien, F1068QD-serien, F1073TD, F1091TD-serien, F1096Q/TDW1 och F1096QDA-serien. Stegen nedan gäller för samtliga dessa maskiner.</p>",
+      "causes_json": [
+        {
+          "cause": "Dörren är inte helt stängd",
+          "detail": "Den vanligaste orsaken till ett dE-fel är helt enkelt att dörren inte har tryckts tillräckligt hårt för att aktivera låset. Överfyllning av trumman eller ett plagg som hänger över dörrtätningen kan förhindra att dörren stängs ordentligt."
+        },
+        {
+          "cause": "Hinder i dörrtätningen eller gångjärnet",
+          "detail": "Små föremål som strumpor, bh-byglar eller smuts kan fastna i gummidörrtätningen och fysiskt hindra dörren från att sluta tätt. Även en liten springa räcker för att utlösa felet."
+        },
+        {
+          "cause": "Slitet eller trasigt dörrlås",
+          "detail": "Plastlåshaken på dörren kan spricka eller slitas ned med tiden, vilket innebär att den inte längre griper tag i låsbygeln inne i maskinen. Dörren kan kännas stängd men låset kan inte bekräfta det."
+        },
+        {
+          "cause": "Defekt dörrlåsaggregat (interlock)",
+          "detail": "Dörrlåsaggregatet innehåller en elektrisk kontakt som signalerar till styrkortet när dörren är säkrad. Om denna komponent slutar fungera internt skickas aldrig signalen, även när dörren är fysiskt stängd."
+        },
+        {
+          "cause": "Skadad eller lös kabelanslutning",
+          "detail": "Kabelstammen som löper från dörrlåset till huvud-PCB:n kan lossna vid en kontakt eller få ett brott, vilket avbryter signalen om att dörren är stängd. Detta är vanligare på maskiner som tidigare har flyttats eller reparerats."
+        },
+        {
+          "cause": "Fel på huvudkortet",
+          "detail": "I sällsynta fall kan PCB:n inte läsa av dörrlåssignalen korrekt trots att låset och kablarna fungerar normalt. Detta är den minst sannolika orsaken och bör endast övervägas efter att alla andra möjligheter har uteslutits."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera om det finns tvätt eller skräp i dörröppningen",
+          "detail": "Öppna dörren helt och inspektera gummidörrtätningen runt hela omkretsen. Ta bort eventuella klädesplagg, småföremål eller ludd som kan sitta i tätningen eller längs dörrkanten. Känn med fingret runt insidan av tätningen för att hitta dolda hinder som bh-byglar eller mynt."
+        },
+        {
+          "step": 2,
+          "action": "Stäng dörren ordentligt och starta om maskinen",
+          "detail": "Tryck dörren stängd med ett fast och bestämt tryck tills du hör eller känner ett tydligt klick från låset. Tryck på Start/Paus-knappen för att rensa felet och försöka starta om programmet. Om maskinen startar normalt var dörren helt enkelt inte helt aktiverad."
+        },
+        {
+          "step": 3,
+          "action": "Starta om tvättmaskinen",
+          "detail": "Stäng av maskinen med strömknappen och dra sedan ut kontakten ur vägguttaget. Vänta 60 sekunder så att styrkortet hinner återställas helt, anslut sedan kontakten igen och slå på strömmen. Detta kan rensa ett tillfälligt elektroniskt fel som orsakade en falsk dE-avläsning."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera dörrlåshaken för skador",
+          "detail": "Titta noga på plastlåshaken på dörren — den ska vara hel, rak och fri från sprickor. Om den ser avchippad, böjd eller nednött ut griper den inte tag i låsbygeln på ett tillförlitligt sätt. En skadad låshake kräver att dörrhandtaget eller låsaggregatet byts ut."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera låsbygeln inne i maskinen",
+          "detail": "Med dörren öppen, undersök låsbygeln (spåret som låshaken klickar in i) på maskinens framsida. Kontrollera att den inte är sprucken, lös eller feljusterad. En lös låsbyge kan ibland dras åt med en skruvmejsel, men en sprucken måste bytas ut."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera dörrlåsets kabelanslutning",
+          "detail": "Om du känner dig bekväm med det, dra ut maskinens kontakt och ta försiktigt bort kåpan till dörrlåsaggregatet (vanligtvis fäst med två eller tre skruvar bakom dörrtätningen). Kontrollera att kabelkontakten sitter ordentligt fast på låsaggregatet. En lös kontakt kan återanslutas för hand. Försök inte utföra detta steg om du är osäker — kontakta en servicetekniker istället."
+        },
+        {
+          "step": 7,
+          "action": "Testa eller byt ut dörrlåsaggregatet",
+          "detail": "Om alla tidigare steg har genomförts och dE-felet kvarstår är dörrlåsaggregatet troligtvis den återstående orsaken. Denna del kan testas med en multimeter för kontinuitet eller helt enkelt bytas ut. Ersättningsdörrlåsaggregat för LG-maskiner finns allmänt tillgängliga — se reservdelsavsnittet nedan."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har kontrollerat om det finns hinder, bekräftat att låshaken och låsbygeln är oskadade, återanslutit kabelkontakten och dE-felet fortfarande visas varje gång du försöker köra ett program, beror felet troligtvis på ett internt fel i dörrlåsaggregatet eller huvudkortet. Dessa komponenter kräver korrekt diagnos innan reservdelar beställs.</p><p>Du bör också kontakta en servicetekniker om dörren känns lös eller feljusterad i sina gångjärn, om du kan se synliga brännskador eller känner bränndoft nära dörrlåsområdet, eller om maskinen fortfarande är under garanti och du inte vill riskera att ogiltigförklara den genom att öppna höljet själv.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett dE-fel på LG-tvättmaskiner är dörrlåsaggregatet (interlock), dörrlåshaken eller handtagsaggregatet och i vissa fall låsbygeln. Om din maskin är några år gammal och låset känns löst eller dörren kräver extra kraft för att stängas, är det god praxis att byta ut både låshaken och låset samtidigt för att undvika att felet upprepas kort därefter.</p><p>Kontrollera alltid dörrtätningen regelbundet för fastnade föremål och undvik att slå igen dörren — ett konsekvent fast men kontrollerat stängande förlänger livslängden på både låshaken och låsmekanismen avsevärt.</p>\n<!-- SPARE_PARTS:dE -->",
+      "faq_json": [
+        {
+          "answer": "Nej — du bör inte köra maskinen medan dE-felet är aktivt. Maskinen låser ut för att förhindra att trumman snurrar med en osäkrad dörr, vilket kan orsaka vattenläckage eller att dörren öppnas under ett centrifugeringsprogram. Åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag använda min LG-tvättmaskin om dE-felet återkommer?"
+        },
+        {
+          "answer": "I de flesta fall, ja. När dörren är ordentligt stängd och låset aktiveras korrekt rensas felet automatiskt när du trycker på Start. Om felkoden kvarstår på displayen efter en lyckad stängning, prova att stänga av och slå på maskinen igen för att återställa styrkortet.",
+          "question": "Försvinner dE-felet av sig självt när jag har åtgärdat dörren?"
+        },
+        {
+          "answer": "För någon med grundläggande hemmafixarkompetens tar det vanligtvis 30 till 45 minuter att byta dörrlåsaggregat på en LG frontmatad tvättmaskin. De viktigaste momenten är att dra tillbaka dörrtätningen, ta bort några skruvar och flytta över kontakten till den nya delen. En servicetekniker kan vanligtvis slutföra det på under 30 minuter.",
+          "question": "Hur lång tid tar det att byta ut ett dörrlåsaggregat?"
+        },
+        {
+          "answer": "De är relaterade men inte identiska. dE-felet är en allmän signal om öppen dörr eller låsfel. dE1 och dE2 är mer specifika underkoder som visas på vissa LG-modeller för att indikera om felet gäller dörrlåskontakten eller dörrlåssensorn separat. Diagnostikstegen är liknande, men dE1 och dE2 kan peka mer direkt mot låsaggregatet.",
+          "question": "Är dE-felet detsamma som dE1- eller dE2-felet på LG-maskiner?"
+        },
+        {
+          "answer": "Om dörren känns fysiskt säker men felet kvarstår är den troligaste orsaken ett defekt dörrlåsaggregat som inte skickar bekräftelsesignalen till styrkortet, eller en lös kabelanslutning mellan låset och PCB:n. Att dörren är mekaniskt stängd och att maskinen elektroniskt bekräftar att den är stängd är två separata saker — den elektriska sidan behöver kontrolleras.",
+          "question": "Min LG-tvättmaskins dörr stängs bra men visar ändå dE — varför?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:39.385261+00:00"
+    },
+    {
+      "id": 114,
+      "article_id": 90,
+      "locale": "en",
+      "slug": "lg-error-code-de1",
+      "title_tag": "LG Washing Machine Error Code dE1 | Fix It Now",
+      "meta_description": "LG washing machine showing dE1? Learn what causes the door latch error, how to fix it yourself in minutes, and when to call a service technician.",
+      "h1": "What Does Error Code dE1 Mean on an LG Washing Machine?",
+      "description": "Error code dE1 indicates that the washing machine door has not fully latched during a cycle, preventing the machine from operating safely.",
+      "quick_fix": "Firmly push the door closed until you hear a distinct click, then press Start — if the latch was not fully engaged, the machine should resume the cycle immediately (takes about 2 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>The dE1 error code on an LG washing machine signals a door latching fault. Specifically, the machine's control board has detected that the door is not fully secured during operation. This is a safety feature — the machine will not spin or fill with water while the door is considered open or unlatched.</p><p>When dE1 appears, the cycle will pause or fail to start, and the door lock indicator may flash. You may also hear a repeated clicking sound as the machine attempts to engage the lock. In most cases, the fault is mechanical rather than electronic, meaning there is something physically preventing the door from closing properly.</p><p>The good news is that dE1 is one of the more straightforward error codes to diagnose. Working through a few simple checks will resolve the problem in the majority of cases without needing any specialist tools or replacement parts.</p>",
+      "causes_json": [
+        {
+          "cause": "Door not pushed firmly shut",
+          "detail": "The most common reason for dE1 is simply that the door was not closed with enough force for the latch to engage fully. Overloaded drums or items of laundry caught in the door seal can prevent a complete close."
+        },
+        {
+          "cause": "Worn or broken door latch assembly",
+          "detail": "The plastic hook on the door that engages the strike plate can wear down or snap over time, especially with heavy daily use. If the hook is visibly damaged, the door will not lock regardless of how firmly it is pushed."
+        },
+        {
+          "cause": "Faulty door lock mechanism (door interlock)",
+          "detail": "The door interlock is the electromechanical component inside the machine body that receives the latch and sends a signal to the control board confirming the door is secure. If this component fails electrically or mechanically, the board will not receive confirmation even when the door appears closed."
+        },
+        {
+          "cause": "Damaged or misaligned door hinge",
+          "detail": "A bent or loose hinge can cause the door to sit at a slight angle, meaning the latch hook and the strike plate no longer align correctly. This is more common on older machines or after an accidental impact."
+        },
+        {
+          "cause": "Obstruction in the door seal or gasket",
+          "detail": "A foreign object — such as a sock, small garment, or debris — trapped in the rubber door gasket can hold the door fractionally open. Even a small gap is enough to prevent the latch from engaging and trigger dE1."
+        },
+        {
+          "cause": "Wiring fault between door interlock and control board",
+          "detail": "If the wiring harness connecting the door interlock to the main control board is damaged, corroded, or has a loose connector, the board may not receive the lock confirmation signal even when the interlock itself is functioning correctly."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check for laundry caught in the door",
+          "detail": "Open the door fully and inspect the rubber door gasket all the way around. Pull back the lip of the seal and look for any clothing, small items, or debris trapped inside. Remove anything you find, redistribute the laundry load evenly inside the drum, and close the door firmly."
+        },
+        {
+          "step": 2,
+          "action": "Close the door with firm, even pressure",
+          "detail": "Stand directly in front of the machine and push the door closed with the flat of your hand, applying steady pressure until you hear or feel a clear click. Avoid pushing only on the handle or the edge of the door, as uneven pressure can prevent full engagement of the latch."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the door latch hook and strike plate",
+          "detail": "Look at the plastic latch hook on the door itself and the corresponding strike plate on the machine body. Check for visible cracks, chips, or deformation. If the hook appears worn smooth or is broken, it will need to be replaced — this is a relatively inexpensive part available for all affected LG models."
+        },
+        {
+          "step": 4,
+          "action": "Check the door hinge alignment",
+          "detail": "With the door open, look at the hinge on the left side of the door. The door should hang level and swing smoothly without any wobble or resistance. If the door droops or the hinge screws are loose, tighten them with a suitable screwdriver. A misaligned door will prevent the latch from meeting the strike plate correctly."
+        },
+        {
+          "step": 5,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains socket and leave it unpowered for two minutes. This allows the control board to reset any stored fault state. Switch it back on, select a short cycle, and observe whether the door locks and the cycle begins normally."
+        },
+        {
+          "step": 6,
+          "action": "Test the door interlock",
+          "detail": "If the door closes and latches physically but dE1 persists, the door interlock may have failed electrically. You can test continuity across the interlock terminals using a multimeter set to resistance mode — a functioning interlock should show continuity when the door is closed. If you get no reading, the interlock needs replacing."
+        },
+        {
+          "step": 7,
+          "action": "Check the wiring harness connections",
+          "detail": "With the machine unplugged, carefully remove the door interlock from its housing and inspect the wiring connector. Look for burnt contacts, corrosion, or a connector that has worked loose. Reseat any loose connectors firmly. If the wiring itself is damaged, the affected section of the harness will need to be repaired or replaced."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and the dE1 error continues to appear, or if the door physically will not stay closed even when the latch and hinge appear undamaged, it is time to contact a service technician. A failed door interlock that tests faulty on a multimeter, or a wiring harness with burnt or corroded connectors, requires safe disassembly of the machine and should not be attempted without experience.</p><p>You should also call a service technician if the door latch hook has broken off inside the strike plate housing, as retrieving it and assessing any internal damage requires partial dismantling of the door assembly. Attempting this without the correct tools risks damaging the door seal or the machine body.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a dE1 fault are the door latch assembly (the hook and strike plate unit), the door interlock (also called the door lock actuator), and in some cases the door hinge. Keeping the door seal clean and free of debris after every wash will reduce wear on the latch over time. Avoid slamming the door or forcing it closed if resistance is felt — this is the most common cause of premature latch wear on LG front-loader models.</p><p>If you need to order replacement parts for your specific model from the F0712WS, F1056 series, F1068 series, or any other affected LG washing machine, use the parts finder below to locate compatible components.</p>\n<!-- SPARE_PARTS:dE1 -->",
+      "faq_json": [
+        {
+          "answer": "No. The machine will not run a cycle while dE1 is active because the control board treats an unlatched door as a safety risk. Attempting to force the machine to run in this state is not possible through normal controls, and you should resolve the fault before using the appliance again.",
+          "question": "Can I continue using my LG washing machine with the dE1 error showing?"
+        },
+        {
+          "answer": "In most cases, yes. Once the door is fully latched and the machine detects a confirmed lock signal, the error should clear automatically when you press Start. If the code remains on screen after the door is securely closed, try a full power cycle by switching off at the mains for two minutes.",
+          "question": "Will dE1 clear itself once the door is properly closed?"
+        },
+        {
+          "answer": "Door interlock parts for LG front-loading washing machines typically cost between £15 and £40 depending on the model. If you are comfortable with basic appliance repair, fitting the part yourself is straightforward and can save the cost of a call-out. Always unplug the machine before starting any repair.",
+          "question": "How much does it cost to replace a door interlock on an LG washing machine?"
+        },
+        {
+          "answer": "They are related but slightly different. The standard dE code indicates a general door open error, while dE1 is a variant that specifically points to the door not being fully latched during a cycle. The diagnostic steps and likely causes are very similar, so the same troubleshooting process applies to both.",
+          "question": "Is dE1 the same as the dE error code on LG washing machines?"
+        },
+        {
+          "answer": "A stiff door is often a sign that the hinge is misaligned or that the door seal has hardened and is creating extra resistance. Both issues can prevent the latch from engaging fully and trigger dE1. Check the hinge screws for tightness and inspect the seal for any hardening, cracking, or debris build-up around the inner lip.",
+          "question": "My LG washing machine door feels stiff to close — is that related to dE1?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:37.818733+00:00"
+    },
+    {
+      "id": 115,
+      "article_id": 90,
+      "locale": "sv",
+      "slug": "lg-felkod-de1",
+      "title_tag": "LG Tvättmaskin Felkod dE1 | Åtgärda Det Nu",
+      "meta_description": "Visar din LG-tvättmaskin dE1? Lär dig vad som orsakar dörrlåsfelet, hur du åtgärdar det själv på några minuter och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod dE1 på en LG-tvättmaskin?",
+      "description": "Felkod dE1 indikerar att tvättmaskinens dörr inte har låsts ordentligt under ett program, vilket hindrar maskinen från att köras på ett säkert sätt.",
+      "quick_fix": "Tryck dörren ordentligt stängd tills du hör ett tydligt klick och tryck sedan på Start — om låset inte var helt aktiverat bör maskinen återuppta programmet omedelbart (tar ungefär 2 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkoden dE1 på en LG-tvättmaskin signalerar ett fel på dörrlåset. Mer specifikt har maskinens styrkort registrerat att dörren inte är ordentligt stängd under drift. Detta är en säkerhetsfunktion — maskinen spinner inte eller fyller på med vatten så länge dörren anses vara öppen eller olåst.</p><p>När dE1 visas pausas programmet eller startar inte, och dörrlåsindikatorn kan blinka. Du kan också höra ett upprepat klickljud när maskinen försöker aktivera låset. I de flesta fall är felet mekaniskt snarare än elektroniskt, vilket innebär att något fysiskt hindrar dörren från att stängas ordentligt.</p><p>Den goda nyheten är att dE1 är en av de mer lättdiagnostiserade felkoderna. Genom att gå igenom några enkla kontroller löser du problemet i de flesta fall utan att behöva specialverktyg eller reservdelar.</p>",
+      "causes_json": [
+        {
+          "cause": "Dörren inte stängd med tillräcklig kraft",
+          "detail": "Den vanligaste orsaken till dE1 är helt enkelt att dörren inte stängdes med tillräcklig kraft för att låset ska aktiveras helt. Överfyllda trummor eller tvättstycken som fastnat i dörrtätningen kan förhindra att dörren stängs helt."
+        },
+        {
+          "cause": "Slitet eller trasigt dörrlåsbeslag",
+          "detail": "Den plasthakar på dörren som griper in i låsplattan kan slitas ned eller gå av med tiden, särskilt vid intensiv daglig användning. Om haken är synligt skadad låser sig dörren inte oavsett hur hårt den trycks igen."
+        },
+        {
+          "cause": "Defekt dörrlåsmekanism (dörrlåsbrytare)",
+          "detail": "Dörrlåsbrytaren är den elektromekaniska komponenten inuti maskinkroppen som tar emot låset och skickar en signal till styrkortet som bekräftar att dörren är säkrad. Om denna komponent havererar elektriskt eller mekaniskt får styrkortet ingen bekräftelse ens när dörren verkar stängd."
+        },
+        {
+          "cause": "Skadat eller feljusterat dörrgångjärn",
+          "detail": "Ett böjt eller löst gångjärn kan göra att dörren sitter i en liten vinkel, vilket innebär att låshaken och låsplattan inte längre är i linje med varandra. Detta är vanligare på äldre maskiner eller efter en oavsiktlig stöt."
+        },
+        {
+          "cause": "Hinder i dörrtätningen eller packningen",
+          "detail": "Ett främmande föremål — till exempel en strumpa, ett litet plagg eller skräp — som fastnat i gummidörrtätningen kan hålla dörren på glänt. Även en liten springa räcker för att förhindra att låset aktiveras och utlösa dE1."
+        },
+        {
+          "cause": "Kabelfel mellan dörrlåsbrytare och styrkort",
+          "detail": "Om kabelstammen som förbinder dörrlåsbrytaren med huvudstyrkortet är skadad, korroderad eller har en lös kontakt kan styrkortet inte ta emot låsbekräftelsesignalen ens när brytaren i sig fungerar korrekt."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera om tvätt fastnat i dörren",
+          "detail": "Öppna dörren helt och inspektera gummidörrtätningen runt hela kanten. Vik tillbaka tätningens läpp och leta efter kläder, små föremål eller skräp som fastnat inuti. Ta bort allt du hittar, fördela tvättlasten jämnt i trumman och stäng dörren ordentligt."
+        },
+        {
+          "step": 2,
+          "action": "Stäng dörren med jämnt och fast tryck",
+          "detail": "Stå rakt framför maskinen och tryck igen dörren med handflatan med ett stadigt tryck tills du hör eller känner ett tydligt klick. Undvik att trycka enbart på handtaget eller dörrkanten, eftersom ojämnt tryck kan förhindra att låset aktiveras helt."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera dörrlåshaken och låsplattan",
+          "detail": "Titta på plastlåshaken på själva dörren och den motsvarande låsplattan på maskinkroppen. Kontrollera om det finns synliga sprickor, avslag eller deformationer. Om haken verkar utsliten eller är trasig måste den bytas ut — detta är en relativt billig reservdel som finns tillgänglig för alla berörda LG-modeller."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera dörrgångjärnets justering",
+          "detail": "Med dörren öppen, titta på gångjärnet på dörren vänstra sida. Dörren ska hänga i våg och svänga smidigt utan gungning eller motstånd. Om dörren hänger snett eller om gångjärnsskruvarna är lösa, dra åt dem med en lämplig skruvmejsel. En feljusterad dörr förhindrar att låshaken möter låsplattan korrekt."
+        },
+        {
+          "step": 5,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara strömlös i två minuter. Detta gör att styrkortet kan återställa eventuellt lagrat feltillstånd. Slå på den igen, välj ett kort program och observera om dörren låser sig och programmet startar normalt."
+        },
+        {
+          "step": 6,
+          "action": "Testa dörrlåsbrytaren",
+          "detail": "Om dörren stängs och låser sig fysiskt men dE1 kvarstår kan dörrlåsbrytaren ha havererat elektriskt. Du kan testa kontinuitet över brytarens terminaler med en multimeter inställd på resistansläge — en fungerande brytare ska visa kontinuitet när dörren är stängd. Om du inte får något utslag behöver brytaren bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera kabelstammens anslutningar",
+          "detail": "Med maskinen urkopplad, ta försiktigt bort dörrlåsbrytaren från sitt hölje och inspektera kabelkontakten. Leta efter brända kontakter, korrosion eller en kontakt som lossnat. Sätt tillbaka eventuella lösa kontakter ordentligt. Om kabeln i sig är skadad måste den berörda delen av kabelstammen repareras eller bytas ut."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har gått igenom alla stegen ovan och dE1-felet fortsätter att visas, eller om dörren fysiskt inte håller sig stängd även när låshaken och gångjärnet verkar oskadade, är det dags att kontakta en servicetekniker. En defekt dörrlåsbrytare som visar fel vid multimetermätning, eller en kabelstam med brända eller korroderade kontakter, kräver säker isärtagning av maskinen och bör inte utföras utan erfarenhet.</p><p>Du bör också kontakta en servicetekniker om dörrlåshaken har brutits av inuti låsplattans hölje, eftersom det kräver delvis isärtagning av dörrenhetens montering att ta ut den och bedöma eventuella interna skador. Att försöka detta utan rätt verktyg riskerar att skada dörrtätningen eller maskinkroppen.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärd av ett dE1-fel är dörrlåsbeslagets enhet (haken och låsplattan), dörrlåsbrytaren (även kallad dörrlåsaktuatorn) och i vissa fall dörrgångjärnet. Att hålla dörrtätningen ren och fri från skräp efter varje tvätt minskar slitaget på låset över tid. Undvik att slå igen dörren eller tvinga den stängd om du känner motstånd — detta är den vanligaste orsaken till för tidigt låsslitage på LG frontmatade tvättmaskiner.</p><p>Om du behöver beställa reservdelar för din specifika modell från F0712WS, F1056-serien, F1068-serien eller någon annan berörd LG-tvättmaskin, använd reservdelssökaren nedan för att hitta kompatibla komponenter.</p>\n<!-- SPARE_PARTS:dE1 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. Maskinen kör inte ett program medan dE1 är aktivt eftersom styrkortet behandlar en olåst dörr som en säkerhetsrisk. Det är inte möjligt att tvinga maskinen att köra i detta tillstånd via normala kontroller, och du bör åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag fortsätta använda min LG-tvättmaskin med dE1-felet aktivt?"
+        },
+        {
+          "answer": "I de flesta fall, ja. När dörren är helt låst och maskinen registrerar en bekräftad låssignal bör felet rensas automatiskt när du trycker på Start. Om koden kvarstår på skärmen efter att dörren är ordentligt stängd, prova en fullständig omstart genom att stänga av vid vägguttaget i två minuter.",
+          "question": "Försvinner dE1 av sig självt när dörren är ordentligt stängd?"
+        },
+        {
+          "answer": "Dörrlåsbrytardelar till LG frontmatade tvättmaskiner kostar vanligtvis mellan 200 och 500 kronor beroende på modell. Om du är bekväm med grundläggande vitvaruservice är det enkelt att montera delen själv och kan spara kostnaden för ett servicebesök. Koppla alltid ur maskinen innan du påbörjar någon reparation.",
+          "question": "Hur mycket kostar det att byta dörrlåsbrytare på en LG-tvättmaskin?"
+        },
+        {
+          "answer": "De är besläktade men något olika. Den vanliga dE-koden indikerar ett allmänt dörröppningsfel, medan dE1 är en variant som specifikt pekar på att dörren inte är helt låst under ett program. Felsökningsstegen och de troliga orsakerna är mycket lika, så samma felsökningsprocess gäller för båda.",
+          "question": "Är dE1 samma som felkoden dE på LG-tvättmaskiner?"
+        },
+        {
+          "answer": "En stel dörr är ofta ett tecken på att gångjärnet är feljusterat eller att dörrtätningen har hårdnat och skapar extra motstånd. Båda problemen kan förhindra att låset aktiveras helt och utlösa dE1. Kontrollera att gångjärnsskruvarna sitter åtdragna och inspektera tätningen för eventuell hårdning, sprickor eller skräpansamling runt den inre läppen.",
+          "question": "Min LG-tvättmaskindörr känns stel att stänga — är det relaterat till dE1?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:37.887592+00:00"
+    },
+    {
+      "id": 150,
+      "article_id": 91,
+      "locale": "en",
+      "slug": "lg-error-code-de2",
+      "title_tag": "LG Washing Machine Error Code dE2 | Fix It Now",
+      "meta_description": "LG washing machine showing error code dE2? Learn what causes the door open error mid-cycle and how to fix it yourself in a few simple steps.",
+      "h1": "What Does Error Code dE2 Mean on an LG Washing Machine?",
+      "description": "Error code dE2 indicates that the washing machine door was detected as open during an active wash cycle, causing the machine to pause or stop as a safety measure.",
+      "quick_fix": "Firmly push the door closed until you hear a distinct click, then press Start/Pause to resume the cycle — if the latch has simply not engaged fully, this resolves the fault immediately (takes about 2 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code dE2 on an LG washing machine is a door-related safety fault. Unlike the similar dE1 code, dE2 specifically means the machine detected that the door came open — or failed to register as securely closed — while a wash cycle was already running. The machine halts the programme to prevent water from spilling and to protect you from contact with moving drum parts.</p><p>When dE2 triggers, the cycle will pause and the error code will appear on the display. In most cases the drum stops rotating and the machine waits for the door issue to be resolved before it will allow the programme to continue. You may also notice the door feels loose or does not sit flush against the door seal.</p><p>This fault affects a range of LG front-loader models including the F1056, F1068, and F1096 series. The good news is that the majority of dE2 errors are caused by straightforward mechanical issues you can check and fix at home without specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Door not fully latched",
+          "detail": "The most common cause is simply that the door was not pushed firmly enough to engage the latch mechanism. A light push that does not produce an audible click will leave the door sensor in an open state, triggering dE2 as soon as the cycle begins or resumes."
+        },
+        {
+          "cause": "Worn or broken door latch assembly",
+          "detail": "Over time the plastic latch hook on the door can wear down or snap, preventing it from locking into the strike plate on the machine body. If the door feels loose even when pushed shut, a damaged latch is the likely culprit."
+        },
+        {
+          "cause": "Faulty door strike or catch on the machine body",
+          "detail": "The strike plate that the latch hooks into can become bent, cracked, or misaligned, meaning the latch cannot seat properly. This is especially common if the door has been slammed repeatedly or if laundry has been caught in the door."
+        },
+        {
+          "cause": "Damaged or obstructed door seal",
+          "detail": "A torn, swollen, or debris-laden door gasket can physically prevent the door from closing flush against the machine. This stops the latch from reaching the strike plate and causes the door sensor to report an open state."
+        },
+        {
+          "cause": "Faulty door interlock switch",
+          "detail": "The door interlock is an electrical switch that tells the control board whether the door is locked. If the switch fails or its wiring becomes loose, the board may read the door as open even when it is physically shut and latched."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "In rare cases the main PCB misinterprets the signal from the door interlock and logs a dE2 error even though the door and latch are in good condition. This is usually only suspected after all mechanical components have been checked and found to be working correctly."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Open and firmly re-close the door",
+          "detail": "Open the door fully, check that no clothing is caught in the door seal or hanging over the drum lip, then push the door closed with a firm, steady push until you hear a clear click. Press Start/Pause to see if the cycle resumes. This resolves the fault in the majority of cases where the door simply was not latched properly."
+        },
+        {
+          "step": 2,
+          "action": "Inspect the door seal for obstructions or damage",
+          "detail": "Run your fingers around the entire rubber gasket, feeling for small items such as coins, buttons, or bra underwires that may be lodged in the fold. Also look for tears, swelling, or sections of the seal that have pulled away from the drum rim. A displaced seal can be pressed back into its retaining groove; a torn seal will need replacing."
+        },
+        {
+          "step": 3,
+          "action": "Check the door latch hook for wear or breakage",
+          "detail": "Look at the plastic hook on the door itself. It should be intact, straight, and free of cracks. Wiggle it gently — it should have minimal play. If it is visibly chipped, snapped, or moves excessively, the latch assembly needs to be replaced. This is a common wear part and is available as a spare."
+        },
+        {
+          "step": 4,
+          "action": "Examine the door strike plate on the machine body",
+          "detail": "With the door open, look at the rectangular slot on the front panel where the latch hook inserts. Check that it is not bent inward, cracked, or blocked by debris. A bent strike can sometimes be carefully straightened with a flat-head screwdriver, but if it is cracked it should be replaced."
+        },
+        {
+          "step": 5,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the power button, unplug it from the wall socket, and leave it for two minutes. Plug it back in, select a short cycle, and close the door firmly before pressing Start. A power cycle clears any temporary error held in the control board's memory and can resolve dE2 if the root cause was a one-off sensor glitch."
+        },
+        {
+          "step": 6,
+          "action": "Test the door interlock switch",
+          "detail": "If the latch and strike look fine but the error persists, the door interlock switch may be faulty. Unplug the machine before attempting this. The interlock is located inside the front panel behind the door seal. You can test it for continuity with a multimeter — a switch that shows no continuity when the door is closed has failed and needs replacing."
+        },
+        {
+          "step": 7,
+          "action": "Check wiring connections to the door interlock",
+          "detail": "While the front panel is accessible, inspect the wiring harness connected to the door interlock. Look for loose connectors, burnt terminals, or wires that have been pinched or chafed. Reseat any loose connectors firmly. Damaged wiring should be repaired or replaced rather than taped over, as a poor connection can cause intermittent faults."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and the dE2 error continues to appear with a door that is physically closing and latching correctly, the fault is likely electrical — either a failed door interlock switch that does not respond to replacement, damaged wiring within the door hinge area, or a control board that is misreading the door sensor signal. These repairs require dismantling panels and working with the machine's wiring, which carries a risk of electric shock if not done correctly.</p><p>You should also contact a service technician if the door itself feels structurally loose — for example, if the hinge is bent or the door drops when opened — as this can prevent any latch from seating reliably and may require door hinge replacement or panel realignment that is difficult to achieve without experience.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a dE2 fault are the door latch assembly (the hook mechanism on the door), the door strike plate (the catch on the machine body), and the door interlock switch (the electrical component that signals the control board). Keeping a note of your model number before searching for parts ensures you order the correct version, as latch designs vary across the F1056, F1068, and F1096 series.</p><p>To reduce the chance of dE2 recurring, always close the door with a deliberate push rather than letting it swing shut on its own, and check the door seal monthly for trapped debris. Avoid overloading the drum, as excess laundry pressing against the door can stress the latch over time.</p>\n<!-- SPARE_PARTS:dE2 -->",
+      "faq_json": [
+        {
+          "answer": "No. The machine will not run a cycle while dE2 is active because it cannot confirm the door is safely closed. Attempting to force the machine to run with a faulty door lock would be unsafe. Resolve the door fault first, then resume normal use.",
+          "question": "Can I continue using my LG washing machine while it is showing dE2?"
+        },
+        {
+          "answer": "An intermittent dE2 error usually points to a door latch or interlock switch that is on the verge of failing rather than completely broken. Vibration during the spin cycle can cause a worn latch to momentarily lose contact with the strike plate, triggering the error. Replacing the latch assembly before it fails completely will prevent the fault from becoming permanent.",
+          "question": "Why does my LG washer show dE2 only sometimes and not every cycle?"
+        },
+        {
+          "answer": "They are related but distinct. dE1 typically means the door failed to lock at the start of a cycle, while dE2 means the door was detected as open during a cycle that was already running. Both point to the door locking system, but dE2 can also be triggered if the door is physically opened mid-cycle by accident.",
+          "question": "Is dE2 the same as dE1 on an LG washing machine?"
+        },
+        {
+          "answer": "The door latch assembly for most LG front-loader models is a relatively inexpensive spare part. If you fit it yourself the cost is typically just the part. A service technician call-out will add labour costs on top. Getting a quote before booking a repair is always worthwhile.",
+          "question": "How much does it cost to replace an LG washing machine door latch?"
+        },
+        {
+          "answer": "A sudden power interruption mid-cycle can cause the machine to lose track of the door lock state and display dE2 when power is restored. In this situation a power cycle — unplugging the machine for two minutes and restarting — usually clears the error without any parts needing replacement.",
+          "question": "Will a power cut or surge cause a dE2 error on an LG washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:39.460301+00:00"
+    },
+    {
+      "id": 151,
+      "article_id": 91,
+      "locale": "sv",
+      "slug": "lg-felkod-de2",
+      "title_tag": "LG Tvättmaskin Felkod dE2 | Åtgärda Det Nu",
+      "meta_description": "Visar din LG tvättmaskin felkod dE2? Lär dig vad som orsakar lucköppningsfelet mitt i ett program och hur du åtgärdar det själv med några enkla steg.",
+      "h1": "Vad Betyder Felkod dE2 på en LG Tvättmaskin?",
+      "description": "Felkod dE2 indikerar att tvättmaskinens lucka registrerades som öppen under ett pågående tvättprogram, vilket gör att maskinen pausar eller stannar som en säkerhetsåtgärd.",
+      "quick_fix": "Tryck luckan ordentligt stängd tills du hör ett tydligt klick och tryck sedan på Start/Paus för att återuppta programmet — om låsmekanismen helt enkelt inte hakat i ordentligt löser detta felet omedelbart (tar ungefär 2 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod dE2 på en LG tvättmaskin är ett säkerhetsfel relaterat till luckan. Till skillnad från den liknande koden dE1 innebär dE2 specifikt att maskinen registrerade att luckan öppnades — eller inte registrerades som ordentligt stängd — medan ett tvättprogram redan pågick. Maskinen avbryter programmet för att förhindra att vatten spills och för att skydda dig från kontakt med rörliga trumdelar.</p><p>När dE2 utlöses pausar programmet och felkoden visas på displayen. I de flesta fall slutar trumman att rotera och maskinen väntar på att luckproblemet ska lösas innan programmet kan fortsätta. Du kan också märka att luckan känns lös eller inte sitter tätt mot lucktätningen.</p><p>Detta fel drabbar ett antal LG frontmatade modeller, bland annat F1056-, F1068- och F1096-serierna. Den goda nyheten är att de flesta dE2-fel orsakas av enkla mekaniska problem som du kan kontrollera och åtgärda hemma utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Luckan inte helt låst",
+          "detail": "Den vanligaste orsaken är helt enkelt att luckan inte trycktes tillräckligt hårt för att låsmekanismen ska haka i. Ett lätt tryck som inte ger ett hörbart klick lämnar lucksensorn i öppet läge och utlöser dE2 så snart programmet startar eller återupptas."
+        },
+        {
+          "cause": "Sliten eller trasig låsmekanism på luckan",
+          "detail": "Med tiden kan plastkroken på luckan slitas ner eller gå av, vilket hindrar den från att låsa in i låsbygeln på maskinkroppen. Om luckan känns lös även när den trycks stängd är en skadad låsmekanism troligen orsaken."
+        },
+        {
+          "cause": "Defekt låsbygelplatta eller hake på maskinkroppen",
+          "detail": "Låsbygelplattan som låskroken hakar in i kan bli böjd, sprucken eller feljusterad, vilket innebär att kroken inte kan sitta ordentligt. Detta är särskilt vanligt om luckan har slagits igen upprepade gånger eller om tvätt har fastnat i luckan."
+        },
+        {
+          "cause": "Skadad eller igensatt lucktätning",
+          "detail": "En trasig, svullen eller skräpfylld lucktätning kan fysiskt hindra luckan från att stängas tätt mot maskinen. Detta förhindrar låskroken från att nå låsbygelplattan och gör att lucksensorn rapporterar ett öppet läge."
+        },
+        {
+          "cause": "Defekt lucklåsbrytare",
+          "detail": "Lucklåsbrytaren är en elektrisk kontakt som talar om för styrkortet om luckan är låst. Om brytaren slutar fungera eller om dess kablar lossnar kan kortet läsa luckan som öppen även när den är fysiskt stängd och låst."
+        },
+        {
+          "cause": "Fel på styrkortet",
+          "detail": "I sällsynta fall feltolkar huvud-PCB:n signalen från lucklåsbrytaren och loggar ett dE2-fel trots att luckan och låsmekanismen är i gott skick. Detta misstänks vanligtvis först efter att alla mekaniska komponenter har kontrollerats och befunnits fungera korrekt."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Öppna och stäng luckan ordentligt igen",
+          "detail": "Öppna luckan helt, kontrollera att inga klädesplagg fastnat i lucktätningen eller hänger över trumkanten och tryck sedan luckan stängd med ett fast, jämnt tryck tills du hör ett tydligt klick. Tryck på Start/Paus för att se om programmet återupptas. Detta löser felet i de flesta fall där luckan helt enkelt inte var ordentligt låst."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera lucktätningen för hinder eller skador",
+          "detail": "Känn med fingrarna runt hela gummitätningen och känn efter små föremål som mynt, knappar eller bh-byglar som kan ha fastnat i viken. Leta också efter revor, svullnader eller delar av tätningen som lossnat från trumkanten. En förskjuten tätning kan tryckas tillbaka i sitt fäste; en trasig tätning behöver bytas ut."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera låskroken på luckan för slitage eller brott",
+          "detail": "Titta på plastkroken på luckan. Den ska vara hel, rak och fri från sprickor. Vicka försiktigt på den — den ska ha minimalt spel. Om den är synligt avchippad, avbruten eller rör sig för mycket behöver låsmekanismen bytas ut. Detta är en vanlig slitdel och finns tillgänglig som reservdel."
+        },
+        {
+          "step": 4,
+          "action": "Undersök låsbygelplattan på maskinkroppen",
+          "detail": "Med luckan öppen, titta på det rektangulära spåret på frontpanelen där låskroken förs in. Kontrollera att det inte är böjt inåt, sprucket eller blockerat av skräp. En böjd låsbygelplatta kan ibland försiktigt rätas ut med en platt skruvmejsel, men om den är sprucken bör den bytas ut."
+        },
+        {
+          "step": 5,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen med strömknappen, dra ur kontakten från vägguttaget och låt den stå i två minuter. Sätt i kontakten igen, välj ett kort program och stäng luckan ordentligt innan du trycker på Start. En omstart rensar eventuella tillfälliga fel i styrkortet och kan lösa dE2 om grundorsaken var ett engångsproblem med sensorn."
+        },
+        {
+          "step": 6,
+          "action": "Testa lucklåsbrytaren",
+          "detail": "Om låsmekanismen och låsbygelplattan ser bra ut men felet kvarstår kan lucklåsbrytaren vara defekt. Dra ur kontakten innan du försöker detta. Lucklåsbrytaren sitter inuti frontpanelen bakom lucktätningen. Du kan testa den för kontinuitet med en multimeter — en brytare som inte visar kontinuitet när luckan är stängd har gått sönder och behöver bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera kabelanslutningarna till lucklåsbrytaren",
+          "detail": "Medan frontpanelen är åtkomlig, inspektera kabelstammen som är ansluten till lucklåsbrytaren. Leta efter lösa kontakter, brända anslutningar eller kablar som har klämts eller nötts. Sätt tillbaka eventuella lösa kontakter ordentligt. Skadade kablar bör repareras eller bytas ut snarare än tejpas, eftersom en dålig anslutning kan orsaka intermittenta fel."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har gått igenom alla stegen ovan och dE2-felet fortsätter att visas trots att luckan fysiskt stängs och låses korrekt, är felet troligen elektriskt — antingen en defekt lucklåsbrytare som inte svarar på byte, skadade kablar i luckornas gångjärnsområde, eller ett styrkort som feltolkar lucksensorsignalen. Dessa reparationer kräver demontering av paneler och arbete med maskinens kabeldragning, vilket medför risk för elektrisk stöt om det inte utförs korrekt.</p><p>Du bör också kontakta en servicetekniker om luckan i sig känns strukturellt lös — till exempel om gångjärnet är böjt eller om luckan sjunker när den öppnas — eftersom detta kan förhindra att någon låsmekanism sitter ordentligt och kan kräva byte av luckgångjärn eller paneljustering som är svårt att utföra utan erfarenhet.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när ett dE2-fel åtgärdas är låsmekanismen (kroken på luckan), låsbygelplattan (haken på maskinkroppen) och lucklåsbrytaren (den elektriska komponenten som signalerar till styrkortet). Att notera ditt modellnummer innan du söker efter reservdelar säkerställer att du beställer rätt version, eftersom låsdesignerna varierar mellan F1056-, F1068- och F1096-serierna.</p><p>För att minska risken för att dE2 återkommer, stäng alltid luckan med ett medvetet tryck snarare än att låta den svänga igen av sig själv, och kontrollera lucktätningen månadsvis för inneslutet skräp. Undvik att överfylla trumman, eftersom överskottstvättgods som trycks mot luckan kan belasta låsmekanismen med tiden.</p>\n<!-- SPARE_PARTS:dE2 -->",
+      "faq_json": [
+        {
+          "answer": "Nej. Maskinen kör inte ett program medan dE2 är aktivt eftersom den inte kan bekräfta att luckan är säkert stängd. Att försöka tvinga maskinen att köra med ett defekt lucklås vore osäkert. Åtgärda luckfelet först och återuppta sedan normal användning.",
+          "question": "Kan jag fortsätta använda min LG tvättmaskin medan den visar dE2?"
+        },
+        {
+          "answer": "Ett intermittent dE2-fel pekar vanligtvis på en låsmekanism eller lucklåsbrytare som håller på att gå sönder snarare än att vara helt trasig. Vibrationer under centrifugeringen kan få en sliten låskrok att tillfälligt tappa kontakten med låsbygelplattan och utlösa felet. Att byta låsmekanismen innan den går helt sönder förhindrar att felet blir permanent.",
+          "question": "Varför visar min LG tvättmaskin dE2 bara ibland och inte varje program?"
+        },
+        {
+          "answer": "De är relaterade men olika. dE1 innebär vanligtvis att luckan inte lyckades låsa sig i början av ett program, medan dE2 innebär att luckan registrerades som öppen under ett program som redan pågick. Båda pekar på lucklåssystemet, men dE2 kan också utlösas om luckan av misstag öppnas mitt i ett program.",
+          "question": "Är dE2 samma sak som dE1 på en LG tvättmaskin?"
+        },
+        {
+          "answer": "Låsmekanismen för de flesta LG frontmatade modeller är en relativt billig reservdel. Om du monterar den själv är kostnaden vanligtvis bara för delen. Ett servicebesök av en tekniker tillkommer med arbetskostnader utöver detta. Det är alltid värt att begära en offert innan du bokar en reparation.",
+          "question": "Hur mycket kostar det att byta låsmekanism på en LG tvättmaskin?"
+        },
+        {
+          "answer": "Ett plötsligt strömavbrott mitt i ett program kan göra att maskinen tappar koll på lucklåsets tillstånd och visar dE2 när strömmen återkommer. I den situationen löser vanligtvis en omstart — att dra ur kontakten i två minuter och starta om — felet utan att några delar behöver bytas ut.",
+          "question": "Kan ett strömavbrott eller överspänning orsaka ett dE2-fel på en LG tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:39.532018+00:00"
+    },
+    {
+      "id": 117,
+      "article_id": 92,
+      "locale": "en",
+      "slug": "lg-error-code-e6",
+      "title_tag": "LG Washing Machine Error Code E6 | Clutch Fault Fix",
+      "meta_description": "LG washing machine showing error code E6? Learn what causes the clutch fault on top-load models and how to fix it step by step at home.",
+      "h1": "What Does Error Code E6 Mean on an LG Washing Machine?",
+      "description": "Error code E6 on an LG top-load washing machine indicates a clutch assembly fault, meaning the clutch is failing to engage correctly during the wash or spin cycle.",
+      "quick_fix": "Unplug the machine, wait 60 seconds, then plug it back in and restart the cycle — a temporary control glitch can trigger E6 and a power reset clears it in many cases (takes about 3 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code E6 is specific to LG top-load washing machines and points to a problem with the clutch assembly — the mechanical component responsible for transferring power from the motor to the drum during agitation and spin. When the machine's control board detects that the clutch is not engaging as expected, it halts the cycle and displays E6 to prevent further damage.</p><p>You may notice the drum struggling to reach spin speed, making a grinding or clicking noise during the transition between wash and spin, or stopping mid-cycle altogether. In some cases the machine will attempt the cycle several times before locking out and displaying the code.</p><p>While E6 can occasionally be triggered by a software glitch, it more often points to a worn or damaged mechanical part. Working through the checks below in order will help you identify whether this is something you can resolve yourself or whether a service technician is needed.</p>",
+      "causes_json": [
+        {
+          "cause": "Worn or damaged clutch assembly",
+          "detail": "The clutch assembly wears down over time through normal use, particularly on machines that handle heavy or unbalanced loads regularly. Once the friction pads or coupling mechanism degrade, the clutch can no longer engage reliably and E6 is triggered."
+        },
+        {
+          "cause": "Overloaded drum",
+          "detail": "Placing too much laundry in the drum puts excessive strain on the clutch during the transition to spin. This can cause the clutch to slip or fail to engage fully, producing the E6 error even on an otherwise healthy machine."
+        },
+        {
+          "cause": "Foreign object jamming the clutch or drum",
+          "detail": "Small items such as coins, buttons, or underwire from bras can fall into the drum mechanism and physically obstruct the clutch from moving through its full range of motion. This kind of blockage often produces a grinding or rattling noise alongside the error code."
+        },
+        {
+          "cause": "Faulty clutch position sensor",
+          "detail": "The control board relies on a sensor to confirm that the clutch has engaged correctly. If this sensor is faulty or its wiring is damaged, the board may log E6 even when the clutch itself is mechanically sound."
+        },
+        {
+          "cause": "Motor or motor coupling failure",
+          "detail": "The motor coupling connects the motor to the clutch assembly, and if it breaks or cracks it can mimic a clutch fault. A failed motor can also prevent the clutch from receiving enough torque to engage, resulting in the same E6 code."
+        },
+        {
+          "cause": "Control board fault",
+          "detail": "In less common cases, the main PCB may misread signals from the clutch circuit due to a component failure or software error. This is usually only confirmed after all mechanical causes have been ruled out."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the power button, unplug it from the wall socket, and leave it for at least 60 seconds. Plug it back in, select a short spin-only cycle, and observe whether E6 returns. This clears any temporary control board glitch and takes only a few minutes."
+        },
+        {
+          "step": 2,
+          "action": "Check and reduce the load",
+          "detail": "Remove all laundry from the drum and inspect how much you were washing. LG top-load machines should not be filled beyond three-quarters capacity. Restart with a smaller, evenly distributed load and see if the error reappears — overloading is a surprisingly common trigger for E6."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the drum for foreign objects",
+          "detail": "With the machine unplugged, reach into the drum and feel around the agitator and the gap between the drum and the tub wall. Remove any coins, clips, or other debris you find. Try rotating the drum by hand — it should turn smoothly with only light resistance. Any grinding or stiff spots suggest an obstruction or a mechanical fault deeper in the assembly."
+        },
+        {
+          "step": 4,
+          "action": "Listen carefully during a test cycle",
+          "detail": "Run a short cycle and pay close attention to the sounds the machine makes as it transitions from wash agitation to spin. A healthy clutch engagement produces a brief, smooth mechanical click. Grinding, squealing, or repeated failed attempts to spin point strongly to a worn clutch assembly rather than an electrical fault."
+        },
+        {
+          "step": 5,
+          "action": "Check the motor coupling",
+          "detail": "Accessing the motor coupling requires removing the cabinet panels — consult your model's service diagram before attempting this. Once visible, inspect the coupling for cracks, missing rubber inserts, or signs of wear. A broken coupling is a relatively inexpensive part and straightforward to replace if you are comfortable with basic appliance disassembly."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the clutch assembly and sensor wiring",
+          "detail": "With the machine unplugged and the cabinet open, locate the clutch assembly beneath the tub. Look for visible wear on the friction pads, broken springs, or cracked housing. Also trace the wiring from the clutch position sensor back to the harness connector and check for loose, corroded, or damaged connections. Reseat any loose connectors firmly."
+        },
+        {
+          "step": 7,
+          "action": "Replace the clutch assembly if worn",
+          "detail": "If the clutch shows clear signs of wear or damage, replacing the full clutch assembly is the correct fix. Use only LG-compatible parts matched to your specific model number. After fitting the new clutch, reassemble the cabinet, run a full test cycle, and confirm the E6 code no longer appears."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and E6 continues to appear, or if you found no obvious mechanical fault during your inspection, the problem is likely either a failed motor or a faulty main control board — both of which require specialist diagnostic equipment and safe handling of electrical components to confirm and replace correctly.</p><p>You should also call a service technician if the drum is completely seized and will not rotate by hand even with the machine unplugged, or if you notice burning smells or scorch marks near the motor area. These symptoms indicate damage that could worsen quickly and should not be left running.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an LG E6 error are the clutch assembly itself, the motor coupling, and the clutch position sensor. Having the correct model number to hand when ordering ensures you receive a compatible part — check the label inside the lid or on the rear panel of your machine.</p><p>To reduce wear on the clutch over time, avoid consistently overloading the drum, always distribute laundry evenly before spinning, and check pockets for coins and small objects before washing. Running a maintenance wash monthly also helps keep the internal components free from detergent build-up that can affect moving parts.</p>\n<!-- SPARE_PARTS:E6 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable to keep running the machine once E6 appears. Continuing to operate it with a faulty clutch puts additional strain on the motor and surrounding components, which can turn a relatively affordable repair into a much more expensive one. Use the machine only to run the diagnostic steps described above.",
+          "question": "Can I still use my LG washing machine while it shows error code E6?"
+        },
+        {
+          "answer": "Under normal household use, a clutch assembly typically lasts between seven and twelve years. Machines that are regularly overloaded or used with very heavy items such as duvets and rugs will wear the clutch faster. If your machine is older and showing E6, the clutch is the most likely culprit.",
+          "question": "How long does a clutch assembly last on an LG top-load washing machine?"
+        },
+        {
+          "answer": "Not exactly, though the two are related. E6 specifically flags the clutch circuit, but a failing motor can produce the same code because the clutch cannot engage without sufficient torque from the motor. If replacing the clutch does not resolve the fault, the motor or motor coupling should be inspected next.",
+          "question": "Is error code E6 the same as a motor fault?"
+        },
+        {
+          "answer": "The clutch assembly part itself generally costs between £25 and £70 depending on the model. If you are comfortable doing the repair yourself, that is your main expense. A service technician call-out and labour will add to this, but is worthwhile if you are unsure about disassembling the machine safely.",
+          "question": "How much does it typically cost to replace an LG washing machine clutch assembly?"
+        },
+        {
+          "answer": "A factory reset or power cycle can clear E6 if it was caused by a temporary software glitch, and it is always worth trying first. However, if the clutch assembly is physically worn or damaged, no amount of resetting will resolve the underlying fault — the mechanical component will need to be inspected and replaced.",
+          "question": "Will a factory reset fix the E6 error on my LG washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:37.960214+00:00"
+    },
+    {
+      "id": 118,
+      "article_id": 92,
+      "locale": "sv",
+      "slug": "lg-felkod-e6",
+      "title_tag": "LG Tvättmaskin Felkod E6 | Åtgärda Kopplingsfel",
+      "meta_description": "Visar din LG tvättmaskin felkod E6? Lär dig vad som orsakar kopplingsfel på toppmonterade modeller och hur du åtgärdar det steg för steg hemma.",
+      "h1": "Vad Betyder Felkod E6 på en LG Tvättmaskin?",
+      "description": "Felkod E6 på en LG toppmonterad tvättmaskin indikerar ett fel på kopplingsenheten, vilket innebär att kopplingen inte aktiveras korrekt under tvätt- eller centrifugeringscykeln.",
+      "quick_fix": "Koppla ur maskinen, vänta 60 sekunder, anslut den sedan igen och starta om cykeln — ett tillfälligt styrningsfel kan utlösa E6 och en omstart av strömmen löser det i många fall (tar ungefär 3 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod E6 är specifik för LG toppmonterade tvättmaskiner och pekar på ett problem med kopplingsenheten — den mekaniska komponenten som ansvarar för att överföra kraft från motorn till trumman under omrörning och centrifugering. När maskinens styrkort upptäcker att kopplingen inte aktiveras som förväntat avbryter den cykeln och visar E6 för att förhindra ytterligare skador.</p><p>Du kan märka att trumman kämpar för att nå centrifugeringshastighet, att det hörs ett malande eller klickande ljud under övergången mellan tvätt och centrifugering, eller att maskinen stannar mitt i cykeln. I vissa fall försöker maskinen genomföra cykeln flera gånger innan den låser sig och visar koden.</p><p>Även om E6 ibland kan utlösas av ett programvarufel pekar det oftare på en sliten eller skadad mekanisk del. Att gå igenom kontrollerna nedan i ordning hjälper dig att avgöra om detta är något du kan lösa själv eller om en servicetekniker behövs.</p>",
+      "causes_json": [
+        {
+          "cause": "Sliten eller skadad kopplingsenheten",
+          "detail": "Kopplingsenheten slits ned med tiden genom normalt bruk, särskilt på maskiner som regelbundet hanterar tunga eller obalanserade laster. När friktionsbeläggen eller kopplingsmekanismen försämras kan kopplingen inte längre aktiveras tillförlitligt och E6 utlöses."
+        },
+        {
+          "cause": "Överfylld trumma",
+          "detail": "Att lägga för mycket tvätt i trumman belastar kopplingen överdrivet under övergången till centrifugering. Detta kan göra att kopplingen slirar eller inte aktiveras fullt ut, vilket ger E6-felet även på en i övrigt felfri maskin."
+        },
+        {
+          "cause": "Främmande föremål som blockerar kopplingen eller trumman",
+          "detail": "Små föremål som mynt, knappar eller byglar från behåar kan falla in i trummekanismen och fysiskt hindra kopplingen från att röra sig genom hela sitt rörelsespann. Den här typen av blockering ger ofta ett malande eller skramlande ljud tillsammans med felkoden."
+        },
+        {
+          "cause": "Defekt kopplingspositionssensor",
+          "detail": "Styrkortet förlitar sig på en sensor för att bekräfta att kopplingen har aktiverats korrekt. Om denna sensor är defekt eller dess kablage är skadat kan kortet logga E6 även när kopplingen i sig är mekaniskt felfri."
+        },
+        {
+          "cause": "Motor- eller motorkopplingsfel",
+          "detail": "Motorkopplingen förbinder motorn med kopplingsenheten, och om den går sönder eller spricker kan det likna ett kopplingsfel. En defekt motor kan också hindra kopplingen från att få tillräckligt vridmoment för att aktiveras, vilket ger samma E6-kod."
+        },
+        {
+          "cause": "Fel på styrkortet",
+          "detail": "I mindre vanliga fall kan huvud-PCB:n feltolka signaler från kopplingskretsarna på grund av ett komponentfel eller programvarufel. Detta bekräftas vanligtvis först efter att alla mekaniska orsaker har uteslutits."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen med strömknappen, koppla ur den från vägguttaget och låt den stå i minst 60 sekunder. Anslut den igen, välj en kort centrifugeringscykel och observera om E6 återkommer. Detta rensar eventuella tillfälliga styrkortsfel och tar bara några minuter."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera och minska lasten",
+          "detail": "Ta ut all tvätt från trumman och undersök hur mycket du tvättade. LG toppmonterade tvättmaskiner bör inte fyllas mer än tre fjärdedelar av kapaciteten. Starta om med en mindre, jämnt fördelad last och se om felet återkommer — överfyllning är en förvånansvärt vanlig orsak till E6."
+        },
+        {
+          "step": 3,
+          "action": "Undersök trumman efter främmande föremål",
+          "detail": "Med maskinen urkopplad, känn runt i trumman kring omröraren och i springan mellan trumman och karet. Ta bort eventuella mynt, clips eller annat skräp du hittar. Försök rotera trumman för hand — den ska rotera smidigt med endast lätt motstånd. Malande ljud eller stela punkter tyder på en blockering eller ett mekaniskt fel längre in i enheten."
+        },
+        {
+          "step": 4,
+          "action": "Lyssna noga under en testcykel",
+          "detail": "Kör en kort cykel och var uppmärksam på de ljud maskinen gör när den övergår från tvätt till centrifugering. En felfri kopplingsaktivering ger ett kort, smidigt mekaniskt klick. Malande, gnisslande ljud eller upprepade misslyckade försök att centrifugera pekar starkt på en sliten kopplingsenheten snarare än ett elektriskt fel."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera motorkopplingen",
+          "detail": "För att komma åt motorkopplingen måste du ta bort kåpans paneler — konsultera din modells servicediagram innan du försöker. När den är synlig, inspektera kopplingen för sprickor, saknade gummibussningar eller slitagetkännetecken. En trasig koppling är en relativt billig del och enkel att byta om du är bekväm med grundläggande demontering av hushållsapparater."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera kopplingsenheten och sensorkablaget",
+          "detail": "Med maskinen urkopplad och kåpan öppen, lokalisera kopplingsenheten under karet. Leta efter synligt slitage på friktionsbeläggen, trasiga fjädrar eller sprucket hölje. Spåra även kablaget från kopplingspositionssensorn tillbaka till kabelstamskontakten och kontrollera om det finns lösa, korroderade eller skadade anslutningar. Sätt tillbaka eventuella lösa kontakter ordentligt."
+        },
+        {
+          "step": 7,
+          "action": "Byt kopplingsenheten om den är sliten",
+          "detail": "Om kopplingen visar tydliga tecken på slitage eller skada är det rätt åtgärd att byta hela kopplingsenheten. Använd endast LG-kompatibla delar som matchar ditt specifika modellnummer. Efter montering av den nya kopplingen, sätt ihop kåpan, kör en fullständig testcykel och bekräfta att E6-koden inte längre visas."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har gått igenom alla stegen ovan och E6 fortsätter att visas, eller om du inte hittade något uppenbart mekaniskt fel under din inspektion, beror problemet troligen på en defekt motor eller ett felaktigt huvud-styrkort — båda kräver specialiserad diagnostikutrustning och säker hantering av elektriska komponenter för att bekräftas och bytas ut korrekt.</p><p>Du bör också kontakta en servicetekniker om trumman är helt låst och inte roterar för hand ens med maskinen urkopplad, eller om du märker bränndoft eller brännmärken nära motorområdet. Dessa symptom indikerar skador som snabbt kan förvärras och maskinen bör inte köras vidare.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett LG E6-fel är kopplingsenheten, motorkopplingen och kopplingspositionssensorn. Att ha rätt modellnummer till hands när du beställer säkerställer att du får en kompatibel del — kontrollera etiketten inuti locket eller på maskinens bakpanel.</p><p>För att minska slitaget på kopplingen över tid, undvik att konsekvent överfylla trumman, fördela alltid tvätten jämnt innan centrifugering och kontrollera fickor efter mynt och små föremål innan tvätt. Att köra ett underhållsprogram månadsvis hjälper också till att hålla de interna komponenterna fria från tvättmedelsrester som kan påverka rörliga delar.</p>\n<!-- SPARE_PARTS:E6 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt att fortsätta köra maskinen när E6 visas. Att fortsätta använda den med en defekt koppling belastar motorn och omgivande komponenter ytterligare, vilket kan förvandla en relativt billig reparation till en betydligt dyrare. Använd maskinen endast för att utföra de diagnostiska stegen som beskrivs ovan.",
+          "question": "Kan jag fortfarande använda min LG tvättmaskin när den visar felkod E6?"
+        },
+        {
+          "answer": "Under normalt hushållsbruk håller en kopplingsenheten vanligtvis mellan sju och tolv år. Maskiner som regelbundet överfylls eller används med mycket tunga föremål som täcken och mattor sliter ut kopplingen snabbare. Om din maskin är äldre och visar E6 är kopplingen den mest troliga orsaken.",
+          "question": "Hur länge håller en kopplingsenheten på en LG toppmonterad tvättmaskin?"
+        },
+        {
+          "answer": "Inte exakt, även om de två är relaterade. E6 flaggar specifikt kopplingskretsarna, men en defekt motor kan ge samma kod eftersom kopplingen inte kan aktiveras utan tillräckligt vridmoment från motorn. Om byte av kopplingen inte löser felet bör motorn eller motorkopplingen inspekteras härnäst.",
+          "question": "Är felkod E6 detsamma som ett motorfel?"
+        },
+        {
+          "answer": "Själva kopplingsenheten kostar generellt mellan 300 och 800 kronor beroende på modell. Om du är bekväm med att utföra reparationen själv är det din huvudsakliga kostnad. Utryckning och arbetskostnad för en servicetekniker tillkommer, men är värt det om du är osäker på att demontera maskinen på ett säkert sätt.",
+          "question": "Hur mycket kostar det vanligtvis att byta kopplingsenheten på en LG tvättmaskin?"
+        },
+        {
+          "answer": "En fabriksåterställning eller omstart av strömmen kan rensa E6 om det orsakades av ett tillfälligt programvarufel, och det är alltid värt att prova först. Men om kopplingsenheten är fysiskt sliten eller skadad löser ingen mängd återställningar det underliggande felet — den mekaniska komponenten måste inspekteras och bytas ut.",
+          "question": "Löser en fabriksåterställning E6-felet på min LG tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:39.602098+00:00"
+    },
+    {
+      "id": 119,
+      "article_id": 93,
+      "locale": "en",
+      "slug": "lg-error-code-ee",
+      "title_tag": "LG Washing Machine Error Code EE | Fix It Now",
+      "meta_description": "LG washing machine showing error code EE? Learn what causes EEPROM memory faults, how to fix them yourself, and when to call a service technician.",
+      "h1": "What Does Error Code EE Mean on an LG Washing Machine?",
+      "description": "Error code EE on an LG washing machine indicates an EEPROM fault, meaning the internal memory chip on the control board is corrupted or cannot be read.",
+      "quick_fix": "Disconnect the washing machine from the mains power socket, wait 10 minutes, then plug it back in and restart the cycle — a full power reset can clear a temporary memory read error and restore normal operation (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code EE points to a problem with the EEPROM — a small memory chip soldered onto the main control board. This chip stores essential operating data such as cycle settings, calibration values, and configuration parameters. When the control board cannot read or write to this memory correctly, it raises the EE fault and halts the wash programme to prevent unpredictable behaviour.</p><p>When this error appears, the machine will typically stop mid-cycle or refuse to start at all. The display will show EE and the drum will not rotate. In some cases the error clears after a power reset; in others it returns immediately, which points to a more persistent hardware problem.</p><p>The fault affects the control electronics rather than any mechanical component, so you will not hear unusual noises or see water leaks. The issue is entirely within the machine's brain, and diagnosing it correctly before spending money on parts is important.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary voltage spike or power interruption",
+          "detail": "A brief power surge or an unexpected cut to the mains supply can cause the control board to lose its place in memory mid-operation. This is the most common trigger and often clears itself after a full power reset."
+        },
+        {
+          "cause": "Corrupted EEPROM chip on the control board",
+          "detail": "Over time, or after repeated power fluctuations, the EEPROM chip itself can develop corrupted sectors that make stored data unreadable. Once the chip is physically degraded, a reset will not resolve the fault permanently."
+        },
+        {
+          "cause": "Failed or failing main control board (PCB)",
+          "detail": "The EEPROM is mounted directly on the main PCB, so broader board failure — caused by moisture ingress, heat damage, or component ageing — can produce the same EE error. Other board-related symptoms such as unresponsive buttons may appear alongside it."
+        },
+        {
+          "cause": "Loose or corroded wiring harness connections",
+          "detail": "Poor electrical contact between the control board and other components can cause intermittent communication errors that the machine logs as a memory fault. Connectors that have worked loose due to vibration are a common culprit."
+        },
+        {
+          "cause": "Firmware or programming fault",
+          "detail": "In rare cases, an incomplete or interrupted firmware update can leave the EEPROM in a partially written state. This is uncommon in domestic use but can occur if the machine lost power during a service procedure."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a full power reset",
+          "detail": "Switch the machine off using the power button, then pull the plug from the wall socket. Leave it unplugged for at least 10 minutes to allow the control board capacitors to fully discharge. Plug back in, power on, and attempt a new cycle to see if the error has cleared."
+        },
+        {
+          "step": 2,
+          "action": "Check the mains supply and socket",
+          "detail": "Test the wall socket with another appliance to confirm it is delivering a stable supply. Avoid using extension leads or multi-socket adaptors with washing machines, as voltage drop across these can cause intermittent control board errors. Plug the machine directly into a dedicated wall socket if possible."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the control board wiring harness",
+          "detail": "With the machine unplugged, remove the top or rear panel according to your model's service layout to access the main PCB. Carefully check each connector on the board — press each one firmly home and look for signs of corrosion, burn marks, or damaged pins. Reconnect any loose plugs and retest."
+        },
+        {
+          "step": 4,
+          "action": "Look for signs of moisture or heat damage on the PCB",
+          "detail": "While the panel is off, examine the control board visually under good lighting. Look for discolouration, swollen capacitors, or white residue that indicates water ingress. Any of these signs mean the board is damaged and will need to be replaced rather than reset."
+        },
+        {
+          "step": 5,
+          "action": "Run a diagnostic or calibration cycle",
+          "detail": "Some LG models allow you to enter a diagnostic mode by holding specific button combinations — consult your model's user manual for the exact sequence. Running a calibration cycle can sometimes re-initialise the EEPROM values and clear a soft corruption. If the machine completes the diagnostic without showing EE, run a short wash cycle to confirm the fix."
+        },
+        {
+          "step": 6,
+          "action": "Replace the main control board",
+          "detail": "If the error persists after all the above steps, the EEPROM chip or the PCB itself is the most likely cause. Source a replacement control board matched to your exact model number. Fitting involves disconnecting all wiring harnesses from the old board, transferring them to the new one in the same positions, and securing the board back into its housing before reassembling the panel."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>If the EE error returns immediately after a full power reset, or if you can see physical damage such as burn marks, swollen components, or corrosion on the control board, the repair is beyond straightforward DIY. Replacing a main PCB requires confident handling of electrical components and correct part matching, and an incorrect installation can cause further damage.</p><p>You should also contact a service technician if the machine shows additional faults alongside EE — such as unresponsive controls, failure to fill or drain, or a drum that will not spin — as this suggests a broader electrical failure that needs professional diagnosis and testing equipment to resolve safely.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an LG EE error are the main control board (PCB), which houses the EEPROM chip, and the wiring harness connectors that link the board to the rest of the machine. In some cases a service technician may replace only the EEPROM chip itself if the rest of the board is sound, though this requires soldering skills and is not a typical DIY repair.</p><p>To reduce the risk of future EEPROM faults, consider fitting a surge-protected plug or a dedicated appliance surge protector to shield the control board from voltage spikes. Avoid interrupting wash cycles by cutting power at the socket, and always use the machine's own power button to end a programme cleanly.</p>\n<!-- SPARE_PARTS:EE -->",
+      "faq_json": [
+        {
+          "answer": "No. When the EE error is active, the machine will not complete a wash cycle reliably and may stop at any point. Continuing to attempt cycles without resolving the fault risks further damage to the control board and will not produce clean laundry. Address the fault before using the machine again.",
+          "question": "Can I keep using my LG washing machine while it shows error code EE?"
+        },
+        {
+          "answer": "A power reset — unplugging for 10 minutes — is the closest equivalent to a factory reset for most LG washing machine models and is always worth trying first. If the error clears and does not return, the fault was a temporary memory glitch. If it comes back, the EEPROM chip or control board has a physical fault that a reset cannot fix.",
+          "question": "Will a factory reset fix the EE error on my LG washing machine?"
+        },
+        {
+          "answer": "Replacement main PCBs for LG washing machines typically cost between £60 and £150 for the part alone, depending on the model. If you hire a service technician to fit it, labour charges will add to this. It is worth comparing the total repair cost against the age and value of the machine before committing.",
+          "question": "How much does it cost to replace an LG washing machine control board?"
+        },
+        {
+          "answer": "EE is a specific EEPROM memory fault code and is distinct from other LG error codes. Different codes point to different systems — for example, drain faults, motor faults, and heater faults each have their own codes. Always use the exact code displayed on your machine when searching for parts or advice.",
+          "question": "Is error code EE the same as an E6 or other memory error on LG machines?"
+        },
+        {
+          "answer": "The EE error can appear on a range of LG front-loader models including the F0712WS, F0812WS, F1056MD, F1056ND, F1056QD series, F1056QP, F1068LD series, F1068QD series, F1073TD, F1091TD series, F1096Q/TDW1, and F1096QDA series, among others. If your model is not listed, check your user manual — the EE code and its meaning may still apply.",
+          "question": "Which LG washing machine models are affected by the EE error code?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:38.02832+00:00"
+    },
+    {
+      "id": 120,
+      "article_id": 93,
+      "locale": "sv",
+      "slug": "lg-felkod-ee",
+      "title_tag": "LG Tvättmaskin Felkod EE | Åtgärda Det Nu",
+      "meta_description": "Visar din LG-tvättmaskin felkod EE? Lär dig vad som orsakar EEPROM-minnesfel, hur du åtgärdar dem själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod EE på en LG-tvättmaskin?",
+      "description": "Felkod EE på en LG-tvättmaskin indikerar ett EEPROM-fel, vilket innebär att minneschippet på styrkortet är skadat eller inte kan läsas.",
+      "quick_fix": "Koppla bort tvättmaskinen från eluttaget, vänta 10 minuter, anslut sedan igen och starta om programmet — en fullständig strömåterställning kan rensa ett tillfälligt minnesläsfel och återställa normal drift (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod EE pekar på ett problem med EEPROM:en — ett litet minneschipp som är löddat på huvudstyrkortet. Detta chipp lagrar viktiga driftdata såsom programinställningar, kalibreringsvärden och konfigurationsparametrar. När styrkortet inte kan läsa eller skriva till detta minne korrekt utlöser det EE-felet och stoppar tvättrogrammet för att förhindra oförutsägbart beteende.</p><p>När detta fel uppstår stannar maskinen vanligtvis mitt i ett program eller vägrar att starta överhuvudtaget. Displayen visar EE och trumman roterar inte. I vissa fall försvinner felet efter en strömåterställning; i andra fall återkommer det omedelbart, vilket tyder på ett mer bestående hårdvaruproblem.</p><p>Felet påverkar styrelektroniken snarare än någon mekanisk komponent, så du kommer inte att höra ovanliga ljud eller se vattenläckor. Problemet finns helt inom maskinens styrsystem, och det är viktigt att diagnostisera det korrekt innan du lägger pengar på reservdelar.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfällig spänningspik eller strömavbrott",
+          "detail": "En kortvarig spänningspik eller ett oväntat strömavbrott kan göra att styrkortet tappar sin position i minnet mitt under drift. Detta är den vanligaste orsaken och försvinner ofta av sig självt efter en fullständig strömåterställning."
+        },
+        {
+          "cause": "Skadat EEPROM-chipp på styrkortet",
+          "detail": "Med tiden, eller efter upprepade spänningsfluktuationer, kan EEPROM-chippet självt utveckla skadade sektorer som gör lagrad data oläsbar. När chippet väl är fysiskt försämrat löser en återställning inte felet permanent."
+        },
+        {
+          "cause": "Defekt eller sviktande huvudstyrkort (PCB)",
+          "detail": "EEPROM:en är monterad direkt på huvud-PCB:n, så ett bredare kortfel — orsakat av fuktinträngning, värmeskada eller komponentåldrande — kan ge samma EE-fel. Andra kortrelaterade symptom såsom icke-responsiva knappar kan uppträda samtidigt."
+        },
+        {
+          "cause": "Lösa eller korroderade kabelkontakter",
+          "detail": "Dålig elektrisk kontakt mellan styrkortet och andra komponenter kan orsaka intermittenta kommunikationsfel som maskinen registrerar som ett minnesfel. Kontakter som lossnat på grund av vibrationer är en vanlig orsak."
+        },
+        {
+          "cause": "Firmware- eller programmeringsfel",
+          "detail": "I sällsynta fall kan en ofullständig eller avbruten firmwareuppdatering lämna EEPROM:en i ett delvis skrivet tillstånd. Detta är ovanligt vid normalt hemmabruk men kan inträffa om maskinen förlorade ström under ett servicearbete."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en fullständig strömåterställning",
+          "detail": "Stäng av maskinen med strömknappen och dra sedan ut kontakten ur vägguttaget. Låt den vara urkopplad i minst 10 minuter så att styrkortets kondensatorer hinner laddas ur helt. Anslut igen, slå på strömmen och försök starta ett nytt program för att se om felet har försvunnit."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera eluttaget och strömförsörjningen",
+          "detail": "Testa vägguttaget med en annan apparat för att bekräfta att det levererar en stabil ström. Undvik att använda förlängningssladdar eller grenuttag till tvättmaskiner, eftersom spänningsfall i dessa kan orsaka intermittenta styrkortfel. Anslut maskinen direkt till ett dedikerat vägguttag om möjligt."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera styrkortets kabelkontakter",
+          "detail": "Med maskinen urkopplad, ta bort topp- eller bakpanelen enligt din modells servicelayout för att komma åt huvud-PCB:n. Kontrollera noggrant varje kontakt på kortet — tryck in varje kontakt ordentligt och leta efter tecken på korrosion, brännmärken eller skadade stift. Återanslut eventuella lösa kontakter och testa igen."
+        },
+        {
+          "step": 4,
+          "action": "Leta efter tecken på fukt- eller värmeskada på PCB:n",
+          "detail": "Medan panelen är borttagen, undersök styrkortet visuellt i bra belysning. Leta efter missfärgning, uppsvällda kondensatorer eller vita avlagringar som indikerar fuktinträngning. Något av dessa tecken innebär att kortet är skadat och behöver bytas ut snarare än återställas."
+        },
+        {
+          "step": 5,
+          "action": "Kör ett diagnostik- eller kalibreringsprogram",
+          "detail": "Vissa LG-modeller låter dig gå in i diagnostikläge genom att hålla in specifika knappar — se din modells bruksanvisning för exakt knappsekvenss. Att köra ett kalibreringsprogram kan ibland återinitialisera EEPROM-värdena och rensa en mjuk korruption. Om maskinen slutför diagnostiken utan att visa EE, kör ett kort tvättprogram för att bekräfta att felet är åtgärdat."
+        },
+        {
+          "step": 6,
+          "action": "Byt ut huvudstyrkortet",
+          "detail": "Om felet kvarstår efter alla ovanstående steg är EEPROM-chippet eller PCB:n själv den troligaste orsaken. Skaffa ett ersättningsstyrkort som matchar din exakta modellbeteckning. Monteringen innebär att koppla bort alla kabelkontakter från det gamla kortet, flytta dem till det nya i samma positioner och fästa kortet tillbaka i sitt hölje innan panelen monteras igen."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om EE-felet återkommer omedelbart efter en fullständig strömåterställning, eller om du kan se fysiska skador såsom brännmärken, uppsvällda komponenter eller korrosion på styrkortet, är reparationen utanför vad som är rimligt att göra själv. Att byta ett huvud-PCB kräver säker hantering av elektriska komponenter och korrekt delmatchning, och en felaktig installation kan orsaka ytterligare skador.</p><p>Du bör också kontakta en servicetekniker om maskinen visar ytterligare fel vid sidan av EE — såsom icke-responsiva kontroller, att den inte fyller eller tömmer vatten, eller en trumma som inte snurrar — eftersom detta tyder på ett bredare elektriskt fel som kräver professionell diagnos och testutrustning för att åtgärdas på ett säkert sätt.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett LG EE-fel är huvudstyrkortet (PCB), som innehåller EEPROM-chippet, samt kabelkontakterna som förbinder kortet med resten av maskinen. I vissa fall kan en servicetekniker byta enbart EEPROM-chippet om resten av kortet är i gott skick, men detta kräver lödningskunskaper och är inte en typisk gör-det-själv-reparation.</p><p>För att minska risken för framtida EEPROM-fel kan du överväga att installera ett överspänningsskyddat uttag eller ett dedikerat överspänningsskydd för hushållsapparater för att skydda styrkortet mot spänningspikar. Undvik att avbryta tvättprogram genom att bryta strömmen vid uttaget, och använd alltid maskinens egen strömknapp för att avsluta ett program på ett korrekt sätt.</p>\n<!-- SPARE_PARTS:EE -->",
+      "faq_json": [
+        {
+          "answer": "Nej. När EE-felet är aktivt kommer maskinen inte att slutföra ett tvättprogram på ett tillförlitligt sätt och kan stanna när som helst. Att fortsätta försöka köra program utan att åtgärda felet riskerar ytterligare skador på styrkortet och ger inte rent tvätt. Åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag fortsätta använda min LG-tvättmaskin medan den visar felkod EE?"
+        },
+        {
+          "answer": "En strömåterställning — att koppla ur maskinen i 10 minuter — är det närmaste en fabriksåterställning för de flesta LG-tvättmaskinmodeller och är alltid värt att prova först. Om felet försvinner och inte återkommer var felet ett tillfälligt minnesfel. Om det kommer tillbaka har EEPROM-chippet eller styrkortet ett fysiskt fel som en återställning inte kan åtgärda.",
+          "question": "Kan en fabriksåterställning åtgärda EE-felet på min LG-tvättmaskin?"
+        },
+        {
+          "answer": "Ersättnings-PCB:er till LG-tvättmaskiner kostar vanligtvis mellan 700 och 1 800 kronor för enbart delen, beroende på modell. Om du anlitar en servicetekniker för montering tillkommer arbetskostnad. Det är värt att jämföra den totala reparationskostnaden med maskinens ålder och värde innan du bestämmer dig.",
+          "question": "Hur mycket kostar det att byta styrkort på en LG-tvättmaskin?"
+        },
+        {
+          "answer": "EE är en specifik felkod för EEPROM-minnesfel och skiljer sig från andra LG-felkoder. Olika koder pekar på olika system — till exempel har dräneringsfel, motorfel och värmarfel sina egna koder. Använd alltid den exakta koden som visas på din maskin när du söker efter reservdelar eller råd.",
+          "question": "Är felkod EE samma sak som E6 eller annat minnesfel på LG-maskiner?"
+        },
+        {
+          "answer": "EE-felet kan uppträda på ett antal LG-frontmatarmodeller, bland annat F0712WS, F0812WS, F1056MD, F1056ND, F1056QD-serien, F1056QP, F1068LD-serien, F1068QD-serien, F1073TD, F1091TD-serien, F1096Q/TDW1 och F1096QDA-serien, med flera. Om din modell inte finns med, kontrollera din bruksanvisning — EE-koden och dess betydelse kan ändå gälla.",
+          "question": "Vilka LG-tvättmaskinmodeller påverkas av felkod EE?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:39.66798+00:00"
+    }
+  ]
+}

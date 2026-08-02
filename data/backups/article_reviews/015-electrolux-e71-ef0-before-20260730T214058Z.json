@@ -1,0 +1,1011 @@
+{
+  "exported_at": "2026-07-30T21:40:58.300566+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    272,
+    273,
+    274,
+    275,
+    276
+  ],
+  "rows": [
+    {
+      "article_id": 272,
+      "locale": "en",
+      "slug": "error-code-e71",
+      "title_tag": "Electrolux Washing Machine Error Code E71 | Fix It",
+      "meta_description": "Electrolux washing machine showing error E71? Learn what causes the drum temperature sensor fault and how to fix it yourself step by step.",
+      "h1": "What Does Error Code E71 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E71 on an Electrolux washing machine indicates that the drum NTC temperature sensor is either providing incorrect readings or has developed an open circuit fault.",
+      "quick_fix": "Check and firmly reseat the wiring connector on the NTC temperature sensor at the back of the drum — a loose connection is the most common cause and reseating it often clears the error immediately (takes about 10 minutes).",
+      "intro_html": "<p>Error code E71 points to a problem with the NTC (Negative Temperature Coefficient) thermistor — the small sensor responsible for monitoring the water temperature inside the drum during a wash cycle. When this sensor sends a reading that falls outside the expected range, or stops sending a signal altogether, the machine's control board flags E71 and typically halts the programme to prevent overheating or ineffective washing.</p><p>You may notice the machine stopping mid-cycle, refusing to heat the water, or displaying the error shortly after a wash begins. In some cases the drum will fill and tumble normally but the cycle will not progress past a certain point because the control board cannot confirm a safe operating temperature.</p><p>The good news is that E71 is often caused by a loose wire or a failed sensor rather than a major electronic fault, and both are within reach of a careful homeowner with basic tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Loose or corroded wiring connector on the NTC sensor",
+          "detail": "The connector linking the temperature sensor to the wiring loom can work loose over time due to vibration. Corrosion on the terminals can also interrupt the signal, causing the control board to read an open circuit."
+        },
+        {
+          "cause": "Failed NTC temperature sensor",
+          "detail": "The thermistor itself can fail, either going open circuit or drifting so far out of its calibrated resistance range that the control board rejects its readings. This is a common wear item, especially on machines several years old."
+        },
+        {
+          "cause": "Damaged wiring harness",
+          "detail": "The wires running from the sensor to the control board can become pinched, chafed, or broken — particularly where they pass through the cabinet or around moving parts. A break anywhere in the circuit produces the same open-circuit error."
+        },
+        {
+          "cause": "Faulty main control board",
+          "detail": "If the control board's input circuit for the NTC sensor has failed, it will misread or fail to read a perfectly good sensor. This is less common but should be considered once the sensor and wiring have been confirmed as good."
+        },
+        {
+          "cause": "Water or detergent ingress at the sensor connector",
+          "detail": "Moisture inside the connector block can cause intermittent short circuits or corrosion that disrupts the sensor signal. This sometimes produces an E71 that appears and disappears across different cycles."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power down and unplug the machine",
+          "detail": "Switch the machine off at the programme dial and unplug it from the mains socket. Wait at least two minutes before opening any panels — this allows residual charge in the control board to dissipate and is an essential safety step before touching any internal components."
+        },
+        {
+          "step": 2,
+          "action": "Clear the error and run a test cycle",
+          "detail": "After unplugging, wait two minutes, then plug back in and select a 40°C cotton cycle. Sometimes a transient voltage spike triggers E71 and a simple reset clears it. If the error returns, continue to the steps below."
+        },
+        {
+          "step": 3,
+          "action": "Locate the NTC temperature sensor",
+          "detail": "Remove the rear panel of the machine (usually held by two or three screws along the top edge). The NTC sensor is a small cylindrical or disc-shaped component clipped into the outer drum, typically near the heater element at the lower rear. Consult your model's wiring diagram if you are unsure — these are often available on the manufacturer's support site."
+        },
+        {
+          "step": 4,
+          "action": "Inspect and reseat the wiring connector",
+          "detail": "Disconnect the two-pin connector from the sensor, check the terminals for corrosion or bent pins, and clean them gently with a dry cloth or fine emery paper if needed. Push the connector firmly back onto the sensor until it clicks. Reassemble the panel, restore power, and run a test cycle to see if the error clears."
+        },
+        {
+          "step": 5,
+          "action": "Test the NTC sensor resistance",
+          "detail": "With the machine unplugged and the connector removed, set a multimeter to the resistance (Ohms) setting and place the probes on the two sensor terminals. At room temperature (around 20°C) a healthy NTC sensor typically reads between 4,000 and 6,000 Ohms — check your model's service data for the exact value. A reading of zero, infinity, or wildly outside the expected range confirms the sensor has failed and needs replacing."
+        },
+        {
+          "step": 6,
+          "action": "Replace the NTC temperature sensor",
+          "detail": "Order a replacement sensor matched to your exact model number (found on the label inside the door frame). Unclip the old sensor from the drum, fit the new one in its place, and reconnect the wiring. Sensors are generally inexpensive and straightforward to swap without specialist tools."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the full wiring harness",
+          "detail": "If a new sensor does not clear the fault, trace the wiring from the sensor back towards the control board, looking for any pinched, melted, or broken sections. Repair any damaged wire with a proper crimp connector or replace the harness section. If the wiring is intact and the sensor is confirmed good, the control board input circuit is the likely culprit."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Contact a service technician if you have replaced the NTC sensor and confirmed the wiring harness is undamaged, but the E71 error continues to appear. This combination of symptoms strongly suggests the fault lies within the main control board itself, which requires specialist diagnostic equipment and soldering skills to repair or replace safely.</p><p>You should also call a technician if you find signs of burning, melted insulation, or water damage around the sensor area or control board — these indicate a more serious underlying problem that goes beyond a straightforward sensor swap and could pose a safety risk if left unaddressed.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E71 fault are the NTC temperature sensor itself, the sensor wiring harness or connector block, and — in cases where the sensor circuit has been damaged — the main control board. Keeping a note of your machine's full model number (printed on the label inside the door frame) will help you find the correct compatible parts quickly.</p><p>To reduce the chance of sensor faults recurring, avoid overloading the drum, which increases vibration and can gradually loosen connectors. Running a monthly drum-clean cycle also helps prevent detergent residue and moisture from building up around electrical components near the heater area.</p>\n<!-- SPARE_PARTS:E71 -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. When E71 is active, the machine cannot reliably monitor water temperature, which means it may overheat the water or fail to heat it at all. Running cycles in this state risks damaging fabrics and could place additional strain on the heater element. It is best to resolve the fault before using the machine again.",
+          "question": "Can I still use my Electrolux washing machine while it shows E71?"
+        },
+        {
+          "answer": "Test the sensor with a multimeter as described in Step 5. If the resistance reading is within the expected range and the wiring is intact, the control board is the likely cause. A service technician can confirm this with dedicated diagnostic tools, but ruling out the sensor first saves unnecessary expense.",
+          "question": "How do I know if the NTC sensor or the control board is at fault?"
+        },
+        {
+          "answer": "Occasionally an E71 caused by a loose connector will disappear after the machine is switched off and restarted, because the connector settles back into contact. However, if the underlying cause is not fixed, the error will return — often mid-cycle. A self-clearing error should still be investigated rather than ignored.",
+          "question": "Will E71 clear itself after the machine cools down?"
+        },
+        {
+          "answer": "Replacement NTC sensors are generally one of the more affordable washing machine spare parts, typically ranging from around £8 to £25 depending on the model. Always buy a part matched to your specific model number to ensure compatibility and correct resistance characteristics.",
+          "question": "How much does an NTC sensor cost for an Electrolux washing machine?"
+        },
+        {
+          "answer": "They are related but distinct. E71 specifically refers to the drum NTC temperature sensor circuit. E72 and E73 on some Electrolux models relate to different temperature sensor readings or thresholds. Always check your model's manual or the manufacturer's fault code list to confirm the exact meaning for your specific machine before ordering parts.",
+          "question": "Is E71 the same fault as E72 or E73 on Electrolux machines?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T09:28:48.488959+00:00"
+    },
+    {
+      "article_id": 272,
+      "locale": "sv",
+      "slug": "felkod-e71",
+      "title_tag": "Electrolux Tvättmaskin Felkod E71 | Åtgärda Det",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E71? Lär dig vad som orsakar felet på trummans temperatursensor och hur du åtgärdar det själv steg för steg.",
+      "h1": "Vad Betyder Felkod E71 på en Electrolux Tvättmaskin?",
+      "description": "Felkod E71 på en Electrolux tvättmaskin indikerar att trummans NTC-temperatursensor antingen ger felaktiga avläsningar eller har utvecklat ett öppet kretsfel.",
+      "quick_fix": "Kontrollera och sätt fast kabelkontakten ordentligt på NTC-temperatursensorn på baksidan av trumman — en lös anslutning är den vanligaste orsaken och att sätta fast den löser ofta felet omedelbart (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod E71 pekar på ett problem med NTC-termistorn (Negative Temperature Coefficient) — den lilla sensorn som ansvarar för att övervaka vattentemperaturen inuti trumman under ett tvättprogram. När denna sensor skickar en avläsning som faller utanför det förväntade intervallet, eller slutar skicka en signal helt, flaggar maskinens styrkort E71 och stoppar vanligtvis programmet för att förhindra överhettning eller ineffektiv tvätt.</p><p>Du kan märka att maskinen stannar mitt i ett program, vägrar att värma vattnet, eller visar felet strax efter att en tvätt påbörjas. I vissa fall fyller trumman på och roterar normalt men programmet fortskrider inte förbi en viss punkt eftersom styrkortet inte kan bekräfta en säker driftstemperatur.</p><p>Den goda nyheten är att E71 ofta orsakas av en lös kabel eller en defekt sensor snarare än ett allvarligt elektronikfel, och båda är inom räckhåll för en noggrann hemmafixare med grundläggande verktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Lös eller korroderad kabelkontakt på NTC-sensorn",
+          "detail": "Kontakten som förbinder temperatursensorn med kabelstammen kan lossna med tiden på grund av vibrationer. Korrosion på kontaktstiften kan också avbryta signalen, vilket får styrkortet att läsa ett öppet kretsfel."
+        },
+        {
+          "cause": "Defekt NTC-temperatursensor",
+          "detail": "Termistorn i sig kan gå sönder, antingen genom att bli ett öppet kretsfel eller genom att drifta så långt utanför sitt kalibrerade motståndsvärde att styrkortet avvisar dess avläsningar. Detta är en vanlig slitdel, särskilt på maskiner som är flera år gamla."
+        },
+        {
+          "cause": "Skadad kabelstam",
+          "detail": "Kablarna som löper från sensorn till styrkortet kan bli klämda, nötta eller brutna — särskilt där de passerar genom höljet eller runt rörliga delar. Ett brott var som helst i kretsen ger samma öppna kretsfel."
+        },
+        {
+          "cause": "Defekt huvudstyrkort",
+          "detail": "Om styrkortet ingångskrets för NTC-sensorn har gått sönder, kommer det att läsa fel eller inte kunna läsa en fullt fungerande sensor. Detta är mindre vanligt men bör övervägas när sensorn och kablaget har bekräftats vara i gott skick."
+        },
+        {
+          "cause": "Vatten eller tvättmedel i sensorkontakten",
+          "detail": "Fukt inuti kontaktblocket kan orsaka intermittenta kortslutningar eller korrosion som stör sensorsignalen. Detta ger ibland ett E71-fel som dyker upp och försvinner under olika program."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Stäng av maskinen med programväljaren och dra ur kontakten från eluttaget. Vänta minst två minuter innan du öppnar några paneler — detta låter restladdningen i styrkortet avledas och är ett viktigt säkerhetssteg innan du rör några interna komponenter."
+        },
+        {
+          "step": 2,
+          "action": "Rensa felet och kör ett testprogram",
+          "detail": "Efter att ha kopplat ur maskinen, vänta två minuter, anslut sedan igen och välj ett bomullsprogram på 40°C. Ibland utlöser en tillfällig spänningspik E71 och en enkel återställning rensar det. Om felet återkommer, fortsätt med stegen nedan."
+        },
+        {
+          "step": 3,
+          "action": "Lokalisera NTC-temperatursensorn",
+          "detail": "Ta bort maskinens bakpanel (vanligtvis hållen av två eller tre skruvar längs överkanten). NTC-sensorn är en liten cylindrisk eller skivformad komponent som är fäst i den yttre trumman, vanligtvis nära värmeelement längst ner bak. Konsultera din modells kopplingsschema om du är osäker — dessa finns ofta på tillverkarens supportsida."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera och sätt fast kabelkontakten",
+          "detail": "Koppla loss tvåstiftskontakten från sensorn, kontrollera stiften för korrosion eller böjda stift och rengör dem försiktigt med en torr trasa eller fint smärgelpapper vid behov. Tryck in kontakten ordentligt på sensorn tills den klickar på plats. Montera ihop panelen, återställ strömmen och kör ett testprogram för att se om felet försvinner."
+        },
+        {
+          "step": 5,
+          "action": "Testa NTC-sensorns motstånd",
+          "detail": "Med maskinen urkopplad och kontakten borttagen, ställ in en multimeter på motståndsinställningen (Ohm) och placera proberna på sensorns två stift. Vid rumstemperatur (cirka 20°C) läser en frisk NTC-sensor vanligtvis mellan 4 000 och 6 000 Ohm — kontrollera din modells servicedata för det exakta värdet. En avläsning på noll, oändlighet eller långt utanför det förväntade intervallet bekräftar att sensorn har gått sönder och behöver bytas."
+        },
+        {
+          "step": 6,
+          "action": "Byt NTC-temperatursensorn",
+          "detail": "Beställ en ersättningssensor anpassad till ditt exakta modellnummer (finns på etiketten inuti dörrkanten). Lossa den gamla sensorn från trumman, montera den nya på dess plats och återanslut kablaget. Sensorer är generellt sett billiga och enkla att byta utan specialverktyg."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera hela kabelstammen",
+          "detail": "Om en ny sensor inte rensar felet, spåra kablaget från sensorn tillbaka mot styrkortet och leta efter klämda, smälta eller brutna sektioner. Reparera eventuella skadade kablar med en ordentlig krimpkontakt eller byt ut kabelstamssektionen. Om kablaget är intakt och sensorn bekräftats vara i gott skick är styrkortet ingångskrets troligen den skyldige."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om du har bytt NTC-sensorn och bekräftat att kabelstammen är oskadad, men E71-felet fortsätter att visas. Denna kombination av symptom tyder starkt på att felet ligger i huvudstyrkortet, vilket kräver specialiserad diagnostikutrustning och lödkunskaper för att reparera eller byta på ett säkert sätt.</p><p>Du bör också ringa en tekniker om du hittar tecken på brännskador, smält isolering eller vattenskador runt sensorområdet eller styrkortet — dessa indikerar ett allvarligare underliggande problem som går bortom ett enkelt sensorbyte och kan utgöra en säkerhetsrisk om det lämnas oåtgärdat.</p>",
+      "prevention_html": "<p>De delar som oftast byts vid åtgärdande av ett E71-fel är NTC-temperatursensorn i sig, sensorns kabelstam eller kontaktblock, och — i fall där sensorkretsen har skadats — huvudstyrkortet. Att anteckna maskinens fullständiga modellnummer (tryckt på etiketten inuti dörrkanten) hjälper dig att snabbt hitta rätt kompatibla delar.</p><p>För att minska risken för att sensorfel återkommer, undvik att överlasta trumman, vilket ökar vibrationer och gradvis kan lossa kontakter. Att köra ett månatligt trumrengöringsprogram hjälper också till att förhindra att tvättmedelsrester och fukt ansamlas runt elektriska komponenter nära värmeelementet.</p>\n<!-- SPARE_PARTS:E71 -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte tillrådligt. När E71 är aktivt kan maskinen inte på ett tillförlitligt sätt övervaka vattentemperaturen, vilket innebär att den kan överhetta vattnet eller misslyckas med att värma det alls. Att köra program i detta tillstånd riskerar att skada textilier och kan belasta värmeelementet ytterligare. Det är bäst att åtgärda felet innan maskinen används igen.",
+          "question": "Kan jag fortfarande använda min Electrolux tvättmaskin när den visar E71?"
+        },
+        {
+          "answer": "Testa sensorn med en multimeter enligt beskrivningen i steg 5. Om motståndsavläsningen är inom det förväntade intervallet och kablaget är intakt är styrkortet troligen orsaken. En servicetekniker kan bekräfta detta med dedikerade diagnostikverktyg, men att utesluta sensorn först sparar onödiga kostnader.",
+          "question": "Hur vet jag om det är NTC-sensorn eller styrkortet som är felaktigt?"
+        },
+        {
+          "answer": "Ibland kan ett E71-fel orsakat av en lös kontakt försvinna efter att maskinen stängts av och startats om, eftersom kontakten sätter sig tillbaka i läge. Men om den underliggande orsaken inte åtgärdas kommer felet att återkomma — ofta mitt i ett program. Ett fel som försvinner av sig självt bör ändå undersökas snarare än ignoreras.",
+          "question": "Försvinner E71 av sig självt när maskinen svalnar?"
+        },
+        {
+          "answer": "Ersättnings-NTC-sensorer är generellt sett en av de mer prisvärda reservdelarna till tvättmaskiner, och kostar vanligtvis mellan cirka 100 och 300 kronor beroende på modell. Köp alltid en del anpassad till ditt specifika modellnummer för att säkerställa kompatibilitet och korrekta motståndsvärden.",
+          "question": "Hur mycket kostar en NTC-sensor till en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "De är relaterade men distinkta. E71 avser specifikt trummans NTC-temperatursensorkrets. E72 och E73 på vissa Electrolux-modeller relaterar till olika temperatursensoravläsningar eller tröskelvärden. Kontrollera alltid din modells manual eller tillverkarens felkodslista för att bekräfta den exakta innebörden för din specifika maskin innan du beställer delar.",
+          "question": "Är E71 samma fel som E72 eller E73 på Electrolux-maskiner?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T09:29:57.890696+00:00"
+    },
+    {
+      "article_id": 273,
+      "locale": "en",
+      "slug": "error-code-e91",
+      "title_tag": "Electrolux Washing Machine Error Code E91 | Fix It Now",
+      "meta_description": "Electrolux washing machine showing E91? Learn what causes this communication error, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E91 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E91 indicates a communication failure between the main PCB and the display board or sub-module on an Electrolux washing machine.",
+      "quick_fix": "Reset the machine by switching it off at the wall, waiting 5 minutes, then switching it back on — this clears temporary communication faults and restores normal operation in most cases (takes about 5 minutes).",
+      "intro_html": "<p>Error code E91 on an Electrolux washing machine signals that the main control board (PCB) has lost communication with the display board or a connected sub-module. These two components constantly exchange data during a wash cycle, and if that signal is interrupted or corrupted, the machine stops and displays E91 to prevent further operation.</p><p>When this error appears, the machine will typically halt mid-cycle or refuse to start at all. The display may freeze, flash, or become unresponsive. In some cases the drum will stop spinning and the door may remain locked until the fault is cleared.</p><p>The good news is that E91 is often caused by a temporary software glitch or a loose wiring connection rather than a failed component, so a straightforward reset or a quick inspection of the wiring harness resolves many cases without any parts being needed.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary software or firmware glitch",
+          "detail": "A brief power fluctuation or an interrupted cycle can cause the main PCB and display board to fall out of sync. This is the most common trigger and usually clears with a full power reset."
+        },
+        {
+          "cause": "Loose or disconnected wiring harness",
+          "detail": "The ribbon cable or wiring loom connecting the main PCB to the display board can work loose over time due to vibration during spin cycles. A partially seated connector is enough to break communication entirely."
+        },
+        {
+          "cause": "Damaged or corroded wiring connector",
+          "detail": "Moisture inside the machine, particularly around the door seal area, can cause corrosion on the connector pins between the PCB and display board. Corroded pins create high resistance that disrupts the data signal."
+        },
+        {
+          "cause": "Faulty display board",
+          "detail": "If the display board itself has developed an internal fault — due to a power surge, component failure, or physical damage — it will stop responding to the main PCB. The machine interprets this silence as a communication error."
+        },
+        {
+          "cause": "Faulty main PCB",
+          "detail": "Less commonly, the main control board is the source of the problem. If the PCB's communication circuit has failed, it cannot send or receive data regardless of the condition of the display board or wiring."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a full power reset",
+          "detail": "Switch the machine off using the power button, then turn it off at the wall socket and unplug it completely. Leave it unplugged for at least 5 minutes to allow the capacitors on the PCB to fully discharge, then plug it back in and run a short test cycle. This clears temporary communication faults in a significant number of cases."
+        },
+        {
+          "step": 2,
+          "action": "Check for a programme selector or button stuck in position",
+          "detail": "A jammed programme dial or a stuck button can send a continuous signal that confuses the control board. Turn the programme selector through its full range and press each button to confirm none are physically stuck or depressed. If a button feels sticky or unresponsive, clean around it with a dry cloth."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the wiring harness between the display panel and the main PCB",
+          "detail": "Unplug the machine before doing this. Remove the top panel (usually held by two screws at the rear) to access the wiring. Locate the ribbon cable or connector loom running from the display board down to the main PCB and press each connector firmly until it clicks into place. Look for any visible signs of chafing, pinching, or burn marks on the cables."
+        },
+        {
+          "step": 4,
+          "action": "Check connector pins for corrosion",
+          "detail": "With the machine still unplugged, disconnect the wiring connectors between the display board and the PCB one at a time. Examine the metal pins inside each connector for green or white discolouration, which indicates corrosion. Gently clean affected pins with a dry cotton swab or a small amount of electrical contact cleaner, allow to dry fully, then reconnect."
+        },
+        {
+          "step": 5,
+          "action": "Test the machine after reconnecting all wiring",
+          "detail": "Reassemble the top panel, plug the machine back in, and run a full wash cycle to see if E91 returns. If the error is gone, monitor the machine over the next few washes to confirm the fault has been resolved. If E91 reappears after a few cycles, the issue is likely a failing component rather than a loose connection."
+        },
+        {
+          "step": 6,
+          "action": "Consider replacing the display board",
+          "detail": "If the wiring is secure and undamaged but E91 persists, the display board is the next most likely culprit. Source a compatible replacement board using your machine's full model number (found on the label inside the door frame). Fitting a new display board is generally straightforward — disconnect the old board, transfer the connectors to the new one, and reassemble."
+        },
+        {
+          "step": 7,
+          "action": "Arrange a service technician visit if the fault continues",
+          "detail": "If replacing the display board does not resolve E91, the main PCB is likely at fault. PCB diagnosis and replacement requires specialist tools and knowledge of the machine's circuit layout, so this step is best left to a qualified service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If E91 returns immediately after a power reset, or if the display is completely blank and unresponsive even when the machine is powered on, the fault is unlikely to be a simple wiring issue. Similarly, if you can see burn marks, melted plastic, or smell something electrical near the control panel or rear of the machine, stop using it immediately and do not attempt further DIY investigation.</p><p>A service technician should also be called if you have already replaced the display board and the error persists, as this points to a main PCB fault that requires proper diagnosis with electronic test equipment before any further parts are ordered.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an E91 fault are the display board (also called the user interface board), the main PCB, and the wiring harness or ribbon cable that connects them. Having the correct model number to hand when ordering ensures you receive a compatible part — this is printed on a sticker inside the door opening on most Electrolux machines.</p><p>To reduce the risk of communication errors recurring, avoid overloading the machine (excess vibration can loosen connectors over time), ensure the machine is plugged into a stable mains supply, and consider using a surge-protected extension lead if your home experiences frequent power fluctuations.</p>\n<!-- SPARE_PARTS:E91 -->",
+      "faq_json": [
+        {
+          "answer": "Sometimes. If the error was triggered by a brief power fluctuation or a temporary software glitch, switching the machine off at the wall for 5-10 minutes and restarting it may be enough to clear it. However, if there is an underlying wiring or component fault, the error will return as soon as the machine tries to run a cycle.",
+          "question": "Will E91 clear itself if I leave the machine for a while?"
+        },
+        {
+          "answer": "No. When E91 is active, the main PCB cannot reliably control the machine because it has lost communication with the display board. Running the machine in this state could result in the cycle not completing correctly, the door remaining locked unexpectedly, or further damage to the control electronics. Switch the machine off until the fault is resolved.",
+          "question": "Is it safe to use the machine while it shows E91?"
+        },
+        {
+          "answer": "The model number is printed on a label inside the door opening, usually on the front edge of the drum housing or on the door frame itself. It typically starts with letters followed by a series of numbers. You will need this number to order the correct display board or PCB for your specific machine.",
+          "question": "How do I find the model number on my Electrolux washing machine?"
+        },
+        {
+          "answer": "On some Electrolux models, firmware updates can address communication issues between the PCB and display board. However, firmware updates for washing machines are not something homeowners can apply themselves — this would need to be carried out by a service technician using manufacturer diagnostic equipment.",
+          "question": "Could a software update fix the E91 error?"
+        },
+        {
+          "answer": "If the fix is a simple power reset or reseating a connector, there is no parts cost at all. A replacement display board typically costs between £30 and £80 depending on the model. A main PCB is more expensive, often £80 to £150 or more for the part alone, plus labour if a service technician fits it. Getting a repair quote before ordering parts is always a sensible step.",
+          "question": "How much does it typically cost to repair an E91 fault?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T09:30:46.244346+00:00"
+    },
+    {
+      "article_id": 273,
+      "locale": "sv",
+      "slug": "felkod-e91",
+      "title_tag": "Electrolux Tvättmaskin Felkod E91 | Åtgärda Det Nu",
+      "meta_description": "Visar din Electrolux tvättmaskin E91? Lär dig vad som orsakar detta kommunikationsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad betyder felkod E91 på en Electrolux tvättmaskin?",
+      "description": "Felkod E91 indikerar ett kommunikationsfel mellan huvudkortet (PCB) och displaykortet eller en undermodul på en Electrolux tvättmaskin.",
+      "quick_fix": "Återställ maskinen genom att stänga av den vid vägguttaget, vänta 5 minuter och sedan slå på den igen — detta rensar tillfälliga kommunikationsfel och återställer normal drift i de flesta fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E91 på en Electrolux tvättmaskin signalerar att huvudkortet (PCB) har tappat kommunikationen med displaykortet eller en ansluten undermodul. Dessa två komponenter utbyter kontinuerligt data under ett tvättprogram, och om den signalen avbryts eller förvanskas stannar maskinen och visar E91 för att förhindra fortsatt drift.</p><p>När detta fel uppstår stannar maskinen vanligtvis mitt i ett program eller vägrar att starta överhuvudtaget. Displayen kan frysa, blinka eller sluta svara. I vissa fall slutar trumman att snurra och luckan kan förbli låst tills felet har åtgärdats.</p><p>Den goda nyheten är att E91 ofta orsakas av ett tillfälligt programvarufel eller en lös kabelanslutning snarare än en defekt komponent, vilket innebär att en enkel återställning eller en snabb kontroll av kabelstammen löser problemet i många fall utan att några reservdelar behövs.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt program- eller firmwarefel",
+          "detail": "En kortvarig spänningsfluktuering eller ett avbrutet program kan göra att huvudkortet och displaykortet tappar synkroniseringen. Detta är den vanligaste orsaken och försvinner vanligtvis efter en fullständig återställning av strömmen."
+        },
+        {
+          "cause": "Lös eller frånkopplad kabelstam",
+          "detail": "Bandkabeln eller kabelstammen som förbinder huvudkortet med displaykortet kan lossna med tiden på grund av vibrationer under centrifugeringen. En delvis lossad kontakt räcker för att bryta kommunikationen helt."
+        },
+        {
+          "cause": "Skadad eller korroderad kabelkontakt",
+          "detail": "Fukt inuti maskinen, särskilt kring dörrtätningen, kan orsaka korrosion på kontaktstiften mellan PCB och displaykortet. Korroderade stift skapar ett högt motstånd som stör datasignalen."
+        },
+        {
+          "cause": "Defekt displaykort",
+          "detail": "Om displaykortet självt har utvecklat ett internt fel — på grund av ett spänningsöverskott, komponentfel eller fysisk skada — slutar det att svara på huvudkortet. Maskinen tolkar denna tystnad som ett kommunikationsfel."
+        },
+        {
+          "cause": "Defekt huvudkort",
+          "detail": "Mer sällan är huvudkortet källan till problemet. Om PCB:ns kommunikationskrets har slutat fungera kan det varken skicka eller ta emot data, oavsett displaykortets eller kabelns skick."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en fullständig återställning av strömmen",
+          "detail": "Stäng av maskinen med strömknappen, stäng sedan av den vid vägguttaget och dra ut kontakten helt. Låt den vara urkopplad i minst 5 minuter så att kondensatorerna på PCB:n hinner laddas ur helt, anslut sedan igen och kör ett kort testprogram. Detta rensar tillfälliga kommunikationsfel i ett betydande antal fall."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera om programväljaren eller någon knapp sitter fast",
+          "detail": "En fastkilad programväljare eller en fastsittande knapp kan skicka en kontinuerlig signal som förvirrar styrkortet. Vrid programväljaren genom hela dess rörelseomfång och tryck på varje knapp för att bekräfta att ingen sitter fast eller är nedtryckt. Om en knapp känns klibbig eller inte svarar, rengör runt den med en torr trasa."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera kabelstammen mellan displaypanelen och huvudkortet",
+          "detail": "Dra ut maskinens kontakt innan du gör detta. Ta bort toppanelen (vanligtvis fäst med två skruvar baktill) för att komma åt kablarna. Leta upp bandkabeln eller kontaktstammen som löper från displaykortet ner till huvudkortet och tryck in varje kontakt ordentligt tills den klickar på plats. Titta efter synliga tecken på nötning, klämning eller brännmärken på kablarna."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera kontaktstiften för korrosion",
+          "detail": "Med maskinen fortfarande urkopplad, koppla loss kabelkontakterna mellan displaykortet och PCB:n en i taget. Undersök metallstiften inuti varje kontakt efter grön eller vit missfärgning, vilket indikerar korrosion. Rengör försiktigt drabbade stift med en torr bomullspinne eller en liten mängd elektriskt kontaktmedel, låt torka helt och anslut sedan igen."
+        },
+        {
+          "step": 5,
+          "action": "Testa maskinen efter att alla kablar har återanslutits",
+          "detail": "Montera ihop toppanelen, anslut maskinen och kör ett fullständigt tvättprogram för att se om E91 återkommer. Om felet är borta, övervaka maskinen under de närmaste tvättningarna för att bekräfta att felet är åtgärdat. Om E91 återkommer efter några program är problemet troligtvis en defekt komponent snarare än en lös anslutning."
+        },
+        {
+          "step": 6,
+          "action": "Överväg att byta ut displaykortet",
+          "detail": "Om kablarna sitter säkert och är oskadade men E91 kvarstår är displaykortet den näst troligaste orsaken. Skaffa ett kompatibelt ersättningskort med hjälp av maskinens fullständiga modellnummer (finns på etiketten inuti lucköppningen). Att montera ett nytt displaykort är i allmänhet enkelt — koppla loss det gamla kortet, flytta kontakterna till det nya och montera ihop."
+        },
+        {
+          "step": 7,
+          "action": "Boka en servicetekniker om felet kvarstår",
+          "detail": "Om byte av displaykortet inte löser E91 är huvudkortet troligtvis felaktigt. Diagnos och byte av PCB kräver specialverktyg och kunskap om maskinens kretsschema, varför detta steg bäst överlåts till en behörig servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om E91 återkommer omedelbart efter en återställning av strömmen, eller om displayen är helt blank och inte svarar ens när maskinen är påslagen, är felet troligtvis inte ett enkelt kabelproblem. Om du kan se brännmärken, smält plast eller känner en elektrisk lukt nära kontrollpanelen eller maskinens baksida, sluta använda den omedelbart och försök inte göra fler egna undersökningar.</p><p>En servicetekniker bör också kontaktas om du redan har bytt ut displaykortet och felet kvarstår, eftersom detta pekar på ett fel på huvudkortet som kräver korrekt diagnos med elektronisk testutrustning innan ytterligare reservdelar beställs.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett E91-fel är displaykortet (även kallat användargränssnittskortet), huvudkortet samt kabelstammen eller bandkabeln som förbinder dem. Att ha rätt modellnummer till hands vid beställning säkerställer att du får en kompatibel del — detta finns tryckt på en etikett inuti lucköppningen på de flesta Electrolux-maskiner.</p><p>För att minska risken för att kommunikationsfel återkommer, undvik att överlasta maskinen (överdrivna vibrationer kan lossa kontakter med tiden), se till att maskinen är ansluten till ett stabilt elnät och överväg att använda ett överspänningsskyddat grenuttag om ditt hem upplever frekventa spänningsfluktuationer.</p>\n<!-- SPARE_PARTS:E91 -->",
+      "faq_json": [
+        {
+          "answer": "Ibland. Om felet utlöstes av en kortvarig spänningsfluktuering eller ett tillfälligt programvarufel kan det räcka att stänga av maskinen vid vägguttaget i 5–10 minuter och starta om den. Om det däremot finns ett underliggande kabel- eller komponentfel kommer felet att återkomma så snart maskinen försöker köra ett program.",
+          "question": "Försvinner E91 av sig självt om jag låter maskinen stå ett tag?"
+        },
+        {
+          "answer": "Nej. När E91 är aktivt kan huvudkortet inte styra maskinen på ett tillförlitligt sätt eftersom det har tappat kommunikationen med displaykortet. Att köra maskinen i detta tillstånd kan leda till att programmet inte slutförs korrekt, att luckan förblir oväntad låst eller att ytterligare skador uppstår på styrelektroniken. Stäng av maskinen tills felet är åtgärdat.",
+          "question": "Är det säkert att använda maskinen när den visar E91?"
+        },
+        {
+          "answer": "Modellnumret finns tryckt på en etikett inuti lucköppningen, vanligtvis på den främre kanten av trumhuset eller på luckramen. Det börjar vanligtvis med bokstäver följt av en serie siffror. Du behöver detta nummer för att beställa rätt displaykort eller PCB till din specifika maskin.",
+          "question": "Hur hittar jag modellnumret på min Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "På vissa Electrolux-modeller kan firmwareuppdateringar åtgärda kommunikationsproblem mellan PCB och displaykortet. Firmwareuppdateringar för tvättmaskiner är dock inget som hushållsägare kan utföra själva — detta måste utföras av en servicetekniker med tillverkarens diagnostikutrustning.",
+          "question": "Kan en programuppdatering åtgärda E91-felet?"
+        },
+        {
+          "answer": "Om lösningen är en enkel återställning av strömmen eller att sätta tillbaka en kontakt kostar det ingenting i reservdelar. Ett ersättningsdisplaykort kostar vanligtvis mellan 400 och 900 kronor beroende på modell. Ett huvudkort är dyrare, ofta 900 till 1 700 kronor eller mer för enbart delen, plus arbetskostnad om en servicetekniker monterar det. Det är alltid klokt att begära en reparationsoffert innan reservdelar beställs.",
+          "question": "Vad kostar det vanligtvis att reparera ett E91-fel?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T09:31:52.272227+00:00"
+    },
+    {
+      "article_id": 274,
+      "locale": "en",
+      "slug": "error-code-e92",
+      "title_tag": "Electrolux Washing Machine Error Code E92 | Fix It",
+      "meta_description": "Electrolux washing machine showing error code E92? Learn what causes this control board fault and how to fix it yourself before calling a service technician.",
+      "h1": "What Does Error Code E92 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E92 on an Electrolux washing machine indicates an internal fault has been detected within the main control board.",
+      "quick_fix": "Power cycle the machine by switching it off at the wall, unplugging it for 10 minutes, then plugging it back in and restarting a cycle — this clears temporary control board errors in the majority of E92 cases (takes about 10 minutes).",
+      "intro_html": "<p>Error code E92 points to a problem with your Electrolux washing machine's main control board — the electronic unit that coordinates every function of the appliance, from water intake and drum rotation to spin speed and programme timing. When the board detects an internal inconsistency it cannot resolve on its own, it raises the E92 code and halts the cycle to prevent further damage.</p><p>In practice, the machine may stop mid-cycle, refuse to start a new programme, or display the code immediately after you press the power button. The drum will typically remain stationary and the display may flash or lock. In many cases the fault is a temporary software glitch rather than a hardware failure, which is why a proper power reset is always the right first step.</p><p>That said, E92 can also signal a genuine component failure — a damaged control board, a wiring fault, or a software corruption — so it is worth working through the checks below methodically before concluding that a replacement part is needed.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary software glitch on the control board",
+          "detail": "A brief power fluctuation, an interrupted cycle, or an unexpected voltage spike can cause the control board's firmware to enter an error state. This is the most common trigger for E92 and is often resolved by a full power reset."
+        },
+        {
+          "cause": "Corrupted programme or firmware",
+          "detail": "If the machine's internal software becomes corrupted — sometimes after a power cut mid-cycle — the control board may report an internal error on every start attempt. In some Electrolux models a factory reset can clear this, but a firmware reflash by a service technician may be required."
+        },
+        {
+          "cause": "Loose or damaged wiring harness connections",
+          "detail": "Vibration over time can loosen the wiring connectors that link the control board to other components such as the motor, door lock, and sensors. A poor connection can cause the board to receive garbled signals and log an internal fault."
+        },
+        {
+          "cause": "Faulty main control board (PCB)",
+          "detail": "If the control board itself has suffered component failure — a blown capacitor, a burnt relay, or a cracked solder joint — it will be unable to complete its internal self-checks and will display E92 persistently. Visual inspection may reveal scorch marks or swollen components."
+        },
+        {
+          "cause": "Interference from a faulty peripheral component",
+          "detail": "A short circuit or failure in a connected component such as the motor control module, door interlock, or NTC temperature sensor can feed incorrect data back to the main board, causing it to flag an internal error even though the board itself is undamaged."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a full power reset",
+          "detail": "Switch the machine off using the power button, then turn it off at the wall socket and unplug the power cable completely. Leave it unplugged for at least 10 minutes to allow the control board's capacitors to fully discharge. Plug back in, power on, and attempt to start a fresh programme. This resolves the majority of E92 errors caused by temporary software faults."
+        },
+        {
+          "step": 2,
+          "action": "Try a factory reset",
+          "detail": "If the error returns after a power cycle, consult your model's user manual for the factory reset sequence — on many Electrolux machines this involves holding the Start/Pause button for several seconds while the machine is powered on. A factory reset clears stored error states and returns programme settings to default. Note that this will erase any custom programme preferences you have saved."
+        },
+        {
+          "step": 3,
+          "action": "Check the door is fully closed and the door lock is functioning",
+          "detail": "A faulty door interlock can send incorrect signals to the control board and trigger secondary error codes including E92. Open and firmly close the door, listening for a clear click. If the door lock feels loose, does not click, or the machine still will not start, the interlock may need replacing — this is a straightforward and inexpensive repair."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the wiring harness connections at the control board",
+          "detail": "Switch off and unplug the machine before opening the top or rear panel (refer to your model's service diagram). Locate the main control board and check that all wiring connectors are seated firmly. Gently press each connector home and look for any wires that appear burnt, pinched, or corroded. Reconnect anything that has worked loose, then reassemble and test."
+        },
+        {
+          "step": 5,
+          "action": "Check for signs of damage on the control board itself",
+          "detail": "With the machine still unplugged, examine the control board visually under good lighting. Look for swollen or leaking capacitors, scorch marks, burnt traces, or cracked solder joints. Any of these indicate the board has suffered physical damage and will need to be replaced. Do not attempt to power the machine if you find obvious burn damage."
+        },
+        {
+          "step": 6,
+          "action": "Test or replace the NTC temperature sensor",
+          "detail": "A faulty NTC sensor can feed erroneous temperature readings to the control board, causing it to log internal errors. The sensor is typically located on the outer drum and can be tested with a multimeter — at room temperature it should read approximately 10–20 kΩ depending on the model. If the reading is open circuit or wildly out of range, replace the sensor and retest."
+        },
+        {
+          "step": 7,
+          "action": "Replace the main control board",
+          "detail": "If all other checks have been completed and E92 persists, the control board itself is most likely faulty. Source a compatible replacement board using your machine's full model number (found on the rating plate inside the door frame). If you are not confident working with mains-connected electronics, have a service technician carry out the replacement."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Contact a service technician if the E92 error returns immediately after a full power reset and factory reset, or if your inspection reveals visible burn damage, scorch marks, or swollen capacitors on the control board. These are signs of a hardware failure that cannot be resolved through software resets alone and requires component-level diagnosis or board replacement.</p><p>You should also seek professional help if the machine is tripping your household circuit breaker, producing a burning smell, or if you are not comfortable removing panels and working near mains wiring. A service technician can also confirm whether the fault lies with the main board or with a peripheral component that is causing the board to report a false internal error.</p>",
+      "prevention_html": "<p>The components most commonly replaced when resolving an E92 fault are the main control board (PCB), the door interlock assembly, and the NTC temperature sensor. Having the correct model number to hand when ordering parts is essential — Electrolux uses different board variants across its washing machine range, and fitting an incompatible board will not resolve the fault.</p><p>To reduce the risk of control board faults in future, consider plugging your washing machine into a surge-protected extension lead to guard against voltage spikes, and avoid interrupting cycles by cutting power at the wall mid-programme. Regular cleaning of the filter and door seal also reduces strain on the machine's sensors and electronics over time.</p>\n<!-- SPARE_PARTS:E92 -->",
+      "faq_json": [
+        {
+          "answer": "A power reset fixes E92 permanently when the root cause is a temporary software glitch triggered by a power fluctuation or an interrupted cycle. If the underlying cause is a hardware fault — such as a damaged control board or a failing sensor — the error will return after the reset. Work through the remaining diagnostic steps if the code comes back.",
+          "question": "Will unplugging my Electrolux washing machine fix the E92 error permanently?"
+        },
+        {
+          "answer": "No. When E92 is active the machine has detected an internal fault and has stopped the cycle deliberately to prevent further damage. Running the machine in this state risks worsening an existing fault or causing water to remain in the drum. Resolve the error before using the appliance again.",
+          "question": "Is it safe to keep using my washing machine when E92 is displayed?"
+        },
+        {
+          "answer": "Replacement control boards for Electrolux washing machines typically cost between £60 and £180 for the part alone, depending on the model. If you hire a service technician to fit it, expect to add a call-out and labour charge on top. It is worth comparing the total repair cost against the age and value of the machine before committing.",
+          "question": "How much does it cost to replace an Electrolux washing machine control board?"
+        },
+        {
+          "answer": "Yes. A sudden power cut while the machine is mid-cycle can interrupt the control board's processes and leave it in an error state, or in rare cases corrupt stored programme data. A 10-minute power reset is usually enough to clear this. If the error persists after the power is restored, a factory reset is the next step.",
+          "question": "Can a power cut cause the E92 error code?"
+        },
+        {
+          "answer": "The model number is printed on a rating plate, which is usually found on the inner edge of the door frame — visible when the door is open. It may also appear on a sticker on the back of the machine. You will need the full model number when ordering a replacement control board or any other spare part to ensure compatibility.",
+          "question": "How do I find the model number on my Electrolux washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T09:32:45.969584+00:00"
+    },
+    {
+      "article_id": 274,
+      "locale": "sv",
+      "slug": "felkod-e92",
+      "title_tag": "Electrolux Tvättmaskin Felkod E92 | Åtgärda Det",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E92? Lär dig vad som orsakar detta styrkortsfel och hur du åtgärdar det själv innan du kontaktar en servicetekniker.",
+      "h1": "Vad Betyder Felkod E92 på en Electrolux Tvättmaskin?",
+      "description": "Felkod E92 på en Electrolux tvättmaskin indikerar att ett internt fel har upptäckts i huvudstyrkortet.",
+      "quick_fix": "Starta om maskinen genom att stänga av den med strömbrytaren, dra ur kontakten ur vägguttaget i 10 minuter och sedan sätta i den igen och starta ett nytt program — detta rensar tillfälliga styrkortsfel i majoriteten av E92-fall (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod E92 pekar på ett problem med din Electrolux tvättmaskines huvudstyrkort — den elektroniska enhet som samordnar varje funktion hos maskinen, från vattenintag och trumrotation till centrifugeringshastighet och programtiming. När kortet upptäcker en intern inkonsekvens som det inte kan lösa på egen hand genererar det E92-koden och stoppar programmet för att förhindra ytterligare skador.</p><p>I praktiken kan maskinen stanna mitt i ett program, vägra starta ett nytt program eller visa koden omedelbart efter att du tryckt på strömknappen. Trumman förblir vanligtvis stationär och displayen kan blinka eller låsa sig. I många fall är felet ett tillfälligt programvarufel snarare än ett hårdvarufel, vilket är anledningen till att en ordentlig omstart alltid är rätt första steg.</p><p>Med det sagt kan E92 även signalera ett verkligt komponentfel — ett skadat styrkort, ett kabelfel eller en programvarukorruption — så det är värt att metodiskt gå igenom kontrollerna nedan innan du drar slutsatsen att en reservdel behöver bytas.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt programvarufel på styrkortet",
+          "detail": "En kortvarig strömfluktuering, ett avbrutet program eller en oväntad spänningspik kan orsaka att styrkortet fastnar i ett feltillstånd. Detta är den vanligaste orsaken till E92 och löses ofta med en fullständig omstart."
+        },
+        {
+          "cause": "Korrupt program eller firmware",
+          "detail": "Om maskinens interna programvara blir korrupt — ibland efter ett strömavbrott mitt i ett program — kan styrkortet rapportera ett internt fel vid varje startförsök. På vissa Electrolux-modeller kan en fabriksåterställning lösa detta, men en firmware-uppdatering av en servicetekniker kan krävas."
+        },
+        {
+          "cause": "Lösa eller skadade kabelanslutningar",
+          "detail": "Vibrationer över tid kan lossa kabelkontakterna som förbinder styrkortet med andra komponenter såsom motor, dörrlås och sensorer. En dålig anslutning kan göra att kortet tar emot felaktiga signaler och loggar ett internt fel."
+        },
+        {
+          "cause": "Defekt huvudstyrkort (PCB)",
+          "detail": "Om styrkortet självt har drabbats av komponentfel — en sprängd kondensator, ett bränt relä eller ett sprucket lödfog — kommer det inte att kunna slutföra sina interna självtester och visar E92 kontinuerligt. Visuell inspektion kan avslöja brännmärken eller uppsvällda komponenter."
+        },
+        {
+          "cause": "Störningar från en defekt kringutrustningskomponent",
+          "detail": "En kortslutning eller ett fel i en ansluten komponent såsom motorstyrmodulen, dörrlåset eller NTC-temperatursensorn kan mata felaktiga data tillbaka till huvudkortet, vilket får det att flagga ett internt fel även om kortet självt är oskadat."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en fullständig omstart",
+          "detail": "Stäng av maskinen med strömknappen, stäng sedan av den vid vägguttaget och dra ur strömkabeln helt. Låt den vara urkopplad i minst 10 minuter så att styrkortet kondensatorer hinner laddas ur helt. Sätt i kontakten igen, slå på strömmen och försök starta ett nytt program. Detta löser majoriteten av E92-fel som orsakas av tillfälliga programvarufel."
+        },
+        {
+          "step": 2,
+          "action": "Prova en fabriksåterställning",
+          "detail": "Om felet återkommer efter en omstart, konsultera din modells bruksanvisning för fabriksåterställningssekvensen — på många Electrolux-maskiner innebär detta att hålla in Start/Paus-knappen i flera sekunder medan maskinen är påslagen. En fabriksåterställning rensar lagrade feltillstånd och återställer programinställningarna till standard. Observera att detta raderar eventuella anpassade programinställningar du har sparat."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera att dörren är ordentligt stängd och att dörrlåset fungerar",
+          "detail": "Ett defekt dörrlås kan skicka felaktiga signaler till styrkortet och utlösa sekundära felkoder inklusive E92. Öppna och stäng dörren ordentligt och lyssna efter ett tydligt klick. Om dörrlåset känns löst, inte klickar eller om maskinen fortfarande inte startar kan låset behöva bytas — detta är en enkel och billig reparation."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera kabelanslutningarna vid styrkortet",
+          "detail": "Stäng av och koppla ur maskinen innan du öppnar topp- eller bakpanelen (se din modells servicediagram). Lokalisera huvudstyrkortet och kontrollera att alla kabelkontakter sitter ordentligt. Tryck försiktigt in varje kontakt och leta efter kablar som verkar brända, klämda eller korroderade. Återanslut allt som har lossnat, montera sedan ihop och testa."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera om det finns skador på styrkortet",
+          "detail": "Med maskinen fortfarande urkopplad, undersök styrkortet visuellt i bra belysning. Leta efter uppsvällda eller läckande kondensatorer, brännmärken, brända ledningar eller spruckna lödfog. Något av dessa indikerar att kortet har drabbats av fysisk skada och behöver bytas. Försök inte starta maskinen om du hittar uppenbara brännmärken."
+        },
+        {
+          "step": 6,
+          "action": "Testa eller byt NTC-temperatursensorn",
+          "detail": "En defekt NTC-sensor kan mata felaktiga temperaturavläsningar till styrkortet och få det att logga interna fel. Sensorn sitter vanligtvis på den yttre trumman och kan testas med en multimeter — vid rumstemperatur bör den visa ungefär 10–20 kΩ beroende på modell. Om avläsningen visar öppen krets eller är kraftigt utanför intervallet, byt sensorn och testa igen."
+        },
+        {
+          "step": 7,
+          "action": "Byt huvudstyrkortet",
+          "detail": "Om alla andra kontroller har genomförts och E92 kvarstår är styrkortet troligtvis defekt. Skaffa ett kompatibelt ersättningskort med maskinens fullständiga modellnummer (finns på typskylten inuti dörrkarmens kant). Om du inte känner dig trygg med att arbeta med nätansluten elektronik, låt en servicetekniker utföra bytet."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om E92-felet återkommer omedelbart efter en fullständig omstart och fabriksåterställning, eller om din inspektion avslöjar synliga brännmärken, sotmärken eller uppsvällda kondensatorer på styrkortet. Dessa är tecken på ett hårdvarufel som inte kan lösas med programvaruåterställningar och kräver diagnos på komponentnivå eller kortreplacement.</p><p>Du bör också söka professionell hjälp om maskinen löser din hushållssäkring, avger en bränd lukt, eller om du inte känner dig bekväm med att ta bort paneler och arbeta nära nätspänning. En servicetekniker kan också bekräfta om felet beror på huvudkortet eller på en kringutrustningskomponent som får kortet att rapportera ett falskt internt fel.</p>",
+      "prevention_html": "<p>De komponenter som oftast byts vid åtgärdande av ett E92-fel är huvudstyrkortet (PCB), dörrlåsenheten och NTC-temperatursensorn. Det är viktigt att ha rätt modellnummer till hands när du beställer delar — Electrolux använder olika kortvarianter i sitt tvättmaskinssortiment, och montering av ett inkompatibelt kort löser inte felet.</p><p>För att minska risken för styrkortsfel i framtiden kan du överväga att ansluta din tvättmaskin till en överspänningsskyddad grenuttag för att skydda mot spänningspikarna, och undvika att avbryta program genom att stänga av strömmen vid väggen mitt i ett program. Regelbunden rengöring av filtret och dörrtätningen minskar också belastningen på maskinens sensorer och elektronik över tid.</p>\n<!-- SPARE_PARTS:E92 -->",
+      "faq_json": [
+        {
+          "answer": "En omstart löser E92 permanent när grundorsaken är ett tillfälligt programvarufel utlöst av en strömfluktuering eller ett avbrutet program. Om den underliggande orsaken är ett hårdvarufel — såsom ett skadat styrkort eller en defekt sensor — kommer felet att återkomma efter omstarten. Gå igenom de återstående diagnostikstegen om koden återkommer.",
+          "question": "Löser det att dra ur kontakten på min Electrolux tvättmaskin E92-felet permanent?"
+        },
+        {
+          "answer": "Nej. När E92 är aktiv har maskinen upptäckt ett internt fel och stoppat programmet avsiktligt för att förhindra ytterligare skador. Att köra maskinen i detta tillstånd riskerar att förvärra ett befintligt fel eller orsaka att vatten stannar kvar i trumman. Åtgärda felet innan du använder maskinen igen.",
+          "question": "Är det säkert att fortsätta använda min tvättmaskin när E92 visas?"
+        },
+        {
+          "answer": "Ersättningsstyrkort för Electrolux tvättmaskiner kostar vanligtvis mellan 700 och 2 000 kr för enbart delen, beroende på modell. Om du anlitar en servicetekniker för montering tillkommer ett utrycknings- och arbetskostnadsavgift. Det är värt att jämföra den totala reparationskostnaden mot maskinens ålder och värde innan du bestämmer dig.",
+          "question": "Hur mycket kostar det att byta styrkortet på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Ja. Ett plötsligt strömavbrott medan maskinen kör ett program kan avbryta styrkortet processer och lämna det i ett feltillstånd, eller i sällsynta fall korruptera lagrad programdata. En 10-minuters omstart räcker vanligtvis för att rensa detta. Om felet kvarstår efter att strömmen återställts är en fabriksåterställning nästa steg.",
+          "question": "Kan ett strömavbrott orsaka felkod E92?"
+        },
+        {
+          "answer": "Modellnumret finns tryckt på en typskylt, som vanligtvis sitter på den inre kanten av dörrkarmens kant — synlig när dörren är öppen. Det kan också finnas på en etikett på maskinens baksida. Du behöver det fullständiga modellnumret när du beställer ett ersättningsstyrkort eller någon annan reservdel för att säkerställa kompatibilitet.",
+          "question": "Hur hittar jag modellnumret på min Electrolux tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T09:33:53.164634+00:00"
+    },
+    {
+      "article_id": 275,
+      "locale": "en",
+      "slug": "error-code-e94",
+      "title_tag": "Electrolux Washing Machine Error Code E94 | Fix It",
+      "meta_description": "Electrolux washing machine showing error E94? Learn what causes a cycle configuration fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code E94 Mean on an Electrolux Washing Machine?",
+      "description": "Error code E94 on an Electrolux washing machine indicates a cycle configuration fault, meaning the control board cannot correctly execute the selected wash programme.",
+      "quick_fix": "Press and hold the Start/Pause button for 5 seconds to cancel the current cycle, then turn the programme dial to a different cycle and restart — this clears a temporary configuration mismatch and gets most machines running again (takes about 5 minutes).",
+      "intro_html": "<p>Error code E94 appears when your Electrolux washing machine's control system detects that the wash cycle you have selected cannot be run as configured. This is essentially a communication breakdown between the programme selector and the main control board — the machine knows what you have asked it to do, but something in the internal setup prevents it from carrying out those instructions.</p><p>When E94 triggers, the machine will typically pause mid-cycle or refuse to start altogether, and the error code will display on the front panel. The drum will not rotate, water may or may not be present in the drum depending on how far through the cycle the fault occurred, and the machine will remain unresponsive to further programme selections until the error is cleared.</p><p>The good news is that E94 is often caused by a software glitch or a minor user-settings conflict rather than a failed component, so there is a reasonable chance you can resolve it without specialist help.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary software or firmware glitch",
+          "detail": "The control board can occasionally lose its place in a programme sequence due to a brief power fluctuation or internal processing error. This is the most common trigger for E94 and usually clears with a reset."
+        },
+        {
+          "cause": "Conflicting cycle options selected",
+          "detail": "Certain combinations of temperature, spin speed, or additional options (such as extra rinse or delay start) are incompatible with specific programmes. Selecting an unsupported combination can cause the control board to throw an E94 fault."
+        },
+        {
+          "cause": "Corrupted programme memory on the control board",
+          "detail": "If the non-volatile memory on the main PCB has become corrupted — sometimes caused by a power surge — the stored cycle data may be unreadable or incorrect. The machine cannot run a cycle it cannot properly interpret."
+        },
+        {
+          "cause": "Faulty or mismatched control board",
+          "detail": "A control board that has been replaced with an incompatible part, or one that has developed an internal fault, may not hold the correct cycle configuration data for your specific model. This can produce persistent E94 errors that do not respond to resets."
+        },
+        {
+          "cause": "Wiring or connector fault between the user interface and main PCB",
+          "detail": "Loose, corroded, or damaged wiring between the programme selector panel and the main control board can cause incorrect signals to be sent, leading the board to misread the selected cycle. This is more common on older machines."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Cancel the current cycle and power off the machine",
+          "detail": "Press and hold the Start/Pause button for approximately 5 seconds until the cycle is cancelled. Turn the programme dial to the Off position, then switch the machine off at the wall socket. This ensures a clean shutdown rather than just a standby state."
+        },
+        {
+          "step": 2,
+          "action": "Perform a full power reset",
+          "detail": "With the machine switched off at the wall, leave it unplugged for at least 10 minutes. This allows the capacitors on the control board to fully discharge and clears any temporary fault states held in memory. Plug the machine back in after the wait."
+        },
+        {
+          "step": 3,
+          "action": "Select a simple, standard cycle with no additional options",
+          "detail": "Turn the dial to a basic cotton or synthetics programme at a moderate temperature (40°C is a good choice). Do not add any extra options such as delay start, pre-wash, or extra rinse. Press Start and observe whether the machine begins the cycle without displaying E94."
+        },
+        {
+          "step": 4,
+          "action": "Test different programme selections",
+          "detail": "If the basic cycle runs without error, gradually test other programmes to identify whether a specific cycle or option combination triggers E94. Make a note of which selections cause the fault — this information will be useful if you need to contact a service technician later."
+        },
+        {
+          "step": 5,
+          "action": "Check the programme selector dial and control panel for damage",
+          "detail": "Inspect the dial for any signs of physical damage, stiffness, or misalignment. A dial that does not click cleanly into each position may be sending ambiguous signals to the control board. Also check that no buttons on the control panel are stuck in a pressed position."
+        },
+        {
+          "step": 6,
+          "action": "Inspect accessible wiring connectors at the back of the control panel",
+          "detail": "If you are comfortable doing so, remove the top panel of the machine (usually secured by two screws at the rear) to access the wiring loom behind the control panel. Check that all connectors are firmly seated and look for any signs of corrosion or heat damage on the terminals. Reseat any connectors that appear loose. Always unplug the machine before doing this."
+        },
+        {
+          "step": 7,
+          "action": "Reset to factory defaults if your model supports it",
+          "detail": "Some Electrolux models allow a factory reset by holding a specific button combination — check your user manual for the procedure for your model. A factory reset will restore the original cycle configuration data and can resolve persistent E94 errors caused by corrupted settings."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If E94 returns immediately after every reset regardless of which programme you select, or if the machine displays the error before you have even chosen a cycle, the fault is likely inside the control board itself rather than a settings issue. At this point, DIY steps are unlikely to make a lasting difference.</p><p>You should also call a service technician if you notice burn marks, a burning smell, or visible damage to the wiring or PCB during your inspection, or if the machine has recently been exposed to a power surge. A technician can test the control board with diagnostic equipment and advise whether a repair or replacement is the more cost-effective route.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a persistent E94 fault are the main control board (PCB), the user interface board or programme selector assembly, and the wiring harness connecting the two. In some cases only the interface board needs replacing rather than the more expensive main PCB, so it is worth having a technician confirm the exact source of the fault before ordering parts.</p><p>If you want to source these parts yourself before booking a repair, the components listed below are compatible with a range of Electrolux washing machine models affected by E94.</p>\n<!-- SPARE_PARTS:E94 -->",
+      "faq_json": [
+        {
+          "answer": "Occasionally a temporary software glitch will clear itself after the machine has been left unplugged for 10–15 minutes, and the error will not return. However, if the underlying cause is a corrupted control board or a wiring fault, the error will keep coming back. It is worth performing a proper reset rather than simply waiting.",
+          "question": "Will E94 go away on its own if I leave the machine for a while?"
+        },
+        {
+          "answer": "In most cases the machine will not complete a cycle while E94 is active, so normal use is not possible until the fault is resolved. Attempting to force the machine through a cycle is unlikely to cause further damage, but it will not succeed either. Clear the error first using the steps above.",
+          "question": "Can I still use my washing machine while it shows E94?"
+        },
+        {
+          "answer": "Yes. A sudden loss of power mid-cycle can interrupt the control board's programme sequence and leave it in an inconsistent state, which may trigger E94 when power is restored. A full power reset — unplugging for at least 10 minutes — is the correct first response in this situation.",
+          "question": "Could a power cut have caused the E94 error?"
+        },
+        {
+          "answer": "If your machine is within its warranty period and the fault is traced to a defective control board or manufacturing issue, the repair should be covered. Contact Electrolux customer support with your model number and proof of purchase before arranging any independent repair, as third-party work can void the warranty.",
+          "question": "Is E94 covered under the Electrolux warranty?"
+        },
+        {
+          "answer": "A main control board for an Electrolux washing machine typically costs between £60 and £150 for the part alone, depending on the model. Add labour charges from a service technician and the total repair cost can range from £120 to £250. It is worth getting a quote before committing, particularly on older machines.",
+          "question": "How much does it typically cost to fix an E94 error if the control board needs replacing?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T09:34:43.356813+00:00"
+    },
+    {
+      "article_id": 275,
+      "locale": "sv",
+      "slug": "felkod-e94",
+      "title_tag": "Electrolux Tvättmaskin Felkod E94 | Åtgärda Det",
+      "meta_description": "Visar din Electrolux tvättmaskin felkod E94? Lär dig vad som orsakar ett cykelkonfigurationsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker",
+      "h1": "Vad Betyder Felkod E94 på en Electrolux Tvättmaskin?",
+      "description": "Felkod E94 på en Electrolux tvättmaskin indikerar ett cykelkonfigurationsfel, vilket innebär att styrkortet inte kan utföra det valda tvättprogram korrekt.",
+      "quick_fix": "Håll in Start/Paus-knappen i 5 sekunder för att avbryta det aktuella programmet, vrid sedan programväljaren till ett annat program och starta om — detta rensar ett tillfälligt konfigurationsfel och får de flesta maskiner att fungera igen (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod E94 visas när Electrolux tvättmaskinens styrsystem upptäcker att det valda tvättcykeln inte kan köras som konfigurerat. Det handlar i grunden om ett kommunikationsavbrott mellan programväljaren och huvudstyrkortet — maskinen vet vad du har bett den att göra, men något i den interna inställningen hindrar den från att utföra dessa instruktioner.</p><p>När E94 utlöses kommer maskinen vanligtvis att pausa mitt i ett program eller vägra att starta överhuvudtaget, och felkoden visas på frontpanelen. Trumman roterar inte, vatten kan finnas eller saknas i trumman beroende på hur långt in i programmet felet uppstod, och maskinen förblir oreagerad på ytterligare programval tills felet har åtgärdats.</p><p>Den goda nyheten är att E94 ofta orsakas av ett programvarufel eller en mindre konflikt i användarinställningarna snarare än en trasig komponent, så det finns en rimlig chans att du kan lösa det utan specialisthjälp.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt program- eller firmwarefel",
+          "detail": "Styrkortet kan ibland tappa sin plats i en programsekvens på grund av en kortvarig spänningsfluktuering eller ett internt bearbetningsfel. Detta är den vanligaste orsaken till E94 och försvinner vanligtvis med en återställning."
+        },
+        {
+          "cause": "Motstridiga cykelval har gjorts",
+          "detail": "Vissa kombinationer av temperatur, centrifughastighet eller tilläggsfunktioner (som extra sköljning eller fördröjd start) är inkompatibla med specifika program. Om en kombination som inte stöds väljs kan styrkortet generera ett E94-fel."
+        },
+        {
+          "cause": "Skadat programminne på styrkortet",
+          "detail": "Om det icke-flyktiga minnet på huvud-PCB:n har skadats — ibland orsakat av ett spänningsöverskott — kan de lagrade cykeldata vara oläsbara eller felaktiga. Maskinen kan inte köra ett program den inte kan tolka korrekt."
+        },
+        {
+          "cause": "Felaktigt eller inkompatibelt styrkort",
+          "detail": "Ett styrkort som har bytts ut mot en inkompatibel del, eller ett som har utvecklat ett internt fel, kanske inte innehåller korrekt cykelkonfigurationsdata för din specifika modell. Detta kan ge upphov till ihållande E94-fel som inte svarar på återställningar."
+        },
+        {
+          "cause": "Kabel- eller kontaktfel mellan användargränssnittet och huvud-PCB:n",
+          "detail": "Lösa, korroderade eller skadade kablar mellan programväljarens panel och huvudstyrkortet kan orsaka felaktiga signaler, vilket leder till att kortet feltolkar det valda programmet. Detta är vanligare på äldre maskiner."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Avbryt det aktuella programmet och stäng av maskinen",
+          "detail": "Håll in Start/Paus-knappen i ungefär 5 sekunder tills programmet avbryts. Vrid programväljaren till läget Av och stäng sedan av maskinen vid vägguttaget. Detta säkerställer en ren avstängning snarare än ett vänteläge."
+        },
+        {
+          "step": 2,
+          "action": "Utför en fullständig strömåterställning",
+          "detail": "Med maskinen avstängd vid vägguttaget, låt den vara urkopplad i minst 10 minuter. Detta gör att kondensatorerna på styrkortet kan laddas ur helt och rensar eventuella tillfälliga feltillstånd som lagrats i minnet. Anslut maskinen igen efter väntetiden."
+        },
+        {
+          "step": 3,
+          "action": "Välj ett enkelt standardprogram utan tilläggsfunktioner",
+          "detail": "Vrid ratten till ett grundläggande bomulls- eller syntetprogram vid en måttlig temperatur (40°C är ett bra val). Lägg inte till några extra alternativ som fördröjd start, förtvättning eller extra sköljning. Tryck på Start och observera om maskinen påbörjar programmet utan att visa E94."
+        },
+        {
+          "step": 4,
+          "action": "Testa olika programval",
+          "detail": "Om det grundläggande programmet körs utan fel, testa gradvis andra program för att identifiera om ett specifikt program eller en kombination av alternativ utlöser E94. Notera vilka val som orsakar felet — denna information är användbar om du behöver kontakta en servicetekniker senare."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera programväljaren och kontrollpanelen för skador",
+          "detail": "Inspektera ratten för tecken på fysiska skador, stelhet eller felinriktning. En ratt som inte klickar tydligt på plats i varje position kan skicka tvetydiga signaler till styrkortet. Kontrollera också att inga knappar på kontrollpanelen sitter fast i intryckt läge."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera åtkomliga kabelkontakter bakom kontrollpanelen",
+          "detail": "Om du känner dig bekväm med det, ta bort maskinens toppanel (vanligtvis fäst med två skruvar baktill) för att komma åt kabelstommen bakom kontrollpanelen. Kontrollera att alla kontakter sitter ordentligt och leta efter tecken på korrosion eller värmeskador på anslutningarna. Sätt tillbaka eventuella lösa kontakter. Koppla alltid ur maskinen innan du gör detta."
+        },
+        {
+          "step": 7,
+          "action": "Återställ till fabriksinställningar om din modell stöder det",
+          "detail": "Vissa Electrolux-modeller tillåter en fabriksåterställning genom att hålla in en specifik knappkombination — kontrollera din bruksanvisning för proceduren för din modell. En fabriksåterställning återställer de ursprungliga cykelkonfigurationsdata och kan lösa ihållande E94-fel orsakade av skadade inställningar."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om E94 återkommer omedelbart efter varje återställning oavsett vilket program du väljer, eller om maskinen visar felet innan du ens har valt ett program, är felet troligtvis inne i styrkortet självt snarare än ett inställningsproblem. I det läget är det osannolikt att egna åtgärder ger ett varaktigt resultat.</p><p>Du bör också kontakta en servicetekniker om du märker brännmärken, bränd lukt eller synliga skador på kablar eller PCB under din inspektion, eller om maskinen nyligen har utsatts för ett spänningsöverskott. En tekniker kan testa styrkortet med diagnostisk utrustning och råda dig om huruvida reparation eller byte är det mest kostnadseffektiva alternativet.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid ett ihållande E94-fel är huvudstyrkortet (PCB), användargränssnittskortet eller programväljarenheten samt kabelstommen som förbinder de två. I vissa fall behöver bara gränssnittskortet bytas ut snarare än det dyrare huvudkortet, så det är värt att låta en tekniker bekräfta den exakta felkällan innan du beställer delar.</p><p>Om du vill anskaffa dessa delar själv innan du bokar en reparation är komponenterna nedan kompatibla med ett antal Electrolux tvättmaskinmodeller som påverkas av E94.</p>\n<!-- SPARE_PARTS:E94 -->",
+      "faq_json": [
+        {
+          "answer": "Ibland kan ett tillfälligt programvarufel försvinna av sig självt efter att maskinen har stått urkopplad i 10–15 minuter, och felet återkommer inte. Men om den bakomliggande orsaken är ett skadat styrkort eller ett kabelfel kommer felet att fortsätta återkomma. Det är värt att utföra en ordentlig återställning snarare än att bara vänta.",
+          "question": "Försvinner E94 av sig självt om jag låter maskinen stå ett tag?"
+        },
+        {
+          "answer": "I de flesta fall slutför inte maskinen ett program medan E94 är aktivt, så normal användning är inte möjlig förrän felet är åtgärdat. Att försöka tvinga maskinen genom ett program är osannolikt att orsaka ytterligare skada, men det kommer inte heller att lyckas. Åtgärda felet först med hjälp av stegen ovan.",
+          "question": "Kan jag fortfarande använda min tvättmaskin när den visar E94?"
+        },
+        {
+          "answer": "Ja. En plötslig strömförlust mitt i ett program kan avbryta styrkortet programsekvens och lämna det i ett inkonsekvent tillstånd, vilket kan utlösa E94 när strömmen återställs. En fullständig strömåterställning — att koppla ur maskinen i minst 10 minuter — är rätt första åtgärd i denna situation.",
+          "question": "Kan ett strömavbrott ha orsakat E94-felet?"
+        },
+        {
+          "answer": "Om din maskin är inom garantiperioden och felet spåras till ett defekt styrkort eller ett tillverkningsfel bör reparationen täckas. Kontakta Electrolux kundtjänst med ditt modellnummer och inköpsbevis innan du arrangerar någon oberoende reparation, eftersom arbete av tredje part kan ogiltigförklara garantin.",
+          "question": "Täcks E94 av Electrolux garanti?"
+        },
+        {
+          "answer": "Ett huvudstyrkort till en Electrolux tvättmaskin kostar vanligtvis mellan 800 och 2 000 kronor för enbart delen, beroende på modell. Lägg till arbetskostnader från en servicetekniker och den totala reparationskostnaden kan variera från 1 500 till 3 200 kronor. Det är värt att begära en offert innan du bestämmer dig, särskilt för äldre maskiner.",
+          "question": "Hur mycket kostar det vanligtvis att åtgärda ett E94-fel om styrkortet behöver bytas?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T09:35:49.865661+00:00"
+    },
+    {
+      "article_id": 276,
+      "locale": "en",
+      "slug": "error-code-ef0",
+      "title_tag": "Electrolux Washing Machine Error Code EF0 | Fix It Now",
+      "meta_description": "Electrolux washing machine showing EF0? Learn what triggers this leak protection error, how to find the source, and when to call a service technician.",
+      "h1": "What Does Error Code EF0 Mean on an Electrolux Washing Machine?",
+      "description": "Error code EF0 indicates that the Electrolux washing machine's overflow or leak protection system has been triggered by water detected in the base pan beneath the drum.",
+      "quick_fix": "Tilt the machine gently forward about 45 degrees to drain any pooled water from the base pan, then inspect all visible hose connections at the back for looseness or drips — this resolves the majority of EF0 errors and takes about 10 minutes.",
+      "intro_html": "<p>Error code EF0 is your Electrolux washing machine's way of telling you it has found water somewhere it shouldn't be — specifically in the plastic base pan that sits underneath the drum and internal components. A float switch or sensor inside that pan detects the presence of water and immediately halts the wash cycle to prevent further damage to the machine or your floor.</p><p>When EF0 appears, the machine will typically stop mid-cycle, lock the door, and refuse to start a new programme until the issue is resolved. You may or may not see visible water on the floor, because the leak can be entirely contained within the machine's outer casing. This makes EF0 one of the more important error codes to take seriously — even a slow drip over time can cause significant damage to the motor, control board, or surrounding cabinetry.</p><p>The good news is that many EF0 triggers are caused by minor issues you can identify and fix yourself without specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Loose or damaged inlet hose connection",
+          "detail": "The cold water inlet hose at the back of the machine can work loose over time due to vibration during spin cycles. Even a small weep at the connection point can drip water into the base pan and trigger the sensor."
+        },
+        {
+          "cause": "Blocked or kinked drain hose causing backflow",
+          "detail": "If the drain hose is partially blocked or positioned incorrectly, water can back up and overflow internally rather than exiting cleanly. This can deposit water into the base pan without any obvious external leak."
+        },
+        {
+          "cause": "Leaking door seal or gasket",
+          "detail": "A torn, cracked, or debris-clogged door seal can allow water to escape around the door during the wash or rinse phase. The water runs down the front inner panel and collects in the base pan."
+        },
+        {
+          "cause": "Detergent drawer or housing leak",
+          "detail": "A cracked detergent drawer housing or a blocked drawer causing water to overflow can send water down the inside of the front panel directly into the base pan. This is more common when too much detergent or non-HE detergent is used."
+        },
+        {
+          "cause": "Internal hose or pump connection failure",
+          "detail": "Hoses connecting the drum, pump, and dispenser internally can develop cracks or slip off their clips after years of use. These leaks are hidden inside the machine and require the outer panels to be removed to inspect."
+        },
+        {
+          "cause": "Faulty pressure sensor or float switch",
+          "detail": "In some cases the base pan is dry but the float switch or leak sensor itself has failed or become stuck in the triggered position. This is less common but will cause a persistent EF0 even after all other checks pass."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Before doing anything else, turn the programme dial to off and unplug the machine from the wall socket. Never work on a washing machine with water present while it is connected to power. If there is standing water on the floor, lay down towels before proceeding."
+        },
+        {
+          "step": 2,
+          "action": "Tilt the machine forward to drain the base pan",
+          "detail": "With a second person helping, carefully tilt the machine forward at roughly 45 degrees and hold it there for 30 to 60 seconds. This allows any water sitting in the base pan to drain out through the bottom. Place towels underneath to catch the water. Once drained, stand the machine upright and allow it to air for 15 to 20 minutes before plugging back in."
+        },
+        {
+          "step": 3,
+          "action": "Check all external hose connections at the back",
+          "detail": "Pull the machine away from the wall and inspect the cold water inlet hose where it connects to both the tap and the machine. Tighten any loose fittings by hand or with a spanner — do not overtighten. Also check the drain hose is securely seated in the standpipe or sink outlet and is not kinked or crushed."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the door seal for damage or debris",
+          "detail": "Open the door and run your fingers around the full circumference of the rubber door gasket. Look for tears, cracks, or foreign objects such as coins or clips lodged in the folds. Clean out any debris with a damp cloth. If you find a visible tear, the seal will need to be replaced before the machine is used again."
+        },
+        {
+          "step": 5,
+          "action": "Check and clean the detergent drawer",
+          "detail": "Remove the detergent drawer completely by pressing the release tab and pulling it out. Rinse it under warm water to clear any built-up detergent residue. Also inspect the drawer housing inside the machine with a torch — look for cracks or blockages that could cause water to overflow sideways rather than flowing into the drum."
+        },
+        {
+          "step": 6,
+          "action": "Run a short test cycle and monitor closely",
+          "detail": "Once you have completed the checks above and the base pan has dried out, plug the machine back in and run a short 30-degree cotton cycle. Stay with the machine throughout and watch for any drips from the back, sides, or underneath. If EF0 returns immediately or water reappears, do not continue using the machine."
+        },
+        {
+          "step": 7,
+          "action": "Remove the lower access panel to inspect internal components",
+          "detail": "If no external leak was found, unscrew or unclip the lower front kick panel to access the pump filter area. Check the pump filter housing for cracks and ensure the filter cap is fully tightened. Look for moisture trails on internal hoses visible from this access point. If you see active dripping from internal hoses or the pump body, stop here and contact a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have drained the base pan, checked all external connections, and the EF0 error returns within the first few minutes of a new cycle, the leak is most likely coming from an internal hose, the pump housing, or the drum seal — none of which can be safely accessed without removing the outer casing. Continuing to run the machine risks water reaching the motor or control board.</p><p>You should also call a service technician if the float switch or leak sensor appears to be triggering EF0 when the base pan is completely dry, as this points to a faulty sensor or wiring fault that requires diagnostic equipment and component replacement to resolve correctly.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an EF0 fault are the door seal (gasket), the inlet hose, and the base pan float switch or leak sensor. In some cases the drain pump housing or an internal drum-to-pump hose is also found to be the source. Fitting a genuine Electrolux replacement part is strongly recommended to ensure a proper seal and avoid repeat faults.</p><p>To reduce the risk of future leaks, inspect your inlet and drain hoses every 12 months for signs of cracking or stiffness, and replace them proactively every five years regardless of visible condition. Always use the correct amount of HE-rated detergent to prevent excessive suds, which can overflow internally and trigger the base pan sensor.</p>\n<!-- SPARE_PARTS:EF0 -->",
+      "faq_json": [
+        {
+          "answer": "Tilting the machine to drain the base pan will often clear the error temporarily, but if the underlying leak is still present, EF0 will return as soon as water re-enters the base pan. Always identify and fix the source of the leak before relying on a reset, otherwise you risk damaging the motor or electronics.",
+          "question": "Can I reset the EF0 error code without fixing the leak?"
+        },
+        {
+          "answer": "No. The machine has stopped the cycle specifically to protect itself and your home from water damage. Running it again before the leak is found and fixed could result in water reaching electrical components, causing a more serious and expensive fault or a safety hazard.",
+          "question": "Is it safe to use the washing machine while EF0 is showing?"
+        },
+        {
+          "answer": "After tilting the machine to remove the bulk of the water, allow at least 20 to 30 minutes for residual moisture around the float switch to evaporate before plugging back in. In humid conditions or if a significant amount of water was present, waiting an hour is a sensible precaution.",
+          "question": "How long does it take for the base pan to dry out after draining?"
+        },
+        {
+          "answer": "The base pan is a sealed tray inside the machine's outer casing, designed to catch leaks before they reach your floor. A slow internal drip can fill this pan over several wash cycles without any water escaping externally. This is actually the leak protection system working as intended — catching the problem early.",
+          "question": "Why is there no visible water on the floor if EF0 is showing?"
+        },
+        {
+          "answer": "Yes, this is a recognised cause. Excess detergent creates heavy foam that can overflow from the drum or detergent drawer housing and find its way into the base pan. Always follow the detergent manufacturer's dosing guidelines and use only detergent labelled as suitable for high-efficiency (HE) machines.",
+          "question": "Could using too much detergent cause an EF0 error?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T09:36:43.677566+00:00"
+    },
+    {
+      "article_id": 276,
+      "locale": "sv",
+      "slug": "felkod-ef0",
+      "title_tag": "Electrolux Tvättmaskin Felkod EF0 | Åtgärda Nu",
+      "meta_description": "Visar din Electrolux tvättmaskin EF0? Lär dig vad som utlöser detta läckageskydd, hur du hittar källan och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod EF0 på en Electrolux Tvättmaskin?",
+      "description": "Felkod EF0 indikerar att Electrolux tvättmaskinens överfyllnings- eller läckageskyddssystem har aktiverats av vatten som detekterats i bottenplattan under trumman.",
+      "quick_fix": "Luta maskinen försiktigt framåt cirka 45 grader för att tömma eventuellt ansamlat vatten från bottenplattan, kontrollera sedan alla synliga slangangslutningar på baksidan för lösa kopplingar eller droppar — detta löser de flesta EF0-fel och tar ungefär 10 minuter.",
+      "intro_html": "<p>Felkod EF0 är din Electrolux tvättmaskines sätt att tala om att den har hittat vatten någonstans det inte borde vara — närmare bestämt i den plastbottenplatta som sitter under trumman och de interna komponenterna. En flottörbrytare eller sensor inuti den plattan detekterar förekomsten av vatten och stoppar omedelbart tvättcykeln för att förhindra ytterligare skador på maskinen eller ditt golv.</p><p>När EF0 visas kommer maskinen vanligtvis att stanna mitt i cykeln, låsa luckan och vägra starta ett nytt program tills problemet är åtgärdat. Du kanske ser synligt vatten på golvet, eller inte, eftersom läckan kan vara helt innesluten i maskinens ytterhölje. Detta gör EF0 till en av de viktigare felkoderna att ta på allvar — även ett långsamt dropp kan med tiden orsaka betydande skador på motorn, styrkortet eller omgivande inredning.</p><p>Den goda nyheten är att många EF0-utlösningar orsakas av mindre problem som du kan identifiera och åtgärda själv utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Lös eller skadad inloppsslangangslutning",
+          "detail": "Kallvatteninloppsslangen på maskinens baksida kan lossna med tiden på grund av vibrationer under centrifugeringscykler. Även ett litet läckage vid anslutningspunkten kan droppa vatten in i bottenplattan och utlösa sensorn."
+        },
+        {
+          "cause": "Blockerad eller böjd avloppsslang som orsakar bakflöde",
+          "detail": "Om avloppsslangen är delvis blockerad eller felaktigt placerad kan vatten backa upp och svämma över internt istället för att rinna ut ordentligt. Detta kan deponera vatten i bottenplattan utan något uppenbart externt läckage."
+        },
+        {
+          "cause": "Läckande lucktätning eller packning",
+          "detail": "En trasig, sprucken eller skräpigensatt lucktätning kan låta vatten tränga ut runt luckan under tvätt- eller sköljfasen. Vattnet rinner ned längs den främre innerpanelen och samlas i bottenplattan."
+        },
+        {
+          "cause": "Läckage från tvättmedelslåda eller hus",
+          "detail": "Ett sprucket tvättmedelslådehus eller en blockerad låda som gör att vatten svämmar över kan leda vatten ned på insidan av frontpanelen direkt in i bottenplattan. Detta är vanligare när för mycket tvättmedel eller icke-HE-tvättmedel används."
+        },
+        {
+          "cause": "Internt slang- eller pumpanslutningsfel",
+          "detail": "Slangar som förbinder trumman, pumpen och dispensern internt kan utveckla sprickor eller glida av sina klämmor efter flera års användning. Dessa läckor är dolda inuti maskinen och kräver att ytterpanelerna tas bort för inspektion."
+        },
+        {
+          "cause": "Defekt trycksensor eller flottörbrytare",
+          "detail": "I vissa fall är bottenplattan torr men flottörbrytaren eller läckagesensorn har själv gått sönder eller fastnat i utlöst läge. Detta är mindre vanligt men kommer att orsaka ett ihållande EF0-fel även efter att alla andra kontroller godkänts."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Innan du gör något annat, vrid programväljaren till av och koppla ur maskinen från vägguttaget. Arbeta aldrig på en tvättmaskin med vatten närvarande när den är ansluten till elnätet. Om det finns stående vatten på golvet, lägg ut handdukar innan du fortsätter."
+        },
+        {
+          "step": 2,
+          "action": "Luta maskinen framåt för att tömma bottenplattan",
+          "detail": "Med hjälp av en annan person, luta försiktigt maskinen framåt ungefär 45 grader och håll den där i 30 till 60 sekunder. Detta låter eventuellt vatten som sitter i bottenplattan rinna ut genom botten. Placera handdukar undertill för att fånga upp vattnet. När den är tömd, ställ maskinen upprätt och låt den luftas i 15 till 20 minuter innan du kopplar in den igen."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera alla externa slangangslutningar på baksidan",
+          "detail": "Dra ut maskinen från väggen och inspektera kallvatteninloppsslangen där den ansluter till både kranen och maskinen. Dra åt eventuella lösa kopplingar för hand eller med en skiftnyckel — dra inte åt för hårt. Kontrollera också att avloppsslangen sitter ordentligt i avloppsröret eller diskbänksutloppet och att den inte är böjd eller klämd."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera lucktätningen för skador eller skräp",
+          "detail": "Öppna luckan och känn med fingrarna runt hela omkretsen av gummilucktätningen. Leta efter revor, sprickor eller främmande föremål som mynt eller gem som fastnat i vecken. Rengör bort eventuellt skräp med en fuktig trasa. Om du hittar en synlig reva måste tätningen bytas ut innan maskinen används igen."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera och rengör tvättmedelslådan",
+          "detail": "Ta ut tvättmedelslådan helt genom att trycka på frigöringsfliken och dra ut den. Skölj den under varmt vatten för att rensa bort eventuella tvättmedelsrester. Inspektera också tvättmedelslådans hus inuti maskinen med en ficklampa — leta efter sprickor eller blockeringar som kan få vatten att svämma över åt sidan istället för att rinna in i trumman."
+        },
+        {
+          "step": 6,
+          "action": "Kör en kort testcykel och övervaka noga",
+          "detail": "När du har slutfört kontrollerna ovan och bottenplattan har torkat, koppla in maskinen igen och kör en kort bomullscykel på 30 grader. Stanna hos maskinen under hela cykeln och håll utkik efter eventuella droppar från baksidan, sidorna eller undersidan. Om EF0 återkommer omedelbart eller vatten dyker upp igen, fortsätt inte använda maskinen."
+        },
+        {
+          "step": 7,
+          "action": "Ta bort den nedre åtkomstpanelen för att inspektera interna komponenter",
+          "detail": "Om inget externt läckage hittades, skruva loss eller lossa den nedre frontpanelen för att komma åt pumpfilterområdet. Kontrollera pumpfilterhuset för sprickor och se till att filterlocket är helt åtdraget. Leta efter fuktspår på interna slangar som är synliga från denna åtkomstpunkt. Om du ser aktivt droppande från interna slangar eller pumphuset, stanna här och kontakta en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har tömt bottenplattan, kontrollerat alla externa anslutningar och EF0-felet återkommer inom de första minuterna av en ny cykel, kommer läckan troligtvis från en intern slang, pumphuset eller trumtätningen — ingen av dessa kan nås på ett säkert sätt utan att ta bort ytterhöljet. Att fortsätta köra maskinen riskerar att vatten når motorn eller styrkortet.</p><p>Du bör också kontakta en servicetekniker om flottörbrytaren eller läckagesensorn verkar utlösa EF0 när bottenplattan är helt torr, eftersom detta tyder på en defekt sensor eller ett kabelfel som kräver diagnostikutrustning och komponentbyte för att åtgärdas korrekt.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett EF0-fel är lucktätningen (packningen), inloppsslangen och bottenplattans flottörbrytare eller läckagesensor. I vissa fall visar sig även drängpumphuset eller en intern slang från trumma till pump vara källan. Det rekommenderas starkt att montera en äkta Electrolux reservdel för att säkerställa en ordentlig tätning och undvika återkommande fel.</p><p>För att minska risken för framtida läckor, inspektera dina inlopps- och avloppsslangar var 12:e månad för tecken på sprickor eller stelhet, och byt dem förebyggande vart femte år oavsett synligt skick. Använd alltid rätt mängd HE-klassificerat tvättmedel för att förhindra överdrivet skum, vilket kan svämma över internt och utlösa bottenplattans sensor.</p>\n<!-- SPARE_PARTS:EF0 -->",
+      "faq_json": [
+        {
+          "answer": "Att luta maskinen för att tömma bottenplattan rensar ofta felet tillfälligt, men om det underliggande läckaget fortfarande finns kvar kommer EF0 att återkomma så snart vatten åter tränger in i bottenplattan. Identifiera och åtgärda alltid källan till läckan innan du förlitar dig på en återställning, annars riskerar du att skada motorn eller elektroniken.",
+          "question": "Kan jag återställa EF0-felkoden utan att åtgärda läckan?"
+        },
+        {
+          "answer": "Nej. Maskinen har stoppat cykeln specifikt för att skydda sig själv och ditt hem från vattenskador. Att köra den igen innan läckan har hittats och åtgärdats kan resultera i att vatten når elektriska komponenter, vilket orsakar ett allvarligare och dyrare fel eller en säkerhetsrisk.",
+          "question": "Är det säkert att använda tvättmaskinen medan EF0 visas?"
+        },
+        {
+          "answer": "Efter att ha lutat maskinen för att avlägsna det mesta av vattnet, vänta minst 20 till 30 minuter för att restfukt runt flottörbrytaren ska avdunsta innan du kopplar in maskinen igen. I fuktiga förhållanden eller om en betydande mängd vatten var närvarande är det en klok försiktighetsåtgärd att vänta en timme.",
+          "question": "Hur lång tid tar det för bottenplattan att torka ut efter tömning?"
+        },
+        {
+          "answer": "Bottenplattan är ett tätat fack inuti maskinens ytterhölje, utformat för att fånga upp läckor innan de når ditt golv. Ett långsamt internt dropp kan fylla detta fack under flera tvättcykler utan att något vatten läcker ut externt. Detta är faktiskt läckageskyddssystemet som fungerar som avsett — det fångar upp problemet tidigt.",
+          "question": "Varför syns inget vatten på golvet om EF0 visas?"
+        },
+        {
+          "answer": "Ja, detta är en erkänd orsak. Överdrivet tvättmedel skapar kraftigt skum som kan svämma över från trumman eller tvättmedelslådans hus och ta sig ned i bottenplattan. Följ alltid tvättmedeltillverkarens doseringsanvisningar och använd endast tvättmedel märkt som lämpligt för högeffektiva (HE) maskiner.",
+          "question": "Kan användning av för mycket tvättmedel orsaka ett EF0-fel?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T09:38:01.805143+00:00"
+    }
+  ]
+}

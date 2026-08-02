@@ -1,0 +1,199 @@
+{
+  "generated_at": "2026-08-02T14:10:23.072224+00:00",
+  "host": "http://localhost:8080",
+  "proposal_batches": 45,
+  "unique_original_article_ids": 259,
+  "article_rows": 259,
+  "translation_rows": 518,
+  "baseline_rows": 518,
+  "statuses": {
+    "sv:pending": 259,
+    "en:published": 259
+  },
+  "backup_coverage": {
+    "001-bosch-e16-e22": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "002-bosch-e23-e28": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "003-bosch-e29-e38": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "004-bosch-e44-e60": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "005-bosch-e61-e65": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "006-bosch-e66-e91": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "007-bosch-e92-end-f21": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "008-bosch-f23-wont-fill": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "009-bosch-noise-controls": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "010-bosch-safety-electrolux-e20-e23": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "011-electrolux-e24-e35": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "012-electrolux-e38-e44": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "013-electrolux-e45-e54": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "014-electrolux-e59-e68": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "015-electrolux-e71-ef0": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "016-electrolux-common-faults": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "017-electrolux-common-faults-2": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "018-electrolux-lg-safety": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "019-lg-de-e6-ee": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "020-lg-le-oe-pe-ps-te": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "021-lg-te1-te3-ue-drain": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "022-lg-common-faults": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "023-lg-samsung-transition": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "024-samsung-1lc-motor": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "025-samsung-motor-water": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "026-samsung-communication-controls-temperature": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "027-samsung-door-water-fan": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "028-samsung-overflow-system-temperature-faults": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "029-samsung-water-door-heat-vibration": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "030-samsung-spin-drum-controls-electrical": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "031-siemens-e16-e23": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "032-siemens-e24-e30": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "033-siemens-e32-e45": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "034-siemens-e47-e62": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "035-siemens-e63-e67": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "036-siemens-e68-f43": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "037-siemens-no-common-faults": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "038-siemens-safety-faults": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "039-siemens-electrical-burning": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "040-samsung-remaining-codes": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "041-samsung-lc-common-faults": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "042-samsung-cycle-suds-dispenser": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "043-bosch-core-codes": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "044-bosch-drain-start-leak-door": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    },
+    "045-p0-core-final": {
+      "exact_before": true,
+      "timestamped_after_apply": true
+    }
+  },
+  "missing_backup_batches": [],
+  "source_issues": [],
+  "failures": [],
+  "passed": true
+}

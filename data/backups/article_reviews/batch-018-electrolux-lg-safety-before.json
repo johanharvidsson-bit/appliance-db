@@ -1,0 +1,1355 @@
+{
+  "batch": "018-electrolux-lg-safety",
+  "article_ids": [
+    363,
+    366,
+    367,
+    86,
+    87
+  ],
+  "articles": [
+    {
+      "id": 86,
+      "error_code_id": 141,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 87,
+      "error_code_id": 127,
+      "fault_id": null,
+      "status": "published",
+      "article_type": "error_code"
+    },
+    {
+      "id": 363,
+      "error_code_id": null,
+      "fault_id": 87,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 366,
+      "error_code_id": null,
+      "fault_id": 90,
+      "status": "published",
+      "article_type": "fault"
+    },
+    {
+      "id": 367,
+      "error_code_id": null,
+      "fault_id": 91,
+      "status": "published",
+      "article_type": "fault"
+    }
+  ],
+  "rows": [
+    {
+      "id": 108,
+      "article_id": 86,
+      "locale": "en",
+      "slug": "lg-error-code-ae",
+      "title_tag": "LG Washing Machine Error Code AE | Fix It Now",
+      "meta_description": "LG washing machine showing error code AE? Learn what causes this communication fault between the main PCB and sub-board, and how to fix it step by step.",
+      "h1": "What Does Error Code AE Mean on an LG Washing Machine?",
+      "description": "Error code AE on an LG washing machine indicates a communication failure between the main PCB and the sub-board, preventing the machine from operating normally.",
+      "quick_fix": "Power cycle the machine by switching it off at the wall socket, waiting 60 seconds, then switching it back on and starting a new cycle — this clears temporary communication glitches in the majority of AE cases (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code AE is an electronic communication fault. It means the main control board (PCB) and the sub-board — which handles functions such as the display, button inputs, or secondary control signals — have lost the ability to talk to each other reliably. When this breakdown occurs, the washing machine cannot confirm that its components are responding correctly, so it stops and displays the AE code to prevent further operation.</p><p>You may notice the machine halting mid-cycle, refusing to start, or showing the error immediately after powering on. The drum may not spin, and the display could flicker or become unresponsive. This fault affects a range of LG models including the F1056MD, F1068LD Series, F1073TD, and F1096QDA Series, among others.</p><p>In many cases the fault is caused by a temporary electrical disruption rather than a failed component, which means a straightforward reset is often all that is needed. However, if the error returns repeatedly, a physical or electronic fault is likely and will need closer investigation.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary communication glitch",
+          "detail": "A brief power surge, voltage fluctuation, or software hiccup can cause the main PCB and sub-board to lose sync. This is the most common cause and usually clears after a full power cycle."
+        },
+        {
+          "cause": "Loose or damaged wiring harness",
+          "detail": "The ribbon cable or wiring loom connecting the main PCB to the sub-board can work loose over time due to vibration during spin cycles. A partially disconnected or damaged connector interrupts the communication signal."
+        },
+        {
+          "cause": "Faulty sub-board",
+          "detail": "The sub-board itself can fail due to component wear, moisture ingress, or a manufacturing defect. When the sub-board cannot send or receive signals correctly, the main PCB registers an AE fault."
+        },
+        {
+          "cause": "Faulty main PCB",
+          "detail": "Less commonly, the main control board is the source of the problem. Burnt components, failed capacitors, or corrupted firmware can prevent it from maintaining a stable communication link with the sub-board."
+        },
+        {
+          "cause": "Moisture or corrosion on connectors",
+          "detail": "Condensation or a minor water leak inside the machine can cause corrosion on the connector pins between the two boards. Even light oxidation on a connector can be enough to disrupt the low-voltage communication signal."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the washing machine",
+          "detail": "Turn the machine off using the power button, then switch it off at the wall socket. Leave it unplugged for at least 60 seconds to allow the control boards to fully discharge. Plug it back in, power it on, and attempt to start a cycle. This resolves temporary communication errors in a significant number of cases."
+        },
+        {
+          "step": 2,
+          "action": "Check for error recurrence",
+          "detail": "Run a short wash cycle and observe whether the AE code returns. If the machine completes the cycle without fault, the issue was a temporary glitch. If the error reappears within the same cycle or on the next attempt, continue to the steps below."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the door and control panel for obvious damage",
+          "detail": "Look at the control panel buttons and display for any signs of physical damage, water staining, or buttons that feel stuck. Damage to the panel can affect the sub-board directly behind it. Do not press on cracked or wet panels — switch the machine off first."
+        },
+        {
+          "step": 4,
+          "action": "Check the wiring harness connections",
+          "detail": "Switch off and unplug the machine before opening any panels. Remove the top panel (usually secured by two screws at the rear) to access the internal wiring. Locate the ribbon cable or wiring loom running between the main PCB and the sub-board and check that both ends are firmly seated in their connectors. Press each connector in firmly until it clicks. Look for any visible signs of burning, fraying, or corrosion on the pins."
+        },
+        {
+          "step": 5,
+          "action": "Clean corroded connector pins",
+          "detail": "If you can see light oxidation or discolouration on the connector pins, disconnect the connector carefully and clean the pins using a dry cotton swab or a small amount of electrical contact cleaner. Allow the connector to dry completely before reconnecting. Do not use water or general-purpose sprays."
+        },
+        {
+          "step": 6,
+          "action": "Test the machine again",
+          "detail": "Reassemble any panels you removed, plug the machine back in, and run a full cycle. If the AE code does not return, the loose or corroded connection was the cause. If the error persists after reseating all connectors, the sub-board or main PCB is likely faulty and will need to be tested or replaced."
+        },
+        {
+          "step": 7,
+          "action": "Replace the sub-board or main PCB",
+          "detail": "If all connections are secure and the error continues, one of the two boards has failed. The sub-board is the more commonly replaced component for AE faults. Source a compatible replacement part using your full model number (found on the label inside the door frame) and follow the replacement procedure carefully, or contact a service technician to carry out the repair."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Contact a service technician if the AE error returns immediately after every power cycle, if you can see burnt marks, melted plastic, or a burning smell near the control boards, or if the display is completely unresponsive. These symptoms suggest a board-level failure that requires proper diagnostic equipment to identify whether the main PCB, the sub-board, or both need replacing.</p><p>You should also seek professional help if you are uncomfortable removing internal panels or handling electronic components. Incorrect reassembly of wiring harnesses can cause additional faults, and working near live components without proper precautions carries a safety risk.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an LG AE error are the sub-board (also called the display board or secondary control board), the main PCB, and the wiring harness or ribbon cable that connects them. Having the correct model number to hand — printed on the label inside the door aperture — will ensure you source a compatible part first time.</p><p>To reduce the risk of communication faults recurring, avoid overloading the machine (excess vibration can loosen internal connectors over time), ensure the machine is on a stable, level surface, and consider using a surge-protected extension lead if your home experiences frequent power fluctuations.</p>\n<!-- SPARE_PARTS:AE -->",
+      "faq_json": [
+        {
+          "answer": "The machine will not operate while the AE code is active, so there is no immediate safety risk from the fault itself. However, you should not attempt to bypass the error or force the machine to run, as the underlying cause — such as a failing PCB — could worsen if left unaddressed. Investigate the fault promptly to avoid more costly repairs later.",
+          "question": "Is error code AE dangerous to ignore on an LG washing machine?"
+        },
+        {
+          "answer": "A power cycle takes around five minutes and resolves the fault in many cases. If the issue is a loose wiring connector, allow 30 to 60 minutes to safely access and reseat the connections. A full board replacement, if needed, typically takes one to two hours depending on your experience level, or can be completed in a single visit by a service technician.",
+          "question": "How long does it take to fix an LG AE error?"
+        },
+        {
+          "answer": "If the error only appears occasionally and clears with a power cycle, the machine may still complete some cycles. However, intermittent faults tend to become permanent over time, and running the machine with a known communication fault risks the cycle stopping mid-wash. It is better to investigate and resolve the root cause before relying on the machine for regular use.",
+          "question": "Can I still use my LG washing machine if it shows AE intermittently?"
+        },
+        {
+          "answer": "LG does not typically offer user-installable firmware updates for washing machines in the way smartphones receive them. If a firmware issue is suspected, a service technician can connect diagnostic equipment to check and update the board software. In most AE cases, however, the fault is hardware-related rather than a software bug.",
+          "question": "Will a software update fix the AE error on my LG washing machine?"
+        },
+        {
+          "answer": "Error code AE has been documented across several LG models including the F0712WS, F0812WS, F1056MD, F1056ND, F1056QD Series, F1056QP, F1068LD Series, F1068QD Series, F1073TD, F1091TD Series, F1096Q/TDW1, and F1096QDA Series. If your model is not listed, check your user manual — the AE code definition is consistent across LG's range for this type of communication fault.",
+          "question": "Which LG washing machine models are affected by error code AE?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:37.680026+00:00"
+    },
+    {
+      "id": 109,
+      "article_id": 86,
+      "locale": "sv",
+      "slug": "lg-felkod-ae",
+      "title_tag": "LG Tvättmaskin Felkod AE | Åtgärda Det Nu",
+      "meta_description": "Visar din LG-tvättmaskin felkod AE? Lär dig vad som orsakar detta kommunikationsfel mellan huvud-PCB och subkortet, och hur du åtgärdar det steg för steg.",
+      "h1": "Vad Betyder Felkod AE på en LG Tvättmaskin?",
+      "description": "Felkod AE på en LG-tvättmaskin indikerar ett kommunikationsfel mellan huvud-PCB och subkortet, vilket hindrar maskinen från att fungera normalt.",
+      "quick_fix": "Starta om maskinen genom att stänga av den vid vägguttaget, vänta 60 sekunder och sedan slå på den igen och starta ett nytt program — detta rensar tillfälliga kommunikationsstörningar i majoriteten av AE-fall (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod AE är ett elektroniskt kommunikationsfel. Det innebär att huvudkortet (PCB) och subkortet — som hanterar funktioner som display, knapptryckningar eller sekundära styrsignaler — har förlorat förmågan att kommunicera tillförlitligt med varandra. När detta avbrott uppstår kan tvättmaskinen inte bekräfta att dess komponenter svarar korrekt, och den stannar därför och visar AE-koden för att förhindra fortsatt drift.</p><p>Du kan märka att maskinen stannar mitt i ett program, vägrar att starta, eller visar felet omedelbart efter att den slagits på. Trumman kanske inte snurrar, och displayen kan flimra eller sluta svara. Detta fel påverkar ett antal LG-modeller, bland annat F1056MD, F1068LD-serien, F1073TD och F1096QDA-serien.</p><p>I många fall orsakas felet av en tillfällig elektrisk störning snarare än en defekt komponent, vilket innebär att en enkel omstart ofta är allt som behövs. Om felet återkommer upprepade gånger är det dock troligt att ett fysiskt eller elektroniskt fel föreligger och behöver undersökas närmare.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfällig kommunikationsstörning",
+          "detail": "En kortvarig spänningspik, spänningsfluktuering eller programvarustörning kan göra att huvud-PCB och subkortet tappar synkroniseringen. Detta är den vanligaste orsaken och brukar försvinna efter en fullständig omstart."
+        },
+        {
+          "cause": "Lös eller skadad kabelstam",
+          "detail": "Bandkabeln eller kabelstammen som förbinder huvud-PCB med subkortet kan lossna med tiden på grund av vibrationer under centrifugeringen. En delvis urkopplad eller skadad kontakt avbryter kommunikationssignalen."
+        },
+        {
+          "cause": "Defekt subkort",
+          "detail": "Subkortet i sig kan gå sönder på grund av komponentslitage, fuktintrång eller ett tillverkningsfel. När subkortet inte kan skicka eller ta emot signaler korrekt registrerar huvud-PCB ett AE-fel."
+        },
+        {
+          "cause": "Defekt huvud-PCB",
+          "detail": "Mer sällan är huvudkortet källan till problemet. Brända komponenter, defekta kondensatorer eller korrupt firmware kan hindra det från att upprätthålla en stabil kommunikationslänk med subkortet."
+        },
+        {
+          "cause": "Fukt eller korrosion på kontakter",
+          "detail": "Kondens eller en mindre vattenläcka inuti maskinen kan orsaka korrosion på kontaktstiften mellan de två korten. Även lätt oxidation på en kontakt kan räcka för att störa den lågspänningssignal som används för kommunikation."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om tvättmaskinen",
+          "detail": "Stäng av maskinen med strömknappen och stäng sedan av den vid vägguttaget. Låt den vara urkopplad i minst 60 sekunder så att styrkorten hinner ladda ur helt. Anslut den igen, slå på den och försök starta ett program. Detta löser tillfälliga kommunikationsfel i ett betydande antal fall."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera om felet återkommer",
+          "detail": "Kör ett kort tvättprogram och observera om AE-koden återkommer. Om maskinen slutför programmet utan fel var problemet en tillfällig störning. Om felet dyker upp igen under samma program eller vid nästa försök, fortsätt med stegen nedan."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera luckan och kontrollpanelen för uppenbara skador",
+          "detail": "Titta på kontrollpanelens knappar och display efter tecken på fysiska skador, vattenfläckar eller knappar som känns fastnade. Skador på panelen kan direkt påverka subkortet bakom den. Tryck inte på spruckna eller våta paneler — stäng av maskinen först."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera kabelstammens anslutningar",
+          "detail": "Stäng av och koppla ur maskinen innan du öppnar några paneler. Ta bort toppanelen (vanligtvis fäst med två skruvar baktill) för att komma åt den interna kablaget. Leta upp bandkabeln eller kabelstammen som löper mellan huvud-PCB och subkortet och kontrollera att båda ändarna sitter ordentligt i sina kontakter. Tryck in varje kontakt ordentligt tills den klickar på plats. Leta efter synliga tecken på brännskador, fransning eller korrosion på stiften."
+        },
+        {
+          "step": 5,
+          "action": "Rengör korroderade kontaktstift",
+          "detail": "Om du kan se lätt oxidation eller missfärgning på kontaktstiften, koppla försiktigt loss kontakten och rengör stiften med en torr bomullspinne eller en liten mängd elektrisk kontaktrengörare. Låt kontakten torka helt innan du återansluter den. Använd inte vatten eller universalspray."
+        },
+        {
+          "step": 6,
+          "action": "Testa maskinen igen",
+          "detail": "Montera ihop de paneler du tog bort, anslut maskinen och kör ett fullständigt program. Om AE-koden inte återkommer var den lösa eller korroderade anslutningen orsaken. Om felet kvarstår efter att alla kontakter sitter på plats är subkortet eller huvud-PCB troligen defekt och behöver testas eller bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut subkortet eller huvud-PCB",
+          "detail": "Om alla anslutningar är säkra och felet fortsätter har ett av de två korten gått sönder. Subkortet är den komponent som oftast byts ut vid AE-fel. Skaffa en kompatibel reservdel med hjälp av ditt fullständiga modellnummer (finns på etiketten inuti lucköppningen) och följ bytesproceduren noggrant, eller kontakta en servicetekniker för att utföra reparationen."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Kontakta en servicetekniker om AE-felet återkommer omedelbart efter varje omstart, om du kan se brännmärken, smält plast eller luktar bränt nära styrkorten, eller om displayen är helt okänslig. Dessa symptom tyder på ett kortfel som kräver rätt diagnosutrustning för att avgöra om huvud-PCB, subkortet eller båda behöver bytas ut.</p><p>Du bör också söka professionell hjälp om du är obekväm med att ta bort interna paneler eller hantera elektroniska komponenter. Felaktig återmontering av kabelstammar kan orsaka ytterligare fel, och att arbeta nära strömförande komponenter utan lämpliga försiktighetsåtgärder innebär en säkerhetsrisk.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när ett LG AE-fel åtgärdas är subkortet (även kallat displaykortet eller det sekundära styrkortet), huvud-PCB samt kabelstammen eller bandkabeln som förbinder dem. Att ha rätt modellnummer till hands — tryckt på etiketten inuti lucköppningen — säkerställer att du skaffar en kompatibel reservdel direkt.</p><p>För att minska risken för att kommunikationsfel återkommer, undvik att överlasta maskinen (överdrivna vibrationer kan lossa interna kontakter med tiden), se till att maskinen står på ett stabilt, plant underlag och överväg att använda ett överspänningsskyddat grenuttag om ditt hem ofta drabbas av spänningsfluktuationer.</p>\n<!-- SPARE_PARTS:AE -->",
+      "faq_json": [
+        {
+          "answer": "Maskinen fungerar inte medan AE-koden är aktiv, så felet i sig innebär ingen omedelbar säkerhetsrisk. Du bör dock inte försöka kringgå felet eller tvinga maskinen att köra, eftersom den bakomliggande orsaken — till exempel ett sviktande PCB — kan förvärras om det lämnas oåtgärdat. Undersök felet omgående för att undvika mer kostsamma reparationer senare.",
+          "question": "Är det farligt att ignorera felkod AE på en LG tvättmaskin?"
+        },
+        {
+          "answer": "En omstart tar ungefär fem minuter och löser felet i många fall. Om problemet är en lös kabelanslutning, räkna med 30 till 60 minuter för att säkert komma åt och återansluta kontakterna. Ett fullständigt korttbyte, om det behövs, tar vanligtvis en till två timmar beroende på din erfarenhetsnivå, eller kan utföras under ett enda besök av en servicetekniker.",
+          "question": "Hur lång tid tar det att åtgärda ett LG AE-fel?"
+        },
+        {
+          "answer": "Om felet bara uppträder ibland och försvinner med en omstart kan maskinen fortfarande slutföra vissa program. Intermittenta fel tenderar dock att bli permanenta med tiden, och att köra maskinen med ett känt kommunikationsfel riskerar att programmet stannar mitt i tvätten. Det är bättre att undersöka och åtgärda grundorsaken innan du förlitar dig på maskinen för regelbunden användning.",
+          "question": "Kan jag fortfarande använda min LG tvättmaskin om den visar AE intermittent?"
+        },
+        {
+          "answer": "LG erbjuder vanligtvis inte användarinstallerbara firmwareuppdateringar för tvättmaskiner på samma sätt som smartphones tar emot dem. Om ett firmwareproblem misstänks kan en servicetekniker ansluta diagnosutrustning för att kontrollera och uppdatera kortets programvara. I de flesta AE-fall är felet dock hårdvarurelaterat snarare än ett programvarufel.",
+          "question": "Kan en programvaruuppdatering åtgärda AE-felet på min LG tvättmaskin?"
+        },
+        {
+          "answer": "Felkod AE har dokumenterats på flera LG-modeller, bland annat F0712WS, F0812WS, F1056MD, F1056ND, F1056QD-serien, F1056QP, F1068LD-serien, F1068QD-serien, F1073TD, F1091TD-serien, F1096Q/TDW1 och F1096QDA-serien. Om din modell inte finns med, kontrollera din användarmanual — definitionen av AE-koden är konsekvent i LG:s sortiment för denna typ av kommunikationsfel.",
+          "question": "Vilka LG tvättmaskinmodeller påverkas av felkod AE?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:39.039732+00:00"
+    },
+    {
+      "id": 144,
+      "article_id": 87,
+      "locale": "en",
+      "slug": "lg-error-code-ce",
+      "title_tag": "LG Washing Machine Error Code CE | Fix It Now",
+      "meta_description": "LG washing machine showing error code CE? Learn what causes a motor overcurrent fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code CE Mean on an LG Washing Machine?",
+      "description": "Error code CE on an LG washing machine indicates that the motor has drawn more electrical current than it should, triggering an overcurrent protection fault.",
+      "quick_fix": "Unplug the washing machine from the mains, leave it for 10 minutes to allow the motor to cool and the control board to reset, then plug back in and restart the cycle — if the fault was caused by a temporary overload or minor control glitch, the machine should run normally (takes about 10 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Error code CE is LG's way of telling you that the drive motor has been detected drawing an abnormally high electrical current. The machine's control board monitors motor current continuously, and when it exceeds a safe threshold — whether from a mechanical obstruction, an electrical fault, or a failing component — it shuts the motor down and displays CE to prevent further damage.</p><p>When this error occurs, the wash cycle will stop mid-programme and the drum will cease rotating. The machine is not broken beyond use at this point; it has simply protected itself. In many cases the fault is temporary, but recurring CE errors almost always point to a physical or electrical problem that needs attention.</p><p>The affected models include the F0712WS, F0812WS, F1056 series, F1068 series, F1073TD, F1091TD series, and F1096 series machines — all of which share a similar direct-drive motor architecture.</p>",
+      "causes_json": [
+        {
+          "cause": "Overloaded drum",
+          "detail": "Packing too many items into the drum forces the motor to work harder than its rated capacity, causing current to spike. Heavy items like duvets, towels, or denim are common culprits."
+        },
+        {
+          "cause": "Worn or failing drive motor",
+          "detail": "Over time, the motor's internal windings or bearings can degrade, causing it to draw excessive current even under normal load. This is one of the most common hardware causes of a persistent CE error."
+        },
+        {
+          "cause": "Faulty motor hall sensor",
+          "detail": "LG direct-drive motors use a hall sensor to monitor rotor position and speed. If this sensor fails or sends incorrect signals, the control board may misread motor performance and trigger a CE fault."
+        },
+        {
+          "cause": "Damaged or loose motor wiring harness",
+          "detail": "Vibration over years of use can loosen the electrical connectors between the motor and the main control board. A poor connection can cause erratic current readings and trigger the overcurrent error."
+        },
+        {
+          "cause": "Faulty main control board (PCB)",
+          "detail": "If the PCB's motor-control circuitry develops a fault, it may incorrectly detect overcurrent or fail to regulate the power supplied to the motor. This is less common but should be considered if all other components check out."
+        },
+        {
+          "cause": "Foreign object jamming the drum or pump",
+          "detail": "Coins, bra wires, or other small objects can become lodged between the drum and the tub, creating mechanical resistance that forces the motor to draw extra current to try to turn the drum."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Reduce the load and restart",
+          "detail": "Remove roughly half the laundry from the drum, then cancel the current programme and start a fresh cycle. If the machine completes the cycle without displaying CE, an overloaded drum was the cause. Going forward, follow the maximum load guidance printed on the door seal or in your user manual."
+        },
+        {
+          "step": 2,
+          "action": "Perform a power reset",
+          "detail": "Switch the machine off at the socket and unplug it completely. Wait at least 10 minutes — this allows the motor to cool down and the control board's memory to clear. Plug back in, select a short cotton cycle, and observe whether CE returns."
+        },
+        {
+          "step": 3,
+          "action": "Check for foreign objects in the drum",
+          "detail": "With the machine unplugged, reach inside the drum and try to rotate it by hand. It should turn smoothly with only slight resistance from the door seal. If you feel grinding, scraping, or a hard stop, a foreign object may be trapped between the drum and the outer tub — this will require removing the back panel to investigate further."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the motor wiring harness",
+          "detail": "Unplug the machine and remove the back panel (usually held by four or five screws). Locate the wiring loom running from the main PCB down to the motor at the base of the machine. Check each connector for signs of burning, corrosion, or looseness, and press each plug firmly home. Refit the panel and test the machine."
+        },
+        {
+          "step": 5,
+          "action": "Test the hall sensor",
+          "detail": "The hall sensor is a small component mounted directly on the rear of the motor stator. Disconnect its plug and inspect the connector pins for corrosion or bent contacts. If you have a multimeter, check the sensor's resistance against the specification in your service manual — a reading outside range confirms the sensor needs replacing."
+        },
+        {
+          "step": 6,
+          "action": "Examine the motor itself",
+          "detail": "With the back panel removed, inspect the motor for signs of burning, a burnt smell, or visible damage to the windings. Try rotating the motor shaft by hand — it should move freely. Stiffness or grinding indicates worn bearings. A motor showing these signs will need to be replaced."
+        },
+        {
+          "step": 7,
+          "action": "Check the main control board",
+          "detail": "If all mechanical and wiring checks pass but CE persists, the PCB may be at fault. Inspect the board visually for burnt components, swollen capacitors, or scorch marks around the motor-driver section. PCB diagnosis beyond a visual check requires specialist equipment, so at this stage it is worth contacting a service technician."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>If the CE error returns immediately after a power reset, or if the drum is difficult or impossible to turn by hand, stop using the machine and contact a service technician. These symptoms suggest a mechanical seizure or a motor that has failed internally — continuing to run the machine risks burning out the control board as well.</p><p>You should also call a service technician if you find burnt or melted wiring, if the motor has a strong burning smell, or if replacing the hall sensor does not resolve the fault. PCB faults in particular are difficult to diagnose safely without the right tools, and an incorrect repair can create an electrical hazard.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving a CE fault on LG washing machines are the drive motor, the motor hall sensor, and the main control board (PCB). In many cases, replacing the hall sensor alone is enough to clear a persistent CE error, making it a sensible first part to order before committing to a full motor replacement.</p><p>Use the parts finder below to locate compatible components for your specific model number, which you will find on the rating plate inside the door frame.</p>\n<!-- SPARE_PARTS:CE -->",
+      "faq_json": [
+        {
+          "answer": "No — you should not continue running the machine once CE appears. The error means the motor is drawing unsafe levels of current, and repeated attempts to run it in this state can damage the control board or cause the motor windings to burn out, turning a relatively straightforward repair into a much more expensive one.",
+          "question": "Can I keep using my LG washing machine while it shows error code CE?"
+        },
+        {
+          "answer": "If the drum turns freely by hand and there are no signs of burning on the motor, the hall sensor is the more likely culprit and is significantly cheaper to replace. If the motor shaft is stiff, there is a burning smell, or the motor shows visible damage, the motor itself will need to be replaced. A service technician can confirm this with electrical testing.",
+          "question": "How do I know if the hall sensor or the motor itself needs replacing?"
+        },
+        {
+          "answer": "No — these are different faults. CE relates specifically to motor overcurrent, while CL is a child lock notification rather than a fault code at all. If you see CL, simply press and hold the child lock button combination for your model (usually around 3 seconds) to deactivate it.",
+          "question": "Is error code CE the same as error code CL on LG machines?"
+        },
+        {
+          "answer": "If the fix is simply reducing the load or a power reset, there is no cost involved. A replacement hall sensor is generally an affordable part. A new drive motor is more expensive, and a replacement PCB can be the costliest component — if the machine is older, it is worth comparing the repair cost against the price of a new appliance before proceeding.",
+          "question": "How much does it typically cost to fix an LG CE error?"
+        },
+        {
+          "answer": "Some programmes — particularly those with high-speed spins or heavy-duty cycles — demand more from the motor than a gentle or cold wash. If the motor or hall sensor is borderline, it may only trigger the overcurrent protection under higher load conditions. This intermittent pattern is a useful clue that the motor or sensor is degrading rather than completely failed.",
+          "question": "Why does CE only appear on certain wash programmes and not others?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:39.10985+00:00"
+    },
+    {
+      "id": 145,
+      "article_id": 87,
+      "locale": "sv",
+      "slug": "lg-felkod-ce",
+      "title_tag": "LG Tvättmaskin Felkod CE | Åtgärda Det Nu",
+      "meta_description": "Visar din LG-tvättmaskin felkod CE? Lär dig vad som orsakar ett motoröverströmsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod CE på en LG Tvättmaskin?",
+      "description": "Felkod CE på en LG-tvättmaskin indikerar att motorn har dragit mer elektrisk ström än den ska, vilket utlöser ett överströmsskyddsfel.",
+      "quick_fix": "Koppla ur tvättmaskinen från eluttaget, låt den stå i 10 minuter så att motorn kan svalna och styrkortet återställas, anslut sedan igen och starta om programmet — om felet orsakades av en tillfällig överbelastning eller ett mindre styrningsfel bör maskinen fungera normalt (tar ungefär 10 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>Felkod CE är LG:s sätt att meddela dig att drivmotorn har detekterats dra en onormalt hög elektrisk ström. Maskinens styrkort övervakar motorströmmen kontinuerligt, och när den överstiger ett säkert tröskelvärde — oavsett om det beror på ett mekaniskt hinder, ett elektriskt fel eller en defekt komponent — stänger det av motorn och visar CE för att förhindra ytterligare skador.</p><p>När detta fel uppstår avbryts tvättcykeln mitt i programmet och trumman slutar rotera. Maskinen är inte obrukbar vid det här laget; den har helt enkelt skyddat sig själv. I många fall är felet tillfälligt, men återkommande CE-fel pekar nästan alltid på ett fysiskt eller elektriskt problem som behöver åtgärdas.</p><p>De berörda modellerna inkluderar F0712WS, F0812WS, F1056-serien, F1068-serien, F1073TD, F1091TD-serien och F1096-serien — alla delar en liknande direktdriven motorarkitektur.</p>",
+      "causes_json": [
+        {
+          "cause": "Överbelastad trumma",
+          "detail": "Att packa för många plagg i trumman tvingar motorn att arbeta hårdare än sin märkkapacitet, vilket orsakar strömtoppar. Tunga föremål som täcken, handdukar eller denim är vanliga orsaker."
+        },
+        {
+          "cause": "Sliten eller defekt drivmotor",
+          "detail": "Med tiden kan motorns interna lindningar eller lager försämras, vilket gör att den drar för mycket ström även under normal belastning. Detta är en av de vanligaste hårdvaruorsakerna till ett ihållande CE-fel."
+        },
+        {
+          "cause": "Defekt motorhallsensor",
+          "detail": "LG:s direktdrivna motorer använder en hallsensor för att övervaka rotorns position och hastighet. Om denna sensor slutar fungera eller skickar felaktiga signaler kan styrkortet feltolka motorns prestanda och utlösa ett CE-fel."
+        },
+        {
+          "cause": "Skadad eller lös motorns kabelstam",
+          "detail": "Vibrationer under många års användning kan lossa de elektriska kontakterna mellan motorn och huvudstyrkortet. En dålig anslutning kan orsaka oregelbundna strömavläsningar och utlösa överströmsfelkoden."
+        },
+        {
+          "cause": "Defekt huvudstyrkort (PCB)",
+          "detail": "Om PCB:ns motorstyrningskrets utvecklar ett fel kan den felaktigt detektera överström eller misslyckas med att reglera strömmen till motorn. Detta är mindre vanligt men bör övervägas om alla andra komponenter verkar fungera."
+        },
+        {
+          "cause": "Främmande föremål som blockerar trumman eller pumpen",
+          "detail": "Mynt, bh-byglar eller andra små föremål kan fastna mellan trumman och karet, vilket skapar mekaniskt motstånd som tvingar motorn att dra extra ström för att försöka rotera trumman."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Minska lasten och starta om",
+          "detail": "Ta ut ungefär hälften av tvätten från trumman, avbryt sedan det aktuella programmet och starta en ny cykel. Om maskinen slutför cykeln utan att visa CE var en överbelastad trumma orsaken. Följ framöver den maximala lastanvisningen som finns tryckt på dörrtätningen eller i din bruksanvisning."
+        },
+        {
+          "step": 2,
+          "action": "Utför en strömåterställning",
+          "detail": "Stäng av maskinen vid uttaget och koppla ur den helt. Vänta minst 10 minuter — detta låter motorn svalna och styrkortet rensa sitt minne. Anslut igen, välj ett kort bomullsprogram och observera om CE återkommer."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera om det finns främmande föremål i trumman",
+          "detail": "Med maskinen urkopplad, räck in i trumman och försök rotera den för hand. Den ska rotera mjukt med endast ett lätt motstånd från dörrtätningen. Om du känner slipning, skrapning eller ett hårt stopp kan ett främmande föremål ha fastnat mellan trumman och det yttre karet — detta kräver att bakpanelen tas bort för vidare undersökning."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera motorns kabelstam",
+          "detail": "Koppla ur maskinen och ta bort bakpanelen (vanligtvis fäst med fyra eller fem skruvar). Leta upp kabelstammen som löper från huvud-PCB:n ner till motorn vid maskinens bas. Kontrollera varje kontakt för tecken på brännskador, korrosion eller löshet, och tryck in varje kontakt ordentligt. Sätt tillbaka panelen och testa maskinen."
+        },
+        {
+          "step": 5,
+          "action": "Testa hallsensorn",
+          "detail": "Hallsensorn är en liten komponent monterad direkt på baksidan av motorstatorn. Koppla loss dess kontakt och inspektera kontaktstiften för korrosion eller böjda kontakter. Om du har en multimeter, kontrollera sensorns resistans mot specifikationen i din servicemanual — ett värde utanför intervallet bekräftar att sensorn behöver bytas."
+        },
+        {
+          "step": 6,
+          "action": "Undersök motorn",
+          "detail": "Med bakpanelen borttagen, inspektera motorn för tecken på brännskador, bränd lukt eller synliga skador på lindningarna. Försök rotera motoraxeln för hand — den ska röra sig fritt. Styvhet eller slipning indikerar slitna lager. En motor som uppvisar dessa tecken behöver bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera huvudstyrkortet",
+          "detail": "Om alla mekaniska och kabelkontroller godkänns men CE kvarstår kan PCB:n vara felaktig. Inspektera kortet visuellt för brända komponenter, uppsvällda kondensatorer eller brännmärken runt motordrivarsektionen. PCB-diagnos utöver en visuell kontroll kräver specialutrustning, så i detta skede är det värt att kontakta en servicetekniker."
+        }
+      ],
+      "affected_models_json": [
+        {
+          "name": "F0712WS",
+          "slug": "f0712ws",
+          "model_id": 7027
+        },
+        {
+          "name": "F0812WS",
+          "slug": "f0812ws",
+          "model_id": 7037
+        },
+        {
+          "name": "F1056MD",
+          "slug": "f1056md",
+          "model_id": 7305
+        },
+        {
+          "name": "F1056ND",
+          "slug": "f1056nd",
+          "model_id": 7307
+        },
+        {
+          "name": "F1056QD Series",
+          "slug": "f1056qd-series",
+          "model_id": 7329
+        },
+        {
+          "name": "F1056QP",
+          "slug": "f1056qp",
+          "model_id": 7372
+        },
+        {
+          "name": "F1068LD Series",
+          "slug": "f1068ld-series",
+          "model_id": 7436
+        },
+        {
+          "name": "F1068QD Series",
+          "slug": "f1068qd-series",
+          "model_id": 7457
+        },
+        {
+          "name": "F1073TD",
+          "slug": "f1073td",
+          "model_id": 7520
+        },
+        {
+          "name": "F1091TD Series",
+          "slug": "f1091td-series",
+          "model_id": 7619
+        },
+        {
+          "name": "F1096Q/TDW1",
+          "slug": "f1096q-tdw1",
+          "model_id": 7713
+        },
+        {
+          "name": "F1096QDA Series",
+          "slug": "f1096qda-series",
+          "model_id": 7723
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om CE-felet återkommer omedelbart efter en strömåterställning, eller om trumman är svår eller omöjlig att rotera för hand, sluta använda maskinen och kontakta en servicetekniker. Dessa symptom tyder på ett mekaniskt haveri eller en motor som har gått sönder internt — att fortsätta köra maskinen riskerar att även bränna ut styrkortet.</p><p>Du bör också kontakta en servicetekniker om du hittar brända eller smälta kablar, om motorn har en stark bränd lukt, eller om byte av hallsensorn inte löser felet. PCB-fel är särskilt svåra att diagnostisera säkert utan rätt verktyg, och en felaktig reparation kan skapa en elektrisk fara.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett CE-fel på LG-tvättmaskiner är drivmotorn, motorns hallsensor och huvudstyrkortet (PCB). I många fall räcker det att byta hallsensorn för att åtgärda ett ihållande CE-fel, vilket gör den till en vettig första del att beställa innan man beslutar sig för ett fullständigt motorbyte.</p><p>Använd reservdelsfindern nedan för att hitta kompatibla komponenter för ditt specifika modellnummer, som du hittar på typskylten inuti dörrkarmens ram.</p>\n<!-- SPARE_PARTS:CE -->",
+      "faq_json": [
+        {
+          "answer": "Nej — du bör inte fortsätta köra maskinen när CE visas. Felet innebär att motorn drar osäkra strömniåer, och upprepade försök att köra den i detta tillstånd kan skada styrkortet eller orsaka att motorlindningarna bränner ut, vilket förvandlar en relativt enkel reparation till en betydligt dyrare.",
+          "question": "Kan jag fortsätta använda min LG-tvättmaskin när den visar felkod CE?"
+        },
+        {
+          "answer": "Om trumman roterar fritt för hand och det inte finns några tecken på brännskador på motorn är hallsensorn den troligare orsaken och är betydligt billigare att byta. Om motoraxeln är stel, det luktar bränt eller motorn uppvisar synliga skador behöver motorn själv bytas. En servicetekniker kan bekräfta detta med elektrisk testning.",
+          "question": "Hur vet jag om hallsensorn eller motorn själv behöver bytas?"
+        },
+        {
+          "answer": "Nej — dessa är olika fel. CE avser specifikt motoröverström, medan CL är ett barnlåsmeddelande snarare än en felkod överhuvudtaget. Om du ser CL, håll helt enkelt in barnlåsknappkombinationen för din modell (vanligtvis ungefär 3 sekunder) för att avaktivera det.",
+          "question": "Är felkod CE samma som felkod CL på LG-maskiner?"
+        },
+        {
+          "answer": "Om lösningen är att minska lasten eller utföra en strömåterställning tillkommer ingen kostnad. En ersättningshallsensor är generellt en prisvärd del. En ny drivmotor är dyrare, och ett ersättnings-PCB kan vara den dyraste komponenten — om maskinen är äldre är det värt att jämföra reparationskostnaden med priset på en ny maskin innan du går vidare.",
+          "question": "Hur mycket kostar det vanligtvis att åtgärda ett LG CE-fel?"
+        },
+        {
+          "answer": "Vissa program — särskilt de med höghastighetscentrifugering eller tuffa cykler — ställer högre krav på motorn än ett skonsamt eller kalltvättsprogram. Om motorn eller hallsensorn är på gränsen kan den bara utlösa överströmsskyddet under högre belastningsförhållanden. Detta intermittenta mönster är en användbar ledtråd om att motorn eller sensorn försämras snarare än att den är helt trasig.",
+          "question": "Varför uppstår CE bara vid vissa tvättprogram och inte andra?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:39.179072+00:00"
+    },
+    {
+      "id": 588,
+      "article_id": 363,
+      "locale": "en",
+      "slug": "wont-complete-cycle",
+      "title_tag": "Electrolux Washing Machine Won't Complete a Cycle – Fixes",
+      "meta_description": "Electrolux washing machine stopping mid-cycle? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers E30, E31, E35 errors.",
+      "h1": "Why Does My Electrolux Washing Machine Keep Stopping Before the Cycle Finishes?",
+      "description": "The washing machine starts a wash programme but stops before completing it, leaving laundry wet or the drum stationary mid-cycle.",
+      "quick_fix": "Run a short cotton cycle with no laundry and no detergent to clear any residual error state — if the machine completes it without stopping, the previous fault was likely a temporary sensor glitch (takes about 5 minutes to set up, 15–20 minutes to run).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When an Electrolux washing machine stops partway through a cycle, it can be frustrating and difficult to diagnose because the fault could originate from several different systems. The machine may pause with the door locked, display an error code such as E30, E31, or E35, or simply sit silently with water still inside the drum. In some cases the display shows nothing at all.</p><p>Error codes E30 and E31 typically relate to water pressure or fill issues, while E35 points to an overfill or pressure sensor fault — but the machine stopping mid-cycle is not always accompanied by a visible code. The underlying problem could be electrical, mechanical, or related to water supply and drainage.</p><p>Understanding which part of the cycle the machine stops at — filling, washing, rinsing, or spinning — is the most useful clue you can gather before starting any checks. Note this down before you begin troubleshooting.</p>",
+      "causes_json": [
+        {
+          "cause": "Pressure sensor (pressostat) fault",
+          "detail": "The pressure sensor monitors water level inside the drum. If it fails or gives an inconsistent reading, the machine may stop mid-cycle believing the drum is overfilled or empty — this is the most common trigger for E35 and related mid-cycle halts."
+        },
+        {
+          "cause": "Water inlet valve or supply problem",
+          "detail": "If the machine cannot fill to the correct level within a set time, it will pause or abort the cycle. A kinked inlet hose, a partially closed tap, or a blocked inlet filter screen can all cause this, and may trigger E30 or E31 error codes."
+        },
+        {
+          "cause": "Drain pump blockage or failure",
+          "detail": "The machine checks that water has drained before moving to the next stage. A blocked pump filter, a foreign object in the pump housing, or a failing pump motor can cause the cycle to stall at the rinse or spin transition."
+        },
+        {
+          "cause": "Door interlock failure",
+          "detail": "The door latch assembly contains a microswitch that must signal the control board throughout the cycle. If the interlock is worn or faulty, the machine may interpret the door as open and stop as a safety measure."
+        },
+        {
+          "cause": "Control board or wiring fault",
+          "detail": "The main PCB coordinates every stage of the wash programme. A failing capacitor, a loose wiring harness connector, or moisture damage to the board can cause unpredictable mid-cycle stops with or without an error code."
+        },
+        {
+          "cause": "Motor or motor control board issue",
+          "detail": "If the motor overheats or the motor control board detects an abnormal current draw, it will cut power to protect itself. This typically causes the machine to stop during the wash or spin phase when the motor is under the most load."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Note the exact point where the cycle stops",
+          "detail": "Before touching anything, write down which programme you were using, how far through the cycle the machine stopped, and any code shown on the display. This information will help you narrow down the cause quickly. If the machine is showing E30, E31, or E35, photograph the display."
+        },
+        {
+          "step": 2,
+          "action": "Reset the machine and check the power supply",
+          "detail": "Turn the machine off at the socket, wait 60 seconds, then switch it back on and select a short programme. A temporary power fluctuation or control board glitch can cause a one-off stop. If the machine completes the short cycle, monitor it over the next few washes before investigating further."
+        },
+        {
+          "step": 3,
+          "action": "Check the water inlet supply and filter screen",
+          "detail": "Turn off the water tap behind the machine and disconnect the inlet hose. Look for a small mesh filter screen inside the hose fitting at the back of the machine — rinse it under a tap if it is clogged with sediment. Also confirm the tap is fully open and the hose is not kinked or pinched behind the appliance."
+        },
+        {
+          "step": 4,
+          "action": "Clean the drain pump filter",
+          "detail": "Locate the pump access panel at the bottom front of the machine. Place a shallow tray and some towels underneath, then slowly unscrew the filter cap to release residual water. Remove any debris — coins, hair grips, and lint are common culprits. Refit the cap firmly and run a rinse-and-spin cycle to confirm drainage is working."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the door interlock",
+          "detail": "Open and firmly close the door, listening for a solid click. If the door feels loose or the machine does not lock at the start of a cycle, the interlock may be worn. You can test continuity across the interlock's microswitch terminals with a multimeter set to continuity mode — a reading of no continuity when the door is closed confirms the part needs replacing."
+        },
+        {
+          "step": 6,
+          "action": "Test the pressure sensor and hose",
+          "detail": "The pressure sensor is usually mounted on the side of the cabinet and connected to the drum by a thin rubber or plastic hose. Disconnect the hose and check it is not blocked or split. Gently blow into the hose end — you should hear a faint click from the sensor. A sensor that does not respond or gives erratic readings should be replaced."
+        },
+        {
+          "step": 7,
+          "action": "Check wiring harness connections to the control board",
+          "detail": "With the machine unplugged, remove the top panel (usually two screws at the rear). Locate the main wiring harness connectors on the PCB and press each one firmly to reseat it. Look for any connectors that show signs of burning, corrosion, or melted plastic. Do not attempt to repair burnt wiring yourself — this requires a service technician."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>If the machine stops mid-cycle and you can see burn marks, smell burning plastic, or notice any scorching around the control board or wiring, stop using the appliance immediately and call a service technician. Similarly, if the drum contains water that cannot be drained manually via the pump filter, or if the door remains locked and cannot be released using the emergency pull-tab, professional assistance is needed to avoid damaging the machine or injuring yourself.</p><p>A service technician should also be contacted if you have worked through all the steps above and the fault persists, particularly if error codes E30, E31, or E35 continue to reappear. Diagnosing a faulty main PCB or motor control board requires specialist test equipment and is not a safe DIY repair.</p>",
+      "prevention_html": "<p>Keeping the drain pump filter clean every one to three months is the single most effective way to prevent mid-cycle stops on Electrolux washing machines. Also run a hot maintenance wash (60°C or above, empty drum, no detergent) once a month to clear detergent residue that can affect the pressure sensor hose. Avoid overloading the drum, as this puts excessive strain on the motor and can trigger thermal cut-outs.</p><p>The parts most commonly replaced for this fault are the <strong>pressure sensor (pressostat)</strong>, the <strong>door interlock assembly</strong>, and the <strong>drain pump</strong>. Genuine Electrolux parts are recommended to ensure compatibility across the wide range of affected models. Use the search tool below to find the correct part for your specific model number.</p>\n<!-- SPARE_PARTS_FAULT:wont-complete-cycle -->",
+      "faq_json": [
+        {
+          "answer": "E35 indicates that the pressure sensor has detected an overfill condition — the machine believes there is too much water in the drum. This is often caused by a faulty pressure sensor or a blocked pressure sensor hose rather than an actual overfill. Cleaning the hose and testing the sensor as described in the steps above will resolve most E35 faults.",
+          "question": "What does error code E35 mean on an Electrolux washing machine?"
+        },
+        {
+          "answer": "Start with the basics: check that the water supply tap is fully open, the inlet filter is clean, and the drain pump filter is clear of debris. A machine that stops silently with no code is often reacting to a drainage or fill issue that has not yet triggered a logged fault. Running a short empty cycle after cleaning the filter will confirm whether this was the cause.",
+          "question": "My Electrolux washing machine stops mid-cycle with no error code — what should I check first?"
+        },
+        {
+          "answer": "It is safe to leave it for a short period, but you should not leave standing water in the drum for more than a few hours as it can cause mould and unpleasant odours. Use the emergency drain procedure — open the pump filter slowly to release the water into a tray — before leaving the machine unattended for an extended time.",
+          "question": "Is it safe to leave the machine if it stops with water inside the drum?"
+        },
+        {
+          "answer": "Yes. Excess detergent creates foam that can confuse the pressure sensor into reading a false high water level, causing the machine to pause or abort the cycle. Always use the amount recommended for your water hardness and load size. If you suspect over-foaming, run a rinse-only cycle to clear the drum, then reduce detergent quantities going forward.",
+          "question": "Can too much detergent cause an Electrolux washing machine to stop mid-cycle?"
+        },
+        {
+          "answer": "Most standard cotton cycles run between 90 minutes and two hours, while eco programmes can run longer. A brief pause of one to two minutes during the cycle is normal — the machine is often balancing the load or waiting for water temperature to stabilise. A pause lasting more than five minutes, especially if accompanied by an error code or a locked door, indicates a genuine fault that needs investigating.",
+          "question": "How long should an Electrolux washing machine cycle take, and when is a pause abnormal?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T16:24:48.949493+00:00"
+    },
+    {
+      "id": 589,
+      "article_id": 363,
+      "locale": "sv",
+      "slug": "slutfor-inte-programmet",
+      "title_tag": "Electrolux Tvättmaskin Slutför Inte ett Program – Lösningar",
+      "meta_description": "Stannar din Electrolux tvättmaskin mitt i programmet? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker fel",
+      "h1": "Varför Stannar Min Electrolux Tvättmaskin Innan Programmet är Klart?",
+      "description": "Tvättmaskinen startar ett tvättprogram men stannar innan det är klart, vilket lämnar tvätten blöt eller trumman stilla mitt i programmet.",
+      "quick_fix": "Kör ett kort bomullsprogram utan tvätt och utan tvättmedel för att rensa eventuellt kvarstående feltillstånd — om maskinen slutför det utan att stanna var det troligen ett tillfälligt sensorfel (tar ungefär 5 minuter att ställa in och 15–20 minuter att köra).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en Electrolux tvättmaskin stannar mitt i ett program kan det vara frustrerande och svårt att diagnostisera, eftersom felet kan komma från flera olika system. Maskinen kan pausa med låst lucka, visa en felkod som E30, E31 eller E35, eller helt enkelt stå stilla med vatten kvar i trumman. I vissa fall visar displayen ingenting alls.</p><p>Felkoderna E30 och E31 är vanligtvis kopplade till vattentryck eller påfyllningsproblem, medan E35 pekar på ett överfyllnings- eller trycksensorfel — men att maskinen stannar mitt i programmet åtföljs inte alltid av en synlig kod. Det underliggande problemet kan vara elektriskt, mekaniskt eller relaterat till vattenförsörjning och avlopp.</p><p>Att förstå i vilken del av programmet maskinen stannar — påfyllning, tvätt, sköljning eller centrifugering — är den mest användbara ledtråden du kan samla in innan du börjar felsöka. Notera detta innan du börjar.</p>",
+      "causes_json": [
+        {
+          "cause": "Fel på trycksensor (pressostat)",
+          "detail": "Trycksensorn övervakar vattennivån i trumman. Om den slutar fungera eller ger inkonsekvent avläsning kan maskinen stanna mitt i programmet eftersom den tror att trumman är överfylld eller tom — detta är den vanligaste orsaken till E35 och liknande stopp mitt i programmet."
+        },
+        {
+          "cause": "Problem med vatteninloppsventil eller vattenförsörjning",
+          "detail": "Om maskinen inte kan fylla till rätt nivå inom en angiven tid pausar eller avbryter den programmet. En böjd inloppsslang, en delvis stängd kran eller ett igensatt filtersikte på inloppet kan alla orsaka detta och kan utlösa felkoderna E30 eller E31."
+        },
+        {
+          "cause": "Igensatt eller trasig avloppspump",
+          "detail": "Maskinen kontrollerar att vattnet har runnit ut innan den går vidare till nästa steg. Ett igensatt pumpfilter, ett främmande föremål i pumphuset eller en defekt pumpmotor kan göra att programmet fastnar vid övergången till sköljning eller centrifugering."
+        },
+        {
+          "cause": "Fel på lucklås",
+          "detail": "Lucklåsenheten innehåller en mikrobrytare som måste signalera till styrkortet under hela programmet. Om låset är slitet eller defekt kan maskinen tolka luckan som öppen och stanna som en säkerhetsåtgärd."
+        },
+        {
+          "cause": "Fel på styrkort eller kablage",
+          "detail": "Huvud-PCB:n samordnar varje steg i tvättrogrammet. En defekt kondensator, en lös kontakt på kabelstammen eller fuktskador på kortet kan orsaka oförutsägbara stopp mitt i programmet, med eller utan felkod."
+        },
+        {
+          "cause": "Problem med motor eller motorstyrkortet",
+          "detail": "Om motorn överhettas eller motorstyrkortet upptäcker ett onormalt strömuttag bryter det strömmen för att skydda sig självt. Detta gör vanligtvis att maskinen stannar under tvätt- eller centrifugeringsfasen när motorn är mest belastad."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Notera exakt var i programmet maskinen stannar",
+          "detail": "Innan du rör något, skriv ned vilket program du använde, hur långt in i programmet maskinen stannade och eventuell kod som visas på displayen. Den här informationen hjälper dig att snabbt hitta orsaken. Om maskinen visar E30, E31 eller E35, fotografera displayen."
+        },
+        {
+          "step": 2,
+          "action": "Återställ maskinen och kontrollera strömförsörjningen",
+          "detail": "Stäng av maskinen vid uttaget, vänta 60 sekunder, slå sedan på den igen och välj ett kort program. En tillfällig strömfluktuering eller ett fel på styrkortet kan orsaka ett engångsstopp. Om maskinen slutför det korta programmet, övervaka den under de närmaste tvättarna innan du undersöker vidare."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera vatteninloppet och filtersiktet",
+          "detail": "Stäng av vattenkranen bakom maskinen och koppla loss inloppsslangen. Leta efter ett litet nätfiltersikte inuti slanganslutningen på maskinens baksida — skölj det under kranen om det är igensatt med avlagringar. Kontrollera också att kranen är helt öppen och att slangen inte är böjd eller klämd bakom maskinen."
+        },
+        {
+          "step": 4,
+          "action": "Rengör avloppspumpens filter",
+          "detail": "Hitta pumpens åtkomstlucka längst ned på maskinens framsida. Placera ett grunt fat och några handdukar undertill och skruva sedan långsamt loss filterlocket för att tömma ut kvarvarande vatten. Ta bort eventuellt skräp — mynt, hårnålar och ludd är vanliga bovar. Sätt tillbaka locket ordentligt och kör ett sköljnings- och centrifugeringsprogram för att bekräfta att avloppet fungerar."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera lucklåset",
+          "detail": "Öppna och stäng luckan ordentligt och lyssna efter ett tydligt klick. Om luckan känns lös eller om maskinen inte låser vid programstart kan låset vara slitet. Du kan testa kontinuiteten över lucklåsets mikrobrytarterminalerna med en multimeter inställd på kontinuitetsläge — ingen kontinuitet när luckan är stängd bekräftar att delen behöver bytas."
+        },
+        {
+          "step": 6,
+          "action": "Testa trycksensorn och slangen",
+          "detail": "Trycksensorn sitter vanligtvis på sidan av maskinhöljet och är ansluten till trumman via en tunn gummi- eller plastslang. Koppla loss slangen och kontrollera att den inte är igensatt eller sprucken. Blås försiktigt i slangens ände — du bör höra ett svagt klick från sensorn. En sensor som inte reagerar eller ger oregelbundna avläsningar bör bytas ut."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera kabelstammens anslutningar till styrkortet",
+          "detail": "Med maskinen urkopplad, ta bort toppanelen (vanligtvis två skruvar baktill). Hitta huvudkabelstammens kontakter på PCB:n och tryck in var och en ordentligt för att säkra dem. Leta efter kontakter som visar tecken på brännskador, korrosion eller smält plast. Försök inte reparera bränt kablage själv — detta kräver en servicetekniker."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Om maskinen stannar mitt i programmet och du ser brännmärken, luktar bränd plast eller märker förkolning runt styrkortet eller kablaget, sluta använda maskinen omedelbart och kontakta en servicetekniker. På samma sätt behövs professionell hjälp om trumman innehåller vatten som inte kan tömmas manuellt via pumpfiltret, eller om luckan förblir låst och inte kan öppnas med nödöppningsfliken, för att undvika att skada maskinen eller skada dig själv.</p><p>En servicetekniker bör också kontaktas om du har arbetat igenom alla stegen ovan och felet kvarstår, särskilt om felkoderna E30, E31 eller E35 fortsätter att dyka upp. Att diagnostisera ett defekt huvud-PCB eller motorstyrkortet kräver specialiserad testutrustning och är inte en säker gör-det-själv-reparation.</p>",
+      "prevention_html": "<p>Att hålla avloppspumpens filter rent var en till tre månader är det enskilt mest effektiva sättet att förebygga stopp mitt i programmet på Electrolux tvättmaskiner. Kör också ett varmt underhållsprogram (60 °C eller högre, tom trumma, inget tvättmedel) en gång i månaden för att rensa bort tvättmedelsrester som kan påverka trycksensorns slang. Undvik att överlasta trumman, eftersom det belastar motorn för hårt och kan utlösa termiska säkerhetsbrytare.</p><p>De delar som oftast byts ut vid detta fel är <strong>trycksensorn (pressostaten)</strong>, <strong>lucklåsenheten</strong> och <strong>avloppspumpen</strong>. Äkta Electrolux-delar rekommenderas för att säkerställa kompatibilitet med det breda utbudet av berörda modeller. Använd sökverktyget nedan för att hitta rätt del för ditt specifika modellnummer.</p>\n<!-- SPARE_PARTS_FAULT:wont-complete-cycle -->",
+      "faq_json": [
+        {
+          "answer": "E35 indikerar att trycksensorn har upptäckt ett överfyllningstillstånd — maskinen tror att det finns för mycket vatten i trumman. Detta orsakas ofta av en defekt trycksensor eller en igensatt trycksensorslang snarare än en faktisk överfyllning. Att rengöra slangen och testa sensorn enligt stegen ovan löser de flesta E35-fel.",
+          "question": "Vad betyder felkod E35 på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Börja med grunderna: kontrollera att vattenkranen är helt öppen, att inloppsfiltret är rent och att avloppspumpens filter är fritt från skräp. En maskin som stannar tyst utan kod reagerar ofta på ett avlopps- eller påfyllningsproblem som ännu inte har utlöst ett registrerat fel. Att köra ett kort tomt program efter att ha rengjort filtret bekräftar om detta var orsaken.",
+          "question": "Min Electrolux tvättmaskin stannar mitt i programmet utan felkod — vad ska jag kontrollera först?"
+        },
+        {
+          "answer": "Det är säkert att lämna den en kortare stund, men du bör inte låta vatten stå i trumman i mer än några timmar eftersom det kan orsaka mögel och obehaglig lukt. Använd nödtömningsproceduren — öppna pumpfiltret långsamt för att tömma ut vattnet i ett fat — innan du lämnar maskinen utan tillsyn under en längre tid.",
+          "question": "Är det säkert att lämna maskinen om den stannar med vatten i trumman?"
+        },
+        {
+          "answer": "Ja. Överskott av tvättmedel skapar skum som kan förvirra trycksensorn att avläsa en falskt hög vattennivå, vilket gör att maskinen pausar eller avbryter programmet. Använd alltid den mängd som rekommenderas för din vattenhårdhet och laststorlek. Om du misstänker överskumning, kör ett sköljningsprogram för att rensa trumman och minska sedan tvättmedelmängden framöver.",
+          "question": "Kan för mycket tvättmedel göra att en Electrolux tvättmaskin stannar mitt i programmet?"
+        },
+        {
+          "answer": "De flesta standard bomullsprogram tar mellan 90 minuter och två timmar, medan ekoprogram kan ta längre tid. En kort paus på en till två minuter under programmet är normalt — maskinen balanserar ofta lasten eller väntar på att vattentemperaturen ska stabiliseras. En paus som varar mer än fem minuter, särskilt om den åtföljs av en felkod eller en låst lucka, indikerar ett verkligt fel som behöver undersökas.",
+          "question": "Hur lång tid ska ett program på en Electrolux tvättmaskin ta, och när är en paus onormal?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T16:26:06.309875+00:00"
+    },
+    {
+      "id": 594,
+      "article_id": 366,
+      "locale": "en",
+      "slug": "trips-electrics",
+      "title_tag": "Electrolux Washing Machine Trips Electrics – Fixes",
+      "meta_description": "Electrolux washing machine tripping your circuit breaker or RCD? Find the most common causes and step-by-step fixes for this electrical fault.",
+      "h1": "Why Does My Electrolux Washing Machine Keep Tripping the Electrics?",
+      "description": "The washing machine causes the household circuit breaker or RCD to trip when it is switched on, mid-cycle, or during a specific programme phase.",
+      "quick_fix": "Unplug the machine, wait 60 seconds, then plug it into a different wall socket on a separate circuit to rule out a faulty socket or overloaded circuit — if the new socket holds without tripping, the original outlet is the problem (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>When an Electrolux washing machine trips the electrics, it means the appliance is drawing abnormal current or leaking electricity to earth, causing the RCD (residual current device) or circuit breaker in your consumer unit to cut power as a safety measure. This can happen the moment you switch the machine on, as soon as water enters the drum, or at a specific point in the cycle such as when the heater activates.</p><p>The fault is most commonly linked to the heating element, motor, or wiring developing an earth leakage — where current escapes the intended circuit and flows somewhere it should not. Error code E68 can appear on some Electrolux models and is specifically associated with a heater current leakage fault, though the tripping can occur without any code being displayed.</p><p>Because this symptom involves live electrical components, it is classed as an advanced fault. Some checks are safe for a homeowner to carry out, but others require a qualified service technician with the right test equipment.</p>",
+      "causes_json": [
+        {
+          "cause": "Faulty heating element with earth leakage",
+          "detail": "The heating element is the most frequent cause of an Electrolux washing machine tripping the RCD. Over time the element's insulation breaks down, allowing current to leak to the metal drum or casing and triggering the RCD. Error code E68 is directly linked to this fault on many models."
+        },
+        {
+          "cause": "Damaged or degraded wiring and connections",
+          "detail": "Wiring inside the machine can chafe against the cabinet, become pinched during installation, or corrode at connectors. A damaged wire touching the chassis creates an earth fault that will trip the circuit breaker immediately or intermittently."
+        },
+        {
+          "cause": "Water ingress onto electrical components",
+          "detail": "A leaking door seal, pump housing, or detergent drawer can allow water to drip onto the motor, control board, or wiring loom. Water bridging live terminals causes an immediate earth leakage trip."
+        },
+        {
+          "cause": "Failing motor or motor capacitor",
+          "detail": "A worn motor with degraded winding insulation can develop an earth fault, particularly under load during the spin cycle. The capacitor that starts the motor can also short internally and cause a trip."
+        },
+        {
+          "cause": "Defective main control board",
+          "detail": "A burnt or cracked component on the PCB can create a short circuit or earth leakage. This is less common but should be considered if all other components test satisfactory."
+        },
+        {
+          "cause": "Overloaded or faulty household circuit",
+          "detail": "If other high-draw appliances share the same circuit, the combined load can trip a standard breaker even when the washing machine itself is fine. A weak or ageing RCD can also become overly sensitive and trip on normal leakage currents."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Test the wall socket and circuit",
+          "detail": "Unplug the washing machine and plug a different high-wattage appliance (such as a kettle) into the same socket. Run it briefly to confirm the socket and circuit hold without tripping. If the circuit trips with another appliance, the problem is in your household wiring, not the machine — contact an electrician."
+        },
+        {
+          "step": 2,
+          "action": "Try a different socket on a separate circuit",
+          "detail": "Plug the washing machine into a socket in another room that is on a different circuit. Run a short cycle. If the machine runs without tripping, the original circuit is overloaded or the socket is faulty. Avoid using extension leads or multi-socket adaptors with washing machines."
+        },
+        {
+          "step": 3,
+          "action": "Check for visible water leaks inside the machine",
+          "detail": "Switch off and unplug the machine at the wall. Remove the lower access panel and use a torch to look for signs of water pooling around the pump, hoses, or base. Dry any moisture thoroughly with a cloth. A leak dripping onto electrical parts will cause repeated tripping until the source is fixed."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the power cable and plug",
+          "detail": "Examine the full length of the mains cable for cuts, kinks, or scorch marks, and check the plug for signs of burning or a loose connection. A damaged cable must be replaced — do not use insulating tape as a repair. If the plug fuse has blown, replace it with the correct 13 A fuse before testing again."
+        },
+        {
+          "step": 5,
+          "action": "Isolate the heating element with a resistance test",
+          "detail": "This step requires a multimeter and the machine to be fully unplugged. Access the element terminals at the back of the drum (you will need to remove the rear panel on most Electrolux models). Set the multimeter to resistance and test between each element terminal and the machine's earth. A reading below 1 MΩ confirms the element is leaking to earth and must be replaced."
+        },
+        {
+          "step": 6,
+          "action": "Check the motor and its wiring",
+          "detail": "With the machine still unplugged, locate the motor at the base of the drum and inspect the wiring harness for chafing or burn marks. If you have a multimeter, test the motor windings to earth in the same way as the element. A shorted motor winding will show a low resistance reading to earth and the motor will need replacing."
+        },
+        {
+          "step": 7,
+          "action": "Reset and run a diagnostic cycle",
+          "detail": "After any repair or component replacement, plug the machine back in and run a short cotton cycle at 40°C, staying present throughout. Monitor which phase of the cycle — fill, heat, wash, or spin — causes the trip if the fault persists. This information is valuable for a service technician and helps pinpoint the remaining faulty component."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>You should contact a qualified service technician if the machine trips the RCD instantly the moment it is plugged in, if you can see burn marks or smell burning from inside the cabinet, or if the multimeter tests described above confirm an earth fault on the element or motor. These faults involve live components and require safe isolation, specialist test equipment, and correct part replacement.</p><p>You should also call a technician if the tripping is intermittent and you cannot identify a clear cause after working through the steps above, or if error code E68 returns after you have already replaced the heating element. Persistent or unexplained earth faults can indicate a deeper wiring or control board issue that is not safe to diagnose without professional equipment.</p>",
+      "prevention_html": "<p>The parts most commonly replaced on Electrolux washing machines for this fault are the heating element (the single most frequent cause of RCD tripping and E68 errors), the door seal or drum seal (which when torn allows water to reach electrical components), and the main wiring harness or motor brush set (worn brushes can cause arcing that leads to earth faults in the motor circuit).</p><p>Keeping the door seal clean and free of debris, avoiding overloading the drum, and having the machine serviced if you notice any signs of water leaking beneath it will significantly reduce the risk of electrical faults developing over time.</p>\n<!-- SPARE_PARTS_FAULT:trips-electrics -->",
+      "faq_json": [
+        {
+          "answer": "No. An RCD trips because it has detected a genuine earth leakage or overcurrent — it is protecting you and your home. Repeatedly resetting it and continuing to use the appliance risks electric shock, fire, or damage to your consumer unit. Stop using the machine until the fault has been identified and fixed.",
+          "question": "Is it safe to keep resetting the RCD and using the machine?"
+        },
+        {
+          "answer": "Tripping specifically when the water heats up is a strong indicator that the heating element has developed an earth leakage fault — this matches the E68 error code seen on many Electrolux models. The element's insulation tends to fail under thermal stress, so the fault only appears once the element energises. Replacing the element usually resolves this.",
+          "question": "My machine only trips during the wash cycle, not on a cold fill. What does that mean?"
+        },
+        {
+          "answer": "Yes, though it is uncommon. A transit damage issue, a pinched cable during installation, or a manufacturing defect can cause tripping on a new machine. If a brand-new Electrolux machine trips the RCD, stop using it and contact the retailer or Electrolux customer support — do not attempt to repair it yourself while it is under warranty.",
+          "question": "Could a new washing machine still trip the electrics?"
+        },
+        {
+          "answer": "Test the RCD using its built-in test button — it should trip and reset cleanly. Then plug the washing machine into a socket on a completely different circuit (ideally in another part of the house) and run a cycle. If it runs without tripping on the second circuit, the original RCD or circuit may be the issue rather than the appliance. An electrician can test RCD sensitivity with a dedicated tester.",
+          "question": "How do I know if my RCD itself is faulty rather than the washing machine?"
+        },
+        {
+          "answer": "A replacement heating element for an Electrolux washing machine typically costs between £15 and £40 for the part, depending on the model. If a service technician fits it, labour will add to that cost. It is one of the more straightforward component replacements on these machines, so total repair costs are usually reasonable compared to the cost of a new appliance.",
+          "question": "How much does it typically cost to replace a heating element on an Electrolux washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T16:31:22.534247+00:00"
+    },
+    {
+      "id": 595,
+      "article_id": 366,
+      "locale": "sv",
+      "slug": "löser-ut-säkringen",
+      "title_tag": "Electrolux Tvättmaskin Löser Ut Säkringen – Lösningar",
+      "meta_description": "Löser din Electrolux tvättmaskin ut jordfelsbrytaren eller säkringen? Hitta de vanligaste orsakerna och steg-för-steg-lösningar för detta elfel.",
+      "h1": "Varför Löser Min Electrolux Tvättmaskin Ut Säkringen?",
+      "description": "Tvättmaskinen löser ut hushållets säkring eller jordfelsbrytare när den slås på, mitt i ett program eller under en specifik programfas.",
+      "quick_fix": "Dra ur maskinen, vänta 60 sekunder och anslut den sedan till ett annat vägguttag på en separat krets för att utesluta ett defekt uttag eller en överbelastad krets — om det nya uttaget håller utan att lösa ut är det ursprungliga uttaget problemet (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>När en Electrolux tvättmaskin löser ut säkringen innebär det att maskinen drar onormal ström eller läcker ström till jord, vilket gör att jordfelsbrytaren (RCD) eller säkringsautomaten i din elcentral bryter strömmen som en säkerhetsåtgärd. Detta kan inträffa i samma ögonblick som du slår på maskinen, så snart vatten kommer in i trumman, eller vid en specifik punkt i programmet, till exempel när värmeelement aktiveras.</p><p>Felet är oftast kopplat till att värmeelement, motor eller ledningar utvecklar ett jordfel — där ström lämnar den avsedda kretsen och flödar någonstans den inte ska. Felkod E68 kan visas på vissa Electrolux-modeller och är specifikt kopplad till ett jordläckagefel i värmeelementet, även om utlösningen kan ske utan att någon kod visas.</p><p>Eftersom detta symptom involverar spänningsförande elektriska komponenter klassas det som ett avancerat fel. Vissa kontroller är säkra för en husägare att utföra, men andra kräver en behörig servicetekniker med rätt testutrustning.</p>",
+      "causes_json": [
+        {
+          "cause": "Defekt värmeelement med jordläckage",
+          "detail": "Värmeelementet är den vanligaste orsaken till att en Electrolux tvättmaskin löser ut jordfelsbrytaren. Med tiden bryts elementets isolering ned, vilket gör att ström kan läcka till metaltrumman eller höljet och utlösa jordfelsbrytaren. Felkod E68 är direkt kopplad till detta fel på många modeller."
+        },
+        {
+          "cause": "Skadade eller försämrade ledningar och anslutningar",
+          "detail": "Ledningar inuti maskinen kan nötas mot höljet, bli inklämd vid installation eller korrodera vid kontaktdon. En skadad ledning som vidrör chassit skapar ett jordfel som omedelbart eller intermittent löser ut säkringsautomaten."
+        },
+        {
+          "cause": "Vattenintrång på elektriska komponenter",
+          "detail": "En läckande dörrtätning, pumphus eller tvättmedelslåda kan låta vatten droppa ned på motorn, styrkortet eller ledningsstommen. Vatten som bryggar spänningsförande anslutningar orsakar ett omedelbart jordläckage och utlösning."
+        },
+        {
+          "cause": "Defekt motor eller motorkondensator",
+          "detail": "En sliten motor med försämrad lindningsisolering kan utveckla ett jordfel, särskilt under belastning under centrifugeringen. Kondensatorn som startar motorn kan också kortsluta internt och orsaka utlösning."
+        },
+        {
+          "cause": "Defekt huvudstyrningskort",
+          "detail": "En bränd eller sprucken komponent på kretskortet kan skapa en kortslutning eller ett jordläckage. Detta är mindre vanligt men bör övervägas om alla andra komponenter testar tillfredsställande."
+        },
+        {
+          "cause": "Överbelastad eller defekt hushållskrets",
+          "detail": "Om andra apparater med hög effektförbrukning delar samma krets kan den kombinerade belastningen lösa ut en standardsäkring även när tvättmaskinen i sig är felfri. En svag eller åldrande jordfelsbrytare kan också bli överkänslig och lösa ut vid normala läckageströmmar."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Testa vägguttaget och kretsen",
+          "detail": "Dra ur tvättmaskinen och anslut en annan apparat med hög effekt (till exempel en vattenkokare) till samma uttag. Kör den kort för att bekräfta att uttaget och kretsen håller utan att lösa ut. Om kretsen löser ut med en annan apparat ligger problemet i din hushållsinstallation, inte i maskinen — kontakta en elektriker."
+        },
+        {
+          "step": 2,
+          "action": "Prova ett annat uttag på en separat krets",
+          "detail": "Anslut tvättmaskinen till ett uttag i ett annat rum som är på en annan krets. Kör ett kort program. Om maskinen körs utan att lösa ut är den ursprungliga kretsen överbelastad eller uttaget defekt. Undvik att använda förlängningssladdar eller grenuttag till tvättmaskiner."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera om det finns synliga vattenläckor inuti maskinen",
+          "detail": "Stäng av och dra ur maskinen vid väggen. Ta bort den nedre åtkomstpanelen och använd en ficklampa för att leta efter tecken på vattenansamling runt pumpen, slangarna eller botten. Torka noggrant upp all fukt med en trasa. En läcka som droppar på elektriska delar orsakar upprepade utlösningar tills källan är åtgärdad."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera nätkabeln och kontakten",
+          "detail": "Undersök hela nätkabelns längd efter skärningar, knickar eller brännmärken, och kontrollera kontakten för tecken på bränning eller lösa anslutningar. En skadad kabel måste bytas ut — använd inte isoleringstejp som reparation. Om kontaktens säkring har gått, byt ut den mot rätt 10 A-säkring innan du testar igen."
+        },
+        {
+          "step": 5,
+          "action": "Isolera värmeelementet med ett resistanstest",
+          "detail": "Det här steget kräver en multimeter och att maskinen är helt urkopplad. Kom åt elementets anslutningar på baksidan av trumman (du behöver ta bort bakpanelen på de flesta Electrolux-modeller). Ställ multimetern på resistans och testa mellan varje elementanslutning och maskinens jord. Ett värde under 1 MΩ bekräftar att elementet läcker till jord och måste bytas."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera motorn och dess ledningar",
+          "detail": "Med maskinen fortfarande urkopplad, lokalisera motorn vid trummans bas och inspektera ledningsstommen efter nötning eller brännmärken. Om du har en multimeter, testa motorlindningarna mot jord på samma sätt som elementet. En kortsluten motorlindning visar ett lågt resistansvärde mot jord och motorn behöver bytas."
+        },
+        {
+          "step": 7,
+          "action": "Återställ och kör ett diagnostikprogram",
+          "detail": "Efter eventuell reparation eller komponentbyte, anslut maskinen och kör ett kort bomullsprogram vid 40°C och stanna i närheten under hela körningen. Övervaka vilken fas av programmet — fyllning, uppvärmning, tvätt eller centrifugering — som orsakar utlösningen om felet kvarstår. Denna information är värdefull för en servicetekniker och hjälper till att identifiera den återstående defekta komponenten."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Du bör kontakta en behörig servicetekniker om maskinen löser ut jordfelsbrytaren omedelbart när den ansluts, om du kan se brännmärken eller känner bränndoft inifrån höljet, eller om multimetertesterna som beskrivs ovan bekräftar ett jordfel på elementet eller motorn. Dessa fel involverar spänningsförande komponenter och kräver säker frånkoppling, specialiserad testutrustning och korrekt komponentbyte.</p><p>Du bör också ringa en tekniker om utlösningen är intermittent och du inte kan identifiera en tydlig orsak efter att ha gått igenom stegen ovan, eller om felkod E68 återkommer efter att du redan har bytt värmeelementet. Ihållande eller oförklarliga jordfel kan tyda på ett djupare lednings- eller styrkortsfel som inte är säkert att diagnostisera utan professionell utrustning.</p>",
+      "prevention_html": "<p>De delar som oftast byts på Electrolux tvättmaskiner för detta fel är värmeelementet (den enskilt vanligaste orsaken till utlösning av jordfelsbrytaren och E68-fel), dörrtätningen eller trumtätningen (som när den är trasig låter vatten nå elektriska komponenter) samt huvud­ledningsstommen eller motorkolsatsen (slitna kol kan orsaka ljusbågar som leder till jordfel i motorkretsen).</p><p>Att hålla dörrtätningen ren och fri från skräp, undvika att överlasta trumman och låta maskinen servas om du märker att vatten läcker under den minskar avsevärt risken för att elektriska fel uppstår med tiden.</p>\n<!-- SPARE_PARTS_FAULT:trips-electrics -->",
+      "faq_json": [
+        {
+          "answer": "Nej. En jordfelsbrytare löser ut för att den har detekterat ett verkligt jordläckage eller överström — den skyddar dig och ditt hem. Att upprepade gånger återställa den och fortsätta använda maskinen riskerar elstöt, brand eller skada på din elcentral. Sluta använda maskinen tills felet har identifierats och åtgärdats.",
+          "question": "Är det säkert att fortsätta återställa jordfelsbrytaren och använda maskinen?"
+        },
+        {
+          "answer": "Att utlösningen sker specifikt när vattnet värms upp är en stark indikation på att värmeelementet har utvecklat ett jordläckagefel — detta stämmer överens med felkod E68 som ses på många Electrolux-modeller. Elementets isolering tenderar att ge vika under termisk belastning, så felet uppträder först när elementet aktiveras. Att byta elementet löser vanligtvis problemet.",
+          "question": "Min maskin löser bara ut under tvättcykeln, inte vid kallvattenfyllning. Vad betyder det?"
+        },
+        {
+          "answer": "Ja, även om det är ovanligt. Transportskador, en inklämd kabel vid installation eller ett tillverkningsfel kan orsaka utlösning på en ny maskin. Om en helt ny Electrolux-maskin löser ut jordfelsbrytaren, sluta använda den och kontakta återförsäljaren eller Electrolux kundtjänst — försök inte reparera den själv medan den är under garanti.",
+          "question": "Kan en ny tvättmaskin fortfarande lösa ut säkringen?"
+        },
+        {
+          "answer": "Testa jordfelsbrytaren med dess inbyggda testknapp — den ska lösa ut och återställas rent. Anslut sedan tvättmaskinen till ett uttag på en helt annan krets (helst i en annan del av huset) och kör ett program. Om den körs utan att lösa ut på den andra kretsen kan det vara den ursprungliga jordfelsbrytaren eller kretsen som är problemet snarare än maskinen. En elektriker kan testa jordfelsbrytarens känslighet med en dedikerad testare.",
+          "question": "Hur vet jag om det är min jordfelsbrytare som är defekt snarare än tvättmaskinen?"
+        },
+        {
+          "answer": "Ett ersättningsvärmeelement till en Electrolux tvättmaskin kostar vanligtvis mellan 200 och 500 kronor för delen, beroende på modell. Om en servicetekniker monterar det tillkommer arbetskostnad. Det är ett av de mer okomplicerade komponentbytena på dessa maskiner, så de totala reparationskostnaderna är vanligtvis rimliga jämfört med kostnaden för en ny maskin.",
+          "question": "Vad kostar det vanligtvis att byta värmeelement på en Electrolux tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T16:32:40.298275+00:00"
+    },
+    {
+      "id": 596,
+      "article_id": 367,
+      "locale": "en",
+      "slug": "burning-smell",
+      "title_tag": "Electrolux Washing Machine Burning Smell – Fixes",
+      "meta_description": "Electrolux washing machine giving off a burning smell? Find the most likely causes and step-by-step fixes to resolve the fault safely and quickly.",
+      "h1": "Why Does My Electrolux Washing Machine Smell Like Burning?",
+      "description": "A burning smell from an Electrolux washing machine indicates that a component — most often the motor, drive belt, or wiring — is overheating or degrading during operation.",
+      "quick_fix": "Check and clear any obstruction from the drum by running a short empty cycle; if the smell disappears, a trapped item was causing friction against the drum seal or belt (takes about 5 minutes).",
+      "meta_bar_json": null,
+      "intro_html": "<p>A burning smell coming from your Electrolux washing machine is one of those faults you should never ignore. Unlike a minor vibration or a slow drain, a burning odour signals that something is generating excess heat — and in a machine that combines water and electricity, that needs prompt attention.</p><p>The smell can range from a sharp, acrid electrical scent to a rubbery or plasticky odour depending on which component is affected. You might notice it during the wash cycle, the spin cycle, or immediately after the machine finishes. In some cases the machine will continue to run normally; in others it may stop mid-cycle or trip your household circuit breaker.</p><p>The most commonly affected systems are the drive motor, the carbon brushes that power it, the drive belt, and the wiring harness. Working through the causes below in order will help you pinpoint the problem without unnecessary dismantling.</p>",
+      "causes_json": [
+        {
+          "cause": "Worn motor carbon brushes",
+          "detail": "Carbon brushes transfer electrical current to the motor. As they wear down, they make poor contact, generate arcing, and produce a distinctive burning or electrical smell. This is the single most common cause of a burning odour on Electrolux washing machines."
+        },
+        {
+          "cause": "Worn or snapped drive belt",
+          "detail": "The drive belt connects the motor to the drum pulley. A belt that is slipping, fraying, or has partially melted against the motor pulley produces a strong rubbery burning smell, especially during the spin cycle."
+        },
+        {
+          "cause": "Overheating or seized motor",
+          "detail": "If the motor bearings are failing or the motor windings are breaking down, the motor can overheat and emit a sharp electrical burning odour. A seized motor will also cause the drum to stop turning or struggle noticeably under load."
+        },
+        {
+          "cause": "Faulty wiring or burnt electrical connections",
+          "detail": "Loose or corroded wiring connections can arc and burn the surrounding insulation. This produces a sharp, acrid plastic smell and is potentially the most serious cause because it carries a fire risk."
+        },
+        {
+          "cause": "Foreign object trapped between drum and tub",
+          "detail": "Small items such as coins, underwire from a bra, or a sock can become lodged between the outer tub and the drum. As the drum rotates, the friction generates heat and a burning or scorched fabric smell."
+        },
+        {
+          "cause": "Blocked or failing pump motor",
+          "detail": "The drain pump has a small motor that can overheat if it is blocked by debris or if its bearings are failing. The smell in this case tends to be more of a hot plastic or electrical odour and is often accompanied by poor draining."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine immediately",
+          "detail": "As soon as you detect a burning smell, stop the cycle and disconnect the machine from the mains. Do not restart it until you have identified the source. This is a safety-first step — continuing to run the machine risks further damage or, in the case of an electrical fault, a fire."
+        },
+        {
+          "step": 2,
+          "action": "Check for a trapped foreign object",
+          "detail": "Reach into the drum and feel around the rubber door seal, pressing it back gently to look for trapped items. Rotate the drum by hand and listen for scraping or grinding. If you find an object, remove it, then run a short empty rinse cycle to confirm the smell is gone before doing a full wash."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the drive belt",
+          "detail": "Remove the back panel of the machine (usually held by two or three screws). Locate the large drive belt running between the motor pulley and the drum pulley. Look for signs of cracking, glazing, fraying, or melted rubber. A belt in poor condition should be replaced — it is an inexpensive part and straightforward to fit."
+        },
+        {
+          "step": 4,
+          "action": "Examine the motor carbon brushes",
+          "detail": "With the back panel still off, locate the motor and identify the two carbon brush holders on either side. Remove each brush by releasing the retaining clip or unscrewing the holder. If the carbon block is worn down to less than 5 mm in length, the brushes need replacing. New brushes are a common, low-cost spare part for Electrolux machines."
+        },
+        {
+          "step": 5,
+          "action": "Check the wiring and electrical connections",
+          "detail": "With the machine unplugged, visually inspect the wiring harness running to the motor, pump, and control board. Look for any discoloured, melted, or brittle insulation, and check that all connectors are firmly seated. If you find burnt wiring, do not attempt to tape over it — the affected section needs to be properly repaired or replaced by a service technician."
+        },
+        {
+          "step": 6,
+          "action": "Test the drain pump for blockages",
+          "detail": "Access the pump filter at the front lower panel of the machine. Place a towel and a shallow tray underneath, then unscrew the filter cap slowly to drain residual water. Remove any debris from the filter and the pump housing. Refit the filter, run a drain cycle, and check whether the burning smell returns."
+        },
+        {
+          "step": 7,
+          "action": "Run a test cycle and monitor closely",
+          "detail": "After completing whichever checks and replacements apply, plug the machine back in and run a short empty cycle at 40°C. Stay nearby and check for any recurrence of the smell. If the smell returns or the machine trips the circuit breaker, stop immediately and arrange a service technician visit."
+        }
+      ],
+      "affected_models_json": null,
+      "when_to_call_technician_html": "<p>You should contact a qualified service technician if you find burnt or melted wiring anywhere in the machine, if the machine trips your household circuit breaker when switched on, or if the burning smell is accompanied by visible smoke or scorch marks. These are signs of a serious electrical fault that goes beyond routine DIY repair and carries a genuine safety risk.</p><p>You should also call a technician if you have replaced the carbon brushes and drive belt but the burning smell persists, or if the motor appears seized — meaning the drum will not turn freely by hand. A failing motor requires specialist diagnosis and, in many cases, replacement, which is a job best left to someone with the right tools and experience.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when an Electrolux washing machine develops a burning smell are the motor carbon brushes, the drive belt, and the drain pump. Carbon brushes are a wear item and should be inspected every few years on older machines — replacing them proactively before they wear completely down prevents the arcing that causes the burning smell and can also protect the motor itself from damage. A drive belt should be replaced at the first sign of cracking or glazing rather than waiting for it to fail entirely.</p><p>You can search for genuine and compatible replacement parts for your specific Electrolux model using the parts finder below. Always use the model number printed on the label inside the door aperture to ensure you order the correct part.</p>\n<!-- SPARE_PARTS_FAULT:burning-smell -->",
+      "faq_json": [
+        {
+          "answer": "No — you should stop the machine and unplug it as soon as you notice a burning smell. Running it further risks worsening the fault and, if the cause is an electrical issue, could create a fire hazard. Only restart the machine once you have identified and resolved the source of the smell.",
+          "question": "Is it safe to keep using my Electrolux washing machine if it smells like burning?"
+        },
+        {
+          "answer": "Motor brush wear tends to produce a sharp, electrical or metallic burning smell and is often most noticeable during the spin cycle when the motor is working hardest. A failing drive belt produces a more rubbery or plasticky smell. Inspecting both components with the back panel removed will usually make the cause obvious — a worn belt shows visible damage, and worn brushes will be visibly short.",
+          "question": "How do I know if the burning smell is coming from the motor brushes or the belt?"
+        },
+        {
+          "answer": "Carbon brushes typically last between 5 and 10 years depending on how frequently the machine is used and what programmes are run most often. Heavy use of high-speed spin cycles wears brushes faster. If your machine is more than five years old and has never had the brushes checked, it is worth inspecting them as a precaution.",
+          "question": "How long do carbon brushes last on an Electrolux washing machine?"
+        },
+        {
+          "answer": "Yes, but only on a brand-new machine during its first one or two cycles. Manufacturing residues and protective coatings on heating elements can produce a mild smell initially. However, if the smell is strong, acrid, or rubbery, or if it appears on a machine that has been in use for some time, it should be treated as a genuine fault rather than a run-in smell.",
+          "question": "Can a burning smell from a washing machine be caused by a new machine smell?"
+        },
+        {
+          "answer": "In most cases, yes — worn carbon brushes are the leading cause of a burning smell on Electrolux washing machines, and fitting new brushes resolves the fault completely. However, if the brushes were allowed to wear down to nothing, the motor's commutator may have been damaged by arcing. If the smell persists after fitting new brushes, the motor itself may need to be assessed by a service technician.",
+          "question": "Will replacing the carbon brushes fix the burning smell for good?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "published",
+      "translated_by": "claude",
+      "source_locale": null,
+      "last_updated": "2026-04-09T16:33:35.315085+00:00"
+    },
+    {
+      "id": 597,
+      "article_id": 367,
+      "locale": "sv",
+      "slug": "branlukt",
+      "title_tag": "Electrolux Tvättmaskin Bränner – Lösningar",
+      "meta_description": "Luktar det bränt från din Electrolux tvättmaskin? Hitta de vanligaste orsakerna och steg-för-steg-lösningar för att åtgärda felet säkert och snabbt.",
+      "h1": "Varför luktar min Electrolux tvättmaskin bränt?",
+      "description": "En brännande lukt från en Electrolux tvättmaskin indikerar att en komponent — oftast motorn, drivremmen eller kablaget — överhettas eller bryts ned under drift.",
+      "quick_fix": "Kontrollera och rensa eventuella hinder från trumman genom att köra ett kort tomt program; om lukten försvinner orsakade ett inneslutet föremål friktion mot trummans tätning eller rem (tar ungefär 5 minuter).",
+      "meta_bar_json": null,
+      "intro_html": "<p>En brännande lukt från din Electrolux tvättmaskin är ett fel du aldrig bör ignorera. Till skillnad från en mindre vibration eller ett långsamt avlopp signalerar en bränndoft att något genererar överskottsvärme — och i en maskin som kombinerar vatten och el kräver det omedelbar uppmärksamhet.</p><p>Lukten kan variera från en skarp, frän elektrisk doft till en gummiliknande eller plastliknande lukt beroende på vilken komponent som är påverkad. Du kan märka det under tvättcykeln, centrifugeringen eller direkt efter att maskinen är klar. I vissa fall fortsätter maskinen att fungera normalt; i andra kan den stanna mitt i cykeln eller lösa ut din säkring.</p><p>De vanligast drabbade systemen är drivmotorn, kolborstarna som driver den, drivremmen och kabelstammen. Att gå igenom orsakerna nedan i ordning hjälper dig att identifiera problemet utan onödig isärtagning.</p>",
+      "causes_json": [
+        {
+          "cause": "Slitna motorkolborstar",
+          "detail": "Kolborstar överför elektrisk ström till motorn. När de slits ned ger de dålig kontakt, genererar ljusbågar och producerar en karakteristisk brännande eller elektrisk lukt. Detta är den enskilt vanligaste orsaken till brännlukt på Electrolux tvättmaskiner."
+        },
+        {
+          "cause": "Sliten eller av drivrem",
+          "detail": "Drivremmen förbinder motorn med trummans remskiva. En rem som slirar, fransar sig eller delvis har smält mot motorns remskiva ger en stark gummiliknande brännlukt, särskilt under centrifugeringen."
+        },
+        {
+          "cause": "Överhettad eller låst motor",
+          "detail": "Om motorlagren håller på att ge vika eller motorlindningarna bryts ned kan motorn överhettas och avge en skarp elektrisk brännlukt. En låst motor gör också att trumman slutar rotera eller märkbart kämpar under belastning."
+        },
+        {
+          "cause": "Defekt kablage eller brända elektriska anslutningar",
+          "detail": "Lösa eller korroderade kabelanslutningar kan bilda ljusbågar och bränna den omgivande isoleringen. Detta ger en skarp, frän plastlukt och är potentiellt den allvarligaste orsaken eftersom det medför brandrisk."
+        },
+        {
+          "cause": "Främmande föremål inneslutet mellan trumma och kar",
+          "detail": "Små föremål som mynt, bysthållarbyglar eller en strumpa kan fastna mellan det yttre karet och trumman. När trumman roterar genererar friktionen värme och en brännande eller svedlukt av tyg."
+        },
+        {
+          "cause": "Blockerad eller defekt pumpmotorn",
+          "detail": "Avloppspumpen har en liten motor som kan överhettas om den är blockerad av skräp eller om dess lager håller på att ge vika. Lukten i detta fall tenderar att vara mer av en het plast- eller elektrisk doft och åtföljs ofta av dålig avrinning."
+        }
+      ],
+      "symptoms_json": null,
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen omedelbart",
+          "detail": "Så snart du känner en brännlukt, stoppa programmet och koppla ur maskinen från elnätet. Starta inte om den förrän du har identifierat källan. Detta är ett säkerhetssteg — att fortsätta köra maskinen riskerar ytterligare skada eller, vid ett elektriskt fel, brand."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera om ett främmande föremål fastnat",
+          "detail": "Känn runt i trumman och längs gummitätningen vid luckan, tryck försiktigt tillbaka den för att leta efter insnärjda föremål. Rotera trumman för hand och lyssna efter skrapande eller malande ljud. Om du hittar ett föremål, ta bort det och kör sedan ett kort tomt sköljprogram för att bekräfta att lukten är borta innan du kör en full tvätt."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera drivremmen",
+          "detail": "Ta bort maskinens bakpanel (vanligtvis fäst med två eller tre skruvar). Lokalisera den stora drivremmen som löper mellan motorns remskiva och trummans remskiva. Leta efter tecken på sprickor, glansighet, fransning eller smält gummi. En rem i dåligt skick bör bytas — det är en billig del och enkel att montera."
+        },
+        {
+          "step": 4,
+          "action": "Undersök motorns kolborstar",
+          "detail": "Med bakpanelen fortfarande borttagen, lokalisera motorn och identifiera de två kolborsthållarna på vardera sidan. Ta bort varje borste genom att lossa hållklämman eller skruva loss hållaren. Om kolblocket är nednött till mindre än 5 mm i längd behöver borstarna bytas. Nya borstar är en vanlig, billig reservdel till Electrolux maskiner."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera kablage och elektriska anslutningar",
+          "detail": "Med maskinen urkopplad, inspektera visuellt kabelstammen som leder till motorn, pumpen och styrkortet. Leta efter missfärgad, smält eller sprucken isolering och kontrollera att alla kontakter sitter ordentligt. Om du hittar bränt kablage, försök inte tejpa över det — den skadade sektionen måste repareras eller bytas ut ordentligt av en servicetekniker."
+        },
+        {
+          "step": 6,
+          "action": "Testa avloppspumpen för blockeringar",
+          "detail": "Öppna pumpfiltret vid maskinens nedre frontpanel. Lägg en handduk och ett grunt kärl undertill och skruva sedan långsamt loss filterlocket för att tömma kvarvarande vatten. Ta bort eventuellt skräp från filtret och pumphuset. Sätt tillbaka filtret, kör ett avloppsprogram och kontrollera om brännlukten återkommer."
+        },
+        {
+          "step": 7,
+          "action": "Kör ett testprogram och övervaka noga",
+          "detail": "Efter att ha utfört aktuella kontroller och byten, koppla in maskinen och kör ett kort tomt program vid 40°C. Stanna i närheten och kontrollera om lukten återkommer. Om lukten återkommer eller maskinen löser ut säkringen, stanna omedelbart och boka ett besök av en servicetekniker."
+        }
+      ],
+      "affected_models_json": [],
+      "when_to_call_technician_html": "<p>Du bör kontakta en behörig servicetekniker om du hittar bränt eller smält kablage någonstans i maskinen, om maskinen löser ut din säkring när den slås på, eller om brännlukten åtföljs av synlig rök eller brännmärken. Dessa är tecken på ett allvarligt elektriskt fel som går utöver vanlig DIY-reparation och medför en verklig säkerhetsrisk.</p><p>Du bör också ringa en tekniker om du har bytt kolborstar och drivrem men brännlukten kvarstår, eller om motorn verkar låst — det vill säga att trumman inte roterar fritt för hand. En defekt motor kräver specialistdiagnos och i många fall byte, vilket är ett arbete som bäst överlåts till någon med rätt verktyg och erfarenhet.</p>",
+      "prevention_html": "<p>De delar som oftast byts när en Electrolux tvättmaskin utvecklar brännlukt är motorns kolborstar, drivremmen och avloppspumpen. Kolborstar är en förslitningsdel och bör inspekteras vart par år på äldre maskiner — att byta dem förebyggande innan de slits helt ned förhindrar de ljusbågar som orsakar brännlukten och kan även skydda motorn från skada. En drivrem bör bytas vid första tecken på sprickor eller glansighet snarare än att vänta tills den går av helt.</p><p>Du kan söka efter äkta och kompatibla reservdelar till din specifika Electrolux-modell med hjälp av reservdelssökaren nedan. Använd alltid modellnumret som finns på etiketten inuti lucköppningen för att säkerställa att du beställer rätt del.</p>\n<!-- SPARE_PARTS_FAULT:burning-smell -->",
+      "faq_json": [
+        {
+          "answer": "Nej — du bör stanna maskinen och koppla ur den så snart du märker en brännlukt. Att köra den vidare riskerar att förvärra felet och, om orsaken är ett elektriskt problem, kan det skapa en brandrisk. Starta bara om maskinen när du har identifierat och åtgärdat källan till lukten.",
+          "question": "Är det säkert att fortsätta använda min Electrolux tvättmaskin om den luktar bränt?"
+        },
+        {
+          "answer": "Slitage på motorborstar tenderar att ge en skarp, elektrisk eller metallisk brännlukt och märks ofta mest under centrifugeringen när motorn arbetar som hårdast. En defekt drivrem ger en mer gummiliknande eller plastliknande lukt. Att inspektera båda komponenterna med bakpanelen borttagen gör vanligtvis orsaken uppenbar — en sliten rem visar synliga skador och slitna borstar är synligt korta.",
+          "question": "Hur vet jag om brännlukten kommer från motorborstarna eller remmen?"
+        },
+        {
+          "answer": "Kolborstar håller vanligtvis mellan 5 och 10 år beroende på hur ofta maskinen används och vilka program som körs mest. Frekvent användning av höghastighetscentrifugering sliter borstar snabbare. Om din maskin är mer än fem år gammal och borstarna aldrig har kontrollerats är det värt att inspektera dem som en försiktighetsåtgärd.",
+          "question": "Hur länge håller kolborstar på en Electrolux tvättmaskin?"
+        },
+        {
+          "answer": "Ja, men bara på en helt ny maskin under de första en eller två programmen. Tillverkningsrester och skyddsbeläggningar på värmeelement kan ge en mild lukt inledningsvis. Men om lukten är stark, frän eller gummiliknande, eller om den uppträder på en maskin som har använts ett tag, bör den behandlas som ett verkligt fel snarare än en inkörningslukt.",
+          "question": "Kan brännlukt från en tvättmaskin bero på ny-maskin-lukt?"
+        },
+        {
+          "answer": "I de flesta fall ja — slitna kolborstar är den vanligaste orsaken till brännlukt på Electrolux tvättmaskiner och att montera nya borstar löser felet helt. Men om borstarna tilläts slitas ned till ingenting kan motorns kollektor ha skadats av ljusbågar. Om lukten kvarstår efter att nya borstar monterats kan motorn i sig behöva bedömas av en servicetekniker.",
+          "question": "Löser byte av kolborstar brännlukten permanent?"
+        }
+      ],
+      "parts_json": null,
+      "translation_status": "pending",
+      "translated_by": "claude",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T16:34:48.317049+00:00"
+    }
+  ]
+}

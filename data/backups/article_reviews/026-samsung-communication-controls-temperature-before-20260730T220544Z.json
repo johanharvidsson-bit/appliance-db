@@ -1,0 +1,3503 @@
+{
+  "exported_at": "2026-07-30T22:05:44.003650+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    36,
+    38,
+    39,
+    40,
+    41
+  ],
+  "rows": [
+    {
+      "article_id": 36,
+      "locale": "en",
+      "slug": "samsung-error-code-ac",
+      "title_tag": "Samsung Washing Machine Error Code AC | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code AC? Learn what causes this communication fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code AC Mean on a Samsung Washing Machine?",
+      "description": "Error code AC on a Samsung washing machine indicates a communication failure between the main control board and the motor inverter board.",
+      "quick_fix": "Unplug the washing machine from the wall socket, wait 5 minutes, then plug it back in and restart a wash cycle — this clears the majority of AC errors caused by temporary communication glitches (takes about 5 minutes).",
+      "intro_html": "<p>Error code AC points to a breakdown in communication between two key electronic components inside your Samsung washing machine: the main control board (also called the PCB) and the motor inverter board. These two boards constantly exchange signals to coordinate motor speed and drum movement. When that signal is interrupted or lost, the machine stops and displays AC to protect itself from running incorrectly.</p><p>When this error appears, the wash cycle will halt and the machine will typically become unresponsive until the fault is cleared. You may notice the display freezing, the drum stopping mid-cycle, or the machine refusing to start at all. In many cases the fault is temporary — caused by a power fluctuation or a brief signal dropout — and a simple reset is all that is needed.</p><p>However, if the error returns repeatedly after resetting, there is likely an underlying electrical or hardware problem that needs closer attention. The steps below will help you work through the most common causes in order, from the simplest fix to the more involved ones.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary communication glitch",
+          "detail": "A brief power fluctuation or software hiccup can cause the two boards to lose sync momentarily. This is the most common reason for a first-time AC error and usually clears after a full power reset."
+        },
+        {
+          "cause": "Loose or damaged wiring harness",
+          "detail": "The ribbon cable or wiring loom connecting the main control board to the motor inverter board can work loose over time due to vibration. A partially disconnected or corroded connector will cause intermittent or persistent communication failures."
+        },
+        {
+          "cause": "Faulty motor inverter board",
+          "detail": "The inverter board controls the motor's speed and direction. If it develops an internal fault — due to a power surge, component failure, or age — it may stop responding to signals from the main board, triggering the AC error."
+        },
+        {
+          "cause": "Defective main control board (PCB)",
+          "detail": "Less commonly, the main control board itself is the source of the problem. If it cannot send or receive communication signals correctly, the AC error will appear regardless of the condition of the inverter board."
+        },
+        {
+          "cause": "Power supply instability",
+          "detail": "Voltage fluctuations from the mains supply or a faulty power outlet can disrupt the electronics inside the machine. If your home has experienced recent power cuts or surges, this may have triggered or contributed to the fault."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Perform a full power reset",
+          "detail": "Switch the washing machine off using the power button, then unplug it from the wall socket. Leave it unplugged for at least 5 minutes — this allows the capacitors on the control boards to fully discharge and clears any temporary error states. Plug it back in, select a short wash cycle, and observe whether the AC error returns."
+        },
+        {
+          "step": 2,
+          "action": "Check the power outlet and supply",
+          "detail": "Plug another appliance into the same socket to confirm it is working correctly. Avoid using an extension lead or multi-socket adaptor with your washing machine — these can cause voltage drops that affect sensitive electronics. If the socket seems faulty, try a different outlet on a separate circuit."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the wiring harness connections",
+          "detail": "Before doing this, unplug the machine from the mains. Remove the back panel of the washing machine (usually held by a few Phillips-head screws) to access the internal boards. Locate the wiring loom running between the main control board and the motor inverter board, and press each connector firmly into place. Look for any signs of burning, corrosion, or broken wires. Refit the panel and test the machine."
+        },
+        {
+          "step": 4,
+          "action": "Check for visible damage on both boards",
+          "detail": "With the back panel removed and the machine unplugged, visually inspect both the main control board and the motor inverter board. Look for burnt components, swollen capacitors, scorch marks, or cracked solder joints. Any visible damage is a strong indicator that the affected board needs replacing rather than repairing."
+        },
+        {
+          "step": 5,
+          "action": "Test or replace the motor inverter board",
+          "detail": "If the wiring is intact and there is no visible damage, the inverter board is the more likely faulty component of the two. Source a compatible replacement board using your machine's full model number (found on the label inside the door rim). Swap the board, reconnect all wiring carefully, and run a test cycle to confirm the error is resolved."
+        },
+        {
+          "step": 6,
+          "action": "Test or replace the main control board",
+          "detail": "If replacing the inverter board does not clear the AC error, the main control board is the next component to address. Again, match the replacement part to your exact model number. If you are not confident working with electronic components, this is the point at which calling a service technician is the safer and more cost-effective option."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If the AC error returns immediately after every reset, or if you have inspected the wiring and found no obvious loose connections, it is likely that one of the control boards has failed internally. Board-level faults are difficult to diagnose without specialist test equipment, and incorrect installation of a replacement board can cause further damage to the machine.</p><p>You should also contact a service technician if you notice any burning smell, scorch marks on the boards or wiring, or if the machine trips your home's circuit breaker when switched on. These are signs of a more serious electrical fault that should not be investigated without professional knowledge and tools.</p>",
+      "prevention_html": "<p>The AC error is most often linked to electronic component failure or wiring issues rather than user maintenance habits. That said, protecting your machine from power surges by using a surge-protected socket can reduce the risk of board damage over time. Avoid overloading the drum, as excessive vibration can gradually loosen internal wiring connectors.</p><p>The parts most commonly replaced when resolving an AC error on Samsung washing machines are the <strong>motor inverter board</strong>, the <strong>main control board (PCB)</strong>, and the <strong>wiring harness</strong> connecting the two. Use your full model number when ordering to ensure compatibility.</p>\n<!-- SPARE_PARTS:AC -->",
+      "faq_json": [
+        {
+          "answer": "Sometimes, yes. If the error was caused by a temporary power fluctuation or communication dropout, unplugging the machine for 5-10 minutes and restarting it is often enough to clear it. However, if the error reappears on the next cycle or immediately after reset, there is an underlying fault that will not resolve on its own.",
+          "question": "Will the AC error clear itself if I leave the machine for a while?"
+        },
+        {
+          "answer": "No — when the AC error is active, the machine will stop the cycle and will not operate normally. Attempting to force it to run could cause further damage to the control boards or motor. It is best to resolve the fault before using the machine again.",
+          "question": "Can I still use my washing machine if it shows error code AC?"
+        },
+        {
+          "answer": "Without specialist diagnostic equipment it can be difficult to tell the two apart. As a general rule, start with the inverter board since it is the more commonly replaced component for the AC error. If replacing it does not fix the problem, the main control board is the next step. A service technician can test both boards with a multimeter to confirm which has failed before any parts are ordered.",
+          "question": "How do I know whether it is the inverter board or the main control board that has failed?"
+        },
+        {
+          "answer": "They are related but not identical. All three codes point to communication issues between the control board and the inverter board, but AC6 and 1AC are more specific sub-codes that appear on newer Samsung models. The diagnostic approach and likely causes are very similar across all three codes.",
+          "question": "Is error code AC the same as error code AC6 or 1AC on Samsung machines?"
+        },
+        {
+          "answer": "If a power reset resolves the issue, there is no cost at all. If a board replacement is needed, the inverter board typically costs between £30 and £80 for the part, while the main control board can range from £60 to £150 depending on the model. Add labour costs if you use a service technician. It is worth comparing the repair cost against the age and value of the machine before committing to an expensive board replacement.",
+          "question": "How much does it typically cost to fix error code AC on a Samsung washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:34.717226+00:00"
+    },
+    {
+      "article_id": 36,
+      "locale": "sv",
+      "slug": "samsung-felkod-ac",
+      "title_tag": "Samsung Tvättmaskin Felkod AC | Åtgärda Det Nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod AC? Lär dig vad som orsakar detta kommunikationsfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod AC på en Samsung Tvättmaskin?",
+      "description": "Felkod AC på en Samsung tvättmaskin indikerar ett kommunikationsfel mellan huvudkortet och motorns inverterarkort.",
+      "quick_fix": "Dra ut tvättmaskinens stickkontakt ur vägguttaget, vänta 5 minuter, sätt sedan i kontakten igen och starta ett tvättprogram — detta åtgärdar majoriteten av AC-fel som orsakas av tillfälliga kommunikationsstörningar (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod AC pekar på ett kommunikationsavbrott mellan två viktiga elektroniska komponenter i din Samsung tvättmaskin: huvudkortet (även kallat PCB) och motorns inverterarkort. Dessa två kort utbyter ständigt signaler för att samordna motorhastighet och trummans rörelse. När den signalen avbryts eller försvinner stannar maskinen och visar AC för att skydda sig mot att köra felaktigt.</p><p>När detta fel uppstår avbryts tvättcykeln och maskinen slutar vanligtvis att svara tills felet har åtgärdats. Du kan märka att displayen fryser, att trumman stannar mitt i ett program eller att maskinen vägrar starta överhuvudtaget. I många fall är felet tillfälligt — orsakat av en strömfluktuering eller ett kortvarigt signalbortfall — och en enkel återställning är allt som behövs.</p><p>Om felet däremot återkommer upprepade gånger efter återställning finns det troligtvis ett underliggande elektriskt eller hårdvaruproblem som kräver noggrannare undersökning. Stegen nedan hjälper dig att gå igenom de vanligaste orsakerna i ordning, från den enklaste lösningen till de mer komplicerade.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfällig kommunikationsstörning",
+          "detail": "En kortvarig strömfluktuering eller programvarustörning kan göra att de två korten tillfälligt tappar synkroniseringen. Detta är den vanligaste orsaken till ett första AC-fel och försvinner vanligtvis efter en fullständig strömåterställning."
+        },
+        {
+          "cause": "Lös eller skadad kabelstam",
+          "detail": "Bandkabeln eller kabelstammen som förbinder huvudkortet med motorns inverterarkort kan lossna med tiden på grund av vibrationer. En delvis urkopplad eller korroderad kontakt orsakar intermittenta eller ihållande kommunikationsfel."
+        },
+        {
+          "cause": "Defekt motorinverterarkort",
+          "detail": "Inverterarkortet styr motorns hastighet och riktning. Om det utvecklar ett internt fel — på grund av ett strömöverspänning, komponentfel eller ålder — kan det sluta svara på signaler från huvudkortet och utlösa AC-felet."
+        },
+        {
+          "cause": "Defekt huvudkort (PCB)",
+          "detail": "Mer sällan är huvudkortet självt källan till problemet. Om det inte kan skicka eller ta emot kommunikationssignaler korrekt visas AC-felet oavsett inverterarkortets skick."
+        },
+        {
+          "cause": "Instabil strömförsörjning",
+          "detail": "Spänningsfluktuationer från elnätet eller ett defekt vägguttag kan störa elektroniken i maskinen. Om ditt hem nyligen har drabbats av strömavbrott eller överspänningar kan detta ha utlöst eller bidragit till felet."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Utför en fullständig strömåterställning",
+          "detail": "Stäng av tvättmaskinen med strömknappen och dra sedan ut stickkontakten ur vägguttaget. Låt den vara urkopplad i minst 5 minuter — detta låter kondensatorerna på styrkorten laddas ur helt och rensar eventuella tillfälliga feltillstånd. Sätt i kontakten igen, välj ett kort tvättprogram och observera om AC-felet återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera vägguttaget och strömförsörjningen",
+          "detail": "Anslut en annan apparat till samma uttag för att bekräfta att det fungerar korrekt. Undvik att använda en förlängningssladd eller grenuttag till din tvättmaskin — dessa kan orsaka spänningsfall som påverkar känslig elektronik. Om uttaget verkar defekt, prova ett annat uttag på en separat krets."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera kabelstammens anslutningar",
+          "detail": "Dra ut maskinens stickkontakt ur vägguttaget innan du gör detta. Ta bort bakpanelen på tvättmaskinen (vanligtvis fäst med några Phillips-skruvar) för att komma åt de interna korten. Leta upp kabelstammen som löper mellan huvudkortet och motorns inverterarkort och tryck in varje kontakt ordentligt. Leta efter tecken på brännskador, korrosion eller trasiga ledningar. Sätt tillbaka panelen och testa maskinen."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera båda korten för synliga skador",
+          "detail": "Med bakpanelen borttagen och maskinen urkopplad, inspektera visuellt både huvudkortet och motorns inverterarkort. Leta efter brända komponenter, uppsvällda kondensatorer, brännskador eller spruckna lödfogar. Synliga skador är en tydlig indikation på att det berörda kortet behöver bytas ut snarare än repareras."
+        },
+        {
+          "step": 5,
+          "action": "Testa eller byt ut motorns inverterarkort",
+          "detail": "Om kablaget är intakt och det inte finns några synliga skador är inverterarkortet den mer troliga defekta komponenten av de två. Skaffa ett kompatibelt ersättningskort med hjälp av maskinens fullständiga modellnummer (finns på etiketten inuti lucköppningens kant). Byt ut kortet, återanslut all kablage noggrant och kör ett testprogram för att bekräfta att felet är åtgärdat."
+        },
+        {
+          "step": 6,
+          "action": "Testa eller byt ut huvudkortet",
+          "detail": "Om byte av inverterarkortet inte åtgärdar AC-felet är huvudkortet nästa komponent att ta itu med. Matcha återigen reservdelen mot ditt exakta modellnummer. Om du inte känner dig trygg med att arbeta med elektroniska komponenter är det vid det här laget säkrare och mer kostnadseffektivt att kontakta en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om AC-felet återkommer omedelbart efter varje återställning, eller om du har inspekterat kablaget utan att hitta några uppenbara lösa anslutningar, är det troligt att ett av styrkorten har fått ett internt fel. Fel på kortnivå är svåra att diagnostisera utan specialiserad testutrustning, och felaktig installation av ett ersättningskort kan orsaka ytterligare skador på maskinen.</p><p>Du bör också kontakta en servicetekniker om du märker någon bränndoft, brännskador på korten eller kablaget, eller om maskinen löser ut din hemmas säkring när den slås på. Dessa är tecken på ett allvarligare elfel som inte bör undersökas utan professionella kunskaper och verktyg.</p>",
+      "prevention_html": "<p>AC-felet är oftast kopplat till elektroniska komponentfel eller kablageproblem snarare än användarens underhållsvanor. Det sagt kan du minska risken för kortskador över tid genom att skydda maskinen mot strömöverspänningar med ett överspänningsskyddat uttag. Undvik att överlasta trumman, eftersom överdrivna vibrationer gradvis kan lossa interna kabelanslutningar.</p><p>De delar som oftast byts ut vid åtgärdande av AC-fel på Samsung tvättmaskiner är <strong>motorns inverterarkort</strong>, <strong>huvudkortet (PCB)</strong> och <strong>kabelstammen</strong> som förbinder de två. Använd ditt fullständiga modellnummer när du beställer för att säkerställa kompatibilitet.</p>\n<!-- SPARE_PARTS:AC -->",
+      "faq_json": [
+        {
+          "answer": "Ibland, ja. Om felet orsakades av en tillfällig strömfluktuering eller kommunikationsbortfall räcker det ofta att dra ut maskinens stickkontakt i 5–10 minuter och starta om den. Om felet däremot återkommer vid nästa program eller omedelbart efter återställning finns det ett underliggande fel som inte löser sig av sig självt.",
+          "question": "Försvinner AC-felet av sig självt om jag låter maskinen stå ett tag?"
+        },
+        {
+          "answer": "Nej — när AC-felet är aktivt stannar maskinen programmet och fungerar inte normalt. Att försöka tvinga den att köra kan orsaka ytterligare skador på styrkorten eller motorn. Det är bäst att åtgärda felet innan maskinen används igen.",
+          "question": "Kan jag fortfarande använda min tvättmaskin om den visar felkod AC?"
+        },
+        {
+          "answer": "Utan specialiserad diagnostikutrustning kan det vara svårt att skilja de två åt. Som en allmän regel, börja med inverterarkortet eftersom det är den komponent som oftast byts ut vid AC-felet. Om byte av det inte löser problemet är huvudkortet nästa steg. En servicetekniker kan testa båda korten med en multimeter för att bekräfta vilket som har gått sönder innan några delar beställs.",
+          "question": "Hur vet jag om det är inverterarkortet eller huvudkortet som har gått sönder?"
+        },
+        {
+          "answer": "De är besläktade men inte identiska. Alla tre koder pekar på kommunikationsproblem mellan styrkortet och inverterarkortet, men AC6 och 1AC är mer specifika delkoder som visas på nyare Samsung-modeller. Diagnostikmetoden och de troliga orsakerna är mycket lika för alla tre koderna.",
+          "question": "Är felkod AC samma sak som felkod AC6 eller 1AC på Samsung-maskiner?"
+        },
+        {
+          "answer": "Om en strömåterställning löser problemet kostar det ingenting alls. Om ett kortbyte behövs kostar inverterarkortet vanligtvis mellan 300 och 800 kronor för delen, medan huvudkortet kan kosta mellan 600 och 1 500 kronor beroende på modell. Lägg till arbetskostnad om du anlitar en servicetekniker. Det är värt att jämföra reparationskostnaden med maskinens ålder och värde innan du bestämmer dig för ett dyrt kortbyte.",
+          "question": "Hur mycket kostar det vanligtvis att åtgärda felkod AC på en Samsung tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:35.425626+00:00"
+    },
+    {
+      "article_id": 38,
+      "locale": "en",
+      "slug": "samsung-error-code-ac3",
+      "title_tag": "Samsung Washing Machine Error Code AC3 | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code AC3? Learn what causes this motor fault, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code AC3 Mean on a Samsung Washing Machine?",
+      "description": "Error code AC3 on a Samsung washing machine indicates a fault in the motor or drive system, preventing the drum from spinning or agitating correctly.",
+      "quick_fix": "Check that all wiring connectors to the motor are firmly seated and undamaged — press each connector home until it clicks — then restart the machine to see if the error clears (takes about 10 minutes).",
+      "intro_html": "<p>When your Samsung washing machine displays error code AC3, it has detected a problem with the motor or its drive system. This could involve the motor itself, the wiring that supplies it, the drive belt, or the motor control board that tells the motor what to do. The machine's control system monitors motor performance continuously, and when it detects something outside normal parameters, it stops the cycle and displays AC3 to protect the appliance from further damage.</p><p>In practical terms, you'll usually notice the drum has stopped spinning or agitating, or the machine halts mid-cycle without completing the wash. In some cases the drum may move sluggishly or make unusual noises before the error appears. The machine will not resume until the underlying fault is identified and resolved.</p><p>Some causes of AC3 are straightforward to check yourself, such as loose wiring connections or a worn drive belt. Others — particularly motor brush replacement or a faulty control board — will require a service technician. Work through the steps below in order before calling for professional help.</p>",
+      "causes_json": [
+        {
+          "cause": "Loose or damaged motor wiring",
+          "detail": "Vibration from normal use can loosen the electrical connectors that run between the motor and the control board. A connector that has worked loose or a wire that has chafed through will interrupt the motor circuit and trigger AC3."
+        },
+        {
+          "cause": "Worn motor brushes",
+          "detail": "Many Samsung washing machine motors use carbon brushes to transfer current to the rotating part of the motor. These brushes wear down gradually over time and, once too short, cause intermittent or complete loss of motor function."
+        },
+        {
+          "cause": "Damaged or stretched drive belt",
+          "detail": "The drive belt transfers rotation from the motor to the drum. If the belt has snapped, slipped off its pulleys, or stretched to the point where it slips under load, the motor runs but the drum does not respond as expected."
+        },
+        {
+          "cause": "Faulty motor control board",
+          "detail": "The motor control board regulates the speed and direction of the motor. A failed component on this board — often caused by a power surge or age-related wear — can produce incorrect signals or no signal at all, resulting in AC3."
+        },
+        {
+          "cause": "Defective motor",
+          "detail": "In less common cases the motor itself has developed an internal fault such as a burnt-out winding or seized bearing. This is more likely on older machines or those that have been run with worn brushes for an extended period."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power off and unplug the machine",
+          "detail": "Switch the washing machine off at the control panel, then unplug it from the wall socket. Wait at least two minutes before opening any panels. This is essential for safety whenever you are working near electrical components or the motor."
+        },
+        {
+          "step": 2,
+          "action": "Restart the machine to rule out a temporary glitch",
+          "detail": "Plug the machine back in, select a short spin cycle, and observe whether AC3 reappears immediately. Occasionally a one-off voltage fluctuation can trigger the error without an underlying mechanical fault. If the error does not return, monitor the machine over the next few washes before investigating further."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the motor wiring connections",
+          "detail": "Remove the back panel of the machine (usually held by four or five screws around the perimeter). Locate the motor — it sits beneath the drum — and trace the wiring harness from the motor up to the control board. Press each connector firmly until it clicks into place, and look for any wires that appear burnt, pinched, or have bare copper showing. Reconnect the panel, plug in, and test."
+        },
+        {
+          "step": 4,
+          "action": "Check the drive belt",
+          "detail": "With the back panel still removed, look at the large pulley on the rear of the drum and the smaller pulley on the motor. The belt should sit snugly in the grooves of both pulleys with no slack, cracking, or fraying. If the belt has snapped it will be lying loose at the bottom of the cabinet. A replacement belt is a straightforward DIY repair — note the belt size printed on the old one before ordering."
+        },
+        {
+          "step": 5,
+          "action": "Inspect the motor brushes",
+          "detail": "The carbon brushes are located in small plastic holders on either side of the motor body and are usually accessible without fully removing the motor. Slide each brush out and measure its length — if either brush is shorter than approximately 1 cm, both should be replaced as a pair. New brushes are inexpensive and widely available for most Samsung models."
+        },
+        {
+          "step": 6,
+          "action": "Test the motor for visible damage",
+          "detail": "Look at the motor body for signs of burning, a smell of scorched insulation, or a seized shaft that will not turn freely by hand. If any of these are present, the motor itself has failed and will need to be replaced — this is a job best handled by a service technician given the complexity of motor removal and the cost of the part."
+        },
+        {
+          "step": 7,
+          "action": "Check the motor control board",
+          "detail": "If all mechanical components appear sound, the motor control board is the remaining suspect. Locate the board (usually mounted on the rear or base of the machine) and inspect it for burnt components, bulging capacitors, or scorch marks. Do not attempt to repair the board yourself — if damage is visible, or if all other steps have failed to resolve AC3, contact a service technician for diagnosis and replacement."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have checked the wiring connections and drive belt and the error persists, the fault is most likely with the motor brushes, the motor itself, or the motor control board. Replacing motor brushes is within reach of a confident DIYer, but if the motor shows signs of burning or the shaft is seized, a service technician should carry out the replacement. Similarly, motor control board diagnosis requires specialist test equipment to confirm the fault before an expensive part is ordered.</p><p>You should also call a service technician if the machine trips your household circuit breaker when you attempt to run it, or if you notice a burning smell during operation. These symptoms suggest an electrical fault that could be a safety risk if the machine continues to be used.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an AC3 error are the motor carbon brushes, the drive belt, and the motor control board. Brushes and belts are wear items with a finite lifespan, so keeping a note of when they were last replaced can help you anticipate future faults. The motor control board is less predictable but is more likely to fail on machines that have experienced power surges — fitting a surge-protected extension lead is a simple precaution.</p><p>Search for compatible parts for your specific Samsung model using the tool below. Always match parts to your full model number, which is printed on the label inside the door aperture.</p>\n<!-- SPARE_PARTS:AC3 -->",
+      "faq_json": [
+        {
+          "answer": "No — you should not run the machine while AC3 is active. The error means the motor or drive system is not functioning correctly, and continuing to operate it risks causing further damage to the motor, control board, or drum bearings. Unplug the machine until the fault has been identified and resolved.",
+          "question": "Can I still use my Samsung washing machine while it shows AC3?"
+        },
+        {
+          "answer": "Motor brushes typically last between five and ten years depending on how frequently the machine is used and what wash programmes are selected. High-spin cycles place more demand on the motor and can shorten brush life. If your machine is more than seven years old and showing AC3, worn brushes are a very likely cause.",
+          "question": "How long do motor brushes last on a Samsung washing machine?"
+        },
+        {
+          "answer": "Samsung uses several motor-related error codes, and AC3 specifically points to a motor or drive system fault rather than, for example, a door lock or water supply issue. If you see a different code alongside AC3, note both down before starting diagnosis, as they may point to a related problem such as a wiring fault affecting multiple components.",
+          "question": "Is AC3 the same as other motor error codes on Samsung machines?"
+        },
+        {
+          "answer": "The cost depends on the faulty component. Motor brushes are typically inexpensive — often under £15 for a pair — and can be a DIY repair. A drive belt is similarly affordable. A replacement motor or motor control board is significantly more expensive, and when you add labour costs for a service technician, it is worth comparing the repair cost against the age and value of the machine before proceeding.",
+          "question": "How much does it cost to fix an AC3 error on a Samsung washing machine?"
+        },
+        {
+          "answer": "A power reset — unplugging for two minutes and restarting — can occasionally clear AC3 if it was triggered by a temporary voltage issue rather than a mechanical fault. However, if the underlying cause is worn brushes, a damaged belt, or a faulty board, the error will return as soon as the machine attempts to run the motor again. A reset is worth trying first, but should not be relied upon as a fix.",
+          "question": "Will resetting my Samsung washing machine clear the AC3 error?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:35.216544+00:00"
+    },
+    {
+      "article_id": 38,
+      "locale": "sv",
+      "slug": "samsung-felkod-ac3",
+      "title_tag": "Samsung Tvättmaskin Felkod AC3 | Åtgärda Det Nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod AC3? Lär dig vad som orsakar detta motorfel, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod AC3 på en Samsung Tvättmaskin?",
+      "description": "Felkod AC3 på en Samsung tvättmaskin indikerar ett fel i motorn eller drivssystemet, vilket hindrar trumman från att snurra eller röra sig korrekt.",
+      "quick_fix": "Kontrollera att alla kabelkontakter till motorn sitter ordentligt och är oskadade — tryck in varje kontakt tills den klickar på plats — starta sedan om maskinen för att se om felet försvinner (tar ungefär 10 minuter).",
+      "intro_html": "<p>När din Samsung tvättmaskin visar felkod AC3 har den upptäckt ett problem med motorn eller dess drivsystem. Det kan röra sig om själva motorn, kablaget som försörjer den, drivremmen eller motorstyrkortet som styr motorns funktion. Maskinens styrsystem övervakar motorns prestanda kontinuerligt, och när det upptäcker något utanför normala parametrar stoppar det cykeln och visar AC3 för att skydda maskinen från ytterligare skada.</p><p>I praktiken märker du vanligtvis att trumman har slutat snurra eller röra sig, eller att maskinen stannar mitt i ett program utan att slutföra tvätten. I vissa fall kan trumman röra sig trögt eller avge ovanliga ljud innan felet visas. Maskinen återupptar inte förrän det underliggande felet har identifierats och åtgärdats.</p><p>Vissa orsaker till AC3 är enkla att kontrollera själv, till exempel lösa kabelanslutningar eller en sliten drivrem. Andra — särskilt byte av motorborstar eller ett defekt styrkort — kräver en servicetekniker. Gå igenom stegen nedan i ordning innan du kontaktar professionell hjälp.</p>",
+      "causes_json": [
+        {
+          "cause": "Lösa eller skadade motorkablar",
+          "detail": "Vibrationer från normal användning kan lossa de elektriska kontakterna som löper mellan motorn och styrkortet. En kontakt som lossnat eller en kabel som nötts igenom bryter motorkretsens förbindelse och utlöser AC3."
+        },
+        {
+          "cause": "Slitna motorborstar",
+          "detail": "Många Samsung tvättmaskinsmotorer använder kolborstar för att överföra ström till motorns roterande del. Dessa borstar slits ned gradvis över tid och orsakar, när de blivit för korta, intermittent eller fullständigt bortfall av motorfunktionen."
+        },
+        {
+          "cause": "Skadad eller utsträckt drivrem",
+          "detail": "Drivremmen överför rotation från motorn till trumman. Om remmen har gått av, hoppat av sina remskivor eller sträckts ut till den grad att den slirar under belastning, körs motorn men trumman reagerar inte som förväntat."
+        },
+        {
+          "cause": "Defekt motorstyrkortet",
+          "detail": "Motorstyrkortet reglerar motorns hastighet och riktning. En trasig komponent på detta kort — ofta orsakad av ett spänningsöverskott eller åldersrelaterat slitage — kan ge felaktiga signaler eller ingen signal alls, vilket resulterar i AC3."
+        },
+        {
+          "cause": "Defekt motor",
+          "detail": "I mindre vanliga fall har motorn själv utvecklat ett internt fel, till exempel en utbränd lindning eller ett låst lager. Detta är vanligare på äldre maskiner eller sådana som körts med slitna borstar under en längre period."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Stäng av tvättmaskinen via kontrollpanelen och dra sedan ut stickkontakten ur vägguttaget. Vänta minst två minuter innan du öppnar några luckor. Detta är nödvändigt för säkerheten när du arbetar nära elektriska komponenter eller motorn."
+        },
+        {
+          "step": 2,
+          "action": "Starta om maskinen för att utesluta ett tillfälligt fel",
+          "detail": "Sätt i stickkontakten igen, välj ett kort centrifugeringsprogram och observera om AC3 visas omedelbart. Ibland kan en engångsmässig spänningsfluktuering utlösa felet utan något underliggande mekaniskt fel. Om felet inte återkommer, övervaka maskinen under de närmaste tvättarna innan du undersöker vidare."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera motorkabelns anslutningar",
+          "detail": "Ta bort maskinens bakpanel (vanligtvis fäst med fyra eller fem skruvar runt kanten). Lokalisera motorn — den sitter under trumman — och följ kabelstammen från motorn upp till styrkortet. Tryck in varje kontakt ordentligt tills den klickar på plats och leta efter kablar som ser brända ut, är inklämd eller har bar koppar synlig. Sätt tillbaka panelen, anslut maskinen och testa."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera drivremmen",
+          "detail": "Med bakpanelen fortfarande borttagen, titta på den stora remskivan på baksidan av trumman och den mindre remskivan på motorn. Remmen ska sitta snävt i spåren på båda remskivorna utan slack, sprickor eller fransar. Om remmen har gått av ligger den löst i botten av maskinhöljet. Att byta rem är en enkel gör-det-själv-reparation — notera remmstorleken som är tryckt på den gamla remmen innan du beställer."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera motorborstarna",
+          "detail": "Kolborstarna sitter i små planthållare på vardera sidan av motorhuset och är vanligtvis åtkomliga utan att motorn behöver tas bort helt. Dra ut varje borste och mät dess längd — om någon borste är kortare än ungefär 1 cm bör båda bytas ut som ett par. Nya borstar är billiga och finns tillgängliga för de flesta Samsung-modeller."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera motorn för synliga skador",
+          "detail": "Titta på motorhuset efter tecken på brännskador, lukt av bränd isolering eller en låst axel som inte snurrar fritt för hand. Om något av dessa är fallet har motorn själv gått sönder och behöver bytas — detta är ett arbete som bäst hanteras av en servicetekniker med tanke på komplexiteten vid motordemontage och delens kostnad."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera motorstyrkortet",
+          "detail": "Om alla mekaniska komponenter verkar vara i ordning är motorstyrkortet den återstående misstänkta. Lokalisera kortet (vanligtvis monterat på maskinens baksida eller undersida) och inspektera det efter brända komponenter, uppsvällda kondensatorer eller brännmärken. Försök inte reparera kortet själv — om skador är synliga, eller om alla andra steg inte har löst AC3, kontakta en servicetekniker för diagnos och byte."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har kontrollerat kabelanslutningarna och drivremmen och felet kvarstår, beror felet troligtvis på motorborstarna, motorn själv eller motorstyrkortet. Att byta motorborstar är inom räckhåll för en händig gör-det-själv-person, men om motorn visar tecken på brännskador eller axeln är låst bör en servicetekniker utföra bytet. På samma sätt kräver diagnos av motorstyrkortet specialiserad testutrustning för att bekräfta felet innan en dyr del beställs.</p><p>Du bör också kontakta en servicetekniker om maskinen löser ut ditt hushålls jordfelsbrytare när du försöker köra den, eller om du märker en bränd lukt under drift. Dessa symptom tyder på ett elfel som kan utgöra en säkerhetsrisk om maskinen fortsätter att användas.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett AC3-fel är motorns kolborstar, drivremmen och motorstyrkortet. Borstar och remmar är förbrukningsdelar med en begränsad livslängd, så att notera när de senast byttes kan hjälpa dig att förutse framtida fel. Motorstyrkortet är svårare att förutsäga men är mer benäget att gå sönder på maskiner som har utsatts för spänningsöverskott — att ansluta maskinen via en överspänningsskyddad grenuttag är en enkel försiktighetsåtgärd.</p><p>Sök efter kompatibla delar för din specifika Samsung-modell med verktyget nedan. Matcha alltid delar mot ditt fullständiga modellnummer, som finns tryckt på etiketten inuti lucköppningen.</p>\n<!-- SPARE_PARTS:AC3 -->",
+      "faq_json": [
+        {
+          "answer": "Nej — du bör inte köra maskinen medan AC3 är aktivt. Felet innebär att motorn eller drivsystemet inte fungerar korrekt, och att fortsätta använda den riskerar att orsaka ytterligare skador på motorn, styrkortet eller trumlagren. Koppla ur maskinen tills felet har identifierats och åtgärdats.",
+          "question": "Kan jag fortfarande använda min Samsung tvättmaskin när den visar AC3?"
+        },
+        {
+          "answer": "Motorborstar håller vanligtvis mellan fem och tio år beroende på hur ofta maskinen används och vilka tvättprogram som väljs. Höghastighetscentrifugering belastar motorn mer och kan förkorta borstens livslängd. Om din maskin är mer än sju år gammal och visar AC3 är slitna borstar en mycket trolig orsak.",
+          "question": "Hur länge håller motorborstarna på en Samsung tvättmaskin?"
+        },
+        {
+          "answer": "Samsung använder flera motorrelaterade felkoder, och AC3 pekar specifikt på ett motor- eller drivsystemsfel snarare än exempelvis ett dörrlås- eller vattenförsörjningsproblem. Om du ser en annan kod tillsammans med AC3, notera båda innan du påbörjar diagnosen, eftersom de kan peka på ett relaterat problem såsom ett kabelfel som påverkar flera komponenter.",
+          "question": "Är AC3 samma som andra motorfelkoder på Samsung-maskiner?"
+        },
+        {
+          "answer": "Kostnaden beror på den defekta komponenten. Motorborstar är vanligtvis billiga — ofta under 150 kr för ett par — och kan vara en gör-det-själv-reparation. En drivrem är liknande prisvärd. En ersättningsmotor eller ett motorstyrkortet är betydligt dyrare, och när du lägger till arbetskostnader för en servicetekniker är det värt att jämföra reparationskostnaden mot maskinens ålder och värde innan du går vidare.",
+          "question": "Hur mycket kostar det att åtgärda ett AC3-fel på en Samsung tvättmaskin?"
+        },
+        {
+          "answer": "En strömåterställning — att koppla ur i två minuter och starta om — kan ibland rensa AC3 om det utlöstes av ett tillfälligt spänningsproblem snarare än ett mekaniskt fel. Men om den underliggande orsaken är slitna borstar, en skadad rem eller ett defekt kort kommer felet att återkomma så snart maskinen försöker köra motorn igen. En återställning är värd att prova först, men bör inte förlitas på som en permanent lösning.",
+          "question": "Kommer en återställning av min Samsung tvättmaskin att rensa AC3-felet?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:35.634192+00:00"
+    },
+    {
+      "article_id": 39,
+      "locale": "en",
+      "slug": "samsung-error-code-ac4",
+      "title_tag": "Samsung Washing Machine Error Code AC4 | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code AC4? Learn what causes this PCB communication fault and how to fix it yourself before calling a technician.",
+      "h1": "What Does Error Code AC4 Mean on a Samsung Washing Machine?",
+      "description": "Error code AC4 indicates a communication failure between the main PCB and sub PCB in your Samsung washing machine, preventing the machine from operating normally.",
+      "quick_fix": "Turn off the washing machine at the wall socket or circuit breaker, wait 60 seconds, then restore power and start a new cycle to reset the communication link between the two control boards (takes about 5 minutes).",
+      "intro_html": "<p>Error code AC4 points to a breakdown in communication between two of the most important electronic components in your Samsung washing machine: the main PCB (the primary control board) and the sub PCB (a secondary board that handles specific functions such as display or motor control). When these two boards lose their communication link, the machine cannot coordinate its operations and will stop mid-cycle or refuse to start.</p><p>When AC4 appears, you will typically see the error displayed on the control panel and the wash cycle will halt or fail to begin. The machine is not necessarily broken beyond repair — in many cases the fault is caused by something as simple as a loose wire connector rather than a failed board. Working through the steps below in order gives you a good chance of resolving this without professional help.</p>",
+      "causes_json": [
+        {
+          "cause": "Temporary communication glitch in the control boards",
+          "detail": "A brief power fluctuation or software hiccup can cause the main PCB and sub PCB to lose their communication handshake. This is the most common cause and is often resolved by a simple power reset."
+        },
+        {
+          "cause": "Loose or disconnected wiring harness",
+          "detail": "The ribbon cable or wiring loom connecting the main PCB to the sub PCB can work loose over time due to vibration during spin cycles. A partially seated connector is enough to trigger the AC4 fault."
+        },
+        {
+          "cause": "Damaged or corroded wiring",
+          "detail": "Wires running between the two boards can become pinched, chafed, or corroded, especially if there has been any water ingress inside the machine. Damaged insulation can cause intermittent short circuits that disrupt the communication signal."
+        },
+        {
+          "cause": "Faulty sub PCB",
+          "detail": "If the sub PCB itself has developed a fault — due to a power surge, component failure, or moisture damage — it will be unable to respond to signals from the main board. This will produce a persistent AC4 error that does not clear after a reset."
+        },
+        {
+          "cause": "Faulty main PCB",
+          "detail": "Less commonly, the main control board is the source of the problem. If the main PCB cannot send or receive communication signals correctly, the AC4 code will appear regardless of the condition of the sub PCB or wiring."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power cycle the washing machine",
+          "detail": "Switch the machine off at the wall socket or turn off the dedicated circuit breaker. Leave it completely without power for at least 60 seconds to allow the control boards to fully discharge and reset. Restore power, select a short wash cycle, and observe whether the AC4 error returns."
+        },
+        {
+          "step": 2,
+          "action": "Check the door is fully closed and the load is balanced",
+          "detail": "Before opening any panels, confirm there are no secondary faults masking the issue. Make sure the door is firmly latched and the drum is not overloaded. An unbalanced load can sometimes trigger multiple error codes simultaneously."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the wiring harness connectors — front panel area",
+          "detail": "Unplug the machine from the mains before proceeding. Remove the top panel (usually two screws at the rear) to access the area behind the control panel. Locate the ribbon cable and wiring connectors linking the display board or sub PCB to the main board. Press each connector firmly until you feel or hear it click into place, then restore power and test."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the wiring harness connectors — rear panel area",
+          "detail": "On some Samsung models the sub PCB is mounted behind the back panel. With the machine unplugged, remove the rear panel screws and carefully lift the panel away. Check all connectors on both boards for signs of looseness, corrosion, or burn marks. Reseat any connectors that appear loose and look for any wires with damaged insulation."
+        },
+        {
+          "step": 5,
+          "action": "Examine the wiring loom for visible damage",
+          "detail": "Trace the wiring harness that runs between the main PCB and sub PCB along its full length. Look for pinched sections, chafed insulation, or areas where the wire may have been rubbing against a sharp metal edge. If you find a damaged section, insulate it temporarily with electrical tape to confirm this is the fault before ordering a replacement harness."
+        },
+        {
+          "step": 6,
+          "action": "Test with a replacement sub PCB",
+          "detail": "If all connectors and wiring appear sound and the error persists after a reset, the sub PCB is the most likely failed component. Source a compatible replacement board for your specific model number (found on the label inside the door frame). Swap the board, reconnect all harnesses carefully, and run a test cycle."
+        },
+        {
+          "step": 7,
+          "action": "Consider replacing the main PCB",
+          "detail": "If fitting a new sub PCB does not clear the AC4 error, the main control board may be at fault. Main PCB replacement is a more involved repair and the part is more expensive, so it is worth confirming the diagnosis with a service technician before purchasing the component."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have completed a power reset, reseated all visible wiring connectors, and inspected the harness for damage but the AC4 error continues to appear on every cycle, it is time to contact a service technician. Persistent faults of this type usually indicate a failed PCB that requires proper diagnosis with electronic test equipment to confirm which board is at fault before parts are ordered.</p><p>You should also call a service technician immediately if you notice any burn marks, a burning smell, or signs of water damage on or near either control board. These conditions can present a safety risk and should not be investigated further without professional assessment.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when resolving an AC4 fault are the sub PCB (also called the display board or secondary control board), the main PCB, and the wiring harness that connects the two boards. Having the correct model number to hand — printed on the label inside the door frame — will ensure you order the right part first time.</p><p>To reduce the risk of communication faults recurring, avoid overloading the drum (which increases vibration and can loosen connectors over time), ensure the machine is on a stable, level surface, and check that no water is pooling inside the cabinet by keeping the door seal and detergent drawer clean and free of blockages.</p>\n<!-- SPARE_PARTS:AC4 -->",
+      "faq_json": [
+        {
+          "answer": "A power reset fixes the AC4 error when the fault is caused by a temporary communication glitch rather than a physical problem. If the error clears after a 60-second reset and does not return, no further action is needed. If it comes back within a few cycles, there is likely a wiring or board fault that needs investigating.",
+          "question": "Will a power reset always fix the AC4 error on a Samsung washing machine?"
+        },
+        {
+          "answer": "No — when AC4 is active the machine has detected that its control boards cannot communicate reliably, which means it cannot guarantee safe or correct operation. You should stop using the machine until the fault is resolved to avoid potential damage to laundry, the appliance, or in rare cases a safety hazard if the fault is related to electrical damage.",
+          "question": "Is it safe to keep using my Samsung washing machine when AC4 is showing?"
+        },
+        {
+          "answer": "The model number is printed on a sticker inside the door frame — open the door and look around the inner rim of the drum opening. You may also find it on a label on the back panel of the machine. You will need the full model number to order the correct replacement PCB or wiring harness.",
+          "question": "How do I find the model number on my Samsung washing machine?"
+        },
+        {
+          "answer": "Yes. A power surge can corrupt the software state of one or both control boards, causing them to lose their communication link and trigger AC4. In most surge-related cases a power reset will restore normal operation. However, a severe surge can permanently damage PCB components, in which case board replacement will be necessary.",
+          "question": "Can a power surge cause the AC4 error code?"
+        },
+        {
+          "answer": "If the fault is resolved by a power reset or reseating a connector, there is no parts cost at all. A replacement sub PCB for Samsung washing machines typically costs between £30 and £80 depending on the model, while a main PCB can range from £60 to £150 or more. Adding a service technician's labour charge, a full PCB replacement repair can cost £100–£250 in total.",
+          "question": "How much does it typically cost to repair an AC4 fault?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:35.706445+00:00"
+    },
+    {
+      "article_id": 39,
+      "locale": "sv",
+      "slug": "samsung-felkod-ac4",
+      "title_tag": "Samsung Tvättmaskin Felkod AC4 | Åtgärda Det Nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod AC4? Lär dig vad som orsakar detta kommunikationsfel i kretskortet och hur du åtgärdar det själv innan du ringer en tekniker.",
+      "h1": "Vad Betyder Felkod AC4 på en Samsung Tvättmaskin?",
+      "description": "Felkod AC4 indikerar ett kommunikationsfel mellan huvud-PCB och sub-PCB i din Samsung tvättmaskin, vilket hindrar maskinen från att fungera normalt.",
+      "quick_fix": "Stäng av tvättmaskinen vid vägguttaget eller säkringsskåpet, vänta 60 sekunder, återställ sedan strömmen och starta ett nytt program för att återställa kommunikationslänken mellan de två styrkorten (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod AC4 pekar på ett kommunikationsavbrott mellan två av de viktigaste elektroniska komponenterna i din Samsung tvättmaskin: huvud-PCB (det primära styrkortet) och sub-PCB (ett sekundärt kort som hanterar specifika funktioner såsom display eller motorstyrning). När dessa två kort förlorar sin kommunikationslänk kan maskinen inte samordna sina funktioner och stannar mitt i ett program eller vägrar att starta.</p><p>När AC4 visas ser du vanligtvis felet på kontrollpanelen och tvättcykeln avbryts eller misslyckas med att starta. Maskinen är inte nödvändigtvis obrukbar — i många fall orsakas felet av något så enkelt som en lös kabelkontakt snarare än ett defekt kort. Genom att arbeta igenom stegen nedan i ordning har du goda chanser att lösa problemet utan professionell hjälp.</p>",
+      "causes_json": [
+        {
+          "cause": "Tillfälligt kommunikationsfel i styrkorten",
+          "detail": "En kortvarig strömfluktuering eller programvarufel kan göra att huvud-PCB och sub-PCB förlorar sin kommunikationshandskakning. Detta är den vanligaste orsaken och löses ofta med en enkel omstart av strömmen."
+        },
+        {
+          "cause": "Lös eller frånkopplad kabelstam",
+          "detail": "Bandkabeln eller kabelstammen som förbinder huvud-PCB med sub-PCB kan lossna med tiden på grund av vibrationer under centrifugeringen. En delvis isatt kontakt räcker för att utlösa AC4-felet."
+        },
+        {
+          "cause": "Skadad eller korroderad kablage",
+          "detail": "Kablar som löper mellan de två korten kan bli klämda, nötta eller korroderade, särskilt om det har förekommit vattenintrång inuti maskinen. Skadad isolering kan orsaka intermittenta kortslutningar som stör kommunikationssignalen."
+        },
+        {
+          "cause": "Defekt sub-PCB",
+          "detail": "Om sub-PCB självt har utvecklat ett fel — på grund av ett strömöverspänning, komponentfel eller fuktskada — kommer det inte att kunna svara på signaler från huvudkortet. Detta ger ett ihållande AC4-fel som inte försvinner efter en omstart."
+        },
+        {
+          "cause": "Defekt huvud-PCB",
+          "detail": "Mer sällan är det huvudstyrkortet som är källan till problemet. Om huvud-PCB inte kan skicka eller ta emot kommunikationssignaler korrekt visas AC4-koden oavsett sub-PCB:ns eller kablagets skick."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Starta om tvättmaskinen",
+          "detail": "Stäng av maskinen vid vägguttaget eller stäng av den dedikerade säkringen. Låt den vara helt strömlös i minst 60 sekunder så att styrkorten hinner ladda ur och återställas helt. Återställ strömmen, välj ett kort tvättprogram och observera om AC4-felet återkommer."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera att luckan är ordentligt stängd och att lasten är balanserad",
+          "detail": "Innan du öppnar några paneler, bekräfta att det inte finns några sekundära fel som maskerar problemet. Se till att luckan är ordentligt låst och att trumman inte är överfylld. En obalanserad last kan ibland utlösa flera felkoder samtidigt."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera kabelstammens kontakter — frontpanelens område",
+          "detail": "Koppla ur maskinen från elnätet innan du fortsätter. Ta bort toppanelen (vanligtvis två skruvar baktill) för att komma åt området bakom kontrollpanelen. Leta upp bandkabeln och kabelkontakterna som förbinder displaykortet eller sub-PCB med huvudkortet. Tryck in varje kontakt ordentligt tills du känner eller hör att den klickar på plats, återställ sedan strömmen och testa."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera kabelstammens kontakter — bakpanelens område",
+          "detail": "På vissa Samsung-modeller är sub-PCB monterad bakom bakpanelen. Med maskinen urkopplad, ta bort bakpanelens skruvar och lyft försiktigt bort panelen. Kontrollera alla kontakter på båda korten för tecken på löshet, korrosion eller brännmärken. Sätt tillbaka eventuella lösa kontakter och leta efter kablar med skadad isolering."
+        },
+        {
+          "step": 5,
+          "action": "Undersök kabelstammen efter synliga skador",
+          "detail": "Följ kabelstammen som löper mellan huvud-PCB och sub-PCB längs hela dess längd. Leta efter klämda sektioner, nött isolering eller områden där kabeln kan ha gnuggat mot en vass metallkant. Om du hittar en skadad sektion, isolera den tillfälligt med eltejp för att bekräfta att detta är felet innan du beställer en ersättningskabelstam."
+        },
+        {
+          "step": 6,
+          "action": "Testa med en ersättnings-sub-PCB",
+          "detail": "Om alla kontakter och kablar verkar vara i ordning och felet kvarstår efter en omstart är sub-PCB den troligaste defekta komponenten. Skaffa ett kompatibelt ersättningskort för ditt specifika modellnummer (finns på etiketten inuti luckkanten). Byt ut kortet, återanslut alla kabelstammar noggrant och kör ett testprogram."
+        },
+        {
+          "step": 7,
+          "action": "Överväg att byta huvud-PCB",
+          "detail": "Om montering av ett nytt sub-PCB inte rensar AC4-felet kan det vara huvudstyrkortet som är defekt. Byte av huvud-PCB är en mer komplicerad reparation och delen är dyrare, så det är värt att bekräfta diagnosen med en servicetekniker innan du köper komponenten."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har genomfört en omstart, satt tillbaka alla synliga kabelkontakter och inspekterat kabelstammen efter skador men AC4-felet fortsätter att visas vid varje program, är det dags att kontakta en servicetekniker. Ihållande fel av denna typ indikerar vanligtvis ett defekt kretskort som kräver korrekt diagnos med elektronisk testutrustning för att bekräfta vilket kort som är defekt innan delar beställs.</p><p>Du bör också omedelbart kontakta en servicetekniker om du märker brännmärken, bränd lukt eller tecken på vattenskada på eller nära något av styrkorten. Dessa förhållanden kan innebära en säkerhetsrisk och bör inte undersökas vidare utan professionell bedömning.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut vid åtgärdande av ett AC4-fel är sub-PCB (även kallat displaykortet eller det sekundära styrkortet), huvud-PCB och kabelstammen som förbinder de två korten. Att ha rätt modellnummer till hands — tryckt på etiketten inuti luckkanten — säkerställer att du beställer rätt del första gången.</p><p>För att minska risken för att kommunikationsfel återkommer, undvik att överfylla trumman (vilket ökar vibrationer och kan lossa kontakter med tiden), se till att maskinen står på ett stabilt, plant underlag och kontrollera att inget vatten samlas inuti maskinen genom att hålla lucktätningen och tvättmedelslådan rena och fria från blockeringar.</p>\n<!-- SPARE_PARTS:AC4 -->",
+      "faq_json": [
+        {
+          "answer": "En omstart löser AC4-felet när felet orsakas av ett tillfälligt kommunikationsfel snarare än ett fysiskt problem. Om felet försvinner efter en 60-sekunders omstart och inte återkommer behövs inga ytterligare åtgärder. Om det återkommer inom några program finns det troligen ett kablage- eller kortfel som behöver undersökas.",
+          "question": "Löser en omstart alltid AC4-felet på en Samsung tvättmaskin?"
+        },
+        {
+          "answer": "Nej — när AC4 är aktiv har maskinen upptäckt att dess styrkort inte kan kommunicera tillförlitligt, vilket innebär att den inte kan garantera säker eller korrekt drift. Du bör sluta använda maskinen tills felet är åtgärdat för att undvika potentiell skada på tvätten, maskinen eller i sällsynta fall en säkerhetsrisk om felet är relaterat till elektrisk skada.",
+          "question": "Är det säkert att fortsätta använda min Samsung tvättmaskin när AC4 visas?"
+        },
+        {
+          "answer": "Modellnumret finns tryckt på en etikett inuti luckkanten — öppna luckan och titta runt den inre kanten av trumöppningen. Du kan också hitta det på en etikett på maskinens bakpanel. Du behöver det fullständiga modellnumret för att beställa rätt ersättnings-PCB eller kabelstam.",
+          "question": "Hur hittar jag modellnumret på min Samsung tvättmaskin?"
+        },
+        {
+          "answer": "Ja. Ett strömöverspänning kan korrumpera programvarutillståndet i ett eller båda styrkorten, vilket gör att de förlorar sin kommunikationslänk och utlöser AC4. I de flesta överspänningsrelaterade fall återställer en omstart normal drift. Ett kraftigt överspänning kan dock permanent skada PCB-komponenter, i vilket fall kortbyte blir nödvändigt.",
+          "question": "Kan ett strömöverspänning orsaka felkod AC4?"
+        },
+        {
+          "answer": "Om felet löses med en omstart eller genom att sätta tillbaka en kontakt tillkommer inga delskostnader alls. Ett ersättnings-sub-PCB för Samsung tvättmaskiner kostar vanligtvis mellan 400 och 900 kronor beroende på modell, medan ett huvud-PCB kan kosta från 700 till 1 700 kronor eller mer. Med en serviceteknikers arbetskostnad tillagd kan en fullständig PCB-bytesreparation kosta totalt 1 100–2 800 kronor.",
+          "question": "Hur mycket kostar det vanligtvis att reparera ett AC4-fel?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:35.773366+00:00"
+    },
+    {
+      "article_id": 40,
+      "locale": "en",
+      "slug": "samsung-error-code-bc2",
+      "title_tag": "Samsung Washing Machine Error Code BC2 | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code BC2? Learn what causes this control panel fault and how to fix a stuck button or replace the keypad yourself.",
+      "h1": "What Does Error Code BC2 Mean on a Samsung Washing Machine?",
+      "description": "The BC2 error code on a Samsung washing machine signals a control panel or keypad fault, most commonly caused by a stuck or physically jammed button on the console.",
+      "quick_fix": "Press each button on the control panel firmly several times in succession to free any stuck key — if a button was jammed, the error should clear immediately and the machine will resume normal operation (takes about 5 minutes).",
+      "intro_html": "<p>Error code BC2 is Samsung's way of telling you that something is wrong with the control panel or keypad. Specifically, the machine's electronics have detected that one or more buttons are being held in a pressed state when they shouldn't be — either because a key is physically stuck, or because the underlying membrane or circuit is registering a false signal.</p><p>When BC2 appears, the washing machine will typically stop responding to new button presses and may halt mid-cycle or refuse to start. The display will show the code continuously until the fault is resolved. This is a safety measure to prevent the machine from acting on unintended commands.</p><p>The good news is that in many cases this is a straightforward mechanical issue — a button that has become jammed due to detergent residue, moisture, or physical damage — and it can often be resolved without any specialist tools or parts.</p>",
+      "causes_json": [
+        {
+          "cause": "Stuck or jammed control panel button",
+          "detail": "The most common cause of BC2 is a button on the console that has become physically stuck in the pressed position. This can happen when detergent residue, moisture, or grime builds up around the edges of a key, preventing it from springing back after being pressed."
+        },
+        {
+          "cause": "Damaged or worn keypad membrane",
+          "detail": "Behind the buttons sits a flexible membrane that registers each press as an electrical signal. Over time, this membrane can crack, delaminate, or wear out, causing it to send a continuous signal to the control board as if a button is permanently held down."
+        },
+        {
+          "cause": "Moisture or liquid ingress into the control panel",
+          "detail": "Water or cleaning fluid that has seeped behind the control panel fascia can bridge contacts on the keypad membrane, mimicking a stuck button. This is particularly common if the machine has been wiped down with a wet cloth or if there has been a leak near the console."
+        },
+        {
+          "cause": "Loose or damaged wiring harness between keypad and control board",
+          "detail": "The ribbon cable or wiring loom connecting the keypad to the main control board can work loose over time due to vibration. A poor connection can cause erratic signals that the board interprets as a stuck key."
+        },
+        {
+          "cause": "Faulty main control board (PCB)",
+          "detail": "If the keypad itself is in good condition but the error persists, the main PCB may be misreading the signals it receives from the panel. A failing control board can generate false BC2 codes even when no button is actually stuck."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Power off and unplug the machine",
+          "detail": "Switch the washing machine off at the power button and unplug it from the wall socket. Wait at least 60 seconds before doing anything else. This allows any residual charge in the electronics to dissipate and can sometimes clear a temporary false reading."
+        },
+        {
+          "step": 2,
+          "action": "Press every button on the control panel firmly",
+          "detail": "Plug the machine back in and, before starting a cycle, press each button on the console firmly several times in a deliberate pumping motion. Work your way across the entire panel systematically. You are trying to free any key that may have become stuck in the depressed position — you may feel or hear a slight click when a jammed button releases."
+        },
+        {
+          "step": 3,
+          "action": "Inspect each button visually and physically",
+          "detail": "Look closely at every button for signs of physical damage, discolouration, or residue around its edges. Run your fingernail gently around the perimeter of each key to dislodge any dried detergent or debris. If a button feels different from the others — spongy, stiff, or sunken — that is likely the source of the fault."
+        },
+        {
+          "step": 4,
+          "action": "Clean around the control panel buttons",
+          "detail": "Dampen a cotton bud or soft cloth with a small amount of isopropyl alcohol (70% is ideal) and carefully clean around the edges of each button. Do not spray liquid directly onto the panel. Allow the panel to dry completely — at least 15 minutes — before powering the machine back on."
+        },
+        {
+          "step": 5,
+          "action": "Check and reseat the keypad wiring connector",
+          "detail": "If you are comfortable doing so, remove the top panel or rear access panel of the machine (unplug it first) to locate the ribbon cable or wiring harness running from the control panel to the main board. Gently disconnect and firmly reconnect the connector at both ends. A loose connection here can cause persistent BC2 errors."
+        },
+        {
+          "step": 6,
+          "action": "Test the machine on a short cycle",
+          "detail": "Plug the machine back in, select a short wash programme such as a quick wash or rinse cycle, and press Start. Monitor the display for the first few minutes. If BC2 does not reappear, the fault has been resolved. If it returns, note which stage of the cycle triggers it, as this information will be useful for a service technician."
+        },
+        {
+          "step": 7,
+          "action": "Replace the keypad or control panel assembly",
+          "detail": "If all the above steps fail to clear the error, the keypad membrane or the full control panel assembly will need to be replaced. Replacement keypads are available as spare parts for most affected Samsung models. If you are not confident replacing this component yourself, this is the point to contact a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have pressed all the buttons, cleaned the panel thoroughly, and reseated the wiring connectors but the BC2 error continues to appear, the fault is likely internal — either a failed keypad membrane that cannot be freed by cleaning, or a main control board that is generating false signals. These components require disassembly of the machine and, in the case of the PCB, careful handling to avoid further damage.</p><p>You should also call a service technician if you notice any signs of burn marks, melted plastic, or a burning smell near the control panel, or if the machine is still under warranty and you do not want to risk voiding it by opening the casing yourself.</p>",
+      "prevention_html": "<p>The most commonly replaced parts when resolving a BC2 error are the <strong>control panel keypad membrane</strong>, the <strong>full control panel fascia assembly</strong>, and in persistent cases, the <strong>main PCB (control board)</strong>. Having the model number from your machine's rating plate to hand will help you identify the correct part reference before ordering.</p><p>To reduce the risk of BC2 recurring, avoid wiping the control panel with wet cloths or spraying cleaning products directly onto the console. A dry or very lightly dampened cloth is sufficient for routine cleaning, and keeping the area around the buttons free of detergent build-up will help the keys move freely over time.</p>\n<!-- SPARE_PARTS:BC2 -->",
+      "faq_json": [
+        {
+          "answer": "Occasionally, if the error was triggered by a temporary moisture issue, it may clear once the panel dries out. However, in most cases BC2 will persist until the stuck button is physically freed or the faulty component is replaced. It is worth working through the steps above rather than waiting, as leaving the machine unused does not address the underlying cause.",
+          "question": "Will BC2 go away on its own if I leave the machine for a while?"
+        },
+        {
+          "answer": "In most cases, no. The BC2 error will prevent the machine from accepting new commands or starting a cycle, as the control board is receiving a continuous signal from the stuck button. Attempting to force the machine to run in this state is not recommended, as it could lead to unintended programme selections or further damage to the control board.",
+          "question": "Can I still use my washing machine when BC2 is showing?"
+        },
+        {
+          "answer": "No. BC2 is specifically a keypad or control panel fault indicating a stuck or malfunctioning button. A child lock error is a deliberate feature that disables the buttons temporarily and is usually indicated by a padlock icon or a separate code. If the child lock is active, holding the designated button combination for three seconds will typically release it.",
+          "question": "Is BC2 the same as a child lock error?"
+        },
+        {
+          "answer": "The cost of a replacement keypad membrane or control panel fascia varies by model but typically falls in the range of £20–£80 for the part alone. A full control board replacement is more expensive, often £80–£200 or more depending on the model. Labour costs from a service technician will be additional, so it is worth getting a quote before committing to a repair on an older machine.",
+          "question": "How much does it cost to replace a Samsung washing machine control panel?"
+        },
+        {
+          "answer": "BC2 has been reported across a range of Samsung washing machine models including the B1020V, B1220V, B1253, F1015JGB, F1020V, F1043, F843, J1055A, J1220, J1264, J1466, J1488, and the FlexWash WV60M9900AV, among others. If your model is not listed, the error code may still apply — check your user manual or the Samsung support website to confirm.",
+          "question": "Which Samsung washing machine models are affected by the BC2 error?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:35.841042+00:00"
+    },
+    {
+      "article_id": 40,
+      "locale": "sv",
+      "slug": "samsung-felkod-bc2",
+      "title_tag": "Samsung tvättmaskin felkod BC2 | Åtgärda problemet nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod BC2? Lär dig vad som orsakar detta kontrollpanelsfel och hur du åtgärdar en fastnad knapp eller byter ut knappsatsen själv.",
+      "h1": "Vad betyder felkod BC2 på en Samsung tvättmaskin?",
+      "description": "Felkod BC2 på en Samsung tvättmaskin indikerar ett fel på kontrollpanelen eller knappsatsen, oftast orsakat av en fastnad eller fysiskt igenklämd knapp på manöverpanelen.",
+      "quick_fix": "Tryck in varje knapp på kontrollpanelen ordentligt flera gånger i följd för att lossa en eventuellt fastnad knapp — om en knapp var igenklämd bör felet försvinna omedelbart och maskinen återgår till normal drift (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod BC2 är Samsungs sätt att tala om att något är fel med kontrollpanelen eller knappsatsen. Mer specifikt har maskinens elektronik upptäckt att en eller flera knappar hålls nedtryckta när de inte borde vara det — antingen för att en knapp är fysiskt fastnad, eller för att den underliggande membranen eller kretsen registrerar en falsk signal.</p><p>När BC2 visas slutar tvättmaskinen vanligtvis att reagera på nya knapptryckningar och kan stanna mitt i ett program eller vägra att starta. Displayen visar koden kontinuerligt tills felet är åtgärdat. Detta är en säkerhetsåtgärd för att förhindra att maskinen agerar på oavsiktliga kommandon.</p><p>Den goda nyheten är att detta i många fall är ett enkelt mekaniskt problem — en knapp som har fastnat på grund av tvättmedelsrester, fukt eller fysisk skada — och det kan ofta lösas utan specialverktyg eller reservdelar.</p>",
+      "causes_json": [
+        {
+          "cause": "Fastnad eller igenklämd knapp på kontrollpanelen",
+          "detail": "Den vanligaste orsaken till BC2 är en knapp på manöverpanelen som fysiskt fastnat i nedtryckt läge. Detta kan inträffa när tvättmedelsrester, fukt eller smuts ansamlas runt knaptkanten och hindrar den från att fjädra tillbaka efter att ha tryckts in."
+        },
+        {
+          "cause": "Skadad eller sliten knappsatsmembran",
+          "detail": "Bakom knapparna sitter en flexibel membran som registrerar varje tryckning som en elektrisk signal. Med tiden kan denna membran spricka, delaminera eller slitas ut, vilket gör att den skickar en kontinuerlig signal till styrkortet som om en knapp hålls permanent nedtryckt."
+        },
+        {
+          "cause": "Fukt eller vätska som trängt in i kontrollpanelen",
+          "detail": "Vatten eller rengöringsmedel som sipprat in bakom kontrollpanelens front kan brygga kontakter på knappsatsmembranen och efterlikna en fastnad knapp. Detta är särskilt vanligt om maskinen har torkats av med en blöt trasa eller om det har uppstått ett läckage nära manöverpanelen."
+        },
+        {
+          "cause": "Lös eller skadad kabelstam mellan knappsats och styrkort",
+          "detail": "Bandkabeln eller kabelstammen som förbinder knappsatsen med huvudstyrkortet kan lossna med tiden på grund av vibrationer. En dålig anslutning kan orsaka oregelbundna signaler som styrkortet tolkar som en fastnad knapp."
+        },
+        {
+          "cause": "Defekt huvudstyrkort (PCB)",
+          "detail": "Om knappsatsen är i gott skick men felet kvarstår kan huvud-PCB:n feltolka de signaler den tar emot från panelen. Ett sviktande styrkort kan generera falska BC2-koder även när ingen knapp faktiskt är fastnad."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Stäng av tvättmaskinen med strömknappen och dra ur kontakten från vägguttaget. Vänta minst 60 sekunder innan du gör något annat. Detta låter eventuell kvarvarande laddning i elektroniken avledas och kan ibland rensa en tillfällig falsk avläsning."
+        },
+        {
+          "step": 2,
+          "action": "Tryck in varje knapp på kontrollpanelen ordentligt",
+          "detail": "Sätt i kontakten igen och tryck, innan du startar ett program, in varje knapp på manöverpanelen ordentligt flera gånger med en avsiktlig pumprörelse. Arbeta dig systematiskt över hela panelen. Du försöker lossa en knapp som kan ha fastnat i nedtryckt läge — du kan känna eller höra ett svagt klick när en fastnad knapp lossnar."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera varje knapp visuellt och fysiskt",
+          "detail": "Titta noga på varje knapp efter tecken på fysisk skada, missfärgning eller rester runt kanterna. Dra försiktigt med nageln runt kanten på varje knapp för att lossa eventuellt torkat tvättmedel eller smuts. Om en knapp känns annorlunda än de andra — svampig, stel eller nedsänkt — är det troligtvis källan till felet."
+        },
+        {
+          "step": 4,
+          "action": "Rengör runt kontrollpanelens knappar",
+          "detail": "Fukta en bomullspinne eller mjuk trasa med en liten mängd isopropylalkohol (70 % är idealiskt) och rengör försiktigt runt kanterna på varje knapp. Spraya inte vätska direkt på panelen. Låt panelen torka helt — minst 15 minuter — innan du slår på maskinen igen."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera och återanslut knappsatsens kabelkontakt",
+          "detail": "Om du känner dig bekväm med det, ta bort maskinens toppanel eller bakre åtkomstpanel (koppla ur den först) för att hitta bandkabeln eller kabelstammen som löper från kontrollpanelen till huvudkortet. Koppla försiktigt loss och återanslut sedan kontakten ordentligt i båda ändarna. En lös anslutning här kan orsaka ihållande BC2-fel."
+        },
+        {
+          "step": 6,
+          "action": "Testa maskinen med ett kort program",
+          "detail": "Sätt i kontakten, välj ett kort tvättprogram som snabbtvätt eller sköljning och tryck på Start. Övervaka displayen under de första minuterna. Om BC2 inte återkommer har felet åtgärdats. Om det återkommer, notera vilket skede av programmet som utlöser det, eftersom denna information kan vara användbar för en servicetekniker."
+        },
+        {
+          "step": 7,
+          "action": "Byt ut knappsatsen eller kontrollpanelens enhet",
+          "detail": "Om inget av ovanstående steg rensar felet måste knappsatsmembranen eller hela kontrollpanelenheten bytas ut. Ersättningsknappsatser finns tillgängliga som reservdelar för de flesta berörda Samsung-modeller. Om du inte känner dig trygg med att byta denna komponent själv är det dags att kontakta en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har tryckt in alla knappar, rengjort panelen noggrant och återanslutit kabelkontakterna men BC2-felet fortsätter att visas, är felet troligtvis internt — antingen en defekt knappsatsmembran som inte kan lossas genom rengöring, eller ett huvudstyrkort som genererar falska signaler. Dessa komponenter kräver isärtagning av maskinen och, när det gäller PCB:n, försiktig hantering för att undvika ytterligare skador.</p><p>Du bör också kontakta en servicetekniker om du märker tecken på brännmärken, smält plast eller bränd lukt nära kontrollpanelen, eller om maskinen fortfarande är under garanti och du inte vill riskera att ogiltigförklara den genom att öppna höljet själv.</p>",
+      "prevention_html": "<p>De mest utbytta delarna vid åtgärdande av ett BC2-fel är <strong>kontrollpanelens knappsatsmembran</strong>, <strong>hela kontrollpanelens frontmontering</strong> och i ihållande fall <strong>huvud-PCB:n (styrkortet)</strong>. Ha modellnumret från maskinens typskylt till hands för att hjälpa dig identifiera rätt delnummer innan du beställer.</p><p>För att minska risken för att BC2 återkommer, undvik att torka av kontrollpanelen med blöta trasor eller spraya rengöringsmedel direkt på manöverpanelen. En torr eller mycket lätt fuktad trasa räcker för rutinrengöring, och att hålla området runt knapparna fritt från tvättmedelsansamlingar hjälper knapparna att röra sig fritt över tid.</p>\n<!-- SPARE_PARTS:BC2 -->",
+      "faq_json": [
+        {
+          "answer": "Ibland, om felet utlöstes av ett tillfälligt fuktproblem, kan det försvinna när panelen torkar. I de flesta fall kvarstår dock BC2 tills den fastnade knappen fysiskt lossas eller den defekta komponenten byts ut. Det är värt att gå igenom stegen ovan snarare än att vänta, eftersom att låta maskinen stå oanvänd inte åtgärdar den underliggande orsaken.",
+          "question": "Försvinner BC2 av sig självt om jag låter maskinen stå ett tag?"
+        },
+        {
+          "answer": "I de flesta fall nej. BC2-felet hindrar maskinen från att ta emot nya kommandon eller starta ett program, eftersom styrkortet tar emot en kontinuerlig signal från den fastnade knappen. Det rekommenderas inte att försöka tvinga maskinen att köra i detta tillstånd, eftersom det kan leda till oavsiktliga programval eller ytterligare skador på styrkortet.",
+          "question": "Kan jag fortfarande använda min tvättmaskin när BC2 visas?"
+        },
+        {
+          "answer": "Nej. BC2 är specifikt ett knappsats- eller kontrollpanelsfel som indikerar en fastnad eller defekt knapp. Ett barnlåsfel är en avsiktlig funktion som tillfälligt inaktiverar knapparna och indikeras vanligtvis med en hänglåsikon eller en separat kod. Om barnlåset är aktiverat frigörs det vanligtvis genom att hålla in den angivna knappsatskombinationen i tre sekunder.",
+          "question": "Är BC2 samma sak som ett barnlåsfel?"
+        },
+        {
+          "answer": "Kostnaden för en ersättningsknappsatsmembran eller kontrollpanelfront varierar beroende på modell men ligger vanligtvis i intervallet 250–900 kr för enbart delen. Ett fullständigt byte av styrkortet är dyrare, ofta 900–2 200 kr eller mer beroende på modell. Arbetskostnader från en servicetekniker tillkommer, så det är värt att begära en offert innan du bestämmer dig för en reparation på en äldre maskin.",
+          "question": "Hur mycket kostar det att byta kontrollpanel på en Samsung tvättmaskin?"
+        },
+        {
+          "answer": "BC2 har rapporterats på ett antal Samsung tvättmaskinmodeller, bland annat B1020V, B1220V, B1253, F1015JGB, F1020V, F1043, F843, J1055A, J1220, J1264, J1466, J1488 och FlexWash WV60M9900AV, med flera. Om din modell inte finns med kan felkoden ändå gälla — kontrollera i din bruksanvisning eller på Samsungs supportwebbplats för att bekräfta.",
+          "question": "Vilka Samsung tvättmaskinmodeller påverkas av BC2-felet?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:35.916856+00:00"
+    },
+    {
+      "article_id": 41,
+      "locale": "en",
+      "slug": "samsung-error-code-ce",
+      "title_tag": "Samsung Washing Machine Error Code CE | Fix It Now",
+      "meta_description": "Samsung washing machine showing error code CE? Learn what causes this water temperature fault and how to fix it yourself in a few simple steps.",
+      "h1": "What Does Error Code CE Mean on a Samsung Washing Machine?",
+      "description": "The CE error code on a Samsung washing machine indicates a water temperature sensing fault, most commonly caused by the hot and cold water supply hoses being connected the wrong way around.",
+      "quick_fix": "Check that your cold water hose is connected to the blue inlet valve and the hot water hose to the red inlet valve — swapping them back to the correct positions resolves the majority of CE errors (takes about 10 minutes).",
+      "intro_html": "<p>Error code CE points to a problem with how the washing machine is reading or receiving water at the correct temperature. Samsung machines monitor incoming water temperature closely, and when the cold water inlet receives water that is too hot — or the supply lines are crossed — the machine triggers CE to protect the drum, garments, and internal components from heat damage.</p><p>When CE appears, the wash cycle will typically pause or fail to start altogether. The machine is not necessarily broken; in most cases the fault lies with the plumbing connection rather than any internal component. You may also see CE appear after a new installation or after maintenance work that involved disconnecting the water supply hoses.</p><p>This guide walks you through the most likely causes and the practical steps you can take to clear the error yourself, along with advice on when it makes sense to call a service technician.</p>",
+      "causes_json": [
+        {
+          "cause": "Hot and cold water hoses connected in reverse",
+          "detail": "This is by far the most common reason for a CE error. If the hot water hose feeds into the cold water inlet valve, the machine detects an unexpectedly high incoming water temperature and raises the fault immediately."
+        },
+        {
+          "cause": "Single cold-water supply plumbed incorrectly",
+          "detail": "Some installations supply only cold water to both inlets. If the hose routing is incorrect or a previous installer connected both hoses to the same cold tap without following Samsung's guidance, the machine can misread the supply and trigger CE."
+        },
+        {
+          "cause": "Faulty or damaged NTC temperature sensor",
+          "detail": "The NTC (negative temperature coefficient) thermistor monitors water temperature inside the drum. If this sensor has failed or its wiring has become loose or corroded, it can send incorrect readings to the control board, causing a false CE error even when the hoses are correctly connected."
+        },
+        {
+          "cause": "Faulty water inlet valve",
+          "detail": "The inlet valve controls the flow of water into the machine. A valve that is sticking open, partially blocked, or failing electrically can allow water to enter at the wrong time or in the wrong volume, which may confuse the temperature monitoring system."
+        },
+        {
+          "cause": "Main control board fault",
+          "detail": "In a small number of cases, the PCB (printed circuit board) that processes sensor data may develop a fault and misinterpret temperature readings. This is usually only suspected after all other causes have been ruled out."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Switch off and unplug the machine",
+          "detail": "Before touching any hoses or connections, turn the washing machine off at the programme dial and unplug it from the mains socket. Turn off both water supply taps at the wall. This is a basic but essential safety step before you inspect the plumbing."
+        },
+        {
+          "step": 2,
+          "action": "Check the water supply hose connections",
+          "detail": "Pull the machine away from the wall enough to access the back panel. Locate the two inlet hoses — the cold water hose should connect to the inlet valve marked with a blue label or 'C', and the hot water hose to the inlet marked with a red label or 'H'. If they are crossed, swap them over, tighten the connections by hand until firm, and check for any signs of leaking washers."
+        },
+        {
+          "step": 3,
+          "action": "Inspect the hose washers and connections for damage",
+          "detail": "While the hoses are disconnected, check the rubber washers inside each hose fitting. A cracked or missing washer can cause a slow leak and, in some cases, affect water flow in a way that contributes to temperature errors. Replace any damaged washers before reconnecting."
+        },
+        {
+          "step": 4,
+          "action": "Restore power and run the Calibration cycle",
+          "detail": "Reconnect the machine, turn the water supply back on, and plug it in. Samsung recommends running a Calibration cycle after any plumbing change — press and hold Start/Pause as directed in your model's manual to initiate this. The calibration helps the machine re-establish baseline readings and can clear the CE code if the hose swap was the root cause."
+        },
+        {
+          "step": 5,
+          "action": "Run a short test wash and monitor for the error",
+          "detail": "Select a quick wash programme at 30°C and start the machine. Watch the first few minutes of the cycle to confirm water is entering normally and the CE code does not reappear. If the cycle completes without error, the fault is resolved."
+        },
+        {
+          "step": 6,
+          "action": "Check the NTC temperature sensor and its wiring",
+          "detail": "If CE persists after correcting the hoses, the NTC sensor is the next component to inspect. The sensor is typically located on the heater assembly inside the drum area. With the machine unplugged, check that the sensor's wiring connector is fully seated and free from corrosion. A multimeter can be used to test sensor resistance — consult your model's service data for the expected value at room temperature."
+        },
+        {
+          "step": 7,
+          "action": "Test or replace the water inlet valve",
+          "detail": "If the sensor checks out, inspect the inlet valve for signs of scale build-up, debris in the filter mesh, or electrical failure. Remove the mesh filter from the valve inlet, rinse it under running water, and refit it. If the valve solenoid tests open-circuit with a multimeter, the valve will need replacing."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have confirmed the water hoses are correctly connected, the NTC sensor wiring is secure, and the inlet valve filter is clean, but the CE error continues to appear on every cycle, the fault is likely inside the machine's main control board or the sensor itself has failed electrically. These components require proper diagnostic tools and, in the case of the PCB, careful handling to avoid further damage.</p><p>You should also call a service technician if you notice any signs of water leaking from the inlet valve area, burning smells from the machine, or if the machine is still under warranty — attempting further disassembly yourself could void that cover.</p>",
+      "prevention_html": "<p>The CE error is most often a plumbing issue rather than a component failure, so the best prevention is careful installation. Always label your hoses before disconnecting them for any reason, and double-check colour-coded connections whenever the machine is moved or serviced. Running the Calibration cycle after any installation or hose work takes only a few minutes and helps the machine confirm its baseline temperature readings are correct.</p><p>If CE does recur over time without any plumbing changes, the NTC temperature sensor is the most commonly replaced part for this fault, followed by the water inlet valve. In persistent cases, the main control board may also need attention.</p>\n<!-- SPARE_PARTS:CE -->",
+      "faq_json": [
+        {
+          "answer": "It is not advisable. The CE error causes the machine to halt the cycle specifically to prevent damage from incorrect water temperatures. Running a wash while the fault is active risks damaging fabrics, and the cycle is unlikely to complete normally anyway. Resolve the hose connection first, then resume use.",
+          "question": "Can I still use my Samsung washing machine while the CE error is showing?"
+        },
+        {
+          "answer": "Yes, it can if the single cold water hose is connected to the hot water inlet by mistake. Samsung machines designed for cold-fill-only operation should have the hose connected to the cold inlet. Check your installation manual for the correct configuration for your specific model, as some models require a blanking plug on the unused hot inlet.",
+          "question": "My Samsung washing machine only has a cold water supply — could that cause CE?"
+        },
+        {
+          "answer": "The exact method varies slightly by model, but on most Samsung front-loaders you hold the Start/Pause button for several seconds with the drum empty and the door closed. The display will show 'CA' or 'CAL' to confirm the cycle is running. Check your model's user manual for the precise button sequence, as some models require a combination of buttons.",
+          "question": "How do I run the Calibration cycle on my Samsung washing machine?"
+        },
+        {
+          "answer": "The CE error will not clear on its own while the underlying cause remains. Once you have corrected the hose connections or replaced the faulty component, you can reset the machine by unplugging it for two to three minutes, then plugging it back in. Running the Calibration cycle afterwards is also recommended to ensure the machine re-establishes correct temperature baselines.",
+          "question": "Will the CE error clear itself, or do I need to reset the machine?"
+        },
+        {
+          "answer": "NTC sensors are generally one of the more affordable washing machine parts, often available for between £10 and £30 depending on the model. Fitting the part yourself is straightforward if you are comfortable with basic appliance repair. If you prefer a service technician to carry out the replacement, labour costs will add to this figure.",
+          "question": "How much does it typically cost to replace an NTC temperature sensor on a Samsung washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-03-28T17:41:35.989137+00:00"
+    },
+    {
+      "article_id": 41,
+      "locale": "sv",
+      "slug": "samsung-felkod-ce",
+      "title_tag": "Samsung Tvättmaskin Felkod CE | Åtgärda Det Nu",
+      "meta_description": "Visar din Samsung tvättmaskin felkod CE? Lär dig vad som orsakar detta vattentemperaturfel och hur du åtgärdar det själv i några enkla steg.",
+      "h1": "Vad Betyder Felkod CE på en Samsung Tvättmaskin?",
+      "description": "Felkod CE på en Samsung tvättmaskin indikerar ett fel vid avläsning av vattentemperaturen, oftast orsakat av att varm- och kallvattenslangarna är anslutna åt fel håll.",
+      "quick_fix": "Kontrollera att kallvattenslangen är ansluten till det blå inloppsventilen och varmvattenslangen till det röda — att byta tillbaka dem till rätt position löser de flesta CE-fel (tar ungefär 10 minuter).",
+      "intro_html": "<p>Felkod CE pekar på ett problem med hur tvättmaskinen läser av eller tar emot vatten vid rätt temperatur. Samsung-maskiner övervakar inkommande vattentemperatur noggrant, och när kallvatteninloppet tar emot vatten som är för varmt — eller om tillförselslangarna är korsade — utlöser maskinen CE för att skydda trumman, kläderna och interna komponenter från värmeskador.</p><p>När CE visas pausar tvätcykeln vanligtvis eller misslyckas med att starta överhuvudtaget. Maskinen är inte nödvändigtvis trasig; i de flesta fall ligger felet hos röranslutningen snarare än hos någon intern komponent. CE kan också visas efter en ny installation eller efter underhållsarbete som inneburit att vattenförsörjningsslangarna kopplats loss.</p><p>Den här guiden går igenom de mest troliga orsakerna och de praktiska steg du kan ta för att åtgärda felet själv, tillsammans med råd om när det är lämpligt att kontakta en servicetekniker.</p>",
+      "causes_json": [
+        {
+          "cause": "Varm- och kallvattenslangarna anslutna åt fel håll",
+          "detail": "Detta är den överlägset vanligaste orsaken till ett CE-fel. Om varmvattenslangen matar in i kallvatteninloppsventilen upptäcker maskinen en oväntat hög inkommande vattentemperatur och utlöser felet omedelbart."
+        },
+        {
+          "cause": "Enskild kallvattenförsörjning felaktigt installerad",
+          "detail": "Vissa installationer förser båda inloppen med enbart kallvatten. Om slangdragningen är felaktig eller om en tidigare installatör anslutit båda slangarna till samma kallvattenkran utan att följa Samsungs anvisningar kan maskinen feltolka försörjningen och utlösa CE."
+        },
+        {
+          "cause": "Defekt eller skadad NTC-temperatursensor",
+          "detail": "NTC-termistorn (negativ temperaturkoefficient) övervakar vattentemperaturen inne i trumman. Om denna sensor har gått sönder eller om dess kablage har lossnat eller korroderat kan den skicka felaktiga avläsningar till styrkortet, vilket orsakar ett falskt CE-fel även när slangarna är korrekt anslutna."
+        },
+        {
+          "cause": "Defekt vatteninloppsventil",
+          "detail": "Inloppsventilen styr vattenflödet in i maskinen. En ventil som fastnar i öppet läge, är delvis blockerad eller har ett elektriskt fel kan låta vatten komma in vid fel tidpunkt eller i fel mängd, vilket kan förvirra temperaturövervakningssystemet."
+        },
+        {
+          "cause": "Fel på huvudstyrkortet",
+          "detail": "I ett litet antal fall kan det kretskort (PCB) som bearbetar sensordata utveckla ett fel och feltolka temperaturavläsningar. Detta misstänks vanligtvis först efter att alla andra orsaker har uteslutits."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Stäng av och koppla ur maskinen",
+          "detail": "Innan du rör vid några slangar eller anslutningar, stäng av tvättmaskinen med programvredet och dra ur kontakten från eluttaget. Stäng av båda vattenförsörjningskranarna vid väggen. Detta är ett grundläggande men viktigt säkerhetssteg innan du inspekterar röranslutningarna."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera vattenförsörjningsslangarna",
+          "detail": "Dra ut maskinen tillräckligt långt från väggen för att komma åt bakpanelen. Lokalisera de två inloppsslangarna — kallvattenslangen ska anslutas till inloppsventilen märkt med en blå etikett eller 'C', och varmvattenslangen till inloppet märkt med en röd etikett eller 'H'. Om de är korsade, byt plats på dem, dra åt anslutningarna för hand tills de sitter fast och kontrollera om det finns tecken på läckande packningar."
+        },
+        {
+          "step": 3,
+          "action": "Inspektera slangarnas packningar och anslutningar för skador",
+          "detail": "Medan slangarna är bortkopplade, kontrollera gummipakningarna inuti varje slanganslutning. En sprucken eller saknad packning kan orsaka ett långsamt läckage och i vissa fall påverka vattenflödet på ett sätt som bidrar till temperaturfel. Byt ut skadade packningar innan du återansluter."
+        },
+        {
+          "step": 4,
+          "action": "Återställ strömmen och kör kalibreringscykeln",
+          "detail": "Återanslut maskinen, öppna vattenförsörjningen och sätt i kontakten. Samsung rekommenderar att köra en kalibreringscykel efter eventuella rörändringar — håll in Start/Paus enligt anvisningarna i din modells manual för att starta denna. Kalibreringen hjälper maskinen att återupprätta grundläggande avläsningar och kan rensa CE-koden om slangbytet var grundorsaken."
+        },
+        {
+          "step": 5,
+          "action": "Kör en kort provtvätt och övervaka om felet återkommer",
+          "detail": "Välj ett snabbtvättprogram vid 30°C och starta maskinen. Bevaka de första minuterna av cykeln för att bekräfta att vatten kommer in normalt och att CE-koden inte visas igen. Om cykeln slutförs utan fel är problemet löst."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera NTC-temperatursensorn och dess kablage",
+          "detail": "Om CE kvarstår efter att slangarna korrigerats är NTC-sensorn nästa komponent att inspektera. Sensorn sitter vanligtvis på värmaggregatet inne i trumområdet. Med maskinen urkopplad, kontrollera att sensorns kabelkontakt sitter ordentligt och är fri från korrosion. En multimeter kan användas för att testa sensorns resistans — konsultera din modells servicedata för förväntat värde vid rumstemperatur."
+        },
+        {
+          "step": 7,
+          "action": "Testa eller byt ut vatteninloppsventilen",
+          "detail": "Om sensorn är i ordning, inspektera inloppsventilen för tecken på kalkavlagringar, skräp i filtermeshen eller elektriskt fel. Ta bort meshfiltret från ventilens inlopp, skölj det under rinnande vatten och sätt tillbaka det. Om ventilens solenoid visar öppen krets vid mätning med multimeter behöver ventilen bytas ut."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har bekräftat att vattenslangarna är korrekt anslutna, att NTC-sensorns kablage sitter säkert och att inloppsventilens filter är rent, men CE-felet fortsätter att visas vid varje cykel, beror felet troligen på maskinens huvudstyrkort eller så har sensorn själv gått sönder elektriskt. Dessa komponenter kräver ordentliga diagnostikverktyg och, när det gäller kretskortet, varsam hantering för att undvika ytterligare skador.</p><p>Du bör också kontakta en servicetekniker om du märker tecken på vattenläckage från inloppsventilens område, brännlukt från maskinen, eller om maskinen fortfarande är under garanti — att försöka demontera maskinen ytterligare själv kan göra garantin ogiltig.</p>",
+      "prevention_html": "<p>CE-felet är oftast ett röranslutningsproblem snarare än ett komponentfel, så den bästa förebyggande åtgärden är noggrann installation. Märk alltid dina slangar innan du kopplar loss dem av någon anledning, och dubbelkontrollera färgkodade anslutningar varje gång maskinen flyttas eller servas. Att köra kalibreringscykeln efter installation eller slangarbete tar bara några minuter och hjälper maskinen att bekräfta att dess grundläggande temperaturavläsningar är korrekta.</p><p>Om CE återkommer med tiden utan några rörändringar är NTC-temperatursensorn den mest utbytta delen för detta fel, följt av vatteninloppsventilen. I ihållande fall kan även huvudstyrkortet behöva åtgärdas.</p>\n<!-- SPARE_PARTS:CE -->",
+      "faq_json": [
+        {
+          "answer": "Det är inte lämpligt. CE-felet gör att maskinen stoppar cykeln specifikt för att förhindra skador från felaktiga vattentemperaturer. Att köra en tvätt medan felet är aktivt riskerar att skada tyger, och cykeln kommer troligen inte att slutföras normalt ändå. Åtgärda slanganslutningen först och återuppta sedan användningen.",
+          "question": "Kan jag fortfarande använda min Samsung tvättmaskin medan CE-felet visas?"
+        },
+        {
+          "answer": "Ja, det kan det om den enskilda kallvattenslangen av misstag är ansluten till varmvatteninloppet. Samsung-maskiner konstruerade för enbart kallvattenfyllning ska ha slangen ansluten till kallvatteninloppet. Kontrollera din installationsmanual för rätt konfiguration för din specifika modell, eftersom vissa modeller kräver en blindplugg på det oanvända varmvatteninloppet.",
+          "question": "Min Samsung tvättmaskin har bara kallvattenförsörjning — kan det orsaka CE?"
+        },
+        {
+          "answer": "Det exakta tillvägagångssättet varierar något beroende på modell, men på de flesta Samsung frontmatade maskiner håller du in Start/Paus-knappen i flera sekunder med tom trumma och stängd lucka. Displayen visar 'CA' eller 'CAL' för att bekräfta att cykeln körs. Kontrollera din modells användarmanual för den exakta knappsekvenssen, eftersom vissa modeller kräver en kombination av knappar.",
+          "question": "Hur kör jag kalibreringscykeln på min Samsung tvättmaskin?"
+        },
+        {
+          "answer": "CE-felet försvinner inte av sig självt så länge den bakomliggande orsaken kvarstår. När du har korrigerat slanganslutningarna eller bytt ut den defekta komponenten kan du återställa maskinen genom att koppla ur den i två till tre minuter och sedan sätta i kontakten igen. Det rekommenderas också att köra kalibreringscykeln efteråt för att säkerställa att maskinen återupprättar korrekta temperaturgrundvärden.",
+          "question": "Försvinner CE-felet av sig självt, eller behöver jag återställa maskinen?"
+        },
+        {
+          "answer": "NTC-sensorer är generellt sett en av de mer prisvärda tvättmaskinkomponenterna och finns ofta tillgängliga för mellan 100 och 300 kronor beroende på modell. Att montera delen själv är enkelt om du är bekväm med grundläggande vitvarureperation. Om du föredrar att en servicetekniker utför bytet tillkommer arbetskostnader utöver detta.",
+          "question": "Vad kostar det vanligtvis att byta en NTC-temperatursensor på en Samsung tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [
+        {
+          "name": "B1020V",
+          "slug": "b1020v",
+          "model_id": 38
+        },
+        {
+          "name": "B1220V",
+          "slug": "b1220v",
+          "model_id": 71
+        },
+        {
+          "name": "B1253",
+          "slug": "b1253",
+          "model_id": 85
+        },
+        {
+          "name": "B1263",
+          "slug": "b1263",
+          "model_id": 87
+        },
+        {
+          "name": "B1276GSC",
+          "slug": "b1276gsc",
+          "model_id": 93
+        },
+        {
+          "name": "B875",
+          "slug": "b875",
+          "model_id": 145
+        },
+        {
+          "name": "F1015JGB/YLP",
+          "slug": "f1015jgb-ylp",
+          "model_id": 203
+        },
+        {
+          "name": "F1020V",
+          "slug": "f1020v",
+          "model_id": 209
+        },
+        {
+          "name": "F1033",
+          "slug": "f1033",
+          "model_id": 210
+        },
+        {
+          "name": "F1043",
+          "slug": "f1043",
+          "model_id": 214
+        },
+        {
+          "name": "F1045",
+          "slug": "f1045",
+          "model_id": 219
+        },
+        {
+          "name": "F843",
+          "slug": "f843",
+          "model_id": 279
+        },
+        {
+          "name": "F875",
+          "slug": "f875",
+          "model_id": 288
+        },
+        {
+          "name": "FlexWash WV60M9900AV",
+          "slug": "flexwash-wv60m9900av",
+          "model_id": 306
+        },
+        {
+          "name": "J1055A",
+          "slug": "j1055a",
+          "model_id": 333
+        },
+        {
+          "name": "J1055AC",
+          "slug": "j1055ac",
+          "model_id": 335
+        },
+        {
+          "name": "J1220",
+          "slug": "j1220",
+          "model_id": 356
+        },
+        {
+          "name": "J1264",
+          "slug": "j1264",
+          "model_id": 387
+        },
+        {
+          "name": "J1466",
+          "slug": "j1466",
+          "model_id": 421
+        },
+        {
+          "name": "J1488",
+          "slug": "j1488",
+          "model_id": 431
+        },
+        {
+          "name": "J875",
+          "slug": "j875",
+          "model_id": 459
+        },
+        {
+          "name": "P1043",
+          "slug": "p1043",
+          "model_id": 475
+        },
+        {
+          "name": "P1053S",
+          "slug": "p1053s",
+          "model_id": 481
+        },
+        {
+          "name": "Q1044AS",
+          "slug": "q1044as",
+          "model_id": 529
+        },
+        {
+          "name": "Q1244AS",
+          "slug": "q1244as",
+          "model_id": 551
+        },
+        {
+          "name": "Q1256",
+          "slug": "q1256",
+          "model_id": 559
+        },
+        {
+          "name": "Q1290",
+          "slug": "q1290",
+          "model_id": 561
+        },
+        {
+          "name": "Q1457AT",
+          "slug": "q1457at",
+          "model_id": 588
+        },
+        {
+          "name": "Q1470",
+          "slug": "q1470",
+          "model_id": 596
+        },
+        {
+          "name": "Q1473",
+          "slug": "q1473",
+          "model_id": 598
+        },
+        {
+          "name": "Q1490",
+          "slug": "q1490",
+          "model_id": 601
+        },
+        {
+          "name": "Q1495",
+          "slug": "q1495",
+          "model_id": 605
+        },
+        {
+          "name": "R1020V",
+          "slug": "r1020v",
+          "model_id": 643
+        },
+        {
+          "name": "R1220V",
+          "slug": "r1220v",
+          "model_id": 668
+        },
+        {
+          "name": "S1020V",
+          "slug": "s1020v",
+          "model_id": 704
+        },
+        {
+          "name": "S1043",
+          "slug": "s1043",
+          "model_id": 706
+        },
+        {
+          "name": "S621GWS2/YLW",
+          "slug": "s621gws2-ylw",
+          "model_id": 718
+        },
+        {
+          "name": "B1075V",
+          "slug": "b1075v",
+          "model_id": 986
+        },
+        {
+          "name": "B1275V",
+          "slug": "b1275v",
+          "model_id": 1024
+        },
+        {
+          "name": "B1282V",
+          "slug": "b1282v",
+          "model_id": 1031
+        },
+        {
+          "name": "B1285AV",
+          "slug": "b1285av",
+          "model_id": 1034
+        },
+        {
+          "name": "B1475V",
+          "slug": "b1475v",
+          "model_id": 1062
+        },
+        {
+          "name": "F1053S",
+          "slug": "f1053s",
+          "model_id": 1164
+        },
+        {
+          "name": "F1075V",
+          "slug": "f1075v",
+          "model_id": 1169
+        },
+        {
+          "name": "F1275V",
+          "slug": "f1275v",
+          "model_id": 1195
+        },
+        {
+          "name": "J1020",
+          "slug": "j1020",
+          "model_id": 1249
+        },
+        {
+          "name": "J1075V",
+          "slug": "j1075v",
+          "model_id": 1281
+        },
+        {
+          "name": "J1184V",
+          "slug": "j1184v",
+          "model_id": 1285
+        },
+        {
+          "name": "J1275V",
+          "slug": "j1275v",
+          "model_id": 1324
+        },
+        {
+          "name": "J1284V",
+          "slug": "j1284v",
+          "model_id": 1328
+        }
+      ],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-03-28T17:41:36.057276+00:00"
+    }
+  ]
+}

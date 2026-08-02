@@ -1,0 +1,1043 @@
+{
+  "exported_at": "2026-07-30T22:30:43.757410+00:00",
+  "source": "production-vps",
+  "article_ids": [
+    244,
+    330,
+    331,
+    334,
+    336
+  ],
+  "rows": [
+    {
+      "article_id": 244,
+      "locale": "en",
+      "slug": "error-code-no",
+      "title_tag": "Siemens Washing Machine Error Code NO | Fix It Now",
+      "meta_description": "Siemens washing machine showing error code NO? Learn what causes water not entering, how to fix it yourself, and when to call a service technician.",
+      "h1": "What Does Error Code NO Mean on a Siemens Washing Machine?",
+      "description": "Error code NO on a Siemens washing machine indicates that water is not entering the drum within the expected time, pointing to a fault in the water supply system.",
+      "quick_fix": "Check that the cold water tap behind the machine is fully open and the inlet hose is not kinked or blocked, then restart the cycle — this resolves the majority of NO error cases (takes about 5 minutes).",
+      "intro_html": "<p>Error code NO appears on certain basic Siemens washing machine models when the appliance cannot detect water entering the drum at the start of a cycle, or when filling takes longer than the control board expects. It is functionally equivalent to error E17, which appears on more advanced Siemens models, and both point to the same underlying water inlet system.</p><p>When this error triggers, the machine will typically pause mid-fill or refuse to progress past the initial fill stage. You may hear the drum motor attempt to start, or you may notice complete silence after the door locks. The display will hold the NO code until the fault is cleared.</p><p>In most cases the cause is straightforward — a closed tap, a kinked hose, or a clogged inlet filter — and can be resolved without tools in a few minutes. Working through the steps below in order will help you identify and fix the problem efficiently.</p>",
+      "causes_json": [
+        {
+          "cause": "Water supply tap closed or partially closed",
+          "detail": "The cold water tap behind the machine must be fully open for adequate flow. Even a partially closed tap can restrict pressure enough to trigger the NO error."
+        },
+        {
+          "cause": "Kinked or crushed inlet hose",
+          "detail": "If the machine has been pushed back against the wall, the inlet hose can become kinked, blocking water flow entirely. This is one of the most common causes after moving or reinstalling the appliance."
+        },
+        {
+          "cause": "Blocked inlet hose filter mesh",
+          "detail": "A small mesh filter sits inside the inlet hose connection at the back of the machine. Over time it collects sediment and limescale, reducing flow to the point where the machine cannot fill correctly."
+        },
+        {
+          "cause": "Faulty or stuck water inlet valve",
+          "detail": "The inlet valve is an electrically operated solenoid that opens to allow water in. If it has failed mechanically or electrically, it will not open even when the control board sends the correct signal."
+        },
+        {
+          "cause": "Low mains water pressure",
+          "detail": "Siemens washing machines require a minimum water pressure — typically around 0.5 bar — to fill properly. Temporary low pressure from supply works or a shared building supply can cause the NO error to appear intermittently."
+        },
+        {
+          "cause": "Faulty pressure sensor or wiring",
+          "detail": "The pressure sensor (also called the water level sensor) tells the control board how much water is in the drum. If it is faulty or its wiring is damaged, the board may incorrectly believe the drum is not filling even when water is present."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the water supply tap",
+          "detail": "Locate the cold water tap on the wall behind the machine and confirm it is turned fully anticlockwise (open). It is surprisingly common for this tap to be accidentally knocked partially closed. Turn it fully open, then restart the cycle to see if the error clears."
+        },
+        {
+          "step": 2,
+          "action": "Inspect the inlet hose for kinks",
+          "detail": "Pull the machine gently away from the wall and run your hand along the full length of the inlet hose. Straighten any kinks or bends you find. Make sure there is enough slack in the hose so it does not kink again when the machine is pushed back into position."
+        },
+        {
+          "step": 3,
+          "action": "Clean the inlet hose filter mesh",
+          "detail": "Turn off the water tap, then unscrew the inlet hose from the back of the machine — have a towel ready as some water will spill. Use a pair of pliers or your fingers to pull out the small mesh filter from the hose connection port. Rinse it under the tap and use an old toothbrush to remove any limescale or debris. Refit the filter, reconnect the hose firmly, and turn the tap back on."
+        },
+        {
+          "step": 4,
+          "action": "Check household water pressure",
+          "detail": "Run a cold tap elsewhere in your home and observe the flow. If pressure seems unusually low throughout the house, contact your water supplier to check for a local supply issue. Wait until normal pressure is restored before running the machine again."
+        },
+        {
+          "step": 5,
+          "action": "Power cycle the machine",
+          "detail": "Switch the machine off at the mains socket and leave it unpowered for two minutes. This allows the control board to fully reset. Switch it back on, select a short cycle, and observe whether the drum fills normally. This step can clear a temporary sensor or control board glitch."
+        },
+        {
+          "step": 6,
+          "action": "Test the water inlet valve",
+          "detail": "If the steps above have not resolved the fault, the inlet valve itself may be defective. With the machine unplugged, disconnect the inlet hose and inspect the valve body at the back of the machine for visible cracks or corrosion. A multimeter can be used to test the solenoid coil for continuity — a reading of open circuit (OL) confirms the valve has failed and needs replacing."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the pressure sensor and its hose",
+          "detail": "The pressure sensor is usually located inside the top panel of the machine, connected to the drum by a thin rubber hose. Check that this hose is not split, blocked, or disconnected. If the hose is clear but the error persists, the sensor itself may need testing or replacing — at this stage it is reasonable to involve a service technician."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above — confirmed the water supply is open, cleaned the inlet filter, power cycled the machine, and visually inspected the inlet valve — and the NO error still appears, the fault is likely internal. A failed inlet valve solenoid, a defective pressure sensor, or a wiring fault between these components and the control board all require proper diagnosis with test equipment.</p><p>You should also call a service technician if you notice water leaking from the inlet hose connection after reassembly, if the machine makes an unusual buzzing sound during the fill phase (which can indicate a valve trying and failing to open), or if the error appears on every cycle without any obvious external cause.</p>",
+      "prevention_html": "<p>The most commonly replaced parts for the NO error on Siemens washing machines are the water inlet valve, the inlet hose filter mesh, and the pressure sensor. Keeping the filter mesh clean every six to twelve months — particularly in hard water areas — is the single most effective way to prevent this fault from recurring. If your machine is more than five years old and the inlet valve has never been replaced, it is worth having it checked during any service visit.</p><p>Replacing these parts yourself is straightforward if you are comfortable working with the machine unplugged and the water supply isolated. Use only genuine Siemens-compatible parts to ensure correct fit and reliable operation.</p>\n<!-- SPARE_PARTS:NO -->",
+      "faq_json": [
+        {
+          "answer": "Yes, they describe the same fault — water not entering the drum within the expected time. The NO code tends to appear on simpler display models that cannot show alphanumeric codes, while E17 appears on models with a more detailed display. The causes and fixes are identical for both.",
+          "question": "Is error code NO the same as error E17 on Siemens washing machines?"
+        },
+        {
+          "answer": "It is not advisable to keep running the machine while the error is active. If the drum is not filling correctly, the machine may run a cycle with insufficient water, which can damage laundry and put unnecessary strain on the motor and heating element. Resolve the fault before using the machine again.",
+          "question": "Can I still use my washing machine if the NO error keeps coming back?"
+        },
+        {
+          "answer": "Once the underlying cause has been fixed, the error should clear automatically when you start a new cycle. If it does not, switch the machine off at the mains socket, wait two minutes, and switch it back on. Selecting a fresh programme after the reset is usually enough to clear the stored fault.",
+          "question": "How do I reset the NO error code on a Siemens washing machine?"
+        },
+        {
+          "answer": "Yes. If your washing machine is installed in an unheated garage, utility room, or outbuilding, the inlet hose or the valve itself can freeze during cold weather, completely blocking water flow. Allow the hose to thaw naturally at room temperature — do not use a heat gun or open flame — before attempting to run the machine.",
+          "question": "Could a frozen inlet hose cause the NO error in winter?"
+        },
+        {
+          "answer": "For a confident DIYer with basic tools, replacing the inlet valve typically takes between 30 and 60 minutes. The valve is usually accessible from the back panel of the machine. Always unplug the machine and turn off the water supply before starting, and have towels ready to catch residual water in the hose.",
+          "question": "How long does it take to replace a water inlet valve on a Siemens washing machine?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-08T15:08:27.578076+00:00"
+    },
+    {
+      "article_id": 244,
+      "locale": "sv",
+      "slug": "felkod-no",
+      "title_tag": "Siemens Tvättmaskin Felkod NO | Åtgärda Problemet Nu",
+      "meta_description": "Visar din Siemens tvättmaskin felkod NO? Lär dig vad som orsakar att vatten inte kommer in, hur du åtgärdar det själv och när du bör kontakta en servicetekniker.",
+      "h1": "Vad Betyder Felkod NO på en Siemens Tvättmaskin?",
+      "description": "Felkod NO på en Siemens tvättmaskin indikerar att vatten inte fyller trumman inom förväntad tid, vilket pekar på ett fel i vattenförsörjningssystemet.",
+      "quick_fix": "Kontrollera att kallvattenkranen bakom maskinen är helt öppen och att inloppsslagen inte är böjd eller blockerad, starta sedan programmet igen — detta löser de flesta fall av NO-fel (tar ungefär 5 minuter).",
+      "intro_html": "<p>Felkod NO visas på vissa enklare Siemens tvättmaskinmodeller när maskinen inte kan registrera att vatten fyller trumman i början av ett program, eller när påfyllningen tar längre tid än styrkortet förväntar sig. Den är funktionellt likvärdig med felkod E17, som visas på mer avancerade Siemens-modeller, och båda pekar på samma underliggande vattenintagssystem.</p><p>När detta fel utlöses pausar maskinen vanligtvis mitt under påfyllningen eller vägrar att gå vidare från det inledande fyllningsstadiet. Du kan höra trummotorn försöka starta, eller märka fullständig tystnad efter att luckan låsts. Displayen visar NO-koden tills felet är åtgärdat.</p><p>I de flesta fall är orsaken enkel — en stängd kran, en böjd slang eller ett igensatt inloppsfilter — och kan åtgärdas utan verktyg på några minuter. Att arbeta igenom stegen nedan i ordning hjälper dig att identifiera och lösa problemet effektivt.</p>",
+      "causes_json": [
+        {
+          "cause": "Vattenförsörjningskranen stängd eller delvis stängd",
+          "detail": "Kallvattenkranen bakom maskinen måste vara helt öppen för tillräckligt flöde. Även en delvis stängd kran kan begränsa trycket tillräckligt för att utlösa NO-felet."
+        },
+        {
+          "cause": "Böjd eller klämd inloppsslang",
+          "detail": "Om maskinen har skjutits tillbaka mot väggen kan inloppsslangen böjas och blockera vattenflödet helt. Detta är en av de vanligaste orsakerna efter att maskinen har flyttats eller återinstallerats."
+        },
+        {
+          "cause": "Igensatt filtermesh i inloppsslangen",
+          "detail": "Ett litet nätfilter sitter inuti inloppsslangskopplingen på maskinens baksida. Med tiden samlar det på sig sediment och kalkavlagringar, vilket minskar flödet till den punkt där maskinen inte kan fylla korrekt."
+        },
+        {
+          "cause": "Defekt eller fastnad vattenintagsventil",
+          "detail": "Intagsventilen är en elektriskt styrd magnetventil som öppnas för att släppa in vatten. Om den har havererat mekaniskt eller elektriskt öppnas den inte ens när styrkortet skickar rätt signal."
+        },
+        {
+          "cause": "Lågt vattentryck i nätet",
+          "detail": "Siemens tvättmaskiner kräver ett minsta vattentryck — vanligtvis cirka 0,5 bar — för att fylla korrekt. Tillfälligt lågt tryck på grund av arbeten i ledningsnätet eller en delad byggnadsförsörjning kan göra att NO-felet uppträder sporadiskt."
+        },
+        {
+          "cause": "Defekt trycksensor eller kablage",
+          "detail": "Trycksensorn (även kallad vattennivåsensorn) talar om för styrkortet hur mycket vatten som finns i trumman. Om den är defekt eller dess kablage är skadat kan kortet felaktigt tro att trumman inte fylls, även när vatten är närvarande."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera vattenförsörjningskranen",
+          "detail": "Leta upp kallvattenkranen på väggen bakom maskinen och bekräfta att den är vriden helt moturs (öppen). Det är förvånansvärt vanligt att denna kran råkar knuffas till delvis stängd. Vrid den helt öppen och starta sedan om programmet för att se om felet försvinner."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera inloppsslangen för böjar",
+          "detail": "Dra försiktigt ut maskinen från väggen och känn längs hela inloppsslangen. Räta ut eventuella böjar eller krökar du hittar. Se till att det finns tillräckligt med slack i slangen så att den inte böjs igen när maskinen skjuts tillbaka på plats."
+        },
+        {
+          "step": 3,
+          "action": "Rengör filtermeshet i inloppsslangen",
+          "detail": "Stäng av vattenkranen och skruva sedan loss inloppsslangen från maskinens baksida — ha en handduk till hands eftersom lite vatten kommer att rinna ut. Använd en tång eller fingrarna för att dra ut det lilla nätfiltret från slanganslutningsporten. Skölj det under kranen och använd en gammal tandborste för att ta bort kalkavlagringar eller smuts. Sätt tillbaka filtret, anslut slangen ordentligt och öppna kranen igen."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera hushållets vattentryck",
+          "detail": "Öppna en kallvattenkran på annan plats i hemmet och observera flödet. Om trycket verkar ovanligt lågt i hela huset, kontakta ditt vattenbolag för att kontrollera om det finns ett lokalt leveransproblem. Vänta tills normalt tryck är återställt innan du kör maskinen igen."
+        },
+        {
+          "step": 5,
+          "action": "Starta om maskinen",
+          "detail": "Stäng av maskinen vid vägguttaget och låt den vara strömlös i två minuter. Detta ger styrkortet möjlighet att återställa sig helt. Slå på den igen, välj ett kort program och observera om trumman fylls normalt. Detta steg kan rensa ett tillfälligt sensor- eller styrkortsproblem."
+        },
+        {
+          "step": 6,
+          "action": "Testa vattenintagsventilen",
+          "detail": "Om stegen ovan inte har löst felet kan intagsventilen i sig vara defekt. Med maskinen urkopplad, koppla loss inloppsslangen och inspektera ventilkroppen på maskinens baksida för synliga sprickor eller korrosion. En multimeter kan användas för att testa magnetspolen för kontinuitet — ett avläsningsvärde av öppen krets (OL) bekräftar att ventilen har havererat och behöver bytas."
+        },
+        {
+          "step": 7,
+          "action": "Inspektera trycksensorn och dess slang",
+          "detail": "Trycksensorn sitter vanligtvis inuti maskinens toppanel, ansluten till trumman via en tunn gummislang. Kontrollera att denna slang inte är sprucken, blockerad eller lossnad. Om slangen är fri men felet kvarstår kan sensorn i sig behöva testas eller bytas — i detta skede är det rimligt att kontakta en servicetekniker."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har arbetat igenom alla stegen ovan — bekräftat att vattenförsörjningen är öppen, rengjort inloppsfilter, startat om maskinen och visuellt inspekterat intagsventilen — och NO-felet fortfarande visas, är felet troligen internt. En havererad magnetventil, en defekt trycksensor eller ett kabelfel mellan dessa komponenter och styrkortet kräver korrekt diagnos med testutrustning.</p><p>Du bör också kontakta en servicetekniker om du märker att vatten läcker från inloppsslangskopplingen efter återmontering, om maskinen avger ett ovanligt brummande ljud under fyllningsfasen (vilket kan indikera att en ventil försöker men misslyckas med att öppnas), eller om felet uppträder vid varje program utan någon uppenbar yttre orsak.</p>",
+      "prevention_html": "<p>De mest utbytta delarna för NO-felet på Siemens tvättmaskiner är vattenintagsventilen, filtermeshet i inloppsslangen och trycksensorn. Att hålla filtermeshet rent var sjätte till tolfte månad — särskilt i områden med hårt vatten — är det enskilt mest effektiva sättet att förhindra att detta fel återkommer. Om din maskin är mer än fem år gammal och intagsventilen aldrig har bytts, är det värt att låta den kontrolleras vid ett servicebesök.</p><p>Att byta dessa delar själv är enkelt om du känner dig bekväm med att arbeta med maskinen urkopplad och vattenförsörjningen avstängd. Använd endast äkta Siemens-kompatibla delar för att säkerställa korrekt passform och tillförlitlig funktion.</p>\n<!-- SPARE_PARTS:NO -->",
+      "faq_json": [
+        {
+          "answer": "Ja, de beskriver samma fel — vatten som inte fyller trumman inom förväntad tid. NO-koden tenderar att visas på enklare displaymodeller som inte kan visa alfanumeriska koder, medan E17 visas på modeller med en mer detaljerad display. Orsakerna och åtgärderna är identiska för båda.",
+          "question": "Är felkod NO samma som felkod E17 på Siemens tvättmaskiner?"
+        },
+        {
+          "answer": "Det är inte tillrådligt att fortsätta köra maskinen medan felet är aktivt. Om trumman inte fylls korrekt kan maskinen köra ett program med otillräckligt vatten, vilket kan skada tvätten och belasta motor och värmeelement i onödan. Åtgärda felet innan du använder maskinen igen.",
+          "question": "Kan jag fortsätta använda min tvättmaskin om NO-felet återkommer?"
+        },
+        {
+          "answer": "När den underliggande orsaken har åtgärdats bör felet rensas automatiskt när du startar ett nytt program. Om det inte gör det, stäng av maskinen vid vägguttaget, vänta två minuter och slå på den igen. Att välja ett nytt program efter återställningen räcker vanligtvis för att rensa det lagrade felet.",
+          "question": "Hur återställer jag felkod NO på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Ja. Om din tvättmaskin är installerad i ett ouppvärmt garage, tvättstuga eller uthus kan inloppsslangen eller ventilen i sig frysa under kallt väder och helt blockera vattenflödet. Låt slangen tina naturligt i rumstemperatur — använd inte värmepistol eller öppen låga — innan du försöker köra maskinen.",
+          "question": "Kan en frusen inloppsslang orsaka NO-felet på vintern?"
+        },
+        {
+          "answer": "För en händig hemmafixare med grundläggande verktyg tar det vanligtvis mellan 30 och 60 minuter att byta intagsventilen. Ventilen är vanligtvis åtkomlig från maskinens bakpanel. Koppla alltid ur maskinen och stäng av vattenförsörjningen innan du börjar, och ha handdukar till hands för att fånga upp kvarvarande vatten i slangen.",
+          "question": "Hur lång tid tar det att byta en vattenintagsventil på en Siemens tvättmaskin?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-08T15:09:37.257981+00:00"
+    },
+    {
+      "article_id": 330,
+      "locale": "en",
+      "slug": "washing-machine-wont-drain",
+      "title_tag": "Siemens Washing Machine Won't Drain – Fixes & Causes",
+      "meta_description": "Siemens washing machine not draining? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers error codes E20, E21, E23, E24.",
+      "h1": "Why Won't My Siemens Washing Machine Drain?",
+      "description": "The washing machine stops mid-cycle or at the end of a programme with water remaining in the drum, failing to pump it out through the drain hose.",
+      "quick_fix": "Clean out the pump filter located behind the small access panel at the bottom front of the machine — a blocked filter is the cause in the majority of cases and clearing it should restore normal draining within about 10 minutes.",
+      "intro_html": "<p>When a Siemens washing machine won't drain, you'll typically find standing water left in the drum at the end of a cycle, or the machine pauses mid-programme and refuses to continue. The display may show error codes E20, E21, E23, or E24 — all of which relate to a drainage fault detected by the machine's control system. E23 and E24 specifically point toward a pump or wiring issue, while E20 and E21 indicate the machine simply couldn't empty within the expected time.</p><p>The drainage system on a Siemens washing machine involves several components working together: the pump filter, the drain pump motor, the drain hose, and the pressure sensor that tells the machine when the drum is empty. A problem with any one of these can bring the whole process to a halt. The good news is that the most common causes are straightforward to check and fix yourself without specialist tools.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked pump filter",
+          "detail": "The pump filter traps lint, coins, hair grips, and other small items before they reach the pump impeller. Over time it becomes clogged and restricts water flow enough to prevent draining entirely."
+        },
+        {
+          "cause": "Kinked or blocked drain hose",
+          "detail": "The corrugated drain hose can become kinked behind the machine or blocked with a build-up of detergent residue and debris. Even a partial blockage creates enough back-pressure to stop the pump from emptying the drum."
+        },
+        {
+          "cause": "Faulty or jammed drain pump",
+          "detail": "If a foreign object — such as a small coin or piece of wire — gets past the filter and into the pump, it can jam the impeller. The pump motor may also fail electrically, which is what error codes E23 and E24 typically indicate."
+        },
+        {
+          "cause": "Blocked household standpipe or sink trap",
+          "detail": "The fault isn't always inside the machine. If the standpipe or the sink trap the drain hose empties into is partially blocked, water cannot exit quickly enough and the machine registers a drain error."
+        },
+        {
+          "cause": "Faulty pressure sensor or air chamber",
+          "detail": "The pressure sensor (also called a pressure switch) monitors the water level in the drum. If the small rubber air chamber tube connected to it is blocked with detergent residue, the sensor may incorrectly report that the drum is still full even after draining."
+        },
+        {
+          "cause": "Wiring or control board fault",
+          "detail": "In less common cases, the wiring harness between the control board and the drain pump can develop a break or poor connection, preventing the pump from receiving power. Error codes E23 and E24 can point to this when the pump and filter are both clear."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Manually drain the drum first",
+          "detail": "Before doing anything else, you need to remove the standing water. Place towels on the floor, then open the small access panel at the bottom front of the machine. Slowly unscrew the cap on the pump filter — there is a small emergency drain hose next to it on most Siemens models. Direct this hose into a shallow bowl and let the water drain out in stages. This prevents a flood when you remove the filter."
+        },
+        {
+          "step": 2,
+          "action": "Clean the pump filter",
+          "detail": "Once the water is out, fully unscrew and remove the pump filter. Rinse it under a tap, removing all lint, debris, and any foreign objects. Check inside the filter housing with a torch for anything lodged in the pump impeller — you should be able to turn the impeller freely with your finger. Refit the filter firmly and run a short spin cycle to test."
+        },
+        {
+          "step": 3,
+          "action": "Check the drain hose for kinks or blockages",
+          "detail": "Pull the machine gently away from the wall and inspect the entire length of the drain hose. Straighten any kinks and ensure the hose is not pushed too far down into the standpipe — it should sit no deeper than 15 cm into the pipe to allow air circulation. Disconnect the hose and flush water through it to confirm it is clear."
+        },
+        {
+          "step": 4,
+          "action": "Check the household standpipe or sink trap",
+          "detail": "Pour a bucket of water directly into the standpipe or sink that the drain hose connects to. If it drains slowly, the blockage is in your household plumbing rather than the machine. Clear the trap or standpipe using a standard drain cleaner or plunger before testing the washing machine again."
+        },
+        {
+          "step": 5,
+          "action": "Inspect and test the drain pump",
+          "detail": "If the filter was clear and the hose is unobstructed, the pump itself may be faulty. With the machine unplugged, access the pump from the front or rear depending on your model. Check that the pump wiring connector is firmly seated. Reconnect power and start a drain or spin cycle — a working pump makes a consistent low hum. No sound at all suggests an electrical fault; a grinding noise suggests a jammed impeller."
+        },
+        {
+          "step": 6,
+          "action": "Check the pressure sensor air chamber tube",
+          "detail": "Locate the thin rubber tube running from the bottom of the drum up to the pressure sensor on the side of the cabinet. Disconnect it at both ends and blow through it to confirm it is clear. Rinse it with warm water if you feel any resistance. A blocked tube can cause the machine to behave as though the drum is full even when it has drained."
+        },
+        {
+          "step": 7,
+          "action": "Reset the machine and run a test cycle",
+          "detail": "After completing any of the above checks, reset the machine by switching it off at the wall for two minutes, then switching it back on. Select a short spin-only programme to confirm draining is working correctly. If an error code reappears immediately without the drum containing water, a component fault is likely and a service technician should be consulted."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have cleaned the filter, cleared the hose, and confirmed the household plumbing is free-flowing but the machine still won't drain, the drain pump motor has most likely failed and needs replacing. Similarly, if error codes E23 or E24 return immediately after a reset with no obvious blockage present, there is likely a wiring or control board fault that requires diagnostic equipment to trace safely.</p><p>You should also call a service technician if you notice any burning smell coming from the machine during a drain attempt, if the pump housing shows signs of cracking or water leakage around it, or if the machine trips your household circuit breaker when it tries to drain — these are signs of an electrical fault that should not be investigated without professional training.</p>",
+      "prevention_html": "<p>The single most effective thing you can do to prevent drain faults on a Siemens washing machine is to clean the pump filter every one to three months, depending on how frequently you use the machine. Empty pockets before loading — coins, hair grips, and tissues are the most common causes of pump blockages and impeller damage. Running a hot maintenance wash (60°C or above) with a washing machine cleaner once a month also helps prevent detergent residue from building up in the drain hose and pressure sensor tube.</p><p>The parts most commonly replaced when a Siemens washing machine develops a persistent drain fault are the drain pump assembly, the pump filter housing (if cracked during cleaning), and the pressure sensor. Genuine Siemens-compatible versions of all three are available as spare parts.</p>\n<!-- SPARE_PARTS_FAULT:wont-drain -->",
+      "faq_json": [
+        {
+          "answer": "All four codes relate to a drainage problem. E20 and E21 mean the machine tried to drain but couldn't empty within the allowed time — usually pointing to a blockage. E23 and E24 indicate the control board has detected a fault with the drain pump circuit itself, such as a failed pump motor or a wiring issue. Start by checking the filter regardless of which code appears.",
+          "question": "What do error codes E20, E21, E23, and E24 mean on a Siemens washing machine?"
+        },
+        {
+          "answer": "It is not advisable. Running further cycles with standing water in the drum can put extra strain on the pump motor and may cause mould and odour to develop quickly. Resolve the drain fault first, then resume normal use.",
+          "question": "Can I use my washing machine if it won't drain?"
+        },
+        {
+          "answer": "Use the small emergency drain hose located next to the pump filter at the bottom front of the machine. Place a shallow tray underneath, pull out the hose, remove its cap, and let the water flow out gradually. You may need to empty the tray several times for a full drum load.",
+          "question": "How do I get the water out of my Siemens washing machine if it won't drain?"
+        },
+        {
+          "answer": "Every one to three months is a good general guideline. If you wash items that shed a lot of lint — such as towels or pet bedding — or if you frequently wash items with small items in the pockets, clean it monthly. Regular cleaning takes less than five minutes and prevents the majority of drain faults.",
+          "question": "How often should I clean the pump filter on my Siemens washing machine?"
+        },
+        {
+          "answer": "Many confident DIYers do replace drain pumps on Siemens washing machines, as the pump is generally accessible from the front after removing the filter housing. However, it does involve disconnecting electrical connectors and hose clips, and the machine must be unplugged throughout. If you are not comfortable working around appliance wiring, it is safer to have a service technician carry out the replacement.",
+          "question": "Is a drain pump replacement something I can do myself?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:12:49.29098+00:00"
+    },
+    {
+      "article_id": 330,
+      "locale": "sv",
+      "slug": "tvattmaskin-tommer-inte",
+      "title_tag": "Siemens Tvättmaskin Tömmer Inte – Lösningar & Orsaker",
+      "meta_description": "Siemens tvättmaskin tömmer inte? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkoder E20, E21, E23, ",
+      "h1": "Varför Tömmer Inte Min Siemens Tvättmaskin?",
+      "description": "Tvättmaskinen stannar mitt i ett program eller i slutet av ett program med vatten kvar i trumman och lyckas inte pumpa ut det genom avloppsslangen.",
+      "quick_fix": "Rengör pumpfiltret som sitter bakom den lilla luckan längst ned på maskinens framsida – ett igensatt filter är orsaken i de flesta fall och att rensa det bör återställa normal tömning på ungefär 10 minuter.",
+      "intro_html": "<p>När en Siemens tvättmaskin inte tömmer hittar du vanligtvis stående vatten kvar i trumman i slutet av ett program, eller så pausar maskinen mitt i programmet och vägrar att fortsätta. Displayen kan visa felkoder E20, E21, E23 eller E24 – alla relaterade till ett avloppsfel som detekterats av maskinens styrsystem. E23 och E24 pekar specifikt mot ett pump- eller kabelproblem, medan E20 och E21 indikerar att maskinen helt enkelt inte kunde tömma sig inom förväntad tid.</p><p>Avloppssystemet på en Siemens tvättmaskin består av flera komponenter som samverkar: pumpfiltret, avloppspumpmotorn, avloppsslangen och trycksensorn som talar om för maskinen när trumman är tom. Ett problem med någon av dessa kan stoppa hela processen. Den goda nyheten är att de vanligaste orsakerna är enkla att kontrollera och åtgärda själv utan specialverktyg.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt pumpfilter",
+          "detail": "Pumpfiltret fångar upp ludd, mynt, hårnålar och andra små föremål innan de når pumphjulet. Med tiden täpps det igen och begränsar vattenflödet tillräckligt för att helt förhindra tömning."
+        },
+        {
+          "cause": "Veckad eller igensatt avloppsslang",
+          "detail": "Den korrugerade avloppsslangen kan bli veckad bakom maskinen eller igensatt med ansamlingar av tvättmedelsrester och smuts. Även en partiell blockering skapar tillräckligt högt mottryck för att hindra pumpen från att tömma trumman."
+        },
+        {
+          "cause": "Defekt eller fastklämd avloppspump",
+          "detail": "Om ett främmande föremål – till exempel ett litet mynt eller en bit tråd – tar sig förbi filtret och in i pumpen kan det låsa fast pumphjulet. Pumpmotorn kan också gå sönder elektriskt, vilket är vad felkoderna E23 och E24 vanligtvis indikerar."
+        },
+        {
+          "cause": "Igensatt avloppsrör eller golvbrunn i hemmet",
+          "detail": "Felet är inte alltid inne i maskinen. Om avloppsröret eller golvbrunnen som avloppsslangen mynnar ut i är delvis igensatt kan vattnet inte rinna ut tillräckligt snabbt och maskinen registrerar ett avloppsfel."
+        },
+        {
+          "cause": "Defekt trycksensor eller luftkammare",
+          "detail": "Trycksensorn (även kallad pressostaten) övervakar vattennivån i trumman. Om det lilla gummislangen till luftkammaren är igensatt med tvättmedelsrester kan sensorn felaktigt rapportera att trumman fortfarande är full även efter tömning."
+        },
+        {
+          "cause": "Kabelfel eller fel på styrkortet",
+          "detail": "I mindre vanliga fall kan kabelstammen mellan styrkortet och avloppspumpen få ett brott eller dålig kontakt, vilket hindrar pumpen från att få ström. Felkoderna E23 och E24 kan peka på detta när pumpen och filtret båda är fria."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Töm trumman manuellt först",
+          "detail": "Innan du gör något annat måste du ta bort det stående vattnet. Lägg handdukar på golvet och öppna sedan den lilla luckan längst ned på maskinens framsida. Skruva långsamt loss locket på pumpfiltret – det finns en liten nödtömningsslang bredvid det på de flesta Siemens-modeller. Rikta slangen mot en grund skål och låt vattnet rinna ut i omgångar. Detta förhindrar en översvämning när du tar bort filtret."
+        },
+        {
+          "step": 2,
+          "action": "Rengör pumpfiltret",
+          "detail": "När vattnet är ute skruvar du loss och tar bort pumpfiltret helt. Skölj det under kranen och ta bort allt ludd, smuts och eventuella främmande föremål. Kontrollera insidan av filterhuset med en ficklampa för att se om något sitter fast i pumphjulet – du ska kunna snurra hjulet fritt med fingret. Sätt tillbaka filtret ordentligt och kör ett kort centrifugeringsprogram för att testa."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera avloppsslangen för veck eller blockering",
+          "detail": "Dra försiktigt ut maskinen från väggen och inspektera hela avloppsslangen. Räta ut eventuella veck och se till att slangen inte är instoppad för djupt i avloppsröret – den bör sitta högst 15 cm ned i röret för att tillåta luftcirkulation. Koppla loss slangen och spola vatten igenom den för att bekräfta att den är fri."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera avloppsröret eller golvbrunnen i hemmet",
+          "detail": "Häll en hink vatten direkt i avloppsröret eller diskhon som avloppsslangen är ansluten till. Om det rinner långsamt sitter blockeringen i ditt hushållsavlopp snarare än i maskinen. Rensa brunnen eller avloppsröret med ett vanligt avloppsmedel eller en vaskrensare innan du testar tvättmaskinen igen."
+        },
+        {
+          "step": 5,
+          "action": "Inspektera och testa avloppspumpen",
+          "detail": "Om filtret var rent och slangen är fri kan pumpen själv vara defekt. Med maskinen urkopplad från eluttaget, kom åt pumpen framifrån eller bakifrån beroende på din modell. Kontrollera att pumpens kabelkontakt sitter ordentligt. Återanslut strömmen och starta ett tömnings- eller centrifugeringsprogram – en fungerande pump avger ett jämnt, lågt surrande ljud. Inget ljud alls tyder på ett elektriskt fel; ett malande ljud tyder på ett fastkilat pumphjul."
+        },
+        {
+          "step": 6,
+          "action": "Kontrollera trycksensorns luftkammarslang",
+          "detail": "Leta upp den tunna gummislangen som löper från trummans undersida upp till trycksensorn på sidan av maskinhöljet. Koppla loss den i båda ändarna och blås igenom den för att bekräfta att den är fri. Skölj den med varmt vatten om du känner något motstånd. En igensatt slang kan få maskinen att bete sig som om trumman är full även när den har tömts."
+        },
+        {
+          "step": 7,
+          "action": "Återställ maskinen och kör ett testprogram",
+          "detail": "Efter att ha utfört någon av ovanstående kontroller återställer du maskinen genom att stänga av den vid vägguttaget i två minuter och sedan slå på den igen. Välj ett kort centrifugeringsprogram för att bekräfta att tömningen fungerar korrekt. Om en felkod visas omedelbart utan att trumman innehåller vatten är det troligt att en komponent är defekt och en servicetekniker bör kontaktas."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har rengjort filtret, rensat slangen och bekräftat att hushållsavloppet flödar fritt men maskinen fortfarande inte tömmer har avloppspumpmotorn troligtvis gått sönder och behöver bytas. På samma sätt, om felkoderna E23 eller E24 återkommer omedelbart efter en återställning utan någon uppenbar blockering, finns det troligen ett kabel- eller styrkortsfel som kräver diagnostikutrustning för att spåras på ett säkert sätt.</p><p>Du bör också kontakta en servicetekniker om du märker någon bränd lukt från maskinen under ett tömningsförsök, om pumphuset visar tecken på sprickor eller vattenläckage runt det, eller om maskinen löser ut din hushållssäkring när den försöker tömma – dessa är tecken på ett elektriskt fel som inte bör undersökas utan professionell utbildning.</p>",
+      "prevention_html": "<p>Det enskilt mest effektiva du kan göra för att förebygga avloppsproblem på en Siemens tvättmaskin är att rengöra pumpfiltret var en till tre månader, beroende på hur ofta du använder maskinen. Töm fickorna innan du lastar – mynt, hårnålar och pappersservetter är de vanligaste orsakerna till pumpstopp och skador på pumphjulet. Att köra ett varmt underhållsprogram (60 °C eller högre) med ett tvättmaskinrengöringsmedel en gång i månaden hjälper också till att förhindra att tvättmedelsrester byggs upp i avloppsslangen och trycksensorns luftkammarslang.</p><p>De delar som oftast byts ut när en Siemens tvättmaskin utvecklar ett ihållande avloppsproblem är avloppspumpaggregatet, pumpfilterhuset (om det spricker under rengöring) och trycksensorn. Äkta Siemens-kompatibla versioner av alla tre finns tillgängliga som reservdelar.</p>\n<!-- SPARE_PARTS_FAULT:wont-drain -->",
+      "faq_json": [
+        {
+          "answer": "Alla fyra koder relaterar till ett avloppsproblem. E20 och E21 betyder att maskinen försökte tömma men inte kunde göra det inom tillåten tid – pekar vanligtvis på en blockering. E23 och E24 indikerar att styrkortet har detekterat ett fel i avloppspumpkretsen, till exempel en defekt pumpmotorn eller ett kabelproblem. Börja med att kontrollera filtret oavsett vilken kod som visas.",
+          "question": "Vad betyder felkoderna E20, E21, E23 och E24 på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Det är inte lämpligt. Att köra fler program med stående vatten i trumman kan belasta pumpmotorn extra och kan snabbt orsaka mögel och dålig lukt. Åtgärda avloppsfelet först och återuppta sedan normal användning.",
+          "question": "Kan jag använda min tvättmaskin om den inte tömmer?"
+        },
+        {
+          "answer": "Använd den lilla nödtömningsslangen som sitter bredvid pumpfiltret längst ned på maskinens framsida. Placera ett grunt kärl undertill, dra ut slangen, ta bort dess lock och låt vattnet rinna ut gradvis. Du kan behöva tömma kärlet flera gånger för en full trumma.",
+          "question": "Hur får jag ut vattnet ur min Siemens tvättmaskin om den inte tömmer?"
+        },
+        {
+          "answer": "Var en till tre månader är en bra allmän riktlinje. Om du tvättar plagg som avger mycket ludd – till exempel handdukar eller husdjursbäddar – eller om du ofta tvättar plagg med små föremål i fickorna, rengör det månadsvis. Regelbunden rengöring tar mindre än fem minuter och förebygger de flesta avloppsproblem.",
+          "question": "Hur ofta bör jag rengöra pumpfiltret på min Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Många hemmafixare byter själva avloppspumpar på Siemens tvättmaskiner, eftersom pumpen i allmänhet är åtkomlig framifrån efter att filterhuset tagits bort. Det innebär dock att koppla loss elektriska kontakter och slangklämmor, och maskinen måste vara urkopplad från eluttaget under hela arbetet. Om du inte känner dig bekväm med att arbeta med hushållsapparaters kablar är det säkrare att låta en servicetekniker utföra bytet.",
+          "question": "Är ett byte av avloppspump något jag kan göra själv?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:14:07.29327+00:00"
+    },
+    {
+      "article_id": 331,
+      "locale": "en",
+      "slug": "wont-spin",
+      "title_tag": "Siemens Washing Machine Won't Spin – Fixes & Causes",
+      "meta_description": "Siemens washing machine not spinning? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers error code E50.",
+      "h1": "Why Has My Siemens Washing Machine Stopped Spinning?",
+      "description": "The washing machine completes the wash cycle but the drum fails to spin, leaving clothes soaking wet at the end of the programme.",
+      "quick_fix": "Check and clear the drain filter at the bottom-front of the machine — a blocked filter prevents the machine from draining fully, which stops the spin from starting; rinse it under a tap, refit it, and run a spin-only cycle to confirm the fault is resolved (takes about 5 minutes).",
+      "intro_html": "<p>When a Siemens washing machine refuses to spin, you typically open the door to find clothes that are dripping wet rather than damp. The drum may have rotated slowly during the wash but never reached the high speed needed to extract water. In some cases the machine appears to finish normally but the laundry is far heavier than it should be — a clear sign the spin cycle was skipped or cut short.</p><p>The spin system relies on several components working together: the motor, the motor control board, the door latch, the drain pump, and the load-sensing software. A fault in any one of these can prevent the drum from reaching spin speed. Siemens machines may display error code E50 when a motor or motor-control issue is detected, though the spin can also fail silently without any code appearing on the display.</p><p>The good news is that several of the most common causes are straightforward to check yourself before calling anyone out.</p>",
+      "causes_json": [
+        {
+          "cause": "Blocked or dirty drain filter",
+          "detail": "If the machine cannot pump water out completely, the control board deliberately prevents the spin to avoid damage. A clogged coin-trap filter is the single most frequent reason a Siemens machine skips the spin cycle."
+        },
+        {
+          "cause": "Unbalanced or overloaded drum",
+          "detail": "Siemens machines use sensors to detect an uneven load and will reduce or cancel the spin to prevent excessive vibration. A single heavy item like a duvet or a very small load of dense fabric is a common trigger."
+        },
+        {
+          "cause": "Faulty or worn carbon brushes on the motor",
+          "detail": "The motor relies on carbon brushes to transfer current to the spinning armature. As they wear down over years of use, the motor loses power and can no longer reach spin speed, often triggering error code E50."
+        },
+        {
+          "cause": "Door latch or interlock failure",
+          "detail": "The machine will not spin unless it confirms the door is securely closed. A worn or broken door interlock sends no signal to the control board, so the spin is never initiated even though the wash runs normally."
+        },
+        {
+          "cause": "Faulty motor control board (PCB)",
+          "detail": "The motor control board regulates the speed and direction of the drum. If it develops a fault — often from a power surge or age-related component failure — it may allow washing but be unable to drive the motor to spin speed."
+        },
+        {
+          "cause": "Worn or broken drive belt",
+          "detail": "The drive belt connects the motor to the drum pulley. If it snaps or stretches significantly, the motor runs but the drum either does not move at all or turns very slowly and cannot spin."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Redistribute the load and retry",
+          "detail": "Open the door and manually spread the laundry evenly around the drum. Remove any single very heavy items and wash them separately. Close the door and select a spin-only programme to see if the machine now spins normally — this takes under two minutes and costs nothing."
+        },
+        {
+          "step": 2,
+          "action": "Clean the drain filter",
+          "detail": "Locate the small access panel at the bottom-front of the machine. Place a shallow tray and some towels underneath, then slowly unscrew the filter cap to let residual water drain out. Pull the filter out completely, rinse it under a tap to remove fluff, coins, or debris, then refit it firmly. Run a spin-only cycle to test."
+        },
+        {
+          "step": 3,
+          "action": "Check the drain hose for kinks or blockages",
+          "detail": "Pull the machine slightly away from the wall and inspect the corrugated drain hose running to the standpipe or under-sink connection. Straighten any kinks and confirm the hose end is not pushed more than 15 cm into the standpipe, which can cause a siphoning effect that prevents proper draining and therefore blocks the spin."
+        },
+        {
+          "step": 4,
+          "action": "Inspect the door latch",
+          "detail": "With the machine unplugged, open and close the door several times and listen for a firm click. If the latch feels loose, does not click, or the door can be pulled open without pressing the release, the interlock is likely faulty. Visually check the plastic hook on the door and the receiver on the machine body for cracks or wear."
+        },
+        {
+          "step": 5,
+          "action": "Check for error code E50 on the display",
+          "detail": "If E50 is shown, this points specifically to the motor or motor control circuit. Note the code, then switch the machine off at the mains for two minutes and switch it back on — a temporary software glitch can sometimes trigger E50 and a reset clears it. If the code returns immediately, the motor brushes or control board need further investigation."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the drive belt",
+          "detail": "Unplug the machine and remove the back panel (usually held by three or four screws). Look at the large rubber belt running around the drum pulley and the smaller motor pulley. If it has snapped, slipped off, or looks glazed and cracked, it needs replacing. Drive belts are an affordable part and a manageable DIY replacement if you are comfortable working inside the appliance."
+        },
+        {
+          "step": 7,
+          "action": "Check the motor carbon brushes",
+          "detail": "With the back panel still removed, locate the motor and identify the two brush holders on either side. Slide each brush out and measure its length — if either is shorter than approximately 1 cm, it is worn out and needs replacing. New brushes are inexpensive and sold as a pair; fitting them requires only a screwdriver and is a common DIY repair."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and the machine still will not spin, or if error code E50 returns immediately after every reset, the fault is most likely inside the motor control board or the motor itself. These components require specialist diagnostic equipment to test safely and accurately, and incorrect handling of the wiring or PCB can cause further damage.</p><p>You should also contact a service technician if you notice burning smells, scorch marks near the motor or wiring, or if the drum is completely immobile and makes no sound at all when a cycle starts — these signs suggest an electrical fault that goes beyond routine maintenance and should not be investigated without proper training.</p>",
+      "prevention_html": "<p>The parts most commonly replaced on Siemens washing machines when the spin fails are the motor carbon brushes, the door interlock switch, and the drive belt. Keeping the drain filter clean every one to three months is the single most effective way to prevent spin faults caused by poor drainage. Avoiding overloading the drum — a good rule of thumb is leaving a hand's width of space at the top of the load — also reduces stress on the belt and motor over time.</p><p>If you need to order replacement parts for your specific Siemens model, use the part finder below to locate the correct components by model number.</p>\n<!-- SPARE_PARTS_FAULT:wont-spin -->",
+      "faq_json": [
+        {
+          "answer": "E50 indicates a fault detected in the motor circuit, which includes the motor itself, the carbon brushes, and the motor control board. Start by resetting the machine at the mains for two minutes. If the code returns, the brushes are the most cost-effective first thing to check and replace.",
+          "question": "What does error code E50 mean on a Siemens washing machine?"
+        },
+        {
+          "answer": "If draining is working correctly, focus on the door interlock, the drive belt, and the motor brushes in that order. A door latch that is not registering as closed will prevent the spin from starting even when everything else is functioning. Check for any visible damage to the latch mechanism first.",
+          "question": "My Siemens washing machine drains but still won't spin — what should I check?"
+        },
+        {
+          "answer": "You can run wash cycles, but without spinning the clothes will be too wet to go into a tumble dryer safely and will be very heavy to handle. Continuing to use the machine without resolving the fault is unlikely to cause additional damage in most cases, but it is worth fixing promptly to avoid mould from clothes sitting wet for extended periods.",
+          "question": "Can I use my washing machine if it won't spin?"
+        },
+        {
+          "answer": "Carbon brushes typically last between five and ten years depending on how frequently the machine is used. Households that run the machine daily will see brushes wear faster than those using it two or three times a week. Replacing brushes is one of the most common and affordable repairs on older Siemens models.",
+          "question": "How long do carbon brushes last in a Siemens washing machine?"
+        },
+        {
+          "answer": "In most cases, yes — especially if the machine is fewer than ten years old. The most common causes of a failed spin (brushes, belt, door interlock, filter) are all relatively inexpensive parts. A service technician can give you a repair estimate before you commit, which makes it easy to weigh the cost against replacement.",
+          "question": "Is a washing machine that won't spin worth repairing?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:15:01.93408+00:00"
+    },
+    {
+      "article_id": 331,
+      "locale": "sv",
+      "slug": "centrifugerar-inte",
+      "title_tag": "Siemens Tvättmaskin Centrifugerar Inte – Lösningar & Orsaker",
+      "meta_description": "Siemens tvättmaskin centrifugerar inte? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker felkod E50.",
+      "h1": "Varför har min Siemens tvättmaskin slutat centrifugera?",
+      "description": "Tvättmaskinen slutför tvättcykeln men trumman centrifugerar inte, vilket lämnar kläderna genomblöta i slutet av programmet.",
+      "quick_fix": "Kontrollera och rengör avloppsfiltet längst ned på maskinens framsida – ett igensatt filter hindrar maskinen från att tömma sig helt, vilket gör att centrifugeringen inte startar. Skölj filtret under kranen, sätt tillbaka det och kör ett centrifugeringsprogram för att bekräfta att felet är åtgärdat (tar ungefär 5 minuter).",
+      "intro_html": "<p>När en Siemens tvättmaskin vägrar centrifugera öppnar du vanligtvis luckan och finner kläder som är genomdränkta snarare än lätt fuktiga. Trumman kan ha roterat långsamt under tvätten men aldrig nått den höga hastighet som krävs för att pressa ut vattnet. I vissa fall verkar maskinen avsluta normalt, men tvätten är mycket tyngre än den borde vara – ett tydligt tecken på att centrifugeringscykeln hoppades över eller avbröts i förtid.</p><p>Centrifugeringssystemet är beroende av att flera komponenter samverkar: motorn, motorstyrkortet, lucklåset, avloppspumpen och lastdetekteringsprogramvaran. Ett fel i någon av dessa kan hindra trumman från att nå centrifugeringshastighet. Siemens-maskiner kan visa felkod E50 när ett motor- eller motorstyrningsproblem upptäcks, men centrifugeringen kan också misslyckas utan att någon kod visas på displayen.</p><p>Den goda nyheten är att flera av de vanligaste orsakerna är enkla att kontrollera själv innan du ringer någon.</p>",
+      "causes_json": [
+        {
+          "cause": "Igensatt eller smutsigt avloppsfilter",
+          "detail": "Om maskinen inte kan pumpa ut vattnet helt förhindrar styrkortet avsiktligt centrifugeringen för att undvika skador. Ett igensatt myntfilter är den enskilt vanligaste orsaken till att en Siemens-maskin hoppar över centrifugeringscykeln."
+        },
+        {
+          "cause": "Obalanserad eller överlastad trumma",
+          "detail": "Siemens-maskiner använder sensorer för att upptäcka en ojämn last och minskar eller avbryter centrifugeringen för att förhindra kraftiga vibrationer. Ett enstaka tungt plagg som en duntäcke, eller en mycket liten tvätt av tätt tyg, är vanliga utlösande faktorer."
+        },
+        {
+          "cause": "Defekta eller slitna kolborstar på motorn",
+          "detail": "Motorn är beroende av kolborstar för att överföra ström till den roterande ankaret. När de slits ned efter många års användning tappar motorn kraft och kan inte längre nå centrifugeringshastighet, vilket ofta utlöser felkod E50."
+        },
+        {
+          "cause": "Fel på lucklås eller låsbrytare",
+          "detail": "Maskinen centrifugerar inte om den inte bekräftar att luckan är ordentligt stängd. En sliten eller trasig låsbrytare skickar ingen signal till styrkortet, vilket innebär att centrifugeringen aldrig startar trots att tvätten körs normalt."
+        },
+        {
+          "cause": "Defekt motorstyrkortet (PCB)",
+          "detail": "Motorstyrkortet reglerar trummans hastighet och riktning. Om det utvecklar ett fel – ofta till följd av ett strömtoppar eller åldersrelaterat komponentfel – kan det tillåta tvätt men vara oförmöget att driva motorn till centrifugeringshastighet."
+        },
+        {
+          "cause": "Sliten eller trasig drivrem",
+          "detail": "Drivremmen förbinder motorn med trummans remskiva. Om den brister eller sträcks ut avsevärt körs motorn men trumman rör sig antingen inte alls eller roterar mycket långsamt och kan inte centrifugera."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Fördela lasten och försök igen",
+          "detail": "Öppna luckan och fördela tvätten jämnt för hand runt trumman. Ta bort enstaka mycket tunga plagg och tvätta dem separat. Stäng luckan och välj ett centrifugeringsprogram för att se om maskinen nu centrifugerar normalt – detta tar under två minuter och kostar ingenting."
+        },
+        {
+          "step": 2,
+          "action": "Rengör avlopp filtret",
+          "detail": "Hitta den lilla luckan längst ned på maskinens framsida. Placera ett grunt kärl och några handdukar undertill och skruva sedan långsamt loss filterlocket för att låta kvarvarande vatten rinna ut. Dra ut filtret helt, skölj det under kranen för att ta bort ludd, mynt eller skräp och sätt sedan tillbaka det ordentligt. Kör ett centrifugeringsprogram för att testa."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera avloppsslangen för böjar eller blockeringar",
+          "detail": "Dra maskinen något från väggen och inspektera den korrugerade avloppsslangen som leder till avloppsröret eller anslutningen under diskhon. Räta ut eventuella böjar och kontrollera att slangänden inte är instucken mer än 15 cm i avloppsröret, vilket kan orsaka en siffoneffekt som hindrar korrekt tömning och därmed blockerar centrifugeringen."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera lucklåset",
+          "detail": "Med maskinen urkopplad, öppna och stäng luckan flera gånger och lyssna efter ett tydligt klick. Om låset känns löst, inte klickar eller om luckan kan dras upp utan att frigöringsknappen trycks in, är låsbrytaren troligtvis defekt. Kontrollera visuellt den plastiga kroken på luckan och mottagaren på maskinkroppen för sprickor eller slitage."
+        },
+        {
+          "step": 5,
+          "action": "Kontrollera om felkod E50 visas på displayen",
+          "detail": "Om E50 visas pekar detta specifikt på motorn eller motorstyrningskretsen. Notera koden och stäng sedan av maskinen vid eluttaget i två minuter och slå på den igen – ett tillfälligt programvarufel kan ibland utlösa E50 och en återställning rensar det. Om koden återkommer omedelbart behöver motorborstarna eller styrkortet undersökas vidare."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera drivremmen",
+          "detail": "Koppla ur maskinen och ta bort bakpanelen (vanligtvis fäst med tre eller fyra skruvar). Titta på det stora gummiremmen som löper runt trummans remskiva och den mindre motorremskivan. Om den har brustit, halkade av eller ser glasartad och sprucken ut behöver den bytas. Drivremmar är en prisvärd del och ett hanterbart gör-det-själv-byte om du är bekväm med att arbeta inuti apparaten."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera motorns kolborstar",
+          "detail": "Med bakpanelen fortfarande borttagen, lokalisera motorn och identifiera de två borsthållarna på vardera sidan. Dra ut varje borste och mät dess längd – om någon är kortare än ungefär 1 cm är den utsliten och behöver bytas. Nya borstar är billiga och säljs som ett par; montering kräver bara en skruvmejsel och är en vanlig gör-det-själv-reparation."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har arbetat igenom alla stegen ovan och maskinen fortfarande inte centrifugerar, eller om felkod E50 återkommer omedelbart efter varje återställning, beror felet troligtvis på motorstyrkortet eller motorn själv. Dessa komponenter kräver specialiserad diagnostikutrustning för att testas säkert och korrekt, och felaktig hantering av kablar eller kretskort kan orsaka ytterligare skador.</p><p>Du bör också kontakta en servicetekniker om du märker bränndoft, brännmärken nära motorn eller kablarna, eller om trumman är helt orörlig och inte avger något ljud alls när ett program startas – dessa tecken tyder på ett elfel som går bortom rutinunderhåll och bör inte undersökas utan rätt utbildning.</p>",
+      "prevention_html": "<p>De delar som oftast byts på Siemens tvättmaskiner när centrifugeringen slutar fungera är motorns kolborstar, lucklåsbrytaren och drivremmen. Att hålla avloppsfiltret rent var en till tre månader är det enskilt mest effektiva sättet att förebygga centrifugeringsfel orsakade av dålig tömning. Att undvika överlastning av trumman – en bra tumregel är att lämna en handsbredd utrymme överst i lasten – minskar också belastningen på remmen och motorn över tid.</p><p>Om du behöver beställa reservdelar till din specifika Siemens-modell, använd reservdelssökaren nedan för att hitta rätt komponenter via modellnummer.</p>\n<!-- SPARE_PARTS_FAULT:wont-spin -->",
+      "faq_json": [
+        {
+          "answer": "E50 indikerar ett fel som upptäckts i motorkretsen, vilket inkluderar motorn själv, kolborstarna och motorstyrkortet. Börja med att återställa maskinen vid eluttaget i två minuter. Om koden återkommer är borstarna det mest kostnadseffektiva att kontrollera och byta ut först.",
+          "question": "Vad betyder felkod E50 på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Om tömningen fungerar korrekt, fokusera på lucklåsbrytaren, drivremmen och motorborstarna i den ordningen. Ett lucklås som inte registreras som stängt förhindrar centrifugeringen från att starta även när allt annat fungerar. Kontrollera om det finns synliga skador på låsmekanismen först.",
+          "question": "Min Siemens tvättmaskin tömmer sig men centrifugerar ändå inte – vad ska jag kontrollera?"
+        },
+        {
+          "answer": "Du kan köra tvättprogram, men utan centrifugering blir kläderna för blöta för att läggas i en torktumlare på ett säkert sätt och blir mycket tunga att hantera. Att fortsätta använda maskinen utan att åtgärda felet orsakar i de flesta fall ingen ytterligare skada, men det är värt att åtgärda snabbt för att undvika mögel från kläder som ligger blöta under längre perioder.",
+          "question": "Kan jag använda tvättmaskinen om den inte centrifugerar?"
+        },
+        {
+          "answer": "Kolborstar håller vanligtvis mellan fem och tio år beroende på hur ofta maskinen används. Hushåll som kör maskinen dagligen ser borstarna slitas snabbare än de som använder den två eller tre gånger i veckan. Att byta borstar är en av de vanligaste och mest prisvärda reparationerna på äldre Siemens-modeller.",
+          "question": "Hur länge håller kolborstar i en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "I de flesta fall ja – särskilt om maskinen är yngre än tio år. De vanligaste orsakerna till en misslyckad centrifugering (borstar, rem, lucklåsbrytare, filter) är alla relativt billiga delar. En servicetekniker kan ge dig en reparationsuppskattning innan du bestämmer dig, vilket gör det enkelt att väga kostnaden mot att köpa en ny maskin.",
+          "question": "Är det värt att reparera en tvättmaskin som inte centrifugerar?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:16:17.043475+00:00"
+    },
+    {
+      "article_id": 334,
+      "locale": "en",
+      "slug": "wont-fill",
+      "title_tag": "Siemens Washing Machine Won't Fill With Water – Fixes",
+      "meta_description": "Siemens washing machine not filling with water? Learn the most common causes, step-by-step fixes, and when to call a service technician. Covers E16, E17, E18.",
+      "h1": "Why Has My Siemens Washing Machine Stopped Filling With Water?",
+      "description": "The washing machine starts a cycle but little or no water enters the drum, leaving laundry unwashed.",
+      "quick_fix": "Check that both water tap(s) behind the machine are fully open, then restart the cycle — this resolves the fault in the majority of cases (takes about 5 minutes).",
+      "intro_html": "<p>When a Siemens washing machine won't fill, the drum stays dry or barely damp after the cycle begins. You may hear the machine hum as it tries to draw water, or it may simply pause and display an error code such as E16, E17, or E18 — all of which relate to water intake problems. In some cases the machine will abandon the cycle entirely and lock the door until the fault is cleared.</p><p>The filling system involves several components working together: the household water supply, the inlet hose, a mesh filter, and an electrically operated inlet valve that opens on command from the control board. A failure at any one of these points can prevent water from reaching the drum. The good news is that the most common causes are straightforward to check yourself before calling anyone out.</p>",
+      "causes_json": [
+        {
+          "cause": "Water supply tap turned off or restricted",
+          "detail": "The tap behind or beneath the machine may have been accidentally closed, or only partially opened after a recent move or plumbing work. Without adequate water pressure the inlet valve cannot draw water into the drum."
+        },
+        {
+          "cause": "Blocked inlet hose filter",
+          "detail": "A small mesh filter sits inside the hose connection at the back of the machine and catches debris from the water supply. Over time sediment and limescale can clog this filter, severely reducing or completely stopping water flow."
+        },
+        {
+          "cause": "Kinked or damaged inlet hose",
+          "detail": "The rubber hose connecting the machine to the tap can become kinked if the appliance has been pushed too close to the wall. A kink acts like a closed valve and stops water reaching the inlet."
+        },
+        {
+          "cause": "Faulty water inlet valve",
+          "detail": "The inlet valve is an electrically operated solenoid that opens to let water in. If the solenoid coil burns out or the valve body becomes clogged with limescale, it will not open even when the control board sends the correct signal."
+        },
+        {
+          "cause": "Faulty door interlock or door not fully closed",
+          "detail": "Siemens machines will not begin filling unless the door is confirmed as locked. A worn or broken door interlock switch can prevent the control board from receiving the 'door closed' signal, so the fill cycle never starts."
+        },
+        {
+          "cause": "Control board or wiring fault",
+          "detail": "In less common cases the main control board fails to send the signal to open the inlet valve, or a wiring connector between the board and the valve becomes loose or corroded. This is more likely on older machines or after a power surge."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check the water supply tap",
+          "detail": "Locate the tap on the wall or under the worktop behind the machine. Turn it fully anticlockwise to open it completely. If you have a hot-and-cold fill machine, check both taps. Restart the cycle and listen for water entering the drum within the first 30 seconds."
+        },
+        {
+          "step": 2,
+          "action": "Inspect the inlet hose for kinks",
+          "detail": "Gently pull the machine forward a few centimetres and run your hand along the full length of the inlet hose. Straighten any kinks or tight bends. Make sure there is at least 5–10 cm of clearance between the machine and the wall so the hose is not compressed when the appliance is pushed back."
+        },
+        {
+          "step": 3,
+          "action": "Clean the inlet hose filter",
+          "detail": "Turn off the water tap, then unscrew the inlet hose from the back of the machine — have a towel and small bowl ready as residual water will spill out. Use a pair of pliers or your fingers to pull out the small mesh filter from the hose port. Rinse it under a tap and use an old toothbrush to remove any limescale or grit. Refit the filter, reconnect the hose, and turn the tap back on."
+        },
+        {
+          "step": 4,
+          "action": "Check the door is closing and latching properly",
+          "detail": "Open and firmly close the door, listening for a solid click as the latch engages. If the door feels loose or the catch does not click, the door interlock may not be signalling correctly. Try selecting a cycle and pressing start — if the machine makes no attempt to fill and the door light is absent, the interlock is a likely culprit."
+        },
+        {
+          "step": 5,
+          "action": "Reset the machine",
+          "detail": "Switch the machine off at the mains socket and leave it unpowered for two minutes. Switch it back on and select a short wash cycle. This clears any temporary software fault that may have triggered an E16, E17, or E18 error and locked out the fill function."
+        },
+        {
+          "step": 6,
+          "action": "Test the water pressure",
+          "detail": "Run a cold tap elsewhere in the house to check that household water pressure is normal. If pressure seems low throughout the property, contact your water supplier. Siemens machines require a minimum dynamic pressure of around 0.5 bar to open the inlet valve reliably."
+        },
+        {
+          "step": 7,
+          "action": "Inspect the inlet valve for continuity",
+          "detail": "If all the above steps pass, the inlet valve itself may have failed. With the machine unplugged, disconnect the wiring connector from the valve and use a multimeter set to resistance (Ω) to test each solenoid coil — a healthy coil typically reads between 200 and 500 ohms. A reading of zero or infinity indicates a failed coil and the valve will need replacing."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and the machine still will not fill, or if the error code returns immediately after a reset, it is time to book a service technician. A persistent E17 or E18 code alongside a no-fill symptom can indicate a failed inlet valve solenoid, a damaged wiring loom, or a faulty control board — all of which require proper diagnostic equipment and safe handling of electrical components.</p><p>You should also call a technician if you notice water leaking from the inlet hose connection after reassembly, if the machine trips your household fuse board when it tries to fill, or if the door interlock feels broken and the door will not stay shut. Attempting to bypass these components without the correct parts and knowledge can create a safety hazard.</p>",
+      "prevention_html": "<p>The parts most commonly replaced when a Siemens washing machine won't fill are the <strong>water inlet valve</strong> (the solenoid assembly that controls water entry), the <strong>inlet hose with integrated filter</strong> (often replaced as a unit when the mesh is too corroded to clean), and the <strong>door interlock switch</strong> (which prevents the fill cycle from starting if it fails to confirm the door is closed). Keeping the filter clean every six to twelve months and avoiding pushing the machine hard against the wall will extend the life of the hose and valve considerably.</p><p>Use the parts finder below to locate the correct inlet valve, hose, or door interlock for your specific Siemens model number.</p>\n<!-- SPARE_PARTS_FAULT:wont-fill -->",
+      "faq_json": [
+        {
+          "answer": "These codes all relate to the water intake system. E16 typically indicates the machine did not detect water entering within the expected time, E17 points to a water pressure or flow issue, and E18 suggests the fill cycle timed out completely. Clearing the underlying cause — such as a closed tap or blocked filter — and resetting the machine will usually clear the code.",
+          "question": "What do error codes E16, E17, and E18 mean on a Siemens washing machine?"
+        },
+        {
+          "answer": "It is best not to run full cycles if filling is very slow, as the machine may time out mid-wash and leave clothes in soapy water. A slow fill usually means a partially blocked filter or low water pressure. Clean the inlet filter first — this is a quick job and often restores normal fill speed immediately.",
+          "question": "Can I use my washing machine if it only fills very slowly?"
+        },
+        {
+          "answer": "If cleaning the filter and checking the hose makes no difference, test the valve's solenoid coil with a multimeter as described in step 7. A coil reading outside the 200–500 ohm range, or a valve that shows visible cracking or limescale build-up inside the body, should be replaced rather than cleaned.",
+          "question": "How do I know if my inlet valve needs replacing rather than just cleaning?"
+        },
+        {
+          "answer": "Not necessarily. A machine that starts to fill but then stops could indicate a pressure chamber or pressure switch fault, which tells the control board how much water is in the drum. If the pressure switch sends an incorrect signal, the board may cut the fill early. This is a separate component from the inlet valve and may need a technician to diagnose.",
+          "question": "My Siemens machine fills with water but then stops and shows an error — is this the same fault?"
+        },
+        {
+          "answer": "In areas with hard water or older pipework, cleaning the inlet filter every six months is a sensible habit. In soft-water areas with newer plumbing, once a year is usually sufficient. It takes only a few minutes and can prevent a no-fill fault developing gradually over time.",
+          "question": "How often should I clean the washing machine inlet filter?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:21:24.149328+00:00"
+    },
+    {
+      "article_id": 334,
+      "locale": "sv",
+      "slug": "fyller-inte",
+      "title_tag": "Siemens Tvättmaskin Fyller Inte Med Vatten – Lösningar",
+      "meta_description": "Fyller inte din Siemens tvättmaskin med vatten? Lär dig de vanligaste orsakerna, steg-för-steg-lösningar och när du bör kontakta en servicetekniker. Täcker E16, E17,",
+      "h1": "Varför Har Min Siemens Tvättmaskin Slutat Fylla Med Vatten?",
+      "description": "Tvättmaskinen startar ett program men lite eller inget vatten kommer in i trumman, vilket lämnar tvätten otvättad.",
+      "quick_fix": "Kontrollera att vattenkranen/-kranarna bakom maskinen är helt öppna och starta sedan om programmet – detta löser felet i de flesta fall (tar ungefär 5 minuter).",
+      "intro_html": "<p>När en Siemens tvättmaskin inte fyller med vatten förblir trumman torr eller knappt fuktig efter att programmet startat. Du kan höra att maskinen surrar när den försöker dra in vatten, eller så pausar den helt enkelt och visar en felkod som E16, E17 eller E18 – alla relaterade till problem med vattenintaget. I vissa fall avbryter maskinen programmet helt och låser luckan tills felet är åtgärdat.</p><p>Fyllningssystemet består av flera komponenter som samverkar: hushållets vattenförsörjning, inloppssslangen, ett nätfilter och ett elektriskt styrt inloppsventil som öppnas på kommando från styrkortet. Ett fel i någon av dessa punkter kan hindra vatten från att nå trumman. Den goda nyheten är att de vanligaste orsakerna är enkla att kontrollera själv innan du behöver ringa någon.</p>",
+      "causes_json": [
+        {
+          "cause": "Vattenkranen avstängd eller begränsad",
+          "detail": "Kranen bakom eller under maskinen kan ha stängts av misstag, eller bara delvis öppnats efter en flytt eller rörmokeriarbete. Utan tillräckligt vattentryck kan inloppsventilen inte dra in vatten i trumman."
+        },
+        {
+          "cause": "Igensatt filter i inloppsslangen",
+          "detail": "Ett litet nätfilter sitter inuti slanganslutningen på maskinens baksida och fångar upp smuts från vattenförsörjningen. Med tiden kan sediment och kalkavlagringar täppa till filtret och kraftigt minska eller helt stoppa vattenflödet."
+        },
+        {
+          "cause": "Veckad eller skadad inloppsslang",
+          "detail": "Gummislangen som ansluter maskinen till kranen kan bli veckad om maskinen har skjutits för nära väggen. En veck fungerar som en stängd ventil och hindrar vatten från att nå inloppet."
+        },
+        {
+          "cause": "Defekt inloppsventil",
+          "detail": "Inloppsventilen är en elektriskt styrd magnetventil som öppnas för att släppa in vatten. Om magnetspolen bränns ut eller ventilhuset täpps igen av kalkavlagringar öppnas den inte ens när styrkortet skickar rätt signal."
+        },
+        {
+          "cause": "Defekt lucklås eller luckan inte helt stängd",
+          "detail": "Siemens-maskiner börjar inte fylla förrän luckan bekräftats som låst. En sliten eller trasig lucklåsbrytare kan hindra styrkortet från att ta emot signalen 'lucka stängd', vilket gör att fyllningscykeln aldrig startar."
+        },
+        {
+          "cause": "Fel på styrkort eller kablage",
+          "detail": "I mindre vanliga fall misslyckas huvudstyrkortet med att skicka signalen för att öppna inloppsventilen, eller så lossnar eller korroderar en kabelanslutning mellan kortet och ventilen. Detta är vanligare på äldre maskiner eller efter ett strömavbrott."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera vattenkranen",
+          "detail": "Leta upp kranen på väggen eller under bänkskivan bakom maskinen. Vrid den helt moturs för att öppna den helt. Om du har en maskin med både varm- och kallvattensanslutning, kontrollera båda kranarna. Starta om programmet och lyssna efter att vatten strömmar in i trumman inom de första 30 sekunderna."
+        },
+        {
+          "step": 2,
+          "action": "Kontrollera inloppsslangen för veckar",
+          "detail": "Dra försiktigt ut maskinen några centimeter och känn längs hela inloppsslangen. Räta ut eventuella veckar eller skarpa böjar. Se till att det finns minst 5–10 cm fritt utrymme mellan maskinen och väggen så att slangen inte kläms när maskinen skjuts tillbaka."
+        },
+        {
+          "step": 3,
+          "action": "Rengör filtret i inloppsslangen",
+          "detail": "Stäng av vattenkranen och skruva sedan loss inloppsslangen från maskinens baksida – ha en handduk och en liten skål till hands eftersom kvarvarande vatten kommer att rinna ut. Använd en tång eller fingrarna för att dra ut det lilla nätfiltret från slanganslutningen. Skölj det under kranen och använd en gammal tandborste för att ta bort kalkavlagringar eller grus. Sätt tillbaka filtret, anslut slangen igen och öppna kranen."
+        },
+        {
+          "step": 4,
+          "action": "Kontrollera att luckan stängs och låses ordentligt",
+          "detail": "Öppna och stäng luckan ordentligt och lyssna efter ett tydligt klick när låset hakar i. Om luckan känns lös eller låset inte klickar kanske lucklåset inte signalerar korrekt. Välj ett program och tryck på start – om maskinen inte gör något försök att fylla och lucklampan inte lyser är lucklåset troligen orsaken."
+        },
+        {
+          "step": 5,
+          "action": "Återställ maskinen",
+          "detail": "Stäng av maskinen vid eluttaget och låt den vara strömlös i två minuter. Slå på den igen och välj ett kort tvättprogram. Detta rensar eventuella tillfälliga programvarufel som kan ha utlöst ett E16-, E17- eller E18-fel och låst fyllningsfunktionen."
+        },
+        {
+          "step": 6,
+          "action": "Testa vattentrycket",
+          "detail": "Öppna en kallvattenskran på annan plats i huset för att kontrollera att hushållets vattentryck är normalt. Om trycket verkar lågt i hela fastigheten, kontakta ditt vattenbolag. Siemens-maskiner kräver ett minsta dynamiskt tryck på cirka 0,5 bar för att inloppsventilen ska öppnas tillförlitligt."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera inloppsventilens kontinuitet",
+          "detail": "Om alla ovanstående steg inte avslöjar något fel kan inloppsventilen själv ha gått sönder. Med maskinen urkopplad, koppla loss kabelanslutningen från ventilen och använd en multimeter inställd på motstånd (Ω) för att testa varje magnetspole – en frisk spole läser vanligtvis mellan 200 och 500 ohm. Ett värde på noll eller oändlighet indikerar en defekt spole och ventilen behöver bytas."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har gått igenom alla stegen ovan och maskinen fortfarande inte fyller med vatten, eller om felkoden återkommer omedelbart efter en återställning, är det dags att boka en servicetekniker. En ihållande E17- eller E18-kod tillsammans med att maskinen inte fyller kan indikera en defekt inloppsventilsspole, ett skadat kablage eller ett felaktigt styrkort – allt detta kräver rätt diagnosutrustning och säker hantering av elektriska komponenter.</p><p>Du bör också kontakta en tekniker om du märker att vatten läcker från inloppsslangensanslutningen efter återmontering, om maskinen löser ut din säkring när den försöker fylla, eller om lucklåset känns trasigt och luckan inte håller sig stängd. Att försöka kringgå dessa komponenter utan rätt reservdelar och kunskap kan utgöra en säkerhetsrisk.</p>",
+      "prevention_html": "<p>De delar som oftast byts ut när en Siemens tvättmaskin inte fyller med vatten är <strong>inloppsventilen</strong> (magnetventilenheten som styr vattenintaget), <strong>inloppsslangen med integrerat filter</strong> (byts ofta som en enhet när nätet är för korroderat för att rengöras) och <strong>lucklåsbrytaren</strong> (som hindrar fyllningscykeln från att starta om den inte bekräftar att luckan är stängd). Att hålla filtret rent var sjätte till tolfte månad och undvika att trycka maskinen hårt mot väggen förlänger livslängden på slangen och ventilen avsevärt.</p><p>Använd reservdelsguiden nedan för att hitta rätt inloppsventil, slang eller lucklåsbrytare för ditt specifika Siemens-modellnummer.</p>\n<!-- SPARE_PARTS_FAULT:wont-fill -->",
+      "faq_json": [
+        {
+          "answer": "Dessa koder är alla relaterade till vattenintaget. E16 indikerar vanligtvis att maskinen inte detekterade att vatten kom in inom förväntad tid, E17 pekar på ett problem med vattentryck eller flöde, och E18 tyder på att fyllningscykeln tog för lång tid. Att åtgärda den bakomliggande orsaken – till exempel en stängd kran eller ett igensatt filter – och återställa maskinen rensar vanligtvis koden.",
+          "question": "Vad betyder felkoderna E16, E17 och E18 på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Det är bäst att inte köra hela program om fyllningen är mycket långsam, eftersom maskinen kan ta slut på tid mitt i tvätten och lämna kläderna i tvålvatten. En långsam fyllning beror vanligtvis på ett delvis igensatt filter eller lågt vattentryck. Rengör inloppsfilter först – det är ett snabbt jobb och återställer ofta normal fyllningshastighet omedelbart.",
+          "question": "Kan jag använda tvättmaskinen om den bara fyller mycket långsamt?"
+        },
+        {
+          "answer": "Om rengöring av filtret och kontroll av slangen inte gör någon skillnad, testa ventilens magnetspole med en multimeter enligt steg 7. En spole med ett värde utanför intervallet 200–500 ohm, eller en ventil som visar synliga sprickor eller kalkavlagringar inuti huset, bör bytas ut snarare än rengöras.",
+          "question": "Hur vet jag om min inloppsventil behöver bytas snarare än bara rengöras?"
+        },
+        {
+          "answer": "Inte nödvändigtvis. En maskin som börjar fylla men sedan stannar kan indikera ett fel på tryckkammaren eller tryckvakten, som talar om för styrkortet hur mycket vatten som finns i trumman. Om tryckvakten skickar en felaktig signal kan kortet avbryta fyllningen för tidigt. Detta är en separat komponent från inloppsventilen och kan behöva en tekniker för att diagnostiseras.",
+          "question": "Min Siemens-maskin börjar fylla med vatten men stannar sedan och visar ett fel – är det samma problem?"
+        },
+        {
+          "answer": "I områden med hårt vatten eller äldre rörledningar är det klokt att rengöra inloppsfilter var sjätte månad. I mjukvattenområden med nyare rörledningar räcker det vanligtvis med en gång per år. Det tar bara några minuter och kan förhindra att ett fyllningsfel utvecklas gradvis över tid.",
+          "question": "Hur ofta bör jag rengöra tvättmaskinens inloppsfilter?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:22:39.328441+00:00"
+    },
+    {
+      "article_id": 336,
+      "locale": "en",
+      "slug": "making-loud-noise",
+      "title_tag": "Siemens Washing Machine Making Loud Noise – Fixes",
+      "meta_description": "Is your Siemens washing machine making a loud noise? Find the most common causes and step-by-step fixes to get it running quietly again.",
+      "h1": "Why Is My Siemens Washing Machine Making a Loud Noise?",
+      "description": "The washing machine produces an unusually loud banging, grinding, or rumbling noise during the wash or spin cycle.",
+      "quick_fix": "Check the drum for loose items such as coins or bra wires by rotating it by hand and removing any objects found — this resolves the fault in a large proportion of cases (takes about 5 minutes).",
+      "intro_html": "<p>A loud noise from your Siemens washing machine is one of the more unsettling faults you can encounter, but it is also one of the more common ones. The noise can take several forms — a rhythmic banging, a harsh grinding or scraping sound, or a low rumbling that gets worse during the spin cycle. Each pattern points to a different part of the machine.</p><p>In most cases the fault lies in the drum area: either something is caught between the drum and the cabinet, the load is unbalanced, or a mechanical component such as a bearing or shock absorber has worn out. The washing machine may still complete its cycle, but ignoring the noise can lead to more serious damage over time.</p><p>Working through the checks below in order will help you identify the source quickly without needing specialist tools for the early steps.</p>",
+      "causes_json": [
+        {
+          "cause": "Foreign object trapped in the drum or pump",
+          "detail": "Coins, bra underwires, buttons, and small clips can slip through the door seal gap and become lodged between the drum and the outer tub, or travel into the drain pump. These items create a rattling or scraping noise that is often loudest during the spin cycle."
+        },
+        {
+          "cause": "Unbalanced or overloaded drum",
+          "detail": "A single heavy item like a duvet or a tightly balled-up sheet can cause the drum to spin unevenly, producing a loud thumping or banging noise. The machine may also vibrate excessively and move across the floor."
+        },
+        {
+          "cause": "Worn drum bearings",
+          "detail": "The rear drum bearings allow the inner drum to spin smoothly. When they wear out — usually after several years of use — they produce a loud rumbling or roaring noise that increases with spin speed. You may also notice a slight wobble when you spin the drum by hand."
+        },
+        {
+          "cause": "Damaged or worn shock absorbers",
+          "detail": "Shock absorbers dampen the movement of the drum during the spin cycle. When one or more lose their resistance, the drum can knock heavily against the cabinet, especially at high spin speeds."
+        },
+        {
+          "cause": "Loose or worn drive belt",
+          "detail": "The drive belt connects the motor to the drum pulley. A belt that has stretched, cracked, or slipped can produce a squealing or slapping noise during operation, particularly as the drum accelerates."
+        },
+        {
+          "cause": "Worn or seized motor brushes",
+          "detail": "Carbon motor brushes wear down over time and can cause a harsh grinding or buzzing noise when the motor struggles to maintain contact. This is more common on older Siemens models with brushed motors."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Check for foreign objects in the drum",
+          "detail": "Open the door and rotate the drum slowly by hand, listening and feeling for any scraping or rattling. Run your hand around the inside of the door seal, pulling back the rubber lip to check for trapped items. Remove anything you find before running the machine again."
+        },
+        {
+          "step": 2,
+          "action": "Redistribute or reduce the load",
+          "detail": "If the noise occurs mid-cycle, pause the programme and open the door. Rearrange the laundry so it is spread evenly around the drum rather than bunched on one side. If the machine is overloaded, remove some items — a typical Siemens washing machine should not be packed beyond roughly 80% of its rated capacity."
+        },
+        {
+          "step": 3,
+          "action": "Check that the machine is level and stable",
+          "detail": "Place a spirit level on top of the machine and check it front-to-back and side-to-side. Adjust the levelling feet by turning them clockwise to raise or anticlockwise to lower until the machine sits flat. Make sure all four feet are in firm contact with the floor and tighten the locking nuts."
+        },
+        {
+          "step": 4,
+          "action": "Inspect and clean the drain pump filter",
+          "detail": "The pump filter is usually located behind a small panel at the bottom front of the machine. Place a shallow tray and a towel underneath, then unscrew the filter cap slowly to drain residual water. Remove the filter completely and check for coins, debris, or damage to the pump impeller visible inside the housing. Refit the filter firmly when done."
+        },
+        {
+          "step": 5,
+          "action": "Test the drum bearings",
+          "detail": "With the machine empty and unplugged, open the door and grip the drum at the 3 o'clock and 9 o'clock positions. Try to rock it up and down — a small amount of play is normal, but noticeable movement or a rough, gritty feeling when you spin the drum by hand suggests the bearings are worn. A rumbling noise that worsens at higher spin speeds is a strong confirming sign."
+        },
+        {
+          "step": 6,
+          "action": "Inspect the shock absorbers and drive belt",
+          "detail": "This step requires removing the back or front panel of the machine — consult your model's service diagram before proceeding. With the panel off, visually inspect the shock absorbers for oil leaks or broken mountings, and check the drive belt for cracks, fraying, or slack. Replace any component that shows visible wear."
+        },
+        {
+          "step": 7,
+          "action": "Check the motor brushes",
+          "detail": "On models with a brushed motor, the carbon brushes can be accessed once the back panel is removed. Brushes shorter than approximately 5 mm are considered worn and should be replaced as a pair. Worn brushes are a straightforward and inexpensive repair that can restore quiet motor operation."
+        }
+      ],
+      "when_to_call_technician_html": "<p>If you have worked through all the steps above and the loud noise persists, or if you identified worn drum bearings during step 5, it is time to contact a service technician. Bearing replacement requires the machine to be largely dismantled and the outer tub separated — this is not a practical DIY repair for most homeowners and carries a risk of further damage if done incorrectly.</p><p>You should also call a technician immediately if the noise is accompanied by burning smell, visible sparking, water leaking from the back of the machine, or if the drum has stopped rotating altogether. These signs suggest a more serious electrical or mechanical failure that needs professional diagnosis.</p>",
+      "prevention_html": "<p>Keeping your Siemens washing machine running quietly comes down to a few consistent habits. Always check pockets before loading — coins and small metal objects are the leading cause of drum and pump damage. Avoid regularly washing single heavy items on their own, and use a mesh laundry bag for underwired bras to prevent wires from escaping into the drum gap. Servicing the levelling feet once a year and ensuring the machine sits on a firm, flat surface will also reduce vibration-related wear on the shock absorbers and bearings.</p><p>The parts most commonly replaced for this fault are the <strong>drum bearings and bearing seal kit</strong>, the <strong>shock absorbers</strong>, and the <strong>drive belt</strong>. Genuine Siemens-compatible versions of these parts are available below.</p>\n<!-- SPARE_PARTS_FAULT:making-loud-noise -->",
+      "faq_json": [
+        {
+          "answer": "It depends on the cause. A noise caused by an unbalanced load or a small foreign object is unlikely to cause immediate harm, but you should resolve it promptly. A grinding noise from worn bearings or a banging from failed shock absorbers will worsen with use and can eventually damage the outer tub or drum shaft, turning a moderate repair into a much more expensive one.",
+          "question": "Is it safe to keep using my Siemens washing machine if it is making a loud noise?"
+        },
+        {
+          "answer": "Noise that appears specifically during spin, and gets louder as the speed increases, is a strong indicator of worn drum bearings. The bearings are under the most load at high spin speeds. A thumping noise during spin that is less speed-dependent is more likely to be an unbalanced load or a failing shock absorber.",
+          "question": "My Siemens washing machine is loud only during the spin cycle — what does that mean?"
+        },
+        {
+          "answer": "Drum bearings typically last between 7 and 12 years depending on usage frequency, load sizes, and water hardness. Running the machine consistently overloaded or with very heavy items can shorten bearing life significantly. Using the correct amount of detergent also helps, as excess suds can degrade the bearing seal over time.",
+          "question": "How long do drum bearings last on a Siemens washing machine?"
+        },
+        {
+          "answer": "Technically yes, but it is a complex job that involves dismantling most of the machine and, on many Siemens models, splitting the welded outer tub. Unless you are confident with appliance repair and have the correct tools, this job is best left to a service technician. Incorrect reassembly can cause water leaks or further mechanical damage.",
+          "question": "Can I replace the drum bearings myself?"
+        },
+        {
+          "answer": "This is sometimes caused by a loose counterweight — the concrete or plastic blocks bolted to the outer tub to stabilise it. If a mounting bolt has worked loose, the counterweight can rattle when the drum moves freely but be dampened by the weight of laundry during a normal load. Check the counterweight bolts and retighten them if they have any movement.",
+          "question": "Why does my Siemens washing machine make a noise when it is empty but not when it is loaded?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": null,
+      "translation_status": "published",
+      "source_locale": null,
+      "last_updated": "2026-04-09T15:25:39.899483+00:00"
+    },
+    {
+      "article_id": 336,
+      "locale": "sv",
+      "slug": "låter-högt",
+      "title_tag": "Siemens Tvättmaskin Låter Högt – Lösningar",
+      "meta_description": "Låter din Siemens tvättmaskin högt? Hitta de vanligaste orsakerna och steg-för-steg-lösningar för att få den att gå tyst igen.",
+      "h1": "Varför låter min Siemens tvättmaskin så högt?",
+      "description": "Tvättmaskinen producerar ett ovanligt högt bankande, malande eller dånande ljud under tvätt- eller centrifugeringscykeln.",
+      "quick_fix": "Kontrollera trumman efter lösa föremål som mynt eller bh-byglar genom att rotera den för hand och ta bort eventuella föremål – detta löser felet i en stor andel av fallen (tar ungefär 5 minuter).",
+      "intro_html": "<p>Ett högt ljud från din Siemens tvättmaskin är ett av de mer oroande felen du kan stöta på, men det är också ett av de vanligare. Ljudet kan ta flera former – ett rytmiskt bankande, ett hårt malande eller skrapande ljud, eller ett lågt dånande som förvärras under centrifugeringen. Varje mönster pekar på en annan del av maskinen.</p><p>I de flesta fall ligger felet i trumområdet: antingen har något fastnat mellan trumman och höljet, lasten är obalanserad, eller så har en mekanisk komponent som ett lager eller en stötdämpare slitits ut. Tvättmaskinen kan fortfarande slutföra sin cykel, men att ignorera ljudet kan leda till allvarligare skador med tiden.</p><p>Att arbeta igenom kontrollerna nedan i ordning hjälper dig att snabbt identifiera källan utan att behöva specialverktyg för de tidiga stegen.</p>",
+      "causes_json": [
+        {
+          "cause": "Främmande föremål fastnat i trumman eller pumpen",
+          "detail": "Mynt, bh-byglar, knappar och små clips kan glida igenom lucktätningsgapet och fastna mellan trumman och yttertrumman, eller ta sig in i avloppspumpen. Dessa föremål skapar ett skramlande eller skrapande ljud som ofta är som högst under centrifugeringen."
+        },
+        {
+          "cause": "Obalanserad eller överlastad trumma",
+          "detail": "Ett enda tungt föremål som en duntäcke eller ett hårt ihopvikt lakan kan få trumman att snurra ojämnt och producera ett högt dunkande eller bankande ljud. Maskinen kan också vibrera kraftigt och röra sig över golvet."
+        },
+        {
+          "cause": "Slitna trumlagrar",
+          "detail": "De bakre trumlagren låter innertrumman snurra smidigt. När de slits ut – vanligtvis efter flera års användning – producerar de ett högt dånande eller brusande ljud som ökar med centrifugeringshastigheten. Du kan också märka ett lätt gungande när du snurrar trumman för hand."
+        },
+        {
+          "cause": "Skadade eller slitna stötdämpare",
+          "detail": "Stötdämpare dämpar trummans rörelser under centrifugeringen. När en eller flera förlorar sitt motstånd kan trumman slå hårt mot höljet, särskilt vid höga centrifugeringshastigheter."
+        },
+        {
+          "cause": "Lös eller sliten drivrem",
+          "detail": "Drivremmen förbinder motorn med trummans remskiva. En rem som har sträckts, spruckit eller slirkat kan producera ett gnisslande eller smällande ljud under drift, särskilt när trumman accelererar."
+        },
+        {
+          "cause": "Slitna eller kärvande motorborstar",
+          "detail": "Kolmotorborstar slits ner med tiden och kan orsaka ett hårt malande eller surrande ljud när motorn kämpar för att behålla kontakten. Detta är vanligare på äldre Siemens-modeller med borstmotorer."
+        }
+      ],
+      "steps_json": [
+        {
+          "step": 1,
+          "action": "Kontrollera efter främmande föremål i trumman",
+          "detail": "Öppna luckan och rotera trumman långsamt för hand, lyssna och känn efter skrapning eller skramlande. Dra handen runt insidan av lucktätningen och dra tillbaka gummilisten för att kontrollera efter fastnade föremål. Ta bort allt du hittar innan du kör maskinen igen."
+        },
+        {
+          "step": 2,
+          "action": "Omfördela eller minska lasten",
+          "detail": "Om ljudet uppstår mitt i cykeln, pausa programmet och öppna luckan. Arrangera om tvätten så att den är jämnt fördelad runt trumman istället för hopbuntad på ena sidan. Om maskinen är överlastad, ta bort några plagg – en typisk Siemens tvättmaskin bör inte fyllas mer än ungefär 80 % av sin nominella kapacitet."
+        },
+        {
+          "step": 3,
+          "action": "Kontrollera att maskinen är i våg och stabil",
+          "detail": "Placera ett vattenpass ovanpå maskinen och kontrollera det framifrån-bakåt och sida-till-sida. Justera nivelleringsfötterna genom att vrida dem medurs för att höja eller moturs för att sänka tills maskinen står plant. Se till att alla fyra fötter har fast kontakt med golvet och dra åt låsmuttrarna."
+        },
+        {
+          "step": 4,
+          "action": "Inspektera och rengör avloppspumpfiltret",
+          "detail": "Pumpfiltret finns vanligtvis bakom en liten lucka längst ned på maskinens framsida. Placera ett grunt fat och en handduk undertill, skruva sedan långsamt loss filterlocket för att tömma kvarvarande vatten. Ta bort filtret helt och kontrollera efter mynt, skräp eller skador på pumphjulet som är synligt inuti huset. Sätt tillbaka filtret ordentligt när du är klar."
+        },
+        {
+          "step": 5,
+          "action": "Testa trumlagren",
+          "detail": "Med maskinen tom och urkopplad, öppna luckan och grip tag i trumman vid klockan 3 och klockan 9. Försök att gunga den upp och ner – en liten rörelse är normal, men märkbar rörelse eller en grov, grusig känsla när du snurrar trumman för hand tyder på att lagren är slitna. Ett dånande ljud som förvärras vid högre centrifugeringshastigheter är ett starkt bekräftande tecken."
+        },
+        {
+          "step": 6,
+          "action": "Inspektera stötdämpare och drivrem",
+          "detail": "Det här steget kräver att du tar bort maskinens bak- eller frontpanel – konsultera din modells servicediagram innan du fortsätter. Med panelen borttagen, inspektera stötdämparna visuellt efter oljeläckor eller trasiga fästen, och kontrollera drivremmen efter sprickor, fransning eller slack. Byt ut alla komponenter som visar synligt slitage."
+        },
+        {
+          "step": 7,
+          "action": "Kontrollera motorborstarna",
+          "detail": "På modeller med borstmotor kan kolborstarna nås när bakpanelen är borttagen. Borstar kortare än ungefär 5 mm anses slitna och bör bytas ut i par. Slitna borstar är en enkel och billig reparation som kan återställa tyst motordrift."
+        }
+      ],
+      "when_to_call_technician_html": "<p>Om du har arbetat igenom alla stegen ovan och det höga ljudet kvarstår, eller om du identifierade slitna trumlagrar under steg 5, är det dags att kontakta en servicetekniker. Lagerbyte kräver att maskinen till stor del demonteras och att yttertrumman separeras – detta är inte en praktisk gör-det-själv-reparation för de flesta hushållare och innebär risk för ytterligare skador om det görs felaktigt.</p><p>Du bör också omedelbart ringa en tekniker om ljudet åtföljs av bränd lukt, synliga gnistor, vattenläckage från maskinens baksida, eller om trumman har slutat rotera helt. Dessa tecken tyder på ett allvarligare elektriskt eller mekaniskt fel som kräver professionell diagnos.</p>",
+      "prevention_html": "<p>Att hålla din Siemens tvättmaskin tyst handlar om några konsekventa vanor. Kontrollera alltid fickorna innan du lastar – mynt och små metallföremål är den vanligaste orsaken till skador på trumma och pump. Undvik att regelbundet tvätta enstaka tunga föremål på egen hand, och använd en tvättnätspåse för bh:ar med byglar för att förhindra att byglarna tar sig in i trumgapet. Att serva nivelleringsfötterna en gång om året och se till att maskinen står på ett fast, plant underlag minskar också vibrationsorsakade slitage på stötdämpare och lager.</p><p>De delar som oftast byts ut för detta fel är <strong>trumlagern och lagerpackningssatsen</strong>, <strong>stötdämparna</strong> och <strong>drivremmen</strong>. Äkta Siemens-kompatibla versioner av dessa delar finns tillgängliga nedan.</p>\n<!-- SPARE_PARTS_FAULT:making-loud-noise -->",
+      "faq_json": [
+        {
+          "answer": "Det beror på orsaken. Ett ljud orsakat av en obalanserad last eller ett litet främmande föremål är osannolikt att orsaka omedelbar skada, men du bör åtgärda det snabbt. Ett malande ljud från slitna lager eller ett bankande från trasiga stötdämpare förvärras med användning och kan så småningom skada yttertrumman eller trumaxeln, vilket förvandlar en måttlig reparation till en mycket dyrare.",
+          "question": "Är det säkert att fortsätta använda min Siemens tvättmaskin om den låter högt?"
+        },
+        {
+          "answer": "Ljud som uppstår specifikt under centrifugering och blir högre när hastigheten ökar är ett starkt tecken på slitna trumlagrar. Lagren är mest belastade vid höga centrifugeringshastigheter. Ett dunkande ljud under centrifugering som är mindre hastighetsberoende beror troligare på en obalanserad last eller en defekt stötdämpare.",
+          "question": "Min Siemens tvättmaskin låter högt bara under centrifugeringen – vad betyder det?"
+        },
+        {
+          "answer": "Trumlagern håller vanligtvis mellan 7 och 12 år beroende på användningsfrekvens, laststorlekar och vattenhårdhet. Att regelbundet köra maskinen överlastad eller med mycket tunga föremål kan förkorta lagrets livslängd avsevärt. Att använda rätt mängd tvättmedel hjälper också, eftersom överdrivet skum kan bryta ner lagerpackningen med tiden.",
+          "question": "Hur länge håller trumlagren på en Siemens tvättmaskin?"
+        },
+        {
+          "answer": "Tekniskt sett ja, men det är ett komplext arbete som innebär att demontera större delen av maskinen och, på många Siemens-modeller, dela den svetsade yttertrumman. Om du inte är säker på vitvarureperation och har rätt verktyg är detta arbete bäst lämpat för en servicetekniker. Felaktig återmontering kan orsaka vattenläckor eller ytterligare mekaniska skador.",
+          "question": "Kan jag byta trumlagren själv?"
+        },
+        {
+          "answer": "Detta orsakas ibland av ett löst motvikt – de betong- eller plastblock som är bultade till yttertrumman för att stabilisera den. Om en monteringsbult har lossnat kan motvikten skramla när trumman rör sig fritt men dämpas av tyngden av tvätten under en normal last. Kontrollera motviktsbultarna och dra åt dem om de har någon rörelse.",
+          "question": "Varför låter min Siemens tvättmaskin när den är tom men inte när den är lastad?"
+        }
+      ],
+      "parts_json": null,
+      "affected_models_json": [],
+      "translation_status": "pending",
+      "source_locale": "en",
+      "last_updated": "2026-04-09T15:26:55.079374+00:00"
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "batch": "021-lg-te1-te3-ue-drain",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    103,
+    104,
+    105,
+    106,
+    148
+  ],
+  "sources": [
+    "https://www.lg.com/us/support/help-library/lg-washtower-error-code-resolution-guide--20154629492141",
+    "https://www.lg.com/us/support/help-library/lg-front-load-washing-machine-error-code-ue-imbalance-error-is-displayed-CT10000012-20154629490038",
+    "https://www.lg.com/us/support/help-library/oe-error-code-front-load-washer-CT10000010-1337714738535"
+  ],
+  "translations": {
+    "103": {
+      "code": "tE1",
+      "preserve": {
+        "en_slug": "lg-error-code-te1",
+        "sv_slug": "lg-felkod-te1"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error tE1: Safe Steps",
+        "meta_description": "LG washer showing tE1? Read the verified, model-specific meaning, safe checks and when authorised service is required.",
+        "h1": "What Does tE1 Mean on an LG Washing Machine?",
+        "description": "LG groups tE1 with model-specific temperature-sensor errors; the exact model manual must identify the affected sensor.",
+        "quick_fix": "Switch off, unplug for one minute once and arrange authorised LG service if the code returns (about 5–30 minutes).",
+        "intro_html": "<p>LG groups tE1 with model-specific temperature-sensor errors; the exact model manual must identify the affected sensor.</p><p>Switch off, unplug for one minute once and arrange authorised LG service if the code returns. Open no panels, measure no sensors or wiring and do not order a part from the code or symptom alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Model-specific temperature-sensor error",
+            "detail": "LG uses these subcodes on some combo/dryer platforms; the exact manual identifies the sensor."
+          },
+          {
+            "cause": "Sensor or contact problem",
+            "detail": "This is internal and requires a trained technician."
+          },
+          {
+            "cause": "Very hot water",
+            "detail": "LG states that hot water in the drum can trigger a temperature code on some models."
+          },
+          {
+            "cause": "Control or wiring fault",
+            "detail": "The code does not confirm which component needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Unplug for checks",
+            "detail": "Disconnect with dry hands before filter, hose or other user-accessible checks."
+          },
+          {
+            "step": 3,
+            "action": "Take the correct action",
+            "detail": "Switch off, unplug for one minute once and arrange authorised LG service if the code returns."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Make one test after correcting an external cause and only without leakage, smell, heat, smoke or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Request authorised service if the fault returns or an internal sensor, pump, motor or control is suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if tE1 remains after safe external checks. Temperature sensors, internal pumps, motors and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, mix large and small items, empty pockets, dose correctly and keep the drain hose and user-accessible filter clean as the manual specifies.</p><p>Keep the washer level; internal sensor, pump and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing tE1?",
+            "answer": "Switch off, unplug for one minute once and arrange authorised LG service if the code returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset tE1 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does tE1 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod tE1: säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen tE1? Läs verifierad, modellspecifik betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder tE1 på en LG-tvättmaskin?",
+        "description": "Lg grupperar te1 med modellspecifika temperaturgivarfel; exakt modellmanual måste identifiera berörd givare.",
+        "quick_fix": "Stäng av, koppla ur i en minut en gång och boka auktoriserad LG-service om koden återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>Lg grupperar te1 med modellspecifika temperaturgivarfel; exakt modellmanual måste identifiera berörd givare.</p><p>Stäng av, koppla ur i en minut en gång och boka auktoriserad LG-service om koden återkommer. Öppna inga paneler, mät inga givare eller ledningar och beställ inte en reservdel från koden eller symptomet ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Modellspecifikt temperaturgivarfel",
+            "detail": "LG använder underkoderna på vissa kombi-/torkplattformar; exakt manual avgör givaren."
+          },
+          {
+            "cause": "Kontakt- eller givarproblem",
+            "detail": "Detta är internt och kräver utbildad tekniker."
+          },
+          {
+            "cause": "Mycket varmt vatten",
+            "detail": "LG anger att varmt vatten i trumman kan utlösa temperaturkod på vissa modeller."
+          },
+          {
+            "cause": "Styr- eller kablagefel",
+            "detail": "Koden bekräftar inte vilken komponent som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur vid kontroll",
+            "detail": "Dra ur kontakten med torra händer före filter, slang eller annan användaråtkomlig kontroll."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt åtgärd",
+            "detail": "Stäng av, koppla ur i en minut en gång och boka auktoriserad LG-service om koden återkommer."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Gör ett enda test efter korrigerad yttre orsak och endast utan läckage, lukt, värme, rök eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Boka auktoriserad service om felet återkommer eller om en intern givare, pump, motor eller styrning misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om tE1 kvarstår efter säkra yttre kontroller. Temperaturgivare, intern pump, motor och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, blanda stora och små plagg, töm fickor, dosera rätt och håll avloppsslang och användaråtkomligt filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna givar-, pump- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med tE1?",
+            "answer": "Stäng av, koppla ur i en minut en gång och boka auktoriserad LG-service om koden återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa tE1 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar tE1 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "104": {
+      "code": "tE2",
+      "preserve": {
+        "en_slug": "lg-error-code-te2",
+        "sv_slug": "lg-felkod-te2"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error tE2: Safe Steps",
+        "meta_description": "LG washer showing tE2? Read the verified, model-specific meaning, safe checks and when authorised service is required.",
+        "h1": "What Does tE2 Mean on an LG Washing Machine?",
+        "description": "LG groups tE2 with model-specific temperature-sensor errors; the exact model manual must identify the affected sensor.",
+        "quick_fix": "Switch off, unplug for one minute once and arrange authorised LG service if the code returns (about 5–30 minutes).",
+        "intro_html": "<p>LG groups tE2 with model-specific temperature-sensor errors; the exact model manual must identify the affected sensor.</p><p>Switch off, unplug for one minute once and arrange authorised LG service if the code returns. Open no panels, measure no sensors or wiring and do not order a part from the code or symptom alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Model-specific temperature-sensor error",
+            "detail": "LG uses these subcodes on some combo/dryer platforms; the exact manual identifies the sensor."
+          },
+          {
+            "cause": "Sensor or contact problem",
+            "detail": "This is internal and requires a trained technician."
+          },
+          {
+            "cause": "Very hot water",
+            "detail": "LG states that hot water in the drum can trigger a temperature code on some models."
+          },
+          {
+            "cause": "Control or wiring fault",
+            "detail": "The code does not confirm which component needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Unplug for checks",
+            "detail": "Disconnect with dry hands before filter, hose or other user-accessible checks."
+          },
+          {
+            "step": 3,
+            "action": "Take the correct action",
+            "detail": "Switch off, unplug for one minute once and arrange authorised LG service if the code returns."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Make one test after correcting an external cause and only without leakage, smell, heat, smoke or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Request authorised service if the fault returns or an internal sensor, pump, motor or control is suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if tE2 remains after safe external checks. Temperature sensors, internal pumps, motors and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, mix large and small items, empty pockets, dose correctly and keep the drain hose and user-accessible filter clean as the manual specifies.</p><p>Keep the washer level; internal sensor, pump and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing tE2?",
+            "answer": "Switch off, unplug for one minute once and arrange authorised LG service if the code returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset tE2 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does tE2 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod tE2: säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen tE2? Läs verifierad, modellspecifik betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder tE2 på en LG-tvättmaskin?",
+        "description": "Lg grupperar te2 med modellspecifika temperaturgivarfel; exakt modellmanual måste identifiera berörd givare.",
+        "quick_fix": "Stäng av, koppla ur i en minut en gång och boka auktoriserad LG-service om koden återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>Lg grupperar te2 med modellspecifika temperaturgivarfel; exakt modellmanual måste identifiera berörd givare.</p><p>Stäng av, koppla ur i en minut en gång och boka auktoriserad LG-service om koden återkommer. Öppna inga paneler, mät inga givare eller ledningar och beställ inte en reservdel från koden eller symptomet ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Modellspecifikt temperaturgivarfel",
+            "detail": "LG använder underkoderna på vissa kombi-/torkplattformar; exakt manual avgör givaren."
+          },
+          {
+            "cause": "Kontakt- eller givarproblem",
+            "detail": "Detta är internt och kräver utbildad tekniker."
+          },
+          {
+            "cause": "Mycket varmt vatten",
+            "detail": "LG anger att varmt vatten i trumman kan utlösa temperaturkod på vissa modeller."
+          },
+          {
+            "cause": "Styr- eller kablagefel",
+            "detail": "Koden bekräftar inte vilken komponent som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur vid kontroll",
+            "detail": "Dra ur kontakten med torra händer före filter, slang eller annan användaråtkomlig kontroll."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt åtgärd",
+            "detail": "Stäng av, koppla ur i en minut en gång och boka auktoriserad LG-service om koden återkommer."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Gör ett enda test efter korrigerad yttre orsak och endast utan läckage, lukt, värme, rök eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Boka auktoriserad service om felet återkommer eller om en intern givare, pump, motor eller styrning misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om tE2 kvarstår efter säkra yttre kontroller. Temperaturgivare, intern pump, motor och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, blanda stora och små plagg, töm fickor, dosera rätt och håll avloppsslang och användaråtkomligt filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna givar-, pump- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med tE2?",
+            "answer": "Stäng av, koppla ur i en minut en gång och boka auktoriserad LG-service om koden återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa tE2 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar tE2 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "105": {
+      "code": "tE3",
+      "preserve": {
+        "en_slug": "lg-error-code-te3",
+        "sv_slug": "lg-felkod-te3"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error tE3: Safe Steps",
+        "meta_description": "LG washer showing tE3? Read the verified, model-specific meaning, safe checks and when authorised service is required.",
+        "h1": "What Does tE3 Mean on an LG Washing Machine?",
+        "description": "LG groups tE3 with model-specific temperature-sensor errors; the exact model manual must identify the affected sensor.",
+        "quick_fix": "Switch off, unplug for one minute once and arrange authorised LG service if the code returns (about 5–30 minutes).",
+        "intro_html": "<p>LG groups tE3 with model-specific temperature-sensor errors; the exact model manual must identify the affected sensor.</p><p>Switch off, unplug for one minute once and arrange authorised LG service if the code returns. Open no panels, measure no sensors or wiring and do not order a part from the code or symptom alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Model-specific temperature-sensor error",
+            "detail": "LG uses these subcodes on some combo/dryer platforms; the exact manual identifies the sensor."
+          },
+          {
+            "cause": "Sensor or contact problem",
+            "detail": "This is internal and requires a trained technician."
+          },
+          {
+            "cause": "Very hot water",
+            "detail": "LG states that hot water in the drum can trigger a temperature code on some models."
+          },
+          {
+            "cause": "Control or wiring fault",
+            "detail": "The code does not confirm which component needs replacement."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Unplug for checks",
+            "detail": "Disconnect with dry hands before filter, hose or other user-accessible checks."
+          },
+          {
+            "step": 3,
+            "action": "Take the correct action",
+            "detail": "Switch off, unplug for one minute once and arrange authorised LG service if the code returns."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Make one test after correcting an external cause and only without leakage, smell, heat, smoke or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Request authorised service if the fault returns or an internal sensor, pump, motor or control is suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if tE3 remains after safe external checks. Temperature sensors, internal pumps, motors and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, mix large and small items, empty pockets, dose correctly and keep the drain hose and user-accessible filter clean as the manual specifies.</p><p>Keep the washer level; internal sensor, pump and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing tE3?",
+            "answer": "Switch off, unplug for one minute once and arrange authorised LG service if the code returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset tE3 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does tE3 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod tE3: säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen tE3? Läs verifierad, modellspecifik betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder tE3 på en LG-tvättmaskin?",
+        "description": "Lg grupperar te3 med modellspecifika temperaturgivarfel; exakt modellmanual måste identifiera berörd givare.",
+        "quick_fix": "Stäng av, koppla ur i en minut en gång och boka auktoriserad LG-service om koden återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>Lg grupperar te3 med modellspecifika temperaturgivarfel; exakt modellmanual måste identifiera berörd givare.</p><p>Stäng av, koppla ur i en minut en gång och boka auktoriserad LG-service om koden återkommer. Öppna inga paneler, mät inga givare eller ledningar och beställ inte en reservdel från koden eller symptomet ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Modellspecifikt temperaturgivarfel",
+            "detail": "LG använder underkoderna på vissa kombi-/torkplattformar; exakt manual avgör givaren."
+          },
+          {
+            "cause": "Kontakt- eller givarproblem",
+            "detail": "Detta är internt och kräver utbildad tekniker."
+          },
+          {
+            "cause": "Mycket varmt vatten",
+            "detail": "LG anger att varmt vatten i trumman kan utlösa temperaturkod på vissa modeller."
+          },
+          {
+            "cause": "Styr- eller kablagefel",
+            "detail": "Koden bekräftar inte vilken komponent som ska bytas."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur vid kontroll",
+            "detail": "Dra ur kontakten med torra händer före filter, slang eller annan användaråtkomlig kontroll."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt åtgärd",
+            "detail": "Stäng av, koppla ur i en minut en gång och boka auktoriserad LG-service om koden återkommer."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Gör ett enda test efter korrigerad yttre orsak och endast utan läckage, lukt, värme, rök eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Boka auktoriserad service om felet återkommer eller om en intern givare, pump, motor eller styrning misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om tE3 kvarstår efter säkra yttre kontroller. Temperaturgivare, intern pump, motor och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, blanda stora och små plagg, töm fickor, dosera rätt och håll avloppsslang och användaråtkomligt filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna givar-, pump- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med tE3?",
+            "answer": "Stäng av, koppla ur i en minut en gång och boka auktoriserad LG-service om koden återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa tE3 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar tE3 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "106": {
+      "code": "UE",
+      "preserve": {
+        "en_slug": "lg-error-code-ue",
+        "sv_slug": "lg-felkod-ue"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Error UE: Safe Steps",
+        "meta_description": "LG washer showing UE? Read the verified, model-specific meaning, safe checks and when authorised service is required.",
+        "h1": "What Does UE Mean on an LG Washing Machine?",
+        "description": "The load remained unbalanced after the washer tried to redistribute it.",
+        "quick_fix": "Pause, redistribute laundry evenly, correct the load size and check that the washer is level (about 5–30 minutes).",
+        "intro_html": "<p>The load remained unbalanced after the washer tried to redistribute it.</p><p>Pause, redistribute laundry evenly, correct the load size and check that the washer is level. Open no panels, measure no sensors or wiring and do not order a part from the code or symptom alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Laundry gathered on one side",
+            "detail": "Clumped items prevent safe spinning."
+          },
+          {
+            "cause": "Load too small or too large",
+            "detail": "An unsuitable amount may not distribute evenly."
+          },
+          {
+            "cause": "Unsuitable laundry item",
+            "detail": "A heavy single or unsuitable item can cause imbalance."
+          },
+          {
+            "cause": "Washer not level",
+            "detail": "Uneven feet or an unstable floor can trigger UE."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Unplug for checks",
+            "detail": "Disconnect with dry hands before filter, hose or other user-accessible checks."
+          },
+          {
+            "step": 3,
+            "action": "Take the correct action",
+            "detail": "Pause, redistribute laundry evenly, correct the load size and check that the washer is level."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Make one test after correcting an external cause and only without leakage, smell, heat, smoke or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Request authorised service if the fault returns or an internal sensor, pump, motor or control is suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if UE remains after safe external checks. Temperature sensors, internal pumps, motors and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, mix large and small items, empty pockets, dose correctly and keep the drain hose and user-accessible filter clean as the manual specifies.</p><p>Keep the washer level; internal sensor, pump and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing UE?",
+            "answer": "Pause, redistribute laundry evenly, correct the load size and check that the washer is level. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset UE by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does UE identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin felkod UE: säkra steg",
+        "meta_description": "Visar LG-tvättmaskinen UE? Läs verifierad, modellspecifik betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder UE på en LG-tvättmaskin?",
+        "description": "Lasten förblev obalanserad efter att maskinen försökt fördela om den.",
+        "quick_fix": "Pausa, fördela tvätten jämnt, anpassa lastmängden och kontrollera att maskinen står i nivå (cirka 5–30 minuter).",
+        "intro_html": "<p>Lasten förblev obalanserad efter att maskinen försökt fördela om den.</p><p>Pausa, fördela tvätten jämnt, anpassa lastmängden och kontrollera att maskinen står i nivå. Öppna inga paneler, mät inga givare eller ledningar och beställ inte en reservdel från koden eller symptomet ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Tvätten ligger på ena sidan",
+            "detail": "Plagg som klumpar ihop sig hindrar säker centrifugering."
+          },
+          {
+            "cause": "För liten eller för stor last",
+            "detail": "Olämplig mängd kan inte fördelas jämnt."
+          },
+          {
+            "cause": "Olämpligt tvättgods",
+            "detail": "Tunga enskilda eller olämpliga föremål ger obalans."
+          },
+          {
+            "cause": "Maskinen står inte i nivå",
+            "detail": "Ojämna fötter eller instabilt underlag kan utlösa UE."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur vid kontroll",
+            "detail": "Dra ur kontakten med torra händer före filter, slang eller annan användaråtkomlig kontroll."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt åtgärd",
+            "detail": "Pausa, fördela tvätten jämnt, anpassa lastmängden och kontrollera att maskinen står i nivå."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Gör ett enda test efter korrigerad yttre orsak och endast utan läckage, lukt, värme, rök eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Boka auktoriserad service om felet återkommer eller om en intern givare, pump, motor eller styrning misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om UE kvarstår efter säkra yttre kontroller. Temperaturgivare, intern pump, motor och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, blanda stora och små plagg, töm fickor, dosera rätt och håll avloppsslang och användaråtkomligt filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna givar-, pump- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med UE?",
+            "answer": "Pausa, fördela tvätten jämnt, anpassa lastmängden och kontrollera att maskinen står i nivå. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa UE genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar UE vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "148": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "lg-washing-machine-wont-drain",
+        "sv_slug": "lg-tvattmaskin-tommer-inte"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Won't Drain: Safe Checks",
+        "meta_description": "LG washer not draining? Check the hose and filter safely by the manual and see when authorised service is required.",
+        "h1": "LG Washing Machine Won't Drain",
+        "description": "The LG washer cannot drain water from the drum.",
+        "quick_fix": "Check the drain hose and clean the user-accessible pump filter exactly as the model manual specifies after water has cooled (about 5–30 minutes).",
+        "intro_html": "<p>The LG washer cannot drain water from the drum.</p><p>Check the drain hose and clean the user-accessible pump filter exactly as the model manual specifies after water has cooled. Open no panels, measure no sensors or wiring and do not order a part from the code or symptom alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Kinked or blocked drain hose",
+            "detail": "Restricted flow prevents draining."
+          },
+          {
+            "cause": "Clogged pump filter",
+            "detail": "Lint or small objects can obstruct the accessible filter."
+          },
+          {
+            "cause": "Excessive suds",
+            "detail": "Overdosing may create air pockets and interfere with pumping."
+          },
+          {
+            "cause": "Internal pump or drainage fault",
+            "detail": "A persistent fault after external checks requires service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Unplug for checks",
+            "detail": "Disconnect with dry hands before filter, hose or other user-accessible checks."
+          },
+          {
+            "step": 3,
+            "action": "Take the correct action",
+            "detail": "Check the drain hose and clean the user-accessible pump filter exactly as the model manual specifies after water has cooled."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Make one test after correcting an external cause and only without leakage, smell, heat, smoke or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Request authorised service if the fault returns or an internal sensor, pump, motor or control is suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if the drain fault remains after safe external checks. Temperature sensors, internal pumps, motors and electronics are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, mix large and small items, empty pockets, dose correctly and keep the drain hose and user-accessible filter clean as the manual specifies.</p><p>Keep the washer level; internal sensor, pump and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Check the drain hose and clean the user-accessible pump filter exactly as the model manual specifies after water has cooled. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskin tömmer inte: säkra kontroller",
+        "meta_description": "Tömmer LG-tvättmaskinen inte? Kontrollera slang och filter säkert enligt manualen och se när auktoriserad service krävs.",
+        "h1": "LG-tvättmaskinen tömmer inte",
+        "description": "Lg-tvättmaskinen kan inte tömma vattnet ur trumman.",
+        "quick_fix": "Kontrollera avloppsslangen och rengör användaråtkomligt pumpfilter exakt enligt modellmanualen efter att vattnet svalnat (cirka 5–30 minuter).",
+        "intro_html": "<p>Lg-tvättmaskinen kan inte tömma vattnet ur trumman.</p><p>Kontrollera avloppsslangen och rengör användaråtkomligt pumpfilter exakt enligt modellmanualen efter att vattnet svalnat. Öppna inga paneler, mät inga givare eller ledningar och beställ inte en reservdel från koden eller symptomet ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Vikt eller blockerad avloppsslang",
+            "detail": "Begränsat flöde hindrar tömning."
+          },
+          {
+            "cause": "Blockerat pumpfilter",
+            "detail": "Ludd eller små föremål kan hindra det åtkomliga filtret."
+          },
+          {
+            "cause": "För mycket skum",
+            "detail": "Överdosering kan skapa luftfickor och störa pumpningen."
+          },
+          {
+            "cause": "Internt pump- eller tömningsfel",
+            "detail": "Bestående fel efter yttre kontroller kräver service."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Koppla ur vid kontroll",
+            "detail": "Dra ur kontakten med torra händer före filter, slang eller annan användaråtkomlig kontroll."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt åtgärd",
+            "detail": "Kontrollera avloppsslangen och rengör användaråtkomligt pumpfilter exakt enligt modellmanualen efter att vattnet svalnat."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Gör ett enda test efter korrigerad yttre orsak och endast utan läckage, lukt, värme, rök eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Boka auktoriserad service om felet återkommer eller om en intern givare, pump, motor eller styrning misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om tömningsfelet kvarstår efter säkra yttre kontroller. Temperaturgivare, intern pump, motor och elektronik är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, blanda stora och små plagg, töm fickor, dosera rätt och håll avloppsslang och användaråtkomligt filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna givar-, pump- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Kontrollera avloppsslangen och rengör användaråtkomligt pumpfilter exakt enligt modellmanualen efter att vattnet svalnat. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

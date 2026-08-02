@@ -1,8 +1,9 @@
 """
 pipeline/scrape_specs.py
 
-Populates washing_machine_specs for all models of a given brand.
-Wraps the brand-specific scraper and writes results back to Supabase.
+Populates model_specs (generic JSONB specs table, see migration 010) for all
+models of a given brand. Wraps the brand-specific scraper and writes results
+back to Supabase.
 
 Usage:
     python -m pipeline.scrape_specs --brand samsung --category washing-machines
@@ -73,13 +74,13 @@ def _get_models(brand_id: int, category_id: int, rescrape: bool) -> list[dict]:
     if rescrape:
         return all_models
 
-    # Exclude models already in washing_machine_specs
+    # Exclude models already in model_specs
     model_ids = [m["id"] for m in all_models]
     already_scraped: set[int] = set()
     for i in range(0, len(model_ids), 500):
         batch = model_ids[i : i + 500]
         done = (
-            supabase.table("washing_machine_specs")
+            supabase.table("model_specs")
             .select("model_id")
             .in_("model_id", batch)
             .execute()
@@ -98,12 +99,13 @@ def _upsert_spec(model_id: int, specs: dict) -> None:
         f: (int(round(v)) if f in _INT_FIELDS and v is not None else v)
         for f, v in specs.items()
     }
+    specs_json = {f: coerced.get(f) for f in SPEC_FIELDS if coerced.get(f) is not None}
     row = {
-        "model_id":  model_id,
+        "model_id":   model_id,
         "scraped_at": datetime.now(timezone.utc).isoformat(),
-        **{f: coerced.get(f) for f in SPEC_FIELDS},
+        "specs":      specs_json,
     }
-    supabase.table("washing_machine_specs").upsert(
+    supabase.table("model_specs").upsert(
         row, on_conflict="model_id"
     ).execute()
 
@@ -217,7 +219,7 @@ def main() -> None:
     parser.add_argument("--dry-run",  action="store_true",
                         help="Scrape but do not write to DB")
     parser.add_argument("--rescrape", action="store_true",
-                        help="Re-scrape models already in washing_machine_specs")
+                        help="Re-scrape models already in model_specs")
     args = parser.parse_args()
     run(args.brand, args.category, args.limit, args.dry_run, args.rescrape)
 

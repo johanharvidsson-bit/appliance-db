@@ -1,18 +1,20 @@
 /**
- * Config-driven specs registry.
- *
- * `washing_machine_specs` is currently the only specs table in the DB, and the
- * model page used to gate on a hardcoded `category === 'washing-machines'` /
- * `'tvattmaskiner'` string check, with `SpecsTable.astro` hardcoding every
- * field/label/unit. That blocked adding specs for any other category.
+ * Config-driven specs registry, backed by the generic `model_specs` JSONB
+ * table (migration 010 — replaced the old one-typed-table-per-category
+ * pattern). The model page used to gate on a hardcoded
+ * `category === 'washing-machines'` / `'tvattmaskiner'` string check, with
+ * `SpecsTable.astro` hardcoding every field/label/unit. That blocked adding
+ * specs for any other category or site vertical.
  *
  * This registry is keyed by category slug (every active locale's slug for
  * that category, since page files only have the locale-specific URL param in
- * scope). To add specs for a new category later: add a fetch function in
- * `queries.ts`, define its `SpecField[]`, and add an entry per locale slug
- * below — no changes needed to `SpecsTable.astro` or the `[slug]` page files.
+ * scope). To add specs for a new category now: define its `SpecField[]`
+ * (matching whatever keys that category's scraper writes into `model_specs
+ * .specs`) and add an entry per locale slug below — no DB migration, no new
+ * fetch function, no changes needed to `SpecsTable.astro` or the `[slug]`
+ * page files.
  */
-import { getWashingMachineSpecs } from './queries'
+import { getModelSpecs } from './queries'
 import { t } from './ui'
 
 export interface SpecField {
@@ -51,7 +53,7 @@ const washingMachineFields: SpecField[] = [
   { key: 'water_consumption_l', labelKey: 'specs.waterConsumption', schemaName: 'Water Consumption', unit: 'L' },
 ]
 
-const washingMachineConfig: SpecsConfig = { fetch: getWashingMachineSpecs, fields: washingMachineFields }
+const washingMachineConfig: SpecsConfig = { fetch: getModelSpecs, fields: washingMachineFields }
 
 /** Every active locale's slug for a category maps to the same SpecsConfig. */
 const SPECS_BY_CATEGORY_SLUG: Record<string, SpecsConfig> = {

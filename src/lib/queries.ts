@@ -892,16 +892,22 @@ export async function getFaultErrorCodes(faultId: number, locale: string) {
   )
 }
 
-export async function getWashingMachineSpecs(modelId: number) {
+/**
+ * Generic specs fetch (model_specs, migration 010) — one JSONB blob per model,
+ * shared by every category on every site built from this schema. Replaces the
+ * old per-category typed table (washing_machine_specs), which still exists in
+ * the DB as a rollback safety net but is no longer written to.
+ */
+export async function getModelSpecs(modelId: number) {
   const { data } = await logged(
     supabase
-      .from('washing_machine_specs')
-      .select('capacity_kg, spin_speed_rpm, energy_class, width_mm, height_mm, depth_mm, noise_spinning_db, energy_consumption_kwh, water_consumption_l, door_type')
+      .from('model_specs')
+      .select('specs')
       .eq('model_id', modelId)
       .single(),
-    `getWashingMachineSpecs(${modelId})`
+    `getModelSpecs(${modelId})`
   )
-  return data as Record<string, any> | null
+  return (data?.specs as Record<string, any> | undefined) ?? null
 }
 
 export async function getRelatedArticles(excludeSlug: string, limit = 5) {

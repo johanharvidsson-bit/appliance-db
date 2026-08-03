@@ -1,0 +1,18 @@
+{
+  "scope": {"id": 1, "brands": [{"id": 1, "slug": "acme"}], "categories": [{"id": 10, "slug": "washers"}], "locales": ["en", "sv"]},
+  "models": [{"id": 100, "brand_id": 1, "category_id": 10, "is_active": true, "public": true, "expected_locales": ["en", "sv"]}],
+  "model_content": [{"model_id": 100, "locale": "en", "overview": "Coming soon", "publication_status": "published"}],
+  "model_specs": [{"model_id": 100, "specs_json": {}}],
+  "variant_candidates": [{"id": 7, "legacy_model_id": 100, "status": "candidate"}],
+  "product_codes": [{"id": 200, "model_id": 999, "brand_id": 1, "category_id": 10, "has_active_model_identity": false}],
+  "error_codes": [{"id": 300, "brand_id": 1, "category_id": 10, "code": "E1"}],
+  "error_code_translations": [{"error_code_id": 300, "locale": "en", "title": "TBD", "description": "", "publication_status": "published"}],
+  "faults": [{"id": 400, "brand_id": 1, "category_id": 10}],
+  "fault_translations": [],
+  "guides": [{"id": 500, "brand_id": 1, "category_id": 10, "is_general": false, "content_status": "published"}],
+  "guide_translations": [{"guide_id": 500, "locale": "en", "title": "Check", "summary": "", "steps_json": [], "publication_status": "published"}],
+  "guide_topics": [],
+  "relation_conflicts": [{"finding_type": "error_code_relation_conflict", "entity_type": "error_code", "entity_id": 300, "details": {"signals": ["applies", "does_not_apply"]}}],
+  "evidence_required_relations": [{"entity_type": "guide", "entity_id": "500", "status": "verified", "source_evidence_id": null}],
+  "data_sources": {"articles": "not_available", "models": "available"}
+}

@@ -44,6 +44,22 @@ def parser() -> argparse.ArgumentParser:
     discovery.add_argument("--rate-limit", type=float, default=1.0)
     discovery.add_argument("--fixture", type=Path)
     discovery.add_argument("--output-dir", type=Path, default=Path("reports/source-discovery"))
+    ingestion = sub.add_parser("source-ingestion", help="fetch accepted sources and extract candidate facts")
+    ingestion.add_argument("--site", required=True)
+    ingestion.add_argument("--environment", default="development", choices=("development","staging","production"))
+    ingestion.add_argument("--dry-run", action="store_true")
+    ingestion.add_argument("--batch-size", type=int, default=10)
+    ingestion.add_argument("--timeout", type=float, default=15.0)
+    ingestion.add_argument("--retries", type=int, default=2)
+    ingestion.add_argument("--rate-limit", type=float, default=1.0)
+    ingestion.add_argument("--source-candidate-id", type=int)
+    ingestion.add_argument("--backlog-id", type=int)
+    ingestion.add_argument("--source-type")
+    ingestion.add_argument("--max-document-bytes", type=int, default=15_000_000)
+    ingestion.add_argument("--reprocess", action="store_true")
+    ingestion.add_argument("--fixture", type=Path)
+    ingestion.add_argument("--storage-dir", type=Path, default=Path("data/source-ingestion"))
+    ingestion.add_argument("--output-dir", type=Path, default=Path("reports/source-ingestion"))
     return root
 
 
@@ -51,6 +67,9 @@ def main(argv: list[str] | None = None) -> int:
     args = parser().parse_args(argv)
     if args.worker == "source-discovery":
         from workers.source_cli import run
+        return run(args)
+    if args.worker == "source-ingestion":
+        from workers.ingestion_cli import run
         return run(args)
     if args.batch_size < 1:
         raise SystemExit("--batch-size must be positive")

@@ -1,0 +1,43 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: marine_repair_dev
+      POSTGRES_USER: "${MARINE_DB_ADMIN_USER:?set in an untracked env file}"
+      POSTGRES_PASSWORD: "${MARINE_DB_ADMIN_PASSWORD:?set in an untracked env file}"
+    ports:
+      - "127.0.0.1:${MARINE_DB_PORT:-25432}:5432"
+    volumes:
+      - marine_db_data:/var/lib/postgresql/data
+      - ../../db/schema.sql:/docker-entrypoint-initdb.d/001_schema.sql:ro
+      - ../../db/migrations/010_model_specs_generic.sql:/docker-entrypoint-initdb.d/010_model_specs.sql:ro
+      - ./seed.sql:/docker-entrypoint-initdb.d/010a_marine_seed.sql:ro
+      - ../../db/migrations/011_revoke_internal_public_access.sql:/docker-entrypoint-initdb.d/011_security.sql:ro
+      - ../../db/migrations/012_public_api_foundation.sql:/docker-entrypoint-initdb.d/012_api.sql:ro
+      - ../../db/migrations/013_public_api_models.sql:/docker-entrypoint-initdb.d/013_models.sql:ro
+      - ../../db/migrations/014_public_api_model_pages.sql:/docker-entrypoint-initdb.d/014_model_pages.sql:ro
+      - ../../db/migrations/015_public_api_fault_pages.sql:/docker-entrypoint-initdb.d/015_fault_pages.sql:ro
+      - ../../db/migrations/016_public_api_error_codes.sql:/docker-entrypoint-initdb.d/016_error_codes.sql:ro
+      - ../../db/migrations/017_public_api_article_pages.sql:/docker-entrypoint-initdb.d/017_article_pages.sql:ro
+      - ../../db/migrations/018_public_api_model_specs.sql:/docker-entrypoint-initdb.d/018_model_specs.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d marine_repair_dev"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  postgrest:
+    image: postgrest/postgrest:v12.2.8
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      PGRST_DB_URI: "${MARINE_POSTGREST_DB_URI:?set in an untracked env file}"
+      PGRST_DB_SCHEMAS: api_public
+      PGRST_DB_ANON_ROLE: anon
+      PGRST_DB_MAX_ROWS: 1000
+      PGRST_JWT_SECRET: "${MARINE_POSTGREST_JWT_SECRET:?set in an untracked env file}"
+    ports:
+      - "127.0.0.1:${MARINE_POSTGREST_PORT:-23000}:3000"
+volumes:
+  marine_db_data:
+    name: repairbase_marine_dev_db

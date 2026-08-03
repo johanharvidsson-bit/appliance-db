@@ -3,8 +3,10 @@
 -- Model domain data remains in api_public.models. This projection adds only
 -- locale-specific routing and page lifecycle fields. Missing category locales
 -- produce no page row; there is no implicit fallback. Because the source model
--- lifecycle remains unresolved, indexability inherits the conservative false
--- value from api_public.models and published_at remains NULL.
+-- lifecycle remains unresolved, published_at remains NULL. The owner-approved
+-- compatibility decision is that every otherwise valid projected page is
+-- immediately indexable; scrape_status and content-coverage signals are not
+-- consulted.
 
 DO $drop_model_pages_projection$
 DECLARE
@@ -34,7 +36,7 @@ WITH page_rows AS MATERIALIZED (
                rtrim(category.canonical_path, '/'), '/',
                brand.slug, '/', model.slug, '/'
            )::text COLLATE "C" AS canonical_path,
-           (model.indexable AND category.indexable) AS indexable,
+           true AS indexable,
            NULL::timestamptz AS published_at,
            greatest(model.updated_at, category.updated_at, brand.updated_at)
                AS updated_at

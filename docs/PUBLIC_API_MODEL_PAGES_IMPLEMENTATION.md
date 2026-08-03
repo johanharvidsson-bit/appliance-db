@@ -36,17 +36,19 @@ Canonical paths extend the already-reviewed category canonical prefix:
 - Swedish: `/sv/{category_slug}/{brand_slug}/{model_slug}/`.
 
 Every current page has its exact locale/path pair in `hreflang`. Model rows are
-projected for navigation when their parent `api_public.models` row and exact
-category-locale row exist. `indexable` is the conjunction of the model and
-category decisions. Because the source lacks an approved model lifecycle, all
-current model pages remain `indexable=false` and `published_at=NULL`;
+projected when their parent `api_public.models` row and exact category-locale
+row exist. The owner-approved compatibility decision is that every such page is
+immediately `indexable=true`. This deliberately does not require specs,
+articles, error codes, manuals, or an internal scrape status. `published_at`
+remains NULL because the source lacks a public lifecycle timestamp;
 `scrape_status` is never consulted. `updated_at` is the latest available public
 lifecycle timestamp from the model, category page, or brand, currently NULL.
 
-`api_public.sitemap_entries` is intentionally unchanged. Its contract admits
-only indexable pages, so adding 43,332 known-false model-page rows would add no
-sitemap entries while coupling two refresh lifecycles. Sitemap integration is
-deferred until a reviewed model indexability gate can produce true rows.
+`api_public.sitemap_entries` remains unchanged in this narrowly scoped
+correction. The current frontend already has dedicated English and Swedish
+model sitemap endpoints. Moving those entries into the Public API snapshot is
+still a separate sitemap migration so this correction does not silently change
+the existing foundation snapshot contract or refresh lifecycle.
 
 ## Materialization, privileges, and refresh
 
@@ -78,8 +80,8 @@ tables, and migration-011 security revocations remain unchanged.
 Target Guard accepted only the loopback `repair_appliance_dev` write target.
 Migration 014 completed in an intentionally aborted transaction and left no
 object or migration record, then applied atomically. The final projection has
-43,332 rows, 43,332 unique page UUIDs, 43,332 unique model/locale pairs, and no
-indexable rows. PostgREST exposes the exact contract through the `api_public`
+43,332 rows, 43,332 unique page UUIDs, 43,332 unique model/locale pairs, and
+43,332 indexable rows. PostgREST exposes the exact contract through the `api_public`
 profile and respects its configured 1,000-row cap.
 
 Focused model-page, model, foundation, privilege, PostgREST, Target Guard, and
@@ -93,7 +95,7 @@ Warm final `EXPLAIN (ANALYZE, BUFFERS)` measurements:
 | Page UUID lookup | 1 | 0.132 ms | page-ID unique index |
 | Model ID + locale lookup | 1 | 0.040 ms | model/locale unique index |
 | Swedish locale page | 100 | 0.453 ms | locale/order index |
-| Non-indexable page | 100 | 0.135 ms | indexability/order index |
+| Indexable page | 100 | 0.211 ms | indexability/order index |
 | First ordered page | 100 | 0.117 ms | canonical order index |
 | Next keyset page | 100 | 0.604 ms | canonical order index |
 | Full refresh | 43,332 | 1,283.891 ms | ordered dependency refresh |
@@ -102,3 +104,8 @@ The ordinary-view first-page baseline was 640.643 ms with an external merge
 sort; its targeted model/locale lookup was 0.741 ms. Materialization therefore
 removes the catalog-scale join/sort from public requests at the cost of an
 explicit roughly 1.3-second refresh after the models snapshot changes.
+
+The blanket indexability decision was changed by the owner after the original
+validation. Its focused tests, PostgREST behavior, final row counts, and query
+timing were revalidated in the follow-up commit: all 43,332 rows are indexable,
+none are non-indexable, and the indexed 100-row query completed in 0.211 ms.

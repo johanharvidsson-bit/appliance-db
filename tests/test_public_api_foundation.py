@@ -14,11 +14,13 @@ import pytest
 EXPECTED_COLUMNS = {
     "brands": ["brand_key", "slug", "name", "logo_url", "canonical_path", "updated_at"],
     "category_pages": ["category_key", "locale", "slug", "name", "icon_key", "sort_order", "canonical_path", "indexable", "updated_at"],
+    "models": ["model_id", "brand_key", "category_key", "product_line_key", "name", "slug", "series", "release_year", "manual_url", "indexable", "updated_at"],
     "sitemap_entries": ["sitemap_entry_id", "content_type", "public_content_id", "locale", "canonical_path", "updated_at", "indexable", "hreflang", "projection_revision"],
 }
 EXPECTED_TYPES = {
     "brands": ["text", "text", "text", "text", "text", "timestamp with time zone"],
     "category_pages": ["text", "text", "text", "text", "text", "integer", "text", "boolean", "timestamp with time zone"],
+    "models": ["uuid", "text", "text", "text", "text", "text", "text", "integer", "text", "boolean", "timestamp with time zone"],
     "sitemap_entries": ["uuid", "text", "text", "text", "text", "timestamp with time zone", "boolean", "jsonb", "uuid"],
 }
 
@@ -45,7 +47,7 @@ def _query(sql: str, params=(), role: str | None = None):
 
 def test_exact_foundation_resources_and_columns():
     resources = _query("SELECT table_name FROM information_schema.views WHERE table_schema='api_public' UNION ALL SELECT matviewname FROM pg_matviews WHERE schemaname='api_public' ORDER BY 1")
-    assert resources == [("brands",), ("category_pages",), ("sitemap_entries",)]
+    assert resources == [(resource,) for resource in sorted(EXPECTED_COLUMNS)]
     for resource, expected in EXPECTED_COLUMNS.items():
         columns = _query("SELECT a.attname,format_type(a.atttypid,a.atttypmod) FROM pg_attribute a JOIN pg_class c ON c.oid=a.attrelid JOIN pg_namespace n ON n.oid=c.relnamespace WHERE n.nspname='api_public' AND c.relname=%s AND a.attnum>0 AND NOT a.attisdropped ORDER BY a.attnum", (resource,))
         assert [row[0] for row in columns] == expected
@@ -75,11 +77,12 @@ def test_owner_is_constrained_and_separate_from_sources():
 def test_owner_has_only_expected_source_columns_and_no_public_functions():
     grants = set(_query("SELECT table_name,column_name FROM information_schema.column_privileges WHERE table_schema='public' AND grantee='api_public_owner'"))
     expected = {
-        *(('api_public_identities', c) for c in ('resource_type', 'source_id', 'public_key')),
+        *(('api_public_identities', c) for c in ('resource_type', 'source_id', 'public_key', 'public_id')),
         *(('brands', c) for c in ('id', 'name', 'slug', 'logo_url', 'is_active')),
-        ('models', 'brand_id'),
+        *(('models', c) for c in ('id', 'brand_id', 'category_id', 'product_line_id', 'name', 'slug', 'series', 'release_year')),
         *(('categories', c) for c in ('id', 'sort_order', 'is_active')),
         *(('category_translations', c) for c in ('category_id', 'locale', 'name', 'slug')),
+        *(('product_lines', c) for c in ('id', 'brand_id', 'category_id', 'slug')),
     }
     assert grants == expected
     assert _query("SELECT proname FROM pg_proc p JOIN pg_namespace n ON n.oid=p.pronamespace WHERE n.nspname='api_public'") == []
@@ -89,7 +92,7 @@ def test_publication_locale_and_field_allowlist():
     assert _query("SELECT count(*) FROM api_public.brands")[0][0] == 5
     assert _query("SELECT count(*) FROM api_public.category_pages")[0][0] == 14
     assert _query("SELECT count(*) FROM api_public.category_pages WHERE locale NOT IN ('en','sv') OR slug='' OR name=''")[0][0] == 0
-    forbidden = {"id", "source_id", "scrape_status", "support_url", "manual_base_url", "icon_url", "created_at"}
+    forbidden = {"id", "source_id", "brand_id", "category_id", "product_line_id", "scrape_status", "support_url", "manual_base_url", "icon_url", "created_at"}
     assert not forbidden.intersection({c for cols in EXPECTED_COLUMNS.values() for c in cols})
 
 

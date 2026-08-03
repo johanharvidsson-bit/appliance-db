@@ -9,9 +9,12 @@ The seed is intentionally small: three categories, five brands, and fifty
 models. No scraping runs. Platform migrations create the public contracts used
 by the shared frontend.
 
-Credentials are deliberately absent. An operator must supply already-approved
-development-only values in an untracked `.env`; this branch neither creates nor
-deploys credentials. Start only after Target Guard/operator approval:
+Credential values are deliberately absent. An operator must supply an approved
+database-admin password, a distinct Marine PostgREST password/URI for the fixed
+`marine_postgrest` login, and a JWT secret in an untracked `.env`. The bootstrap
+creates only the database roles after those values are supplied; this branch
+does not generate, store, or deploy credential values. Start only after Target
+Guard/operator approval:
 
 ```text
 docker compose --env-file pilots/marine/.env -f pilots/marine/compose.dev.yml config

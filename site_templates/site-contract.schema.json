@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Repair knowledge site contract",
+  "type": "object",
+  "required": ["site_id", "name", "domain", "vertical_key", "default_locale", "locales", "routes", "design_tokens"],
+  "properties": {
+    "site_id": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"},
+    "name": {"type": "string", "minLength": 1},
+    "domain": {"type": "string", "pattern": "^[a-z0-9.-]+$"},
+    "vertical_key": {"type": "string", "minLength": 1},
+    "default_locale": {"type": "string"},
+    "locales": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+    "routes": {
+      "type": "object",
+      "required": ["model", "guide"],
+      "additionalProperties": false,
+      "properties": {"model": {"type": "string"}, "guide": {"type": "string"}}
+    },
+    "design_tokens": {
+      "type": "object",
+      "required": ["brand_name", "primary_color"],
+      "properties": {"brand_name": {"type": "string"}, "primary_color": {"type": "string"}}
+    }
+  }
+}

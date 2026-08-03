@@ -1,0 +1,16 @@
+{
+  "site_id": "example-repair-base",
+  "name": "Example Repair Base",
+  "domain": "example.invalid",
+  "vertical_key": "example-repair",
+  "default_locale": "en",
+  "locales": ["en", "sv"],
+  "routes": {
+    "model": "/{locale}/{category}/{brand}/{model}/",
+    "guide": "/{locale}/guides/{guide}/"
+  },
+  "design_tokens": {
+    "brand_name": "Example Repair Base",
+    "primary_color": "#1746A2"
+  }
+}

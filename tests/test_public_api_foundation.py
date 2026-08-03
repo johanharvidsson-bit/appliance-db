@@ -14,12 +14,14 @@ import pytest
 EXPECTED_COLUMNS = {
     "brands": ["brand_key", "slug", "name", "logo_url", "canonical_path", "updated_at"],
     "category_pages": ["category_key", "locale", "slug", "name", "icon_key", "sort_order", "canonical_path", "indexable", "updated_at"],
+    "model_pages": ["model_page_id", "model_id", "brand_key", "category_key", "locale", "category_slug", "model_slug", "canonical_path", "hreflang", "indexable", "published_at", "updated_at"],
     "models": ["model_id", "brand_key", "category_key", "product_line_key", "name", "slug", "series", "release_year", "manual_url", "indexable", "updated_at"],
     "sitemap_entries": ["sitemap_entry_id", "content_type", "public_content_id", "locale", "canonical_path", "updated_at", "indexable", "hreflang", "projection_revision"],
 }
 EXPECTED_TYPES = {
     "brands": ["text", "text", "text", "text", "text", "timestamp with time zone"],
     "category_pages": ["text", "text", "text", "text", "text", "integer", "text", "boolean", "timestamp with time zone"],
+    "model_pages": ["uuid", "uuid", "text", "text", "text", "text", "text", "text", "jsonb", "boolean", "timestamp with time zone", "timestamp with time zone"],
     "models": ["uuid", "text", "text", "text", "text", "text", "text", "integer", "text", "boolean", "timestamp with time zone"],
     "sitemap_entries": ["uuid", "text", "text", "text", "text", "timestamp with time zone", "boolean", "jsonb", "uuid"],
 }

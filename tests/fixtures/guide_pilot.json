@@ -1,0 +1,21 @@
+{
+  "brand_slug": "brand-1",
+  "category_slug": "category-1",
+  "locale": "en",
+  "slug": "synthetic-e10-safe-checks",
+  "title": "Synthetic E10 Safe Checks",
+  "short_description": "A synthetic guide used only for local platform verification.",
+  "summary": "Verify the display, make the appliance safe, and consult exact documentation.",
+  "difficulty": "easy",
+  "estimated_minutes": 5,
+  "safety_notes": "Do not remove panels or touch internal wiring.",
+  "error_code": "E10",
+  "confidence": 100,
+  "source_url": "https://example.invalid/synthetic-guide-pilot",
+  "source_locator": "fixture:guide_pilot.json",
+  "steps": [
+    {"step": 1, "action": "Stop the cycle", "detail": "Wait until moving parts stop."},
+    {"step": 2, "action": "Record the display", "detail": "Photograph the full code and model label."},
+    {"step": 3, "action": "Use exact documentation", "detail": "Consult documentation for the exact model."}
+  ]
+}

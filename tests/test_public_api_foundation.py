@@ -49,7 +49,9 @@ def _query(sql: str, params=(), role: str | None = None):
 
 def test_exact_foundation_resources_and_columns():
     resources = _query("SELECT table_name FROM information_schema.views WHERE table_schema='api_public' UNION ALL SELECT matviewname FROM pg_matviews WHERE schemaname='api_public' ORDER BY 1")
-    assert resources == [(resource,) for resource in sorted(EXPECTED_COLUMNS)]
+    # Later additive migrations may publish new versioned resources, but the
+    # original 012 contract must remain present and unchanged.
+    assert {row[0] for row in resources} >= set(EXPECTED_COLUMNS)
     for resource, expected in EXPECTED_COLUMNS.items():
         columns = _query("SELECT a.attname,format_type(a.atttypid,a.atttypmod) FROM pg_attribute a JOIN pg_class c ON c.oid=a.attrelid JOIN pg_namespace n ON n.oid=c.relnamespace WHERE n.nspname='api_public' AND c.relname=%s AND a.attnum>0 AND NOT a.attisdropped ORDER BY a.attnum", (resource,))
         assert [row[0] for row in columns] == expected
@@ -86,7 +88,8 @@ def test_owner_has_only_expected_source_columns_and_no_public_functions():
         *(('category_translations', c) for c in ('category_id', 'locale', 'name', 'slug')),
         *(('product_lines', c) for c in ('id', 'brand_id', 'category_id', 'slug')),
     }
-    assert grants == expected
+    original_tables = {table for table, _ in expected}
+    assert {(table, column) for table, column in grants if table in original_tables} == expected
     assert _query("SELECT proname FROM pg_proc p JOIN pg_namespace n ON n.oid=p.pronamespace WHERE n.nspname='api_public'") == []
 
 

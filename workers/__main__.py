@@ -31,11 +31,27 @@ def parser() -> argparse.ArgumentParser:
     cmd.add_argument("--rebuild-backlog", action="store_true")
     cmd.add_argument("--fixture", type=Path, help="offline deterministic input; implies no database writes")
     cmd.add_argument("--output-dir", type=Path, default=Path("reports/cube-coverage"))
+    discovery = sub.add_parser("source-discovery", help="discover source URLs for queued backlog items")
+    discovery.add_argument("--site", required=True)
+    discovery.add_argument("--environment", default="development", choices=("development","staging","production"))
+    discovery.add_argument("--dry-run", action="store_true")
+    discovery.add_argument("--batch-size", type=int, default=25)
+    discovery.add_argument("--locale")
+    discovery.add_argument("--action-type")
+    discovery.add_argument("--entity-type")
+    discovery.add_argument("--timeout", type=float, default=10.0)
+    discovery.add_argument("--retries", type=int, default=2)
+    discovery.add_argument("--rate-limit", type=float, default=1.0)
+    discovery.add_argument("--fixture", type=Path)
+    discovery.add_argument("--output-dir", type=Path, default=Path("reports/source-discovery"))
     return root
 
 
 def main(argv: list[str] | None = None) -> int:
     args = parser().parse_args(argv)
+    if args.worker == "source-discovery":
+        from workers.source_cli import run
+        return run(args)
     if args.batch_size < 1:
         raise SystemExit("--batch-size must be positive")
     if args.environment == "production":

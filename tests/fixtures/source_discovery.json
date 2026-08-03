@@ -1,0 +1,15 @@
+{
+  "backlog": [
+    {"backlog_id": 1, "entity_type": "model", "entity_id": "100", "entity_name": "WF45", "brand_name": "Samsung", "locale": "en", "action_type": "enrich_model_specs", "official_domains": ["samsung.com"]},
+    {"backlog_id": 2, "entity_type": "guide", "entity_id": "500", "entity_name": "Drain fault", "brand_name": "Samsung", "locale": "sv", "action_type": "create_or_enrich_guide", "official_domains": ["samsung.com"]}
+  ],
+  "results": {
+    "1": [
+      {"url": "https://www.samsung.com/us/support/model/WF45/manual/", "title": "WF45 manual", "publisher": "Samsung"},
+      {"url": "https://www.samsung.com/us/support/model/WF45/manual", "title": "Duplicate", "publisher": "Samsung"},
+      {"url": "https://www.manualslib.com/manual/WF45.pdf", "title": "WF45 PDF", "publisher": "ManualsLib"},
+      {"url": "https://www.reddit.com/r/appliances/wf45", "title": "WF45 discussion", "publisher": "Reddit"}
+    ],
+    "2": []
+  }
+}

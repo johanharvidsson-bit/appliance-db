@@ -1,12 +1,11 @@
 """
 db/apply_migration.py
 
-Applies SQL migration files against the Supabase Postgres database.
-Uses a direct psycopg2 connection (requires SUPABASE_DB_URL in .env).
+Applies SQL migration files against a standard PostgreSQL database.
+Uses a direct psycopg2 connection (requires DATABASE_URL in .env).
 
-SUPABASE_DB_URL format:
-  postgresql://postgres.{project_ref}:{password}@aws-0-{region}.pooler.supabase.com:6543/postgres
-  (find it in: Supabase Dashboard → Settings → Database → Connection string → Pooler)
+DATABASE_URL format:
+  postgresql://repairbase:password@db-host:5432/repairbase
 
 Migration tracking:
   Applied migrations are recorded in the schema_migrations table.
@@ -16,6 +15,8 @@ Usage:
     python -m db.apply_migration db/migrations/004_migration_tracking_and_error_code_fields.sql
     python -m db.apply_migration --list        # show all .sql migrations + applied status
     python -m db.apply_migration --all         # apply all unapplied migrations in order
+    python -m db.apply_migration --check       # connection + server readiness
+    python -m db.apply_migration --verify-repairbase  # rollback-only phase-1 fixture
 """
 
 import sys
@@ -30,18 +31,52 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")
 
 _MISSING_URL_MSG = (
-    "SUPABASE_DB_URL not set in .env\n"
-    "Get it from: Supabase Dashboard -> Settings -> Database -> Connection string -> Pooler\n"
-    "Format: SUPABASE_DB_URL=postgresql://postgres.{ref}:{password}@aws-0-{region}.pooler.supabase.com:6543/postgres"
+    "DATABASE_URL not set in .env\n"
+    "Format: DATABASE_URL=postgresql://repairbase:password@db-host:5432/repairbase\n"
+    "SUPABASE_DB_URL remains a temporary fallback for the legacy deployment."
 )
 
 
 def get_connection():
-    url = os.getenv("SUPABASE_DB_URL")
+    url = os.getenv("DATABASE_URL") or os.getenv("SUPABASE_DB_URL")
     if not url:
         logger.error(_MISSING_URL_MSG)
         sys.exit(1)
     return psycopg2.connect(url)
+
+
+def check_connection() -> None:
+    """Verify connectivity and print only non-sensitive server metadata."""
+    conn = get_connection()
+    try:
+        with conn.cursor() as cur:
+            cur.execute(
+                "SELECT current_database(), current_user, "
+                "current_setting('server_version'), pg_is_in_recovery()"
+            )
+            database, user, version, in_recovery = cur.fetchone()
+        logger.success(
+            "Connected to database={} user={} PostgreSQL={} read_only_replica={}",
+            database, user, version, in_recovery,
+        )
+    finally:
+        conn.close()
+
+
+def verify_repairbase() -> None:
+    """Execute the rollback-only phase-1 fixture against PostgreSQL."""
+    fixture = BASE_DIR / "tests" / "fixtures" / "repairbase_phase1.sql"
+    if not fixture.exists():
+        raise FileNotFoundError(f"Fixture not found: {fixture}")
+    conn = get_connection()
+    try:
+        # The fixture owns its BEGIN/ROLLBACK boundary.
+        conn.autocommit = True
+        with conn.cursor() as cur:
+            cur.execute(fixture.read_text(encoding="utf-8"))
+        logger.success("RepairBase phase-1 fixture passed and was rolled back")
+    finally:
+        conn.close()
 
 
 def _is_applied(conn, version: str) -> bool:
@@ -60,20 +95,32 @@ def _is_applied(conn, version: str) -> bool:
 
 def _record_applied(conn, version: str, filename: str) -> None:
     """Insert a row into schema_migrations to mark this migration as applied."""
-    try:
-        with conn.cursor() as cur:
-            cur.execute(
-                "INSERT INTO schema_migrations (version, filename) VALUES (%s, %s) ON CONFLICT (version) DO NOTHING",
-                (version, filename),
-            )
-    except psycopg2.errors.UndefinedTable:
-        # schema_migrations not yet created (will be created by the current migration)
-        conn.rollback()
+    with conn.cursor() as cur:
+        cur.execute(
+            "INSERT INTO schema_migrations (version, filename) VALUES (%s, %s) "
+            "ON CONFLICT (version) DO NOTHING",
+            (version, filename),
+        )
 
 
 def _version_from_path(sql_path: Path) -> str:
     """Extract version prefix from filename, e.g. '004' from '004_something.sql'."""
     return sql_path.stem.split("_")[0]
+
+
+def migration_files() -> list[Path]:
+    """Return migrations in numeric order and reject ambiguous versions."""
+    mig_dir = BASE_DIR / "db" / "migrations"
+    files = list(mig_dir.glob("*.sql"))
+    invalid = [path.name for path in files if not _version_from_path(path).isdigit()]
+    if invalid:
+        raise ValueError(f"Migration filenames must start with digits: {invalid}")
+    files.sort(key=lambda path: (int(_version_from_path(path)), path.name))
+    versions = [_version_from_path(path) for path in files]
+    duplicates = sorted({version for version in versions if versions.count(version) > 1})
+    if duplicates:
+        raise ValueError(f"Duplicate migration versions: {duplicates}")
+    return files
 
 
 def apply(sql_path: Path, skip_if_applied: bool = True) -> bool:
@@ -103,7 +150,7 @@ def apply(sql_path: Path, skip_if_applied: bool = True) -> bool:
 def apply_all() -> None:
     """Apply all unapplied migrations in db/migrations/ in version order."""
     mig_dir = BASE_DIR / "db" / "migrations"
-    files = sorted(mig_dir.glob("*.sql"))
+    files = migration_files()
     if not files:
         logger.warning(f"No migration files found in {mig_dir}")
         return
@@ -121,7 +168,7 @@ def apply_all() -> None:
 
 def list_migrations() -> None:
     mig_dir = BASE_DIR / "db" / "migrations"
-    files = sorted(mig_dir.glob("*.sql"))
+    files = migration_files()
 
     # Try to check applied status; fall back gracefully if DB unreachable
     applied_versions: set[str] = set()
@@ -136,7 +183,7 @@ def list_migrations() -> None:
         finally:
             conn.close()
     except SystemExit:
-        pass  # SUPABASE_DB_URL not set — just list files without status
+        pass  # DATABASE_URL not set — just list files without database status
 
     print(f"\nMigrations in {mig_dir}:")
     for f in files:
@@ -152,6 +199,14 @@ if __name__ == "__main__":
 
     if sys.argv[1] == "--all":
         apply_all()
+        sys.exit(0)
+
+    if sys.argv[1] == "--check":
+        check_connection()
+        sys.exit(0)
+
+    if sys.argv[1] == "--verify-repairbase":
+        verify_repairbase()
         sys.exit(0)
 
     path = Path(sys.argv[1])

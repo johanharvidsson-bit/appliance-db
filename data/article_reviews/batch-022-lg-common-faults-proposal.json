@@ -1,0 +1,834 @@
+{
+  "batch": "022-lg-common-faults",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    149,
+    152,
+    154,
+    155,
+    156
+  ],
+  "sources": [
+    "https://www.lg.com/us/support/help-library/lg-front-load-washer-no-spin-drain-after-washing-CT10000010-20154720372345",
+    "https://www.lg.com/us/support/help-library/lg-washer-why-is-there-no-water-in-my-front-load-washing-machine-CT10000012-20153089688891",
+    "https://www.lg.com/us/support/help-library/lg-washer-troubleshooting-vibration-issues-CT10000010-1366656981583",
+    "https://www.lg.com/us/support/help-library/lg-washing-machine-water-does-not-heat-up-or-reach-the-set-temperature--20155101730997"
+  ],
+  "translations": {
+    "149": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "lg-wont-spin",
+        "sv_slug": "lg-centrifugerar-inte"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Won't Spin: Safe Checks",
+        "meta_description": "LG Washing Machine Won't Spin? Read verified causes, safe checks from LG guidance and when authorised service is required.",
+        "h1": "LG Washing Machine Won't Spin",
+        "description": "The washer does not complete its spin phase.",
+        "quick_fix": "Confirm that a spin option is selected, redistribute the load and check that the washer can drain (about 5–30 minutes).",
+        "intro_html": "<p>The washer does not complete its spin phase.</p><p>Confirm that a spin option is selected, redistribute the load and check that the washer can drain. Unplug before accessible checks and never open appliance panels.</p>",
+        "causes_json": [
+          {
+            "cause": "Wash-only or no-spin selection",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Unbalanced or unsuitable load",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Drainage restriction",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Internal motor or control fault",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check external conditions",
+            "detail": "Confirm that a spin option is selected, redistribute the load and check that the washer can drain."
+          },
+          {
+            "step": 3,
+            "action": "Follow the exact LG manual",
+            "detail": "Use the model number and perform documented user checks only; dismantle nothing and measure no electricity."
+          },
+          {
+            "step": 4,
+            "action": "Make one controlled test",
+            "detail": "Test once only without leakage, burning smell, smoke, abnormal heat, electrical fault or severe scraping noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Stop if the issue returns or the heater, motor, pump, sensor or internal mechanics are suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if the problem remains after external checks, if the drum does not move normally or if the heater, motor, pump, sensor, electronics or mechanics are suspected.</p><p>Unplug immediately for water near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow load limits, mix large and small items, empty pockets, dose correctly and keep external hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level and check installation; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Confirm that a spin option is selected, redistribute the load and check that the washer can drain. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskinen centrifugerar inte: säkra kontroller",
+        "meta_description": "LG-tvättmaskinen centrifugerar inte? Läs verifierade orsaker, säkra kontroller enligt LG:s råd och när auktoriserad service krävs.",
+        "h1": "LG-tvättmaskinen centrifugerar inte",
+        "description": "Tvättmaskinen slutför inte centrifugeringen.",
+        "quick_fix": "Bekräfta att centrifugering är vald, fördela om lasten och kontrollera att maskinen kan tömma (cirka 5–30 minuter).",
+        "intro_html": "<p>Tvättmaskinen slutför inte centrifugeringen.</p><p>Bekräfta att centrifugering är vald, fördela om lasten och kontrollera att maskinen kan tömma. Koppla ur före åtkomlig kontroll och öppna aldrig maskinens paneler.</p>",
+        "causes_json": [
+          {
+            "cause": "Endast tvätt eller ingen centrifugering vald",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Obalanserad eller olämplig last",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Tömningshinder",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Internt motor- eller styrfel",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera yttre förhållanden",
+            "detail": "Bekräfta att centrifugering är vald, fördela om lasten och kontrollera att maskinen kan tömma."
+          },
+          {
+            "step": 3,
+            "action": "Följ exakt LG-manual",
+            "detail": "Använd modellnumret och gör bara dokumenterade användarkontroller; demontera inget och mät ingen el."
+          },
+          {
+            "step": 4,
+            "action": "Gör ett kontrollerat test",
+            "detail": "Testa en gång endast utan läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapande ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Avsluta om problemet återkommer eller om värmare, motor, pump, givare eller intern mekanik misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om problemet kvarstår efter yttre kontroller, om trumman inte rör sig normalt eller om värmare, motor, pump, givare, elektronik eller mekanik misstänks.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ lastgränser, blanda stora och små plagg, töm fickor, dosera rätt och håll yttre slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå och kontrollera installationen; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Bekräfta att centrifugering är vald, fördela om lasten och kontrollera att maskinen kan tömma. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "152": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "lg-wont-fill",
+        "sv_slug": "lg-fyller-inte"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Won't Fill With Water: Safe Checks",
+        "meta_description": "LG Washing Machine Won't Fill With Water? Read verified causes, safe checks from LG guidance and when authorised service is required.",
+        "h1": "LG Washing Machine Won't Fill With Water",
+        "description": "The washer receives no water or fills too slowly.",
+        "quick_fix": "Open the water taps, check for an outage and straighten the external inlet hoses; clean accessible inlet filters only by the model manual (about 5–30 minutes).",
+        "intro_html": "<p>The washer receives no water or fills too slowly.</p><p>Open the water taps, check for an outage and straighten the external inlet hoses; clean accessible inlet filters only by the model manual. Unplug before accessible checks and never open appliance panels.</p>",
+        "causes_json": [
+          {
+            "cause": "Water outage or closed tap",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Kinked inlet hose",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Blocked accessible inlet filter",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Internal inlet-valve or control fault",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check external conditions",
+            "detail": "Open the water taps, check for an outage and straighten the external inlet hoses; clean accessible inlet filters only by the model manual."
+          },
+          {
+            "step": 3,
+            "action": "Follow the exact LG manual",
+            "detail": "Use the model number and perform documented user checks only; dismantle nothing and measure no electricity."
+          },
+          {
+            "step": 4,
+            "action": "Make one controlled test",
+            "detail": "Test once only without leakage, burning smell, smoke, abnormal heat, electrical fault or severe scraping noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Stop if the issue returns or the heater, motor, pump, sensor or internal mechanics are suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if the problem remains after external checks, if the drum does not move normally or if the heater, motor, pump, sensor, electronics or mechanics are suspected.</p><p>Unplug immediately for water near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow load limits, mix large and small items, empty pockets, dose correctly and keep external hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level and check installation; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Open the water taps, check for an outage and straighten the external inlet hoses; clean accessible inlet filters only by the model manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskinen fyller inte med vatten: säkra kontroller",
+        "meta_description": "LG-tvättmaskinen fyller inte med vatten? Läs verifierade orsaker, säkra kontroller enligt LG:s råd och när auktoriserad service krävs.",
+        "h1": "LG-tvättmaskinen fyller inte med vatten",
+        "description": "Tvättmaskinen får inget vatten eller fyller för långsamt.",
+        "quick_fix": "Öppna vattenkranarna, kontrollera vattenavbrott och räta yttre tilloppsslangar; rengör åtkomliga inloppsfilter endast enligt modellmanualen (cirka 5–30 minuter).",
+        "intro_html": "<p>Tvättmaskinen får inget vatten eller fyller för långsamt.</p><p>Öppna vattenkranarna, kontrollera vattenavbrott och räta yttre tilloppsslangar; rengör åtkomliga inloppsfilter endast enligt modellmanualen. Koppla ur före åtkomlig kontroll och öppna aldrig maskinens paneler.</p>",
+        "causes_json": [
+          {
+            "cause": "Vattenavbrott eller stängd kran",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Vikt tilloppsslang",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Blockerat åtkomligt inloppsfilter",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Internt ventil- eller styrfel",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera yttre förhållanden",
+            "detail": "Öppna vattenkranarna, kontrollera vattenavbrott och räta yttre tilloppsslangar; rengör åtkomliga inloppsfilter endast enligt modellmanualen."
+          },
+          {
+            "step": 3,
+            "action": "Följ exakt LG-manual",
+            "detail": "Använd modellnumret och gör bara dokumenterade användarkontroller; demontera inget och mät ingen el."
+          },
+          {
+            "step": 4,
+            "action": "Gör ett kontrollerat test",
+            "detail": "Testa en gång endast utan läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapande ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Avsluta om problemet återkommer eller om värmare, motor, pump, givare eller intern mekanik misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om problemet kvarstår efter yttre kontroller, om trumman inte rör sig normalt eller om värmare, motor, pump, givare, elektronik eller mekanik misstänks.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ lastgränser, blanda stora och små plagg, töm fickor, dosera rätt och håll yttre slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå och kontrollera installationen; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Öppna vattenkranarna, kontrollera vattenavbrott och räta yttre tilloppsslangar; rengör åtkomliga inloppsfilter endast enligt modellmanualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "154": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "lg-making-loud-noise",
+        "sv_slug": "lg-låter-högt"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Making Loud Noise: Safe Checks",
+        "meta_description": "LG Washing Machine Making Loud Noise? Read verified causes, safe checks from LG guidance and when authorised service is required.",
+        "h1": "LG Washing Machine Making Loud Noise",
+        "description": "Unusual noise may come from installation, an unbalanced load or an accessible foreign object.",
+        "quick_fix": "Stop the washer, redistribute the load and check shipping materials, levelling and clearly visible loose objects (about 5–30 minutes).",
+        "intro_html": "<p>Unusual noise may come from installation, an unbalanced load or an accessible foreign object.</p><p>Stop the washer, redistribute the load and check shipping materials, levelling and clearly visible loose objects. Unplug before accessible checks and never open appliance panels.</p>",
+        "causes_json": [
+          {
+            "cause": "Shipping bolts or packing",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Unbalanced or overloaded load",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Washer not level",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Internal bearing, drive or suspension fault",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check external conditions",
+            "detail": "Stop the washer, redistribute the load and check shipping materials, levelling and clearly visible loose objects."
+          },
+          {
+            "step": 3,
+            "action": "Follow the exact LG manual",
+            "detail": "Use the model number and perform documented user checks only; dismantle nothing and measure no electricity."
+          },
+          {
+            "step": 4,
+            "action": "Make one controlled test",
+            "detail": "Test once only without leakage, burning smell, smoke, abnormal heat, electrical fault or severe scraping noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Stop if the issue returns or the heater, motor, pump, sensor or internal mechanics are suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if the problem remains after external checks, if the drum does not move normally or if the heater, motor, pump, sensor, electronics or mechanics are suspected.</p><p>Unplug immediately for water near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow load limits, mix large and small items, empty pockets, dose correctly and keep external hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level and check installation; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Stop the washer, redistribute the load and check shipping materials, levelling and clearly visible loose objects. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskinen låter högt: säkra kontroller",
+        "meta_description": "LG-tvättmaskinen låter högt? Läs verifierade orsaker, säkra kontroller enligt LG:s råd och när auktoriserad service krävs.",
+        "h1": "LG-tvättmaskinen låter högt",
+        "description": "Ovanligt ljud kan bero på installation, obalanserad last eller ett åtkomligt främmande föremål.",
+        "quick_fix": "Stoppa maskinen, fördela om lasten och kontrollera transportmaterial, nivå och tydligt synliga lösa föremål (cirka 5–30 minuter).",
+        "intro_html": "<p>Ovanligt ljud kan bero på installation, obalanserad last eller ett åtkomligt främmande föremål.</p><p>Stoppa maskinen, fördela om lasten och kontrollera transportmaterial, nivå och tydligt synliga lösa föremål. Koppla ur före åtkomlig kontroll och öppna aldrig maskinens paneler.</p>",
+        "causes_json": [
+          {
+            "cause": "Transportbultar eller emballage",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Obalanserad eller överlastad trumma",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Maskinen står inte i nivå",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Internt lager-, driv- eller upphängningsfel",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera yttre förhållanden",
+            "detail": "Stoppa maskinen, fördela om lasten och kontrollera transportmaterial, nivå och tydligt synliga lösa föremål."
+          },
+          {
+            "step": 3,
+            "action": "Följ exakt LG-manual",
+            "detail": "Använd modellnumret och gör bara dokumenterade användarkontroller; demontera inget och mät ingen el."
+          },
+          {
+            "step": 4,
+            "action": "Gör ett kontrollerat test",
+            "detail": "Testa en gång endast utan läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapande ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Avsluta om problemet återkommer eller om värmare, motor, pump, givare eller intern mekanik misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om problemet kvarstår efter yttre kontroller, om trumman inte rör sig normalt eller om värmare, motor, pump, givare, elektronik eller mekanik misstänks.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ lastgränser, blanda stora och små plagg, töm fickor, dosera rätt och håll yttre slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå och kontrollera installationen; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Stoppa maskinen, fördela om lasten och kontrollera transportmaterial, nivå och tydligt synliga lösa föremål. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "155": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "lg-not-heating-water",
+        "sv_slug": "lg-värmer-inte-vatten"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Not Heating Water: Safe Checks",
+        "meta_description": "LG Washing Machine Not Heating Water? Read verified causes, safe checks from LG guidance and when authorised service is required.",
+        "h1": "LG Washing Machine Not Heating Water",
+        "description": "The selected wash may seem cooler than expected, or the washer may not reach the set temperature.",
+        "quick_fix": "Confirm the selected cycle and temperature and compare behaviour with the exact model manual; do not test the heater (about 5–30 minutes).",
+        "intro_html": "<p>The selected wash may seem cooler than expected, or the washer may not reach the set temperature.</p><p>Confirm the selected cycle and temperature and compare behaviour with the exact model manual; do not test the heater. Unplug before accessible checks and never open appliance panels.</p>",
+        "causes_json": [
+          {
+            "cause": "Cool or low-temperature programme",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Cold incoming water",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Normal programme energy control",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Internal heater, sensor or control fault",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check external conditions",
+            "detail": "Confirm the selected cycle and temperature and compare behaviour with the exact model manual; do not test the heater."
+          },
+          {
+            "step": 3,
+            "action": "Follow the exact LG manual",
+            "detail": "Use the model number and perform documented user checks only; dismantle nothing and measure no electricity."
+          },
+          {
+            "step": 4,
+            "action": "Make one controlled test",
+            "detail": "Test once only without leakage, burning smell, smoke, abnormal heat, electrical fault or severe scraping noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Stop if the issue returns or the heater, motor, pump, sensor or internal mechanics are suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if the problem remains after external checks, if the drum does not move normally or if the heater, motor, pump, sensor, electronics or mechanics are suspected.</p><p>Unplug immediately for water near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow load limits, mix large and small items, empty pockets, dose correctly and keep external hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level and check installation; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Confirm the selected cycle and temperature and compare behaviour with the exact model manual; do not test the heater. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskinen värmer inte vattnet: säkra kontroller",
+        "meta_description": "LG-tvättmaskinen värmer inte vattnet? Läs verifierade orsaker, säkra kontroller enligt LG:s råd och när auktoriserad service krävs.",
+        "h1": "LG-tvättmaskinen värmer inte vattnet",
+        "description": "Vald tvätt kan kännas kallare än väntat eller inte nå inställd temperatur.",
+        "quick_fix": "Kontrollera valt program och temperatur och jämför beteendet med exakt modellmanual; prova inte värmaren (cirka 5–30 minuter).",
+        "intro_html": "<p>Vald tvätt kan kännas kallare än väntat eller inte nå inställd temperatur.</p><p>Kontrollera valt program och temperatur och jämför beteendet med exakt modellmanual; prova inte värmaren. Koppla ur före åtkomlig kontroll och öppna aldrig maskinens paneler.</p>",
+        "causes_json": [
+          {
+            "cause": "Kallt eller lågtempererat program",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Kallt inkommande vatten",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Normal energistyrning i programmet",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Internt värmar-, givar- eller styrfel",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera yttre förhållanden",
+            "detail": "Kontrollera valt program och temperatur och jämför beteendet med exakt modellmanual; prova inte värmaren."
+          },
+          {
+            "step": 3,
+            "action": "Följ exakt LG-manual",
+            "detail": "Använd modellnumret och gör bara dokumenterade användarkontroller; demontera inget och mät ingen el."
+          },
+          {
+            "step": 4,
+            "action": "Gör ett kontrollerat test",
+            "detail": "Testa en gång endast utan läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapande ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Avsluta om problemet återkommer eller om värmare, motor, pump, givare eller intern mekanik misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om problemet kvarstår efter yttre kontroller, om trumman inte rör sig normalt eller om värmare, motor, pump, givare, elektronik eller mekanik misstänks.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ lastgränser, blanda stora och små plagg, töm fickor, dosera rätt och håll yttre slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå och kontrollera installationen; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Kontrollera valt program och temperatur och jämför beteendet med exakt modellmanual; prova inte värmaren. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "156": {
+      "code": "—",
+      "preserve": {
+        "en_slug": "lg-vibrating-excessively",
+        "sv_slug": "lg-vibrerar-för-mycket"
+      },
+      "en": {
+        "title_tag": "LG Washing Machine Vibrating Excessively: Safe Checks",
+        "meta_description": "LG Washing Machine Vibrating Excessively? Read verified causes, safe checks from LG guidance and when authorised service is required.",
+        "h1": "LG Washing Machine Vibrating Excessively",
+        "description": "The washer moves or vibrates more than expected.",
+        "quick_fix": "Check shipping bolts on a recent installation, redistribute the load and ensure all feet are level on a stable floor (about 5–30 minutes).",
+        "intro_html": "<p>The washer moves or vibrates more than expected.</p><p>Check shipping bolts on a recent installation, redistribute the load and ensure all feet are level on a stable floor. Unplug before accessible checks and never open appliance panels.</p>",
+        "causes_json": [
+          {
+            "cause": "Shipping bolts or packing remain",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Unbalanced or unsuitable load",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Washer not level",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          },
+          {
+            "cause": "Internal suspension or mechanical fault",
+            "detail": "Check this only through external, user-accessible steps in the correct model manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Check external conditions",
+            "detail": "Check shipping bolts on a recent installation, redistribute the load and ensure all feet are level on a stable floor."
+          },
+          {
+            "step": 3,
+            "action": "Follow the exact LG manual",
+            "detail": "Use the model number and perform documented user checks only; dismantle nothing and measure no electricity."
+          },
+          {
+            "step": 4,
+            "action": "Make one controlled test",
+            "detail": "Test once only without leakage, burning smell, smoke, abnormal heat, electrical fault or severe scraping noise."
+          },
+          {
+            "step": 5,
+            "action": "Arrange LG service",
+            "detail": "Stop if the issue returns or the heater, motor, pump, sensor or internal mechanics are suspected."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange authorised LG service if the problem remains after external checks, if the drum does not move normally or if the heater, motor, pump, sensor, electronics or mechanics are suspected.</p><p>Unplug immediately for water near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow load limits, mix large and small items, empty pockets, dose correctly and keep external hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level and check installation; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing —?",
+            "answer": "Check shipping bolts on a recent installation, redistribute the load and ensure all feet are level on a stable floor. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset — by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does — identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "LG-tvättmaskinen vibrerar för mycket: säkra kontroller",
+        "meta_description": "LG-tvättmaskinen vibrerar för mycket? Läs verifierade orsaker, säkra kontroller enligt LG:s råd och när auktoriserad service krävs.",
+        "h1": "LG-tvättmaskinen vibrerar för mycket",
+        "description": "Tvättmaskinen rör sig eller vibrerar mer än förväntat.",
+        "quick_fix": "Kontrollera transportbultar vid ny installation, fördela om lasten och se till att alla fötter står i nivå på stabilt golv (cirka 5–30 minuter).",
+        "intro_html": "<p>Tvättmaskinen rör sig eller vibrerar mer än förväntat.</p><p>Kontrollera transportbultar vid ny installation, fördela om lasten och se till att alla fötter står i nivå på stabilt golv. Koppla ur före åtkomlig kontroll och öppna aldrig maskinens paneler.</p>",
+        "causes_json": [
+          {
+            "cause": "Transportbultar eller emballage finns kvar",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Obalanserad eller olämplig last",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Maskinen står inte i nivå",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          },
+          {
+            "cause": "Internt upphängnings- eller mekanikfel",
+            "detail": "Kontrollera detta endast med yttre, användaråtkomliga steg i rätt modellmanual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera yttre förhållanden",
+            "detail": "Kontrollera transportbultar vid ny installation, fördela om lasten och se till att alla fötter står i nivå på stabilt golv."
+          },
+          {
+            "step": 3,
+            "action": "Följ exakt LG-manual",
+            "detail": "Använd modellnumret och gör bara dokumenterade användarkontroller; demontera inget och mät ingen el."
+          },
+          {
+            "step": 4,
+            "action": "Gör ett kontrollerat test",
+            "detail": "Testa en gång endast utan läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapande ljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka LG-service",
+            "detail": "Avsluta om problemet återkommer eller om värmare, motor, pump, givare eller intern mekanik misstänks."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka auktoriserad LG-service om problemet kvarstår efter yttre kontroller, om trumman inte rör sig normalt eller om värmare, motor, pump, givare, elektronik eller mekanik misstänks.</p><p>Koppla ur direkt vid vatten nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ lastgränser, blanda stora och små plagg, töm fickor, dosera rätt och håll yttre slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå och kontrollera installationen; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med —?",
+            "answer": "Kontrollera transportbultar vid ny installation, fördela om lasten och se till att alla fötter står i nivå på stabilt golv. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa — genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar — vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

@@ -1,0 +1,833 @@
+{
+  "batch": "036-siemens-e68-f43",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    237,
+    238,
+    239,
+    241,
+    243
+  ],
+  "sources": [
+    "https://www.siemens-home.bsh-group.com/uk/customer-service/support/washing-machine",
+    "https://www.siemens-home.bsh-group.com/de/kundendienst/hilfe/waschmaschine",
+    "https://www.siemens-home.bsh-group.com/ae/customer-service/support/troubleshooting/washing-machines/error-codes-symbols"
+  ],
+  "translations": {
+    "237": {
+      "code": "E68",
+      "preserve": {
+        "en_slug": "error-code-e68",
+        "sv_slug": "felkod-e68"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Error E68: Safe Steps",
+        "meta_description": "Siemens washer showing E68? Read the verified meaning, safe external checks and when Siemens service is required.",
+        "h1": "What Does E68 Mean on a Siemens Washing Machine?",
+        "description": "A display beginning E68 has no universal meaning in Siemens' public washer table and may be incomplete because current models use longer E60-series codes.",
+        "quick_fix": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns (about 5–30 minutes).",
+        "intro_html": "<p>A display beginning E68 has no universal meaning in Siemens' public washer table and may be incomplete because current models use longer E60-series codes.</p><p>Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Open no panels, make no electrical measurements and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete or misread display",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific information code",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "A longer or alternate-format code is not fully visible",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal condition requiring Siemens diagnosis",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E68 display and note the E-Nr, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Follow the exact E-Nr manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the code remains or returns. Dismantle nothing and measure no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if E68 remains or returns after the single permitted five-second power-off. Provide the complete display and exact E-Nr.</p><p>Do not dismantle the washer or measure internal parts.</p>",
+        "prevention_html": "<p>Follow installation, load and detergent instructions and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Siemens washer showing E68?",
+            "answer": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Do not run another cycle until Siemens guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E68 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Siemens classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E68 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Siemens service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Siemens model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Siemens directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskin felkod E68: säkra steg",
+        "meta_description": "Visar Siemens-tvättmaskinen E68? Läs verifierad betydelse, säkra yttre kontroller och när Siemens-service krävs.",
+        "h1": "Vad betyder E68 på en Siemens-tvättmaskin?",
+        "description": "En visning som börjar med E68 har ingen universell betydelse i Siemens offentliga tvättmaskinstabell och kan vara ofullständig eftersom aktuella modeller använder längre E60-seriekoder.",
+        "quick_fix": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>En visning som börjar med E68 har ingen universell betydelse i Siemens offentliga tvättmaskinstabell och kan vara ofullständig eftersom aktuella modeller använder längre E60-seriekoder.</p><p>Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Öppna inga paneler, gör inga elektriska mätningar och beställ inte reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig eller feltolkad display",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik informationskod",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "En längre kod eller alternativt format syns inte fullständigt",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt tillstånd som kräver Siemens-diagnos",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E68-visningen och anteckna E‑Nr, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Följ manualen för exakt E‑Nr vid tömning eller filterrengöring."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Demontera inget och mät inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om E68 kvarstår eller återkommer efter den enda tillåtna femsekundersavstängningen. Uppge hela visningen och exakt E‑Nr.</p><p>Demontera inte maskinen och mät inga interna delar.</p>",
+        "prevention_html": "<p>Följ installations-, last- och doseringsanvisningar och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E68?",
+            "answer": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Kör inte ett nytt program innan Siemens eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E68 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E68 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Siemens service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Siemens E‑Nr?",
+            "answer": "Siemens-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Siemens hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "238": {
+      "code": "E69",
+      "preserve": {
+        "en_slug": "error-code-e69",
+        "sv_slug": "felkod-e69"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Error E69: Safe Steps",
+        "meta_description": "Siemens washer showing E69? Read the verified meaning, safe external checks and when Siemens service is required.",
+        "h1": "What Does E69 Mean on a Siemens Washing Machine?",
+        "description": "A display beginning E69 has no universal meaning in Siemens' public washer table and may be incomplete because current models use longer E60-series codes.",
+        "quick_fix": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns (about 5–30 minutes).",
+        "intro_html": "<p>A display beginning E69 has no universal meaning in Siemens' public washer table and may be incomplete because current models use longer E60-series codes.</p><p>Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Open no panels, make no electrical measurements and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete or misread display",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific information code",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "A longer or alternate-format code is not fully visible",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal condition requiring Siemens diagnosis",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E69 display and note the E-Nr, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Follow the exact E-Nr manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the code remains or returns. Dismantle nothing and measure no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if E69 remains or returns after the single permitted five-second power-off. Provide the complete display and exact E-Nr.</p><p>Do not dismantle the washer or measure internal parts.</p>",
+        "prevention_html": "<p>Follow installation, load and detergent instructions and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Siemens washer showing E69?",
+            "answer": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Do not run another cycle until Siemens guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E69 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Siemens classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E69 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Siemens service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Siemens model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Siemens directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskin felkod E69: säkra steg",
+        "meta_description": "Visar Siemens-tvättmaskinen E69? Läs verifierad betydelse, säkra yttre kontroller och när Siemens-service krävs.",
+        "h1": "Vad betyder E69 på en Siemens-tvättmaskin?",
+        "description": "En visning som börjar med E69 har ingen universell betydelse i Siemens offentliga tvättmaskinstabell och kan vara ofullständig eftersom aktuella modeller använder längre E60-seriekoder.",
+        "quick_fix": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>En visning som börjar med E69 har ingen universell betydelse i Siemens offentliga tvättmaskinstabell och kan vara ofullständig eftersom aktuella modeller använder längre E60-seriekoder.</p><p>Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Öppna inga paneler, gör inga elektriska mätningar och beställ inte reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig eller feltolkad display",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik informationskod",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "En längre kod eller alternativt format syns inte fullständigt",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt tillstånd som kräver Siemens-diagnos",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E69-visningen och anteckna E‑Nr, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Följ manualen för exakt E‑Nr vid tömning eller filterrengöring."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Demontera inget och mät inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om E69 kvarstår eller återkommer efter den enda tillåtna femsekundersavstängningen. Uppge hela visningen och exakt E‑Nr.</p><p>Demontera inte maskinen och mät inga interna delar.</p>",
+        "prevention_html": "<p>Följ installations-, last- och doseringsanvisningar och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E69?",
+            "answer": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Kör inte ett nytt program innan Siemens eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E69 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E69 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Siemens service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Siemens E‑Nr?",
+            "answer": "Siemens-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Siemens hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "239": {
+      "code": "E90",
+      "preserve": {
+        "en_slug": "error-code-e90",
+        "sv_slug": "felkod-e90"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Error E90: Safe Steps",
+        "meta_description": "Siemens washer showing E90? Read the verified meaning, safe external checks and when Siemens service is required.",
+        "h1": "What Does E90 Mean on a Siemens Washing Machine?",
+        "description": "A display beginning E90 may be incomplete because Siemens support lists longer E92-series codes; record every character and use the exact E-Nr result.",
+        "quick_fix": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns (about 5–30 minutes).",
+        "intro_html": "<p>A display beginning E90 may be incomplete because Siemens support lists longer E92-series codes; record every character and use the exact E-Nr result.</p><p>Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Open no panels, make no electrical measurements and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete or misread display",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific information code",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "A longer or alternate-format code is not fully visible",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal condition requiring Siemens diagnosis",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E90 display and note the E-Nr, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Follow the exact E-Nr manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the code remains or returns. Dismantle nothing and measure no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if E90 remains or returns after the single permitted five-second power-off. Provide the complete display and exact E-Nr.</p><p>Do not dismantle the washer or measure internal parts.</p>",
+        "prevention_html": "<p>Follow installation, load and detergent instructions and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Siemens washer showing E90?",
+            "answer": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Do not run another cycle until Siemens guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E90 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Siemens classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E90 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Siemens service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Siemens model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Siemens directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskin felkod E90: säkra steg",
+        "meta_description": "Visar Siemens-tvättmaskinen E90? Läs verifierad betydelse, säkra yttre kontroller och när Siemens-service krävs.",
+        "h1": "Vad betyder E90 på en Siemens-tvättmaskin?",
+        "description": "En visning som börjar med E90 kan vara ofullständig eftersom Siemens support listar längre E92-seriekoder; dokumentera varje tecken och använd resultatet för exakt E‑Nr.",
+        "quick_fix": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>En visning som börjar med E90 kan vara ofullständig eftersom Siemens support listar längre E92-seriekoder; dokumentera varje tecken och använd resultatet för exakt E‑Nr.</p><p>Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Öppna inga paneler, gör inga elektriska mätningar och beställ inte reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig eller feltolkad display",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik informationskod",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "En längre kod eller alternativt format syns inte fullständigt",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt tillstånd som kräver Siemens-diagnos",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E90-visningen och anteckna E‑Nr, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Följ manualen för exakt E‑Nr vid tömning eller filterrengöring."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Demontera inget och mät inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om E90 kvarstår eller återkommer efter den enda tillåtna femsekundersavstängningen. Uppge hela visningen och exakt E‑Nr.</p><p>Demontera inte maskinen och mät inga interna delar.</p>",
+        "prevention_html": "<p>Följ installations-, last- och doseringsanvisningar och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E90?",
+            "answer": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Kör inte ett nytt program innan Siemens eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E90 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E90 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Siemens service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Siemens E‑Nr?",
+            "answer": "Siemens-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Siemens hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "241": {
+      "code": "E92",
+      "preserve": {
+        "en_slug": "error-code-e92",
+        "sv_slug": "felkod-e92"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Error E92: Safe Steps",
+        "meta_description": "Siemens washer showing E92? Read the verified meaning, safe external checks and when Siemens service is required.",
+        "h1": "What Does E92 Mean on a Siemens Washing Machine?",
+        "description": "A display beginning E92 may be incomplete because Siemens support lists longer E92-series codes; record every character and use the exact E-Nr result.",
+        "quick_fix": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns (about 5–30 minutes).",
+        "intro_html": "<p>A display beginning E92 may be incomplete because Siemens support lists longer E92-series codes; record every character and use the exact E-Nr result.</p><p>Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Open no panels, make no electrical measurements and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete or misread display",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific information code",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "A longer or alternate-format code is not fully visible",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal condition requiring Siemens diagnosis",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E92 display and note the E-Nr, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Follow the exact E-Nr manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the code remains or returns. Dismantle nothing and measure no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if E92 remains or returns after the single permitted five-second power-off. Provide the complete display and exact E-Nr.</p><p>Do not dismantle the washer or measure internal parts.</p>",
+        "prevention_html": "<p>Follow installation, load and detergent instructions and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Siemens washer showing E92?",
+            "answer": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Do not run another cycle until Siemens guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E92 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Siemens classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E92 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Siemens service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Siemens model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Siemens directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskin felkod E92: säkra steg",
+        "meta_description": "Visar Siemens-tvättmaskinen E92? Läs verifierad betydelse, säkra yttre kontroller och när Siemens-service krävs.",
+        "h1": "Vad betyder E92 på en Siemens-tvättmaskin?",
+        "description": "En visning som börjar med E92 kan vara ofullständig eftersom Siemens support listar längre E92-seriekoder; dokumentera varje tecken och använd resultatet för exakt E‑Nr.",
+        "quick_fix": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>En visning som börjar med E92 kan vara ofullständig eftersom Siemens support listar längre E92-seriekoder; dokumentera varje tecken och använd resultatet för exakt E‑Nr.</p><p>Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Öppna inga paneler, gör inga elektriska mätningar och beställ inte reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig eller feltolkad display",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik informationskod",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "En längre kod eller alternativt format syns inte fullständigt",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt tillstånd som kräver Siemens-diagnos",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E92-visningen och anteckna E‑Nr, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Följ manualen för exakt E‑Nr vid tömning eller filterrengöring."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Demontera inget och mät inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om E92 kvarstår eller återkommer efter den enda tillåtna femsekundersavstängningen. Uppge hela visningen och exakt E‑Nr.</p><p>Demontera inte maskinen och mät inga interna delar.</p>",
+        "prevention_html": "<p>Följ installations-, last- och doseringsanvisningar och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E92?",
+            "answer": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Kör inte ett nytt program innan Siemens eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E92 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E92 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Siemens service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Siemens E‑Nr?",
+            "answer": "Siemens-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Siemens hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "243": {
+      "code": "F43",
+      "preserve": {
+        "en_slug": "error-code-f43",
+        "sv_slug": "felkod-f43"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Error F43: Safe Steps",
+        "meta_description": "Siemens washer showing F43? Read the verified meaning, safe external checks and when Siemens service is required.",
+        "h1": "What Does F43 Mean on a Siemens Washing Machine?",
+        "description": "Siemens support lists F43 with E43 and E00-43, but the public generic table does not expose a universal component meaning; use the exact E-Nr support result.",
+        "quick_fix": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns (about 5–30 minutes).",
+        "intro_html": "<p>Siemens support lists F43 with E43 and E00-43, but the public generic table does not expose a universal component meaning; use the exact E-Nr support result.</p><p>Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Open no panels, make no electrical measurements and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete or misread display",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific information code",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "A longer or alternate-format code is not fully visible",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal condition requiring Siemens diagnosis",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete F43 display and note the E-Nr, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Follow the exact E-Nr manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the code remains or returns. Dismantle nothing and measure no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if F43 remains or returns after the single permitted five-second power-off. Provide the complete display and exact E-Nr.</p><p>Do not dismantle the washer or measure internal parts.</p>",
+        "prevention_html": "<p>Follow installation, load and detergent instructions and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Siemens washer showing F43?",
+            "answer": "Switch the washer off for five seconds once, photograph the complete display and contact Siemens with the exact E-Nr if the code returns. Do not run another cycle until Siemens guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset F43 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Siemens classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does F43 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Siemens service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Siemens model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Siemens directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskin felkod F43: säkra steg",
+        "meta_description": "Visar Siemens-tvättmaskinen F43? Läs verifierad betydelse, säkra yttre kontroller och när Siemens-service krävs.",
+        "h1": "Vad betyder F43 på en Siemens-tvättmaskin?",
+        "description": "Siemens support listar F43 tillsammans med E43 och E00-43, men den generella offentliga tabellen visar ingen universell komponentbetydelse; använd supportresultatet för exakt E‑Nr.",
+        "quick_fix": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>Siemens support listar F43 tillsammans med E43 och E00-43, men den generella offentliga tabellen visar ingen universell komponentbetydelse; använd supportresultatet för exakt E‑Nr.</p><p>Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Öppna inga paneler, gör inga elektriska mätningar och beställ inte reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig eller feltolkad display",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik informationskod",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "En längre kod eller alternativt format syns inte fullständigt",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt tillstånd som kräver Siemens-diagnos",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela F43-visningen och anteckna E‑Nr, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Följ manualen för exakt E‑Nr vid tömning eller filterrengöring."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Demontera inget och mät inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om F43 kvarstår eller återkommer efter den enda tillåtna femsekundersavstängningen. Uppge hela visningen och exakt E‑Nr.</p><p>Demontera inte maskinen och mät inga interna delar.</p>",
+        "prevention_html": "<p>Följ installations-, last- och doseringsanvisningar och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med F43?",
+            "answer": "Stäng av tvättmaskinen i fem sekunder en gång, fotografera hela displayen och kontakta Siemens med exakt E‑Nr om koden återkommer. Kör inte ett nytt program innan Siemens eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa F43 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar F43 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Siemens service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Siemens E‑Nr?",
+            "answer": "Siemens-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Siemens hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

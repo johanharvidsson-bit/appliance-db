@@ -1,0 +1,795 @@
+{
+  "batch": "044-bosch-drain-start-leak-door",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    202,
+    311,
+    313,
+    314,
+    316
+  ],
+  "sources": [
+    "https://www.bosch-home.com/us/owner-support/error-codes/washers",
+    "https://www.bosch-home.com/us/owner-support/get-support/washing-machine-does-not-drain-water",
+    "https://www.bosch-home.com/us/owner-support/washing-machines/troubleshooting",
+    "https://www.bosch-home.com/us/owner-support/get-support/washing-machine-leaking",
+    "https://media3.bosch-home.com/Documents/9001267174_C.pdf"
+  ],
+  "translations": {
+    "202": {
+      "code": "F18",
+      "preserve": {
+        "en_slug": "error-code-f18",
+        "sv_slug": "felkod-f18"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error LC: Safe Steps",
+        "meta_description": "Bosch washer showing LC? Read the model-dependent meaning, safe leak and drain-hose checks and when Bosch service is required.",
+        "h1": "What Does F18 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies F18 as a blocked or kinked drainage hose or a blocked drain pump.",
+        "quick_fix": "Switch off and unplug, let hot water cool, then check the visible drain hose and clean the user-accessible pump only as the exact model manual specifies (about 5–30 minutes).",
+        "intro_html": "<p>Bosch identifies F18 as a blocked or kinked drainage hose or a blocked drain pump.</p><p>Switch off and unplug, let hot water cool, then check the visible drain hose and clean the user-accessible pump only as the exact model manual specifies. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Kinked or blocked drain hose",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked household waste connection",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked user-accessible drain pump",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal pump or control fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Switch off and unplug, let hot water cool, then check the visible drain hose and clean the user-accessible pump only as the exact model manual specifies. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Bosch service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch-tvättmaskin felkod LC: säkra steg",
+        "meta_description": "Visar Bosch-tvättmaskinen LC? Läs modellberoende betydelse, säkra läckage- och slangkontroller och när service krävs.",
+        "h1": "Vad betyder F18 på en Bosch-tvättmaskin?",
+        "description": "Bosch identifierar F18 som en blockerad eller vikt avloppsslang eller blockerad avloppspump.",
+        "quick_fix": "Stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig avloppsslang samt rengör användaråtkomlig pump endast enligt manualen för exakt modell (cirka 5–30 minuter).",
+        "intro_html": "<p>Bosch identifierar F18 som en blockerad eller vikt avloppsslang eller blockerad avloppspump.</p><p>Stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig avloppsslang samt rengör användaråtkomlig pump endast enligt manualen för exakt modell. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Vikt eller blockerad avloppsslang",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad avloppsanslutning i bostaden",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad användaråtkomlig avloppspump",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt pump- eller styrfel",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig avloppsslang samt rengör användaråtkomlig pump endast enligt manualen för exakt modell. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Bosch-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "311": {
+      "code": "drain",
+      "preserve": {
+        "en_slug": "washing-machine-wont-drain",
+        "sv_slug": "tvattmaskin-tommer-inte"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Won't Drain: Safe Checks",
+        "meta_description": "Bosch Washing Machine Won't Drain? See verified Bosch causes, safe external checks and when authorised service is required.",
+        "h1": "Bosch Washing Machine Won't Drain",
+        "description": "Bosch links a washer that will not drain to a kinked or blocked drain hose, household waste connection or blocked pump.",
+        "quick_fix": "Switch off and unplug, allow hot water to cool, then inspect the visible drain hose and clean the user-accessible pump as the exact model manual specifies (about 5–30 minutes).",
+        "intro_html": "<p>Bosch links a washer that will not drain to a kinked or blocked drain hose, household waste connection or blocked pump.</p><p>Switch off and unplug, allow hot water to cool, then inspect the visible drain hose and clean the user-accessible pump as the exact model manual specifies. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Kinked or blocked drain hose",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked household waste connection",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked pump or accessible filter",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal drain-pump or control fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Switch off and unplug, allow hot water to cool, then inspect the visible drain hose and clean the user-accessible pump as the exact model manual specifies. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Bosch service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch-tvättmaskinen tömmer inte: säkra kontroller",
+        "meta_description": "Bosch-tvättmaskinen tömmer inte? Se Bosch verifierade orsaker, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Bosch-tvättmaskinen tömmer inte",
+        "description": "Bosch kopplar utebliven tömning till en vikt eller blockerad avloppsslang, bostadens avloppsanslutning eller blockerad pump.",
+        "quick_fix": "Stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig avloppsslang samt rengör användaråtkomlig pump enligt manualen för exakt modell (cirka 5–30 minuter).",
+        "intro_html": "<p>Bosch kopplar utebliven tömning till en vikt eller blockerad avloppsslang, bostadens avloppsanslutning eller blockerad pump.</p><p>Stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig avloppsslang samt rengör användaråtkomlig pump enligt manualen för exakt modell. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Vikt eller blockerad avloppsslang",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad avloppsanslutning i bostaden",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad pump eller åtkomligt filter",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt pump- eller styrfel",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan synlig avloppsslang samt rengör användaråtkomlig pump enligt manualen för exakt modell. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Bosch-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "313": {
+      "code": "start",
+      "preserve": {
+        "en_slug": "wont-start",
+        "sv_slug": "startar-inte"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Won't Start: Safe Checks",
+        "meta_description": "Bosch Washing Machine Won't Start? See verified Bosch causes, safe external checks and when authorised service is required.",
+        "h1": "Bosch Washing Machine Won't Start",
+        "description": "Bosch recommends checking the power supply, securely closed door, active controls or settings and any displayed message.",
+        "quick_fix": "From a dry safe position check the plug and circuit protection, close the door until it latches and use the exact model manual for active Child Lock or delay settings (about 5–30 minutes).",
+        "intro_html": "<p>Bosch recommends checking the power supply, securely closed door, active controls or settings and any displayed message.</p><p>From a dry safe position check the plug and circuit protection, close the door until it latches and use the exact model manual for active Child Lock or delay settings. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "No safe power supply",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Door not fully closed or load trapped",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Child Lock, delay or another setting active",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal door-lock, interface or control fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "From a dry safe position check the plug and circuit protection, close the door until it latches and use the exact model manual for active Child Lock or delay settings. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Bosch service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Bosch service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch-tvättmaskinen startar inte: säkra kontroller",
+        "meta_description": "Bosch-tvättmaskinen startar inte? Se Bosch verifierade orsaker, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Bosch-tvättmaskinen startar inte",
+        "description": "Bosch rekommenderar kontroll av strömförsörjning, ordentligt stängd lucka, aktiva kontroller eller inställningar och eventuellt displaymeddelande.",
+        "quick_fix": "Kontrollera kontakt och elskydd från en torr och säker plats, stäng luckan tills den låser och använd manualen för exakt modell vid aktivt barnlås eller fördröjd start (cirka 5–30 minuter).",
+        "intro_html": "<p>Bosch rekommenderar kontroll av strömförsörjning, ordentligt stängd lucka, aktiva kontroller eller inställningar och eventuellt displaymeddelande.</p><p>Kontrollera kontakt och elskydd från en torr och säker plats, stäng luckan tills den låser och använd manualen för exakt modell vid aktivt barnlås eller fördröjd start. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Säker strömförsörjning saknas",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Luckan är inte helt stängd eller tvätt har fastnat",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Barnlås, fördröjning eller annan inställning är aktiv",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt lucklås-, gränssnitts- eller styrfel",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Kontrollera kontakt och elskydd från en torr och säker plats, stäng luckan tills den låser och använd manualen för exakt modell vid aktivt barnlås eller fördröjd start. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Bosch-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Bosch-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "314": {
+      "code": "leak",
+      "preserve": {
+        "en_slug": "leaking-water",
+        "sv_slug": "läcker-vatten"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Is Leaking Water: Safe Checks",
+        "meta_description": "Bosch Washing Machine Is Leaking Water? See verified Bosch causes, safe external checks and when authorised service is required.",
+        "h1": "Bosch Washing Machine Is Leaking Water",
+        "description": "Bosch identifies the door seal and trapped laundry, detergent foaming, visible hoses and connections as useful first checks for a leak.",
+        "quick_fix": "Stop the washer, close the water tap and isolate power only from a dry safe position; do not use it again while leakage remains (about 5–30 minutes).",
+        "intro_html": "<p>Bosch identifies the door seal and trapped laundry, detergent foaming, visible hoses and connections as useful first checks for a leak.</p><p>Stop the washer, close the water tap and isolate power only from a dry safe position; do not use it again while leakage remains. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Laundry or residue compromising the door seal",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Excess or unsuitable detergent causing foam",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Loose, damaged or leaking visible hose connection",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal leak requiring Bosch service",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the washer, close the water tap and isolate power only from a dry safe position; do not use it again while leakage remains."
+          },
+          {
+            "step": 2,
+            "action": "Inspect without dismantling",
+            "detail": "Inspect user-accessible parts only and follow the manual for the exact E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Avoid further use",
+            "detail": "Do not run the washer with a continuing leak, a locked door containing water or another safety risk."
+          },
+          {
+            "step": 4,
+            "action": "Record the symptom",
+            "detail": "Note when the problem appeared and any complete code without opening the cabinet."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Bosch service",
+            "detail": "Arrange authorised service if the problem remains after the safe basic check."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Bosch service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch-tvättmaskinen läcker vatten: säkra kontroller",
+        "meta_description": "Bosch-tvättmaskinen läcker vatten? Se Bosch verifierade orsaker, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Bosch-tvättmaskinen läcker vatten",
+        "description": "Bosch anger lucktätning och fastklämd tvätt, tvättmedelsskum samt synliga slangar och anslutningar som viktiga första kontroller vid läckage.",
+        "quick_fix": "Stoppa maskinen, stäng vattenkranen och bryt strömmen endast från en torr och säker plats; använd den inte igen så länge läckaget kvarstår (cirka 5–30 minuter).",
+        "intro_html": "<p>Bosch anger lucktätning och fastklämd tvätt, tvättmedelsskum samt synliga slangar och anslutningar som viktiga första kontroller vid läckage.</p><p>Stoppa maskinen, stäng vattenkranen och bryt strömmen endast från en torr och säker plats; använd den inte igen så länge läckaget kvarstår. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Tvätt eller rester försämrar lucktätningen",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "För mycket eller olämpligt tvättmedel orsakar skum",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Lös, skadad eller läckande synlig slanganslutning",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt läckage som kräver Bosch-service",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa maskinen, stäng vattenkranen och bryt strömmen endast från en torr och säker plats; använd den inte igen så länge läckaget kvarstår."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera utan demontering",
+            "detail": "Inspektera endast användaråtkomliga delar och följ manualen för exakt E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Undvik fortsatt användning",
+            "detail": "Kör inte maskinen vid kvarvarande läckage, låst lucka med vatten eller annan säkerhetsrisk."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera symtomet",
+            "detail": "Notera när problemet uppstod och eventuell komplett kod utan att öppna höljet."
+          },
+          {
+            "step": 5,
+            "action": "Boka Bosch-service",
+            "detail": "Boka behörig service om problemet kvarstår efter den säkra grundkontrollen."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Bosch-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "316": {
+      "code": "door",
+      "preserve": {
+        "en_slug": "door-wont-open",
+        "sv_slug": "dorren-gar-inte-att-oppna"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Door Won't Open: Safe Checks",
+        "meta_description": "Bosch Washing Machine Door Won't Open? See verified Bosch causes, safe external checks and when authorised service is required.",
+        "h1": "Bosch Washing Machine Door Won't Open",
+        "description": "A Bosch washer door may remain locked while the drum moves, water is present, the temperature is high or a programme or safety condition is active.",
+        "quick_fix": "Do not force the door; wait for the drum to stop and water to cool, then use the model manual's cancel, drain or normal unlock procedure (about 5–30 minutes).",
+        "intro_html": "<p>A Bosch washer door may remain locked while the drum moves, water is present, the temperature is high or a programme or safety condition is active.</p><p>Do not force the door; wait for the drum to stop and water to cool, then use the model manual's cancel, drain or normal unlock procedure. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "Programme still running or drum moving",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Water remains in the drum",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Water temperature remains unsafe",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Door-lock, drain or control fault",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Do not force the door; wait for the drum to stop and water to cool, then use the model manual's cancel, drain or normal unlock procedure."
+          },
+          {
+            "step": 2,
+            "action": "Inspect without dismantling",
+            "detail": "Inspect user-accessible parts only and follow the manual for the exact E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Avoid further use",
+            "detail": "Do not run the washer with a continuing leak, a locked door containing water or another safety risk."
+          },
+          {
+            "step": 4,
+            "action": "Record the symptom",
+            "detail": "Note when the problem appeared and any complete code without opening the cabinet."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Bosch service",
+            "detail": "Arrange authorised service if the problem remains after the safe basic check."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Bosch service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch-tvättmaskinens lucka går inte att öppna: säkra kontroller",
+        "meta_description": "Bosch-tvättmaskinens lucka går inte att öppna? Se Bosch verifierade orsaker, säkra yttre kontroller och när auktoriserad service krävs.",
+        "h1": "Bosch-tvättmaskinens lucka går inte att öppna",
+        "description": "Luckan på en Bosch-tvättmaskin kan förbli låst när trumman rör sig, vatten finns kvar, temperaturen är hög eller ett program eller säkerhetstillstånd är aktivt.",
+        "quick_fix": "Tvinga inte upp luckan; vänta tills trumman stannat och vattnet svalnat och använd sedan modellmanualens procedur för avbrytning, tömning eller normal upplåsning (cirka 5–30 minuter).",
+        "intro_html": "<p>Luckan på en Bosch-tvättmaskin kan förbli låst när trumman rör sig, vatten finns kvar, temperaturen är hög eller ett program eller säkerhetstillstånd är aktivt.</p><p>Tvinga inte upp luckan; vänta tills trumman stannat och vattnet svalnat och använd sedan modellmanualens procedur för avbrytning, tömning eller normal upplåsning. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Programmet körs fortfarande eller trumman rör sig",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Vatten finns kvar i trumman",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Vattentemperaturen är fortfarande osäker",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Fel på lucklås, tömning eller styrning",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Tvinga inte upp luckan; vänta tills trumman stannat och vattnet svalnat och använd sedan modellmanualens procedur för avbrytning, tömning eller normal upplåsning."
+          },
+          {
+            "step": 2,
+            "action": "Kontrollera utan demontering",
+            "detail": "Inspektera endast användaråtkomliga delar och följ manualen för exakt E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Undvik fortsatt användning",
+            "detail": "Kör inte maskinen vid kvarvarande läckage, låst lucka med vatten eller annan säkerhetsrisk."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera symtomet",
+            "detail": "Notera när problemet uppstod och eventuell komplett kod utan att öppna höljet."
+          },
+          {
+            "step": 5,
+            "action": "Boka Bosch-service",
+            "detail": "Boka behörig service om problemet kvarstår efter den säkra grundkontrollen."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Bosch-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

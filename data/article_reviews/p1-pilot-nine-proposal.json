@@ -1,0 +1,1671 @@
+{
+  "batch": "p1-pilot-nine",
+  "classification": "A-after-official-source-review",
+  "error_code_ids": [
+    760,
+    869,
+    881,
+    556,
+    420,
+    523,
+    568,
+    566,
+    567
+  ],
+  "sources": {
+    "washing-machines": "https://www.samsung.com/uk/support/home-appliances/what-do-the-codes-on-my-washing-machine-mean/",
+    "dishwashers": "https://www.samsung.com/uk/support/home-appliances/displayed-information-codes-on-my-dishwasher/",
+    "dryers": "https://www.samsung.com/us/support/troubleshoot/TSG10001006/"
+  },
+  "current_error_codes": [
+    {
+      "id": 420,
+      "code": "5E",
+      "brand_id": 1,
+      "category_id": 3,
+      "short_description": null,
+      "description": null,
+      "severity": "medium",
+      "diy_possible": true,
+      "source": null,
+      "last_verified_at": null,
+      "scrape_status": "pending"
+    },
+    {
+      "id": 523,
+      "code": "LC",
+      "brand_id": 1,
+      "category_id": 3,
+      "short_description": null,
+      "description": null,
+      "severity": "medium",
+      "diy_possible": true,
+      "source": null,
+      "last_verified_at": null,
+      "scrape_status": "pending"
+    },
+    {
+      "id": 556,
+      "code": "4C",
+      "brand_id": 1,
+      "category_id": 3,
+      "short_description": null,
+      "description": null,
+      "severity": "medium",
+      "diy_possible": true,
+      "source": null,
+      "last_verified_at": null,
+      "scrape_status": "pending"
+    },
+    {
+      "id": 566,
+      "code": "TE",
+      "brand_id": 1,
+      "category_id": 2,
+      "short_description": null,
+      "description": null,
+      "severity": "medium",
+      "diy_possible": true,
+      "source": null,
+      "last_verified_at": null,
+      "scrape_status": "pending"
+    },
+    {
+      "id": 567,
+      "code": "HE",
+      "brand_id": 1,
+      "category_id": 2,
+      "short_description": null,
+      "description": null,
+      "severity": "medium",
+      "diy_possible": true,
+      "source": null,
+      "last_verified_at": null,
+      "scrape_status": "pending"
+    },
+    {
+      "id": 568,
+      "code": "DE",
+      "brand_id": 1,
+      "category_id": 2,
+      "short_description": null,
+      "description": null,
+      "severity": "medium",
+      "diy_possible": true,
+      "source": null,
+      "last_verified_at": null,
+      "scrape_status": "pending"
+    },
+    {
+      "id": 760,
+      "code": "HC",
+      "brand_id": 1,
+      "category_id": 1,
+      "short_description": null,
+      "description": null,
+      "severity": "medium",
+      "diy_possible": true,
+      "source": null,
+      "last_verified_at": null,
+      "scrape_status": "pending"
+    },
+    {
+      "id": 869,
+      "code": "9C1",
+      "brand_id": 1,
+      "category_id": 1,
+      "short_description": null,
+      "description": null,
+      "severity": "medium",
+      "diy_possible": true,
+      "source": null,
+      "last_verified_at": null,
+      "scrape_status": "pending"
+    },
+    {
+      "id": 881,
+      "code": "8C",
+      "brand_id": 1,
+      "category_id": 1,
+      "short_description": null,
+      "description": null,
+      "severity": "medium",
+      "diy_possible": true,
+      "source": null,
+      "last_verified_at": null,
+      "scrape_status": "pending"
+    }
+  ],
+  "entries": {
+    "760": {
+      "brand": "samsung",
+      "category": "washing-machines",
+      "code": "HC",
+      "classification": "A",
+      "source": "https://www.samsung.com/uk/support/home-appliances/what-do-the-codes-on-my-washing-machine-mean/",
+      "uncertainties": [
+        "Meaning and user sequence may vary by model; exact model manual controls"
+      ],
+      "en": {
+        "title_tag": "Samsung Washing Machine Error LC: Safe Steps",
+        "meta_description": "Samsung washer showing LC? Read the model-dependent meaning, safe leak and drain-hose checks and when Samsung service is required.",
+        "h1": "What Does HC Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies HC as a heating-temperature condition that requires model-specific checks and service if it persists.",
+        "quick_fix": "Stop the cycle and arrange Samsung service if HC returns; do not test the heater (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies HC as a heating-temperature condition that requires model-specific checks and service if it persists.</p><p>Stop the cycle and arrange Samsung service if HC returns; do not test the heater. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "External installation or operating condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked or restricted user-accessible path",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Model-specific sensor or control condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal fault requiring Samsung service",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Stop the cycle and arrange Samsung service if HC returns; do not test the heater. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Samsung service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-washing-machine-error-code-hc",
+        "translation_status": "published",
+        "source_locale": "en",
+        "translated_by": "ai"
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod LC: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen LC? Läs modellberoende betydelse, säkra läckage- och slangkontroller och när service krävs.",
+        "h1": "Vad betyder HC på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att HC betyder ett temperaturtillstånd i värmesystemet som kräver modellspecifik kontroll och service om det kvarstår.",
+        "quick_fix": "Stoppa programmet och boka Samsung-service om HC återkommer; prova inte värmaren (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att HC betyder ett temperaturtillstånd i värmesystemet som kräver modellspecifik kontroll och service om det kvarstår.</p><p>Stoppa programmet och boka Samsung-service om HC återkommer; prova inte värmaren. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Yttre installations- eller driftstillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad eller hindrad användaråtkomlig väg",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Modellspecifikt givar- eller styrtillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt fel som kräver Samsung-service",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Stoppa programmet och boka Samsung-service om HC återkommer; prova inte värmaren. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-tvattmaskin-felkod-hc",
+        "translation_status": "pending",
+        "source_locale": "en",
+        "translated_by": "ai"
+      }
+    },
+    "869": {
+      "brand": "samsung",
+      "category": "washing-machines",
+      "code": "9C1",
+      "classification": "A",
+      "source": "https://www.samsung.com/uk/support/home-appliances/what-do-the-codes-on-my-washing-machine-mean/",
+      "uncertainties": [
+        "Meaning and user sequence may vary by model; exact model manual controls"
+      ],
+      "en": {
+        "title_tag": "Samsung Washing Machine Error LC: Safe Steps",
+        "meta_description": "Samsung washer showing LC? Read the model-dependent meaning, safe leak and drain-hose checks and when Samsung service is required.",
+        "h1": "What Does 9C1 Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies 9C1 as a low-voltage or power-supply condition.",
+        "quick_fix": "Check the plug and household circuit only from a dry safe position and avoid extension leads (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies 9C1 as a low-voltage or power-supply condition.</p><p>Check the plug and household circuit only from a dry safe position and avoid extension leads. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "External installation or operating condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked or restricted user-accessible path",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Model-specific sensor or control condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal fault requiring Samsung service",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Check the plug and household circuit only from a dry safe position and avoid extension leads. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Samsung service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-washing-machine-error-code-9c1",
+        "translation_status": "published",
+        "source_locale": "en",
+        "translated_by": "ai"
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod LC: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen LC? Läs modellberoende betydelse, säkra läckage- och slangkontroller och när service krävs.",
+        "h1": "Vad betyder 9C1 på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att 9C1 betyder ett lågspännings- eller strömförsörjningstillstånd.",
+        "quick_fix": "Kontrollera kontakt och bostadens elskydd endast från en torr och säker plats och undvik förlängningssladd (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att 9C1 betyder ett lågspännings- eller strömförsörjningstillstånd.</p><p>Kontrollera kontakt och bostadens elskydd endast från en torr och säker plats och undvik förlängningssladd. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Yttre installations- eller driftstillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad eller hindrad användaråtkomlig väg",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Modellspecifikt givar- eller styrtillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt fel som kräver Samsung-service",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Kontrollera kontakt och bostadens elskydd endast från en torr och säker plats och undvik förlängningssladd. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-tvattmaskin-felkod-9c1",
+        "translation_status": "pending",
+        "source_locale": "en",
+        "translated_by": "ai"
+      }
+    },
+    "881": {
+      "brand": "samsung",
+      "category": "washing-machines",
+      "code": "8C",
+      "classification": "A",
+      "source": "https://www.samsung.com/uk/support/home-appliances/what-do-the-codes-on-my-washing-machine-mean/",
+      "uncertainties": [
+        "Meaning and user sequence may vary by model; exact model manual controls"
+      ],
+      "en": {
+        "title_tag": "Samsung Washing Machine Error LC: Safe Steps",
+        "meta_description": "Samsung washer showing LC? Read the model-dependent meaning, safe leak and drain-hose checks and when Samsung service is required.",
+        "h1": "What Does 8C Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies 8C as a MEMS or vibration-sensor condition.",
+        "quick_fix": "Stop the washer, record the full code and restart once only if there is no safety warning (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies 8C as a MEMS or vibration-sensor condition.</p><p>Stop the washer, record the full code and restart once only if there is no safety warning. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "External installation or operating condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked or restricted user-accessible path",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Model-specific sensor or control condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal fault requiring Samsung service",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Stop the washer, record the full code and restart once only if there is no safety warning. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Samsung service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-washing-machine-error-code-8c",
+        "translation_status": "published",
+        "source_locale": "en",
+        "translated_by": "ai"
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod LC: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen LC? Läs modellberoende betydelse, säkra läckage- och slangkontroller och när service krävs.",
+        "h1": "Vad betyder 8C på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att 8C betyder ett tillstånd för MEMS- eller vibrationsgivaren.",
+        "quick_fix": "Stoppa maskinen, notera hela koden och starta om en gång endast om inga varningssignaler finns (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att 8C betyder ett tillstånd för MEMS- eller vibrationsgivaren.</p><p>Stoppa maskinen, notera hela koden och starta om en gång endast om inga varningssignaler finns. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Yttre installations- eller driftstillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad eller hindrad användaråtkomlig väg",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Modellspecifikt givar- eller styrtillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt fel som kräver Samsung-service",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Stoppa maskinen, notera hela koden och starta om en gång endast om inga varningssignaler finns. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-tvattmaskin-felkod-8c",
+        "translation_status": "pending",
+        "source_locale": "en",
+        "translated_by": "ai"
+      }
+    },
+    "556": {
+      "brand": "samsung",
+      "category": "dishwashers",
+      "code": "4C",
+      "classification": "A",
+      "source": "https://www.samsung.com/uk/support/home-appliances/displayed-information-codes-on-my-dishwasher/",
+      "uncertainties": [
+        "Meaning and user sequence may vary by model; exact model manual controls"
+      ],
+      "en": {
+        "title_tag": "Samsung Washing Machine Error LC: Safe Steps",
+        "meta_description": "Samsung washer showing LC? Read the model-dependent meaning, safe leak and drain-hose checks and when Samsung service is required.",
+        "h1": "What Does 4C Mean on a Samsung Dishwasher?",
+        "description": "Samsung identifies 4C as a water-supply condition.",
+        "quick_fix": "Open the water supply, check household flow and straighten the visible inlet hose (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies 4C as a water-supply condition.</p><p>Open the water supply, check household flow and straighten the visible inlet hose. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "External installation or operating condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked or restricted user-accessible path",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Model-specific sensor or control condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal fault requiring Samsung service",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Open the water supply, check household flow and straighten the visible inlet hose. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Samsung service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-dishwasher-error-code-4c",
+        "translation_status": "published",
+        "source_locale": "en",
+        "translated_by": "ai"
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod LC: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen LC? Läs modellberoende betydelse, säkra läckage- och slangkontroller och när service krävs.",
+        "h1": "Vad betyder 4C på en Samsung-diskmaskin?",
+        "description": "Samsung anger att 4C betyder ett tillstånd i vattentillförseln.",
+        "quick_fix": "Öppna vattentillförseln, kontrollera bostadens flöde och räta synlig tilloppsslang (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att 4C betyder ett tillstånd i vattentillförseln.</p><p>Öppna vattentillförseln, kontrollera bostadens flöde och räta synlig tilloppsslang. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Yttre installations- eller driftstillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad eller hindrad användaråtkomlig väg",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Modellspecifikt givar- eller styrtillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt fel som kräver Samsung-service",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Öppna vattentillförseln, kontrollera bostadens flöde och räta synlig tilloppsslang. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-diskmaskin-felkod-4c",
+        "translation_status": "pending",
+        "source_locale": "en",
+        "translated_by": "ai"
+      }
+    },
+    "420": {
+      "brand": "samsung",
+      "category": "dishwashers",
+      "code": "5E",
+      "classification": "A",
+      "source": "https://www.samsung.com/uk/support/home-appliances/displayed-information-codes-on-my-dishwasher/",
+      "uncertainties": [
+        "Meaning and user sequence may vary by model; exact model manual controls"
+      ],
+      "en": {
+        "title_tag": "Samsung Washing Machine Error LC: Safe Steps",
+        "meta_description": "Samsung washer showing LC? Read the model-dependent meaning, safe leak and drain-hose checks and when Samsung service is required.",
+        "h1": "What Does 5E Mean on a Samsung Dishwasher?",
+        "description": "Samsung identifies 5E as a drainage condition, also displayed as 5C on newer models.",
+        "quick_fix": "Switch off, let hot water cool and check the visible drain connection and accessible filter by the model manual (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies 5E as a drainage condition, also displayed as 5C on newer models.</p><p>Switch off, let hot water cool and check the visible drain connection and accessible filter by the model manual. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "External installation or operating condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked or restricted user-accessible path",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Model-specific sensor or control condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal fault requiring Samsung service",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Switch off, let hot water cool and check the visible drain connection and accessible filter by the model manual. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Samsung service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-dishwasher-error-code-5e",
+        "translation_status": "published",
+        "source_locale": "en",
+        "translated_by": "ai"
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod LC: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen LC? Läs modellberoende betydelse, säkra läckage- och slangkontroller och när service krävs.",
+        "h1": "Vad betyder 5E på en Samsung-diskmaskin?",
+        "description": "Samsung anger att 5E betyder ett tömningstillstånd som även visas som 5C på nyare modeller.",
+        "quick_fix": "Stäng av, låt hett vatten svalna och kontrollera synlig avloppsanslutning samt åtkomligt filter enligt modellmanualen (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att 5E betyder ett tömningstillstånd som även visas som 5C på nyare modeller.</p><p>Stäng av, låt hett vatten svalna och kontrollera synlig avloppsanslutning samt åtkomligt filter enligt modellmanualen. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Yttre installations- eller driftstillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad eller hindrad användaråtkomlig väg",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Modellspecifikt givar- eller styrtillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt fel som kräver Samsung-service",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Stäng av, låt hett vatten svalna och kontrollera synlig avloppsanslutning samt åtkomligt filter enligt modellmanualen. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-diskmaskin-felkod-5e",
+        "translation_status": "pending",
+        "source_locale": "en",
+        "translated_by": "ai"
+      }
+    },
+    "523": {
+      "brand": "samsung",
+      "category": "dishwashers",
+      "code": "LC",
+      "classification": "A",
+      "source": "https://www.samsung.com/uk/support/home-appliances/displayed-information-codes-on-my-dishwasher/",
+      "uncertainties": [
+        "Meaning and user sequence may vary by model; exact model manual controls"
+      ],
+      "en": {
+        "title_tag": "Samsung Washing Machine Error LC: Safe Steps",
+        "meta_description": "Samsung washer showing LC? Read the model-dependent meaning, safe leak and drain-hose checks and when Samsung service is required.",
+        "h1": "What Does LC Mean on a Samsung Dishwasher?",
+        "description": "Samsung identifies LC as a leak check has been triggered.",
+        "quick_fix": "Close the water valve, isolate dishwasher power safely and do not run it again until the leak is assessed (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies LC as a leak check has been triggered.</p><p>Close the water valve, isolate dishwasher power safely and do not run it again until the leak is assessed. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "External installation or operating condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked or restricted user-accessible path",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Model-specific sensor or control condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal fault requiring Samsung service",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Close the water valve, isolate dishwasher power safely and do not run it again until the leak is assessed. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Samsung service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-dishwasher-error-code-lc",
+        "translation_status": "published",
+        "source_locale": "en",
+        "translated_by": "ai"
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod LC: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen LC? Läs modellberoende betydelse, säkra läckage- och slangkontroller och när service krävs.",
+        "h1": "Vad betyder LC på en Samsung-diskmaskin?",
+        "description": "Samsung anger att LC betyder en läckagekontroll har aktiverats.",
+        "quick_fix": "Stäng vattenventilen, bryt strömmen till diskmaskinen säkert och kör den inte igen förrän läckaget bedömts (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att LC betyder en läckagekontroll har aktiverats.</p><p>Stäng vattenventilen, bryt strömmen till diskmaskinen säkert och kör den inte igen förrän läckaget bedömts. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Yttre installations- eller driftstillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad eller hindrad användaråtkomlig väg",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Modellspecifikt givar- eller styrtillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt fel som kräver Samsung-service",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Stäng vattenventilen, bryt strömmen till diskmaskinen säkert och kör den inte igen förrän läckaget bedömts. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-diskmaskin-felkod-lc",
+        "translation_status": "pending",
+        "source_locale": "en",
+        "translated_by": "ai"
+      }
+    },
+    "568": {
+      "brand": "samsung",
+      "category": "dryers",
+      "code": "DE",
+      "classification": "A",
+      "source": "https://www.samsung.com/us/support/troubleshoot/TSG10001006/",
+      "uncertainties": [
+        "Meaning and user sequence may vary by model; exact model manual controls"
+      ],
+      "en": {
+        "title_tag": "Samsung Washing Machine Error LC: Safe Steps",
+        "meta_description": "Samsung washer showing LC? Read the model-dependent meaning, safe leak and drain-hose checks and when Samsung service is required.",
+        "h1": "What Does DE Mean on a Samsung Dryer?",
+        "description": "Samsung identifies DE as the dryer detects an open or improperly closed door.",
+        "quick_fix": "Remove trapped laundry and close the door firmly without forcing the latch (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies DE as the dryer detects an open or improperly closed door.</p><p>Remove trapped laundry and close the door firmly without forcing the latch. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "External installation or operating condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked or restricted user-accessible path",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Model-specific sensor or control condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal fault requiring Samsung service",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Remove trapped laundry and close the door firmly without forcing the latch. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Samsung service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-dryer-error-code-de",
+        "translation_status": "published",
+        "source_locale": "en",
+        "translated_by": "ai"
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod LC: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen LC? Läs modellberoende betydelse, säkra läckage- och slangkontroller och när service krävs.",
+        "h1": "Vad betyder DE på en Samsung-torktumlare?",
+        "description": "Samsung anger att DE betyder torktumlaren registrerar en öppen eller felaktigt stängd lucka.",
+        "quick_fix": "Ta bort fastklämd tvätt och stäng luckan ordentligt utan att tvinga låset (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att DE betyder torktumlaren registrerar en öppen eller felaktigt stängd lucka.</p><p>Ta bort fastklämd tvätt och stäng luckan ordentligt utan att tvinga låset. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Yttre installations- eller driftstillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad eller hindrad användaråtkomlig väg",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Modellspecifikt givar- eller styrtillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt fel som kräver Samsung-service",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Ta bort fastklämd tvätt och stäng luckan ordentligt utan att tvinga låset. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-torktumlare-felkod-de",
+        "translation_status": "pending",
+        "source_locale": "en",
+        "translated_by": "ai"
+      }
+    },
+    "566": {
+      "brand": "samsung",
+      "category": "dryers",
+      "code": "TE",
+      "classification": "A",
+      "source": "https://www.samsung.com/us/support/troubleshoot/TSG10001006/",
+      "uncertainties": [
+        "Meaning and user sequence may vary by model; exact model manual controls"
+      ],
+      "en": {
+        "title_tag": "Samsung Washing Machine Error LC: Safe Steps",
+        "meta_description": "Samsung washer showing LC? Read the model-dependent meaning, safe leak and drain-hose checks and when Samsung service is required.",
+        "h1": "What Does TE Mean on a Samsung Dryer?",
+        "description": "Samsung identifies TE as an air-temperature sensor condition.",
+        "quick_fix": "Clean the lint filter and check the user-accessible vent path, then request service if TE returns (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies TE as an air-temperature sensor condition.</p><p>Clean the lint filter and check the user-accessible vent path, then request service if TE returns. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "External installation or operating condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked or restricted user-accessible path",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Model-specific sensor or control condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal fault requiring Samsung service",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Clean the lint filter and check the user-accessible vent path, then request service if TE returns. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Samsung service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-dryer-error-code-te",
+        "translation_status": "published",
+        "source_locale": "en",
+        "translated_by": "ai"
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod LC: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen LC? Läs modellberoende betydelse, säkra läckage- och slangkontroller och när service krävs.",
+        "h1": "Vad betyder TE på en Samsung-torktumlare?",
+        "description": "Samsung anger att TE betyder ett tillstånd för lufttemperaturgivaren.",
+        "quick_fix": "Rengör luddfiltret och kontrollera användaråtkomlig ventilationsväg och boka service om TE återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att TE betyder ett tillstånd för lufttemperaturgivaren.</p><p>Rengör luddfiltret och kontrollera användaråtkomlig ventilationsväg och boka service om TE återkommer. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Yttre installations- eller driftstillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad eller hindrad användaråtkomlig väg",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Modellspecifikt givar- eller styrtillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt fel som kräver Samsung-service",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Rengör luddfiltret och kontrollera användaråtkomlig ventilationsväg och boka service om TE återkommer. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-torktumlare-felkod-te",
+        "translation_status": "pending",
+        "source_locale": "en",
+        "translated_by": "ai"
+      }
+    },
+    "567": {
+      "brand": "samsung",
+      "category": "dryers",
+      "code": "HE",
+      "classification": "A",
+      "source": "https://www.samsung.com/us/support/troubleshoot/TSG10001006/",
+      "uncertainties": [
+        "Meaning and user sequence may vary by model; exact model manual controls"
+      ],
+      "en": {
+        "title_tag": "Samsung Washing Machine Error LC: Safe Steps",
+        "meta_description": "Samsung washer showing LC? Read the model-dependent meaning, safe leak and drain-hose checks and when Samsung service is required.",
+        "h1": "What Does HE Mean on a Samsung Dryer?",
+        "description": "Samsung identifies HE as a high-temperature or heating condition.",
+        "quick_fix": "Stop the dryer, clean the lint filter and visible vent path, and do not continue if it overheats (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies HE as a high-temperature or heating condition.</p><p>Stop the dryer, clean the lint filter and visible vent path, and do not continue if it overheats. Dismantle nothing and make no electrical measurements.</p>",
+        "causes_json": [
+          {
+            "cause": "External installation or operating condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Blocked or restricted user-accessible path",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Model-specific sensor or control condition",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          },
+          {
+            "cause": "Internal fault requiring Samsung service",
+            "detail": "This is a possible cause; use only external checks in the exact E-Nr manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record symptoms and E-Nr",
+            "detail": "Photograph the complete display and note the programme stage and exact appliance E-Nr."
+          },
+          {
+            "step": 3,
+            "action": "Make safe external checks",
+            "detail": "Stop the dryer, clean the lint filter and visible vent path, and do not continue if it overheats. Follow every warning in the E-Nr manual."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat, an electrical fault or severe scraping."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request service if the issue remains or returns; open no panels and test no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if the issue remains after documented external checks or if the pump, valve, door lock, drive, bearing, wiring or electronics are suspected.</p><p>Stop immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat, tripped protection or severe grinding or scraping.</p>",
+        "prevention_html": "<p>Follow installation and load guidance, empty pockets, dose correctly and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Keep the washer level; internal component faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using the washer?",
+            "answer": "Only if it returns to completely normal operation after a safe external correction and no warning symptom is present."
+          },
+          {
+            "question": "Should I open an appliance panel?",
+            "answer": "No. Limit checks to parts the manual explicitly identifies as user-accessible."
+          },
+          {
+            "question": "Should I order a replacement part?",
+            "answer": "Not from the symptom alone. Internal faults require diagnosis for the exact E-Nr."
+          },
+          {
+            "question": "When is Samsung service required?",
+            "answer": "When the issue remains or returns, or when an internal, electrical, leakage or mechanical fault is suspected."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-dryer-error-code-he",
+        "translation_status": "published",
+        "source_locale": "en",
+        "translated_by": "ai"
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod LC: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen LC? Läs modellberoende betydelse, säkra läckage- och slangkontroller och när service krävs.",
+        "h1": "Vad betyder HE på en Samsung-torktumlare?",
+        "description": "Samsung anger att HE betyder ett högtemperatur- eller värmetillstånd.",
+        "quick_fix": "Stoppa torktumlaren, rengör luddfilter och synlig ventilationsväg och fortsätt inte om den överhettas (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att HE betyder ett högtemperatur- eller värmetillstånd.</p><p>Stoppa torktumlaren, rengör luddfilter och synlig ventilationsväg och fortsätt inte om den överhettas. Demontera inget och gör inga elektriska mätningar.</p>",
+        "causes_json": [
+          {
+            "cause": "Yttre installations- eller driftstillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Blockerad eller hindrad användaråtkomlig väg",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Modellspecifikt givar- eller styrtillstånd",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          },
+          {
+            "cause": "Internt fel som kräver Samsung-service",
+            "detail": "Detta är en möjlig orsak; använd endast yttre kontroller i manualen för exakt E‑Nr."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera symptom och E‑Nr",
+            "detail": "Fotografera hela displayen, anteckna programfasen och maskinens exakta E‑Nr."
+          },
+          {
+            "step": 3,
+            "action": "Gör säkra yttre kontroller",
+            "detail": "Stoppa torktumlaren, rengör luddfilter och synlig ventilationsväg och fortsätt inte om den överhettas. Följ varningarna i E‑Nr-manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme, elfel eller kraftigt skrapljud."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka service om problemet kvarstår eller återkommer; öppna inga paneler och prova inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om problemet kvarstår efter dokumenterade yttre kontroller eller om pump, ventil, lucklås, drivning, lager, kablage eller elektronik misstänks.</p><p>Avbryt direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme, utlöst elskydd eller kraftigt malande/skrapande ljud.</p>",
+        "prevention_html": "<p>Följ installations- och lastanvisningar, töm fickor, dosera rätt och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Håll maskinen i nivå; interna komponentfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen?",
+            "answer": "Endast om den återgår till helt normal drift efter en säker yttre korrigering och inga varningssymptom finns."
+          },
+          {
+            "question": "Ska jag öppna en panel?",
+            "answer": "Nej. Begränsa kontrollen till delar som manualen uttryckligen anger som användaråtkomliga."
+          },
+          {
+            "question": "Behöver jag beställa en reservdel?",
+            "answer": "Inte från symptomet ensamt. Interna fel kräver diagnos för exakt E‑Nr."
+          },
+          {
+            "question": "När behövs Samsung-service?",
+            "answer": "När felet kvarstår eller återkommer, eller om ett internt, elektriskt, läckage- eller mekaniskt fel misstänks."
+          }
+        ],
+        "parts_json": [],
+        "symptoms_json": [],
+        "affected_models_json": [],
+        "slug": "samsung-torktumlare-felkod-he",
+        "translation_status": "pending",
+        "source_locale": "en",
+        "translated_by": "ai"
+      }
+    }
+  }
+}

@@ -19,15 +19,14 @@ Usage:
 """
 
 import sys
-import os
 from pathlib import Path
 
-from dotenv import load_dotenv
 import psycopg2
 from loguru import logger
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-load_dotenv(BASE_DIR / ".env")
+from config.environment import load_settings
+from config.paths import BASE_DIR
+from config.target_safety import assert_safe_target
 
 _MISSING_URL_MSG = (
     "SUPABASE_DB_URL not set in .env\n"
@@ -36,12 +35,17 @@ _MISSING_URL_MSG = (
 )
 
 
-def get_connection():
-    url = os.getenv("SUPABASE_DB_URL")
-    if not url:
+def get_connection(*, operation: str = "read"):
+    settings = load_settings()
+    if not settings.supabase_db_url:
         logger.error(_MISSING_URL_MSG)
         sys.exit(1)
-    return psycopg2.connect(url)
+    assert_safe_target(
+        settings.supabase_db_url,
+        app_env=settings.app_env,
+        operation=operation,
+    )
+    return psycopg2.connect(settings.supabase_db_url)
 
 
 def _is_applied(conn, version: str) -> bool:
@@ -83,7 +87,7 @@ def apply(sql_path: Path, skip_if_applied: bool = True) -> bool:
     """
     version = _version_from_path(sql_path)
     sql = sql_path.read_text(encoding="utf-8")
-    conn = get_connection()
+    conn = get_connection(operation="write")
     try:
         if skip_if_applied and _is_applied(conn, version):
             logger.info(f"Skipping {sql_path.name} (already applied)")

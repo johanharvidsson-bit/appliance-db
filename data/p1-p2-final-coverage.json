@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-08-02T14:06:15.338099+00:00",
+  "host": "http://localhost:8080",
+  "p1": {
+    "samsung_error_codes": 150,
+    "with_articles": 83,
+    "missing_articles": 67,
+    "missing_by_category": {
+      "dishwashers": 47,
+      "washing-machines": 14,
+      "dryers": 6
+    }
+  },
+  "p2": {
+    "faults": 20,
+    "fault_articles": 20,
+    "fault_translations": 40,
+    "article_translations": 40,
+    "approved_mappings": 19,
+    "translation_statuses": {
+      "en:published": 20,
+      "sv:pending": 20
+    },
+    "duplicate_slugs": [],
+    "orphan_fault_ids": []
+  }
+}

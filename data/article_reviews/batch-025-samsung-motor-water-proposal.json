@@ -1,0 +1,834 @@
+{
+  "batch": "025-samsung-motor-water",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    30,
+    31,
+    32,
+    33,
+    35
+  ],
+  "sources": [
+    "https://www.samsung.com/uk/support/home-appliances/what-do-the-codes-on-my-washing-machine-mean/",
+    "https://www.samsung.com/uk/support/home-appliances/the-4e-error-is-displayed-on-the-panel-of-my-washing-machine-what-can-i-do/",
+    "https://www.samsung.com/uk/support/home-appliances/how-to-resolve-a-5e-or-5c-error-code-on-a-washing-machine/",
+    "https://www.samsung.com/uk/support/home-appliances/what-to-do-if-your-washing-machine-is-not-spinning/"
+  ],
+  "translations": {
+    "30": {
+      "code": "3E4",
+      "preserve": {
+        "en_slug": "samsung-error-code-3e4",
+        "sv_slug": "samsung-felkod-3e4"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 3E4: Safe Steps",
+        "meta_description": "Samsung washer showing 3E4? Read the verified meaning, safe checks and when authorised service is required.",
+        "h1": "What Does 3E4 Mean on a Samsung Washing Machine?",
+        "description": "Samsung groups 3E4 with motor-operation errors; the exact model manual defines the subcode.",
+        "quick_fix": "Switch off at the mains for one minute once and arrange Samsung service if 3E4 returns (about 5–30 minutes).",
+        "intro_html": "<p>Samsung groups 3E4 with motor-operation errors; the exact model manual defines the subcode.</p><p>Switch off at the mains for one minute once and arrange Samsung service if 3E4 returns. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Motor operation interrupted",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Overload or obstructed drum movement",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific motor or sensor signal",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal motor, wiring or control fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete 3E4 display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make the correct external check",
+            "detail": "Switch off at the mains for one minute once and arrange Samsung service if 3E4 returns."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart only after correcting an external cause and without leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 3E4 returns after safe external checks. Motor, valve, pump, sensor and electronics faults are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, dose correctly and keep external hoses and user-accessible filters clean as the manual specifies.</p><p>Record the complete code and model number; internal motor, pump, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 3E4?",
+            "answer": "Switch off at the mains for one minute once and arrange Samsung service if 3E4 returns. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 3E4 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 3E4 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 3E4: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 3E4? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder 3E4 på en Samsung-tvättmaskin?",
+        "description": "Samsung grupperar 3e4 med fel i motordriften; exakt modellmanual definierar underkoden.",
+        "quick_fix": "Stäng av vid nätet i en minut en gång och boka Samsung-service om 3E4 återkommer (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung grupperar 3e4 med fel i motordriften; exakt modellmanual definierar underkoden.</p><p>Stäng av vid nätet i en minut en gång och boka Samsung-service om 3E4 återkommer. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Motoroperation avbruten",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Överlast eller blockerad trumrörelse",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik motor- eller givarsignal",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt motor-, kablage- eller styrfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela 3E4-visningen och notera modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt yttre kontroll",
+            "detail": "Stäng av vid nätet i en minut en gång och boka Samsung-service om 3E4 återkommer."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta endast om efter korrigerad yttre orsak och utan läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 3E4 återkommer efter säkra yttre kontroller. Motor-, ventil-, pump-, givar- och elektronikfel är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, dosera rätt och håll yttre slangar samt användaråtkomliga filter rena enligt manualen.</p><p>Notera hela koden och modellnumret; interna motor-, pump-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 3E4?",
+            "answer": "Stäng av vid nätet i en minut en gång och boka Samsung-service om 3E4 återkommer. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 3E4 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 3E4 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "31": {
+      "code": "4C",
+      "preserve": {
+        "en_slug": "samsung-error-code-4c",
+        "sv_slug": "samsung-felkod-4c"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 4C: Safe Steps",
+        "meta_description": "Samsung washer showing 4C? Read the verified meaning, safe checks and when authorised service is required.",
+        "h1": "What Does 4C Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies 4C as a water-supply error.",
+        "quick_fix": "Open the water tap fully, check pressure and straighten the external inlet hose; clean the mesh filter only as the manual specifies (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies 4C as a water-supply error.</p><p>Open the water tap fully, check pressure and straighten the external inlet hose; clean the mesh filter only as the manual specifies. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Closed tap or water outage",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Low flow or pressure",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Kinked inlet hose",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Blocked mesh filter or internal inlet fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete 4C display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make the correct external check",
+            "detail": "Open the water tap fully, check pressure and straighten the external inlet hose; clean the mesh filter only as the manual specifies."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart only after correcting an external cause and without leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 4C returns after safe external checks. Motor, valve, pump, sensor and electronics faults are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, dose correctly and keep external hoses and user-accessible filters clean as the manual specifies.</p><p>Record the complete code and model number; internal motor, pump, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 4C?",
+            "answer": "Open the water tap fully, check pressure and straighten the external inlet hose; clean the mesh filter only as the manual specifies. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 4C by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 4C identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 4C: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 4C? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder 4C på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att 4c är ett fel i vattentillförseln.",
+        "quick_fix": "Öppna vattenkranen helt, kontrollera tryck och räta den yttre tilloppsslangen; rengör nätfiltret endast enligt manualen (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att 4c är ett fel i vattentillförseln.</p><p>Öppna vattenkranen helt, kontrollera tryck och räta den yttre tilloppsslangen; rengör nätfiltret endast enligt manualen. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Stängd kran eller vattenavbrott",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Lågt flöde eller tryck",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Vikt tilloppsslang",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Blockerat nätfilter eller internt inloppsfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela 4C-visningen och notera modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt yttre kontroll",
+            "detail": "Öppna vattenkranen helt, kontrollera tryck och räta den yttre tilloppsslangen; rengör nätfiltret endast enligt manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta endast om efter korrigerad yttre orsak och utan läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 4C återkommer efter säkra yttre kontroller. Motor-, ventil-, pump-, givar- och elektronikfel är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, dosera rätt och håll yttre slangar samt användaråtkomliga filter rena enligt manualen.</p><p>Notera hela koden och modellnumret; interna motor-, pump-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 4C?",
+            "answer": "Öppna vattenkranen helt, kontrollera tryck och räta den yttre tilloppsslangen; rengör nätfiltret endast enligt manualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 4C genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 4C vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "32": {
+      "code": "4E",
+      "preserve": {
+        "en_slug": "samsung-error-code-4e",
+        "sv_slug": "samsung-felkod-4e"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 4E: Safe Steps",
+        "meta_description": "Samsung washer showing 4E? Read the verified meaning, safe checks and when authorised service is required.",
+        "h1": "What Does 4E Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies 4E as a water-supply error.",
+        "quick_fix": "Open the water tap fully, check pressure and straighten the external inlet hose; clean the mesh filter only as the manual specifies (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies 4E as a water-supply error.</p><p>Open the water tap fully, check pressure and straighten the external inlet hose; clean the mesh filter only as the manual specifies. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Closed tap or water outage",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Low flow or pressure",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Kinked inlet hose",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Blocked mesh filter or internal inlet fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete 4E display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make the correct external check",
+            "detail": "Open the water tap fully, check pressure and straighten the external inlet hose; clean the mesh filter only as the manual specifies."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart only after correcting an external cause and without leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 4E returns after safe external checks. Motor, valve, pump, sensor and electronics faults are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, dose correctly and keep external hoses and user-accessible filters clean as the manual specifies.</p><p>Record the complete code and model number; internal motor, pump, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 4E?",
+            "answer": "Open the water tap fully, check pressure and straighten the external inlet hose; clean the mesh filter only as the manual specifies. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 4E by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 4E identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 4E: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 4E? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder 4E på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att 4e är ett fel i vattentillförseln.",
+        "quick_fix": "Öppna vattenkranen helt, kontrollera tryck och räta den yttre tilloppsslangen; rengör nätfiltret endast enligt manualen (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att 4e är ett fel i vattentillförseln.</p><p>Öppna vattenkranen helt, kontrollera tryck och räta den yttre tilloppsslangen; rengör nätfiltret endast enligt manualen. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Stängd kran eller vattenavbrott",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Lågt flöde eller tryck",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Vikt tilloppsslang",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Blockerat nätfilter eller internt inloppsfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela 4E-visningen och notera modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt yttre kontroll",
+            "detail": "Öppna vattenkranen helt, kontrollera tryck och räta den yttre tilloppsslangen; rengör nätfiltret endast enligt manualen."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta endast om efter korrigerad yttre orsak och utan läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 4E återkommer efter säkra yttre kontroller. Motor-, ventil-, pump-, givar- och elektronikfel är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, dosera rätt och håll yttre slangar samt användaråtkomliga filter rena enligt manualen.</p><p>Notera hela koden och modellnumret; interna motor-, pump-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 4E?",
+            "answer": "Öppna vattenkranen helt, kontrollera tryck och räta den yttre tilloppsslangen; rengör nätfiltret endast enligt manualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 4E genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 4E vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "33": {
+      "code": "5A",
+      "preserve": {
+        "en_slug": "samsung-error-code-5a",
+        "sv_slug": "samsung-felkod-5a"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 5A: Safe Steps",
+        "meta_description": "Samsung washer showing 5A? Read the verified meaning, safe checks and when authorised service is required.",
+        "h1": "What Does 5A Mean on a Samsung Washing Machine?",
+        "description": "5A is not defined in Samsung's generic public washer code table; confirm the characters and exact model manual before assigning a meaning.",
+        "quick_fix": "Photograph the full display, verify that 5 has not been confused with S and contact Samsung support with the exact model (about 5–30 minutes).",
+        "intro_html": "<p>5A is not defined in Samsung's generic public washer code table; confirm the characters and exact model manual before assigning a meaning.</p><p>Photograph the full display, verify that 5 has not been confused with S and contact Samsung support with the exact model. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Characters misread on the display",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific information code",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Temporary control condition",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal fault requiring model-specific diagnosis",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete 5A display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make the correct external check",
+            "detail": "Photograph the full display, verify that 5 has not been confused with S and contact Samsung support with the exact model."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart only after correcting an external cause and without leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 5A returns after safe external checks. Motor, valve, pump, sensor and electronics faults are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, dose correctly and keep external hoses and user-accessible filters clean as the manual specifies.</p><p>Record the complete code and model number; internal motor, pump, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 5A?",
+            "answer": "Photograph the full display, verify that 5 has not been confused with S and contact Samsung support with the exact model. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 5A by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 5A identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 5A: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 5A? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder 5A på en Samsung-tvättmaskin?",
+        "description": "5a definieras inte i samsungs generella offentliga kodtabell för tvättmaskiner; bekräfta tecknen och exakt modellmanual innan betydelse anges.",
+        "quick_fix": "Fotografera hela displayen, kontrollera att 5 inte har förväxlats med S och kontakta Samsung-support med exakt modell (cirka 5–30 minuter).",
+        "intro_html": "<p>5a definieras inte i samsungs generella offentliga kodtabell för tvättmaskiner; bekräfta tecknen och exakt modellmanual innan betydelse anges.</p><p>Fotografera hela displayen, kontrollera att 5 inte har förväxlats med S och kontakta Samsung-support med exakt modell. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Feltolkade tecken på displayen",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik informationskod",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Tillfälligt styrtillstånd",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt fel som kräver modellspecifik diagnos",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela 5A-visningen och notera modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt yttre kontroll",
+            "detail": "Fotografera hela displayen, kontrollera att 5 inte har förväxlats med S och kontakta Samsung-support med exakt modell."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta endast om efter korrigerad yttre orsak och utan läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 5A återkommer efter säkra yttre kontroller. Motor-, ventil-, pump-, givar- och elektronikfel är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, dosera rätt och håll yttre slangar samt användaråtkomliga filter rena enligt manualen.</p><p>Notera hela koden och modellnumret; interna motor-, pump-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 5A?",
+            "answer": "Fotografera hela displayen, kontrollera att 5 inte har förväxlats med S och kontakta Samsung-support med exakt modell. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 5A genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 5A vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "35": {
+      "code": "5E",
+      "preserve": {
+        "en_slug": "samsung-error-code-5e",
+        "sv_slug": "samsung-felkod-5e"
+      },
+      "en": {
+        "title_tag": "Samsung Washing Machine Error 5E: Safe Steps",
+        "meta_description": "Samsung washer showing 5E? Read the verified meaning, safe checks and when authorised service is required.",
+        "h1": "What Does 5E Mean on a Samsung Washing Machine?",
+        "description": "Samsung identifies 5E as a drainage error.",
+        "quick_fix": "Check the drain hose and clean the user-accessible pump filter exactly as the manual specifies after water has cooled (about 5–30 minutes).",
+        "intro_html": "<p>Samsung identifies 5E as a drainage error.</p><p>Check the drain hose and clean the user-accessible pump filter exactly as the manual specifies after water has cooled. Open no panels, measure no internal parts and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Kinked or incorrectly installed drain hose",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Clogged pump filter",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Blocked household drain",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal pump or drainage fault",
+            "detail": "This is a possible cause; the exact model manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Pause the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record exactly",
+            "detail": "Photograph the complete 5E display and note the model number and programme stage."
+          },
+          {
+            "step": 3,
+            "action": "Make the correct external check",
+            "detail": "Check the drain hose and clean the user-accessible pump filter exactly as the manual specifies after water has cooled."
+          },
+          {
+            "step": 4,
+            "action": "Test once",
+            "detail": "Restart only after correcting an external cause and without leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Samsung service",
+            "detail": "Request authorised service if the code returns. Dismantle nothing and make no electrical measurements."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Samsung service if 5E returns after safe external checks. Motor, valve, pump, sensor and electronics faults are not user repairs.</p><p>Unplug immediately for leakage near electricity, burning smell, smoke, sparks, abnormal heat or tripped protection.</p>",
+        "prevention_html": "<p>Follow load limits, empty pockets, dose correctly and keep external hoses and user-accessible filters clean as the manual specifies.</p><p>Record the complete code and model number; internal motor, pump, valve and electronics faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing 5E?",
+            "answer": "Check the drain hose and clean the user-accessible pump filter exactly as the manual specifies after water has cooled. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset 5E by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does 5E identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Samsung-tvättmaskin felkod 5E: säkra steg",
+        "meta_description": "Visar Samsung-tvättmaskinen 5E? Läs verifierad betydelse, säkra kontroller och när auktoriserad service krävs.",
+        "h1": "Vad betyder 5E på en Samsung-tvättmaskin?",
+        "description": "Samsung anger att 5e är ett tömningsfel.",
+        "quick_fix": "Kontrollera avloppsslangen och rengör det användaråtkomliga pumpfiltret exakt enligt manualen efter att vattnet svalnat (cirka 5–30 minuter).",
+        "intro_html": "<p>Samsung anger att 5e är ett tömningsfel.</p><p>Kontrollera avloppsslangen och rengör det användaråtkomliga pumpfiltret exakt enligt manualen efter att vattnet svalnat. Öppna inga paneler, mät inga interna delar och beställ inte en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Vikt eller felmonterad avloppsslang",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Blockerat pumpfilter",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Blockerat fastighetsavlopp",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt pump- eller tömningsfel",
+            "detail": "Detta är en möjlig orsak; exakt modellmanual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Pausa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera exakt",
+            "detail": "Fotografera hela 5E-visningen och notera modellnummer och programfas."
+          },
+          {
+            "step": 3,
+            "action": "Gör rätt yttre kontroll",
+            "detail": "Kontrollera avloppsslangen och rengör det användaråtkomliga pumpfiltret exakt enligt manualen efter att vattnet svalnat."
+          },
+          {
+            "step": 4,
+            "action": "Testa en gång",
+            "detail": "Starta endast om efter korrigerad yttre orsak och utan läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Samsung-service",
+            "detail": "Boka auktoriserad service om koden återkommer. Demontera inget och gör inga elektriska mätningar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Samsung-service om 5E återkommer efter säkra yttre kontroller. Motor-, ventil-, pump-, givar- och elektronikfel är inte användarreparationer.</p><p>Koppla ur direkt vid läckage nära el, bränd lukt, rök, gnistor, onormal värme eller utlöst elskydd.</p>",
+        "prevention_html": "<p>Följ lastgränser, töm fickor, dosera rätt och håll yttre slangar samt användaråtkomliga filter rena enligt manualen.</p><p>Notera hela koden och modellnumret; interna motor-, pump-, ventil- och elektronikfel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med 5E?",
+            "answer": "Kontrollera avloppsslangen och rengör det användaråtkomliga pumpfiltret exakt enligt manualen efter att vattnet svalnat. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa 5E genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar 5E vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

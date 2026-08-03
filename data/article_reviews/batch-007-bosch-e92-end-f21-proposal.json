@@ -1,0 +1,885 @@
+{
+  "batch": "007-bosch-e92-end-f21",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    198,
+    199,
+    200,
+    201,
+    203
+  ],
+  "sources": [
+    "https://www.bosch-home.com/us/owner-support/error-codes/washers",
+    "https://www.bosch-home.com/us/owner-support/get-support/support-selfhelp-washing-error-e16-or-f16-washing-machine",
+    "https://www.bosch-home.com/us/owner-support/get-support/support-selfhelp-washing-error-e17-or-f17-washing-machine",
+    "https://media3.bosch-home.com/Documents/9001027431_B.pdf",
+    "https://media3.bosch-home.com/Documents/9000963105_D.pdf"
+  ],
+  "translations": {
+    "198": {
+      "code": "E92",
+      "preserve": {
+        "en_slug": "error-code-e92",
+        "sv_slug": "felkod-e92"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine E92: Meaning and Safe Steps",
+        "meta_description": "Bosch washer showing E92? Check Bosch's verified meaning, safe user checks and when to stop and contact service.",
+        "h1": "What Does E92 Mean on a Bosch Washing Machine?",
+        "description": "The complete Bosch code E:92/-01 means low water pressure or blocked water-inlet filters.",
+        "quick_fix": "Record the complete code, check that the tap is fully open and inspect only the inlet hose and user-cleanable inlet filters described in the model manual (about 5–15 minutes).",
+        "intro_html": "<p>The complete Bosch code E:92/-01 means low water pressure or blocked water-inlet filters. This guidance is based on Bosch support or an official model manual.</p><p>Record the complete code, check that the tap is fully open and inspect only the inlet hose and user-cleanable inlet filters described in the model manual. Do not remove panels, bypass safety devices or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Bosch's verified code meaning",
+            "detail": "The complete Bosch code E:92/-01 means low water pressure or blocked water-inlet filters."
+          },
+          {
+            "cause": "The exact model design",
+            "detail": "Permitted checks and component locations differ. The E-Nr identifies the correct manual."
+          },
+          {
+            "cause": "A persistent condition",
+            "detail": "If the code returns after documented user checks, it needs diagnosis rather than repeated resets."
+          },
+          {
+            "cause": "An internal condition requiring service",
+            "detail": "The code alone does not confirm a replacement part. Internal electrical, lock, valve or motor work belongs with a technician."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Record the complete display",
+            "detail": "Photograph E92, including punctuation and any suffix, and note the E-Nr from the rating plate."
+          },
+          {
+            "step": 2,
+            "action": "Stop safely",
+            "detail": "Wait for the drum to stop. Do not force a locked door or handle water that may still be hot."
+          },
+          {
+            "step": 3,
+            "action": "Follow Bosch's instruction",
+            "detail": "Record the complete code, check that the tap is fully open and inspect only the inlet hose and user-cleanable inlet filters described in the model manual."
+          },
+          {
+            "step": 4,
+            "action": "Use the exact model manual",
+            "detail": "Perform only the external checks and maintenance Bosch specifies for the exact E-Nr."
+          },
+          {
+            "step": 5,
+            "action": "Make at most one documented restart",
+            "detail": "Restart only if the manual permits it. Do not repeatedly reset a persistent fault."
+          },
+          {
+            "step": 6,
+            "action": "Arrange service when required",
+            "detail": "Contact Bosch if the code remains, the manual directs you to service or the washer cannot be used safely."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if the code returns after the explicitly permitted user checks. F21 is a motor fault that Bosch directs to after-sales service.</p><p>Stop immediately for a burning smell, smoke, leakage, abnormal heat or a tripped supply. Do not remove panels or test internal parts.</p>",
+        "prevention_html": "<p>Follow the installation, load and maintenance instructions for the exact E-Nr. Keep the door opening clear, prevent hose kinks and clean only user-accessible filters described in the manual.</p><p>Record a recurring code and request diagnosis instead of repeatedly resetting the washer.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E92?",
+            "answer": "Record the complete code, check that the tap is fully open and inspect only the inlet hose and user-cleanable inlet filters described in the model manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E92 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E92 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin E92: betydelse och säkra steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E92? Läs Boschs verifierade betydelse, säkra kontroller och när du ska avbryta och kontakta service.",
+        "h1": "Vad betyder E92 på en Bosch-tvättmaskin?",
+        "description": "Den fullständiga bosch-koden e:92/-01 betyder lågt vattentryck eller blockerade filter i vatteninloppet.",
+        "quick_fix": "Dokumentera hela koden, kontrollera att kranen är helt öppen och kontrollera endast inloppsslang och användarrengörbara inloppsfilter enligt modellmanualen (cirka 5–15 minuter).",
+        "intro_html": "<p>Den fullständiga bosch-koden e:92/-01 betyder lågt vattentryck eller blockerade filter i vatteninloppet. Rådet bygger på Boschs egen support eller modellmanual.</p><p>Dokumentera hela koden, kontrollera att kranen är helt öppen och kontrollera endast inloppsslang och användarrengörbara inloppsfilter enligt modellmanualen. Ta inte bort paneler, förbikoppla säkerhetssystem eller beställ en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Boschs verifierade kodbetydelse",
+            "detail": "Den fullständiga bosch-koden e:92/-01 betyder lågt vattentryck eller blockerade filter i vatteninloppet."
+          },
+          {
+            "cause": "Modellens exakta utförande",
+            "detail": "Tillåtna kontroller och komponenternas placering kan skilja sig. E‑Nr identifierar rätt manual."
+          },
+          {
+            "cause": "Ett kvarstående tillstånd",
+            "detail": "Om koden återkommer efter dokumenterade användarkontroller krävs vidare diagnos, inte upprepade återställningar."
+          },
+          {
+            "cause": "Internt fel som kräver service",
+            "detail": "Koden ensam bekräftar inte vilken del som ska bytas. Intern el-, lås-, ventil- eller motorservice ska utföras av tekniker."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Dokumentera hela displayen",
+            "detail": "Fotografera E92, inklusive skiljetecken och eventuellt suffix, och notera E‑Nr från typskylten."
+          },
+          {
+            "step": 2,
+            "action": "Stoppa säkert",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp en låst lucka och hantera inte vatten som fortfarande är varmt."
+          },
+          {
+            "step": 3,
+            "action": "Följ Bosch-rådet",
+            "detail": "Dokumentera hela koden, kontrollera att kranen är helt öppen och kontrollera endast inloppsslang och användarrengörbara inloppsfilter enligt modellmanualen."
+          },
+          {
+            "step": 4,
+            "action": "Använd rätt modellmanual",
+            "detail": "Följ endast de yttre kontroller och det underhåll som Bosch anger för exakt E‑Nr."
+          },
+          {
+            "step": 5,
+            "action": "Gör högst en dokumenterad omstart",
+            "detail": "Starta om endast om manualen medger det. Återställ inte upprepade gånger ett kvarstående fel."
+          },
+          {
+            "step": 6,
+            "action": "Boka service vid behov",
+            "detail": "Kontakta Bosch om koden kvarstår, om manualen hänvisar till service eller om maskinen inte kan användas säkert."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om koden återkommer efter de uttryckligen tillåtna användarkontrollerna. F21 är ett motorfel som Bosch hänvisar till service.</p><p>Avbryt direkt vid bränd lukt, rök, läckage, onormal värme eller utlöst säkring. Ta inte bort paneler eller testa interna delar.</p>",
+        "prevention_html": "<p>Följ installations-, last- och underhållsanvisningarna för exakt E‑Nr. Håll lucköppningen fri, undvik vikt slang och rengör bara användaråtkomliga filter enligt manualen.</p><p>Dokumentera en återkommande kod och boka diagnos i stället för att återställa maskinen upprepade gånger.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E92?",
+            "answer": "Dokumentera hela koden, kontrollera att kranen är helt öppen och kontrollera endast inloppsslang och användarrengörbara inloppsfilter enligt modellmanualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E92 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E92 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "199": {
+      "code": "END",
+      "preserve": {
+        "en_slug": "error-code-end",
+        "sv_slug": "felkod-end"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine END: Meaning and Safe Steps",
+        "meta_description": "Bosch washer showing END? Check Bosch's verified meaning, safe user checks and when to stop and contact service.",
+        "h1": "What Does END Mean on a Bosch Washing Machine?",
+        "description": "END normally indicates that the washing programme has finished; it is not an error code.",
+        "quick_fix": "Wait for the door to unlock, remove the laundry and switch the appliance off as described in the manual (about 5–15 minutes).",
+        "intro_html": "<p>END normally indicates that the washing programme has finished; it is not an error code. This guidance is based on Bosch support or an official model manual.</p><p>Wait for the door to unlock, remove the laundry and switch the appliance off as described in the manual. Do not remove panels, bypass safety devices or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Normal programme completion",
+            "detail": "END is shown when the selected programme has completed."
+          },
+          {
+            "cause": "Delayed door release",
+            "detail": "The door may stay locked until the drum has stopped and temperature and water level are safe."
+          },
+          {
+            "cause": "Energy-saving mode",
+            "detail": "The display may turn off after programme end and can be reactivated as described in the manual."
+          },
+          {
+            "cause": "A separate symptom",
+            "detail": "If laundry is wet, water remains or the door will not open, troubleshoot that symptom using the exact model manual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Record the complete display",
+            "detail": "Photograph END, including punctuation and any suffix, and note the E-Nr from the rating plate."
+          },
+          {
+            "step": 2,
+            "action": "Stop safely",
+            "detail": "Wait for the drum to stop. Do not force a locked door or handle water that may still be hot."
+          },
+          {
+            "step": 3,
+            "action": "Follow Bosch's instruction",
+            "detail": "Wait for the door to unlock, remove the laundry and switch the appliance off as described in the manual."
+          },
+          {
+            "step": 4,
+            "action": "Use the exact model manual",
+            "detail": "Perform only the external checks and maintenance Bosch specifies for the exact E-Nr."
+          },
+          {
+            "step": 5,
+            "action": "Make at most one documented restart",
+            "detail": "Restart only if the manual permits it. Do not repeatedly reset a persistent fault."
+          },
+          {
+            "step": 6,
+            "action": "Arrange service when required",
+            "detail": "Contact Bosch if the code remains, the manual directs you to service or the washer cannot be used safely."
+          }
+        ],
+        "when_to_call_technician_html": "<p>END normally needs no service. Arrange service if the door stays locked, water remains, the programme has not completed or another fault appears after following the model manual.</p><p>Stop immediately for a burning smell, smoke, leakage, abnormal heat or a tripped supply. Do not remove panels or test internal parts.</p>",
+        "prevention_html": "<p>Follow the installation, load and maintenance instructions for the exact E-Nr. Keep the door opening clear, prevent hose kinks and clean only user-accessible filters described in the manual.</p><p>Record a recurring code and request diagnosis instead of repeatedly resetting the washer.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing END?",
+            "answer": "Wait for the door to unlock, remove the laundry and switch the appliance off as described in the manual. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset END by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does END identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin END: betydelse och säkra steg",
+        "meta_description": "Visar Bosch-tvättmaskinen END? Läs Boschs verifierade betydelse, säkra kontroller och när du ska avbryta och kontakta service.",
+        "h1": "Vad betyder END på en Bosch-tvättmaskin?",
+        "description": "End betyder normalt att tvättprogrammet är klart och är inte en felkod.",
+        "quick_fix": "Vänta tills luckan låses upp, ta ut tvätten och stäng av maskinen enligt manualen (cirka 5–15 minuter).",
+        "intro_html": "<p>End betyder normalt att tvättprogrammet är klart och är inte en felkod. Rådet bygger på Boschs egen support eller modellmanual.</p><p>Vänta tills luckan låses upp, ta ut tvätten och stäng av maskinen enligt manualen. Ta inte bort paneler, förbikoppla säkerhetssystem eller beställ en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Normalt programslut",
+            "detail": "END visas när det valda programmet har slutförts."
+          },
+          {
+            "cause": "Luckan låses upp med fördröjning",
+            "detail": "Luckan kan förbli låst tills trumman står stilla och temperatur och vattennivå är säkra."
+          },
+          {
+            "cause": "Energisparläge",
+            "detail": "Displayen kan slockna efter programslut och aktiveras igen med en knapp enligt manualen."
+          },
+          {
+            "cause": "Separat symptom",
+            "detail": "Om tvätten är våt, vatten står kvar eller luckan inte öppnas ska det symptomet felsökas enligt exakt modellmanual."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Dokumentera hela displayen",
+            "detail": "Fotografera END, inklusive skiljetecken och eventuellt suffix, och notera E‑Nr från typskylten."
+          },
+          {
+            "step": 2,
+            "action": "Stoppa säkert",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp en låst lucka och hantera inte vatten som fortfarande är varmt."
+          },
+          {
+            "step": 3,
+            "action": "Följ Bosch-rådet",
+            "detail": "Vänta tills luckan låses upp, ta ut tvätten och stäng av maskinen enligt manualen."
+          },
+          {
+            "step": 4,
+            "action": "Använd rätt modellmanual",
+            "detail": "Följ endast de yttre kontroller och det underhåll som Bosch anger för exakt E‑Nr."
+          },
+          {
+            "step": 5,
+            "action": "Gör högst en dokumenterad omstart",
+            "detail": "Starta om endast om manualen medger det. Återställ inte upprepade gånger ett kvarstående fel."
+          },
+          {
+            "step": 6,
+            "action": "Boka service vid behov",
+            "detail": "Kontakta Bosch om koden kvarstår, om manualen hänvisar till service eller om maskinen inte kan användas säkert."
+          }
+        ],
+        "when_to_call_technician_html": "<p>END kräver normalt ingen service. Boka service om luckan förblir låst, vatten står kvar, programmet inte har slutförts eller ett annat fel visas efter att modellmanualens användarsteg följts.</p><p>Avbryt direkt vid bränd lukt, rök, läckage, onormal värme eller utlöst säkring. Ta inte bort paneler eller testa interna delar.</p>",
+        "prevention_html": "<p>Följ installations-, last- och underhållsanvisningarna för exakt E‑Nr. Håll lucköppningen fri, undvik vikt slang och rengör bara användaråtkomliga filter enligt manualen.</p><p>Dokumentera en återkommande kod och boka diagnos i stället för att återställa maskinen upprepade gånger.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med END?",
+            "answer": "Vänta tills luckan låses upp, ta ut tvätten och stäng av maskinen enligt manualen. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa END genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar END vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "200": {
+      "code": "F16",
+      "preserve": {
+        "en_slug": "error-code-f16",
+        "sv_slug": "felkod-f16"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine F16: Meaning and Safe Steps",
+        "meta_description": "Bosch washer showing F16? Check Bosch's verified meaning, safe user checks and when to stop and contact service.",
+        "h1": "What Does F16 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies F16 as the door being open or not locked properly.",
+        "quick_fix": "Remove laundry trapped between the door and housing, reduce an overfull load and close the door until it clicks (about 5–15 minutes).",
+        "intro_html": "<p>Bosch identifies F16 as the door being open or not locked properly. This guidance is based on Bosch support or an official model manual.</p><p>Remove laundry trapped between the door and housing, reduce an overfull load and close the door until it clicks. Do not remove panels, bypass safety devices or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Bosch's verified code meaning",
+            "detail": "Bosch identifies F16 as the door being open or not locked properly."
+          },
+          {
+            "cause": "The exact model design",
+            "detail": "Permitted checks and component locations differ. The E-Nr identifies the correct manual."
+          },
+          {
+            "cause": "A persistent condition",
+            "detail": "If the code returns after documented user checks, it needs diagnosis rather than repeated resets."
+          },
+          {
+            "cause": "An internal condition requiring service",
+            "detail": "The code alone does not confirm a replacement part. Internal electrical, lock, valve or motor work belongs with a technician."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Record the complete display",
+            "detail": "Photograph F16, including punctuation and any suffix, and note the E-Nr from the rating plate."
+          },
+          {
+            "step": 2,
+            "action": "Stop safely",
+            "detail": "Wait for the drum to stop. Do not force a locked door or handle water that may still be hot."
+          },
+          {
+            "step": 3,
+            "action": "Follow Bosch's instruction",
+            "detail": "Remove laundry trapped between the door and housing, reduce an overfull load and close the door until it clicks."
+          },
+          {
+            "step": 4,
+            "action": "Use the exact model manual",
+            "detail": "Perform only the external checks and maintenance Bosch specifies for the exact E-Nr."
+          },
+          {
+            "step": 5,
+            "action": "Make at most one documented restart",
+            "detail": "Restart only if the manual permits it. Do not repeatedly reset a persistent fault."
+          },
+          {
+            "step": 6,
+            "action": "Arrange service when required",
+            "detail": "Contact Bosch if the code remains, the manual directs you to service or the washer cannot be used safely."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if the code returns after the explicitly permitted user checks. F21 is a motor fault that Bosch directs to after-sales service.</p><p>Stop immediately for a burning smell, smoke, leakage, abnormal heat or a tripped supply. Do not remove panels or test internal parts.</p>",
+        "prevention_html": "<p>Follow the installation, load and maintenance instructions for the exact E-Nr. Keep the door opening clear, prevent hose kinks and clean only user-accessible filters described in the manual.</p><p>Record a recurring code and request diagnosis instead of repeatedly resetting the washer.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing F16?",
+            "answer": "Remove laundry trapped between the door and housing, reduce an overfull load and close the door until it clicks. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset F16 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does F16 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin F16: betydelse och säkra steg",
+        "meta_description": "Visar Bosch-tvättmaskinen F16? Läs Boschs verifierade betydelse, säkra kontroller och när du ska avbryta och kontakta service.",
+        "h1": "Vad betyder F16 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att f16 betyder att luckan är öppen eller inte korrekt låst.",
+        "quick_fix": "Ta bort tvätt som fastnat mellan luckan och höljet, minska en överfull last och stäng luckan tills den klickar (cirka 5–15 minuter).",
+        "intro_html": "<p>Bosch anger att f16 betyder att luckan är öppen eller inte korrekt låst. Rådet bygger på Boschs egen support eller modellmanual.</p><p>Ta bort tvätt som fastnat mellan luckan och höljet, minska en överfull last och stäng luckan tills den klickar. Ta inte bort paneler, förbikoppla säkerhetssystem eller beställ en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Boschs verifierade kodbetydelse",
+            "detail": "Bosch anger att f16 betyder att luckan är öppen eller inte korrekt låst."
+          },
+          {
+            "cause": "Modellens exakta utförande",
+            "detail": "Tillåtna kontroller och komponenternas placering kan skilja sig. E‑Nr identifierar rätt manual."
+          },
+          {
+            "cause": "Ett kvarstående tillstånd",
+            "detail": "Om koden återkommer efter dokumenterade användarkontroller krävs vidare diagnos, inte upprepade återställningar."
+          },
+          {
+            "cause": "Internt fel som kräver service",
+            "detail": "Koden ensam bekräftar inte vilken del som ska bytas. Intern el-, lås-, ventil- eller motorservice ska utföras av tekniker."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Dokumentera hela displayen",
+            "detail": "Fotografera F16, inklusive skiljetecken och eventuellt suffix, och notera E‑Nr från typskylten."
+          },
+          {
+            "step": 2,
+            "action": "Stoppa säkert",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp en låst lucka och hantera inte vatten som fortfarande är varmt."
+          },
+          {
+            "step": 3,
+            "action": "Följ Bosch-rådet",
+            "detail": "Ta bort tvätt som fastnat mellan luckan och höljet, minska en överfull last och stäng luckan tills den klickar."
+          },
+          {
+            "step": 4,
+            "action": "Använd rätt modellmanual",
+            "detail": "Följ endast de yttre kontroller och det underhåll som Bosch anger för exakt E‑Nr."
+          },
+          {
+            "step": 5,
+            "action": "Gör högst en dokumenterad omstart",
+            "detail": "Starta om endast om manualen medger det. Återställ inte upprepade gånger ett kvarstående fel."
+          },
+          {
+            "step": 6,
+            "action": "Boka service vid behov",
+            "detail": "Kontakta Bosch om koden kvarstår, om manualen hänvisar till service eller om maskinen inte kan användas säkert."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om koden återkommer efter de uttryckligen tillåtna användarkontrollerna. F21 är ett motorfel som Bosch hänvisar till service.</p><p>Avbryt direkt vid bränd lukt, rök, läckage, onormal värme eller utlöst säkring. Ta inte bort paneler eller testa interna delar.</p>",
+        "prevention_html": "<p>Följ installations-, last- och underhållsanvisningarna för exakt E‑Nr. Håll lucköppningen fri, undvik vikt slang och rengör bara användaråtkomliga filter enligt manualen.</p><p>Dokumentera en återkommande kod och boka diagnos i stället för att återställa maskinen upprepade gånger.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med F16?",
+            "answer": "Ta bort tvätt som fastnat mellan luckan och höljet, minska en överfull last och stäng luckan tills den klickar. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa F16 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar F16 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "201": {
+      "code": "F17",
+      "preserve": {
+        "en_slug": "error-code-f17",
+        "sv_slug": "felkod-f17"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine F17: Meaning and Safe Steps",
+        "meta_description": "Bosch washer showing F17? Check Bosch's verified meaning, safe user checks and when to stop and contact service.",
+        "h1": "What Does F17 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies F17 as the permitted water-supply time being exceeded.",
+        "quick_fix": "Make sure the water tap is fully open and the supply hose is not kinked; follow the exact manual for cleaning user-accessible inlet filters (about 5–15 minutes).",
+        "intro_html": "<p>Bosch identifies F17 as the permitted water-supply time being exceeded. This guidance is based on Bosch support or an official model manual.</p><p>Make sure the water tap is fully open and the supply hose is not kinked; follow the exact manual for cleaning user-accessible inlet filters. Do not remove panels, bypass safety devices or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Bosch's verified code meaning",
+            "detail": "Bosch identifies F17 as the permitted water-supply time being exceeded."
+          },
+          {
+            "cause": "The exact model design",
+            "detail": "Permitted checks and component locations differ. The E-Nr identifies the correct manual."
+          },
+          {
+            "cause": "A persistent condition",
+            "detail": "If the code returns after documented user checks, it needs diagnosis rather than repeated resets."
+          },
+          {
+            "cause": "An internal condition requiring service",
+            "detail": "The code alone does not confirm a replacement part. Internal electrical, lock, valve or motor work belongs with a technician."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Record the complete display",
+            "detail": "Photograph F17, including punctuation and any suffix, and note the E-Nr from the rating plate."
+          },
+          {
+            "step": 2,
+            "action": "Stop safely",
+            "detail": "Wait for the drum to stop. Do not force a locked door or handle water that may still be hot."
+          },
+          {
+            "step": 3,
+            "action": "Follow Bosch's instruction",
+            "detail": "Make sure the water tap is fully open and the supply hose is not kinked; follow the exact manual for cleaning user-accessible inlet filters."
+          },
+          {
+            "step": 4,
+            "action": "Use the exact model manual",
+            "detail": "Perform only the external checks and maintenance Bosch specifies for the exact E-Nr."
+          },
+          {
+            "step": 5,
+            "action": "Make at most one documented restart",
+            "detail": "Restart only if the manual permits it. Do not repeatedly reset a persistent fault."
+          },
+          {
+            "step": 6,
+            "action": "Arrange service when required",
+            "detail": "Contact Bosch if the code remains, the manual directs you to service or the washer cannot be used safely."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if the code returns after the explicitly permitted user checks. F21 is a motor fault that Bosch directs to after-sales service.</p><p>Stop immediately for a burning smell, smoke, leakage, abnormal heat or a tripped supply. Do not remove panels or test internal parts.</p>",
+        "prevention_html": "<p>Follow the installation, load and maintenance instructions for the exact E-Nr. Keep the door opening clear, prevent hose kinks and clean only user-accessible filters described in the manual.</p><p>Record a recurring code and request diagnosis instead of repeatedly resetting the washer.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing F17?",
+            "answer": "Make sure the water tap is fully open and the supply hose is not kinked; follow the exact manual for cleaning user-accessible inlet filters. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset F17 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does F17 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin F17: betydelse och säkra steg",
+        "meta_description": "Visar Bosch-tvättmaskinen F17? Läs Boschs verifierade betydelse, säkra kontroller och när du ska avbryta och kontakta service.",
+        "h1": "Vad betyder F17 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att f17 betyder att den tillåtna tiden för vattenintag har överskridits.",
+        "quick_fix": "Kontrollera att vattenkranen är helt öppen och att tilloppsslangen inte är vikt; följ rätt manual för rengöring av användaråtkomliga inloppsfilter (cirka 5–15 minuter).",
+        "intro_html": "<p>Bosch anger att f17 betyder att den tillåtna tiden för vattenintag har överskridits. Rådet bygger på Boschs egen support eller modellmanual.</p><p>Kontrollera att vattenkranen är helt öppen och att tilloppsslangen inte är vikt; följ rätt manual för rengöring av användaråtkomliga inloppsfilter. Ta inte bort paneler, förbikoppla säkerhetssystem eller beställ en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Boschs verifierade kodbetydelse",
+            "detail": "Bosch anger att f17 betyder att den tillåtna tiden för vattenintag har överskridits."
+          },
+          {
+            "cause": "Modellens exakta utförande",
+            "detail": "Tillåtna kontroller och komponenternas placering kan skilja sig. E‑Nr identifierar rätt manual."
+          },
+          {
+            "cause": "Ett kvarstående tillstånd",
+            "detail": "Om koden återkommer efter dokumenterade användarkontroller krävs vidare diagnos, inte upprepade återställningar."
+          },
+          {
+            "cause": "Internt fel som kräver service",
+            "detail": "Koden ensam bekräftar inte vilken del som ska bytas. Intern el-, lås-, ventil- eller motorservice ska utföras av tekniker."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Dokumentera hela displayen",
+            "detail": "Fotografera F17, inklusive skiljetecken och eventuellt suffix, och notera E‑Nr från typskylten."
+          },
+          {
+            "step": 2,
+            "action": "Stoppa säkert",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp en låst lucka och hantera inte vatten som fortfarande är varmt."
+          },
+          {
+            "step": 3,
+            "action": "Följ Bosch-rådet",
+            "detail": "Kontrollera att vattenkranen är helt öppen och att tilloppsslangen inte är vikt; följ rätt manual för rengöring av användaråtkomliga inloppsfilter."
+          },
+          {
+            "step": 4,
+            "action": "Använd rätt modellmanual",
+            "detail": "Följ endast de yttre kontroller och det underhåll som Bosch anger för exakt E‑Nr."
+          },
+          {
+            "step": 5,
+            "action": "Gör högst en dokumenterad omstart",
+            "detail": "Starta om endast om manualen medger det. Återställ inte upprepade gånger ett kvarstående fel."
+          },
+          {
+            "step": 6,
+            "action": "Boka service vid behov",
+            "detail": "Kontakta Bosch om koden kvarstår, om manualen hänvisar till service eller om maskinen inte kan användas säkert."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om koden återkommer efter de uttryckligen tillåtna användarkontrollerna. F21 är ett motorfel som Bosch hänvisar till service.</p><p>Avbryt direkt vid bränd lukt, rök, läckage, onormal värme eller utlöst säkring. Ta inte bort paneler eller testa interna delar.</p>",
+        "prevention_html": "<p>Följ installations-, last- och underhållsanvisningarna för exakt E‑Nr. Håll lucköppningen fri, undvik vikt slang och rengör bara användaråtkomliga filter enligt manualen.</p><p>Dokumentera en återkommande kod och boka diagnos i stället för att återställa maskinen upprepade gånger.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med F17?",
+            "answer": "Kontrollera att vattenkranen är helt öppen och att tilloppsslangen inte är vikt; följ rätt manual för rengöring av användaråtkomliga inloppsfilter. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa F17 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar F17 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "203": {
+      "code": "F21",
+      "preserve": {
+        "en_slug": "error-code-f21",
+        "sv_slug": "felkod-f21"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine F21: Meaning and Safe Steps",
+        "meta_description": "Bosch washer showing F21? Check Bosch's verified meaning, safe user checks and when to stop and contact service.",
+        "h1": "What Does F21 Mean on a Bosch Washing Machine?",
+        "description": "An official Bosch washer manual identifies F21 as a motor fault.",
+        "quick_fix": "Switch off, unplug and arrange Bosch service; do not attempt a motor repair yourself (about 5 minutes).",
+        "intro_html": "<p>An official Bosch washer manual identifies F21 as a motor fault. This guidance is based on Bosch support or an official model manual.</p><p>Stop using the washer, switch it off and unplug it; Bosch instructs the user to contact after-sales service. Do not remove panels, bypass safety devices or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Bosch's verified code meaning",
+            "detail": "An official Bosch washer manual identifies F21 as a motor fault."
+          },
+          {
+            "cause": "The exact model design",
+            "detail": "Permitted checks and component locations differ. The E-Nr identifies the correct manual."
+          },
+          {
+            "cause": "A persistent condition",
+            "detail": "If the code returns after documented user checks, it needs diagnosis rather than repeated resets."
+          },
+          {
+            "cause": "An internal condition requiring service",
+            "detail": "The code alone does not confirm a replacement part. Internal electrical, lock, valve or motor work belongs with a technician."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Record the complete display",
+            "detail": "Photograph F21, including punctuation and any suffix, and note the E-Nr from the rating plate."
+          },
+          {
+            "step": 2,
+            "action": "Stop safely",
+            "detail": "Wait for the drum to stop. Do not force a locked door or handle water that may still be hot."
+          },
+          {
+            "step": 3,
+            "action": "Follow Bosch's instruction",
+            "detail": "Stop using the washer, switch it off and unplug it; Bosch instructs the user to contact after-sales service."
+          },
+          {
+            "step": 4,
+            "action": "Use the exact model manual",
+            "detail": "Perform only the external checks and maintenance Bosch specifies for the exact E-Nr."
+          },
+          {
+            "step": 5,
+            "action": "Make at most one documented restart",
+            "detail": "Restart only if the manual permits it. Do not repeatedly reset a persistent fault."
+          },
+          {
+            "step": 6,
+            "action": "Arrange service when required",
+            "detail": "Contact Bosch if the code remains, the manual directs you to service or the washer cannot be used safely."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Bosch service if the code returns after the explicitly permitted user checks. F21 is a motor fault that Bosch directs to after-sales service.</p><p>Stop immediately for a burning smell, smoke, leakage, abnormal heat or a tripped supply. Do not remove panels or test internal parts.</p>",
+        "prevention_html": "<p>Follow the installation, load and maintenance instructions for the exact E-Nr. Keep the door opening clear, prevent hose kinks and clean only user-accessible filters described in the manual.</p><p>Record a recurring code and request diagnosis instead of repeatedly resetting the washer.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing F21?",
+            "answer": "Stop using the washer, switch it off and unplug it; Bosch instructs the user to contact after-sales service. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset F21 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does F21 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin F21: betydelse och säkra steg",
+        "meta_description": "Visar Bosch-tvättmaskinen F21? Läs Boschs verifierade betydelse, säkra kontroller och när du ska avbryta och kontakta service.",
+        "h1": "Vad betyder F21 på en Bosch-tvättmaskin?",
+        "description": "En officiell bosch-manual anger att f21 är ett motorfel.",
+        "quick_fix": "Stäng av, dra ur kontakten och boka Bosch-service; försök inte reparera motorn själv (cirka 5 minuter).",
+        "intro_html": "<p>En officiell bosch-manual anger att f21 är ett motorfel. Rådet bygger på Boschs egen support eller modellmanual.</p><p>Sluta använda maskinen, stäng av och dra ur kontakten; Bosch hänvisar användaren till service. Ta inte bort paneler, förbikoppla säkerhetssystem eller beställ en reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Boschs verifierade kodbetydelse",
+            "detail": "En officiell bosch-manual anger att f21 är ett motorfel."
+          },
+          {
+            "cause": "Modellens exakta utförande",
+            "detail": "Tillåtna kontroller och komponenternas placering kan skilja sig. E‑Nr identifierar rätt manual."
+          },
+          {
+            "cause": "Ett kvarstående tillstånd",
+            "detail": "Om koden återkommer efter dokumenterade användarkontroller krävs vidare diagnos, inte upprepade återställningar."
+          },
+          {
+            "cause": "Internt fel som kräver service",
+            "detail": "Koden ensam bekräftar inte vilken del som ska bytas. Intern el-, lås-, ventil- eller motorservice ska utföras av tekniker."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Dokumentera hela displayen",
+            "detail": "Fotografera F21, inklusive skiljetecken och eventuellt suffix, och notera E‑Nr från typskylten."
+          },
+          {
+            "step": 2,
+            "action": "Stoppa säkert",
+            "detail": "Vänta tills trumman står stilla. Tvinga inte upp en låst lucka och hantera inte vatten som fortfarande är varmt."
+          },
+          {
+            "step": 3,
+            "action": "Följ Bosch-rådet",
+            "detail": "Sluta använda maskinen, stäng av och dra ur kontakten; Bosch hänvisar användaren till service."
+          },
+          {
+            "step": 4,
+            "action": "Använd rätt modellmanual",
+            "detail": "Följ endast de yttre kontroller och det underhåll som Bosch anger för exakt E‑Nr."
+          },
+          {
+            "step": 5,
+            "action": "Gör högst en dokumenterad omstart",
+            "detail": "Starta om endast om manualen medger det. Återställ inte upprepade gånger ett kvarstående fel."
+          },
+          {
+            "step": 6,
+            "action": "Boka service vid behov",
+            "detail": "Kontakta Bosch om koden kvarstår, om manualen hänvisar till service eller om maskinen inte kan användas säkert."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Bosch-service om koden återkommer efter de uttryckligen tillåtna användarkontrollerna. F21 är ett motorfel som Bosch hänvisar till service.</p><p>Avbryt direkt vid bränd lukt, rök, läckage, onormal värme eller utlöst säkring. Ta inte bort paneler eller testa interna delar.</p>",
+        "prevention_html": "<p>Följ installations-, last- och underhållsanvisningarna för exakt E‑Nr. Håll lucköppningen fri, undvik vikt slang och rengör bara användaråtkomliga filter enligt manualen.</p><p>Dokumentera en återkommande kod och boka diagnos i stället för att återställa maskinen upprepade gånger.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med F21?",
+            "answer": "Sluta använda maskinen, stäng av och dra ur kontakten; Bosch hänvisar användaren till service. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa F21 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar F21 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

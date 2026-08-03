@@ -1,0 +1,833 @@
+{
+  "batch": "031-siemens-e16-e23",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    208,
+    210,
+    211,
+    212,
+    214
+  ],
+  "sources": [
+    "https://www.siemens-home.bsh-group.com/ae/customer-service/support/troubleshooting/washing-machines/error-codes-symbols",
+    "https://www.siemens-home.bsh-group.com/ae/customer-service/support/troubleshooting/washing-machines/error-codes-e18-f18",
+    "https://www.siemens-home.bsh-group.com/uk/customer-service/support/washing-machine"
+  ],
+  "translations": {
+    "208": {
+      "code": "E16",
+      "preserve": {
+        "en_slug": "error-code-e16",
+        "sv_slug": "felkod-e16"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Error E16: Safe Steps",
+        "meta_description": "Siemens washer showing E16? Read the verified meaning, safe external checks and when Siemens service is required.",
+        "h1": "What Does E16 Mean on a Siemens Washing Machine?",
+        "description": "Siemens identifies E16 or F16 as a door that is not locked properly; laundry may be trapped.",
+        "quick_fix": "Remove trapped laundry and close the door firmly without forcing it; reduce the load if needed (about 5–30 minutes).",
+        "intro_html": "<p>Siemens identifies E16 or F16 as a door that is not locked properly; laundry may be trapped.</p><p>Remove trapped laundry and close the door firmly without forcing it; reduce the load if needed. Open no panels, make no electrical measurements and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Door not fully closed",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Laundry trapped at the door",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Load prevents locking",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Door-lock or control fault",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E16 display and note the E-Nr, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Remove trapped laundry and close the door firmly without forcing it; reduce the load if needed. Follow the exact E-Nr manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the code remains or returns. Dismantle nothing and measure no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if E16 remains after safe checks. For E23, close the tap immediately and do not use the washer.</p><p>Door locks, heaters, sensors, pumps, valves, wiring and electronics are not user repairs.</p>",
+        "prevention_html": "<p>Follow installation, load and detergent instructions and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Siemens washer showing E16?",
+            "answer": "Remove trapped laundry and close the door firmly without forcing it; reduce the load if needed. Do not run another cycle until Siemens guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E16 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Siemens classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E16 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Siemens service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Siemens model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Siemens directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskin felkod E16: säkra steg",
+        "meta_description": "Visar Siemens-tvättmaskinen E16? Läs verifierad betydelse, säkra yttre kontroller och när Siemens-service krävs.",
+        "h1": "Vad betyder E16 på en Siemens-tvättmaskin?",
+        "description": "Siemens anger att E16 eller F16 betyder att luckan inte är ordentligt låst; tvätt kan ha fastnat.",
+        "quick_fix": "Ta bort tvätt som fastnat och stäng luckan ordentligt utan att tvinga den; minska lasten vid behov (cirka 5–30 minuter).",
+        "intro_html": "<p>Siemens anger att E16 eller F16 betyder att luckan inte är ordentligt låst; tvätt kan ha fastnat.</p><p>Ta bort tvätt som fastnat och stäng luckan ordentligt utan att tvinga den; minska lasten vid behov. Öppna inga paneler, gör inga elektriska mätningar och beställ inte reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Luckan är inte helt stängd",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Tvätt har fastnat vid luckan",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Lasten hindrar låsning",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i lucklås eller styrning",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E16-visningen och anteckna E‑Nr, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Ta bort tvätt som fastnat och stäng luckan ordentligt utan att tvinga den; minska lasten vid behov. Följ manualen för exakt E‑Nr vid tömning eller filterrengöring."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Demontera inget och mät inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om E16 kvarstår efter säkra kontroller. Vid E23 ska kranen stängas omedelbart och maskinen inte användas.</p><p>Lucklås, värmare, sensorer, pumpar, ventiler, kablage och elektronik är inte användarreparationer.</p>",
+        "prevention_html": "<p>Följ installations-, last- och doseringsanvisningar och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E16?",
+            "answer": "Ta bort tvätt som fastnat och stäng luckan ordentligt utan att tvinga den; minska lasten vid behov. Kör inte ett nytt program innan Siemens eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E16 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E16 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Siemens service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Siemens E‑Nr?",
+            "answer": "Siemens-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Siemens hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "210": {
+      "code": "E18",
+      "preserve": {
+        "en_slug": "error-code-e18",
+        "sv_slug": "felkod-e18"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Error E18: Safe Steps",
+        "meta_description": "Siemens washer showing E18? Read the verified meaning, safe external checks and when Siemens service is required.",
+        "h1": "What Does E18 Mean on a Siemens Washing Machine?",
+        "description": "Siemens identifies E18 or F18 as a blocked filter or a blocked or kinked drain hose.",
+        "quick_fix": "Close the water tap, switch off and unplug, let hot water cool, then check the hose and clean the user-accessible filter exactly as the manual specifies (about 5–30 minutes).",
+        "intro_html": "<p>Siemens identifies E18 or F18 as a blocked filter or a blocked or kinked drain hose.</p><p>Close the water tap, switch off and unplug, let hot water cool, then check the hose and clean the user-accessible filter exactly as the manual specifies. Open no panels, make no electrical measurements and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Kinked or blocked drain hose",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Blocked user-accessible filter",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Blocked household waste connection",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal pump or control fault",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E18 display and note the E-Nr, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Close the water tap, switch off and unplug, let hot water cool, then check the hose and clean the user-accessible filter exactly as the manual specifies. Follow the exact E-Nr manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the code remains or returns. Dismantle nothing and measure no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if E18 remains after safe checks. For E23, close the tap immediately and do not use the washer.</p><p>Door locks, heaters, sensors, pumps, valves, wiring and electronics are not user repairs.</p>",
+        "prevention_html": "<p>Follow installation, load and detergent instructions and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Siemens washer showing E18?",
+            "answer": "Close the water tap, switch off and unplug, let hot water cool, then check the hose and clean the user-accessible filter exactly as the manual specifies. Do not run another cycle until Siemens guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E18 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Siemens classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E18 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Siemens service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Siemens model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Siemens directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskin felkod E18: säkra steg",
+        "meta_description": "Visar Siemens-tvättmaskinen E18? Läs verifierad betydelse, säkra yttre kontroller och när Siemens-service krävs.",
+        "h1": "Vad betyder E18 på en Siemens-tvättmaskin?",
+        "description": "Siemens anger att E18 eller F18 betyder blockerat filter eller blockerad eller vikt avloppsslang.",
+        "quick_fix": "Stäng vattenkranen, stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan slangen och rengör det användaråtkomliga filtret exakt enligt manualen (cirka 5–30 minuter).",
+        "intro_html": "<p>Siemens anger att E18 eller F18 betyder blockerat filter eller blockerad eller vikt avloppsslang.</p><p>Stäng vattenkranen, stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan slangen och rengör det användaråtkomliga filtret exakt enligt manualen. Öppna inga paneler, gör inga elektriska mätningar och beställ inte reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Vikt eller blockerad avloppsslang",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Blockerat användaråtkomligt filter",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Blockerad avloppsanslutning i bostaden",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt pump- eller styrfel",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E18-visningen och anteckna E‑Nr, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Stäng vattenkranen, stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan slangen och rengör det användaråtkomliga filtret exakt enligt manualen. Följ manualen för exakt E‑Nr vid tömning eller filterrengöring."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Demontera inget och mät inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om E18 kvarstår efter säkra kontroller. Vid E23 ska kranen stängas omedelbart och maskinen inte användas.</p><p>Lucklås, värmare, sensorer, pumpar, ventiler, kablage och elektronik är inte användarreparationer.</p>",
+        "prevention_html": "<p>Följ installations-, last- och doseringsanvisningar och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E18?",
+            "answer": "Stäng vattenkranen, stäng av och dra ur kontakten, låt hett vatten svalna och kontrollera sedan slangen och rengör det användaråtkomliga filtret exakt enligt manualen. Kör inte ett nytt program innan Siemens eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E18 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E18 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Siemens service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Siemens E‑Nr?",
+            "answer": "Siemens-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Siemens hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "211": {
+      "code": "E20",
+      "preserve": {
+        "en_slug": "error-code-e20",
+        "sv_slug": "felkod-e20"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Error E20: Safe Steps",
+        "meta_description": "Siemens washer showing E20? Read the verified meaning, safe external checks and when Siemens service is required.",
+        "h1": "What Does E20 Mean on a Siemens Washing Machine?",
+        "description": "Siemens identifies E20 or F20 as unexpected heating.",
+        "quick_fix": "Switch the washer off once and arrange Siemens service if E20 remains or returns; do not test the heater or sensor (about 5–30 minutes).",
+        "intro_html": "<p>Siemens identifies E20 or F20 as unexpected heating.</p><p>Switch the washer off once and arrange Siemens service if E20 remains or returns; do not test the heater or sensor. Open no panels, make no electrical measurements and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Unexpected heating condition",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Temperature signal outside expected range",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal heater or sensor fault",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Wiring or control-electronics fault",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E20 display and note the E-Nr, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Switch the washer off once and arrange Siemens service if E20 remains or returns; do not test the heater or sensor. Follow the exact E-Nr manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the code remains or returns. Dismantle nothing and measure no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if E20 remains after safe checks. For E23, close the tap immediately and do not use the washer.</p><p>Door locks, heaters, sensors, pumps, valves, wiring and electronics are not user repairs.</p>",
+        "prevention_html": "<p>Follow installation, load and detergent instructions and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Siemens washer showing E20?",
+            "answer": "Switch the washer off once and arrange Siemens service if E20 remains or returns; do not test the heater or sensor. Do not run another cycle until Siemens guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E20 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Siemens classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E20 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Siemens service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Siemens model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Siemens directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskin felkod E20: säkra steg",
+        "meta_description": "Visar Siemens-tvättmaskinen E20? Läs verifierad betydelse, säkra yttre kontroller och när Siemens-service krävs.",
+        "h1": "Vad betyder E20 på en Siemens-tvättmaskin?",
+        "description": "Siemens anger att E20 eller F20 betyder oväntad uppvärmning.",
+        "quick_fix": "Stäng av tvättmaskinen en gång och boka Siemens-service om E20 kvarstår eller återkommer; testa inte värmare eller sensor (cirka 5–30 minuter).",
+        "intro_html": "<p>Siemens anger att E20 eller F20 betyder oväntad uppvärmning.</p><p>Stäng av tvättmaskinen en gång och boka Siemens-service om E20 kvarstår eller återkommer; testa inte värmare eller sensor. Öppna inga paneler, gör inga elektriska mätningar och beställ inte reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Oväntat uppvärmningstillstånd",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Temperatursignal utanför förväntat område",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt värmar- eller sensorfel",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Fel i kablage eller styrelektronik",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E20-visningen och anteckna E‑Nr, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Stäng av tvättmaskinen en gång och boka Siemens-service om E20 kvarstår eller återkommer; testa inte värmare eller sensor. Följ manualen för exakt E‑Nr vid tömning eller filterrengöring."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Demontera inget och mät inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om E20 kvarstår efter säkra kontroller. Vid E23 ska kranen stängas omedelbart och maskinen inte användas.</p><p>Lucklås, värmare, sensorer, pumpar, ventiler, kablage och elektronik är inte användarreparationer.</p>",
+        "prevention_html": "<p>Följ installations-, last- och doseringsanvisningar och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E20?",
+            "answer": "Stäng av tvättmaskinen en gång och boka Siemens-service om E20 kvarstår eller återkommer; testa inte värmare eller sensor. Kör inte ett nytt program innan Siemens eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E20 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E20 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Siemens service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Siemens E‑Nr?",
+            "answer": "Siemens-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Siemens hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "212": {
+      "code": "E21",
+      "preserve": {
+        "en_slug": "error-code-e21",
+        "sv_slug": "felkod-e21"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Error E21: Safe Steps",
+        "meta_description": "Siemens washer showing E21? Read the verified meaning, safe external checks and when Siemens service is required.",
+        "h1": "What Does E21 Mean on a Siemens Washing Machine?",
+        "description": "E21 is not defined in Siemens' generic public washer error table; confirm the complete code and exact E-Nr manual before assigning a meaning.",
+        "quick_fix": "Photograph the complete display and contact Siemens with the exact E-Nr; do not dismantle or measure internal parts (about 5–30 minutes).",
+        "intro_html": "<p>E21 is not defined in Siemens' generic public washer error table; confirm the complete code and exact E-Nr manual before assigning a meaning.</p><p>Photograph the complete display and contact Siemens with the exact E-Nr; do not dismantle or measure internal parts. Open no panels, make no electrical measurements and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "Incomplete or misread display",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Model-specific information code",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "A neighbouring character is not visible",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal condition requiring Siemens diagnosis",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E21 display and note the E-Nr, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Photograph the complete display and contact Siemens with the exact E-Nr; do not dismantle or measure internal parts. Follow the exact E-Nr manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the code remains or returns. Dismantle nothing and measure no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if E21 remains after safe checks. For E23, close the tap immediately and do not use the washer.</p><p>Door locks, heaters, sensors, pumps, valves, wiring and electronics are not user repairs.</p>",
+        "prevention_html": "<p>Follow installation, load and detergent instructions and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Siemens washer showing E21?",
+            "answer": "Photograph the complete display and contact Siemens with the exact E-Nr; do not dismantle or measure internal parts. Do not run another cycle until Siemens guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E21 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Siemens classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E21 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Siemens service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Siemens model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Siemens directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskin felkod E21: säkra steg",
+        "meta_description": "Visar Siemens-tvättmaskinen E21? Läs verifierad betydelse, säkra yttre kontroller och när Siemens-service krävs.",
+        "h1": "Vad betyder E21 på en Siemens-tvättmaskin?",
+        "description": "E21 definieras inte i Siemens generella offentliga felkodstabell för tvättmaskiner; bekräfta hela koden och manualen för exakt E‑Nr innan betydelse anges.",
+        "quick_fix": "Fotografera hela displayen och kontakta Siemens med exakt E‑Nr; demontera eller mät inga interna delar (cirka 5–30 minuter).",
+        "intro_html": "<p>E21 definieras inte i Siemens generella offentliga felkodstabell för tvättmaskiner; bekräfta hela koden och manualen för exakt E‑Nr innan betydelse anges.</p><p>Fotografera hela displayen och kontakta Siemens med exakt E‑Nr; demontera eller mät inga interna delar. Öppna inga paneler, gör inga elektriska mätningar och beställ inte reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Ofullständig eller feltolkad display",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Modellspecifik informationskod",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Ett intilliggande tecken syns inte",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt tillstånd som kräver Siemens-diagnos",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E21-visningen och anteckna E‑Nr, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Fotografera hela displayen och kontakta Siemens med exakt E‑Nr; demontera eller mät inga interna delar. Följ manualen för exakt E‑Nr vid tömning eller filterrengöring."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Demontera inget och mät inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om E21 kvarstår efter säkra kontroller. Vid E23 ska kranen stängas omedelbart och maskinen inte användas.</p><p>Lucklås, värmare, sensorer, pumpar, ventiler, kablage och elektronik är inte användarreparationer.</p>",
+        "prevention_html": "<p>Följ installations-, last- och doseringsanvisningar och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E21?",
+            "answer": "Fotografera hela displayen och kontakta Siemens med exakt E‑Nr; demontera eller mät inga interna delar. Kör inte ett nytt program innan Siemens eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E21 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E21 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Siemens service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Siemens E‑Nr?",
+            "answer": "Siemens-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Siemens hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "214": {
+      "code": "E23",
+      "preserve": {
+        "en_slug": "error-code-e23",
+        "sv_slug": "felkod-e23"
+      },
+      "en": {
+        "title_tag": "Siemens Washing Machine Error E23: Safe Steps",
+        "meta_description": "Siemens washer showing E23? Read the verified meaning, safe external checks and when Siemens service is required.",
+        "h1": "What Does E23 Mean on a Siemens Washing Machine?",
+        "description": "Siemens identifies E23 as leakage or water in the washer base.",
+        "quick_fix": "Close the water tap immediately, stop using the washer and isolate power only from a safe, dry location (about 5–30 minutes).",
+        "intro_html": "<p>Siemens identifies E23 as leakage or water in the washer base.</p><p>Close the water tap immediately, stop using the washer and isolate power only from a safe, dry location. Open no panels, make no electrical measurements and do not order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "External hose or connection leak",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Door seal or detergent-related leakage",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Drainage or overflow condition",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          },
+          {
+            "cause": "Internal hose, valve, tub or pump fault",
+            "detail": "This is a possible cause; the exact E-Nr manual and professional diagnosis determine internal faults."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop safely",
+            "detail": "Stop the programme, wait for the drum to stop and do not force the door."
+          },
+          {
+            "step": 2,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E23 display and note the E-Nr, programme stage and visible symptoms."
+          },
+          {
+            "step": 3,
+            "action": "Make only the correct external check",
+            "detail": "Close the water tap immediately, stop using the washer and isolate power only from a safe, dry location. Follow the exact E-Nr manual when draining water or cleaning a filter."
+          },
+          {
+            "step": 4,
+            "action": "Test no more than once",
+            "detail": "Test only after correcting an external cause, and never with leakage, burning smell, smoke, abnormal heat or electrical damage."
+          },
+          {
+            "step": 5,
+            "action": "Arrange Siemens service",
+            "detail": "Request service if the code remains or returns. Dismantle nothing and measure no internal parts."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Arrange Siemens service if E23 remains after safe checks. For E23, close the tap immediately and do not use the washer.</p><p>Door locks, heaters, sensors, pumps, valves, wiring and electronics are not user repairs.</p>",
+        "prevention_html": "<p>Follow installation, load and detergent instructions and keep visible hoses and user-accessible filters clean as the manual specifies.</p><p>Internal mechanical and electrical faults cannot be prevented through dismantling.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Siemens washer showing E23?",
+            "answer": "Close the water tap immediately, stop using the washer and isolate power only from a safe, dry location. Do not run another cycle until Siemens guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E23 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Siemens classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E23 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Siemens service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Siemens model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Siemens directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Siemens-tvättmaskin felkod E23: säkra steg",
+        "meta_description": "Visar Siemens-tvättmaskinen E23? Läs verifierad betydelse, säkra yttre kontroller och när Siemens-service krävs.",
+        "h1": "Vad betyder E23 på en Siemens-tvättmaskin?",
+        "description": "Siemens anger att E23 betyder läckage eller vatten i tvättmaskinens botten.",
+        "quick_fix": "Stäng vattenkranen omedelbart, sluta använda maskinen och bryt strömmen endast från en säker och torr plats (cirka 5–30 minuter).",
+        "intro_html": "<p>Siemens anger att E23 betyder läckage eller vatten i tvättmaskinens botten.</p><p>Stäng vattenkranen omedelbart, sluta använda maskinen och bryt strömmen endast från en säker och torr plats. Öppna inga paneler, gör inga elektriska mätningar och beställ inte reservdel från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Läckage från yttre slang eller anslutning",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Lucktätning eller tvättmedelsrelaterat läckage",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Tömnings- eller överfyllnadstillstånd",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          },
+          {
+            "cause": "Internt fel i slang, ventil, behållare eller pump",
+            "detail": "Detta är en möjlig orsak; exakt E‑Nr-manual och professionell diagnos avgör interna fel."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa säkert",
+            "detail": "Stoppa programmet, vänta tills trumman står stilla och tvinga inte luckan."
+          },
+          {
+            "step": 2,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E23-visningen och anteckna E‑Nr, programfas och synliga symptom."
+          },
+          {
+            "step": 3,
+            "action": "Gör endast rätt yttre kontroll",
+            "detail": "Stäng vattenkranen omedelbart, sluta använda maskinen och bryt strömmen endast från en säker och torr plats. Följ manualen för exakt E‑Nr vid tömning eller filterrengöring."
+          },
+          {
+            "step": 4,
+            "action": "Testa högst en gång",
+            "detail": "Testa endast efter korrigerad yttre orsak och aldrig vid läckage, bränd lukt, rök, onormal värme eller elskada."
+          },
+          {
+            "step": 5,
+            "action": "Boka Siemens-service",
+            "detail": "Boka service om koden kvarstår eller återkommer. Demontera inget och mät inga interna delar."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Boka Siemens-service om E23 kvarstår efter säkra kontroller. Vid E23 ska kranen stängas omedelbart och maskinen inte användas.</p><p>Lucklås, värmare, sensorer, pumpar, ventiler, kablage och elektronik är inte användarreparationer.</p>",
+        "prevention_html": "<p>Följ installations-, last- och doseringsanvisningar och håll synliga slangar och användaråtkomliga filter rena enligt manualen.</p><p>Interna mekaniska och elektriska fel kan inte förebyggas genom demontering.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E23?",
+            "answer": "Stäng vattenkranen omedelbart, sluta använda maskinen och bryt strömmen endast från en säker och torr plats. Kör inte ett nytt program innan Siemens eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E23 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E23 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Siemens service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Siemens E‑Nr?",
+            "answer": "Siemens-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Siemens hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

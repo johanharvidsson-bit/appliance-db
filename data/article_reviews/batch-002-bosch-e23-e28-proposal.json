@@ -1,0 +1,885 @@
+{
+  "batch": "002-bosch-e23-e28",
+  "status": "proposal_only_not_applied",
+  "article_ids": [
+    171,
+    172,
+    173,
+    174,
+    175
+  ],
+  "sources": [
+    "https://www.bosch-home.com/us/owner-support/get-support/support-selfhelp-washing-error-e23-or-f23-washing-machine",
+    "https://www.bosch-home.com/us/owner-support/get-support/support-selfhelp-washing-error-e25-or-f25-washing-machine",
+    "https://www.bosch-home.com/us/owner-support/get-support/support-selfhelp-washing-error-e26-or-f26-washing-machine",
+    "https://www.bosch-home.com/us/owner-support/get-support/error-code-f27-washing-machine",
+    "https://www.bosch-home.com/us/owner-support/get-support/support-selfhelp-washing-error-e28-or-f28-washing-machine"
+  ],
+  "translations": {
+    "171": {
+      "code": "E23",
+      "preserve": {
+        "en_slug": "error-code-e23",
+        "sv_slug": "felkod-e23"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E23: Safe Next Steps",
+        "meta_description": "Bosch washer showing E23? Learn the verified code meaning, the safe action to take now, what not to inspect yourself and when to arrange Bosch service.",
+        "h1": "What Does E23 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies E23 as an indication that AquaStop has activated and there may be water leakage.",
+        "quick_fix": "Turn off the water tap immediately and do not use the washer until Bosch service has checked it (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>Bosch identifies E23 as an indication that AquaStop has activated and there may be water leakage. This is a protection or sensor-related code, not a prompt to test internal parts.</p><p>Turn off the water tap immediately and do not use the washer until Bosch service has checked it. Record the full display and the washer's E-Nr for support. Do not remove panels, test wiring or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "The condition Bosch identifies",
+            "detail": "For Bosch washing machines, E23 indicates that AquaStop has activated and there may be water leakage. The code identifies a system requiring attention but is not a complete parts diagnosis."
+          },
+          {
+            "cause": "A model-specific sensor or protection event",
+            "detail": "The exact component arrangement and service procedure depend on the E-Nr and market. Use the manual and service information for the exact washer."
+          },
+          {
+            "cause": "A persistent rather than temporary condition",
+            "detail": "If the code remains after the appliance is safely stopped, it needs professional assessment. Repeated resetting can hide the symptom without correcting the cause."
+          },
+          {
+            "cause": "An internal fault requiring service",
+            "detail": "Wiring, sensors, valves, electronics and water-protection components are inside the appliance. Bosch directs the user to customer service rather than internal testing."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Turn off the water tap immediately and do not use the washer until Bosch service has checked it. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E23 display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Turn off the water tap immediately and do not use the washer until Bosch service has checked it. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from E23 alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E23?",
+            "answer": "Turn off the water tap immediately and do not use the washer until Bosch service has checked it. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E23 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E23 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin felkod E23: säkra nästa steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E23? Läs kodens verifierade betydelse, säker första åtgärd, vad du inte ska kontrollera själv och när service behövs.",
+        "h1": "Vad betyder E23 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att E23 betyder att AquaStop har aktiverats och det kan finnas ett vattenläckage.",
+        "quick_fix": "Stäng vattenkranen omedelbart och använd inte maskinen innan Bosch service har kontrollerat den (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>Bosch anger att E23 betyder att AquaStop har aktiverats och det kan finnas ett vattenläckage. Det är en skydds- eller sensorrelaterad kod, inte en uppmaning att testa interna delar.</p><p>Stäng vattenkranen omedelbart och använd inte maskinen innan Bosch service har kontrollerat den. Anteckna hela displayen och maskinens E‑Nr. Ta inte bort paneler, mät inte kablage och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Det tillstånd Bosch anger",
+            "detail": "På Bosch-tvättmaskiner anger E23 att AquaStop har aktiverats och det kan finnas ett vattenläckage. Koden visar vilket system som behöver uppmärksamhet men är inte en fullständig reservdelsdiagnos."
+          },
+          {
+            "cause": "En modellberoende sensor- eller skyddshändelse",
+            "detail": "Komponentuppbyggnad och serviceförfarande beror på E‑Nr och marknad. Använd manual och serviceinformation för exakt maskin."
+          },
+          {
+            "cause": "Ett kvarstående tillstånd",
+            "detail": "Om koden finns kvar när maskinen har stoppats säkert behövs professionell bedömning. Upprepade återställningar åtgärdar inte orsaken."
+          },
+          {
+            "cause": "Ett internt fel som kräver service",
+            "detail": "Kablage, sensorer, ventiler, elektronik och vattenskydd sitter inne i maskinen. Bosch hänvisar användaren till service i stället för interna tester."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Stäng vattenkranen omedelbart och använd inte maskinen innan Bosch service har kontrollerat den. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E23-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Stäng vattenkranen omedelbart och använd inte maskinen innan Bosch service har kontrollerat den. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från E23.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E23?",
+            "answer": "Stäng vattenkranen omedelbart och använd inte maskinen innan Bosch service har kontrollerat den. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E23 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E23 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "172": {
+      "code": "E25",
+      "preserve": {
+        "en_slug": "error-code-e25",
+        "sv_slug": "felkod-e25"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E25: Safe Next Steps",
+        "meta_description": "Bosch washer showing E25? Learn the verified code meaning, the safe action to take now, what not to inspect yourself and when to arrange Bosch service.",
+        "h1": "What Does E25 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies E25 as an indication that there is an issue with the turbidity sensor.",
+        "quick_fix": "Stop using the washer and contact Bosch service for sensor diagnosis (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>Bosch identifies E25 as an indication that there is an issue with the turbidity sensor. This is a protection or sensor-related code, not a prompt to test internal parts.</p><p>Stop using the washer and contact Bosch service for sensor diagnosis. Record the full display and the washer's E-Nr for support. Do not remove panels, test wiring or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "The condition Bosch identifies",
+            "detail": "For Bosch washing machines, E25 indicates that there is an issue with the turbidity sensor. The code identifies a system requiring attention but is not a complete parts diagnosis."
+          },
+          {
+            "cause": "A model-specific sensor or protection event",
+            "detail": "The exact component arrangement and service procedure depend on the E-Nr and market. Use the manual and service information for the exact washer."
+          },
+          {
+            "cause": "A persistent rather than temporary condition",
+            "detail": "If the code remains after the appliance is safely stopped, it needs professional assessment. Repeated resetting can hide the symptom without correcting the cause."
+          },
+          {
+            "cause": "An internal fault requiring service",
+            "detail": "Wiring, sensors, valves, electronics and water-protection components are inside the appliance. Bosch directs the user to customer service rather than internal testing."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Stop using the washer and contact Bosch service for sensor diagnosis. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E25 display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Stop using the washer and contact Bosch service for sensor diagnosis. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from E25 alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E25?",
+            "answer": "Stop using the washer and contact Bosch service for sensor diagnosis. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E25 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E25 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin felkod E25: säkra nästa steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E25? Läs kodens verifierade betydelse, säker första åtgärd, vad du inte ska kontrollera själv och när service behövs.",
+        "h1": "Vad betyder E25 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att E25 betyder att det finns ett fel i turbiditetssensorn.",
+        "quick_fix": "Sluta använda maskinen och kontakta Bosch service för sensordiagnos (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>Bosch anger att E25 betyder att det finns ett fel i turbiditetssensorn. Det är en skydds- eller sensorrelaterad kod, inte en uppmaning att testa interna delar.</p><p>Sluta använda maskinen och kontakta Bosch service för sensordiagnos. Anteckna hela displayen och maskinens E‑Nr. Ta inte bort paneler, mät inte kablage och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Det tillstånd Bosch anger",
+            "detail": "På Bosch-tvättmaskiner anger E25 att det finns ett fel i turbiditetssensorn. Koden visar vilket system som behöver uppmärksamhet men är inte en fullständig reservdelsdiagnos."
+          },
+          {
+            "cause": "En modellberoende sensor- eller skyddshändelse",
+            "detail": "Komponentuppbyggnad och serviceförfarande beror på E‑Nr och marknad. Använd manual och serviceinformation för exakt maskin."
+          },
+          {
+            "cause": "Ett kvarstående tillstånd",
+            "detail": "Om koden finns kvar när maskinen har stoppats säkert behövs professionell bedömning. Upprepade återställningar åtgärdar inte orsaken."
+          },
+          {
+            "cause": "Ett internt fel som kräver service",
+            "detail": "Kablage, sensorer, ventiler, elektronik och vattenskydd sitter inne i maskinen. Bosch hänvisar användaren till service i stället för interna tester."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Sluta använda maskinen och kontakta Bosch service för sensordiagnos. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E25-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Sluta använda maskinen och kontakta Bosch service för sensordiagnos. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från E25.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E25?",
+            "answer": "Sluta använda maskinen och kontakta Bosch service för sensordiagnos. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E25 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E25 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "173": {
+      "code": "E26",
+      "preserve": {
+        "en_slug": "error-code-e26",
+        "sv_slug": "felkod-e26"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E26: Safe Next Steps",
+        "meta_description": "Bosch washer showing E26? Learn the verified code meaning, the safe action to take now, what not to inspect yourself and when to arrange Bosch service.",
+        "h1": "What Does E26 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies E26 as an indication that there is an issue with the analogue pressure sensor.",
+        "quick_fix": "Do not use the washer until it has been assessed and fixed by Bosch service (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>Bosch identifies E26 as an indication that there is an issue with the analogue pressure sensor. This is a protection or sensor-related code, not a prompt to test internal parts.</p><p>Do not use the washer until it has been assessed and fixed by Bosch service. Record the full display and the washer's E-Nr for support. Do not remove panels, test wiring or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "The condition Bosch identifies",
+            "detail": "For Bosch washing machines, E26 indicates that there is an issue with the analogue pressure sensor. The code identifies a system requiring attention but is not a complete parts diagnosis."
+          },
+          {
+            "cause": "A model-specific sensor or protection event",
+            "detail": "The exact component arrangement and service procedure depend on the E-Nr and market. Use the manual and service information for the exact washer."
+          },
+          {
+            "cause": "A persistent rather than temporary condition",
+            "detail": "If the code remains after the appliance is safely stopped, it needs professional assessment. Repeated resetting can hide the symptom without correcting the cause."
+          },
+          {
+            "cause": "An internal fault requiring service",
+            "detail": "Wiring, sensors, valves, electronics and water-protection components are inside the appliance. Bosch directs the user to customer service rather than internal testing."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Do not use the washer until it has been assessed and fixed by Bosch service. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E26 display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Do not use the washer until it has been assessed and fixed by Bosch service. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from E26 alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E26?",
+            "answer": "Do not use the washer until it has been assessed and fixed by Bosch service. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E26 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E26 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin felkod E26: säkra nästa steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E26? Läs kodens verifierade betydelse, säker första åtgärd, vad du inte ska kontrollera själv och när service behövs.",
+        "h1": "Vad betyder E26 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att E26 betyder att det finns ett fel i den analoga trycksensorn.",
+        "quick_fix": "Använd inte maskinen innan Bosch service har bedömt och åtgärdat felet (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>Bosch anger att E26 betyder att det finns ett fel i den analoga trycksensorn. Det är en skydds- eller sensorrelaterad kod, inte en uppmaning att testa interna delar.</p><p>Använd inte maskinen innan Bosch service har bedömt och åtgärdat felet. Anteckna hela displayen och maskinens E‑Nr. Ta inte bort paneler, mät inte kablage och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Det tillstånd Bosch anger",
+            "detail": "På Bosch-tvättmaskiner anger E26 att det finns ett fel i den analoga trycksensorn. Koden visar vilket system som behöver uppmärksamhet men är inte en fullständig reservdelsdiagnos."
+          },
+          {
+            "cause": "En modellberoende sensor- eller skyddshändelse",
+            "detail": "Komponentuppbyggnad och serviceförfarande beror på E‑Nr och marknad. Använd manual och serviceinformation för exakt maskin."
+          },
+          {
+            "cause": "Ett kvarstående tillstånd",
+            "detail": "Om koden finns kvar när maskinen har stoppats säkert behövs professionell bedömning. Upprepade återställningar åtgärdar inte orsaken."
+          },
+          {
+            "cause": "Ett internt fel som kräver service",
+            "detail": "Kablage, sensorer, ventiler, elektronik och vattenskydd sitter inne i maskinen. Bosch hänvisar användaren till service i stället för interna tester."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Använd inte maskinen innan Bosch service har bedömt och åtgärdat felet. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E26-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Använd inte maskinen innan Bosch service har bedömt och åtgärdat felet. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från E26.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E26?",
+            "answer": "Använd inte maskinen innan Bosch service har bedömt och åtgärdat felet. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E26 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E26 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "174": {
+      "code": "E27",
+      "preserve": {
+        "en_slug": "error-code-e27",
+        "sv_slug": "felkod-e27"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E27: Safe Next Steps",
+        "meta_description": "Bosch washer showing E27? Learn the verified code meaning, the safe action to take now, what not to inspect yourself and when to arrange Bosch service.",
+        "h1": "What Does E27 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies E27 as an indication that the pressure sensor is faulty.",
+        "quick_fix": "Do not use the washer until it has been assessed and fixed by Bosch service (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>Bosch identifies E27 as an indication that the pressure sensor is faulty. This is a protection or sensor-related code, not a prompt to test internal parts.</p><p>Do not use the washer until it has been assessed and fixed by Bosch service. Record the full display and the washer's E-Nr for support. Do not remove panels, test wiring or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "The condition Bosch identifies",
+            "detail": "For Bosch washing machines, E27 indicates that the pressure sensor is faulty. The code identifies a system requiring attention but is not a complete parts diagnosis."
+          },
+          {
+            "cause": "A model-specific sensor or protection event",
+            "detail": "The exact component arrangement and service procedure depend on the E-Nr and market. Use the manual and service information for the exact washer."
+          },
+          {
+            "cause": "A persistent rather than temporary condition",
+            "detail": "If the code remains after the appliance is safely stopped, it needs professional assessment. Repeated resetting can hide the symptom without correcting the cause."
+          },
+          {
+            "cause": "An internal fault requiring service",
+            "detail": "Wiring, sensors, valves, electronics and water-protection components are inside the appliance. Bosch directs the user to customer service rather than internal testing."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Do not use the washer until it has been assessed and fixed by Bosch service. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E27 display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Do not use the washer until it has been assessed and fixed by Bosch service. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from E27 alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E27?",
+            "answer": "Do not use the washer until it has been assessed and fixed by Bosch service. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E27 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E27 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin felkod E27: säkra nästa steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E27? Läs kodens verifierade betydelse, säker första åtgärd, vad du inte ska kontrollera själv och när service behövs.",
+        "h1": "Vad betyder E27 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att E27 betyder att trycksensorn är felaktig.",
+        "quick_fix": "Använd inte maskinen innan Bosch service har bedömt och åtgärdat felet (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>Bosch anger att E27 betyder att trycksensorn är felaktig. Det är en skydds- eller sensorrelaterad kod, inte en uppmaning att testa interna delar.</p><p>Använd inte maskinen innan Bosch service har bedömt och åtgärdat felet. Anteckna hela displayen och maskinens E‑Nr. Ta inte bort paneler, mät inte kablage och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Det tillstånd Bosch anger",
+            "detail": "På Bosch-tvättmaskiner anger E27 att trycksensorn är felaktig. Koden visar vilket system som behöver uppmärksamhet men är inte en fullständig reservdelsdiagnos."
+          },
+          {
+            "cause": "En modellberoende sensor- eller skyddshändelse",
+            "detail": "Komponentuppbyggnad och serviceförfarande beror på E‑Nr och marknad. Använd manual och serviceinformation för exakt maskin."
+          },
+          {
+            "cause": "Ett kvarstående tillstånd",
+            "detail": "Om koden finns kvar när maskinen har stoppats säkert behövs professionell bedömning. Upprepade återställningar åtgärdar inte orsaken."
+          },
+          {
+            "cause": "Ett internt fel som kräver service",
+            "detail": "Kablage, sensorer, ventiler, elektronik och vattenskydd sitter inne i maskinen. Bosch hänvisar användaren till service i stället för interna tester."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Använd inte maskinen innan Bosch service har bedömt och åtgärdat felet. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E27-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Använd inte maskinen innan Bosch service har bedömt och åtgärdat felet. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från E27.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E27?",
+            "answer": "Använd inte maskinen innan Bosch service har bedömt och åtgärdat felet. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E27 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E27 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    },
+    "175": {
+      "code": "E28",
+      "preserve": {
+        "en_slug": "error-code-e28",
+        "sv_slug": "felkod-e28"
+      },
+      "en": {
+        "title_tag": "Bosch Washing Machine Error E28: Safe Next Steps",
+        "meta_description": "Bosch washer showing E28? Learn the verified code meaning, the safe action to take now, what not to inspect yourself and when to arrange Bosch service.",
+        "h1": "What Does E28 Mean on a Bosch Washing Machine?",
+        "description": "Bosch identifies E28 as an indication that there is an issue with the flow sensor.",
+        "quick_fix": "Stop using the washer and contact Bosch service for sensor diagnosis (about 5 minutes to make the appliance safe).",
+        "intro_html": "<p>Bosch identifies E28 as an indication that there is an issue with the flow sensor. This is a protection or sensor-related code, not a prompt to test internal parts.</p><p>Stop using the washer and contact Bosch service for sensor diagnosis. Record the full display and the washer's E-Nr for support. Do not remove panels, test wiring or order a part from the code alone.</p>",
+        "causes_json": [
+          {
+            "cause": "The condition Bosch identifies",
+            "detail": "For Bosch washing machines, E28 indicates that there is an issue with the flow sensor. The code identifies a system requiring attention but is not a complete parts diagnosis."
+          },
+          {
+            "cause": "A model-specific sensor or protection event",
+            "detail": "The exact component arrangement and service procedure depend on the E-Nr and market. Use the manual and service information for the exact washer."
+          },
+          {
+            "cause": "A persistent rather than temporary condition",
+            "detail": "If the code remains after the appliance is safely stopped, it needs professional assessment. Repeated resetting can hide the symptom without correcting the cause."
+          },
+          {
+            "cause": "An internal fault requiring service",
+            "detail": "Wiring, sensors, valves, electronics and water-protection components are inside the appliance. Bosch directs the user to customer service rather than internal testing."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stop the programme",
+            "detail": "Use the controls to stop the cycle and wait for the drum to stop. Do not force the door if it remains locked or water is visible."
+          },
+          {
+            "step": 2,
+            "action": "Make the appliance safe",
+            "detail": "Stop using the washer and contact Bosch service for sensor diagnosis. If water is present, keep people away from the wet area and avoid touching plugs or sockets with wet hands."
+          },
+          {
+            "step": 3,
+            "action": "Switch off and unplug safely",
+            "detail": "If the plug and surrounding area are dry and safely accessible, switch off and unplug the washer. If water is near electrical connections, isolate power safely at the consumer unit and seek professional help."
+          },
+          {
+            "step": 4,
+            "action": "Record the code and E-Nr",
+            "detail": "Photograph the complete E28 display and note when it appeared. Find the E-Nr on the rating plate without opening the appliance."
+          },
+          {
+            "step": 5,
+            "action": "Check only the exact manual",
+            "detail": "Read the safety and error-code section for the E-Nr. Do not use dishwasher instructions or instructions for another Bosch washer series."
+          },
+          {
+            "step": 6,
+            "action": "Arrange Bosch service",
+            "detail": "Give Bosch the E-Nr, full code and visible symptoms. Do not remove panels, test sensors or wiring, or continue running the washer to see whether the code clears."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Stop using the washer and contact Bosch service for sensor diagnosis. Arrange service promptly, and treat visible leakage, a burning smell, smoke, abnormal heat or electrical protection tripping as urgent.</p><p>A service technician should diagnose the protected system or sensor circuit. Do not inspect internal hoses, sensors, wiring, valves or control electronics yourself, and do not buy a replacement part from E28 alone.</p>",
+        "prevention_html": "<p>Install and operate the washer according to its exact manual, keep supply and drain connections visible and undamaged, and avoid moving the appliance by its hoses. Check accessible connections periodically for moisture.</p><p>Use the specified detergent dose and stop promptly when a protection or sensor code appears. Internal sensor failures cannot reliably be prevented by user maintenance.</p>",
+        "faq_json": [
+          {
+            "question": "Can I keep using a Bosch washer showing E28?",
+            "answer": "Stop using the washer and contact Bosch service for sensor diagnosis. Do not run another cycle until Bosch guidance or service confirms it is safe."
+          },
+          {
+            "question": "Can I reset E28 by switching the washer off?",
+            "answer": "Switching off is a safety step, not proof that the fault is repaired. If the code returns or Bosch classifies it as service-only, do not repeatedly reset the washer."
+          },
+          {
+            "question": "Does E28 identify a part to replace?",
+            "answer": "No. The code identifies a system or condition, but Bosch service should diagnose the exact cause before any part is ordered."
+          },
+          {
+            "question": "Why should I provide the E-Nr?",
+            "answer": "Bosch model families and markets can use different hardware and service procedures. The E-Nr identifies the correct appliance documentation."
+          },
+          {
+            "question": "May I test the sensor myself?",
+            "answer": "No. Do not remove panels or measure internal wiring, sensors or electronics. Bosch directs these codes to customer service."
+          }
+        ],
+        "parts_json": []
+      },
+      "sv": {
+        "title_tag": "Bosch tvättmaskin felkod E28: säkra nästa steg",
+        "meta_description": "Visar Bosch-tvättmaskinen E28? Läs kodens verifierade betydelse, säker första åtgärd, vad du inte ska kontrollera själv och när service behövs.",
+        "h1": "Vad betyder E28 på en Bosch-tvättmaskin?",
+        "description": "Bosch anger att E28 betyder att det finns ett fel i flödessensorn.",
+        "quick_fix": "Sluta använda maskinen och kontakta Bosch service för sensordiagnos (cirka 5 minuter för att säkra maskinen).",
+        "intro_html": "<p>Bosch anger att E28 betyder att det finns ett fel i flödessensorn. Det är en skydds- eller sensorrelaterad kod, inte en uppmaning att testa interna delar.</p><p>Sluta använda maskinen och kontakta Bosch service för sensordiagnos. Anteckna hela displayen och maskinens E‑Nr. Ta inte bort paneler, mät inte kablage och beställ inte en del från koden ensam.</p>",
+        "causes_json": [
+          {
+            "cause": "Det tillstånd Bosch anger",
+            "detail": "På Bosch-tvättmaskiner anger E28 att det finns ett fel i flödessensorn. Koden visar vilket system som behöver uppmärksamhet men är inte en fullständig reservdelsdiagnos."
+          },
+          {
+            "cause": "En modellberoende sensor- eller skyddshändelse",
+            "detail": "Komponentuppbyggnad och serviceförfarande beror på E‑Nr och marknad. Använd manual och serviceinformation för exakt maskin."
+          },
+          {
+            "cause": "Ett kvarstående tillstånd",
+            "detail": "Om koden finns kvar när maskinen har stoppats säkert behövs professionell bedömning. Upprepade återställningar åtgärdar inte orsaken."
+          },
+          {
+            "cause": "Ett internt fel som kräver service",
+            "detail": "Kablage, sensorer, ventiler, elektronik och vattenskydd sitter inne i maskinen. Bosch hänvisar användaren till service i stället för interna tester."
+          }
+        ],
+        "steps_json": [
+          {
+            "step": 1,
+            "action": "Stoppa programmet",
+            "detail": "Stoppa programmet med reglagen och vänta tills trumman står stilla. Tvinga inte upp luckan om den är låst eller vatten syns."
+          },
+          {
+            "step": 2,
+            "action": "Säkra maskinen",
+            "detail": "Sluta använda maskinen och kontakta Bosch service för sensordiagnos. Om vatten finns på golvet håller du personer borta och rör inte stickpropp eller uttag med våta händer."
+          },
+          {
+            "step": 3,
+            "action": "Stäng av och koppla ur säkert",
+            "detail": "Om stickproppen och området är torra och säkert åtkomliga stänger du av och drar ur kontakten. Finns vatten nära elanslutningen bryter du strömmen säkert i elcentralen och söker hjälp."
+          },
+          {
+            "step": 4,
+            "action": "Dokumentera kod och E‑Nr",
+            "detail": "Fotografera hela E28-visningen och anteckna när den uppstod. Leta upp E‑Nr på typskylten utan att öppna maskinen."
+          },
+          {
+            "step": 5,
+            "action": "Kontrollera endast rätt manual",
+            "detail": "Läs säkerhets- och felkodsavsnittet för rätt E‑Nr. Använd inte instruktioner för diskmaskin eller annan Bosch-serie."
+          },
+          {
+            "step": 6,
+            "action": "Boka Bosch-service",
+            "detail": "Uppge E‑Nr, hela koden och synliga symptom. Ta inte bort paneler, testa sensorer eller kablage och kör inte maskinen igen för att se om koden försvinner."
+          }
+        ],
+        "when_to_call_technician_html": "<p>Sluta använda maskinen och kontakta Bosch service för sensordiagnos. Boka service snarast och betrakta synligt läckage, bränd lukt, rök, onormal värme eller utlöst elskydd som akut.</p><p>En servicetekniker ska diagnostisera skyddssystemet eller sensorkretsen. Kontrollera inte interna slangar, sensorer, kablage, ventiler eller styrelektronik och beställ ingen reservdel enbart från E28.</p>",
+        "prevention_html": "<p>Installera och använd maskinen enligt dess manual, håll synliga tillopps- och avloppsanslutningar oskadade och flytta inte maskinen genom att dra i slangarna. Kontrollera åtkomliga anslutningar efter fukt.</p><p>Dosera tvättmedel enligt anvisning och stoppa maskinen när en skydds- eller sensorkod visas. Interna sensorfel kan inte förebyggas pålitligt genom användarunderhåll.</p>",
+        "faq_json": [
+          {
+            "question": "Kan jag fortsätta använda maskinen med E28?",
+            "answer": "Sluta använda maskinen och kontakta Bosch service för sensordiagnos. Kör inte ett nytt program innan Bosch eller en servicetekniker har bekräftat att det är säkert."
+          },
+          {
+            "question": "Kan jag återställa E28 genom att stänga av?",
+            "answer": "Avstängning är en säkerhetsåtgärd, inte bevis på att felet är löst. Återställ inte maskinen upprepade gånger om koden återkommer."
+          },
+          {
+            "question": "Visar E28 vilken reservdel som ska bytas?",
+            "answer": "Nej. Koden identifierar ett system eller tillstånd, men Bosch service ska diagnostisera den exakta orsaken före beställning."
+          },
+          {
+            "question": "Varför behöver Bosch E‑Nr?",
+            "answer": "Bosch-serier och marknader kan ha olika maskinvara och serviceförfaranden. E‑Nr identifierar rätt dokumentation."
+          },
+          {
+            "question": "Kan jag själv testa sensorn?",
+            "answer": "Nej. Ta inte bort paneler och mät inte interna ledningar, sensorer eller elektronik. Bosch hänvisar dessa koder till service."
+          }
+        ],
+        "parts_json": []
+      }
+    }
+  }
+}

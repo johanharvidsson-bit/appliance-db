@@ -354,9 +354,11 @@ BEGIN
         SELECT brand_id,category_id INTO b_brand,b_category FROM public.models WHERE id=NEW.candidate_model_id;
     END IF;
     IF (a_brand,a_category) IS DISTINCT FROM (b_brand,b_category) THEN RAISE EXCEPTION 'cross-scope model mapping is prohibited'; END IF;
-    IF TG_TABLE_NAME='legacy_model_mapping' AND NEW.model_variant_id IS NOT NULL THEN
-        SELECT model_id INTO variant_model FROM public.model_variants WHERE id=NEW.model_variant_id;
-        IF variant_model IS DISTINCT FROM NEW.canonical_model_id THEN RAISE EXCEPTION 'mapped variant must belong to canonical model'; END IF;
+    IF TG_TABLE_NAME='legacy_model_mapping' THEN
+        IF NEW.model_variant_id IS NOT NULL THEN
+            SELECT model_id INTO variant_model FROM public.model_variants WHERE id=NEW.model_variant_id;
+            IF variant_model IS DISTINCT FROM NEW.canonical_model_id THEN RAISE EXCEPTION 'mapped variant must belong to canonical model'; END IF;
+        END IF;
     END IF;
     RETURN NEW;
 END $$;

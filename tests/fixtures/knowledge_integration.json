@@ -1,0 +1,29 @@
+{
+  "site": "appliance-repair-base",
+  "catalog": {
+    "default_locale": "en",
+    "models": [
+      {"id": 1, "brand_id": 10, "category_id": 20, "name": "DV80N62542W", "slug": "dv80n62542w", "base_model": "DV80N62542W"},
+      {"id": 2, "brand_id": 10, "category_id": 20, "name": "DV90OTHER", "slug": "dv90other", "base_model": "DV90OTHER"}
+    ],
+    "variants": [],
+    "product_codes": [
+      {"id": 31, "model_id": 1, "code": "DUPLICATE-PC"},
+      {"id": 32, "model_id": 2, "code": "DUPLICATE-PC"}
+    ],
+    "error_codes": [{"id": 41, "brand_id": 10, "category_id": 20, "code": "5E", "short_description": null, "description": null}],
+    "faults": [],
+    "guides": [],
+    "model_specs": {},
+    "model_overviews": {},
+    "model_aliases": []
+  },
+  "facts": [
+    {"id": 101, "source_document_id": 501, "backlog_item_id": 1001, "backlog_entity_type": "model", "backlog_entity_id": "1", "brand_id": 10, "category_id": 20, "fact_type": "specification", "subject_hint": "model:DV80N62542W", "predicate": "capacity", "value": "8", "unit": "kg", "locale": "en", "confidence": 95, "extraction_status": "candidate", "evidence": [{"id": 701, "source_document_id": 501, "locator": "table:nth-of-type(1) > tr:nth-of-type(1)"}]},
+    {"id": 102, "source_document_id": 501, "backlog_item_id": 1002, "backlog_entity_type": "model", "backlog_entity_id": "1", "brand_id": 10, "category_id": 20, "fact_type": "identity", "subject_hint": "model:DV80N62542W", "predicate": "variant_code", "value": "DV80N62542W/EU", "unit": null, "locale": "en", "confidence": 90, "extraction_status": "candidate", "evidence": [{"id": 702, "source_document_id": 501, "locator": "page:1"}]},
+    {"id": 103, "source_document_id": 502, "backlog_item_id": 1003, "backlog_entity_type": "error_code", "backlog_entity_id": "41", "brand_id": 10, "category_id": 20, "fact_type": "error_code", "subject_hint": "error_code:5E", "predicate": "meaning", "value": {"code": "5 E", "meaning": "Drain error"}, "unit": null, "locale": "en", "confidence": 95, "extraction_status": "candidate", "evidence": [{"id": 703, "source_document_id": 502, "locator": "page:12"}]},
+    {"id": 104, "source_document_id": 503, "backlog_item_id": 1004, "backlog_entity_type": "model", "backlog_entity_id": "1", "brand_id": 10, "category_id": 20, "fact_type": "identity", "subject_hint": "model:DV80N62542W", "predicate": "product_code", "value": "DUPLICATE-PC", "unit": null, "locale": "en", "confidence": 90, "extraction_status": "conflicted", "conflict_metadata": {"reason": "two models"}, "evidence": [{"id": 704, "source_document_id": 503, "locator": "json:$.productCode"}]},
+    {"id": 105, "source_document_id": 504, "backlog_item_id": 1005, "backlog_entity_type": "guide", "backlog_entity_id": "900", "brand_id": 10, "category_id": 20, "fact_type": "guide_step", "subject_hint": "guide:drain", "predicate": "instruction", "value": {"step_number": 1, "instruction": "Clean the drain filter"}, "unit": null, "locale": "en", "confidence": 80, "extraction_status": "candidate", "evidence": [{"id": 705, "source_document_id": 504, "locator": "page:8"}]},
+    {"id": 106, "source_document_id": 505, "backlog_item_id": 1006, "backlog_entity_type": "model", "backlog_entity_id": "1", "brand_id": 10, "category_id": 20, "fact_type": "specification", "subject_hint": "model:DV80N62542W", "predicate": "weight", "value": "70", "unit": "kg", "locale": "en", "confidence": 99, "extraction_status": "rejected", "evidence": []}
+  ]
+}

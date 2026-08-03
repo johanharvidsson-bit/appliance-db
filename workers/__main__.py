@@ -60,6 +60,22 @@ def parser() -> argparse.ArgumentParser:
     ingestion.add_argument("--fixture", type=Path)
     ingestion.add_argument("--storage-dir", type=Path, default=Path("data/source-ingestion"))
     ingestion.add_argument("--output-dir", type=Path, default=Path("reports/source-ingestion"))
+    integration = sub.add_parser("knowledge-integration", help="resolve candidate facts into reviewable proposals")
+    integration.add_argument("--site", required=True)
+    integration.add_argument("--environment", default="development", choices=("development","staging","production"))
+    integration.add_argument("--dry-run", action="store_true")
+    integration.add_argument("--batch-size", type=int, default=50)
+    integration.add_argument("--candidate-fact-id", type=int)
+    integration.add_argument("--backlog-id", type=int)
+    integration.add_argument("--fact-type")
+    integration.add_argument("--proposal-type")
+    integration.add_argument("--locale")
+    integration.add_argument("--brand", type=int)
+    integration.add_argument("--category", type=int)
+    integration.add_argument("--min-confidence", type=int, default=0)
+    integration.add_argument("--reprocess", action="store_true")
+    integration.add_argument("--fixture", type=Path)
+    integration.add_argument("--output-dir", type=Path, default=Path("reports/knowledge-integration"))
     return root
 
 
@@ -70,6 +86,9 @@ def main(argv: list[str] | None = None) -> int:
         return run(args)
     if args.worker == "source-ingestion":
         from workers.ingestion_cli import run
+        return run(args)
+    if args.worker == "knowledge-integration":
+        from workers.integration_cli import run
         return run(args)
     if args.batch_size < 1:
         raise SystemExit("--batch-size must be positive")

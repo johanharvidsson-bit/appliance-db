@@ -18,6 +18,21 @@ HTTP checks are disabled by default. `--check-http` uses the repository target-s
 
 The artifact always starts with `classification=unclassified`. Search metrics remain absent/NULL unless supplied by a later approved process; missing metrics never mean zero.
 
+## Guarded local persistence
+
+Persistence is optional and restricted to `development`. The DSN must pass the repository target guard, which for PostgreSQL means loopback port `15432` and database `repair_appliance_dev`.
+
+```powershell
+$env:REPAIRBASE_URL_REGISTRY_DB_URL = 'postgresql://postgres@127.0.0.1:15432/repair_appliance_dev'
+python -m pipeline.url_inventory `
+  --input data/url-candidates.json `
+  --output data/url-baseline.jsonl `
+  --environment development `
+  --persist
+```
+
+Registry upserts are idempotent by site, environment, and normalized URL. Re-observation preserves an existing human classification and its reason. Current entity bindings are idempotent and remain `candidate`; persistence never marks them verified. The artifact is written before persistence so a failed transaction remains inspectable.
+
 ## Database persistence
 
 Migration 015 creates `url_registry` and the current-entity phase of `entity_url_bindings`. It performs no backfill. PR 2 adds binding columns for v1 entities that do not exist yet (`model_variants` and `guides`).

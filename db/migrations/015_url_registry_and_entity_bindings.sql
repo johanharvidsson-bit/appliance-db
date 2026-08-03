@@ -103,6 +103,10 @@ CREATE UNIQUE INDEX entity_url_bindings_one_current_primary_uidx
     WHERE valid_to IS NULL
       AND mapping_status = 'verified'
       AND binding_role = 'primary';
+CREATE UNIQUE INDEX entity_url_bindings_one_current_candidate_uidx
+    ON public.entity_url_bindings (url_id, entity_key)
+    WHERE valid_to IS NULL
+      AND mapping_status IN ('candidate', 'verified');
 CREATE INDEX entity_url_bindings_entity_idx
     ON public.entity_url_bindings (entity_key, mapping_status);
 CREATE INDEX entity_url_bindings_url_status_idx

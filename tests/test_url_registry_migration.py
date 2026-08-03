@@ -21,6 +21,7 @@ def test_registry_and_binding_invariants_are_present():
     assert "unique (site_id, environment, normalized_url)" in SQL.lower()
     assert "num_nonnulls(brand_id, category_id, model_id, product_code_id" in SQL.lower()
     assert "entity_url_bindings_one_current_primary_uidx" in SQL
+    assert "entity_url_bindings_one_current_candidate_uidx" in SQL
     assert "on delete restrict" in SQL.lower()
     assert "on delete cascade" not in SQL.lower()
 

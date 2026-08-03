@@ -6,6 +6,7 @@ import argparse
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 import json
+import os
 from pathlib import Path
 import re
 from typing import Callable, Iterable, Protocol
@@ -14,6 +15,8 @@ from urllib.parse import urljoin, urlsplit, urlunsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 from bs4 import BeautifulSoup
+import psycopg2
+from psycopg2.extensions import connection as PgConnection
 
 from config.environment import load_settings
 from config.target_safety import assert_safe_target
@@ -103,6 +106,97 @@ class JsonLinesSink:
         with self.path.open("w", encoding="utf-8", newline="\n") as handle:
             for observation in observations:
                 handle.write(json.dumps(asdict(observation), ensure_ascii=False, sort_keys=True) + "\n")
+
+
+ENTITY_COLUMNS = {
+    "brand": "brand_id",
+    "category": "category_id",
+    "model": "model_id",
+    "product_code": "product_code_id",
+    "error_code": "error_code_id",
+    "fault": "fault_id",
+    "article": "article_id",
+}
+
+
+class PostgresObservationSink:
+    """Transactional, idempotent persistence into the internal v1 tables."""
+
+    def __init__(self, connection: PgConnection):
+        self.connection = connection
+
+    def write(self, observations: list[URLObservation]) -> None:
+        with self.connection:
+            with self.connection.cursor() as cursor:
+                for observation in observations:
+                    cursor.execute(
+                        """
+                        INSERT INTO public.url_registry (
+                            site_id, environment, url, normalized_url, path,
+                            page_type, http_status, canonical_url, sitemap_present,
+                            internal_incoming_links, classification,
+                            first_observed_at, last_observed_at
+                        ) VALUES (
+                            %(site_id)s, %(environment)s, %(url)s,
+                            %(normalized_url)s, %(path)s, %(page_type)s,
+                            %(http_status)s, %(canonical_url)s,
+                            %(sitemap_present)s, %(internal_incoming_links)s,
+                            'unclassified', %(first_observed_at)s,
+                            %(last_observed_at)s
+                        )
+                        ON CONFLICT (site_id, environment, normalized_url)
+                        DO UPDATE SET
+                            url = EXCLUDED.url,
+                            path = EXCLUDED.path,
+                            page_type = EXCLUDED.page_type,
+                            http_status = COALESCE(EXCLUDED.http_status, url_registry.http_status),
+                            canonical_url = COALESCE(EXCLUDED.canonical_url, url_registry.canonical_url),
+                            sitemap_present = COALESCE(EXCLUDED.sitemap_present, url_registry.sitemap_present),
+                            internal_incoming_links = COALESCE(
+                                EXCLUDED.internal_incoming_links,
+                                url_registry.internal_incoming_links
+                            ),
+                            first_observed_at = LEAST(
+                                url_registry.first_observed_at,
+                                EXCLUDED.first_observed_at
+                            ),
+                            last_observed_at = GREATEST(
+                                url_registry.last_observed_at,
+                                EXCLUDED.last_observed_at
+                            )
+                        RETURNING id
+                        """,
+                        asdict(observation),
+                    )
+                    url_id = cursor.fetchone()[0]
+                    if observation.entity_type is None:
+                        continue
+                    column = ENTITY_COLUMNS[observation.entity_type]
+                    cursor.execute(
+                        f"""
+                        INSERT INTO public.entity_url_bindings (
+                            url_id, {column}, binding_role, mapping_status,
+                            valid_from
+                        ) VALUES (%s, %s, 'primary', 'candidate', %s)
+                        ON CONFLICT (url_id, entity_key)
+                            WHERE valid_to IS NULL
+                              AND mapping_status IN ('candidate', 'verified')
+                        DO UPDATE SET
+                            binding_role = entity_url_bindings.binding_role
+                        """,
+                        (url_id, observation.entity_id, observation.first_observed_at),
+                    )
+
+
+def persist_observations(observations: list[URLObservation], *, dsn: str, environment: str) -> None:
+    if environment != "development":
+        raise ValueError("PR 1 persistence is restricted to development")
+    assert_safe_target(dsn, app_env=environment, operation="write")
+    connection = psycopg2.connect(dsn)
+    try:
+        PostgresObservationSink(connection).write(observations)
+    finally:
+        connection.close()
 
 
 class _NoRedirect(HTTPRedirectHandler):
@@ -200,6 +294,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--check-http", action="store_true", help="perform bounded HTTP GET checks")
     parser.add_argument("--timeout", type=float, default=10.0)
     parser.add_argument("--max-urls", type=int, default=500)
+    parser.add_argument("--persist", action="store_true", help="persist to the guarded local development database")
+    parser.add_argument(
+        "--database-url-env",
+        default="REPAIRBASE_URL_REGISTRY_DB_URL",
+        help="environment variable containing the guarded development DSN",
+    )
     return parser
 
 
@@ -221,7 +321,21 @@ def main(argv: list[str] | None = None) -> int:
         max_urls=args.max_urls,
     )
     JsonLinesSink(args.output).write(observations)
-    print(json.dumps({"observed": len(observations), "http_checks": args.check_http, "output": str(args.output)}))
+    if args.persist:
+        dsn = os.getenv(args.database_url_env, "").strip()
+        if not dsn:
+            raise RuntimeError(f"missing database URL environment variable: {args.database_url_env}")
+        persist_observations(observations, dsn=dsn, environment=args.environment)
+    print(
+        json.dumps(
+            {
+                "observed": len(observations),
+                "http_checks": args.check_http,
+                "persisted": args.persist,
+                "output": str(args.output),
+            }
+        )
+    )
     return 0
 
 

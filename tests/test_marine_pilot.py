@@ -10,6 +10,11 @@ def test_pilot_is_isolated_and_secret_free():
     assert "127.0.0.1:" in compose
     assert "repairbase_marine_dev_db" in compose
     assert "appliance" not in compose.lower()
+    bootstrap = (ROOT / "000_roles.sh").read_text()
+    assert "CREATE ROLE anon NOLOGIN" in bootstrap
+    assert "CREATE ROLE authenticated NOLOGIN" in bootstrap
+    assert "CREATE ROLE marine_postgrest LOGIN PASSWORD" in bootstrap
+    assert "GRANT anon TO marine_postgrest" in bootstrap
     for line in example.splitlines():
         if "PASSWORD=" in line or "URI=" in line or "SECRET=" in line:
             assert line.endswith("=")

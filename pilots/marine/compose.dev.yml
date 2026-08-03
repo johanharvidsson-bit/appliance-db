@@ -5,10 +5,12 @@ services:
       POSTGRES_DB: marine_repair_dev
       POSTGRES_USER: "${MARINE_DB_ADMIN_USER:?set in an untracked env file}"
       POSTGRES_PASSWORD: "${MARINE_DB_ADMIN_PASSWORD:?set in an untracked env file}"
+      MARINE_POSTGREST_DB_PASSWORD: "${MARINE_POSTGREST_DB_PASSWORD:?set in an untracked env file}"
     ports:
       - "127.0.0.1:${MARINE_DB_PORT:-25432}:5432"
     volumes:
       - marine_db_data:/var/lib/postgresql/data
+      - ./000_roles.sh:/docker-entrypoint-initdb.d/000_roles.sh:ro
       - ../../db/schema.sql:/docker-entrypoint-initdb.d/001_schema.sql:ro
       - ../../db/migrations/010_model_specs_generic.sql:/docker-entrypoint-initdb.d/010_model_specs.sql:ro
       - ./seed.sql:/docker-entrypoint-initdb.d/010a_marine_seed.sql:ro

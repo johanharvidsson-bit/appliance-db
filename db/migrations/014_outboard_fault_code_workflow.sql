@@ -258,6 +258,7 @@ END $$;
 DO $$
 BEGIN
     IF EXISTS (SELECT 1 FROM pg_roles WHERE rolname = 'outboard_worker') THEN
+        GRANT USAGE ON SCHEMA public TO outboard_worker;
         GRANT SELECT ON rb_worker_jobs, rb_fault_codes TO outboard_worker;
         GRANT EXECUTE ON FUNCTION rb_claim_worker_job(TEXT, INTEGER) TO outboard_worker;
         GRANT EXECUTE ON FUNCTION rb_complete_worker_job(BIGINT, TEXT) TO outboard_worker;

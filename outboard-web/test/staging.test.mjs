@@ -22,6 +22,13 @@ test('runtime database role receives select but no mutation grants', async () =>
   assert.doesNotMatch(grants, /rb_audit_events/)
 })
 
+test('fresh PostgreSQL initialization creates migration tracking first', async () => {
+  const compose = await read('../compose.staging.yaml')
+  const tracking = await read('../sql/001-migration-tracking.sql')
+  assert.match(compose, /001-migration-tracking\.sql/)
+  assert.match(tracking, /CREATE TABLE IF NOT EXISTS schema_migrations/)
+})
+
 test('staging seed remains noindex and contains only outboard records', async () => {
   const seed = await read('../sql/seed-staging.sql')
   assert.match(seed, /outboard-repair-base/)

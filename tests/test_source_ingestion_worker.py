@@ -128,6 +128,42 @@ def test_html_extraction_has_exact_locators_and_conflicts():
     assert all(f.locator and len(f.excerpt) <= 500 for f in facts)
 
 
+def test_support_page_extracts_exact_error_description_not_heading_steps():
+    body = b"""
+    <html lang="en-GB"><head><title>Resolve a 5E or 5C error</title></head><body>
+      <h1>How to resolve a 5E or 5C error code</h1>
+      <p>A 5E or 5C error code indicates that the washing machine has detected a drainage issue.</p>
+      <h2>1. Check the drain filter</h2>
+      <ul><li>Clean the filter and check the drain hose for blockages.</li></ul>
+    </body></html>
+    """
+    doc = parse_document("https://www.samsung.com/support/5c", "text/html", body)
+    facts = extract_facts(
+        doc,
+        subject_hint="error_code:20",
+        subject_identifier="5C",
+        locale="en",
+        source_trust=95,
+    )
+    meanings = [fact for fact in facts if fact.fact_type == "error_code"]
+    assert len(meanings) == 1
+    assert meanings[0].value == {
+        "code": "5C",
+        "meaning": "A 5E or 5C error code indicates that the washing machine has detected a drainage issue.",
+    }
+    assert meanings[0].status == "candidate"
+    assert not [fact for fact in facts if fact.fact_type == "guide_step"]
+
+
+def test_numbered_steps_have_independent_conflict_identity():
+    body = b"<p>1. Unplug the appliance.</p><p>2. Check the drain hose.</p>"
+    doc = parse_document("https://example.com/support", "text/html", body)
+    facts = extract_facts(doc, subject_hint="error_code:1", locale="en", source_trust=95)
+    steps = [fact for fact in facts if fact.fact_type == "guide_step"]
+    assert len(steps) == 2
+    assert all(fact.status == "candidate" for fact in steps)
+
+
 def test_json_extraction_retains_json_path():
     doc = parse_document(
         "https://example.com/a.json",

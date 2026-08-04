@@ -5,6 +5,8 @@ from __future__ import annotations
 import json
 from psycopg2.extras import RealDictCursor
 
+from workers.source_ingestion import EXTRACTOR_VERSION, PARSER_VERSION
+
 
 class IngestionRepository:
     WRITABLE_TABLES = frozenset(
@@ -58,9 +60,12 @@ class IngestionRepository:
     def candidates(self, site, environment, *, limit, filters):
         sql = """
         SELECT sc.id AS source_candidate_id,sc.backlog_id,sc.candidate_url,sc.normalized_url,sc.source_type,
-               sc.publisher,sc.title,sc.confidence,sc.entity_type,sc.entity_id,sc.locale,b.action_type
+               sc.publisher,sc.title,sc.confidence,sc.entity_type,sc.entity_id,sc.locale,b.action_type,
+               CASE WHEN sc.entity_type='error_code' THEN ec.code ELSE NULL END AS subject_identifier
         FROM source_candidates sc JOIN content_backlog b ON b.id=sc.backlog_id
         JOIN cube_scope_snapshots css ON css.id=b.scope_snapshot_id
+        LEFT JOIN error_codes ec ON sc.entity_type='error_code'
+          AND sc.entity_id~'^[0-9]+$' AND ec.id=sc.entity_id::integer
         WHERE sc.site_id=%s AND sc.environment=%s AND sc.status='accepted'
           AND b.status IN('queued','in_progress','deferred') AND css.status='active'
           AND b.site_id=sc.site_id AND b.environment=sc.environment
@@ -202,7 +207,7 @@ class IngestionRepository:
                     document.text,
                     _hash(document.text),
                     document.page_count,
-                    "1.0.0",
+                    PARSER_VERSION,
                     json.dumps(document.metadata),
                 ),
             )
@@ -225,7 +230,7 @@ class IngestionRepository:
                         fact.locale,
                         fact.confidence,
                         fact.status,
-                        "1.0.0",
+                        EXTRACTOR_VERSION,
                         fact.input_hash,
                         fact.conflict_key,
                         json.dumps(fact.conflict_metadata),
@@ -242,14 +247,25 @@ class IngestionRepository:
                             fact.fact_type,
                             fact.predicate,
                             fact.locale,
+                            fact.value.get("step_number")
+                            if fact.fact_type == "guide_step"
+                            and isinstance(fact.value, dict)
+                            else None,
                         ],
                         sort_keys=True,
                     )
+                )
+                step_number = (
+                    str(fact.value.get("step_number"))
+                    if fact.fact_type == "guide_step"
+                    and isinstance(fact.value, dict)
+                    else None
                 )
                 cur.execute(
                     """SELECT id FROM candidate_facts
                     WHERE id<>%s AND subject_hint IS NOT DISTINCT FROM %s AND fact_type=%s AND predicate=%s
                       AND locale IS NOT DISTINCT FROM %s AND value_json IS DISTINCT FROM %s::jsonb
+                      AND (%s IS NULL OR value_json->>'step_number'=%s)
                       AND extraction_status IN('candidate','needs_review','conflicted')""",
                     (
                         row[0],
@@ -258,6 +274,8 @@ class IngestionRepository:
                         fact.predicate,
                         fact.locale,
                         json.dumps(fact.value),
+                        step_number,
+                        step_number,
                     ),
                 )
                 conflicting_ids = [x[0] for x in cur.fetchall()]

@@ -27,6 +27,7 @@ class SourceRepository:
         SELECT b.id AS backlog_id,b.entity_type,b.entity_id,b.locale,b.action_type,b.priority,b.priority_band,
                COALESCE(br.name,model_brand.name,error_brand.name,guide_brand.name) AS brand_name,
                COALESCE(m.name,e.code,f.canonical_name,g.canonical_title,b.entity_type||':'||b.entity_id) AS entity_name,
+               CASE WHEN b.entity_type='error_code' THEN e.code ELSE NULL END AS subject_identifier,
                ARRAY_REMOVE(ARRAY[br.support_url,br.manual_base_url,model_brand.support_url,model_brand.manual_base_url,
                                   error_brand.support_url,error_brand.manual_base_url,guide_brand.support_url,guide_brand.manual_base_url],NULL) AS official_urls
         FROM content_backlog b
@@ -79,5 +80,7 @@ class SourceRepository:
                 cur.execute("UPDATE source_candidates SET status='rejected',details_json=details_json||'{\"reason\":\"sources_discovered_later\"}'::jsonb,updated_at=now() WHERE site_id=%s AND environment=%s AND backlog_id=%s AND status='not_found'",(site,environment,item["backlog_id"]))
             for c in candidates:
                 cur.execute("INSERT INTO source_candidates(site_id,environment,backlog_id,entity_type,entity_id,locale,source_type,candidate_url,normalized_url,publisher,title,confidence,status,discovery_method,details_json) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,'candidate',%s,%s::jsonb) ON CONFLICT(site_id,environment,backlog_id,candidate_key) DO UPDATE SET source_type=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.source_type ELSE source_candidates.source_type END,publisher=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.publisher ELSE source_candidates.publisher END,title=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.title ELSE source_candidates.title END,confidence=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.confidence ELSE source_candidates.confidence END,last_seen_at=now(),updated_at=now() RETURNING (xmax=0)",(site,environment,c["backlog_id"],c["entity_type"],c["entity_id"],c["locale"],c["source_type"],c["candidate_url"],c["normalized_url"],c["publisher"],c["title"],c["confidence"],c["discovery_method"],json.dumps(c["details"])))
-                was_created=bool(cur.fetchone()[0]); created+=was_created; updated+=not was_created
+                was_created = bool(cur.fetchone()[0])
+                created += was_created
+                updated += not was_created
         return {"created":created,"updated":updated,"not_found":int(not candidates)}

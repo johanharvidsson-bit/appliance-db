@@ -12,8 +12,8 @@ from urllib.parse import urlsplit
 from bs4 import BeautifulSoup
 import pdfplumber
 
-PARSER_VERSION = "1.0.0"
-EXTRACTOR_VERSION = "1.0.0"
+PARSER_VERSION = "1.1.0"
+EXTRACTOR_VERSION = "1.1.0"
 MAX_EXCERPT = 500
 
 
@@ -24,6 +24,7 @@ class Segment:
     heading: str | None = None
     page: int | None = None
     json_path: str | None = None
+    element_type: str | None = None
 
 
 @dataclass
@@ -173,7 +174,12 @@ def parse_document(url: str, mime: str, body: bytes) -> ParsedDocument:
         ]
         if len(cells) >= 2 and cells[0] and cells[1]:
             segments.append(
-                Segment(f"{cells[0]}: {cells[1]}", _css_locator(row), heading=heading)
+                Segment(
+                    f"{cells[0]}: {cells[1]}",
+                    _css_locator(row),
+                    heading=heading,
+                    element_type="tr",
+                )
             )
     for element in soup.select("h1,h2,h3,h4,th,td,dt,dd,p,li"):
         text = element.get_text(" ", strip=True)
@@ -182,7 +188,9 @@ def parse_document(url: str, mime: str, body: bytes) -> ParsedDocument:
         if element.name in {"h1", "h2", "h3", "h4"}:
             heading = text
         locator = _css_locator(element)
-        segments.append(Segment(text, locator, heading=heading))
+        segments.append(
+            Segment(text, locator, heading=heading, element_type=element.name)
+        )
     for index, node in enumerate(soup.select('script[type="application/ld+json"]'), 1):
         try:
             data = json.loads(node.string or "")
@@ -255,6 +263,7 @@ def extract_facts(
     subject_hint: str | None,
     locale: str | None,
     source_trust: int,
+    subject_identifier: str | None = None,
 ) -> list[Fact]:
     facts = []
     for segment in document.segments:
@@ -303,7 +312,7 @@ def extract_facts(
                     structured=False,
                 )
             )
-        step = STEP.match(text)
+        step = STEP.match(text) if segment.element_type not in {"h1", "h2", "h3", "h4"} else None
         if step:
             facts.append(
                 _fact(
@@ -317,7 +326,70 @@ def extract_facts(
                     structured=False,
                 )
             )
+    semantic_error = _error_code_description(
+        document,
+        subject_hint=subject_hint,
+        subject_identifier=subject_identifier,
+        locale=locale,
+        source_trust=source_trust,
+    )
+    if semantic_error:
+        facts.append(semantic_error)
     return deduplicate_and_conflict(facts)
+
+
+def _error_code_description(
+    document: ParsedDocument,
+    *,
+    subject_hint: str | None,
+    subject_identifier: str | None,
+    locale: str | None,
+    source_trust: int,
+) -> Fact | None:
+    code = (subject_identifier or "").strip().upper()
+    if not code:
+        return None
+    context = " ".join((document.title or "", document.text[:1200])).upper()
+    if not re.search(rf"(?<![A-Z0-9]){re.escape(code)}(?![A-Z0-9])", context):
+        return None
+    scored: list[tuple[int, Segment]] = []
+    for segment in document.segments:
+        if segment.element_type not in {"p", "li", "dd"}:
+            continue
+        text = " ".join(segment.text.split())
+        lowered = text.casefold()
+        if not 25 <= len(text) <= MAX_EXCERPT:
+            continue
+        if any(
+            marker in lowered
+            for marker in ("cookie", "privacy", "marketing information", "sign in")
+        ):
+            continue
+        score = 0
+        if any(marker in lowered for marker in (" indicates ", " means ", " detected ")):
+            score += 60
+        if any(marker in lowered for marker in ("caused by", "reason for this error", "most common reason")):
+            score += 35
+        if re.search(rf"(?<![A-Z0-9]){re.escape(code)}(?![A-Z0-9])", text.upper()):
+            score += 25
+        heading = (segment.heading or "").upper()
+        if re.search(rf"(?<![A-Z0-9]){re.escape(code)}(?![A-Z0-9])", heading):
+            score += 15
+        if score:
+            scored.append((score, segment))
+    if not scored:
+        return None
+    _, segment = max(scored, key=lambda item: (item[0], -len(item[1].text)))
+    return _fact(
+        "error_code",
+        "meaning",
+        {"code": code, "meaning": " ".join(segment.text.split())},
+        segment,
+        subject_hint,
+        locale,
+        source_trust,
+        structured=True,
+    )
 
 
 def _fact(
@@ -356,8 +428,13 @@ def deduplicate_and_conflict(facts: list[Fact]) -> list[Fact]:
     unique = {fact.input_hash: fact for fact in facts}
     grouped = {}
     for fact in unique.values():
+        discriminator = (
+            fact.value.get("step_number")
+            if fact.fact_type == "guide_step" and isinstance(fact.value, dict)
+            else None
+        )
         key = json.dumps(
-            [fact.subject_hint, fact.fact_type, fact.predicate, fact.locale],
+            [fact.subject_hint, fact.fact_type, fact.predicate, fact.locale, discriminator],
             sort_keys=True,
         )
         grouped.setdefault(key, []).append(fact)

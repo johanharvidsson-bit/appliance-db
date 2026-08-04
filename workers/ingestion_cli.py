@@ -167,6 +167,7 @@ def run(args):
                     subject_hint=f"{item['entity_type']}:{item['entity_id']}",
                     locale=item.get("locale"),
                     source_trust=item.get("confidence", 50),
+                    subject_identifier=item.get("subject_identifier"),
                 )
                 totals["fetched"] += 1
                 totals["documents"] += 1

@@ -80,6 +80,14 @@ URL and immutable content hash. The included Yamaha record registers only the
 official manual portal as a discovery source. It deliberately creates no fault
 code because the portal does not identify one without an exact manual search.
 
+The first evidence pilot is in
+`data/pilots/yamaha-f150a-fl150a-check-engine.sql`. It is based on Yamaha manual
+63P-28199-85-M0, applies only to F150A/FL150A, and records the `CHECK ENGINE`
+display warning as `draft/needs_review`. The evidence points to PDF page 36,
+printed page 30. Applying the pilot must leave `editorial_approval_required` as
+its only blocker and must leave the public API unchanged until a human approves
+the wording.
+
 ## Verification
 
 ```bash

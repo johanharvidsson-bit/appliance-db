@@ -58,6 +58,16 @@ test('fault-code publication is gated and workers use a private role', async () 
   assert.match(migration, /REVOKE ALL ON FUNCTION rb_claim_worker_job/)
 })
 
+test('Yamaha pilot remains draft with exact models and source locator', async () => {
+  const pilot = await read('../data/pilots/yamaha-f150a-fl150a-check-engine.sql')
+  assert.match(pilot, /'F150A', 'FL150A'/)
+  assert.match(pilot, /'CHECK ENGINE'/)
+  assert.match(pilot, /'needs_review', 'draft'/)
+  assert.match(pilot, /PDF page 36; printed page 30/)
+  assert.match(pilot, /eac1fd00adc939e2f20ed7fbe5375543e221522e1b27d3bb32097631bf384237/)
+  assert.doesNotMatch(pilot, /editorial_review_state[^;]+approved/s)
+})
+
 test('production operations include backup, restore and health timers', async () => {
   for (const name of ['backup.sh', 'restore-check.sh', 'healthcheck.sh']) {
     const script = await read(`../ops/${name}`)

@@ -23,6 +23,18 @@ export async function resolveRequest(pathname, modelsRepository = repository) {
     return { type: 'json', body: { status: 'ok', service: 'outboardrepairbase-web', dataSource: modelsRepository.source } }
   }
   if (pathname === '/api/models') return { type: 'json', body: await modelsRepository.listPublished() }
+  if (pathname === '/api/error-codes') {
+    return { type: 'json', body: modelsRepository.listPublishedFaultCodes ? await modelsRepository.listPublishedFaultCodes() : [] }
+  }
+  const faultCodeMatch = pathname.match(/^\/api\/error-codes\/([^/]+)$/)
+  if (faultCodeMatch) {
+    const faultCode = modelsRepository.findPublishedFaultCodeBySlug
+      ? await modelsRepository.findPublishedFaultCodeBySlug(faultCodeMatch[1])
+      : null
+    return faultCode
+      ? { type: 'json', body: faultCode }
+      : { type: 'json', status: 404, body: { error: 'Error code not found' } }
+  }
   if (pathname === '/api/brands') {
     const models = await modelsRepository.listPublished()
     const brands = [...new Set(models.map((model) => model.brand))].map((brand) => ({

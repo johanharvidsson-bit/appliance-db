@@ -6,6 +6,7 @@ services:
       POSTGRES_USER: repairbase_dev
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-local-outboard-only}
       OUTBOARD_DB_APP_PASSWORD: ${OUTBOARD_DB_APP_PASSWORD:-local-outboard-app-only}
+      OUTBOARD_DB_WORKER_PASSWORD: ${OUTBOARD_DB_WORKER_PASSWORD:-local-outboard-worker-only}
     ports:
       - "127.0.0.1:55432:5432"
     volumes:
@@ -15,6 +16,7 @@ services:
       - ../db/migrations/011_repairbase_catalog_applicability.sql:/docker-entrypoint-initdb.d/011-repairbase-catalog.sql:ro
       - ../db/migrations/012_repairbase_evidence_specifications.sql:/docker-entrypoint-initdb.d/012-repairbase-evidence.sql:ro
       - ../db/migrations/013_repairbase_localization_publication.sql:/docker-entrypoint-initdb.d/013-repairbase-publication.sql:ro
+      - ../db/migrations/014_outboard_fault_code_workflow.sql:/docker-entrypoint-initdb.d/014-outboard-fault-code-workflow.sql:ro
       - ./sql/seed-staging.sql:/docker-entrypoint-initdb.d/020-outboard-seed.sql:ro
       - ./sql/030-runtime-grants.sql:/docker-entrypoint-initdb.d/030-runtime-grants.sql:ro
     healthcheck:
@@ -33,6 +35,19 @@ services:
       PGPASSWORD: ${OUTBOARD_DB_APP_PASSWORD:-local-outboard-app-only}
     ports:
       - "127.0.0.1:4324:4323"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  worker:
+    build: .
+    command: ["node", "worker.mjs"]
+    environment:
+      PGHOST: postgres
+      PGDATABASE: outboardrepairbase_dev
+      PGUSER: outboard_worker
+      PGPASSWORD: ${OUTBOARD_DB_WORKER_PASSWORD:-local-outboard-worker-only}
+      OUTBOARD_WORKER_POLL_MS: 1000
     depends_on:
       postgres:
         condition: service_healthy

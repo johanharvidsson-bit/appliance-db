@@ -7,6 +7,7 @@ services:
       POSTGRES_USER: ${OUTBOARD_DB_ADMIN_USER:?set OUTBOARD_DB_ADMIN_USER}
       POSTGRES_PASSWORD: ${OUTBOARD_DB_ADMIN_PASSWORD:?set OUTBOARD_DB_ADMIN_PASSWORD}
       OUTBOARD_DB_APP_PASSWORD: ${OUTBOARD_DB_APP_PASSWORD:?set OUTBOARD_DB_APP_PASSWORD}
+      OUTBOARD_DB_WORKER_PASSWORD: ${OUTBOARD_DB_WORKER_PASSWORD:?set OUTBOARD_DB_WORKER_PASSWORD}
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./sql/000-runtime-role.sh:/docker-entrypoint-initdb.d/000-runtime-role.sh:ro
@@ -14,6 +15,7 @@ services:
       - ../db/migrations/011_repairbase_catalog_applicability.sql:/docker-entrypoint-initdb.d/011-repairbase-catalog.sql:ro
       - ../db/migrations/012_repairbase_evidence_specifications.sql:/docker-entrypoint-initdb.d/012-repairbase-evidence.sql:ro
       - ../db/migrations/013_repairbase_localization_publication.sql:/docker-entrypoint-initdb.d/013-repairbase-publication.sql:ro
+      - ../db/migrations/014_outboard_fault_code_workflow.sql:/docker-entrypoint-initdb.d/014-outboard-fault-code-workflow.sql:ro
       - ./sql/seed-staging.sql:/docker-entrypoint-initdb.d/020-outboard-seed.sql:ro
       - ./sql/030-runtime-grants.sql:/docker-entrypoint-initdb.d/030-runtime-grants.sql:ro
     healthcheck:
@@ -58,6 +60,31 @@ services:
     stop_grace_period: 15s
     logging: *bounded-logging
     networks: [database, edge]
+
+  worker:
+    build:
+      context: .
+    command: ["node", "worker.mjs"]
+    restart: unless-stopped
+    environment:
+      PGHOST: postgres
+      PGPORT: 5432
+      PGDATABASE: ${OUTBOARD_DB_NAME:?set OUTBOARD_DB_NAME}
+      PGUSER: outboard_worker
+      PGPASSWORD: ${OUTBOARD_DB_WORKER_PASSWORD:?set OUTBOARD_DB_WORKER_PASSWORD}
+      OUTBOARD_WORKER_POLL_MS: 5000
+    depends_on:
+      postgres:
+        condition: service_healthy
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    stop_grace_period: 15s
+    logging: *bounded-logging
+    networks: [database]
 
   caddy:
     image: caddy:2.10-alpine

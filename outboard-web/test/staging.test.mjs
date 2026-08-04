@@ -41,7 +41,21 @@ test('staging compose bounds logs and keeps restart policies', async () => {
   const compose = await read('../compose.staging.yaml')
   assert.match(compose, /max-size: "10m"/)
   assert.match(compose, /max-file: "3"/)
-  assert.equal((compose.match(/restart: unless-stopped/g) ?? []).length, 3)
+  assert.equal((compose.match(/restart: unless-stopped/g) ?? []).length, 4)
+})
+
+test('fault-code publication is gated and workers use a private role', async () => {
+  const compose = await read('../compose.staging.yaml')
+  const migration = await read('../../db/migrations/014_outboard_fault_code_workflow.sql')
+  assert.match(compose, /PGUSER: outboard_worker/)
+  assert.match(compose, /014-outboard-fault-code-workflow\.sql/)
+  assert.match(migration, /missing_description/)
+  assert.match(migration, /verified_source_required/)
+  assert.match(migration, /applicability_required/)
+  assert.match(migration, /editorial_approval_required/)
+  assert.match(migration, /FOR UPDATE SKIP LOCKED/)
+  assert.match(migration, /idempotency_key TEXT NOT NULL UNIQUE/)
+  assert.match(migration, /REVOKE ALL ON FUNCTION rb_claim_worker_job/)
 })
 
 test('production operations include backup, restore and health timers', async () => {

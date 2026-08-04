@@ -78,6 +78,24 @@ export function createModelRepository({ connectionString = process.env.DATABASE_
       const result = await pool.query(`${baseQuery} AND p.slug = $1 LIMIT 1`, [slug])
       return result.rows[0] ? toPublicModel(result.rows[0]) : null
     },
+    async listPublishedFaultCodes() {
+      const result = await pool.query(`
+        SELECT fc.fault_code_key AS slug, fc.display_code AS code,
+               fc.title, fc.description, b.canonical_name AS brand
+        FROM rb_public_fault_codes fc
+        JOIN rb_brands b ON b.brand_id = fc.brand_id
+        ORDER BY b.canonical_name, fc.normalized_code`)
+      return result.rows
+    },
+    async findPublishedFaultCodeBySlug(slug) {
+      const result = await pool.query(`
+        SELECT fc.fault_code_key AS slug, fc.display_code AS code,
+               fc.title, fc.description, b.canonical_name AS brand
+        FROM rb_public_fault_codes fc
+        JOIN rb_brands b ON b.brand_id = fc.brand_id
+        WHERE fc.fault_code_key = $1 LIMIT 1`, [slug])
+      return result.rows[0] || null
+    },
     async health() {
       await pool.query('SELECT 1')
       return true

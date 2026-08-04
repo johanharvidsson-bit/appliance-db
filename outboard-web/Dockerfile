@@ -7,7 +7,7 @@ FROM node:22-alpine
 ENV NODE_ENV=production OUTBOARD_HOST=0.0.0.0 OUTBOARD_PORT=4323
 WORKDIR /app
 COPY --from=dependencies /app/node_modules ./node_modules
-COPY --chown=node:node package.json server.mjs database.mjs ./
+COPY --chown=node:node package.json server.mjs database.mjs worker.mjs ./
 COPY --chown=node:node public ./public
 COPY --chown=node:node data ./data
 USER node

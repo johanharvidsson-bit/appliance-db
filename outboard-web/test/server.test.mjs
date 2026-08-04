@@ -33,6 +33,18 @@ test('builds brand endpoints from published model records', async () => {
   assert.equal((await resolveRequest('/brands/yamaha/')).file, 'index.html')
 })
 
+test('only returns error codes supplied by the publication-gated repository', async () => {
+  const published = { slug: 'yamaha-33', code: '33', title: 'Ignition system fault', description: 'Verified description', brand: 'Yamaha' }
+  const repository = {
+    source: 'postgresql',
+    async listPublishedFaultCodes() { return [published] },
+    async findPublishedFaultCodeBySlug(slug) { return slug === published.slug ? published : null },
+  }
+  assert.deepEqual((await resolveRequest('/api/error-codes', repository)).body, [published])
+  assert.deepEqual((await resolveRequest('/api/error-codes/yamaha-33', repository)).body, published)
+  assert.equal((await resolveRequest('/api/error-codes/incomplete', repository)).status, 404)
+})
+
 test('serves staging safety headers', async (context) => {
   const server = startServer(0)
   context.after(() => server.close())

@@ -44,7 +44,7 @@ port defaults to 18081 so this stack can coexist with an existing port-80
 reverse proxy on the VPS. `www` redirects permanently to the apex hostname.
 
 On the first start, PostgreSQL applies the isolated `rb_*` RepairBase migrations
-011–013, the staging seed, and the least-privilege runtime grants. The legacy
+011–014, the staging seed, and the least-privilege runtime grants. The legacy
 Appliance schema is deliberately not loaded into this database. Init scripts
 do not rerun against an existing volume. Later schema changes therefore need an
 explicit migration command; do not recreate the volume to migrate real data.
@@ -53,6 +53,18 @@ The app connects as `outboard_app`, which only has `SELECT` on the six `rb_*`
 tables used by the public catalogue query. PostgreSQL has no published host
 port. Only Caddy exposes 80/443. The web container is read-only, drops Linux
 capabilities, and cannot write domain data.
+
+The separate `outboard_worker` role can only claim, assess, complete, and fail
+jobs through narrowly granted database functions. The first worker evaluates
+fault-code publication readiness. It never promotes a record to `published`.
+Incomplete records remain in `rb_fault_codes`, while the public API reads only
+`rb_public_fault_codes` and therefore hides records with missing title, a
+description shorter than 80 characters, no verified supporting source, no
+positive applicability rule, missing editorial approval, or a source conflict.
+
+Worker jobs use a unique idempotency key, expiring leases with `FOR UPDATE SKIP
+LOCKED`, bounded retries, and a terminal `dead` state. Changes to fault-code
+content, evidence, or applicability automatically enqueue a new assessment.
 
 ## Verification
 
@@ -127,7 +139,7 @@ database and is not a production replacement command.
 
 ## Boundaries
 
-This delivery does not merge the separate PR 2A–2D worker migration line,
-publish production content, configure production DNS, run a scheduler, or add
-error-code/guide authoring. Reconciling the overlapping migration histories is
-a separate prerequisite before workers can write into the shared `rb_*` model.
+This delivery does not merge the separate Appliance/Supabase worker migration
+line or publish production content. The Outboard worker is deliberately small
+and PostgreSQL-native; source discovery, ingestion and editorial UI remain
+future deliveries.

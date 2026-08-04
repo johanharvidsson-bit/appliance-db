@@ -28,7 +28,7 @@ compose exec -T postgres sh -c \
   < "$backup"
 
 result=$(compose exec -T postgres sh -c \
-  'psql -U "$POSTGRES_USER" -d "$1" -Atc "SELECT (SELECT count(*) FROM rb_engine_models),(SELECT count(*) FROM rb_pages),(SELECT count(*) FROM schema_migrations WHERE version IN ('"'"'011'"'"','"'"'012'"'"','"'"'013'"'"'));"' \
+  'psql -U "$POSTGRES_USER" -d "$1" -Atc "SELECT (SELECT count(*) FROM rb_engine_models),(SELECT count(*) FROM rb_pages),(SELECT count(*) FROM schema_migrations WHERE version IN ('"'"'011'"'"','"'"'012'"'"','"'"'013'"'"','"'"'014'"'"'));"' \
   sh "$test_db")
 
 models=$(printf '%s' "$result" | cut -d '|' -f 1)
@@ -36,5 +36,5 @@ pages=$(printf '%s' "$result" | cut -d '|' -f 2)
 migrations=$(printf '%s' "$result" | cut -d '|' -f 3)
 test "$models" -ge 1
 test "$pages" -ge 1
-test "$migrations" -eq 3
+test "$migrations" -eq 4
 printf 'restore-check ok: models=%s pages=%s migrations=%s\n' "$models" "$pages" "$migrations"

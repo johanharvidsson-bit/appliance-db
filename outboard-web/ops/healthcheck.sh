@@ -9,7 +9,7 @@ compose() {
   docker compose --project-name outboardrepairbase --env-file "$env_file" -f "$compose_file" "$@"
 }
 
-for service in postgres web caddy; do
+for service in postgres web worker caddy; do
   container=$(compose ps -q "$service")
   test -n "$container"
   running=$(docker inspect --format '{{.State.Running}}' "$container")

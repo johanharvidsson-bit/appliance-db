@@ -104,6 +104,23 @@ def parser() -> argparse.ArgumentParser:
     assembly.add_argument("--reassemble", action="store_true")
     assembly.add_argument("--fixture", type=Path)
     assembly.add_argument("--output-dir", type=Path, default=Path("reports/content-assembly"))
+    validation = sub.add_parser("content-validation", help="validate immutable content drafts")
+    validation.add_argument("--site", required=True)
+    validation.add_argument("--environment", default="development", choices=("development","staging","production"))
+    validation.add_argument("--dry-run", action="store_true")
+    validation.add_argument("--batch-size", type=int, default=25)
+    validation.add_argument("--draft-id", type=int)
+    validation.add_argument("--backlog-id", type=int)
+    validation.add_argument("--entity-type")
+    validation.add_argument("--locale")
+    validation.add_argument("--draft-type")
+    validation.add_argument("--risk-level", choices=("low","medium","high","safety_review"))
+    validation.add_argument("--result", choices=("pass","needs_review","fail"))
+    validation.add_argument("--ruleset", default="content_validation_v1")
+    validation.add_argument("--revalidate", action="store_true")
+    validation.add_argument("--include-blocked", action="store_true")
+    validation.add_argument("--fixture", type=Path)
+    validation.add_argument("--output-dir", type=Path, default=Path("reports/content-validation"))
     return root
 
 
@@ -123,6 +140,9 @@ def main(argv: list[str] | None = None) -> int:
         return run(args)
     if args.worker == "content-assembly":
         from workers.assembly_cli import run
+        return run(args)
+    if args.worker == "content-validation":
+        from workers.validation_cli import run
         return run(args)
     if args.batch_size < 1:
         raise SystemExit("--batch-size must be positive")

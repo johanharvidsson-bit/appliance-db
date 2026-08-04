@@ -2,14 +2,10 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
-from datetime import datetime, timezone
 import hashlib
 import json
 from pathlib import Path
 from typing import Any
-from uuid import uuid4
-
-import psycopg2
 
 
 WORKER_NAME = "cube-coverage"
@@ -136,7 +132,7 @@ class CoverageEngine:
                     add("error_code_missing_translation", "error_code", code["id"], locale, {})
                 elif has_placeholder(row.get("title"), row.get("description")):
                     add("error_code_placeholder_content", "error_code", code["id"], locale, {})
-                elif not meaningful(row.get("title") or row.get("description")):
+                elif not meaningful(row.get("description")):
                     add("error_code_missing_description", "error_code", code["id"], locale, {})
 
         fault_trans = {(x["fault_id"], x["locale"]): x for x in data.get("fault_translations", []) if x.get("publication_status") == "published"}

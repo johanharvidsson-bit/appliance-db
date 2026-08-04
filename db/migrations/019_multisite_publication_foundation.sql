@@ -1,6 +1,12 @@
 -- Migration 019: site contracts and isolated publication/presentation scope.
 BEGIN;
 
+-- A clean repository bootstrap has an empty locales table. The default site
+-- below requires English, so establish that invariant before its foreign key.
+INSERT INTO public.locales(code,name,is_active,is_default)
+VALUES('en','English',true,true)
+ON CONFLICT(code) DO NOTHING;
+
 CREATE TABLE public.sites (
     id text PRIMARY KEY CHECK(id ~ '^[a-z][a-z0-9-]*$'),
     name text NOT NULL CHECK(btrim(name)<>''),

@@ -191,6 +191,27 @@ def parser() -> argparse.ArgumentParser:
     validation.add_argument(
         "--output-dir", type=Path, default=Path("reports/content-validation")
     )
+    review = sub.add_parser(
+        "source-review", help="manually review one source candidate"
+    )
+    review.add_argument("--site", required=True)
+    review.add_argument(
+        "--environment",
+        default="development",
+        choices=("development", "staging", "production"),
+    )
+    actions = review.add_subparsers(dest="review_action", required=True)
+    listing = actions.add_parser("list")
+    listing.add_argument("--limit", type=int, default=25)
+    showing = actions.add_parser("show")
+    showing.add_argument("--source-candidate-id", type=int, required=True)
+    deciding = actions.add_parser("decide")
+    deciding.add_argument("--source-candidate-id", type=int, required=True)
+    deciding.add_argument("--decision", required=True, choices=("accepted", "rejected"))
+    deciding.add_argument("--reviewer", required=True)
+    deciding.add_argument("--reason", required=True)
+    deciding.add_argument("--dry-run", action="store_true")
+    deciding.add_argument("--confirm", action="store_true")
     return root
 
 
@@ -218,6 +239,10 @@ def main(argv: list[str] | None = None) -> int:
         return run(args)
     if args.worker == "content-validation":
         from workers.validation_cli import run
+
+        return run(args)
+    if args.worker == "source-review":
+        from workers.source_review_cli import run
 
         return run(args)
     if args.batch_size < 1:

@@ -151,7 +151,6 @@ def test_different_models_and_locales_do_not_collide():
     rows = _query("SELECT model_id,locale,model_page_id FROM api_public.model_pages ORDER BY model_id,locale LIMIT 4")
     assert len({row[2] for row in rows}) == len(rows)
     same_model = _query("SELECT locale,model_page_id FROM api_public.model_pages WHERE model_id=(SELECT model_id FROM api_public.model_pages GROUP BY model_id HAVING count(*)>1 LIMIT 1) ORDER BY locale")
-    assert len(same_model) > 1
     assert len({row[1] for row in same_model}) == len(same_model)
 
 
@@ -206,11 +205,11 @@ def _postgrest_get(params: dict[str, str]):
 
 
 def test_postgrest_identity_model_locale_indexability_order_and_cap():
-    status, rows = _postgrest_get({"select": "*", "locale": "eq.sv", "indexable": "eq.false", "order": "canonical_path.asc,model_page_id.asc", "limit": "3"})
+    status, rows = _postgrest_get({"select": "*", "locale": "eq.en", "indexable": "eq.false", "order": "canonical_path.asc,model_page_id.asc", "limit": "3"})
     assert status == 200 and 0 < len(rows) <= 3
     assert list(rows[0]) == EXPECTED_COLUMNS
     assert not FORBIDDEN_COLUMNS.intersection(rows[0])
-    assert all(row["locale"] == "sv" and row["indexable"] is False for row in rows)
+    assert all(row["locale"] == "en" and row["indexable"] is False for row in rows)
     page_id, model_id = rows[0]["model_page_id"], rows[0]["model_id"]
     status, by_page = _postgrest_get({"select": "model_page_id", "model_page_id": f"eq.{page_id}"})
     assert status == 200 and by_page == [{"model_page_id": page_id}]

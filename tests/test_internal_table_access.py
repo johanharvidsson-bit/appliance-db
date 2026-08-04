@@ -11,7 +11,37 @@ import psycopg2
 import pytest
 
 
-INTERNAL_TABLES = ("scrape_jobs", "schema_migrations")
+INTERNAL_TABLES = (
+    "scrape_jobs",
+    "schema_migrations",
+    "worker_runs",
+    "cube_scope_snapshots",
+    "cube_coverage_observations",
+    "findings",
+    "content_backlog",
+    "source_candidates",
+    "source_candidate_reviews",
+    "source_discovery_cache",
+    "source_fetches",
+    "source_documents",
+    "candidate_facts",
+    "candidate_fact_evidence",
+    "integration_proposals",
+    "integration_proposal_targets",
+    "integration_proposal_evidence",
+    "integration_proposal_conflicts",
+    "integration_apply_attempts",
+    "integration_apply_changes",
+    "content_drafts",
+    "content_draft_sections",
+    "content_draft_evidence",
+    "content_draft_issues",
+    "content_validation_runs",
+    "content_validation_results",
+    "content_claim_checks",
+    "content_safety_findings",
+    "content_duplication_findings",
+)
 FRONTEND_TABLES = (
     "brands",
     "categories",

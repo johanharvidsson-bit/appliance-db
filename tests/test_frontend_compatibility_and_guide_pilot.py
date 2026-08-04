@@ -24,9 +24,9 @@ def _dsn() -> str:
 def _seed_error_code() -> int:
     with psycopg2.connect(_dsn()) as connection:
         with connection.cursor() as cursor:
-            cursor.execute("SELECT id FROM brands WHERE slug='brand-1'")
+            cursor.execute("SELECT id FROM brands WHERE is_active ORDER BY id LIMIT 1")
             brand_id = cursor.fetchone()[0]
-            cursor.execute("SELECT id FROM categories WHERE slug_en='category-1'")
+            cursor.execute("SELECT id FROM categories WHERE is_active ORDER BY id LIMIT 1")
             category_id = cursor.fetchone()[0]
             cursor.execute(
                 "INSERT INTO error_codes(brand_id,category_id,code) VALUES(%s,%s,'E10') "
@@ -69,7 +69,8 @@ def test_api_contract_has_only_safe_projection_columns():
 
 def test_candidate_rows_never_appear_in_public_views():
     _seed_error_code()
-    result = persist_guide_pilot(load_pilot(FIXTURE), dsn=_dsn())
+    payload = {**load_pilot(FIXTURE), "brand_slug": "samsung", "category_slug": "washing_machine"}
+    result = persist_guide_pilot(payload, dsn=_dsn())
     if not result["published"]:
         rows = _query_as("anon", "SELECT guide_id FROM api_public.guides_v1 WHERE slug='synthetic-e10-safe-checks'")
         if rows:
@@ -81,7 +82,7 @@ def test_candidate_rows_never_appear_in_public_views():
 
 def test_reviewed_guide_is_reused_and_visible_without_placeholders():
     _seed_error_code()
-    payload = load_pilot(FIXTURE)
+    payload = {**load_pilot(FIXTURE), "brand_slug": "samsung", "category_slug": "washing_machine"}
     first = persist_guide_pilot(payload, dsn=_dsn())
     second = persist_guide_pilot(payload, dsn=_dsn())
     assert first["guide_id"] == second["guide_id"]

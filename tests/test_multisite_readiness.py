@@ -13,12 +13,27 @@ from pipeline.site_platform import SitePlatform
 CONTRACT_PATH = Path("site_templates/example-next-site.json")
 
 
+def test_clean_bootstrap_seeds_default_locale_before_site():
+    sql = (
+        Path(__file__).parents[1]
+        / "db/migrations/019_multisite_publication_foundation.sql"
+    ).read_text(encoding="utf-8")
+    assert sql.index("INSERT INTO public.locales") < sql.index(
+        "INSERT INTO public.sites"
+    )
+    assert "ON CONFLICT(code) DO NOTHING" in sql
+
+
 def _dsn() -> str:
     value = os.getenv("REPAIRBASE_SECURITY_TEST_DB_URL")
     if not value:
         pytest.skip("explicit dev integration DSN not set")
     parsed = urlparse(value)
-    if parsed.hostname not in {"127.0.0.1", "localhost"} or parsed.port != 15432 or parsed.path != "/repair_appliance_dev":
+    if (
+        parsed.hostname not in {"127.0.0.1", "localhost"}
+        or parsed.port != 15432
+        or parsed.path != "/repair_appliance_dev"
+    ):
         pytest.fail("multisite tests require isolated loopback dev database")
     return value
 
@@ -45,45 +60,79 @@ def test_starter_contract_is_valid_and_rejects_unsafe_shapes():
 
 def test_synthetic_site_registration_publication_and_sitemap_are_isolated():
     contract = json.loads(CONTRACT_PATH.read_text(encoding="utf-8"))
+    with psycopg2.connect(_dsn()) as connection:
+        with connection.cursor() as cursor:
+            cursor.execute(
+                "INSERT INTO locales(code,name,is_active,is_default) VALUES('sv','Swedish',true,false) "
+                "ON CONFLICT(code) DO NOTHING"
+            )
     platform = SitePlatform(_dsn())
     assert platform.register(contract, activate=False) == contract["site_id"]
     assert platform.register(contract, activate=True) == contract["site_id"]
     assert platform.register(contract, activate=True) == contract["site_id"]
     with psycopg2.connect(_dsn()) as connection:
         with connection.cursor() as cursor:
-            cursor.execute("SELECT id FROM models ORDER BY id LIMIT 1")
+            cursor.execute(
+                "SELECT m.id FROM models m "
+                "JOIN brands b ON b.id=m.brand_id AND b.is_active "
+                "JOIN categories c ON c.id=m.category_id AND c.is_active "
+                "JOIN api_public_identities i ON i.resource_type='model' AND i.source_id=m.id "
+                "ORDER BY m.id LIMIT 1"
+            )
             model_id = cursor.fetchone()[0]
+    model_path = f"/example/models/model-{model_id}/"
+    model_url = f"http://127.0.0.1:18080{model_path}"
     result = platform.publish_model(
         site_id=contract["site_id"],
         locale="en",
         model_id=model_id,
-        normalized_url="http://127.0.0.1:18080/example/models/model-1/",
-        path="/example/models/model-1/",
+        normalized_url=model_url,
+        path=model_path,
         reviewed_by="multisite-test",
     )
     repeat = platform.publish_model(
         site_id=contract["site_id"],
         locale="en",
         model_id=model_id,
-        normalized_url="http://127.0.0.1:18080/example/models/model-1/",
-        path="/example/models/model-1/",
+        normalized_url=model_url,
+        path=model_path,
         reviewed_by="multisite-test",
     )
     assert repeat["publication_id"] == result["publication_id"]
     with psycopg2.connect(_dsn()) as connection:
         with connection.cursor() as cursor:
-            cursor.execute("SELECT public_id FROM api_public_identities WHERE resource_type='model' AND source_id=%s", (model_id,))
+            cursor.execute(
+                "SELECT public_id FROM api_public_identities WHERE resource_type='model' AND source_id=%s",
+                (model_id,),
+            )
             public_model_id = cursor.fetchone()[0]
-    rows = _query_as("anon", "SELECT site_id,canonical_path,indexable FROM api_public.site_models_v1 WHERE model_id=%s", (public_model_id,))
-    assert (contract["site_id"], "/example/models/model-1/", True) in rows
-    assert not any(row[0] == "appliance-repair-base" for row in rows)
-    sitemap = _query_as("anon", "SELECT site_id,canonical_path FROM api_public.site_sitemap_entries_v1")
-    assert (contract["site_id"], "/example/models/model-1/") in sitemap
-    assert not any(site == "appliance-repair-base" and path == "/example/models/model-1/" for site, path in sitemap)
+    rows = _query_as(
+        "anon",
+        "SELECT site_id,canonical_path,indexable FROM api_public.site_models_v1 WHERE model_id=%s",
+        (public_model_id,),
+    )
+    assert (contract["site_id"], model_path, True) in rows
+    assert not any(
+        row[0] == "appliance-repair-base" and row[1] == model_path for row in rows
+    )
+    sitemap = _query_as(
+        "anon", "SELECT site_id,canonical_path FROM api_public.site_sitemap_entries_v1"
+    )
+    assert (contract["site_id"], model_path) in sitemap
+    assert not any(
+        site == "appliance-repair-base" and path == model_path
+        for site, path in sitemap
+    )
 
 
 def test_cross_site_canonical_is_rejected_and_tables_are_internal():
     contract = json.loads(CONTRACT_PATH.read_text(encoding="utf-8"))
+    with psycopg2.connect(_dsn()) as connection:
+        with connection.cursor() as cursor:
+            cursor.execute(
+                "INSERT INTO locales(code,name,is_active,is_default) VALUES('sv','Swedish',true,false) "
+                "ON CONFLICT(code) DO NOTHING"
+            )
     SitePlatform(_dsn()).register(contract, activate=True)
     with psycopg2.connect(_dsn()) as connection:
         with connection.cursor() as cursor:
@@ -107,9 +156,14 @@ def test_cross_site_canonical_is_rejected_and_tables_are_internal():
     with psycopg2.connect(_dsn()) as connection:
         with connection.cursor() as cursor:
             for table in ("sites", "site_locales", "site_entity_publications"):
-                cursor.execute("SELECT has_table_privilege('anon',%s,'SELECT,INSERT,UPDATE,DELETE')", (table,))
+                cursor.execute(
+                    "SELECT has_table_privilege('anon',%s,'SELECT,INSERT,UPDATE,DELETE')",
+                    (table,),
+                )
                 assert cursor.fetchone()[0] is False
-                cursor.execute("SELECT has_table_privilege('service_role',%s,'DELETE')", (table,))
+                cursor.execute(
+                    "SELECT has_table_privilege('service_role',%s,'DELETE')", (table,)
+                )
                 assert cursor.fetchone()[0] is False
 
 

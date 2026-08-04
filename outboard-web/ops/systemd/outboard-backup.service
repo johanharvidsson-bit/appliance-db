@@ -1,0 +1,11 @@
+[Unit]
+Description=OutboardRepairBase PostgreSQL backup
+Requires=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/outboardrepairbase/current/outboard-web/ops/backup.sh
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7

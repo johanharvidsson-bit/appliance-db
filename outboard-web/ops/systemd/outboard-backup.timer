@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily OutboardRepairBase PostgreSQL backup
+
+[Timer]
+OnCalendar=*-*-* 02:15:00 UTC
+Persistent=true
+RandomizedDelaySec=10m
+
+[Install]
+WantedBy=timers.target

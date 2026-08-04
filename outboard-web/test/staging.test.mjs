@@ -36,3 +36,24 @@ test('staging seed remains noindex and contains only outboard records', async ()
   assert.match(seed, /editorial_hold/)
   assert.doesNotMatch(seed, /washing.machine|dishwasher|dryer/i)
 })
+
+test('staging compose bounds logs and keeps restart policies', async () => {
+  const compose = await read('../compose.staging.yaml')
+  assert.match(compose, /max-size: "10m"/)
+  assert.match(compose, /max-file: "3"/)
+  assert.equal((compose.match(/restart: unless-stopped/g) ?? []).length, 3)
+})
+
+test('production operations include backup, restore and health timers', async () => {
+  for (const name of ['backup.sh', 'restore-check.sh', 'healthcheck.sh']) {
+    const script = await read(`../ops/${name}`)
+    assert.match(script, /^#!\/bin\/sh/)
+    assert.match(script, /set -eu/)
+  }
+
+  for (const name of ['outboard-backup.timer', 'outboard-restore-check.timer', 'outboard-health.timer']) {
+    const timer = await read(`../ops/systemd/${name}`)
+    assert.match(timer, /\[Timer\]/)
+    assert.match(timer, /Persistent=true/)
+  }
+})

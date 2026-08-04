@@ -4,5 +4,19 @@
     X-Robots-Tag "noindex, nofollow"
     -Server
   }
+  tls {
+    issuer acme {
+      disable_http_challenge
+    }
+  }
   reverse_proxy web:4323
+}
+
+www.{$OUTBOARD_HOSTNAME} {
+  tls {
+    issuer acme {
+      disable_http_challenge
+    }
+  }
+  redir https://{$OUTBOARD_HOSTNAME}{uri} permanent
 }

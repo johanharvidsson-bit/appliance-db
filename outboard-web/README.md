@@ -24,7 +24,7 @@ Requirements:
 
 - Docker Engine with Compose v2
 - DNS A/AAAA record for the staging hostname
-- inbound TCP 80 and 443
+- inbound TCP 443 (port 80 may remain owned by an existing reverse proxy)
 - two independently generated database passwords
 
 Copy this repository to the VPS, then:
@@ -38,6 +38,10 @@ docker compose --env-file .env -f compose.staging.yaml up -d --build
 docker compose --env-file .env -f compose.staging.yaml ps
 curl --fail https://your-staging-host/api/health
 ```
+
+Caddy listens publicly on 443 and uses the TLS-ALPN ACME challenge. Its HTTP
+port defaults to 18081 so this stack can coexist with an existing port-80
+reverse proxy on the VPS. `www` redirects permanently to the apex hostname.
 
 On the first start, PostgreSQL applies `db/schema.sql`, RepairBase migrations
 011–013, the staging seed, and the least-privilege runtime grants. Init scripts

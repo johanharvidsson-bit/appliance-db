@@ -8,8 +8,8 @@ export async function processWorkerJob(client, job, workerName) {
   if (job.job_type !== 'assess_fault_code_readiness' || job.entity_type !== 'fault_code') {
     throw new Error(`Unsupported job ${job.job_type}/${job.entity_type}`)
   }
-  await client.query('SELECT rb_assess_fault_code_readiness($1)', [job.entity_id])
-  await client.query('SELECT rb_complete_worker_job($1, $2)', [job.worker_job_id, workerName])
+  await client.query('SELECT rb_assess_fault_code_readiness($1::bigint)', [job.entity_id])
+  await client.query('SELECT rb_complete_worker_job($1::bigint, $2::text)', [job.worker_job_id, workerName])
 }
 
 export async function runWorker({
@@ -25,7 +25,7 @@ export async function runWorker({
     let job
     try {
       await client.query('BEGIN')
-      const claimed = await client.query('SELECT * FROM rb_claim_worker_job($1, $2)', [workerName, 60])
+      const claimed = await client.query('SELECT * FROM rb_claim_worker_job($1::text, $2::integer)', [workerName, 60])
       job = claimed.rows[0]
       await client.query('COMMIT')
     } catch (error) {
@@ -38,7 +38,7 @@ export async function runWorker({
         await processWorkerJob(client, job, workerName)
         console.log(`Completed worker job ${job.worker_job_id}`)
       } catch (error) {
-        await client.query('SELECT rb_fail_worker_job($1, $2, $3)', [job.worker_job_id, workerName, error.message])
+        await client.query('SELECT rb_fail_worker_job($1::bigint, $2::text, $3::text)', [job.worker_job_id, workerName, error.message])
         console.error(`Failed worker job ${job.worker_job_id}: ${error.message}`)
       }
     }

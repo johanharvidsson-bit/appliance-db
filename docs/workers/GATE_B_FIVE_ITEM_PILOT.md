@@ -15,8 +15,9 @@ URL changes.
 - Frozen scope: Samsung x washing_machine x en
 
 The seed preserves earlier integration-test records but makes them inactive.
-It creates two pilot models and two pilot error codes. One model already has
-specifications. Cube Coverage must therefore produce exactly:
+It creates the exact Samsung models `WF45T6000A` and `WF45B6300AC` plus two
+pilot error codes. `WF45T6000A` already has specifications. Cube Coverage must
+therefore produce exactly:
 
 - 2 `create_model_overview`
 - 1 `enrich_model_specs`

@@ -40,13 +40,13 @@ FROM public.categories c WHERE c.slug_en = 'washing_machine'
 ON CONFLICT(category_id, locale) DO UPDATE SET name = EXCLUDED.name, slug = EXCLUDED.slug;
 
 INSERT INTO public.models(brand_id, category_id, name, slug, base_model, series, release_year)
-SELECT b.id, c.id, v.name, v.slug, v.base_model, 'WF45', 2024
+SELECT b.id, c.id, v.name, v.slug, v.base_model, 'WF45', v.release_year
 FROM public.brands b
 CROSS JOIN public.categories c
 CROSS JOIN (VALUES
-    ('Samsung WF45A', 'wf45a', 'WF45A'),
-    ('Samsung WF45B', 'wf45b', 'WF45B')
-) AS v(name, slug, base_model)
+    ('Samsung WF45T6000A Front Load Washer', 'wf45t6000a', 'WF45T6000A', 2020),
+    ('Samsung WF45B6300AC Front Load Washer', 'wf45b6300ac', 'WF45B6300AC', 2022)
+) AS v(name, slug, base_model, release_year)
 WHERE b.slug = 'samsung' AND c.slug_en = 'washing_machine'
 ON CONFLICT(brand_id, category_id, slug) DO UPDATE
 SET name = EXCLUDED.name, base_model = EXCLUDED.base_model, series = EXCLUDED.series,
@@ -65,11 +65,11 @@ SELECT 'model', m.id,
 FROM public.models m
 JOIN public.api_public_identities bi ON bi.resource_type='brand' AND bi.source_id=m.brand_id
 JOIN public.api_public_identities ci ON ci.resource_type='category' AND ci.source_id=m.category_id
-WHERE m.slug IN ('wf45a', 'wf45b')
+WHERE m.slug IN ('wf45t6000a', 'wf45b6300ac')
 ON CONFLICT(resource_type, source_id) DO NOTHING;
 
 INSERT INTO public.model_specs(model_id, specs)
-SELECT id, '{"capacity_kg": 9}'::jsonb FROM public.models WHERE slug = 'wf45a'
+SELECT id, '{"capacity_kg": 9}'::jsonb FROM public.models WHERE slug = 'wf45t6000a'
 ON CONFLICT(model_id) DO UPDATE SET specs = EXCLUDED.specs;
 
 INSERT INTO public.error_codes(brand_id, category_id, code, short_description, description)
@@ -78,8 +78,7 @@ FROM public.brands b
 CROSS JOIN public.categories c
 CROSS JOIN (VALUES ('4C'), ('5C')) AS v(code)
 WHERE b.slug = 'samsung' AND c.slug_en = 'washing_machine'
-ON CONFLICT(brand_id, category_id, code) DO UPDATE
-SET short_description = NULL, description = NULL;
+ON CONFLICT(brand_id, category_id, code) DO NOTHING;
 
 INSERT INTO public.error_code_translations(error_code_id, locale, title, description, publication_status)
 SELECT ec.id, 'en', ec.code, NULL, 'published'
@@ -87,8 +86,7 @@ FROM public.error_codes ec
 JOIN public.brands b ON b.id = ec.brand_id AND b.slug = 'samsung'
 JOIN public.categories c ON c.id = ec.category_id AND c.slug_en = 'washing_machine'
 WHERE ec.code IN ('4C', '5C')
-ON CONFLICT(error_code_id, locale) DO UPDATE
-SET title = EXCLUDED.title, description = NULL, publication_status = 'published';
+ON CONFLICT(error_code_id, locale) DO NOTHING;
 
 -- Keep unrelated integration-test codes outside the pilot backlog without deleting them.
 INSERT INTO public.error_code_translations(error_code_id, locale, title, description, publication_status)
@@ -108,7 +106,7 @@ SELECT 'appliance-repair-base', 'en', m.id, 'published', false, now(), now(), 'g
 FROM public.models m
 JOIN public.brands b ON b.id = m.brand_id AND b.slug = 'samsung'
 JOIN public.categories c ON c.id = m.category_id AND c.slug_en = 'washing_machine'
-WHERE m.slug IN ('wf45a', 'wf45b')
+WHERE m.slug IN ('wf45t6000a', 'wf45b6300ac')
 ON CONFLICT(site_id, locale, entity_key) DO UPDATE
 SET publication_status = 'published', indexable = false, published_at = now(),
     reviewed_at = now(), reviewed_by = 'gate-b-seed';

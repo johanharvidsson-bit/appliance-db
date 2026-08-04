@@ -66,6 +66,20 @@ Worker jobs use a unique idempotency key, expiring leases with `FOR UPDATE SKIP
 LOCKED`, bounded retries, and a terminal `dead` state. Changes to fault-code
 content, evidence, or applicability automatically enqueue a new assessment.
 
+Register a reviewed source candidate with the one-off importer. Always validate
+the payload first:
+
+```bash
+node source-import.mjs --file data/sources/yamaha-owner-manual-library.json --dry-run
+node source-import.mjs --file data/sources/yamaha-owner-manual-library.json
+```
+
+The importer requires an explicitly supplied PostgreSQL writer connection. It
+uses a transaction and an advisory lock, and is idempotent for both the source
+URL and immutable content hash. The included Yamaha record registers only the
+official manual portal as a discovery source. It deliberately creates no fault
+code because the portal does not identify one without an exact manual search.
+
 ## Verification
 
 ```bash

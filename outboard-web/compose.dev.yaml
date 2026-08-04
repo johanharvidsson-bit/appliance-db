@@ -1,0 +1,41 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: outboardrepairbase_dev
+      POSTGRES_USER: repairbase_dev
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-local-outboard-only}
+      OUTBOARD_DB_APP_PASSWORD: ${OUTBOARD_DB_APP_PASSWORD:-local-outboard-app-only}
+    ports:
+      - "127.0.0.1:55432:5432"
+    volumes:
+      - outboardrepairbase_dev_data:/var/lib/postgresql/data
+      - ./sql/000-runtime-role.sh:/docker-entrypoint-initdb.d/000-runtime-role.sh:ro
+      - ../db/schema.sql:/docker-entrypoint-initdb.d/001-schema.sql:ro
+      - ../db/migrations/011_repairbase_catalog_applicability.sql:/docker-entrypoint-initdb.d/011-repairbase-catalog.sql:ro
+      - ../db/migrations/012_repairbase_evidence_specifications.sql:/docker-entrypoint-initdb.d/012-repairbase-evidence.sql:ro
+      - ../db/migrations/013_repairbase_localization_publication.sql:/docker-entrypoint-initdb.d/013-repairbase-publication.sql:ro
+      - ./sql/seed-staging.sql:/docker-entrypoint-initdb.d/020-outboard-seed.sql:ro
+      - ./sql/030-runtime-grants.sql:/docker-entrypoint-initdb.d/030-runtime-grants.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U repairbase_dev -d outboardrepairbase_dev"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  web:
+    build: .
+    environment:
+      OUTBOARD_HOST: 0.0.0.0
+      PGHOST: postgres
+      PGDATABASE: outboardrepairbase_dev
+      PGUSER: outboard_app
+      PGPASSWORD: ${OUTBOARD_DB_APP_PASSWORD:-local-outboard-app-only}
+    ports:
+      - "127.0.0.1:4324:4323"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  outboardrepairbase_dev_data:

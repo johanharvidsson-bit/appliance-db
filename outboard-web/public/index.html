@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      if (location.protocol === 'file:') location.replace('http://localhost:4323' + location.hash)
+    </script>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="description" content="OutboardRepairBase test catalogue for outboard motors." />
+    <title>OutboardRepairBase — Test catalogue</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="OutboardRepairBase home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>Outboard<span>RepairBase</span></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#brands">Brands</a>
+        <a href="#models">Outboard models</a>
+        <span class="test-pill" id="data-source">Checking data source…</span>
+      </nav>
+    </header>
+
+    <main id="app" aria-live="polite">
+      <section class="loading"><span></span>Loading outboard catalogue…</section>
+    </main>
+
+    <footer>
+      <div><strong>OutboardRepairBase</strong><br />Structured marine engine repair knowledge.</div>
+      <div class="footer-note">Prototype data only · Not for repair decisions</div>
+    </footer>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

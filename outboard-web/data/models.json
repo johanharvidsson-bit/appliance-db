@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "yamaha-f150",
+    "brand": "Yamaha",
+    "model": "F150",
+    "name": "Yamaha F150",
+    "family": "Four-stroke outboard",
+    "horsepower": 150,
+    "fuel": "Gasoline",
+    "years": "Test range 2020–2024",
+    "generation": "Demonstration generation B",
+    "modelYears": [2020, 2021, 2022, 2023, 2024],
+    "status": "Test data",
+    "accent": "#2458a6",
+    "summary": "A structured demonstration record for a 150 hp Yamaha outboard platform. Generation and year details are synthetic until verified source material is attached.",
+    "specifications": [
+      ["Rated output", "150 hp"],
+      ["Engine type", "Four-stroke"],
+      ["Fuel", "Gasoline"],
+      ["Model code", "F150"]
+    ],
+    "sources": ["Demonstration record — not a sourced technical claim"]
+  },
+  {
+    "slug": "mercury-150-fourstroke",
+    "brand": "Mercury",
+    "model": "150 FourStroke",
+    "name": "Mercury 150 FourStroke",
+    "family": "Four-stroke outboard",
+    "horsepower": 150,
+    "fuel": "Gasoline",
+    "years": "Test generation",
+    "generation": "Demonstration generation A",
+    "modelYears": [2023, 2024],
+    "status": "Test data",
+    "accent": "#c8342d",
+    "summary": "A structured demonstration record used to validate the OutboardRepairBase model, specification, and publication flow.",
+    "specifications": [
+      ["Rated output", "150 hp"],
+      ["Engine type", "Four-stroke"],
+      ["Fuel", "Gasoline"],
+      ["Model code", "150-FOURSTROKE"]
+    ],
+    "sources": ["Demonstration record — not a sourced technical claim"]
+  }
+]

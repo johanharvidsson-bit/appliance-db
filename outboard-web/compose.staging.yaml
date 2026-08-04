@@ -1,0 +1,79 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${OUTBOARD_DB_NAME:?set OUTBOARD_DB_NAME}
+      POSTGRES_USER: ${OUTBOARD_DB_ADMIN_USER:?set OUTBOARD_DB_ADMIN_USER}
+      POSTGRES_PASSWORD: ${OUTBOARD_DB_ADMIN_PASSWORD:?set OUTBOARD_DB_ADMIN_PASSWORD}
+      OUTBOARD_DB_APP_PASSWORD: ${OUTBOARD_DB_APP_PASSWORD:?set OUTBOARD_DB_APP_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/000-runtime-role.sh:/docker-entrypoint-initdb.d/000-runtime-role.sh:ro
+      - ../db/schema.sql:/docker-entrypoint-initdb.d/001-schema.sql:ro
+      - ../db/migrations/011_repairbase_catalog_applicability.sql:/docker-entrypoint-initdb.d/011-repairbase-catalog.sql:ro
+      - ../db/migrations/012_repairbase_evidence_specifications.sql:/docker-entrypoint-initdb.d/012-repairbase-evidence.sql:ro
+      - ../db/migrations/013_repairbase_localization_publication.sql:/docker-entrypoint-initdb.d/013-repairbase-publication.sql:ro
+      - ./sql/seed-staging.sql:/docker-entrypoint-initdb.d/020-outboard-seed.sql:ro
+      - ./sql/030-runtime-grants.sql:/docker-entrypoint-initdb.d/030-runtime-grants.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks: [database]
+
+  web:
+    build:
+      context: .
+    restart: unless-stopped
+    environment:
+      OUTBOARD_HOST: 0.0.0.0
+      OUTBOARD_PORT: 4323
+      PGHOST: postgres
+      PGPORT: 5432
+      PGDATABASE: ${OUTBOARD_DB_NAME:?set OUTBOARD_DB_NAME}
+      PGUSER: outboard_app
+      PGPASSWORD: ${OUTBOARD_DB_APP_PASSWORD:?set OUTBOARD_DB_APP_PASSWORD}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:4323/api/health"]
+      interval: 15s
+      timeout: 3s
+      retries: 5
+    networks: [database, edge]
+
+  caddy:
+    image: caddy:2.10-alpine
+    restart: unless-stopped
+    environment:
+      OUTBOARD_HOSTNAME: ${OUTBOARD_HOSTNAME:?set OUTBOARD_HOSTNAME}
+    ports:
+      - "${OUTBOARD_HTTP_PORT:-80}:80"
+      - "${OUTBOARD_HTTPS_PORT:-443}:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      web:
+        condition: service_healthy
+    networks: [edge]
+
+networks:
+  database:
+    internal: true
+  edge:
+
+volumes:
+  postgres_data:
+  caddy_data:
+  caddy_config:

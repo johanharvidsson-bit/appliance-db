@@ -1,0 +1,8 @@
+{$OUTBOARD_HOSTNAME} {
+  encode zstd gzip
+  header {
+    X-Robots-Tag "noindex, nofollow"
+    -Server
+  }
+  reverse_proxy web:4323
+}

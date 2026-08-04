@@ -5,7 +5,6 @@ from datetime import datetime, timezone
 import json
 import os
 from pathlib import Path
-import sys
 from uuid import uuid4
 
 import psycopg2
@@ -76,6 +75,20 @@ def parser() -> argparse.ArgumentParser:
     integration.add_argument("--reprocess", action="store_true")
     integration.add_argument("--fixture", type=Path)
     integration.add_argument("--output-dir", type=Path, default=Path("reports/knowledge-integration"))
+    apply_cmd = sub.add_parser("apply-integration", help="apply manually approved integration proposals")
+    apply_cmd.add_argument("--site", required=True)
+    apply_cmd.add_argument("--environment", default="development", choices=("development","staging","production"))
+    apply_cmd.add_argument("--dry-run", action="store_true")
+    apply_cmd.add_argument("--batch-size", type=int, default=1)
+    apply_cmd.add_argument("--proposal-id", type=int)
+    apply_cmd.add_argument("--proposal-type")
+    apply_cmd.add_argument("--risk-level")
+    apply_cmd.add_argument("--reviewed-by")
+    apply_cmd.add_argument("--max-risk", default="medium", choices=("low","medium"))
+    apply_cmd.add_argument("--retry-failed", action="store_true")
+    apply_cmd.add_argument("--confirm", action="store_true")
+    apply_cmd.add_argument("--fixture", type=Path)
+    apply_cmd.add_argument("--output-dir", type=Path, default=Path("reports/apply-integration"))
     return root
 
 
@@ -89,6 +102,9 @@ def main(argv: list[str] | None = None) -> int:
         return run(args)
     if args.worker == "knowledge-integration":
         from workers.integration_cli import run
+        return run(args)
+    if args.worker == "apply-integration":
+        from workers.apply_cli import run
         return run(args)
     if args.batch_size < 1:
         raise SystemExit("--batch-size must be positive")

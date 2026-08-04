@@ -100,6 +100,15 @@ def test_repository_write_allowlist_excludes_draft_content_tables():
     assert "content_draft_evidence" not in ValidationRepository.WRITABLE_TABLES
 
 
+def test_repository_uses_unambiguous_filtered_section_alias():
+    source = Path(ValidationRepository.__module__.replace(".", "/") + ".py").read_text(
+        encoding="utf-8"
+    )
+    assert "AS draft_sections" in source
+    assert "FILTER (WHERE s.id IS NOT NULL)" in source
+    assert 'section["section_status"] in {"assembled", "needs_review"}' in source
+
+
 def test_summary_counts_outcomes():
     rows = [{"result": validate(0)}, {"result": validate(3)}, {"result": validate(4)}]
     assert _summary(rows, 3)["passed"] == 1

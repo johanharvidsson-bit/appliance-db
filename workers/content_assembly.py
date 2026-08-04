@@ -668,7 +668,9 @@ class AssemblyEngine:
             "content_hash": _hash(rendered),
             "rendered_content": rendered,
             "assembler_version": ASSEMBLER_VERSION,
-            "validation_state": "blocked" if status == "blocked" else "pending",
+            "validation_state": "validation_failed"
+            if status == "blocked"
+            else "pending",
             "review_state": "unreviewed",
             "sections": sections,
             "issues": issues,

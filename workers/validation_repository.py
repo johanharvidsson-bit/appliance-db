@@ -41,7 +41,8 @@ class ValidationRepository:
             SELECT COALESCE(jsonb_agg(jsonb_build_object('id',e.id,'candidate_fact_id',e.candidate_fact_id,
               'source_evidence_id',e.source_evidence_id,'source_document_id',e.source_document_id,
               'entity_id',e.entity_id,'fact_type',e.fact_type,'locator',e.locator_json)),'[]'::jsonb)
-            FROM content_draft_evidence e WHERE e.content_draft_section_id=s.id)), '[]'::jsonb) sections
+            FROM content_draft_evidence e WHERE e.content_draft_section_id=s.id)))
+          FILTER (WHERE s.id IS NOT NULL), '[]'::jsonb) AS draft_sections
         FROM content_drafts d LEFT JOIN content_draft_sections s ON s.content_draft_id=d.id
         WHERE d.site_id=%s AND d.environment=%s AND d.status<>'superseded'"""
         params = [site, environment]
@@ -65,9 +66,11 @@ class ValidationRepository:
             cur.execute(sql, params)
             rows = [dict(row) for row in cur.fetchall()]
         for row in rows:
+            row["sections"] = row.pop("draft_sections")
             row["rendered_content"] = {
                 section["section_key"]: section["content"]
                 for section in row["sections"]
+                if section["section_status"] in {"assembled", "needs_review"}
             }
         return rows
 

@@ -125,6 +125,16 @@ def test_model_spec_apply_stores_before_after_and_rollback_payload():
         "restore": None,
         "operation": "upsert_model_spec_field",
     }
+    assert repo.finished == [(501, "succeeded")]
+
+
+def test_successful_repository_finish_atomically_marks_proposal_applied():
+    source = Path(ApplyRepository.__module__.replace(".", "/") + ".py").read_text(
+        encoding="utf-8"
+    )
+    assert "SET status='applied'" in source
+    assert "p.status='approved'" in source
+    assert "proposal_apply_state_transition_failed" in source
 
 
 def test_stale_proposal_writes_nothing():

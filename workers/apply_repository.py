@@ -308,3 +308,12 @@ class ApplyRepository:
                 "UPDATE integration_apply_attempts SET status=%s,finished_at=now() WHERE id=%s",
                 (status, attempt_id),
             )
+            if status == "succeeded":
+                cur.execute(
+                    "UPDATE integration_proposals p SET status='applied',updated_at=now() "
+                    "FROM integration_apply_attempts a "
+                    "WHERE a.id=%s AND a.proposal_id=p.id AND p.status='approved'",
+                    (attempt_id,),
+                )
+                if cur.rowcount != 1:
+                    raise ValueError("proposal_apply_state_transition_failed")

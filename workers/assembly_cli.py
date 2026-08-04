@@ -94,7 +94,9 @@ def run(args):
                         "persistence": persisted,
                     }
                 )
-            except ValueError as exc:
+            except Exception as exc:
+                if connection:
+                    connection.rollback()
                 rows.append({"backlog_id": item["backlog_id"], "error": str(exc)})
     finally:
         if repo:
@@ -155,6 +157,8 @@ def run(args):
             sort_keys=True,
         )
     )
+    if any(r.get("error") for r in rows):
+        return 4
     drafts = [r["draft"] for r in rows if "draft" in r]
     return (
         3
@@ -237,6 +241,7 @@ def _domain_item(row):
             steps.append(value)
             steps_evidence.extend(evidence)
         elif fact.get("fact_type") == "error_code" and isinstance(value, dict):
+            add("code", value.get("code"), evidence)
             add("meaning", value.get("meaning"), evidence)
         elif proposed.get("field") in {"overview", "short_summary"}:
             add(

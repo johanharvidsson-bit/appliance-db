@@ -70,6 +70,46 @@ def test_error_code_missing_meaning_is_blocked_without_placeholder():
         i["issue_type"] == "missing_required_fact" for i in d["issues"]
     )
     assert "meaning" not in d["rendered_content"]
+    assert d["validation_state"] == "validation_failed"
+
+
+def test_applied_error_fact_evidence_covers_code_and_meaning():
+    item = _domain_item(
+        {
+            "backlog_id": 4,
+            "entity_type": "error_code",
+            "entity_id": "19",
+            "locale": "en",
+            "action_type": "describe_error_code",
+            "entity_name": "4C",
+            "brand_name": "Samsung",
+            "category_name": "washing_machine",
+            "entity_evidence": [],
+            "integrated_facts": [
+                {
+                    "candidate_fact_id": 6,
+                    "source_document_id": 3,
+                    "fact_type": "error_code",
+                    "predicate": "meaning",
+                    "value": {"code": "4C", "meaning": "Water supply issue."},
+                    "proposed_value": {
+                        "field": "description",
+                        "value": "Water supply issue.",
+                    },
+                    "evidence_id": 6,
+                    "locator": "main > p",
+                    "page_number": None,
+                }
+            ],
+        }
+    )
+    assembled = AssemblyEngine().assemble(item)
+    assert assembled["status"] == "assembled"
+    assert all(
+        section["evidence"]
+        for section in assembled["sections"]
+        if section["required"]
+    )
 
 
 def test_error_code_without_guide_is_valid_and_guide_section_omitted():

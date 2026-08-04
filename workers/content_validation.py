@@ -5,7 +5,7 @@ from hashlib import sha256
 import json
 import re
 
-VALIDATOR_VERSION = "1.0.0"
+VALIDATOR_VERSION = "1.1.0"
 RULESET_ID = "content_validation_v1"
 RULESET_VERSION = "1.0.0"
 PLACEHOLDERS = (

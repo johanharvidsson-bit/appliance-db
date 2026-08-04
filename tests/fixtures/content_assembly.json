@@ -1,0 +1,37 @@
+{
+ "site":"appliance-repair-base",
+ "items":[
+  {"backlog_id":1,"entity_type":"model","entity_id":"1","locale":"en","action_type":"create_model_overview","upstream_state":"apply_succeeded","facts":[
+   {"key":"model_name","value":"DV80N62542W","evidence":[{"source_evidence_id":1,"fact_type":"identity"}]},
+   {"key":"brand","value":"Samsung","evidence":[{"source_evidence_id":2,"fact_type":"identity"}]},
+   {"key":"category","value":"Tumble dryer","evidence":[{"source_evidence_id":3,"fact_type":"identity"}]},
+   {"key":"short_summary","value":"8 kg tumble dryer","evidence":[{"candidate_fact_id":101,"source_document_id":501,"fact_type":"overview","locator":{"page":1}}]},
+   {"key":"official_description","value":"Heat pump tumble dryer with an 8 kg capacity.","evidence":[{"candidate_fact_id":102,"source_document_id":501,"fact_type":"overview","locator":{"page":1}}]},
+   {"key":"specifications","value":{"capacity":{"value":8,"unit":"kg"}},"evidence":[{"candidate_fact_id":103,"source_document_id":501,"fact_type":"specification","locator":{"page":2}}]},
+   {"key":"variants","value":["DV80N62542W/EU"],"evidence":[{"source_evidence_id":4,"fact_type":"variant"}]}
+  ]},
+  {"backlog_id":2,"entity_type":"error_code","entity_id":"2","locale":"en","action_type":"describe_error_code","upstream_state":"facts_integrated","facts":[{"key":"code","value":"5E1","evidence":[{"source_evidence_id":5,"fact_type":"error_code"}]}]},
+  {"backlog_id":3,"entity_type":"error_code","entity_id":"3","locale":"en","action_type":"describe_error_code","upstream_state":"facts_integrated","facts":[
+   {"key":"code","value":"CE","evidence":[{"source_evidence_id":6,"fact_type":"error_code"}]},
+   {"key":"meaning","value":"Motor overcurrent","evidence":[{"candidate_fact_id":104,"source_document_id":502,"fact_type":"error_code","locator":{"page":10}}]}
+  ]},
+  {"backlog_id":4,"entity_type":"guide","entity_id":"4","locale":"en","action_type":"create_or_enrich_guide","upstream_state":"apply_succeeded","facts":[
+   {"key":"title","value":"Inspect motor wiring","evidence":[{"source_evidence_id":7,"fact_type":"guide"}]},
+   {"key":"safety_notes","value":["Disconnect power before removing the rear panel."],"evidence":[{"candidate_fact_id":105,"source_document_id":503,"fact_type":"safety","locator":{"page":4}}]},
+   {"key":"steps","value":[{"step_number":1,"instruction":"Disconnect power."},{"step_number":2,"instruction":"Remove rear panel."},{"step_number":3,"instruction":"Test motor wiring."}],"evidence":[{"candidate_fact_id":106,"source_document_id":503,"fact_type":"guide_step","locator":{"pages":[4,5]}}]}
+  ]},
+  {"backlog_id":5,"entity_type":"error_code","entity_id":"3","locale":"sv","action_type":"translate_error_code","upstream_state":"ready_for_content_assembly","facts":[
+   {"key":"source_locale","value":"en","evidence":[{"source_evidence_id":8,"fact_type":"translation_source"}]},
+   {"key":"target_locale","value":"sv","evidence":[{"source_evidence_id":8,"fact_type":"translation_source"}]},
+   {"key":"source_content_hash","value":"sha256:abc","evidence":[{"source_evidence_id":8,"fact_type":"translation_source"}]},
+   {"key":"technical_identifiers","value":["CE"],"evidence":[{"source_evidence_id":8,"fact_type":"translation_source"}]},
+   {"key":"translated_sections","value":{"title":"CE","meaning":"Överström i motorn","uncertainty":"kan indikera"},"evidence":[{"candidate_fact_id":107,"source_document_id":504,"fact_type":"translation","locator":{"field":"meaning"}}]}
+  ]},
+  {"backlog_id":6,"entity_type":"model","entity_id":"1","locale":"en","action_type":"create_model_overview","upstream_state":"facts_integrated","facts":[
+   {"key":"model_name","value":"DV80N62542W","evidence":[{"source_evidence_id":1,"fact_type":"identity"}]},
+   {"key":"specifications","value":{"voltage":"230 V"},"conflicted":true,"evidence":[{"candidate_fact_id":108,"source_document_id":505,"fact_type":"specification"}]},
+   {"key":"specifications_alt","value":{"voltage":"120 V"},"conflicted":true,"evidence":[{"candidate_fact_id":109,"source_document_id":506,"fact_type":"specification"}]}
+  ]},
+  {"backlog_id":7,"entity_type":"model","entity_id":"7","locale":"en","action_type":"create_model_overview","upstream_state":"needs_review","eligible":false,"facts":[]}
+ ]
+}

@@ -89,6 +89,21 @@ def parser() -> argparse.ArgumentParser:
     apply_cmd.add_argument("--confirm", action="store_true")
     apply_cmd.add_argument("--fixture", type=Path)
     apply_cmd.add_argument("--output-dir", type=Path, default=Path("reports/apply-integration"))
+    assembly = sub.add_parser("content-assembly", help="assemble integrated facts into internal drafts")
+    assembly.add_argument("--site", required=True)
+    assembly.add_argument("--environment", default="development", choices=("development","staging","production"))
+    assembly.add_argument("--dry-run", action="store_true")
+    assembly.add_argument("--batch-size", type=int, default=25)
+    assembly.add_argument("--backlog-id", type=int)
+    assembly.add_argument("--entity-type")
+    assembly.add_argument("--entity-id")
+    assembly.add_argument("--locale")
+    assembly.add_argument("--draft-type")
+    assembly.add_argument("--template-id")
+    assembly.add_argument("--risk-level", choices=("low","medium","high","safety_review"))
+    assembly.add_argument("--reassemble", action="store_true")
+    assembly.add_argument("--fixture", type=Path)
+    assembly.add_argument("--output-dir", type=Path, default=Path("reports/content-assembly"))
     return root
 
 
@@ -105,6 +120,9 @@ def main(argv: list[str] | None = None) -> int:
         return run(args)
     if args.worker == "apply-integration":
         from workers.apply_cli import run
+        return run(args)
+    if args.worker == "content-assembly":
+        from workers.assembly_cli import run
         return run(args)
     if args.batch_size < 1:
         raise SystemExit("--batch-size must be positive")

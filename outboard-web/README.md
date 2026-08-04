@@ -43,8 +43,9 @@ Caddy listens publicly on 443 and uses the TLS-ALPN ACME challenge. Its HTTP
 port defaults to 18081 so this stack can coexist with an existing port-80
 reverse proxy on the VPS. `www` redirects permanently to the apex hostname.
 
-On the first start, PostgreSQL applies `db/schema.sql`, RepairBase migrations
-011–013, the staging seed, and the least-privilege runtime grants. Init scripts
+On the first start, PostgreSQL applies the isolated `rb_*` RepairBase migrations
+011–013, the staging seed, and the least-privilege runtime grants. The legacy
+Appliance schema is deliberately not loaded into this database. Init scripts
 do not rerun against an existing volume. Later schema changes therefore need an
 explicit migration command; do not recreate the volume to migrate real data.
 

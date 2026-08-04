@@ -7,7 +7,53 @@ import pytest
 
 from config.environment import Settings
 from config.clients import GuardedClient, LazyClient
-from config.target_safety import ProductionApproval, TargetSafetyError, assert_safe_target
+from config.target_safety import (
+    ProductionApproval,
+    TargetSafetyError,
+    assert_configured_development_target,
+    assert_safe_target,
+)
+
+
+def test_declared_external_development_database_is_exact_match(monkeypatch):
+    monkeypatch.setenv("REPAIRBASE_DEV_DB_HOST", "pooler.dev.example")
+    monkeypatch.setenv("REPAIRBASE_DEV_DB_NAME", "repairbase_dev")
+    monkeypatch.setenv("REPAIRBASE_DEV_DB_USER", "worker_dev")
+    dsn = "postgresql://worker_dev:secret@pooler.dev.example:5432/repairbase_dev"
+    assert (
+        assert_configured_development_target(dsn, app_env="development").value
+        == "development"
+    )
+
+
+@pytest.mark.parametrize(
+    "dsn",
+    [
+        "postgresql://wrong:secret@pooler.dev.example:5432/repairbase_dev",
+        "postgresql://worker_dev:secret@other.example:5432/repairbase_dev",
+        "postgresql://worker_dev:secret@pooler.dev.example:5432/other",
+    ],
+)
+def test_external_development_database_identity_mismatch_blocks(monkeypatch, dsn):
+    monkeypatch.setenv("REPAIRBASE_DEV_DB_HOST", "pooler.dev.example")
+    monkeypatch.setenv("REPAIRBASE_DEV_DB_NAME", "repairbase_dev")
+    monkeypatch.setenv("REPAIRBASE_DEV_DB_USER", "worker_dev")
+    with pytest.raises(TargetSafetyError, match="does not match"):
+        assert_configured_development_target(dsn, app_env="development")
+
+
+def test_external_development_database_needs_complete_declaration(monkeypatch):
+    for name in (
+        "REPAIRBASE_DEV_DB_HOST",
+        "REPAIRBASE_DEV_DB_NAME",
+        "REPAIRBASE_DEV_DB_USER",
+    ):
+        monkeypatch.delenv(name, raising=False)
+    with pytest.raises(TargetSafetyError, match="identity is incomplete"):
+        assert_configured_development_target(
+            "postgresql://worker:secret@pooler.dev.example/db",
+            app_env="development",
+        )
 
 
 DEV = "http://127.0.0.1:18080"
@@ -40,10 +86,15 @@ def test_client_is_lazy():
 
 @pytest.mark.parametrize("operation", ["read", "write"])
 def test_development_target_allowed(operation):
-    assert assert_safe_target(DEV, app_env="development", operation=operation).value == "development"
+    assert (
+        assert_safe_target(DEV, app_env="development", operation=operation).value
+        == "development"
+    )
 
 
-@pytest.mark.parametrize("target", [APPLIANCE, MARINE, RETIRED, "not a url", "https://unknown.invalid"])
+@pytest.mark.parametrize(
+    "target", [APPLIANCE, MARINE, RETIRED, "not a url", "https://unknown.invalid"]
+)
 def test_unsafe_development_targets_blocked(target):
     with pytest.raises(TargetSafetyError):
         assert_safe_target(target, app_env="development")
@@ -62,12 +113,19 @@ def test_unsafe_development_targets_blocked(target):
 )
 def test_production_write_missing_factor_blocks(approval):
     with pytest.raises(TargetSafetyError):
-        assert_safe_target(APPLIANCE, app_env="production", operation="write", approval=approval)
+        assert_safe_target(
+            APPLIANCE, app_env="production", operation="write", approval=approval
+        )
 
 
 def test_fully_approved_production_guard_logic_only():
     approval = ProductionApproval(True, True, "separate-token", "separate-token")
-    assert assert_safe_target(APPLIANCE, app_env="production", operation="write", approval=approval).value == "appliance-production"
+    assert (
+        assert_safe_target(
+            APPLIANCE, app_env="production", operation="write", approval=approval
+        ).value
+        == "appliance-production"
+    )
 
 
 class FakeBuilder:
@@ -85,7 +143,23 @@ class FakeClient:
 
 def fake_settings(url: str, app_env: str) -> Settings:
     from pathlib import Path
-    return Settings(app_env, url, "fake-key", "", False, "", 2.0, 3, "", False, Path("manuals"), Path("logs"), "INFO", "")
+
+    return Settings(
+        app_env,
+        url,
+        "fake-key",
+        "",
+        False,
+        "",
+        2.0,
+        3,
+        "",
+        False,
+        Path("manuals"),
+        Path("logs"),
+        "INFO",
+        "",
+    )
 
 
 def test_guarded_client_allows_read_without_network():

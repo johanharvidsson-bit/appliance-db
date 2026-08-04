@@ -18,6 +18,7 @@ Usage:
     python -m db.apply_migration --all         # apply all unapplied migrations in order
 """
 
+import os
 import sys
 from pathlib import Path
 
@@ -26,7 +27,7 @@ from loguru import logger
 
 from config.environment import load_settings
 from config.paths import BASE_DIR
-from config.target_safety import assert_safe_target
+from config.target_safety import assert_configured_development_target
 
 _MISSING_URL_MSG = (
     "SUPABASE_DB_URL not set in .env\n"
@@ -37,15 +38,19 @@ _MISSING_URL_MSG = (
 
 def get_connection(*, operation: str = "read"):
     settings = load_settings()
-    if not settings.supabase_db_url:
+    target = (
+        os.getenv("REPAIRBASE_SECURITY_TEST_DB_URL", "").strip()
+        or settings.supabase_db_url
+    )
+    if not target:
         logger.error(_MISSING_URL_MSG)
         sys.exit(1)
-    assert_safe_target(
-        settings.supabase_db_url,
+    assert_configured_development_target(
+        target,
         app_env=settings.app_env,
         operation=operation,
     )
-    return psycopg2.connect(settings.supabase_db_url)
+    return psycopg2.connect(target)
 
 
 def _is_applied(conn, version: str) -> bool:

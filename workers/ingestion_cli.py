@@ -8,7 +8,7 @@ from uuid import uuid4
 
 import psycopg2
 
-from config.target_safety import assert_safe_target
+from config.target_safety import assert_configured_development_target
 from workers.ingestion_repository import IngestionRepository
 from workers.ingestion_safety import (
     FetchPolicyError,
@@ -79,7 +79,7 @@ def run(args):
         dsn = os.getenv("REPAIRBASE_SECURITY_TEST_DB_URL", "").strip()
         if not dsn:
             raise SystemExit("REPAIRBASE_SECURITY_TEST_DB_URL is required")
-        assert_safe_target(
+        assert_configured_development_target(
             dsn, app_env=args.environment, operation="read" if args.dry_run else "write"
         )
         connection = psycopg2.connect(dsn)

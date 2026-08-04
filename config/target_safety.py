@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from enum import Enum
+import os
 from urllib.parse import urlparse
 
 
@@ -47,7 +48,10 @@ class ProductionApproval:
 def classify_target(target: str) -> TargetKind:
     try:
         parsed = urlparse(target)
-        if parsed.scheme not in {"http", "https", "postgres", "postgresql"} or not parsed.hostname:
+        if (
+            parsed.scheme not in {"http", "https", "postgres", "postgresql"}
+            or not parsed.hostname
+        ):
             return TargetKind.UNKNOWN
         host = parsed.hostname.lower()
         if host == RETIRED_SUPABASE_HOST:
@@ -57,11 +61,19 @@ def classify_target(target: str) -> TargetKind:
         if host == APPLIANCE_PRODUCTION_HOST:
             return TargetKind.APPLIANCE_PRODUCTION
         database = parsed.path.strip("/").lower()
-        if parsed.scheme in {"postgres", "postgresql"} and database in PRODUCTION_DATABASE_MARKERS:
+        if (
+            parsed.scheme in {"postgres", "postgresql"}
+            and database in PRODUCTION_DATABASE_MARKERS
+        ):
             return TargetKind.PRODUCTION_DATABASE
         if host in DEV_HOSTS and parsed.port == DEV_PORT:
             return TargetKind.DEVELOPMENT
-        if host in DEV_HOSTS and parsed.scheme in {"postgres", "postgresql"} and parsed.port == 15432 and database == "repair_appliance_dev":
+        if (
+            host in DEV_HOSTS
+            and parsed.scheme in {"postgres", "postgresql"}
+            and parsed.port == 15432
+            and database == "repair_appliance_dev"
+        ):
             return TargetKind.DEVELOPMENT
         return TargetKind.UNKNOWN
     except (TypeError, ValueError):
@@ -91,7 +103,49 @@ def assert_safe_target(
     if kind is TargetKind.DEVELOPMENT:
         return kind
     if kind not in {TargetKind.APPLIANCE_PRODUCTION, TargetKind.PRODUCTION_DATABASE}:
-        raise TargetSafetyError(f"Production target is not Appliance production: {kind.value}")
+        raise TargetSafetyError(
+            f"Production target is not Appliance production: {kind.value}"
+        )
     if action == "write" and not (approval and approval.complete):
         raise TargetSafetyError("Production write requires every approval factor")
     return kind
+
+
+def assert_configured_development_target(
+    target: str, *, app_env: str, operation: str = "read"
+) -> TargetKind:
+    """Allow external dev Postgres only when its identity is predeclared."""
+    if operation.strip().lower() not in {"read", "write"}:
+        raise TargetSafetyError(f"Unsupported operation: {operation!r}")
+    try:
+        return assert_safe_target(target, app_env=app_env, operation=operation)
+    except TargetSafetyError:
+        pass
+    if app_env.strip().lower() != "development":
+        raise TargetSafetyError(
+            "External development target requires APP_ENV=development"
+        )
+    parsed = urlparse(target)
+    expected = (
+        os.getenv("REPAIRBASE_DEV_DB_HOST", "").strip().lower(),
+        os.getenv("REPAIRBASE_DEV_DB_NAME", "").strip().lower(),
+        os.getenv("REPAIRBASE_DEV_DB_USER", "").strip(),
+    )
+    if not all(expected):
+        raise TargetSafetyError("External development target identity is incomplete")
+    actual = (
+        (parsed.hostname or "").lower(),
+        parsed.path.strip("/").lower(),
+        parsed.username or "",
+    )
+    if parsed.scheme not in {"postgres", "postgresql"}:
+        raise TargetSafetyError("External development target must be PostgreSQL")
+    if (
+        actual[0]
+        in {APPLIANCE_PRODUCTION_HOST, MARINE_PRODUCTION_HOST, RETIRED_SUPABASE_HOST}
+        or actual[1] in PRODUCTION_DATABASE_MARKERS
+    ):
+        raise TargetSafetyError("Known production or retired database is blocked")
+    if actual != expected:
+        raise TargetSafetyError("Development DSN does not match declared identity")
+    return TargetKind.DEVELOPMENT

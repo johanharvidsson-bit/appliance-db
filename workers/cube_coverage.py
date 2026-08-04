@@ -11,7 +11,6 @@ from uuid import uuid4
 
 import psycopg2
 
-from config.target_safety import assert_safe_target
 
 WORKER_NAME = "cube-coverage"
 WORKER_VERSION = "1.0.0"

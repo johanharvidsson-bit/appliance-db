@@ -8,6 +8,9 @@ from urllib.parse import urlsplit
 
 from psycopg2.extras import RealDictCursor
 
+from workers.auto_policy import AUTO_POLICY_REVIEWER, source_candidate_status
+from workers.source_review import decision_key
+
 
 class SourceRepository:
     def __init__(self, connection):
@@ -78,9 +81,19 @@ class SourceRepository:
                 created += bool(cur.fetchone()[0])
             else:
                 cur.execute("UPDATE source_candidates SET status='rejected',details_json=details_json||'{\"reason\":\"sources_discovered_later\"}'::jsonb,updated_at=now() WHERE site_id=%s AND environment=%s AND backlog_id=%s AND status='not_found'",(site,environment,item["backlog_id"]))
+            auto_accepted = 0
             for c in candidates:
-                cur.execute("INSERT INTO source_candidates(site_id,environment,backlog_id,entity_type,entity_id,locale,source_type,candidate_url,normalized_url,publisher,title,confidence,status,discovery_method,details_json) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,'candidate',%s,%s::jsonb) ON CONFLICT(site_id,environment,backlog_id,candidate_key) DO UPDATE SET source_type=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.source_type ELSE source_candidates.source_type END,publisher=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.publisher ELSE source_candidates.publisher END,title=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.title ELSE source_candidates.title END,confidence=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.confidence ELSE source_candidates.confidence END,last_seen_at=now(),updated_at=now() RETURNING (xmax=0)",(site,environment,c["backlog_id"],c["entity_type"],c["entity_id"],c["locale"],c["source_type"],c["candidate_url"],c["normalized_url"],c["publisher"],c["title"],c["confidence"],c["discovery_method"],json.dumps(c["details"])))
-                was_created = bool(cur.fetchone()[0])
-                created += was_created
-                updated += not was_created
-        return {"created":created,"updated":updated,"not_found":int(not candidates)}
+                auto_status = source_candidate_status(c["source_type"], c["confidence"])
+                cur.execute("INSERT INTO source_candidates(site_id,environment,backlog_id,entity_type,entity_id,locale,source_type,candidate_url,normalized_url,publisher,title,confidence,status,discovery_method,details_json) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::jsonb) ON CONFLICT(site_id,environment,backlog_id,candidate_key) DO UPDATE SET source_type=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.source_type ELSE source_candidates.source_type END,publisher=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.publisher ELSE source_candidates.publisher END,title=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.title ELSE source_candidates.title END,confidence=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.confidence ELSE source_candidates.confidence END,status=CASE WHEN source_candidates.status='candidate' THEN EXCLUDED.status ELSE source_candidates.status END,last_seen_at=now(),updated_at=now() RETURNING id,status,(xmax=0)",(site,environment,c["backlog_id"],c["entity_type"],c["entity_id"],c["locale"],c["source_type"],c["candidate_url"],c["normalized_url"],c["publisher"],c["title"],c["confidence"],auto_status,c["discovery_method"],json.dumps(c["details"])))
+                candidate_id,stored_status,is_new = cur.fetchone()
+                created += bool(is_new)
+                updated += not is_new
+                if stored_status == "accepted":
+                    auto_accepted += 1
+                    reason = f"auto-policy: source_type={c['source_type']} confidence={c['confidence']}"
+                    key = decision_key(candidate_id, "accepted", AUTO_POLICY_REVIEWER, reason)
+                    cur.execute(
+                        "INSERT INTO source_candidate_reviews(source_candidate_id,decision,reviewed_by,review_reason,decision_key) VALUES(%s,'accepted',%s,%s,%s) ON CONFLICT(decision_key) DO NOTHING",
+                        (candidate_id, AUTO_POLICY_REVIEWER, reason, key),
+                    )
+        return {"created":created,"updated":updated,"not_found":int(not candidates),"auto_accepted":auto_accepted}

@@ -39,7 +39,9 @@ Scores are transparent and stored with components in `reason_json`:
 - fuzzy contextual candidates: their deterministic similarity score;
 - ambiguous or missing target: 20–50.
 
-Thresholds are 95–100 deterministic proposal candidate, 80–94 strong but reviewable, 60–79 needs review, and below 60 blocked/unresolved. Confidence is never verification and cannot produce `approved` or `applied`.
+Thresholds are 95–100 deterministic proposal candidate, 80–94 strong but reviewable, 60–79 needs review, and below 60 blocked/unresolved. Confidence alone never produces `applied` — only Apply Integration's own transactional checks do that.
+
+**Auto-approve policy (`workers/auto_policy.py`):** this project has no editorial review team, so `IntegrationRepository.persist()` auto-approves (`status = 'approved'`, `reviewed_by = 'auto-policy-v1'`) any freshly created `proposed`/`needs_review` proposal whose `risk_level` is `low` or `medium`, regardless of confidence tier. `blocked` proposals (an unresolved conflict) are never auto-approved — a conflict is a data-quality problem, not a review backlog, and picking one of several disagreeing values automatically would violate the "no winner is selected" invariant above. `high` and `safety_review` risk proposals are also never auto-approved; those are additionally hard-blocked by Apply Integration regardless of status, so leaving them unapproved costs nothing. A human can still approve or reject any proposal directly in the database at any time; it is simply not required before Apply Integration proceeds on low/medium-risk work.
 
 ## Proposal and delta contract
 
@@ -80,4 +82,4 @@ Reports are JSON and Markdown under the gitignored `reports/knowledge-integratio
 
 All proposal tables have forced RLS, no anonymous/authenticated access, service-role read/insert/update only, and no service-role delete. A future review/admin backend may receive explicit policies separately.
 
-PR 2D should consume only manually `approved` proposals. It must validate target existence and scope again, enforce optimistic concurrency against `current_value_json`, apply exactly `expected_apply_operation` transactionally, attach source evidence, mark the proposal `applied` only after reconciliation, preserve rollback data, and never combine unrelated proposals implicitly.
+PR 2D should consume only `approved` proposals, whether approved by the auto-policy above or by a human. It must validate target existence and scope again, enforce optimistic concurrency against `current_value_json`, apply exactly `expected_apply_operation` transactionally, attach source evidence, mark the proposal `applied` only after reconciliation, preserve rollback data, and never combine unrelated proposals implicitly.

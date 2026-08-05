@@ -23,7 +23,18 @@ Deterministic tiers:
 6. Other result: 35.
 
 Confidence is a source-likelihood heuristic, not a truth or content-quality
-score. Discovery never automatically accepts a candidate.
+score.
+
+**Auto-accept policy (`workers/auto_policy.py`):** this project has no
+editorial review team, so discovery auto-accepts a candidate (`status =
+'accepted'`) at persist time when its tier is not `forum`/`other` and its
+confidence is at least 60 — manufacturer/support/manual, official-parts, and
+service-manual tiers all qualify; forum and unclassified `other` results
+always remain `candidate`-only, matching their documented low reliability.
+Each auto-accept is logged as an ordinary row in `source_candidate_reviews`
+with `reviewed_by = 'auto-policy-v1'`, so it is auditable and distinguishable
+from a human decision after the fact. A human can still run `source-review
+decide` at any time; it simply is not required before ingestion proceeds.
 
 ## Persistence and lifecycle
 
@@ -73,8 +84,9 @@ python -m workers source-discovery --site appliance-repair-base `
 
 Reports are written to `reports/source-discovery/<run-id>.json|md` and are
 gitignored. They contain backlog scanned, candidate count, accepted, rejected,
-not-found and per-item query/candidates. Accepted/rejected remain zero until a
-separate review workflow changes those statuses.
+not-found and per-item query/candidates. `accepted` reflects the auto-accept
+policy above; `rejected` remains zero until a human or a later worker rejects
+a candidate explicitly.
 
 ## Explicit exclusions
 

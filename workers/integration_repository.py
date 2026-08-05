@@ -3,7 +3,10 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 from psycopg2.extras import RealDictCursor
+
+from workers.auto_policy import AUTO_POLICY_REVIEWER, integration_proposal_status
 
 
 class IntegrationRepository:
@@ -174,13 +177,17 @@ class IntegrationRepository:
         return out
 
     def persist(self, site, environment, run_id, result):
-        created = deduplicated = conflicts = 0
+        created = deduplicated = conflicts = auto_approved = 0
         proposal_ids = []
         with self.connection.cursor() as cur:
             for p in result["proposals"]:
+                effective_status = integration_proposal_status(p["status"], p["risk_level"])
+                is_auto_approved = effective_status == "approved" and p["status"] != "approved"
+                reviewed_by = AUTO_POLICY_REVIEWER if is_auto_approved else None
+                reviewed_at = datetime.now(timezone.utc) if is_auto_approved else None
                 cur.execute(
-                    """INSERT INTO integration_proposals(site_id,environment,worker_run_id,backlog_item_id,candidate_fact_id,proposal_type,entity_type,entity_id,locale,status,confidence,risk_level,difference_class,reason_json,current_value_json,proposed_value_json,expected_apply_operation,input_hash,detector_name,detector_version)
-                VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::jsonb,%s::jsonb,%s::jsonb,%s,%s,'repairbase_deterministic_resolver','1.0.0')
+                    """INSERT INTO integration_proposals(site_id,environment,worker_run_id,backlog_item_id,candidate_fact_id,proposal_type,entity_type,entity_id,locale,status,confidence,risk_level,difference_class,reason_json,current_value_json,proposed_value_json,expected_apply_operation,input_hash,detector_name,detector_version,reviewed_by,reviewed_at)
+                VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::jsonb,%s::jsonb,%s::jsonb,%s,%s,'repairbase_deterministic_resolver','1.0.0',%s,%s)
                 ON CONFLICT(input_hash) DO NOTHING RETURNING id""",
                     (
                         site,
@@ -192,7 +199,7 @@ class IntegrationRepository:
                         p["entity_type"],
                         p["entity_id"],
                         p["locale"],
-                        p["status"],
+                        effective_status,
                         p["confidence"],
                         p["risk_level"],
                         p["difference_class"],
@@ -201,6 +208,8 @@ class IntegrationRepository:
                         json.dumps(p["proposed_value"]),
                         p["expected_apply_operation"],
                         p["input_hash"],
+                        reviewed_by,
+                        reviewed_at,
                     ),
                 )
                 row = cur.fetchone()
@@ -210,6 +219,7 @@ class IntegrationRepository:
                 proposal_id = row[0]
                 proposal_ids.append(proposal_id)
                 created += 1
+                auto_approved += is_auto_approved
                 for t in p["targets"]:
                     cur.execute(
                         "INSERT INTO integration_proposal_targets(proposal_id,target_entity_type,target_entity_id,match_type,match_score,is_preferred,reason_json) VALUES(%s,%s,%s,%s,%s,%s,%s::jsonb)",
@@ -257,4 +267,5 @@ class IntegrationRepository:
             "deduplicated": deduplicated,
             "conflicts": conflicts,
             "proposal_ids": proposal_ids,
+            "auto_approved": auto_approved,
         }

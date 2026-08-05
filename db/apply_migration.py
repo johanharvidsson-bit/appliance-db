@@ -27,7 +27,10 @@ from loguru import logger
 
 from config.environment import load_settings
 from config.paths import BASE_DIR
-from config.target_safety import assert_configured_development_target
+from config.target_safety import (
+    assert_configured_development_target,
+    production_approval_from_env,
+)
 
 _MISSING_URL_MSG = (
     "SUPABASE_DB_URL not set in .env\n"
@@ -45,10 +48,23 @@ def get_connection(*, operation: str = "read"):
     if not target:
         logger.error(_MISSING_URL_MSG)
         sys.exit(1)
+    approval = None
+    if settings.app_env.strip().lower() == "production":
+        # Second factor beyond ALLOW_PRODUCTION_WRITE/PRODUCTION_WRITE_CONFIRMATION:
+        # applying a migration has no --production-token CLI flag (this script
+        # takes a file path, not worker-style args), so the explicit
+        # confirmation must be a separate env var an operator sets by hand for
+        # this invocation, not one that's already sitting in the same .env as
+        # PRODUCTION_WRITE_CONFIRMATION.
+        approval = production_approval_from_env(
+            command_flag=True,
+            supplied_token=os.getenv("PRODUCTION_MIGRATION_CONFIRM", ""),
+        )
     assert_configured_development_target(
         target,
         app_env=settings.app_env,
         operation=operation,
+        approval=approval,
     )
     return psycopg2.connect(target)
 

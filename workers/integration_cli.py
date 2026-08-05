@@ -8,14 +8,15 @@ from uuid import uuid4
 
 import psycopg2
 
-from config.target_safety import assert_configured_development_target
+from config.target_safety import (
+    assert_configured_development_target,
+    production_approval_from_env,
+)
 from workers.integration_repository import IntegrationRepository
 from workers.knowledge_integration import ResolutionEngine
 
 
 def run(args):
-    if args.environment == "production":
-        raise SystemExit("knowledge integration production execution is not enabled")
     if args.batch_size < 1 or not 0 <= args.min_confidence <= 100:
         raise SystemExit("invalid knowledge integration limits")
     started = datetime.now(timezone.utc)
@@ -40,8 +41,16 @@ def run(args):
         dsn = os.getenv("REPAIRBASE_SECURITY_TEST_DB_URL", "").strip()
         if not dsn:
             raise SystemExit("REPAIRBASE_SECURITY_TEST_DB_URL is required")
+        approval = None
+        if args.environment == "production":
+            approval = production_approval_from_env(
+                command_flag=True, supplied_token=args.production_token
+            )
         assert_configured_development_target(
-            dsn, app_env=args.environment, operation="read" if args.dry_run else "write"
+            dsn,
+            app_env=args.environment,
+            operation="read" if args.dry_run else "write",
+            approval=approval,
         )
         connection = psycopg2.connect(dsn)
         repo = IntegrationRepository(connection)

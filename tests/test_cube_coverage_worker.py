@@ -57,13 +57,11 @@ def test_offline_cli_dry_run_writes_reports_only(tmp_path, capsys):
     assert len(list(tmp_path.glob("*.json"))) == 1 and len(list(tmp_path.glob("*.md"))) == 1
 
 
-def test_production_is_fail_closed():
-    try:
-        main(["cube-coverage","--site","x","--environment","production","--fixture",str(FIXTURE)])
-    except SystemExit as error:
-        assert "not enabled" in str(error)
-    else:
-        raise AssertionError("production execution was accepted")
+def test_fixture_mode_ignores_environment():
+    # Fixture mode never touches a database or network regardless of
+    # --environment, so it is not blanket-rejected for production - only a
+    # real, unapproved production *write* is (see config/target_safety.py).
+    main(["cube-coverage","--site","x","--environment","production","--fixture",str(FIXTURE)])
 
 
 def test_no_external_or_content_mutation_capabilities_are_imported():

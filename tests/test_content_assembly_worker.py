@@ -254,21 +254,26 @@ def test_only_blocked_batch_has_blocked_exit_code(tmp_path, capsys):
     assert rc == 3
 
 
-def test_production_invalid_site_and_strict_write_boundary():
+def test_invalid_site_is_rejected_and_fixture_mode_ignores_environment():
     with pytest.raises(SystemExit):
         main(["content-assembly", "--site", "wrong", "--fixture", str(FIXTURE)])
-    with pytest.raises(SystemExit):
-        main(
-            [
-                "content-assembly",
-                "--site",
-                "appliance-repair-base",
-                "--environment",
-                "production",
-                "--fixture",
-                str(FIXTURE),
-            ]
-        )
+    # Fixture mode never touches a database or network regardless of
+    # --environment, so production is not blanket-rejected here - only a real,
+    # unapproved production *write* is (see config/target_safety.py).
+    main(
+        [
+            "content-assembly",
+            "--site",
+            "appliance-repair-base",
+            "--environment",
+            "production",
+            "--fixture",
+            str(FIXTURE),
+        ]
+    )
+
+
+def test_strict_write_boundary():
     forbidden = {
         "models",
         "error_codes",

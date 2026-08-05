@@ -7,7 +7,10 @@ from uuid import uuid4
 
 import psycopg2
 
-from config.target_safety import assert_configured_development_target
+from config.target_safety import (
+    assert_configured_development_target,
+    production_approval_from_env,
+)
 from workers.source_discovery import (
     DiscoveryEngine,
     RateLimitedRetryProvider,
@@ -20,12 +23,10 @@ from workers.source_repository import SourceRepository
 
 
 def run(args) -> int:
-    if args.environment == "production":
-        raise SystemExit("source discovery production execution is not enabled")
     started = datetime.now(timezone.utc)
     run_id = str(uuid4())
     rows = []
-    totals = {"scanned": 0, "created": 0, "updated": 0, "not_found": 0}
+    totals = {"scanned": 0, "created": 0, "updated": 0, "not_found": 0, "auto_accepted": 0}
     if args.fixture:
         fixture = json.loads(args.fixture.read_text(encoding="utf-8"))
         items = fixture["backlog"]
@@ -39,8 +40,16 @@ def run(args) -> int:
         dsn = os.getenv("REPAIRBASE_SECURITY_TEST_DB_URL", "").strip()
         if not dsn:
             raise SystemExit("REPAIRBASE_SECURITY_TEST_DB_URL is required")
+        approval = None
+        if args.environment == "production":
+            approval = production_approval_from_env(
+                command_flag=True, supplied_token=args.production_token
+            )
         assert_configured_development_target(
-            dsn, app_env=args.environment, operation="read" if args.dry_run else "write"
+            dsn,
+            app_env=args.environment,
+            operation="read" if args.dry_run else "write",
+            approval=approval,
         )
         connection = psycopg2.connect(dsn)
         repo = SourceRepository(connection)
@@ -97,6 +106,7 @@ def run(args) -> int:
             totals["scanned"] += 1
             for key in ("created", "updated", "not_found"):
                 totals[key] += stats[key]
+            totals["auto_accepted"] += stats.get("auto_accepted", 0)
             rows.append(
                 {
                     "backlog_id": item["backlog_id"],
@@ -120,7 +130,7 @@ def run(args) -> int:
         "dry_run": dry_run,
         "backlog_scanned": totals["scanned"],
         "source_candidates": sum(len(x["candidates"]) for x in rows),
-        "accepted": 0,
+        "accepted": totals["auto_accepted"],
         "rejected": 0,
         "not_found": totals["not_found"],
         "created": totals["created"],
@@ -132,7 +142,7 @@ def run(args) -> int:
     mp = args.output_dir / f"{run_id}.md"
     jp.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     mp.write_text(
-        f"# Source Discovery\n\nRun: `{run_id}`\n\n- Backlog scanned: {report['backlog_scanned']}\n- Candidates: {report['source_candidates']}\n- Accepted: 0\n- Rejected: 0\n- Not found: {report['not_found']}\n",
+        f"# Source Discovery\n\nRun: `{run_id}`\n\n- Backlog scanned: {report['backlog_scanned']}\n- Candidates: {report['source_candidates']}\n- Accepted: {report['accepted']}\n- Rejected: 0\n- Not found: {report['not_found']}\n",
         encoding="utf-8",
     )
     print(

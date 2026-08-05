@@ -12,6 +12,7 @@ from config.target_safety import (
     TargetSafetyError,
     assert_configured_development_target,
     assert_safe_target,
+    production_approval_from_env,
 )
 
 
@@ -176,3 +177,42 @@ def test_guarded_client_blocks_unapproved_production_mutation_without_network():
 def test_guarded_client_allows_development_mutation_without_network():
     guarded = GuardedClient(FakeClient(), fake_settings(DEV, "development"))  # type: ignore[arg-type]
     assert guarded.table("models").update({"name": "dev"}) == "updated"
+
+
+def test_production_approval_from_env_requires_both_factors_to_match(monkeypatch):
+    monkeypatch.delenv("ALLOW_PRODUCTION_WRITE", raising=False)
+    monkeypatch.delenv("PRODUCTION_WRITE_CONFIRMATION", raising=False)
+    assert not production_approval_from_env(
+        command_flag=True, supplied_token="anything"
+    ).complete
+
+    monkeypatch.setenv("ALLOW_PRODUCTION_WRITE", "true")
+    monkeypatch.setenv("PRODUCTION_WRITE_CONFIRMATION", "the-real-token")
+    assert not production_approval_from_env(
+        command_flag=True, supplied_token="wrong-token"
+    ).complete
+    assert not production_approval_from_env(
+        command_flag=False, supplied_token="the-real-token"
+    ).complete
+    assert production_approval_from_env(
+        command_flag=True, supplied_token="the-real-token"
+    ).complete
+
+
+def test_assert_configured_development_target_accepts_a_complete_production_approval(
+    monkeypatch,
+):
+    monkeypatch.setenv("ALLOW_PRODUCTION_WRITE", "true")
+    monkeypatch.setenv("PRODUCTION_WRITE_CONFIRMATION", "the-real-token")
+    approval = production_approval_from_env(
+        command_flag=True, supplied_token="the-real-token"
+    )
+    # TEST-NET-3 (RFC 5737): non-routable, so this can never reach a real host;
+    # the "appliancedb" database name alone is enough to classify as production.
+    kind = assert_configured_development_target(
+        "postgresql://u:p@203.0.113.1:5432/appliancedb",
+        app_env="production",
+        operation="write",
+        approval=approval,
+    )
+    assert kind.value == "production-database"

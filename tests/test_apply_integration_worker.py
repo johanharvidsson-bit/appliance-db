@@ -2,6 +2,7 @@ from contextlib import contextmanager
 import json
 from pathlib import Path
 import pytest
+from config.target_safety import TargetSafetyError
 from workers.__main__ import main
 from workers.apply_integration import (
     APPLY_OPERATIONS,
@@ -190,7 +191,17 @@ def test_cli_fixture_report_and_placeholder_block(tmp_path, capsys):
 def test_cli_requires_confirm_and_rejects_production():
     with pytest.raises(SystemExit, match="requires --confirm"):
         main(["apply-integration", "--site", "appliance-repair-base"])
-    with pytest.raises(SystemExit, match="production"):
+
+
+def test_production_dry_run_no_longer_blanket_rejected_but_still_needs_a_dsn(monkeypatch):
+    # Production is no longer hard-blocked at the CLI level (workers/auto_policy.py
+    # extended this project's "no manual review" stance to production access, gated
+    # instead by config.target_safety's explicit multi-factor approval). A read-only
+    # --dry-run still requires no approval token, but it does still require a real,
+    # configured DSN - proving the removed guard was the *only* thing standing
+    # between this call and a real connection attempt.
+    monkeypatch.delenv("REPAIRBASE_SECURITY_TEST_DB_URL", raising=False)
+    with pytest.raises(SystemExit, match="REPAIRBASE_SECURITY_TEST_DB_URL is required"):
         main(
             [
                 "apply-integration",
@@ -199,6 +210,32 @@ def test_cli_requires_confirm_and_rejects_production():
                 "--environment",
                 "production",
                 "--dry-run",
+            ]
+        )
+
+
+def test_production_write_without_approval_token_is_still_fail_closed(monkeypatch, tmp_path):
+    # A real write attempt against production must still fail closed without a
+    # complete ProductionApproval, even though the blanket CLI block is gone.
+    # 203.0.113.0/24 is TEST-NET-3 (RFC 5737): guaranteed non-routable, so this
+    # can never actually reach a real host even if the approval check were
+    # buggy and let the call fall through to a real connection attempt. The
+    # "appliancedb" database name alone is enough for classify_target to mark
+    # this PRODUCTION_DATABASE regardless of host.
+    monkeypatch.setenv("REPAIRBASE_SECURITY_TEST_DB_URL", "postgresql://u:p@203.0.113.1:5432/appliancedb")
+    monkeypatch.delenv("ALLOW_PRODUCTION_WRITE", raising=False)
+    monkeypatch.delenv("PRODUCTION_WRITE_CONFIRMATION", raising=False)
+    with pytest.raises(TargetSafetyError):
+        main(
+            [
+                "apply-integration",
+                "--site",
+                "appliance-repair-base",
+                "--environment",
+                "production",
+                "--confirm",
+                "--proposal-id",
+                "1",
             ]
         )
 

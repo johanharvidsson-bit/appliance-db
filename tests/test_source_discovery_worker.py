@@ -52,9 +52,11 @@ def test_offline_cli_reports_candidates_and_not_found(tmp_path,capsys):
     assert len(list(tmp_path.glob("*.json")))==1 and len(list(tmp_path.glob("*.md")))==1
 
 
-def test_production_is_fail_closed():
-    with pytest.raises(SystemExit,match="not enabled"):
-        main(["source-discovery","--site","x","--environment","production","--fixture",str(FIXTURE)])
+def test_fixture_mode_ignores_environment():
+    # Fixture mode never touches a database or network regardless of
+    # --environment, so it is not blanket-rejected for production - only a
+    # real, unapproved production *write* is (see config/target_safety.py).
+    main(["source-discovery","--site","x","--environment","production","--fixture",str(FIXTURE)])
 
 
 def test_no_extraction_llm_or_content_writes():

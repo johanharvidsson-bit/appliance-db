@@ -9,7 +9,10 @@ from uuid import uuid4
 
 import psycopg2
 
-from config.target_safety import assert_configured_development_target
+from config.target_safety import (
+    assert_configured_development_target,
+    production_approval_from_env,
+)
 from workers.cube_coverage import (
     CoverageEngine,
     WORKER_NAME,
@@ -30,6 +33,11 @@ def parser() -> argparse.ArgumentParser:
         "--environment",
         default="development",
         choices=("development", "staging", "production"),
+    )
+    cmd.add_argument(
+        "--production-token",
+        default="",
+        help="must match PRODUCTION_WRITE_CONFIRMATION; required with --environment production",
     )
     cmd.add_argument("--scope", default="active", choices=("active", "new"))
     cmd.add_argument("--dry-run", action="store_true")
@@ -54,6 +62,11 @@ def parser() -> argparse.ArgumentParser:
         default="development",
         choices=("development", "staging", "production"),
     )
+    discovery.add_argument(
+        "--production-token",
+        default="",
+        help="must match PRODUCTION_WRITE_CONFIRMATION; required with --environment production",
+    )
     discovery.add_argument("--dry-run", action="store_true")
     discovery.add_argument("--batch-size", type=int, default=25)
     discovery.add_argument("--locale")
@@ -74,6 +87,11 @@ def parser() -> argparse.ArgumentParser:
         "--environment",
         default="development",
         choices=("development", "staging", "production"),
+    )
+    ingestion.add_argument(
+        "--production-token",
+        default="",
+        help="must match PRODUCTION_WRITE_CONFIRMATION; required with --environment production",
     )
     ingestion.add_argument("--dry-run", action="store_true")
     ingestion.add_argument("--batch-size", type=int, default=10)
@@ -102,6 +120,11 @@ def parser() -> argparse.ArgumentParser:
         default="development",
         choices=("development", "staging", "production"),
     )
+    integration.add_argument(
+        "--production-token",
+        default="",
+        help="must match PRODUCTION_WRITE_CONFIRMATION; required with --environment production",
+    )
     integration.add_argument("--dry-run", action="store_true")
     integration.add_argument("--batch-size", type=int, default=50)
     integration.add_argument("--candidate-fact-id", type=int)
@@ -126,6 +149,11 @@ def parser() -> argparse.ArgumentParser:
         default="development",
         choices=("development", "staging", "production"),
     )
+    apply_cmd.add_argument(
+        "--production-token",
+        default="",
+        help="must match PRODUCTION_WRITE_CONFIRMATION; required with --environment production",
+    )
     apply_cmd.add_argument("--dry-run", action="store_true")
     apply_cmd.add_argument("--batch-size", type=int, default=1)
     apply_cmd.add_argument("--proposal-id", type=int)
@@ -147,6 +175,11 @@ def parser() -> argparse.ArgumentParser:
         "--environment",
         default="development",
         choices=("development", "staging", "production"),
+    )
+    assembly.add_argument(
+        "--production-token",
+        default="",
+        help="must match PRODUCTION_WRITE_CONFIRMATION; required with --environment production",
     )
     assembly.add_argument("--dry-run", action="store_true")
     assembly.add_argument("--batch-size", type=int, default=25)
@@ -172,6 +205,11 @@ def parser() -> argparse.ArgumentParser:
         "--environment",
         default="development",
         choices=("development", "staging", "production"),
+    )
+    validation.add_argument(
+        "--production-token",
+        default="",
+        help="must match PRODUCTION_WRITE_CONFIRMATION; required with --environment production",
     )
     validation.add_argument("--dry-run", action="store_true")
     validation.add_argument("--batch-size", type=int, default=25)
@@ -247,8 +285,6 @@ def main(argv: list[str] | None = None) -> int:
         return run(args)
     if args.batch_size < 1:
         raise SystemExit("--batch-size must be positive")
-    if args.environment == "production":
-        raise SystemExit("cube-coverage production execution is not enabled")
     if args.dry_run and args.scope == "new" and not args.fixture:
         raise SystemExit(
             "--scope new is a persistent operation and cannot be combined with --dry-run"
@@ -274,10 +310,16 @@ def main(argv: list[str] | None = None) -> int:
         dsn = os.getenv("REPAIRBASE_SECURITY_TEST_DB_URL", "").strip()
         if not dsn:
             raise SystemExit("REPAIRBASE_SECURITY_TEST_DB_URL is required")
+        approval = None
+        if args.environment == "production":
+            approval = production_approval_from_env(
+                command_flag=True, supplied_token=args.production_token
+            )
         assert_configured_development_target(
             dsn,
             app_env=args.environment,
             operation="write" if not args.dry_run else "read",
+            approval=approval,
         )
         connection = psycopg2.connect(dsn)
         repo = CubeRepository(connection)

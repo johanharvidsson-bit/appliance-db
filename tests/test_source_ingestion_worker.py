@@ -201,19 +201,21 @@ def test_fixture_dry_run_covers_html_pdf_conflict_and_failures(tmp_path, capsys)
     }
 
 
-def test_production_is_fail_closed():
-    with pytest.raises(SystemExit):
-        main(
-            [
-                "source-ingestion",
-                "--site",
-                "x",
-                "--environment",
-                "production",
-                "--fixture",
-                str(FIXTURE),
-            ]
-        )
+def test_fixture_mode_ignores_environment():
+    # Fixture mode never touches a database or network regardless of
+    # --environment, so it is not blanket-rejected for production - only a
+    # real, unapproved production *write* is (see config/target_safety.py).
+    main(
+        [
+            "source-ingestion",
+            "--site",
+            "x",
+            "--environment",
+            "production",
+            "--fixture",
+            str(FIXTURE),
+        ]
+    )
 
 
 def test_write_allowlist_excludes_canonical_content_tables():

@@ -111,14 +111,39 @@ def assert_safe_target(
     return kind
 
 
+def production_approval_from_env(
+    *, command_flag: bool, supplied_token: str
+) -> ProductionApproval:
+    """Build a ProductionApproval from the two env-configured approval factors.
+
+    ALLOW_PRODUCTION_WRITE and PRODUCTION_WRITE_CONFIRMATION are set once by
+    whoever administers the box (an infrastructure-level switch), not by the
+    worker invocation itself. supplied_token comes from the CLI invocation
+    (e.g. --production-token) and must match the configured token exactly.
+    """
+    return ProductionApproval(
+        allow_environment=os.getenv("ALLOW_PRODUCTION_WRITE", "").strip().lower()
+        in {"1", "true", "yes"},
+        command_flag=command_flag,
+        configured_token=os.getenv("PRODUCTION_WRITE_CONFIRMATION", "").strip(),
+        supplied_token=supplied_token.strip(),
+    )
+
+
 def assert_configured_development_target(
-    target: str, *, app_env: str, operation: str = "read"
+    target: str,
+    *,
+    app_env: str,
+    operation: str = "read",
+    approval: ProductionApproval | None = None,
 ) -> TargetKind:
     """Allow external dev Postgres only when its identity is predeclared."""
     if operation.strip().lower() not in {"read", "write"}:
         raise TargetSafetyError(f"Unsupported operation: {operation!r}")
     try:
-        return assert_safe_target(target, app_env=app_env, operation=operation)
+        return assert_safe_target(
+            target, app_env=app_env, operation=operation, approval=approval
+        )
     except TargetSafetyError:
         pass
     if app_env.strip().lower() != "development":

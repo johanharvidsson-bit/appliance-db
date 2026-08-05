@@ -310,21 +310,23 @@ def test_cli_filters_and_empty_result(tmp_path, capsys):
     assert json.loads(capsys.readouterr().out)["candidate_facts_read"] == 0
 
 
-def test_invalid_site_and_production_are_rejected():
+def test_invalid_site_is_rejected_and_fixture_mode_ignores_environment():
     with pytest.raises(SystemExit):
         main(["knowledge-integration", "--site", "wrong", "--fixture", str(FIXTURE)])
-    with pytest.raises(SystemExit):
-        main(
-            [
-                "knowledge-integration",
-                "--site",
-                "appliance-repair-base",
-                "--environment",
-                "production",
-                "--fixture",
-                str(FIXTURE),
-            ]
-        )
+    # Fixture mode never touches a database or network regardless of
+    # --environment, so it is not blanket-rejected for production - only a
+    # real, unapproved production *write* is (see config/target_safety.py).
+    main(
+        [
+            "knowledge-integration",
+            "--site",
+            "appliance-repair-base",
+            "--environment",
+            "production",
+            "--fixture",
+            str(FIXTURE),
+        ]
+    )
 
 
 def test_strict_write_boundary_and_migration_security():

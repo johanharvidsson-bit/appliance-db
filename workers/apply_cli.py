@@ -5,7 +5,10 @@ import json
 import os
 from uuid import uuid4
 import psycopg2
-from config.target_safety import assert_configured_development_target
+from config.target_safety import (
+    assert_configured_development_target,
+    production_approval_from_env,
+)
 from workers.apply_integration import ApplyBlocked, ApplyEngine, StaleProposal
 from workers.apply_repository import ApplyRepository
 
@@ -32,8 +35,6 @@ class FixtureRepository:
 
 
 def run(args):
-    if args.environment == "production":
-        raise SystemExit("apply-integration production execution is not enabled")
     if args.batch_size < 1:
         raise SystemExit("--batch-size must be positive")
     if not args.dry_run and not args.confirm:
@@ -49,8 +50,16 @@ def run(args):
         dsn = os.getenv("REPAIRBASE_SECURITY_TEST_DB_URL", "").strip()
         if not dsn:
             raise SystemExit("REPAIRBASE_SECURITY_TEST_DB_URL is required")
+        approval = None
+        if args.environment == "production":
+            approval = production_approval_from_env(
+                command_flag=True, supplied_token=args.production_token
+            )
         assert_configured_development_target(
-            dsn, app_env=args.environment, operation="read" if args.dry_run else "write"
+            dsn,
+            app_env=args.environment,
+            operation="read" if args.dry_run else "write",
+            approval=approval,
         )
         connection = psycopg2.connect(dsn)
         repo = ApplyRepository(connection, run_id)

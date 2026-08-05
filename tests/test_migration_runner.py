@@ -22,9 +22,9 @@ def test_runner_discovers_numeric_migrations_and_rejects_duplicates():
         for path in (Path(__file__).resolve().parents[1] / "db/migrations").glob("*.sql")
     )
     assert migration_names[-3:] == [
-        "011_repairbase_catalog_applicability.sql",
-        "012_repairbase_evidence_specifications.sql",
-        "013_repairbase_localization_publication.sql",
+        "028_repairbase_catalog_applicability.sql",
+        "029_repairbase_evidence_specifications.sql",
+        "030_repairbase_localization_publication.sql",
     ]
 
 

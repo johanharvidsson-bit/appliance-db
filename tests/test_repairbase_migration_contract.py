@@ -3,13 +3,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_SQL = (
-    ROOT / "db/migrations/011_repairbase_catalog_applicability.sql"
+    ROOT / "db/migrations/028_repairbase_catalog_applicability.sql"
 ).read_text(encoding="utf-8")
 EVIDENCE_SQL = (
-    ROOT / "db/migrations/012_repairbase_evidence_specifications.sql"
+    ROOT / "db/migrations/029_repairbase_evidence_specifications.sql"
 ).read_text(encoding="utf-8")
 PUBLICATION_SQL = (
-    ROOT / "db/migrations/013_repairbase_localization_publication.sql"
+    ROOT / "db/migrations/030_repairbase_localization_publication.sql"
 ).read_text(encoding="utf-8")
 FIXTURE_SQL = (ROOT / "tests/fixtures/repairbase_phase1.sql").read_text(encoding="utf-8")
 

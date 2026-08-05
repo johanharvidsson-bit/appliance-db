@@ -7,19 +7,27 @@ untouched.
 
 ## Implemented migrations
 
-1. `011_repairbase_catalog_applicability.sql`
+Numbered 028-030, not 011-013: the `codex/feature/*-worker` branch chain
+(merged via `integration/worker-pipeline-pilot`) independently claimed
+011-027 for the ApplianceRepairBase worker platform. Both lines started
+counting from 010 on their own branch; renumbering this line avoids a
+collision when the two are eventually merged. See
+`docs/workers/worker-pipeline-integration.md` for the other chain's
+migration matrix.
+
+1. `028_repairbase_catalog_applicability.sql`
    - sites, languages, categories, manufacturers, and brands
    - model, technical generation, commercial variant, and model year
    - FK-safe aliases and serial-number schemes
    - applicability sets, inclusion/exclusion rules, and ancestry validation
-2. `012_repairbase_evidence_specifications.sql`
+2. `029_repairbase_evidence_specifications.sql`
    - sources and immutable source revisions
    - typed technical assertions and evidence links
    - units, operating conditions, and specifications
    - manuals and manual applicability
    - immutable source revisions and published technical assertions
    - deferred evidence/review publication gate
-3. `013_repairbase_localization_publication.sql`
+3. `030_repairbase_localization_publication.sql`
    - per-entity translations for the phase-1 domains
    - explicit site language, category, and brand isolation
    - FK-safe page subjects, hreflang clusters, and routes
@@ -71,7 +79,7 @@ the same result and explanation.
 - Manual pages whose applicability spans several sites require repository-level
   eligibility validation beyond the current page subject checks.
 - Diagnostic, maintenance, repair, parts, procedure, and FAQ domains are not in
-  migrations 011-013.
+  migrations 028-030.
 
 ## Offline checks
 
@@ -92,10 +100,10 @@ and are reserved for the separate isolated-validation milestone.
 `tests/fixtures/repairbase_phase1.sql` exercises Yamaha F150 and Mercury 150
 FourStroke identities with deliberately synthetic generation keys. It runs in
 a transaction and always rolls back, so fixture identities can never be
-mistaken for sourced production facts. Migrations 011-013 and this fixture
+mistaken for sourced production facts. Migrations 028-030 and this fixture
 must pass against a disposable or staging PostgreSQL database before rollout.
 
 No live or persistent database has been migrated. The next milestone is an
 isolated PostgreSQL 16 validation on the VPS: create a disposable database,
-apply the supported baseline plus migrations 011-013, run the rollback-only
+apply the supported baseline plus migrations 028-030, run the rollback-only
 fixture and destructive constraint tests, then remove the disposable database.

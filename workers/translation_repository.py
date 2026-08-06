@@ -153,10 +153,27 @@ class TranslationRepository:
         from guide_translations.publication_status - nothing else in this
         pipeline ever sets it, so a guide can have a fully published
         translation and still be invisible to anon/public API callers. A
-        guide with at least one published translation is ready to be public."""
+        guide with at least one published translation is ready to be public.
+
+        Publishing also requires a verified topic link (DB trigger
+        validate_published_guide_topics enforces this) - create_reviewed_guide
+        always attaches the topic as 'candidate', but that link is a direct
+        byproduct of the propose_new_guide_candidate proposal that was already
+        evidence-checked and auto-approved before apply-integration ran, so
+        verifying it here isn't a new, weaker judgment call."""
         if entity_type != "guide":
             return
         with self.connection.cursor() as cur:
+            cur.execute(
+                "UPDATE guide_error_codes SET relation_status='verified',updated_at=now() "
+                "WHERE guide_id=%s AND relation_status='candidate'",
+                (entity_id,),
+            )
+            cur.execute(
+                "UPDATE guide_faults SET relation_status='verified',updated_at=now() "
+                "WHERE guide_id=%s AND relation_status='candidate'",
+                (entity_id,),
+            )
             cur.execute(
                 "UPDATE guides SET content_status='published',updated_at=now() "
                 "WHERE id=%s AND content_status='draft'",

@@ -676,6 +676,68 @@ export async function getFaultsByBrandCategoryLocale(locale: string, brandSlug: 
   return { data: await attachFaultArticleSlugs(filtered, locale), error: null }
 }
 
+// ── Guides ───────────────────────────────────────────────────────────────────
+// guides + guide_translations (the evidence-chain worker pipeline's own repair
+// content) are a separate table pair from articles/faults above - see
+// getGuideByLocaleSlug for why a guide is looked up directly by locale+slug
+// rather than through a brand/category-scoped listing query first.
+
+/** Guides for a brand+category listing page, in one locale. */
+export async function getGuidesByBrandCategoryLocale(locale: string, brandSlug: string, categorySlug: string) {
+  const [brandId, catId] = await Promise.all([
+    getBrandId(brandSlug),
+    getCategoryIdByLocaleSlug(locale, categorySlug),
+  ])
+  if (!brandId || !catId) return { data: [], error: null }
+
+  const { data, error } = await logged(
+    supabase
+      .from('guides')
+      .select('id, guide_translations ( slug, title, short_description, locale )')
+      .eq('brand_id', brandId)
+      .eq('category_id', catId)
+      .order('id'),
+    `getGuidesByBrandCategoryLocale(${locale}, ${brandSlug}, ${categorySlug})`
+  )
+  if (!data) return { data: [], error }
+
+  const filtered = data.map((row: any) => ({
+    ...row,
+    guide_translations: (row.guide_translations ?? []).filter((t: any) => t.locale === locale),
+  })).filter((row: any) => row.guide_translations.length > 0)
+
+  return { data: filtered, error: null }
+}
+
+/**
+ * A single guide by its own (locale, slug) - unlike fault articles, guide
+ * slugs are deterministic (`guide-{id}-{locale}`) and globally unique per
+ * locale, so no brand/category pre-filter is needed to find the row. The
+ * category_id/brand_id check below just guards against a guide being
+ * reachable under the wrong brand/category URL segment.
+ */
+export async function getGuideByLocaleSlug(locale: string, categorySlug: string, brandSlug: string, slug: string) {
+  const [catId, brandId] = await Promise.all([
+    getCategoryIdByLocaleSlug(locale, categorySlug),
+    getBrandId(brandSlug),
+  ])
+  if (!catId || !brandId) return null
+
+  const { data } = await logged(
+    supabase
+      .from('guide_translations')
+      .select('title, short_description, summary, steps_json, guides!inner ( category_id, brand_id )')
+      .eq('locale', locale)
+      .eq('slug', slug)
+      .single(),
+    `getGuideByLocaleSlug(${locale}, ${categorySlug}, ${brandSlug}, ${slug})`
+  )
+  if (!data) return null
+  const guide = (data as any).guides
+  if (guide.category_id !== catId || guide.brand_id !== brandId) return null
+  return data as any
+}
+
 /**
  * All published fault article slugs for a given locale (for getStaticPaths).
  * Returns { slug, brand_slug, category_slug, article_id }.

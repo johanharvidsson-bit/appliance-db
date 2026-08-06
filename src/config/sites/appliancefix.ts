@@ -22,5 +22,7 @@ export const appliancefixConfig = {
     description:
       'Fix your appliance error codes fast. Step-by-step guides for Samsung, Bosch, LG and more.',
     twitterHandle: '@appliancefix',
+    contactEmail: 'info@appliancerepairbase.com',
+    googleSiteVerificationId: '',
   },
 }

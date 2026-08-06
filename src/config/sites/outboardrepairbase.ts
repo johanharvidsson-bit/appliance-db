@@ -16,5 +16,7 @@ export const outboardrepairbaseConfig = {
     description:
       'Fix your outboard motor error codes fast. Mercury, Yamaha, Honda, Suzuki and more.',
     twitterHandle: '@outboardfix',
+    contactEmail: 'info@outboardrepairbase.com',
+    googleSiteVerificationId: '',
   },
 }

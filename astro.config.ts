@@ -15,8 +15,16 @@ import astrowind from './vendor/integration';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter';
 import { LOCALES } from './src/lib/locales';
+import { resolveSiteConfig } from './site.config';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// astro.config.ts runs in plain Node before Vite is available, so it reads
+// `process.env` directly rather than `import.meta.env` (which `site.config.ts`
+// uses everywhere else, since that's Vite-injected and only populated once the
+// app is actually running). Astro loads `.env` into `process.env` before this
+// file is evaluated, so `ACTIVE_SITE` is already set here.
+const activeSiteConfig = resolveSiteConfig(process.env.ACTIVE_SITE);
 
 const hasExternalScripts = false;
 const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
@@ -86,7 +94,48 @@ export default defineConfig({
     }),
 
     astrowind({
-      config: './src/config.yaml',
+      // Built from the active multisite config (site.config.ts) instead of the
+      // old static src/config.yaml, which only ever described appliancefix and
+      // was silently wrong (header, <title>, OG tags, Astro.site) for every
+      // other ACTIVE_SITE value.
+      config: {
+        site: {
+          name: activeSiteConfig.name,
+          site: `https://${activeSiteConfig.domain}`,
+          base: '/',
+          trailingSlash: true,
+          googleSiteVerificationId: activeSiteConfig.meta.googleSiteVerificationId ?? '',
+        },
+        metadata: {
+          title: {
+            default: activeSiteConfig.name,
+            template: `%s — ${activeSiteConfig.name}`,
+          },
+          description: activeSiteConfig.meta.description,
+          robots: {
+            index: true,
+            follow: true,
+          },
+          openGraph: {
+            siteName: activeSiteConfig.name,
+            images: [{ url: '~/assets/images/default.png', width: 1200, height: 628 }],
+            type: 'website',
+          },
+          twitter: {
+            handle: activeSiteConfig.meta.twitterHandle,
+            site: activeSiteConfig.meta.twitterHandle,
+            cardType: 'summary_large_image',
+          },
+        },
+        i18n: {
+          language: activeSiteConfig.defaultLocale,
+          textDirection: 'ltr',
+        },
+        // Omitted `apps.blog` entirely rather than passing `{ isEnabled: false }` —
+        // the vendor Config type requires the full AppBlogConfig shape when the key
+        // is present at all, and `isEnabled: false` is already configBuilder's own
+        // default when `apps` is left out.
+      },
     }),
   ],
 

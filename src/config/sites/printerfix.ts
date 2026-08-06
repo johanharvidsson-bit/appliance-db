@@ -17,5 +17,7 @@ export const printerfixConfig = {
   meta: {
     description: 'Fix your printer error codes fast. HP, Epson, Brother and more.',
     twitterHandle: '@printerfix',
+    contactEmail: 'info@printerfix.com',
+    googleSiteVerificationId: '',
   },
 }

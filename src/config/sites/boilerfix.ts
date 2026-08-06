@@ -17,5 +17,7 @@ export const boilerfixConfig = {
   meta: {
     description: 'Fix your boiler error codes fast. Worcester Bosch, Vaillant, Ideal and more.',
     twitterHandle: '@boilerfix',
+    contactEmail: 'info@boilerfix.com',
+    googleSiteVerificationId: '',
   },
 }

@@ -10,6 +10,11 @@ const configs: Record<string, typeof appliancefixConfig> = {
   outboardrepairbase: outboardrepairbaseConfig,
 }
 
-const activeSite = (import.meta.env.ACTIVE_SITE as string) || 'appliancefix'
+// Exported separately from `siteConfig` so callers outside the Vite/SSR runtime
+// (astro.config.ts, which only has `process.env`, not `import.meta.env`) can
+// resolve the same site config without depending on Vite's env injection.
+export function resolveSiteConfig(activeSite?: string) {
+  return configs[activeSite || ''] ?? appliancefixConfig
+}
 
-export const siteConfig = configs[activeSite] ?? appliancefixConfig
+export const siteConfig = resolveSiteConfig(import.meta.env.ACTIVE_SITE as string)

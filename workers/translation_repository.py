@@ -148,6 +148,21 @@ class TranslationRepository:
             cur.execute(sql, params)
             return cur.fetchone()[0]
 
+    def publish_guide_parent_if_ready(self, entity_type, entity_id):
+        """guides.content_status gates public (RLS) visibility separately
+        from guide_translations.publication_status - nothing else in this
+        pipeline ever sets it, so a guide can have a fully published
+        translation and still be invisible to anon/public API callers. A
+        guide with at least one published translation is ready to be public."""
+        if entity_type != "guide":
+            return
+        with self.connection.cursor() as cur:
+            cur.execute(
+                "UPDATE guides SET content_status='published',updated_at=now() "
+                "WHERE id=%s AND content_status='draft'",
+                (entity_id,),
+            )
+
     def publish_source_if_draft(self, entity_type, entity_id, source_locale):
         """A source row just proven complete enough to translate from is, by
         the same standard, complete enough to publish in its own locale -

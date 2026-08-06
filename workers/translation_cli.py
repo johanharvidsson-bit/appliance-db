@@ -148,6 +148,7 @@ def run(args):
                             entity_type, entity_id, target_locale, values, src_hash, slug=slug
                         )
                         repo.publish_source_if_draft(entity_type, entity_id, args.source_locale)
+                        repo.publish_guide_parent_if_ready(entity_type, entity_id)
                         connection.commit()
                         totals["translated"] += 1
                         rows.append(

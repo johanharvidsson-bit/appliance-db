@@ -62,6 +62,14 @@ class TranslationRepository:
             )
 
     def candidates(self, entity_type, *, source_locale, target_locale, limit, brand=None, category=None):
+        # Every one of the seven upstream workers only ever writes
+        # draft/review - by design, publication is a deliberately separate,
+        # later stage that nothing in this pipeline performs yet. Requiring
+        # publication_status='published' here would mean this worker could
+        # never select anything at all. Evidenced content_status is what
+        # actually establishes trustworthiness (apply-integration only
+        # writes evidenced facts); draft here means "not yet exposed
+        # publicly", not "unverified".
         cfg = TRANSLATABLE_TABLES[entity_type]
         table, id_col = cfg["table"], cfg["id_column"]
         entity_table = _ENTITY_TABLE[entity_type]
@@ -74,7 +82,7 @@ class TranslationRepository:
         JOIN brands b ON b.id = e.brand_id
         JOIN categories c ON c.id = e.category_id
         LEFT JOIN {table} tgt ON tgt.{id_col} = src.{id_col} AND tgt.locale = %s
-        WHERE src.locale = %s AND src.publication_status = 'published'
+        WHERE src.locale = %s AND src.publication_status IN ('draft','review','published')
           AND b.is_active AND c.is_active
         """
         params = [target_locale, source_locale]
@@ -135,3 +143,16 @@ class TranslationRepository:
         with self.connection.cursor() as cur:
             cur.execute(sql, params)
             return cur.fetchone()[0]
+
+    def publish_source_if_draft(self, entity_type, entity_id, source_locale):
+        """A source row just proven complete enough to translate from is, by
+        the same standard, complete enough to publish in its own locale -
+        nothing else in this pipeline currently performs that transition."""
+        cfg = TRANSLATABLE_TABLES[entity_type]
+        table, id_col = cfg["table"], cfg["id_column"]
+        with self.connection.cursor() as cur:
+            cur.execute(
+                f"UPDATE {table} SET publication_status='published',updated_at=now() "
+                f"WHERE {id_col}=%s AND locale=%s AND publication_status='draft'",
+                (entity_id, source_locale),
+            )

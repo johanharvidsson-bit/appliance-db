@@ -147,6 +147,7 @@ def run(args):
                         repo.persist(
                             entity_type, entity_id, target_locale, values, src_hash, slug=slug
                         )
+                        repo.publish_source_if_draft(entity_type, entity_id, args.source_locale)
                         connection.commit()
                         totals["translated"] += 1
                         rows.append(

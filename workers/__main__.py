@@ -229,6 +229,33 @@ def parser() -> argparse.ArgumentParser:
     validation.add_argument(
         "--output-dir", type=Path, default=Path("reports/content-validation")
     )
+    translation = sub.add_parser(
+        "translation", help="translate published content into other active locales"
+    )
+    translation.add_argument("--site", required=True)
+    translation.add_argument(
+        "--environment",
+        default="development",
+        choices=("development", "staging", "production"),
+    )
+    translation.add_argument(
+        "--production-token",
+        default="",
+        help="must match PRODUCTION_WRITE_CONFIRMATION; required with --environment production",
+    )
+    translation.add_argument("--dry-run", action="store_true")
+    translation.add_argument("--batch-size", type=int, default=25)
+    translation.add_argument("--source-locale", default="en")
+    translation.add_argument("--locale", help="target locale; defaults to every active non-default site locale")
+    translation.add_argument(
+        "--entity-type", choices=("model", "error_code", "fault", "guide")
+    )
+    translation.add_argument("--brand")
+    translation.add_argument("--category")
+    translation.add_argument("--fixture", type=Path)
+    translation.add_argument(
+        "--output-dir", type=Path, default=Path("reports/translation")
+    )
     review = sub.add_parser(
         "source-review", help="manually review one source candidate"
     )
@@ -281,6 +308,10 @@ def main(argv: list[str] | None = None) -> int:
         return run(args)
     if args.worker == "source-review":
         from workers.source_review_cli import run
+
+        return run(args)
+    if args.worker == "translation":
+        from workers.translation_cli import run
 
         return run(args)
     if args.batch_size < 1:

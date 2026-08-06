@@ -1,0 +1,17 @@
+{
+  "site": "appliance-repair-base",
+  "target_locale": "sv",
+  "candidates": [
+    {
+      "entity_type": "guide",
+      "entity_id": 1,
+      "title": "Error Code 294 repair guide",
+      "short_description": null,
+      "summary": null,
+      "steps_json": [
+        {"step_number": 1, "instruction": "Unplug the appliance."},
+        {"step_number": 2, "instruction": "Clean the drain filter."}
+      ]
+    }
+  ]
+}

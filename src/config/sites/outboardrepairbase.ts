@@ -12,6 +12,11 @@ export const outboardrepairbaseConfig = {
   categories: [
     { text: 'Outboard Motors', slug: 'outboard-motors' },
   ],
+  // Placeholder slug - no outboardrepairbase DB content exists yet, so this
+  // hasn't been checked against a real category_translations row.
+  categoriesSv: [
+    { text: 'Utombordsmotorer', slug: 'utombordsmotorer' },
+  ],
   meta: {
     description:
       'Fix your outboard motor error codes fast. Mercury, Yamaha, Honda, Suzuki and more.',

@@ -1,17 +1,7 @@
 import { siteConfig } from 'site-config';
 
-const svCategories: { text: string; slug: string }[] = [
-  { text: 'Tvättmaskiner',   slug: 'tvattmaskiner' },
-  { text: 'Torktumlare',     slug: 'torktumlare' },
-  { text: 'Diskmaskiner',    slug: 'diskmaskiner' },
-  { text: 'Kylskåp',         slug: 'kylskap' },
-  { text: 'Ugnar',           slug: 'ugnar' },
-  { text: 'Mikrovågsugnar',  slug: 'mikrovagnsugnar' },
-  { text: 'Frysar',          slug: 'frysar' },
-];
-
 function categoriesForLocale(locale: string) {
-  return locale === 'sv' ? svCategories : siteConfig.categories;
+  return locale === 'sv' ? siteConfig.categoriesSv : siteConfig.categories;
 }
 
 export function headerData(locale: string = 'en') {

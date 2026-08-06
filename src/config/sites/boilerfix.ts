@@ -14,6 +14,13 @@ export const boilerfixConfig = {
     { text: 'Oil Boilers',    slug: 'oil-boilers' },
     { text: 'Heat Pumps',     slug: 'heat-pumps' },
   ],
+  // Placeholder slugs - no boilerfix DB content exists yet, so these haven't
+  // been checked against real category_translations rows.
+  categoriesSv: [
+    { text: 'Gaspannor',     slug: 'gaspannor' },
+    { text: 'Oljepannor',    slug: 'oljepannor' },
+    { text: 'Värmepumpar',   slug: 'varmepumpar' },
+  ],
   meta: {
     description: 'Fix your boiler error codes fast. Worcester Bosch, Vaillant, Ideal and more.',
     twitterHandle: '@boilerfix',

@@ -155,6 +155,43 @@ def test_support_page_extracts_exact_error_description_not_heading_steps():
     assert not [fact for fact in facts if fact.fact_type == "guide_step"]
 
 
+def test_grouped_reference_table_entry_does_not_bleed_into_the_next_code():
+    # Reproduces a real Samsung support-page pattern: a catch-all table row
+    # lists several distinct codes back-to-back ("AC7 - Communication Error
+    # AE3 - DR Ready Modem Error ..."). Without a stop condition, ERROR's
+    # second capture group used to run 180 chars past "AC7 -" and swallow the
+    # unrelated AE3 entry (and beyond) into AC7's "meaning".
+    body = b"""
+    <table><tbody><tr><td>
+      <p>All other errors: power off the washer, then power it back on.</p>
+      <ul>
+        <li>AC7 - Communication Error</li>
+        <li>AE3 - DR Ready Modem Error</li>
+        <li>BE2 - High Temperature Circuit Error</li>
+      </ul>
+    </td></tr></tbody></table>
+    """
+    doc = parse_document("https://www.samsung.com/support/errors", "text/html", body)
+    facts = extract_facts(
+        doc, subject_hint="error_code:50", subject_identifier="AC7", locale="en", source_trust=95
+    )
+    codes = [f for f in facts if f.fact_type == "error_code"]
+    ac7 = [f for f in codes if f.value.get("code") == "AC7"]
+    assert ac7, "expected at least one AC7 fact"
+    for fact in ac7:
+        assert fact.value == {"code": "AC7", "meaning": "Communication Error"}
+        assert "AE3" not in fact.value["meaning"]
+    # Every AC7 fact now agrees, so none should be marked conflicted.
+    assert all(fact.status == "candidate" for fact in ac7)
+    # AE3 and 9C6 were only ever mentioned once each - they must not be swept
+    # into AC7's conflict group just for sharing subject_hint/fact_type/locale
+    # with it (a distinct bug from the bleeding one above: the dedup/conflict
+    # grouping key previously had no per-code discriminator at all).
+    other_codes = [f for f in codes if f.value.get("code") != "AC7"]
+    assert {f.value.get("code") for f in other_codes} == {"AE3", "BE2"}
+    assert all(f.status == "candidate" for f in other_codes)
+
+
 def test_numbered_steps_have_independent_conflict_identity():
     body = b"<p>1. Unplug the appliance.</p><p>2. Check the drain hose.</p>"
     doc = parse_document("https://example.com/support", "text/html", body)

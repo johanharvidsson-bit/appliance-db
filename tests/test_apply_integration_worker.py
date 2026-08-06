@@ -8,6 +8,7 @@ from workers.apply_integration import (
     APPLY_OPERATIONS,
     ApplyBlocked,
     ApplyEngine,
+    Operation,
     StaleProposal,
     is_placeholder,
 )
@@ -63,8 +64,11 @@ class MemoryRepository:
 
 def test_registry_is_explicit_and_excludes_high_risk_operations():
     assert APPLY_OPERATIONS["propose_model_spec_update"].table == "model_specs"
-    assert "propose_new_guide_candidate" not in APPLY_OPERATIONS
+    assert APPLY_OPERATIONS["propose_new_guide_candidate"] == Operation(
+        "create_reviewed_guide", "guide_translations", "medium"
+    )
     assert "model_merge" not in {x.name for x in APPLY_OPERATIONS.values()}
+    assert all(x.risk in {"low", "medium"} for x in APPLY_OPERATIONS.values())
 
 
 @pytest.mark.parametrize(

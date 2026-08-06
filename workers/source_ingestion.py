@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 import pdfplumber
 
 PARSER_VERSION = "1.1.0"
-EXTRACTOR_VERSION = "1.1.0"
+EXTRACTOR_VERSION = "1.1.1"
 MAX_EXCERPT = 500
 
 
@@ -254,7 +254,20 @@ ERROR = re.compile(
     r"\b(?:error\s*)?([A-Z]{1,3}[0-9]{1,3}(?:[-/][A-Z0-9]+)?)\s*[:\-]\s*(.{3,180})",
     re.I,
 )
+# Reference pages commonly list several codes back-to-back in one block, e.g.
+# "AC7 - Communication Error AE3 - DR Ready Modem Error 8E, 8E1, ...". ERROR's
+# second group has no stop condition of its own, so without trimming it bleeds
+# into the next entry and produces a "meaning" that actually describes several
+# unrelated codes at once. Cut it off at the first sign of the next entry.
+NEXT_ERROR_ENTRY = re.compile(
+    r"\s+(?:[A-Z]{1,3}[0-9]{1,3}(?:[-/][A-Z0-9]+)?)\s*[:\-]", re.I
+)
 STEP = re.compile(r"^\s*(?:step\s*)?(\d{1,2})[.)]\s+(.{3,300})$", re.I)
+
+
+def _trim_at_next_error_entry(meaning: str) -> str:
+    boundary = NEXT_ERROR_ENTRY.search(meaning)
+    return (meaning[: boundary.start()] if boundary else meaning).strip()
 
 
 def extract_facts(
@@ -300,11 +313,15 @@ def extract_facts(
                 )
         error = ERROR.search(text)
         if error:
+            meaning = _trim_at_next_error_entry(error.group(2))
+            if not meaning:
+                error = None
+        if error:
             facts.append(
                 _fact(
                     "error_code",
                     "meaning",
-                    {"code": error.group(1).upper(), "meaning": error.group(2).strip()},
+                    {"code": error.group(1).upper(), "meaning": meaning},
                     segment,
                     subject_hint,
                     locale,
@@ -380,10 +397,19 @@ def _error_code_description(
     if not scored:
         return None
     _, segment = max(scored, key=lambda item: (item[0], -len(item[1].text)))
+    text = " ".join(segment.text.split())
+    # A compact list entry ("AC7 - Communication Error") repeats the same
+    # "code separator description" shape ERROR handles elsewhere. Extract just
+    # the description so this path and the regex path agree on one value
+    # instead of one keeping the "AC7 - " prefix and the other stripping it.
+    # Prose mentions the code mid-sentence instead ("A 5E or 5C error code
+    # indicates...") and are left as the full segment text.
+    prefixed = re.match(rf"(?:error\s*)?{re.escape(code)}\s*[:\-]\s*(.+)$", text, re.I)
+    meaning = _trim_at_next_error_entry(prefixed.group(1)) if prefixed else text
     return _fact(
         "error_code",
         "meaning",
-        {"code": code, "meaning": " ".join(segment.text.split())},
+        {"code": code, "meaning": meaning},
         segment,
         subject_hint,
         locale,
@@ -428,11 +454,21 @@ def deduplicate_and_conflict(facts: list[Fact]) -> list[Fact]:
     unique = {fact.input_hash: fact for fact in facts}
     grouped = {}
     for fact in unique.values():
-        discriminator = (
-            fact.value.get("step_number")
-            if fact.fact_type == "guide_step" and isinstance(fact.value, dict)
-            else None
-        )
+        # A page is scanned once per backlog item but its facts are not
+        # pre-filtered to that item's subject - extract_facts() opportunistically
+        # picks up every code-like pattern it finds (a whole reference table,
+        # say), not just the one the current backlog item asked about. Without
+        # a discriminator here, error_code facts about two entirely different
+        # codes share subject_hint/fact_type/predicate/locale and end up in the
+        # same conflict group purely because they're both "some error_code
+        # meaning" - marking both "conflicted" even though neither actually
+        # disagrees with anything about its own code.
+        if fact.fact_type == "guide_step" and isinstance(fact.value, dict):
+            discriminator = fact.value.get("step_number")
+        elif fact.fact_type == "error_code" and isinstance(fact.value, dict):
+            discriminator = fact.value.get("code")
+        else:
+            discriminator = None
         key = json.dumps(
             [fact.subject_hint, fact.fact_type, fact.predicate, fact.locale, discriminator],
             sort_keys=True,

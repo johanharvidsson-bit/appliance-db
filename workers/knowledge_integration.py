@@ -662,17 +662,46 @@ class ResolutionEngine:
                 "disconnect power",
             )
         )
+        # A guide that doesn't exist yet can never be the proposal's own
+        # target (Apply Integration requires a preferred_target whose id
+        # matches the proposal's entity_id, and there is no id to match).
+        # When this guide_step is scoped to an existing error_code or fault
+        # backlog item, target that stable parent instead - the same way
+        # propose_variant_mapping targets the parent model rather than the
+        # not-yet-created variant. A guide-shaped backlog item with no such
+        # anchor (create_or_enrich_guide from scratch) has no existing entity
+        # to target at all yet, so it keeps the original untargeted shape;
+        # Apply Integration cannot act on it until that action type carries
+        # its own anchor.
+        topic_table = {"error_code": "error_codes", "fault": "faults"}.get(
+            fact.get("backlog_entity_type")
+        )
+        topic = next(
+            (
+                row
+                for row in catalog.get(topic_table, [])
+                if topic_table and str(row["id"]) == str(fact.get("backlog_entity_id"))
+            ),
+            None,
+        )
+        entity_type = fact["backlog_entity_type"] if topic is not None else "guide"
+        entity_id = str(topic["id"]) if topic is not None else None
+        targets = (
+            self._targets([(topic, "exact", 100, ["backlog_entity"])], True)
+            if topic is not None
+            else []
+        )
         return [
             self._proposal(
                 fact,
                 "propose_new_guide_candidate",
-                "guide",
-                None,
+                entity_type,
+                entity_id,
                 "needs_review",
                 70,
                 "safety_review" if safety else "medium",
                 "new_information",
-                [],
+                targets,
                 value,
                 "create_reviewed_guide",
                 conflicts=[self._conflict("multiple_guide_procedures", "high", {})]

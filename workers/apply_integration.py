@@ -49,6 +49,9 @@ APPLY_OPERATIONS = {
     "propose_variant_mapping": Operation(
         "create_candidate_model_variant", "model_variants", "medium"
     ),
+    "propose_new_guide_candidate": Operation(
+        "create_reviewed_guide", "guide_translations", "medium"
+    ),
 }
 
 
@@ -76,6 +79,7 @@ def contains_invalid_text(value):
                 "symptom_name",
                 "short_summary",
                 "meta_description",
+                "instruction",
             }
         )
     return False

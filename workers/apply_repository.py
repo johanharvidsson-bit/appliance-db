@@ -16,8 +16,11 @@ class ApplyRepository:
             "error_code_translations",
             "fault_translations",
             "model_variants",
+            "guides",
+            "guide_translations",
         }
     )
+    _GUIDE_TOPIC_TABLES = {"error_code": "error_codes", "fault": "faults"}
 
     def __init__(self, connection, run_id=None):
         self.connection, self.run_id = connection, run_id
@@ -138,13 +141,16 @@ class ApplyRepository:
     def validate_target(self, plan):
         entity_id = int(plan["target"].get("target_entity_id") or 0)
         op = plan["operation"]
-        target_table = {
-            "upsert_model_spec_field": "models",
-            "update_model_content_field": "models",
-            "update_error_code_content": "error_codes",
-            "upsert_draft_fault_translation": "faults",
-            "create_candidate_model_variant": "models",
-        }[op]
+        if op == "create_reviewed_guide":
+            target_table = self._GUIDE_TOPIC_TABLES[plan["target"]["target_entity_type"]]
+        else:
+            target_table = {
+                "upsert_model_spec_field": "models",
+                "update_model_content_field": "models",
+                "update_error_code_content": "error_codes",
+                "upsert_draft_fault_translation": "faults",
+                "create_candidate_model_variant": "models",
+            }[op]
         with self.connection.cursor() as cur:
             cur.execute(
                 f"SELECT 1 FROM {target_table} WHERE id=%s FOR KEY SHARE", (entity_id,)
@@ -155,11 +161,22 @@ class ApplyRepository:
                 "update_model_content_field",
                 "update_error_code_content",
                 "upsert_draft_fault_translation",
+                "create_reviewed_guide",
             }:
                 locale = plan.get("locale") or plan["proposed"].get("locale")
                 cur.execute("SELECT 1 FROM locales WHERE code=%s", (locale,))
                 if not cur.fetchone():
                     raise ValueError("locale_out_of_scope")
+
+    @staticmethod
+    def _guide_slug(entity_type, entity_id, locale):
+        return f"guide-{entity_type}-{entity_id}-{locale}"
+
+    def _guide_scope(self, cur, entity_type, entity_id):
+        table = self._GUIDE_TOPIC_TABLES[entity_type]
+        cur.execute(f"SELECT brand_id, category_id FROM {table} WHERE id=%s", (entity_id,))
+        row = cur.fetchone()
+        return row["category_id"], row["brand_id"]
 
     def read_current(self, plan):
         target = plan["target"] or {}
@@ -182,6 +199,24 @@ class ApplyRepository:
                 )
                 row = cur.fetchone()
                 return row["value"] if row else None
+            if op == "create_reviewed_guide":
+                locale = plan.get("locale") or proposed.get("locale") or "en"
+                slug = self._guide_slug(target["target_entity_type"], entity_id, locale)
+                cur.execute(
+                    "SELECT steps_json FROM guide_translations WHERE locale=%s AND slug=%s FOR UPDATE",
+                    (locale, slug),
+                )
+                row = cur.fetchone()
+                if not row:
+                    return None
+                return next(
+                    (
+                        step
+                        for step in row["steps_json"] or []
+                        if step.get("step_number") == proposed.get("step_number")
+                    ),
+                    None,
+                )
             table, fk = {
                 "update_model_content_field": (
                     "model_content_translations",
@@ -237,6 +272,56 @@ class ApplyRepository:
                     ),
                 )
                 return cur.fetchone()["value"]
+            if op == "create_reviewed_guide":
+                entity_type = target["target_entity_type"]
+                locale = plan.get("locale") or proposed.get("locale") or "en"
+                slug = self._guide_slug(entity_type, entity_id, locale)
+                step_number, instruction = proposed["step_number"], proposed["instruction"]
+                cur.execute(
+                    "SELECT guide_id, steps_json FROM guide_translations WHERE locale=%s AND slug=%s FOR UPDATE",
+                    (locale, slug),
+                )
+                row = cur.fetchone()
+                if not row:
+                    category_id, brand_id = self._guide_scope(cur, entity_type, entity_id)
+                    title = f"{entity_type.replace('_', ' ').title()} {entity_id} repair guide"
+                    cur.execute(
+                        "INSERT INTO guides(category_id,brand_id,canonical_title,content_status) VALUES(%s,%s,%s,'draft') RETURNING id",
+                        (category_id, brand_id, title),
+                    )
+                    guide_id = cur.fetchone()["id"]
+                    # A draft guide with no topic link can never satisfy the
+                    # "published requires is_general OR a verified topic"
+                    # constraint later. Attach the candidate topic link now so
+                    # this guide is reviewable, not permanently orphaned.
+                    topic_column = "error_code_id" if entity_type == "error_code" else "fault_id"
+                    topic_table = "guide_error_codes" if entity_type == "error_code" else "guide_faults"
+                    cur.execute(
+                        f"INSERT INTO {topic_table}(guide_id,{topic_column},is_primary,sort_order,relation_status,confidence) "
+                        f"VALUES(%s,%s,true,1,'candidate',70) ON CONFLICT(guide_id,{topic_column}) DO NOTHING",
+                        (guide_id, entity_id),
+                    )
+                    cur.execute(
+                        "INSERT INTO guide_translations(guide_id,locale,slug,title,steps_json,publication_status) VALUES(%s,%s,%s,%s,'[]'::jsonb,'draft') ON CONFLICT(locale,slug) DO NOTHING",
+                        (guide_id, locale, slug, title),
+                    )
+                    # A concurrent apply of a different step for this same new
+                    # guide may have won the ON CONFLICT race; re-read rather
+                    # than assume this transaction's insert is the surviving row.
+                    cur.execute(
+                        "SELECT guide_id, steps_json FROM guide_translations WHERE locale=%s AND slug=%s FOR UPDATE",
+                        (locale, slug),
+                    )
+                    row = cur.fetchone()
+                guide_id, steps = row["guide_id"], list(row["steps_json"] or [])
+                steps = [s for s in steps if s.get("step_number") != step_number]
+                steps.append({"step_number": step_number, "instruction": instruction})
+                steps.sort(key=lambda s: s["step_number"])
+                cur.execute(
+                    "UPDATE guide_translations SET steps_json=%s::jsonb, updated_at=now() WHERE guide_id=%s AND locale=%s",
+                    (json.dumps(steps), guide_id, locale),
+                )
+                return {"step_number": step_number, "instruction": instruction}
             if op == "create_candidate_model_variant":
                 code = proposed["variant_code"]
                 cur.execute(

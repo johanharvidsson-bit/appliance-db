@@ -1,12 +1,14 @@
 ---
 title: 'Affiliate Disclosure'
-description: 'ApplianceRepairBase participates in affiliate programs. Learn how we earn commissions and how this affects our content recommendations.'
+description: 'Learn how we participate in affiliate programs, how we earn commissions, and how this affects our content recommendations.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
+import { siteConfig } from 'site-config'
+
 _Last updated: April 1, 2026_
 
-ApplianceRepairBase participates in affiliate marketing programs. This means that some of the links on https://appliancerepairbase.com are affiliate links, and we may earn a commission if you click on a link and make a purchase.
+{siteConfig.name} participates in affiliate marketing programs. This means that some of the links on https://{siteConfig.domain} are affiliate links, and we may earn a commission if you click on a link and make a purchase.
 
 ---
 
@@ -25,19 +27,15 @@ These commissions help support the operation and maintenance of the Website.
 
 We aim to provide accurate, unbiased, and helpful information. Our content is not influenced by affiliate partnerships.
 
-We only link to products, parts, or services that we believe may be relevant to the user based on appliance issues or error codes.
+We only link to products, parts, or services that we believe may be relevant to the user based on the issues or error codes they're looking up.
 
 ---
 
 ## 3. Affiliate Programs
 
-We may participate in affiliate programs including, but not limited to:
+We may participate in affiliate programs relevant to our product category.
 
-- AppliancePartsPros
-- eSpares
-- FixPart
-
-These companies may track referrals using cookies or similar technologies.
+These partners may track referrals using cookies or similar technologies.
 
 ---
 
@@ -63,5 +61,5 @@ All purchases are made directly with the third-party provider.
 
 If you have any questions about this Affiliate Disclosure, you can contact us at:
 
-Email: info@appliancerepairbase.com
-Website: https://appliancerepairbase.com
+Email: {siteConfig.meta.contactEmail}
+Website: https://{siteConfig.domain}

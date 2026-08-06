@@ -1,12 +1,14 @@
 ---
 title: 'Disclaimer'
-description: 'ApplianceRepairBase provides general informational content only. Read our disclaimer regarding the use of appliance repair guides and safety responsibilities.'
+description: 'We provide general informational content only. Read our disclaimer regarding the use of our repair guides and safety responsibilities.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
+import { siteConfig } from 'site-config'
+
 _Last updated: April 1, 2026_
 
-The information provided on https://appliancerepairbase.com (the "Website") is for general informational purposes only.
+The information provided on https://{siteConfig.domain} (the "Website") is for general informational purposes only.
 
 ---
 
@@ -35,7 +37,7 @@ You are solely responsible for ensuring your own safety and the safety of others
 
 ## 3. No Liability
 
-To the fullest extent permitted by law, ApplianceRepairBase shall not be held liable for:
+To the fullest extent permitted by law, {siteConfig.name} shall not be held liable for:
 
 - Personal injury
 - Property damage
@@ -96,5 +98,5 @@ We may update this Disclaimer at any time. Changes will be posted on this page w
 
 If you have any questions about this Disclaimer, contact:
 
-Email: info@appliancerepairbase.com
-Website: https://appliancerepairbase.com
+Email: {siteConfig.meta.contactEmail}
+Website: https://{siteConfig.domain}

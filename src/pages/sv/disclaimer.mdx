@@ -1,13 +1,15 @@
 ---
 lang: 'sv'
 title: 'Ansvarsfriskrivning'
-description: 'ApplianceRepairBase tillhandahåller endast allmänt informationsinnehåll. Läs vår ansvarsfriskrivning gällande användning av reparationsguider och säkerhetsansvar.'
+description: 'Vi tillhandahåller endast allmänt informationsinnehåll. Läs vår ansvarsfriskrivning gällande användning av reparationsguider och säkerhetsansvar.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
+import { siteConfig } from 'site-config'
+
 _Senast uppdaterad: 1 april 2026_
 
-Informationen som tillhandahålls på https://appliancerepairbase.com ("Webbplatsen") är endast avsedd för allmänna informationssyften.
+Informationen som tillhandahålls på https://{siteConfig.domain} ("Webbplatsen") är endast avsedd för allmänna informationssyften.
 
 ---
 
@@ -36,7 +38,7 @@ Du är ensam ansvarig för att säkerställa din egen och andras säkerhet vid u
 
 ## 3. Inget ansvar
 
-I den utsträckning lagen tillåter ska ApplianceRepairBase inte hållas ansvarigt för:
+I den utsträckning lagen tillåter ska {siteConfig.name} inte hållas ansvarigt för:
 
 - Personskador
 - Egendomsskador
@@ -97,5 +99,5 @@ Vi kan uppdatera denna ansvarsfriskrivning när som helst. Ändringar publiceras
 
 Om du har frågor om denna ansvarsfriskrivning, kontakta:
 
-E-post: info@appliancerepairbase.com
-Webbplats: https://appliancerepairbase.com
+E-post: {siteConfig.meta.contactEmail}
+Webbplats: https://{siteConfig.domain}

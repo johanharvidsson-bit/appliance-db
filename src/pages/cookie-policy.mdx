@@ -1,12 +1,14 @@
 ---
 title: 'Cookie Policy'
-description: 'Learn how ApplianceRepairBase uses cookies for analytics, advertising, and affiliate tracking, and how to manage your cookie preferences.'
+description: 'Learn how we use cookies for analytics, advertising, and affiliate tracking, and how to manage your cookie preferences.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
+import { siteConfig } from 'site-config'
+
 _Last updated: April 1, 2026_
 
-This Cookie Policy explains how ApplianceRepairBase ("we", "us", or "our") uses cookies and similar technologies when you visit https://appliancerepairbase.com (the "Website").
+This Cookie Policy explains how {siteConfig.name} ("we", "us", or "our") uses cookies and similar technologies when you visit https://{siteConfig.domain} (the "Website").
 
 ---
 
@@ -62,7 +64,7 @@ Some cookies are placed by third-party services that appear on our pages. These 
 
 - Google AdSense
 - Google Analytics
-- Affiliate networks (e.g., AppliancePartsPros, eSpares, FixPart)
+- Our advertising and affiliate networks
 
 These third parties may collect and process data according to their own privacy policies.
 
@@ -104,5 +106,5 @@ We may update this Cookie Policy from time to time. Changes will be posted on th
 
 If you have questions about our use of cookies, contact:
 
-Email: info@appliancerepairbase.com
-Website: https://appliancerepairbase.com
+Email: {siteConfig.meta.contactEmail}
+Website: https://{siteConfig.domain}

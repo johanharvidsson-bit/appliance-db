@@ -1,9 +1,11 @@
 ---
 lang: 'sv'
 title: 'Kontakta oss'
-description: 'Kom i kontakt med ApplianceRepairBase för allmänna frågor, affärssamarbeten, eller för att rapportera rättelser till våra reparationsguider.'
+description: 'Kom i kontakt med oss för allmänna frågor, affärssamarbeten, eller för att rapportera rättelser till våra reparationsguider.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
+
+import { siteConfig } from 'site-config'
 
 Om du har frågor, feedback eller behöver hjälp relaterat till problem med hushållsapparater, tveka inte att kontakta oss.
 
@@ -13,7 +15,7 @@ Om du har frågor, feedback eller behöver hjälp relaterat till problem med hus
 
 För allmänna frågor om webbplatsen, innehållet eller felsökning av hushållsapparater:
 
-E-post: info@appliancerepairbase.com
+E-post: {siteConfig.meta.contactEmail}
 
 ---
 
@@ -21,7 +23,7 @@ E-post: info@appliancerepairbase.com
 
 För affärsförfrågningar, affiliate-samarbeten eller andra samarbetsmöjligheter:
 
-E-post: info@appliancerepairbase.com
+E-post: {siteConfig.meta.contactEmail}
 
 ---
 
@@ -47,7 +49,7 @@ Observera att vi kanske inte kan erbjuda personlig felsökningssupport för ensk
 
 ## Viktig information
 
-ApplianceRepairBase tillhandahåller endast allmänt informationsinnehåll. Vi erbjuder inte akutsupport eller reparationstjänster i realtid.
+{siteConfig.name} tillhandahåller endast allmänt informationsinnehåll. Vi erbjuder inte akutsupport eller reparationstjänster i realtid.
 
 Om ditt problem innebär säkerhetsrisker (t.ex. elfel, gas eller vattenläckage), kontakta omedelbart en kvalificerad tekniker.
 
@@ -55,4 +57,4 @@ Om ditt problem innebär säkerhetsrisker (t.ex. elfel, gas eller vattenläckage
 
 ## Webbplats
 
-https://appliancerepairbase.com
+https://{siteConfig.domain}

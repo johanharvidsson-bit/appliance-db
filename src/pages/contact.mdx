@@ -1,8 +1,10 @@
 ---
 title: 'Contact Us'
-description: 'Get in touch with ApplianceRepairBase for general inquiries, business partnerships, or to report corrections to our appliance repair guides.'
+description: 'Get in touch for general inquiries, business partnerships, or to report corrections to our repair guides.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
+
+import { siteConfig } from 'site-config'
 
 If you have questions, feedback, or need assistance related to appliance issues, feel free to get in touch with us.
 
@@ -12,7 +14,7 @@ If you have questions, feedback, or need assistance related to appliance issues,
 
 For general questions about the Website, content, or appliance troubleshooting:
 
-Email: info@appliancerepairbase.com
+Email: {siteConfig.meta.contactEmail}
 
 ---
 
@@ -20,7 +22,7 @@ Email: info@appliancerepairbase.com
 
 For business inquiries, affiliate partnerships, or collaboration opportunities:
 
-Email: info@appliancerepairbase.com
+Email: {siteConfig.meta.contactEmail}
 
 ---
 
@@ -46,7 +48,7 @@ Please note that we may not be able to provide personalized troubleshooting supp
 
 ## Important Notice
 
-ApplianceRepairBase provides general informational content only. We do not offer emergency support or real-time repair services.
+{siteConfig.name} provides general informational content only. We do not offer emergency support or real-time repair services.
 
 If your issue involves safety risks (e.g., electrical faults, gas, or water leakage), contact a qualified technician immediately.
 
@@ -54,4 +56,4 @@ If your issue involves safety risks (e.g., electrical faults, gas, or water leak
 
 ## Website
 
-https://appliancerepairbase.com
+https://{siteConfig.domain}

@@ -1,10 +1,12 @@
 ---
-title: 'About ApplianceRepairBase'
-description: 'ApplianceRepairBase is built by experienced appliance technicians. Learn about our mission to make troubleshooting faster and more accessible.'
+title: 'About Us'
+description: 'Built by experienced technicians. Learn about our mission to make troubleshooting faster and more accessible.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-ApplianceRepairBase is a resource built by experienced appliance technicians with a clear goal: to help people quickly diagnose and solve problems with their appliances.
+import { siteConfig } from 'site-config'
+
+{siteConfig.name} is a resource built by experienced appliance technicians with a clear goal: to help people quickly diagnose and solve problems with their appliances.
 
 We know how frustrating it can be when a washing machine stops mid-cycle, a dishwasher shows an unfamiliar error code, or an oven suddenly won't heat. In many cases, the information needed to fix the issue is scattered, unclear, or overly technical. That is the problem we set out to solve.
 
@@ -26,7 +28,7 @@ Our experience comes from real-world troubleshooting, not just manuals. We under
 
 ## What We Do
 
-ApplianceRepairBase is designed to make troubleshooting faster and more structured.
+{siteConfig.name} is designed to make troubleshooting faster and more structured.
 
 We organize information around:
 
@@ -72,5 +74,5 @@ To make appliance troubleshooting more accessible, structured, and actionable â€
 
 If you have questions, feedback, or suggestions, feel free to reach out:
 
-Email: info@appliancerepairbase.com
-Website: https://appliancerepairbase.com
+Email: {siteConfig.meta.contactEmail}
+Website: https://{siteConfig.domain}

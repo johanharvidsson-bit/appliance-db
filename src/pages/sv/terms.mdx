@@ -1,13 +1,15 @@
 ---
 lang: 'sv'
 title: 'Användarvillkor'
-description: 'Läs ApplianceRepairBases användarvillkor som reglerar din användning av våra felsökningsguider och webbplats.'
+description: 'Läs våra användarvillkor som reglerar din användning av våra felsökningsguider och webbplats.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
+import { siteConfig } from 'site-config'
+
 _Senast uppdaterad: 1 april 2026_
 
-Välkommen till ApplianceRepairBase ("vi", "oss" eller "vår"). Dessa användarvillkor ("Villkoren") reglerar din användning av https://appliancerepairbase.com ("Webbplatsen").
+Välkommen till {siteConfig.name} ("vi", "oss" eller "vår"). Dessa användarvillkor ("Villkoren") reglerar din användning av https://{siteConfig.domain} ("Webbplatsen").
 
 Genom att använda Webbplatsen godkänner du att vara bunden av dessa Villkor. Om du inte godkänner dem får du inte använda Webbplatsen.
 
@@ -48,7 +50,7 @@ Vi ansvarar inte för personskador, skador eller förluster till följd av anvä
 
 ## 4. Immateriella rättigheter
 
-Allt innehåll på Webbplatsen, inklusive text, struktur och design, ägs av eller är licensierat till ApplianceRepairBase.
+Allt innehåll på Webbplatsen, inklusive text, struktur och design, ägs av eller är licensierat till {siteConfig.name}.
 
 Du får inte:
 
@@ -96,7 +98,7 @@ Vi lämnar inga garantier, uttryckliga eller underförstådda, inklusive gällan
 
 ## 8. Ansvarsbegränsning
 
-I den utsträckning lagen tillåter ska ApplianceRepairBase inte hållas ansvarigt för:
+I den utsträckning lagen tillåter ska {siteConfig.name} inte hållas ansvarigt för:
 
 - Direkta eller indirekta skador
 - Förlust av data eller vinst
@@ -108,7 +110,7 @@ som uppstår från din användning av Webbplatsen.
 
 ## 9. Skadeersättning
 
-Du samtycker till att hålla ApplianceRepairBase skadeslöst från alla krav, skador eller kostnader som uppstår från:
+Du samtycker till att hålla {siteConfig.name} skadeslöst från alla krav, skador eller kostnader som uppstår från:
 
 - Din användning av Webbplatsen
 - Ditt brott mot dessa Villkor
@@ -141,5 +143,5 @@ Vi kan uppdatera dessa Villkor när som helst. Fortsatt användning av Webbplats
 
 Om du har frågor om dessa Villkor, kontakta:
 
-E-post: info@appliancerepairbase.com
-Webbplats: https://appliancerepairbase.com
+E-post: {siteConfig.meta.contactEmail}
+Webbplats: https://{siteConfig.domain}

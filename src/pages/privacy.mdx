@@ -1,12 +1,14 @@
 ---
 title: 'Privacy Policy'
-description: 'Read the ApplianceRepairBase Privacy Policy to learn how we collect, use, and protect your information when you visit our website.'
+description: 'Read our Privacy Policy to learn how we collect, use, and protect your information when you visit our website.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
+import { siteConfig } from 'site-config'
+
 _Last updated: April 1, 2026_
 
-Welcome to ApplianceRepairBase ("we", "us", or "our"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit https://appliancerepairbase.com (the "Website").
+Welcome to {siteConfig.name} ("we", "us", or "our"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit https://{siteConfig.domain} (the "Website").
 
 If you do not agree with the terms of this Privacy Policy, please do not access the Website.
 
@@ -67,9 +69,7 @@ We may participate in affiliate marketing programs and display advertisements. T
 These partners may include, but are not limited to:
 
 - Google AdSense
-- AppliancePartsPros
-- eSpares
-- FixPart
+- Our advertising and affiliate networks
 
 ---
 
@@ -105,7 +105,7 @@ If you are located in the European Economic Area (EEA), you have the right to:
 - Restrict or object to processing
 - Data portability
 
-To exercise these rights, contact us at: info@appliancerepairbase.com
+To exercise these rights, contact us at: {siteConfig.meta.contactEmail}
 
 ---
 
@@ -119,7 +119,7 @@ If you are a California resident, you have the right to:
 
 We do not sell personal data.
 
-To make a request, contact: info@appliancerepairbase.com
+To make a request, contact: {siteConfig.meta.contactEmail}
 
 ---
 
@@ -156,5 +156,5 @@ We may update this Privacy Policy from time to time. Updates will be posted on t
 
 If you have questions about this Privacy Policy, you can contact us at:
 
-Email: info@appliancerepairbase.com
-Website: https://appliancerepairbase.com
+Email: {siteConfig.meta.contactEmail}
+Website: https://{siteConfig.domain}

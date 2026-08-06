@@ -1,12 +1,14 @@
 ---
 title: 'Terms of Service'
-description: 'Read the ApplianceRepairBase Terms of Service governing your use of our appliance troubleshooting guides and website.'
+description: 'Read our Terms of Service governing your use of our troubleshooting guides and website.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
+import { siteConfig } from 'site-config'
+
 _Last updated: April 1, 2026_
 
-Welcome to ApplianceRepairBase ("we", "us", or "our"). These Terms of Service ("Terms") govern your use of https://appliancerepairbase.com (the "Website").
+Welcome to {siteConfig.name} ("we", "us", or "our"). These Terms of Service ("Terms") govern your use of https://{siteConfig.domain} (the "Website").
 
 By accessing or using the Website, you agree to be bound by these Terms. If you do not agree, you must not use the Website.
 
@@ -47,7 +49,7 @@ We are not responsible for any injury, damage, or loss resulting from use of the
 
 ## 4. Intellectual Property
 
-All content on the Website, including text, structure, and design, is owned by or licensed to ApplianceRepairBase.
+All content on the Website, including text, structure, and design, is owned by or licensed to {siteConfig.name}.
 
 You may not:
 
@@ -95,7 +97,7 @@ We make no warranties, express or implied, including:
 
 ## 8. Limitation of Liability
 
-To the maximum extent permitted by law, ApplianceRepairBase shall not be liable for:
+To the maximum extent permitted by law, {siteConfig.name} shall not be liable for:
 
 - Any direct or indirect damages
 - Loss of data or profits
@@ -107,7 +109,7 @@ arising from your use of the Website.
 
 ## 9. Indemnification
 
-You agree to indemnify and hold harmless ApplianceRepairBase from any claims, damages, or expenses arising from:
+You agree to indemnify and hold harmless {siteConfig.name} from any claims, damages, or expenses arising from:
 
 - Your use of the Website
 - Your violation of these Terms
@@ -140,5 +142,5 @@ We may update these Terms at any time. Continued use of the Website constitutes 
 
 If you have questions about these Terms, contact:
 
-Email: info@appliancerepairbase.com
-Website: https://appliancerepairbase.com
+Email: {siteConfig.meta.contactEmail}
+Website: https://{siteConfig.domain}

@@ -1,11 +1,13 @@
 ---
 lang: 'sv'
-title: 'Om ApplianceRepairBase'
-description: 'ApplianceRepairBase byggs av erfarna vitvarutekniker. Läs om vårt mål att göra felsökning snabbare och mer tillgänglig.'
+title: 'Om oss'
+description: 'Byggs av erfarna vitvarutekniker. Läs om vårt mål att göra felsökning snabbare och mer tillgänglig.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-ApplianceRepairBase är en resurs byggd av erfarna vitvarutekniker med ett tydligt mål: att hjälpa människor snabbt diagnostisera och lösa problem med sina hushållsapparater.
+import { siteConfig } from 'site-config'
+
+{siteConfig.name} är en resurs byggd av erfarna vitvarutekniker med ett tydligt mål: att hjälpa människor snabbt diagnostisera och lösa problem med sina hushållsapparater.
 
 Vi vet hur frustrerande det kan vara när en tvättmaskin stannar mitt i ett program, en diskmaskin visar en okänd felkod, eller en ugn plötsligt slutar värma. Ofta är informationen som behövs för att lösa problemet spridd, otydlig eller alltför teknisk. Det är problemet vi vill lösa.
 
@@ -27,7 +29,7 @@ Vår erfarenhet kommer från verklig felsökning, inte bara manualer. Vi först�
 
 ## Vad vi gör
 
-ApplianceRepairBase är utformad för att göra felsökning snabbare och mer strukturerad.
+{siteConfig.name} är utformad för att göra felsökning snabbare och mer strukturerad.
 
 Vi organiserar information kring:
 
@@ -73,5 +75,5 @@ Att göra felsökning av hushållsapparater mer tillgänglig, strukturerad och h
 
 Om du har frågor, feedback eller förslag, tveka inte att höra av dig:
 
-E-post: info@appliancerepairbase.com
-Webbplats: https://appliancerepairbase.com
+E-post: {siteConfig.meta.contactEmail}
+Webbplats: https://{siteConfig.domain}

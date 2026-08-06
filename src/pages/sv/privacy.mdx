@@ -1,13 +1,15 @@
 ---
 lang: 'sv'
 title: 'Integritetspolicy'
-description: 'Läs ApplianceRepairBases integritetspolicy för att förstå hur vi samlar in, använder och skyddar din information när du besöker vår webbplats.'
+description: 'Läs vår integritetspolicy för att förstå hur vi samlar in, använder och skyddar din information när du besöker vår webbplats.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
+import { siteConfig } from 'site-config'
+
 _Senast uppdaterad: 1 april 2026_
 
-Välkommen till ApplianceRepairBase ("vi", "oss" eller "vår"). Denna integritetspolicy förklarar hur vi samlar in, använder, delar och skyddar din information när du besöker https://appliancerepairbase.com ("Webbplatsen").
+Välkommen till {siteConfig.name} ("vi", "oss" eller "vår"). Denna integritetspolicy förklarar hur vi samlar in, använder, delar och skyddar din information när du besöker https://{siteConfig.domain} ("Webbplatsen").
 
 Om du inte samtycker till villkoren i denna integritetspolicy ber vi dig att inte använda Webbplatsen.
 
@@ -68,9 +70,7 @@ Vi kan delta i affiliate-marknadsföringsprogram och visa annonser. Det innebär
 Dessa partners kan inkludera, men är inte begränsade till:
 
 - Google AdSense
-- AppliancePartsPros
-- eSpares
-- FixPart
+- Våra annons- och affiliate-nätverk
 
 ---
 
@@ -106,7 +106,7 @@ Om du befinner dig inom Europeiska ekonomiska samarbetsområdet (EES) har du rä
 - Begränsa eller invända mot behandling
 - Dataportabilitet
 
-För att utöva dessa rättigheter, kontakta oss på: info@appliancerepairbase.com
+För att utöva dessa rättigheter, kontakta oss på: {siteConfig.meta.contactEmail}
 
 ---
 
@@ -120,7 +120,7 @@ Om du är bosatt i Kalifornien har du rätt att:
 
 Vi säljer inte personuppgifter.
 
-För att göra en begäran, kontakta: info@appliancerepairbase.com
+För att göra en begäran, kontakta: {siteConfig.meta.contactEmail}
 
 ---
 
@@ -157,5 +157,5 @@ Vi kan uppdatera denna integritetspolicy från tid till annan. Uppdateringar pub
 
 Om du har frågor om denna integritetspolicy kan du kontakta oss på:
 
-E-post: info@appliancerepairbase.com
-Webbplats: https://appliancerepairbase.com
+E-post: {siteConfig.meta.contactEmail}
+Webbplats: https://{siteConfig.domain}

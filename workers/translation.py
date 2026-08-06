@@ -122,14 +122,19 @@ class TranslationEngine:
     ) -> dict:
         """Return {field_name: translated_value} for every non-empty field."""
         payload = {}
+        source_items = {}
         for f in fields:
             value = row.get(f.name)
             if value in (None, "", [], {}):
                 continue
             if f.is_list:
+                # Only the translatable text travels to Claude - step_number
+                # and any other non-text keys are always overwritten from the
+                # source on the way back, so sending/expecting them is pure
+                # token overhead.
+                source_items[f.name] = value
                 payload[f.name] = [
-                    {**item, f.list_text_key: item.get(f.list_text_key, "")}
-                    for item in value
+                    {f.list_text_key: item.get(f.list_text_key, "")} for item in value
                 ]
             else:
                 payload[f.name] = value
@@ -153,7 +158,7 @@ class TranslationEngine:
             if f.name not in translated:
                 continue
             if f.is_list:
-                original = payload.get(f.name, [])
+                original = source_items.get(f.name, [])
                 out = translated[f.name]
                 if not isinstance(out, list) or len(out) != len(original):
                     # Claude changed the item count - reject rather than risk

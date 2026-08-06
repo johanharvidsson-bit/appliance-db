@@ -98,6 +98,10 @@ class TranslationRepository:
             cur.execute("SET TRANSACTION READ ONLY")
             cur.execute(sql, params)
             rows = [dict(r) for r in cur.fetchall()]
+        # SET TRANSACTION READ ONLY applies to the whole transaction, not just
+        # this cursor - without closing it here, the next write on this
+        # connection (persist()) fails with ReadOnlySqlTransaction.
+        self.connection.rollback()
         selected = []
         for row in rows:
             target_row = (

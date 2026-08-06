@@ -208,14 +208,26 @@ def _domain_item(row):
                 }
             )
 
+    # A guide created via apply-integration's create_reviewed_guide is
+    # attached to whichever backlog item happened to spawn it (e.g. a
+    # translate_error_code item) - that item's own entity is not what this
+    # draft is actually about once a guide exists. Reattribute to the guide
+    # itself so the resulting draft, and its "title" fact, describe the
+    # guide rather than the originating error_code/fault.
+    is_guide_resolution = row.get("resolved_guide_id") is not None and any(
+        f.get("fact_type") == "guide_step" for f in row.get("integrated_facts", [])
+    )
+    entity_type = "guide" if is_guide_resolution else row["entity_type"]
+    entity_id = str(row["resolved_guide_id"]) if is_guide_resolution else row["entity_id"]
+    entity_name = row["resolved_guide_title"] if is_guide_resolution else row.get("entity_name")
     name_key = {
         "model": "model_name",
         "error_code": "code",
         "fault": "symptom",
         "guide": "title",
-    }.get(row["entity_type"], "title")
+    }.get(entity_type, "title")
     context_evidence = row.get("entity_evidence") or []
-    add(name_key, row.get("entity_name"), context_evidence)
+    add(name_key, entity_name, context_evidence)
     add("brand", row.get("brand_name"), context_evidence)
     add("category", row.get("category_name"), context_evidence)
     specs = {}
@@ -275,8 +287,8 @@ def _domain_item(row):
         )
     return {
         "backlog_id": row["backlog_id"],
-        "entity_type": row["entity_type"],
-        "entity_id": row["entity_id"],
+        "entity_type": entity_type,
+        "entity_id": entity_id,
         "locale": row.get("locale") or "en",
         "action_type": row["action_type"],
         "upstream_state": "apply_succeeded",

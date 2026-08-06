@@ -328,3 +328,56 @@ def test_database_adapter_preserves_aggregated_evidence_chain():
     facts = {x["key"]: x for x in item["facts"]}
     assert facts["model_name"]["evidence"][0]["source_evidence_id"] == 1
     assert facts["specifications"]["evidence"][0]["candidate_fact_id"] == 2
+
+
+def test_guide_created_from_a_translate_backlog_item_is_reattributed_to_the_guide():
+    # apply-integration's create_reviewed_guide targets the backlog item's own
+    # topic (e.g. an error_code), not the guide it actually creates - there is
+    # nothing existing to target yet. The resulting draft must describe the
+    # guide, not the error_code that happened to spawn it.
+    row = {
+        "backlog_id": 7,
+        "entity_type": "error_code",
+        "entity_id": "294",
+        "locale": "en",
+        "action_type": "translate_error_code",
+        "entity_name": "5E",
+        "brand_name": "Samsung",
+        "category_name": "washing_machine",
+        "entity_evidence": [],
+        "resolved_guide_id": 1,
+        "resolved_guide_title": "Error Code 294 repair guide",
+        "integrated_facts": [
+            {
+                "candidate_fact_id": 10,
+                "source_document_id": 11,
+                "evidence_id": 12,
+                "fact_type": "guide_step",
+                "predicate": "instruction",
+                "value": {"step_number": 1, "instruction": "Unplug the appliance"},
+                "proposed_value": {"step_number": 1, "instruction": "Unplug the appliance"},
+                "locator": "page:1",
+                "page_number": 1,
+            },
+            {
+                "candidate_fact_id": 13,
+                "source_document_id": 11,
+                "evidence_id": 14,
+                "fact_type": "guide_step",
+                "predicate": "instruction",
+                "value": {"step_number": 2, "instruction": "Clean the drain filter"},
+                "proposed_value": {"step_number": 2, "instruction": "Clean the drain filter"},
+                "locator": "page:1",
+                "page_number": 1,
+            },
+        ],
+    }
+    item = _domain_item(row)
+    assert item["entity_type"] == "guide" and item["entity_id"] == "1"
+    facts = {x["key"]: x for x in item["facts"]}
+    assert facts["title"]["value"] == "Error Code 294 repair guide"
+    assert "code" not in facts
+    assert [s["step_number"] for s in facts["steps"]["value"]] == [1, 2]
+    draft = AssemblyEngine().assemble(item)
+    assert draft["draft_type"] == "troubleshooting_guide"
+    assert draft["entity_type"] == "guide" and draft["entity_id"] == "1"

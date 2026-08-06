@@ -56,6 +56,7 @@ class AssemblyRepository:
     def items(self, site, environment, limit, filters, reassemble=False):
         sql = """SELECT b.id backlog_id,b.entity_type,b.entity_id,b.locale,b.action_type,b.content_assembly_state,
    COALESCE(m.name,ec.code,f.canonical_name,g.canonical_title) entity_name,br.name brand_name,c.slug_en category_name,
+   rg.id resolved_guide_id,rg.canonical_title resolved_guide_title,
    COALESCE(jsonb_agg(DISTINCT jsonb_build_object('source_evidence_id',se.id,'fact_type','canonical_context')) FILTER(WHERE se.id IS NOT NULL),'[]'::jsonb) entity_evidence,
    COALESCE(jsonb_agg(DISTINCT jsonb_build_object('candidate_fact_id',cf.id,'fact_type',cf.fact_type,'predicate',cf.predicate,'value',cf.value_json,'unit',cf.unit,
     'proposal_type',ip.proposal_type,'proposed_value',ip.proposed_value_json,'source_document_id',cf.source_document_id,'evidence_id',cfe.id,'locator',cfe.source_locator,'page_number',cfe.page_number)) FILTER(WHERE ip.id IS NOT NULL),'[]'::jsonb) integrated_facts
@@ -70,6 +71,14 @@ class AssemblyRepository:
    LEFT JOIN integration_proposals ip ON ip.backlog_item_id=b.id AND ip.status='applied'
    LEFT JOIN integration_apply_attempts ia ON ia.proposal_id=ip.id AND ia.status='succeeded'
    LEFT JOIN candidate_facts cf ON cf.id=ip.candidate_fact_id LEFT JOIN candidate_fact_evidence cfe ON cfe.candidate_fact_id=cf.id
+   -- create_reviewed_guide (apply_repository.py) names a new guide's slug
+   -- deterministically from the *originating* backlog item's own entity, not
+   -- the guide's own id (which does not exist until that operation runs).
+   -- Resolve the same slug here so a guide created as a side effect of, say,
+   -- a translate_error_code backlog item is attributed to the guide it
+   -- actually became, not left mislabeled under the error_code that spawned it.
+   LEFT JOIN guide_translations rgt ON rgt.locale=b.locale AND rgt.slug='guide-'||b.entity_type||'-'||b.entity_id||'-'||b.locale
+   LEFT JOIN guides rg ON rg.id=rgt.guide_id
    WHERE b.site_id=%s AND b.environment=%s AND css.status='active' AND b.status IN('queued','in_progress','deferred')
     AND b.action_type IN('create_model_overview','translate_model_overview','describe_error_code','translate_error_code','translate_fault','enrich_fault','create_or_enrich_guide','create_faq_candidate')
     AND (b.content_assembly_state='ready_for_content_assembly' OR ia.id IS NOT NULL)"""
@@ -85,7 +94,7 @@ class AssemblyRepository:
                 params.append(filters[key])
         if not reassemble:
             sql += " AND NOT EXISTS(SELECT 1 FROM content_drafts d WHERE d.backlog_item_id=b.id AND d.review_state IN('unreviewed','approved') AND d.status<>'superseded')"
-        sql += " GROUP BY b.id,m.name,ec.code,f.canonical_name,g.canonical_title,br.name,c.slug_en ORDER BY b.priority DESC,b.id LIMIT %s"
+        sql += " GROUP BY b.id,m.name,ec.code,f.canonical_name,g.canonical_title,br.name,c.slug_en,rg.id,rg.canonical_title ORDER BY b.priority DESC,b.id LIMIT %s"
         params.append(limit)
         with self.connection.cursor(cursor_factory=RealDictCursor) as cur:
             cur.execute("SET TRANSACTION READ ONLY")

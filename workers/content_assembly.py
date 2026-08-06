@@ -551,6 +551,13 @@ class AssemblyEngine:
         ]
 
     def _template(self, item, template_id):
+        # A guide can be created as a side effect of resolving a
+        # translate_error_code/translate_fault backlog item (apply-integration's
+        # create_reviewed_guide targets the item's topic, not a dedicated
+        # create_or_enrich_guide item). The originating action_type says
+        # nothing about that; the presence of assembled "steps" does.
+        if template_id is None and any(f["key"] == "steps" for f in item.get("facts", [])):
+            return TEMPLATES["troubleshooting_guide_v1"]
         key = template_id or ACTION_DEFAULT.get(item["action_type"])
         if key not in TEMPLATES:
             raise ValueError("unsupported_content_action_or_template")

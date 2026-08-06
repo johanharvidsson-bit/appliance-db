@@ -376,8 +376,10 @@ def test_guide_created_from_a_translate_backlog_item_is_reattributed_to_the_guid
     assert item["entity_type"] == "guide" and item["entity_id"] == "1"
     facts = {x["key"]: x for x in item["facts"]}
     assert facts["title"]["value"] == "Error Code 294 repair guide"
+    assert facts["title"]["evidence"], "title must carry the steps' evidence, not go unevidenced"
     assert "code" not in facts
     assert [s["step_number"] for s in facts["steps"]["value"]] == [1, 2]
     draft = AssemblyEngine().assemble(item)
     assert draft["draft_type"] == "troubleshooting_guide"
     assert draft["entity_type"] == "guide" and draft["entity_id"] == "1"
+    assert draft["status"] == "assembled", draft["issues"]

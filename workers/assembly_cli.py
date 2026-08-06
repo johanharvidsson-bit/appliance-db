@@ -214,9 +214,10 @@ def _domain_item(row):
     # draft is actually about once a guide exists. Reattribute to the guide
     # itself so the resulting draft, and its "title" fact, describe the
     # guide rather than the originating error_code/fault.
-    is_guide_resolution = row.get("resolved_guide_id") is not None and any(
-        f.get("fact_type") == "guide_step" for f in row.get("integrated_facts", [])
-    )
+    guide_step_facts = [
+        f for f in row.get("integrated_facts", []) if f.get("fact_type") == "guide_step"
+    ]
+    is_guide_resolution = row.get("resolved_guide_id") is not None and bool(guide_step_facts)
     entity_type = "guide" if is_guide_resolution else row["entity_type"]
     entity_id = str(row["resolved_guide_id"]) if is_guide_resolution else row["entity_id"]
     entity_name = row["resolved_guide_title"] if is_guide_resolution else row.get("entity_name")
@@ -226,7 +227,27 @@ def _domain_item(row):
         "fault": "symptom",
         "guide": "title",
     }.get(entity_type, "title")
-    context_evidence = row.get("entity_evidence") or []
+    # The guide's title is a generated label, not an extracted fact - it makes
+    # no claim beyond "this is a guide for X", already established by the
+    # evidence backing its steps. Reuse that evidence rather than the
+    # generally-empty legacy entity_evidence, so the label isn't blocked as
+    # an unevidenced claim while still never inventing anything unevidenced.
+    context_evidence = (
+        [
+            {
+                "candidate_fact_id": f.get("candidate_fact_id"),
+                "source_document_id": f.get("source_document_id"),
+                "fact_type": f.get("fact_type"),
+                "locator": {
+                    "source_locator": f.get("locator"),
+                    "page_number": f.get("page_number"),
+                },
+            }
+            for f in guide_step_facts
+        ]
+        if is_guide_resolution
+        else (row.get("entity_evidence") or [])
+    )
     add(name_key, entity_name, context_evidence)
     add("brand", row.get("brand_name"), context_evidence)
     add("category", row.get("category_name"), context_evidence)

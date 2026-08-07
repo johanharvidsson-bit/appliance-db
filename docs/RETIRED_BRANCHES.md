@@ -1,9 +1,29 @@
 # Retired branches
 
-26 branches audited and retired during the 2026-08 platform reconciliation.
+27 branches audited and retired during the 2026-08 platform reconciliation.
 Every one was tagged (`retired/<branch-name>`) before deletion, so nothing is
 actually lost - `git show retired/<name>:<path>` still works on any of them.
 Two branches were reviewed and deliberately *not* retired; see the bottom.
+
+**Also fixed as part of this reconciliation: `main` itself was stale.**
+Tracing branch relationships found `main`'s tip was the exact base commit of
+the abandoned "Platform v1" stack below (from 2026-08-03) - meaning a fresh
+clone of this repo got the abandoned foundation by default, not any of the
+real, live system. Reset (force-pushed) `main` to match
+`integration/worker-pipeline-pilot`'s tip so the default branch represents
+reality.
+
+## RepairBase schema foundation (1)
+
+`feature/repairbase-schema-foundation` - a parallel `rb_`-prefixed schema
+(sites/languages/categories/manufacturers/brands + a genuinely more
+sophisticated variant-level "applicability resolver" than migration 019
+attempts) built on this session's original local branch, never run against a
+real database. Superseded by migration 019's simpler, already-proven,
+already-live publication mechanism for the cross-site/publication problem it
+also tried to solve. The applicability-resolver concept was novel enough to
+be worth keeping as a design note rather than just a tag - see
+`docs/FUTURE_applicability_resolver.md`.
 
 ## Individual worker branches, fully merged (11)
 

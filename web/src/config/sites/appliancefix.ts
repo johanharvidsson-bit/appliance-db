@@ -4,6 +4,8 @@ export const appliancefixConfig = {
   site_id: 1,
   defaultLocale: 'en',
   activeLocales: ['en', 'sv'],
+  productType: 'Appliance',
+  productTypeSv: 'vitvaror',
   colors: {
     primary: '#2563eb',
     accent: '#16a34a',

@@ -1,10 +1,14 @@
 ---
-import favIcon from '~/assets/favicons/favicon.ico';
-import favIconSvg from '~/assets/favicons/favicon.svg';
-import appleTouchIcon from '~/assets/favicons/apple-touch-icon.png';
+import { siteConfig } from 'site-config';
+
+// Per-site favicons live under public/favicons/{faviconSet}/ so a new site
+// can drop its own icon set in without touching this component - falls back
+// to the shared default set until a site defines its own faviconSet.
+const set = (siteConfig as { faviconSet?: string }).faviconSet ?? 'default';
+const base = `/favicons/${set}`;
 ---
 
-<link rel="shortcut icon" href={favIcon} />
-<link rel="icon" type="image/svg+xml" href={favIconSvg.src} />
-<link rel="mask-icon" href={favIconSvg.src} color="#8D46E7" />
-<link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon.src} />
+<link rel="shortcut icon" href={`${base}/favicon.ico`} />
+<link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+<link rel="mask-icon" href={`${base}/favicon.svg`} color={siteConfig.colors.primary} />
+<link rel="apple-touch-icon" sizes="180x180" href={`${base}/apple-touch-icon.png`} />

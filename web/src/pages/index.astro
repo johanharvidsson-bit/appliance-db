@@ -4,6 +4,7 @@ export const prerender = false
 
 import PageLayout from '~/layouts/PageLayout.astro'
 import { siteConfig } from 'site-config'
+import { t } from '~/lib/ui'
 import { supabase } from '~/lib/supabase'
 import { logged, paginateAll } from '~/lib/queries'
 
@@ -121,7 +122,7 @@ const trendingGuides = trendingFiltered.slice(0, 6).map((at: any) => {
 
 <PageLayout
   metadata={{
-    title: `${siteConfig.name} – Fix Appliance Error Codes Fast`,
+    title: `${siteConfig.name} – ${t('en', 'meta.siteTagline', { productType: siteConfig.productType })}`,
     description: siteConfig.meta.description,
     ignoreTitleTemplate: true,
   }}

@@ -107,7 +107,7 @@ const trendingGuides = trendingFiltered.slice(0, 6).map((at: any) => {
 <PageLayout
   currentLocale={locale}
   metadata={{
-    title: `${siteConfig.name} – ${t(locale, 'meta.siteTagline')}`,
+    title: `${siteConfig.name} – ${t(locale, 'meta.siteTagline', { productType: siteConfig.productTypeSv })}`,
     description: siteConfig.meta.description,
     ignoreTitleTemplate: true,
     canonical: `${siteUrl}/${locale}/`,

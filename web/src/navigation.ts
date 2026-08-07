@@ -10,11 +10,11 @@ export function headerData(locale: string = 'en') {
     links:
       locale === 'sv'
         ? [
-            { text: 'Apparater', href: `${prefix}/` },
+            { text: 'Kategorier', href: `${prefix}/` },
             { text: 'Märken', href: `${prefix}/brands/` },
           ]
         : [
-            { text: 'Appliances', href: '/' },
+            { text: 'Categories', href: '/' },
             { text: 'Brands', href: '/brands/' },
           ],
     actions: [],

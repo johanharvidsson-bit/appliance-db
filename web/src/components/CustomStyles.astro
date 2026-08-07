@@ -17,6 +17,12 @@ import '@fontsource-variable/inter';
 // Oswald
 // 'Space Grotesk'
 // Urbanist
+
+// Default colors - overridden per-site by Layout.astro's `define:vars` block
+// (this component renders nothing but a <style> tag, so it has no host
+// element for Astro to attach define:vars values to; Layout.astro's <html>
+// root does, and its override renders after this in <head>, so the cascade
+// picks it up).
 ---
 
 <style is:inline>

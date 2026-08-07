@@ -4,6 +4,8 @@ export const outboardrepairbaseConfig = {
   site_id: 4,
   defaultLocale: 'en',
   activeLocales: ['en', 'sv'],
+  productType: 'Outboard Motor',
+  productTypeSv: 'utombordsmotorer',
   colors: {
     primary: '#0369a1',
     accent: '#16a34a',

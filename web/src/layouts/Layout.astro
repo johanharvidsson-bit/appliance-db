@@ -27,7 +27,21 @@ const { language, textDirection } = I18N;
 const lang = metadata.lang ?? language;
 const alternateUrls = metadata.alternateUrls ?? [];
 const enAlternate = alternateUrls.find((a) => a.locale === 'en');
-const colors = siteConfig.colors;
+
+// Tailwind's `text-primary/50`-style opacity modifiers only work when the
+// CSS var holds space-separated "R G B" numbers, not a hex string or
+// comma-separated rgb() - this keeps siteConfig.colors (hex, e.g. '#2563eb')
+// compatible with that without changing every site config's color format.
+function hexToRgbTriplet(hex: string): string {
+  const clean = hex.replace('#', '');
+  const r = parseInt(clean.slice(0, 2), 16);
+  const g = parseInt(clean.slice(2, 4), 16);
+  const b = parseInt(clean.slice(4, 6), 16);
+  return `${r} ${g} ${b}`;
+}
+
+const primaryRgb = hexToRgbTriplet(siteConfig.colors.primary);
+const accentRgb = hexToRgbTriplet(siteConfig.colors.accent);
 ---
 
 <!doctype html>
@@ -36,6 +50,13 @@ const colors = siteConfig.colors;
     <CommonMeta />
     <Favicons />
     <CustomStyles />
+    <style define:vars={{ primaryRgb, accentRgb }}>
+      :root, .dark {
+        --aw-color-primary: rgb(var(--primaryRgb));
+        --aw-color-secondary: rgb(var(--primaryRgb));
+        --aw-color-accent: rgb(var(--accentRgb));
+      }
+    </style>
     <ApplyColorMode />
     <Metadata {...metadata} />
     <SiteVerification />
@@ -46,14 +67,6 @@ const colors = siteConfig.colors;
     {enAlternate && (
       <link rel="alternate" hreflang="x-default" href={enAlternate.url} />
     )}
-
-    <style define:vars={{ colorPrimary: colors.primary, colorAccent: colors.accent, colorDanger: colors.danger }}>
-      :root {
-        --color-primary: var(--colorPrimary);
-        --color-accent: var(--colorAccent);
-        --color-danger: var(--colorDanger);
-      }
-    </style>
 
     <!-- Organization structured data -->
     <script type="application/ld+json" set:html={JSON.stringify({

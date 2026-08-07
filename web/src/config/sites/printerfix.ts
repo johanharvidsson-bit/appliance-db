@@ -4,6 +4,8 @@ export const printerfixConfig = {
   site_id: 2,
   defaultLocale: 'en',
   activeLocales: ['en', 'sv', 'de'],
+  productType: 'Printer',
+  productTypeSv: 'skrivare',
   colors: {
     primary: '#7c3aed',
     accent: '#16a34a',

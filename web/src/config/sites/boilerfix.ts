@@ -4,6 +4,8 @@ export const boilerfixConfig = {
   site_id: 3,
   defaultLocale: 'en',
   activeLocales: ['en', 'sv'],
+  productType: 'Boiler',
+  productTypeSv: 'pannor',
   colors: {
     primary: '#ea580c',
     accent: '#16a34a',

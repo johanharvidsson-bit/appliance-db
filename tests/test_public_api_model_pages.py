@@ -97,14 +97,14 @@ def test_unique_identity_relation_locale_and_paths():
     assert _query("SELECT count(*) FROM api_public.model_pages WHERE canonical_path !~ '^/[^?#]*/$'")[0][0] == 0
 
 
-def test_exact_locale_rows_no_fallback_and_conservative_indexability():
+def test_exact_locale_rows_no_fallback_and_all_pages_indexable():
     expected = _query(
         "SELECT count(*) FROM api_public.models m JOIN api_public.category_pages c "
         "ON c.category_key=m.category_key"
     )[0][0]
     actual = _query("SELECT count(*) FROM api_public.model_pages")[0][0]
     assert actual == expected
-    assert _query("SELECT count(*) FROM api_public.model_pages WHERE indexable")[0][0] == 0
+    assert _query("SELECT count(*) FROM api_public.model_pages WHERE NOT indexable")[0][0] == 0
     assert _query("SELECT count(*) FROM api_public.model_pages p WHERE NOT (p.hreflang ? p.locale)")[0][0] == 0
     assert _query("SELECT count(*) FROM api_public.model_pages p WHERE (SELECT count(*) FROM jsonb_object_keys(p.hreflang)) <> (SELECT count(*) FROM api_public.category_pages c WHERE c.category_key=p.category_key)")[0][0] == 0
 
@@ -205,11 +205,11 @@ def _postgrest_get(params: dict[str, str]):
 
 
 def test_postgrest_identity_model_locale_indexability_order_and_cap():
-    status, rows = _postgrest_get({"select": "*", "locale": "eq.en", "indexable": "eq.false", "order": "canonical_path.asc,model_page_id.asc", "limit": "3"})
+    status, rows = _postgrest_get({"select": "*", "locale": "eq.en", "indexable": "eq.true", "order": "canonical_path.asc,model_page_id.asc", "limit": "3"})
     assert status == 200 and 0 < len(rows) <= 3
     assert list(rows[0]) == EXPECTED_COLUMNS
     assert not FORBIDDEN_COLUMNS.intersection(rows[0])
-    assert all(row["locale"] == "en" and row["indexable"] is False for row in rows)
+    assert all(row["locale"] == "en" and row["indexable"] is True for row in rows)
     page_id, model_id = rows[0]["model_page_id"], rows[0]["model_id"]
     status, by_page = _postgrest_get({"select": "model_page_id", "model_page_id": f"eq.{page_id}"})
     assert status == 200 and by_page == [{"model_page_id": page_id}]

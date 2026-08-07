@@ -5,6 +5,8 @@ from __future__ import annotations
 import json
 from psycopg2.extras import RealDictCursor
 
+from workers.publication import publish_entity_content
+
 
 class ValidationRepository:
     WRITABLE_TABLES = frozenset(
@@ -180,6 +182,14 @@ class ValidationRepository:
                 "UPDATE content_backlog SET content_validation_state=%s,updated_at=now() WHERE id=%s",
                 (result["backlog_validation_state"], draft["backlog_item_id"]),
             )
+            # A passing validation is this pipeline's other proof (besides a
+            # successful translation) that content is ready to be public -
+            # publishing here means EN-only content doesn't have to wait on
+            # the Translation Worker running before it can go live.
+            if result["overall_result"] == "pass":
+                publish_entity_content(
+                    self.connection, draft["entity_type"], draft["entity_id"], draft["locale"]
+                )
             return {
                 "created": 1,
                 "deduplicated": 0,

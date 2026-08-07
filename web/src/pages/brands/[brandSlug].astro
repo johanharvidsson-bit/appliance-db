@@ -1,0 +1,182 @@
+---
+/** On-demand (SSR) — see src/pages/[category]/[brand]/[slug]/index.astro for why. */
+export const prerender = false
+
+import PageLayout from '~/layouts/PageLayout.astro'
+import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
+import { supabase } from '~/lib/supabase'
+import { logged, paginateAll, getBrandBySlug } from '~/lib/queries'
+import { siteConfig } from 'site-config'
+import { t } from '~/lib/ui'
+
+const locale = 'en'
+
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
+
+const { brandSlug } = Astro.params as { brandSlug: string }
+const { data: brandRow } = await getBrandBySlug(brandSlug)
+if (!brandRow) return new Response(null, { status: 404 })
+const brandId: number = brandRow.id
+const brandName: string = brandRow.name
+const siteUrl = `https://${siteConfig.domain}`
+
+// Get distinct categories this brand has models in (not error_codes — those
+// only exist for washing-machines so far, which hid every other category
+// this brand actually has content for). Paginated — a brand can have
+// thousands of models, past the 1000-row default cap.
+const modelRows = await paginateAll(
+  (from, to) => supabase.from('models').select('category_id').eq('brand_id', brandId).range(from, to),
+  `brands/[brandSlug]:models(${brandSlug})`
+)
+
+const catIds = [...new Set(modelRows.map((m: any) => m.category_id).filter(Boolean))] as number[]
+
+const { data: catData } = catIds.length > 0
+  ? await logged(
+      supabase.from('category_translations').select('category_id, slug, name').in('category_id', catIds).eq('locale', 'en'),
+      `brands/[brandSlug]:categories(${brandSlug})`
+    )
+  : { data: [] }
+
+const categories = (catData ?? []).map((c: any) => ({ slug: c.slug, name: c.name }))
+  .sort((a, b) => a.name.localeCompare(b.name))
+
+const emojiMap: Record<string, string> = {
+  'washing-machines': '🫧',
+  'dishwashers': '🍽️',
+  'dryers': '🌀',
+  'refrigerators': '❄️',
+  'ovens': '🔥',
+  'freezers': '🧊',
+  'microwaves': '📡',
+}
+
+const breadcrumbs = [
+  { name: t(locale, 'nav.home'), url: `${siteUrl}/` },
+  { name: t(locale, 'brandHub.allBrandsH1'), url: `${siteUrl}/brands/` },
+  { name: brandName, url: `${siteUrl}/brands/${brandSlug}/` },
+]
+
+const alternateUrls = [
+  { locale: 'en', url: `${siteUrl}/brands/${brandSlug}/` },
+  { locale: 'sv', url: `${siteUrl}/sv/brands/${brandSlug}/` },
+]
+---
+
+<PageLayout
+  currentLocale={locale}
+  alternateUrls={alternateUrls}
+  metadata={{
+    title: `${brandName} Faults and Error Codes | ${siteConfig.name}`,
+    description: `Browse ${brandName} error codes and fault guides by appliance type. Free step-by-step repair guides.`,
+    canonical: `${siteUrl}/brands/${brandSlug}/`,
+    alternateUrls,
+  }}
+>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": t(locale, 'nav.home'), "item": siteUrl + "/" },
+      { "@type": "ListItem", "position": 2, "name": t(locale, 'brandHub.allBrandsH1'), "item": siteUrl + "/brands/" },
+      { "@type": "ListItem", "position": 3, "name": brandName, "item": siteUrl + "/brands/" + brandSlug + "/" },
+    ],
+  })} />
+
+  <div class="page-container">
+    <BreadcrumbNav items={breadcrumbs} locale={locale} />
+
+    <h1 class="page-h1">{t(locale, 'brandHub.h1', { brand: brandName })}</h1>
+    <p class="intro">{t(locale, 'brandHub.intro', { brand: brandName })}</p>
+
+    {categories.length === 0 ? (
+      <p class="no-data">{t(locale, 'brandHub.noGuides', { brand: brandName })}</p>
+    ) : (
+      <div class="appliance-grid">
+        {categories.map(cat => (
+          <a href={`/${cat.slug}/${brandSlug}/`} class="appliance-card">
+            <span class="appliance-emoji" aria-hidden="true">{emojiMap[cat.slug] ?? '🔧'}</span>
+            <span class="appliance-name">{cat.name}</span>
+          </a>
+        ))}
+      </div>
+    )}
+
+    <div class="bottom-cta">
+      <a href="/brands/" class="cta-link">{t(locale, 'brandHub.cta')}</a>
+    </div>
+  </div>
+</PageLayout>
+
+<style>
+  .page-container {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 3rem;
+  }
+  .page-h1 {
+    font-size: 1.875rem;
+    font-weight: 800;
+    color: #111827;
+    margin: 0.5rem 0 0.5rem;
+    line-height: 1.2;
+  }
+  .intro {
+    color: #6b7280;
+    margin: 0 0 2rem;
+  }
+  .no-data {
+    color: #6b7280;
+    padding: 2rem 0;
+  }
+  .appliance-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+  }
+  @media (min-width: 480px) {
+    .appliance-grid { grid-template-columns: repeat(4, 1fr); }
+  }
+  .appliance-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 0.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    background: #fff;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+  }
+  .appliance-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-color: #4ade80;
+  }
+  .appliance-emoji {
+    font-size: 1.75rem;
+    line-height: 1;
+  }
+  .appliance-name {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #374151;
+    line-height: 1.2;
+  }
+  .bottom-cta {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 1.5rem;
+    margin-top: 2rem;
+  }
+  .cta-link {
+    font-size: 0.9rem;
+    color: #6b7280;
+    text-decoration: none;
+  }
+  .cta-link:hover {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+</style>

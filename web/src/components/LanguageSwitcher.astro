@@ -1,0 +1,229 @@
+---
+import { LOCALES } from '~/lib/locales'
+import { t } from '~/lib/ui'
+
+interface LocaleUrl { locale: string; url: string }
+
+interface Props {
+  currentLocale: string
+  alternateUrls?: LocaleUrl[]
+}
+
+const { currentLocale = 'en', alternateUrls = [] } = Astro.props
+
+const current = LOCALES.find((l) => l.code === currentLocale) ?? LOCALES[0]
+
+// Build a map: locale → URL (for active locales that have a translation)
+const urlMap = Object.fromEntries(alternateUrls.map((a) => [a.locale, a.url]))
+---
+
+<div
+  class="lang-switcher"
+  data-url-map={JSON.stringify(urlMap)}
+  data-current={currentLocale}
+>
+  <button
+    class="lang-trigger"
+    aria-haspopup="listbox"
+    aria-expanded="false"
+    aria-label={t(currentLocale, 'lang.switchAriaLabel')}
+    type="button"
+  >
+    <svg class="lang-globe" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" width="15" height="15">
+      <circle cx="10" cy="10" r="8"/>
+      <path d="M10 2c-2 2.5-3 5-3 8s1 5.5 3 8M10 2c2 2.5 3 5 3 8s-1 5.5-3 8M2 10h16"/>
+      <path d="M3 6.5h14M3 13.5h14" stroke-linecap="round"/>
+    </svg>
+    <span class="lang-current-name">{current.name}</span>
+    <svg class="lang-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" width="12" height="12">
+      <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+    </svg>
+  </button>
+
+  <div class="lang-dropdown" role="listbox" aria-label="Languages" hidden>
+    {LOCALES.map((loc) => {
+      const isCurrent = loc.code === currentLocale
+      return (
+        <div
+          class:list={['lang-option', { current: isCurrent, inactive: !loc.active }]}
+          role="option"
+          aria-selected={isCurrent}
+          data-locale={loc.code}
+          data-active={loc.active}
+        >
+          <span class="lang-check" aria-hidden="true">{isCurrent ? '✓' : ''}</span>
+          <span class="lang-name">{loc.name}</span>
+          {!loc.active && <span class="cs-label">{t(currentLocale, 'lang.comingSoon')}</span>}
+        </div>
+      )
+    })}
+  </div>
+</div>
+
+<script>
+  function initLangSwitchers() {
+    document.querySelectorAll<HTMLElement>('.lang-switcher').forEach((switcher) => {
+      const urlMap: Record<string, string> = JSON.parse(switcher.dataset.urlMap ?? '{}')
+      const currentLocale = switcher.dataset.current ?? 'en'
+
+      const trigger = switcher.querySelector<HTMLButtonElement>('.lang-trigger')!
+      const dropdown = switcher.querySelector<HTMLElement>('.lang-dropdown')!
+
+      // On first visit this session, redirect to the user's stored locale preference.
+      const stored = localStorage.getItem('preferred-locale')
+      const alreadyRedirected = sessionStorage.getItem('locale-redirected')
+      if (stored && stored !== currentLocale && urlMap[stored] && !alreadyRedirected) {
+        sessionStorage.setItem('locale-redirected', 'true')
+        window.location.href = urlMap[stored]
+      }
+
+      // Toggle dropdown
+      trigger.addEventListener('click', (e) => {
+        e.stopPropagation()
+        const isOpen = !dropdown.hidden
+        dropdown.hidden = isOpen
+        trigger.setAttribute('aria-expanded', String(!isOpen))
+      })
+
+      // Handle option clicks
+      dropdown.querySelectorAll<HTMLElement>('.lang-option').forEach((opt) => {
+        opt.addEventListener('click', (e) => {
+          e.stopPropagation()
+          const locale = opt.dataset.locale!
+          const active = opt.dataset.active === 'true'
+          if (!active) return
+
+          localStorage.setItem('preferred-locale', locale)
+          const dest = urlMap[locale] ?? (locale === 'en' ? '/' : `/${locale}/`)
+          window.location.href = dest
+        })
+      })
+    })
+  }
+
+  // Close all dropdowns when clicking outside — registered once, queries live DOM
+  document.addEventListener('click', () => {
+    document.querySelectorAll<HTMLElement>('.lang-dropdown').forEach(d => {
+      d.hidden = true
+    })
+    document.querySelectorAll<HTMLButtonElement>('.lang-trigger').forEach(t => {
+      t.setAttribute('aria-expanded', 'false')
+    })
+  })
+
+  initLangSwitchers()
+  document.addEventListener('astro:after-swap', initLangSwitchers)
+</script>
+
+<style>
+  .lang-switcher {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .lang-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: inherit;
+    transition: background 0.15s, border-color 0.15s;
+    white-space: nowrap;
+  }
+
+  .lang-trigger:hover {
+    background: rgba(0,0,0,0.06);
+    border-color: rgba(0,0,0,0.08);
+  }
+
+  .lang-globe {
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .lang-current-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  .lang-chevron {
+    transition: transform 0.2s;
+    flex-shrink: 0;
+  }
+
+  .lang-trigger[aria-expanded="true"] .lang-chevron {
+    transform: rotate(180deg);
+  }
+
+  .lang-dropdown {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    min-width: 170px;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    padding: 0.375rem;
+    z-index: 100;
+  }
+
+  .lang-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.625rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    color: #111827;
+    transition: background 0.1s;
+    user-select: none;
+  }
+
+  .lang-option:hover:not(.inactive) {
+    background: #f3f4f6;
+  }
+
+  .lang-option.current {
+    background: #eff6ff;
+    color: #1d4ed8;
+    font-weight: 600;
+  }
+
+  .lang-option.inactive {
+    cursor: default;
+    opacity: 0.5;
+  }
+
+  .lang-check {
+    width: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #16a34a;
+    flex-shrink: 0;
+  }
+
+  .lang-name {
+    flex: 1;
+  }
+
+  .cs-label {
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    background: #f3f4f6;
+    color: #9ca3af;
+    border-radius: 4px;
+    padding: 0.1rem 0.35rem;
+    white-space: nowrap;
+  }
+</style>

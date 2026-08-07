@@ -1,0 +1,46 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import { getHomePermalink } from '~/utils/permalinks';
+import { t } from '~/lib/ui'
+import { LOCALES } from '~/lib/locales'
+
+// Build all translations at build time so the client can swap without a fetch
+const locales = LOCALES.map((l) => l.code)
+const i18n = Object.fromEntries(locales.map(l => [l, {
+  title:  t(l, '404.title'),
+  heading: t(l, '404.heading'),
+  body:    t(l, '404.body'),
+  back:    t(l, '404.backButton'),
+}]))
+---
+
+<Layout metadata={{ title: t('en', '404.title') }}>
+  <section class="flex items-center h-full p-16">
+    <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
+      <div class="max-w-md text-center">
+        <h2 class="mb-8 font-bold text-9xl">
+          <span class="sr-only">404</span>
+          <span class="text-primary">404</span>
+        </h2>
+        <p id="404-heading" class="text-3xl font-semibold md:text-3xl">{t('en', '404.heading')}</p>
+        <p id="404-body" class="mt-4 mb-8 text-lg text-muted dark:text-slate-400">
+          {t('en', '404.body')}
+        </p>
+        <a id="404-back" rel="noopener noreferrer" href={getHomePermalink()} class="btn ml-4">
+          {t('en', '404.backButton')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script define:vars={{ i18n }}>
+  const locale = (typeof localStorage !== 'undefined' && localStorage.getItem('preferred-locale')) || 'en'
+  const strings = i18n[locale] || i18n.en
+  const h = document.getElementById('404-heading')
+  const b = document.getElementById('404-body')
+  const a = document.getElementById('404-back')
+  if (h) h.textContent = strings.heading
+  if (b) b.textContent = strings.body
+  if (a) a.textContent = strings.back
+</script>

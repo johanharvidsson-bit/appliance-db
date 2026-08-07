@@ -1,0 +1,102 @@
+---
+/** On-demand (SSR) — see the [category]/[brand]/[slug] route's file-header comment for why. */
+export const prerender = false
+
+import PageLayout from '~/layouts/PageLayout.astro'
+import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
+import StepsSection from '~/components/StepsSection.astro'
+import { getGuideByLocaleSlug } from '~/lib/queries'
+import { parseJson } from '~/lib/utils'
+import { t } from '~/lib/ui'
+import { siteConfig } from 'site-config'
+
+const { category, brand, slug } = Astro.params as { category: string; brand: string; slug: string }
+const siteUrl = `https://${siteConfig.domain}`
+
+const guide = await getGuideByLocaleSlug('en', category, brand, slug)
+if (!guide) return new Response(null, { status: 404 })
+
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
+
+const categoryLabel = category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const brandLabel = brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const pageUrl = `${siteUrl}/${category}/${brand}/guides/${slug}/`
+
+const steps = parseJson(guide.steps_json).map((s: any) => ({
+  title: `Step ${s.step_number ?? ''}`.trim(),
+  instruction: s.instruction ?? '',
+}))
+
+const howToSchema = steps.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: guide.title,
+  description: guide.short_description ?? guide.summary ?? undefined,
+  step: steps.map((s: any) => ({ '@type': 'HowToStep', name: s.title, text: s.instruction })),
+} : null
+
+const breadcrumbs = [
+  { name: t('en', 'nav.home'), url: siteUrl + '/' },
+  { name: categoryLabel, url: `${siteUrl}/${category}/` },
+  { name: brandLabel, url: `${siteUrl}/${category}/${brand}/` },
+  { name: guide.title, url: pageUrl },
+]
+---
+
+<PageLayout
+  currentLocale="en"
+  metadata={{
+    title: `${guide.title} | ${siteConfig.name}`,
+    description: guide.short_description ?? guide.summary ?? siteConfig.meta.description,
+    canonical: pageUrl,
+    ignoreTitleTemplate: true,
+  }}
+>
+  <div class="page-container">
+    {howToSchema && (
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(howToSchema)} />
+    )}
+    <BreadcrumbNav items={breadcrumbs} locale="en" />
+
+    <h1 class="page-h1">{guide.title}</h1>
+    {guide.summary && <p class="intro">{guide.summary}</p>}
+
+    {steps.length > 0 && <StepsSection steps={steps} locale="en" />}
+
+    <div class="back-link-wrap">
+      <a href={`/${category}/${brand}/guides/`} class="back-link">← Back to {brandLabel} {categoryLabel} repair guides</a>
+    </div>
+  </div>
+</PageLayout>
+
+<style>
+  .page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 3rem;
+  }
+  .page-h1 {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 800;
+    line-height: 1.25;
+    color: #111827;
+    margin: 0 0 1rem;
+  }
+  .intro {
+    color: #6b7280;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  .back-link-wrap {
+    margin-top: 3rem;
+  }
+  .back-link {
+    font-size: 0.875rem;
+    color: #6b7280;
+    text-decoration: none;
+  }
+  .back-link:hover {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+</style>

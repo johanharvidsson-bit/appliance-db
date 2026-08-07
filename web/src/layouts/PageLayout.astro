@@ -1,0 +1,40 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import Header from '~/components/widgets/Header.astro';
+import Footer from '~/components/widgets/Footer.astro';
+import Announcement from '~/components/widgets/Announcement.astro';
+
+import { headerData, footerData } from '~/navigation';
+
+import type { MetaData } from '~/types';
+
+export interface Props {
+  metadata?: MetaData;
+  currentLocale?: string;
+  alternateUrls?: { locale: string; url: string }[];
+}
+
+const { metadata, currentLocale = 'en', alternateUrls = [] } = Astro.props;
+const resolvedHeaderData = headerData(currentLocale);
+const resolvedFooterData = footerData(currentLocale);
+
+// Merge alternateUrls into metadata so Layout.astro can render hreflang tags
+const mergedMetadata = alternateUrls.length > 0
+  ? { ...metadata, alternateUrls }
+  : metadata;
+---
+
+<Layout metadata={mergedMetadata}>
+  <slot name="announcement">
+    <Announcement />
+  </slot>
+  <slot name="header">
+    <Header {...resolvedHeaderData} isSticky currentLocale={currentLocale} alternateUrls={alternateUrls} />
+  </slot>
+  <main>
+    <slot />
+  </main>
+  <slot name="footer">
+    <Footer {...resolvedFooterData} />
+  </slot>
+</Layout>

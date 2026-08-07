@@ -1,0 +1,143 @@
+---
+/** On-demand (SSR) — see src/pages/[category]/[brand]/[slug]/index.astro for why. */
+export const prerender = false
+
+import PageLayout from '~/layouts/PageLayout.astro'
+import { siteConfig } from 'site-config'
+import { supabase } from '~/lib/supabase'
+import { logged, paginateAll } from '~/lib/queries'
+
+import HeroWidget from '~/components/HeroWidget.astro'
+import ApplianceTypeGrid from '~/components/ApplianceTypeGrid.astro'
+import BrandsSection from '~/components/BrandsSection.astro'
+import TrendingAndGuides from '~/components/TrendingAndGuides.astro'
+
+// This page re-runs a full models-table paginated scan (~35 round trips) on every
+// request now that it's on-demand rather than built once at deploy time — edge
+// caching matters a lot more here than on most pages.
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
+
+// ── 1. Categories with EN names ───────────────────────────────────────────────
+const { data: catTranslations } = await logged(
+  supabase.from('category_translations').select('category_id, name, slug').eq('locale', 'en'),
+  'index:categories'
+)
+
+const categories: { slug: string; name: string; id: number }[] = (catTranslations ?? []).map((ct: any) => ({
+  id: ct.category_id,
+  slug: ct.slug,
+  name: ct.name,
+}))
+
+// Build id → slug map for later use
+const catIdToSlug = new Map<number, string>(categories.map(c => [c.id, c.slug]))
+
+// ── 2. Brands per category (from models table) ───────────────────────────────
+// Gating on models rather than error_codes: error codes have so far only been
+// scraped for washing-machines, which left every other appliance type showing
+// no brands in the finder even though thousands of model pages exist and
+// render fine. Same fix as getBrandsByCategory (queries.ts).
+//
+// Paginated: PostgREST's default caps an unpaginated
+// select at 1000 rows, which silently truncated this to whichever brands
+// happened to occupy the table's first 1000 physical rows.
+const modelsRaw = await paginateAll(
+  (from, to) => supabase.from('models').select('brand_id, category_id').range(from, to),
+  'index:models'
+)
+
+// Get unique brand_ids
+const allBrandIds = [...new Set((modelsRaw ?? []).map((m: any) => m.brand_id))].filter(Boolean)
+
+const { data: brandsRaw } = allBrandIds.length > 0
+  ? await logged(supabase.from('brands').select('id, name, slug').in('id', allBrandIds).eq('is_active', true), 'index:brands')
+  : { data: [] }
+
+const brandIdToInfo = new Map<number, { name: string; slug: string }>()
+for (const b of brandsRaw ?? []) brandIdToInfo.set(b.id, { name: b.name, slug: b.slug })
+
+// Build applianceBrandMap: { [categorySlug]: { name, slug }[] }
+const applianceBrandMapRaw: Record<string, { name: string; slug: string }[]> = {}
+for (const m of modelsRaw ?? []) {
+  const catSlug = catIdToSlug.get(m.category_id)
+  const brand = brandIdToInfo.get(m.brand_id)
+  if (!catSlug || !brand) continue
+  if (!applianceBrandMapRaw[catSlug]) applianceBrandMapRaw[catSlug] = []
+  // Deduplicate brands within each category
+  if (!applianceBrandMapRaw[catSlug].find(b => b.slug === brand.slug)) {
+    applianceBrandMapRaw[catSlug].push(brand)
+  }
+}
+const applianceBrandMap = applianceBrandMapRaw
+
+// Flat brands list for BrandsSection
+const brands: { name: string; slug: string; categorySlug: string }[] = []
+for (const [catSlug, catBrands] of Object.entries(applianceBrandMap)) {
+  for (const b of catBrands) {
+    if (!brands.find(x => x.slug === b.slug && x.categorySlug === catSlug)) {
+      brands.push({ name: b.name, slug: b.slug, categorySlug: catSlug })
+    }
+  }
+}
+
+// ── 3. Trending guides: top 6 article_translations ordered by last_updated DESC ──
+const { data: trendingRaw } = await logged(
+  supabase
+    .from('article_translations')
+    .select(`
+      slug, h1, last_updated,
+      articles (
+        id, article_type,
+        error_codes (
+          code,
+          brands ( name, slug ),
+          categories ( slug_en )
+        )
+      )
+    `)
+    .eq('locale', 'en')
+    .eq('translation_status', 'published')
+    .order('last_updated', { ascending: false })
+    .limit(30),
+  'index:trending'
+)
+
+// Filter to error_code type in JS
+const trendingFiltered = (trendingRaw ?? []).filter((at: any) => at.articles?.article_type === 'error_code')
+
+const trendingGuides = trendingFiltered.slice(0, 6).map((at: any) => {
+  const ec = at.articles?.error_codes
+  return {
+    slug: at.slug as string,
+    h1: at.h1 as string,
+    code: ec?.code as string ?? '',
+    brandName: ec?.brands?.name as string ?? '',
+    brandSlug: ec?.brands?.slug as string ?? '',
+    categorySlug: ec?.categories?.slug_en as string ?? '',
+  }
+}).filter((g: any) => g.slug && g.brandSlug && g.categorySlug)
+
+---
+
+<PageLayout
+  metadata={{
+    title: `${siteConfig.name} – Fix Appliance Error Codes Fast`,
+    description: siteConfig.meta.description,
+    ignoreTitleTemplate: true,
+  }}
+>
+  <!-- Embedded JSON for client-side use -->
+  <script type="application/json" id="appliance-brand-map" set:html={JSON.stringify(applianceBrandMap)} />
+
+  <!-- 1. Hero -->
+  <HeroWidget categories={categories} />
+
+  <!-- 2. Appliance type grid -->
+  <ApplianceTypeGrid categories={categories} />
+
+  <!-- 3. Brands section -->
+  <BrandsSection brands={brands} />
+
+  <!-- 4. Trending guides -->
+  <TrendingAndGuides trending={trendingGuides} popular={[]} />
+</PageLayout>

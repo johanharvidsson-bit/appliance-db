@@ -1,0 +1,144 @@
+---
+/** On-demand (SSR) — see EN counterpart's file-header comment for why. */
+export const prerender = false
+
+import PageLayout from '~/layouts/PageLayout.astro'
+import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
+import { supabase } from '~/lib/supabase'
+import { paginateAll, getBrandBySlug, getCategoryByLocaleSlug } from '~/lib/queries'
+import { siteConfig } from 'site-config'
+import { t } from '~/lib/ui'
+
+const locale = 'sv'
+
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
+
+const { category, brand } = Astro.params as { category: string; brand: string }
+const [{ data: brandRow }, { data: categoryData }] = await Promise.all([
+  getBrandBySlug(brand),
+  getCategoryByLocaleSlug(locale, category),
+])
+if (!brandRow) return new Response(null, { status: 404 })
+
+const brandLabel = brandRow.name || brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const categoryLabel = categoryData?.name || category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const siteUrl = `https://${siteConfig.domain}`
+
+const models = await paginateAll(
+  (from, to) =>
+    supabase.from('models').select('id, name, slug, series, release_year').eq('brand_id', brandRow?.id ?? 0).order('name').range(from, to),
+  `sv/[category]/[brand]/models:models(${brand})`
+)
+
+const seriesMap = new Map<string, typeof models>()
+const noSeries: typeof models = []
+for (const m of models ?? []) {
+  if (m.series) {
+    if (!seriesMap.has(m.series)) seriesMap.set(m.series, [])
+    seriesMap.get(m.series)!.push(m)
+  } else {
+    noSeries.push(m)
+  }
+}
+const hasSeries = seriesMap.size > 0
+
+const breadcrumbs = [
+  { name: t(locale, 'nav.home'), url: `${siteUrl}/sv/` },
+  { name: categoryLabel, url: `${siteUrl}/sv/${category}/` },
+  { name: brandLabel, url: `${siteUrl}/sv/${category}/${brand}/` },
+  { name: t(locale, 'models.h1', { brand: brandLabel, category: categoryLabel }), url: `${siteUrl}/sv/${category}/${brand}/models/` },
+]
+---
+
+<PageLayout
+  currentLocale={locale}
+  metadata={{
+    title: `${t(locale, 'models.meta.title', { brand: brandLabel, category: categoryLabel })} | ${siteConfig.name}`,
+    description: t(locale, 'models.meta.desc', { brand: brandLabel, category: categoryLabel.toLowerCase() }),
+    canonical: `${siteUrl}/sv/${category}/${brand}/models/`,
+  }}
+>
+  <div class="page-container">
+    <BreadcrumbNav items={breadcrumbs} locale={locale} />
+
+    <h1 class="page-h1">{t(locale, 'models.h1', { brand: brandLabel, category: categoryLabel })}</h1>
+    <p class="intro">{t(locale, 'models.intro')}</p>
+
+    {(models?.length ?? 0) === 0 ? (
+      <p class="no-data">{t(locale, 'models.noModels')}</p>
+    ) : hasSeries ? (
+      <>
+        {[...seriesMap.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([series, seriesModels]) => (
+          <div class="series-group">
+            <div class="series-label">{series}</div>
+            <div class="model-grid">
+              {seriesModels!.map((m: any) => (
+                <a href={`/sv/${category}/${brand}/${m.slug}/`} class="model-chip">
+                  {m.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+        {noSeries.length > 0 && (
+          <div class="series-group">
+            <div class="model-grid">
+              {noSeries.map((m: any) => (
+                <a href={`/sv/${category}/${brand}/${m.slug}/`} class="model-chip">
+                  {m.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </>
+    ) : (
+      <div class="model-grid">
+        {models!.map((m: any) => (
+          <a href={`/sv/${category}/${brand}/${m.slug}/`} class="model-chip">
+            {m.name}
+          </a>
+        ))}
+      </div>
+    )}
+
+    <div class="back-link-row">
+      <a href={`/sv/${category}/${brand}/`} class="back-link">
+        {t(locale, 'models.backLink', { brand: brandLabel, category: categoryLabel })}
+      </a>
+    </div>
+  </div>
+</PageLayout>
+
+<style>
+  .page-container { max-width: 48rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  .page-h1 { font-size: 1.875rem; font-weight: 800; color: #111827; margin: 0.5rem 0 0.5rem; line-height: 1.2; }
+  .intro { color: #6b7280; margin: 0 0 2rem; }
+  .no-data { color: #6b7280; font-style: italic; }
+  .series-group { margin-bottom: 1.75rem; }
+  .series-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #9ca3af;
+    margin-bottom: 0.625rem;
+  }
+  .model-grid { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .model-chip {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-family: monospace;
+    color: #374151;
+    text-decoration: none;
+    background: #f9fafb;
+    transition: border-color 0.1s, background 0.1s, color 0.1s;
+  }
+  .model-chip:hover { border-color: #2563eb; background: #eff6ff; color: #1d4ed8; }
+  .back-link-row { margin-top: 2.5rem; border-top: 1px solid #e5e7eb; padding-top: 1.25rem; }
+  .back-link { font-size: 0.875rem; color: #6b7280; text-decoration: none; }
+  .back-link:hover { color: #2563eb; text-decoration: underline; }
+</style>

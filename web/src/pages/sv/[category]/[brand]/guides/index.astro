@@ -1,0 +1,144 @@
+---
+/** On-demand (SSR) — see EN counterpart's file-header comment for why. */
+export const prerender = false
+
+import PageLayout from '~/layouts/PageLayout.astro'
+import BreadcrumbNav from '~/components/BreadcrumbNav.astro'
+import { getGuidesByBrandCategoryLocale, getCategoryByLocaleSlug, getBrandBySlug } from '~/lib/queries'
+import { siteConfig } from 'site-config'
+
+const locale = 'sv'
+
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400')
+
+const { category, brand } = Astro.params as { category: string; brand: string }
+const siteUrl = `https://${siteConfig.domain}`
+
+const [{ data: guides }, { data: categoryData }, { data: brandData }] = await Promise.all([
+  getGuidesByBrandCategoryLocale(locale, brand, category),
+  getCategoryByLocaleSlug(locale, category),
+  getBrandBySlug(brand),
+])
+
+const categoryLabel = categoryData?.name ?? category.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+const brandLabel = brandData?.name ?? brand.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+
+const pageUrl = `${siteUrl}/${locale}/${category}/${brand}/guides/`
+
+const breadcrumbs = [
+  { name: 'Hem', url: `${siteUrl}/${locale}/` },
+  { name: categoryLabel, url: `${siteUrl}/${locale}/${category}/` },
+  { name: brandLabel, url: `${siteUrl}/${locale}/${category}/${brand}/` },
+  { name: 'Reparationsguider', url: pageUrl },
+]
+---
+
+<PageLayout
+  currentLocale={locale}
+  metadata={{
+    title: `Reparationsguider för ${brandLabel} ${categoryLabel} | ${siteConfig.name}`,
+    description: `Steg-för-steg-guider för att felsöka och laga din ${brandLabel} ${categoryLabel.toLowerCase()}.`,
+    canonical: pageUrl,
+  }}
+>
+  <div class="page-container">
+    <BreadcrumbNav items={breadcrumbs} locale={locale} />
+
+    <h1 class="page-h1">Reparationsguider för {brandLabel} {categoryLabel}</h1>
+    <p class="intro">
+      Steg-för-steg-guider för att felsöka och laga din {brandLabel} {categoryLabel.toLowerCase()}.
+    </p>
+
+    {guides && guides.length > 0 ? (
+      <div class="guide-list">
+        {guides.map((row: any) => {
+          const gt = row.guide_translations?.[0]
+          return (
+            <article class="guide-card">
+              <h2 class="guide-name">
+                <a href={`/${locale}/${category}/${brand}/guides/${gt.slug}/`}>{gt.title}</a>
+              </h2>
+              {gt.short_description && <p class="guide-desc">{gt.short_description}</p>}
+            </article>
+          )
+        })}
+      </div>
+    ) : (
+      <p class="no-data">Inga reparationsguider listade ännu. Kom tillbaka snart.</p>
+    )}
+
+    <div class="back-link-wrap">
+      <a href={`/${locale}/${category}/${brand}/`} class="back-link">← Tillbaka till {brandLabel} {categoryLabel} felkoder</a>
+    </div>
+  </div>
+</PageLayout>
+
+<style>
+  .page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 3rem;
+  }
+  .page-h1 {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 800;
+    color: #111827;
+    margin: 0 0 0.75rem;
+  }
+  .intro {
+    color: #6b7280;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  .guide-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .guide-card {
+    border: 1.5px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 1.125rem 1.375rem;
+    background: #f8fafc;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .guide-card:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  }
+  .guide-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+  }
+  .guide-name a {
+    color: #111827;
+    text-decoration: none;
+  }
+  .guide-name a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+  .guide-desc {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.6;
+  }
+  .no-data {
+    color: #6b7280;
+    font-style: italic;
+  }
+  .back-link-wrap {
+    margin-top: 3rem;
+  }
+  .back-link {
+    font-size: 0.875rem;
+    color: #6b7280;
+    text-decoration: none;
+  }
+  .back-link:hover {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+</style>
